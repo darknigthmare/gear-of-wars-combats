@@ -1,0 +1,127 @@
+{
+  "id": "sofia",
+  "version": 3,
+  "verdict": "À valider",
+  "recommended_version": 3,
+  "recommended_asset": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/sofia_reference_v3.png",
+  "replaces_asset": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/sofia_reference_v2.png",
+  "is_1to1_certified": false,
+  "generated_asset": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/sofia_reference_v3.png",
+  "generated_asset_sha256": "89e683efac2ddbac0e0132d661065ecc2dc8f967a3101d9d2e2df3000b5b935b",
+  "reference_images": [
+    {
+      "local_path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_refs/sofia_reference.jpg",
+      "sha256": "03344c1235f62a8e7cee13fef7a08f66704210cb9d710e2a1054a3a559075764",
+      "source_type": "Wallpaper promotionnel composite publié par une source secondaire ; pas un fichier de modèle officiel brut.",
+      "page_url": "https://geektyrant.com/news/2013/3/18/gears-of-war-judgement-kilo-squad-wallpapers.html",
+      "image_url": "https://images.squarespace-cdn.com/content/51b3dc8ee4b051b96ceb10de/1372482096081-5T8L9239ZZUHRFYS67UX/gears_judgement_SHendrick_WP.jpg?content-type=image%2Fjpeg&format=1000w",
+      "limits": "Palette fortement désaturée/teintée ; cheveux éclaircis par le traitement. La forme des panneaux et le corps entier sont visibles, les petits détails du visage et l’attache arrière des cheveux ne le sont pas précisément."
+    }
+  ],
+  "comparison_with_v2_qa": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/data/generation_v2/qa_sofia.json",
+  "method": "Comparaison visuelle directe du rendu v3 et de la référence locale déjà réunie avec view_image, à leur résolution native. Les écarts v2 avaient été observés dans la QA précédente. Mesures du canal alpha et empreintes par Pillow. Aucun pixel image modifié ; aucune recherche réseau ; aucune modification du prototype.",
+  "alpha_and_format": {
+    "mode": "RGBA",
+    "size_px": [
+      1024,
+      1536
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_pixel_percent": 71.96,
+    "fully_opaque_255_pixels": 0,
+    "alpha_corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "nonzero_alpha_bbox": [
+      21,
+      0,
+      1004,
+      1520
+    ],
+    "substantial_alpha_bbox_threshold_16": [
+      240,
+      6,
+      751,
+      1508
+    ],
+    "note": "Vrai canal alpha présent. Les pixels très peu opaques débordent la silhouette principale ; le fond sombre de l’aperçu ne signifie pas que le fond est opaque. Aucun contrôle de composition en jeu ou de halo sur fonds contrastés."
+  },
+  "framing": {
+    "substantial_alpha_bbox_threshold_16": [
+      240,
+      6,
+      751,
+      1508
+    ],
+    "approx_padding_px": {
+      "left": 240,
+      "top": 6,
+      "right": 273,
+      "bottom": 28
+    },
+    "status": "personnage_entier_marge_haute_serree",
+    "orientation": "trois-quarts vers la droite",
+    "pose": "debout au repos, mains vides",
+    "head_visible": true,
+    "both_feet_visible": true,
+    "both_hands_visible": true,
+    "text_ui_or_extra_subject": false,
+    "observed": "Tête, cheveux, mains et deux pieds entiers ; environ 6 px en haut et 28 px en bas."
+  },
+  "prototype_modified": false,
+  "bible_modified": false,
+  "workbook_modified": false,
+  "verdict_reason": "Retenir v3 comme meilleur candidat à la revue artistique : les grands éléments du costume Onyx de Judgment sont rétablis. « À valider » ne certifie ni le visage exact ni les textures et détails invisibles de la source.",
+  "identity": {
+    "status": "identifiants_coherents_visage_non_certifie",
+    "matches": [
+      "Femme adulte athlétique, cheveux auburn/roux attachés, frange oblique et mèches latérales.",
+      "Silhouette élancée, armure sombre ajustée, visage et pose neutre cohérents avec la direction demandée."
+    ],
+    "unresolved": [
+      "Visage généré conservé depuis v2 ; proportions faciales exactes non certifiables avec le petit visage du wallpaper.",
+      "Longueur et construction de la coiffure arrière non vérifiables sur cette seule vue."
+    ]
+  },
+  "costume": {
+    "status": "principaux_elements_onyx_retablis",
+    "matches": [
+      "Panneaux pectoraux sculptés avec motifs internes, épaulières arrondies superposées, col haut et ligne centrale verticale.",
+      "Tenue ajustée continue sur le torse et les jambes ; abandon du pantalon cargo large et des plaques abdominales génériques.",
+      "Boucle circulaire, poches latérales et porte-accessoires à quatre éléments circulaires sur la hanche correspondante.",
+      "Avant-bras, genouillères et jambières articulés suivant le vocabulaire de formes de la référence."
+    ],
+    "visible_residual_differences": [
+      "Petites courbes, épaisseurs et rivets des panneaux restent dessinés/interprétés, pas copiés pixel à pixel.",
+      "La brillance métallique est plus forte que dans le wallpaper, dont le traitement empêche toutefois une comparaison colorimétrique fiable.",
+      "Volumes précis des bottes et semelles, matériaux du vêtement et arrangement exact des coutures non certifiés."
+    ]
+  },
+  "improvements_over_v2": [
+    "Disques pectoraux lisses remplacés par des panneaux sculptés proches du modèle.",
+    "Plaques horizontales abdominales supprimées au profit de la taille continue et de la couture centrale.",
+    "Pantalon cargo et grosse poche de cuisse générique remplacés par une tenue ajustée cohérente.",
+    "Accessoire latéral à quatre éléments circulaires rétabli, ainsi que des jambières et des avant-bras plus proches de la référence."
+  ],
+  "defects": [
+    {
+      "severity": "mineure",
+      "item": "Marge supérieure très faible",
+      "impact": "Environ 6 px au-dessus des cheveux dans 1536 px ; aucune coupe observée, mais ajouter de la marge lors d’une préparation de sprite. Marge basse améliorée à environ 28 px."
+    }
+  ],
+  "reservations_1to1": [
+    "La référence locale est un wallpaper promotionnel composite et traité, diffusé par une source secondaire ; aucune validation colorimétrique ou des microtextures.",
+    "Le visage, la coiffure arrière et les petits marquages ne sont pas certifiés 1:1.",
+    "La description canon des cheveux roux a été vérifiée pendant la recherche ; ne pas reprendre l’aspect gris du wallpaper comme couleur d’origine.",
+    "Une seule pose neutre : aucun pivot, cycle d’animation, changement de côté ou test en combat validé.",
+    "Aucun test de composition sur décor ; le canal alpha est présent mais cette QA ne constitue pas un contrôle sans halo."
+  ],
+  "recommendation": "Sélectionner sofia_reference_v3.png et écarter v2 de la sélection courante. Le costume est assez rapproché pour une validation artistique ; conserver les réserves de source, de visage et de marge haute."
+}

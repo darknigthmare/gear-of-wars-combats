@@ -1,0 +1,19 @@
+{
+  "id": "sid",
+  "name": "Sid Redburn",
+  "prompt": "Sid Redburn exactly as his default Gears Tactics character: an older heavily built adult man with a very short white buzz cut, a thick downward white horseshoe moustache, a stern lined face and a black eyepatch over his anatomical LEFT eye, with the original forehead scar. Worn olive-green and silver COG armor, very large rounded shoulder plates, two circular chest panels with metallic rims and curved pipes beneath them, a small central chest fitting, dark olive undersuit and armored forearms. Brown leather gloves, a broad mechanical belt buckle, small cylindrical containers at the waist, brown and olive padded trousers with thick thigh protection, worn metal shin plates and oversized brown military boots. Preserve his original stocky proportions and asymmetry, with no helmet and no added full beard. Create exactly one adult fictional character, full body from the top of the head to the soles of both boots, in a calm neutral standing pose with empty relaxed hands and arms separated slightly from the torso. Three-quarter view facing screen right, close enough to a lateral view to read clearly as a 2D fighting-game character. Preserve anatomical left/right asymmetries when changing the view; do not simply mirror them. Realistic painted 2D character illustration with UHD-quality material detail, natural anatomy and a crisp clean silhouette. A fully transparent RGBA background, no scenery, floor, base, cast shadow outside the body, vignette, lettering, captions, logos, UI, borders, extra figures or alternate views. No held or slung weapons. Leave clear transparent padding around every extremity; no cropping.",
+  "source_game": "Gears Tactics",
+  "source_urls": [
+    "https://www.gearsofwar.com/en-nz/news/dev-blog-characters/",
+    "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/04/b070c2d094613f6ac28e09b19f87bc24cf487790-69cb0c5d1797f.jpg"
+  ],
+  "output_hint": "Generated images are saved to /workspace/scratch/230d6e8ab6bb/generated_images as /workspace/scratch/230d6e8ab6bb/generated_images/exec-d4e41dac-0e98-4a44-b8cb-ba1c4b801ece.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "error": null,
+  "has_image": true,
+  "status": "generated",
+  "path": "assets/characters_v2/sid_reference_v2.png",
+  "width": 1024,
+  "height": 1536,
+  "alpha": true,
+  "sha256": "8c9ba03f8864947dbf529778d52506bf1dcc3a8c67a87a0f0b76a2ec4d624beb"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "boss_king_raven",
+  "name": "King Raven de simulation",
+  "source_game": "Gears of War (2006)",
+  "prompt": "Use case: stylized-concept. Asset type: a faithful isolated model-reference illustration for the Gears of War Combats 2D game bible. Create ONE complete subject in ONE quiet neutral pose, facing toward the right in a readable three-quarter side view. Realistic digitally painted 2D rendering with finely resolved materials, coherent restrained studio lighting and crisp silhouette. Preserve the exact named game version rather than redesigning it. Place the entire subject, including every extremity and permanently attached component, inside the canvas with at least 6% clear padding on all sides. Genuinely transparent RGBA background. No scenery, floor, pedestal, external cast shadow, smoke, action effects, people, additional creatures, labels, captions, logo, UI, decorative border, collage or multiple views. No battle, firing, impact, explosion, blood or injury. Canonical permanently attached equipment remains present but inactive. Use reference images only for identity, anatomy, mechanical layout and material colors; do not copy their action, surroundings, camera crop, text, watermark, presentation sheet or extra subjects.\n\nSubject specification: The original King Raven helicopter from the 2006 Gears of War, in its classic Locust-War configuration. Match the original Epic Games production model shown in the gray sculpt reference credited to Pete Hayes: the short thick fuselage, bulbous armored nose and cockpit, rounded side engine fairings, paired upper engine housings, stacked main-rotor mechanism, large open side transport doorway, wheel landing gear and the distinctive short rear fuselage with its original tail fins. Preserve the original broad stocky proportions; do not substitute the longer King Raven Mark 2 from Gears 5 or a real-world military helicopter. Render realistic muted gray military metal and weathered painted panels, with restrained surface wear. The cabin and cockpit are empty; no pilot, crew, passenger or external figure. Park the aircraft in a level maintenance-display pose with landing wheels extended and rotor blades stopped and clearly resolved. All permanently mounted equipment is present but idle. Show only one aircraft from one angle, not the two views in the reference. Do not invent tail numbers or readable labels.\n\nFraming: Wide landscape composition with enough width to include the entire stopped rotor span, the full tail and every wheel, all with clear padding.",
+  "source_urls": [
+    "https://news.xbox.com/en-us/2007/01/10/gears-of-war-multiplayer-map-pack-1/",
+    "https://www.crealitycloud.com/model-detail/662dab097cfe69c64d2344c0",
+    "https://jdgmntday.artstation.com/projects/rRYgba"
+  ],
+  "has_image": true,
+  "path": "assets/bosses_v4/boss_king_raven_reference_v4.png",
+  "error": null,
+  "output_hint": "Generated images are saved to /workspace/scratch/1e1136701ce4/generated_images as /workspace/scratch/1e1136701ce4/generated_images/exec-1b8f9a6a-a879-4b90-9412-a8d038330afa.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "original_path": "/workspace/scratch/1e1136701ce4/generated_images/exec-1b8f9a6a-a879-4b90-9412-a8d038330afa.png",
+  "width": 1774,
+  "height": 887,
+  "mode": "RGBA",
+  "alpha_min": 0,
+  "alpha_max": 255,
+  "alpha_bbox_visible": [
+    71,
+    120,
+    1716,
+    811
+  ],
+  "sha256": "b890c97ce973fb54aaa07497e912a886a014b29dc1a55226fd4b28122c47627e",
+  "qa_notes": [
+    "Un seul véhicule entier, rotor principal, roues, cabine ouverte et queue présents.",
+    "Appareil orienté vers la gauche malgré la droite demandée ; orientation retenue pour adversaire du prototype.",
+    "La source est une planche de sculpture grise republiée ; livrée, petits panneaux et couleurs de campagne non certifiés.",
+    "Rotor et roues font partie de l’image unique ; aucune animation articulée du rotor."
+  ],
+  "fidelity_approved": false,
+  "ready_for_animation": false,
+  "visual_inspected": true
+}

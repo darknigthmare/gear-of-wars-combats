@@ -1,0 +1,22 @@
+{
+  "id": "jd",
+  "name": "JD Fenix",
+  "prompt": "James Dominic “JD” Fenix from Gears 5 after the campaign time jump, the Scarred JD appearance used during the Vasgar part of the campaign. Adult powerful-built man with JD’s recognisable face, very short close-shaved brown hair and a full neatly shaped brown beard. Match the later JD visible behind Del in the official Gears 5 accessibility screenshot and at the right of the official squad key art. Reproduce his substantial dark steel and blue-grey COG chest armor, circular front panels, luminous blue shoulder details, high protective collar, waist equipment, reinforced trousers, knee armor and heavy boots. Preserve the canonical right-arm asymmetry: his anatomical RIGHT arm carries the mature healed scar appearance and its game-specific support/protection details; this is a non-graphic healed character feature, never an open wound. Keep both hands intact. Do not use his clean-shaven Gears 4 outfit or his unscarred short-haired Gears 5 opening appearance. Keep the exact post-time-jump silhouette without inventing an amputated or fully robotic arm. Create exactly one adult character, alone, full body from the top of the head to both complete boot soles, centered with clear transparent margin around the silhouette. Neutral relaxed standing pose, three-quarter turn toward screen right, clearly readable as a side-view 2D fighting-game character; both arms resting slightly away from the torso, hands visibly empty and relaxed, legs comfortably separated, neutral closed-mouth expression. Respect the character’s original anatomy and game proportions. Realistic hand-painted 2D production illustration with UHD-level material detail, crisp clean contour and controlled soft lighting; no cartoon, no cel shading, no photograph, no plastic miniature. The background must be truly transparent with an alpha channel. No background color, scenery, floor, pedestal, ground plane, cast shadow outside the silhouette, text, caption, UI, watermark, duplicates, inset portrait, alternate view, held weapon, slung weapon, violence, blood, fresh wounds or exposed tissue. This is a single reusable neutral character cutout, not a poster or action scene.",
+  "source_game": "Gears 5",
+  "source_urls": [
+    "https://www.gearsofwar.com/en-us/games/gears-5/",
+    "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/Accessibility_desktopBG-69d931f5a4c02-1024x570.jpg",
+    "https://www.gearsofwar.com/fr-fr/news/gears-5-on-pc/",
+    "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2019/08/squad_desktop-69cafec91903e.jpg",
+    "https://andykoo.artstation.com/projects/9eg9av"
+  ],
+  "output_hint": "Generated images are saved to /workspace/scratch/230d6e8ab6bb/generated_images as /workspace/scratch/230d6e8ab6bb/generated_images/exec-51c55ab8-4da2-467c-8be8-ef68e10db238.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "error": null,
+  "has_image": true,
+  "status": "generated",
+  "path": "assets/characters_v2/jd_reference_v2.png",
+  "width": 1024,
+  "height": 1536,
+  "alpha": true,
+  "sha256": "acfe1fb81543e98962767f46299f3362225429db810dee13fcab60c8b3a28fae"
+}

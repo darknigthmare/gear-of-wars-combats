@@ -1,0 +1,113 @@
+{
+  "id": "jack",
+  "version": 3,
+  "verdict": "À valider",
+  "recommended_version": 3,
+  "recommended_asset": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/jack_reference_v3.png",
+  "replaces_asset": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/jack_reference_v2.png",
+  "is_1to1_certified": false,
+  "generated_asset": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/jack_reference_v3.png",
+  "generated_asset_sha256": "4ea029dd975eb71ea2cc54c2dbc944f6d2804ddd03063fe4fea117c79727a38f",
+  "reference_images": [
+    {
+      "local_path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_refs/jack_screenshot.jpg",
+      "sha256": "0e955951bcbedaf2fa924950dadf9724f222f146bd5f7e06dbd1f6324a168700",
+      "source_type": "Capture du jeu Gears 5 publiée par Windows Central ; pixels du jeu, diffusion secondaire.",
+      "page_url": "https://www.windowscentral.com/gears-5-guide-list-jack-upgrades-and-where-find-them",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/3sAPCx57aUZDTXWGY4gN7U-1920-80.jpg",
+      "limits": "JACK visible entre Kait et Del dans un décor enneigé. Configuration de modules/améliorations non certifiée comme base non améliorée ; une seule vue, flanc opposé partiellement masqué."
+    }
+  ],
+  "comparison_with_v2_qa": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/data/generation_v2/qa_jack.json",
+  "method": "Comparaison visuelle directe du rendu v3 et de la référence locale déjà réunie avec view_image, à leur résolution native. Les écarts v2 avaient été observés dans la QA précédente. Mesures du canal alpha et empreintes par Pillow. Aucun pixel image modifié ; aucune recherche réseau ; aucune modification du prototype.",
+  "alpha_and_format": {
+    "mode": "RGBA",
+    "size_px": [
+      1536,
+      1024
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_pixel_percent": 69.51,
+    "fully_opaque_255_pixels": 0,
+    "alpha_corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "nonzero_alpha_bbox": [
+      39,
+      19,
+      1482,
+      1024
+    ],
+    "substantial_alpha_bbox_threshold_16": [
+      254,
+      52,
+      1290,
+      953
+    ],
+    "note": "Vrai canal alpha présent. Les pixels très peu opaques débordent la silhouette principale ; le fond sombre de l’aperçu ne signifie pas que le fond est opaque. Aucun contrôle de composition en jeu ou de halo sur fonds contrastés."
+  },
+  "framing": {
+    "substantial_alpha_bbox_threshold_16": [
+      254,
+      52,
+      1290,
+      953
+    ],
+    "approx_padding_px": {
+      "left": 254,
+      "top": 52,
+      "right": 246,
+      "bottom": 71
+    },
+    "status": "chassis_et_outils_entiers_marges_suffisantes",
+    "whole_chassis_visible": true,
+    "both_tools_visible": true,
+    "text_ui_or_extra_subject": false,
+    "observed": "Environ 52 px en haut et 71 px en bas ; le châssis, les deux bras et les deux extrémités sont entièrement cadrés."
+  },
+  "prototype_modified": false,
+  "bible_modified": false,
+  "workbook_modified": false,
+  "verdict_reason": "Retenir v3 comme meilleur candidat à la revue artistique : la structure principale visible du JACK de Gears 5 est rétablie. « À valider » désigne une sélection proposée, pas une conformité canonique 1:1 certifiée.",
+  "identity": {
+    "status": "jack_reconnaissable_structure_principale_retablie",
+    "matches": [
+      "Châssis flottant horizontal bleu et jaune, dôme/couvercle circulaire supérieur, évent arrière supérieur et ensemble de petits capteurs sur le côté.",
+      "Quatre unités à contour triangulaire lumineux en disposition deux par deux sur le panneau visible.",
+      "Deux longs bras utilitaires articulés, un outil de préhension et un outil cylindrique à ouverture bleue.",
+      "Pas de jambes, roues ou rotors ; un seul robot entier."
+    ]
+  },
+  "improvements_over_v2": [
+    "Poignée de transport générique supprimée et capot circulaire caractéristique rétabli.",
+    "Les quatre grands ports ronds v2 sont remplacés par les unités triangulaires attendues.",
+    "Perceuse pointue générique supprimée au profit de l’outil cylindrique visible dans la référence.",
+    "Implantation verticale des bras, articulation des flancs, capteurs supérieurs et répartition des panneaux plus proches de la capture."
+  ],
+  "visible_residual_differences": [
+    "Les quatre triangles du généré sont très réguliers et uniformément orientés ; la capture montre des contours plus arrondis et des orientations apparentes différentes.",
+    "Détails des panneaux latéraux, raccords, capteurs, doigts de la pince et nervures d’articulation restent une réinterprétation haute résolution des formes visibles dans la capture.",
+    "Proportions exactes et profondeur du capot ne peuvent être comparées parfaitement entre ces perspectives proches mais non identiques."
+  ],
+  "defects": [
+    {
+      "severity": "mineure_pour_reference_concept",
+      "item": "Microgéométrie des unités et des outils réinterprétée",
+      "impact": "Ne pas présenter le rendu comme une extraction exacte du modèle ou comme un orthographique de fabrication."
+    }
+  ],
+  "reservations_1to1": [
+    "Une seule capture du jeu publiée par une source secondaire, sans orthographiques ni modèle 3D comparés.",
+    "La configuration exacte d’améliorations de la capture n’est pas établie comme modèle de base non amélioré.",
+    "La fonction des quatre unités triangulaires n’est pas présumée ; ce rapport ne les décrit pas comme quatre yeux.",
+    "Aucune validation de surfaces cachées, d’échelle relative aux humains, de pivots ou de cycle de vol.",
+    "Aucun test de halo sur décor ; un rendu neutre ne constitue pas un sprite animé final."
+  ],
+  "recommendation": "Sélectionner jack_reference_v3.png et écarter v2 de la sélection courante. Faire valider les petites formes et la configuration des modules sur une vue officielle plus précise avant une certification canon stricte."
+}

@@ -1,0 +1,147 @@
+{
+  "id": "baird",
+  "version": "v3",
+  "asset_path": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/baird_reference_v3.png",
+  "sha256": "77db750641b2cae9423f7a2f216aaf2e23a0a89d112fc7176424a09c138d2c28",
+  "inspection": "Image V3 et key art officiel Gears 3 déjà réuni ouverts à taille native via view_image ; inspection RGBA sans modification. Aucune extension de recherche.",
+  "overall_status": "correction_ciblee_verifiee_fidelite_globale_non_validee",
+  "fidelity_recommendation": "À valider",
+  "certified_1_to_1": false,
+  "targeted_correction": {
+    "status": "pass",
+    "area": "manches et hauts des bras",
+    "before": "La V2 ajoutait des manches courtes brunes roulées sous l’armure.",
+    "after": "La V3 supprime ces manches : épaules et hauts des deux bras sont nus sous les bretelles, conformément à la silhouette de Baird à droite du key art officiel.",
+    "reference_scope": "Le key art permet cette comparaison de silhouette ; il ne constitue pas une vue de détail complète du costume."
+  },
+  "subject_recognizable": {
+    "status": "pass_invariants_only",
+    "observation": "Cheveux blonds courts, lunettes bleues sur le front, silhouette masculine adulte et armure CGU préservés. Aucun changement de personnage visible à la suite de la correction."
+  },
+  "full_silhouette": {
+    "status": "pass_with_margin_warning",
+    "observation": "Tête, mains et semelles entièrement cadrées ; marges verticales très courtes.",
+    "substantial_alpha_bbox": [
+      155,
+      9,
+      838,
+      1530
+    ],
+    "margin_px_alpha_ge_128": {
+      "left": 155,
+      "top": 9,
+      "right": 186,
+      "bottom": 6
+    }
+  },
+  "one_pose": {
+    "status": "pass",
+    "observation": "Un seul personnage en pose neutre, aucun encart ni doublon."
+  },
+  "angle": {
+    "status": "pass",
+    "observation": "Trois-quarts vers la droite ; pas une vue orthographique de profil."
+  },
+  "empty_hands": {
+    "status": "pass",
+    "observation": "Mains vides au repos, aucun objet ni arme."
+  },
+  "alpha": {
+    "mode": "RGBA",
+    "size_px": [
+      1024,
+      1536
+    ],
+    "min": 0,
+    "max": 254,
+    "alpha_zero_pixels": 962118,
+    "alpha_zero_fraction": 0.611698,
+    "pixels_alpha_1_to_15": 26790,
+    "substantial_alpha_bbox": [
+      155,
+      9,
+      838,
+      1530
+    ],
+    "all_nonzero_alpha_bbox": [
+      43,
+      0,
+      942,
+      1536
+    ],
+    "corner_and_mid_edge_samples_rgba": {
+      "(0, 0)": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "(1023, 0)": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "(0, 1535)": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "(1023, 1535)": [
+        1,
+        2,
+        0,
+        0
+      ],
+      "(512, 0)": [
+        149,
+        117,
+        88,
+        1
+      ],
+      "(512, 1535)": [
+        61,
+        53,
+        48,
+        0
+      ]
+    },
+    "interpretation": "Le fond RGB affiché ne prouve pas un fond opaque. L’image possède des pixels totalement transparents ; alpha maximum 254 comme les autres sorties du générateur. Les faibles résidus alpha sont consignés sans retouche."
+  },
+  "visible_defects": [
+    {
+      "severity": "minor",
+      "area": "cadrage",
+      "observation": "Le corps est entier, mais le dégagement vertical autour de la tête et des semelles reste très faible."
+    },
+    {
+      "severity": "review",
+      "area": "style",
+      "observation": "Matériaux très réalistes proches d’un rendu 3D ; la direction peinte 2D reste à valider."
+    }
+  ],
+  "fidelity_uncertified": [
+    "Ressemblance exacte du visage, âge, lunettes et implantation des cheveux.",
+    "Microgéométrie des disques pectoraux, col, voyants et plaques de taille.",
+    "Emblèmes du plastron et de la boucle, poches, genouillères, bottes et dos.",
+    "Aucune animation produite ; une seule pose de référence."
+  ],
+  "references_inspected": [
+    {
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_refs/gears3_keyart_full.jpg",
+      "url": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/gears-of-war-3-69d7d9132411b.jpg",
+      "sha256": "e9bbfd83ea58865146bb18c2e29c98cd1184b176abe2501f9e32f4e53ae1f9cb",
+      "source_type": "official_CDN",
+      "inspected": true
+    }
+  ],
+  "source_urls": [
+    "https://www.gearsofwar.com/en-us/games/gears-of-war-3/",
+    "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/gears-of-war-3-69d7d9132411b.jpg"
+  ],
+  "source_limits": "Baird est relativement petit à droite de l’illustration de groupe. La correction des bras nus est vérifiable ; les détails fins du reste de sa tenue ne le sont pas. Cette QA ne certifie pas une fidélité 1:1.",
+  "image_modified": false,
+  "generation_or_retry_performed": false,
+  "animation_status": "Non produite : pose unique de référence"
+}

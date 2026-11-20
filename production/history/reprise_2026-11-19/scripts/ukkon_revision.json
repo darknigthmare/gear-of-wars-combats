@@ -1,0 +1,15 @@
+{
+  "key": "ukkon_tactics_rails_v02",
+  "initial_key": "ukkon_tactics",
+  "character_id": "ukkon",
+  "name": "Ukkon",
+  "variant": "tactics",
+  "status": "generated",
+  "source_path": "/workspace/scratch/8b5a16f9fa4a/generated_images/exec-3267ec27-38e1-4e77-9c28-e9e078f41d3e.png",
+  "revision": 2,
+  "prompt": "Use case: precise-object-edit. Edit ONLY the two long straight narrow dark metallic rails hanging vertically from Ukkon's shoulder structures in this image. Extend both rails downward so their lower ends reach approximately the ankle/robe-hem height, matching Ukkon's canonical Gears Tactics silhouette. They should hang straight along the outside edges of the body, with the same original width, surface detail and tips; do not add a third rail. Preserve the face, high crown, curled pauldrons, hoses, orange lights, robe, pose, hands, boots, materials and all other character details exactly. Retain the single complete character head-to-boots with empty transparent margin, and actual transparent alpha background. No surrounding haze, scenery, text or additional character. Do not redesign the costume. The sole design correction is the length of the paired hanging shoulder rails.",
+  "reference_paths": [
+    "/workspace/scratch/8b5a16f9fa4a/generated_images/exec-33384a1e-8832-4a06-998c-98c7c11d6245.png"
+  ],
+  "failure": null
+}

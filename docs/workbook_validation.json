@@ -1,0 +1,19 @@
+{
+  "roster": 36,
+  "costumes": 75,
+  "moves": 179,
+  "combos": 24,
+  "routes": 36,
+  "bosses": 24,
+  "phases": 72,
+  "stages": 24,
+  "layers": 144,
+  "chapters": 12,
+  "productionTasks": 240,
+  "animationRows": 30,
+  "drawingsPerFighter": 1104,
+  "imagesPresent": 6,
+  "animationRecalculation": true,
+  "assetPrerequisiteRecalculation": true,
+  "requiredAlphaRecalculation": true
+}

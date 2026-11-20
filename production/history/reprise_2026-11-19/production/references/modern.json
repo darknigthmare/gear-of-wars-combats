@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-11-19",
+  "notes": [
+    "Références de travail, pas des images générées.",
+    "Les chemins /tmp ne sont pas des livrables et les sources tierces ne sont pas copiées dans le dépôt.",
+    "La fidélité 1:1 reste à valider pour chaque image produite."
+  ],
+  "references": [
+    {
+      "character_id": "lahni_kaliso",
+      "label": "Lahni Kaliso",
+      "variant": "Gears 5 — tenue Hivebuster / Escape standard",
+      "source_page": "https://www.gearsofwar.com/en-us/news/hivebusters-graphic-novel-available-now/",
+      "source_image": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/08/Hivebuster_Bios_Lahni_1080x1080-5f443f1966f5b-69cb11337f94d.png",
+      "local_reference": "/tmp/gears-refs-modern/lahni_official.png",
+      "evidence_type": "official_publisher_bio_render_visually_inspected",
+      "verified_traits": [
+        "Peau brune, dreadlocks brunes attachées en chignon haut.",
+        "Tatouage facial autour de l’œil et sur le front ; tatouages sur les épaules.",
+        "Gilet olive Scorpio avec modules circulaires métalliques et lumières bleues aux épaules.",
+        "Bras nus musclés, avant-bras enveloppés de bandes, gilet court laissant le ventre partiellement visible.",
+        "Ceinture à poches, pan de tissu bleu effiloché, pantalon cargo olive, genouillères métalliques."
+      ],
+      "uncertainties": [
+        "Le bas des bottes est masqué par le bandeau éditorial : le détail des pieds reste à vérifier.",
+        "Ne pas mélanger avec la tenue Brash Brigade du début du DLC, ni la variante Desert."
+      ]
+    },
+    {
+      "character_id": "jeremiah_keegan",
+      "label": "Jeremiah Keegan",
+      "variant": "Gears 5 — tenue Hivebuster / Escape standard",
+      "source_page": "https://www.gearsofwar.com/en-us/news/hivebusters-graphic-novel-available-now/",
+      "source_image": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/08/Hivebuster_Bios_Keegan_1080x1080-5f443f3be75cb-69cb1130b4e56.jpg",
+      "local_reference": "/tmp/gears-refs-modern/keegan_official.jpg",
+      "evidence_type": "official_publisher_bio_render_visually_inspected",
+      "verified_traits": [
+        "Homme noir âgé, crâne chauve, grosse moustache reliée à de larges favoris ; menton dégagé.",
+        "Gilet olive Scorpio à disques pectoraux et éclairages bleus, épaulières métalliques.",
+        "Manches longues de treillis beige/olive, mitaines sombres, ceinture utilitaire.",
+        "Renforts textiles matelassés au bassin et aux cuisses, genouillères blindées."
+      ],
+      "uncertainties": [
+        "Le bas des jambes/pieds est partiellement caché par le bandeau : détails à vérifier.",
+        "Ne pas substituer l’armure Onyx Guard du début du DLC ou la variante Desert."
+      ]
+    },
+    {
+      "character_id": "mac_macallister",
+      "label": "Leslie « Mac » Macallister",
+      "variant": "Gears 5 — tenue Hivebuster / Escape standard",
+      "source_page": "https://www.gearsofwar.com/en-us/news/hivebusters-graphic-novel-available-now/",
+      "source_image": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/08/Hivebuster_Bios_Mac_1080x1080-5f443eeb11aeb-69cb1136edf03.jpg",
+      "local_reference": "/tmp/gears-refs-modern/mac_official.jpg",
+      "evidence_type": "official_publisher_bio_render_visually_inspected",
+      "verified_traits": [
+        "Peau claire, cheveux roux courts dressés vers l’avant/haut, côtés très courts, visage rasé.",
+        "Gilet olive Scorpio à disques pectoraux et lumières bleues, sans grandes épaulières.",
+        "Haut gris à manches retroussées, sangle de cuir autour du bras, mains nues.",
+        "Pantalon cargo olive, grosses poches à la ceinture, sangles de cuisse et plaques de cuir brun sur une cuisse."
+      ],
+      "uncertainties": [
+        "Le bas des jambes est hors cadre ; bottes à documenter.",
+        "Ne pas substituer la tenue Mechanic Mac ou COG Gear Mac."
+      ],
+      "canonical_name": "Leslie « Mac » MacAllister"
+    },
+    {
+      "character_id": "fahz_chutani",
+      "label": "Fahz Chutani",
+      "variant": "Gears 5 — armure COG bleue standard",
+      "source_page": "https://www.uhdpaper.com/2019/08/gears-5-fahz-chutani-4k-567.html",
+      "source_image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgi_q09-XsGwF6cjdQhlkaZ1CuI97S9BYlJkPJFmKDS_ANEhQKpnZ5TZ3p2f8OoeuH0PiufIy5n9W8NlEau2uHwF7462bjfx_VezC9o_ClnDFFRSanTp_yyJ_Ix1dBKH8mP1zksjsYyDIg/w919/gears-5-fahz-chutani-uhdpaper.com-4K-5.67-wp.thumbnail.jpg",
+      "local_reference": "/tmp/gears-refs-modern/fahz_wallpaper.jpg",
+      "evidence_type": "game_screenshot_secondary_mirror_visually_inspected",
+      "verified_traits": [
+        "Fahz est la silhouette humaine au premier plan à gauche : cheveux noirs très courts, peau brune, courte barbe sombre.",
+        "Lunettes enveloppantes teintées orangé/sombre, armure COG bleue, bras nus et gants.",
+        "Prothèse mécanique de la jambe inférieure droite ; visible à l’arrière de sa silhouette, côté gauche de l’image.",
+        "Pantalon sombre et protection de la jambe naturelle."
+      ],
+      "uncertainties": [
+        "Capture 919 × 514 avec plusieurs personnages, effets et arme occultant le haut du corps : ne pas prendre le monstre central comme sujet.",
+        "Les textures de face/plastron sont insuffisantes pour certifier une conformité intégrale 1:1.",
+        "La source téléchargée est un miroir, non un serveur officiel. La provenance exacte de cette capture promotionnelle n’est pas établie."
+      ],
+      "supporting_sources": [
+        "https://mediumrare.artstation.com/projects/qAn1WR",
+        "https://news.xbox.com/en-us/2019/06/11/e3-2019-rahul-kohli-of-izombie-joins-cast-of-gears-5/",
+        "https://gearsofwar.fandom.com/es/wiki/Fahz_Chutani"
+      ]
+    },
+    {
+      "character_id": "deebee_shepherd",
+      "label": "DeeBee Shepherd",
+      "variant": "Gears of War 4 — Shepherd standard",
+      "source_page": "https://www.youtube.com/watch?v=XsyasbdhgNA",
+      "source_image": "https://i.ytimg.com/vi/XsyasbdhgNA/maxresdefault.jpg",
+      "local_reference": "/tmp/gears-refs-modern/shepherd_gow4_video.jpg",
+      "evidence_type": "game_character_card_secondary_video_thumbnail_visually_inspected",
+      "verified_traits": [
+        "Tête robotique allongée avec grille verticale et quatre motifs lumineux en goutte autour du visage.",
+        "Plastron métallique avec grand module rond asymétrique et marquage DB1.",
+        "Deux barrettes lumineuses verticales au haut du torse, bras articulés et grosses plaques d’avant-bras.",
+        "Silhouette humanoïde plus légère que celle du DR-1."
+      ],
+      "uncertainties": [
+        "La miniature 1280 × 720 montre principalement la tête et le torse, avec textes et une seconde vignette à enlever.",
+        "L’image du multijoueur présente une coloration rouge des bras/lumières ; la couleur de faction/éclairage n’est pas un verrou du matériau de base.",
+        "Le nom DB2 n’a pas été corroboré ; conserver « Shepherd standard » comme désignation.",
+        "Les détails 1:1 des jambes nécessitent une référence plus résolue que le complément ci-dessous."
+      ],
+      "supporting_sources": [
+        "https://primagames.com/eguides/gears-of-war-4-eguide/enemy-forces/deebees",
+        "https://gearsofwar.fandom.com/wiki/Shepherd"
+      ]
+    },
+    {
+      "character_id": "deebee_shepherd",
+      "label": "DeeBee Shepherd — silhouette complémentaire",
+      "variant": "Gears of War 4 — Shepherd standard",
+      "source_page": "https://www.narrativegamereviews.co.uk/gears-of-war-4/analysis-2",
+      "source_image": "https://images.squarespace-cdn.com/content/v1/63b76bd1e55b617b44419b30/1684162390177-8YYSO044JNNSURQ9O6AD/Shepherd.jpg",
+      "local_reference": "/tmp/gears-refs-modern/shepherd_review.jpg",
+      "evidence_type": "fullbody_render_secondary_mirror_low_resolution_visually_inspected",
+      "verified_traits": [
+        "Vue en pied du robot tenant une arme compacte, jambes mécaniques segmentées et pieds blindés.",
+        "Endosquelette visible aux articulations, armure acier sombre/argent avec portions bleu sombre."
+      ],
+      "uncertainties": [
+        "183 × 275 pixels seulement : utilisable pour la silhouette, impropre à valider les microdétails.",
+        "La page de revue ne documente pas la provenance initiale du rendu."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "id": "lizzie",
+  "name": "Lizzie Carmine",
+  "source_game": "Gears 5",
+  "costume": "Armored Lizzie, armure bleue régulière de campagne",
+  "asset_path": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/lizzie_reference_v2.png",
+  "sha256": "e8a46625126247982ea03ecb9fa4c2cc45cac4f21384c444e98c9ac19b3dddf3",
+  "inspection": "PNG généré et références ouverts à taille native via view_image ; métadonnées RGBA analysées avec Pillow, sans modifier ni réenregistrer l’image.",
+  "overall_status": "reference_reconnaissable_corrections_identitaires_requises",
+  "fidelity_recommendation": "À corriger",
+  "certified_1_to_1": false,
+  "subject_recognizable": {
+    "status": "pass_invariants_only",
+    "observation": "Silhouette de Lizzie identifiable : adulte casquée, armure bleue, bras supérieurs nus, tenue de travail brune et vêtement olive noué à la taille. Aucun visage ni cheveu n’est inventé sous le casque."
+  },
+  "full_silhouette": {
+    "status": "pass_with_margin_warning",
+    "observation": "Tête, deux mains et deux pieds entièrement dans le cadre. Le dégagement vertical reste très faible.",
+    "substantial_alpha_bbox": [
+      178,
+      9,
+      784,
+      1527
+    ],
+    "margin_px_alpha_ge_128": {
+      "left": 178,
+      "top": 9,
+      "right": 240,
+      "bottom": 9
+    }
+  },
+  "one_pose": {
+    "status": "pass",
+    "observation": "Un seul personnage et une seule pose, sans encart ni doublon."
+  },
+  "angle": {
+    "status": "pass",
+    "observation": "Trois-quarts orienté vers la droite ; vue de référence en perspective, pas profil orthographique."
+  },
+  "empty_hands": {
+    "status": "pass",
+    "observation": "Deux mains vides au repos, aucune arme ni objet tenu."
+  },
+  "neutral_presentation": {
+    "status": "pass",
+    "observation": "Pose au repos, sans scène offensive, mutilation, sang ou blessure ouverte."
+  },
+  "alpha": {
+    "mode": "RGBA",
+    "size_px": [
+      1024,
+      1536
+    ],
+    "min": 0,
+    "max": 254,
+    "alpha_zero_pixels": 1043373,
+    "alpha_zero_fraction": 0.663359,
+    "pixels_alpha_1_to_15": 30507,
+    "substantial_alpha_bbox": [
+      178,
+      9,
+      784,
+      1527
+    ],
+    "all_nonzero_alpha_bbox": [
+      0,
+      0,
+      1010,
+      1536
+    ],
+    "corner_and_mid_edge_samples_rgba": {
+      "(0, 0)": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "(1023, 0)": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "(0, 1535)": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "(1023, 1535)": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "(512, 0)": [
+        81,
+        78,
+        77,
+        1
+      ],
+      "(512, 1535)": [
+        34,
+        30,
+        27,
+        0
+      ]
+    },
+    "interpretation": "Les coins sont transparents. Le fond RGB montré par l’outil ne prouve pas un fond opaque. Le maximum alpha 254 est le comportement observé de ce générateur et n’est pas classé comme défaut. Les faibles résidus d’alpha sont consignés ; leur présence ne vaut pas validation d’un détourage de production."
+  },
+  "major_identity_discrepancies": [
+    "La géométrie du casque est réinventée : les optiques rectangulaires anguleuses de la référence sont remplacées par des lunettes ovales épaisses et des filtres ronds très proéminents. Le casque est un élément majeur de reconnaissance de Lizzie."
+  ],
+  "reference_comparison": [
+    {
+      "area": "casque et optiques",
+      "status": "correction_required",
+      "observation": "La référence de promotion montre des optiques presque rectangulaires encadrées par des arêtes anguleuses, des accents jaunes sous les yeux et un masque frontal plus effilé. Le généré utilise de grosses optiques ovales, de larges filtres ronds et des accents jaunes déplacés vers le côté du casque."
+    },
+    {
+      "area": "col",
+      "status": "correction_required",
+      "observation": "La référence laisse une partie du cou visible au-dessus d’un col d’armure rigide bleu à détails métalliques. La génération ajoute un épais tour de cou brun à texture tricotée qui masque ce col et le cou."
+    },
+    {
+      "area": "plastron",
+      "status": "correction_required",
+      "observation": "Les deux disques sont présents, mais leur géométrie est générique. La référence montre un disque cuivré et, de l’autre côté, un panneau avec ouverture sombre verticale ; la génération remplace les deux par des disques fermés bordés de petites dents. Le rôle de l’éclairage dans les teintes n’est pas assimilé à une erreur de couleur certaine."
+    },
+    {
+      "area": "silhouette de travail",
+      "status": "pass_invariants",
+      "observation": "Bras découverts, protections d’avant-bras, pantalon brun et vêtement olive noué à la taille sont présents. Aucun Silverback, véhicule ni arme ne s’ajoute au personnage."
+    }
+  ],
+  "visible_defects": [
+    {
+      "severity": "major",
+      "area": "casque",
+      "observation": "Les optiques, les filtres et le masque sont réinterprétés ; le casque n’est pas fidèle à la référence promotionnelle inspectée."
+    },
+    {
+      "severity": "moderate",
+      "area": "col",
+      "observation": "Tour de cou brun tricoté ajouté ; le col rigide bleu et le cou apparent de la référence ne sont pas reproduits."
+    },
+    {
+      "severity": "moderate",
+      "area": "plastron",
+      "observation": "Les structures internes des disques pectoraux sont remplacées par deux motifs de disque génériques fermés."
+    },
+    {
+      "severity": "minor",
+      "area": "cadrage",
+      "observation": "Neuf pixels de marge en haut et en bas au seuil alpha 128 : silhouette entière mais trop peu de dégagement."
+    },
+    {
+      "severity": "review",
+      "area": "style",
+      "observation": "Rendu très réaliste proche d’un rendu 3D ; l’aspect peint 2D reste à juger avec la direction artistique."
+    }
+  ],
+  "fidelity_uncertified": [
+    "Les bottes et une partie des jambes sont hors cadre dans la référence de promotion ; leurs détails ne sont pas validés.",
+    "Les petits accessoires et coutures du dos ne sont pas visibles.",
+    "Le matériau exact des plaques et leurs couleurs sont affectés par l’éclairage de la capture.",
+    "La pose générée ne valide aucune animation."
+  ],
+  "references_inspected": [
+    {
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_refs/lizzie_press_reference.jpg",
+      "url": "https://multiplayer.net-cdn.it/thumbs/images/2019/12/22/gears-5-lizzie-carmine_jpg_0x0_q85.jpg",
+      "sha256": "96e02c89760d92162eb9f76ca66e5ba661da25e5085e0b49209f8aa9d6989f25",
+      "source_type": "press_republication_of_promotional_render",
+      "inspected": true
+    }
+  ],
+  "source_urls": [
+    "https://multiplayer.net-cdn.it/thumbs/images/2019/12/22/gears-5-lizzie-carmine_jpg_0x0_q85.jpg",
+    "https://news.xbox.com/en-us/2019/12/11/gears-5-operation-2-free-for-all-available-today-for-all-players/",
+    "https://multiplayer.it/articoli/gears-5-operazione-2.html",
+    "https://bananachu.artstation.com/projects/QzZvxr?album_id=397336"
+  ],
+  "source_limits": "La comparaison visuelle porte sur une republication du visuel promotionnel de Lizzie par Multiplayer.it. L’annonce Xbox Operation 2 et le portfolio de la conceptrice servent à documenter l’origine du personnage, mais le fichier Xbox original n’était pas accessible lors de la recherche. La référence est suffisante pour les différences de casque et de col observées ; elle ne permet pas une certification complète du corps.",
+  "image_modified": false,
+  "generation_or_retry_performed": false,
+  "animation_status": "Non produite : pose unique de référence"
+}

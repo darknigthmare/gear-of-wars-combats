@@ -1,0 +1,19 @@
+{
+  "id": "kantus",
+  "name": "Kantus",
+  "prompt": "The standard Kantus priest from Gears of War 2 in his original unarmored-priest costume. A very tall lean adult Locust with elongated limbs, a long narrow neck, pale grey textured nonhuman skin, an elongated ridged head and the unmistakable Kantus facial and jaw structure. Preserve the original sparse priestly leather and cloth equipment, dark hanging lower vestments, characteristic collar and body ornaments, belts, limb coverings and feet of the standard Gears of War 2 model. Keep the unusually lean silhouette and naturally long relaxed hands, with the mouth closed or naturally at rest. No ritual gesture and no active effects. Do not turn him into Skorge, the Armored Kantus, a Tactics Zealot, a robed human cleric or a bulky ordinary Drone. Create exactly one full-body character as a neutral production model reference: standing at rest, weight balanced, shoulders relaxed, arms slightly separated from the torso, both empty hands visible and relaxed. Three-quarter view facing screen-right, turned enough toward profile for a readable side-view 2D silhouette. The complete head, feet, fingers and every costume extremity must fit inside the canvas with a generous transparent margin. Realistic hand-painted 2D UHD game art, anatomically and materially faithful to the named official game model, crisp readable contour, restrained even studio illumination. True transparent alpha background, including gaps between limbs. No text, captions, logos, interface, border, second character, alternate view, scenery, floor, pedestal, cast shadow, glow, particles, action, injury or violence. No handheld or attached weapons. Preserve the exact named episode costume rather than inventing a redesign or combining skins. This is a single calm unarmed reference pose.",
+  "source_game": "Gears of War 2",
+  "source_urls": [
+    "https://www.gearsofwar.com/en-us/games/gears-of-war-2/",
+    "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/"
+  ],
+  "output_hint": "Generated images are saved to /workspace/scratch/230d6e8ab6bb/generated_images as /workspace/scratch/230d6e8ab6bb/generated_images/exec-701511fa-9004-4ae4-b48e-a80efbfe6c0e.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "error": null,
+  "has_image": true,
+  "status": "generated",
+  "path": "assets/characters_v2/kantus_reference_v2.png",
+  "width": 1024,
+  "height": 1536,
+  "alpha": true,
+  "sha256": "d8b4e86f04716870b83db4fbb2b4e7a22f28589ccf9daa8e6f02a18e733b2247"
+}

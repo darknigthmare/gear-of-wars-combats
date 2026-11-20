@@ -1,0 +1,193 @@
+{
+  "id": "kantus",
+  "asset_path": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/kantus_reference_v2.png",
+  "sha256": "d8b4e86f04716870b83db4fbb2b4e7a22f28589ccf9daa8e6f02a18e733b2247",
+  "inspection": "Ouverture du PNG à taille native via view_image ; inspection RGBA par Pillow, sans modifier ni réenregistrer l’image.",
+  "overall_status": "non_conforme_a_l_identite_canonique_1_1",
+  "subject_recognizable": {
+    "status": "fail_for_exact_identity",
+    "observation": "La grande taille et le long cou évoquent un prêtre non humain, mais la tête à crête organique et la tenue produisent une créature fantasy générique plutôt qu’un Kantus standard Gears 2 convaincant."
+  },
+  "full_silhouette": {
+    "status": "pass",
+    "observation": "Tête, deux mains et deux pieds sont visibles et entièrement dans le cadre.",
+    "substantial_alpha_bbox": [
+      239,
+      16,
+      766,
+      1523
+    ],
+    "margin_px_alpha_ge_128": {
+      "left": 239,
+      "top": 16,
+      "right": 258,
+      "bottom": 13
+    }
+  },
+  "one_pose": {
+    "status": "pass",
+    "observation": "Un seul personnage, une seule pose, aucun encart ni doublon."
+  },
+  "angle": {
+    "status": "pass",
+    "observation": "Trois-quarts orienté vers la droite, visage et torse lisibles ; ce n’est pas une vue orthographique de profil."
+  },
+  "empty_hands": {
+    "status": "pass",
+    "observation": "Les deux mains sont visibles, relâchées et ne portent ni arme ni objet."
+  },
+  "neutral_presentation": {
+    "status": "pass",
+    "observation": "Station au repos, aucune action, blessure, scène de combat ou effet offensif."
+  },
+  "alpha": {
+    "mode": "RGBA",
+    "size_px": [
+      1024,
+      1536
+    ],
+    "min": 0,
+    "max": 254,
+    "alpha_zero_pixels": 1111634,
+    "alpha_zero_fraction": 0.706758,
+    "pixels_alpha_1_to_15": 33207,
+    "substantial_alpha_bbox": [
+      239,
+      16,
+      766,
+      1523
+    ],
+    "all_nonzero_alpha_bbox": [
+      0,
+      12,
+      1006,
+      1526
+    ],
+    "corner_and_mid_edge_samples_rgba": {
+      "(0, 0)": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "(1023, 0)": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "(0, 1535)": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "(1023, 1535)": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "(512, 0)": [
+        102,
+        93,
+        89,
+        0
+      ],
+      "(512, 1535)": [
+        73,
+        65,
+        64,
+        0
+      ]
+    },
+    "interpretation": "Le RGB de fond affiché par view_image n’est pas la preuve d’un fond opaque. Les échantillons de fond ont alpha 0. Le maximum 254 est le comportement annoncé de ce générateur et n’est pas classé comme défaut. De faibles résidus alpha sont consignés sans modifier le fichier."
+  },
+  "visible_defects": [
+    {
+      "severity": "major",
+      "area": "tete",
+      "observation": "La couronne/casque du Kantus standard n’est pas identifiable ; elle est remplacée par une grande crête crânienne organique rejetée vers l’arrière."
+    },
+    {
+      "severity": "major",
+      "area": "visage",
+      "observation": "Profil de reptile à menton pointu et mâchoire décorative ; identité faciale du Kantus à reconstruire depuis le modèle identifié."
+    },
+    {
+      "severity": "major",
+      "area": "tenue",
+      "observation": "Grande robe frontale pleine de motifs géométriques clairs, anneaux et bande centrale évoquant un costume inventé. La structure de bandes/capes du costume standard n’est pas correctement restituée."
+    },
+    {
+      "severity": "review",
+      "area": "pieds",
+      "observation": "Appui très plat et lourdes bandelettes de cheville ; posture et équipement des pieds à comparer à la référence."
+    }
+  ],
+  "fidelity_uncertified": [
+    "Détails fins et surface arrière du casque : références de face/trois-quarts seulement.",
+    "Modèle final des protections de bas de jambes, chevilles et pieds ; vue entière disponible en concept uniquement.",
+    "Comptage précis des doigts/orteils et proportions chiffrées du corps.",
+    "Les motifs en losanges de la sortie générée n’apparaissent pas sur les références du modèle inspectées."
+  ],
+  "source_urls": [
+    "https://gearsofwar.fandom.com/wiki/Category:Images_of_Kantus",
+    "https://www.flickr.com/photos/gamerscore/3022163159/",
+    "https://static.wikia.nocookie.net/gearsofwar/images/e/e3/Gears-of-war-2-20080625113926400_640w.jpg/revision/latest",
+    "https://static.wikia.nocookie.net/gearsofwar/images/a/a0/Gow-2-kantus.jpg/revision/latest",
+    "https://static.wikia.nocookie.net/gearsofwar/images/8/8b/Gears-of-war-2-20080625113906228_640w.jpg/revision/latest",
+    "https://live.staticflickr.com/3163/3022163159_332380e008.jpg"
+  ],
+  "source_limits": "Les images de modèle et de jeu sont des republications secondaires identifiées comme Gears 2. Le concept Gamerscore est contemporain, mais reste un dessin de production. Les corrections tête/col/anneaux/pans sont directement corroborées ; les jambes et pieds restent non certifiés. La page Gamereactor a été exclue : ses légendes ne correspondent plus aux fichiers servis.",
+  "image_modified": false,
+  "generation_or_retry_performed": false,
+  "comparison_update": "Comparaison visuelle directe réalisée avec un rendu de modèle Gears 2 de 2008, une capture du jeu et deux concepts identifiés ; aucune certification des pieds depuis un modèle entier.",
+  "local_reference_paths": [
+    {
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_reference/kantus_gears2_model_2008.webp",
+      "sha256": "55ebd743ff90dae0c681b51a0f7525eebd5973f83fd08d635709316044b39864",
+      "image_url": "https://static.wikia.nocookie.net/gearsofwar/images/e/e3/Gears-of-war-2-20080625113926400_640w.jpg/revision/latest",
+      "source_page": "https://gearsofwar.fandom.com/wiki/Category:Images_of_Kantus",
+      "type": "rendu_modele_Gears_2_republication_secondaire",
+      "verification_scope": "Modèle de 2008 portant le filigrane IGN ; tête, col, anneaux, pans séparés, abdomen et cuisses visibles ; bas des jambes et pieds hors cadre.",
+      "pixels_modified": false
+    },
+    {
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_reference/kantus_gears2_gameplay.webp",
+      "sha256": "205d387d932bc928a4393d9d4421da3c8886b104389ea4368b226241293b164e",
+      "image_url": "https://static.wikia.nocookie.net/gearsofwar/images/a/a0/Gow-2-kantus.jpg/revision/latest",
+      "source_page": "https://gearsofwar.fandom.com/wiki/Category:Images_of_Kantus",
+      "type": "capture_Gears_2_republication_secondaire",
+      "verification_scope": "Confirme casque, visage, grand col rigide et anneaux de poitrine ; vue du haut seulement. Arme tenue dans la référence à ne pas reproduire.",
+      "pixels_modified": false
+    },
+    {
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_reference/kantus_gears2_full_concept_2008.webp",
+      "sha256": "b89dded5666d6e9f762180f3ab77b6d14b3687587021fd4fc19372745af5f647",
+      "image_url": "https://static.wikia.nocookie.net/gearsofwar/images/8/8b/Gears-of-war-2-20080625113906228_640w.jpg/revision/latest",
+      "source_page": "https://gearsofwar.fandom.com/wiki/Category:Images_of_Kantus",
+      "type": "concept_2008_corps_entier_republication_secondaire",
+      "verification_scope": "Corps entier, protections de jambes et pieds visibles ; dessin préparatoire, pas une certification du modèle de jeu final.",
+      "pixels_modified": false
+    },
+    {
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_reference/kantus_gears2_gamerscore_2008.jpg",
+      "sha256": "367230ba801d463845c25b96f7fcf21aa34b2c1cdf71fc657e3fe5a0619c8a6f",
+      "image_url": "https://live.staticflickr.com/3163/3022163159_332380e008.jpg",
+      "source_page": "https://www.flickr.com/photos/gamerscore/3022163159/",
+      "type": "concept_promotionnel_2008",
+      "verification_scope": "Publication Gamerscore Blog du 11 novembre 2008, Gears of War 2 – Kantus Priest ; structure de casque, col, anneaux et deux longs pans. Coupe aux cuisses.",
+      "pixels_modified": false
+    }
+  ],
+  "targeted_corrections": [
+    "Remplacer la crête organique rejetée en arrière par le casque/couronne métallique très haut, étroit et vertical du modèle Gears 2 ; suivre son ouverture faciale.",
+    "Restituer l’épais col relevé qui encadre les côtés et l’arrière de la tête, avec une tenue sombre bleu-noir et des bordures métalliques cuivrées.",
+    "Restituer les deux grands anneaux symétriques sous la poitrine. Retirer l’unique anneau central fantaisiste.",
+    "Remplacer la robe frontale à losanges par deux longs pans étroits et séparés. Laisser l’abdomen visible entre eux conformément au rendu de 2008.",
+    "Conserver bras musclés nus, bandes de bras et avant-bras en suivant leur organisation visible, sans inventer de symboles géométriques.",
+    "Conserver pose neutre, orientation trois-quarts vers la droite, corps entier et mains vides. Ne pas reproduire les armes ou la pose d’action des références.",
+    "Maintenir une réserve sur jambes, chevilles, pieds et nombre d’orteils : la seule référence entière téléchargée est un concept, pas une capture du modèle final."
+  ]
+}

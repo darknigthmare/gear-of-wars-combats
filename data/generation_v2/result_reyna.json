@@ -1,0 +1,19 @@
+{
+  "id": "reyna",
+  "name": "Reine Reyna",
+  "prompt": "Queen Reyna in the default playable Swarm Queen appearance released with Gears 5 Operation 6. Preserve the recognizable mature adult Reyna facial structure and the exact transformed organic head silhouette, integrated shoulder and torso forms, textured organic body covering and original lower-body silhouette of the default Queen Reyna model. The natural tendril-like elements belong to her established design and rest quietly close to the body; they are not reaching or acting. Use the base skin colors and material contrasts from the official default model. Preserve her original bodily coverage and nonhuman anatomy without introducing injuries or additional exposed anatomy. Neutral composed expression, relaxed empty hands, completely static reference pose. Do not use human Reyna from Gears of War 4 or Tactics, Myrrah, Blood Red Queen Reyna, a generic alien queen, a new dress, new jewelry or an invented crown. Create exactly one full-body character as a neutral production model reference: standing at rest, weight balanced, shoulders relaxed, arms slightly separated from the torso, both empty hands visible and relaxed. Three-quarter view facing screen-right, turned enough toward profile for a readable side-view 2D silhouette. The complete head, feet, fingers and every costume extremity must fit inside the canvas with a generous transparent margin. Realistic hand-painted 2D UHD game art, anatomically and materially faithful to the named official game model, crisp readable contour, restrained even studio illumination. True transparent alpha background, including gaps between limbs. No text, captions, logos, interface, border, second character, alternate view, scenery, floor, pedestal, cast shadow, glow, particles, action, injury or violence. No handheld or attached weapons. Preserve the exact named episode costume rather than inventing a redesign or combining skins. This is a single calm unarmed reference pose.",
+  "source_game": "Gears 5 multijoueur",
+  "source_urls": [
+    "https://www.xbox.com/fr-fr/games/store/gears-5-operation-6-bundle/9nblc6fv6spg",
+    "https://store.steampowered.com/news/posts/?appids=1097840&enddate=1616457409&feed=steam_community_announcements"
+  ],
+  "output_hint": "Generated images are saved to /workspace/scratch/230d6e8ab6bb/generated_images as /workspace/scratch/230d6e8ab6bb/generated_images/exec-b23541ab-61f6-43e6-bd9a-3302d7d615e4.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "error": null,
+  "has_image": true,
+  "status": "generated",
+  "path": "assets/characters_v2/reyna_reference_v2.png",
+  "width": 1024,
+  "height": 1536,
+  "alpha": true,
+  "sha256": "6eb0c6d51e4ba022afb421c55714989e23f6071222ab45169a4bbddf8b44132a"
+}

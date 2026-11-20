@@ -1,0 +1,20 @@
+{
+  "id": "skorge",
+  "name": "Skorge",
+  "prompt": "Skorge, the Kantus leader, wearing the campaign palace costume from Gears of War 2. Preserve his unusually tall lean nonhuman anatomy, elongated head and neck, characteristic headpiece and the reddish-brown leather strips trailing naturally from it. Use the campaign torso protection and distinctive spiked forearm and thigh armor, original straps and lower garments, preserving the exposed grey skin areas of the official costume. His body has a wiry sinewy construction rather than a bulky Drone torso. Armor ornaments remain stationary and part of the costume. Neutral resting expression and natural balanced posture. Do not use the simplified Gears of War 2 multiplayer model, standard Kantus vestments, Armored Kantus plating, Black Steel variant or an invented hairstyle. Create exactly one full-body character as a neutral production model reference: standing at rest, weight balanced, shoulders relaxed, arms slightly separated from the torso, both empty hands visible and relaxed. Three-quarter view facing screen-right, turned enough toward profile for a readable side-view 2D silhouette. The complete head, feet, fingers and every costume extremity must fit inside the canvas with a generous transparent margin. Realistic hand-painted 2D UHD game art, anatomically and materially faithful to the named official game model, crisp readable contour, restrained even studio illumination. True transparent alpha background, including gaps between limbs. No text, captions, logos, interface, border, second character, alternate view, scenery, floor, pedestal, cast shadow, glow, particles, action, injury or violence. No handheld or attached weapons. Preserve the exact named episode costume rather than inventing a redesign or combining skins. This is a single calm unarmed reference pose.",
+  "source_game": "Gears of War 2",
+  "source_urls": [
+    "https://www.gearsofwar.com/en-us/games/gears-of-war-2/",
+    "https://news.xbox.com/en-us/2020/11/17/gears-5-operation-5/",
+    "https://gearsofwar.fandom.com/wiki/Skorge"
+  ],
+  "output_hint": "Generated images are saved to /workspace/scratch/230d6e8ab6bb/generated_images as /workspace/scratch/230d6e8ab6bb/generated_images/exec-240ba36e-2606-4d39-b5d0-3e1cc8081ca2.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "error": null,
+  "has_image": true,
+  "status": "generated",
+  "path": "assets/characters_v2/skorge_reference_v2.png",
+  "width": 1024,
+  "height": 1536,
+  "alpha": true,
+  "sha256": "34da8e10bde1b68ee4f68870394f63bca8743d8af855af22a615f7078e394fa5"
+}

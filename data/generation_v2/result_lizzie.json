@@ -1,0 +1,22 @@
+{
+  "id": "lizzie",
+  "name": "Lizzie Carmine",
+  "prompt": "Elizabeth “Lizzie” Carmine from Gears 5 in her regular blue armored campaign appearance, matching the official Operation 2 character promotional render. Adult athletic woman completely helmeted, with her distinctive dark blue-grey helmet, two luminous blue eye lenses, mechanical face mask with round breathing details, small yellow caution accents and the specific practical helmet fittings of Lizzie. Reproduce the blue COG chest armor with two circular panels, bare upper arms, protective wrist and forearm equipment, practical gloves, tan-brown reinforced work trousers, utility belt, thigh equipment and the olive-green work garment tied around her waist. Keep the compact collar/neck fabric as on the model; do not invent a large yellow fashion scarf. Preserve her engineer-driver silhouette, lighter than Clayton’s while still strong and practical. No visible invented face or hair beneath the closed helmet. No Chrome Steel, Hivebuster, ceremonial or fantasy recolor. Do not include a Silverback, vehicle, companion or workshop prop. Create exactly one adult character, alone, full body from the top of the head to both complete boot soles, centered with clear transparent margin around the silhouette. Neutral relaxed standing pose, three-quarter turn toward screen right, clearly readable as a side-view 2D fighting-game character; both arms resting slightly away from the torso, hands visibly empty and relaxed, legs comfortably separated, neutral closed-mouth expression. Respect the character’s original anatomy and game proportions. Realistic hand-painted 2D production illustration with UHD-level material detail, crisp clean contour and controlled soft lighting; no cartoon, no cel shading, no photograph, no plastic miniature. The background must be truly transparent with an alpha channel. No background color, scenery, floor, pedestal, ground plane, cast shadow outside the silhouette, text, caption, UI, watermark, duplicates, inset portrait, alternate view, held weapon, slung weapon, violence, blood, fresh wounds or exposed tissue. This is a single reusable neutral character cutout, not a poster or action scene.",
+  "source_game": "Gears 5",
+  "source_urls": [
+    "https://news.xbox.com/en-us/2019/12/11/gears-5-operation-2-free-for-all-available-today-for-all-players/",
+    "https://bananachu.artstation.com/projects/QzZvxr?album_id=397336",
+    "https://bananachu.artstation.com/resume",
+    "https://multiplayer.it/articoli/gears-5-operazione-2.html",
+    "https://multiplayer.net-cdn.it/thumbs/images/2019/12/22/gears-5-lizzie-carmine_jpg_0x0_q85.jpg"
+  ],
+  "output_hint": "Generated images are saved to /workspace/scratch/230d6e8ab6bb/generated_images as /workspace/scratch/230d6e8ab6bb/generated_images/exec-c5186220-2504-499e-b618-aa7a68cf05a8.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "error": null,
+  "has_image": true,
+  "status": "generated",
+  "path": "assets/characters_v2/lizzie_reference_v2.png",
+  "width": 1024,
+  "height": 1536,
+  "alpha": true,
+  "sha256": "e8a46625126247982ea03ecb9fa4c2cc45cac4f21384c444e98c9ac19b3dddf3"
+}

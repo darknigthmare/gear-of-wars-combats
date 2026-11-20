@@ -1,0 +1,585 @@
+{
+  "schema_version": "1.0",
+  "project": "Gears of War Combats",
+  "pass_date": "2026-11-19",
+  "counts": {
+    "selected_character_references": 14,
+    "selected_png_files": 14,
+    "blocked_characters": 6,
+    "historical_characters_not_recovered": 16,
+    "roster_entries": 36
+  },
+  "scope": "Références en pied candidates, un personnage par PNG. Aucune animation ou intégration moteur certifiée dans cette passe.",
+  "assets": [
+    {
+      "character_id": "anya_stroud",
+      "name": "Anya Stroud",
+      "variant": "gears3",
+      "variant_label": "Gears of War 3",
+      "purpose": "reference_fullbody",
+      "path": "assets/characters/anya_stroud/gears3/reference_fullbody_v01.png",
+      "revision": 1,
+      "generation_key": "anya_stroud_gow3_stance",
+      "sha256": "3971c9e39e6e4954361ac74944db42472ba78a6cfdda5d7b2a5fc747391205d3",
+      "size_bytes": 1611257,
+      "width": 887,
+      "height": 1774,
+      "mode": "RGBA",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "fully_transparent_fraction": 0.615642,
+        "near_opaque_fraction_alpha_ge_240": 0.356736,
+        "subject_bbox_alpha_ge_128": [
+          134,
+          15,
+          723,
+          1733
+        ],
+        "subject_margins_ltrb_px": [
+          134,
+          15,
+          164,
+          41
+        ]
+      },
+      "technical_status": "png_rgba_cutout_verified",
+      "canonical_fidelity_status": "candidate_requires_detailed_review",
+      "animation_status": "not_produced_in_this_pass",
+      "production_ready": false,
+      "qa_notes": [
+        "Source individuelle tronquée ; jambes et bottes à confronter à une référence complète.",
+        "Marge visible étroite : prévoir un canevas de production plus généreux."
+      ]
+    },
+    {
+      "character_id": "myrrah",
+      "name": "Queen Myrrah",
+      "variant": "gears3",
+      "variant_label": "Gears of War 3",
+      "purpose": "reference_fullbody",
+      "path": "assets/characters/myrrah/gears3/reference_fullbody_v01.png",
+      "revision": 1,
+      "generation_key": "queen_myrrah_gow3_stance",
+      "sha256": "8f24b38a127405822231481bb55fb33ec0cf111ebce552dad99680af89834a09",
+      "size_bytes": 1650403,
+      "width": 887,
+      "height": 1774,
+      "mode": "RGBA",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "fully_transparent_fraction": 0.615049,
+        "near_opaque_fraction_alpha_ge_240": 0.358349,
+        "subject_bbox_alpha_ge_128": [
+          153,
+          13,
+          727,
+          1749
+        ],
+        "subject_margins_ltrb_px": [
+          153,
+          13,
+          160,
+          25
+        ]
+      },
+      "technical_status": "png_rgba_cutout_verified",
+      "canonical_fidelity_status": "candidate_requires_detailed_review",
+      "animation_status": "not_produced_in_this_pass",
+      "production_ready": false,
+      "qa_notes": [
+        "Source individuelle tronquée ; protections inférieures à vérifier.",
+        "Marge visible étroite : prévoir un canevas de production plus généreux."
+      ]
+    },
+    {
+      "character_id": "theron_guard",
+      "name": "Theron Guard",
+      "variant": "gears3",
+      "variant_label": "Gears of War 3",
+      "purpose": "reference_fullbody",
+      "path": "assets/characters/theron_guard/gears3/reference_fullbody_v02.png",
+      "revision": 2,
+      "generation_key": "theron_guard_gears3_alpha_v02",
+      "sha256": "0d0919bbb2f8086b7045e7254d9dbb566769cc936d0f57e93e6dbe6c0c8bbf0a",
+      "size_bytes": 2644309,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.50863,
+        "near_opaque_fraction_alpha_ge_240": 0.468798,
+        "subject_bbox_alpha_ge_128": [
+          129,
+          25,
+          922,
+          1502
+        ],
+        "subject_margins_ltrb_px": [
+          129,
+          25,
+          102,
+          34
+        ]
+      },
+      "technical_status": "png_rgba_cutout_verified",
+      "canonical_fidelity_status": "candidate_requires_detailed_review",
+      "animation_status": "not_produced_in_this_pass",
+      "production_ready": false,
+      "qa_notes": [
+        "Variante Gears 3 sans casque ; ne pas la présenter comme une validation Gears 1."
+      ]
+    },
+    {
+      "character_id": "fahz_chutani",
+      "name": "Fahz Chutani",
+      "variant": "gears5",
+      "variant_label": "Gears 5",
+      "purpose": "reference_fullbody",
+      "path": "assets/characters/fahz_chutani/gears5/reference_fullbody_v01.png",
+      "revision": 1,
+      "generation_key": "fahz_chutani_gears5",
+      "sha256": "b3f4e9742172264e361c6096cef970388f563e685a80196453ac2caca5ff872c",
+      "size_bytes": 2086853,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.649556,
+        "near_opaque_fraction_alpha_ge_240": 0.326714,
+        "subject_bbox_alpha_ge_128": [
+          202,
+          30,
+          823,
+          1477
+        ],
+        "subject_margins_ltrb_px": [
+          202,
+          30,
+          201,
+          59
+        ]
+      },
+      "technical_status": "png_rgba_cutout_verified",
+      "canonical_fidelity_status": "candidate_requires_detailed_review",
+      "animation_status": "not_produced_in_this_pass",
+      "production_ready": false,
+      "qa_notes": [
+        "Prothèse de la jambe droite conservée ; visage et détails du plastron limités par la définition de la capture."
+      ]
+    },
+    {
+      "character_id": "clayton_carmine",
+      "name": "Clayton Carmine",
+      "variant": "gears3",
+      "variant_label": "Gears of War 3",
+      "purpose": "reference_fullbody",
+      "path": "assets/characters/clayton_carmine/gears3/reference_fullbody_v02.png",
+      "revision": 2,
+      "generation_key": "clayton_carmine_gears3_lettering_v02",
+      "sha256": "6c4ecae874cbbeba258863919d4be8338cc3f1c6f2f1ba4a01772db028887920",
+      "size_bytes": 1634145,
+      "width": 1017,
+      "height": 1547,
+      "mode": "RGBA",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "fully_transparent_fraction": 0.587473,
+        "near_opaque_fraction_alpha_ge_240": 0.392502,
+        "subject_bbox_alpha_ge_128": [
+          162,
+          7,
+          864,
+          1536
+        ],
+        "subject_margins_ltrb_px": [
+          162,
+          7,
+          153,
+          11
+        ]
+      },
+      "technical_status": "png_rgba_cutout_verified",
+      "canonical_fidelity_status": "candidate_requires_detailed_review",
+      "animation_status": "not_produced_in_this_pass",
+      "production_ready": false,
+      "qa_notes": [
+        "Version v02 : inscription GRUB KILLER corrigée ; bottes et genouillères à vérifier avec une source complète.",
+        "Marge visible étroite : prévoir un canevas de production plus généreux."
+      ]
+    },
+    {
+      "character_id": "victor_hoffman",
+      "name": "Victor Hoffman",
+      "variant": "classic",
+      "variant_label": "Armure classique",
+      "purpose": "reference_fullbody",
+      "path": "assets/characters/victor_hoffman/classic/reference_fullbody_v01.png",
+      "revision": 1,
+      "generation_key": "victor_hoffman_classic",
+      "sha256": "075fd938c15dfc67383f220f907916918bc454f7b42df03cc721e05f5470d158",
+      "size_bytes": 1805494,
+      "width": 880,
+      "height": 1788,
+      "mode": "RGBA",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "fully_transparent_fraction": 0.523065,
+        "near_opaque_fraction_alpha_ge_240": 0.452329,
+        "subject_bbox_alpha_ge_128": [
+          93,
+          98,
+          765,
+          1751
+        ],
+        "subject_margins_ltrb_px": [
+          93,
+          98,
+          115,
+          37
+        ]
+      },
+      "technical_status": "png_rgba_cutout_verified",
+      "canonical_fidelity_status": "candidate_requires_detailed_review",
+      "animation_status": "not_produced_in_this_pass",
+      "production_ready": false,
+      "qa_notes": [
+        "Apparence classique ; édition native du rendu non établie, ne pas certifier Gears 2."
+      ]
+    },
+    {
+      "character_id": "tai_kaliso",
+      "name": "Tai Kaliso",
+      "variant": "gears2",
+      "variant_label": "Gears of War 2",
+      "purpose": "reference_fullbody",
+      "path": "assets/characters/tai_kaliso/gears2/reference_fullbody_v01.png",
+      "revision": 1,
+      "generation_key": "tai_kaliso_gears2",
+      "sha256": "212473ac370562619bdbc5cc062865185cbc28eb4d951f0a06858597ff83ba6a",
+      "size_bytes": 2271521,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.548584,
+        "near_opaque_fraction_alpha_ge_240": 0.429614,
+        "subject_bbox_alpha_ge_128": [
+          138,
+          23,
+          887,
+          1522
+        ],
+        "subject_margins_ltrb_px": [
+          138,
+          23,
+          137,
+          14
+        ]
+      },
+      "technical_status": "png_rgba_cutout_verified",
+      "canonical_fidelity_status": "candidate_requires_detailed_review",
+      "animation_status": "not_produced_in_this_pass",
+      "production_ready": false,
+      "qa_notes": [
+        "Visage et crête fondés sur une capture Gears 2 ; complément de silhouette issu du concept art, détails inférieurs à vérifier.",
+        "Marge visible étroite : prévoir un canevas de production plus généreux."
+      ]
+    },
+    {
+      "character_id": "samantha_byrne",
+      "name": "Samantha Byrne",
+      "variant": "gears3",
+      "variant_label": "Gears of War 3",
+      "purpose": "reference_fullbody",
+      "path": "assets/characters/samantha_byrne/gears3/reference_fullbody_v01.png",
+      "revision": 1,
+      "generation_key": "samantha_byrne_gears3",
+      "sha256": "54e2cde4d30e44455048c72b669bd8c3a764b61b6ff9488e4dcac9796a3498dd",
+      "size_bytes": 1536478,
+      "width": 887,
+      "height": 1774,
+      "mode": "RGBA",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "fully_transparent_fraction": 0.60881,
+        "near_opaque_fraction_alpha_ge_240": 0.366782,
+        "subject_bbox_alpha_ge_128": [
+          148,
+          20,
+          742,
+          1750
+        ],
+        "subject_margins_ltrb_px": [
+          148,
+          20,
+          145,
+          24
+        ]
+      },
+      "technical_status": "png_rgba_cutout_verified",
+      "canonical_fidelity_status": "candidate_requires_detailed_review",
+      "animation_status": "not_produced_in_this_pass",
+      "production_ready": false,
+      "qa_notes": [
+        "Source tronquée ; jambières et bottes à vérifier.",
+        "Marge visible étroite : prévoir un canevas de production plus généreux."
+      ]
+    },
+    {
+      "character_id": "gabriel_diaz",
+      "name": "Gabriel Diaz",
+      "variant": "tactics",
+      "variant_label": "Gears Tactics",
+      "purpose": "reference_fullbody",
+      "path": "assets/characters/gabriel_diaz/tactics/reference_fullbody_v01.png",
+      "revision": 1,
+      "generation_key": "gabe_diaz_tactics",
+      "sha256": "4a8b42d31cee4372c6003ac1b90393d711a64c03e554e282701b9990ff5f8b31",
+      "size_bytes": 1738355,
+      "width": 943,
+      "height": 1668,
+      "mode": "RGBA",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "fully_transparent_fraction": 0.559484,
+        "near_opaque_fraction_alpha_ge_240": 0.418152,
+        "subject_bbox_alpha_ge_128": [
+          126,
+          49,
+          817,
+          1623
+        ],
+        "subject_margins_ltrb_px": [
+          126,
+          49,
+          126,
+          45
+        ]
+      },
+      "technical_status": "png_rgba_cutout_verified",
+      "canonical_fidelity_status": "candidate_requires_detailed_review",
+      "animation_status": "not_produced_in_this_pass",
+      "production_ready": false,
+      "qa_notes": [
+        "Référence officielle en pied disponible ; petits détails à revalider avant les animations."
+      ]
+    },
+    {
+      "character_id": "mikayla_dorn",
+      "name": "Mikayla Dorn",
+      "variant": "tactics",
+      "variant_label": "Gears Tactics",
+      "purpose": "reference_fullbody",
+      "path": "assets/characters/mikayla_dorn/tactics/reference_fullbody_v01.png",
+      "revision": 1,
+      "generation_key": "mikayla_dorn_tactics",
+      "sha256": "7ff15814543f710d68f3f5c1f9c6a323eb77ab7ed3592be7af70ab5d4e7e5a47",
+      "size_bytes": 1472772,
+      "width": 927,
+      "height": 1697,
+      "mode": "RGBA",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "fully_transparent_fraction": 0.652445,
+        "near_opaque_fraction_alpha_ge_240": 0.324873,
+        "subject_bbox_alpha_ge_128": [
+          190,
+          18,
+          738,
+          1657
+        ],
+        "subject_margins_ltrb_px": [
+          190,
+          18,
+          189,
+          40
+        ]
+      },
+      "technical_status": "png_rgba_cutout_verified",
+      "canonical_fidelity_status": "candidate_requires_detailed_review",
+      "animation_status": "not_produced_in_this_pass",
+      "production_ready": false,
+      "qa_notes": [
+        "Référence officielle en pied disponible ; conserver les asymétries et les motifs du shemagh.",
+        "Marge visible étroite : prévoir un canevas de production plus généreux."
+      ]
+    },
+    {
+      "character_id": "lahni_kaliso",
+      "name": "Lahni Kaliso",
+      "variant": "gears5_hivebuster",
+      "variant_label": "Gears 5 — Hivebuster / Escape",
+      "purpose": "reference_fullbody",
+      "path": "assets/characters/lahni_kaliso/gears5_hivebuster/reference_fullbody_v01.png",
+      "revision": 1,
+      "generation_key": "lahni_kaliso_hivebuster",
+      "sha256": "6b3df7eeeb90d63278ccf21a675aede4977dda510af768fd49348464af142500",
+      "size_bytes": 1951535,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.682979,
+        "near_opaque_fraction_alpha_ge_240": 0.29183,
+        "subject_bbox_alpha_ge_128": [
+          228,
+          11,
+          792,
+          1524
+        ],
+        "subject_margins_ltrb_px": [
+          228,
+          11,
+          232,
+          12
+        ]
+      },
+      "technical_status": "png_rgba_cutout_verified",
+      "canonical_fidelity_status": "candidate_requires_detailed_review",
+      "animation_status": "not_produced_in_this_pass",
+      "production_ready": false,
+      "qa_notes": [
+        "Tenue Hivebuster / Escape ; pieds non couverts par la fiche officielle, tatouages à contrôler en détail.",
+        "Marge visible étroite : prévoir un canevas de production plus généreux."
+      ]
+    },
+    {
+      "character_id": "mac_macallister",
+      "name": "Mac MacAllister",
+      "variant": "gears5_hivebuster",
+      "variant_label": "Gears 5 — Hivebuster / Escape",
+      "purpose": "reference_fullbody",
+      "path": "assets/characters/mac_macallister/gears5_hivebuster/reference_fullbody_v01.png",
+      "revision": 1,
+      "generation_key": "mac_macallister_hivebuster",
+      "sha256": "2d47d6da8cf73f315724fe51ddbcaddc830f5de67d8da2fb90bc5156e0a76379",
+      "size_bytes": 1963979,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.690903,
+        "near_opaque_fraction_alpha_ge_240": 0.286805,
+        "subject_bbox_alpha_ge_128": [
+          236,
+          19,
+          772,
+          1522
+        ],
+        "subject_margins_ltrb_px": [
+          236,
+          19,
+          252,
+          14
+        ]
+      },
+      "technical_status": "png_rgba_cutout_verified",
+      "canonical_fidelity_status": "candidate_requires_detailed_review",
+      "animation_status": "not_produced_in_this_pass",
+      "production_ready": false,
+      "qa_notes": [
+        "Tenue Hivebuster / Escape ; partie inférieure des jambes reconstituée, non certifiée.",
+        "Marge visible étroite : prévoir un canevas de production plus généreux."
+      ]
+    },
+    {
+      "character_id": "warden",
+      "name": "Warden",
+      "variant": "gears5",
+      "variant_label": "Gears 5",
+      "purpose": "reference_fullbody",
+      "path": "assets/characters/warden/gears5/reference_fullbody_v01.png",
+      "revision": 1,
+      "generation_key": "warden_gears5",
+      "sha256": "759348e4392a075c9511f2dfb11999b96f6fc0a9959315a9480f985de6213f5d",
+      "size_bytes": 2634356,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.495335,
+        "near_opaque_fraction_alpha_ge_240": 0.467909,
+        "subject_bbox_alpha_ge_128": [
+          22,
+          77,
+          1004,
+          1477
+        ],
+        "subject_margins_ltrb_px": [
+          22,
+          77,
+          20,
+          59
+        ]
+      },
+      "technical_status": "png_rgba_cutout_verified",
+      "canonical_fidelity_status": "candidate_requires_detailed_review",
+      "animation_status": "not_produced_in_this_pass",
+      "production_ready": false,
+      "qa_notes": [
+        "Casque vérifié sur capture de jeu ; détail des deux Breaker Maces à revalider avec une capture rapprochée.",
+        "Marge visible étroite : prévoir un canevas de production plus généreux."
+      ]
+    },
+    {
+      "character_id": "ukkon",
+      "name": "Ukkon",
+      "variant": "tactics",
+      "variant_label": "Gears Tactics",
+      "purpose": "reference_fullbody",
+      "path": "assets/characters/ukkon/tactics/reference_fullbody_v02.png",
+      "revision": 2,
+      "generation_key": "ukkon_tactics_rails_v02",
+      "sha256": "6f10e33e5195e8a950908a3b8aff5fc5a04b4a7bd82d8d2875e9120630fdf9d6",
+      "size_bytes": 2400688,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.497247,
+        "near_opaque_fraction_alpha_ge_240": 0.477516,
+        "subject_bbox_alpha_ge_128": [
+          133,
+          6,
+          845,
+          1525
+        ],
+        "subject_margins_ltrb_px": [
+          133,
+          6,
+          179,
+          11
+        ]
+      },
+      "technical_status": "png_rgba_cutout_verified",
+      "canonical_fidelity_status": "candidate_requires_detailed_review",
+      "animation_status": "not_produced_in_this_pass",
+      "production_ready": false,
+      "qa_notes": [
+        "Version v02 : deux rails suspendus allongés vers les chevilles ; détails de la robe et des pieds à contrôler.",
+        "Marge visible étroite : prévoir un canevas de production plus généreux."
+      ]
+    }
+  ]
+}

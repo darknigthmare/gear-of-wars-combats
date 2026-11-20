@@ -1,0 +1,193 @@
+{
+  "id": "skorge",
+  "reviewed_version": "v3",
+  "asset_path": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/skorge_reference_v3.png",
+  "sha256": "a4a3d68b3a7b1598aaaea3c0cde50fbeb7d949304e2bbceed8f349c19d222012",
+  "inspection": "PNG v3 inspecté visuellement à taille native via view_image, comparé aux références déjà téléchargées et inspectées. Canal alpha contrôlé par Pillow sans modifier ni réenregistrer le fichier.",
+  "recommended_version": "v3",
+  "recommended_asset_path": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/skorge_reference_v3.png",
+  "previous_version": {
+    "asset_path": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/skorge_reference_v2.png",
+    "sha256": "34da8e10bde1b68ee4f68870394f63bca8743d8af855af22a615f7078e394fa5",
+    "not_selected_reason": "La v2 présente des écarts d’identité plus importants que la v3 ; conserver uniquement comme historique de production."
+  },
+  "verdict": "À corriger",
+  "verdict_reason": "La v3 rétablit nettement Skorge et constitue la meilleure image pour le pack. Deux caractéristiques visibles restent différentes des références de campagne : le dessin du casque frontal et les liens de tête. Ces écarts sont consignés pour une révision ultérieure ; aucune nouvelle génération n’est demandée dans cette QA.",
+  "overall_status": "meilleure_version_avec_ecarts_visibles_a_corriger",
+  "canon_1_to_1_certified": false,
+  "subject_recognizable": {
+    "status": "yes_with_reservations",
+    "observation": "Skorge est maintenant reconnaissable : casque compact, peau pâle, plastron court porté par des sangles, abdomen visible, protections à pointes et pans de taille distincts."
+  },
+  "full_silhouette": {
+    "status": "pass",
+    "observation": "Tête ou couronne, mains et deux pieds visibles ; aucune extrémité du personnage coupée.",
+    "substantial_alpha_bbox": [
+      200,
+      38,
+      786,
+      1514
+    ],
+    "margin_px_alpha_ge_128": {
+      "left": 200,
+      "top": 38,
+      "right": 238,
+      "bottom": 22
+    }
+  },
+  "one_pose": {
+    "status": "pass",
+    "observation": "Un personnage, une pose, sans encart ni doublon."
+  },
+  "angle": {
+    "status": "pass",
+    "observation": "Trois-quarts vers la droite, avec lecture du visage et du torse ; pas de profil orthographique."
+  },
+  "empty_hands": {
+    "status": "pass",
+    "observation": "Deux mains visibles et vides, abaissées ou relâchées ; aucun objet tenu."
+  },
+  "neutral_presentation": {
+    "status": "pass_with_expression_reservation",
+    "observation": "Station immobile au repos, sans geste offensif ni scène de combat. Bouche ouverte de Skorge : expression moins neutre que la posture."
+  },
+  "alpha": {
+    "mode": "RGBA",
+    "size_px": [
+      1024,
+      1536
+    ],
+    "min": 0,
+    "max": 254,
+    "alpha_zero_pixels": 1112258,
+    "alpha_zero_fraction": 0.707155,
+    "pixels_alpha_1_to_15": 41606,
+    "substantial_alpha_bbox": [
+      200,
+      38,
+      786,
+      1514
+    ],
+    "corner_samples_rgba": {
+      "(0, 0)": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "(1023, 0)": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "(0, 1535)": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "(1023, 1535)": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    "interpretation": "Le fond RGB visible dans l’outil ne constitue pas un fond opaque : les quatre coins ont alpha 0. Le maximum alpha 254 correspond au comportement du générateur et ne constitue pas un défaut. Présence de faibles valeurs alpha enregistrée sans nettoyage."
+  },
+  "improvements_from_v2": [
+    "La grande coque crânienne arrière perforée de la v2 a été remplacée par un casque compact.",
+    "Les trois longues défenses suspendues au menton ont disparu.",
+    "Le plastron est devenu court et indépendant, laissant apparaître l’abdomen.",
+    "Le long tabard brodé du cou aux chevilles a été supprimé ; les pans partent maintenant de la ceinture.",
+    "La distribution générale des protections de bras et de cuisses se rapproche de la tenue de campagne.",
+    "La marge au-dessus de la tête est passée de 9 à 38 pixels au seuil alpha 128."
+  ],
+  "residual_differences": [
+    {
+      "severity": "correction",
+      "area": "casque",
+      "evidence": "compare_directe",
+      "observation": "La v3 utilise une succession d’arceaux ou nervures horizontales sur le sommet du crâne. Le modèle de campagne montre surtout une plaque frontale continue, rouge et métallique, avec des motifs convergeant en V vers le front. La forme compacte est rétablie, mais ce dessin identitaire reste différent.",
+      "reference": "skorge_gears2_model.webp ; skorge_gears2_waytoomanygames.jpg",
+      "recommended_action": "Pour une future révision, aligner la plaque frontale et son motif en V sur la référence de campagne, sans reprendre la pose ou l’arme."
+    },
+    {
+      "severity": "correction",
+      "area": "liens_de_tete",
+      "evidence": "compare_directe",
+      "observation": "Les liens de la v3 restent des bandes plates effilochées et pointues. Les références montrent des liens rouges étroits, plus épais, avec des terminaisons définies ; la texture de ruban déchiré reste une invention.",
+      "reference": "skorge_gears2_model.webp ; skorge_gears2_waytoomanygames.jpg",
+      "recommended_action": "Conserver des liens distincts et remplacer leur aspect de tissu déchiré par celui des liens visibles sur le modèle."
+    },
+    {
+      "severity": "reserve",
+      "area": "expression",
+      "evidence": "inspection_directe_v3",
+      "observation": "Le corps est immobile et les mains sont relâchées, mais la bouche grande ouverte et la dentition entièrement exposée donnent une expression de grognement. La neutralité de pose est respectée ; l’expression n’est pas strictement détendue.",
+      "recommended_action": "Conserver cette réserve dans le pack ; ne pas interpréter l’image comme une pose de combat."
+    },
+    {
+      "severity": "non_certifie",
+      "area": "armure_et_anatomie",
+      "evidence": "limite_des_references",
+      "observation": "Le nombre de pointes, les boucles, la disposition exacte des protections de tibias, les mains et les pieds ne sont pas certifiés. Les poses des références ne permettent pas une mesure fiable des proportions debout.",
+      "recommended_action": "Validation humaine à partir du modèle du jeu avant usage comme guide de fabrication définitif."
+    }
+  ],
+  "visible_defects": [
+    {
+      "severity": "correction",
+      "area": "casque",
+      "evidence": "compare_directe",
+      "observation": "La v3 utilise une succession d’arceaux ou nervures horizontales sur le sommet du crâne. Le modèle de campagne montre surtout une plaque frontale continue, rouge et métallique, avec des motifs convergeant en V vers le front. La forme compacte est rétablie, mais ce dessin identitaire reste différent.",
+      "reference": "skorge_gears2_model.webp ; skorge_gears2_waytoomanygames.jpg",
+      "recommended_action": "Pour une future révision, aligner la plaque frontale et son motif en V sur la référence de campagne, sans reprendre la pose ou l’arme."
+    },
+    {
+      "severity": "correction",
+      "area": "liens_de_tete",
+      "evidence": "compare_directe",
+      "observation": "Les liens de la v3 restent des bandes plates effilochées et pointues. Les références montrent des liens rouges étroits, plus épais, avec des terminaisons définies ; la texture de ruban déchiré reste une invention.",
+      "reference": "skorge_gears2_model.webp ; skorge_gears2_waytoomanygames.jpg",
+      "recommended_action": "Conserver des liens distincts et remplacer leur aspect de tissu déchiré par celui des liens visibles sur le modèle."
+    }
+  ],
+  "fidelity_uncertified": [
+    "Le corps est immobile et les mains sont relâchées, mais la bouche grande ouverte et la dentition entièrement exposée donnent une expression de grognement. La neutralité de pose est respectée ; l’expression n’est pas strictement détendue.",
+    "Le nombre de pointes, les boucles, la disposition exacte des protections de tibias, les mains et les pieds ne sont pas certifiés. Les poses des références ne permettent pas une mesure fiable des proportions debout."
+  ],
+  "local_reference_paths": [
+    {
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_reference/skorge_gears2_waytoomanygames.jpg",
+      "sha256": "cb82d462abb6ac2e94021b7ef5c02ee870dd9993aac48ecd91c27c06c5f6b744",
+      "image_url": "https://waytoomany.games/wp-content/uploads/2018/11/Skorge.jpg",
+      "source_page": "https://waytoomany.games/2018/11/13/gears-of-war-2-a-ten-year-reunion/",
+      "type": "capture_campagne_Gears_2_republication_presse",
+      "verification_scope": "Capture 1920×1080 de la campagne : casque compact, visage, liens étroits de tête, plastron court, abdomen, plaques de bras et de jambes. Arme et posture exclues du transfert.",
+      "pixels_modified": false
+    },
+    {
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_reference/skorge_gears2_model.webp",
+      "sha256": "e0bc5264174d6226b4cd66f18cd84d21284ea25f449c40049286b0505c4ffe12",
+      "image_url": "https://static.wikia.nocookie.net/gearsofwar/images/1/13/GoW2_Skorge.png/revision/latest",
+      "source_page": "https://gearsofwar.fandom.com/wiki/Skorge",
+      "type": "rendu_modele_campagne_republication_secondaire",
+      "verification_scope": "Détail complémentaire du casque, des lanières et du plastron de campagne ; pieds coupés, pose et arme non reprises.",
+      "pixels_modified": false
+    }
+  ],
+  "source_urls": [
+    "https://news.xbox.com/en-us/2020/11/17/gears-5-operation-5/",
+    "https://gearsofwar.fandom.com/wiki/Skorge",
+    "https://waytoomany.games/2018/11/13/gears-of-war-2-a-ten-year-reunion/",
+    "https://waytoomany.games/wp-content/uploads/2018/11/Skorge.jpg",
+    "https://static.wikia.nocookie.net/gearsofwar/images/1/13/GoW2_Skorge.png/revision/latest"
+  ],
+  "source_limits": "La référence principale est une capture du jeu rééditée dans un article anniversaire Gears of War 2. La tenue de campagne, avec plastron et protections de cuisses, est visuellement identifiable. Ce n’est pas un contrôle de chaque détail du mesh ou un relevé orthographique.",
+  "pack_recommendation": "Retenir la v3 dans le pack avec le verdict et les réserves de cette fiche. Cette QA clôt la comparaison ; elle ne demande aucune nouvelle génération et ne certifie pas une fidélité 1:1.",
+  "image_modified": false,
+  "new_research_performed": false,
+  "generation_or_retry_performed": false
+}

@@ -1,0 +1,25 @@
+{
+  "character_id": "dizzy",
+  "variant": "Gears of War 2 — standard driver",
+  "date": "2026-11-20",
+  "generator": "built_in_imagegen",
+  "prompt": "Use case: stylized-concept. Asset type: a single full-body character reference for Gears of War Combats, a detailed 2D fighting game. Subject: Dizzy Wallin in his original Gears of War 2 standard driver outfit. The supplied first image is the canonical Gears of War 2 costume and identity reference, not a background to reproduce. Preserve his recognizable weathered adult face, wide worn brown cowboy hat, gray full beard and moustache, little gold earring, massive bare tattooed arms, torn ribbed undershirt, aged dark gray-green chest armor with the faded skull emblem, crossed chest straps on his anatomical right side and stacked cartridges on his anatomical left side, circular utility belt buckle, gloves and wrapped wrists. Extend the outfit down to full-length work trousers, original bulky kneepads and heavy practical boots consistent with the original game design. One single upright calm character facing screen-right in slight three-quarter stance, arms relaxed with hands visible. Entire figure from hat to soles inside canvas with generous empty margins on all four sides. Detailed hand-painted raster rendering with convincing worn metal, cloth and skin, crisp silhouette, high quality character anatomy, no generic redesign and no alternate modern uniform. Genuine transparent alpha background; no scene, no floor, no shadow outside the figure, no atmosphere or vignette. No additional characters, text, logo, watermark, borders, multi-view sheets or cropped limbs. This is a static neutral costume reference.",
+  "source_references": [
+    {
+      "path": "/tmp/gears-refs-cog/dizzy_gow2.jpg",
+      "source_url": "https://www.gamereactor.se/media/66/mergearswar_156693_650x.jpg",
+      "scope": "Upper body original GoW2 press render; boots not established"
+    }
+  ],
+  "status": "blocked",
+  "asset_path": null,
+  "error": {
+    "code": "moderation_blocked",
+    "stage": "output",
+    "category": "other",
+    "request_id": "1bd1808e-4ae1-4614-9253-0d0eb7480c95"
+  },
+  "notes": [
+    "No image returned. No fallback or disguised retry attempted."
+  ]
+}

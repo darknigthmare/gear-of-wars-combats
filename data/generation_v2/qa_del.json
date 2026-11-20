@@ -1,0 +1,191 @@
+{
+  "id": "del",
+  "name": "Del Walker",
+  "source_game": "Gears 5",
+  "costume": "Armored Del de campagne tempérée avec bandeau",
+  "asset_path": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/del_reference_v2.png",
+  "sha256": "a9a8fe6eff272087a2ea1e0a466d8027db60aea41d75c7ed0a3bdc9731cc3648",
+  "inspection": "PNG généré et références ouverts à taille native via view_image ; métadonnées RGBA analysées avec Pillow, sans modifier ni réenregistrer l’image.",
+  "overall_status": "reference_reconnaissable_corrections_costume_requises",
+  "fidelity_recommendation": "À corriger",
+  "certified_1_to_1": false,
+  "subject_recognizable": {
+    "status": "pass_invariants_only",
+    "observation": "Del reconnaissable par son visage adulte, ses cheveux crépus courts, son bandeau vert olive, la tenue de campagne verte et l’armure CGU. La variante tempérée est respectée ; ni bonnet ni col de fourrure de Winter Armor Del."
+  },
+  "full_silhouette": {
+    "status": "pass_with_margin_warning",
+    "observation": "Tête, deux mains et deux pieds entièrement dans le cadre. Le dégagement vertical reste très faible.",
+    "substantial_alpha_bbox": [
+      190,
+      9,
+      800,
+      1528
+    ],
+    "margin_px_alpha_ge_128": {
+      "left": 190,
+      "top": 9,
+      "right": 224,
+      "bottom": 8
+    }
+  },
+  "one_pose": {
+    "status": "pass",
+    "observation": "Un seul personnage et une seule pose, sans encart ni doublon."
+  },
+  "angle": {
+    "status": "pass",
+    "observation": "Trois-quarts orienté vers la droite ; vue de référence en perspective, pas profil orthographique."
+  },
+  "empty_hands": {
+    "status": "pass",
+    "observation": "Deux mains vides au repos, aucune arme ni objet tenu."
+  },
+  "neutral_presentation": {
+    "status": "pass",
+    "observation": "Pose au repos, sans scène offensive, mutilation, sang ou blessure ouverte."
+  },
+  "alpha": {
+    "mode": "RGBA",
+    "size_px": [
+      1024,
+      1536
+    ],
+    "min": 0,
+    "max": 254,
+    "alpha_zero_pixels": 1005048,
+    "alpha_zero_fraction": 0.638992,
+    "pixels_alpha_1_to_15": 22049,
+    "substantial_alpha_bbox": [
+      190,
+      9,
+      800,
+      1528
+    ],
+    "all_nonzero_alpha_bbox": [
+      0,
+      0,
+      1006,
+      1536
+    ],
+    "corner_and_mid_edge_samples_rgba": {
+      "(0, 0)": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "(1023, 0)": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "(0, 1535)": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "(1023, 1535)": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "(512, 0)": [
+        42,
+        36,
+        33,
+        3
+      ],
+      "(512, 1535)": [
+        27,
+        24,
+        21,
+        0
+      ]
+    },
+    "interpretation": "Les coins sont transparents. Le fond RGB montré par l’outil ne prouve pas un fond opaque. Le maximum alpha 254 est le comportement observé de ce générateur et n’est pas classé comme défaut. Les faibles résidus d’alpha sont consignés ; leur présence ne vaut pas validation d’un détourage de production."
+  },
+  "major_identity_discrepancies": [],
+  "reference_comparison": [
+    {
+      "area": "identité et variante",
+      "status": "pass_invariants",
+      "observation": "Bandeau olive, coupe courte, tenue verte et armure de campagne présents. Pas de remplacement par JD, Cole ou une variante hivernale."
+    },
+    {
+      "area": "disques du plastron",
+      "status": "correction_required",
+      "observation": "La capture officielle rapprochée montre une ouverture rectangulaire grillagée dans le disque pectoral visible. La génération présente des disques presque pleins avec une pièce en croissant sur le bord, sans cette grille rectangulaire caractéristique."
+    },
+    {
+      "area": "bandes lumineuses d’épaule",
+      "status": "correction_required",
+      "observation": "La référence rapprochée montre deux longues rangées lumineuses parallèles suivant la bretelle. La génération les remplace par plusieurs barres transversales bleues séparées. Il s’agit d’une différence de géométrie, indépendante de la couleur de l’éclairage."
+    },
+    {
+      "area": "épaule et emblème",
+      "status": "unverified_asymmetry",
+      "observation": "L’épaule proche de la caméra dans la capture rapprochée porte une étoile ; le généré présente un emblème de rouage/crâne sur l’autre côté anatomique. Les vues ne donnent pas la preuve que ces deux côtés doivent être identiques : cet emblème n’est pas classé à lui seul comme erreur certaine."
+    },
+    {
+      "area": "visage et tenue textile",
+      "status": "partially_matched",
+      "observation": "La coupe, le bandeau, la chemise olive à manches roulées et le pantalon de camouflage suivent les repères. La forme exacte du visage, le camouflage, les attaches, les gants et les bottes restent à confronter au modèle."
+    }
+  ],
+  "visible_defects": [
+    {
+      "severity": "moderate",
+      "area": "plastron",
+      "observation": "Grille rectangulaire du disque pectoral remplacée par un disque plein et une pièce en croissant."
+    },
+    {
+      "severity": "moderate",
+      "area": "éclairage de l’armure",
+      "observation": "Deux rangées longitudinales sur la bretelle remplacées par une série de barres transversales."
+    },
+    {
+      "severity": "minor",
+      "area": "cadrage",
+      "observation": "Seulement neuf pixels au-dessus des cheveux et huit sous les bottes au seuil alpha 128. La silhouette reste entière."
+    },
+    {
+      "severity": "review",
+      "area": "style",
+      "observation": "Rendu très réaliste proche d’un rendu 3D ; l’aspect peint 2D reste à juger avec la direction artistique."
+    }
+  ],
+  "fidelity_uncertified": [
+    "La ressemblance exacte du visage ne reçoit pas de certification 1:1.",
+    "Les emblèmes des épaules droite et gauche peuvent différer ; ne pas imposer une symétrie non démontrée.",
+    "Le dos, les bottes et les coutures arrière sont insuffisamment visibles.",
+    "Une pose de référence ne valide aucun cycle animé."
+  ],
+  "references_inspected": [
+    {
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_refs/g5_delta_baird_full.jpg",
+      "url": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/Accessibility_desktopBG-69d931f5a4c02.jpg",
+      "sha256": "14b0d716913fac7dd9f4ad7fff6ae7b4e7a9307ede9a3a21ca12bccf02bd3c57",
+      "source_type": "official_CDN",
+      "inspected": true
+    },
+    {
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_refs/del_kait_g5_full.jpg",
+      "url": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/desktop-campaign-3840x2160-69d932032874a.jpg",
+      "sha256": "320386b13da1e56c3703120fafab4298efd593a6075942e77fc1ed78fe662f01",
+      "source_type": "official_CDN",
+      "inspected": true
+    }
+  ],
+  "source_urls": [
+    "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/Accessibility_desktopBG-69d931f5a4c02.jpg",
+    "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/desktop-campaign-3840x2160-69d932032874a.jpg"
+  ],
+  "source_limits": "Les deux captures proviennent du CDN officiel Gears of War. La vue avec Baird permet une comparaison nette du plastron et des bandes lumineuses ; la vue avec Kait confirme la variante tempérée et le vêtement vert. L’orientation des deux vues diffère de celle du généré et limite la comparaison des asymétries.",
+  "image_modified": false,
+  "generation_or_retry_performed": false,
+  "animation_status": "Non produite : pose unique de référence"
+}

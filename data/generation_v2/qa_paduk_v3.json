@@ -1,0 +1,132 @@
+{
+  "id": "paduk",
+  "version": 3,
+  "verdict": "À valider",
+  "recommended_version": 3,
+  "recommended_asset": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/paduk_reference_v3.png",
+  "replaces_asset": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/paduk_reference_v2.png",
+  "is_1to1_certified": false,
+  "generated_asset": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/paduk_reference_v3.png",
+  "generated_asset_sha256": "96afca09c9ed49c47eaddd0cb3de63055e7d186506b98d7170b084bd7fac251c",
+  "reference_images": [
+    {
+      "local_path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_refs/paduk_promo_reference.jpg",
+      "sha256": "254d82dda20536c33eb449e5006c7779823954e8e6d0bb9f4892c9b7e6883dd0",
+      "source_type": "Wallpaper promotionnel composite publié par une source secondaire ; pas un fichier de modèle officiel brut.",
+      "page_url": "https://geektyrant.com/news/2013/3/18/gears-of-war-judgement-kilo-squad-wallpapers.html",
+      "image_url": "https://images.squarespace-cdn.com/content/51b3dc8ee4b051b96ceb10de/1372482095984-DXURZIMNBB4VMR6D07NR/gears_judgement_GPaduk_WP.jpg?format=1000w&content-type=image/jpeg",
+      "limits": "Image désaturée et teintée jaune, point de vue frontal, bas des bottes coupé ; le tracé exact des cicatrices et la couleur locale ne sont pas certifiables."
+    }
+  ],
+  "comparison_with_v2_qa": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/data/generation_v2/qa_paduk.json",
+  "method": "Comparaison visuelle directe de Paduk v3 et du wallpaper Judgment local déjà réunis, via view_image à leur résolution native. Comparaison avec les défauts v2 observés lors de la QA précédente. Empreinte, dimensions et alpha mesurés avec Pillow. Aucune recherche ni génération nouvelle, aucun pixel image modifié.",
+  "verdict_reason": "Retenir v3 comme meilleur candidat à la revue artistique : elle rétablit la majorité des éléments distinctifs du costume Judgment. « À valider » désigne une sélection proposée avec réserves, pas une certification de reproduction 1:1.",
+  "identity": {
+    "status": "paduk_judgment_reconnaissable_visage_et_cicatrices_non_certifies",
+    "matches": [
+      "Homme adulte massif aux cheveux courts foncés grisonnant aux tempes ; évite la silhouette du Paduk plus âgé et chauve de Gears 5.",
+      "Visage sévère, musculature et corps entier cohérents avec l’intention de la pose neutre."
+    ],
+    "unresolved": [
+      "Visage repris de v2 ; proportions exactes et ressemblance faciale non certifiées.",
+      "Grandes cicatrices visibles sur le visage, le cou et les bras : leur topologie, leur étendue et le côté canonique ne sont pas vérifiables avec cette référence désaturée."
+    ]
+  },
+  "costume": {
+    "status": "principaux_elements_judgment_retablis",
+    "matches": [
+      "Ouverture de cou ronde basse, deux grands disques pectoraux avec bandes pâles, panneau central et attaches proches du modèle.",
+      "Épaulière perforée proche, avant-bras allongé, gants sans doigts, sangle abdominale diagonale.",
+      "Ceinture avec boucle symbolique, longues protections de cuisse maintenues par plusieurs sangles, genouillères à ouverture centrale et grandes jambières.",
+      "Palette olive/jaune usée cohérente dans son ensemble."
+    ],
+    "visible_residual_differences": [
+      "L’épaule éloignée est aussi perforée dans le généré ; elle paraît davantage pleine et anguleuse dans la référence. L’asymétrie exacte des deux épaules reste à valider.",
+      "Le symbole de boucle est redessiné ; forme des lobes/branches et encadrement non reproduits avec certitude.",
+      "Poches de ceinture, petites attaches, rivets et géométrie des panneaux restent interprétés, malgré une disposition générale plus proche."
+    ]
+  },
+  "improvements_over_v2": [
+    "Suppression du grand col rigide ajouté et retour à l’ouverture de cou basse de Judgment.",
+    "Remplacement des grandes épaulières jaunes génériques par les volumes perforés attendus du côté proche.",
+    "Rétablissement du panneau central, de la sangle abdominale diagonale et d’une boucle à symbole.",
+    "Grandes protections et sangles de cuisse, genouillères et jambières désormais proches du dessin de la référence."
+  ],
+  "framing": {
+    "status": "personnage_entier_marges_verticales_serrees",
+    "orientation": "trois-quarts vers la droite",
+    "pose": "debout au repos, mains vides",
+    "head_visible": true,
+    "both_feet_visible": true,
+    "both_hands_visible": true,
+    "text_ui_or_extra_subject": false,
+    "substantial_alpha_bbox_threshold_16": [
+      149,
+      13,
+      843,
+      1518
+    ],
+    "approx_padding_px": {
+      "left": 149,
+      "top": 13,
+      "right": 181,
+      "bottom": 18
+    },
+    "observed": "Tête, mains, deux pieds et semelles entiers ; la marge verticale reste faible. Aucun membre supplémentaire ou défaut anatomique majeur visible."
+  },
+  "alpha_and_format": {
+    "mode": "RGBA",
+    "size_px": [
+      1024,
+      1536
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_pixel_percent": 61.56,
+    "fully_opaque_255_pixels": 0,
+    "alpha_corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "nonzero_alpha_bbox": [
+      0,
+      9,
+      1010,
+      1522
+    ],
+    "substantial_alpha_bbox_threshold_16": [
+      149,
+      13,
+      843,
+      1518
+    ],
+    "note": "Vrai canal alpha présent. Quelques pixels de très faible opacité débordent la silhouette principale ; le fond sombre visible dans l’aperçu ne correspond pas à un fond opaque. Aucun test de halo ou de composition sur décor."
+  },
+  "defects": [
+    {
+      "severity": "mineure_pour_reference_concept",
+      "item": "Asymétrie des épaules et emblème encore interprétés",
+      "impact": "À contrôler sur une référence de modèle plus précise avant certification canon stricte."
+    },
+    {
+      "severity": "mineure",
+      "item": "Marges verticales serrées",
+      "impact": "Environ 13 px en haut et 18 px en bas dans 1536 px ; prévoir davantage de marge lors de la préparation de sprite."
+    }
+  ],
+  "reservations_1to1": [
+    "La source locale est un wallpaper promotionnel composite, diffusé par une source secondaire et fortement traité ; elle ne permet pas une validation colorimétrique.",
+    "Le visage, la topologie des cicatrices et les petits marquages ne sont pas certifiés.",
+    "Le bas des bottes est coupé dans la référence : les semelles générées ne peuvent être comparées.",
+    "Un seul point de vue et une pose neutre ; aucune validation des surfaces cachées, pivots, changements de côté ou animations.",
+    "Aucune égalité pixel à pixel revendiquée, aucun test de combat ou de halo sur décor effectué."
+  ],
+  "recommendation": "Sélectionner paduk_reference_v3.png et écarter v2 de la sélection courante. Conserver les réserves sur épaules, emblème, visage/cicatrices et source traitée ; ne pas labelliser « 1:1 validé ».",
+  "prototype_modified": false,
+  "bible_modified": false,
+  "workbook_modified": false
+}

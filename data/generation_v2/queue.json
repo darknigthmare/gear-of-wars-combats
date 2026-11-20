@@ -1,0 +1,322 @@
+[
+  {
+    "id": "dom",
+    "name": "Dominic Santiago",
+    "source_game": "Gears of War 2006",
+    "base_costume": "Armure de campagne du premier jeu",
+    "status": "blocked_by_image_system",
+    "output_path": "assets/characters_v2/dom_reference_v2.png",
+    "fidelity_status": "À contrôler"
+  },
+  {
+    "id": "baird",
+    "name": "Damon Baird",
+    "source_game": "Gears of War 3",
+    "base_costume": "Tenue de campagne Gears of War 3",
+    "status": "reference_generated",
+    "output_path": "assets/characters_v2/baird_reference_v3.png",
+    "fidelity_status": "À valider",
+    "fidelity_notes": "Manches inventées retirées ; haut des bras conforme au visuel Gears 3. Petits panneaux, visage et marges avant animation à vérifier."
+  },
+  {
+    "id": "cole",
+    "name": "Augustus Cole",
+    "source_game": "Gears of War 3",
+    "base_costume": "Tenue de campagne Gears of War 3",
+    "status": "blocked_by_image_system",
+    "output_path": "assets/characters_v2/cole_reference_v2.png",
+    "fidelity_status": "À contrôler"
+  },
+  {
+    "id": "anya",
+    "name": "Anya Stroud",
+    "source_game": "Gears of War 3",
+    "base_costume": "Tenue de combat de campagne",
+    "status": "blocked_by_image_system",
+    "output_path": "assets/characters_v2/anya_reference_v2.png",
+    "fidelity_status": "À contrôler"
+  },
+  {
+    "id": "raam",
+    "name": "Général RAAM",
+    "source_game": "Gears of War 2006",
+    "base_costume": "Armure du combat final du premier jeu",
+    "status": "blocked_by_image_system",
+    "output_path": "assets/characters_v2/raam_reference_v2.png",
+    "fidelity_status": "À contrôler"
+  },
+  {
+    "id": "skorge",
+    "name": "Skorge",
+    "source_game": "Gears of War 2",
+    "base_costume": "Équipement du duel dans le palais",
+    "status": "reference_generated",
+    "output_path": "assets/characters_v2/skorge_reference_v3.png",
+    "fidelity_status": "À corriger",
+    "fidelity_notes": "Plastron et abdomen améliorés. Casque encore nervuré horizontalement au lieu de la plaque frontale en V ; liens de tête encore plats."
+  },
+  {
+    "id": "myrrah",
+    "name": "Reine Myrrah",
+    "source_game": "Gears of War 3",
+    "base_costume": "Armure royale de Gears of War 3",
+    "status": "blocked_by_image_system",
+    "output_path": "assets/characters_v2/myrrah_reference_v2.png",
+    "fidelity_status": "À contrôler"
+  },
+  {
+    "id": "locust_drone",
+    "name": "Drone locuste",
+    "source_game": "Gears of War 2006",
+    "base_costume": "Drone de base du premier jeu",
+    "status": "reference_generated",
+    "output_path": "assets/characters_v2/locust_drone_reference_v2.png",
+    "fidelity_status": "À valider",
+    "fidelity_notes": "Identité reconnaissable ; panneau par panneau, variante du Drone et correspondance au modèle de 2006 non certifiées."
+  },
+  {
+    "id": "kantus",
+    "name": "Kantus",
+    "source_game": "Gears of War 2",
+    "base_costume": "Prêtre Kantus standard",
+    "status": "reference_generated",
+    "output_path": "assets/characters_v2/kantus_reference_v3.png",
+    "fidelity_status": "À valider",
+    "fidelity_notes": "Casque, col, anneaux et pans corrigés. Jambes et pieds comparés à un concept, sans certification du modèle final."
+  },
+  {
+    "id": "theron",
+    "name": "Garde Theron",
+    "source_game": "Gears of War 2006",
+    "base_costume": "Garde Theron standard",
+    "status": "blocked_by_image_system",
+    "output_path": "assets/characters_v2/theron_reference_v2.png",
+    "fidelity_status": "À contrôler"
+  },
+  {
+    "id": "jd",
+    "name": "JD Fenix",
+    "source_game": "Gears 5",
+    "base_costume": "Tenue de campagne Gears 5 après le prologue",
+    "status": "reference_generated",
+    "output_path": "assets/characters_v2/jd_reference_v2.png",
+    "fidelity_status": "À valider",
+    "fidelity_notes": "Variante après ellipse et bras droit marqué reconnaissables ; détails du visage, des marques et attaches non certifiés."
+  },
+  {
+    "id": "del",
+    "name": "Del Walker",
+    "source_game": "Gears 5",
+    "base_costume": "Tenue de campagne Gears 5",
+    "status": "reference_generated",
+    "output_path": "assets/characters_v2/del_reference_v3.png",
+    "fidelity_status": "À corriger",
+    "fidelity_notes": "Bretelles lumineuses améliorées. Les grilles doivent redevenir de petites ouvertures rectangulaires au milieu des plaques pectorales circulaires."
+  },
+  {
+    "id": "fahz",
+    "name": "Fahz Chutani",
+    "source_game": "Gears 5",
+    "base_costume": "Tenue de campagne Gears 5",
+    "status": "blocked_by_image_system",
+    "output_path": "assets/characters_v2/fahz_reference_v2.png",
+    "fidelity_status": "À contrôler"
+  },
+  {
+    "id": "clayton",
+    "name": "Clayton Carmine",
+    "source_game": "Gears of War 3",
+    "base_costume": "Tenue de campagne Gears of War 3",
+    "status": "blocked_by_image_system",
+    "output_path": "assets/characters_v2/clayton_reference_v2.png",
+    "fidelity_status": "À contrôler"
+  },
+  {
+    "id": "lizzie",
+    "name": "Lizzie Carmine",
+    "source_game": "Gears 5",
+    "base_costume": "Tenue de campagne Gears 5",
+    "status": "reference_generated",
+    "output_path": "assets/characters_v2/lizzie_reference_v2.png",
+    "fidelity_status": "À corriger",
+    "fidelity_notes": "Casque, optiques et col réinterprétés ; la correction demandée a été refusée par le système d’image. Version initiale conservée comme candidat."
+  },
+  {
+    "id": "hoffman",
+    "name": "Victor Hoffman",
+    "source_game": "Gears 5 multijoueur",
+    "base_costume": "Hoffman en armure du lot Opération 6",
+    "status": "blocked_by_image_system",
+    "output_path": "assets/characters_v2/hoffman_reference_v2.png",
+    "fidelity_status": "À contrôler"
+  },
+  {
+    "id": "tai",
+    "name": "Tai Kaliso",
+    "source_game": "Gears of War 2",
+    "base_costume": "Tenue de campagne Gears of War 2",
+    "status": "blocked_by_image_system",
+    "output_path": "assets/characters_v2/tai_reference_v2.png",
+    "fidelity_status": "À contrôler"
+  },
+  {
+    "id": "dizzy",
+    "name": "Dizzy Wallin",
+    "source_game": "Gears of War 2",
+    "base_costume": "Tenue de pilote de Betty",
+    "status": "blocked_by_image_system",
+    "output_path": "assets/characters_v2/dizzy_reference_v2.png",
+    "fidelity_status": "À contrôler"
+  },
+  {
+    "id": "sam",
+    "name": "Samantha Byrne",
+    "source_game": "Gears of War 3",
+    "base_costume": "Tenue de campagne Gears of War 3",
+    "status": "blocked_by_image_system",
+    "output_path": "assets/characters_v2/sam_reference_v2.png",
+    "fidelity_status": "À contrôler"
+  },
+  {
+    "id": "paduk",
+    "name": "Garron Paduk",
+    "source_game": "Gears of War Judgment",
+    "base_costume": "Tenue de Kilo Squad dans Judgment",
+    "status": "reference_generated",
+    "output_path": "assets/characters_v2/paduk_reference_v3.png",
+    "fidelity_status": "À valider",
+    "fidelity_notes": "Armure Judgment corrigée à partir du visuel promotionnel. Teintes exactes et partie inférieure des bottes non établies par cette référence."
+  },
+  {
+    "id": "sofia",
+    "name": "Sofia Hendrik",
+    "source_game": "Gears of War Judgment",
+    "base_costume": "Tenue de Kilo Squad dans Judgment",
+    "status": "reference_generated",
+    "output_path": "assets/characters_v2/sofia_reference_v3.png",
+    "fidelity_status": "À valider",
+    "fidelity_notes": "Tenue Onyx et plastron corrigés. Visage, coiffure arrière et détourage à valider ; marge supérieure étroite avant préparation des sprites."
+  },
+  {
+    "id": "gabe",
+    "name": "Gabe Diaz",
+    "source_game": "Gears Tactics",
+    "base_costume": "Tenue de campagne de base avant personnalisation",
+    "status": "blocked_by_image_system",
+    "output_path": "assets/characters_v2/gabe_reference_v2.png",
+    "fidelity_status": "À contrôler"
+  },
+  {
+    "id": "sid",
+    "name": "Sid Redburn",
+    "source_game": "Gears Tactics",
+    "base_costume": "Tenue de campagne de base",
+    "status": "reference_generated",
+    "output_path": "assets/characters_v2/sid_reference_v3.png",
+    "fidelity_status": "À valider",
+    "fidelity_notes": "Version corrigée d’après le rendu officiel ; cache-œil anatomiquement gauche et pièces principales cohérents. Liserés de détourage à vérifier sur décor."
+  },
+  {
+    "id": "mikayla",
+    "name": "Mikayla Dorn",
+    "source_game": "Gears Tactics",
+    "base_costume": "Tenue de campagne de base",
+    "status": "blocked_by_image_system",
+    "output_path": "assets/characters_v2/mikayla_reference_v2.png",
+    "fidelity_status": "À contrôler"
+  },
+  {
+    "id": "reyna",
+    "name": "Reine Reyna",
+    "source_game": "Gears 5 multijoueur",
+    "base_costume": "Reine Reyna du lot Opération 6",
+    "status": "reference_generated",
+    "output_path": "assets/characters_v2/reyna_reference_v3.png",
+    "fidelity_status": "À corriger",
+    "fidelity_notes": "Cheveux, carapace et vrilles rétablis. Cristaux du front encore en arc de diadème au lieu de l’amas asymétrique ; bas du corps non documenté."
+  },
+  {
+    "id": "lahni",
+    "name": "Lahni Kaliso",
+    "source_game": "Gears 5 Hivebusters",
+    "base_costume": "Tenue de campagne Hivebusters",
+    "status": "blocked_by_image_system",
+    "output_path": "assets/characters_v2/lahni_reference_v2.png",
+    "fidelity_status": "À contrôler"
+  },
+  {
+    "id": "keegan",
+    "name": "Keegan",
+    "source_game": "Gears 5 Hivebusters",
+    "base_costume": "Tenue de campagne Hivebusters",
+    "status": "blocked_by_image_system",
+    "output_path": "assets/characters_v2/keegan_reference_v2.png",
+    "fidelity_status": "À contrôler"
+  },
+  {
+    "id": "mac",
+    "name": "Mac",
+    "source_game": "Gears 5 Hivebusters",
+    "base_costume": "Tenue de campagne Hivebusters",
+    "status": "blocked_by_image_system",
+    "output_path": "assets/characters_v2/mac_reference_v2.png",
+    "fidelity_status": "À contrôler"
+  },
+  {
+    "id": "jack",
+    "name": "JACK",
+    "source_game": "Gears 5",
+    "base_costume": "Robot de soutien de campagne",
+    "status": "reference_generated",
+    "output_path": "assets/characters_v2/jack_reference_v3.png",
+    "fidelity_status": "À valider",
+    "fidelity_notes": "Capot et modules triangulaires corrigés. Orientation fine des modules, panneaux et configuration des outils encore à vérifier."
+  },
+  {
+    "id": "deebee",
+    "name": "DeeBee",
+    "source_game": "Gears of War 4",
+    "base_costume": "Unité Shepherd standard",
+    "status": "blocked_by_image_system",
+    "output_path": "assets/characters_v2/deebee_reference_v2.png",
+    "fidelity_status": "À contrôler"
+  },
+  {
+    "id": "warden",
+    "name": "Warden",
+    "source_game": "Gears 5",
+    "base_costume": "Warden standard de campagne",
+    "status": "blocked_by_image_system",
+    "output_path": "assets/characters_v2/warden_reference_v2.png",
+    "fidelity_status": "À contrôler"
+  },
+  {
+    "id": "swarm_drone",
+    "name": "Drone de l’Essaim",
+    "source_game": "Gears of War 4",
+    "base_costume": "Drone standard de campagne",
+    "status": "reference_generated",
+    "output_path": "assets/characters_v2/swarm_drone_reference_v2.png",
+    "fidelity_status": "À valider",
+    "fidelity_notes": "Swarm Drone reconnaissable ; équipement précis de la variante Rifle de Gears 4 à comparer au modèle du jeu."
+  },
+  {
+    "id": "ukkon",
+    "name": "Ukkon",
+    "source_game": "Gears Tactics",
+    "base_costume": "Scientifique de campagne",
+    "status": "blocked_by_image_system",
+    "output_path": "assets/characters_v2/ukkon_reference_v2.png",
+    "fidelity_status": "À contrôler"
+  },
+  {
+    "id": "grenadier",
+    "name": "Grenadier locuste",
+    "source_game": "Gears Tactics",
+    "base_costume": "Grenadier standard",
+    "status": "reference_generated",
+    "output_path": "assets/characters_v2/grenadier_reference_v2.png",
+    "fidelity_status": "À valider",
+    "fidelity_notes": "Grenadier reconnaissable ; grenades attachées au harnais acceptées, modèle et quantité exacts de la version Tactics à vérifier."
+  }
+]

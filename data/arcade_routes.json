@@ -1,0 +1,3122 @@
+[
+  {
+    "character_id": "marcus",
+    "name": "Marcus Fenix",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "Marcus vérifie le chargeur près d’un abri effondré.",
+    "intro_line_original": "On ouvre un passage. Après, on rentre.",
+    "rival_id": "raam",
+    "rival_scene": "RAAM barre la sortie; Marcus désigne le corridor derrière lui.",
+    "ending": "Marcus laisse la route ouverte pour les survivants et rejoint Delta avant l’aube.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "dom",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "skorge",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "del",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "tai",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "gabe",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "raam",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "RAAM barre la sortie; Marcus désigne le corridor derrière lui.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_berserker",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "myrrah",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [
+      {
+        "id": "marcus_combo_01",
+        "notation": "2L > 5L xx S1",
+        "meter_cost": 0,
+        "damage_estimate": 139,
+        "proof": "2L donne +6, 5L démarre à 6: lien juste. Annulation sur première frame active de 5L vers S1 à 12 frames, inférieur aux 18 frames de hitstun de 5L.",
+        "range": "Au contact et centre écran; trajet de projectile nul ou inclus dans S1.",
+        "status": "Lien temporel vérifié; collision, recul et hitboxes à vérifier en moteur",
+        "meter_cost_label": "Coût de jauge, hors munition ou ressource du coup final",
+        "action_resource": "1 munition"
+      },
+      {
+        "id": "marcus_combo_02",
+        "notation": "5H > 5M xx U1",
+        "meter_cost": 100,
+        "damage_estimate": 346,
+        "proof": "5H donne +10, 5M démarre à 10: lien juste. Annulation sur première frame active de 5M vers U1 à 9 frames, inférieur aux 23 frames de hitstun de 5M.",
+        "range": "Coup lourd au contact; recul plafonné pour que 5M atteigne.",
+        "status": "Lien temporel vérifié; collision et portée de super à vérifier en moteur",
+        "meter_cost_label": "Coût de jauge, hors munition ou ressource du coup final",
+        "action_resource": "Jauge comprise dans le coût; aucune munition supplémentaire"
+      }
+    ],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "dom",
+    "name": "Dominic Santiago",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "Dom relève un casque dans les gravats puis le repose.",
+    "intro_line_original": "Je ne laisse personne derrière cette ligne.",
+    "rival_id": "skorge",
+    "rival_scene": "Skorge coupe la retraite; Dom avance pour offrir une fenêtre à son escouade.",
+    "ending": "Dom compte les survivants à l’abri. Le dernier siège du transport reste réservé à celui qui manque.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "anya",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "theron",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "lizzie",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "paduk",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "reyna",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "skorge",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "Skorge coupe la retraite; Dom avance pour offrir une fenêtre à son escouade.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_brumak",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "myrrah",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [
+      {
+        "id": "dom_combo_01",
+        "notation": "2L > 5L xx S1",
+        "meter_cost": 0,
+        "damage_estimate": 143,
+        "proof": "2L donne +6, 5L démarre à 6: lien juste. Annulation sur première frame active de 5L vers S1 à 11 frames, inférieur aux 18 frames de hitstun de 5L.",
+        "range": "Au contact et centre écran; trajet de projectile nul ou inclus dans S1.",
+        "status": "Lien temporel vérifié; collision, recul et hitboxes à vérifier en moteur",
+        "meter_cost_label": "Coût de jauge, hors munition ou ressource du coup final",
+        "action_resource": "1 munition"
+      },
+      {
+        "id": "dom_combo_02",
+        "notation": "5H > 5M xx U1",
+        "meter_cost": 100,
+        "damage_estimate": 342,
+        "proof": "5H donne +10, 5M démarre à 10: lien juste. Annulation sur première frame active de 5M vers U1 à 8 frames, inférieur aux 23 frames de hitstun de 5M.",
+        "range": "Coup lourd au contact; recul plafonné pour que 5M atteigne.",
+        "status": "Lien temporel vérifié; collision et portée de super à vérifier en moteur",
+        "meter_cost_label": "Coût de jauge, hors munition ou ressource du coup final",
+        "action_resource": "Jauge comprise dans le coût; aucune munition supplémentaire"
+      }
+    ],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "baird",
+    "name": "Damon Baird",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "Baird démonte un déclencheur défectueux sans quitter l’adversaire des yeux.",
+    "intro_line_original": "Laisse-moi deviner. Encore un problème de conception.",
+    "rival_id": "ukkon",
+    "rival_scene": "Ukkon réclame le terrain; Baird détruit un dispositif avant de répondre.",
+    "ending": "Baird rétablit un relais avec des pièces récupérées, puis efface le plan de sa démonstration.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "skorge",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "del",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "tai",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "gabe",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "keegan",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "ukkon",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "Ukkon réclame le terrain; Baird détruit un dispositif avant de répondre.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_corpser",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "myrrah",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [
+      {
+        "id": "baird_combo_01",
+        "notation": "2L > 5L xx S1",
+        "meter_cost": 0,
+        "damage_estimate": 135,
+        "proof": "2L donne +6, 5L démarre à 6: lien juste. Annulation sur première frame active de 5L vers S1 à 13 frames, inférieur aux 18 frames de hitstun de 5L.",
+        "range": "Au contact et centre écran; trajet de projectile nul ou inclus dans S1.",
+        "status": "Lien temporel vérifié; collision, recul et hitboxes à vérifier en moteur",
+        "meter_cost_label": "Coût de jauge, hors munition ou ressource du coup final",
+        "action_resource": "1 munition"
+      },
+      {
+        "id": "baird_combo_02",
+        "notation": "5H > 5M xx U1",
+        "meter_cost": 100,
+        "damage_estimate": 338,
+        "proof": "5H donne +10, 5M démarre à 10: lien juste. Annulation sur première frame active de 5M vers U1 à 10 frames, inférieur aux 23 frames de hitstun de 5M.",
+        "range": "Coup lourd au contact; recul plafonné pour que 5M atteigne.",
+        "status": "Lien temporel vérifié; collision et portée de super à vérifier en moteur",
+        "meter_cost_label": "Coût de jauge, hors munition ou ressource du coup final",
+        "action_resource": "Jauge comprise dans le coût; aucune munition supplémentaire"
+      }
+    ],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "cole",
+    "name": "Augustus Cole",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "Cole frappe son épaulière et avance vers la ligne.",
+    "intro_line_original": "Cette ligne-là, on la tient ensemble.",
+    "rival_id": "warden",
+    "rival_scene": "Le Warden abat ses masses; Cole lui indique l’espace qu’il devra traverser.",
+    "ending": "Cole transforme un poste de secours en lieu de rassemblement. Il garde la porte pendant que les autres soufflent.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "theron",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "lizzie",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "paduk",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "reyna",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "deebee",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "warden",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "Le Warden abat ses masses; Cole lui indique l’espace qu’il devra traverser.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_berserker",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "myrrah",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [
+      {
+        "id": "cole_combo_01",
+        "notation": "2L > 5L xx S1",
+        "meter_cost": 0,
+        "damage_estimate": 143,
+        "proof": "2L donne +6, 5L démarre à 6: lien juste. Annulation sur première frame active de 5L vers S1 à 12 frames, inférieur aux 18 frames de hitstun de 5L.",
+        "range": "Au contact et centre écran; trajet de projectile nul ou inclus dans S1.",
+        "status": "Lien temporel vérifié; collision, recul et hitboxes à vérifier en moteur",
+        "meter_cost_label": "Coût de jauge, hors munition ou ressource du coup final",
+        "action_resource": "Aucune"
+      },
+      {
+        "id": "cole_combo_02",
+        "notation": "5H > 5M xx U1",
+        "meter_cost": 100,
+        "damage_estimate": 350,
+        "proof": "5H donne +10, 5M démarre à 10: lien juste. Annulation sur première frame active de 5M vers U1 à 9 frames, inférieur aux 23 frames de hitstun de 5M.",
+        "range": "Coup lourd au contact; recul plafonné pour que 5M atteigne.",
+        "status": "Lien temporel vérifié; collision et portée de super à vérifier en moteur",
+        "meter_cost_label": "Coût de jauge, hors munition ou ressource du coup final",
+        "action_resource": "Jauge comprise dans le coût; aucune munition supplémentaire"
+      }
+    ],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "anya",
+    "name": "Anya Stroud",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "Anya coupe une transmission et prend place au premier rang.",
+    "intro_line_original": "Message reçu. Je suis déjà sur place.",
+    "rival_id": "myrrah",
+    "rival_scene": "Myrrah ordonne le retrait humain; Anya refuse de transmettre cet ordre.",
+    "ending": "Anya rallume une balise d’évacuation et reste jusqu’au passage du dernier véhicule.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "clayton",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "sam",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "mikayla",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "jack",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "grenadier",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "myrrah",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "Myrrah ordonne le retrait humain; Anya refuse de transmettre cet ordre.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_brumak",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "raam",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [
+      {
+        "id": "anya_combo_01",
+        "notation": "2L > 5L xx S1",
+        "meter_cost": 0,
+        "damage_estimate": 135,
+        "proof": "2L donne +6, 5L démarre à 6: lien juste. Annulation sur première frame active de 5L vers S1 à 12 frames, inférieur aux 18 frames de hitstun de 5L.",
+        "range": "Au contact et centre écran; trajet de projectile nul ou inclus dans S1.",
+        "status": "Lien temporel vérifié; collision, recul et hitboxes à vérifier en moteur",
+        "meter_cost_label": "Coût de jauge, hors munition ou ressource du coup final",
+        "action_resource": "1 munition"
+      },
+      {
+        "id": "anya_combo_02",
+        "notation": "5H > 5M xx U1",
+        "meter_cost": 100,
+        "damage_estimate": 338,
+        "proof": "5H donne +10, 5M démarre à 10: lien juste. Annulation sur première frame active de 5M vers U1 à 9 frames, inférieur aux 23 frames de hitstun de 5M.",
+        "range": "Coup lourd au contact; recul plafonné pour que 5M atteigne.",
+        "status": "Lien temporel vérifié; collision et portée de super à vérifier en moteur",
+        "meter_cost_label": "Coût de jauge, hors munition ou ressource du coup final",
+        "action_resource": "Jauge comprise dans le coût; aucune munition supplémentaire"
+      }
+    ],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "kait",
+    "name": "Kait Diaz",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "Kait serre son équipement et observe le mouvement de la ruche au loin.",
+    "intro_line_original": "Je choisis moi-même la direction.",
+    "rival_id": "myrrah",
+    "rival_scene": "Myrrah tente de définir sa place; Kait répond en avançant.",
+    "ending": "Kait referme son carnet de piste. La route qu’elle trace appartient à ceux qui la suivent librement.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "tai",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "gabe",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "keegan",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "swarm_drone",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "baird",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "myrrah",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "Myrrah tente de définir sa place; Kait répond en avançant.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_corpser",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "raam",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [
+      {
+        "id": "kait_combo_01",
+        "notation": "2L > 5L xx S1",
+        "meter_cost": 0,
+        "damage_estimate": 139,
+        "proof": "2L donne +6, 5L démarre à 6: lien juste. Annulation sur première frame active de 5L vers S1 à 11 frames, inférieur aux 18 frames de hitstun de 5L.",
+        "range": "Au contact et centre écran; trajet de projectile nul ou inclus dans S1.",
+        "status": "Lien temporel vérifié; collision, recul et hitboxes à vérifier en moteur",
+        "meter_cost_label": "Coût de jauge, hors munition ou ressource du coup final",
+        "action_resource": "1 munition"
+      },
+      {
+        "id": "kait_combo_02",
+        "notation": "5H > 5M xx U1",
+        "meter_cost": 100,
+        "damage_estimate": 342,
+        "proof": "5H donne +10, 5M démarre à 10: lien juste. Annulation sur première frame active de 5M vers U1 à 8 frames, inférieur aux 23 frames de hitstun de 5M.",
+        "range": "Coup lourd au contact; recul plafonné pour que 5M atteigne.",
+        "status": "Lien temporel vérifié; collision et portée de super à vérifier en moteur",
+        "meter_cost_label": "Coût de jauge, hors munition ou ressource du coup final",
+        "action_resource": "Jauge comprise dans le coût; aucune munition supplémentaire"
+      }
+    ],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "raam",
+    "name": "Général RAAM",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "RAAM entre dans la lumière; les Kryll restent dans son ombre.",
+    "intro_line_original": "La surface cédera.",
+    "rival_id": "marcus",
+    "rival_scene": "Marcus garde le dernier passage; RAAM abaisse sa lame.",
+    "ending": "Dans cette fin alternative, la bannière locuste apparaît sur une place silencieuse; aucune victoire canonique n’est réécrite.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "paduk",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "reyna",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "deebee",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "dom",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "myrrah",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "marcus",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "Marcus garde le dernier passage; RAAM abaisse sa lame.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_berserker",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "kait",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [
+      {
+        "id": "raam_combo_01",
+        "notation": "2L > 5L xx S1",
+        "meter_cost": 0,
+        "damage_estimate": 151,
+        "proof": "2L donne +6, 5L démarre à 6: lien juste. Annulation sur première frame active de 5L vers S1 à 14 frames, inférieur aux 18 frames de hitstun de 5L.",
+        "range": "Au contact et centre écran; trajet de projectile nul ou inclus dans S1.",
+        "status": "Lien temporel vérifié; collision, recul et hitboxes à vérifier en moteur",
+        "meter_cost_label": "Coût de jauge, hors munition ou ressource du coup final",
+        "action_resource": "Aucune"
+      },
+      {
+        "id": "raam_combo_02",
+        "notation": "5H > 5M xx U1",
+        "meter_cost": 100,
+        "damage_estimate": 358,
+        "proof": "5H donne +10, 5M démarre à 10: lien juste. Annulation sur première frame active de 5M vers U1 à 11 frames, inférieur aux 23 frames de hitstun de 5M.",
+        "range": "Coup lourd au contact; recul plafonné pour que 5M atteigne.",
+        "status": "Lien temporel vérifié; collision et portée de super à vérifier en moteur",
+        "meter_cost_label": "Coût de jauge, hors munition ou ressource du coup final",
+        "action_resource": "Jauge comprise dans le coût; aucune munition supplémentaire"
+      }
+    ],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "skorge",
+    "name": "Skorge",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "Skorge fait tourner son bâton sans toucher le sol.",
+    "intro_line_original": "La Horde entend vos pas.",
+    "rival_id": "dom",
+    "rival_scene": "Dom refuse de reculer; le bâton cesse de tourner un instant.",
+    "ending": "Dans cette fin alternative, Skorge rejoint les profondeurs pendant qu’une porte monumentale se referme.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "sid",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "mac",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "ukkon",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "kait",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "theron",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "dom",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "Dom refuse de reculer; le bâton cesse de tourner un instant.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_brumak",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "marcus",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [
+      {
+        "id": "skorge_combo_01",
+        "notation": "2L > 5L xx S1",
+        "meter_cost": 0,
+        "damage_estimate": 139,
+        "proof": "2L donne +6, 5L démarre à 6: lien juste. Annulation sur première frame active de 5L vers S1 à 13 frames, inférieur aux 18 frames de hitstun de 5L.",
+        "range": "Au contact et centre écran; trajet de projectile nul ou inclus dans S1.",
+        "status": "Lien temporel vérifié; collision, recul et hitboxes à vérifier en moteur",
+        "meter_cost_label": "Coût de jauge, hors munition ou ressource du coup final",
+        "action_resource": "Aucune"
+      },
+      {
+        "id": "skorge_combo_02",
+        "notation": "5H > 5M xx U1",
+        "meter_cost": 100,
+        "damage_estimate": 350,
+        "proof": "5H donne +10, 5M démarre à 10: lien juste. Annulation sur première frame active de 5M vers U1 à 10 frames, inférieur aux 23 frames de hitstun de 5M.",
+        "range": "Coup lourd au contact; recul plafonné pour que 5M atteigne.",
+        "status": "Lien temporel vérifié; collision et portée de super à vérifier en moteur",
+        "meter_cost_label": "Coût de jauge, hors munition ou ressource du coup final",
+        "action_resource": "Jauge comprise dans le coût; aucune munition supplémentaire"
+      }
+    ],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "myrrah",
+    "name": "Reine Myrrah",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "Myrrah observe les ruines depuis le bord de l’arène.",
+    "intro_line_original": "Un ordre suffit lorsque chacun connaît sa place.",
+    "rival_id": "anya",
+    "rival_scene": "Anya conteste son ordre de soumission; Myrrah appelle son garde.",
+    "ending": "Dans cette fin alternative, Myrrah contemple une ville conquise. Le tableau reste celui de l’arcade hors continuité.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "lahni",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "warden",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "baird",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "locust_drone",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "fahz",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "anya",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "Anya conteste son ordre de soumission; Myrrah appelle son garde.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_corpser",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "marcus",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [
+      {
+        "id": "myrrah_combo_01",
+        "notation": "2L > 5L xx S1",
+        "meter_cost": 0,
+        "damage_estimate": 135,
+        "proof": "2L donne +6, 5L démarre à 6: lien juste. Annulation sur première frame active de 5L vers S1 à 12 frames, inférieur aux 18 frames de hitstun de 5L.",
+        "range": "Au contact et centre écran; trajet de projectile nul ou inclus dans S1.",
+        "status": "Lien temporel vérifié; collision, recul et hitboxes à vérifier en moteur",
+        "meter_cost_label": "Coût de jauge, hors munition ou ressource du coup final",
+        "action_resource": "1 munition"
+      },
+      {
+        "id": "myrrah_combo_02",
+        "notation": "5H > 5M xx U1",
+        "meter_cost": 100,
+        "damage_estimate": 342,
+        "proof": "5H donne +10, 5M démarre à 10: lien juste. Annulation sur première frame active de 5M vers U1 à 10 frames, inférieur aux 23 frames de hitstun de 5M.",
+        "range": "Coup lourd au contact; recul plafonné pour que 5M atteigne.",
+        "status": "Lien temporel vérifié; collision et portée de super à vérifier en moteur",
+        "meter_cost_label": "Coût de jauge, hors munition ou ressource du coup final",
+        "action_resource": "Jauge comprise dans le coût; aucune munition supplémentaire"
+      }
+    ],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "locust_drone",
+    "name": "Drone locuste",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "Le Drone ajuste son Hammerburst dans les gravats.",
+    "intro_line_original": "La voie est à nous.",
+    "rival_id": "baird",
+    "rival_scene": "Baird neutralise son accès; le Drone se tourne vers lui.",
+    "ending": "Le Drone rejoint sa colonne et disparaît dans une brèche. Le statut individuel reste celui d’un soldat anonyme.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "jack",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "grenadier",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "raam",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "jd",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "hoffman",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "baird",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "Baird neutralise son accès; le Drone se tourne vers lui.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_berserker",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "marcus",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [
+      {
+        "id": "locust_drone_combo_01",
+        "notation": "2L > 5L xx S1",
+        "meter_cost": 0,
+        "damage_estimate": 139,
+        "proof": "2L donne +6, 5L démarre à 6: lien juste. Annulation sur première frame active de 5L vers S1 à 12 frames, inférieur aux 18 frames de hitstun de 5L.",
+        "range": "Au contact et centre écran; trajet de projectile nul ou inclus dans S1.",
+        "status": "Lien temporel vérifié; collision, recul et hitboxes à vérifier en moteur",
+        "meter_cost_label": "Coût de jauge, hors munition ou ressource du coup final",
+        "action_resource": "1 munition"
+      },
+      {
+        "id": "locust_drone_combo_02",
+        "notation": "5H > 5M xx U1",
+        "meter_cost": 100,
+        "damage_estimate": 342,
+        "proof": "5H donne +10, 5M démarre à 10: lien juste. Annulation sur première frame active de 5M vers U1 à 10 frames, inférieur aux 23 frames de hitstun de 5M.",
+        "range": "Coup lourd au contact; recul plafonné pour que 5M atteigne.",
+        "status": "Lien temporel vérifié; collision et portée de super à vérifier en moteur",
+        "meter_cost_label": "Coût de jauge, hors munition ou ressource du coup final",
+        "action_resource": "Jauge comprise dans le coût; aucune munition supplémentaire"
+      }
+    ],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "kantus",
+    "name": "Kantus",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "Le Kantus entame un chant bref au pied d’une porte.",
+    "intro_line_original": "La Horde se relève.",
+    "rival_id": "gabe",
+    "rival_scene": "Gabe coupe les lignes de soutien; le Kantus interrompt son rite.",
+    "ending": "Le Kantus rassemble les survivants de sa cohorte dans une chambre souterraine.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "swarm_drone",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "cole",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "myrrah",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "fahz",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "dizzy",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "gabe",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "Gabe coupe les lignes de soutien; le Kantus interrompt son rite.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_brumak",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "marcus",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [
+      {
+        "id": "kantus_combo_01",
+        "notation": "2L > 5L xx S1",
+        "meter_cost": 0,
+        "damage_estimate": 131,
+        "proof": "2L donne +6, 5L démarre à 6: lien juste. Annulation sur première frame active de 5L vers S1 à 12 frames, inférieur aux 18 frames de hitstun de 5L.",
+        "range": "Au contact et centre écran; trajet de projectile nul ou inclus dans S1.",
+        "status": "Lien temporel vérifié; collision, recul et hitboxes à vérifier en moteur",
+        "meter_cost_label": "Coût de jauge, hors munition ou ressource du coup final",
+        "action_resource": "1 munition"
+      },
+      {
+        "id": "kantus_combo_02",
+        "notation": "5H > 5M xx U1",
+        "meter_cost": 100,
+        "damage_estimate": 334,
+        "proof": "5H donne +10, 5M démarre à 10: lien juste. Annulation sur première frame active de 5M vers U1 à 11 frames, inférieur aux 23 frames de hitstun de 5M.",
+        "range": "Coup lourd au contact; recul plafonné pour que 5M atteigne.",
+        "status": "Lien temporel vérifié; collision et portée de super à vérifier en moteur",
+        "meter_cost_label": "Coût de jauge, hors munition ou ressource du coup final",
+        "action_resource": "Jauge comprise dans le coût; aucune munition supplémentaire"
+      }
+    ],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "theron",
+    "name": "Garde Theron",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "Le Garde Theron tend son arc et immobilise sa visée.",
+    "intro_line_original": "Le passage est fermé.",
+    "rival_id": "mikayla",
+    "rival_scene": "Mikayla cherche un angle; le Theron répond par un nouveau point de garde.",
+    "ending": "Le Theron reprend son poste devant une porte close, dans une vignette indépendante de l’issue des campagnes.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "dom",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "raam",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "jd",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "hoffman",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "sofia",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "mikayla",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "Mikayla cherche un angle; le Theron répond par un nouveau point de garde.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_corpser",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "marcus",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [
+      {
+        "id": "theron_combo_01",
+        "notation": "2L > 5L xx S1",
+        "meter_cost": 0,
+        "damage_estimate": 143,
+        "proof": "2L donne +6, 5L démarre à 6: lien juste. Annulation sur première frame active de 5L vers S1 à 14 frames, inférieur aux 18 frames de hitstun de 5L.",
+        "range": "Au contact et centre écran; trajet de projectile nul ou inclus dans S1.",
+        "status": "Lien temporel vérifié; collision, recul et hitboxes à vérifier en moteur",
+        "meter_cost_label": "Coût de jauge, hors munition ou ressource du coup final",
+        "action_resource": "1 flèche"
+      },
+      {
+        "id": "theron_combo_02",
+        "notation": "5H > 5M xx U1",
+        "meter_cost": 100,
+        "damage_estimate": 346,
+        "proof": "5H donne +10, 5M démarre à 10: lien juste. Annulation sur première frame active de 5M vers U1 à 11 frames, inférieur aux 23 frames de hitstun de 5M.",
+        "range": "Coup lourd au contact; recul plafonné pour que 5M atteigne.",
+        "status": "Lien temporel vérifié; collision et portée de super à vérifier en moteur",
+        "meter_cost_label": "Coût de jauge, hors munition ou ressource du coup final",
+        "action_resource": "Jauge comprise dans le coût; aucune munition supplémentaire"
+      }
+    ],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "jd",
+    "name": "JD Fenix",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "JD vérifie la zone derrière sa cible avant de lever son arme.",
+    "intro_line_original": "Je prends la responsabilité du tir.",
+    "rival_id": "warden",
+    "rival_scene": "Le Warden avance entre deux débris; JD déplace sa balise.",
+    "ending": "JD démonte les marqueurs du champ de bataille et consigne chaque décision avant le retour de l’escouade.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "cole",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "locust_drone",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "clayton",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "sam",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "mikayla",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "warden",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "Le Warden avance entre deux débris; JD déplace sa balise.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_berserker",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "myrrah",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "del",
+    "name": "Del Walker",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "Del pose un repère, puis vérifie que la sortie reste libre.",
+    "intro_line_original": "On garde une issue. Toujours.",
+    "rival_id": "locust_drone",
+    "rival_scene": "Un Drone détruit sa première balise; Del choisit une nouvelle position.",
+    "ending": "Del utilise les pièces sauvées pour rétablir un poste de communication pour les réfugiés.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "raam",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "fahz",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "dizzy",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "sid",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "mac",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "locust_drone",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "Un Drone détruit sa première balise; Del choisit une nouvelle position.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_brumak",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "myrrah",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "fahz",
+    "name": "Fahz Chutani",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "Fahz s’arrête une seconde pour jauger la distance.",
+    "intro_line_original": "Bouge encore. J’apprends vite.",
+    "rival_id": "theron",
+    "rival_scene": "Un Theron fait monter la tension de son arc; Fahz attend le signal.",
+    "ending": "Fahz laisse le premier transport aux blessés et rejoint la garde arrière sans commentaire.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "kantus",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "hoffman",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "sofia",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "lahni",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "warden",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "theron",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "Un Theron fait monter la tension de son arc; Fahz attend le signal.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_corpser",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "myrrah",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "clayton",
+    "name": "Clayton Carmine",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "Clayton vérifie son casque et se place devant la ligne.",
+    "intro_line_original": "Essayez de me faire bouger.",
+    "rival_id": "grenadier",
+    "rival_scene": "Le Grenadier charge; Clayton avance d’un pas au lieu de céder.",
+    "ending": "Clayton aligne plusieurs casques sur un établi, puis en prend un seul pour repartir.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "del",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "dizzy",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "sid",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "mac",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "ukkon",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "grenadier",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "Le Grenadier charge; Clayton avance d’un pas au lieu de céder.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_berserker",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "myrrah",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "lizzie",
+    "name": "Lizzie Carmine",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "Lizzie saute de la cabine d’un véhicule arrêté.",
+    "intro_line_original": "La route est fermée. Je vais la rouvrir.",
+    "rival_id": "warden",
+    "rival_scene": "Le Warden bloque le convoi; Lizzie prend ses distances et appelle son matériel.",
+    "ending": "Dans cette fin alternative hors continuité, Lizzie remet le moteur en route et ramène son convoi à l’abri.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "hoffman",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "sofia",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "lahni",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "swarm_drone",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "baird",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "warden",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "Le Warden bloque le convoi; Lizzie prend ses distances et appelle son matériel.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_brumak",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "myrrah",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "hoffman",
+    "name": "Victor Hoffman",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "Hoffman referme une carte et regarde l’horizon.",
+    "intro_line_original": "Un ordre clair. Une sortie pour chacun.",
+    "rival_id": "raam",
+    "rival_scene": "RAAM refuse de céder le passage; Hoffman ordonne le repli des civils avant d’attaquer.",
+    "ending": "Hoffman marque une nouvelle route sur la carte et laisse une équipe contrôler les issues.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "paduk",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "reyna",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "deebee",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "marcus",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "kait",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "raam",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "RAAM refuse de céder le passage; Hoffman ordonne le repli des civils avant d’attaquer.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_corpser",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "myrrah",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "tai",
+    "name": "Tai Kaliso",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "Tai pose une main sur sa poitrine avant de saisir son arme.",
+    "intro_line_original": "Je connais le poids de cette ligne.",
+    "rival_id": "skorge",
+    "rival_scene": "Skorge déploie son bâton; Tai lui oppose une posture immobile.",
+    "ending": "Dans cette fin alternative, Tai dépose un signe de passage près de l’abri, puis rejoint ceux qu’il a protégés.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "sid",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "mac",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "ukkon",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "cole",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "kantus",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "skorge",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "Skorge déploie son bâton; Tai lui oppose une posture immobile.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_berserker",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "myrrah",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "dizzy",
+    "name": "Dizzy Wallin",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "Dizzy regarde une roue abîmée et remonte son chapeau.",
+    "intro_line_original": "Vous discuterez après le démarrage.",
+    "rival_id": "raam",
+    "rival_scene": "RAAM approche du véhicule; Dizzy se place entre lui et la cabine.",
+    "ending": "Dizzy remet une plaque sur le moteur et transforme le véhicule en transport pour les survivants.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "lahni",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "warden",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "dom",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "skorge",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "del",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "raam",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "RAAM approche du véhicule; Dizzy se place entre lui et la cabine.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_brumak",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "myrrah",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "sam",
+    "name": "Samantha Byrne",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "Sam passe en revue les fenêtres qui bordent l’arène.",
+    "intro_line_original": "Un angle libre. Ça me suffit.",
+    "rival_id": "theron",
+    "rival_scene": "Le Theron lui refuse une ligne de tir; Sam change de position.",
+    "ending": "Sam transmet un itinéraire dégagé et repart vérifier elle-même le dernier croisement.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "jack",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "grenadier",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "anya",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "kantus",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "lizzie",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "theron",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "Le Theron lui refuse une ligne de tir; Sam change de position.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_corpser",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "myrrah",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "paduk",
+    "name": "Garron Paduk",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "Paduk observe deux drapeaux tombés dans les débris.",
+    "intro_line_original": "Je ne combats pas pour vos décorations.",
+    "rival_id": "myrrah",
+    "rival_scene": "Myrrah exige un serment; Paduk lui montre l’issue qu’il défendra.",
+    "ending": "Paduk arrache un panneau militaire inutile et le remplace par une indication vers le refuge.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "swarm_drone",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "baird",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "locust_drone",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "fahz",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "dizzy",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "myrrah",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "Myrrah exige un serment; Paduk lui montre l’issue qu’il défendra.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_berserker",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "raam",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "sofia",
+    "name": "Sofia Hendrik",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "Sofia vérifie son arme et rejoint le point de rassemblement.",
+    "intro_line_original": "Le protocole commence par ramener les vivants.",
+    "rival_id": "locust_drone",
+    "rival_scene": "Un Drone coupe la liaison; Sofia passe de l’observation à l’assaut.",
+    "ending": "Sofia consigne le rapport de mission puis inscrit les noms des personnes évacuées avant les objectifs détruits.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "marcus",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "kait",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "jd",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "hoffman",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "gabe",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "locust_drone",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "Un Drone coupe la liaison; Sofia passe de l’observation à l’assaut.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_brumak",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "myrrah",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "gabe",
+    "name": "Gabe Diaz",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "Gabe évalue la ligne adverse avant de faire signe à son équipe.",
+    "intro_line_original": "Une ouverture suffit. Préparez-vous.",
+    "rival_id": "ukkon",
+    "rival_scene": "Ukkon présente son nouveau dispositif; Gabe ordonne de viser son soutien.",
+    "ending": "Gabe distribue le matériel récupéré aux survivants et repart avant que le poste soit devenu confortable.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "cole",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "locust_drone",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "fahz",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "dizzy",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "mikayla",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "ukkon",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "Ukkon présente son nouveau dispositif; Gabe ordonne de viser son soutien.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_corpser",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "myrrah",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "sid",
+    "name": "Sid Redburn",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "Sid ajuste ses sangles et avance sans cérémonial.",
+    "intro_line_original": "Cette fois, on termine la mission.",
+    "rival_id": "ukkon",
+    "rival_scene": "Ukkon tente de retenir son attention; Sid garde son arme dans l’axe.",
+    "ending": "Sid range un dossier fermé et assure personnellement la garde de nuit.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "raam",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "jd",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "hoffman",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "sofia",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "keegan",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "ukkon",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "Ukkon tente de retenir son attention; Sid garde son arme dans l’axe.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_berserker",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "myrrah",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "mikayla",
+    "name": "Mikayla Dorn",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "Mikayla trouve un angle qui couvre l’accès au refuge.",
+    "intro_line_original": "Tu ne passeras pas vers les miens.",
+    "rival_id": "theron",
+    "rival_scene": "Le Theron met sa ligne en joue; Mikayla quitte volontairement son premier poste.",
+    "ending": "Mikayla rend aux civils une rue praticable et forme une nouvelle sentinelle à surveiller l’horizon.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "kantus",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "lizzie",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "paduk",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "lahni",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "warden",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "theron",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "Le Theron met sa ligne en joue; Mikayla quitte volontairement son premier poste.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_brumak",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "myrrah",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "reyna",
+    "name": "Reine Reyna",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "La Reine Reyna laisse ses appendices occuper le bord de l’arène.",
+    "intro_line_original": "La ruche n’oublie aucune voix.",
+    "rival_id": "kait",
+    "rival_scene": "Kait refuse son appel; Reyna resserre l’espace autour du passage.",
+    "ending": "Dans cette fin alternative, une pulsation traverse la ruche. Aucun destin canonique de Kait n’est imposé par cet ending.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "fahz",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "dizzy",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "sid",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "jack",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "grenadier",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "kait",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "Kait refuse son appel; Reyna resserre l’espace autour du passage.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_corpser",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "marcus",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "lahni",
+    "name": "Lahni Kaliso",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "Lahni teste brièvement sa lame avant de la baisser.",
+    "intro_line_original": "Je passe en premier. Restez près de moi.",
+    "rival_id": "warden",
+    "rival_scene": "Le Warden croise ses masses; Lahni mesure l’espace entre ses bras.",
+    "ending": "Lahni retrouve Scorpio au point d’extraction et coupe sa charge électrique avant d’aider les blessés.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "lizzie",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "paduk",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "reyna",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "swarm_drone",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "baird",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "warden",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "Le Warden croise ses masses; Lahni mesure l’espace entre ses bras.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_berserker",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "myrrah",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "keegan",
+    "name": "Keegan",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "Keegan compte les dernières munitions disponibles.",
+    "intro_line_original": "Il reste de quoi ouvrir la sortie.",
+    "rival_id": "kantus",
+    "rival_scene": "Le Kantus soutient la ligne adverse; Keegan prépare une rupture de ses ressources.",
+    "ending": "Keegan partage les réserves restantes avant de prendre sa propre part.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "sam",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "mikayla",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "deebee",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "marcus",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "kait",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "kantus",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "Le Kantus soutient la ligne adverse; Keegan prépare une rupture de ses ressources.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_brumak",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "myrrah",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "mac",
+    "name": "Mac",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "Mac regarde une photo puis la range avant le combat.",
+    "intro_line_original": "Cette fois, la barrière tient.",
+    "rival_id": "swarm_drone",
+    "rival_scene": "Un Drone de l’Essaim avance; Mac oriente son bouclier pour couvrir la sortie.",
+    "ending": "Mac observe le départ du transport, puis abaisse enfin sa barrière au milieu du silence.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "sofia",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "lahni",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "ukkon",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "cole",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "locust_drone",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "swarm_drone",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "Un Drone de l’Essaim avance; Mac oriente son bouclier pour couvrir la sortie.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_corpser",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "myrrah",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "jack",
+    "name": "JACK",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "JACK déploie ses outils et affiche un signal de diagnostic.",
+    "intro_line_original": "Signal sonore original sans imitation de voix.",
+    "rival_id": "deebee",
+    "rival_scene": "Le DeeBee verrouille son protocole; JACK dévie son premier capteur.",
+    "ending": "JACK recharge sur un établi pendant que les voyants d’un poste de secours se rallument.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "mikayla",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "warden",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "dom",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "raam",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "jd",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "deebee",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "Le DeeBee verrouille son protocole; JACK dévie son premier capteur.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_berserker",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "myrrah",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "deebee",
+    "name": "DeeBee",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "Le DeeBee active ses capteurs et valide son périmètre.",
+    "intro_line_original": "Périmètre contesté. Intervention en cours.",
+    "rival_id": "jack",
+    "rival_scene": "JACK tente de perturber sa routine; le DeeBee change de mode de surveillance.",
+    "ending": "Le DeeBee classe la zone comme accessible et rejoint une colonne de réparation.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "keegan",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "grenadier",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "anya",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "kantus",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "clayton",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "jack",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "JACK tente de perturber sa routine; le DeeBee change de mode de surveillance.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_brumak",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "myrrah",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "warden",
+    "name": "Warden",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "Le Warden fait glisser une masse sur le sol.",
+    "intro_line_original": "La ruche garde ce seuil.",
+    "rival_id": "cole",
+    "rival_scene": "Cole avance sur sa ligne; le Warden relève ses deux armes.",
+    "ending": "Le Warden reprend sa place devant l’entrée de la ruche, comme un poste de garde redevenu silencieux.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "swarm_drone",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "anya",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "locust_drone",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "fahz",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "dizzy",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "cole",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "Cole avance sur sa ligne; le Warden relève ses deux armes.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_corpser",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "marcus",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "swarm_drone",
+    "name": "Drone de l’Essaim",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "Le Drone de l’Essaim émerge d’un couvert de débris.",
+    "intro_line_original": "La prise revient à la ruche.",
+    "rival_id": "kait",
+    "rival_scene": "Kait protège le corridor; le Drone tente de la contourner.",
+    "ending": "Le Drone rejoint une procession dans les profondeurs; l’ending montre sa fonction de troupe.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "dom",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "skorge",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "jd",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "hoffman",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "sofia",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "kait",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "Kait protège le corridor; le Drone tente de la contourner.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_berserker",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "marcus",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "ukkon",
+    "name": "Ukkon",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "Ukkon inspecte un dispositif derrière son écran de protection.",
+    "intro_line_original": "Chaque résistance apporte une donnée.",
+    "rival_id": "gabe",
+    "rival_scene": "Gabe détruit la ligne d’alimentation; Ukkon libère son dernier spécimen.",
+    "ending": "Dans cette fin alternative, Ukkon referme un carnet de résultats et disparaît dans son laboratoire.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "anya",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "locust_drone",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "fahz",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "dizzy",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "mikayla",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "gabe",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "Gabe détruit la ligne d’alimentation; Ukkon libère son dernier spécimen.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_brumak",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "marcus",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  },
+  {
+    "character_id": "grenadier",
+    "name": "Grenadier locuste",
+    "continuity": "Arcade hors continuité; dialogues, rivalités de parcours et fins originaux pour cette adaptation",
+    "intro_scene": "Le Grenadier frappe le flanc de son Gnasher.",
+    "intro_line_original": "Plus près.",
+    "rival_id": "clayton",
+    "rival_scene": "Clayton refuse de quitter sa position; le Grenadier prépare une charge.",
+    "ending": "Le Grenadier rassemble son groupe autour d’une brèche fraîche et repart vers la ligne suivante.",
+    "reward": "Illustration de fin et entrée de galerie; aucune amélioration de statistiques",
+    "route": [
+      {
+        "step": 1,
+        "kind": "Duel",
+        "opponent_id": "skorge",
+        "stage_requirement": "Couloir évacué",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 2,
+        "kind": "Duel",
+        "opponent_id": "jd",
+        "stage_requirement": "Place de la ville",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 3,
+        "kind": "Duel",
+        "opponent_id": "tai",
+        "stage_requirement": "Dépôt en ruines",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 4,
+        "kind": "Duel",
+        "opponent_id": "gabe",
+        "stage_requirement": "Ligne de fortification",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 5,
+        "kind": "Duel",
+        "opponent_id": "keegan",
+        "stage_requirement": "Accès souterrain",
+        "intro": "Portrait court et nom de l’adversaire",
+        "rules": "Deux rounds gagnants, pas de danger de décor"
+      },
+      {
+        "step": 6,
+        "kind": "Rival",
+        "opponent_id": "clayton",
+        "stage_requirement": "Arène associée au rival",
+        "intro": "Clayton refuse de quitter sa position; le Grenadier prépare une charge.",
+        "rules": "Introduction dialoguée puis deux rounds gagnants"
+      },
+      {
+        "step": 7,
+        "kind": "Boss Battle",
+        "opponent_id": "boss_corpser",
+        "stage_requirement": "Arène boss dimensionnée",
+        "intro": "Arrivée dédiée et transition de caméra",
+        "rules": "Phases PvE; reprise au boss après défaite"
+      },
+      {
+        "step": 8,
+        "kind": "Duel final",
+        "opponent_id": "marcus",
+        "stage_requirement": "Arène finale neutralisée",
+        "intro": "Confrontation de fin hors continuité",
+        "rules": "Deux rounds gagnants; finale alternative de l’arcade"
+      }
+    ],
+    "combos": [],
+    "rival_nature": "Rivalité choisie pour cette adaptation; ne prouve pas une rencontre dans le récit officiel"
+  }
+]

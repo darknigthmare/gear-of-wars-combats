@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-19",
+  "method": "built-in image_gen",
+  "attempts": [
+    {
+      "id": "marcus",
+      "transparent": true,
+      "prompt": "Use case: stylized-concept. Asset type: individual high resolution 2D fighting game character sprite for Gears of War Combats. Primary request: exactly ONE full-body Marcus Fenix, his original Gears of War 1 / Ultimate Edition COG Delta Squad armor and face, seeking close source fidelity with no redesign. Broad extremely muscular human proportions, short black hair covered by black bandana tied behind head, rugged square face and short dark facial stubble, scarred weathered skin, no helmet. Heavy dark charcoal blue-grey COG chest and oversized shoulder armor with small blue illuminated strips, thick exposed arms, fingerless black gloves, bulky armored trousers and heavy boots. Correct Mark 2 Lancer assault rifle with distinctive underslung chainsaw bayonet held in both hands low-ready, aimed toward screen right. Composition: full character isolated, sole figure, from boots to top of head entirely visible, profile fighting pose facing RIGHT with a slight three-quarter chest turn for readability, camera level, no exaggerated foreshortening. Style: extremely detailed clean 2D-UHD painted sprite with sharply defined silhouette, realistic game proportions, worn metal, leather, cloth, consistent neutral studio light, original game's grounded gritty materials. Transparent background with clean alpha, no environment, no floor, no cast shadow outside character, no labels, no UI, no logos, no text, no contact sheet, no duplicate poses, no extra people, no gore. Preserve specific Marcus identity and original armor, do not mix older bearded Gears 4/5 version or generic science fiction armor.",
+      "status": "blocked_by_image_system",
+      "note": "No asset delivered"
+    },
+    {
+      "id": "raam",
+      "transparent": true,
+      "prompt": "Use case: stylized-concept. Asset type: one individual high resolution 2D fighting game character sprite. Exactly ONE General RAAM from Gears of War 1 / Ultimate Edition, faithful to his actual canonical appearance: enormous pale grey Locust general with characteristic bald ridged head, deeply set fierce small eyes, brutal ridged face, very thick neck and huge musculature, heavy black segmented armor with bold heavy pauldrons, ribbed dark metal cuirass and original red-brown details, layered heavy greaves and armored feet. Wields the iconic long broad serrated combat knife low in the right hand; no gun, no invented weapons. Full-body standing combat-ready pose facing screen LEFT, slight three-quarter torso but readable flat side-view fighting silhouette, massive hunched predatory posture. All feet, head and blade visible with generous margin. Detailed realistic Gears source materials rendered as premium clean 2D-UHD sprite, crisp alpha edge, precise anatomy, textured aged armor, no anime face, no redesign, no replacement with Berserker or Skorge. True transparent background, no floor, no dramatic scene, no shadows outside sprite, no floating particles or kryll obscuring silhouette, no other figure, no multiple frames, no text, no UI, no logos, no blood.",
+      "status": "blocked_by_image_system",
+      "note": "No asset delivered"
+    },
+    {
+      "id": "berserker",
+      "transparent": true,
+      "prompt": "Use case: stylized-concept. Asset type: individual giant boss sprite for a 2D fighting game. Exactly ONE female Locust Berserker from original Gears of War 1, highly faithful original design, not Gears 5 Matriarch and not Lambent Berserker. Huge hulking blind humanoid monster, hairless broad domed ridged head, tiny sunken blind eyes, broad heavy jaws, massive long arms, enormous hunched upper back, tough leathery grey-brown heavily scarred armored hide with layered hide ridges and dark skin creases, no horns, no bright glowing organs, no orange pustules, no tentacles, no weapons, no clothing or synthetic armor except the source-like dark segmented hide anatomy. Distinct massive clawed hands and thick heavy feet, very broad muscular torso. Full-body side profile boss combat idle facing LEFT, head lowered, arms hanging low and flexed ready to charge. Both feet and hands fully in frame, no perspective exaggeration, readable silhouette for a side view game. Premium detailed 2D-UHD painted sprite, realistic gritty source creature detail, neutral directional lighting, crisp silhouette and clean true alpha. Exactly one creature, transparent background, no environment, no floor or external shadow, no labels, no UI, no logo, no sprite sheet, no extra limbs, no gore.",
+      "status": "blocked_by_image_system",
+      "note": "No asset delivered"
+    },
+    {
+      "id": "stage_ephyra",
+      "transparent": false,
+      "prompt": "Use case: stylized-concept. Asset type: single stage environment master concept for a side-view 2D fighting game based faithfully on Gears of War 1 Ephyra architecture. Wide horizontal composition, one continuous unoccupied battlefield in a devastated monumental urban courtyard of Ephyra, ornate stone civic buildings, broken columns, weathered Gothic and neoclassical facades with arched windows and ruined pediments, grey ash stone, blackened war damage, cold blue grey haze, warm faint firelight far back. Strict fighting game camera at human chest height, horizontal level ground across full width, flat playable plane in the lowest quarter, readable large open fighting area, background buildings clearly separated in depth for later parallax, distant skyline smoky under overcast sky. Left broken arch and right damaged classical building frame stage without covering central gameplay space. Realistic finely painted 2D-UHD game background, grim original Gears 1 atmosphere, no redesigned futuristic skyscrapers, no excessive saturated colors. Empty arena: absolutely no characters, no monsters, no vehicles blocking ground, no text, no interface, no logos, no collage, no panels. This is a complete master concept image, not a set of separate parallax layers.",
+      "status": "generated",
+      "note": "Master concept, not separate parallax layers"
+    },
+    {
+      "id": "marcus_reference",
+      "transparent": false,
+      "prompt": "An individual reference illustration of Marcus Fenix as he appears in Gears of War Ultimate Edition. One full-length adult man standing calmly in a neutral pose with his arms relaxed at his sides, hands empty. Black bandana, square face with dark facial stubble, short black hair, original dark blue-grey COG armor with blue lights, muscular bare arms, black gloves and heavy boots. Preserve his recognizable face, armor geometry and materials. Detailed polished painted game character art, full body entirely visible, slight side angle facing right. Plain light grey studio background. No weapons, no action, no injury, no battle scene, no text, no other characters. This is a costume and anatomy reference.",
+      "status": "generated",
+      "note": "Neutral reference or environment master; canon comparison pending"
+    },
+    {
+      "id": "kait_reference",
+      "transparent": false,
+      "prompt": "An individual costume reference illustration of Kait Diaz as she appears in her winter outfit in Gears 5. One full-length adult woman standing calmly at a slight side angle facing right, arms relaxed, hands empty. Faithful recognizable Kait face, brown hair under her winter cap, blue-grey COG winter armor, thick winter fabric layers, scarf and weathered practical materials, gloves, armored trousers and boots, her canonical Gears 5 winter silhouette. Realistic polished painted game character art with accurate proportions and detailed textile and armor surfaces. Whole body fully visible on plain light grey studio background. No weapons, no injuries, no action scene, no other people, no text. This is a neutral costume reference, not a combat scene.",
+      "status": "generated",
+      "note": "Neutral reference or environment master; canon comparison pending"
+    },
+    {
+      "id": "stage_hollow",
+      "transparent": false,
+      "prompt": "A wide empty side-view 2D game arena environment based on the Hollow caverns and Locust architecture of Gears of War 2. Huge subterranean cavern, dark stone ribbed arches and ancient monumental carved Locust structures in the distance, warm amber imulsion glow in far trenches behind the playable area, moody cool limestone foreground, hanging rock formations, atmospheric depth. The entire lower quarter is a flat level uninterrupted broad stone platform for a side-view game, no hazardous liquids on playable floor. Distinct distant, middle, and foreground silhouettes, realistic detailed painted game background, restrained colors and readable central space. One continuous 16:9 landscape composition. No characters, no creatures, no weapons, no violence, no interface, no lettering, no logos. A master concept background, not separate layers.",
+      "status": "generated",
+      "note": "Neutral reference or environment master; canon comparison pending"
+    },
+    {
+      "id": "marcus_neutral_cutout",
+      "transparent": true,
+      "source_asset": "assets/marcus_reference.png",
+      "operation_summary": "Détourage de la pose neutre existante avec conservation de la silhouette et suppression du fond gris.",
+      "status": "generated",
+      "note": "Export dérivé : une pose, fidélité artistique à valider, pas un cycle d’animation"
+    },
+    {
+      "id": "kait_neutral_cutout",
+      "transparent": true,
+      "source_asset": "assets/kait_reference.png",
+      "operation_summary": "Détourage de la pose neutre existante avec conservation de la silhouette et suppression du fond gris.",
+      "status": "generated",
+      "note": "Export dérivé : une pose, fidélité artistique à valider, pas un cycle d’animation"
+    }
+  ]
+}

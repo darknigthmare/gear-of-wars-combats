@@ -1,0 +1,17 @@
+{
+  "id": "lahni",
+  "name": "Lahni Kaliso",
+  "prompt": "Lahni Kaliso in her standard Gears 5 Hivebusters Scorpio campaign outfit, a strong athletic adult woman with warm tan skin, her characteristic dark-blond dreadlocks gathered into a high tied top section with loose locks behind, and the original fine facial and upper-arm tattoos. Worn olive cropped Scorpio armored vest with two circular upper fittings, dark webbing, blue shoulder indicator bars and the small triangular yellow unit patch. Bare muscular upper arms, a narrow exposed band of abdomen, thick wrapped cloth forearm guards and fingerless gloves. Brown and olive patched cargo trousers, rugged belt pouches, diagonal blue cloth at the waist, practical knee armor and sturdy worn boots. Preserve her distinctive original face and tattoo arrangement; do not turn her into a generic shaved-head soldier or add a Brash Brigade uniform. Her hands are empty and all ability effects are inactive. Create exactly one adult fictional character, full body from the top of the head to the soles of both boots, in a calm neutral standing pose with empty relaxed hands and arms separated slightly from the torso. Three-quarter view facing screen right, close enough to a lateral view to read clearly as a 2D fighting-game character. Preserve anatomical left/right asymmetries when changing the view; do not simply mirror them. Realistic painted 2D character illustration with UHD-quality material detail, natural anatomy and a crisp clean silhouette. A fully transparent RGBA background, no scenery, floor, base, cast shadow outside the body, vignette, lettering, captions, logos, UI, borders, extra figures or alternate views. No held or slung weapons. Leave clear transparent padding around every extremity; no cropping.",
+  "source_game": "Gears 5 Hivebusters",
+  "source_urls": [
+    "https://news.xbox.com/en-us/2020/12/08/gears-5-hivebusters-arrives-december-15/",
+    "https://www.gearsofwar.com/en-us/news/hivebusters/",
+    "https://www.gearsofwar.com/en-us/news/hivebusters-graphic-novel-available-now/",
+    "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/08/Hivebuster_Bios_Lahni_1080x1080-5f443f1966f5b-69cb11337f94d.png",
+    "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/12/hivebusters-keyart-5fd7bad8299a-69cb1bb32298f.jpg"
+  ],
+  "output_hint": null,
+  "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 32a0d40a-927c-41ef-8eb5-66192d2d2cb7.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+  "has_image": false,
+  "status": "not_generated"
+}

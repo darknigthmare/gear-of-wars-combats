@@ -1,0 +1,40 @@
+{
+  "id": "keegan",
+  "name": "Keegan",
+  "source_game": "Gears 5 Hivebusters",
+  "prompt": "Jeremiah Keegan in his standard Gears 5 Hivebusters Scorpio campaign outfit, a broad heavily built older adult man with dark brown skin, a fully bald head, thick black sideburns connected to a very large moustache and a clean chin. His original olive Scorpio tactical vest over a tan long-sleeved combat uniform, silver-gray rounded shoulder plates, two large circular chest fittings, blue shoulder indicator strips and the small yellow triangular unit patch. Preserve the quilted dark panels of his trousers, large worn belt pouches, gloves, holster straps, practical knee guards and heavy military boots. Match the recognizable Keegan face and substantial body proportions. This is his standard campaign clothing, with no helmet, no black Onyx Guard armor swap and no artificial glowing ammunition or ability effects. Create exactly one adult fictional character, full body from the top of the head to the soles of both boots, in a calm neutral standing pose with empty relaxed hands and arms separated slightly from the torso. Three-quarter view facing screen right, close enough to a lateral view to read clearly as a 2D fighting-game character. Preserve anatomical left/right asymmetries when changing the view; do not simply mirror them. Realistic painted 2D character illustration with UHD-quality material detail, natural anatomy and a crisp clean silhouette. A fully transparent RGBA background, no scenery, floor, base, cast shadow outside the body, vignette, lettering, captions, logos, UI, borders, extra figures or alternate views. No held or slung weapons. Leave clear transparent padding around every extremity; no cropping.",
+  "source_urls": [
+    "https://news.xbox.com/en-us/2020/12/08/gears-5-hivebusters-arrives-december-15/",
+    "https://www.gearsofwar.com/en-us/news/hivebusters/",
+    "https://www.gearsofwar.com/en-us/news/hivebusters-graphic-novel-available-now/",
+    "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/08/Hivebuster_Bios_Keegan_1080x1080-5f443f3be75cb-69cb1130b4e56.jpg",
+    "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/12/hivebusters-keyart-5fd7bad8299a-69cb1bb32298f.jpg"
+  ],
+  "output_hint": "Generated images are saved to /workspace/scratch/1e1136701ce4/generated_images as /workspace/scratch/1e1136701ce4/generated_images/exec-2f368bad-7c8c-4e69-b12b-ce60b790e547.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "error": null,
+  "has_image": true,
+  "path": "assets/characters_v4/keegan_reference_v4.png",
+  "width": 1024,
+  "height": 1536,
+  "alpha_min": 0,
+  "alpha_max": 254,
+  "sha256": "120700af3f9126d700e0139eeaa1c0b8444d77837250949e8180309df804754d",
+  "visual_review": {
+    "inspected": true,
+    "status": "reference_generated_needs_visual_validation",
+    "notes": [
+      "Personnage entier en pose neutre, tête et bottes complètes, mains vides.",
+      "Crâne chauve, rouflaquettes et moustache reliées, menton découvert, tenue beige/olive Scorpio et jambes matelassées présents.",
+      "Fidélité du visage, motifs, emports et dimensions des pièces non certifiée 1:1; comparaison au modèle original requise.",
+      "Vérification numérique alpha: fond réellement transparent. Le halo brun apparent dans la prévisualisation correspond à des RGB de pixels alpha=0; aucun nettoyage du fond requis sur cette base.",
+      "Marge haute courte: 10 pixels au seuil alpha>=16; cadrage et marges à normaliser lors de la préparation des animations."
+    ]
+  },
+  "alpha_bbox_ge_16": [
+    142,
+    10,
+    847,
+    1526
+  ],
+  "transparent_pixel_fraction": 0.5974114735921224
+}

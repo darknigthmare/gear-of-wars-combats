@@ -1,0 +1,59 @@
+{
+  "render_directory": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release",
+  "actual_pages_visually_inspected_in_this_pass": [
+    43,
+    44
+  ],
+  "method": "Inspection visuelle des deux PNG originaux dans un appel view_image, sans redimensionnement.",
+  "anomalies": [],
+  "resolved_anomalies": [
+    {
+      "page": 43,
+      "type": "table_markdown_non_converti",
+      "status": "corrigé et vérifié visuellement",
+      "observation": "Le tableau Circuits et objectifs est un tableau composé sur quatre colonnes, entièrement lisible et contenu dans les marges ; aucun texte Markdown brut ne subsiste."
+    }
+  ],
+  "pages": [
+    {
+      "page": 43,
+      "file": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-43.png",
+      "sha256": "98c914588940e714f73a90fd8c1ce8333119cbaa029ea5c87f96b05c7bfe9164",
+      "visually_inspected": true
+    },
+    {
+      "page": 44,
+      "file": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-44.png",
+      "sha256": "80f580008d264ce14a6d2680ad82407a0962f098da815cef98f9f7c12a805084",
+      "visually_inspected": true
+    }
+  ],
+  "prior_qa_reused_for_byte_identical_pages": [
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52
+  ],
+  "prior_qa_report": "qa_pages_30_52.json",
+  "combined_validated_range": [
+    30,
+    52
+  ]
+}

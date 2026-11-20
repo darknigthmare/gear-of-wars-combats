@@ -1,0 +1,17 @@
+{
+  "id": "keegan",
+  "name": "Keegan",
+  "prompt": "Jeremiah Keegan in his standard Gears 5 Hivebusters Scorpio campaign outfit, a broad heavily built older adult man with dark brown skin, a fully bald head, thick black sideburns connected to a very large moustache and a clean chin. His original olive Scorpio tactical vest over a tan long-sleeved combat uniform, silver-gray rounded shoulder plates, two large circular chest fittings, blue shoulder indicator strips and the small yellow triangular unit patch. Preserve the quilted dark panels of his trousers, large worn belt pouches, gloves, holster straps, practical knee guards and heavy military boots. Match the recognizable Keegan face and substantial body proportions. This is his standard campaign clothing, with no helmet, no black Onyx Guard armor swap and no artificial glowing ammunition or ability effects. Create exactly one adult fictional character, full body from the top of the head to the soles of both boots, in a calm neutral standing pose with empty relaxed hands and arms separated slightly from the torso. Three-quarter view facing screen right, close enough to a lateral view to read clearly as a 2D fighting-game character. Preserve anatomical left/right asymmetries when changing the view; do not simply mirror them. Realistic painted 2D character illustration with UHD-quality material detail, natural anatomy and a crisp clean silhouette. A fully transparent RGBA background, no scenery, floor, base, cast shadow outside the body, vignette, lettering, captions, logos, UI, borders, extra figures or alternate views. No held or slung weapons. Leave clear transparent padding around every extremity; no cropping.",
+  "source_game": "Gears 5 Hivebusters",
+  "source_urls": [
+    "https://news.xbox.com/en-us/2020/12/08/gears-5-hivebusters-arrives-december-15/",
+    "https://www.gearsofwar.com/en-us/news/hivebusters/",
+    "https://www.gearsofwar.com/en-us/news/hivebusters-graphic-novel-available-now/",
+    "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/08/Hivebuster_Bios_Keegan_1080x1080-5f443f3be75cb-69cb1130b4e56.jpg",
+    "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/12/hivebusters-keyart-5fd7bad8299a-69cb1bb32298f.jpg"
+  ],
+  "output_hint": null,
+  "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID ba567684-2d6c-49a8-bb38-26354c3bc86c.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+  "has_image": false,
+  "status": "not_generated"
+}

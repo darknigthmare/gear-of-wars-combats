@@ -1,0 +1,16 @@
+{
+  "id": "clayton",
+  "name": "Clayton Carmine",
+  "prompt": "Clayton “Clay” Carmine from Gears of War 3 in his standard campaign armor. An adult extremely muscular, broad-shouldered COG soldier with a fully enclosed blue-steel combat helmet, distinct bright blue eye lenses and a vented angular face guard. His face stays completely concealed. Preserve Clayton’s large bare upper arms with his recognisable non-text tattoo shapes, heavy forearm guards, broad blue and gunmetal chest armor with the pair of circular front panels, rugged belt and ammunition pouches, sturdy combat trousers, large knee guards and heavy boots. Use the original Gears 3 soldier proportions, helmet, armor wear and exposed-arm silhouette. Do not substitute Anthony’s or Benjamin’s full-sleeved generic Carmine body, Recruit Clayton, or the later Gears 5 veteran proportions. Keep colored wear and emblem shapes on the armor but omit legible slogans and lettering to satisfy this asset’s no-text requirement; do not invent words. No weapons in either hand. Create exactly one adult character, alone, full body from the top of the head to both complete boot soles, centered with clear transparent margin around the silhouette. Neutral relaxed standing pose, three-quarter turn toward screen right, clearly readable as a side-view 2D fighting-game character; both arms resting slightly away from the torso, hands visibly empty and relaxed, legs comfortably separated, neutral closed-mouth expression. Respect the character’s original anatomy and game proportions. Realistic hand-painted 2D production illustration with UHD-level material detail, crisp clean contour and controlled soft lighting; no cartoon, no cel shading, no photograph, no plastic miniature. The background must be truly transparent with an alpha channel. No background color, scenery, floor, pedestal, ground plane, cast shadow outside the silhouette, text, caption, UI, watermark, duplicates, inset portrait, alternate view, held weapon, slung weapon, violence, blood, fresh wounds or exposed tissue. This is a single reusable neutral character cutout, not a poster or action scene.",
+  "source_game": "Gears of War 3",
+  "source_urls": [
+    "https://www.gearsofwar.com/en-us/games/gears-of-war-3/",
+    "https://news.xbox.com/en-us/2020/03/31/gears-5-operation-3-gridiron-available-today-for-all-players/",
+    "https://gearsofwar.fandom.com/wiki/Clayton_Carmine",
+    "https://static.wikia.nocookie.net/gearsofwar/images/2/20/9C68E187-AC74-410B-8C0B-5491E86F1D51.png/revision/latest?cb=20200715163634"
+  ],
+  "output_hint": null,
+  "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 56cc8df4-f014-48c0-944f-92baa4f5b535.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+  "has_image": false,
+  "status": "not_generated"
+}

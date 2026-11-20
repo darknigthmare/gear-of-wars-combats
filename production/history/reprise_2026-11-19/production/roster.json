@@ -1,0 +1,397 @@
+{
+  "schema_version": "1.0",
+  "roster_total": 36,
+  "historical_visuals_claim": {
+    "claimed_count": 16,
+    "evidence": "prior_conversation_only",
+    "current_files_recovered": false,
+    "current_availability": "not_verified",
+    "notes": "Le nombre 16 est une affirmation historique de la conversation. Il ne mesure pas des fichiers actuellement récupérés, présents dans le dépôt ou vérifiés."
+  },
+  "scope_notes": [
+    "Le roster couvre 36 personnages ; la disponibilité est vérifiée séparément pour chacun.",
+    "14 références en pied sont présentes et vérifiées dans cette passe ; aucune n'est une animation finalisée.",
+    "6 personnages restent sans nouveau PNG après refus du générateur.",
+    "Les 16 anciens visuels restent une information historique ; leurs fichiers n'ont pas été récupérés ni publiés par cette passe.",
+    "Une identité reconnaissable et un PNG transparent ne suffisent pas à certifier une fidélité canonique intégrale 1:1."
+  ],
+  "characters": [
+    {
+      "id": "marcus_fenix",
+      "name": "Marcus Fenix",
+      "source_group": "historical_reported_16",
+      "visual_status": "historical_claim_unverified",
+      "asset_paths": [],
+      "animation_status": "not_verified",
+      "notes": "Visuel rapporté dans la conversation antérieure ; fichier non récupéré et variante à revalider."
+    },
+    {
+      "id": "kait_diaz",
+      "name": "Kait Diaz",
+      "source_group": "historical_reported_16",
+      "visual_status": "historical_claim_unverified",
+      "asset_paths": [],
+      "animation_status": "not_verified",
+      "notes": "Visuel rapporté dans la conversation antérieure ; fichier non récupéré et variante à revalider."
+    },
+    {
+      "id": "damon_baird",
+      "name": "Damon Baird",
+      "source_group": "historical_reported_16",
+      "visual_status": "historical_claim_unverified",
+      "asset_paths": [],
+      "animation_status": "not_verified",
+      "notes": "Visuel rapporté dans la conversation antérieure ; fichier non récupéré et variante à revalider."
+    },
+    {
+      "id": "jd_fenix",
+      "name": "James Dominic « JD » Fenix",
+      "source_group": "historical_reported_16",
+      "visual_status": "historical_claim_unverified",
+      "asset_paths": [],
+      "animation_status": "not_verified",
+      "notes": "Visuel rapporté dans la conversation antérieure ; fichier non récupéré et variante à revalider."
+    },
+    {
+      "id": "del_walker",
+      "name": "Delmont « Del » Walker",
+      "source_group": "historical_reported_16",
+      "visual_status": "historical_claim_unverified",
+      "asset_paths": [],
+      "animation_status": "not_verified",
+      "notes": "Visuel rapporté dans la conversation antérieure ; fichier non récupéré et variante à revalider."
+    },
+    {
+      "id": "lizzie_carmine",
+      "name": "Lizzie Carmine",
+      "source_group": "historical_reported_16",
+      "visual_status": "historical_claim_unverified",
+      "asset_paths": [],
+      "animation_status": "not_verified",
+      "notes": "Visuel rapporté dans la conversation antérieure ; fichier non récupéré et variante à revalider."
+    },
+    {
+      "id": "sid_redburn",
+      "name": "Sid Redburn",
+      "source_group": "historical_reported_16",
+      "visual_status": "historical_claim_unverified",
+      "asset_paths": [],
+      "animation_status": "not_verified",
+      "notes": "Visuel rapporté dans la conversation antérieure ; fichier non récupéré et variante à revalider."
+    },
+    {
+      "id": "garron_paduk",
+      "name": "Garron Paduk",
+      "source_group": "historical_reported_16",
+      "visual_status": "historical_claim_unverified",
+      "asset_paths": [],
+      "animation_status": "not_verified",
+      "notes": "Visuel rapporté dans la conversation antérieure ; fichier non récupéré et variante à revalider."
+    },
+    {
+      "id": "sofia_hendrik",
+      "name": "Sofia Hendrik",
+      "source_group": "historical_reported_16",
+      "visual_status": "historical_claim_unverified",
+      "asset_paths": [],
+      "animation_status": "not_verified",
+      "notes": "Visuel rapporté dans la conversation antérieure ; fichier non récupéré et variante à revalider."
+    },
+    {
+      "id": "locust_drone",
+      "name": "Locust Drone",
+      "source_group": "historical_reported_16",
+      "visual_status": "historical_claim_unverified",
+      "asset_paths": [],
+      "animation_status": "not_verified",
+      "notes": "Visuel rapporté dans la conversation antérieure ; fichier non récupéré et variante à revalider."
+    },
+    {
+      "id": "kantus",
+      "name": "Kantus",
+      "source_group": "historical_reported_16",
+      "visual_status": "historical_claim_unverified",
+      "asset_paths": [],
+      "animation_status": "not_verified",
+      "notes": "Visuel rapporté dans la conversation antérieure ; fichier non récupéré et variante à revalider."
+    },
+    {
+      "id": "skorge",
+      "name": "Skorge",
+      "source_group": "historical_reported_16",
+      "visual_status": "historical_claim_unverified",
+      "asset_paths": [],
+      "animation_status": "not_verified",
+      "notes": "Visuel rapporté dans la conversation antérieure ; fichier non récupéré et variante à revalider."
+    },
+    {
+      "id": "locust_grenadier",
+      "name": "Locust Grenadier",
+      "source_group": "historical_reported_16",
+      "visual_status": "historical_claim_unverified",
+      "asset_paths": [],
+      "animation_status": "not_verified",
+      "notes": "Visuel rapporté dans la conversation antérieure ; fichier non récupéré et variante à revalider."
+    },
+    {
+      "id": "queen_reyna",
+      "name": "Reine Reyna",
+      "source_group": "historical_reported_16",
+      "visual_status": "historical_claim_unverified",
+      "asset_paths": [],
+      "animation_status": "not_verified",
+      "notes": "Visuel rapporté dans la conversation antérieure ; fichier non récupéré. Ne pas confondre la forme de reine avec Reyna humaine."
+    },
+    {
+      "id": "swarm_drone",
+      "name": "Swarm Drone",
+      "source_group": "historical_reported_16",
+      "visual_status": "historical_claim_unverified",
+      "asset_paths": [],
+      "animation_status": "not_verified",
+      "notes": "Visuel rapporté dans la conversation antérieure ; fichier non récupéré et variante à revalider."
+    },
+    {
+      "id": "jack",
+      "name": "JACK",
+      "source_group": "historical_reported_16",
+      "visual_status": "historical_claim_unverified",
+      "asset_paths": [],
+      "animation_status": "not_verified",
+      "notes": "Visuel rapporté dans la conversation antérieure ; fichier non récupéré. Modèle et édition du robot à revalider."
+    },
+    {
+      "id": "dominic_santiago",
+      "name": "Dominic Santiago",
+      "source_group": "current_pass_20",
+      "visual_status": "generation_blocked",
+      "asset_paths": [],
+      "animation_status": "not_produced_in_this_pass",
+      "notes": "Demande refusée par le système de sécurité du générateur (moderation_blocked, sortie). Aucun PNG produit dans cette passe.",
+      "variant": "gears2"
+    },
+    {
+      "id": "augustus_cole",
+      "name": "Augustus Cole",
+      "source_group": "current_pass_20",
+      "visual_status": "generation_blocked",
+      "asset_paths": [],
+      "animation_status": "not_produced_in_this_pass",
+      "notes": "Demande refusée par le système de sécurité du générateur (moderation_blocked, sortie). Aucun PNG produit dans cette passe.",
+      "variant": "gears3"
+    },
+    {
+      "id": "anya_stroud",
+      "name": "Anya Stroud",
+      "source_group": "current_pass_20",
+      "visual_status": "generated_reference_candidate",
+      "asset_paths": [
+        "assets/characters/anya_stroud/gears3/reference_fullbody_v01.png"
+      ],
+      "animation_status": "not_produced_in_this_pass",
+      "notes": "Source individuelle tronquée ; jambes et bottes à confronter à une référence complète. Marge visible étroite : prévoir un canevas de production plus généreux.",
+      "variant": "gears3"
+    },
+    {
+      "id": "raam",
+      "name": "Général RAAM",
+      "source_group": "current_pass_20",
+      "visual_status": "generation_blocked",
+      "asset_paths": [],
+      "animation_status": "not_produced_in_this_pass",
+      "notes": "Demande refusée par le système de sécurité du générateur (moderation_blocked, sortie). Aucun PNG produit dans cette passe.",
+      "variant": "classic"
+    },
+    {
+      "id": "myrrah",
+      "name": "Reine Myrrah",
+      "source_group": "current_pass_20",
+      "visual_status": "generated_reference_candidate",
+      "asset_paths": [
+        "assets/characters/myrrah/gears3/reference_fullbody_v01.png"
+      ],
+      "animation_status": "not_produced_in_this_pass",
+      "notes": "Source individuelle tronquée ; protections inférieures à vérifier. Marge visible étroite : prévoir un canevas de production plus généreux.",
+      "variant": "gears3"
+    },
+    {
+      "id": "theron_guard",
+      "name": "Theron Guard",
+      "source_group": "current_pass_20",
+      "visual_status": "generated_reference_candidate",
+      "asset_paths": [
+        "assets/characters/theron_guard/gears3/reference_fullbody_v02.png"
+      ],
+      "animation_status": "not_produced_in_this_pass",
+      "notes": "Variante Gears 3 sans casque ; ne pas la présenter comme une validation Gears 1.",
+      "variant": "gears3"
+    },
+    {
+      "id": "fahz_chutani",
+      "name": "Fahz Chutani",
+      "source_group": "current_pass_20",
+      "visual_status": "generated_reference_candidate",
+      "asset_paths": [
+        "assets/characters/fahz_chutani/gears5/reference_fullbody_v01.png"
+      ],
+      "animation_status": "not_produced_in_this_pass",
+      "notes": "Prothèse de la jambe droite conservée ; visage et détails du plastron limités par la définition de la capture.",
+      "variant": "gears5"
+    },
+    {
+      "id": "clayton_carmine",
+      "name": "Clayton Carmine",
+      "source_group": "current_pass_20",
+      "visual_status": "generated_reference_candidate",
+      "asset_paths": [
+        "assets/characters/clayton_carmine/gears3/reference_fullbody_v02.png"
+      ],
+      "animation_status": "not_produced_in_this_pass",
+      "notes": "Version v02 : inscription GRUB KILLER corrigée ; bottes et genouillères à vérifier avec une source complète. Marge visible étroite : prévoir un canevas de production plus généreux.",
+      "variant": "gears3"
+    },
+    {
+      "id": "victor_hoffman",
+      "name": "Victor Hoffman",
+      "source_group": "current_pass_20",
+      "visual_status": "generated_reference_candidate",
+      "asset_paths": [
+        "assets/characters/victor_hoffman/classic/reference_fullbody_v01.png"
+      ],
+      "animation_status": "not_produced_in_this_pass",
+      "notes": "Apparence classique ; édition native du rendu non établie, ne pas certifier Gears 2.",
+      "variant": "classic"
+    },
+    {
+      "id": "tai_kaliso",
+      "name": "Tai Kaliso",
+      "source_group": "current_pass_20",
+      "visual_status": "generated_reference_candidate",
+      "asset_paths": [
+        "assets/characters/tai_kaliso/gears2/reference_fullbody_v01.png"
+      ],
+      "animation_status": "not_produced_in_this_pass",
+      "notes": "Visage et crête fondés sur une capture Gears 2 ; complément de silhouette issu du concept art, détails inférieurs à vérifier. Marge visible étroite : prévoir un canevas de production plus généreux.",
+      "variant": "gears2"
+    },
+    {
+      "id": "dizzy_wallin",
+      "name": "Dizzy Wallin",
+      "source_group": "current_pass_20",
+      "visual_status": "generation_blocked",
+      "asset_paths": [],
+      "animation_status": "not_produced_in_this_pass",
+      "notes": "Demande refusée par le système de sécurité du générateur (moderation_blocked, sortie). Aucun PNG produit dans cette passe.",
+      "variant": "gears2"
+    },
+    {
+      "id": "samantha_byrne",
+      "name": "Samantha « Sam » Byrne",
+      "source_group": "current_pass_20",
+      "visual_status": "generated_reference_candidate",
+      "asset_paths": [
+        "assets/characters/samantha_byrne/gears3/reference_fullbody_v01.png"
+      ],
+      "animation_status": "not_produced_in_this_pass",
+      "notes": "Source tronquée ; jambières et bottes à vérifier. Marge visible étroite : prévoir un canevas de production plus généreux.",
+      "variant": "gears3"
+    },
+    {
+      "id": "gabriel_diaz",
+      "name": "Gabriel « Gabe » Diaz",
+      "source_group": "current_pass_20",
+      "visual_status": "generated_reference_candidate",
+      "asset_paths": [
+        "assets/characters/gabriel_diaz/tactics/reference_fullbody_v01.png"
+      ],
+      "animation_status": "not_produced_in_this_pass",
+      "notes": "Référence officielle en pied disponible ; petits détails à revalider avant les animations.",
+      "variant": "tactics"
+    },
+    {
+      "id": "mikayla_dorn",
+      "name": "Mikayla Dorn",
+      "source_group": "current_pass_20",
+      "visual_status": "generated_reference_candidate",
+      "asset_paths": [
+        "assets/characters/mikayla_dorn/tactics/reference_fullbody_v01.png"
+      ],
+      "animation_status": "not_produced_in_this_pass",
+      "notes": "Référence officielle en pied disponible ; conserver les asymétries et les motifs du shemagh. Marge visible étroite : prévoir un canevas de production plus généreux.",
+      "variant": "tactics"
+    },
+    {
+      "id": "lahni_kaliso",
+      "name": "Lahni Kaliso",
+      "source_group": "current_pass_20",
+      "visual_status": "generated_reference_candidate",
+      "asset_paths": [
+        "assets/characters/lahni_kaliso/gears5_hivebuster/reference_fullbody_v01.png"
+      ],
+      "animation_status": "not_produced_in_this_pass",
+      "notes": "Tenue Hivebuster / Escape ; pieds non couverts par la fiche officielle, tatouages à contrôler en détail. Marge visible étroite : prévoir un canevas de production plus généreux.",
+      "variant": "gears5_hivebuster"
+    },
+    {
+      "id": "jeremiah_keegan",
+      "name": "Jeremiah Keegan",
+      "source_group": "current_pass_20",
+      "visual_status": "generation_blocked",
+      "asset_paths": [],
+      "animation_status": "not_produced_in_this_pass",
+      "notes": "Demande refusée par le système de sécurité du générateur (moderation_blocked, sortie). Aucun PNG produit dans cette passe.",
+      "variant": "gears5_hivebuster"
+    },
+    {
+      "id": "mac_macallister",
+      "name": "Mac Macallister",
+      "source_group": "current_pass_20",
+      "visual_status": "generated_reference_candidate",
+      "asset_paths": [
+        "assets/characters/mac_macallister/gears5_hivebuster/reference_fullbody_v01.png"
+      ],
+      "animation_status": "not_produced_in_this_pass",
+      "notes": "Tenue Hivebuster / Escape ; partie inférieure des jambes reconstituée, non certifiée. Marge visible étroite : prévoir un canevas de production plus généreux.",
+      "variant": "gears5_hivebuster"
+    },
+    {
+      "id": "deebee_shepherd",
+      "name": "DeeBee Shepherd",
+      "source_group": "current_pass_20",
+      "visual_status": "generation_blocked",
+      "asset_paths": [],
+      "animation_status": "not_produced_in_this_pass",
+      "notes": "Demande refusée par le système de sécurité du générateur (moderation_blocked, sortie). Aucun PNG produit dans cette passe.",
+      "variant": "gears4"
+    },
+    {
+      "id": "warden",
+      "name": "Warden",
+      "source_group": "current_pass_20",
+      "visual_status": "generated_reference_candidate",
+      "asset_paths": [
+        "assets/characters/warden/gears5/reference_fullbody_v01.png"
+      ],
+      "animation_status": "not_produced_in_this_pass",
+      "notes": "Casque vérifié sur capture de jeu ; détail des deux Breaker Maces à revalider avec une capture rapprochée. Marge visible étroite : prévoir un canevas de production plus généreux.",
+      "variant": "gears5"
+    },
+    {
+      "id": "ukkon",
+      "name": "Ukkon",
+      "source_group": "current_pass_20",
+      "visual_status": "generated_reference_candidate",
+      "asset_paths": [
+        "assets/characters/ukkon/tactics/reference_fullbody_v02.png"
+      ],
+      "animation_status": "not_produced_in_this_pass",
+      "notes": "Version v02 : deux rails suspendus allongés vers les chevilles ; détails de la robe et des pieds à contrôler. Marge visible étroite : prévoir un canevas de production plus généreux.",
+      "variant": "tactics"
+    }
+  ],
+  "current_pass_counts": {
+    "historical_claim_unverified": 16,
+    "generation_blocked": 6,
+    "generated_reference_candidate": 14
+  }
+}

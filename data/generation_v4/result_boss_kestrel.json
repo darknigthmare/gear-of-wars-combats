@@ -1,0 +1,16 @@
+{
+  "id": "boss_kestrel",
+  "name": "Kestrel",
+  "source_game": "Gears of War 4",
+  "prompt": "Use case: stylized-concept. Asset type: a faithful isolated model-reference illustration for the Gears of War Combats 2D game bible. Create ONE complete subject in ONE quiet neutral pose, facing toward the right in a readable three-quarter side view. Realistic digitally painted 2D rendering with finely resolved materials, coherent restrained studio lighting and crisp silhouette. Preserve the exact named game version rather than redesigning it. Place the entire subject, including every extremity and permanently attached component, inside the canvas with at least 6% clear padding on all sides. Genuinely transparent RGBA background. No scenery, floor, pedestal, external cast shadow, smoke, action effects, people, additional creatures, labels, captions, logo, UI, decorative border, collage or multiple views. No battle, firing, impact, explosion, blood or injury. Canonical permanently attached equipment remains present but inactive. Use reference images only for identity, anatomy, mechanical layout and material colors; do not copy their action, surroundings, camera crop, text, watermark, presentation sheet or extra subjects.\n\nSubject specification: The standard blue DeeBee Kestrel unmanned helicopter from Gears of War 4 (2016), matching Evan McKnight’s shipped-model portfolio. Preserve the angular enclosed blue-and-black nose with its narrow red-orange sensor strip, segmented cobalt-blue armor with pale linear panel markings, compact vented engine housings, stacked coaxial main-rotor system, the long narrow tail boom and the circular shrouded tail assembly shown in the model reference. Retain the exact short lateral equipment housings, lower forward-mounted guns and underside missile cluster as inactive integral components. There is no transparent human cockpit and no pilot. Present the drone level in a quiet suspended catalog pose, rotor blades stopped and separated enough to read, with no motion blur or prop wash. Do not turn it into a King Raven, Vulture, Guardian drone or generic helicopter. Use the reference sheet only to match the model; output ONE whole Kestrel from one angle, never the two-view sheet or its logos.\n\nFraming: Wide landscape composition, full rotor span and tail included; a shallow three-quarter side angle with the nose pointing right and the main body readable.",
+  "source_urls": [
+    "https://emcknight.artstation.com/projects/WrEwJ",
+    "https://www.artstation.com/artwork/LJO50",
+    "https://gearsofwar.fandom.com/wiki/Kestrel"
+  ],
+  "has_image": true,
+  "path": null,
+  "error": null,
+  "output_hint": "Generated images are saved to /workspace/scratch/1e1136701ce4/generated_images as /workspace/scratch/1e1136701ce4/generated_images/exec-4df0dce9-3b8f-4c9b-9a91-f931cbdf058f.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "original_path": "/workspace/scratch/1e1136701ce4/generated_images/exec-4df0dce9-3b8f-4c9b-9a91-f931cbdf058f.png"
+}

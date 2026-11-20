@@ -1,0 +1,124 @@
+{
+  "id": "paduk",
+  "version": 2,
+  "generated_asset": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/paduk_reference_v2.png",
+  "generated_asset_sha256": "fd61ccaea1bdc2aaa96f75bc5f00c5c2c0cf9b87db7ffb0e0a087a25664aebf2",
+  "reference_images": [
+    {
+      "local_path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_refs/paduk_promo_reference.jpg",
+      "sha256": "254d82dda20536c33eb449e5006c7779823954e8e6d0bb9f4892c9b7e6883dd0",
+      "source_type": "Wallpaper promotionnel composite publié par une source secondaire ; pas un fichier de modèle officiel brut.",
+      "page_url": "https://geektyrant.com/news/2013/3/18/gears-of-war-judgement-kilo-squad-wallpapers.html",
+      "image_url": "https://images.squarespace-cdn.com/content/51b3dc8ee4b051b96ceb10de/1372482095984-DXURZIMNBB4VMR6D07NR/gears_judgement_GPaduk_WP.jpg?format=1000w&content-type=image/jpeg",
+      "limits": "Image désaturée et teintée jaune, point de vue frontal, bas des bottes coupé ; le tracé exact des cicatrices et la couleur locale ne sont pas certifiables."
+    }
+  ],
+  "method": "Comparaison visuelle directe des images originales à leur résolution native avec view_image ; dimensions, empreintes et alpha mesurés avec Pillow. Aucun pixel image modifié, aucune nouvelle recherche réseau, aucun changement au prototype.",
+  "alpha_and_format": {
+    "mode": "RGBA",
+    "size_px": [
+      1024,
+      1536
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_pixel_percent": 58.41,
+    "fully_opaque_255_pixels": 0,
+    "alpha_corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "nonzero_alpha_bbox": [
+      0,
+      0,
+      1008,
+      1536
+    ],
+    "substantial_alpha_bbox_threshold_16": [
+      136,
+      10,
+      846,
+      1525
+    ],
+    "note": "Vrai canal alpha présent. Des pixels de très faible alpha restent au-delà du corps/châssis. Le fond sombre visible dans certains aperçus RGB ne constitue pas un fond opaque. Aucun test de composition sur décor ou de halo en jeu effectué."
+  },
+  "framing": {
+    "substantial_alpha_bbox_threshold_16": [
+      136,
+      10,
+      846,
+      1525
+    ],
+    "approx_padding_px": {
+      "left": 136,
+      "top": 10,
+      "right": 178,
+      "bottom": 11
+    },
+    "status": "personnage_entier_marges_serrees",
+    "orientation": "trois-quarts vers la droite",
+    "pose": "debout au repos, mains vides",
+    "head_visible": true,
+    "both_feet_visible": true,
+    "both_hands_visible": true,
+    "text_ui_or_extra_subject": false
+  },
+  "prototype_modified": false,
+  "bible_modified": false,
+  "workbook_modified": false,
+  "verdict": "Paduk de Judgment reste reconnaissable, mais l’armure et les accessoires sont largement réinterprétés ; non validé 1:1.",
+  "identity": {
+    "status": "reconnaissable_avec_reserves",
+    "matches": [
+      "Homme adulte massif, cheveux courts foncés avec tempes grises, visage sévère ; évite le Paduk chauve plus âgé de Gears 5.",
+      "Silhouette humaine cohérente, deux bras et deux mains entiers, pas de défaut anatomique majeur visible."
+    ],
+    "differences": [
+      "Proportions du visage réinterprétées ; ressemblance générale sans copie du modèle."
+    ],
+    "unresolved": [
+      "Le généré porte de grandes cicatrices rugueuses sur le visage et les deux bras. Leur topologie, leur intensité et leur côté anatomique exact ne peuvent être validés dans le wallpaper local."
+    ]
+  },
+  "costume": {
+    "status": "non_conforme_1to1",
+    "matches": [
+      "Palette olive et jaune usée, bras supérieurs nus, deux grands disques pectoraux traversés de bandes pâles.",
+      "Gants sans doigts, gros avant-bras blindés, ceinture circulaire, pantalon sombre, protections de genoux et de tibias."
+    ],
+    "differences": [
+      "Grand col montant rigide ajouté : la référence présente une ouverture de cou circulaire nettement plus basse.",
+      "Épaulières redessinées : le grand panneau jaune du côté proche remplace notamment l’épaule asymétrique à plusieurs trous/plots visible sur la référence.",
+      "Panneau central, attaches et segmentations du plastron changés malgré le maintien des deux disques.",
+      "La boucle générée est un disque mécanique générique ; le symbole et le cadre de la boucle de référence ne sont pas reproduits.",
+      "Sangles abdominales, poches de ceinture et de cuisse, genouillères et jambières modifiées ; disparition des grandes pièces et sangles spécifiques de cuisse visibles sur la référence."
+    ]
+  },
+  "defects": [
+    {
+      "severity": "majeure_pour_1to1",
+      "item": "Costume réinventé",
+      "impact": "Col, épaules, centre du plastron, ceinture et protections ne reproduisent pas le modèle Judgment."
+    },
+    {
+      "severity": "mineure",
+      "item": "Marge verticale très faible",
+      "impact": "Environ 10 px au-dessus de la tête et 11 px sous les semelles dans 1536 px ; aucune coupe anatomique observée."
+    }
+  ],
+  "reservations_1to1": [
+    "La référence locale est promotionnelle, composite et fortement traitée ; elle suffit à montrer les écarts de structure, pas à certifier chaque couleur.",
+    "Cicatrices et marquages précis non vérifiés.",
+    "Le bas des bottes de la référence étant coupé, les semelles générées ne peuvent être comparées.",
+    "Une pose neutre isolée ne constitue pas une animation finale ; aucune validation à l’échelle du combat."
+  ],
+  "correction_reference": {
+    "local_path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_refs/paduk_promo_reference.jpg",
+    "suitability": "Utile pour corriger col, asymétrie des épaules, plastron, boucle et cuissards ; ne pas copier le traitement jaune/noir, les logos ou le décor. Source officielle de modèle préférable pour les zones et couleurs non vérifiables."
+  },
+  "recommendation": "Conserver comme concept provisoire reconnaissable ; correction du costume nécessaire avant une sélection visant la fidélité canon."
+}

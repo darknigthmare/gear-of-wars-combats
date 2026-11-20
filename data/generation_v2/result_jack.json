@@ -1,0 +1,22 @@
+{
+  "id": "jack",
+  "name": "JACK",
+  "prompt": "Exactly one JACK support robot from the Gears 5 campaign, in his canonical blue and yellow-gold configuration. A compact broad rounded mechanical chassis, cobalt-blue armored shell with yellow-gold accent panels, exposed dark gunmetal joints and service panels, small blue illuminated optics, the characteristic sensor assembly, and exactly two long articulated utility arms with the correct asymmetric tool ends. Preserve the Gears 5 modular body shape, panel seams, proportions, manipulators and low-hover repulsor arrangement; it is a hovering support machine with no legs, wheels, propellers or humanoid torso. Show the entire robot suspended naturally at rest, tools relaxed, facing screen right in a clear three-quarter side view. No active ability, electrical arc, fired projectile or held object. Faithful realistic painted 2D game-asset illustration with UHD-quality metal detail, controlled lighting and a crisp cutout silhouette. Fully transparent RGBA background, no ground, base, external shadow, smoke, scenery, lettering, logos, UI, borders or other characters. Leave generous clear alpha padding around the complete chassis and both tool tips. One robot and one view only; do not replace it with Dave, the original trilogy JACK, the Tactics robot or a toy quadcopter.",
+  "source_game": "Gears 5",
+  "source_urls": [
+    "https://www.gearsofwar.com/en-us/games/gears-5/",
+    "https://rizo.artstation.com/projects/BmWbJA",
+    "https://mindwalkstudios.artstation.com/projects/oAle0O",
+    "https://www.windowscentral.com/gears-5-guide-list-jack-upgrades-and-where-find-them",
+    "https://cdn.mos.cms.futurecdn.net/3sAPCx57aUZDTXWGY4gN7U-1920-80.jpg"
+  ],
+  "output_hint": "Generated images are saved to /workspace/scratch/230d6e8ab6bb/generated_images as /workspace/scratch/230d6e8ab6bb/generated_images/exec-5f672ca6-1315-4a47-909a-9033ecb20032.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "error": null,
+  "has_image": true,
+  "status": "generated",
+  "path": "assets/characters_v2/jack_reference_v2.png",
+  "width": 1536,
+  "height": 1024,
+  "alpha": true,
+  "sha256": "f4056e5c5524959aae93768a01298baec05ec4e87b6727c1f7382f880223dc36"
+}

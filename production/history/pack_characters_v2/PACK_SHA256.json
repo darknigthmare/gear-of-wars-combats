@@ -1,0 +1,612 @@
+[
+  {
+    "path": "Galerie_Personnages.html",
+    "bytes": 8324,
+    "sha256": "f2daa86c53a4c5f183924d3dc3b3b46addd4090341b78a2d83ca2a5d73aa0cad"
+  },
+  {
+    "path": "Gears_of_War_Combats_Personnages_v2.md",
+    "bytes": 10102,
+    "sha256": "0a5a11d812624152713bde75ecb65fe4ce015caece8030455c023983b11301b1"
+  },
+  {
+    "path": "Gears_of_War_Combats_Production_v2.xlsx",
+    "bytes": 132131,
+    "sha256": "5d149ff06223bf79c08acc0898d4a6209ab46b823ac23d47cac4e6452196097f"
+  },
+  {
+    "path": "REFERENCES.md",
+    "bytes": 6204,
+    "sha256": "42223bb1db0fb1310e74f5f8a48f0b23e0cd4cb27f482580895ec035a8c005eb"
+  },
+  {
+    "path": "LIRE_MOI.md",
+    "bytes": 951,
+    "sha256": "9e1c13a707cb82ef7e7aad3c3f388868d8e5b603bd03696bbec6744fc88c1394"
+  },
+  {
+    "path": "assets/stage_ephyra.png",
+    "bytes": 2929191,
+    "sha256": "3e5dc9544ded1a605efbcbbb0bed1125001aa0b8d5ca2cae49033ba24deb6ff3"
+  },
+  {
+    "path": "assets/stage_hollow.png",
+    "bytes": 2601816,
+    "sha256": "3b3c83e38bdf15c32ee58c269b8aa55e8e7eea5072cb344229fd92f21a5f03c0"
+  },
+  {
+    "path": "assets/marcus_reference.png",
+    "bytes": 2125170,
+    "sha256": "972f9c12e254f9fa1433cc0f16cf688060c646b94a6dc8dd0599aa4ab4cdee64"
+  },
+  {
+    "path": "assets/kait_reference.png",
+    "bytes": 2064066,
+    "sha256": "e6c225a9a337b4ebfd362892eb1f6718bb7adee7129ab76c8b7bb1780591d2a2"
+  },
+  {
+    "path": "assets/marcus_neutral_cutout.png",
+    "bytes": 2090086,
+    "sha256": "ff56c1c274bf365a45912c1ec2507ebe47a21b8e738c3ebe415df017f792c3ba"
+  },
+  {
+    "path": "assets/kait_neutral_cutout.png",
+    "bytes": 1896894,
+    "sha256": "1435d8506385ec4b97add0b61b1d75fc23e211f6f3c2a93cfe31e7594c5629ce"
+  },
+  {
+    "path": "assets/characters_v2/baird_reference_v3.png",
+    "bytes": 2260837,
+    "sha256": "77db750641b2cae9423f7a2f216aaf2e23a0a89d112fc7176424a09c138d2c28"
+  },
+  {
+    "path": "assets/characters_v2/skorge_reference_v3.png",
+    "bytes": 1964480,
+    "sha256": "a4a3d68b3a7b1598aaaea3c0cde50fbeb7d949304e2bbceed8f349c19d222012"
+  },
+  {
+    "path": "assets/characters_v2/locust_drone_reference_v2.png",
+    "bytes": 2110070,
+    "sha256": "e1ee3dca92be0150b70c7c5c2b600f881b8f131e01d3eaa8696ea9bd6adf7a3c"
+  },
+  {
+    "path": "assets/characters_v2/kantus_reference_v3.png",
+    "bytes": 1961538,
+    "sha256": "85900a7d134c2c1731dd4a4eda09b7e85d4771e6c9bf3a8848a87d0319a7fa84"
+  },
+  {
+    "path": "assets/characters_v2/jd_reference_v2.png",
+    "bytes": 2169910,
+    "sha256": "acfe1fb81543e98962767f46299f3362225429db810dee13fcab60c8b3a28fae"
+  },
+  {
+    "path": "assets/characters_v2/del_reference_v3.png",
+    "bytes": 2102628,
+    "sha256": "4b6ea5c768808e210a8ad85af8f1985406c3d78222b5a00170532d36e7e2f1bd"
+  },
+  {
+    "path": "assets/characters_v2/lizzie_reference_v2.png",
+    "bytes": 2041793,
+    "sha256": "e8a46625126247982ea03ecb9fa4c2cc45cac4f21384c444e98c9ac19b3dddf3"
+  },
+  {
+    "path": "assets/characters_v2/paduk_reference_v3.png",
+    "bytes": 2192757,
+    "sha256": "96afca09c9ed49c47eaddd0cb3de63055e7d186506b98d7170b084bd7fac251c"
+  },
+  {
+    "path": "assets/characters_v2/sofia_reference_v3.png",
+    "bytes": 1812571,
+    "sha256": "89e683efac2ddbac0e0132d661065ecc2dc8f967a3101d9d2e2df3000b5b935b"
+  },
+  {
+    "path": "assets/characters_v2/sid_reference_v3.png",
+    "bytes": 1464044,
+    "sha256": "41d3d01b0b9e621fae04e3ae97c88418884cd54bb2f45f143691c4ec38d993f0"
+  },
+  {
+    "path": "assets/characters_v2/reyna_reference_v3.png",
+    "bytes": 2322719,
+    "sha256": "ca087379a9c9f1cb82eb8196eaf82a24c43b7c40be298a06c62f4fad1bdb9949"
+  },
+  {
+    "path": "assets/characters_v2/jack_reference_v3.png",
+    "bytes": 1926252,
+    "sha256": "4ea029dd975eb71ea2cc54c2dbc944f6d2804ddd03063fe4fea117c79727a38f"
+  },
+  {
+    "path": "assets/characters_v2/swarm_drone_reference_v2.png",
+    "bytes": 2263208,
+    "sha256": "e5988ddd8831be2962b7596f02cdb957d51230026cb41e35312dbc10f97340e0"
+  },
+  {
+    "path": "assets/characters_v2/grenadier_reference_v2.png",
+    "bytes": 2293315,
+    "sha256": "5f52a802e772bd4eb5936df0eca5ee818b3686047d7df71992a84f10f909b438"
+  },
+  {
+    "path": "data/animation_plan.json",
+    "bytes": 8775,
+    "sha256": "aaf5b23ac2d4099c59dd7841fa1e53208ff25419721c06659a59a1d313483b2e"
+  },
+  {
+    "path": "data/arcade_routes.json",
+    "bytes": 125552,
+    "sha256": "f9b71a548eee797edfba507c436598c87381e12d36e04cc668ab781a757d8a7e"
+  },
+  {
+    "path": "data/assets_manifest.json",
+    "bytes": 18536,
+    "sha256": "9d0ac5b960f0dc025ff3fc80633de4a8e4493e7631f178fc49d234bdb948a936"
+  },
+  {
+    "path": "data/bosses.json",
+    "bytes": 76607,
+    "sha256": "02068b6019dddb796f227991283f71407c3ff443e210896add4e325ceedf78ae"
+  },
+  {
+    "path": "data/campaign.json",
+    "bytes": 36139,
+    "sha256": "d920af0ace40d14446e9e23fc23b4d53507029ebaa0626a3b222f8d21be1304d"
+  },
+  {
+    "path": "data/generation_v2/edit_baird_v3.json",
+    "bytes": 1503,
+    "sha256": "97807f04812e2bb26bc110281ac0e65a572de8ea54bc78c5ff6a6f121533f66d"
+  },
+  {
+    "path": "data/generation_v2/edit_del_v3.json",
+    "bytes": 1806,
+    "sha256": "74f85f14bfe5eda15d85fa7a1146f8ebc6120ea25ce0e380ee9b4179cd70771c"
+  },
+  {
+    "path": "data/generation_v2/edit_jack_v3.json",
+    "bytes": 1943,
+    "sha256": "dfb01138398bfbe6c0c3a332d2794762d352c7f7485409c5c7993eb17b157e97"
+  },
+  {
+    "path": "data/generation_v2/edit_kantus_v3.json",
+    "bytes": 2397,
+    "sha256": "408ec886090617dba56c7fcc2964b78717b92d914cd60445d86c296150ee2507"
+  },
+  {
+    "path": "data/generation_v2/edit_lizzie_v3.json",
+    "bytes": 2040,
+    "sha256": "7d5ae20f85077284f0a86244cf60781e8f00f047aafaecd08c7c010b3ed267dc"
+  },
+  {
+    "path": "data/generation_v2/edit_paduk_v3.json",
+    "bytes": 2105,
+    "sha256": "1311b2c7d8bd22b8c3a1d445d75e08622f1bb3bebcb3195a411372d7ba0c3b50"
+  },
+  {
+    "path": "data/generation_v2/edit_reyna_v3.json",
+    "bytes": 2453,
+    "sha256": "f47dccf2a5e923311f376dadbf5218e24d0df8be86735f16cd93420a9408372f"
+  },
+  {
+    "path": "data/generation_v2/edit_sid_v3.json",
+    "bytes": 1598,
+    "sha256": "3009e1e1903a2e304ed39feb920d524cc53f500aff002e7758b2af384c0a6d2f"
+  },
+  {
+    "path": "data/generation_v2/edit_skorge_v3.json",
+    "bytes": 1950,
+    "sha256": "ca342d61a32723df52a073d8ace0de66a5b632106ec97a8c1739136f497b6143"
+  },
+  {
+    "path": "data/generation_v2/edit_sofia_v3.json",
+    "bytes": 2102,
+    "sha256": "8910489a1e3ca7a052ddd971e9a909796089737b20dab9c39e3c4eb2ae61962e"
+  },
+  {
+    "path": "data/generation_v2/generated_assets.json",
+    "bytes": 14555,
+    "sha256": "cbfac9843af15eb2c669f430993bf71bc6e1ea12de6a6c16a394a093389ae430"
+  },
+  {
+    "path": "data/generation_v2/prompts_all.json",
+    "bytes": 115397,
+    "sha256": "d7fb192ac73a06bc762f8e6e774a96a9f75dbce6b928494bb088d450fe57df4a"
+  },
+  {
+    "path": "data/generation_v2/prompts_humans_a.json",
+    "bytes": 45511,
+    "sha256": "5ef42c33ed4e86d26d84c5edda4b75783619668e9d12710cad12b12a1b04324a"
+  },
+  {
+    "path": "data/generation_v2/prompts_humans_b_robots.json",
+    "bytes": 35330,
+    "sha256": "83d83bc77185dddd2cc5c6c824f91fedea070ac1d7db12767d2571c8f6f347ae"
+  },
+  {
+    "path": "data/generation_v2/prompts_locust.json",
+    "bytes": 34563,
+    "sha256": "532497084b9b0e048c872c754c8ebc56fbf2bfea65021d85cd439d7336667452"
+  },
+  {
+    "path": "data/generation_v2/prompts_used_batch01.json",
+    "bytes": 14472,
+    "sha256": "f992247613a14518d6a17baf07bf9a4e5a56630762a616a70d830f154e99441f"
+  },
+  {
+    "path": "data/generation_v2/prompts_used_batch02.json",
+    "bytes": 12529,
+    "sha256": "fa812f2030213619c48fc4a07488cd017bc046a7928bd55551e1de786583acc9"
+  },
+  {
+    "path": "data/generation_v2/prompts_used_batch03.json",
+    "bytes": 8452,
+    "sha256": "11aea9e81c1a87af10b53ff2ef9de54b08720e7070a3a59697442d5aff1b27e9"
+  },
+  {
+    "path": "data/generation_v2/prompts_used_batch04.json",
+    "bytes": 22035,
+    "sha256": "87387843dc678d31e13973378dd8ffb6ca4af20c40ab64abc309f8da11e54c03"
+  },
+  {
+    "path": "data/generation_v2/prompts_used_batch05.json",
+    "bytes": 26734,
+    "sha256": "fc715d1a6cdbd6f0e987043660d1d22dcdd89df4f6fe7951b2351b729ae37afe"
+  },
+  {
+    "path": "data/generation_v2/prompts_used_batch06.json",
+    "bytes": 31040,
+    "sha256": "12412e43d4929439358d183fd8e702b39a76f5ac65a0d446b82d3824769e98fe"
+  },
+  {
+    "path": "data/generation_v2/qa_baird.json",
+    "bytes": 4293,
+    "sha256": "d63492b4d87bd5f908a7fd268858476fe93dacf0f4aee99d778c1a807d726605"
+  },
+  {
+    "path": "data/generation_v2/qa_baird_v3.json",
+    "bytes": 4880,
+    "sha256": "a9719511c3957bb59a15d5ece5a4b35da0a224899cf7949facc1e050debba177"
+  },
+  {
+    "path": "data/generation_v2/qa_del.json",
+    "bytes": 7686,
+    "sha256": "1e592e003cdd21a338056701d51b53711b390d621c14f4d5efb8a9986b5bf3c9"
+  },
+  {
+    "path": "data/generation_v2/qa_del_v3.json",
+    "bytes": 7468,
+    "sha256": "f0fcc4156bfa9f66700358a304caa1ccaac40def7c61021f5880c6f1d45e6248"
+  },
+  {
+    "path": "data/generation_v2/qa_grenadier.json",
+    "bytes": 4082,
+    "sha256": "f70648de835d79bee035398d91e02249f6307ad31c4905f136f468ddaf759b78"
+  },
+  {
+    "path": "data/generation_v2/qa_jack.json",
+    "bytes": 5757,
+    "sha256": "bad479c2a91deb0c0517a7e75d505f1595a20884ad4724867b8c08909c7c36b3"
+  },
+  {
+    "path": "data/generation_v2/qa_jack_v3.json",
+    "bytes": 6097,
+    "sha256": "00690614dec9068dd88ab910134f6a3b0feaf00cb043862a06002de662d2ebba"
+  },
+  {
+    "path": "data/generation_v2/qa_jd.json",
+    "bytes": 7326,
+    "sha256": "b4eb2017f92a128dfbdfb562cd1619ddc790ad17d27ab1b1800f2a54f831cf1c"
+  },
+  {
+    "path": "data/generation_v2/qa_kantus.json",
+    "bytes": 9394,
+    "sha256": "6b1b3cfbc9ef1445ae20b77c50a51ac1476c334df2e56e0622fa364483262bac"
+  },
+  {
+    "path": "data/generation_v2/qa_kantus_v3.json",
+    "bytes": 11664,
+    "sha256": "bd88a28904cfa69605eab8f0911a3d01bd650b0114ed93fbe9e84753b6e1265d"
+  },
+  {
+    "path": "data/generation_v2/qa_lizzie.json",
+    "bytes": 7815,
+    "sha256": "eabe392842ba5cfd88f37826ced587c4000c95522f3d821e8df419b42055f072"
+  },
+  {
+    "path": "data/generation_v2/qa_locust_drone.json",
+    "bytes": 4253,
+    "sha256": "0fefc69f23114e7fdc82a34119a2d4ce74952ef09d1472f2755e6db0c9b60894"
+  },
+  {
+    "path": "data/generation_v2/qa_paduk.json",
+    "bytes": 6071,
+    "sha256": "0b9f99bfe3a094538f0c095ecdb79cd204d8fa7e1ed82eaba10b6df1deee2e7f"
+  },
+  {
+    "path": "data/generation_v2/qa_paduk_v3.json",
+    "bytes": 7223,
+    "sha256": "1a2e06e40d6b8a312f359c0a95d8ff7a0ca42fafdece9210070ca15a01f53ff7"
+  },
+  {
+    "path": "data/generation_v2/qa_reyna.json",
+    "bytes": 8141,
+    "sha256": "9923c6392ae34482dd3369c605ea4447e2b4b20cbfd7de93b45c640b2ebac232"
+  },
+  {
+    "path": "data/generation_v2/qa_reyna_v3.json",
+    "bytes": 11130,
+    "sha256": "f6b83e7a1d476d88f1525287963d49a4a2e0d5c7651ae4e84730c681ec3d592e"
+  },
+  {
+    "path": "data/generation_v2/qa_sid.json",
+    "bytes": 5530,
+    "sha256": "f9324dd286b55afe839b072dc9eeffff50336cc655d4b7f43e190e4ecf94f1e3"
+  },
+  {
+    "path": "data/generation_v2/qa_sid_v3.json",
+    "bytes": 6273,
+    "sha256": "4187cf0cb9d29f111847afb8f7f91ffbf0c55542451d3c21140b36d2d6d3ac3c"
+  },
+  {
+    "path": "data/generation_v2/qa_skorge.json",
+    "bytes": 7328,
+    "sha256": "7026c203d1090cbf820f05900af5031fe67dafdc44af2ccf0157cd56e743ec80"
+  },
+  {
+    "path": "data/generation_v2/qa_skorge_v3.json",
+    "bytes": 10806,
+    "sha256": "dfbc086ca4a47f17aac64577b1bfb4eacb218c2dc66b34d3afd9e2a37dff7213"
+  },
+  {
+    "path": "data/generation_v2/qa_sofia.json",
+    "bytes": 6209,
+    "sha256": "63d5fae711d746d60bf2acf72392a166877e99a6e128ada68137bf4cbe1bad71"
+  },
+  {
+    "path": "data/generation_v2/qa_sofia_v3.json",
+    "bytes": 6940,
+    "sha256": "2936c64d0556365c7bd6ecbcd82cf79236add9fd5c19191793f1d9c26b092a10"
+  },
+  {
+    "path": "data/generation_v2/qa_swarm_drone.json",
+    "bytes": 3757,
+    "sha256": "274a8cac959f4af41a38dc7881293490c54edfb5d04faf00d30d960be2b1d5f5"
+  },
+  {
+    "path": "data/generation_v2/queue.json",
+    "bytes": 12109,
+    "sha256": "5546ac3f0ed8411b010e3fad5328f00ca2b0a38c63261b7c43ffccef48b4fefa"
+  },
+  {
+    "path": "data/generation_v2/reference_corrections_locust.json",
+    "bytes": 11345,
+    "sha256": "f837fd4ac2dc47f6e07015f6df85cbb5ee30f68ab52d842967dd94c8d0ab2b35"
+  },
+  {
+    "path": "data/generation_v2/result_anya.json",
+    "bytes": 3164,
+    "sha256": "04ad216d741c2d2c6c7b871a8c89d3b7a1edfb2c9578a5e688be9ae7c62d279e"
+  },
+  {
+    "path": "data/generation_v2/result_baird.json",
+    "bytes": 3138,
+    "sha256": "753bf7bad107ebf00706ad3e8ef67607edda07d53c2f5896dc193439a9abb2e2"
+  },
+  {
+    "path": "data/generation_v2/result_clayton.json",
+    "bytes": 3248,
+    "sha256": "a2a0829fb6ebbd2927655c7464254f31e2307309666a52d042bcb69c6472ec76"
+  },
+  {
+    "path": "data/generation_v2/result_cole.json",
+    "bytes": 3082,
+    "sha256": "5be620ac24a78632e289d7d5104045d4da1854330166cc71dbe87f3795b90d6c"
+  },
+  {
+    "path": "data/generation_v2/result_deebee.json",
+    "bytes": 2648,
+    "sha256": "a2530dec1bf6bbce6afc50f1b61f748aa39ab47e0ebe364888cc6496e3b5fa7d"
+  },
+  {
+    "path": "data/generation_v2/result_del.json",
+    "bytes": 3255,
+    "sha256": "91380a456859cc8c01426f41b46d1e6ccd3bb854052b74edddbe6edbd112f31d"
+  },
+  {
+    "path": "data/generation_v2/result_dizzy.json",
+    "bytes": 3221,
+    "sha256": "203e70e10fa40755b01864bf8bab609c77d5fb2e0bdb201c4a0ae052180bc050"
+  },
+  {
+    "path": "data/generation_v2/result_dom.json",
+    "bytes": 2981,
+    "sha256": "50c75a9316e21859bf41dff353697b8ad9e1d79fc0bc3a3bd21a731eceebe812"
+  },
+  {
+    "path": "data/generation_v2/result_fahz.json",
+    "bytes": 3244,
+    "sha256": "ee6fec181a030dd4316a6a26ace056a74b3a6852f26afc7baffbc5965deaee6a"
+  },
+  {
+    "path": "data/generation_v2/result_gabe.json",
+    "bytes": 2542,
+    "sha256": "f022c5d4143d0718380b6d7f3add6abb2232e7d06a21e3d08a9467ed993ffd52"
+  },
+  {
+    "path": "data/generation_v2/result_grenadier.json",
+    "bytes": 2858,
+    "sha256": "18715d54c4f8ae7683b53aaea2deb59f909efd2b875ff7018624590e6595f8d1"
+  },
+  {
+    "path": "data/generation_v2/result_hoffman.json",
+    "bytes": 3070,
+    "sha256": "0aa10777049f49ac9cb8561bc9b16f8a0e491a01b844055827fcc0a46d81992f"
+  },
+  {
+    "path": "data/generation_v2/result_jack.json",
+    "bytes": 2467,
+    "sha256": "173660c19ca7e69718250a5f1ca006ce8fea5f4ac6117d1d8673085ee96d2777"
+  },
+  {
+    "path": "data/generation_v2/result_jd.json",
+    "bytes": 3398,
+    "sha256": "98ae463ebe2ebf8ccfc97bf2d08c4e63d7c0b4b0d194ae8092f41abca59552c7"
+  },
+  {
+    "path": "data/generation_v2/result_kantus.json",
+    "bytes": 2755,
+    "sha256": "4595291113305156460a0630517206e14d1bbc2b2616405177af930e4ed9d63a"
+  },
+  {
+    "path": "data/generation_v2/result_keegan.json",
+    "bytes": 2912,
+    "sha256": "2638c6fe78cdf5b0b7c76cf4bb91827cbe05ee745ad6a65be79a40d188470592"
+  },
+  {
+    "path": "data/generation_v2/result_lahni.json",
+    "bytes": 2998,
+    "sha256": "050c6aa9a41c0728cc621e4be64ac416c9a083ecbb4cc4ff99174e55d2a01e3d"
+  },
+  {
+    "path": "data/generation_v2/result_lizzie.json",
+    "bytes": 3405,
+    "sha256": "dff2a418602b1f1e366e55dc82f1e0bc9987f779c7050ce767eea03b33c2ed17"
+  },
+  {
+    "path": "data/generation_v2/result_locust_drone.json",
+    "bytes": 2902,
+    "sha256": "1e1a7248d98a70a79a61e295056bde77f8c1df6cb0a2d7bb1c3d4fc5eb6a72a8"
+  },
+  {
+    "path": "data/generation_v2/result_mac.json",
+    "bytes": 2965,
+    "sha256": "565105dc03fb9f27bbf1029017e65ebbf795ee25d411c018637a0c19f7a14660"
+  },
+  {
+    "path": "data/generation_v2/result_mikayla.json",
+    "bytes": 2642,
+    "sha256": "208e617183388cca88ed92651310a0b5a7d146ce41400d19c09d542e98ac6188"
+  },
+  {
+    "path": "data/generation_v2/result_myrrah.json",
+    "bytes": 2793,
+    "sha256": "3c221132eadf01f0046ada671ef4c44952519216f334ede86cf3317018a486f3"
+  },
+  {
+    "path": "data/generation_v2/result_paduk.json",
+    "bytes": 3050,
+    "sha256": "e6055cb182b087e62fcd7f429c56b9ed54427405a6db1d0b2e4f04e6a6e9fa87"
+  },
+  {
+    "path": "data/generation_v2/result_raam.json",
+    "bytes": 2779,
+    "sha256": "ef8b9e5f572705f6e3415e145443083319846b5993ea4691289a6b9b61194fe8"
+  },
+  {
+    "path": "data/generation_v2/result_reyna.json",
+    "bytes": 3012,
+    "sha256": "0c74ba38ec36258a862a6304c9ac706afa91f7300c90148186b76d5b569a66a2"
+  },
+  {
+    "path": "data/generation_v2/result_sam.json",
+    "bytes": 2781,
+    "sha256": "d53daab459bbd1c6e265d468a03595438d0ffc9c40c931d63f63a3871c3203be"
+  },
+  {
+    "path": "data/generation_v2/result_sid.json",
+    "bytes": 2682,
+    "sha256": "1da621ddb222f5dbff5e7d637cf4293b7b2af85d9ff74506925547df03f4fc78"
+  },
+  {
+    "path": "data/generation_v2/result_skorge.json",
+    "bytes": 2835,
+    "sha256": "a5d0da2bcf111bcd710dbe954e096a2aafa13d8cfcc75b2a102f25e0762dbbb1"
+  },
+  {
+    "path": "data/generation_v2/result_sofia.json",
+    "bytes": 2997,
+    "sha256": "a3459bce4ea8993cec4001b9d4708b89771d4f0988cb52dce19d9071158d1ea3"
+  },
+  {
+    "path": "data/generation_v2/result_swarm_drone.json",
+    "bytes": 2784,
+    "sha256": "53d7a2e1901783d30f7c5b17936a4151e604290a0ce2e26348ef619ff6f64d63"
+  },
+  {
+    "path": "data/generation_v2/result_tai.json",
+    "bytes": 3309,
+    "sha256": "fe1798f189d443ca53766e406253638eeddeceb4fe7b60ded77376986556a474"
+  },
+  {
+    "path": "data/generation_v2/result_theron.json",
+    "bytes": 2804,
+    "sha256": "b3e89532c52bbe4c7ad35f6ec1323136bef710756b374de058e7bcd901f381c6"
+  },
+  {
+    "path": "data/generation_v2/result_ukkon.json",
+    "bytes": 3000,
+    "sha256": "2e7e66adf22e4decc3fce289cb18d0ca6408dc1112e912334829ad29b83137ce"
+  },
+  {
+    "path": "data/generation_v2/result_warden.json",
+    "bytes": 2799,
+    "sha256": "14ce5e81a5f9c314eae2204af79204da3097ad9727ed8c9fac8610a3deee0d2e"
+  },
+  {
+    "path": "data/generation_v2/selection_notes.json",
+    "bytes": 2793,
+    "sha256": "9cec3697326dc9d48eabcdcbdedf50e71382a87553289c3bbb12d0855e051fd1"
+  },
+  {
+    "path": "data/generation_v2/summary.json",
+    "bytes": 1140,
+    "sha256": "7acaaebff5bbe10b02df4dd051c83da548c34655a62b4e64a16ef281db6dcdb4"
+  },
+  {
+    "path": "data/image_prompts.json",
+    "bytes": 9868,
+    "sha256": "0a9ae214137fe90a94bd0310a8267032145eb4cc7ce36344bf91eb1ee42c7315"
+  },
+  {
+    "path": "data/movesets.json",
+    "bytes": 124645,
+    "sha256": "da048d0dcb859c1515a7b7959077fbe55237737c06436b2ad48e6538adde1cdd"
+  },
+  {
+    "path": "data/production_queue.json",
+    "bytes": 87611,
+    "sha256": "0b0b9c7e7c5a2d8d1898b99d0c0c4905942fb5c9e0721c1b36e2678f07a9b5fa"
+  },
+  {
+    "path": "data/roster.json",
+    "bytes": 83976,
+    "sha256": "fd30a5d4ebcce99774e72cb3696018b9855481b9409fa42ebfba0e5962d7772f"
+  },
+  {
+    "path": "data/stages.json",
+    "bytes": 100223,
+    "sha256": "2be0f6fb84341c85d844a0daa5a6c6b972d8a96d933c54111bc2ce5103d31a22"
+  },
+  {
+    "path": "src/finalize_generation_v2.py",
+    "bytes": 7672,
+    "sha256": "6e082fb1d70b206efed9315c6bb2461a4d07fa2854839e2354b71b25a0b9cff6"
+  },
+  {
+    "path": "src/package_characters_v2.py",
+    "bytes": 12085,
+    "sha256": "12ada169c1307cf6e553746fde6fe4335d5c143bf322b4294026b95e4067aed8"
+  },
+  {
+    "path": "src/build_asset_manifest.py",
+    "bytes": 4412,
+    "sha256": "f022d10c8bdcf37b658e569c05efa89ac50a4f414bb38117ec711b52eeebee4b"
+  },
+  {
+    "path": "src/build_workbook.mjs",
+    "bytes": 25176,
+    "sha256": "68cc8ad76f9409357b3bbf4276d96e06b44d16c7da434534d966e1cb20b23c8a"
+  },
+  {
+    "path": "docs/qa_workbook_v2.json",
+    "bytes": 6099,
+    "sha256": "1f06fd4184347456846408dc0a174f4fea164f478ca41f6cc4354ec5226b9ba5"
+  }
+]

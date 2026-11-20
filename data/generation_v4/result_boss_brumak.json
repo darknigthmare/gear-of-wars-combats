@@ -1,0 +1,36 @@
+{
+  "id": "boss_brumak",
+  "name": "Brumak",
+  "source_game": "Gears Tactics",
+  "prompt": "Use case: stylized-concept. Asset type: a faithful isolated model-reference illustration for the Gears of War Combats 2D game bible. Create ONE complete subject in ONE quiet neutral pose, facing toward the right in a readable three-quarter side view. Realistic digitally painted 2D rendering with finely resolved materials, coherent restrained studio lighting and crisp silhouette. Preserve the exact named game version rather than redesigning it. Place the entire subject, including every extremity and permanently attached component, inside the canvas with at least 6% clear padding on all sides. Genuinely transparent RGBA background. No scenery, floor, pedestal, external cast shadow, smoke, action effects, people, additional creatures, labels, captions, logo, UI, decorative border, collage or multiple views. No battle, firing, impact, explosion, blood or injury. Canonical permanently attached equipment remains present but inactive. Use reference images only for identity, anatomy, mechanical layout and material colors; do not copy their action, surroundings, camera crop, text, watermark, presentation sheet or extra subjects.\n\nSubject specification: The standard Brumak boss from Gears Tactics (2020), not a Lambent Brumak and not a Swarmak. A huge heavy bipedal reptilian Locust beast, thick neck, compact armored head, massive sloping shoulders, powerful hind legs, long heavy arms with visible clawed hands, coarse gray-brown hide and the recognizable industrial dark metal harness. Preserve its two forearm-mounted multi-barrel weapons, its large back-mounted rocket-launcher rig and the rear canister assembly in the exact shipped Tactics arrangement. These are integral carried equipment, idle and not firing; the hands are empty and relaxed. Stand calmly with both feet planted, arms lowered naturally and mouth resting, no charge and no roar. The official Tactics gameplay image is an identity reference only: retain the creature and its mechanical silhouette, exclude every soldier, interface element, targeting ring and combat effect. Keep the organic body clearly distinguishable from armor; do not add mutation blisters, crystal growths, glowing exposed organs or invented horns.\n\nFraming: Portrait or near-square composition, wide enough for the forearm rigs; keep the full head, back rig, both hands and both feet inside the image.",
+  "source_urls": [
+    "https://www.gearsofwar.com/en-gb/news/dev-blog-bosses/",
+    "https://news.xbox.com/en-us/2020/04/07/gears-tactics-has-gone-gold-for-the-pc-heres-five-things-you-need-to-know/",
+    "https://video-game-guide-walkthrough.supersoluce.com/solution/gears-tactics-guide-walkthrough/gears-tactics-bosses-guide/brumak/"
+  ],
+  "has_image": true,
+  "path": "assets/bosses_v4/boss_brumak_reference_v4.png",
+  "error": null,
+  "output_hint": "Generated images are saved to /workspace/scratch/1e1136701ce4/generated_images as /workspace/scratch/1e1136701ce4/generated_images/exec-4ad842cb-297f-427f-a194-9919875d2bfc.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "original_path": "/workspace/scratch/1e1136701ce4/generated_images/exec-4ad842cb-297f-427f-a194-9919875d2bfc.png",
+  "width": 1278,
+  "height": 1230,
+  "mode": "RGBA",
+  "alpha_min": 0,
+  "alpha_max": 255,
+  "alpha_bbox_visible": [
+    79,
+    39,
+    1184,
+    1185
+  ],
+  "sha256": "a6521c67014561311112d8793ba6dff1a3435fce56f5c0430fd228e03281cc32",
+  "qa_notes": [
+    "Sujet unique entier, deux armes d’avant-bras et lanceurs dorsaux, peau, casque et matériaux inspectés.",
+    "Anatomie et volumes généraux reconnaissables ; tubes, attaches, plaques dorsales et teintes exactes à vérifier contre le modèle Tactics.",
+    "Pose unique sans articulation séparée, aucune animation."
+  ],
+  "fidelity_approved": false,
+  "ready_for_animation": false,
+  "visual_inspected": true
+}

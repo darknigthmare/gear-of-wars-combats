@@ -1,0 +1,15 @@
+{
+  "id": "warden",
+  "name": "Warden",
+  "prompt": "The standard campaign Warden from Gears 5. Preserve the enormous broad adult Scion build, rugged pale grey mineral-textured skin, massive shoulders and arms, heavy imposing torso, original distinctive protective helmet and the hanging cape that recalls the ceremonial attire of elite Locust guards. Use the exact standard campaign headgear, shoulder silhouette, cape attachment, original body coverage, belt, lower garment and leg equipment of the Warden. The cape hangs at rest behind the body, allowing both empty hands and feet to remain visible. The standard helmet is intact and the face is at rest. Do not replace him with the Speaker, a normal Swarm Drone, a Theron in oversized armor, a special cosmetic variant or a new fantasy giant. Create exactly one full-body character as a neutral production model reference: standing at rest, weight balanced, shoulders relaxed, arms slightly separated from the torso, both empty hands visible and relaxed. Three-quarter view facing screen-right, turned enough toward profile for a readable side-view 2D silhouette. The complete head, feet, fingers and every costume extremity must fit inside the canvas with a generous transparent margin. Realistic hand-painted 2D UHD game art, anatomically and materially faithful to the named official game model, crisp readable contour, restrained even studio illumination. True transparent alpha background, including gaps between limbs. No text, captions, logos, interface, border, second character, alternate view, scenery, floor, pedestal, cast shadow, glow, particles, action, injury or violence. No handheld or attached weapons. Preserve the exact named episode costume rather than inventing a redesign or combining skins. This is a single calm unarmed reference pose.",
+  "source_game": "Gears 5",
+  "source_urls": [
+    "https://news.xbox.com/en-us/2019/10/16/all-new-heroes-and-villains-are-available-today-in-gears-5/",
+    "https://www.artstation.com/ometto",
+    "https://news.xbox.com/en-us/2020/02/21/gears-of-war-unveils-new-action-figures-at-new-york-toy-fair/"
+  ],
+  "output_hint": null,
+  "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 65ad94c4-7b53-4418-887b-bbe2abe2d0c6.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+  "has_image": false,
+  "status": "not_generated"
+}

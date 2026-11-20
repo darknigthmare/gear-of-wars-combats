@@ -1,0 +1,7 @@
+{
+  "prompt": "Use case: precise-object-edit. Image 1 is the Baird character cutout to edit. Image 2 is the official Gears of War 3 key art; Baird is the blond man with goggles at the far right and serves only to verify his sleeveless campaign outfit. Change exactly one costume detail in image 1: remove the invented brown rolled short sleeves from both upper arms and shoulders, revealing his bare upper arms beneath the armor shoulder straps as in his Gears 3 outfit. Preserve his existing face, blond hair, forehead goggles, physique, all armor plates, arm protection, trousers, boots, neutral standing pose, rightward angle, empty hands, material rendering and lighting. Do not copy any other person, weapon, scene or lettering from image 2. Keep one complete full-body Baird on true transparency with all fingers and both boot soles visible. No new items, no action, no text, no shadow or background.",
+  "output_hint": "Generated images are saved to /workspace/scratch/230d6e8ab6bb/generated_images as /workspace/scratch/230d6e8ab6bb/generated_images/exec-0d622b57-3db9-49dd-8060-03ed6769528f.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "id": "baird",
+  "status": "generated",
+  "path": "assets/characters_v2/baird_reference_v3.png"
+}

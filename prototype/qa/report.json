@@ -1,0 +1,23 @@
+{
+  "engineTests": 15,
+  "jsParse": "pass",
+  "canvasRenderer": "all three modes rendered locally",
+  "embeddedAssets": [
+    "stage_ephyra",
+    "marcus_neutral_cutout"
+  ],
+  "shortTouchBuffer": "pass",
+  "pause": "pass",
+  "browserVerification": "blocked: local Chromium socket permission and cloud browser file URL policy",
+  "cssResponsiveVerification": "not run",
+  "hardwareGamepad": "not tested",
+  "illustrationVisualInspection": {
+    "screenshots": [
+      "canvas-duel-illustration.png",
+      "canvas-berserker-illustration.png"
+    ],
+    "result": "Pas de halo gênant à l’échelle du jeu ; pieds et hauteur cohérents. Pose unique neutre désarmée, sans animation des attaques.",
+    "defaultEnabled": true,
+    "optionalProxyToggle": true
+  }
+}

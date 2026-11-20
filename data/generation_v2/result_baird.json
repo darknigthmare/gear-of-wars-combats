@@ -1,0 +1,20 @@
+{
+  "id": "baird",
+  "name": "Damon Baird",
+  "prompt": "Damon Baird from Gears of War 3, in his original Gears 3 campaign field outfit. Adult heavily built man with recognisable angular facial features, short blond hair, light facial stubble and his distinctive round-lensed blue mechanic goggles resting on his forehead above the eyes. Use the younger campaign Baird, not the grey-haired or bald older Gears 5 engineer. Reproduce the Gears 3 campaign arrangement of weathered dark blue-grey COG chest armor, blue armor lights, field clothing, utility belt and equipment pouches, reinforced combat trousers, knee armor, forearm protection and heavy boots. Keep the goggles, face and engineering-soldier silhouette recognisably Baird’s, while keeping the original Gears 3 armor design rather than importing his Judgment lieutenant uniform or later laboratory clothing. Materials should read as worn metal plates, woven military fabric, leather and rubber. Do not add tools to his hands. Create exactly one adult character, alone, full body from the top of the head to both complete boot soles, centered with clear transparent margin around the silhouette. Neutral relaxed standing pose, three-quarter turn toward screen right, clearly readable as a side-view 2D fighting-game character; both arms resting slightly away from the torso, hands visibly empty and relaxed, legs comfortably separated, neutral closed-mouth expression. Respect the character’s original anatomy and game proportions. Realistic hand-painted 2D production illustration with UHD-level material detail, crisp clean contour and controlled soft lighting; no cartoon, no cel shading, no photograph, no plastic miniature. The background must be truly transparent with an alpha channel. No background color, scenery, floor, pedestal, ground plane, cast shadow outside the silhouette, text, caption, UI, watermark, duplicates, inset portrait, alternate view, held weapon, slung weapon, violence, blood or injuries. This is a single reusable neutral character cutout, not a poster or action scene.",
+  "source_game": "Gears of War 3",
+  "source_urls": [
+    "https://www.gearsofwar.com/en-us/games/gears-of-war-3/",
+    "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/gears-of-war-3-69d7d9132411b-1024x576.jpg",
+    "https://www.xbox.com/en-US/games/store/gears-3-baird-multiplayer-character/C54DHPZWRBV5"
+  ],
+  "output_hint": "Generated images are saved to /workspace/scratch/230d6e8ab6bb/generated_images as /workspace/scratch/230d6e8ab6bb/generated_images/exec-4cb05805-2ef3-41fc-9cee-423899ed28a1.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "error": null,
+  "has_image": true,
+  "status": "generated",
+  "path": "assets/characters_v2/baird_reference_v2.png",
+  "width": 1024,
+  "height": 1536,
+  "alpha": true,
+  "sha256": "2f3ffdd8ef8ddffd428d706364431e5a4ff49ba4054cb25106bbc2fa7931ae36"
+}

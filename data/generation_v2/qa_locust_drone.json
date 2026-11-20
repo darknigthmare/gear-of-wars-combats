@@ -1,0 +1,131 @@
+{
+  "id": "locust_drone",
+  "asset_path": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/locust_drone_reference_v2.png",
+  "sha256": "e1ee3dca92be0150b70c7c5c2b600f881b8f131e01d3eaa8696ea9bd6adf7a3c",
+  "inspection": "Ouverture du PNG à taille native via view_image ; inspection RGBA par Pillow, sans modifier ni réenregistrer l’image.",
+  "overall_status": "interpretation_approximative_fidelite_non_validee",
+  "subject_recognizable": {
+    "status": "partial",
+    "observation": "Locuste d’infanterie identifiable par peau grise, gabarit massif et armure sombre. Le visage et la cuirasse ressemblent à une interprétation générique ; le modèle Drone 2006 précis n’est pas certifié."
+  },
+  "full_silhouette": {
+    "status": "pass",
+    "observation": "Tête, deux mains et deux pieds sont visibles et entièrement dans le cadre.",
+    "substantial_alpha_bbox": [
+      160,
+      24,
+      836,
+      1515
+    ],
+    "margin_px_alpha_ge_128": {
+      "left": 160,
+      "top": 24,
+      "right": 188,
+      "bottom": 21
+    }
+  },
+  "one_pose": {
+    "status": "pass",
+    "observation": "Un seul personnage, une seule pose, aucun encart ni doublon."
+  },
+  "angle": {
+    "status": "pass",
+    "observation": "Trois-quarts orienté vers la droite, visage et torse lisibles ; ce n’est pas une vue orthographique de profil."
+  },
+  "empty_hands": {
+    "status": "pass",
+    "observation": "Les deux mains sont visibles, relâchées et ne portent ni arme ni objet."
+  },
+  "neutral_presentation": {
+    "status": "pass",
+    "observation": "Station au repos, aucune action, blessure, scène de combat ou effet offensif."
+  },
+  "alpha": {
+    "mode": "RGBA",
+    "size_px": [
+      1024,
+      1536
+    ],
+    "min": 0,
+    "max": 254,
+    "alpha_zero_pixels": 910747,
+    "alpha_zero_fraction": 0.579037,
+    "pixels_alpha_1_to_15": 25098,
+    "substantial_alpha_bbox": [
+      160,
+      24,
+      836,
+      1515
+    ],
+    "all_nonzero_alpha_bbox": [
+      0,
+      20,
+      1010,
+      1536
+    ],
+    "corner_and_mid_edge_samples_rgba": {
+      "(0, 0)": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "(1023, 0)": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "(0, 1535)": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "(1023, 1535)": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "(512, 0)": [
+        90,
+        85,
+        83,
+        0
+      ],
+      "(512, 1535)": [
+        32,
+        29,
+        26,
+        0
+      ]
+    },
+    "interpretation": "Le RGB de fond affiché par view_image n’est pas la preuve d’un fond opaque. Les échantillons de fond ont alpha 0. Le maximum 254 est le comportement annoncé de ce générateur et n’est pas classé comme défaut. De faibles résidus alpha sont consignés sans modifier le fichier."
+  },
+  "visible_defects": [
+    {
+      "severity": "review",
+      "area": "identite",
+      "observation": "Tête très lisse dans sa grande forme, bouche en trait fermé et peau fortement craquelée : vérifier le sculpt original plutôt que valider sur la seule couleur grise."
+    },
+    {
+      "severity": "review",
+      "area": "costume",
+      "observation": "Nombreuses plaques rouge-brun, fermoirs centraux, jambières et trous de pantalon sont des détails générés non justifiés par une comparaison 2006."
+    }
+  ],
+  "fidelity_uncertified": [
+    "Forme des oreilles, nez, orbites, mâchoire et texture de peau du Drone 2006.",
+    "Architecture du plastron, répartition des épaulières, fermeture de la ceinture et protections de cuisse.",
+    "Ripped fabric et usure de la tenue : leur présence et placement ne sont pas des détails de canon établis.",
+    "Nombre de doigts et articulations vus en perspective, semelles et pièces cachées du dos."
+  ],
+  "source_urls": [
+    "https://www.gearsofwar.com/en-us/games/gears-of-war/",
+    "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/"
+  ],
+  "source_limits": "La référence officielle du blog concerne Tactics. Elle ne valide pas le détail du Drone 2006 ; la réserve est conservée tant que le modèle exact n’a pas été comparé.",
+  "image_modified": false,
+  "generation_or_retry_performed": false
+}

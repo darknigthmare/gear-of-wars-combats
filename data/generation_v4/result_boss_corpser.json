@@ -1,0 +1,36 @@
+{
+  "id": "boss_corpser",
+  "name": "Corpser",
+  "source_game": "Gears Tactics",
+  "prompt": "Use case: stylized-concept. Asset type: a faithful isolated model-reference illustration for the Gears of War Combats 2D game bible. Create ONE complete subject in ONE quiet neutral pose, facing toward the right in a readable three-quarter side view. Realistic digitally painted 2D rendering with finely resolved materials, coherent restrained studio lighting and crisp silhouette. Preserve the exact named game version rather than redesigning it. Place the entire subject, including every extremity and permanently attached component, inside the canvas with at least 6% clear padding on all sides. Genuinely transparent RGBA background. No scenery, floor, pedestal, external cast shadow, smoke, action effects, people, additional creatures, labels, captions, logo, UI, decorative border, collage or multiple views. No battle, firing, impact, explosion, blood or injury. Canonical permanently attached equipment remains present but inactive. Use reference images only for identity, anatomy, mechanical layout and material colors; do not copy their action, surroundings, camera crop, text, watermark, presentation sheet or extra subjects.\n\nSubject specification: The standard Corpser boss from Gears Tactics (2020). Depict the broad, low, immensely heavy arachnid body with its eight long thick angular limbs, pale gray rough organic limb surfaces, blunt blade-like lower legs, dark protective head and upper-body armor, clustered small amber helmet lamps and the original distinctive face. Use the shipped Tactics armor shapes, including the additional compact mechanical grenade-launcher assembly built into the chest, documented by its character artist Ben Davis. This assembly is inactive, with no ammunition leaving it. All legs are held in a stable resting stance, gently separated so the anatomy is legible, with no striking leg raised. The face is at rest rather than roaring. Preserve the specific Corpser shape instead of making a real spider, a scorpion, a robot, a generic fantasy insect, or the different Gears 3 wild Corpser design. No rider or human-scale comparison figure.\n\nFraming: Landscape composition suited to its wide leg span; show the head and chest clearly and do not crop any far-side foot.",
+  "source_urls": [
+    "https://www.gearsofwar.com/en-gb/news/dev-blog-bosses/",
+    "https://ben_davis.artstation.com/projects/rRa4eG",
+    "https://gearsofwar.neoseeker.com/wiki/Locust_Horde"
+  ],
+  "has_image": true,
+  "path": "assets/bosses_v4/boss_corpser_reference_v4.png",
+  "error": null,
+  "output_hint": "Generated images are saved to /workspace/scratch/1e1136701ce4/generated_images as /workspace/scratch/1e1136701ce4/generated_images/exec-658dca84-326a-4342-bd55-ca206517754e.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "original_path": "/workspace/scratch/1e1136701ce4/generated_images/exec-658dca84-326a-4342-bd55-ca206517754e.png",
+  "width": 1672,
+  "height": 941,
+  "mode": "RGBA",
+  "alpha_min": 0,
+  "alpha_max": 255,
+  "alpha_bbox_visible": [
+    55,
+    25,
+    1628,
+    913
+  ],
+  "sha256": "9ddccf6d1d69621a148daa259a70b2f9ec693907c64a04ee698f94334227d72e",
+  "qa_notes": [
+    "Sujet unique entier, huit grandes pattes lisibles, casque à lampes et dispositif thoracique présents.",
+    "Pose vue de trois-quarts avant ; vue latérale stricte à produire pour le combat.",
+    "Revers de l’abdomen, petites pattes postérieures et topologie précise du casque non certifiés."
+  ],
+  "fidelity_approved": false,
+  "ready_for_animation": false,
+  "visual_inspected": true
+}

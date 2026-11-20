@@ -1,0 +1,181 @@
+{
+  "id": "jd",
+  "name": "JD Fenix",
+  "source_game": "Gears 5",
+  "costume": "Scarred JD, après ellipse, période Vasgar",
+  "asset_path": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/jd_reference_v2.png",
+  "sha256": "acfe1fb81543e98962767f46299f3362225429db810dee13fcab60c8b3a28fae",
+  "inspection": "PNG généré et références ouverts à taille native via view_image ; métadonnées RGBA analysées avec Pillow, sans modifier ni réenregistrer l’image.",
+  "overall_status": "reference_initiale_reconnaissable_fidelite_non_validee",
+  "fidelity_recommendation": "À valider",
+  "certified_1_to_1": false,
+  "subject_recognizable": {
+    "status": "pass_invariants_only",
+    "observation": "JD après ellipse reconnaissable : cheveux très courts bruns, barbe brune fournie, armure CGU et asymétrie du bras droit anatomique. Le côté du bras marqué est correct ; la main est conservée et aucune prothèse robotique intégrale n’a été ajoutée."
+  },
+  "full_silhouette": {
+    "status": "pass_with_margin_warning",
+    "observation": "Tête, deux mains et deux pieds entièrement dans le cadre. Le dégagement vertical reste très faible.",
+    "substantial_alpha_bbox": [
+      156,
+      9,
+      819,
+      1527
+    ],
+    "margin_px_alpha_ge_128": {
+      "left": 156,
+      "top": 9,
+      "right": 205,
+      "bottom": 9
+    }
+  },
+  "one_pose": {
+    "status": "pass",
+    "observation": "Un seul personnage et une seule pose, sans encart ni doublon."
+  },
+  "angle": {
+    "status": "pass",
+    "observation": "Trois-quarts orienté vers la droite ; vue de référence en perspective, pas profil orthographique."
+  },
+  "empty_hands": {
+    "status": "pass",
+    "observation": "Deux mains vides au repos, aucune arme ni objet tenu."
+  },
+  "neutral_presentation": {
+    "status": "pass",
+    "observation": "Pose au repos, sans scène offensive, mutilation, sang ou blessure ouverte."
+  },
+  "alpha": {
+    "mode": "RGBA",
+    "size_px": [
+      1024,
+      1536
+    ],
+    "min": 0,
+    "max": 254,
+    "alpha_zero_pixels": 954708,
+    "alpha_zero_fraction": 0.606987,
+    "pixels_alpha_1_to_15": 26256,
+    "substantial_alpha_bbox": [
+      156,
+      9,
+      819,
+      1527
+    ],
+    "all_nonzero_alpha_bbox": [
+      0,
+      0,
+      1012,
+      1536
+    ],
+    "corner_and_mid_edge_samples_rgba": {
+      "(0, 0)": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "(1023, 0)": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "(0, 1535)": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "(1023, 1535)": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "(512, 0)": [
+        62,
+        46,
+        38,
+        0
+      ],
+      "(512, 1535)": [
+        32,
+        29,
+        28,
+        0
+      ]
+    },
+    "interpretation": "Les coins sont transparents. Le fond RGB montré par l’outil ne prouve pas un fond opaque. Le maximum alpha 254 est le comportement observé de ce générateur et n’est pas classé comme défaut. Les faibles résidus d’alpha sont consignés ; leur présence ne vaut pas validation d’un détourage de production."
+  },
+  "major_identity_discrepancies": [],
+  "reference_comparison": [
+    {
+      "area": "variante et identité",
+      "status": "pass_invariants",
+      "observation": "Les invariants de Scarred JD visibles dans les deux images officielles sont présents. Il ne s’agit pas d’un JD Gears 4 imberbe ni d’un mélange avec sa tenue Outsider."
+    },
+    {
+      "area": "bras droit",
+      "status": "partially_matched",
+      "observation": "Le bras marqué et découvert est du bon côté. La référence de campagne montre toutefois une surface rouge/brune beaucoup plus étendue et structurée ainsi que ses propres attaches ; la génération utilise des marques pâles plus localisées et des sangles différentes. La répartition exacte et le dispositif du bras ne sont pas validés."
+    },
+    {
+      "area": "torse et épaules",
+      "status": "unverified_detail",
+      "observation": "Le col montant, les deux grands disques du plastron et l’armure CGU sont présents. Le découpage des panneaux, la pièce centrale, les voyants et la géométrie des épaulières ont été réinterprétés ; les deux références ne suffisent pas à certifier leur correspondance exacte."
+    },
+    {
+      "area": "visage",
+      "status": "unverified_detail",
+      "observation": "La barbe et la coupe correspondent à la variante. Les nouvelles marques de la joue et la morphologie précise ne sont pas certifiées, car JD reste petit ou de profil dans les références inspectées."
+    }
+  ],
+  "visible_defects": [
+    {
+      "severity": "review",
+      "area": "bras droit",
+      "observation": "Le motif et la couverture des marques de peau, ainsi que les éléments de support/protection, ne reproduisent pas exactement le visuel officiel inspecté. Conserver un traitement de marques anciennes sans blessure ouverte."
+    },
+    {
+      "severity": "minor",
+      "area": "cadrage",
+      "observation": "Marge supérieure et inférieure de neuf pixels au seuil alpha 128 : corps entier mais dégagement très faible pour une référence de production."
+    },
+    {
+      "severity": "review",
+      "area": "style",
+      "observation": "Rendu très réaliste proche d’un rendu 3D ; l’aspect peint 2D reste à juger avec la direction artistique."
+    }
+  ],
+  "fidelity_uncertified": [
+    "Ressemblance exacte du visage et placement des marques de joue.",
+    "Détails du dispositif du bras droit et de ses attaches.",
+    "Dos, bottes, poches, sous-plaques et petites coutures non suffisamment visibles dans les références.",
+    "Le personnage est une pose de référence ; aucun cycle animé ni moveset n’est produit par cette image."
+  ],
+  "references_inspected": [
+    {
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_refs/g5_delta_baird_full.jpg",
+      "url": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/Accessibility_desktopBG-69d931f5a4c02.jpg",
+      "sha256": "14b0d716913fac7dd9f4ad7fff6ae7b4e7a9307ede9a3a21ca12bccf02bd3c57",
+      "source_type": "official_CDN",
+      "inspected": true
+    },
+    {
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_refs/g5_squad_full.jpg",
+      "url": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2019/08/squad_desktop-69cafec91903e.jpg",
+      "sha256": "9c6145564ab1a612edc7e0695f2bfe2e880e88cf925f9db495d18c7035f5ee22",
+      "source_type": "official_CDN",
+      "inspected": true
+    }
+  ],
+  "source_urls": [
+    "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/Accessibility_desktopBG-69d931f5a4c02.jpg",
+    "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2019/08/squad_desktop-69cafec91903e.jpg"
+  ],
+  "source_limits": "Deux images officielles sont inspectées. JD apparaît derrière Del dans la capture de campagne et à droite du visuel de groupe ; ces vues établissent la variante et l’asymétrie mais ne constituent pas un turnaround rapproché. Aucun écart majeur de personnage ou de variante n’est démontré ; la fidélité 1:1 n’est pas validée.",
+  "image_modified": false,
+  "generation_or_retry_performed": false,
+  "animation_status": "Non produite : pose unique de référence"
+}

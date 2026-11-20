@@ -1,0 +1,144 @@
+{
+  "checked_at_utc": "2026-11-19T17:03:04.885944+00:00",
+  "status": "pass_with_open_artistic_validation",
+  "workbook_path": "/workspace/scratch/230d6e8ab6bb/outputs/gears_combats_characters_v2/Gears_of_War_Combats_Production_v2.xlsx",
+  "workbook_sha256": "5d149ff06223bf79c08acc0898d4a6209ab46b823ac23d47cac4e6452196097f",
+  "workbook_bytes": 132131,
+  "v1_path": "/workspace/scratch/230d6e8ab6bb/outputs/gears_combats_v1/Gears_of_War_Combats_Production.xlsx",
+  "v1_sha256_expected": "3c892939e8b1f2d79ee3e3870e9a9dbe25520f7e65dcfc57a95b0d8af062b6e2",
+  "v1_sha256_after": "3c892939e8b1f2d79ee3e3870e9a9dbe25520f7e65dcfc57a95b0d8af062b6e2",
+  "v1_unchanged": true,
+  "input_sha256": {
+    "roster.json": "fd30a5d4ebcce99774e72cb3696018b9855481b9409fa42ebfba0e5962d7772f",
+    "assets_manifest.json": "9d0ac5b960f0dc025ff3fc80633de4a8e4493e7631f178fc49d234bdb948a936",
+    "animation_plan.json": "aaf5b23ac2d4099c59dd7841fa1e53208ff25419721c06659a59a1d313483b2e"
+  },
+  "validation": {
+    "roster": 36,
+    "costumes": 75,
+    "moves": 179,
+    "combos": 24,
+    "routes": 36,
+    "bosses": 24,
+    "phases": 72,
+    "stages": 24,
+    "layers": 144,
+    "chapters": 12,
+    "productionTasks": 240,
+    "animationRows": 30,
+    "drawingsPerOrientation": 552,
+    "drawingsPerFighter": 1104,
+    "animationDrawingsValidated": 0,
+    "imagesPresent": 20,
+    "imagesTechnicalValidated": 20,
+    "imagesFidelityValidated": 0,
+    "imagesIntegrated": 2,
+    "imagesReady": 0,
+    "imagesAlphaRequired": 16,
+    "imagesMissingRequiredAlpha": 0,
+    "animationRecalculation": true,
+    "assetPrerequisiteRecalculation": true,
+    "requiredAlphaRecalculation": true,
+    "outputPath": "/workspace/scratch/230d6e8ab6bb/outputs/gears_combats_characters_v2/Gears_of_War_Combats_Production_v2.xlsx",
+    "qaSheets": [
+      "Synthèse",
+      "Roster",
+      "Assets"
+    ]
+  },
+  "roster_with_reference": 16,
+  "roster_image_generation_refused": 20,
+  "new_character_reference_count": 14,
+  "new_references_with_alpha_required": 14,
+  "artistic_correction_required": [
+    "del",
+    "lizzie",
+    "reyna",
+    "skorge"
+  ],
+  "animation_finalized_count": 0,
+  "formula_error_scan": "0 erreur ; wb.inspect match ne trouve aucune erreur de formule.",
+  "recalculation": "Budget animé, dépendance de l’intégration et exigence alpha recalculés en modifiant temporairement les entrées puis en les restaurant.",
+  "xlsx_structure": {
+    "sheets": 14,
+    "filtered_tables": 13,
+    "freeze_roster_assets": {
+      "xSplit": 2,
+      "ySplit": 5,
+      "topLeftCell": "C6"
+    },
+    "editable_asset_statuses": {
+      "technical": [
+        "À contrôler",
+        "À corriger",
+        "Validé"
+      ],
+      "fidelity": [
+        "À valider",
+        "À contrôler",
+        "À corriger",
+        "Validé"
+      ],
+      "integration": [
+        "À intégrer",
+        "Intégré"
+      ]
+    }
+  },
+  "visual_review": [
+    {
+      "sheet": "Synthèse",
+      "range": "A1:F34",
+      "render_path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/workbook_v2/00_Synthese.png",
+      "render_sha256": "af59ecac0037c59085ce951181730eec83f7e314df5d98c3f0f206c9ac5c60e7",
+      "status": "pass",
+      "observation": "Texte lisible, titres et tableaux cohérents, retours à la ligne présents, aucun chevauchement ni texte coupé observé dans la zone inspectée."
+    },
+    {
+      "sheet": "Roster",
+      "range": "A1:H10",
+      "render_path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/workbook_v2/02_Roster.png",
+      "render_sha256": "ab734ff274bc4ceb7b19f188343d261f722fd309c16c63d6107afefee498cab2",
+      "status": "pass",
+      "observation": "Texte lisible, titres et tableaux cohérents, retours à la ligne présents, aucun chevauchement ni texte coupé observé dans la zone inspectée."
+    },
+    {
+      "sheet": "Roster",
+      "range": "I5:M8",
+      "render_path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/workbook_v2/detail_Roster.png",
+      "render_sha256": "6d2e51e8c36bf135dd37cf84677c3b68f901d5bb04447afa4f3f4aacf1b36abc",
+      "status": "pass",
+      "observation": "Texte lisible, titres et tableaux cohérents, retours à la ligne présents, aucun chevauchement ni texte coupé observé dans la zone inspectée."
+    },
+    {
+      "sheet": "Assets",
+      "range": "A1:H10",
+      "render_path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/workbook_v2/13_Assets.png",
+      "render_sha256": "97ed5a9c9ca856805f5cbff2564b350808646ce0aeb05edaf894a5abb41d69da",
+      "status": "pass",
+      "observation": "Texte lisible, titres et tableaux cohérents, retours à la ligne présents, aucun chevauchement ni texte coupé observé dans la zone inspectée."
+    },
+    {
+      "sheet": "Assets",
+      "range": "I5:N8",
+      "render_path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/workbook_v2/detail_Assets.png",
+      "render_sha256": "191f643b99b2f98364696c52c3f01ecc907ee43fef4c133f9a49dc709af1a61f",
+      "status": "pass",
+      "observation": "Texte lisible, titres et tableaux cohérents, retours à la ligne présents, aucun chevauchement ni texte coupé observé dans la zone inspectée."
+    }
+  ],
+  "targeted_data_checks": [
+    "Marcus et Kait pointent vers leurs cutouts existants.",
+    "Baird pointe vers la V3, Del vers la V3 et Lizzie vers la V2.",
+    "Del, Lizzie, Reyna et Skorge gardent À corriger.",
+    "Fahz et les autres refusés ne reçoivent aucun fichier de référence fictif.",
+    "Les 30 lignes Animations ont zéro dessin produit et le statut À produire.",
+    "Les 20 fichiers du manifeste sont présents sous assets ; aucun candidat remplacé n’est inclus."
+  ],
+  "scope": "Synthèse, Roster et Assets relus visuellement dans cette révision ; les autres onglets n’ont pas été relus visuellement à nouveau, conformément au périmètre demandé.",
+  "limitations": [
+    "La validation technique du PNG ne vaut pas fidélité artistique.",
+    "Aucune image n’est certifiée 1:1 et aucune animation n’est finalisée.",
+    "Les captures sont des rendus artifact-tool ; le classeur n’a pas été ouvert dans Excel natif."
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "baird",
+  "asset_path": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/baird_reference_v2.png",
+  "sha256": "2f3ffdd8ef8ddffd428d706364431e5a4ff49ba4054cb25106bbc2fa7931ae36",
+  "inspection": "Ouverture du PNG à taille native via view_image ; inspection RGBA par Pillow, sans modifier ni réenregistrer l’image.",
+  "overall_status": "reference_initiale_reconnaissable_fidelite_non_validee",
+  "subject_recognizable": {
+    "status": "pass",
+    "observation": "Baird reconnaissable par cheveux blonds courts, lunettes rondes bleues sur le front, homme adulte massif et équipement CGU. La ressemblance exacte du visage reste à comparer."
+  },
+  "full_silhouette": {
+    "status": "pass",
+    "observation": "Tête, deux mains et deux pieds sont visibles et entièrement dans le cadre.",
+    "substantial_alpha_bbox": [
+      158,
+      10,
+      834,
+      1530
+    ],
+    "margin_px_alpha_ge_128": {
+      "left": 158,
+      "top": 10,
+      "right": 190,
+      "bottom": 6
+    }
+  },
+  "one_pose": {
+    "status": "pass",
+    "observation": "Un seul personnage, une seule pose, aucun encart ni doublon."
+  },
+  "angle": {
+    "status": "pass",
+    "observation": "Trois-quarts orienté vers la droite, visage et torse lisibles ; ce n’est pas une vue orthographique de profil."
+  },
+  "empty_hands": {
+    "status": "pass",
+    "observation": "Les deux mains sont visibles, relâchées et ne portent ni arme ni objet."
+  },
+  "neutral_presentation": {
+    "status": "pass",
+    "observation": "Station au repos, aucune action, blessure, scène de combat ou effet offensif."
+  },
+  "alpha": {
+    "mode": "RGBA",
+    "size_px": [
+      1024,
+      1536
+    ],
+    "min": 0,
+    "max": 254,
+    "alpha_zero_pixels": 967383,
+    "alpha_zero_fraction": 0.615046,
+    "pixels_alpha_1_to_15": 24565,
+    "substantial_alpha_bbox": [
+      158,
+      10,
+      834,
+      1530
+    ],
+    "all_nonzero_alpha_bbox": [
+      0,
+      0,
+      1004,
+      1536
+    ],
+    "corner_and_mid_edge_samples_rgba": {
+      "(0, 0)": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "(1023, 0)": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "(0, 1535)": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "(1023, 1535)": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "(512, 0)": [
+        127,
+        102,
+        78,
+        0
+      ],
+      "(512, 1535)": [
+        43,
+        38,
+        35,
+        0
+      ]
+    },
+    "interpretation": "Le RGB de fond affiché par view_image n’est pas la preuve d’un fond opaque. Les échantillons de fond ont alpha 0. Le maximum 254 est le comportement annoncé de ce générateur et n’est pas classé comme défaut. De faibles résidus alpha sont consignés sans modifier le fichier."
+  },
+  "visible_defects": [
+    {
+      "severity": "minor",
+      "area": "cadrage",
+      "observation": "Très peu de marge au-dessus des cheveux et sous les semelles. Le corps reste entier, mais le dégagement demandé autour de la silhouette est insuffisant."
+    },
+    {
+      "severity": "review",
+      "area": "style",
+      "observation": "Aspect très réaliste de rendu 3D ; la direction 2D peinte est moins perceptible que le détail des matériaux."
+    }
+  ],
+  "fidelity_uncertified": [
+    "Grande cuirasse portant deux disques circulaires : arrangement exact non vérifié sur Baird Gears 3.",
+    "Emblèmes de poitrine et de boucle, col, manches courtes, lanières, genouillères et bottes non certifiés.",
+    "Quantité et emplacement des voyants bleus, teinte des lunettes et âge exact du visage à comparer au modèle de campagne.",
+    "Les mains sont vides ; la perspective et les doigts partiellement repliés empêchent de certifier chaque articulation dans cette seule vue."
+  ],
+  "source_urls": [
+    "https://www.gearsofwar.com/en-us/games/gears-of-war-3/",
+    "https://gameinformer.com/b/features/archive/2010/05/26/making-of-the-cover-gears-of-war-3.aspx"
+  ],
+  "source_limits": "Les traits de reconnaissance sont visibles. Aucun rendu rapproché du modèle Gears 3 n’a encore permis de valider le découpage précis de la tenue ; aucune prétention de fidélité 1:1.",
+  "image_modified": false,
+  "generation_or_retry_performed": false
+}

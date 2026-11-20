@@ -1,0 +1,1120 @@
+{
+  "schema_version": "1.0",
+  "project": "Gears of War Combats",
+  "date": "2026-11-20",
+  "description": "Registre des images récupérées. Les sorties v5 et suivantes sont découvertes depuis leurs fichiers de résultats. Les priorités choisissent une référence de consultation, pas une validation 1:1.",
+  "character_id_aliases": {
+    "marcus_fenix": "marcus",
+    "kait_diaz": "kait",
+    "damon_baird": "baird",
+    "jd_fenix": "jd",
+    "del_walker": "del",
+    "lizzie_carmine": "lizzie",
+    "sid_redburn": "sid",
+    "garron_paduk": "paduk",
+    "sofia_hendrik": "sofia",
+    "locust_grenadier": "grenadier",
+    "queen_reyna": "reyna",
+    "dominic_santiago": "dom",
+    "augustus_cole": "cole",
+    "anya_stroud": "anya",
+    "theron_guard": "theron",
+    "fahz_chutani": "fahz",
+    "clayton_carmine": "clayton",
+    "victor_hoffman": "hoffman",
+    "tai_kaliso": "tai",
+    "dizzy_wallin": "dizzy",
+    "samantha_byrne": "sam",
+    "gabriel_diaz": "gabe",
+    "mikayla_dorn": "mikayla",
+    "lahni_kaliso": "lahni",
+    "jeremiah_keegan": "keegan",
+    "mac_macallister": "mac",
+    "deebee_shepherd": "deebee"
+  },
+  "assets": [
+    {
+      "path": "assets/stage_ephyra.png",
+      "subject_id": "stage_ephyra",
+      "category": "stage",
+      "name": "Ephyra",
+      "source_variant": "Gears of War 2006",
+      "purpose": "stage_master",
+      "origin_batch": "initial_2026-11-19",
+      "metadata_records": [
+        "production/history/initial_2026-11-19/assets_manifest.json"
+      ],
+      "source_urls": [],
+      "qa_notes": [
+        "Master de composition inspiré, lieu exact et architecture à confronter au jeu"
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 10
+    },
+    {
+      "path": "assets/stage_hollow.png",
+      "subject_id": "stage_hollow",
+      "category": "stage",
+      "name": "Hollow",
+      "source_variant": "Gears of War 2",
+      "purpose": "stage_master",
+      "origin_batch": "initial_2026-11-19",
+      "metadata_records": [
+        "production/history/initial_2026-11-19/assets_manifest.json"
+      ],
+      "source_urls": [],
+      "qa_notes": [
+        "Master de composition inspiré, ne constitue pas les calques de parallaxe"
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 10
+    },
+    {
+      "path": "assets/marcus_reference.png",
+      "subject_id": "marcus",
+      "category": "character",
+      "name": "Marcus Fenix",
+      "source_variant": "Gears of War Ultimate Edition",
+      "purpose": "presentation",
+      "origin_batch": "initial_2026-11-19",
+      "metadata_records": [
+        "production/history/initial_2026-11-19/assets_manifest.json"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/games/gears-of-war/"
+      ],
+      "qa_notes": [
+        "Pose neutre sur fond gris, costume et visage à comparer à une capture précise",
+        "Le manifeste historique identifie Ultimate Edition ; ce visuel ne valide pas le costume original de 2006 demandé par le roster."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "alternate_version",
+      "selection_priority": 0
+    },
+    {
+      "path": "assets/kait_reference.png",
+      "subject_id": "kait",
+      "category": "character",
+      "name": "Kait Diaz",
+      "source_variant": "Gears 5 hiver",
+      "purpose": "presentation",
+      "origin_batch": "initial_2026-11-19",
+      "metadata_records": [
+        "production/history/initial_2026-11-19/assets_manifest.json"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/games/gears-5/"
+      ],
+      "qa_notes": [
+        "Pose neutre sur fond gris, costume et proportions à comparer au jeu"
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 0
+    },
+    {
+      "path": "assets/marcus_neutral_cutout.png",
+      "subject_id": "marcus",
+      "category": "character",
+      "name": "Marcus Fenix",
+      "source_variant": "Gears of War Ultimate Edition",
+      "purpose": "reference_fullbody",
+      "origin_batch": "initial_2026-11-19",
+      "metadata_records": [
+        "production/history/initial_2026-11-19/assets_manifest.json"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/games/gears-of-war/"
+      ],
+      "qa_notes": [
+        "Une pose, aucune animation, fidélité visuelle à contrôler",
+        "Le manifeste historique identifie Ultimate Edition ; ce visuel ne valide pas le costume original de 2006 demandé par le roster."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "alternate_version",
+      "selection_priority": 10
+    },
+    {
+      "path": "assets/kait_neutral_cutout.png",
+      "subject_id": "kait",
+      "category": "character",
+      "name": "Kait Diaz",
+      "source_variant": "Gears 5 hiver",
+      "purpose": "reference_fullbody",
+      "origin_batch": "initial_2026-11-19",
+      "metadata_records": [
+        "production/history/initial_2026-11-19/assets_manifest.json"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/games/gears-5/"
+      ],
+      "qa_notes": [
+        "Une pose, aucune animation, fidélité visuelle à contrôler"
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 10
+    },
+    {
+      "path": "assets/characters_v2/baird_reference_v3.png",
+      "subject_id": "baird",
+      "category": "character",
+      "name": "Damon Baird",
+      "source_variant": "Gears of War 3",
+      "purpose": "reference_fullbody",
+      "origin_batch": "initial_2026-11-19",
+      "metadata_records": [
+        "production/history/initial_2026-11-19/assets_manifest.json"
+      ],
+      "source_urls": [
+        "https://news.xbox.com/en-us/2019/12/11/gears-5-operation-2-free-for-all-available-today-for-all-players/"
+      ],
+      "qa_notes": [
+        "Manches inventées retirées ; haut des bras conforme au visuel Gears 3. Petits panneaux, visage et marges avant animation à vérifier.",
+        "Une pose neutre individuelle ; aucune animation finalisée ni arme tenue. La correspondance 1:1 reste à contrôler."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 10
+    },
+    {
+      "path": "assets/characters_v2/skorge_reference_v3.png",
+      "subject_id": "skorge",
+      "category": "character",
+      "name": "Skorge",
+      "source_variant": "Gears of War 2",
+      "purpose": "reference_fullbody",
+      "origin_batch": "initial_2026-11-19",
+      "metadata_records": [
+        "production/history/initial_2026-11-19/assets_manifest.json"
+      ],
+      "source_urls": [
+        "https://news.xbox.com/en-us/2020/11/17/gears-5-operation-5/amp/"
+      ],
+      "qa_notes": [
+        "Plastron et abdomen améliorés. Casque encore nervuré horizontalement au lieu de la plaque frontale en V ; liens de tête encore plats.",
+        "Une pose neutre individuelle ; aucune animation finalisée ni arme tenue. La correspondance 1:1 reste à contrôler."
+      ],
+      "quality_state": "correction_required",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 10
+    },
+    {
+      "path": "assets/characters_v2/locust_drone_reference_v2.png",
+      "subject_id": "locust_drone",
+      "category": "character",
+      "name": "Drone locuste",
+      "source_variant": "Gears of War 2006",
+      "purpose": "reference_fullbody",
+      "origin_batch": "initial_2026-11-19",
+      "metadata_records": [
+        "production/history/initial_2026-11-19/assets_manifest.json"
+      ],
+      "source_urls": [
+        "https://news.xbox.com/en-us/2019/12/11/gears-5-operation-2-free-for-all-available-today-for-all-players/"
+      ],
+      "qa_notes": [
+        "Identité reconnaissable ; panneau par panneau, variante du Drone et correspondance au modèle de 2006 non certifiées.",
+        "Une pose neutre individuelle ; aucune animation finalisée ni arme tenue. La correspondance 1:1 reste à contrôler."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 10
+    },
+    {
+      "path": "assets/characters_v2/kantus_reference_v3.png",
+      "subject_id": "kantus",
+      "category": "character",
+      "name": "Kantus",
+      "source_variant": "Gears of War 2",
+      "purpose": "reference_fullbody",
+      "origin_batch": "initial_2026-11-19",
+      "metadata_records": [
+        "production/history/initial_2026-11-19/assets_manifest.json"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-nz/news/dev-blog-enemies/"
+      ],
+      "qa_notes": [
+        "Casque, col, anneaux et pans corrigés. Jambes et pieds comparés à un concept, sans certification du modèle final.",
+        "Une pose neutre individuelle ; aucune animation finalisée ni arme tenue. La correspondance 1:1 reste à contrôler."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 10
+    },
+    {
+      "path": "assets/characters_v2/jd_reference_v2.png",
+      "subject_id": "jd",
+      "category": "character",
+      "name": "JD Fenix",
+      "source_variant": "Gears 5",
+      "purpose": "reference_fullbody",
+      "origin_batch": "initial_2026-11-19",
+      "metadata_records": [
+        "production/history/initial_2026-11-19/assets_manifest.json"
+      ],
+      "source_urls": [
+        "https://news.xbox.com/en-us/2019/06/11/e3-2019-rahul-kohli-of-izombie-joins-cast-of-gears-5/"
+      ],
+      "qa_notes": [
+        "Variante après ellipse et bras droit marqué reconnaissables ; détails du visage, des marques et attaches non certifiés.",
+        "Une pose neutre individuelle ; aucune animation finalisée ni arme tenue. La correspondance 1:1 reste à contrôler."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 10
+    },
+    {
+      "path": "assets/characters_v2/del_reference_v3.png",
+      "subject_id": "del",
+      "category": "character",
+      "name": "Del Walker",
+      "source_variant": "Gears 5",
+      "purpose": "reference_fullbody",
+      "origin_batch": "initial_2026-11-19",
+      "metadata_records": [
+        "production/history/initial_2026-11-19/assets_manifest.json"
+      ],
+      "source_urls": [
+        "https://news.xbox.com/en-us/2019/06/11/e3-2019-rahul-kohli-of-izombie-joins-cast-of-gears-5/"
+      ],
+      "qa_notes": [
+        "Bretelles lumineuses améliorées. Les grilles doivent redevenir de petites ouvertures rectangulaires au milieu des plaques pectorales circulaires.",
+        "Une pose neutre individuelle ; aucune animation finalisée ni arme tenue. La correspondance 1:1 reste à contrôler."
+      ],
+      "quality_state": "correction_required",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 10
+    },
+    {
+      "path": "assets/characters_v2/lizzie_reference_v2.png",
+      "subject_id": "lizzie",
+      "category": "character",
+      "name": "Lizzie Carmine",
+      "source_variant": "Gears 5",
+      "purpose": "reference_fullbody",
+      "origin_batch": "initial_2026-11-19",
+      "metadata_records": [
+        "production/history/initial_2026-11-19/assets_manifest.json"
+      ],
+      "source_urls": [
+        "https://news.xbox.com/en-us/2019/12/11/gears-5-operation-2-free-for-all-available-today-for-all-players/"
+      ],
+      "qa_notes": [
+        "Casque, optiques et col réinterprétés ; la correction demandée a été refusée par le système d’image. Version initiale conservée comme candidat.",
+        "Une pose neutre individuelle ; aucune animation finalisée ni arme tenue. La correspondance 1:1 reste à contrôler."
+      ],
+      "quality_state": "correction_required",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 10
+    },
+    {
+      "path": "assets/characters_v2/paduk_reference_v3.png",
+      "subject_id": "paduk",
+      "category": "character",
+      "name": "Garron Paduk",
+      "source_variant": "Gears of War Judgment",
+      "purpose": "reference_fullbody",
+      "origin_batch": "initial_2026-11-19",
+      "metadata_records": [
+        "production/history/initial_2026-11-19/assets_manifest.json"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-gb/games/gears-of-war-judgment/"
+      ],
+      "qa_notes": [
+        "Armure Judgment corrigée à partir du visuel promotionnel. Teintes exactes et partie inférieure des bottes non établies par cette référence.",
+        "Une pose neutre individuelle ; aucune animation finalisée ni arme tenue. La correspondance 1:1 reste à contrôler."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 10
+    },
+    {
+      "path": "assets/characters_v2/sofia_reference_v3.png",
+      "subject_id": "sofia",
+      "category": "character",
+      "name": "Sofia Hendrik",
+      "source_variant": "Gears of War Judgment",
+      "purpose": "reference_fullbody",
+      "origin_batch": "initial_2026-11-19",
+      "metadata_records": [
+        "production/history/initial_2026-11-19/assets_manifest.json"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-gb/games/gears-of-war-judgment/"
+      ],
+      "qa_notes": [
+        "Tenue Onyx et plastron corrigés. Visage, coiffure arrière et détourage à valider ; marge supérieure étroite avant préparation des sprites.",
+        "Une pose neutre individuelle ; aucune animation finalisée ni arme tenue. La correspondance 1:1 reste à contrôler."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 10
+    },
+    {
+      "path": "assets/characters_v2/sid_reference_v3.png",
+      "subject_id": "sid",
+      "category": "character",
+      "name": "Sid Redburn",
+      "source_variant": "Gears Tactics",
+      "purpose": "reference_fullbody",
+      "origin_batch": "initial_2026-11-19",
+      "metadata_records": [
+        "production/history/initial_2026-11-19/assets_manifest.json"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-nz/news/dev-blog-characters/"
+      ],
+      "qa_notes": [
+        "Version corrigée d’après le rendu officiel ; cache-œil anatomiquement gauche et pièces principales cohérents. Liserés de détourage à vérifier sur décor.",
+        "Une pose neutre individuelle ; aucune animation finalisée ni arme tenue. La correspondance 1:1 reste à contrôler."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 10
+    },
+    {
+      "path": "assets/characters_v2/reyna_reference_v3.png",
+      "subject_id": "reyna",
+      "category": "character",
+      "name": "Reine Reyna",
+      "source_variant": "Gears 5 multijoueur",
+      "purpose": "reference_fullbody",
+      "origin_batch": "initial_2026-11-19",
+      "metadata_records": [
+        "production/history/initial_2026-11-19/assets_manifest.json"
+      ],
+      "source_urls": [
+        "https://www.xbox.com/fr-fr/games/store/gears-5-operation-6-bundle/9nblc6fv6spg"
+      ],
+      "qa_notes": [
+        "Cheveux, carapace et vrilles rétablis. Cristaux du front encore en arc de diadème au lieu de l’amas asymétrique ; bas du corps non documenté.",
+        "Une pose neutre individuelle ; aucune animation finalisée ni arme tenue. La correspondance 1:1 reste à contrôler."
+      ],
+      "quality_state": "correction_required",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 10
+    },
+    {
+      "path": "assets/characters_v2/jack_reference_v3.png",
+      "subject_id": "jack",
+      "category": "character",
+      "name": "JACK",
+      "source_variant": "Gears 5",
+      "purpose": "reference_fullbody",
+      "origin_batch": "initial_2026-11-19",
+      "metadata_records": [
+        "production/history/initial_2026-11-19/assets_manifest.json"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/games/gears-5/"
+      ],
+      "qa_notes": [
+        "Capot et modules triangulaires corrigés. Orientation fine des modules, panneaux et configuration des outils encore à vérifier.",
+        "Une pose neutre individuelle ; aucune animation finalisée ni arme tenue. La correspondance 1:1 reste à contrôler."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 10
+    },
+    {
+      "path": "assets/characters_v2/swarm_drone_reference_v2.png",
+      "subject_id": "swarm_drone",
+      "category": "character",
+      "name": "Drone de l’Essaim",
+      "source_variant": "Gears of War 4",
+      "purpose": "reference_fullbody",
+      "origin_batch": "initial_2026-11-19",
+      "metadata_records": [
+        "production/history/initial_2026-11-19/assets_manifest.json"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/games/gears-5/"
+      ],
+      "qa_notes": [
+        "Swarm Drone reconnaissable ; équipement précis de la variante Rifle de Gears 4 à comparer au modèle du jeu.",
+        "Une pose neutre individuelle ; aucune animation finalisée ni arme tenue. La correspondance 1:1 reste à contrôler."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 10
+    },
+    {
+      "path": "assets/characters_v2/grenadier_reference_v2.png",
+      "subject_id": "grenadier",
+      "category": "character",
+      "name": "Grenadier locuste",
+      "source_variant": "Gears Tactics",
+      "purpose": "reference_fullbody",
+      "origin_batch": "initial_2026-11-19",
+      "metadata_records": [
+        "production/history/initial_2026-11-19/assets_manifest.json"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-nz/news/dev-blog-enemies/"
+      ],
+      "qa_notes": [
+        "Grenadier reconnaissable ; grenades attachées au harnais acceptées, modèle et quantité exacts de la version Tactics à vérifier.",
+        "Une pose neutre individuelle ; aucune animation finalisée ni arme tenue. La correspondance 1:1 reste à contrôler."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 10
+    },
+    {
+      "path": "assets/bosses_v4/boss_brumak_reference_v4.png",
+      "subject_id": "boss_brumak",
+      "category": "boss",
+      "name": "Brumak",
+      "source_variant": "Gears Tactics",
+      "purpose": "reference_fullbody",
+      "origin_batch": "v4_2026-11-19",
+      "metadata_records": [
+        "data/generation_v4/result_boss_brumak.json"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-gb/news/dev-blog-bosses/",
+        "https://news.xbox.com/en-us/2020/04/07/gears-tactics-has-gone-gold-for-the-pc-heres-five-things-you-need-to-know/",
+        "https://video-game-guide-walkthrough.supersoluce.com/solution/gears-tactics-guide-walkthrough/gears-tactics-bosses-guide/brumak/"
+      ],
+      "qa_notes": [
+        "Sujet unique entier, deux armes d’avant-bras et lanceurs dorsaux, peau, casque et matériaux inspectés.",
+        "Anatomie et volumes généraux reconnaissables ; tubes, attaches, plaques dorsales et teintes exactes à vérifier contre le modèle Tactics.",
+        "Pose unique sans articulation séparée, aucune animation."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 20
+    },
+    {
+      "path": "assets/bosses_v4/boss_corpser_reference_v4.png",
+      "subject_id": "boss_corpser",
+      "category": "boss",
+      "name": "Corpser",
+      "source_variant": "Gears Tactics",
+      "purpose": "reference_fullbody",
+      "origin_batch": "v4_2026-11-19",
+      "metadata_records": [
+        "data/generation_v4/result_boss_corpser.json"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-gb/news/dev-blog-bosses/",
+        "https://ben_davis.artstation.com/projects/rRa4eG",
+        "https://gearsofwar.neoseeker.com/wiki/Locust_Horde"
+      ],
+      "qa_notes": [
+        "Sujet unique entier, huit grandes pattes lisibles, casque à lampes et dispositif thoracique présents.",
+        "Pose vue de trois-quarts avant ; vue latérale stricte à produire pour le combat.",
+        "Revers de l’abdomen, petites pattes postérieures et topologie précise du casque non certifiés."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 20
+    },
+    {
+      "path": "assets/bosses_v4/boss_kestrel_reference_v4.png",
+      "subject_id": "boss_kestrel",
+      "category": "boss",
+      "name": "Kestrel",
+      "source_variant": "Gears of War 4",
+      "purpose": "reference_fullbody",
+      "origin_batch": "v4_2026-11-19",
+      "metadata_records": [
+        "data/generation_v4/result_boss_kestrel.json",
+        "data/generation_v4/recovery_kestrel_2026-11-20.json"
+      ],
+      "source_urls": [
+        "https://emcknight.artstation.com/projects/WrEwJ",
+        "https://www.artstation.com/artwork/LJO50",
+        "https://gearsofwar.fandom.com/wiki/Kestrel"
+      ],
+      "qa_notes": [
+        "Un seul appareil entier, vue de trois-quarts vers la droite ; pales, queue et armement cadrés.",
+        "PNG RGBA inspecté ; fond alpha réellement transparent et marges confortables.",
+        "Livrée, microgéométrie et armement restent à comparer au modèle du jeu.",
+        "Référence statique ; rotor non séparé et aucune animation produite."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 20
+    },
+    {
+      "path": "assets/bosses_v4/boss_king_raven_reference_v4.png",
+      "subject_id": "boss_king_raven",
+      "category": "boss",
+      "name": "King Raven de simulation",
+      "source_variant": "Gears of War (2006)",
+      "purpose": "reference_fullbody",
+      "origin_batch": "v4_2026-11-19",
+      "metadata_records": [
+        "data/generation_v4/result_boss_king_raven.json"
+      ],
+      "source_urls": [
+        "https://news.xbox.com/en-us/2007/01/10/gears-of-war-multiplayer-map-pack-1/",
+        "https://www.crealitycloud.com/model-detail/662dab097cfe69c64d2344c0",
+        "https://jdgmntday.artstation.com/projects/rRYgba"
+      ],
+      "qa_notes": [
+        "Un seul véhicule entier, rotor principal, roues, cabine ouverte et queue présents.",
+        "Appareil orienté vers la gauche malgré la droite demandée ; orientation retenue pour adversaire du prototype.",
+        "La source est une planche de sculpture grise republiée ; livrée, petits panneaux et couleurs de campagne non certifiés.",
+        "Rotor et roues font partie de l’image unique ; aucune animation articulée du rotor."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 20
+    },
+    {
+      "path": "assets/characters_v4/clayton_reference_v4.png",
+      "subject_id": "clayton",
+      "category": "character",
+      "name": "Clayton Carmine",
+      "source_variant": "Gears of War 3",
+      "purpose": "reference_fullbody",
+      "origin_batch": "v4_2026-11-19",
+      "metadata_records": [
+        "data/generation_v4/result_clayton.json"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/games/gears-of-war-3/",
+        "https://news.xbox.com/en-us/2020/03/31/gears-5-operation-3-gridiron-available-today-for-all-players/",
+        "https://gearsofwar.fandom.com/wiki/Clayton_Carmine",
+        "https://static.wikia.nocookie.net/gearsofwar/images/2/20/9C68E187-AC74-410B-8C0B-5491E86F1D51.png/revision/latest?cb=20200715163634"
+      ],
+      "qa_notes": [
+        "Personnage unique entier, mains vides, casque fermé et pose neutre trois-quarts droite inspectés.",
+        "Marges au-dessus du casque et sous les semelles très faibles.",
+        "Grands tatouages tribaux noirs et nombreux emblèmes de rouage présents : correspondance exacte Gears 3 non établie, à contrôler/corriger.",
+        "Plaques pectorales, casque et couleur de l’armure restent à confronter aux références officielles.",
+        "BBox et pixels alpha inspectés ; les marges tête/pieds restent réellement trop étroites.",
+        "Contrôle alpha : les échantillons de fond latéraux, entre les jambes et sous le sujet sont alpha=0. Le point haut central vaut 0–3/255 selon le fichier. Le dégradé RGB aperçu ne prouve donc pas un halo visible ; aucun fond opaque établi."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 20
+    },
+    {
+      "path": "assets/characters_v4/cole_reference_v4.png",
+      "subject_id": "cole",
+      "category": "character",
+      "name": "Augustus Cole",
+      "source_variant": "Gears of War 3",
+      "purpose": "reference_fullbody",
+      "origin_batch": "v4_2026-11-19",
+      "metadata_records": [
+        "data/generation_v4/result_cole.json"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/games/gears-of-war-3/",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/gears-of-war-3-69d7d9132411b-1024x576.jpg",
+        "https://news.xbox.com/en-us/2020/03/31/gears-5-operation-3-gridiron-available-today-for-all-players/"
+      ],
+      "qa_notes": [
+        "Personnage unique entier, mains vides, pose neutre et orientation trois-quarts droite inspectées.",
+        "Marge supérieure et marge sous les bottes très faibles : à reprendre avant animation.",
+        "Identité générale de Cole reconnaissable ; armure, tête, symboles et proportions exactes Gears 3 restent à comparer.",
+        "BBox et pixels alpha inspectés ; les marges tête/pieds restent réellement trop étroites.",
+        "Contrôle alpha : les échantillons de fond latéraux, entre les jambes et sous le sujet sont alpha=0. Le point haut central vaut 0–3/255 selon le fichier. Le dégradé RGB aperçu ne prouve donc pas un halo visible ; aucun fond opaque établi."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 20
+    },
+    {
+      "path": "assets/characters_v4/deebee_reference_v4.png",
+      "subject_id": "deebee",
+      "category": "character",
+      "name": "DeeBee",
+      "source_variant": "Gears of War 4",
+      "purpose": "reference_fullbody",
+      "origin_batch": "v4_2026-11-19",
+      "metadata_records": [
+        "data/generation_v4/result_deebee.json"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/games/gears-of-war-4/",
+        "https://primagames.com/eguides/gears-of-war-4-eguide/enemy-forces/deebees",
+        "https://www.artstation.com/artwork/LJO50",
+        "https://gearsofwar.fandom.com/wiki/Shepherd",
+        "https://www.deviantart.com/spartan22294/art/GoW4-DeeBees-Shepherd-739757915",
+        "https://vignette.wikia.nocookie.net/gearsofwar/images/2/23/DeeBee_concepto_01_GoW4.jpg/revision/latest?cb=20201006063735&path-prefix=es"
+      ],
+      "qa_notes": [
+        "Un seul DeeBee, vue trois-quarts vers la droite, mains vides, tête et pieds entiers.",
+        "Capteurs ambre et carénages bleu sombre, proportions générales reconnaissables.",
+        "Microgéométrie du visage et panneaux à comparer au modèle officiel ; fidélité 1:1 non certifiée.",
+        "Les pixels de fond échantillonnés autour du sujet sont réellement transparents (alpha=0) ; le halo de la prévisualisation correspond aux données RGB cachées. Vérifier uniquement les franges fines lors de l’intégration."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 20
+    },
+    {
+      "path": "assets/characters_v4/hoffman_reference_v4.png",
+      "subject_id": "hoffman",
+      "category": "character",
+      "name": "Victor Hoffman",
+      "source_variant": "Gears 5 multijoueur",
+      "purpose": "reference_fullbody",
+      "origin_batch": "v4_2026-11-19",
+      "metadata_records": [
+        "data/generation_v4/result_hoffman.json"
+      ],
+      "source_urls": [
+        "https://www.xbox.com/fr-fr/games/store/gears-5-operation-6-bundle/9nblc6fv6spg",
+        "https://store-images.s-microsoft.com/image/apps.337.13510871565080275.ff765211-eed2-4e91-9d47-e587f251fce5.43d742b7-4c77-4394-997d-4364ddd0157a?h=265&q=90&w=177"
+      ],
+      "qa_notes": [
+        "Personnage unique entier, homme âgé moustachu avec casquette, mains vides, orientation droite inspectés.",
+        "Marge supérieure et marge sous les bottes trop faibles pour une base d’animation.",
+        "Armure, distribution des poches et logos de rouage non certifiés par comparaison rapprochée au costume Opération 6.",
+        "BBox et pixels alpha inspectés ; les marges tête/pieds restent réellement trop étroites.",
+        "Contrôle alpha : les échantillons de fond latéraux, entre les jambes et sous le sujet sont alpha=0. Le point haut central vaut 0–3/255 selon le fichier. Le dégradé RGB aperçu ne prouve donc pas un halo visible ; aucun fond opaque établi."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 20
+    },
+    {
+      "path": "assets/characters_v4/keegan_reference_v4.png",
+      "subject_id": "keegan",
+      "category": "character",
+      "name": "Keegan",
+      "source_variant": "Gears 5 Hivebusters",
+      "purpose": "reference_fullbody",
+      "origin_batch": "v4_2026-11-19",
+      "metadata_records": [
+        "data/generation_v4/result_keegan.json"
+      ],
+      "source_urls": [
+        "https://news.xbox.com/en-us/2020/12/08/gears-5-hivebusters-arrives-december-15/",
+        "https://www.gearsofwar.com/en-us/news/hivebusters/",
+        "https://www.gearsofwar.com/en-us/news/hivebusters-graphic-novel-available-now/",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/08/Hivebuster_Bios_Keegan_1080x1080-5f443f3be75cb-69cb1130b4e56.jpg",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/12/hivebusters-keyart-5fd7bad8299a-69cb1bb32298f.jpg"
+      ],
+      "qa_notes": [
+        "Personnage entier en pose neutre, tête et bottes complètes, mains vides.",
+        "Crâne chauve, rouflaquettes et moustache reliées, menton découvert, tenue beige/olive Scorpio et jambes matelassées présents.",
+        "Fidélité du visage, motifs, emports et dimensions des pièces non certifiée 1:1; comparaison au modèle original requise.",
+        "Vérification numérique alpha: fond réellement transparent. Le halo brun apparent dans la prévisualisation correspond à des RGB de pixels alpha=0; aucun nettoyage du fond requis sur cette base.",
+        "Marge haute courte: 10 pixels au seuil alpha>=16; cadrage et marges à normaliser lors de la préparation des animations."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 20
+    },
+    {
+      "path": "assets/characters_v4/mac_reference_v4.png",
+      "subject_id": "mac",
+      "category": "character",
+      "name": "Mac",
+      "source_variant": "Gears 5 Hivebusters",
+      "purpose": "reference_fullbody",
+      "origin_batch": "v4_2026-11-19",
+      "metadata_records": [
+        "data/generation_v4/result_mac.json"
+      ],
+      "source_urls": [
+        "https://news.xbox.com/en-us/2020/12/08/gears-5-hivebusters-arrives-december-15/",
+        "https://www.gearsofwar.com/en-us/news/hivebusters/",
+        "https://www.gearsofwar.com/en-us/news/hivebusters-graphic-novel-available-now/",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/08/Hivebuster_Bios_Mac_1080x1080-5f443eeb11aeb-69cb1136edf03.jpg",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/12/hivebusters-keyart-5fd7bad8299a-69cb1bb32298f.jpg"
+      ],
+      "qa_notes": [
+        "Personnage entier en pose neutre trois-quarts vers la droite, mains nues et vides, bottes entières.",
+        "Cheveux roux relevés, visage rasé, chemise claire aux manches remontées, pendentif et gilet Scorpio présents.",
+        "Sangles de cuir superposées sur la cuisse gauche anatomique visibles.",
+        "Fond alpha transparent vérifié; le halo apparent dans le rendu de prévisualisation est le RGB caché des pixels alpha=0.",
+        "Marge haute courte: 5 pixels au seuil alpha>=16; normalisation du cadrage requise avant animations.",
+        "Visage, emblème, pendentif, épaules et jambières à comparer au modèle source avant validation; fidélité 1:1 non certifiée."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 20
+    },
+    {
+      "path": "assets/characters_v4/mikayla_reference_v4.png",
+      "subject_id": "mikayla",
+      "category": "character",
+      "name": "Mikayla Dorn",
+      "source_variant": "Gears Tactics",
+      "purpose": "reference_fullbody",
+      "origin_batch": "v4_2026-11-19",
+      "metadata_records": [
+        "data/generation_v4/result_mikayla.json"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-nz/news/dev-blog-characters/",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/04/fa96bb216cfb2950a825f30086ee5d6f05084c0c-69cb0c872baa9.jpg"
+      ],
+      "qa_notes": [
+        "Un personnage entier visible, mains vides et séparées, pose neutre trois-quarts vers la droite.",
+        "Tenue civile olive, foulard à motifs orange, lunettes au cou, bande blanche au bras droit et manchon au bras gauche présents.",
+        "Morphologie du visage, coiffure, boucles, bottes et accessoires fins non certifiés 1:1; comparaison au modèle original requise.",
+        "Vérification numérique alpha: fond réellement transparent. Le halo brun apparent dans la prévisualisation correspond à des RGB de pixels alpha=0; aucun nettoyage du fond requis sur cette base.",
+        "Marge haute courte: 3 pixels au seuil alpha>=16; cadrage et marges à normaliser lors de la préparation des animations."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 20
+    },
+    {
+      "path": "assets/characters_v4/sam_reference_v4.png",
+      "subject_id": "sam",
+      "category": "character",
+      "name": "Samantha Byrne",
+      "source_variant": "Gears of War 3",
+      "purpose": "reference_fullbody",
+      "origin_batch": "v4_2026-11-19",
+      "metadata_records": [
+        "data/generation_v4/result_sam.json"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/games/gears-of-war-3/",
+        "https://chriswells.artstation.com/projects/B3O58",
+        "https://polycount.com/discussion/comment/1451312",
+        "https://www.10wallpaper.com/list/Gears_of_War_3_official_game_wallpaper.html",
+        "https://www.10wallpaper.com/wallpaper/medium/1109/Delta_squad-Sam_Bryne_wallpaper_medium.jpg"
+      ],
+      "qa_notes": [
+        "Un personnage entier visible, mains vides, pose trois-quarts vers la droite, tête et bottes complètes.",
+        "Plastron clair à disques sombres, cheveux courts bruns et lumières bleues présents.",
+        "Traits, bottes, tatouages et petites pièces non certifiés 1:1; comparaison au modèle original encore requise.",
+        "Vérification numérique alpha: fond réellement transparent. Le halo brun apparent dans la prévisualisation correspond à des RGB de pixels alpha=0; aucun nettoyage du fond requis sur cette base.",
+        "Marge haute courte: 7 pixels au seuil alpha>=16; cadrage et marges à normaliser lors de la préparation des animations."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 20
+    },
+    {
+      "path": "assets/characters_v4/ukkon_reference_v4.png",
+      "subject_id": "ukkon",
+      "category": "character",
+      "name": "Ukkon",
+      "source_variant": "Gears Tactics",
+      "purpose": "reference_fullbody",
+      "origin_batch": "v4_2026-11-19",
+      "metadata_records": [
+        "data/generation_v4/result_ukkon.json"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/",
+        "https://ben_davis.artstation.com/projects/4bDBx2",
+        "https://darkmummy.artstation.com/projects/VdA3zn",
+        "https://magazine.artstation.com/2020/04/the-coalition-splash-damage-gears-tactics-art-blast/"
+      ],
+      "qa_notes": [
+        "Un seul Ukkon entier, vue trois-quarts vers la droite, mains vides, visage non masqué.",
+        "Tenue rouge sombre et noire, tête allongée ridée et absence de lèvres humaines épaisses cohérentes à contrôler.",
+        "Nombreuses boucles et répartition des panneaux susceptibles de diverger du modèle Tactics ; fidélité 1:1 non certifiée.",
+        "Les pixels de fond échantillonnés autour du sujet sont réellement transparents (alpha=0) ; le halo de la prévisualisation correspond aux données RGB cachées. Vérifier uniquement les franges fines lors de l’intégration.",
+        "Marge supérieure du crâne étroite : agrandir la marge avant préparation des animations."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 20
+    },
+    {
+      "path": "assets/characters/anya_stroud/gears3/reference_fullbody_v01.png",
+      "subject_id": "anya",
+      "category": "character",
+      "name": "Anya Stroud",
+      "source_variant": "Gears of War 3",
+      "purpose": "reference_fullbody",
+      "origin_batch": "reference_reprise_2026-11-19",
+      "metadata_records": [
+        "production/history/reprise_2026-11-19/production/asset_manifest.json",
+        "docs/production/VISUAL_QA_2026-11-19.md"
+      ],
+      "source_urls": [],
+      "qa_notes": [
+        "Source individuelle tronquée ; jambes et bottes à confronter à une référence complète.",
+        "Marge visible étroite : prévoir un canevas de production plus généreux."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 30
+    },
+    {
+      "path": "assets/characters/myrrah/gears3/reference_fullbody_v01.png",
+      "subject_id": "myrrah",
+      "category": "character",
+      "name": "Queen Myrrah",
+      "source_variant": "Gears of War 3",
+      "purpose": "reference_fullbody",
+      "origin_batch": "reference_reprise_2026-11-19",
+      "metadata_records": [
+        "production/history/reprise_2026-11-19/production/asset_manifest.json",
+        "docs/production/VISUAL_QA_2026-11-19.md"
+      ],
+      "source_urls": [],
+      "qa_notes": [
+        "Source individuelle tronquée ; protections inférieures à vérifier.",
+        "Marge visible étroite : prévoir un canevas de production plus généreux."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 30
+    },
+    {
+      "path": "assets/characters/theron_guard/gears3/reference_fullbody_v02.png",
+      "subject_id": "theron",
+      "category": "character",
+      "name": "Theron Guard",
+      "source_variant": "Gears of War 3",
+      "purpose": "reference_fullbody",
+      "origin_batch": "reference_reprise_2026-11-19",
+      "metadata_records": [
+        "production/history/reprise_2026-11-19/production/asset_manifest.json",
+        "docs/production/VISUAL_QA_2026-11-19.md"
+      ],
+      "source_urls": [],
+      "qa_notes": [
+        "Variante Gears 3 sans casque ; ne pas la présenter comme une validation Gears 1."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "alternate_version",
+      "selection_priority": 30
+    },
+    {
+      "path": "assets/characters/fahz_chutani/gears5/reference_fullbody_v01.png",
+      "subject_id": "fahz",
+      "category": "character",
+      "name": "Fahz Chutani",
+      "source_variant": "Gears 5",
+      "purpose": "reference_fullbody",
+      "origin_batch": "reference_reprise_2026-11-19",
+      "metadata_records": [
+        "production/history/reprise_2026-11-19/production/asset_manifest.json",
+        "docs/production/VISUAL_QA_2026-11-19.md"
+      ],
+      "source_urls": [],
+      "qa_notes": [
+        "Prothèse de la jambe droite conservée ; visage et détails du plastron limités par la définition de la capture."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 30
+    },
+    {
+      "path": "assets/characters/clayton_carmine/gears3/reference_fullbody_v02.png",
+      "subject_id": "clayton",
+      "category": "character",
+      "name": "Clayton Carmine",
+      "source_variant": "Gears of War 3",
+      "purpose": "reference_fullbody",
+      "origin_batch": "reference_reprise_2026-11-19",
+      "metadata_records": [
+        "production/history/reprise_2026-11-19/production/asset_manifest.json",
+        "docs/production/VISUAL_QA_2026-11-19.md"
+      ],
+      "source_urls": [],
+      "qa_notes": [
+        "Version v02 : inscription GRUB KILLER corrigée ; bottes et genouillères à vérifier avec une source complète.",
+        "Marge visible étroite : prévoir un canevas de production plus généreux."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 30
+    },
+    {
+      "path": "assets/characters/victor_hoffman/classic/reference_fullbody_v01.png",
+      "subject_id": "hoffman",
+      "category": "character",
+      "name": "Victor Hoffman",
+      "source_variant": "Armure classique",
+      "purpose": "reference_fullbody",
+      "origin_batch": "reference_reprise_2026-11-19",
+      "metadata_records": [
+        "production/history/reprise_2026-11-19/production/asset_manifest.json",
+        "docs/production/VISUAL_QA_2026-11-19.md"
+      ],
+      "source_urls": [],
+      "qa_notes": [
+        "Apparence classique ; édition native du rendu non établie, ne pas certifier Gears 2."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "edition_unverified",
+      "selection_priority": 30
+    },
+    {
+      "path": "assets/characters/tai_kaliso/gears2/reference_fullbody_v01.png",
+      "subject_id": "tai",
+      "category": "character",
+      "name": "Tai Kaliso",
+      "source_variant": "Gears of War 2",
+      "purpose": "reference_fullbody",
+      "origin_batch": "reference_reprise_2026-11-19",
+      "metadata_records": [
+        "production/history/reprise_2026-11-19/production/asset_manifest.json",
+        "docs/production/VISUAL_QA_2026-11-19.md"
+      ],
+      "source_urls": [],
+      "qa_notes": [
+        "Visage et crête fondés sur une capture Gears 2 ; complément de silhouette issu du concept art, détails inférieurs à vérifier.",
+        "Marge visible étroite : prévoir un canevas de production plus généreux."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 30
+    },
+    {
+      "path": "assets/characters/samantha_byrne/gears3/reference_fullbody_v01.png",
+      "subject_id": "sam",
+      "category": "character",
+      "name": "Samantha Byrne",
+      "source_variant": "Gears of War 3",
+      "purpose": "reference_fullbody",
+      "origin_batch": "reference_reprise_2026-11-19",
+      "metadata_records": [
+        "production/history/reprise_2026-11-19/production/asset_manifest.json",
+        "docs/production/VISUAL_QA_2026-11-19.md"
+      ],
+      "source_urls": [],
+      "qa_notes": [
+        "Source tronquée ; jambières et bottes à vérifier.",
+        "Marge visible étroite : prévoir un canevas de production plus généreux."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 30
+    },
+    {
+      "path": "assets/characters/gabriel_diaz/tactics/reference_fullbody_v01.png",
+      "subject_id": "gabe",
+      "category": "character",
+      "name": "Gabriel Diaz",
+      "source_variant": "Gears Tactics",
+      "purpose": "reference_fullbody",
+      "origin_batch": "reference_reprise_2026-11-19",
+      "metadata_records": [
+        "production/history/reprise_2026-11-19/production/asset_manifest.json",
+        "docs/production/VISUAL_QA_2026-11-19.md"
+      ],
+      "source_urls": [],
+      "qa_notes": [
+        "Référence officielle en pied disponible ; petits détails à revalider avant les animations."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 30
+    },
+    {
+      "path": "assets/characters/mikayla_dorn/tactics/reference_fullbody_v01.png",
+      "subject_id": "mikayla",
+      "category": "character",
+      "name": "Mikayla Dorn",
+      "source_variant": "Gears Tactics",
+      "purpose": "reference_fullbody",
+      "origin_batch": "reference_reprise_2026-11-19",
+      "metadata_records": [
+        "production/history/reprise_2026-11-19/production/asset_manifest.json",
+        "docs/production/VISUAL_QA_2026-11-19.md"
+      ],
+      "source_urls": [],
+      "qa_notes": [
+        "Référence officielle en pied disponible ; conserver les asymétries et les motifs du shemagh.",
+        "Marge visible étroite : prévoir un canevas de production plus généreux."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 30
+    },
+    {
+      "path": "assets/characters/lahni_kaliso/gears5_hivebuster/reference_fullbody_v01.png",
+      "subject_id": "lahni",
+      "category": "character",
+      "name": "Lahni Kaliso",
+      "source_variant": "Gears 5 — Hivebuster / Escape",
+      "purpose": "reference_fullbody",
+      "origin_batch": "reference_reprise_2026-11-19",
+      "metadata_records": [
+        "production/history/reprise_2026-11-19/production/asset_manifest.json",
+        "docs/production/VISUAL_QA_2026-11-19.md"
+      ],
+      "source_urls": [],
+      "qa_notes": [
+        "Tenue Hivebuster / Escape ; pieds non couverts par la fiche officielle, tatouages à contrôler en détail.",
+        "Marge visible étroite : prévoir un canevas de production plus généreux."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 30
+    },
+    {
+      "path": "assets/characters/mac_macallister/gears5_hivebuster/reference_fullbody_v01.png",
+      "subject_id": "mac",
+      "category": "character",
+      "name": "Mac MacAllister",
+      "source_variant": "Gears 5 — Hivebuster / Escape",
+      "purpose": "reference_fullbody",
+      "origin_batch": "reference_reprise_2026-11-19",
+      "metadata_records": [
+        "production/history/reprise_2026-11-19/production/asset_manifest.json",
+        "docs/production/VISUAL_QA_2026-11-19.md"
+      ],
+      "source_urls": [],
+      "qa_notes": [
+        "Tenue Hivebuster / Escape ; partie inférieure des jambes reconstituée, non certifiée.",
+        "Marge visible étroite : prévoir un canevas de production plus généreux."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 30
+    },
+    {
+      "path": "assets/characters/warden/gears5/reference_fullbody_v01.png",
+      "subject_id": "warden",
+      "category": "character",
+      "name": "Warden",
+      "source_variant": "Gears 5",
+      "purpose": "reference_fullbody",
+      "origin_batch": "reference_reprise_2026-11-19",
+      "metadata_records": [
+        "production/history/reprise_2026-11-19/production/asset_manifest.json",
+        "docs/production/VISUAL_QA_2026-11-19.md"
+      ],
+      "source_urls": [],
+      "qa_notes": [
+        "Casque vérifié sur capture de jeu ; détail des deux Breaker Maces à revalider avec une capture rapprochée.",
+        "Marge visible étroite : prévoir un canevas de production plus généreux."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 30
+    },
+    {
+      "path": "assets/characters/ukkon/tactics/reference_fullbody_v02.png",
+      "subject_id": "ukkon",
+      "category": "character",
+      "name": "Ukkon",
+      "source_variant": "Gears Tactics",
+      "purpose": "reference_fullbody",
+      "origin_batch": "reference_reprise_2026-11-19",
+      "metadata_records": [
+        "production/history/reprise_2026-11-19/production/asset_manifest.json",
+        "docs/production/VISUAL_QA_2026-11-19.md"
+      ],
+      "source_urls": [],
+      "qa_notes": [
+        "Version v02 : deux rails suspendus allongés vers les chevilles ; détails de la robe et des pieds à contrôler.",
+        "Marge visible étroite : prévoir un canevas de production plus généreux."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 30
+    }
+  ],
+  "archived_revision_notes": {
+    "rejected_candidates/characters_20261119/theron_guard_gears3_reference_fullbody_v01.png": "Ancienne sortie Theron remplacée par la v02 sélectionnée ; conservée pour historique, exclue des actifs.",
+    "rejected_candidates/characters_20261119/clayton_carmine_gears3_reference_fullbody_v01.png": "Inscription de poitrine incorrecte dans cette v01 ; remplacée par la v02 GRUB KILLER.",
+    "rejected_candidates/characters_20261119/ukkon_tactics_reference_fullbody_v01.png": "Montants latéraux trop courts dans cette v01 ; remplacée par la v02 corrigée."
+  }
+}

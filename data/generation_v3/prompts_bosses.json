@@ -1,0 +1,194 @@
+[
+  {
+    "id": "boss_corpser",
+    "name": "Corpser",
+    "source_game": "Gears Tactics",
+    "costume": "Corpser standard Tactics ; casque, blindage dorsal et dispositif thoracique propre à Tactics.",
+    "prompt": "Use case: stylized-concept. Asset type: a faithful isolated model-reference illustration for the Gears of War Combats 2D game bible. Create ONE complete subject in ONE quiet neutral pose, facing toward the right in a readable three-quarter side view. Realistic digitally painted 2D rendering with finely resolved materials, coherent restrained studio lighting and crisp silhouette. Preserve the exact named game version rather than redesigning it. Place the entire subject, including every extremity and permanently attached component, inside the canvas with at least 6% clear padding on all sides. Genuinely transparent RGBA background. No scenery, floor, pedestal, external cast shadow, smoke, action effects, people, additional creatures, labels, captions, logo, UI, decorative border, collage or multiple views. No battle, firing, impact, explosion, blood or injury. Canonical permanently attached equipment remains present but inactive. Use reference images only for identity, anatomy, mechanical layout and material colors; do not copy their action, surroundings, camera crop, text, watermark, presentation sheet or extra subjects.\n\nSubject specification: The standard Corpser boss from Gears Tactics (2020). Depict the broad, low, immensely heavy arachnid body with its eight long thick angular limbs, pale gray rough organic limb surfaces, blunt blade-like lower legs, dark protective head and upper-body armor, clustered small amber eyes and the original distinctive face. Use the shipped Tactics armor shapes, including the additional compact mechanical grenade-launcher assembly built into the chest, documented by its character artist Ben Davis. This assembly is inactive, with no ammunition leaving it. All legs are held in a stable resting stance, gently separated so the anatomy is legible, with no striking leg raised. The face is at rest rather than roaring. Preserve the specific Corpser shape instead of making a real spider, a scorpion, a robot, a generic fantasy insect, or the different Gears 3 wild Corpser design. No rider or human-scale comparison figure.\n\nFraming: Landscape composition suited to its wide leg span; show the head and chest clearly and do not crop any far-side foot.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-gb/news/dev-blog-bosses/",
+      "https://ben_davis.artstation.com/projects/rRa4eG",
+      "https://gearsofwar.neoseeker.com/wiki/Locust_Horde"
+    ],
+    "checklist": [
+      "Un Corpser standard de Tactics, pas un Corpser sauvage de Gears 3.",
+      "Morphologie, casque, peau et blindage comparés au visuel officiel Tactics.",
+      "Huit pattes anatomiques, sans ajouter des pattes fantômes ; perspective lisible.",
+      "Dispositif thoracique Tactics conservé, complètement inerte.",
+      "Aucune patte dressée en attaque, aucune scène de combat.",
+      "Corps et pointes des pattes entièrement dans le cadre, marge de 6 %.",
+      "Un sujet et une pose, pas de soldats ou autre créature.",
+      "Vrai alpha ; aucun décor, sol, ombre externe ou texte."
+    ],
+    "local_references": [
+      {
+        "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v3_references/corpser_official_hero.jpg",
+        "sha256": "57671b59c56941e156c0d2d2c9eb37a48381e59cde864c1db4f6231ced6a5cac",
+        "image_url": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/04/CorpserHero_Social-69cb05a460e22.jpg",
+        "source_page": "https://www.gearsofwar.com/en-gb/news/dev-blog-bosses/",
+        "type": "source_officielle_capture_Tactics",
+        "visually_inspected": true,
+        "scope": "Silhouette, casque, membres et texture. Image de référence en action : ne transférer ni soldats, décor, gestes ni cadrage coupé.",
+        "image_modified": false
+      },
+      {
+        "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v3_references/boss_official_detail2.jpg",
+        "sha256": "3d79311d062276018d986904829fe32b279ab242d3c772d33a5eb4519c0c67b2",
+        "image_url": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/04/f03d2aac77002348940f33eb655acd3062e13eef-69cb067d352f3.jpg",
+        "source_page": "https://www.gearsofwar.com/en-gb/news/dev-blog-bosses/",
+        "type": "source_officielle_capture_Tactics",
+        "visually_inspected": true,
+        "scope": "Vue frontale complémentaire ; interface et effets exclus.",
+        "image_modified": false
+      }
+    ],
+    "unresolved_details": [
+      "Le portfolio de Ben Davis confirme textuellement le lance-grenades thoracique ; ses images pleine résolution n’ont pas été récupérées.",
+      "Le décompte anatomique de huit pattes est corroboré par une source spécialisée secondaire ; les captures officielles n’en montrent pas toutes les racines.",
+      "Détails arrière, dessous et mécanique exacte du lance-grenades non certifiés ; QA obligatoire avant revendication de fidélité."
+    ],
+    "transparent_background": true,
+    "generation_status": "prepared_not_generated",
+    "prior_refusal_retry": false,
+    "canon_1_to_1_certified": false
+  },
+  {
+    "id": "boss_brumak",
+    "name": "Brumak",
+    "source_game": "Gears Tactics",
+    "costume": "Brumak boss standard de Tactics ; équipement de siège et réservoirs dorsaux, sans mutation Lambent ou Swarmak.",
+    "prompt": "Use case: stylized-concept. Asset type: a faithful isolated model-reference illustration for the Gears of War Combats 2D game bible. Create ONE complete subject in ONE quiet neutral pose, facing toward the right in a readable three-quarter side view. Realistic digitally painted 2D rendering with finely resolved materials, coherent restrained studio lighting and crisp silhouette. Preserve the exact named game version rather than redesigning it. Place the entire subject, including every extremity and permanently attached component, inside the canvas with at least 6% clear padding on all sides. Genuinely transparent RGBA background. No scenery, floor, pedestal, external cast shadow, smoke, action effects, people, additional creatures, labels, captions, logo, UI, decorative border, collage or multiple views. No battle, firing, impact, explosion, blood or injury. Canonical permanently attached equipment remains present but inactive. Use reference images only for identity, anatomy, mechanical layout and material colors; do not copy their action, surroundings, camera crop, text, watermark, presentation sheet or extra subjects.\n\nSubject specification: The standard Brumak boss from Gears Tactics (2020), not a Lambent Brumak and not a Swarmak. A huge heavy bipedal reptilian Locust beast, thick neck, compact armored head, massive sloping shoulders, powerful hind legs, long heavy arms with visible clawed hands, coarse gray-brown hide and the recognizable industrial dark metal harness. Preserve its two forearm-mounted multi-barrel weapons, its large back-mounted rocket-launcher rig and the rear canister assembly in the exact shipped Tactics arrangement. These are integral carried equipment, idle and not firing; the hands are empty and relaxed. Stand calmly with both feet planted, arms lowered naturally and mouth resting, no charge and no roar. The official Tactics gameplay image is an identity reference only: retain the creature and its mechanical silhouette, exclude every soldier, interface element, targeting ring and combat effect. Keep the organic body clearly distinguishable from armor; do not add mutation blisters, crystal growths, glowing exposed organs or invented horns.\n\nFraming: Portrait or near-square composition, wide enough for the forearm rigs; keep the full head, back rig, both hands and both feet inside the image.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-gb/news/dev-blog-bosses/",
+      "https://news.xbox.com/en-us/2020/04/07/gears-tactics-has-gone-gold-for-the-pc-heres-five-things-you-need-to-know/",
+      "https://video-game-guide-walkthrough.supersoluce.com/solution/gears-tactics-guide-walkthrough/gears-tactics-bosses-guide/brumak/"
+    ],
+    "checklist": [
+      "Brumak Tactics standard, aucune mutation Lambent/Swarmak.",
+      "Deux membres supérieurs et deux jambes, mains visibles et vides.",
+      "Armement fixé aux avant-bras et équipement dorsal présents, inertes.",
+      "Assemblage de réservoirs dorsaux vérifié autant que la perspective le permet.",
+      "Tête, proportions et harnais comparés à la capture officielle, sans mélange avec un modèle générique.",
+      "Pose au repos, aucune bouche de canon en action ni scène violente.",
+      "Corps entier et haut de l’équipement dorsal inclus, marge de 6 %.",
+      "Un seul sujet, vrai alpha, aucun texte ou élément de l’interface."
+    ],
+    "local_references": [
+      {
+        "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v3_references/boss_official_detail1.jpg",
+        "sha256": "83d94af20c36a2e5190bafb184355fb7e90b43e25b2818e3c201e4b6ad1db917",
+        "image_url": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/04/74c3de8267fa88a02c9aafcc58a1a7904d7691e8-63f7eefcc1b2b-69cb064decdf2.jpg",
+        "source_page": "https://www.gearsofwar.com/en-gb/news/dev-blog-bosses/",
+        "type": "source_officielle_capture_Tactics",
+        "visually_inspected": true,
+        "scope": "Brumak Tactics identifié par le blog et le HUD ; tête, avant-bras et dos supérieur. Vue en plongée, arrière incomplet ; ne pas reprendre la scène ou l’interface.",
+        "image_modified": false
+      }
+    ],
+    "unresolved_details": [
+      "La capture officielle ne donne pas un tour complet du modèle ; implantation exacte des réservoirs arrière non certifiée.",
+      "La vue est en plongée et partiellement coupée au sommet ; ne pas déduire de dimensions métriques.",
+      "Le guide secondaire confirme les deux armes de bras et le lanceur dorsal ; les détails devront être relus après génération."
+    ],
+    "transparent_background": true,
+    "generation_status": "prepared_not_generated",
+    "prior_refusal_retry": false,
+    "canon_1_to_1_certified": false
+  },
+  {
+    "id": "boss_king_raven",
+    "name": "King Raven de simulation",
+    "source_game": "Gears of War (2006)",
+    "costume": "King Raven original de la guerre locuste, silhouette 2006 ; pas Mark 2 de Gears 5.",
+    "prompt": "Use case: stylized-concept. Asset type: a faithful isolated model-reference illustration for the Gears of War Combats 2D game bible. Create ONE complete subject in ONE quiet neutral pose, facing toward the right in a readable three-quarter side view. Realistic digitally painted 2D rendering with finely resolved materials, coherent restrained studio lighting and crisp silhouette. Preserve the exact named game version rather than redesigning it. Place the entire subject, including every extremity and permanently attached component, inside the canvas with at least 6% clear padding on all sides. Genuinely transparent RGBA background. No scenery, floor, pedestal, external cast shadow, smoke, action effects, people, additional creatures, labels, captions, logo, UI, decorative border, collage or multiple views. No battle, firing, impact, explosion, blood or injury. Canonical permanently attached equipment remains present but inactive. Use reference images only for identity, anatomy, mechanical layout and material colors; do not copy their action, surroundings, camera crop, text, watermark, presentation sheet or extra subjects.\n\nSubject specification: The original King Raven helicopter from the 2006 Gears of War, in its classic Locust-War configuration. Match the original Epic Games production model shown in the gray sculpt reference credited to Pete Hayes: the short thick fuselage, bulbous armored nose and cockpit, rounded side engine fairings, paired upper engine housings, stacked main-rotor mechanism, large open side transport doorway, wheel landing gear and the distinctive short rear fuselage with its original tail fins. Preserve the original broad stocky proportions; do not substitute the longer King Raven Mark 2 from Gears 5 or a real-world military helicopter. Render realistic muted gray military metal and weathered painted panels, with restrained surface wear. The cabin and cockpit are empty; no pilot, crew, passenger or external figure. Park the aircraft in a level maintenance-display pose with landing wheels extended and rotor blades stopped and clearly resolved. All permanently mounted equipment is present but idle. Show only one aircraft from one angle, not the two views in the reference. Do not invent tail numbers or readable labels.\n\nFraming: Wide landscape composition with enough width to include the entire stopped rotor span, the full tail and every wheel, all with clear padding.",
+    "source_urls": [
+      "https://news.xbox.com/en-us/2007/01/10/gears-of-war-multiplayer-map-pack-1/",
+      "https://www.crealitycloud.com/model-detail/662dab097cfe69c64d2344c0",
+      "https://jdgmntday.artstation.com/projects/rRYgba"
+    ],
+    "checklist": [
+      "Modèle original court et massif ; exclure le King Raven Mark 2 de Gears 5.",
+      "Disposition du nez, cabine, entrée latérale et queue comparée au sculpt Epic crédité.",
+      "Un hélicoptère et une seule vue, aucun équipage.",
+      "Train de roues sorti, rotor immobile, ensemble présenté au repos.",
+      "Extrémités de toutes les pales, queue et roues intégralement visibles.",
+      "Équipement monté inerte, aucun tir, fumée ou impact.",
+      "Pas de numéros d’unité ou de lettrage inventés.",
+      "Fond alpha réel, aucun sol ou ombre portée extérieure."
+    ],
+    "local_references": [
+      {
+        "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v3_references/king_raven_epic_repost.webp",
+        "sha256": "55e35ea9b221241368a48985bec188098a8dfcbca209636ac7cbdc458fc02c76",
+        "image_url": "https://pic2-cdn.creality.com/comp/model/f20c9466d25ed7ce95a91582b816326b.webp",
+        "source_page": "https://www.crealitycloud.com/model-detail/662dab097cfe69c64d2344c0",
+        "type": "republication_secondaire_planche_production_Epic",
+        "visually_inspected": true,
+        "scope": "Planche du modèle d’origine avec crédits Jerry O’Flaherty, Chris Perna, James Hawkins et Pete Hayes. Deux vues en sculpt gris : utiliser la géométrie, pas les crédits, le fond rouge ou la mise en page.",
+        "image_modified": false
+      }
+    ],
+    "unresolved_details": [
+      "La planche est une republication de tiers ; crédits de production visibles, mais fichier source Epic original non récupéré.",
+      "Le sculpt gris établit la géométrie, pas les textures ni la couleur exacte de chaque panneau du jeu 2006.",
+      "La source Ben Day décrit le Mark 2 uniquement pour documenter la variante à exclure ; ne pas utiliser son design comme référence positive.",
+      "Son rôle adverse est une simulation propre au mode annexe, pas un événement canonique de la campagne."
+    ],
+    "transparent_background": true,
+    "generation_status": "prepared_not_generated",
+    "prior_refusal_retry": false,
+    "canon_1_to_1_certified": false
+  },
+  {
+    "id": "boss_kestrel",
+    "name": "Kestrel",
+    "source_game": "Gears of War 4",
+    "costume": "Kestrel DeeBee bleu standard Gears of War 4 ; drone non piloté.",
+    "prompt": "Use case: stylized-concept. Asset type: a faithful isolated model-reference illustration for the Gears of War Combats 2D game bible. Create ONE complete subject in ONE quiet neutral pose, facing toward the right in a readable three-quarter side view. Realistic digitally painted 2D rendering with finely resolved materials, coherent restrained studio lighting and crisp silhouette. Preserve the exact named game version rather than redesigning it. Place the entire subject, including every extremity and permanently attached component, inside the canvas with at least 6% clear padding on all sides. Genuinely transparent RGBA background. No scenery, floor, pedestal, external cast shadow, smoke, action effects, people, additional creatures, labels, captions, logo, UI, decorative border, collage or multiple views. No battle, firing, impact, explosion, blood or injury. Canonical permanently attached equipment remains present but inactive. Use reference images only for identity, anatomy, mechanical layout and material colors; do not copy their action, surroundings, camera crop, text, watermark, presentation sheet or extra subjects.\n\nSubject specification: The standard blue DeeBee Kestrel unmanned helicopter from Gears of War 4 (2016), matching Evan McKnight’s shipped-model portfolio. Preserve the angular enclosed blue-and-black nose with its narrow red-orange sensor strip, segmented cobalt-blue armor with pale linear panel markings, compact vented engine housings, stacked coaxial main-rotor system, the long narrow tail boom and the circular shrouded tail assembly shown in the model reference. Retain the exact short lateral equipment housings, lower forward-mounted guns and underside missile cluster as inactive integral components. There is no transparent human cockpit and no pilot. Present the drone level in a quiet suspended catalog pose, rotor blades stopped and separated enough to read, with no motion blur or prop wash. Do not turn it into a King Raven, Vulture, Guardian drone or generic helicopter. Use the reference sheet only to match the model; output ONE whole Kestrel from one angle, never the two-view sheet or its logos.\n\nFraming: Wide landscape composition, full rotor span and tail included; a shallow three-quarter side angle with the nose pointing right and the main body readable.",
+    "source_urls": [
+      "https://emcknight.artstation.com/projects/WrEwJ",
+      "https://www.artstation.com/artwork/LJO50",
+      "https://gearsofwar.fandom.com/wiki/Kestrel"
+    ],
+    "checklist": [
+      "Kestrel bleu Gears 4, drone non piloté, pas de cockpit humain.",
+      "Nez anguleux et bande de capteurs rouge-orangé lisibles.",
+      "Armure bleue/noire, marquages linéaires pâles et aérations conformes au portfolio du modeleur.",
+      "Rotors coaxiaux et ensemble arrière circulaire présents, pales entièrement visibles.",
+      "Armes fixées présentes mais totalement inactives.",
+      "Une seule vue du drone, pas de collage reproduisant la planche de référence.",
+      "Aucun décor, effet de vol, logo du portfolio ou lettrage ajouté.",
+      "Vrai alpha et marge de 6 % autour de toute la silhouette."
+    ],
+    "local_references": [
+      {
+        "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v3_references/kestrel_artist_back.jpg",
+        "sha256": "c83866cd790f59b6c1a3b959082f4723aa3efb61ea1f233c60e0e6c6aa2c0f5b",
+        "image_url": "https://cdna.artstation.com/p/assets/images/images/003/783/158/large/evan-mcknight-kestrel-02.jpg?1477445193",
+        "source_page": "https://emcknight.artstation.com/projects/WrEwJ",
+        "type": "portfolio_du_modeleur_source_primaire",
+        "visually_inspected": true,
+        "scope": "Deux vues du modèle Gears 4 et géométrie complète des rotors/queue ; générer une seule vue, sans logos ou fond de planche.",
+        "image_modified": false
+      },
+      {
+        "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v3_references/kestrel_artist_front.jpg",
+        "sha256": "42458ff4757aa09f40b4eea82e6f7d78246c9b7e6bcb989c6bd89c2314f7aa79",
+        "image_url": "https://cdnb.artstation.com/p/assets/images/images/003/783/155/large/evan-mcknight-kestrel-01.jpg?1477445180",
+        "source_page": "https://emcknight.artstation.com/projects/WrEwJ",
+        "type": "portfolio_du_modeleur_source_primaire",
+        "visually_inspected": true,
+        "scope": "Détail du nez, capteurs, panneaux, aérations et équipement inférieur ; cadre coupé à ne pas reprendre.",
+        "image_modified": false
+      }
+    ],
+    "unresolved_details": [
+      "Le portfolio du modeleur est une source primaire forte, mais ne fournit pas les dimensions métriques ou toutes les pièces cachées.",
+      "Les compteurs et marquages minuscules ne doivent pas être inventés ; fidélité finale encore à contrôler visuellement."
+    ],
+    "transparent_background": true,
+    "generation_status": "prepared_not_generated",
+    "prior_refusal_retry": false,
+    "canon_1_to_1_certified": false
+  }
+]
