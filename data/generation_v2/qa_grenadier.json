@@ -1,0 +1,118 @@
+{
+  "id": "grenadier",
+  "asset_path": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/grenadier_reference_v2.png",
+  "sha256": "5f52a802e772bd4eb5936df0eca5ee818b3686047d7df71992a84f10f909b438",
+  "inspection": "PNG ouvert en taille native via view_image et canal RGBA inspecté par Pillow ; aucune modification de l’image.",
+  "overall_status": "reference_initiale_reconnaissable_fidelite_non_validee",
+  "subject_recognizable": {
+    "status": "partial",
+    "observation": "Grenadier locuste lisible grâce au torse musculaire nu, au visage locuste, au harnais et à l’armure de jambes. Le costume Tactics précis reste non certifié."
+  },
+  "full_silhouette": {
+    "status": "pass",
+    "observation": "Tête, mains et deux pieds complets visibles ; aucune extrémité coupée.",
+    "substantial_alpha_bbox": [
+      110,
+      19,
+      878,
+      1511
+    ],
+    "margin_px_alpha_ge_128": {
+      "left": 110,
+      "top": 19,
+      "right": 146,
+      "bottom": 25
+    }
+  },
+  "one_pose": {
+    "status": "pass",
+    "observation": "Un personnage, une pose, aucun doublon ni encart."
+  },
+  "angle": {
+    "status": "pass",
+    "observation": "Trois-quarts orienté vers la droite ; visage et torse lisibles."
+  },
+  "empty_hands": {
+    "status": "pass",
+    "observation": "Deux mains vides et relâchées ; aucun objet tenu."
+  },
+  "neutral_presentation": {
+    "status": "pass",
+    "observation": "Personnage au repos ; aucune action, blessure ou violence."
+  },
+  "alpha": {
+    "mode": "RGBA",
+    "size_px": [
+      1024,
+      1536
+    ],
+    "min": 0,
+    "max": 254,
+    "alpha_zero_pixels": 865282,
+    "alpha_zero_fraction": 0.550131,
+    "pixels_alpha_1_to_15": 31538,
+    "substantial_alpha_bbox": [
+      110,
+      19,
+      878,
+      1511
+    ],
+    "all_nonzero_alpha_bbox": [
+      0,
+      15,
+      1006,
+      1536
+    ],
+    "corner_samples_rgba": {
+      "(0, 0)": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "(1023, 0)": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "(0, 1535)": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "(1023, 1535)": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    "interpretation": "Le RGB de fond affiché n’implique pas un fond opaque. Fond transparent vérifié aux coins ; maximum alpha 254 accepté comme comportement du générateur. Aucun nettoyage effectué."
+  },
+  "visible_defects": [
+    {
+      "severity": "review",
+      "area": "fidelite",
+      "observation": "Le nombre des grenades, le harnais, les plaques très épaisses des tibias et la tête ne sont pas vérifiés sur une capture du Grenadier Tactics."
+    }
+  ],
+  "fidelity_uncertified": [
+    "Harnais standard Tactics et présence/quantité des grenades portées.",
+    "Forme du visage, texture de peau et morphologie par rapport au Drone.",
+    "Plaques d’avant-bras, ceinture, vêtements de cuisse, genouillères et semelles.",
+    "Correspondance précise Tactics, distincte du costume 2006 et de Grenadier Elite."
+  ],
+  "source_urls": [
+    "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/"
+  ],
+  "source_limits": "Le blog primaire confirme le Grenadier Tactics, mais ne suffit pas à certifier ces détails de tenue. Réserves conservées en attente d’une capture précise.",
+  "image_modified": false,
+  "generation_or_retry_performed": false,
+  "worn_equipment": {
+    "status": "allowed_fidelity_unverified",
+    "observation": "Quatre grenades sont fixées au harnais. L’équipement caractéristique porté est accepté par la clarification du responsable du projet ; les deux mains doivent rester vides. La présence des grenades n’est donc pas un défaut de conformité. Leur nombre et leur modèle exact dans Gears Tactics demeurent non certifiés."
+  },
+  "instruction_clarification": "La clause initiale du prompt sur les armes attachées ne constitue plus le critère final : la clarification autorise les équipements caractéristiques portés, notamment les grenades du Grenadier, sans objet tenu en main."
+}

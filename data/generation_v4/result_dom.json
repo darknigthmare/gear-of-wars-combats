@@ -1,0 +1,16 @@
+{
+  "id": "dom",
+  "name": "Dominic Santiago",
+  "source_game": "Gears of War 2006",
+  "prompt": "Dominic “Dom” Santiago from the original Gears of War (2006), specifically his first-game campaign appearance. Adult muscular Latino-looking man with his recognisable broad, weathered face, short dark hair and close-cropped dark facial hair. Match the first-game Delta Squad official reference, where Dom is the rightmost soldier. Reproduce his individual dark charcoal and gunmetal COG campaign armor, compact blue illuminated armor details, large fitted chest plates, armored shoulders and forearms, practical waist and thigh equipment, dark olive-brown combat trousers, reinforced knees and heavy military boots. Keep Dom’s own face, armor panel layout and proportions distinct from Marcus. Use his short first-game hair and beard silhouette; do not age him into his long-haired, heavily bearded Gears 3 appearance. No bandana. Preserve the period-specific worn metal and fabric construction without mixing in Gears 5 or E-Day redesigns. Create exactly one adult character, alone, full body from the top of the head to both complete boot soles, centered with clear transparent margin around the silhouette. Neutral relaxed standing pose, three-quarter turn toward screen right, clearly readable as a side-view 2D fighting-game character; both arms resting slightly away from the torso, hands visibly empty and relaxed, legs comfortably separated, neutral closed-mouth expression. Respect the character’s original anatomy and game proportions. Realistic hand-painted 2D production illustration with UHD-level material detail, crisp clean contour and controlled soft lighting; no cartoon, no cel shading, no photograph, no plastic miniature. The background must be truly transparent with an alpha channel. No background color, scenery, floor, pedestal, ground plane, cast shadow outside the silhouette, text, caption, UI, watermark, duplicates, inset portrait, alternate view, held weapon, slung weapon, violence, blood or injuries. This is a single reusable neutral character cutout, not a poster or action scene.",
+  "source_urls": [
+    "https://www.gearsofwar.com/en-us/games/gears-of-war/",
+    "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/gears-1-co-op-69d6e9d002b82.jpg"
+  ],
+  "output_hint": null,
+  "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 2e69a554-28c2-4ddc-a808-166235242b75.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+  "has_image": false,
+  "path": null,
+  "mode": "built-in",
+  "fidelity_approved": false
+}

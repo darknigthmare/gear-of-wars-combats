@@ -1,0 +1,65 @@
+[
+  {
+    "id": "gabe",
+    "name": "Gabe Diaz",
+    "source_game": "Gears Tactics",
+    "costume": "Tenue de campagne de base, modèle officiel du blog Characters du 17 avril 2020, avant équipement de loot.",
+    "prompt": "Gabriel Gabe Diaz exactly as his default Gears Tactics character, a broad muscular adult man with dark swept-back short hair, the small pale streak at the front, a square face and a closely trimmed full dark beard. Worn dark gunmetal COG armor, two large circular chest plates edged in faded blue, a small circular fitting between them, segmented abdominal plates, blue rectangular shoulder lights, rounded shoulder armor, exposed upper arms, plated forearm guards and fingerless gloves. Taupe military trousers, brown utility straps, belt pouches, asymmetrical hip holster shapes, heavy worn knee and shin armor, brown armored boots. Match the original Tactics costume rather than a customizable loot armor set or the later Gears 5 variant. Create exactly one adult fictional character, full body from the top of the head to the soles of both boots, in a calm neutral standing pose with empty relaxed hands and arms separated slightly from the torso. Three-quarter view facing screen right, close enough to a lateral view to read clearly as a 2D fighting-game character. Preserve anatomical left/right asymmetries when changing the view; do not simply mirror them. Realistic painted 2D character illustration with UHD-quality material detail, natural anatomy and a crisp clean silhouette. A fully transparent RGBA background, no scenery, floor, base, cast shadow outside the body, vignette, lettering, captions, logos, UI, borders, extra figures or alternate views. No held or slung weapons. Leave clear transparent padding around every extremity; no cropping.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-nz/news/dev-blog-characters/",
+      "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/04/f58127fb483b171065a9fad6b79ecbcfcf9032d5-69cb0c3a70b1e.jpg"
+    ],
+    "visual_checklist": [
+      "Modèle officiel en pied inspecté : coupe courte rejetée en arrière, mèche claire frontale, barbe complète courte.",
+      "Deux disques pectoraux à pourtour bleu, petit élément circulaire central, abdominal segmenté.",
+      "Bras supérieurs nus, protections des avant-bras, gants sans doigts, pantalon taupe et bottes blindées.",
+      "Respecter les proportions massives et les sangles asymétriques de la tenue de base.",
+      "Une pose neutre unique ; tête, deux mains et deux pieds entiers ; véritable alpha sans halo ni ombre extérieure."
+    ],
+    "unresolved_details": [
+      "Le dos complet et l’attache arrière de l’armure ne sont pas visibles dans le rendu officiel consulté ; éviter les ajouts arrière saillants non documentés."
+    ]
+  },
+  {
+    "id": "sid",
+    "name": "Sid Redburn",
+    "source_game": "Gears Tactics",
+    "costume": "Tenue de campagne de base, modèle officiel du blog Characters du 17 avril 2020.",
+    "prompt": "Sid Redburn exactly as his default Gears Tactics character: an older heavily built adult man with a very short white buzz cut, a thick downward white horseshoe moustache, a stern lined face and a black eyepatch over his anatomical LEFT eye, with the original forehead scar. Worn olive-green and silver COG armor, very large rounded shoulder plates, two circular chest panels with metallic rims and curved pipes beneath them, a small central chest fitting, dark olive undersuit and armored forearms. Brown leather gloves, a broad mechanical belt buckle, small cylindrical containers at the waist, brown and olive padded trousers with thick thigh protection, worn metal shin plates and oversized brown military boots. Preserve his original stocky proportions and asymmetry, with no helmet and no added full beard. Create exactly one adult fictional character, full body from the top of the head to the soles of both boots, in a calm neutral standing pose with empty relaxed hands and arms separated slightly from the torso. Three-quarter view facing screen right, close enough to a lateral view to read clearly as a 2D fighting-game character. Preserve anatomical left/right asymmetries when changing the view; do not simply mirror them. Realistic painted 2D character illustration with UHD-quality material detail, natural anatomy and a crisp clean silhouette. A fully transparent RGBA background, no scenery, floor, base, cast shadow outside the body, vignette, lettering, captions, logos, UI, borders, extra figures or alternate views. No held or slung weapons. Leave clear transparent padding around every extremity; no cropping.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-nz/news/dev-blog-characters/",
+      "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/04/b070c2d094613f6ac28e09b19f87bc24cf487790-69cb0c5d1797f.jpg"
+    ],
+    "visual_checklist": [
+      "Modèle officiel en pied inspecté : cheveux blancs très courts, moustache blanche épaisse en fer à cheval, menton sans barbe complète.",
+      "Cache-œil NOIR sur l’œil anatomiquement GAUCHE ; ne pas inverser lors de l’orientation vers la droite.",
+      "Armure olive usée, deux disques pectoraux et conduites sous les disques, épaules très larges.",
+      "Gants bruns, cartouches cylindriques à la ceinture, cuisses matelassées et lourdes bottes.",
+      "Une personne adulte entière, mains vides, au repos, fond réellement transparent."
+    ],
+    "unresolved_details": [
+      "Le revers complet du cache-œil et le dos de l’armure ne sont pas documentés par la vue officielle unique."
+    ]
+  },
+  {
+    "id": "mikayla",
+    "name": "Mikayla Dorn",
+    "source_game": "Gears Tactics",
+    "costume": "Tenue civile de campagne de base, modèle officiel du blog Characters du 17 avril 2020.",
+    "prompt": "Mikayla Dorn exactly as her default Gears Tactics character: an athletic adult woman with medium-brown skin, dark brown hair swept and gathered up in the original compact rolled style, small ribbed hoop earrings and a calm firm expression. Her original worn olive sleeveless top, green-gray neck scarf with muted orange geometric motifs, and metal protective goggles resting at her throat over the scarf. Keep her exposed shoulders: this is her civilian militia outfit, not a generic COG armored vest. White cloth wrap around her anatomical RIGHT upper arm, larger padded sleeve and metal bracer on her anatomical LEFT forearm, fingerless tan gloves and the original small wrist bracelets. Brown utility trousers with reinforced knees, broad circular mechanical belt buckle, long scratched silver-gray shin guards and heavy worn boots. Create exactly one adult fictional character, full body from the top of the head to the soles of both boots, in a calm neutral standing pose with empty relaxed hands and arms separated slightly from the torso. Three-quarter view facing screen right, close enough to a lateral view to read clearly as a 2D fighting-game character. Preserve anatomical left/right asymmetries when changing the view; do not simply mirror them. Realistic painted 2D character illustration with UHD-quality material detail, natural anatomy and a crisp clean silhouette. A fully transparent RGBA background, no scenery, floor, base, cast shadow outside the body, vignette, lettering, captions, logos, UI, borders, extra figures or alternate views. No held or slung weapons. Leave clear transparent padding around every extremity; no cropping.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-nz/news/dev-blog-characters/",
+      "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/04/fa96bb216cfb2950a825f30086ee5d6f05084c0c-69cb0c872baa9.jpg"
+    ],
+    "visual_checklist": [
+      "Modèle officiel en pied inspecté : chevelure relevée, petites boucles d’oreilles, débardeur olive sans cuirasse CGU.",
+      "Foulard vert-gris à motifs orange et lunettes mécaniques au cou.",
+      "Bande blanche au bras anatomiquement droit ; gros manchon et brassard de métal à gauche.",
+      "Boucle circulaire, pantalon brun et longues jambières gris argent.",
+      "Une personne adulte, mains vides, pose neutre trois-quarts vers la droite, silhouette entière détourée."
+    ],
+    "unresolved_details": [
+      "La forme exacte du nœud et du ruban à l’arrière de la coiffure n’est que partiellement visible ; ne pas inventer une longue queue de cheval."
+    ]
+  }
+]

@@ -1,0 +1,374 @@
+{
+  "reviewer": "boss_stages_story",
+  "scope": "Pages 53 à 78 du premier rendu bible_final",
+  "all_pages_visually_reviewed": true,
+  "page_count_reviewed": 26,
+  "blocking_layout_issues": [
+    {
+      "page": 58,
+      "issue": "Le tableau des facteurs de parallaxe est rendu en texte Markdown brut.",
+      "fix": "Retirer les lignes vides entre lignes de tableau avant conversion. Vérifier aussi le tableau des circuits du même chapitre."
+    }
+  ],
+  "editorial_issues": [
+    {
+      "page": 67,
+      "issue": "RAAM désigné par raccourci « boss humain ».",
+      "fix": "Employer « boss humanoïde »."
+    }
+  ],
+  "image_caption_status": "Pages 77 et 78 propres, aucune légende isolée.",
+  "pages": [
+    {
+      "page": 53,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-53.png",
+      "sha256": "e60824d3030876e08d447cebd6b5debf3320b5e4d6a97c086a0a88811ac1a32b",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": []
+    },
+    {
+      "page": 54,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-54.png",
+      "sha256": "99b1006c6354c8c738586a6f53e0a725ddf723de068b5396b41d19485ab6ce85",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": []
+    },
+    {
+      "page": 55,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-55.png",
+      "sha256": "de05938d7002eb37475292aa528f3af49a7a953563da6f8207e453590a7d5745",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": []
+    },
+    {
+      "page": 56,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-56.png",
+      "sha256": "e3e0ffc2dfd4326e8902624613c5eb02ce880d8198683f692dd4a18888bd5737",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": []
+    },
+    {
+      "page": 57,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-57.png",
+      "sha256": "9bb8b40c2eb1f69f4832e768ce78dc3cb4acbf6a166b3d729df270d9a4aeed5f",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": []
+    },
+    {
+      "page": 58,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-58.png",
+      "sha256": "f8d28f29f028acd9730d80fe63dbdf4ecca59f71f258f11f99440761cfadc492",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "correction_required",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": [
+        "Tableau des couches de parallaxe affiché en Markdown brut ; convertir après suppression des lignes vides entre lignes du tableau."
+      ]
+    },
+    {
+      "page": 59,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-59.png",
+      "sha256": "744b45b2c16e7ef3554970a45d5aadc6a2c0c35880dacef7a133fc23903b76fc",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": []
+    },
+    {
+      "page": 60,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-60.png",
+      "sha256": "f461267e905487fcd040349c142c196dffd5ca209e8afb737c65ab11e20e931d",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": []
+    },
+    {
+      "page": 61,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-61.png",
+      "sha256": "75d78cd6df499493aae644523c160f8a2c2003c7ef624d960e197c9ac323e796",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": []
+    },
+    {
+      "page": 62,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-62.png",
+      "sha256": "4596ec8e19b982f5f905df577dff504d690be30ce668431edfb3ba8bc759ba47",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": []
+    },
+    {
+      "page": 63,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-63.png",
+      "sha256": "cb27f2444668e10ad7c1b81a88e43c3a18c2c2b8aad9da4ece3c5458913f2730",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": []
+    },
+    {
+      "page": 64,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-64.png",
+      "sha256": "f183d8fec432dad432dd55db1cec457b948ad8b78d1928c6de61c7cebe4aa107",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": []
+    },
+    {
+      "page": 65,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-65.png",
+      "sha256": "aea67bccfd059686919050edeab1ff6e2de0a0963ccda392a0f37fad36612322",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": []
+    },
+    {
+      "page": 66,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-66.png",
+      "sha256": "1fae702d0fb002de53a765952623b491208c53ac9a9a9d360cbe7b76c1b7d6f2",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": []
+    },
+    {
+      "page": 67,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-67.png",
+      "sha256": "29a26f6671323cfc0d80d02c38b6c9bb2f06f4abde664aee08507b0f88effa6c",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": [
+        "Correction éditoriale mineure : remplacer « deux rounds de duel boss humain » par « deux rounds de duel contre un boss humanoïde »."
+      ]
+    },
+    {
+      "page": 68,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-68.png",
+      "sha256": "4eb685511237f6b8735f3b88d578d00c4624b31c36aa45300b4a4d59b5d8cb0f",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": []
+    },
+    {
+      "page": 69,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-69.png",
+      "sha256": "26fc129b9e20ac9cb5d9c5c2a467b1b0d7f4b9f2692fd932da86501b169cad0c",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": []
+    },
+    {
+      "page": 70,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-70.png",
+      "sha256": "327abef8c12587e44383253b93254b97896f871f0f02a5caf6b628bd0ac18247",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": []
+    },
+    {
+      "page": 71,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-71.png",
+      "sha256": "a91d26a3f02ac37f0829296ee8cd2376ac61bdb992c533f9aaa58d3d17123e0d",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": []
+    },
+    {
+      "page": 72,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-72.png",
+      "sha256": "4ca162f06e049879907da915b0309fb0704122ad435b0bbe0ed9ea3d0dfc0865",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": []
+    },
+    {
+      "page": 73,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-73.png",
+      "sha256": "852388f384107071ed979e0b20afc22dc674677bfd8bce7e488cb666c0172433",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": []
+    },
+    {
+      "page": 74,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-74.png",
+      "sha256": "91badf788e06e34d4caee53074427f01e68f6361d2f2e6ccf5bca71efd9b3d2f",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": [
+        "Fin de bibliographie ; blanc inférieur lié à la section suivante, pas de page vide parasite."
+      ]
+    },
+    {
+      "page": 75,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-75.png",
+      "sha256": "4cef40930faf3b017624cfda6c47137f289c79c8dfa4cc10f4038ae20c6cc69a",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": []
+    },
+    {
+      "page": 76,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-76.png",
+      "sha256": "abb016e641de30afa02b99e0ffca777645896e5e9f5fd3e2e0fdad9996a5064f",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": [
+        "Fin de section de statut ; blanc inférieur cohérent avec l’ouverture de la section visuelle suivante."
+      ]
+    },
+    {
+      "page": 77,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-77.png",
+      "sha256": "752413a935cde12de0a9d212f951141f73fd2542d2e90c3e663886682a275970",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": [
+        "Image Marcus et légende réunies sur la même page ; grande réserve blanche mais aucun débordement."
+      ]
+    },
+    {
+      "page": 78,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-78.png",
+      "sha256": "a5dbef3e0b078ecfa2d9587c01682188932859c5ecfd9b8b8fa0bac55f02efa5",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": [
+        "Image Kait et sa légende réunies ; décor Hollow et sa légende réunis ; aucune légende orpheline en fin de document."
+      ]
+    }
+  ],
+  "revalidation_needed": "Page 58 et toute page dont le PNG change après correction de conversion ; vérification déjà accomplie conservable pour les autres empreintes."
+}

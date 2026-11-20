@@ -1,0 +1,28 @@
+{
+  "counts": {
+    "fighters": 36,
+    "costume_records": 75,
+    "moves": 179,
+    "arcade_routes": 36,
+    "combos": 24,
+    "bosses": 24,
+    "boss_phases": 72,
+    "stages": 24,
+    "parallax_layers": 144,
+    "campaign_chapters": 12,
+    "animation_drawings_per_side": 552
+  },
+  "checks": [
+    "Unique identifiers",
+    "Combatant and rival references",
+    "Movement ownership and nonnegative costs",
+    "Boss stage references and phase timings",
+    "Stage layers and tournament rules",
+    "Arcade opponents",
+    "Campaign stage and boss references",
+    "Animation estimate total"
+  ],
+  "errors": [],
+  "status": "passed",
+  "limits": "Does not validate canonical visual fidelity, balance, or browser controls."
+}

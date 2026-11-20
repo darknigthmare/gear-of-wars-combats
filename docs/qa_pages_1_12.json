@@ -1,0 +1,66 @@
+{
+  "render": "bible_final",
+  "review": "All pages opened and visually checked at native resolution; no clipping or layout failures. Text clarification on page 11 included in release.",
+  "pages": [
+    {
+      "page": 1,
+      "sha256": "d3665b56f665479c66739a9986999897b2f688c87f089563c445371913b9385f",
+      "status": "pass"
+    },
+    {
+      "page": 2,
+      "sha256": "ac2e9c2bcdb59818cf7df9c444b8b6ba2de4e7e7e07ec5e648218f5bbcd00f90",
+      "status": "pass"
+    },
+    {
+      "page": 3,
+      "sha256": "52f170baf1cbde6512260d7516f5ff7a4a12454bd710326b07ff318a715ad858",
+      "status": "pass"
+    },
+    {
+      "page": 4,
+      "sha256": "870e165c7692d6012f76618524904cbee866915afe85812fcb87baadd216e197",
+      "status": "pass"
+    },
+    {
+      "page": 5,
+      "sha256": "13c77d63a3e605c915f90cf998b75b515db2baeaadf535c614149454c0bffea0",
+      "status": "pass"
+    },
+    {
+      "page": 6,
+      "sha256": "58f79017752c26ca88ed66f2f58d1cf623727d320f802d3756c43cba89946ba0",
+      "status": "pass"
+    },
+    {
+      "page": 7,
+      "sha256": "a8c1aabbe0d8a1bdfff92cdb914f04cefd2e1c995dd49c27b2ee1eb288cecbb4",
+      "status": "pass"
+    },
+    {
+      "page": 8,
+      "sha256": "d8609438a9a00f879adf81d45f89eea0a5560b6cf8c916fec928964112c8b7b0",
+      "status": "pass"
+    },
+    {
+      "page": 9,
+      "sha256": "a0418762c2e6f3d6422c3cd5d17036e372855673f0016e2322f9af69c63392a1",
+      "status": "pass"
+    },
+    {
+      "page": 10,
+      "sha256": "29550e2bc53902eedc0c6480d1f9d61a7f24012c40a06296ac5ab04ea31a36e7",
+      "status": "pass"
+    },
+    {
+      "page": 11,
+      "sha256": "4b8bd970113329d75cae1a073737f0ef35b61c8ddf089e94b0edc8e1f0c15977",
+      "status": "pass"
+    },
+    {
+      "page": 12,
+      "sha256": "0b0206608c3227e86a30f47cdab8e97ccf4a1b10558660384eaa752d172d9b27",
+      "status": "pass"
+    }
+  ]
+}

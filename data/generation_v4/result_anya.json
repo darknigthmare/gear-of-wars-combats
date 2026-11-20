@@ -1,0 +1,18 @@
+{
+  "id": "anya",
+  "name": "Anya Stroud",
+  "source_game": "Gears of War 3",
+  "prompt": "Anya Stroud in her Gears of War 3 frontline campaign outfit, matching the female soldier on the right of the official Gears 3 cooperative-campaign screenshot. Adult athletic woman with Anya’s recognisable face, fair skin, blonde hair, side-swept fringe and loose face-framing strands following her Gears 3 hairstyle. Reproduce her fitted but practical gunmetal and grey COG field armor: distinctive rounded front chest plate, blue rectangular shoulder-strap lights, muted short-sleeved field underlayer, practical waist belt and pouches, reinforced dark combat trousers, knee and shin guards, armored forearms and heavy boots. Preserve the real campaign construction and modest military fit without exaggerating her body or armor shape. This is combat Anya from Gears 3, not her Gears 1 or 2 communications uniform, not civilian Anya and not a later memorial or ceremonial design. No headset invented from her control-room costume. Create exactly one adult character, alone, full body from the top of the head to both complete boot soles, centered with clear transparent margin around the silhouette. Neutral relaxed standing pose, three-quarter turn toward screen right, clearly readable as a side-view 2D fighting-game character; both arms resting slightly away from the torso, hands visibly empty and relaxed, legs comfortably separated, neutral closed-mouth expression. Respect the character’s original anatomy and game proportions. Realistic hand-painted 2D production illustration with UHD-level material detail, crisp clean contour and controlled soft lighting; no cartoon, no cel shading, no photograph, no plastic miniature. The background must be truly transparent with an alpha channel. No background color, scenery, floor, pedestal, ground plane, cast shadow outside the silhouette, text, caption, UI, watermark, duplicates, inset portrait, alternate view, held weapon, slung weapon, violence, blood or injuries. This is a single reusable neutral character cutout, not a poster or action scene.",
+  "source_urls": [
+    "https://www.gearsofwar.com/en-us/games/gears-of-war-3/",
+    "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/gears-3-co-op-69d7d90d192e5.jpg",
+    "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/gears-of-war-3-69d7d9132411b-1024x576.jpg",
+    "https://www.xbox.com/en-US/games/store/anya-stroud-multiplayer-character/bw4rxp3skl2b"
+  ],
+  "output_hint": null,
+  "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 731ff01e-7b52-4eda-a974-23fcff1dc838.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+  "has_image": false,
+  "path": null,
+  "mode": "built-in",
+  "fidelity_approved": false
+}

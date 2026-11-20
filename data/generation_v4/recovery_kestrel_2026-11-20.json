@@ -1,0 +1,17 @@
+{
+  "id": "boss_kestrel",
+  "date": "2026-11-20",
+  "source_record": "data/generation_v4/result_boss_kestrel.json",
+  "path": "assets/bosses_v4/boss_kestrel_reference_v4.png",
+  "sha256": "b31135cec00e6daea25e2d6bb1b4c2451c8b09a8eb58ea6f5f3320b99b13b60b",
+  "status": "recovered_generated_candidate",
+  "visual_inspected": true,
+  "fidelity_approved": false,
+  "ready_for_animation": false,
+  "qa_notes": [
+    "Un seul appareil entier, vue de trois-quarts vers la droite ; pales, queue et armement cadrés.",
+    "PNG RGBA inspecté ; fond alpha réellement transparent et marges confortables.",
+    "Livrée, microgéométrie et armement restent à comparer au modèle du jeu.",
+    "Référence statique ; rotor non séparé et aucune animation produite."
+  ]
+}

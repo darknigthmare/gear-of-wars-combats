@@ -1,0 +1,82 @@
+{
+  "character_id": "theron",
+  "name": "Garde Theron",
+  "source_game": "Gears of War (2006) — cible de la génération",
+  "variant": "Theron Guard classique casqué, cible GoW 2006 ; édition exacte non validée",
+  "pass_date": "2026-11-20",
+  "engine": "built_in_imagegen",
+  "status": "generated",
+  "attempt_count": 1,
+  "asset_path": "assets/characters_v5/theron_gow1_fullbody.png",
+  "prompt": "Use case: style-transfer. Asset type: ONE isolated full-body painted character reference for Gears of War Combats. Subject: the standard helmeted Theron Guard in the classic original Gears of War (2006) design, NOT the bare-headed variant, NOT Theron Sentinel and NOT Palace Guard. Input image 1 is the licensed 2008 NECA figure and fixes the full costume silhouette, red and black segmented armor, high curved ribbed collar, shoulder guards, armored gauntlets, central hanging patterned groin plate, long ragged dark leather waist skirt and massive armored shin guards/boots. Image 2 is a 2008 game promo close-up and fixes the classic head helmet geometry: rounded red/dark-metal helmet covering forehead and eyes with the original narrow slit openings, exposed pale lower face and coarse Locust teeth; no futuristic glowing visor and no later round-hole redesign. Reinterpret the toy reference as a living fictional adult Locust with natural proportions and material detail; no toy joints or plastic seams. One full head-to-boots figure standing calmly in a neutral ready posture, slight three-quarter orientation toward screen-right, hands relaxed and empty at his sides so the armor remains clear. No weapon or other prop. Preserve the named source design and original red-black palette. Detailed realistic hand-painted 2D raster game materials, crisp contour, grounded Gears proportions, even studio light. Entire helmet, both hands, both boots and all hanging cloth fully within frame, with generous empty transparent margin on all edges. Actual transparent alpha background. No scenery, ground, floor shadow, smoke, aura, vignette, lettering, watermark, packaging, logos, labels, UI, second character or multiple poses. Ignore all text and background from the reference photos.",
+  "reference_paths": [
+    "/workspace/scratch/e085ec38a002/theron_refs/TheronHelmet__scaled_800.jpg",
+    "/workspace/scratch/e085ec38a002/theron_refs/theron_gow2_promo.jpg"
+  ],
+  "sources": [
+    {
+      "page_url": "https://toynewsi.com/139-13381",
+      "image_url": "https://i.toynewsi.com/g/generated/NECA/Gears_Of_War/Series_02/Packaged%20Part%202/TheronHelmet__scaled_800.jpg",
+      "reference_role": "Photographie promotionnelle de la figurine NECA série 2, article daté du 21 août 2008. Source pour la silhouette entière et l'armure classique. Produit sous licence relayé par un média, pas un rendu orthographique du jeu.",
+      "visually_inspected": true
+    },
+    {
+      "page_url": "https://www.flickr.com/photos/gamerscore/3022194089/",
+      "image_url": "https://live.staticflickr.com/3169/3022194089_a3bbfe2e94_o.jpg",
+      "reference_role": "Portrait de jeu publié par Gamerscore Blog le 11 novembre 2008, explicitement nommé Gears of War 2 - Theron Guard. Source pour le casque classique à fentes et la collerette ; 283×283 px, ne prouve pas à lui seul l'édition 2006.",
+      "visually_inspected": true
+    },
+    {
+      "page_url": "https://gearsofwar.fandom.com/wiki/Theron_Guard",
+      "reference_role": "Recherche secondaire : signale le changement du casque dans Ultimate Edition. Non utilisée comme preuve visuelle ; ne pas présenter GoW 2006 et UE comme costumes strictement identiques."
+    }
+  ],
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2397881,
+    "sha256": "3e1f27f699f4a64f413ec79cc6c315e7faedd621747365d1e221d34ce5d7067a",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "transparent_pixel_fraction": 0.5211416880289713,
+    "opaque_pixel_fraction": 0,
+    "nonzero_bbox": [
+      0,
+      10,
+      1014,
+      1536
+    ],
+    "alpha128_bbox": [
+      148,
+      13,
+      853,
+      1522
+    ]
+  },
+  "qa": {
+    "visually_inspected": true,
+    "white_composite_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "base_costume_target": true,
+    "exact_game_edition_validated": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "observations": [
+      "Un seul Theron casqué, armure rouge/noire, collerette haute, pagne, jambières et bottes entières ; mains vides visibles.",
+      "Le compositing blanc affiche un détourage visuellement propre. Le RGB brut contient une atmosphère sombre sous l'alpha.",
+      "Des pixels d'alpha très faible atteignent le bord gauche et le bas ; la silhouette alpha>=128 reste dans le cadre avec seulement 13 px en haut et 14 px en bas."
+    ],
+    "remaining_checks": [
+      "Comparer le nombre et la disposition des fentes du casque au modèle exact de GoW 2006, puis contrôler les rivets, boucles et panneaux de jupe ; la référence directe de jeu est GoW2 et la silhouette vient d'une figurine sous licence.",
+      "Ne pas déclarer l'apparence 2006 et celle d'Ultimate Edition identiques ni entièrement validées.",
+      "Prévoir marges et nettoyage des pixels d'alpha faible lors d'une révision graphique avant atlas.",
+      "Produire profil de combat, poses d'action et animations ; cette image reste une référence en pied statique."
+    ]
+  }
+}

@@ -1,0 +1,1454 @@
+[
+  {
+    "id": "boss_berserker",
+    "name": "Berserker",
+    "source_game": "Gears of War 2006",
+    "nature": "Créature terrestre",
+    "gameplay_scale_human_height": 2.3,
+    "scale_status": "Ratio de cadrage proposé pour la 2D, aucune mesure canonique",
+    "stage_id": "stage_sovereigns",
+    "priority": "P0",
+    "content_status": "Conception détaillée, combat à implémenter",
+    "canon_scope": "Berserker et relation à la chaleur appuyées ici par une source secondaire ; page officielle pour le contexte du premier jeu.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Berserker",
+      "https://www.gearsofwar.com/en-us/games/gears-of-war/"
+    ],
+    "source_validation": "Sources primaires quand indiquées ; tout détail visuel doit être comparé à une séquence du jeu de référence avant validation 1:1",
+    "adaptation_status": "Toutes les phases, durées, seuils, récompenses et conditions de cette fiche sont une création pour cette adaptation 2D",
+    "targetable_parts": [
+      "Face pendant le cri, pour détourner son attention",
+      "Torso et membres uniquement après exposition thermique"
+    ],
+    "phases": [
+      {
+        "index": 1,
+        "hp_band": "100 à 70 %",
+        "name": "Écoute",
+        "telegraph": "La tête se fige puis s’oriente vers la dernière action bruyante.",
+        "telegraph_frames": 72,
+        "attack": "Charge rectiligne sur la position mémorisée, une seule correction au début.",
+        "counterplay": "Marcher pour éviter de signaler sa position ; tirer une fois pour provoquer puis esquiver latéralement dans le plan.",
+        "punish_frames": 90
+      },
+      {
+        "index": 2,
+        "hp_band": "70 à 35 %",
+        "name": "Carapace chauffée",
+        "telegraph": "Une sirène et un cercle au sol annoncent la disponibilité du Rayon de l’aube.",
+        "telegraph_frames": 90,
+        "attack": "Deux charges successives brisent une porte fictive de l’arène et révèlent une zone à ciel ouvert.",
+        "counterplay": "L’attirer dans la zone découverte, maintenir le marqueur puis frapper la carapace chauffée. Le marqueur est un outil du stage accessible à tous.",
+        "punish_frames": 150
+      },
+      {
+        "index": 3,
+        "hp_band": "35 à 0 %",
+        "name": "Dernière poursuite",
+        "telegraph": "Cri plus long et griffes raclant le sol avant une charge triple.",
+        "telegraph_frames": 102,
+        "attack": "Triple charge avec repos obligatoire après le troisième passage.",
+        "counterplay": "Ne pas rouler trop tôt ; employer le temps mort pour refroidir son arme ou engager un combo de contact sur le flanc.",
+        "punish_frames": 120
+      }
+    ],
+    "victory": "Vider la jauge après au moins une vulnérabilisation ; exécution contextuelle de 3 secondes avec coup final assisté du Rayon de l’aube.",
+    "defeat": "Jauge du combattant à zéro ; pas de mort automatique sur une charge en difficulté normale.",
+    "reward": "Emblème de chasse et scène de bestiaire, sans bonus de statistiques PvP.",
+    "solo_rules": "Une balise fixe garantit que les personnages de mêlée peuvent créer l’ouverture ; la jauge thermique ne décroît pas pendant une cinématique.",
+    "coop_rules": "Le bruit le plus récent fixe la cible ; indicateur de poursuite au-dessus du joueur visé. Les autres peuvent installer la balise.",
+    "visual_risk": "Ne pas lui ajouter d’yeux humains ni d’armure mécanique ; préserver sa silhouette et sa peau propres au premier jeu."
+  },
+  {
+    "id": "boss_corpser",
+    "name": "Corpser",
+    "source_game": "Gears Tactics",
+    "nature": "Arachnide géant de siège",
+    "gameplay_scale_human_height": 7.0,
+    "scale_status": "Ratio de cadrage proposé pour la 2D, aucune mesure canonique",
+    "stage_id": "stage_tactics_lab",
+    "priority": "P0",
+    "content_status": "Conception détaillée, combat à implémenter",
+    "canon_scope": "Sources officielles confirmant le Corpser, ses pattes blindées levées, impacts télégraphiés et mines dans Tactics.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/news/dev-blog-bosses/",
+      "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/"
+    ],
+    "source_validation": "Sources primaires quand indiquées ; tout détail visuel doit être comparé à une séquence du jeu de référence avant validation 1:1",
+    "adaptation_status": "Toutes les phases, durées, seuils, récompenses et conditions de cette fiche sont une création pour cette adaptation 2D",
+    "targetable_parts": [
+      "Dessous des pattes levées",
+      "Abdomen pendant le recul"
+    ],
+    "phases": [
+      {
+        "index": 1,
+        "hp_band": "100 à 70 %",
+        "name": "Pattes dressées",
+        "telegraph": "Deux pattes s’élèvent et des bandes texturées marquent leurs futurs impacts.",
+        "telegraph_frames": 84,
+        "attack": "Deux frappes séparées, le premier impact ne masque pas le deuxième.",
+        "counterplay": "Sortir des bandes puis attaquer la face interne de la patte levée ; les armes courtes touchent une articulation avancée.",
+        "punish_frames": 90
+      },
+      {
+        "index": 2,
+        "hp_band": "70 à 35 %",
+        "name": "Champ de mines",
+        "telegraph": "Les mandibules vibrent ; trois silhouettes de mines apparaissent avant le dépôt.",
+        "telegraph_frames": 96,
+        "attack": "Mines à retardement et frappe d’une patte sur la dernière position du joueur.",
+        "counterplay": "Détruire une mine pour ouvrir un passage ; se placer à portée de la patte sans rester dans son ombre.",
+        "punish_frames": 108
+      },
+      {
+        "index": 3,
+        "hp_band": "35 à 0 %",
+        "name": "Abdomen exposé",
+        "telegraph": "Le boss lève quatre pattes, découvre le centre et laisse une bande de sécurité visible.",
+        "telegraph_frames": 120,
+        "attack": "Série de frappes alternées, puis recul découvrant l’abdomen.",
+        "counterplay": "Mémoriser gauche, droite, centre ; la dernière frappe crée une occasion d’approcher. Les mines disparaissent avant le grand impact.",
+        "punish_frames": 150
+      }
+    ],
+    "victory": "Détruire les protections et épuiser la jauge centrale ; effondrement hors de la zone du joueur.",
+    "defeat": "PV nuls ; rester coincé entre deux membres ne doit jamais provoquer une collision sans sortie.",
+    "reward": "Dossier Corpser et variante nocturne purement visuelle.",
+    "solo_rules": "Deux pattes au maximum portent une zone active simultanément.",
+    "coop_rules": "Un indicateur par cible ; le boss ne superpose jamais deux zones sans issue. PV ×1,65 à deux joueurs.",
+    "visual_risk": "Chaque patte doit garder une attache anatomique lisible ; vérifier le nombre, les articulations et les plaques sur les références Tactics."
+  },
+  {
+    "id": "boss_brumak",
+    "name": "Brumak",
+    "source_game": "Gears Tactics",
+    "nature": "Créature armée de siège",
+    "gameplay_scale_human_height": 8.0,
+    "scale_status": "Ratio de cadrage proposé pour la 2D, aucune mesure canonique",
+    "stage_id": "stage_tactics_depot",
+    "priority": "P0",
+    "content_status": "Conception détaillée, combat à implémenter",
+    "canon_scope": "Brumak et armement lourd confirmés par les blogs officiels ; positions fines des réservoirs à verrouiller sur capture Tactics.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/news/dev-blog-bosses/",
+      "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/"
+    ],
+    "source_validation": "Sources primaires quand indiquées ; tout détail visuel doit être comparé à une séquence du jeu de référence avant validation 1:1",
+    "adaptation_status": "Toutes les phases, durées, seuils, récompenses et conditions de cette fiche sont une création pour cette adaptation 2D",
+    "targetable_parts": [
+      "Canons de bras",
+      "Réservoirs dorsaux après rotation",
+      "Tête après désarmement"
+    ],
+    "phases": [
+      {
+        "index": 1,
+        "hp_band": "100 à 70 %",
+        "name": "Barrage",
+        "telegraph": "Les canons prennent de la vitesse et leur ligne de tir est dessinée au sol.",
+        "telegraph_frames": 78,
+        "attack": "Rafale horizontale basse suivie d’un piétinement proche.",
+        "counterplay": "Se baisser derrière le couvert bas puis profiter de la surchauffe pour viser le canon le plus proche.",
+        "punish_frames": 96
+      },
+      {
+        "index": 2,
+        "hp_band": "70 à 35 %",
+        "name": "Salve de roquettes",
+        "telegraph": "Les rails dorsaux s’illuminent ; quatre marqueurs au sol apparaissent dans l’ordre des départs.",
+        "telegraph_frames": 108,
+        "attack": "Roquettes en quatre zones espacées, verrouillées avant le départ.",
+        "counterplay": "Traverser les espaces libres et attirer la rotation du monstre pour rendre son dos accessible.",
+        "punish_frames": 132
+      },
+      {
+        "index": 3,
+        "hp_band": "35 à 0 %",
+        "name": "Désarmé",
+        "telegraph": "Le Brumak secoue ses bras endommagés et pousse un cri court.",
+        "telegraph_frames": 90,
+        "attack": "Deux coups de poing et une morsure basse ; les projectiles détruits restent désactivés.",
+        "counterplay": "Punir la morsure manquée sur la tête ; la jauge de stabilité ouvre un combo complet après trois contres.",
+        "punish_frames": 156
+      }
+    ],
+    "victory": "Désactiver au moins un armement puis finir le corps ; la destruction des modules est conservée entre phases.",
+    "defeat": "PV nuls ou objectif défendu détruit uniquement dans la variante Siège.",
+    "reward": "Trophée d’armement et visualiseur des modules.",
+    "solo_rules": "Un couvert se répare pendant le recul du boss ; aucun équipement obligatoire dans le moveset.",
+    "coop_rules": "La cible des roquettes et celle du canon sont annoncées séparément ; couvrir le partenaire produit du score sans modifier les dégâts PvP.",
+    "visual_risk": "Conserver les proportions des bras, les supports d’armes et le montage des lance-roquettes de Tactics ; ne pas mélanger automatiquement le Brumak de Gears 1."
+  },
+  {
+    "id": "boss_reaver",
+    "name": "Reaver",
+    "source_game": "Gears of War 2",
+    "nature": "Monture volante",
+    "gameplay_scale_human_height": 3.8,
+    "scale_status": "Ratio de cadrage proposé pour la 2D, aucune mesure canonique",
+    "stage_id": "stage_hollow",
+    "priority": "P1",
+    "content_status": "Conception détaillée, combat à implémenter",
+    "canon_scope": "Blog officiel pour l’identité du Reaver ; variante Gears 2 et comportement détaillé à confirmer par capture.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/",
+      "https://gearsofwar.fandom.com/wiki/Reaver"
+    ],
+    "source_validation": "Sources primaires quand indiquées ; tout détail visuel doit être comparé à une séquence du jeu de référence avant validation 1:1",
+    "adaptation_status": "Toutes les phases, durées, seuils, récompenses et conditions de cette fiche sont une création pour cette adaptation 2D",
+    "targetable_parts": [
+      "Tête",
+      "Nacelle armée",
+      "Tentacule posé au sol"
+    ],
+    "phases": [
+      {
+        "index": 1,
+        "hp_band": "100 à 70 %",
+        "name": "Approche",
+        "telegraph": "Battements ralentis, nacelle tournée vers le combattant.",
+        "telegraph_frames": 72,
+        "attack": "Passage à hauteur de tête avec une rafale courte.",
+        "counterplay": "Garde haute ou roulade sous le passage ; punition du tentacule qui se pose en fin de trajectoire.",
+        "punish_frames": 78
+      },
+      {
+        "index": 2,
+        "hp_band": "70 à 35 %",
+        "name": "Atterrissage",
+        "telegraph": "Les pattes cherchent le sol et l’ombre se stabilise.",
+        "telegraph_frames": 84,
+        "attack": "Atterrissage suivi d’une ruée et de tirs du cavalier.",
+        "counterplay": "Faire manquer la ruée puis neutraliser la nacelle ; l’atterrissage donne une vraie phase de corps à corps.",
+        "punish_frames": 108
+      },
+      {
+        "index": 3,
+        "hp_band": "35 à 0 %",
+        "name": "Fuite contrariée",
+        "telegraph": "Le cavalier tente une montée lente, armement visible.",
+        "telegraph_frames": 96,
+        "attack": "Alternance entre balayage aérien et brève recharge au sol.",
+        "counterplay": "Viser la nacelle pendant la montée ou interrompre le décollage par une attaque lourde à l’articulation.",
+        "punish_frames": 132
+      }
+    ],
+    "victory": "Faire tomber la monture en neutralisant sa jauge centrale ; le cavalier fuit ou est évacué dans la version à violence réduite.",
+    "defeat": "PV nuls ; aucun échec lié au fait que le boss quitte temporairement l’écran.",
+    "reward": "Entrée Reaver du bestiaire.",
+    "solo_rules": "Toutes les 6 secondes au plus, un membre ou la tête passe à portée de mêlée.",
+    "coop_rules": "Le second joueur peut détruire un projectile sans être forcé de choisir un tireur.",
+    "visual_risk": "Distinguer Reaver, Hydra et Tempest ; ne pas employer la même silhouette recolorée."
+  },
+  {
+    "id": "boss_leviathan",
+    "name": "Leviathan",
+    "source_game": "Gears of War 2",
+    "nature": "Créature aquatique",
+    "gameplay_scale_human_height": 9.0,
+    "scale_status": "Ratio de cadrage proposé pour la 2D, aucune mesure canonique",
+    "stage_id": "stage_hollow_lake",
+    "priority": "P1",
+    "content_status": "Conception détaillée, combat à implémenter",
+    "canon_scope": "Créature et rencontre Gears 2 documentées ici par source secondaire ; le découpage en trois phases est original.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Leviathan"
+    ],
+    "source_validation": "Sources primaires quand indiquées ; tout détail visuel doit être comparé à une séquence du jeu de référence avant validation 1:1",
+    "adaptation_status": "Toutes les phases, durées, seuils, récompenses et conditions de cette fiche sont une création pour cette adaptation 2D",
+    "targetable_parts": [
+      "Tentacules accrochés au pont",
+      "Œil exposé",
+      "Gueule ouverte lors de la fenêtre dédiée"
+    ],
+    "phases": [
+      {
+        "index": 1,
+        "hp_band": "100 à 70 %",
+        "name": "Abordage",
+        "telegraph": "L’eau gonfle, puis deux silhouettes de tentacules se dessinent sous la surface.",
+        "telegraph_frames": 90,
+        "attack": "Prise des bords du pont et coup transversal.",
+        "counterplay": "Frapper le tentacule fixé pour libérer la largeur de combat ; les rebords ne sont jamais des trous mortels.",
+        "punish_frames": 96
+      },
+      {
+        "index": 2,
+        "hp_band": "70 à 35 %",
+        "name": "Face émergée",
+        "telegraph": "L’œil se tourne vers la passerelle et la bouche commence à s’ouvrir.",
+        "telegraph_frames": 108,
+        "attack": "Jet d’eau repoussant et morsure ciblée sur une moitié du pont.",
+        "counterplay": "Se maintenir dans la moitié sûre ; décharger pendant la fermeture lente de la gueule.",
+        "punish_frames": 132
+      },
+      {
+        "index": 3,
+        "hp_band": "35 à 0 %",
+        "name": "Dernière immersion",
+        "telegraph": "Un sillage courbe traverse le fond ; l’ombre annonce le retour à gauche ou à droite.",
+        "telegraph_frames": 120,
+        "attack": "Deux émergences puis prise prolongée du pont.",
+        "counterplay": "Briser la prise et envoyer la charge contextuelle fournie par l’arène, quelle que soit l’arme personnelle.",
+        "punish_frames": 156
+      }
+    ],
+    "victory": "Trois déséquilibres donnent accès au final ; le dernier bouton déclenche une charge fictive de l’arène et non un QTE obligatoire rapide.",
+    "defeat": "PV nuls ; la stabilité du pont baisse seulement dans le défi expert optionnel.",
+    "reward": "Décor lac souterrain pour la galerie.",
+    "solo_rules": "Plateforme stable, attaques toujours annoncées à l’écran.",
+    "coop_rules": "Répartition gauche et droite suggérée mais jamais obligatoire ; les deux joueurs peuvent secourir une prise.",
+    "visual_risk": "Le pont reste horizontal : les vagues en arrière-plan ne déplacent ni caméra ni hitboxes."
+  },
+  {
+    "id": "boss_hydra_skorge",
+    "name": "Hydra de Skorge",
+    "source_game": "Gears of War 2",
+    "nature": "Poursuite aérienne",
+    "gameplay_scale_human_height": 10.0,
+    "scale_status": "Ratio de cadrage proposé pour la 2D, aucune mesure canonique",
+    "stage_id": "stage_stromson",
+    "priority": "P1",
+    "content_status": "Conception détaillée, combat à implémenter",
+    "canon_scope": "Monture de Skorge et poursuite attestées par les deux sources secondaires ; arène 2D sur plateforme est une adaptation.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Hydra",
+      "https://primagames.com/eguides/gears-war-2-eguide/act-v-aftermath/chapter-1-escape"
+    ],
+    "source_validation": "Sources primaires quand indiquées ; tout détail visuel doit être comparé à une séquence du jeu de référence avant validation 1:1",
+    "adaptation_status": "Toutes les phases, durées, seuils, récompenses et conditions de cette fiche sont une création pour cette adaptation 2D",
+    "targetable_parts": [
+      "Griffe agrippée à la plateforme",
+      "Gueule au terme du rugissement",
+      "Armement de la monture"
+    ],
+    "phases": [
+      {
+        "index": 1,
+        "hp_band": "100 à 70 %",
+        "name": "Chasse",
+        "telegraph": "La tête apparaît à une extrémité et une trajectoire courbe est dessinée par son sillage.",
+        "telegraph_frames": 84,
+        "attack": "Poursuite avec tirs et prise d’une griffe.",
+        "counterplay": "Se déplacer sur la plateforme puis frapper la griffe immobilisée ; tous les personnages atteignent cette zone.",
+        "punish_frames": 96
+      },
+      {
+        "index": 2,
+        "hp_band": "70 à 35 %",
+        "name": "Saisie",
+        "telegraph": "Les deux griffes s’écartent et le souffle devient continu.",
+        "telegraph_frames": 108,
+        "attack": "Tentative de saisie du support et rafales latérales.",
+        "counterplay": "Détruire la jauge de prise avant fermeture ; une saisie ratée étourdit brièvement la monture.",
+        "punish_frames": 132
+      },
+      {
+        "index": 3,
+        "hp_band": "35 à 0 %",
+        "name": "Face à face",
+        "telegraph": "Skorge se redresse et la bouche se charge.",
+        "telegraph_frames": 120,
+        "attack": "Attaque frontale en trois temps, puis gueule exposée.",
+        "counterplay": "S’abriter au centre pendant les deux premiers tirs, se décaler au troisième, puis utiliser l’arme embarquée.",
+        "punish_frames": 156
+      }
+    ],
+    "victory": "Briser la dernière prise et épuiser la jauge ; conclusion séparée du duel de Skorge au sol.",
+    "defeat": "PV nuls ; la chute du support est une animation de défaite, pas un événement aléatoire.",
+    "reward": "Scène de poursuite et chronomètre personnel.",
+    "solo_rules": "La plateforme volant sur rail reste un sol jouable stable.",
+    "coop_rules": "L’un gère la griffe tandis que l’autre intercepte les salves ; rôles interchangeables.",
+    "visual_risk": "Pas de simple zoom du Reaver : modèle Hydra et présence de Skorge à contrôler."
+  },
+  {
+    "id": "boss_lambent_brumak",
+    "name": "Brumak Lambent",
+    "source_game": "Gears of War 2",
+    "nature": "Colosse muté",
+    "gameplay_scale_human_height": 11.0,
+    "scale_status": "Ratio de cadrage proposé pour la 2D, aucune mesure canonique",
+    "stage_id": "stage_jacinto",
+    "priority": "P2",
+    "content_status": "Conception détaillée, combat à implémenter",
+    "canon_scope": "Final de Gears 2 soutenu par les pages secondaires ; trois cycles prolongés sont une proposition de jeu.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Gears_of_War_2",
+      "https://gearsofwar.fandom.com/wiki/Lambent_Brumak"
+    ],
+    "source_validation": "Sources primaires quand indiquées ; tout détail visuel doit être comparé à une séquence du jeu de référence avant validation 1:1",
+    "adaptation_status": "Toutes les phases, durées, seuils, récompenses et conditions de cette fiche sont une création pour cette adaptation 2D",
+    "targetable_parts": [
+      "Excroissances accessibles au bord du sol",
+      "Noyau vulnérable sous désignation orbitale"
+    ],
+    "phases": [
+      {
+        "index": 1,
+        "hp_band": "100 à 70 %",
+        "name": "Mutation",
+        "telegraph": "Des zones lumineuses pulsent avant chaque croissance.",
+        "telegraph_frames": 96,
+        "attack": "Tentacule bas puis pluie de fragments inertes autour des zones sûres.",
+        "counterplay": "Frapper les appendices arrivant sur le plan et protéger le marqueur de désignation.",
+        "punish_frames": 108
+      },
+      {
+        "index": 2,
+        "hp_band": "70 à 35 %",
+        "name": "Contamination",
+        "telegraph": "Une ligne orange se propage sur la peau et préfigure la prochaine attaque.",
+        "telegraph_frames": 120,
+        "attack": "Trois projections au sol, espacement fixé et couloirs sûrs visibles.",
+        "counterplay": "Éviter les flaques puis maintenir la désignation durant une fenêtre garantie sans projectile.",
+        "punish_frames": 150
+      },
+      {
+        "index": 3,
+        "hp_band": "35 à 0 %",
+        "name": "Point de rupture",
+        "telegraph": "Toutes les excroissances baissent en luminosité avant une grande pulsation.",
+        "telegraph_frames": 144,
+        "attack": "Dernière vague puis immobilité prolongée du noyau.",
+        "counterplay": "Déclencher le Rayon de l’aube au moment indiqué ; le placement préalable décide du score, pas un martèlement de touches.",
+        "punish_frames": 180
+      }
+    ],
+    "victory": "Terminer trois cycles de désignation ; la scène de fin représente la fin de cette rencontre d’anthologie.",
+    "defeat": "PV nuls ou balise détruite dans le défi optionnel ; reprise au début de phase en mode histoire.",
+    "reward": "Final Gears 2 dans les archives.",
+    "solo_rules": "La désignation est une action de stage, disponible même aux combattants locustes en exhibition.",
+    "coop_rules": "Maintien de balise partagé ; aucune double pression simultanée imposée.",
+    "visual_risk": "Ne pas transformer la mutation en variante cosmétique jouable du Brumak ; taille, silhouettes et transformations spécifiques."
+  },
+  {
+    "id": "boss_lambent_berserker",
+    "name": "Berserker Lambent",
+    "source_game": "Gears of War 3",
+    "nature": "Créature de charge et contamination",
+    "gameplay_scale_human_height": 2.7,
+    "scale_status": "Ratio de cadrage proposé pour la 2D, aucune mesure canonique",
+    "stage_id": "stage_anvil_gate",
+    "priority": "P1",
+    "content_status": "Conception détaillée, combat à implémenter",
+    "canon_scope": "Existence et épisode appuyés par une source secondaire ; règles de flaques et fenêtres sont propres à l’adaptation.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Lambent_Berserker"
+    ],
+    "source_validation": "Sources primaires quand indiquées ; tout détail visuel doit être comparé à une séquence du jeu de référence avant validation 1:1",
+    "adaptation_status": "Toutes les phases, durées, seuils, récompenses et conditions de cette fiche sont une création pour cette adaptation 2D",
+    "targetable_parts": [
+      "Cavité thoracique ouverte",
+      "Membres pendant le retour de charge"
+    ],
+    "phases": [
+      {
+        "index": 1,
+        "hp_band": "100 à 70 %",
+        "name": "Poitrine fermée",
+        "telegraph": "Cri et ouverture brève de la poitrine avant la ruée.",
+        "telegraph_frames": 72,
+        "attack": "Charge laissant une trace dangereuse temporaire.",
+        "counterplay": "Attendre l’ouverture pour attaquer puis traverser la trace dans un espace sans dépôt ; son bord est toujours net.",
+        "punish_frames": 84
+      },
+      {
+        "index": 2,
+        "hp_band": "70 à 35 %",
+        "name": "Terrain contaminé",
+        "telegraph": "Les veines s’allument dans l’ordre de la prochaine série de charges.",
+        "telegraph_frames": 96,
+        "attack": "Deux ruées en angle dans le plan puis décharge proche.",
+        "counterplay": "Leurrer la première vers l’extérieur, garder un couloir central, frapper la poitrine au second arrêt.",
+        "punish_frames": 120
+      },
+      {
+        "index": 3,
+        "hp_band": "35 à 0 %",
+        "name": "Instabilité",
+        "telegraph": "Une respiration prolongée fait gonfler la cavité puis arrête les dépôts.",
+        "telegraph_frames": 114,
+        "attack": "Charge courte, choc de zone et longue récupération.",
+        "counterplay": "Garder la distance au choc, revenir au contact lorsque la poitrine reste ouverte.",
+        "punish_frames": 144
+      }
+    ],
+    "victory": "Vider la jauge et quitter une zone finale clairement marquée ; option d’animation automatique en histoire.",
+    "defeat": "PV nuls ; les flaques ne peuvent recouvrir plus de 45 % du sol utile.",
+    "reward": "Entrée Lambent et variante de lumière Anvil Gate.",
+    "solo_rules": "Les flaques anciennes disparaissent avant une nouvelle paire de charges.",
+    "coop_rules": "La dernière attaque bruyante attire la prochaine charge, avec marqueur de cible.",
+    "visual_risk": "Garder sa poitrine ouverte distincte de la Berserker normale et de la Matriarch."
+  },
+  {
+    "id": "boss_lambent_leviathan",
+    "name": "Leviathan Lambent",
+    "source_game": "Gears of War 3",
+    "nature": "Siège naval",
+    "gameplay_scale_human_height": 12.0,
+    "scale_status": "Ratio de cadrage proposé pour la 2D, aucune mesure canonique",
+    "stage_id": "stage_sovereign_deck",
+    "priority": "P2",
+    "content_status": "Conception détaillée, combat à implémenter",
+    "canon_scope": "Variante de Gears 3 confirmée par source secondaire ; déroulé 2D proposé.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Lambent_Leviathan"
+    ],
+    "source_validation": "Sources primaires quand indiquées ; tout détail visuel doit être comparé à une séquence du jeu de référence avant validation 1:1",
+    "adaptation_status": "Toutes les phases, durées, seuils, récompenses et conditions de cette fiche sont une création pour cette adaptation 2D",
+    "targetable_parts": [
+      "Tentacules sur le pont",
+      "Nodules lumineux",
+      "Gueule lors de l’appui aérien"
+    ],
+    "phases": [
+      {
+        "index": 1,
+        "hp_band": "100 à 70 %",
+        "name": "Saisie du navire",
+        "telegraph": "Le pont grince et les prises apparaissent au bord.",
+        "telegraph_frames": 96,
+        "attack": "Tentacules qui coupent une ligne de déplacement et jet acide télégraphié.",
+        "counterplay": "Libérer d’abord un passage puis briser un nodule ; le tir ne remplace pas la possibilité de frapper les prises.",
+        "punish_frames": 108
+      },
+      {
+        "index": 2,
+        "hp_band": "70 à 35 %",
+        "name": "Émergence",
+        "telegraph": "Deux nodules brillent à tour de rôle, jamais ensemble à l’arrière du décor.",
+        "telegraph_frames": 114,
+        "attack": "Alternance de morsure et projection de matière au sol.",
+        "counterplay": "Provoquer la morsure dans une moitié du pont et viser le nodule opposé pendant le recul.",
+        "punish_frames": 144
+      },
+      {
+        "index": 3,
+        "hp_band": "35 à 0 %",
+        "name": "Appui coordonné",
+        "telegraph": "Signal radio, faisceau de repérage puis gueule largement ouverte.",
+        "telegraph_frames": 132,
+        "attack": "Dernière vague de tentacules avant l’opportunité de désignation.",
+        "counterplay": "Neutraliser une prise, déclencher l’appui de stage et finir le nodule central.",
+        "punish_frames": 168
+      }
+    ],
+    "victory": "Rompre les trois ancrages puis réussir la désignation finale ; fin cinématique brève.",
+    "defeat": "PV nuls ou integrité du navire à zéro dans Siège expert.",
+    "reward": "Séquence du Sovereign et trophée de défense.",
+    "solo_rules": "Appui disponible automatiquement après la séquence correcte ; aucun personnage imposé.",
+    "coop_rules": "Deux prises ciblent des zones distinctes ; la jauge d’appui progresse par toute attaque pertinente.",
+    "visual_risk": "Les tentacules n’occulteront pas les pieds des joueurs ; éviter de recycler le Leviathan Gears 2 sans reconstruction."
+  },
+  {
+    "id": "boss_tempest",
+    "name": "Tempest et Myrrah",
+    "source_game": "Gears of War 3",
+    "nature": "Monture volante de siège",
+    "gameplay_scale_human_height": 8.5,
+    "scale_status": "Ratio de cadrage proposé pour la 2D, aucune mesure canonique",
+    "stage_id": "stage_azura_tower",
+    "priority": "P1",
+    "content_status": "Conception détaillée, combat à implémenter",
+    "canon_scope": "Tempest monté par Myrrah et contexte Azura documentés par sources secondaires ; équilibrage de la tour original.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Tempest",
+      "https://gearsofwar.fandom.com/wiki/Battle_of_Azura"
+    ],
+    "source_validation": "Sources primaires quand indiquées ; tout détail visuel doit être comparé à une séquence du jeu de référence avant validation 1:1",
+    "adaptation_status": "Toutes les phases, durées, seuils, récompenses et conditions de cette fiche sont une création pour cette adaptation 2D",
+    "targetable_parts": [
+      "Gueule après le souffle",
+      "Carapace après désignation",
+      "Pattes pendant l’attaque de la tour"
+    ],
+    "phases": [
+      {
+        "index": 1,
+        "hp_band": "100 à 70 %",
+        "name": "Souffle",
+        "telegraph": "La tête se penche et une ligne lumineuse dessine la trajectoire.",
+        "telegraph_frames": 90,
+        "attack": "Souffle horizontal puis vol stationnaire à basse hauteur.",
+        "counterplay": "Passer sous la ligne ou se mettre dans l’abri annoncé ; riposter vers la gueule.",
+        "punish_frames": 108
+      },
+      {
+        "index": 2,
+        "hp_band": "70 à 35 %",
+        "name": "Assaut de la tour",
+        "telegraph": "Myrrah pointe la tour ; la caméra élargit sans réduire les personnages sous le seuil de lisibilité.",
+        "telegraph_frames": 114,
+        "attack": "Le Tempest s’accroche à une structure et prépare un choc de siège.",
+        "counterplay": "Briser la prise par les pattes à portée ; activer la désignation pour ouvrir la carapace.",
+        "punish_frames": 150
+      },
+      {
+        "index": 3,
+        "hp_band": "35 à 0 %",
+        "name": "Dernier barrage",
+        "telegraph": "Rugissement continu, toutes les sorties d’attaque restent visibles.",
+        "telegraph_frames": 132,
+        "attack": "Deux souffles séparés d’une zone neutre puis une tentative de siège lente.",
+        "counterplay": "Changer d’abri au bon instant et consacrer la dernière ouverture à une séquence de mêlée ou au tir.",
+        "punish_frames": 174
+      }
+    ],
+    "victory": "Vaincre la monture puis jouer une conclusion narrative distincte ; Myrrah au sol garde son traitement de personnage.",
+    "defeat": "PV nuls ou tour détruite dans la variante histoire dédiée ; reprise au seuil de phase en difficulté accessible.",
+    "reward": "Conclusion Azura et panorama de la tour.",
+    "solo_rules": "L’objectif de tour possède un délai généreux ; le Rayon de l’aube est fourni par le décor.",
+    "coop_rules": "Une seule attaque d’objectif à la fois, avec possibilité de sauver le partenaire.",
+    "visual_risk": "Myrrah doit rester reconnaissable sur la monture sans devenir une silhouette géante ; leurs deux actifs sont séparés."
+  },
+  {
+    "id": "boss_shibboleth",
+    "name": "Karn sur Shibboleth",
+    "source_game": "Gears of War Judgment",
+    "nature": "Monture blindée terrestre",
+    "gameplay_scale_human_height": 6.0,
+    "scale_status": "Ratio de cadrage proposé pour la 2D, aucune mesure canonique",
+    "stage_id": "stage_halvo_plaza",
+    "priority": "P1",
+    "content_status": "Conception détaillée, combat à implémenter",
+    "canon_scope": "Monture et contexte confirmés ici par sources secondaires ; page officielle confirme Kilo et la période Judgment.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Shibboleth",
+      "https://gearsofwar.fandom.com/wiki/Destruction_of_Halvo_Bay",
+      "https://www.gearsofwar.com/en-us/games/gears-of-war-judgment/"
+    ],
+    "source_validation": "Sources primaires quand indiquées ; tout détail visuel doit être comparé à une séquence du jeu de référence avant validation 1:1",
+    "adaptation_status": "Toutes les phases, durées, seuils, récompenses et conditions de cette fiche sont une création pour cette adaptation 2D",
+    "targetable_parts": [
+      "Patte mécanique",
+      "Points exposés lors du tir",
+      "Karn seulement pendant les transitions prévues"
+    ],
+    "phases": [
+      {
+        "index": 1,
+        "hp_band": "100 à 70 %",
+        "name": "Encercler la place",
+        "telegraph": "La patte mécanique s’ancre et le canon suit une moitié de la place.",
+        "telegraph_frames": 84,
+        "attack": "Tir de zone suivi d’une avancée diagonale figurée par un changement de profondeur visuel.",
+        "counterplay": "Se déplacer sur le seul axe jouable ; la profondeur dessinée ne modifie pas les collisions.",
+        "punish_frames": 96
+      },
+      {
+        "index": 2,
+        "hp_band": "70 à 35 %",
+        "name": "Ralliement",
+        "telegraph": "Karn lève son arme, des arrivées sont marquées aux deux extrémités.",
+        "telegraph_frames": 108,
+        "attack": "Renforts limités et attaque souterraine de la patte.",
+        "counterplay": "Éliminer le porteur de signal puis punir la patte figée ; les renforts cessent après deux vagues.",
+        "punish_frames": 132
+      },
+      {
+        "index": 3,
+        "hp_band": "35 à 0 %",
+        "name": "Monture blessée",
+        "telegraph": "Les plaques écartées révèlent un point vulnérable, accompagné d’un arrêt du canon.",
+        "telegraph_frames": 120,
+        "attack": "Charge lente puis frappe circulaire avec longue récupération.",
+        "counterplay": "Contourner par une roulade tardive, frapper le flanc ouvert et finir la monture.",
+        "punish_frames": 156
+      }
+    ],
+    "victory": "Neutraliser la monture ; la conclusion de l’anthologie ne réécrit pas la scène canonique de Karn.",
+    "defeat": "PV nuls ; aucune obstruction entre petits renforts et boss.",
+    "reward": "Médaillon Kilo et scène de Halvo Bay.",
+    "solo_rules": "Deux renforts simultanés au maximum ; ils ne tirent pas pendant une grande charge.",
+    "coop_rules": "Les renforts sont plafonnés à quatre et attaquent après leur entrée, jamais à l’apparition.",
+    "visual_risk": "La patte mécanique et la posture de Karn sont déterminantes pour distinguer Shibboleth d’un Corpser."
+  },
+  {
+    "id": "boss_hydra_ukkon",
+    "name": "Hydra d’Ukkon",
+    "source_game": "Gears Tactics",
+    "nature": "Boss de laboratoire et artillerie",
+    "gameplay_scale_human_height": 9.0,
+    "scale_status": "Ratio de cadrage proposé pour la 2D, aucune mesure canonique",
+    "stage_id": "stage_tactics_lab",
+    "priority": "P2",
+    "content_status": "Conception détaillée, combat à implémenter",
+    "canon_scope": "Ukkon confirmé par le blog officiel ; identification de l’Hydra finale soutenue par guide secondaire.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/",
+      "https://gearsofwar.fandom.com/wiki/Hydra",
+      "https://primagames.com/gaming/gears-tactics-hydra-boss-guide"
+    ],
+    "source_validation": "Sources primaires quand indiquées ; tout détail visuel doit être comparé à une séquence du jeu de référence avant validation 1:1",
+    "adaptation_status": "Toutes les phases, durées, seuils, récompenses et conditions de cette fiche sont une création pour cette adaptation 2D",
+    "targetable_parts": [
+      "Lanceurs séparés",
+      "Conduites de l’arène",
+      "Tête après interruption"
+    ],
+    "phases": [
+      {
+        "index": 1,
+        "hp_band": "100 à 70 %",
+        "name": "Artillerie",
+        "telegraph": "Des rails sortent et trois zones d’impact se tracent au sol.",
+        "telegraph_frames": 96,
+        "attack": "Salves de missiles à délai fixe pendant qu’un générateur est activable.",
+        "counterplay": "Ouvrir un chemin entre les impacts puis détruire le module de tir qui reste avancé.",
+        "punish_frames": 108
+      },
+      {
+        "index": 2,
+        "hp_band": "70 à 35 %",
+        "name": "Production",
+        "telegraph": "Les conduites s’ouvrent, un signal révèle de quel côté arriveront les renforts.",
+        "telegraph_frames": 120,
+        "attack": "Renfort biologique limité et rechargement d’un lanceur restant.",
+        "counterplay": "Couper l’alimentation de l’arène pour gagner une ouverture sur la tête ; ce sabotage est une mécanique 2D originale.",
+        "punish_frames": 150
+      },
+      {
+        "index": 3,
+        "hp_band": "35 à 0 %",
+        "name": "Dernier rempart",
+        "telegraph": "Le boss déploie ses membres et cesse la production de renforts.",
+        "telegraph_frames": 132,
+        "attack": "Deux salves étagées suivies d’un piqué court à portée de mêlée.",
+        "counterplay": "Profiter du piqué manqué ; tous les modules déjà détruits le restent.",
+        "punish_frames": 174
+      }
+    ],
+    "victory": "Vaincre l’Hydra puis conclure la chasse à Ukkon dans une vignette scénarisée ; pas de transformation géante inventée d’Ukkon.",
+    "defeat": "PV nuls ; les renforts ne survivent pas aux transitions majeures.",
+    "reward": "Archives Tactics et vue éclatée de l’armement.",
+    "solo_rules": "Générateur activable par attaque de tout type ; le jeu n’exige pas Gabe.",
+    "coop_rules": "Deux joueurs partagent un sabotage court plutôt que deux interrupteurs simultanés.",
+    "visual_risk": "Hydra Tactics distincte de celle de Skorge par son armement, ses pièces et le cadrage ; conserver Ukkon à son échelle."
+  },
+  {
+    "id": "boss_swarmak",
+    "name": "Swarmak",
+    "source_game": "Gears of War 4",
+    "nature": "Colosse de l’Essaim",
+    "gameplay_scale_human_height": 8.5,
+    "scale_status": "Ratio de cadrage proposé pour la 2D, aucune mesure canonique",
+    "stage_id": "stage_tollen_dam",
+    "priority": "P0",
+    "content_status": "Conception détaillée, combat à implémenter",
+    "canon_scope": "Existence, épisode et présence en boss Horde confirmés par sources secondaires ; dispositif d’arène proposé.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Swarmak",
+      "https://primagames.com/eguides/gears-of-war-4-eguide/horde-30/overview"
+    ],
+    "source_validation": "Sources primaires quand indiquées ; tout détail visuel doit être comparé à une séquence du jeu de référence avant validation 1:1",
+    "adaptation_status": "Toutes les phases, durées, seuils, récompenses et conditions de cette fiche sont une création pour cette adaptation 2D",
+    "targetable_parts": [
+      "Poches luminescentes sur les membres",
+      "Poches latérales après la charge"
+    ],
+    "phases": [
+      {
+        "index": 1,
+        "hp_band": "100 à 70 %",
+        "name": "Marche pesante",
+        "telegraph": "La jambe se lève et la poche voisine devient plus lumineuse.",
+        "telegraph_frames": 90,
+        "attack": "Piétinement puis balayage du bras.",
+        "counterplay": "Se glisser à l’extérieur du pied levé et toucher la poche basse, accessible aux coups courts.",
+        "punish_frames": 96
+      },
+      {
+        "index": 2,
+        "hp_band": "70 à 35 %",
+        "name": "Surcharges",
+        "telegraph": "Des arcs annoncent les équipements interactifs de l’arène.",
+        "telegraph_frames": 114,
+        "attack": "Rafales et avancée ; un dispositif expose temporairement une poche haute.",
+        "counterplay": "Activer une borne de stage puis frapper les poches exposées ; aucune préférence obligatoire pour un tireur.",
+        "punish_frames": 144
+      },
+      {
+        "index": 3,
+        "hp_band": "35 à 0 %",
+        "name": "Furie",
+        "telegraph": "Le cri court interrompt les tirs avant une charge finale.",
+        "telegraph_frames": 126,
+        "attack": "Charge, effondrement sur un genou, reprise lente.",
+        "counterplay": "Esquiver vers la zone sûre et monter un combo sur les poches latérales pendant l’agenouillement.",
+        "punish_frames": 168
+      }
+    ],
+    "victory": "Détruire les poches requises ; le corps principal sert d’indicateur global mais ne récompense pas les tirs inutiles sur blindage.",
+    "defeat": "PV nuls ; l’écrasement a une forte poussée, pas de mort instantanée en normal.",
+    "reward": "Trophée Essaim et palette de décor de barrage.",
+    "solo_rules": "Une borne utile se réactive à chaque phase.",
+    "coop_rules": "Poches atteignables de chaque côté ; le boss ne peut coincer un joueur hors caméra.",
+    "visual_risk": "Ne pas réduire le Swarmak à un Brumak avec quelques taches ; excroissances et armure mutée à vérifier."
+  },
+  {
+    "id": "boss_snatcher",
+    "name": "Snatcher",
+    "source_game": "Gears of War 4",
+    "nature": "Capture et bond",
+    "gameplay_scale_human_height": 3.4,
+    "scale_status": "Ratio de cadrage proposé pour la 2D, aucune mesure canonique",
+    "stage_id": "stage_swarm_hive",
+    "priority": "P0",
+    "content_status": "Conception détaillée, combat à implémenter",
+    "canon_scope": "Snatcher de Gears 4 et boss Horde attestés secondairement ; règles de libération adaptées.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Snatcher",
+      "https://primagames.com/eguides/gears-of-war-4-eguide/horde-30/overview"
+    ],
+    "source_validation": "Sources primaires quand indiquées ; tout détail visuel doit être comparé à une séquence du jeu de référence avant validation 1:1",
+    "adaptation_status": "Toutes les phases, durées, seuils, récompenses et conditions de cette fiche sont une création pour cette adaptation 2D",
+    "targetable_parts": [
+      "Ventre durant le bond",
+      "Poche de capture",
+      "Queue après un tir"
+    ],
+    "phases": [
+      {
+        "index": 1,
+        "hp_band": "100 à 70 %",
+        "name": "Traque",
+        "telegraph": "Le ventre se contracte et la queue se redresse.",
+        "telegraph_frames": 72,
+        "attack": "Tir de queue suivi d’un bond court.",
+        "counterplay": "Bloquer ou éviter le projectile puis passer sous le bond ; frapper le ventre à l’atterrissage.",
+        "punish_frames": 84
+      },
+      {
+        "index": 2,
+        "hp_band": "70 à 35 %",
+        "name": "Capture",
+        "telegraph": "La gueule ventrale s’ouvre et un cône au sol indique la zone dangereuse.",
+        "telegraph_frames": 90,
+        "attack": "Tentative d’absorption d’un joueur proche ou à terre.",
+        "counterplay": "Sortir du cône ; si capturé, attaquer la poche de l’intérieur par une séquence simple sans martèlement.",
+        "punish_frames": 120
+      },
+      {
+        "index": 3,
+        "hp_band": "35 à 0 %",
+        "name": "Retraite",
+        "telegraph": "Le boss tourne le flanc et tente d’emporter une cible vers un bord.",
+        "telegraph_frames": 102,
+        "attack": "Bond arrière, tir puis pause de digestion.",
+        "counterplay": "Interrompre la fuite en touchant la poche ; la sortie de capture donne une ouverture collective.",
+        "punish_frames": 144
+      }
+    ],
+    "victory": "Épuiser la jauge puis libérer automatiquement toute cible encore capturée.",
+    "defeat": "PV nuls ; une capture seule ne termine pas la partie avant le délai affiché.",
+    "reward": "Pose de victoire contre capture et entrée du bestiaire.",
+    "solo_rules": "La poche possède une issue intérieure accessible par maintien d’une commande ; aucun verrou exigeant un allié.",
+    "coop_rules": "Le partenaire peut accélérer la libération ; une seule capture simultanée.",
+    "visual_risk": "Le corps doit rester lisible pendant la capture ; aucune occultation prolongée du personnage."
+  },
+  {
+    "id": "boss_carrier",
+    "name": "Carrier",
+    "source_game": "Gears of War 4",
+    "nature": "Artillerie organique",
+    "gameplay_scale_human_height": 3.9,
+    "scale_status": "Ratio de cadrage proposé pour la 2D, aucune mesure canonique",
+    "stage_id": "stage_swarm_hive",
+    "priority": "P1",
+    "content_status": "Conception détaillée, combat à implémenter",
+    "canon_scope": "Carrier et place dans Horde 3.0 attestés secondairement ; statut miniboss de versions ultérieures ne modifie pas cette référence Gears 4.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Carrier",
+      "https://primagames.com/eguides/gears-of-war-4-eguide/horde-30/overview"
+    ],
+    "source_validation": "Sources primaires quand indiquées ; tout détail visuel doit être comparé à une séquence du jeu de référence avant validation 1:1",
+    "adaptation_status": "Toutes les phases, durées, seuils, récompenses et conditions de cette fiche sont une création pour cette adaptation 2D",
+    "targetable_parts": [
+      "Poitrine ouverte",
+      "Avant-bras après impact"
+    ],
+    "phases": [
+      {
+        "index": 1,
+        "hp_band": "100 à 70 %",
+        "name": "Incubation",
+        "telegraph": "La poitrine se déploie avec un bruit distinct.",
+        "telegraph_frames": 84,
+        "attack": "Lancement de deux projectiles organiques destructibles.",
+        "counterplay": "Détruire l’un pour avancer dans son couloir puis attaquer la poitrine encore ouverte.",
+        "punish_frames": 96
+      },
+      {
+        "index": 2,
+        "hp_band": "70 à 35 %",
+        "name": "Écrasement",
+        "telegraph": "Les bras se lèvent, ombres des poings au sol.",
+        "telegraph_frames": 96,
+        "attack": "Double frappe au sol et onde basse limitée.",
+        "counterplay": "Saut court ou roulade sur le deuxième impact ; le bras reste accessible en sortie.",
+        "punish_frames": 120
+      },
+      {
+        "index": 3,
+        "hp_band": "35 à 0 %",
+        "name": "Dernière salve",
+        "telegraph": "Ouverture longue du thorax, tous les projectiles sont espacés.",
+        "telegraph_frames": 114,
+        "attack": "Trois projectiles suivis d’une tentative de prise lente.",
+        "counterplay": "Approcher entre les trajectoires et punir la prise ratée sur le noyau.",
+        "punish_frames": 150
+      }
+    ],
+    "victory": "Détruire la jauge centrale ; aucun projectile résiduel ne frappe pendant le résultat.",
+    "defeat": "PV nuls ; pas de cumul de prise et de projectile inévitable.",
+    "reward": "Entrée Carrier et effet de projectile pour le visualiseur.",
+    "solo_rules": "Deux projectiles actifs au maximum hors phase finale.",
+    "coop_rules": "Trois projectiles au maximum, cibles annoncées ; PV ×1,65.",
+    "visual_risk": "Les Cankers doivent être des sprites séparés avec collisions propres, jamais un effet de décor sans logique."
+  },
+  {
+    "id": "boss_kestrel",
+    "name": "Kestrel",
+    "source_game": "Gears of War 4",
+    "nature": "Drone aérien armé",
+    "gameplay_scale_human_height": 4.4,
+    "scale_status": "Ratio de cadrage proposé pour la 2D, aucune mesure canonique",
+    "stage_id": "stage_settlement5",
+    "priority": "P1",
+    "content_status": "Conception détaillée, combat à implémenter",
+    "canon_scope": "Drone CGU automatisé et confrontation Gears 4 documentés secondairement ; ses modules exacts restent à valider visuellement.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Kestrel",
+      "https://primagames.com/eguides/gears-of-war-4-eguide/enemy-forces/deebees"
+    ],
+    "source_validation": "Sources primaires quand indiquées ; tout détail visuel doit être comparé à une séquence du jeu de référence avant validation 1:1",
+    "adaptation_status": "Toutes les phases, durées, seuils, récompenses et conditions de cette fiche sont une création pour cette adaptation 2D",
+    "targetable_parts": [
+      "Deux moteurs",
+      "Tourelle frontale",
+      "Train ou module bas pendant le stationnaire"
+    ],
+    "phases": [
+      {
+        "index": 1,
+        "hp_band": "100 à 70 %",
+        "name": "Survol",
+        "telegraph": "Le projecteur fixe sa cible et une ligne indique la rafale.",
+        "telegraph_frames": 84,
+        "attack": "Rafale horizontale puis déplacement au bord opposé.",
+        "counterplay": "Passer derrière un couvert et frapper le module bas lorsqu’il stationne près du sol.",
+        "punish_frames": 96
+      },
+      {
+        "index": 2,
+        "hp_band": "70 à 35 %",
+        "name": "Roquettes",
+        "telegraph": "Les pods s’ouvrent et les points d’impact apparaissent dans l’ordre.",
+        "telegraph_frames": 108,
+        "attack": "Salve de roquettes alternant deux moitiés de l’arène.",
+        "counterplay": "Ne pas poursuivre l’appareil ; préparer son prochain point de stationnaire et viser un moteur.",
+        "punish_frames": 132
+      },
+      {
+        "index": 3,
+        "hp_band": "35 à 0 %",
+        "name": "Moteur en panne",
+        "telegraph": "L’appareil penche du côté détruit ; alarme distincte.",
+        "telegraph_frames": 126,
+        "attack": "Une dernière rafale plus courte suivie d’un atterrissage forcé.",
+        "counterplay": "Profiter de la panne pour un combo sur le moteur restant ou la tourelle.",
+        "punish_frames": 156
+      }
+    ],
+    "victory": "Désactiver les modules majeurs puis neutraliser le drone ; variante sans destruction dans le stand de tir.",
+    "defeat": "PV nuls ; les couverts peuvent être détruits mais l’un reste disponible à chaque rafale.",
+    "reward": "Plan de silhouette et emblème mécanique.",
+    "solo_rules": "Une borne d’interception met l’appareil à portée de toute arme de mêlée.",
+    "coop_rules": "Pas d’obligation de répartir les joueurs ; un module ciblé donne des points de soutien au partenaire.",
+    "visual_risk": "Respecter le Kestrel automatisé de Gears 4 ; ne pas le confondre avec King Raven habité."
+  },
+  {
+    "id": "boss_hive_beast",
+    "name": "Hive Beast",
+    "source_game": "Gears of War 4",
+    "nature": "Siège colossal avec exoarmure de scène",
+    "gameplay_scale_human_height": 14.0,
+    "scale_status": "Ratio de cadrage proposé pour la 2D, aucune mesure canonique",
+    "stage_id": "stage_tollen_dam",
+    "priority": "P2",
+    "content_status": "Conception détaillée, combat à implémenter",
+    "canon_scope": "Boss final Gears 4 identifié par source secondaire ; accessibilité des outils et montage du combat sont originaux.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Hive_Beast",
+      "https://gearsofwar.fandom.com/wiki/Rescue_of_Fort_Umson"
+    ],
+    "source_validation": "Sources primaires quand indiquées ; tout détail visuel doit être comparé à une séquence du jeu de référence avant validation 1:1",
+    "adaptation_status": "Toutes les phases, durées, seuils, récompenses et conditions de cette fiche sont une création pour cette adaptation 2D",
+    "targetable_parts": [
+      "Tentacules et bases d’insertion",
+      "Poitrine ouverte après les ancrages"
+    ],
+    "phases": [
+      {
+        "index": 1,
+        "hp_band": "100 à 70 %",
+        "name": "Ancrage",
+        "telegraph": "Un tentacule se lève, ombre et contour au sol avant la frappe.",
+        "telegraph_frames": 108,
+        "attack": "Frappe d’un tentacule puis immobilisation de son extrémité.",
+        "counterplay": "Attaquer l’extrémité et utiliser l’outil d’arrimage fourni par l’arène pour la maintenir.",
+        "punish_frames": 120
+      },
+      {
+        "index": 2,
+        "hp_band": "70 à 35 %",
+        "name": "Contre-feu",
+        "telegraph": "Le thorax s’ouvre, projectiles espacés visibles.",
+        "telegraph_frames": 126,
+        "attack": "Projectiles et balayage d’un second tentacule.",
+        "counterplay": "Intercepter un projectile, arrimer le tentacule puis désigner sa base.",
+        "punish_frames": 156
+      },
+      {
+        "index": 3,
+        "hp_band": "35 à 0 %",
+        "name": "Ouverture centrale",
+        "telegraph": "Les attaches détruites tombent hors du sol de jeu, le noyau s’éclaire.",
+        "telegraph_frames": 144,
+        "attack": "Dernier balayage très large puis longue fenêtre de tir central.",
+        "counterplay": "Garder le centre libre et déclencher l’appui aérien contextuel pendant l’ouverture.",
+        "punish_frames": 180
+      }
+    ],
+    "victory": "Neutraliser les tentacules nécessaires, terminer l’ouverture du noyau puis proposer une cinématique de conclusion fondée sur l’hélice du King Raven utilisée dans le jeu-source ; cette cinématique reste à vérifier et à produire.",
+    "defeat": "PV nuls ; arrimage raté restitue une occasion, sans remise à zéro totale.",
+    "reward": "Archive du final Gears 4 et galerie de construction des tentacules.",
+    "solo_rules": "Outils de siège attribués automatiquement, avec une version d’assistance qui remplace les doubles commandes.",
+    "coop_rules": "Arrimage plus rapide à deux mais réalisable seul ; un joueur ne peut être laissé sans cible utile.",
+    "visual_risk": "La silhouette doit dépasser le cadre sans cacher les télégraphes ; il faut des actifs par tentacule, pas une unique image redimensionnée."
+  },
+  {
+    "id": "boss_matriarch",
+    "name": "Matriarch",
+    "source_game": "Gears 5",
+    "nature": "Chasse sur glace",
+    "gameplay_scale_human_height": 2.8,
+    "scale_status": "Ratio de cadrage proposé pour la 2D, aucune mesure canonique",
+    "stage_id": "stage_kadar_lab",
+    "priority": "P0",
+    "content_status": "Conception détaillée, combat à implémenter",
+    "canon_scope": "Identité et mécanisme glace puis dos décrits par sources secondaires ; durées et assistance visuelle originales.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Matriarch",
+      "https://gamefaqs.gamespot.com/pc/241047-gears-5/faqs/77771/boss-fights"
+    ],
+    "source_validation": "Sources primaires quand indiquées ; tout détail visuel doit être comparé à une séquence du jeu de référence avant validation 1:1",
+    "adaptation_status": "Toutes les phases, durées, seuils, récompenses et conditions de cette fiche sont une création pour cette adaptation 2D",
+    "targetable_parts": [
+      "Dos pendant le gel",
+      "Épines après la charge"
+    ],
+    "phases": [
+      {
+        "index": 1,
+        "hp_band": "100 à 70 %",
+        "name": "Écoute",
+        "telegraph": "Silence bref, tête tournée vers la dernière source sonore.",
+        "telegraph_frames": 78,
+        "attack": "Charge sur la dernière position bruyante.",
+        "counterplay": "Attirer le boss sur une zone de glace repérée, briser la glace et passer derrière le dos.",
+        "punish_frames": 120
+      },
+      {
+        "index": 2,
+        "hp_band": "70 à 35 %",
+        "name": "Épines",
+        "telegraph": "Dos arqué, plusieurs épines s’orientent avant le lancer.",
+        "telegraph_frames": 96,
+        "attack": "Projectile d’épine puis nouvelle charge avec correction limitée.",
+        "counterplay": "Se déplacer après le verrouillage et utiliser une seconde zone de gel ; détacher une épine par maintien de commande si touché.",
+        "punish_frames": 144
+      },
+      {
+        "index": 3,
+        "hp_band": "35 à 0 %",
+        "name": "Pression mentale",
+        "telegraph": "Le décor vibre en périphérie, l’interface et les contours des dangers restent nets.",
+        "telegraph_frames": 114,
+        "attack": "Deux charges rapprochées suivies d’un arrêt prolongé.",
+        "counterplay": "Conserver un îlot de glace disponible ; geler sur la dernière charge et vider sa ressource sur le dos.",
+        "punish_frames": 168
+      }
+    ],
+    "victory": "Briser le lien de cette rencontre en épuisant la jauge ; scène distincte selon parcours histoire ou exhibition.",
+    "defeat": "PV nuls ; les trous de glace ne causent pas de chute fatale du joueur, ils poussent vers une zone sûre.",
+    "reward": "Archive du laboratoire et variante glacée de scène.",
+    "solo_rules": "Une zone de gel réapparaît à chaque changement de phase, pas de blocage si les zones initiales sont consommées.",
+    "coop_rules": "Le bruit du dernier joueur actif détermine la charge ; la capture d’un joueur ne bloque jamais le mécanisme de gel.",
+    "visual_risk": "Matriarch unique : proportions, dos, épines et couleur ne doivent pas devenir une simple Berserker recolorée."
+  },
+  {
+    "id": "boss_kraken",
+    "name": "Kraken",
+    "source_game": "Gears 5",
+    "nature": "Défense de rempart contre colosse",
+    "gameplay_scale_human_height": 16.0,
+    "scale_status": "Ratio de cadrage proposé pour la 2D, aucune mesure canonique",
+    "stage_id": "stage_new_ephyra",
+    "priority": "P1",
+    "content_status": "Conception détaillée, combat à implémenter",
+    "canon_scope": "Boss final et défense du rempart appuyés secondairement ; construction du score et phases originales.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Kraken",
+      "https://gamefaqs.gamespot.com/pc/241047-gears-5/faqs/77771/boss-fights"
+    ],
+    "source_validation": "Sources primaires quand indiquées ; tout détail visuel doit être comparé à une séquence du jeu de référence avant validation 1:1",
+    "adaptation_status": "Toutes les phases, durées, seuils, récompenses et conditions de cette fiche sont une création pour cette adaptation 2D",
+    "targetable_parts": [
+      "Appendices entrant dans le plan",
+      "Points de la gueule révélés",
+      "Cible centrale pendant le tir de siège"
+    ],
+    "phases": [
+      {
+        "index": 1,
+        "hp_band": "100 à 70 %",
+        "name": "Rempart",
+        "telegraph": "Un appendice se plie et son impact est marqué sur une moitié du mur.",
+        "telegraph_frames": 108,
+        "attack": "Frappe et apparition de cibles lumineuses proches du sol.",
+        "counterplay": "Frapper les appendices pour gagner une fenêtre d’utilisation du canon de rempart.",
+        "punish_frames": 132
+      },
+      {
+        "index": 2,
+        "hp_band": "70 à 35 %",
+        "name": "Aspiration",
+        "telegraph": "La gueule s’ouvre, flèches au sol et son grave continus.",
+        "telegraph_frames": 126,
+        "attack": "Aspiration horizontale ; sa force plafonne pour permettre le recul.",
+        "counterplay": "Interrompre les points exposés ou se fixer au couvert ; les personnages de mêlée utilisent le canon commun.",
+        "punish_frames": 156
+      },
+      {
+        "index": 3,
+        "hp_band": "35 à 0 %",
+        "name": "Dernière défense",
+        "telegraph": "Deux cibles latérales s’éteignent et une cible centrale devient prioritaire.",
+        "telegraph_frames": 144,
+        "attack": "Balayage puis ouverture complète avant l’assaut final.",
+        "counterplay": "Enchaîner deux interruptions et déclencher l’appui final fourni par la scène.",
+        "punish_frames": 192
+      }
+    ],
+    "victory": "Terminer la séquence de siège et la jauge du colosse ; la conclusion respecte le chapitre Gears 5 sélectionné.",
+    "defeat": "PV nuls ou rempart détruit en Siège expert ; le jeu ne décide pas du choix narratif JD ou Del à la place du joueur.",
+    "reward": "Archive New Ephyra, chronométrage et médaille défense.",
+    "solo_rules": "Les armes de stage sont activables par une seule touche maintenue ; impossible de perdre la partie pour manque de munitions personnelles.",
+    "coop_rules": "Les deux joueurs peuvent soutenir le canon ou protéger les appendices ; aucune place de spectateur imposée.",
+    "visual_risk": "Un Kraken gigantesque exige un cadrage de siège ; il ne devient jamais un combattant normal de trois mètres dans une arène duel."
+  },
+  {
+    "id": "boss_flock",
+    "name": "Flock",
+    "source_game": "Gears 5",
+    "nature": "Essaim volant",
+    "gameplay_scale_human_height": 5.0,
+    "scale_status": "Ratio de cadrage proposé pour la 2D, aucune mesure canonique",
+    "stage_id": "stage_vasgar_airport",
+    "priority": "P1",
+    "content_status": "Conception détaillée, combat à implémenter",
+    "canon_scope": "Flock figure dans les annonces officielles de Horde ; microstructure des individus à valider dans le jeu.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Flock",
+      "https://steamcommunity.com/app/1097840/announcements/"
+    ],
+    "source_validation": "Sources primaires quand indiquées ; tout détail visuel doit être comparé à une séquence du jeu de référence avant validation 1:1",
+    "adaptation_status": "Toutes les phases, durées, seuils, récompenses et conditions de cette fiche sont une création pour cette adaptation 2D",
+    "targetable_parts": [
+      "Noyau collectif après dispersion",
+      "Nappe d’individus au contact d’un leurre"
+    ],
+    "phases": [
+      {
+        "index": 1,
+        "hp_band": "100 à 70 %",
+        "name": "Nuage",
+        "telegraph": "Le groupe se contracte en pointe, contour clair sur fond neutre.",
+        "telegraph_frames": 84,
+        "attack": "Passage horizontal puis dispersion lente.",
+        "counterplay": "Roulade sous la trajectoire et attaque de la zone dense pendant la recomposition.",
+        "punish_frames": 96
+      },
+      {
+        "index": 2,
+        "hp_band": "70 à 35 %",
+        "name": "Scission",
+        "telegraph": "Deux branches se détachent avec deux sons distincts.",
+        "telegraph_frames": 108,
+        "attack": "Passages alternés haut et bas, jamais simultanément bloquants.",
+        "counterplay": "Choisir garde ou déplacement d’après la hauteur ; utiliser un leurre d’arène pour forcer une descente.",
+        "punish_frames": 132
+      },
+      {
+        "index": 3,
+        "hp_band": "35 à 0 %",
+        "name": "Concentration",
+        "telegraph": "Le groupe regagne un seul centre et s’abaisse vers le sol.",
+        "telegraph_frames": 126,
+        "attack": "Spirale lente puis pause dense et vulnérable.",
+        "counterplay": "Éviter la zone intérieure puis frapper le noyau groupé avec une attaque à zone ou un combo court.",
+        "punish_frames": 156
+      }
+    ],
+    "victory": "Épuiser une jauge partagée ; les unités décoratives disparaissent à la fin.",
+    "defeat": "PV nuls ; aucun dégât provenant d’un individu purement décoratif.",
+    "reward": "Visualiseur de l’essaim et compteur d’interceptions.",
+    "solo_rules": "La collision se limite à trois volumes déterministes ; pas de centaines de hitboxes aléatoires.",
+    "coop_rules": "Leurres accessibles aux deux ; la scission garde toujours un côté libre.",
+    "visual_risk": "Limiter les particules, conserver la forme d’ensemble et ne pas masquer les silhouettes des joueurs."
+  },
+  {
+    "id": "boss_wakaatu",
+    "name": "Wakaatu",
+    "source_game": "Gears 5 Hivebusters",
+    "nature": "Prédateur volant et fouisseur",
+    "gameplay_scale_human_height": 5.5,
+    "scale_status": "Ratio de cadrage proposé pour la 2D, aucune mesure canonique",
+    "stage_id": "stage_galangi_volcano",
+    "priority": "P1",
+    "content_status": "Conception détaillée, combat à implémenter",
+    "canon_scope": "Source officielle confirmant le Wakaatu et Galangi ; caractéristiques de fouissement et de venin soutenues ici par référence secondaire.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/news/hivebusters/",
+      "https://gearsofwar.fandom.com/wiki/Wakaatu"
+    ],
+    "source_validation": "Sources primaires quand indiquées ; tout détail visuel doit être comparé à une séquence du jeu de référence avant validation 1:1",
+    "adaptation_status": "Toutes les phases, durées, seuils, récompenses et conditions de cette fiche sont une création pour cette adaptation 2D",
+    "targetable_parts": [
+      "Gueule après émergence",
+      "Poches exposées pendant récupération",
+      "Pattes quand il se pose"
+    ],
+    "phases": [
+      {
+        "index": 1,
+        "hp_band": "100 à 70 %",
+        "name": "Sous la terre",
+        "telegraph": "Le sol se soulève dans une bande clairement circonscrite.",
+        "telegraph_frames": 96,
+        "attack": "Émergence sous la dernière position puis morsure.",
+        "counterplay": "Sortir de la bande après le verrouillage et attaquer le flanc pendant la montée.",
+        "punish_frames": 108
+      },
+      {
+        "index": 2,
+        "hp_band": "70 à 35 %",
+        "name": "Vol venimeux",
+        "telegraph": "Un cri aigu précède l’ouverture des ailes et le crachat.",
+        "telegraph_frames": 114,
+        "attack": "Passage aérien et dépôt de venin limité au bord.",
+        "counterplay": "Rejoindre le centre, attendre l’atterrissage imposé puis exploiter la gueule ouverte.",
+        "punish_frames": 150
+      },
+      {
+        "index": 3,
+        "hp_band": "35 à 0 %",
+        "name": "Alternance",
+        "telegraph": "Deux sillons au sol indiquent l’ordre des émergences.",
+        "telegraph_frames": 132,
+        "attack": "Émergence, vol bref, seconde émergence suivie d’une longue fatigue.",
+        "counterplay": "Ne pas courir vers le premier sillon ; frapper les poches lors du repos final.",
+        "punish_frames": 174
+      }
+    ],
+    "victory": "Épuiser la jauge après avoir forcé les trois phases ; conclusion propre à Scorpio dans l’histoire.",
+    "defeat": "PV nuls ; le venin n’occupe jamais le centre et les deux bords simultanément.",
+    "reward": "Trophée Galangi et panorama volcanique.",
+    "solo_rules": "Une branche ou un sol stable garantit une cible proche à chaque cycle.",
+    "coop_rules": "Le boss alterne ses cibles avec annonce ; aucune arrivée sous un joueur en train de relever l’autre sans délai.",
+    "visual_risk": "Employer les références Hivebusters pour tête, ailes, peau et proportions ; ne pas inventer un dragon générique."
+  },
+  {
+    "id": "boss_king_raven",
+    "name": "King Raven de simulation",
+    "source_game": "Gears of War 2006 pour la silhouette",
+    "nature": "Véhicule allié en simulation",
+    "gameplay_scale_human_height": 5.0,
+    "scale_status": "Ratio de cadrage proposé pour la 2D, aucune mesure canonique",
+    "stage_id": "stage_training_hangar",
+    "priority": "P1",
+    "content_status": "Conception détaillée, combat à implémenter",
+    "canon_scope": "Véhicule CGU attesté secondairement ; son rôle de boss est intégralement une simulation non canonique.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/King_Raven"
+    ],
+    "source_validation": "Sources primaires quand indiquées ; tout détail visuel doit être comparé à une séquence du jeu de référence avant validation 1:1",
+    "adaptation_status": "Toutes les phases, durées, seuils, récompenses et conditions de cette fiche sont une création pour cette adaptation 2D",
+    "targetable_parts": [
+      "Supports de tourelle factices",
+      "Capteurs d’exercice",
+      "Cible sous la cellule pendant le posé"
+    ],
+    "phases": [
+      {
+        "index": 1,
+        "hp_band": "100 à 70 %",
+        "name": "Approche contrôlée",
+        "telegraph": "Feux d’exercice blancs et annonce radio de début de passe.",
+        "telegraph_frames": 90,
+        "attack": "Tirs de simulation en lignes au sol, sans projectile imprévisible.",
+        "counterplay": "Se déplacer entre les lignes puis marquer un capteur pendant le stationnaire.",
+        "punish_frames": 108
+      },
+      {
+        "index": 2,
+        "hp_band": "70 à 35 %",
+        "name": "Extraction contestée",
+        "telegraph": "Le treuil d’exercice descend avant un posé partiel.",
+        "telegraph_frames": 114,
+        "attack": "Une porte s’ouvre avec une cible mobile ; rotor seulement décoratif hors zone.",
+        "counterplay": "Toucher la cible de porte ou le capteur bas, accessibles sans arme à distance.",
+        "punish_frames": 144
+      },
+      {
+        "index": 3,
+        "hp_band": "35 à 0 %",
+        "name": "Immobilisation",
+        "telegraph": "La radio annonce une dernière passe et un posé de 3 secondes.",
+        "telegraph_frames": 132,
+        "attack": "Rafale d’exercice puis immobilisation au centre de la scène.",
+        "counterplay": "Désactiver les capteurs restants par un combo, puis sortir de la zone du décollage.",
+        "punish_frames": 180
+      }
+    ],
+    "victory": "Désactiver les cibles instrumentées ; appareil et équipage restent intacts.",
+    "defeat": "PV d’exercice nuls ; redémarrage immédiat.",
+    "reward": "Brevet d’interception, sans scène canonique hostile.",
+    "solo_rules": "Cibles basses garanties ; rotor ne touche jamais le joueur.",
+    "coop_rules": "Score d’équipe partagé et dégâts entre alliés désactivés.",
+    "visual_risk": "Le King Raven reste un transport CGU reconnaissable ; marquages d’exercice à part, sans inventer une variante officielle."
+  },
+  {
+    "id": "boss_centaur",
+    "name": "Centaur de simulation",
+    "source_game": "Gears of War 2",
+    "nature": "Véhicule terrestre allié en simulation",
+    "gameplay_scale_human_height": 3.9,
+    "scale_status": "Ratio de cadrage proposé pour la 2D, aucune mesure canonique",
+    "stage_id": "stage_training_range",
+    "priority": "P1",
+    "content_status": "Conception détaillée, combat à implémenter",
+    "canon_scope": "Véhicule de Gears 2 documenté secondairement ; antagonisme et instruments de simulation inventés pour ce mode.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Centaur"
+    ],
+    "source_validation": "Sources primaires quand indiquées ; tout détail visuel doit être comparé à une séquence du jeu de référence avant validation 1:1",
+    "adaptation_status": "Toutes les phases, durées, seuils, récompenses et conditions de cette fiche sont une création pour cette adaptation 2D",
+    "targetable_parts": [
+      "Roues instrumentées",
+      "Tourelle de tir factice",
+      "Capteur arrière"
+    ],
+    "phases": [
+      {
+        "index": 1,
+        "hp_band": "100 à 70 %",
+        "name": "Tir de réglage",
+        "telegraph": "La tourelle verrouille une zone avec un faisceau de simulation.",
+        "telegraph_frames": 84,
+        "attack": "Tir unique puis déplacement lent vers une extrémité.",
+        "counterplay": "Sortir du faisceau et toucher une roue pour abaisser sa jauge de mobilité.",
+        "punish_frames": 108
+      },
+      {
+        "index": 2,
+        "hp_band": "70 à 35 %",
+        "name": "Pivot",
+        "telegraph": "Les roues changent d’angle avant la rotation de caisse.",
+        "telegraph_frames": 108,
+        "attack": "Pivot suivi de deux tirs d’exercice à hauteurs différentes.",
+        "counterplay": "Passer derrière la caisse pendant la rotation puis marquer le capteur arrière.",
+        "punish_frames": 144
+      },
+      {
+        "index": 3,
+        "hp_band": "35 à 0 %",
+        "name": "Test de résistance",
+        "telegraph": "Un voyant signale une dernière accélération limitée.",
+        "telegraph_frames": 126,
+        "attack": "Course courte, freinage et arrêt prolongé.",
+        "counterplay": "S’écarter de la trajectoire puis désactiver la tourelle par un combo.",
+        "punish_frames": 174
+      }
+    ],
+    "victory": "Couper les capteurs des trois systèmes ; aucune destruction narrative du blindé.",
+    "defeat": "PV d’exercice nuls ; écrasement converti en forte pénalité d’exercice.",
+    "reward": "Brevet blindé et vue de la suspension.",
+    "solo_rules": "Trajectoire sur rail et capteurs proches ; le sol ne défile pas.",
+    "coop_rules": "Tourelle et caisse visent des cibles annoncées différentes ; chaque attaque laisse un refuge commun.",
+    "visual_risk": "Centaur monté sur roues, pas un char à chenilles générique ; silhouette, suspension et canon à verrouiller sur Gears 2."
+  },
+  {
+    "id": "boss_silverback",
+    "name": "Silverback de simulation",
+    "source_game": "Gears of War 3 pour la silhouette",
+    "nature": "Exoarmure alliée en simulation",
+    "gameplay_scale_human_height": 1.9,
+    "scale_status": "Ratio de cadrage proposé pour la 2D, aucune mesure canonique",
+    "stage_id": "stage_training_hangar",
+    "priority": "P1",
+    "content_status": "Conception détaillée, combat à implémenter",
+    "canon_scope": "Silverback et pilotage confirmés par Xbox Wire pour Lizzie ; silhouette Gears 3 à contrôler sur références de cet épisode.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Silverback",
+      "https://news.xbox.com/en-us/2019/12/11/gears-5-operation-2-free-for-all-available-today-for-all-players/"
+    ],
+    "source_validation": "Sources primaires quand indiquées ; tout détail visuel doit être comparé à une séquence du jeu de référence avant validation 1:1",
+    "adaptation_status": "Toutes les phases, durées, seuils, récompenses et conditions de cette fiche sont une création pour cette adaptation 2D",
+    "targetable_parts": [
+      "Articulations repérées",
+      "Arme de bras instrumentée",
+      "Cible du dos après ancrage"
+    ],
+    "phases": [
+      {
+        "index": 1,
+        "hp_band": "100 à 70 %",
+        "name": "Mobilité",
+        "telegraph": "Le pilote annonce une avancée et l’arme passe en sécurité visuelle.",
+        "telegraph_frames": 72,
+        "attack": "Deux pas lourds puis coup de bras lent d’exercice.",
+        "counterplay": "Faire manquer le coup et attaquer l’articulation exposée.",
+        "punish_frames": 96
+      },
+      {
+        "index": 2,
+        "hp_band": "70 à 35 %",
+        "name": "Ancrage",
+        "telegraph": "Les stabilisateurs se déploient avec une sirène brève.",
+        "telegraph_frames": 96,
+        "attack": "Tirs de simulation en mode fixe ; rotation limitée.",
+        "counterplay": "Contourner dans le plan au terme de la rafale et toucher le capteur arrière.",
+        "punish_frames": 132
+      },
+      {
+        "index": 3,
+        "hp_band": "35 à 0 %",
+        "name": "Changement de mode",
+        "telegraph": "Les stabilisateurs se replient, arme en surchauffe simulée.",
+        "telegraph_frames": 114,
+        "attack": "Un dernier pas, une rafale courte et une longue remise en position.",
+        "counterplay": "Punir le changement de mode par une série complète au contact.",
+        "punish_frames": 156
+      }
+    ],
+    "victory": "Désactiver les capteurs ; le pilote sort et salue le combattant.",
+    "defeat": "PV d’exercice nuls ; jamais de mise à mort d’un allié dans cette épreuve.",
+    "reward": "Brevet exoarmure et pose d’entraînement.",
+    "solo_rules": "Le mode fixe dure assez longtemps pour que le combattant le plus lent puisse atteindre le dos.",
+    "coop_rules": "Les joueurs peuvent partager les cibles ; le pilote ne change pas instantanément de côté entre deux coups.",
+    "visual_risk": "Éviter le corps de robot autonome : cockpit, pilote et stabilisateurs restent identifiables."
+  }
+]

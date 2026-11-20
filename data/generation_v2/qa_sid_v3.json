@@ -1,0 +1,123 @@
+{
+  "id": "sid",
+  "version": 3,
+  "generated_asset": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/sid_reference_v3.png",
+  "generated_asset_sha256": "41d3d01b0b9e621fae04e3ae97c88418884cd54bb2f45f143691c4ec38d993f0",
+  "reference_images": [
+    {
+      "local_path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_refs/sid_official.jpg",
+      "sha256": "f45a5b1774a92028315084030ef02406cec2c6895137efa2ce0989be5ab48d86",
+      "source_type": "Rendu de personnage publié sur le site officiel Gears of War.",
+      "page_url": "https://www.gearsofwar.com/en-nz/news/dev-blog-characters/",
+      "image_url": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/04/b070c2d094613f6ac28e09b19f87bc24cf487790-69cb0c5d1797f.jpg",
+      "limits": "Une seule vue trois-quarts ; les surfaces cachées et les textures hors de cette vue ne peuvent être validées."
+    }
+  ],
+  "method": "Comparaison visuelle directe des images originales à leur résolution native avec view_image ; dimensions, empreintes et alpha mesurés avec Pillow. Aucun pixel image modifié, aucune nouvelle recherche réseau, aucun changement au prototype.",
+  "alpha_and_format": {
+    "mode": "RGBA",
+    "size_px": [
+      927,
+      1697
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_pixel_percent": 62.61,
+    "fully_opaque_255_pixels": 922,
+    "alpha_corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "nonzero_alpha_bbox": [
+      0,
+      79,
+      908,
+      1681
+    ],
+    "substantial_alpha_bbox_threshold_16": [
+      147,
+      132,
+      741,
+      1615
+    ],
+    "note": "Vrai canal alpha présent. Des pixels de très faible alpha restent au-delà du corps/châssis. Le fond sombre visible dans certains aperçus RGB ne constitue pas un fond opaque. Aucun test de composition sur décor ou de halo en jeu effectué."
+  },
+  "framing": {
+    "substantial_alpha_bbox_threshold_16": [
+      147,
+      132,
+      741,
+      1615
+    ],
+    "approx_padding_px": {
+      "left": 147,
+      "top": 132,
+      "right": 186,
+      "bottom": 82
+    },
+    "status": "personnage_entier_marges_confortables",
+    "orientation": "trois-quarts vers la droite, proche du rendu officiel",
+    "pose": "debout au repos, mains vides",
+    "head_visible": true,
+    "both_feet_visible": true,
+    "both_hands_visible": true,
+    "text_ui_or_extra_subject": false,
+    "observed": "Environ 132 px au-dessus de la tête, 82 px sous les semelles, 147 px à gauche et 186 px à droite ; aucune coupe anatomique visible."
+  },
+  "prototype_modified": false,
+  "bible_modified": false,
+  "workbook_modified": false,
+  "verdict": "Correction nettement plus fidèle à la référence officielle et recommandée à la place de Sid v2 pour la pose neutre. Les principaux volumes, panneaux et accessoires visibles sont conservés ; ce contrôle ne constitue pas une certification pixel à pixel ou 1:1 de toutes les vues.",
+  "identity": {
+    "status": "conforme_aux_identifiants_et_aux_volumes_visibles",
+    "matches": [
+      "Visage large et carré, cheveux blancs très courts, moustache blanche en fer à cheval, menton découvert.",
+      "Cache-œil gauche et cicatrice frontale du même côté, proportions et expression très proches de la référence officielle.",
+      "Corps large, trapu et lourd ; même orientation générale que la référence."
+    ],
+    "differences": [
+      "Aucun écart majeur d’identité observé à cette résolution. La conservation exacte de chaque microtexture faciale n’a pas été mesurée."
+    ]
+  },
+  "costume": {
+    "status": "conforme_aux_principaux_elements_visibles",
+    "matches": [
+      "Armure olive à bords métalliques argentés ; épaulières facettées sans crâne ajouté.",
+      "Deux disques pectoraux, tuyaux courbes sous les disques, petit raccord central circulaire et attaches du modèle conservés.",
+      "Boucle mécanique détaillée, rangée de petits cylindres, gants bruns et protections d’avant-bras repris.",
+      "Grands cuissards rembourrés bruns, sangles de cuisse, genoux matelassés, plaques olive des tibias et bottes correspondants.",
+      "Les inventions visibles dans v2 — grand logo de crâne, gros cylindres et nouveaux cuissards durs — sont absentes."
+    ],
+    "differences": [
+      "Aucune substitution majeure de panneau ou d’accessoire observée. L’éclairage, les reflets et les petits détails de bord ne sont pas certifiés identiques."
+    ]
+  },
+  "eyepatch": {
+    "status": "cote_correct",
+    "anatomical_side": "gauche",
+    "observed": "L’œil anatomiquement gauche est couvert et l’œil droit reste visible, comme dans la référence officielle."
+  },
+  "defects": [
+    {
+      "severity": "mineure_a_verifier",
+      "item": "Petits liserés ponctuels sur le détourage",
+      "impact": "Quelques points clairs/colorés apparaissent sur certains contours dans l’aperçu sombre, notamment tête et épaule proche. Aucun test de composition sur fonds contrastés ; ne pas qualifier ce contrôle de validation sans halo."
+    }
+  ],
+  "reservations_1to1": [
+    "Comparaison visuelle directe seulement, pas une soustraction d’images enregistrées ; aucune égalité pixel à pixel revendiquée.",
+    "Une seule pose neutre issue de la vue officielle ; ni angles supplémentaires, ni animation de combat, ni pivots validés.",
+    "La pose reste proche de la référence trois-quarts frontale ; elle n’est pas une vraie vue orthographique latérale.",
+    "Le canal alpha présente quelques résidus de très faible opacité hors silhouette ; intégration sur décor non testée."
+  ],
+  "correction_reference": {
+    "local_path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_refs/sid_official.jpg",
+    "suitability": "Référence officielle déjà utilisée pour la correction ; base pertinente pour toute retouche locale de bord, sans réinventer le personnage."
+  },
+  "recommendation": "Sélectionner v3 pour la référence neutre de Sid et exclure v2 de la sélection courante ; conserver une réserve sur détourage, intégration et certification 1:1 globale.",
+  "replaces_asset": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/sid_reference_v2.png"
+}

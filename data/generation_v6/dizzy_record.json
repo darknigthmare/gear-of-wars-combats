@@ -1,0 +1,41 @@
+{
+  "id": "dizzy",
+  "subject_id": "dizzy",
+  "category": "character",
+  "name": "Dizzy Wallin",
+  "variant": "Gears of War 2 — tenue de pilote de Betty",
+  "source_game": "Gears of War 2",
+  "purpose": "reference_fullbody",
+  "variant_relation": "target_version_candidate",
+  "status": "generated_reference_pending_validation",
+  "asset_path": "assets/characters_v6/dizzy_gow2_fullbody.png",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-20",
+  "prompt": "Create a high-detail raster full-body character asset of Dizzy Wallin, original Gears of War 2 driver outfit, using the supplied 2008 in-game render as the identity and costume reference. Exactly one adult character, one neutral standing pose, slightly facing screen-right. Preserve the recognizable weathered face, grey beard and moustache, worn brown cowboy hat, small gold earring, bulky tattooed bare arms, faded skull on grey-green chest armour, crossed straps on his anatomical right chest, vertical cartridges on his anatomical left chest, torn ribbed undershirt, large round utility-belt buckle and wrist wraps. Show the complete hat, both hands, all of the trousers, kneepads and heavy boots. The lower body should follow his original game outfit, without modern redesign. Refined realistic painted game rendering, crisp readable silhouette and worn material texture matching the supplied character. Centre the whole figure with at least 7 percent clear space on all sides. Neutral relaxed hands, no prop. Genuine transparent alpha background, no floor or backdrop. No text, watermark, logo, border or second character. This is one static costume reference, not a collage.",
+  "sources": [
+    {
+      "page_url": "https://www.gamereactor.se/mer-fran-gears-of-war-2-14372/",
+      "image_url": "https://www.gamereactor.se/media/66/mergearswar_156693_650x.jpg",
+      "scope": "Rendu de jeu GoW2 fourni à la presse en 2008 ; torse et visage vus, jambes non documentées par cette seule référence."
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Un personnage entier, chapeau, deux mains et deux bottes visibles.",
+      "Chapeau brun usé, barbe grise, boucle dorée, bras tatoués, sangles, cartouches et plastron au crâne reconnaissables.",
+      "Détails des jambes et bottes reconstruits ; ne certifient pas une conformité 1:1.",
+      "Marge haute et basse plus réduite que les 7 % demandés ; à corriger pour un futur atlas."
+    ],
+    "remaining_checks": [
+      "Contrôler le bas du costume sur des captures GoW2 en pied.",
+      "Comparer les tatouages, la forme exacte des épaulières et le visage à plusieurs angles du jeu.",
+      "Préparer la garde latérale, les pivots et les animations."
+    ]
+  }
+}

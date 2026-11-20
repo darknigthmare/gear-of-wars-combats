@@ -1,0 +1,54 @@
+{
+  "id": "ukkon",
+  "name": "Ukkon",
+  "source_game": "Gears Tactics",
+  "prompt": "Ukkon, the adult Locust scientist, in the regular final-production campaign appearance from Gears Tactics, following the character model created by the Splash Damage character team, Ben Davis and Ji Ruan. Use his recognizable long pale ridged head, distinctive facial and mouth anatomy at rest, narrow intelligent face, original dark red and charcoal layered outfit, mechanical armor sections, neck and torso equipment, belt, hanging garment panels and full lower-body equipment. Use the unmasked regular character appearance so his identity is readable; retain only the apparatus actually integrated into that costume, with no new laboratory prop or accessory. Match the final shipped character proportions and coverage, keeping the body intact and undamaged. Do not use a preliminary Kantus-like concept, a creature transformation, the Heroic multiplayer skin, a generic laboratory coat or an invented scientific tool. Create exactly one full-body character as a neutral production model reference: standing at rest, weight balanced, shoulders relaxed, arms slightly separated from the torso, both empty hands visible and relaxed. Three-quarter view facing screen-right, turned enough toward profile for a readable side-view 2D silhouette. The complete head, feet, fingers and every costume extremity must fit inside the canvas with a generous transparent margin. Realistic hand-painted 2D UHD game art, anatomically and materially faithful to the named official game model, crisp readable contour, restrained even studio illumination. True transparent alpha background, including gaps between limbs. No text, captions, logos, interface, border, second character, alternate view, scenery, floor, pedestal, cast shadow, glow, particles, action, injury or violence. No handheld or attached weapons. Preserve the exact named episode costume rather than inventing a redesign or combining skins. This is a single calm unarmed reference pose.",
+  "source_urls": [
+    "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/",
+    "https://ben_davis.artstation.com/projects/4bDBx2",
+    "https://darkmummy.artstation.com/projects/VdA3zn",
+    "https://magazine.artstation.com/2020/04/the-coalition-splash-damage-gears-tactics-art-blast/"
+  ],
+  "output_hint": "Generated images are saved to /workspace/scratch/1e1136701ce4/generated_images as /workspace/scratch/1e1136701ce4/generated_images/exec-25f5268a-ece4-4de5-a333-df968aa3a5b6.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "error": null,
+  "has_image": true,
+  "path": "assets/characters_v4/ukkon_reference_v4.png",
+  "status": "generated_candidate",
+  "generated_at_utc": "2026-11-19T21:50:54.835Z",
+  "fidelity_check": "À contrôler",
+  "width": 1024,
+  "height": 1536,
+  "mode": "RGBA",
+  "alpha_min": 0,
+  "alpha_max": 254,
+  "sha256": "330d5a422c922cee22f9b2776ef39f6d477ae41049fb26b2f390effcb317d212",
+  "visual_notes": [
+    "Un seul Ukkon entier, vue trois-quarts vers la droite, mains vides, visage non masqué.",
+    "Tenue rouge sombre et noire, tête allongée ridée et absence de lèvres humaines épaisses cohérentes à contrôler.",
+    "Nombreuses boucles et répartition des panneaux susceptibles de diverger du modèle Tactics ; fidélité 1:1 non certifiée.",
+    "Les pixels de fond échantillonnés autour du sujet sont réellement transparents (alpha=0) ; le halo de la prévisualisation correspond aux données RGB cachées. Vérifier uniquement les franges fines lors de l’intégration.",
+    "Marge supérieure du crâne étroite : agrandir la marge avant préparation des animations."
+  ],
+  "fully_transparent_pixels": 1060611,
+  "fully_opaque_pixels": 0,
+  "alpha_bbox": [
+    33,
+    0,
+    978,
+    1536
+  ],
+  "alpha_visible_bbox_16": [
+    228,
+    9,
+    762,
+    1525
+  ],
+  "alpha_solid_bbox_128": [
+    229,
+    10,
+    761,
+    1524
+  ],
+  "has_transparency": true,
+  "technical_check": "PNG RGBA lisible et fond alpha=0 vérifiés ; marges et franges à vérifier en intégration."
+}

@@ -1,0 +1,66 @@
+{
+  "character_id": "dom",
+  "name": "Dominic Santiago",
+  "variant": "Gears of War (2006) — COG armor",
+  "pass_date": "2026-11-20",
+  "engine": "built_in_imagegen",
+  "status": "generated",
+  "attempt_count": 1,
+  "asset_path": "assets/characters_v5/dom_gow1_fullbody.png",
+  "prompt": "Use case: style-transfer. Asset type: one full-body raster character reference for the Gears of War Combats 2D game. Use the supplied official Gears of War 2006 screenshot as the costume and identity reference. The subject is ONLY Dominic 'Dom' Santiago, the man at FAR RIGHT. Do not include Marcus, Cole, Baird, the rifle in the foreground, the city or the floor. Create ONE Dom alone, head to boots entirely visible, standing upright in a calm neutral ready pose, body turned slightly toward screen-right. Preserve his recognizable adult face, short swept-back dark hair, close dark facial stubble, no bandana, muscular exposed upper arms, heavy original dark gray COG armor, blue round collar lamps, asymmetrical chest armor and chest holster, forearm metal guards, original knee and shin plates, utility pouches and large boots. Preserve original Gears body proportions and canonical costume, no redesign or Gears 3 beard. Hands relaxed and empty. Detailed refined hand-painted raster game art with clean silhouette and readable realistic metal, cloth and skin textures. Full head, both hands and both feet comfortably inside canvas with ample transparent padding on all four sides. Exactly one character, one pose. Actual transparent alpha background. No environment, no ground shadow, no haze, no color halo, no background gradient, no text, watermark, UI, frame or collage.",
+  "reference_paths": [
+    "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_refs/gears1_delta.jpg"
+  ],
+  "sources": [
+    {
+      "page_url": "https://www.gearsofwar.com/en-us/games/gears-of-war/",
+      "image_url": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/gears-1-co-op-69d6e9d002b82.jpg",
+      "reference_role": "Official publisher screenshot; Dom at far right; inspected visually."
+    }
+  ],
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2066461,
+    "sha256": "1c478f811a1a5001d757bd947ae95faf8439cbbdb20a9683eb0ce3b946cb3235",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "transparent_pixel_fraction": 0.6021149953206381,
+    "nonzero_bbox": [
+      33,
+      13,
+      996,
+      1513
+    ],
+    "alpha128_bbox": [
+      168,
+      18,
+      851,
+      1491
+    ]
+  },
+  "qa": {
+    "visually_inspected": true,
+    "white_composite_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "base_costume_target": true,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "observations": [
+      "Silhouette entière, deux mains et deux bottes visibles ; cheveux courts, barbe courte, armure COG sombre, lampes bleues et holster pectoral asymétrique conservés.",
+      "Le RGB brut contient un voile sombre visible dans certains aperçus qui ignorent l'alpha ; le compositing blanc avec alpha produit un détourage visuellement propre.",
+      "Le sommet de la chevelure à alpha >=128 n'a que 18 px de marge ; marge faible pour un futur atlas."
+    ],
+    "remaining_checks": [
+      "Comparer les sangles, rivets, tatouages et reliefs de genou contre des captures rapprochées de GoW 2006 ; les détails fins sont reconstruits à partir d'une référence officielle éloignée.",
+      "Valider la ressemblance faciale en vue rapprochée et la silhouette en profil de combat.",
+      "Produire gardes, attaques et animations ; ce fichier constitue une référence en pied statique."
+    ]
+  }
+}

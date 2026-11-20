@@ -1,0 +1,15 @@
+{
+  "id": "myrrah",
+  "name": "Reine Myrrah",
+  "prompt": "Queen Myrrah in her royal armor from Gears of War 3, preserving her recognizable adult human-looking face and pale blonde hair. Match her elaborate open-faced regal headpiece, fitted ornate red-brown and dark metallic armor, layered sculptural chest and shoulder forms, articulated arm protection, fitted waist, characteristic hip and leg armor and boots from that exact game costume. Preserve the original organic architectural ornament, the original coverage of the outfit and the proportions of the official production character. Upright poised posture, composed neutral expression, hair and ornamental pieces resting naturally. Do not use her Gears of War 2 gown, a youthful version, a modern fashion outfit, Queen Reyna, or a new generic fantasy queen design. Create exactly one full-body character as a neutral production model reference: standing at rest, weight balanced, shoulders relaxed, arms slightly separated from the torso, both empty hands visible and relaxed. Three-quarter view facing screen-right, turned enough toward profile for a readable side-view 2D silhouette. The complete head, feet, fingers and every costume extremity must fit inside the canvas with a generous transparent margin. Realistic hand-painted 2D UHD game art, anatomically and materially faithful to the named official game model, crisp readable contour, restrained even studio illumination. True transparent alpha background, including gaps between limbs. No text, captions, logos, interface, border, second character, alternate view, scenery, floor, pedestal, cast shadow, glow, particles, action, injury or violence. No handheld or attached weapons. Preserve the exact named episode costume rather than inventing a redesign or combining skins. This is a single calm unarmed reference pose.",
+  "source_game": "Gears of War 3",
+  "source_urls": [
+    "https://www.gearsofwar.com/en-us/games/gears-of-war-3/",
+    "https://news.xbox.com/en-us/2020/03/31/gears-5-operation-3-gridiron-available-today-for-all-players/",
+    "https://www.artstation.com/chriswells"
+  ],
+  "output_hint": null,
+  "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID caa9f1de-7e61-447a-b620-e581fd27e898.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+  "has_image": false,
+  "status": "not_generated"
+}

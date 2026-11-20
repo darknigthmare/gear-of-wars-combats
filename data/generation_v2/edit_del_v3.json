@@ -1,0 +1,11 @@
+{
+  "id": "del",
+  "prompt": "Edit the first image of Del Walker from Gears 5. The authoritative source is Del, the man kneeling on the LEFT in the second image; do not use the woman on the right. Preserve the individual full-body neutral empty-handed standing pose and likeness from image one. Correct only his chest armor modules and shoulder strap lighting to match Del's actual Gears 5 armor in image two. His two circular chest modules have dark recessed rectangular slotted grilles, not blank round discs or crescent inserts. Each shoulder strap has a long dense rectangular luminous panel formed by two longitudinal rows of small cyan/blue cells, not a short set of large transverse glowing bars. Match their frame shapes, panel proportions and integration with his chest plate. Keep his headband, hair, face, clothing, lower body, orientation and overall visual style. Render one character only, full body with margins, transparent background. Do not add guns, other characters, flames, scene or text.",
+  "referenced_image_paths": [
+    "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/del_reference_v2.png",
+    "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_refs/del_kait_g5_full.jpg"
+  ],
+  "status": "generated",
+  "output_hint": "Generated images are saved to /workspace/scratch/230d6e8ab6bb/generated_images as /workspace/scratch/230d6e8ab6bb/generated_images/exec-3bf9d9e3-8a2f-4169-ab01-cef36f449192.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "path": "assets/characters_v2/del_reference_v3.png"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "fahz",
+  "name": "Fahz Chutani",
+  "prompt": "Fahz Chutani from Gears 5 in his regular COG campaign armor. Adult muscular man with his recognisable South-Asian-looking face, medium brown skin, short dark mohawk with closely shaved sides, shaped dark beard and the compact red-orange tinted wraparound tactical eyewear associated with his campaign model. Reproduce the blue-grey and dark gunmetal COG armor with luminous blue accents, heavy chest plates, distinct shoulder equipment, practical military pouches, reinforced trousers and forearm guards. Retain his canonical mechanical prosthesis on the anatomical RIGHT lower leg, below the knee, with a complete functional mechanical foot and intact clothing connection; his left leg remains the normal armored leg. It is an ordinary integrated assistive limb, not an injury scene, and must not be mirrored to the other side. Keep his confident facial structure but use a neutral closed mouth and relaxed stance. Follow the Gears 5 character model rather than the actor’s civilian appearance, a generic sci-fi soldier or an older Dom costume. Create exactly one adult character, alone, full body from the top of the head to both complete boot soles, centered with clear transparent margin around the silhouette. Neutral relaxed standing pose, three-quarter turn toward screen right, clearly readable as a side-view 2D fighting-game character; both arms resting slightly away from the torso, hands visibly empty and relaxed, legs comfortably separated, neutral closed-mouth expression. Respect the character’s original anatomy and game proportions. Realistic hand-painted 2D production illustration with UHD-level material detail, crisp clean contour and controlled soft lighting; no cartoon, no cel shading, no photograph, no plastic miniature. The background must be truly transparent with an alpha channel. No background color, scenery, floor, pedestal, ground plane, cast shadow outside the silhouette, text, caption, UI, watermark, duplicates, inset portrait, alternate view, held weapon, slung weapon, violence, blood, fresh wounds or exposed tissue. This is a single reusable neutral character cutout, not a poster or action scene.",
+  "source_game": "Gears 5",
+  "source_urls": [
+    "https://news.xbox.com/en-us/2019/06/11/e3-2019-rahul-kohli-of-izombie-joins-cast-of-gears-5/",
+    "https://bananachu.artstation.com/projects/rRYQ9O",
+    "https://bananachu.artstation.com/resume",
+    "https://kenha604.artstation.com/projects/6a0OvV",
+    "https://gearsofwar.fandom.com/wiki/Fahz_Chutani"
+  ],
+  "output_hint": null,
+  "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 6184bdd0-9704-4900-a2b9-6b280f9b5839.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+  "has_image": false,
+  "status": "not_generated"
+}

@@ -1,0 +1,119 @@
+{
+  "id": "swarm_drone",
+  "asset_path": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/swarm_drone_reference_v2.png",
+  "sha256": "e5988ddd8831be2962b7596f02cdb957d51230026cb41e35312dbc10f97340e0",
+  "inspection": "PNG ouvert en taille native via view_image et canal RGBA inspecté par Pillow ; aucune modification de l’image.",
+  "overall_status": "interpretation_approximative_fidelite_non_validee",
+  "subject_recognizable": {
+    "status": "partial",
+    "observation": "Créature Essaim plausible par la peau organique orange-brun, le gabarit massif et l’équipement léger. La variante Rifle exacte de Gears 4 reste non certifiée."
+  },
+  "full_silhouette": {
+    "status": "pass",
+    "observation": "Tête, mains et deux pieds complets visibles ; aucune extrémité coupée.",
+    "substantial_alpha_bbox": [
+      131,
+      13,
+      886,
+      1516
+    ],
+    "margin_px_alpha_ge_128": {
+      "left": 131,
+      "top": 13,
+      "right": 138,
+      "bottom": 20
+    }
+  },
+  "one_pose": {
+    "status": "pass",
+    "observation": "Un personnage, une pose, aucun doublon ni encart."
+  },
+  "angle": {
+    "status": "pass",
+    "observation": "Trois-quarts orienté vers la droite ; visage et torse lisibles."
+  },
+  "empty_hands": {
+    "status": "pass",
+    "observation": "Deux mains vides et relâchées ; aucun objet tenu."
+  },
+  "neutral_presentation": {
+    "status": "pass",
+    "observation": "Personnage au repos ; aucune action, blessure ou violence."
+  },
+  "alpha": {
+    "mode": "RGBA",
+    "size_px": [
+      1024,
+      1536
+    ],
+    "min": 0,
+    "max": 254,
+    "alpha_zero_pixels": 943254,
+    "alpha_zero_fraction": 0.599705,
+    "pixels_alpha_1_to_15": 35276,
+    "substantial_alpha_bbox": [
+      131,
+      13,
+      886,
+      1516
+    ],
+    "all_nonzero_alpha_bbox": [
+      0,
+      0,
+      1010,
+      1536
+    ],
+    "corner_samples_rgba": {
+      "(0, 0)": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "(1023, 0)": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "(0, 1535)": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "(1023, 1535)": [
+        1,
+        2,
+        1,
+        0
+      ]
+    },
+    "interpretation": "Le RGB de fond affiché n’implique pas un fond opaque. Fond transparent vérifié aux coins ; maximum alpha 254 accepté comme comportement du générateur. Aucun nettoyage effectué."
+  },
+  "visible_defects": [
+    {
+      "severity": "review",
+      "area": "tete",
+      "observation": "Forme de tête, dents basses épaisses et nombreuses excroissances crâniennes doivent être comparées au modèle Rifle ; ne pas accepter la seule couleur orangée comme preuve d’identité."
+    },
+    {
+      "severity": "review",
+      "area": "equipement",
+      "observation": "Bandoulière unique, poches de hanche, cordes aux cuisses et loques rouges ont une cohérence visuelle mais leur agencement exact n’est pas documenté dans cette vue."
+    }
+  ],
+  "fidelity_uncertified": [
+    "Tête et morphologie Rifle, différenciation Grenadier/Elite/Hunter.",
+    "Topologie et implantation de la matière orange dure sur le dos et les épaules.",
+    "Bande de torse, poches, boucles, tissu de taille et sangles des jambes.",
+    "Nombre exact de doigts/orteils et proportions face/cou/torse."
+  ],
+  "source_urls": [
+    "https://www.gearsofwar.com/en-us/games/gears-of-war-4/",
+    "https://haiweihou.artstation.com/projects/WrZXJ"
+  ],
+  "source_limits": "Le portfolio de production identifie une vue Rifle séparée des autres variantes. Aucune comparaison détaillée et directement visualisée avec cette vue n’est revendiquée ici.",
+  "image_modified": false,
+  "generation_or_retry_performed": false
+}

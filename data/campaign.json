@@ -1,0 +1,571 @@
+[
+  {
+    "id": "chapter_01",
+    "order": 1,
+    "title": "Le témoignage de Kilo",
+    "source_game": "Gears of War Judgment",
+    "priority": "P1",
+    "content_status": "Scénario écrit et rencontres spécifiées ; cinématiques et combats à produire",
+    "narrative_mode": "Anthologie, épisodes indépendants reliés par un menu d’archives ; aucune machine temporelle ajoutée au canon",
+    "playable_characters": [
+      "Damon Baird jeune",
+      "Augustus Cole jeune",
+      "Garron Paduk Judgment",
+      "Sofia Hendrik"
+    ],
+    "stage_ids": [
+      "stage_halvo_plaza"
+    ],
+    "boss_ids": [
+      "boss_shibboleth"
+    ],
+    "rival": "Karn",
+    "intro_original": "Carton « Archives de Halvo Bay ». La salle du tribunal reste en silhouette, puis la caméra rejoint la place assiégée. Baird : « On pourra discuter des ordres quand ces rues seront vides. » Sofia : « Alors il faut leur ouvrir un passage. »",
+    "combat_sequence": [
+      "Apprentissage du déplacement et de la garde contre deux groupes Locust représentés par des duels successifs.",
+      "Duel contre Theron avec objectif facultatif de protection du couloir d’évacuation.",
+      "Confrontation scénarisée avec Karn, immédiatement suivie de Shibboleth en trois phases."
+    ],
+    "rival_scene_original": "Karn apparaît sur sa monture ; aucune descente inventée ne lui impose un duel humain. Paduk observe la patte mécanique. Baird : « C’est là qu’on commence. » L’interface présente les parties ciblables.",
+    "ending_original": "La caméra s’éloigne des débris de la place. La conclusion rejoint le cadre du témoignage et la résolution de Judgment, sans faire de Baird l’auteur d’un geste attribué à Loomis dans le jeu. Une carte débloquée permet de revoir les choix de Kilo.",
+    "canon_guard": "Judgment demeure un récit de Kilo. Marcus et Dom peuvent visiter ce décor uniquement en Exhibition. Le sort final de Karn reste celui du jeu-source.",
+    "optional_objective": "Terminer une phase sans laisser les renforts atteindre la sortie de la place.",
+    "reward": "Scène de la place, chronologie Judgment et défi Karn.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-of-war-judgment/",
+      "https://gearsofwar.fandom.com/wiki/Destruction_of_Halvo_Bay"
+    ],
+    "dialogue_status": "Dialogues et mise en scène écrits pour cette adaptation ; aucune réplique présentée comme citation des jeux",
+    "checkpoints": "Avant le premier combat, avant le rival, à chaque seuil de boss en mode histoire ; reprise de rencontre intégrale en défi expert",
+    "free_roster_rule": "Le menu Exhibition permet tous les combattants. La lecture Histoire conserve les personnages et costumes de cette époque.",
+    "duration_target_minutes": [
+      18,
+      30
+    ],
+    "duration_status": "Budget de conception, non mesuré en jeu"
+  },
+  {
+    "id": "chapter_02",
+    "order": 2,
+    "title": "La fabrique des monstres",
+    "source_game": "Gears Tactics",
+    "priority": "P1",
+    "content_status": "Scénario écrit et rencontres spécifiées ; cinématiques et combats à produire",
+    "narrative_mode": "Anthologie, épisodes indépendants reliés par un menu d’archives ; aucune machine temporelle ajoutée au canon",
+    "playable_characters": [
+      "Gabe Diaz",
+      "Sid Redburn",
+      "Mikayla Dorn"
+    ],
+    "stage_ids": [
+      "stage_tactics_depot",
+      "stage_tactics_lab"
+    ],
+    "boss_ids": [
+      "boss_brumak",
+      "boss_corpser",
+      "boss_hydra_ukkon"
+    ],
+    "rival": "Ukkon",
+    "intro_original": "Une photographie de reconnaissance occupe le centre de l’écran. Gabe la retourne : la silhouette d’une installation est esquissée sur son dos. Gabe : « On coupe sa production ici. » Mikayla : « Et on n’oublie pas ceux qui restent à l’intérieur. »",
+    "combat_sequence": [
+      "Duels de reconnaissance contre Drone, Grenadier et Kantus ; ordre libre parmi deux accès, rejoignant le même objectif.",
+      "Brumak dans la cour de ravitaillement en reconstitution de combat, puis transition d’archives.",
+      "Corpser dans une arène de Tactics à valider visuellement ; la variante de laboratoire reste réservée au mode libre.",
+      "Assaut du laboratoire et Hydra d’Ukkon ; fin de la chasse à Ukkon en vignette distincte."
+    ],
+    "rival_scene_original": "Ukkon se tient dans un poste protégé, à son échelle normale. Les conduites se mettent en marche. Gabe : « Il n’a plus d’endroit où envoyer ses créations. » Le duel verbal sert de transition vers le boss, sans mutation géante ajoutée.",
+    "ending_original": "Le laboratoire se tait et l’escouade se rassemble. Les documents retrouvés rejoignent les archives ; le menu conserve l’issue de Tactics et ne prétend pas que cette opération a empêché les événements des épisodes suivants.",
+    "canon_guard": "Le groupe appartient à l’époque Tactics. La Reyna de ce chapitre est Reyna Torres dans cette période, jamais la reine de l’Essaim. L’exécution narrative d’Ukkon est conservée dans le montage source à valider.",
+    "optional_objective": "Désactiver un module de chaque boss avant de franchir son premier seuil de phase.",
+    "reward": "Dossiers des créations d’Ukkon et défis séparés des trois boss.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/",
+      "https://www.gearsofwar.com/en-us/news/dev-blog-bosses/",
+      "https://gearsofwar.fandom.com/wiki/Gears_Tactics"
+    ],
+    "dialogue_status": "Dialogues et mise en scène écrits pour cette adaptation ; aucune réplique présentée comme citation des jeux",
+    "checkpoints": "Avant le premier combat, avant le rival, à chaque seuil de boss en mode histoire ; reprise de rencontre intégrale en défi expert",
+    "free_roster_rule": "Le menu Exhibition permet tous les combattants. La lecture Histoire conserve les personnages et costumes de cette époque.",
+    "duration_target_minutes": [
+      18,
+      30
+    ],
+    "duration_status": "Budget de conception, non mesuré en jeu",
+    "narrative_characters": [
+      "Reyna Torres Tactics"
+    ],
+    "additional_roster_requirement": "La Reyna humaine intervient comme personnage narratif. Sa version jouable demanderait une fiche supplémentaire, distincte de Reine Reyna."
+  },
+  {
+    "id": "chapter_03",
+    "order": 3,
+    "title": "Les premières lignes de Delta",
+    "source_game": "Gears of War 2006",
+    "priority": "P0",
+    "content_status": "Scénario écrit et rencontres spécifiées ; cinématiques et combats à produire",
+    "narrative_mode": "Anthologie, épisodes indépendants reliés par un menu d’archives ; aucune machine temporelle ajoutée au canon",
+    "playable_characters": [
+      "Marcus Fenix Gears 1",
+      "Dominic Santiago Gears 1",
+      "Damon Baird Gears 1",
+      "Augustus Cole Gears 1"
+    ],
+    "stage_ids": [
+      "stage_sovereigns",
+      "stage_fenix_estate"
+    ],
+    "boss_ids": [
+      "boss_berserker"
+    ],
+    "rival": "Theron Guard",
+    "intro_original": "Le bruit d’un Lancer en cours de vérification ouvre la scène. Delta traverse la cour de la House of Sovereigns. Dom : « Le prochain passage est couvert. » Marcus : « Alors on le dégage ensemble. »",
+    "combat_sequence": [
+      "Trois duels pédagogiques : Drone pour la garde, Grenadier pour la distance, Theron pour les projectiles chargés.",
+      "Berserker dans une séquence de chasse avec mise à disposition du marqueur orbital.",
+      "Interlude au domaine Fenix, suivi d’un duel de contrôle d’espace contre un Theron."
+    ],
+    "rival_scene_original": "Un Theron se positionne derrière un mur brisé et arme son arc. Marcus observe l’ouverture entre deux colonnes. La caméra insiste sur la charge du Torque Bow pour annoncer le rythme du duel.",
+    "ending_original": "Delta récupère les informations nécessaires à la poursuite de sa mission. Une transition de carte conduit vers le rail et le Tyro Pillar. L’ending montre le groupe quittant les lieux, sans ajouter une victoire définitive contre la Horde.",
+    "canon_guard": "La House of Sovereigns et le domaine sont deux lieux distincts et séparés par une ellipse explicite. Les armures, visages et armes suivent la version Gears 1 choisie, pas un mélange de skins.",
+    "optional_objective": "Réussir un rechargement actif après avoir provoqué une charge de Berserker manquée.",
+    "reward": "Défi de chasse Berserker et galerie du domaine Fenix.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-of-war/",
+      "https://gearsofwar.fandom.com/wiki/Mission_to_House_of_Sovereigns",
+      "https://gearsofwar.fandom.com/wiki/Haldane_Hall"
+    ],
+    "dialogue_status": "Dialogues et mise en scène écrits pour cette adaptation ; aucune réplique présentée comme citation des jeux",
+    "checkpoints": "Avant le premier combat, avant le rival, à chaque seuil de boss en mode histoire ; reprise de rencontre intégrale en défi expert",
+    "free_roster_rule": "Le menu Exhibition permet tous les combattants. La lecture Histoire conserve les personnages et costumes de cette époque.",
+    "duration_target_minutes": [
+      18,
+      30
+    ],
+    "duration_status": "Budget de conception, non mesuré en jeu"
+  },
+  {
+    "id": "chapter_04",
+    "order": 4,
+    "title": "Le dernier wagon",
+    "source_game": "Gears of War 2006",
+    "priority": "P0",
+    "content_status": "Scénario écrit et rencontres spécifiées ; cinématiques et combats à produire",
+    "narrative_mode": "Anthologie, épisodes indépendants reliés par un menu d’archives ; aucune machine temporelle ajoutée au canon",
+    "playable_characters": [
+      "Marcus Fenix Gears 1",
+      "Dominic Santiago Gears 1"
+    ],
+    "stage_ids": [
+      "stage_tyro_pillar"
+    ],
+    "boss_ids": [],
+    "rival": "Général RAAM",
+    "intro_original": "Le paysage file sous la lune ; le personnage vérifie son arme, puis regarde la plateforme suivante. Dom : « Plus beaucoup de train devant nous. » Marcus : « Il nous reste le nécessaire. »",
+    "combat_sequence": [
+      "Duel contre un Grenadier sur une plateforme stable.",
+      "Défi de déplacement entre zones de lumière, présenté comme exercice avant le combat principal.",
+      "Rival RAAM, avec protection Kryll spécifiée dans son moveset et sources du roster ; deux rounds de duel boss humain."
+    ],
+    "rival_scene_original": "RAAM apparaît à l’extrémité du wagon, sans dialogue obligatoire. Une lumière vacillante révèle son armure puis se stabilise. Marcus prend place ; le jeu rend immédiatement la main, sans long duel cinématique.",
+    "ending_original": "Le train s’éloigne dans la séquence de conclusion choisie. Marcus et Dom se retrouvent dans le plan d’extraction ; le menu ferme le dossier du premier jeu et ouvre celui de l’offensive des profondeurs.",
+    "canon_guard": "RAAM reste un boss de duel à taille de personnage élargie, pas un véhicule. Les Kryll et la lumière ne créent pas de dégâts aléatoires en tournoi. Le montage final ne remplace pas les événements de Gears 1.",
+    "optional_objective": "Finir le rival après avoir brisé sa défense Kryll selon la mécanique spécifiée, sans dégâts de lumière résiduels.",
+    "reward": "Ending Delta et variante nuit du Tyro Pillar.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-of-war/",
+      "https://gearsofwar.fandom.com/wiki/Battle_on_the_Tyro_Pillar"
+    ],
+    "dialogue_status": "Dialogues et mise en scène écrits pour cette adaptation ; aucune réplique présentée comme citation des jeux",
+    "checkpoints": "Avant le premier combat, avant le rival, à chaque seuil de boss en mode histoire ; reprise de rencontre intégrale en défi expert",
+    "free_roster_rule": "Le menu Exhibition permet tous les combattants. La lecture Histoire conserve les personnages et costumes de cette époque.",
+    "duration_target_minutes": [
+      18,
+      30
+    ],
+    "duration_status": "Budget de conception, non mesuré en jeu"
+  },
+  {
+    "id": "chapter_05",
+    "order": 5,
+    "title": "L’offensive des profondeurs",
+    "source_game": "Gears of War 2",
+    "priority": "P1",
+    "content_status": "Scénario écrit et rencontres spécifiées ; cinématiques et combats à produire",
+    "narrative_mode": "Anthologie, épisodes indépendants reliés par un menu d’archives ; aucune machine temporelle ajoutée au canon",
+    "playable_characters": [
+      "Marcus Fenix Gears 2",
+      "Dominic Santiago Gears 2",
+      "Damon Baird Gears 2",
+      "Augustus Cole Gears 2"
+    ],
+    "stage_ids": [
+      "stage_hollow",
+      "stage_hollow_lake"
+    ],
+    "boss_ids": [
+      "boss_reaver",
+      "boss_leviathan"
+    ],
+    "rival": "Skorge",
+    "intro_original": "Un Grindlift perce la roche au fond, puis le cadre se fixe sur la corniche. Baird : « La descente était la partie facile. » Cole : « Tant mieux, on commençait à s’ennuyer. »",
+    "combat_sequence": [
+      "Duels contre Kantus et Theron pour enseigner l’interruption des soutiens et la gestion de l’espace.",
+      "Boss Reaver avec première phase au sol, afin d’enseigner la punition après atterrissage.",
+      "Ellipse explicitement titrée vers le lac souterrain, puis Leviathan.",
+      "Apparition narrative de Skorge annonçant le chapitre suivant ; son duel complet se joue dans le dossier de la fuite."
+    ],
+    "rival_scene_original": "Skorge traverse une passerelle distante, son bâton tronçonneuse lisible en silhouette. Aucun combat impossible à distance ne commence ; le rival est annoncé dans l’archive et suivi par une transition de lieu.",
+    "ending_original": "Le groupe franchit le lac et poursuit sa progression. L’image finale reste une porte ouverte vers la forteresse Locust ; elle ne montre pas une victoire anticipée sur Skorge.",
+    "canon_guard": "La succession resserre la campagne Gears 2 et indique chaque ellipse. Les lieux ne sont pas présentés comme contigus. Les personnages absents de la séquence source ne sont autorisés qu’en reconstitution libre.",
+    "optional_objective": "Intercepter un projectile de Reaver puis libérer deux prises de Leviathan sans subir de dégâts.",
+    "reward": "Décors des profondeurs et fiche d’étude des montures.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-of-war-2/",
+      "https://gearsofwar.fandom.com/wiki/Leviathan",
+      "https://gearsofwar.fandom.com/wiki/Hollow"
+    ],
+    "dialogue_status": "Dialogues et mise en scène écrits pour cette adaptation ; aucune réplique présentée comme citation des jeux",
+    "checkpoints": "Avant le premier combat, avant le rival, à chaque seuil de boss en mode histoire ; reprise de rencontre intégrale en défi expert",
+    "free_roster_rule": "Le menu Exhibition permet tous les combattants. La lecture Histoire conserve les personnages et costumes de cette époque.",
+    "duration_target_minutes": [
+      18,
+      30
+    ],
+    "duration_status": "Budget de conception, non mesuré en jeu"
+  },
+  {
+    "id": "chapter_06",
+    "order": 6,
+    "title": "La fuite et la chute",
+    "source_game": "Gears of War 2",
+    "priority": "P1",
+    "content_status": "Scénario écrit et rencontres spécifiées ; cinématiques et combats à produire",
+    "narrative_mode": "Anthologie, épisodes indépendants reliés par un menu d’archives ; aucune machine temporelle ajoutée au canon",
+    "playable_characters": [
+      "Marcus Fenix Gears 2",
+      "Dominic Santiago Gears 2",
+      "Damon Baird Gears 2",
+      "Augustus Cole Gears 2"
+    ],
+    "stage_ids": [
+      "stage_stromson",
+      "stage_jacinto"
+    ],
+    "boss_ids": [
+      "boss_hydra_skorge",
+      "boss_lambent_brumak"
+    ],
+    "rival": "Skorge",
+    "intro_original": "Carton « Après l’assaut de Nexus ». La caméra montre un passage déchiré et le bruit de l’Hydra arrive hors champ. Dom : « Il nous a retrouvés. » Marcus : « Cette fois, on termine la poursuite. »",
+    "combat_sequence": [
+      "Duel rival Skorge sur un cadrage de palais à produire ; utiliser le décor de forêt seulement dans la version d’exercice provisoire.",
+      "Boss Hydra de Skorge sur plateforme de poursuite stable.",
+      "Transition d’archives vers Jacinto, courte défense contre des Locusts, puis Brumak Lambent en siège."
+    ],
+    "rival_scene_original": "Le rival se conclut avant la poursuite. Skorge remonte sur sa monture dans la transition ; le combat change ensuite de cadrage et d’objectifs. Les deux rencontres restent dans des étapes séparées du menu.",
+    "ending_original": "La chute de Jacinto se déroule après la réussite du siège. L’ending privilégie la foule en évacuation et le silence de Delta plutôt qu’une célébration inventée ; une archive rappelle le coût de l’opération.",
+    "canon_guard": "Ne jamais déplacer le duel de Skorge canonique dans la forêt en mode Histoire. Le décor palais est une dépendance supplémentaire identifiée, hors des 24 scènes de cette première version.",
+    "optional_objective": "Terminer la poursuite avec au moins une intervention de soutien et réussir les trois désignations du siège.",
+    "reward": "Final Gears 2 et variantes Hydra et Brumak Lambent.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Hydra",
+      "https://gearsofwar.fandom.com/wiki/Sinking_of_Jacinto_City",
+      "https://gearsofwar.fandom.com/wiki/Gears_of_War_2"
+    ],
+    "dialogue_status": "Dialogues et mise en scène écrits pour cette adaptation ; aucune réplique présentée comme citation des jeux",
+    "checkpoints": "Avant le premier combat, avant le rival, à chaque seuil de boss en mode histoire ; reprise de rencontre intégrale en défi expert",
+    "free_roster_rule": "Le menu Exhibition permet tous les combattants. La lecture Histoire conserve les personnages et costumes de cette époque.",
+    "duration_target_minutes": [
+      18,
+      30
+    ],
+    "duration_status": "Budget de conception, non mesuré en jeu"
+  },
+  {
+    "id": "chapter_07",
+    "order": 7,
+    "title": "Tenir la ligne",
+    "source_game": "Gears of War 3",
+    "priority": "P1",
+    "content_status": "Scénario écrit et rencontres spécifiées ; cinématiques et combats à produire",
+    "narrative_mode": "Anthologie, épisodes indépendants reliés par un menu d’archives ; aucune machine temporelle ajoutée au canon",
+    "playable_characters": [
+      "Marcus Fenix Gears 3",
+      "Dominic Santiago Gears 3",
+      "Anya Stroud Gears 3",
+      "Samantha Byrne"
+    ],
+    "stage_ids": [
+      "stage_sovereign_deck",
+      "stage_anvil_gate"
+    ],
+    "boss_ids": [
+      "boss_lambent_leviathan",
+      "boss_lambent_berserker"
+    ],
+    "rival": "Berserker Lambent",
+    "intro_original": "Le soleil se lève sur un pont de navire. Anya vérifie une caisse de munitions pendant que Marcus surveille la mer. Anya : « On compte ceux qui peuvent encore se battre. » Marcus : « Et on veille sur les autres. »",
+    "combat_sequence": [
+      "Défense du pont contre un groupe de formes Lambent adapté à la production disponible.",
+      "Leviathan Lambent en boss de siège, puis ellipse vers Anvil Gate.",
+      "Duel de soutien contre Mauler ou Grenadier, puis Berserker Lambent."
+    ],
+    "rival_scene_original": "La Berserker traverse une porte de fond et s’arrête assez longtemps pour montrer sa poitrine. Le tutoriel de phase annonce que l’ouverture visuelle compte davantage que la puissance brute.",
+    "ending_original": "Anvil Gate tient pour cette rencontre. Le groupe se prépare à poursuivre sa route ; le carnet d’archives distingue cette défense des événements ultérieurs de Mercy, qui ne sont pas rejoués dans cette première sélection.",
+    "canon_guard": "Dom est présent ici avant Mercy. Il ne doit jamais être ajouté comme vivant à l’assaut d’Azura dans la lecture Histoire. Le Leviathan Lambent n’est pas le Leviathan de Gears 2.",
+    "optional_objective": "Protéger la jauge du pont dans le défi optionnel puis éviter toute trace de charge contaminée.",
+    "reward": "Archive Anvil Gate et dossier comparatif des variants Lambent.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-of-war-3/",
+      "https://gearsofwar.fandom.com/wiki/Lambent_Leviathan",
+      "https://gearsofwar.fandom.com/wiki/Battle_of_Anvil_Gate"
+    ],
+    "dialogue_status": "Dialogues et mise en scène écrits pour cette adaptation ; aucune réplique présentée comme citation des jeux",
+    "checkpoints": "Avant le premier combat, avant le rival, à chaque seuil de boss en mode histoire ; reprise de rencontre intégrale en défi expert",
+    "free_roster_rule": "Le menu Exhibition permet tous les combattants. La lecture Histoire conserve les personnages et costumes de cette époque.",
+    "duration_target_minutes": [
+      18,
+      30
+    ],
+    "duration_status": "Budget de conception, non mesuré en jeu"
+  },
+  {
+    "id": "chapter_08",
+    "order": 8,
+    "title": "La tour d’Azura",
+    "source_game": "Gears of War 3",
+    "priority": "P1",
+    "content_status": "Scénario écrit et rencontres spécifiées ; cinématiques et combats à produire",
+    "narrative_mode": "Anthologie, épisodes indépendants reliés par un menu d’archives ; aucune machine temporelle ajoutée au canon",
+    "playable_characters": [
+      "Marcus Fenix Gears 3",
+      "Anya Stroud Gears 3",
+      "Samantha Byrne",
+      "Clayton Carmine"
+    ],
+    "stage_ids": [
+      "stage_azura_tower"
+    ],
+    "boss_ids": [
+      "boss_tempest"
+    ],
+    "rival": "Reine Myrrah",
+    "intro_original": "La tour apparaît derrière la terrasse. Le son des armes se tait une seconde, puis une ombre traverse le soleil. Anya : « Nous avons encore une fenêtre. » Marcus : « On la garde ouverte. »",
+    "combat_sequence": [
+      "Duel contre Theron d’élite en approche de la tour.",
+      "Rivalité verbale avec Myrrah dans une vignette d’archives, sans duel au sol ajouté à cette chronologie.",
+      "Tempest et Myrrah en trois phases, avec protection d’objectif propre à cette mission."
+    ],
+    "rival_scene_original": "Myrrah reste sur le Tempest. La scène pose l’enjeu de la tour puis rend la main. Le choix de jouer Myrrah en personnage de duel demeure disponible dans Arcade et Exhibition, sans modifier cette scène.",
+    "ending_original": "La fin rejoint la conclusion de Gears 3. Marcus dépose son arme ; Anya rejoint le cadre. Les images restent un montage original discret qui conserve les pertes et le résultat du jeu-source.",
+    "canon_guard": "Pas de résurrection de Dom et pas de rencontre physique entre Kait et la Myrrah de Gears 3. Le combat de boss et la conclusion humaine de Myrrah sont deux étapes distinctes.",
+    "optional_objective": "Repousser chaque tentative de destruction de la tour avant la fin de son délai visible.",
+    "reward": "Ending Azura et récompense visuelle de campagne sans bonus PvP.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Tempest",
+      "https://gearsofwar.fandom.com/wiki/Battle_of_Azura",
+      "https://www.gearsofwar.com/en-us/games/gears-of-war-3/"
+    ],
+    "dialogue_status": "Dialogues et mise en scène écrits pour cette adaptation ; aucune réplique présentée comme citation des jeux",
+    "checkpoints": "Avant le premier combat, avant le rival, à chaque seuil de boss en mode histoire ; reprise de rencontre intégrale en défi expert",
+    "free_roster_rule": "Le menu Exhibition permet tous les combattants. La lecture Histoire conserve les personnages et costumes de cette époque.",
+    "duration_target_minutes": [
+      18,
+      30
+    ],
+    "duration_status": "Budget de conception, non mesuré en jeu"
+  },
+  {
+    "id": "chapter_09",
+    "order": 9,
+    "title": "Un nouvel ennemi",
+    "source_game": "Gears of War 4",
+    "priority": "P1",
+    "content_status": "Scénario écrit et rencontres spécifiées ; cinématiques et combats à produire",
+    "narrative_mode": "Anthologie, épisodes indépendants reliés par un menu d’archives ; aucune machine temporelle ajoutée au canon",
+    "playable_characters": [
+      "JD Fenix Gears 4",
+      "Kait Diaz Gears 4",
+      "Delmont Walker Gears 4"
+    ],
+    "stage_ids": [
+      "stage_settlement5",
+      "stage_swarm_hive"
+    ],
+    "boss_ids": [
+      "boss_kestrel",
+      "boss_snatcher",
+      "boss_carrier"
+    ],
+    "rival": "Snatcher",
+    "intro_original": "Une rue de colonie se ferme sous les ordres d’un système automatique. Del regarde les barrières. Del : « La sortie vient de changer de place. » JD : « Alors on lui en ouvre une autre. »",
+    "combat_sequence": [
+      "Duels contre des DeeBees dans la colonie, suivis du Kestrel.",
+      "Ellipse explicite vers la recherche des disparus ; exploration en vignettes, sans inventer une liaison directe entre colonie et ruche.",
+      "Carrier comme introduction aux projectiles organiques, puis Snatcher et mécanique de libération."
+    ],
+    "rival_scene_original": "Le Snatcher traverse le fond avec une silhouette enfermée dans sa poche. Kait avance d’un pas. Kait : « Il ne repart pas avec quelqu’un d’autre. » Le jeu annonce immédiatement la possibilité de délivrer une cible.",
+    "ending_original": "Les indices recueillis permettent de poursuivre vers le barrage. L’ending réserve la résolution de la quête de Reyna au chapitre suivant et n’invente pas de sauvetage réussi prématuré.",
+    "canon_guard": "Les DeeBees et le Kestrel appartiennent à la période Gears 4. Le combat contre les véhicules CGU habités reste dans les simulations ; il ne se glisse pas dans ce récit.",
+    "optional_objective": "Intercepter une rafale du Kestrel puis sortir d’une capture de Snatcher sans assistance automatique.",
+    "reward": "Bestiaire Essaim et variante de colonie.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Gears_of_War_4",
+      "https://gearsofwar.fandom.com/wiki/Kestrel",
+      "https://gearsofwar.fandom.com/wiki/Snatcher"
+    ],
+    "dialogue_status": "Dialogues et mise en scène écrits pour cette adaptation ; aucune réplique présentée comme citation des jeux",
+    "checkpoints": "Avant le premier combat, avant le rival, à chaque seuil de boss en mode histoire ; reprise de rencontre intégrale en défi expert",
+    "free_roster_rule": "Le menu Exhibition permet tous les combattants. La lecture Histoire conserve les personnages et costumes de cette époque.",
+    "duration_target_minutes": [
+      18,
+      30
+    ],
+    "duration_status": "Budget de conception, non mesuré en jeu"
+  },
+  {
+    "id": "chapter_10",
+    "order": 10,
+    "title": "Le barrage et la ruche",
+    "source_game": "Gears of War 4",
+    "priority": "P1",
+    "content_status": "Scénario écrit et rencontres spécifiées ; cinématiques et combats à produire",
+    "narrative_mode": "Anthologie, épisodes indépendants reliés par un menu d’archives ; aucune machine temporelle ajoutée au canon",
+    "playable_characters": [
+      "JD Fenix Gears 4",
+      "Kait Diaz Gears 4",
+      "Delmont Walker Gears 4",
+      "Marcus Fenix Gears 4"
+    ],
+    "stage_ids": [
+      "stage_tollen_dam"
+    ],
+    "boss_ids": [
+      "boss_swarmak",
+      "boss_hive_beast"
+    ],
+    "rival": "Hive Beast",
+    "intro_original": "Le barrage remplit le cadre. Une secousse détache de la poussière des passerelles. Marcus : « On sait maintenant ce qu’il y a derrière. » Kait : « Alors on continue. »",
+    "combat_sequence": [
+      "Duel d’accès contre un Drone de l’Essaim puis boss Swarmak.",
+      "Interlude présentant les outils de siège et leurs commandes communes à tous les combattants.",
+      "Hive Beast en grand cadrage ; séquence d’ancrage des tentacules et appui contextuel."
+    ],
+    "rival_scene_original": "La Hive Beast apparaît derrière le barrage. L’interface ne la réduit pas à une cible humanoïde : deux tentacules entrent dans le plan, puis une consigne précise la première prise à neutraliser.",
+    "ending_original": "Le récit rejoint les conséquences de la rencontre avec Reyna. Kait garde son point de vue, et l’archive ferme le chapitre sans prétendre résoudre les questions développées ensuite dans Gears 5.",
+    "canon_guard": "Le geste final canonique contre la Hive Beast doit être vérifié sur la séquence du jeu avant réalisation de la cinématique. Le prototype de désignation est identifié comme mécanique de substitution, pas reconstitution 1:1 déjà validée.",
+    "optional_objective": "Détruire toutes les poches nécessaires du Swarmak puis arrimer chaque tentacule en une fenêtre.",
+    "reward": "Final Gears 4 et galerie Tollen Dam.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Tollen_Dam",
+      "https://gearsofwar.fandom.com/wiki/Hive_Beast",
+      "https://gearsofwar.fandom.com/wiki/Gears_of_War_4"
+    ],
+    "dialogue_status": "Dialogues et mise en scène écrits pour cette adaptation ; aucune réplique présentée comme citation des jeux",
+    "checkpoints": "Avant le premier combat, avant le rival, à chaque seuil de boss en mode histoire ; reprise de rencontre intégrale en défi expert",
+    "free_roster_rule": "Le menu Exhibition permet tous les combattants. La lecture Histoire conserve les personnages et costumes de cette époque.",
+    "duration_target_minutes": [
+      18,
+      30
+    ],
+    "duration_status": "Budget de conception, non mesuré en jeu"
+  },
+  {
+    "id": "chapter_11",
+    "order": 11,
+    "title": "Les liens de Kait",
+    "source_game": "Gears 5",
+    "priority": "P1",
+    "content_status": "Scénario écrit et rencontres spécifiées ; cinématiques et combats à produire",
+    "narrative_mode": "Anthologie, épisodes indépendants reliés par un menu d’archives ; aucune machine temporelle ajoutée au canon",
+    "playable_characters": [
+      "Kait Diaz Gears 5",
+      "Delmont Walker Gears 5",
+      "JD Fenix Gears 5 selon scène",
+      "Fahz Chutani selon scène"
+    ],
+    "stage_ids": [
+      "stage_new_hope",
+      "stage_kadar_lab",
+      "stage_vasgar_airport",
+      "stage_new_ephyra"
+    ],
+    "boss_ids": [
+      "boss_matriarch",
+      "boss_flock",
+      "boss_kraken"
+    ],
+    "rival": "Matriarch puis confrontation à la reine de l’Essaim en vignette",
+    "intro_original": "Une trace de givre traverse un ancien panneau de laboratoire. Kait pose sa main sur une porte fermée. Kait : « Les réponses sont toujours derrière un verrou. » Del : « Cette fois, on reste ensemble pour l’ouvrir. »",
+    "combat_sequence": [
+      "Volet A : New Hope, duels de créatures et collecte d’archives, puis Matriarch au mont Kadar.",
+      "Volet B : changement d’époque interne signalé par carton Vasgar ; duel d’Essaim puis Flock en cadrage d’aéroport.",
+      "Volet C : nouvelle transition vers New Ephyra ; sélection explicite du choix narratif JD ou Del si le parcours reprend la fin de Gears 5.",
+      "Kraken en défense de rempart, après validation de la composition de l’escouade suivant le choix précédent."
+    ],
+    "rival_scene_original": "La Matriarch apparaît dans la chambre glacée ; les visions restent en périphérie. La scène de la reine de l’Essaim est séparée du combat et ne fusionne pas son apparence avec la Myrrah de Gears 3.",
+    "ending_original": "La défense de New Ephyra s’achève dans la continuité du choix enregistré. Le menu affiche l’ending correspondant, permet de revoir l’autre en mode Archives, et ne désigne pas une branche comme seule fin canonique.",
+    "canon_guard": "Pas de décision automatique sur JD ou Del ; pas de rencontre canonique entre Gears 5 Kait et RAAM. Le volet Kadar reste centré sur Kait et Del. Le sacrifice de Jack dans la conclusion source ne devient pas une victoire personnelle inventée d’un combattant libre.",
+    "optional_objective": "Geler la Matriarch sur trois zones distinctes, intercepter un Flock, puis repousser toutes les aspirations du Kraken.",
+    "reward": "Deux versions d’archive de fin et dossiers Kadar, Vasgar et rempart.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Gears_5",
+      "https://gearsofwar.fandom.com/wiki/Matriarch",
+      "https://gearsofwar.fandom.com/wiki/Kraken",
+      "https://www.gearsofwar.com/en-us/news/gears-5-launch-maps/"
+    ],
+    "dialogue_status": "Dialogues et mise en scène écrits pour cette adaptation ; aucune réplique présentée comme citation des jeux",
+    "checkpoints": "Avant le premier combat, avant le rival, à chaque seuil de boss en mode histoire ; reprise de rencontre intégrale en défi expert",
+    "free_roster_rule": "Le menu Exhibition permet tous les combattants. La lecture Histoire conserve les personnages et costumes de cette époque.",
+    "duration_target_minutes": [
+      35,
+      55
+    ],
+    "duration_status": "Budget de conception, non mesuré en jeu"
+  },
+  {
+    "id": "chapter_12",
+    "order": 12,
+    "title": "L’opération Scorpio",
+    "source_game": "Gears 5 Hivebusters",
+    "priority": "P1",
+    "content_status": "Scénario écrit et rencontres spécifiées ; cinématiques et combats à produire",
+    "narrative_mode": "Anthologie, épisodes indépendants reliés par un menu d’archives ; aucune machine temporelle ajoutée au canon",
+    "playable_characters": [
+      "Lahni Kaliso",
+      "Jeremiah Keegan",
+      "Leslie Mac Macallister"
+    ],
+    "stage_ids": [
+      "stage_galangi_beach",
+      "stage_galangi_volcano"
+    ],
+    "boss_ids": [
+      "boss_wakaatu"
+    ],
+    "rival": "Wakaatu",
+    "intro_original": "Les vagues arrivent sur une plage de Galangi. Mac vérifie son masque pendant que Lahni observe la lisière. Mac : « J’avais imaginé une arrivée moins discrète. » Keegan : « Gardons le bruit pour la sortie. »",
+    "combat_sequence": [
+      "Duels d’Essaim dans la lisière et découverte des capacités de coopération.",
+      "Séquence d’évasion avec une limite de temps optionnelle ; sans temps imposé dans le mode histoire accessible.",
+      "Wakaatu dans le décor volcanique, avec maîtrise du fouissement et du passage aérien."
+    ],
+    "rival_scene_original": "Le Wakaatu perce la brume derrière le sol de combat. Lahni suit son ombre plutôt que sa tête. Lahni : « Attendez qu’il choisisse sa sortie. » Le premier sillon apparaît et le contrôle est rendu.",
+    "ending_original": "Scorpio se regroupe à distance du danger. Une ultime image de Galangi referme le dossier, puis le joueur débloque un circuit de chasse coopératif libre avec les trois héros et tous les boss déjà rencontrés.",
+    "canon_guard": "Scorpio reste Lahni, Keegan et Mac dans le récit. Les capacités d’Escape ne sont pas distribuées rétroactivement à tous les soldats de Gears 1. La chronologie relative à Gears 5 est indiquée comme dossier parallèle, sans date inventée.",
+    "optional_objective": "Sauver un partenaire d’une attaque ciblée ou, en solo, provoquer deux émergences manquées sans perdre de santé.",
+    "reward": "Ending Scorpio, circuit Galangi et galerie Wakaatu.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/news/hivebusters/"
+    ],
+    "dialogue_status": "Dialogues et mise en scène écrits pour cette adaptation ; aucune réplique présentée comme citation des jeux",
+    "checkpoints": "Avant le premier combat, avant le rival, à chaque seuil de boss en mode histoire ; reprise de rencontre intégrale en défi expert",
+    "free_roster_rule": "Le menu Exhibition permet tous les combattants. La lecture Histoire conserve les personnages et costumes de cette époque.",
+    "duration_target_minutes": [
+      18,
+      30
+    ],
+    "duration_status": "Budget de conception, non mesuré en jeu"
+  }
+]

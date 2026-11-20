@@ -1,0 +1,150 @@
+{
+  "scope": "Références visuelles pour corriger les sorties réussies Kantus, Skorge et Queen Reyna. Aucune relance de demande refusée. Aucun montage ni modification d’image effectué par cet agent.",
+  "characters": [
+    {
+      "id": "kantus",
+      "references": [
+        {
+          "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_reference/kantus_gears2_model_2008.webp",
+          "sha256": "55ebd743ff90dae0c681b51a0f7525eebd5973f83fd08d635709316044b39864",
+          "image_url": "https://static.wikia.nocookie.net/gearsofwar/images/e/e3/Gears-of-war-2-20080625113926400_640w.jpg/revision/latest",
+          "source_page": "https://gearsofwar.fandom.com/wiki/Category:Images_of_Kantus",
+          "type": "rendu_modele_Gears_2_republication_secondaire",
+          "verification_scope": "Modèle de 2008 portant le filigrane IGN ; tête, col, anneaux, pans séparés, abdomen et cuisses visibles ; bas des jambes et pieds hors cadre.",
+          "pixels_modified": false
+        },
+        {
+          "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_reference/kantus_gears2_gameplay.webp",
+          "sha256": "205d387d932bc928a4393d9d4421da3c8886b104389ea4368b226241293b164e",
+          "image_url": "https://static.wikia.nocookie.net/gearsofwar/images/a/a0/Gow-2-kantus.jpg/revision/latest",
+          "source_page": "https://gearsofwar.fandom.com/wiki/Category:Images_of_Kantus",
+          "type": "capture_Gears_2_republication_secondaire",
+          "verification_scope": "Confirme casque, visage, grand col rigide et anneaux de poitrine ; vue du haut seulement. Arme tenue dans la référence à ne pas reproduire.",
+          "pixels_modified": false
+        },
+        {
+          "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_reference/kantus_gears2_full_concept_2008.webp",
+          "sha256": "b89dded5666d6e9f762180f3ab77b6d14b3687587021fd4fc19372745af5f647",
+          "image_url": "https://static.wikia.nocookie.net/gearsofwar/images/8/8b/Gears-of-war-2-20080625113906228_640w.jpg/revision/latest",
+          "source_page": "https://gearsofwar.fandom.com/wiki/Category:Images_of_Kantus",
+          "type": "concept_2008_corps_entier_republication_secondaire",
+          "verification_scope": "Corps entier, protections de jambes et pieds visibles ; dessin préparatoire, pas une certification du modèle de jeu final.",
+          "pixels_modified": false
+        },
+        {
+          "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_reference/kantus_gears2_gamerscore_2008.jpg",
+          "sha256": "367230ba801d463845c25b96f7fcf21aa34b2c1cdf71fc657e3fe5a0619c8a6f",
+          "image_url": "https://live.staticflickr.com/3163/3022163159_332380e008.jpg",
+          "source_page": "https://www.flickr.com/photos/gamerscore/3022163159/",
+          "type": "concept_promotionnel_2008",
+          "verification_scope": "Publication Gamerscore Blog du 11 novembre 2008, Gears of War 2 – Kantus Priest ; structure de casque, col, anneaux et deux longs pans. Coupe aux cuisses.",
+          "pixels_modified": false
+        }
+      ],
+      "corrections": [
+        "Remplacer la crête organique rejetée en arrière par le casque/couronne métallique très haut, étroit et vertical du modèle Gears 2 ; suivre son ouverture faciale.",
+        "Restituer l’épais col relevé qui encadre les côtés et l’arrière de la tête, avec une tenue sombre bleu-noir et des bordures métalliques cuivrées.",
+        "Restituer les deux grands anneaux symétriques sous la poitrine. Retirer l’unique anneau central fantaisiste.",
+        "Remplacer la robe frontale à losanges par deux longs pans étroits et séparés. Laisser l’abdomen visible entre eux conformément au rendu de 2008.",
+        "Conserver bras musclés nus, bandes de bras et avant-bras en suivant leur organisation visible, sans inventer de symboles géométriques.",
+        "Conserver pose neutre, orientation trois-quarts vers la droite, corps entier et mains vides. Ne pas reproduire les armes ou la pose d’action des références.",
+        "Maintenir une réserve sur jambes, chevilles, pieds et nombre d’orteils : la seule référence entière téléchargée est un concept, pas une capture du modèle final."
+      ]
+    },
+    {
+      "id": "skorge",
+      "references": [
+        {
+          "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_reference/skorge_gears2_waytoomanygames.jpg",
+          "sha256": "cb82d462abb6ac2e94021b7ef5c02ee870dd9993aac48ecd91c27c06c5f6b744",
+          "image_url": "https://waytoomany.games/wp-content/uploads/2018/11/Skorge.jpg",
+          "source_page": "https://waytoomany.games/2018/11/13/gears-of-war-2-a-ten-year-reunion/",
+          "type": "capture_campagne_Gears_2_republication_presse",
+          "verification_scope": "Capture 1920×1080 de la campagne : casque compact, visage, liens étroits de tête, plastron court, abdomen, plaques de bras et de jambes. Arme et posture exclues du transfert.",
+          "pixels_modified": false
+        },
+        {
+          "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_reference/skorge_gears2_model.webp",
+          "sha256": "e0bc5264174d6226b4cd66f18cd84d21284ea25f449c40049286b0505c4ffe12",
+          "image_url": "https://static.wikia.nocookie.net/gearsofwar/images/1/13/GoW2_Skorge.png/revision/latest",
+          "source_page": "https://gearsofwar.fandom.com/wiki/Skorge",
+          "type": "rendu_modele_campagne_republication_secondaire",
+          "verification_scope": "Détail complémentaire du casque, des lanières et du plastron de campagne ; pieds coupés, pose et arme non reprises.",
+          "pixels_modified": false
+        }
+      ],
+      "corrections": [
+        "Restituer le casque compact qui suit le crâne et son relief frontal ; supprimer l’énorme coque arrière percée d’ouvertures rondes.",
+        "Restituer la mâchoire du personnage visible sur la capture ; supprimer les trois très longues défenses pendantes inventées.",
+        "Remplacer les larges rubans brodés par les liens rouges étroits attachés au couvre-chef.",
+        "Restituer le plastron de campagne court suspendu par les sangles et laisser l’abdomen visible.",
+        "Supprimer la bande brodée continue allant du cou aux chevilles ; conserver séparément les pans de taille réellement visibles dans la référence.",
+        "Suivre la disposition des protections à pointes des avant-bras, des cuisses et des tibias ; ne pas substituer une tenue de prêtre générique.",
+        "Préserver pose neutre, mains vides et vue trois-quarts droite ; ne pas reproduire le saut ni l’arme de la capture."
+      ]
+    },
+    {
+      "id": "reyna",
+      "references": [
+        {
+          "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_reference/reyna_operation6_official.png",
+          "sha256": "62347d9b85bbd2dd15f3ce1b56d93e3cacdc2b546646ee433aed10229fc59386",
+          "image_url": "https://clan.fastly.steamstatic.com/images/35210771/85d6b70bdaa73fe7603ea7c0a70522e30962544e.png",
+          "source_page": "https://store.steampowered.com/news/posts/?appids=1097840&enddate=1615235906&feed=steam_community_announcements",
+          "type": "visuel_officiel_Operation_6",
+          "verification_scope": "Queen Reyna standard présentée le 23 février 2021 : visage, cheveux noirs, cristaux asymétriques, grand col/carapace dorsal, torse et départ des vrilles. Le bas du corps est coupé.",
+          "pixels_modified": false
+        },
+        {
+          "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_reference/reyna_g5_community_model.jpg",
+          "sha256": "6d575702435303da1fc3e00e8f000c449b74339c375025c29f0cf0987c12e3af",
+          "image_url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/7864f737-4d1d-40f6-af14-45a9c4dcc374/dgrvxhi-4d78cb6f-e6de-45ef-ac2f-f51d805063d1.jpg",
+          "source_page": "https://www.deviantart.com/jorn-k-nightmane/art/Queen-Reyna-Gears5-for-XPS-FBX-1014298182",
+          "type": "rendu_export_modele_communautaire",
+          "verification_scope": "Utiliser seulement la Queen Reyna standard de GAUCHE ; celle de droite est Blood Red. Corrobore les cheveux, amas cristallins, carapace et faisceaux de vrilles. Ce n’est pas une vue entière : extrémité inférieure hors cadre.",
+          "pixels_modified": false
+        }
+      ],
+      "corrections": [
+        "Suivre le modèle standard du visuel officiel Operation 6 et ignorer le skin Blood Red.",
+        "Retirer la couronne organique symétrique. Restituer les cheveux noirs longs et l’implantation asymétrique de cristaux jaunes/dorés sur le front et un côté du crâne.",
+        "Restituer la physionomie pâle et altérée visible sur la référence, avec yeux ambrés ; garder une expression calme au repos.",
+        "Reconstruire le grand col dorsal/carapace rouge-brun qui remonte derrière la tête et déborde nettement de part et d’autre des épaules.",
+        "Restituer les plaques organiques irrégulières du torse et la zone abdominale visible ; supprimer la cuirasse de reine décorative générée.",
+        "Remplacer la robe continue à ourlet par les faisceaux organiques distincts visibles depuis la taille. Ne pas certifier l’extrémité des membres inférieurs sans référence supplémentaire.",
+        "Conserver un seul personnage entier, mains vides relâchées, pose neutre et trois-quarts droite ; ne pas reproduire la gestuelle menaçante du visuel promotionnel."
+      ]
+    }
+  ],
+  "excluded_references": [
+    {
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_reference/kantus_gears2_concept_and_ingame_gamereactor.jpg",
+      "reason": "L’image est un concept de grenade, malgré la légende web Kantus. Ne pas utiliser."
+    },
+    {
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_reference/KantusHold.png",
+      "reason": "Vignette de bande dessinée, pas modèle Gears 2 ni vue de jambes."
+    },
+    {
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_reference/kantus_gears2_wiki.png",
+      "reason": "Portrait moderne aux caractéristiques de Gears 5 ; pas source suffisante du costume Gears 2."
+    },
+    {
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_reference/reyna_operation6_store.jpg",
+      "reason": "Image de Hoffman, pas de Queen Reyna."
+    },
+    {
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_reference/skorge_campaign_wiki.jpg",
+      "reason": "Probable photographie de figurine, non retenue comme référence précise du modèle final."
+    }
+  ],
+  "qa_files": [
+    "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/data/generation_v2/qa_baird.json",
+    "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/data/generation_v2/qa_locust_drone.json",
+    "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/data/generation_v2/qa_kantus.json",
+    "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/data/generation_v2/qa_skorge.json",
+    "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/data/generation_v2/qa_reyna.json",
+    "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/data/generation_v2/qa_swarm_drone.json",
+    "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/data/generation_v2/qa_grenadier.json"
+  ]
+}

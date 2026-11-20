@@ -1,0 +1,22 @@
+{
+  "id": "paduk",
+  "name": "Garron Paduk",
+  "prompt": "Garron Paduk in his original Gears of War Judgment Kilo Squad campaign appearance, a powerfully built adult veteran with a broad stern face, short receding dark hair, a little gray at the temples, and the characteristic healed burn scarring of his original face and exposed arms. The original worn olive and muted yellow UIR armor: a broad rounded chest plate, two large circular chest discs crossed by pale horizontal stripes, a high open armored collar, asymmetrical shoulder plates, exposed upper arms, heavy forearm armor and fingerless gloves. Dark military trousers, diagonal waist strap, a large round belt buckle, utilitarian hip pouches, substantial knee plates and armored shin-high boots. Reproduce the younger Judgment model, with neither the bald elderly Gears 5 head nor the Aftermath civilian clothing. Create exactly one adult fictional character, full body from the top of the head to the soles of both boots, in a calm neutral standing pose with empty relaxed hands and arms separated slightly from the torso. Three-quarter view facing screen right, close enough to a lateral view to read clearly as a 2D fighting-game character. Preserve anatomical left/right asymmetries when changing the view; do not simply mirror them. Realistic painted 2D character illustration with UHD-quality material detail, natural anatomy and a crisp clean silhouette. A fully transparent RGBA background, no scenery, floor, base, cast shadow outside the body, vignette, lettering, captions, logos, UI, borders, extra figures or alternate views. No held or slung weapons. Leave clear transparent padding around every extremity; no cropping.",
+  "source_game": "Gears of War Judgment",
+  "source_urls": [
+    "https://www.gearsofwar.com/en-gb/games/gears-of-war-judgment/",
+    "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/gears-judgement-co-op-69d808161b80b.jpg",
+    "https://www.maxon.net/es/article/creating-assets-for-epic-games-gears-of-war-judgment",
+    "https://geektyrant.com/news/2013/3/18/gears-of-war-judgement-kilo-squad-wallpapers.html",
+    "https://images.squarespace-cdn.com/content/51b3dc8ee4b051b96ceb10de/1372482095984-DXURZIMNBB4VMR6D07NR/gears_judgement_GPaduk_WP.jpg?format=1000w&content-type=image/jpeg"
+  ],
+  "output_hint": "Generated images are saved to /workspace/scratch/230d6e8ab6bb/generated_images as /workspace/scratch/230d6e8ab6bb/generated_images/exec-e0dfa0dc-14cc-4f9b-9299-49ca46603d36.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "error": null,
+  "has_image": true,
+  "status": "generated",
+  "path": "assets/characters_v2/paduk_reference_v2.png",
+  "width": 1024,
+  "height": 1536,
+  "alpha": true,
+  "sha256": "fd61ccaea1bdc2aaa96f75bc5f00c5c2c0cf9b87db7ffb0e0a087a25664aebf2"
+}

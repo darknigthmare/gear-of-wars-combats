@@ -1,0 +1,68 @@
+{
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-20",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "variant_relation": "target_version_candidate",
+  "category": "stage",
+  "source_game": "Gears 5 — Operation 5",
+  "purpose": "stage_master",
+  "id": "nexus_gears5_master_v8",
+  "subject_id": "stage_nexus_g5",
+  "name": "Nexus — galerie souterraine",
+  "variant": "Gears 5 — Operation 5, galerie souterraine adaptée au combat 2D",
+  "asset_path": "assets/stages_v8/nexus_gears5_master.png",
+  "prompt": "Use case: identity-preserve. Asset type: one widescreen raster master stage background for the Gears of War Combats 2D side-view fighting game. Accurately recreate the underground gallery of NEXUS from GEARS 5 OPERATION 5 shown in the two supplied final-game screenshots by level artist Adam Bodden. Reference 1 is the primary wide scene; reference 2 is a supplementary angle of the right-hand chamber. Preserve the exact observed environmental identity: huge ancient dark root-wrapped stone pillars, hanging thin roots and cobwebs, damp layered pale turquoise calcite ledges on the right, the blue-lit weathered cylindrical metal pod with its open square-panel doors and yellow vertical inner grille, wet almost-black stone ground with cool blue reflections, and orange torchlit Locust stone doorways in the distant left chamber. On the far left, retain the large irregular pale porous formations illuminated by strong yellow-green Imulsion light. Keep the blue pod on the right of the middle ground and the distant warm architecture to the left. Match the reference's severe cave darkness, fine moss and mineral textures, massive irregular pillars, warm yellow-green and orange depth lights contrasted with cool blue near light. Adapt the camera only as needed to a level side-view composition: continuous unobstructed horizontal damp stone floor across the lower 20 percent for two fighters, with the pod, ledges, columns and glowing formations all behind that combat plane. One coherent 16:9 wide panorama, realistic detailed game environment painting, no generic fantasy palace or invented machinery. No people, monsters, weapons, interface, text, portfolio footer, watermark, collage or split panels. This output is a single flattened background master; geometry is adapted for side-view combat and separate parallax layers are not implied.",
+  "sources": [
+    {
+      "page_url": "https://news.xbox.com/en-us/2020/11/17/gears-5-operation-5/",
+      "source_type": "official_publisher_announcement",
+      "scope": "Annonce officielle confirmant Nexus dans Operation 5, forteresse locuste sous le mont Kadar avec rivières d’Imulsion ; contexte documentaire, pas une image d’entrée.",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://abodden.artstation.com/projects/xJekrm",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/032/463/166/large/adam-bodden-gears-5-hollows-05.jpg?1606507322",
+      "source_type": "production_artist_portfolio",
+      "artist": "Adam Bodden — level art",
+      "scope": "Capture de production du niveau Nexus ; l’auteur indique son travail de terrain, set dressing et finition. Vue principale de la galerie humide, capsule bleue à droite et lueurs d’Imulsion à gauche.",
+      "visual_reference_used": true,
+      "reference_sha256": "755c8a5608d229839ce5e86922852492b50919dffa72bbb326a9de6ff27ae9fb"
+    },
+    {
+      "page_url": "https://abodden.artstation.com/projects/xJekrm",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/032/463/163/large/adam-bodden-gears-5-hollows-02.jpg?1606507305",
+      "source_type": "production_artist_portfolio",
+      "artist": "Adam Bodden — level art",
+      "scope": "Angle complémentaire de la capsule et des banquettes minérales ; image fournie au générateur pour contrôler matériaux, éclairage et volumes.",
+      "visual_reference_used": true,
+      "reference_sha256": "a52712f0f99bb36be6397b77ef7eed1ef7d86e9c0275802114df868357212610"
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_stage": true,
+    "transparent_background": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "observations": [
+      "Galerie souterraine humide, piliers irréguliers, racines et toiles suspendues, formations poreuses jaune-vert, architecture locuste à torches orange et capsule bleue présents.",
+      "Capsule à portes latérales et grille intérieure jaune positionnée à droite, sur des banquettes turquoise ; sol humide dégagé au premier plan.",
+      "La vue représente une galerie précise de Nexus documentée par le portfolio, pas la totalité de la map.",
+      "Le cadrage et les intervalles entre les structures ont été adaptés au combat 2D ; cette image ne valide pas une géométrie 1:1."
+    ],
+    "remaining_checks": [
+      "Contrôler les détails de la capsule, le réseau des racines, les motifs locustes et les rapports d’échelle avec des captures supplémentaires du niveau final.",
+      "Séparer l’arrière-plan architectural, les lueurs, les piliers, les minéraux, la capsule et le sol en calques de parallaxe.",
+      "Vérifier la lisibilité des combattants sur les zones sombres et définir l’échelle de la scène jouable."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "bytes": 2752121,
+    "sha256": "2bd8d215d6bbd957bee918af05bc67350ec6495aa97b25c965ae9b62b45f9db2"
+  }
+}

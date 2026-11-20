@@ -1,0 +1,55 @@
+{
+  "id": "deebee",
+  "name": "DeeBee",
+  "source_game": "Gears of War 4",
+  "prompt": "Exactly one standard DeeBee Shepherd robot from Gears of War 4, in its canonical intact security-unit chassis, standing upright at rest with both mechanical hands empty and relaxed. Keep the recognizable faceless rectangular robotic head and its clustered small indicator lenses, compact humanoid proportions, worn silver-gray metal armor with dark navy coverings, paired circular louvered chest housings, exposed mechanical neck, elbows, hips and knees, articulated metal fingers and substantial mechanical feet. Use restrained amber-yellow security-state indicators for this neutral Peacekeeper reference, not the blue recolor of a Gears 5 multiplayer teammate. Preserve the actual Shepherd panel layout, joint construction and symmetrical industrial body design; no human face, no flesh, no helmet added over the robot head, no large DR-1 body, no Deadeye-specific equipment and no Swarm corruption. Full chassis from head to both feet, three-quarter view facing screen right, readable from the side. Faithful realistic painted 2D game-asset illustration with UHD-quality materials and a sharp clean silhouette. Fully transparent RGBA background, no scene, floor, base, cast shadow outside the robot, typography, labels, UI, logos or extra robots. One robot and one view only, with clear padding around the head, fingertips and feet. No held or slung weapon and no active combat effects.",
+  "source_urls": [
+    "https://www.gearsofwar.com/en-us/games/gears-of-war-4/",
+    "https://primagames.com/eguides/gears-of-war-4-eguide/enemy-forces/deebees",
+    "https://www.artstation.com/artwork/LJO50",
+    "https://gearsofwar.fandom.com/wiki/Shepherd",
+    "https://www.deviantart.com/spartan22294/art/GoW4-DeeBees-Shepherd-739757915",
+    "https://vignette.wikia.nocookie.net/gearsofwar/images/2/23/DeeBee_concepto_01_GoW4.jpg/revision/latest?cb=20201006063735&path-prefix=es"
+  ],
+  "output_hint": "Generated images are saved to /workspace/scratch/1e1136701ce4/generated_images as /workspace/scratch/1e1136701ce4/generated_images/exec-60f7f561-3a39-47e8-a9b8-50c0a6286ba6.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "error": null,
+  "has_image": true,
+  "path": "assets/characters_v4/deebee_reference_v4.png",
+  "status": "generated_candidate",
+  "generated_at_utc": "2026-11-19T21:49:17.918Z",
+  "fidelity_check": "À contrôler",
+  "width": 1024,
+  "height": 1536,
+  "mode": "RGBA",
+  "alpha_min": 0,
+  "alpha_max": 254,
+  "sha256": "d269f5937c4ffc9d6415f8162b6c1002b615fe5cd87897e5fab58fe0b4cf834c",
+  "visual_notes": [
+    "Un seul DeeBee, vue trois-quarts vers la droite, mains vides, tête et pieds entiers.",
+    "Capteurs ambre et carénages bleu sombre, proportions générales reconnaissables.",
+    "Microgéométrie du visage et panneaux à comparer au modèle officiel ; fidélité 1:1 non certifiée.",
+    "Les pixels de fond échantillonnés autour du sujet sont réellement transparents (alpha=0) ; le halo de la prévisualisation correspond aux données RGB cachées. Vérifier uniquement les franges fines lors de l’intégration."
+  ],
+  "fully_transparent_pixels": 1045824,
+  "fully_opaque_pixels": 0,
+  "alpha_bbox": [
+    0,
+    14,
+    1010,
+    1508
+  ],
+  "alpha_visible_bbox_16": [
+    186,
+    17,
+    769,
+    1506
+  ],
+  "alpha_solid_bbox_128": [
+    187,
+    18,
+    769,
+    1505
+  ],
+  "has_transparency": true,
+  "technical_check": "PNG RGBA lisible et fond alpha=0 vérifiés ; marges et franges à vérifier en intégration."
+}

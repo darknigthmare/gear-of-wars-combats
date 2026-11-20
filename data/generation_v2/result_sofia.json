@@ -1,0 +1,22 @@
+{
+  "id": "sofia",
+  "name": "Sofia Hendrik",
+  "prompt": "Sofia Hendrik in her exact Gears of War Judgment Onyx Guard cadet campaign outfit: an athletic adult woman with her original auburn-red hair tied back, a side-swept fringe and loose face-framing strands. Her dark charcoal and gunmetal fitted Onyx armor, high fabric collar, compact rounded shoulder plates, two large sculpted oval chest panels, segmented waist armor, full-length dark sleeves, plated forearm guards, gloves, wide belt with circular buckle and original side pouches. Dark practical combat trousers, articulated knee guards and substantial armored boots. Maintain the authentic character face and functional military silhouette, with her head uncovered and no helmet in either hand. The outfit remains the Judgment cadet model, without later-game COG recolors or added decorative armor. Create exactly one adult fictional character, full body from the top of the head to the soles of both boots, in a calm neutral standing pose with empty relaxed hands and arms separated slightly from the torso. Three-quarter view facing screen right, close enough to a lateral view to read clearly as a 2D fighting-game character. Preserve anatomical left/right asymmetries when changing the view; do not simply mirror them. Realistic painted 2D character illustration with UHD-quality material detail, natural anatomy and a crisp clean silhouette. A fully transparent RGBA background, no scenery, floor, base, cast shadow outside the body, vignette, lettering, captions, logos, UI, borders, extra figures or alternate views. No held or slung weapons. Leave clear transparent padding around every extremity; no cropping.",
+  "source_game": "Gears of War Judgment",
+  "source_urls": [
+    "https://www.gearsofwar.com/en-gb/games/gears-of-war-judgment/",
+    "https://chriswells.artstation.com/projects/qQbnL",
+    "https://www.maxon.net/es/article/creating-assets-for-epic-games-gears-of-war-judgment",
+    "https://www.engadget.com/2012-06-13-the-testimony-of-damon-baird-in-gears-of-war-judgment.html",
+    "https://images.squarespace-cdn.com/content/51b3dc8ee4b051b96ceb10de/1372482096081-5T8L9239ZZUHRFYS67UX/gears_judgement_SHendrick_WP.jpg?content-type=image%2Fjpeg&format=1000w"
+  ],
+  "output_hint": "Generated images are saved to /workspace/scratch/230d6e8ab6bb/generated_images as /workspace/scratch/230d6e8ab6bb/generated_images/exec-6e2f0e27-0ed7-46e8-ac1c-d63d66e6f004.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "error": null,
+  "has_image": true,
+  "status": "generated",
+  "path": "assets/characters_v2/sofia_reference_v2.png",
+  "width": 1024,
+  "height": 1536,
+  "alpha": true,
+  "sha256": "d28228ef9fbbbce3c0ed2e79f7aae0bdb4c8ffe8cd7ce851d8a405ad1ea47d52"
+}

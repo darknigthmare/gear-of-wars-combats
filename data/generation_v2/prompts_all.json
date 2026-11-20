@@ -1,0 +1,853 @@
+[
+  {
+    "id": "dom",
+    "name": "Dominic Santiago",
+    "source_game": "Gears of War 2006",
+    "costume": "Armure de campagne du premier jeu — dom_skin_02",
+    "prompt": "Dominic “Dom” Santiago from the original Gears of War (2006), specifically his first-game campaign appearance. Adult muscular Latino-looking man with his recognisable broad, weathered face, short dark hair and close-cropped dark facial hair. Match the first-game Delta Squad official reference, where Dom is the rightmost soldier. Reproduce his individual dark charcoal and gunmetal COG campaign armor, compact blue illuminated armor details, large fitted chest plates, armored shoulders and forearms, practical waist and thigh equipment, dark olive-brown combat trousers, reinforced knees and heavy military boots. Keep Dom’s own face, armor panel layout and proportions distinct from Marcus. Use his short first-game hair and beard silhouette; do not age him into his long-haired, heavily bearded Gears 3 appearance. No bandana. Preserve the period-specific worn metal and fabric construction without mixing in Gears 5 or E-Day redesigns. Create exactly one adult character, alone, full body from the top of the head to both complete boot soles, centered with clear transparent margin around the silhouette. Neutral relaxed standing pose, three-quarter turn toward screen right, clearly readable as a side-view 2D fighting-game character; both arms resting slightly away from the torso, hands visibly empty and relaxed, legs comfortably separated, neutral closed-mouth expression. Respect the character’s original anatomy and game proportions. Realistic hand-painted 2D production illustration with UHD-level material detail, crisp clean contour and controlled soft lighting; no cartoon, no cel shading, no photograph, no plastic miniature. The background must be truly transparent with an alpha channel. No background color, scenery, floor, pedestal, ground plane, cast shadow outside the silhouette, text, caption, UI, watermark, duplicates, inset portrait, alternate view, held weapon, slung weapon, violence, blood or injuries. This is a single reusable neutral character cutout, not a poster or action scene.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-of-war/",
+      "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/gears-1-co-op-69d6e9d002b82.jpg"
+    ],
+    "visual_checklist": [
+      "Comparer au Dom situé à droite sur le visuel officiel Delta Squad du premier jeu.",
+      "Cheveux courts foncés et pilosité courte ; aucune silhouette de Dom Gears 3.",
+      "Visage, torse et proportions distincts de Marcus ; aucune bandana.",
+      "Armure sombre, détails lumineux bleus discrets, plaques de bras, poches et genouillères du premier épisode.",
+      "Orientation trois-quarts vers la droite, pose debout au repos et mains entièrement vides.",
+      "Un seul adulte entier, tête et semelles dans le cadre, contour propre.",
+      "Vérifier le canal alpha réel ; aucun sol, ombre extérieure, texte ou décor."
+    ],
+    "unresolved_details": [
+      "Le visuel officiel inspecté montre le devant et une vue oblique, pas un turnaround ; dos et côté opposé restent à comparer à une capture du jeu 2006.",
+      "La topologie exacte des petites boucles, coutures et marquages ne peut pas être certifiée sur cette seule image.",
+      "La fidélité 1:1 du résultat généré exige une comparaison visuelle après génération."
+    ]
+  },
+  {
+    "id": "baird",
+    "name": "Damon Baird",
+    "source_game": "Gears of War 3",
+    "costume": "Tenue de campagne Gears of War 3 — baird_skin_03",
+    "prompt": "Damon Baird from Gears of War 3, in his original Gears 3 campaign field outfit. Adult heavily built man with recognisable angular facial features, short blond hair, light facial stubble and his distinctive round-lensed blue mechanic goggles resting on his forehead above the eyes. Use the younger campaign Baird, not the grey-haired or bald older Gears 5 engineer. Reproduce the Gears 3 campaign arrangement of weathered dark blue-grey COG chest armor, blue armor lights, field clothing, utility belt and equipment pouches, reinforced combat trousers, knee armor, forearm protection and heavy boots. Keep the goggles, face and engineering-soldier silhouette recognisably Baird’s, while keeping the original Gears 3 armor design rather than importing his Judgment lieutenant uniform or later laboratory clothing. Materials should read as worn metal plates, woven military fabric, leather and rubber. Do not add tools to his hands. Create exactly one adult character, alone, full body from the top of the head to both complete boot soles, centered with clear transparent margin around the silhouette. Neutral relaxed standing pose, three-quarter turn toward screen right, clearly readable as a side-view 2D fighting-game character; both arms resting slightly away from the torso, hands visibly empty and relaxed, legs comfortably separated, neutral closed-mouth expression. Respect the character’s original anatomy and game proportions. Realistic hand-painted 2D production illustration with UHD-level material detail, crisp clean contour and controlled soft lighting; no cartoon, no cel shading, no photograph, no plastic miniature. The background must be truly transparent with an alpha channel. No background color, scenery, floor, pedestal, ground plane, cast shadow outside the silhouette, text, caption, UI, watermark, duplicates, inset portrait, alternate view, held weapon, slung weapon, violence, blood or injuries. This is a single reusable neutral character cutout, not a poster or action scene.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-of-war-3/",
+      "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/gears-of-war-3-69d7d9132411b-1024x576.jpg",
+      "https://www.xbox.com/en-US/games/store/gears-3-baird-multiplayer-character/C54DHPZWRBV5"
+    ],
+    "visual_checklist": [
+      "Baird blond de Gears 3, lunettes mécaniques sur le front et yeux dégagés.",
+      "Ne pas produire le Baird âgé de Gears 5 ni l’uniforme de lieutenant Judgment.",
+      "Comparer l’armure et les vêtements de campagne au visuel Gears 3 ; lumière bleue contrôlée.",
+      "Poches, protection des genoux et bottes doivent garder une silhouette militaire utilitaire.",
+      "Aucun outil ni arme dans les mains ; aucun second personnage.",
+      "Pose neutre orientée à droite, pieds complets et espace transparent périphérique.",
+      "Vérifier l’alpha réel et l’absence de texte, sol, ombre extérieure et UI."
+    ],
+    "unresolved_details": [
+      "Baird est petit dans la composition officielle Gears 3 ; le découpage précis des manches, sangles, plaques latérales et des bottes reste à comparer à une vue rapprochée du modèle du jeu.",
+      "La boutique officielle confirme le nom « Gears 3 Baird » mais sa vignette accessible est une illustration générique Judgment ; elle ne valide pas le costume à elle seule.",
+      "Aucune certification 1:1 avant confrontation du rendu avec des captures rapprochées Gears 3."
+    ]
+  },
+  {
+    "id": "cole",
+    "name": "Augustus Cole",
+    "source_game": "Gears of War 3",
+    "costume": "Tenue de campagne Gears of War 3 — cole_skin_02",
+    "prompt": "Augustus “Cole Train” Cole from Gears of War 3, wearing his regular Gears 3 campaign soldier outfit. Adult Black man with Cole’s recognisable broad face, short facial hair and exceptionally powerful, broad-shouldered athletic build. Use his campaign headwear and armor silhouette shown in the official Gears 3 key art: a close-fitting dark field cap, bulky weathered COG chest and shoulder equipment with restrained blue armor lights, exposed muscular upper-arm areas where appropriate to the campaign outfit, sturdy forearm protection, practical belt and pouches, reinforced combat trousers, knee guards and heavy boots. Preserve his original campaign clothing and imposing but believable game anatomy. This is regular campaign Cole, not Thrashball Cole, not Superstar Cole, not a sports uniform, not a helmeted athlete and not the older Gears 5 redesign. His face is calm and neutral rather than shouting or smiling broadly. Create exactly one adult character, alone, full body from the top of the head to both complete boot soles, centered with clear transparent margin around the silhouette. Neutral relaxed standing pose, three-quarter turn toward screen right, clearly readable as a side-view 2D fighting-game character; both arms resting slightly away from the torso, hands visibly empty and relaxed, legs comfortably separated, neutral closed-mouth expression. Respect the character’s original anatomy and game proportions. Realistic hand-painted 2D production illustration with UHD-level material detail, crisp clean contour and controlled soft lighting; no cartoon, no cel shading, no photograph, no plastic miniature. The background must be truly transparent with an alpha channel. No background color, scenery, floor, pedestal, ground plane, cast shadow outside the silhouette, text, caption, UI, watermark, duplicates, inset portrait, alternate view, held weapon, slung weapon, violence, blood or injuries. This is a single reusable neutral character cutout, not a poster or action scene.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-of-war-3/",
+      "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/gears-of-war-3-69d7d9132411b-1024x576.jpg",
+      "https://news.xbox.com/en-us/2020/03/31/gears-5-operation-3-gridiron-available-today-for-all-players/"
+    ],
+    "visual_checklist": [
+      "Identifier Cole à gauche dans le key art officiel Gears 3 ; garder sa morphologie et son visage propres.",
+      "Tenue militaire de campagne, sans casque, maillot ni accessoires de thrashball.",
+      "Coiffe de campagne, torse blindé et proportions des bras cohérents avec Gears 3.",
+      "Lumières bleues contenues ; matières métalliques et textiles distinctes.",
+      "Expression neutre, aucun cri, aucune attaque, aucune arme.",
+      "Un seul adulte entier, pose de repos trois-quarts vers la droite.",
+      "Pieds et tête intacts dans le cadre ; alpha réel sans sol ni ombre extérieure."
+    ],
+    "unresolved_details": [
+      "Le key art permet de contrôler la silhouette générale mais pas les détails fins de la coiffe, le panneau dorsal ni chaque sangle.",
+      "La page Opération 3 confirme le personnage ; son contenu Gears 5 ne sert pas de preuve pour le costume Gears 3.",
+      "La couleur exacte de la coiffe, les petites attaches et le découpage des protections restent à vérifier sur capture Gears 3 avant validation 1:1."
+    ]
+  },
+  {
+    "id": "anya",
+    "name": "Anya Stroud",
+    "source_game": "Gears of War 3",
+    "costume": "Tenue de combat de campagne Gears of War 3 — anya_skin_02",
+    "prompt": "Anya Stroud in her Gears of War 3 frontline campaign outfit, matching the female soldier on the right of the official Gears 3 cooperative-campaign screenshot. Adult athletic woman with Anya’s recognisable face, fair skin, blonde hair, side-swept fringe and loose face-framing strands following her Gears 3 hairstyle. Reproduce her fitted but practical gunmetal and grey COG field armor: distinctive rounded front chest plate, blue rectangular shoulder-strap lights, muted short-sleeved field underlayer, practical waist belt and pouches, reinforced dark combat trousers, knee and shin guards, armored forearms and heavy boots. Preserve the real campaign construction and modest military fit without exaggerating her body or armor shape. This is combat Anya from Gears 3, not her Gears 1 or 2 communications uniform, not civilian Anya and not a later memorial or ceremonial design. No headset invented from her control-room costume. Create exactly one adult character, alone, full body from the top of the head to both complete boot soles, centered with clear transparent margin around the silhouette. Neutral relaxed standing pose, three-quarter turn toward screen right, clearly readable as a side-view 2D fighting-game character; both arms resting slightly away from the torso, hands visibly empty and relaxed, legs comfortably separated, neutral closed-mouth expression. Respect the character’s original anatomy and game proportions. Realistic hand-painted 2D production illustration with UHD-level material detail, crisp clean contour and controlled soft lighting; no cartoon, no cel shading, no photograph, no plastic miniature. The background must be truly transparent with an alpha channel. No background color, scenery, floor, pedestal, ground plane, cast shadow outside the silhouette, text, caption, UI, watermark, duplicates, inset portrait, alternate view, held weapon, slung weapon, violence, blood or injuries. This is a single reusable neutral character cutout, not a poster or action scene.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-of-war-3/",
+      "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/gears-3-co-op-69d7d90d192e5.jpg",
+      "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/gears-of-war-3-69d7d9132411b-1024x576.jpg",
+      "https://www.xbox.com/en-US/games/store/anya-stroud-multiplayer-character/bw4rxp3skl2b"
+    ],
+    "visual_checklist": [
+      "Comparer directement à Anya à droite dans la capture officielle coop Gears 3.",
+      "Cheveux blonds avec mèche de côté et contour du visage conforme.",
+      "Plastron arrondi, deux éléments lumineux bleus aux bretelles et tenue de terrain.",
+      "Silhouette militaire fonctionnelle ; aucune fusion avec la tenue de contrôle ou une tenue civile.",
+      "Pas d’arme ni de casque de communication inventé, expression et posture neutres.",
+      "Tête et deux bottes complètes, orientation trois-quarts vers la droite.",
+      "Transparence alpha réelle, contour sans halo, aucun décor ou texte."
+    ],
+    "unresolved_details": [
+      "La capture avant ne montre pas entièrement la fixation des cheveux à l’arrière ni le dos de l’armure.",
+      "Les microdétails des fermetures, écussons et genouillères nécessitent une comparaison rapprochée.",
+      "La vignette du DLC Anya accessible sur Xbox réutilise une couverture générique Judgment ; seule la description officielle confirme le passage au front dans Gears 3."
+    ]
+  },
+  {
+    "id": "raam",
+    "name": "Général RAAM",
+    "source_game": "Gears of War 2006",
+    "costume": "Armure du combat final du premier jeu",
+    "prompt": "General RAAM, specifically the final-encounter costume and original proportions from Gears of War (2006). A massively built adult Locust commander with a large bald ridged head, pale grey nonhuman skin, deeply set eyes and heavy characteristic jaw. Preserve the original broad neck and shoulder mass, very heavy dark charcoal riveted plate armor, layered chest construction, armored forearms, broad waist with layered hanging lower armor, heavy leg protection and feet. The armor has the original worn dark metal and restrained reddish accents; keep its characteristic layered silhouette. Face calm and closed-mouthed, head held naturally. Do not substitute the newer Ultimate Edition head sculpt, gilded multiplayer skin or an ordinary Drone body. Create exactly one full-body character as a neutral production model reference: standing at rest, weight balanced, shoulders relaxed, arms slightly separated from the torso, both empty hands visible and relaxed. Three-quarter view facing screen-right, turned enough toward profile for a readable side-view 2D silhouette. The complete head, feet, fingers and every costume extremity must fit inside the canvas with a generous transparent margin. Realistic hand-painted 2D UHD game art, anatomically and materially faithful to the named official game model, crisp readable contour, restrained even studio illumination. True transparent alpha background, including gaps between limbs. No text, captions, logos, interface, border, second character, alternate view, scenery, floor, pedestal, cast shadow, glow, particles, action, injury or violence. No handheld or attached weapons. Preserve the exact named episode costume rather than inventing a redesign or combining skins. This is a single calm unarmed reference pose.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-of-war/",
+      "https://news.xbox.com/en-us/2019/10/16/all-new-heroes-and-villains-are-available-today-in-gears-5/",
+      "https://www.artstation.com/artwork/ay5Zk"
+    ],
+    "visual_checklist": [
+      "RAAM reconnaissable par la tête et le volume du premier jeu ; aucun Drone agrandi.",
+      "Armure noire à rivets et silhouette massive conformes à la tenue choisie.",
+      "Aucun Kryll ni effet ; tête, mains et pieds entiers.",
+      "Les deux mains sont vides, sans objet porté."
+    ],
+    "unresolved_details": [
+      "La page Xbox confirme RAAM mais illustre son retour dans Gears 5 ; elle ne valide pas à elle seule chaque plaque du modèle 2006.",
+      "Le portfolio du modeleur Jonathan Fletcher confirme que le modèle Ultimate Edition a été retravaillé : ne pas l’employer comme preuve 1:1 du visage 2006.",
+      "Dos, nombre exact de rivets, petites attaches, disposition des plaques et asymétries à contrôler sur captures du premier jeu.",
+      "Les images CDN officielles repérées ne sont pas directement inspectables dans cette recherche ; cette fiche reste une référence à valider visuellement, pas un modèle 1:1 certifié."
+    ]
+  },
+  {
+    "id": "skorge",
+    "name": "Skorge",
+    "source_game": "Gears of War 2",
+    "costume": "Équipement du duel dans le palais",
+    "prompt": "Skorge, the Kantus leader, wearing the campaign palace costume from Gears of War 2. Preserve his unusually tall lean nonhuman anatomy, elongated head and neck, characteristic headpiece and the reddish-brown leather strips trailing naturally from it. Use the campaign torso protection and distinctive spiked forearm and thigh armor, original straps and lower garments, preserving the exposed grey skin areas of the official costume. His body has a wiry sinewy construction rather than a bulky Drone torso. Armor ornaments remain stationary and part of the costume. Neutral resting expression and natural balanced posture. Do not use the simplified Gears of War 2 multiplayer model, standard Kantus vestments, Armored Kantus plating, Black Steel variant or an invented hairstyle. Create exactly one full-body character as a neutral production model reference: standing at rest, weight balanced, shoulders relaxed, arms slightly separated from the torso, both empty hands visible and relaxed. Three-quarter view facing screen-right, turned enough toward profile for a readable side-view 2D silhouette. The complete head, feet, fingers and every costume extremity must fit inside the canvas with a generous transparent margin. Realistic hand-painted 2D UHD game art, anatomically and materially faithful to the named official game model, crisp readable contour, restrained even studio illumination. True transparent alpha background, including gaps between limbs. No text, captions, logos, interface, border, second character, alternate view, scenery, floor, pedestal, cast shadow, glow, particles, action, injury or violence. No handheld or attached weapons. Preserve the exact named episode costume rather than inventing a redesign or combining skins. This is a single calm unarmed reference pose.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-of-war-2/",
+      "https://news.xbox.com/en-us/2020/11/17/gears-5-operation-5/",
+      "https://gearsofwar.fandom.com/wiki/Skorge"
+    ],
+    "visual_checklist": [
+      "Version campagne/palais : protections du torse, avant-bras et cuisses présentes.",
+      "Silhouette Kantus élancée et couvre-chef propre à Skorge.",
+      "Les bandes du couvre-chef restent des éléments de tenue, sans chevelure humaine inventée.",
+      "Aucun bâton, arme, effet ou geste offensif ; figurine de référence unique."
+    ],
+    "unresolved_details": [
+      "La source Xbox confirme le retour de Skorge et son origine Gears of War 2 ; le détail campagne/multijoueur est documenté ici par la source secondaire Gears Wiki et doit être comparé au jeu.",
+      "Le nombre et la longueur des bandes du couvre-chef et des pointes d’armure restent à vérifier sur vues rapprochées.",
+      "Ne pas reprendre automatiquement les proportions ou détails reconstruits pour Gears 4/Gears 5.",
+      "Le sens exact des asymétries et attaches n’est pas certifié par les textes consultés."
+    ]
+  },
+  {
+    "id": "myrrah",
+    "name": "Reine Myrrah",
+    "source_game": "Gears of War 3",
+    "costume": "Armure royale de Gears of War 3",
+    "prompt": "Queen Myrrah in her royal armor from Gears of War 3, preserving her recognizable adult human-looking face and pale blonde hair. Match her elaborate open-faced regal headpiece, fitted ornate red-brown and dark metallic armor, layered sculptural chest and shoulder forms, articulated arm protection, fitted waist, characteristic hip and leg armor and boots from that exact game costume. Preserve the original organic architectural ornament, the original coverage of the outfit and the proportions of the official production character. Upright poised posture, composed neutral expression, hair and ornamental pieces resting naturally. Do not use her Gears of War 2 gown, a youthful version, a modern fashion outfit, Queen Reyna, or a new generic fantasy queen design. Create exactly one full-body character as a neutral production model reference: standing at rest, weight balanced, shoulders relaxed, arms slightly separated from the torso, both empty hands visible and relaxed. Three-quarter view facing screen-right, turned enough toward profile for a readable side-view 2D silhouette. The complete head, feet, fingers and every costume extremity must fit inside the canvas with a generous transparent margin. Realistic hand-painted 2D UHD game art, anatomically and materially faithful to the named official game model, crisp readable contour, restrained even studio illumination. True transparent alpha background, including gaps between limbs. No text, captions, logos, interface, border, second character, alternate view, scenery, floor, pedestal, cast shadow, glow, particles, action, injury or violence. No handheld or attached weapons. Preserve the exact named episode costume rather than inventing a redesign or combining skins. This is a single calm unarmed reference pose.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-of-war-3/",
+      "https://news.xbox.com/en-us/2020/03/31/gears-5-operation-3-gridiron-available-today-for-all-players/",
+      "https://www.artstation.com/chriswells"
+    ],
+    "visual_checklist": [
+      "Visage humain adulte et cheveux clairs de Myrrah ; ne pas confondre Reyna.",
+      "Armure royale Gears of War 3, tête ouverte et ornements du costume ; aucune robe Gears 2.",
+      "Respect de la couverture et des volumes du costume officiel, sans ajout de peau exposée.",
+      "Toutes les extrémités du couvre-chef et du vêtement restent dans le cadre."
+    ],
+    "unresolved_details": [
+      "Chris Wells indique avoir modélisé et partiellement texturé Myrrah pour Gears of War 3 ; ses travaux de production sont la référence de détail pertinente.",
+      "Les longueurs des ornements arrière, la géométrie exacte du couvre-chef et les petites attaches nécessitent des vues de production rapprochées.",
+      "La page Xbox Operation 3 concerne Gears 5 et confirme l’identité ; elle ne suffit pas à certifier le costume Gears 3 pixel pour pixel.",
+      "La teinte métallique et la saturation doivent être comparées sous éclairage neutre ; aucune mesure colorimétrique officielle obtenue."
+    ]
+  },
+  {
+    "id": "locust_drone",
+    "name": "Drone locuste",
+    "source_game": "Gears of War 2006",
+    "costume": "Drone de base du premier jeu",
+    "prompt": "The standard Locust Drone from the original Gears of War (2006), with that exact basic infantry model and costume. Adult nonhuman humanoid, thick muscular build, bald grey rugged head, deep-set eyes, characteristic broad blunt jaw and textured grey skin. Preserve the original stocky proportions, dark heavy segmented torso armor, original shoulder and forearm protections, belt construction, worn dark lower garments and heavy armored lower legs. Preserve all original areas of exposed nonhuman skin and the recognizably practical, rugged Locust silhouette. Resting neutral closed mouth and relaxed fingers. This is the ordinary 2006 Drone: do not use a bare-chested Grenadier, helmeted Theron, Sniper, Disciple, Lambent variant, Swarm Drone or the E-Day redesign. Create exactly one full-body character as a neutral production model reference: standing at rest, weight balanced, shoulders relaxed, arms slightly separated from the torso, both empty hands visible and relaxed. Three-quarter view facing screen-right, turned enough toward profile for a readable side-view 2D silhouette. The complete head, feet, fingers and every costume extremity must fit inside the canvas with a generous transparent margin. Realistic hand-painted 2D UHD game art, anatomically and materially faithful to the named official game model, crisp readable contour, restrained even studio illumination. True transparent alpha background, including gaps between limbs. No text, captions, logos, interface, border, second character, alternate view, scenery, floor, pedestal, cast shadow, glow, particles, action, injury or violence. No handheld or attached weapons. Preserve the exact named episode costume rather than inventing a redesign or combining skins. This is a single calm unarmed reference pose.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-of-war/",
+      "https://news.xbox.com/en-us/2019/12/11/gears-5-operation-2-free-for-all-available-today-for-all-players/",
+      "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/"
+    ],
+    "visual_checklist": [
+      "Drone locuste standard Gears of War 2006 ; aucun assemblage des variantes.",
+      "Tête, mâchoire, peau et torse distinguent le Drone de l’Essaim.",
+      "Volumes d’infanterie épaisse et armure de torse du Drone, pas le torse du Grenadier.",
+      "Mains vides et silhouette complète lisible en trois-quarts droite."
+    ],
+    "unresolved_details": [
+      "Les pages officielles modernes confirment le Drone mais ne constituent pas une planche orthographique du modèle 2006.",
+      "Répartition exacte des protections d’épaule et d’avant-bras, attaches et dessous du pied à comparer sur capture du premier jeu.",
+      "Couleur précise des yeux et nombre de petites coutures non verrouillés ; ne pas ajouter de lueur.",
+      "Aucune variante E-Day ne doit être déduite de la référence 2006."
+    ]
+  },
+  {
+    "id": "kantus",
+    "name": "Kantus",
+    "source_game": "Gears of War 2",
+    "costume": "Prêtre Kantus standard",
+    "prompt": "The standard Kantus priest from Gears of War 2 in his original unarmored-priest costume. A very tall lean adult Locust with elongated limbs, a long narrow neck, pale grey textured nonhuman skin, an elongated ridged head and the unmistakable Kantus facial and jaw structure. Preserve the original sparse priestly leather and cloth equipment, dark hanging lower vestments, characteristic collar and body ornaments, belts, limb coverings and feet of the standard Gears of War 2 model. Keep the unusually lean silhouette and naturally long relaxed hands, with the mouth closed or naturally at rest. No ritual gesture and no active effects. Do not turn him into Skorge, the Armored Kantus, a Tactics Zealot, a robed human cleric or a bulky ordinary Drone. Create exactly one full-body character as a neutral production model reference: standing at rest, weight balanced, shoulders relaxed, arms slightly separated from the torso, both empty hands visible and relaxed. Three-quarter view facing screen-right, turned enough toward profile for a readable side-view 2D silhouette. The complete head, feet, fingers and every costume extremity must fit inside the canvas with a generous transparent margin. Realistic hand-painted 2D UHD game art, anatomically and materially faithful to the named official game model, crisp readable contour, restrained even studio illumination. True transparent alpha background, including gaps between limbs. No text, captions, logos, interface, border, second character, alternate view, scenery, floor, pedestal, cast shadow, glow, particles, action, injury or violence. No handheld or attached weapons. Preserve the exact named episode costume rather than inventing a redesign or combining skins. This is a single calm unarmed reference pose.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-of-war-2/",
+      "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/"
+    ],
+    "visual_checklist": [
+      "Morphologie très élancée, long cou et tête Kantus distincte du Drone.",
+      "Costume du prêtre standard Gears of War 2 ; aucune coque de Kantus blindé.",
+      "Ornements et vêtements propres au modèle, aucune invention religieuse générique.",
+      "Aucun cri ni effet de buff ; mains vides et longues extrémités entièrement visibles."
+    ],
+    "unresolved_details": [
+      "Le blog officiel identifie clairement le prêtre Kantus et comporte une image, mais cette image appartient à Gears Tactics.",
+      "La variante exacte Gears of War 2 doit être comparée à une capture dédiée pour le col, les ornements et la longueur du vêtement.",
+      "Anatomie précise des mains et des pieds, nombre de doigts/orteils et petites asymétries non certifiés par les sources textuelles consultées.",
+      "Ne pas reprendre automatiquement les modifications du modèle Tactics."
+    ]
+  },
+  {
+    "id": "theron",
+    "name": "Garde Theron",
+    "source_game": "Gears of War 2006",
+    "costume": "Garde Theron standard",
+    "prompt": "The standard Theron Guard in his original Gears of War (2006) costume. A tall broad adult Locust elite with the original standard Guard helmet and its exact facial opening, the distinct red-maroon and dark metal layered armor, substantial collar and shoulders, articulated chest and waist protection, characteristic hanging armored skirt panels, guarded forearms and heavy armored lower legs. Preserve the original patterned plates and visible grey Locust skin only where present in that specific costume. Helm and torso must read as a Theron Guard even with empty hands. Calm static posture with all skirt panels hanging naturally. Do not mix the Guard helmet with a Theron Sentinel, Palace Guard, Savage Theron, Tactics redesign or gold multiplayer skin. Create exactly one full-body character as a neutral production model reference: standing at rest, weight balanced, shoulders relaxed, arms slightly separated from the torso, both empty hands visible and relaxed. Three-quarter view facing screen-right, turned enough toward profile for a readable side-view 2D silhouette. The complete head, feet, fingers and every costume extremity must fit inside the canvas with a generous transparent margin. Realistic hand-painted 2D UHD game art, anatomically and materially faithful to the named official game model, crisp readable contour, restrained even studio illumination. True transparent alpha background, including gaps between limbs. No text, captions, logos, interface, border, second character, alternate view, scenery, floor, pedestal, cast shadow, glow, particles, action, injury or violence. No handheld or attached weapons. Preserve the exact named episode costume rather than inventing a redesign or combining skins. This is a single calm unarmed reference pose.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-of-war/",
+      "https://news.xbox.com/en-us/2020/03/31/gears-5-operation-3-gridiron-available-today-for-all-players/",
+      "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/"
+    ],
+    "visual_checklist": [
+      "Casque du Garde Theron standard ; Garde et Sentinelle ne sont pas mélangés.",
+      "Plaques de torse et jupe d’armure reconnaissables dans la silhouette.",
+      "Couleurs et volume du premier jeu, sans ornement de skin premium.",
+      "Aucun arc ni objet ; les doigts et la totalité du bas de la jupe sont visibles."
+    ],
+    "unresolved_details": [
+      "La source officielle du blog montre un Theron Tactics ; elle confirme la catégorie, mais pas chaque détail du costume 2006.",
+      "Ouverture du casque, symétrie des épaulières, nombre de panneaux de jupe et disposition des rivets à verrouiller sur capture 2006.",
+      "Teintes rouge/métal décrites comme repères de production et non valeurs colorimétriques mesurées."
+    ]
+  },
+  {
+    "id": "jd",
+    "name": "JD Fenix",
+    "source_game": "Gears 5",
+    "costume": "CGU après ellipse — Scarred JD, période Vasgar — jd_skin_03",
+    "prompt": "James Dominic “JD” Fenix from Gears 5 after the campaign time jump, the Scarred JD appearance used during the Vasgar part of the campaign. Adult powerful-built man with JD’s recognisable face, very short close-shaved brown hair and a full neatly shaped brown beard. Match the later JD visible behind Del in the official Gears 5 accessibility screenshot and at the right of the official squad key art. Reproduce his substantial dark steel and blue-grey COG chest armor, circular front panels, luminous blue shoulder details, high protective collar, waist equipment, reinforced trousers, knee armor and heavy boots. Preserve the canonical right-arm asymmetry: his anatomical RIGHT arm carries the mature healed scar appearance and its game-specific support/protection details; this is a non-graphic healed character feature, never an open wound. Keep both hands intact. Do not use his clean-shaven Gears 4 outfit or his unscarred short-haired Gears 5 opening appearance. Keep the exact post-time-jump silhouette without inventing an amputated or fully robotic arm. Create exactly one adult character, alone, full body from the top of the head to both complete boot soles, centered with clear transparent margin around the silhouette. Neutral relaxed standing pose, three-quarter turn toward screen right, clearly readable as a side-view 2D fighting-game character; both arms resting slightly away from the torso, hands visibly empty and relaxed, legs comfortably separated, neutral closed-mouth expression. Respect the character’s original anatomy and game proportions. Realistic hand-painted 2D production illustration with UHD-level material detail, crisp clean contour and controlled soft lighting; no cartoon, no cel shading, no photograph, no plastic miniature. The background must be truly transparent with an alpha channel. No background color, scenery, floor, pedestal, ground plane, cast shadow outside the silhouette, text, caption, UI, watermark, duplicates, inset portrait, alternate view, held weapon, slung weapon, violence, blood, fresh wounds or exposed tissue. This is a single reusable neutral character cutout, not a poster or action scene.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-5/",
+      "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/Accessibility_desktopBG-69d931f5a4c02-1024x570.jpg",
+      "https://www.gearsofwar.com/fr-fr/news/gears-5-on-pc/",
+      "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2019/08/squad_desktop-69cafec91903e.jpg",
+      "https://andykoo.artstation.com/projects/9eg9av"
+    ],
+    "visual_checklist": [
+      "JD après ellipse : cheveux très courts et barbe brune, sans mélange avec l’ouverture du jeu.",
+      "Bras droit anatomique asymétrique ; main conservée ; aucune prothèse de bras inventée.",
+      "Les marques de peau sont anciennes et non graphiques, sans blessure ouverte ni sang.",
+      "Comparer le visage et le torse à JD derrière Del sur la capture officielle avec Baird.",
+      "Plastron et épaules CGU Gears 5 avec éclairage bleu ; bottes et genoux complets.",
+      "Un adulte en pose neutre trois-quarts vers la droite, mains vides.",
+      "Vérifier alpha réel, cadre intégral et absence de sol, texte ou ombre extérieure."
+    ],
+    "unresolved_details": [
+      "Les deux images officielles inspectées montrent JD partiellement ou de biais ; les détails du support de bras, le dos et les bottes nécessitent une capture rapprochée de la période Vasgar.",
+      "La page Andy Koo identifie un rendu « Scarred JD Fenix » créé pour Art of Gears of War 5 ; ses images haute définition n’ont pas été accessibles dans cette recherche.",
+      "Le placement précis des petites cicatrices faciales n’est pas certifié ; le rendu devra être comparé sans ajouter de marques inventées."
+    ]
+  },
+  {
+    "id": "del",
+    "name": "Del Walker",
+    "source_game": "Gears 5",
+    "costume": "Armored Del de campagne, version tempérée avec bandeau — del_skin_02",
+    "prompt": "Delmont “Del” Walker from Gears 5 in his standard temperate campaign Armored Del outfit, not the winter outfit. Adult Black man with Del’s recognisable face, short tightly curled dark hair and the muted olive-green cloth headband seen in the official Gears 5 campaign and accessibility screenshots. Reproduce his particular broad dark gunmetal COG armor, circular chest panels, blue illuminated shoulder strips, rounded shoulder plates, olive military shirt with short or rolled sleeves, restrained utility pouches and belt, olive-patterned combat trousers, dark knee protection, forearm armor and sturdy military boots. Keep Del’s facial structure, headband, torso panel arrangement and clothing distinct from JD, Cole or Marcus. The expression is calm and approachable but neutral, with no smile or shout. No knitted winter cap, no fur collar, no Gears 4 Outsider outfit and no floating drone companion. Create exactly one adult character, alone, full body from the top of the head to both complete boot soles, centered with clear transparent margin around the silhouette. Neutral relaxed standing pose, three-quarter turn toward screen right, clearly readable as a side-view 2D fighting-game character; both arms resting slightly away from the torso, hands visibly empty and relaxed, legs comfortably separated, neutral closed-mouth expression. Respect the character’s original anatomy and game proportions. Realistic hand-painted 2D production illustration with UHD-level material detail, crisp clean contour and controlled soft lighting; no cartoon, no cel shading, no photograph, no plastic miniature. The background must be truly transparent with an alpha channel. No background color, scenery, floor, pedestal, ground plane, cast shadow outside the silhouette, text, caption, UI, watermark, duplicates, inset portrait, alternate view, held weapon, slung weapon, violence, blood, fresh wounds or exposed tissue. This is a single reusable neutral character cutout, not a poster or action scene.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-5/",
+      "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/desktop-campaign-3840x2160-69d932032874a-1024x576.jpg",
+      "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/Accessibility_desktopBG-69d931f5a4c02-1024x570.jpg",
+      "https://news.xbox.com/en-us/2019/06/11/e3-2019-rahul-kohli-of-izombie-joins-cast-of-gears-5/"
+    ],
+    "visual_checklist": [
+      "Bandeau de tissu vert olive et cheveux crépus courts visibles.",
+      "Version tempérée Armored Del : pas de bonnet ni de fourrure de Winter Armor Del.",
+      "Comparer visage, plaque d’épaule et plastron circulaire à Del au premier plan de la capture officielle avec Baird.",
+      "Tissu vert olive, plaques gris métal et détails lumineux bleus sans saturation excessive.",
+      "Visage et proportions distincts de JD et Cole.",
+      "Mains vides, posture au repos orientée à droite, deux jambes entièrement cadrées.",
+      "Alpha réel ; aucune compagnie, arme, ombre extérieure ou UI."
+    ],
+    "unresolved_details": [
+      "Les captures officielles donnent une bonne référence du haut du corps mais montrent les pieds partiellement ou en mouvement.",
+      "Le camouflage exact, les coutures arrière et les petites attaches de ce costume doivent encore être comparés à un turnaround du modèle.",
+      "Cette sélection verrouille la variante tempérée du costume de campagne ; elle ne couvre pas Winter Armor Del."
+    ]
+  },
+  {
+    "id": "fahz",
+    "name": "Fahz Chutani",
+    "source_game": "Gears 5",
+    "costume": "Armure CGU de campagne Gears 5 — fahz_skin_01",
+    "prompt": "Fahz Chutani from Gears 5 in his regular COG campaign armor. Adult muscular man with his recognisable South-Asian-looking face, medium brown skin, short dark mohawk with closely shaved sides, shaped dark beard and the compact red-orange tinted wraparound tactical eyewear associated with his campaign model. Reproduce the blue-grey and dark gunmetal COG armor with luminous blue accents, heavy chest plates, distinct shoulder equipment, practical military pouches, reinforced trousers and forearm guards. Retain his canonical mechanical prosthesis on the anatomical RIGHT lower leg, below the knee, with a complete functional mechanical foot and intact clothing connection; his left leg remains the normal armored leg. It is an ordinary integrated assistive limb, not an injury scene, and must not be mirrored to the other side. Keep his confident facial structure but use a neutral closed mouth and relaxed stance. Follow the Gears 5 character model rather than the actor’s civilian appearance, a generic sci-fi soldier or an older Dom costume. Create exactly one adult character, alone, full body from the top of the head to both complete boot soles, centered with clear transparent margin around the silhouette. Neutral relaxed standing pose, three-quarter turn toward screen right, clearly readable as a side-view 2D fighting-game character; both arms resting slightly away from the torso, hands visibly empty and relaxed, legs comfortably separated, neutral closed-mouth expression. Respect the character’s original anatomy and game proportions. Realistic hand-painted 2D production illustration with UHD-level material detail, crisp clean contour and controlled soft lighting; no cartoon, no cel shading, no photograph, no plastic miniature. The background must be truly transparent with an alpha channel. No background color, scenery, floor, pedestal, ground plane, cast shadow outside the silhouette, text, caption, UI, watermark, duplicates, inset portrait, alternate view, held weapon, slung weapon, violence, blood, fresh wounds or exposed tissue. This is a single reusable neutral character cutout, not a poster or action scene.",
+    "source_urls": [
+      "https://news.xbox.com/en-us/2019/06/11/e3-2019-rahul-kohli-of-izombie-joins-cast-of-gears-5/",
+      "https://bananachu.artstation.com/projects/rRYQ9O",
+      "https://bananachu.artstation.com/resume",
+      "https://kenha604.artstation.com/projects/6a0OvV",
+      "https://gearsofwar.fandom.com/wiki/Fahz_Chutani"
+    ],
+    "visual_checklist": [
+      "Coupe courte à crête, côtés rasés, barbe et lunettes teintées propres à Fahz.",
+      "Visage du personnage de jeu, pas portrait civil de Rahul Kohli.",
+      "Prothèse uniquement sur la jambe inférieure droite anatomique ; vérifier le côté sans miroir.",
+      "Pied mécanique complet, connexion propre, aucun élément traumatique ou blessure.",
+      "Armure de campagne Gears 5 et détails bleus ; aucune fusion avec le torse de JD.",
+      "Pose neutre lisible latéralement, mains vides, jambes séparées.",
+      "Tête et pieds complets, alpha réel, absence de décor ou de texte."
+    ],
+    "unresolved_details": [
+      "L’article Xbox confirme Fahz et les pages de Kev Chu identifient ses concepts de production ; les images du portfolio et le visuel Xbox n’ont pas été téléchargeables lors de ce passage.",
+      "Le côté droit de la prothèse est documenté par une source secondaire ; une vue officielle du modèle entier reste requise pour le certifier avant validation 1:1.",
+      "La topologie des articulations, les petites plaques, les verres et la position exacte de chaque sangle restent à confronter au modèle final ; un concept ne remplace pas cette vérification."
+    ]
+  },
+  {
+    "id": "clayton",
+    "name": "Clayton Carmine",
+    "source_game": "Gears of War 3",
+    "costume": "Armure de campagne Gears of War 3 — clayton_skin_01",
+    "prompt": "Clayton “Clay” Carmine from Gears of War 3 in his standard campaign armor. An adult extremely muscular, broad-shouldered COG soldier with a fully enclosed blue-steel combat helmet, distinct bright blue eye lenses and a vented angular face guard. His face stays completely concealed. Preserve Clayton’s large bare upper arms with his recognisable non-text tattoo shapes, heavy forearm guards, broad blue and gunmetal chest armor with the pair of circular front panels, rugged belt and ammunition pouches, sturdy combat trousers, large knee guards and heavy boots. Use the original Gears 3 soldier proportions, helmet, armor wear and exposed-arm silhouette. Do not substitute Anthony’s or Benjamin’s full-sleeved generic Carmine body, Recruit Clayton, or the later Gears 5 veteran proportions. Keep colored wear and emblem shapes on the armor but omit legible slogans and lettering to satisfy this asset’s no-text requirement; do not invent words. No weapons in either hand. Create exactly one adult character, alone, full body from the top of the head to both complete boot soles, centered with clear transparent margin around the silhouette. Neutral relaxed standing pose, three-quarter turn toward screen right, clearly readable as a side-view 2D fighting-game character; both arms resting slightly away from the torso, hands visibly empty and relaxed, legs comfortably separated, neutral closed-mouth expression. Respect the character’s original anatomy and game proportions. Realistic hand-painted 2D production illustration with UHD-level material detail, crisp clean contour and controlled soft lighting; no cartoon, no cel shading, no photograph, no plastic miniature. The background must be truly transparent with an alpha channel. No background color, scenery, floor, pedestal, ground plane, cast shadow outside the silhouette, text, caption, UI, watermark, duplicates, inset portrait, alternate view, held weapon, slung weapon, violence, blood, fresh wounds or exposed tissue. This is a single reusable neutral character cutout, not a poster or action scene.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-of-war-3/",
+      "https://news.xbox.com/en-us/2020/03/31/gears-5-operation-3-gridiron-available-today-for-all-players/",
+      "https://gearsofwar.fandom.com/wiki/Clayton_Carmine",
+      "https://static.wikia.nocookie.net/gearsofwar/images/2/20/9C68E187-AC74-410B-8C0B-5491E86F1D51.png/revision/latest?cb=20200715163634"
+    ],
+    "visual_checklist": [
+      "Casque fermé, optiques bleues et protège-visage distincts de ceux d’Anthony et Benjamin.",
+      "Carrure très massive et bras supérieurs découverts, sans uniforme générique à manches longues.",
+      "Tatouages et asymétries à contrôler séparément pour chaque bras ; aucun miroir automatique.",
+      "Plastron bleu et gris avec panneaux ronds, avant-bras blindés, genoux et bottes robustes.",
+      "Aucun slogan ou mot lisible ajouté ; ne pas transformer les marquages en faux texte.",
+      "Pose neutre, un adulte complet, mains vides.",
+      "Alpha réel, cadrage complet et aucun sol ou effet violent."
+    ],
+    "unresolved_details": [
+      "Le rendu de comparaison accessible est hébergé sur un wiki et représente une version tardive très détaillée ; il aide à identifier le personnage mais ne valide pas seul chaque pièce Gears 3.",
+      "Les pages officielles consultées confirment Clayton et la franchise ; une capture Gears 3 rapprochée est encore requise pour les différences de plaques et de proportions.",
+      "Les inscriptions canoniques du plastron et des tatouages sont délibérément non lisibles dans cette commande sans texte ; la fidélité littérale 1:1 de ces inscriptions n’est donc pas revendiquée."
+    ]
+  },
+  {
+    "id": "lizzie",
+    "name": "Lizzie Carmine",
+    "source_game": "Gears 5",
+    "costume": "Armure bleue de campagne Armored Lizzie — lizzie_skin_01",
+    "prompt": "Elizabeth “Lizzie” Carmine from Gears 5 in her regular blue armored campaign appearance, matching the official Operation 2 character promotional render. Adult athletic woman completely helmeted, with her distinctive dark blue-grey helmet, two luminous blue eye lenses, mechanical face mask with round breathing details, small yellow caution accents and the specific practical helmet fittings of Lizzie. Reproduce the blue COG chest armor with two circular panels, bare upper arms, protective wrist and forearm equipment, practical gloves, tan-brown reinforced work trousers, utility belt, thigh equipment and the olive-green work garment tied around her waist. Keep the compact collar/neck fabric as on the model; do not invent a large yellow fashion scarf. Preserve her engineer-driver silhouette, lighter than Clayton’s while still strong and practical. No visible invented face or hair beneath the closed helmet. No Chrome Steel, Hivebuster, ceremonial or fantasy recolor. Do not include a Silverback, vehicle, companion or workshop prop. Create exactly one adult character, alone, full body from the top of the head to both complete boot soles, centered with clear transparent margin around the silhouette. Neutral relaxed standing pose, three-quarter turn toward screen right, clearly readable as a side-view 2D fighting-game character; both arms resting slightly away from the torso, hands visibly empty and relaxed, legs comfortably separated, neutral closed-mouth expression. Respect the character’s original anatomy and game proportions. Realistic hand-painted 2D production illustration with UHD-level material detail, crisp clean contour and controlled soft lighting; no cartoon, no cel shading, no photograph, no plastic miniature. The background must be truly transparent with an alpha channel. No background color, scenery, floor, pedestal, ground plane, cast shadow outside the silhouette, text, caption, UI, watermark, duplicates, inset portrait, alternate view, held weapon, slung weapon, violence, blood, fresh wounds or exposed tissue. This is a single reusable neutral character cutout, not a poster or action scene.",
+    "source_urls": [
+      "https://news.xbox.com/en-us/2019/12/11/gears-5-operation-2-free-for-all-available-today-for-all-players/",
+      "https://bananachu.artstation.com/projects/QzZvxr?album_id=397336",
+      "https://bananachu.artstation.com/resume",
+      "https://multiplayer.it/articoli/gears-5-operazione-2.html",
+      "https://multiplayer.net-cdn.it/thumbs/images/2019/12/22/gears-5-lizzie-carmine_jpg_0x0_q85.jpg"
+    ],
+    "visual_checklist": [
+      "Casque et masque fermés de Lizzie, deux optiques bleues, petits accents jaunes.",
+      "Armure bleue à plastron circulaire ; bras supérieurs découverts.",
+      "Vêtement de travail vert olive noué à la taille, pantalon brun de pilote.",
+      "Pas de grande écharpe jaune inventée ; comparer le col au visuel de promotion.",
+      "Aucun Silverback, camion, compagnon, texte promotionnel ou arme.",
+      "Un seul adulte entier au repos orienté à droite, sans visage inventé sous le casque.",
+      "Canal alpha réel, contours propres et aucun plan de sol."
+    ],
+    "unresolved_details": [
+      "Le visuel de promotion inspecté est une republication sur Multiplayer.it ; l’annonce Xbox et le portfolio de la conceptrice confirment le personnage, mais le fichier original Xbox était inaccessible au téléchargement.",
+      "La partie basse des bottes n’est pas visible dans ce visuel ; détails du dos et des jambières à vérifier sur le modèle de campagne.",
+      "Le roster mentionnait un foulard sans décrire sa forme : le prompt suit le col compact réellement visible plutôt que d’ajouter un foulard décoratif non prouvé."
+    ]
+  },
+  {
+    "id": "hoffman",
+    "name": "Victor Hoffman",
+    "source_game": "Gears 5 multijoueur",
+    "costume": "Hoffman en armure du lot Opération 6 — hoffman_skin_01",
+    "prompt": "Colonel Victor Hoffman as the specific Armored Hoffman character skin from the Gears 5 Operation 6 bundle. Adult older, stocky and powerful man with Hoffman’s recognisable stern face, grey moustache, strong square jaw and low dark military field cap. Use the armored multiplayer skin, standing able-bodied, not his elderly seated campaign appearance and not an invented ceremonial dress uniform. Match the official Operation 6 bundle artwork: bulky muted olive-grey and dark gunmetal COG armor, high protective collar, rows of compact chest utility pouches and straps, restrained blue shoulder lighting, heavy forearm guards, practical belt equipment, reinforced military trousers, knee plates and substantial boots. Keep the cap, moustache and compact commander silhouette distinctive. No long beard, red beret, decorative medals, officer sword, throne or wheelchair. The face remains neutral and closed-mouthed. Create exactly one adult character, alone, full body from the top of the head to both complete boot soles, centered with clear transparent margin around the silhouette. Neutral relaxed standing pose, three-quarter turn toward screen right, clearly readable as a side-view 2D fighting-game character; both arms resting slightly away from the torso, hands visibly empty and relaxed, legs comfortably separated, neutral closed-mouth expression. Respect the character’s original anatomy and game proportions. Realistic hand-painted 2D production illustration with UHD-level material detail, crisp clean contour and controlled soft lighting; no cartoon, no cel shading, no photograph, no plastic miniature. The background must be truly transparent with an alpha channel. No background color, scenery, floor, pedestal, ground plane, cast shadow outside the silhouette, text, caption, UI, watermark, duplicates, inset portrait, alternate view, held weapon, slung weapon, violence, blood, fresh wounds or exposed tissue. This is a single reusable neutral character cutout, not a poster or action scene.",
+    "source_urls": [
+      "https://www.xbox.com/fr-fr/games/store/gears-5-operation-6-bundle/9nblc6fv6spg",
+      "https://store-images.s-microsoft.com/image/apps.337.13510871565080275.ff765211-eed2-4e91-9d47-e587f251fce5.43d742b7-4c77-4394-997d-4364ddd0157a?h=265&q=90&w=177"
+    ],
+    "visual_checklist": [
+      "Le costume ciblé est précisément « Hoffman en armure » du lot Opération 6.",
+      "Casquette militaire basse, moustache grise et visage du personnage, sans longue barbe.",
+      "Armure gris olive, col haut et nombreuses petites poches de poitrine.",
+      "Silhouette de commandant robuste, ni tenue cérémonielle ni personnage assis.",
+      "Aucun accessoire tenu ; mains vides en posture de repos.",
+      "Tête et semelles entières, orientation droite et proportions cohérentes.",
+      "Alpha réel ; aucun texte du visuel de boutique, socle ou ombre extérieure."
+    ],
+    "unresolved_details": [
+      "L’illustration officielle de boutique inspectée est de faible définition et le personnage est accroupi ; les proportions debout et détails fins demandent une capture du skin en jeu.",
+      "La casquette, les sangles dorsales, les écussons et la disposition des petites poches ne sont pas certifiés à l’échelle du pixel.",
+      "Ne pas présenter cette apparence de skin comme la tenue de toute la chronologie de Hoffman."
+    ]
+  },
+  {
+    "id": "tai",
+    "name": "Tai Kaliso",
+    "source_game": "Gears of War 2",
+    "costume": "Tenue de campagne Gears of War 2 avec grande épaulière — tai_skin_01",
+    "prompt": "Tai Kaliso from Gears of War 2 in his intact early-campaign COG outfit. Adult very broad and powerful Islander-looking man with Tai’s recognisable calm, broad face, shaved sides and dark central mohawk, and the character’s specific facial and exposed-arm tattoo patterns. Reproduce the bulky weathered dark COG campaign armor, including the distinctive large asymmetrical campaign shoulder shield on its original side, rather than the reduced multiplayer armor. Include the original chest panel construction, practical straps, forearm protection, military belt and pouches, reinforced combat trousers, knee plates and heavy boots, with small restrained blue equipment lights. Follow Tai’s actual Gears 2 design; do not add arbitrary tribal ornaments or random tattoo patterns. This is neither Jungle Tai from Judgment nor the younger E-Day redesign. His outfit is complete and undamaged in a neutral preparation pose, with both hands empty. Do not depict captivity, suffering, scars from torture, torn skin or any narrative death scene. Create exactly one adult character, alone, full body from the top of the head to both complete boot soles, centered with clear transparent margin around the silhouette. Neutral relaxed standing pose, three-quarter turn toward screen right, clearly readable as a side-view 2D fighting-game character; both arms resting slightly away from the torso, hands visibly empty and relaxed, legs comfortably separated, neutral closed-mouth expression. Respect the character’s original anatomy and game proportions. Realistic hand-painted 2D production illustration with UHD-level material detail, crisp clean contour and controlled soft lighting; no cartoon, no cel shading, no photograph, no plastic miniature. The background must be truly transparent with an alpha channel. No background color, scenery, floor, pedestal, ground plane, cast shadow outside the silhouette, text, caption, UI, watermark, duplicates, inset portrait, alternate view, held weapon, slung weapon, violence, blood, fresh wounds or exposed tissue. This is a single reusable neutral character cutout, not a poster or action scene.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-of-war-2/",
+      "https://news.xbox.com/en-us/2020/11/17/gears-5-operation-5/amp/",
+      "https://download.microsoft.com/download/F/9/9/F99AB8F0-5191-4EDD-B312-7A9B9E4784FA/GOW2_MNL_XK.pdf",
+      "https://gearsofwar.fandom.com/wiki/Tai_Kaliso",
+      "https://www.mobygames.com/game/38697/gears-of-war-2/screenshots/xbox360/370298/"
+    ],
+    "visual_checklist": [
+      "Visage et tatouages spécifiques à Tai ; pas de motifs tribaux génériques inventés.",
+      "Crête centrale avec côtés rasés et proportions très larges.",
+      "Grande épaulière du modèle de campagne, distincte de la version multijoueur réduite.",
+      "Contrôler le côté et le contour de cette épaulière sur une capture de campagne.",
+      "Armure intégrale de début de Gears 2 ; aucune variante Jungle Tai ou E-Day.",
+      "Pose calme, mains vides, aucune trace de captivité ou de violence.",
+      "Un adulte complet sur alpha réel, sans texte ni sol."
+    ],
+    "unresolved_details": [
+      "La source Xbox confirme Tai parmi les retours liés à Gears 2 ; elle ne fournit pas un turnaround du costume 2008.",
+      "La différence de grande épaulière entre campagne et multijoueur est indiquée par la source secondaire ; côté, forme exacte et dos restent à verrouiller sur une capture officielle avant certification 1:1.",
+      "La cartographie exacte des tatouages pour chaque côté est un contrôle obligatoire après génération ; les concepts et captures de Jungle Tai ont été exclus comme variantes incompatibles."
+    ]
+  },
+  {
+    "id": "dizzy",
+    "name": "Dizzy Wallin",
+    "source_game": "Gears of War 2",
+    "costume": "Tenue de pilote de Betty, campagne Gears of War 2 — dizzy_skin_01",
+    "prompt": "Dizzy Wallin from Gears of War 2, in his standard Betty Assault Derrick driver outfit. Adult middle-aged rugged, muscular working man with Dizzy’s recognisable weathered face, thick moustache and greying beard, and his battered broad-brimmed cowboy hat. Reproduce the distinctive practical driver clothing with worn dark protective vest and COG armor components, visible shell loops and equipment pouches, work fabric underlayers, large exposed tattooed arm areas where the original outfit exposes them, protective gloves and forearm gear, utility belt, tough work trousers, knee protection and heavy military work boots. Keep the outfit recognisably Dizzy’s original patched, practical field equipment, not a standard Marcus or generic Carmine armor suit with a hat added. Preserve the original hat silhouette and broad mechanic’s body proportions. No truck, wrench, cigar, alcohol bottle, steering wheel or weapons. No Gears 3 civilian mechanic variant or later cosmetic recolor. He stands calmly with a neutral closed mouth. Create exactly one adult character, alone, full body from the top of the head to both complete boot soles, centered with clear transparent margin around the silhouette. Neutral relaxed standing pose, three-quarter turn toward screen right, clearly readable as a side-view 2D fighting-game character; both arms resting slightly away from the torso, hands visibly empty and relaxed, legs comfortably separated, neutral closed-mouth expression. Respect the character’s original anatomy and game proportions. Realistic hand-painted 2D production illustration with UHD-level material detail, crisp clean contour and controlled soft lighting; no cartoon, no cel shading, no photograph, no plastic miniature. The background must be truly transparent with an alpha channel. No background color, scenery, floor, pedestal, ground plane, cast shadow outside the silhouette, text, caption, UI, watermark, duplicates, inset portrait, alternate view, held weapon, slung weapon, violence, blood, fresh wounds or exposed tissue. This is a single reusable neutral character cutout, not a poster or action scene.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-of-war-2/",
+      "https://news.xbox.com/en-us/2020/11/17/gears-5-operation-5/amp/",
+      "https://download.microsoft.com/download/F/9/9/F99AB8F0-5191-4EDD-B312-7A9B9E4784FA/GOW2_MNL_XK.pdf",
+      "https://www.giantbomb.com/dizzy-wallin/3005-2582/"
+    ],
+    "visual_checklist": [
+      "Chapeau de cowboy usé, moustache et barbe grisonnante de Dizzy.",
+      "Tenue de conducteur avec protection, rangées de cartouches et poches utilitaires, pas une copie de Marcus.",
+      "Équilibrer tissu de travail, cuir et pièces d’armure ; respecter le costume Gears 2 sélectionné.",
+      "Contrôler la silhouette exacte du chapeau, la barbe et les tatouages avant validation.",
+      "Aucun camion Betty, outil, cigare ou arme.",
+      "Un adulte entier, pose neutre à droite et mains vides.",
+      "Pieds et tête entièrement visibles, alpha réel sans sol, ombre ou texte."
+    ],
+    "unresolved_details": [
+      "Les pages officielles consultées confirment Dizzy et son rattachement à Gears 2, mais n’offrent pas une planche complète du costume 2008.",
+      "Le portrait de référence secondaire signalé par Giant Bomb était inaccessible au téléchargement ; la disposition des coquilles, coutures, protections et tatouages reste à contrôler sur une capture du jeu.",
+      "Les recherches renvoient aussi des images de personnages étrangers à Gears et des variantes civiles : elles ont été exclues et ne doivent pas servir de référence."
+    ]
+  },
+  {
+    "id": "sam",
+    "name": "Samantha Byrne",
+    "source_game": "Gears of War 3",
+    "costume": "Tenue standard de campagne Gears of War 3, version jeune adulte du jeu de 2011.",
+    "prompt": "Samantha Sam Byrne in her original Gears of War 3 campaign appearance, an athletic adult woman with an angular face, jaw-length dark brown hair and a long side-swept fringe. Her recognizable cream and weathered gray COG chest armor with two dark circular breastplate fittings, small blue identification lights, rounded armored shoulders, dark olive fabric beneath the armor, fitted dark combat trousers, broad utility belt with large side pouches, forearm guards, fingerless gloves and heavy armored boots. Preserve the compact armor proportions and her original facial features; use the Gears 3 model rather than the older Gears 4 pilot costume. Do not add a prominent bandana, helmet or a different hairstyle. Match the standard campaign shoulder and arm details without inventing decorative tattoo motifs. Create exactly one adult fictional character, full body from the top of the head to the soles of both boots, in a calm neutral standing pose with empty relaxed hands and arms separated slightly from the torso. Three-quarter view facing screen right, close enough to a lateral view to read clearly as a 2D fighting-game character. Preserve anatomical left/right asymmetries when changing the view; do not simply mirror them. Realistic painted 2D character illustration with UHD-quality material detail, natural anatomy and a crisp clean silhouette. A fully transparent RGBA background, no scenery, floor, base, cast shadow outside the body, vignette, lettering, captions, logos, UI, borders, extra figures or alternate views. No held or slung weapons. Leave clear transparent padding around every extremity; no cropping.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-of-war-3/",
+      "https://chriswells.artstation.com/projects/B3O58",
+      "https://polycount.com/discussion/comment/1451312",
+      "https://www.10wallpaper.com/list/Gears_of_War_3_official_game_wallpaper.html",
+      "https://www.10wallpaper.com/wallpaper/medium/1109/Delta_squad-Sam_Bryne_wallpaper_medium.jpg"
+    ],
+    "visual_checklist": [
+      "Vue promotionnelle Gears 3 inspectée : carré brun avec longue mèche de côté, plastron clair à deux disques sombres, petits points bleus et grosses poches de ceinture.",
+      "Le modeleur Chris Wells est identifié par sa galerie et par le témoignage de production des textures.",
+      "Conserver Sam du jeu de 2011, pas le modèle âgé et la tenue de pilote de Gears 4.",
+      "Comparer les tatouages et toutes les asymétries à une capture du modèle de campagne avant de qualifier l’image de fidèle 1:1.",
+      "Une femme adulte entière en pose neutre, mains vides, fond alpha sans sol ni texte."
+    ],
+    "unresolved_details": [
+      "Le bandana cité comme détail à vérifier dans roster.json n’est pas nettement confirmé par la vue promotionnelle consultée ; ne pas ajouter de large bandana apparent.",
+      "Le motif et le côté précis du tatouage, les jambières et les bottes ne sont pas suffisamment résolus dans la référence visuelle recadrée.",
+      "Les vues de l’artiste original ont été identifiées, mais leurs pixels n’ont pas été récupérés ; la référence visuelle inspectée est une reproduction promotionnelle secondaire."
+    ]
+  },
+  {
+    "id": "paduk",
+    "name": "Garron Paduk",
+    "source_game": "Gears of War Judgment",
+    "costume": "Armure UIR de Paduk au sein de Kilo Squad dans la campagne Judgment, hors Aftermath et hors Gears 5.",
+    "prompt": "Garron Paduk in his original Gears of War Judgment Kilo Squad campaign appearance, a powerfully built adult veteran with a broad stern face, short receding dark hair, a little gray at the temples, and the characteristic healed burn scarring of his original face and exposed arms. The original worn olive and muted yellow UIR armor: a broad rounded chest plate, two large circular chest discs crossed by pale horizontal stripes, a high open armored collar, asymmetrical shoulder plates, exposed upper arms, heavy forearm armor and fingerless gloves. Dark military trousers, diagonal waist strap, a large round belt buckle, utilitarian hip pouches, substantial knee plates and armored shin-high boots. Reproduce the younger Judgment model, with neither the bald elderly Gears 5 head nor the Aftermath civilian clothing. Create exactly one adult fictional character, full body from the top of the head to the soles of both boots, in a calm neutral standing pose with empty relaxed hands and arms separated slightly from the torso. Three-quarter view facing screen right, close enough to a lateral view to read clearly as a 2D fighting-game character. Preserve anatomical left/right asymmetries when changing the view; do not simply mirror them. Realistic painted 2D character illustration with UHD-quality material detail, natural anatomy and a crisp clean silhouette. A fully transparent RGBA background, no scenery, floor, base, cast shadow outside the body, vignette, lettering, captions, logos, UI, borders, extra figures or alternate views. No held or slung weapons. Leave clear transparent padding around every extremity; no cropping.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-gb/games/gears-of-war-judgment/",
+      "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/gears-judgement-co-op-69d808161b80b.jpg",
+      "https://www.maxon.net/es/article/creating-assets-for-epic-games-gears-of-war-judgment",
+      "https://geektyrant.com/news/2013/3/18/gears-of-war-judgement-kilo-squad-wallpapers.html",
+      "https://images.squarespace-cdn.com/content/51b3dc8ee4b051b96ceb10de/1372482095984-DXURZIMNBB4VMR6D07NR/gears_judgement_GPaduk_WP.jpg?format=1000w&content-type=image/jpeg"
+    ],
+    "visual_checklist": [
+      "Capture officielle de Judgment et reprise promotionnelle presque en pied inspectées.",
+      "Armure olive-jaune à grands disques pectoraux barrés, bras supérieurs nus et épaules asymétriques.",
+      "Cheveux courts présents dans Judgment ; ne pas reprendre le Paduk âgé de Gears 5.",
+      "Cicatrices anciennes sans plaie ouverte ; ne pas transformer le visage en monstruosité.",
+      "Recontrôler côté des brûlures et fixations avant validation 1:1."
+    ],
+    "unresolved_details": [
+      "La reproduction promotionnelle applique une forte désaturation : nuance exacte des panneaux olive/jaune à recaler sur capture en lumière neutre.",
+      "Le côté et la topologie fine des brûlures ne sont pas suffisamment nets pour imposer une cartographie précise dans le prompt.",
+      "Les extrémités des bottes sont partiellement coupées dans cette référence ; compléter à partir du modèle Judgment, sans reprendre un costume ultérieur."
+    ]
+  },
+  {
+    "id": "sofia",
+    "name": "Sofia Hendrik",
+    "source_game": "Gears of War Judgment",
+    "costume": "Armure de cadette Onyx de Sofia dans la campagne Kilo Squad de Judgment, tête découverte.",
+    "prompt": "Sofia Hendrik in her exact Gears of War Judgment Onyx Guard cadet campaign outfit: an athletic adult woman with her original auburn-red hair tied back, a side-swept fringe and loose face-framing strands. Her dark charcoal and gunmetal fitted Onyx armor, high fabric collar, compact rounded shoulder plates, two large sculpted oval chest panels, segmented waist armor, full-length dark sleeves, plated forearm guards, gloves, wide belt with circular buckle and original side pouches. Dark practical combat trousers, articulated knee guards and substantial armored boots. Maintain the authentic character face and functional military silhouette, with her head uncovered and no helmet in either hand. The outfit remains the Judgment cadet model, without later-game COG recolors or added decorative armor. Create exactly one adult fictional character, full body from the top of the head to the soles of both boots, in a calm neutral standing pose with empty relaxed hands and arms separated slightly from the torso. Three-quarter view facing screen right, close enough to a lateral view to read clearly as a 2D fighting-game character. Preserve anatomical left/right asymmetries when changing the view; do not simply mirror them. Realistic painted 2D character illustration with UHD-quality material detail, natural anatomy and a crisp clean silhouette. A fully transparent RGBA background, no scenery, floor, base, cast shadow outside the body, vignette, lettering, captions, logos, UI, borders, extra figures or alternate views. No held or slung weapons. Leave clear transparent padding around every extremity; no cropping.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-gb/games/gears-of-war-judgment/",
+      "https://chriswells.artstation.com/projects/qQbnL",
+      "https://www.maxon.net/es/article/creating-assets-for-epic-games-gears-of-war-judgment",
+      "https://www.engadget.com/2012-06-13-the-testimony-of-damon-baird-in-gears-of-war-judgment.html",
+      "https://images.squarespace-cdn.com/content/51b3dc8ee4b051b96ceb10de/1372482096081-5T8L9239ZZUHRFYS67UX/gears_judgement_SHendrick_WP.jpg?content-type=image%2Fjpeg&format=1000w"
+    ],
+    "visual_checklist": [
+      "Reprise promotionnelle en pied inspectée : armure sombre, col haut, grandes pièces pectorales ovales, genouillères et bottes.",
+      "Chevelure rousse confirmée par les propos du développeur dans l’entretien de présentation ; ne pas interpréter les reflets gris de l’image désaturée comme des cheveux blancs.",
+      "Sofia est la cadette Onyx de Judgment ; tête découverte et visage féminin adulte propre au personnage.",
+      "Une seule pose relaxée ; supprimer la tenue du casque et la pose de présentation du visuel de référence.",
+      "Aucun ajout de jupe, talons ou cuirasse claire empruntée à Anya ou Sam."
+    ],
+    "unresolved_details": [
+      "La référence de production de Chris Wells est identifiée mais non inspectée en pixels ; le visuel effectivement vu est une reprise promotionnelle secondaire.",
+      "Teinte exacte des cheveux et tracé de l’attache arrière à vérifier sur capture colorimétriquement neutre ; les petits marquages de l’armure sont peu lisibles."
+    ]
+  },
+  {
+    "id": "gabe",
+    "name": "Gabe Diaz",
+    "source_game": "Gears Tactics",
+    "costume": "Tenue de campagne de base, modèle officiel du blog Characters du 17 avril 2020, avant équipement de loot.",
+    "prompt": "Gabriel Gabe Diaz exactly as his default Gears Tactics character, a broad muscular adult man with dark swept-back short hair, the small pale streak at the front, a square face and a closely trimmed full dark beard. Worn dark gunmetal COG armor, two large circular chest plates edged in faded blue, a small circular fitting between them, segmented abdominal plates, blue rectangular shoulder lights, rounded shoulder armor, exposed upper arms, plated forearm guards and fingerless gloves. Taupe military trousers, brown utility straps, belt pouches, asymmetrical hip holster shapes, heavy worn knee and shin armor, brown armored boots. Match the original Tactics costume rather than a customizable loot armor set or the later Gears 5 variant. Create exactly one adult fictional character, full body from the top of the head to the soles of both boots, in a calm neutral standing pose with empty relaxed hands and arms separated slightly from the torso. Three-quarter view facing screen right, close enough to a lateral view to read clearly as a 2D fighting-game character. Preserve anatomical left/right asymmetries when changing the view; do not simply mirror them. Realistic painted 2D character illustration with UHD-quality material detail, natural anatomy and a crisp clean silhouette. A fully transparent RGBA background, no scenery, floor, base, cast shadow outside the body, vignette, lettering, captions, logos, UI, borders, extra figures or alternate views. No held or slung weapons. Leave clear transparent padding around every extremity; no cropping.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-nz/news/dev-blog-characters/",
+      "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/04/f58127fb483b171065a9fad6b79ecbcfcf9032d5-69cb0c3a70b1e.jpg"
+    ],
+    "visual_checklist": [
+      "Modèle officiel en pied inspecté : coupe courte rejetée en arrière, mèche claire frontale, barbe complète courte.",
+      "Deux disques pectoraux à pourtour bleu, petit élément circulaire central, abdominal segmenté.",
+      "Bras supérieurs nus, protections des avant-bras, gants sans doigts, pantalon taupe et bottes blindées.",
+      "Respecter les proportions massives et les sangles asymétriques de la tenue de base.",
+      "Une pose neutre unique ; tête, deux mains et deux pieds entiers ; véritable alpha sans halo ni ombre extérieure."
+    ],
+    "unresolved_details": [
+      "Le dos complet et l’attache arrière de l’armure ne sont pas visibles dans le rendu officiel consulté ; éviter les ajouts arrière saillants non documentés."
+    ]
+  },
+  {
+    "id": "sid",
+    "name": "Sid Redburn",
+    "source_game": "Gears Tactics",
+    "costume": "Tenue de campagne de base, modèle officiel du blog Characters du 17 avril 2020.",
+    "prompt": "Sid Redburn exactly as his default Gears Tactics character: an older heavily built adult man with a very short white buzz cut, a thick downward white horseshoe moustache, a stern lined face and a black eyepatch over his anatomical LEFT eye, with the original forehead scar. Worn olive-green and silver COG armor, very large rounded shoulder plates, two circular chest panels with metallic rims and curved pipes beneath them, a small central chest fitting, dark olive undersuit and armored forearms. Brown leather gloves, a broad mechanical belt buckle, small cylindrical containers at the waist, brown and olive padded trousers with thick thigh protection, worn metal shin plates and oversized brown military boots. Preserve his original stocky proportions and asymmetry, with no helmet and no added full beard. Create exactly one adult fictional character, full body from the top of the head to the soles of both boots, in a calm neutral standing pose with empty relaxed hands and arms separated slightly from the torso. Three-quarter view facing screen right, close enough to a lateral view to read clearly as a 2D fighting-game character. Preserve anatomical left/right asymmetries when changing the view; do not simply mirror them. Realistic painted 2D character illustration with UHD-quality material detail, natural anatomy and a crisp clean silhouette. A fully transparent RGBA background, no scenery, floor, base, cast shadow outside the body, vignette, lettering, captions, logos, UI, borders, extra figures or alternate views. No held or slung weapons. Leave clear transparent padding around every extremity; no cropping.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-nz/news/dev-blog-characters/",
+      "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/04/b070c2d094613f6ac28e09b19f87bc24cf487790-69cb0c5d1797f.jpg"
+    ],
+    "visual_checklist": [
+      "Modèle officiel en pied inspecté : cheveux blancs très courts, moustache blanche épaisse en fer à cheval, menton sans barbe complète.",
+      "Cache-œil NOIR sur l’œil anatomiquement GAUCHE ; ne pas inverser lors de l’orientation vers la droite.",
+      "Armure olive usée, deux disques pectoraux et conduites sous les disques, épaules très larges.",
+      "Gants bruns, cartouches cylindriques à la ceinture, cuisses matelassées et lourdes bottes.",
+      "Une personne adulte entière, mains vides, au repos, fond réellement transparent."
+    ],
+    "unresolved_details": [
+      "Le revers complet du cache-œil et le dos de l’armure ne sont pas documentés par la vue officielle unique."
+    ]
+  },
+  {
+    "id": "mikayla",
+    "name": "Mikayla Dorn",
+    "source_game": "Gears Tactics",
+    "costume": "Tenue civile de campagne de base, modèle officiel du blog Characters du 17 avril 2020.",
+    "prompt": "Mikayla Dorn exactly as her default Gears Tactics character: an athletic adult woman with medium-brown skin, dark brown hair swept and gathered up in the original compact rolled style, small ribbed hoop earrings and a calm firm expression. Her original worn olive sleeveless top, green-gray neck scarf with muted orange geometric motifs, and metal protective goggles resting at her throat over the scarf. Keep her exposed shoulders: this is her civilian militia outfit, not a generic COG armored vest. White cloth wrap around her anatomical RIGHT upper arm, larger padded sleeve and metal bracer on her anatomical LEFT forearm, fingerless tan gloves and the original small wrist bracelets. Brown utility trousers with reinforced knees, broad circular mechanical belt buckle, long scratched silver-gray shin guards and heavy worn boots. Create exactly one adult fictional character, full body from the top of the head to the soles of both boots, in a calm neutral standing pose with empty relaxed hands and arms separated slightly from the torso. Three-quarter view facing screen right, close enough to a lateral view to read clearly as a 2D fighting-game character. Preserve anatomical left/right asymmetries when changing the view; do not simply mirror them. Realistic painted 2D character illustration with UHD-quality material detail, natural anatomy and a crisp clean silhouette. A fully transparent RGBA background, no scenery, floor, base, cast shadow outside the body, vignette, lettering, captions, logos, UI, borders, extra figures or alternate views. No held or slung weapons. Leave clear transparent padding around every extremity; no cropping.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-nz/news/dev-blog-characters/",
+      "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/04/fa96bb216cfb2950a825f30086ee5d6f05084c0c-69cb0c872baa9.jpg"
+    ],
+    "visual_checklist": [
+      "Modèle officiel en pied inspecté : chevelure relevée, petites boucles d’oreilles, débardeur olive sans cuirasse CGU.",
+      "Foulard vert-gris à motifs orange et lunettes mécaniques au cou.",
+      "Bande blanche au bras anatomiquement droit ; gros manchon et brassard de métal à gauche.",
+      "Boucle circulaire, pantalon brun et longues jambières gris argent.",
+      "Une personne adulte, mains vides, pose neutre trois-quarts vers la droite, silhouette entière détourée."
+    ],
+    "unresolved_details": [
+      "La forme exacte du nœud et du ruban à l’arrière de la coiffure n’est que partiellement visible ; ne pas inventer une longue queue de cheval."
+    ]
+  },
+  {
+    "id": "reyna",
+    "name": "Reine Reyna",
+    "source_game": "Gears 5 multijoueur",
+    "costume": "Reine Reyna du lot Opération 6",
+    "prompt": "Queen Reyna in the default playable Swarm Queen appearance released with Gears 5 Operation 6. Preserve the recognizable mature adult Reyna facial structure and the exact transformed organic head silhouette, integrated shoulder and torso forms, textured organic body covering and original lower-body silhouette of the default Queen Reyna model. The natural tendril-like elements belong to her established design and rest quietly close to the body; they are not reaching or acting. Use the base skin colors and material contrasts from the official default model. Preserve her original bodily coverage and nonhuman anatomy without introducing injuries or additional exposed anatomy. Neutral composed expression, relaxed empty hands, completely static reference pose. Do not use human Reyna from Gears of War 4 or Tactics, Myrrah, Blood Red Queen Reyna, a generic alien queen, a new dress, new jewelry or an invented crown. Create exactly one full-body character as a neutral production model reference: standing at rest, weight balanced, shoulders relaxed, arms slightly separated from the torso, both empty hands visible and relaxed. Three-quarter view facing screen-right, turned enough toward profile for a readable side-view 2D silhouette. The complete head, feet, fingers and every costume extremity must fit inside the canvas with a generous transparent margin. Realistic hand-painted 2D UHD game art, anatomically and materially faithful to the named official game model, crisp readable contour, restrained even studio illumination. True transparent alpha background, including gaps between limbs. No text, captions, logos, interface, border, second character, alternate view, scenery, floor, pedestal, cast shadow, glow, particles, action, injury or violence. No handheld or attached weapons. Preserve the exact named episode costume rather than inventing a redesign or combining skins. This is a single calm unarmed reference pose.",
+    "source_urls": [
+      "https://www.xbox.com/fr-fr/games/store/gears-5-operation-6-bundle/9nblc6fv6spg",
+      "https://store.steampowered.com/news/posts/?appids=1097840&enddate=1616457409&feed=steam_community_announcements"
+    ],
+    "visual_checklist": [
+      "Reine Reyna organique du lot Operation 6, jamais sa version humaine.",
+      "Coloris de base ; exclure Blood Red Queen Reyna.",
+      "Visage, silhouette de tête et extensions organiques propres au modèle.",
+      "Les éléments organiques sont au repos ; aucun ajout de membres ou de vêtement générique."
+    ],
+    "unresolved_details": [
+      "Le Store Xbox confirme la présence de Reine Reyna dans le lot Operation 6 ; l’annonce officielle Steam distingue le skin Blood Red.",
+      "Les images accessibles via recherche ne suffisent pas ici à certifier l’anatomie exacte du dos, le nombre d’extensions ou leur implantation ; comparaison avec le modèle en jeu requise.",
+      "La silhouette exacte des cheveux/éléments de tête et les teintes doivent être validées sur vues du skin par défaut.",
+      "Ne pas transformer les extensions au repos en attaque et ne pas reprendre des rendus communautaires recolorés comme canon."
+    ]
+  },
+  {
+    "id": "lahni",
+    "name": "Lahni Kaliso",
+    "source_game": "Gears 5 Hivebusters",
+    "costume": "Tenue Scorpio/Hivebuster standard portée dans la campagne Hivebusters, pas la variante Brash Brigade.",
+    "prompt": "Lahni Kaliso in her standard Gears 5 Hivebusters Scorpio campaign outfit, a strong athletic adult woman with warm tan skin, her characteristic dark-blond dreadlocks gathered into a high tied top section with loose locks behind, and the original fine facial and upper-arm tattoos. Worn olive cropped Scorpio armored vest with two circular upper fittings, dark webbing, blue shoulder indicator bars and the small triangular yellow unit patch. Bare muscular upper arms, a narrow exposed band of abdomen, thick wrapped cloth forearm guards and fingerless gloves. Brown and olive patched cargo trousers, rugged belt pouches, diagonal blue cloth at the waist, practical knee armor and sturdy worn boots. Preserve her distinctive original face and tattoo arrangement; do not turn her into a generic shaved-head soldier or add a Brash Brigade uniform. Her hands are empty and all ability effects are inactive. Create exactly one adult fictional character, full body from the top of the head to the soles of both boots, in a calm neutral standing pose with empty relaxed hands and arms separated slightly from the torso. Three-quarter view facing screen right, close enough to a lateral view to read clearly as a 2D fighting-game character. Preserve anatomical left/right asymmetries when changing the view; do not simply mirror them. Realistic painted 2D character illustration with UHD-quality material detail, natural anatomy and a crisp clean silhouette. A fully transparent RGBA background, no scenery, floor, base, cast shadow outside the body, vignette, lettering, captions, logos, UI, borders, extra figures or alternate views. No held or slung weapons. Leave clear transparent padding around every extremity; no cropping.",
+    "source_urls": [
+      "https://news.xbox.com/en-us/2020/12/08/gears-5-hivebusters-arrives-december-15/",
+      "https://www.gearsofwar.com/en-us/news/hivebusters/",
+      "https://www.gearsofwar.com/en-us/news/hivebusters-graphic-novel-available-now/",
+      "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/08/Hivebuster_Bios_Lahni_1080x1080-5f443f1966f5b-69cb11337f94d.png",
+      "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/12/hivebusters-keyart-5fd7bad8299a-69cb1bb32298f.jpg"
+    ],
+    "visual_checklist": [
+      "Fiche officielle Lahni et key art officiel de la campagne inspectés.",
+      "Dreadlocks relevées, tatouages faciaux fins et tatouages du bras ; gilet olive court et avant-bras bandés.",
+      "Les accessoires et la tenue doivent venir d’une seule variante Scorpio standard, sans ajout de l’armure Brash Brigade.",
+      "Retirer le couteau de la fiche de référence : mains réellement vides, aucun éclair Electroblade.",
+      "Contrôler la séparation des jambes, les extrémités et l’alpha dans le rendu neutre."
+    ],
+    "unresolved_details": [
+      "La fiche officielle coupe le bas des bottes et la campagne les montre dans une perspective lointaine ; leurs attaches fines restent à comparer à une capture rapprochée.",
+      "Le tracé intégral des tatouages sur le côté opposé et dans le dos n’est pas visible ; ne pas prolonger les motifs au hasard."
+    ]
+  },
+  {
+    "id": "keegan",
+    "name": "Keegan",
+    "source_game": "Gears 5 Hivebusters",
+    "costume": "Tenue Scorpio/Hivebuster standard de campagne, sans casque et hors variante Onyx Guard.",
+    "prompt": "Jeremiah Keegan in his standard Gears 5 Hivebusters Scorpio campaign outfit, a broad heavily built older adult man with dark brown skin, a fully bald head, thick black sideburns connected to a very large moustache and a clean chin. His original olive Scorpio tactical vest over a tan long-sleeved combat uniform, silver-gray rounded shoulder plates, two large circular chest fittings, blue shoulder indicator strips and the small yellow triangular unit patch. Preserve the quilted dark panels of his trousers, large worn belt pouches, gloves, holster straps, practical knee guards and heavy military boots. Match the recognizable Keegan face and substantial body proportions. This is his standard campaign clothing, with no helmet, no black Onyx Guard armor swap and no artificial glowing ammunition or ability effects. Create exactly one adult fictional character, full body from the top of the head to the soles of both boots, in a calm neutral standing pose with empty relaxed hands and arms separated slightly from the torso. Three-quarter view facing screen right, close enough to a lateral view to read clearly as a 2D fighting-game character. Preserve anatomical left/right asymmetries when changing the view; do not simply mirror them. Realistic painted 2D character illustration with UHD-quality material detail, natural anatomy and a crisp clean silhouette. A fully transparent RGBA background, no scenery, floor, base, cast shadow outside the body, vignette, lettering, captions, logos, UI, borders, extra figures or alternate views. No held or slung weapons. Leave clear transparent padding around every extremity; no cropping.",
+    "source_urls": [
+      "https://news.xbox.com/en-us/2020/12/08/gears-5-hivebusters-arrives-december-15/",
+      "https://www.gearsofwar.com/en-us/news/hivebusters/",
+      "https://www.gearsofwar.com/en-us/news/hivebusters-graphic-novel-available-now/",
+      "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/08/Hivebuster_Bios_Keegan_1080x1080-5f443f3be75cb-69cb1130b4e56.jpg",
+      "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/12/hivebusters-keyart-5fd7bad8299a-69cb1bb32298f.jpg"
+    ],
+    "visual_checklist": [
+      "Fiche officielle Keegan et key art officiel de la campagne inspectés.",
+      "Crâne chauve, fortes rouflaquettes et moustache noire ; ne pas ajouter une barbe complète sous le menton.",
+      "Tenue tan à manches longues, gilet olive, épaules de métal gris et larges emports à la ceinture.",
+      "Panneaux matelassés des jambes conservés ; proportions larges et silhouette de vétéran.",
+      "Mains vides, au repos, aucune arme ni capacité active."
+    ],
+    "unresolved_details": [
+      "La fiche officielle ne montre pas précisément les pieds ; motifs et attaches des bottes à valider sur le modèle de campagne.",
+      "Le dos et l’équipement dorsal sont occultés ; ne pas ajouter un sac Onyx ou des caisses de munitions non visibles."
+    ]
+  },
+  {
+    "id": "mac",
+    "name": "Mac",
+    "source_game": "Gears 5 Hivebusters",
+    "costume": "Tenue Scorpio/Hivebuster standard de campagne, hors Mechanic Mac.",
+    "prompt": "Leslie Mac MacAllister in his standard Gears 5 Hivebusters Scorpio campaign outfit, an adult man with pale skin, a clean-shaven angular face and bright copper-red hair in the original swept-up strip with closely cropped sides. His worn light gray-beige long-sleeved shirt with sleeves pushed up to the forearms, olive armored Scorpio vest with two circular upper fittings, blue shoulder indicator strips and a small triangular yellow unit patch. Keep the original small pendant at the open shirt collar, bare hands, broad segmented utility belt, hip pouches, brown military trousers, the distinctive stacked leather straps on his anatomical LEFT thigh, practical knee protection and heavy boots. Maintain his leaner athletic build and recognizable face. This is his standard Scorpio clothing, not the Mechanic Mac skin or a generic red-haired COG soldier. No active Barrier effect. Create exactly one adult fictional character, full body from the top of the head to the soles of both boots, in a calm neutral standing pose with empty relaxed hands and arms separated slightly from the torso. Three-quarter view facing screen right, close enough to a lateral view to read clearly as a 2D fighting-game character. Preserve anatomical left/right asymmetries when changing the view; do not simply mirror them. Realistic painted 2D character illustration with UHD-quality material detail, natural anatomy and a crisp clean silhouette. A fully transparent RGBA background, no scenery, floor, base, cast shadow outside the body, vignette, lettering, captions, logos, UI, borders, extra figures or alternate views. No held or slung weapons. Leave clear transparent padding around every extremity; no cropping.",
+    "source_urls": [
+      "https://news.xbox.com/en-us/2020/12/08/gears-5-hivebusters-arrives-december-15/",
+      "https://www.gearsofwar.com/en-us/news/hivebusters/",
+      "https://www.gearsofwar.com/en-us/news/hivebusters-graphic-novel-available-now/",
+      "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/08/Hivebuster_Bios_Mac_1080x1080-5f443eeb11aeb-69cb1136edf03.jpg",
+      "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/12/hivebusters-keyart-5fd7bad8299a-69cb1bb32298f.jpg"
+    ],
+    "visual_checklist": [
+      "Fiche officielle Mac et key art officiel de la campagne inspectés.",
+      "Cheveux roux courts relevés, côtés courts et visage rasé ; ne pas lui ajouter la barbe de Keegan.",
+      "Gilet olive sur chemise claire à manches remontées, mains nues et petit pendentif.",
+      "Sangles de cuir superposées sur la cuisse anatomiquement gauche ; ne pas inverser les asymétries.",
+      "Ne pas mélanger la version standard et la variante Mechanic Mac proposée avec le roman graphique."
+    ],
+    "unresolved_details": [
+      "Bottes coupées par le bas de la fiche ; forme et hauteur exactes à confronter au modèle en pied de campagne.",
+      "Le motif minuscule du pendentif et les pièces du dos ne sont pas assez définis pour promettre une reproduction 1:1."
+    ]
+  },
+  {
+    "id": "jack",
+    "name": "JACK",
+    "source_game": "Gears 5",
+    "costume": "Robot JACK de campagne Gears 5 dans sa configuration bleu/or, châssis de soutien flottant à deux bras ; pas le modèle de la trilogie ni celui de Tactics.",
+    "prompt": "Exactly one JACK support robot from the Gears 5 campaign, in his canonical blue and yellow-gold configuration. A compact broad rounded mechanical chassis, cobalt-blue armored shell with yellow-gold accent panels, exposed dark gunmetal joints and service panels, small blue illuminated optics, the characteristic sensor assembly, and exactly two long articulated utility arms with the correct asymmetric tool ends. Preserve the Gears 5 modular body shape, panel seams, proportions, manipulators and low-hover repulsor arrangement; it is a hovering support machine with no legs, wheels, propellers or humanoid torso. Show the entire robot suspended naturally at rest, tools relaxed, facing screen right in a clear three-quarter side view. No active ability, electrical arc, fired projectile or held object. Faithful realistic painted 2D game-asset illustration with UHD-quality metal detail, controlled lighting and a crisp cutout silhouette. Fully transparent RGBA background, no ground, base, external shadow, smoke, scenery, lettering, logos, UI, borders or other characters. Leave generous clear alpha padding around the complete chassis and both tool tips. One robot and one view only; do not replace it with Dave, the original trilogy JACK, the Tactics robot or a toy quadcopter.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-5/",
+      "https://rizo.artstation.com/projects/BmWbJA",
+      "https://mindwalkstudios.artstation.com/projects/oAle0O",
+      "https://www.windowscentral.com/gears-5-guide-list-jack-upgrades-and-where-find-them",
+      "https://cdn.mos.cms.futurecdn.net/3sAPCx57aUZDTXWGY4gN7U-1920-80.jpg"
+    ],
+    "visual_checklist": [
+      "Capture Gears 5 du chapitre enneigé inspectée : carénage bleu/or, châssis large flottant et deux bras articulés.",
+      "Le concept designer Cesar Rizo documente séparément la version de base et les modules améliorés ; ne pas fusionner ces configurations.",
+      "Employer le JACK Gears 5, distinct de Dave, de la trilogie et de Gears Tactics.",
+      "Contrôler capteurs, outils asymétriques, attaches et châssis entier ; aucun pied ni hélice ajoutée.",
+      "Alpha complet autour des bras ; aucune ombre au sol ni bulle d’énergie hors silhouette."
+    ],
+    "unresolved_details": [
+      "La capture de campagne montre une configuration avec modules ; les vues du concept designer ont été identifiées mais leurs pixels n’ont pas été inspectés.",
+      "La répartition des modules optionnels et les détails du dessous doivent être validés sur un arrêt sur image du JACK Gears 5 choisi avant acceptation 1:1.",
+      "Le nombre exact et l’orientation des petits ports lumineux ne sont pas imposés textuellement pour éviter de confondre capteurs et éléments arrière."
+    ]
+  },
+  {
+    "id": "deebee",
+    "name": "DeeBee",
+    "source_game": "Gears of War 4",
+    "costume": "DeeBee Shepherd standard Gears of War 4, variante de sécurité au repos, châssis argent/navy ; pas DR-1, Deadeye, Reject ou skin multijoueur.",
+    "prompt": "Exactly one standard DeeBee Shepherd robot from Gears of War 4, in its canonical intact security-unit chassis, standing upright at rest with both mechanical hands empty and relaxed. Keep the recognizable faceless rectangular robotic head and its clustered small indicator lenses, compact humanoid proportions, worn silver-gray metal armor with dark navy coverings, paired circular louvered chest housings, exposed mechanical neck, elbows, hips and knees, articulated metal fingers and substantial mechanical feet. Use restrained amber-yellow security-state indicators for this neutral Peacekeeper reference, not the blue recolor of a Gears 5 multiplayer teammate. Preserve the actual Shepherd panel layout, joint construction and symmetrical industrial body design; no human face, no flesh, no helmet added over the robot head, no large DR-1 body, no Deadeye-specific equipment and no Swarm corruption. Full chassis from head to both feet, three-quarter view facing screen right, readable from the side. Faithful realistic painted 2D game-asset illustration with UHD-quality materials and a sharp clean silhouette. Fully transparent RGBA background, no scene, floor, base, cast shadow outside the robot, typography, labels, UI, logos or extra robots. One robot and one view only, with clear padding around the head, fingertips and feet. No held or slung weapon and no active combat effects.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-of-war-4/",
+      "https://primagames.com/eguides/gears-of-war-4-eguide/enemy-forces/deebees",
+      "https://www.artstation.com/artwork/LJO50",
+      "https://gearsofwar.fandom.com/wiki/Shepherd",
+      "https://www.deviantart.com/spartan22294/art/GoW4-DeeBees-Shepherd-739757915",
+      "https://vignette.wikia.nocookie.net/gearsofwar/images/2/23/DeeBee_concepto_01_GoW4.jpg/revision/latest?cb=20201006063735&path-prefix=es"
+    ],
+    "visual_checklist": [
+      "Le guide du jeu distingue Shepherd, Deadeye et DR-1 ; conserver le châssis d’infanterie Shepherd.",
+      "Concept art The Coalition en vue avant/arrière inspecté, provenant d’une reproduction secondaire : deux grilles circulaires pectorales, joints mécaniques et éléments navy.",
+      "Aperçu de capture Gears 4 Settlement 5 finalement inspecté : quatre petites optiques triangulaires jaunes, corps argent et revêtements navy, châssis cohérent avec le prompt ; cette capture confirme l’état de sécurité jaune choisi.",
+      "Choix explicite d’état de sécurité neutre avec indicateurs ambrés/jaunes ; ne pas présenter une couleur de statut comme une différence de modèle.",
+      "Une seule unité entière, en pose de repos, mains mécaniques vides, pieds et sommet du crâne non coupés.",
+      "Valider en priorité tête, palette, grilles pectorales et proportions contre un Shepherd du jeu final."
+    ],
+    "unresolved_details": [
+      "Le concept art inspecté et la capture du jeu concordent sur la silhouette générale ; les micro-différences de panneaux nécessitent encore une comparaison rapprochée du modèle final.",
+      "La capture de sécurité confirme les indicateurs jaunes ; les autres statuts rouge et bleu ne sont pas nécessaires à cette pose et ne sont pas validés par cette vue.",
+      "Les micro-marquages DB Industries et tous les détails arrière ne sont pas verrouillés."
+    ]
+  },
+  {
+    "id": "warden",
+    "name": "Warden",
+    "source_game": "Gears 5",
+    "costume": "Warden standard de campagne",
+    "prompt": "The standard campaign Warden from Gears 5. Preserve the enormous broad adult Scion build, rugged pale grey mineral-textured skin, massive shoulders and arms, heavy imposing torso, original distinctive protective helmet and the hanging cape that recalls the ceremonial attire of elite Locust guards. Use the exact standard campaign headgear, shoulder silhouette, cape attachment, original body coverage, belt, lower garment and leg equipment of the Warden. The cape hangs at rest behind the body, allowing both empty hands and feet to remain visible. The standard helmet is intact and the face is at rest. Do not replace him with the Speaker, a normal Swarm Drone, a Theron in oversized armor, a special cosmetic variant or a new fantasy giant. Create exactly one full-body character as a neutral production model reference: standing at rest, weight balanced, shoulders relaxed, arms slightly separated from the torso, both empty hands visible and relaxed. Three-quarter view facing screen-right, turned enough toward profile for a readable side-view 2D silhouette. The complete head, feet, fingers and every costume extremity must fit inside the canvas with a generous transparent margin. Realistic hand-painted 2D UHD game art, anatomically and materially faithful to the named official game model, crisp readable contour, restrained even studio illumination. True transparent alpha background, including gaps between limbs. No text, captions, logos, interface, border, second character, alternate view, scenery, floor, pedestal, cast shadow, glow, particles, action, injury or violence. No handheld or attached weapons. Preserve the exact named episode costume rather than inventing a redesign or combining skins. This is a single calm unarmed reference pose.",
+    "source_urls": [
+      "https://news.xbox.com/en-us/2019/10/16/all-new-heroes-and-villains-are-available-today-in-gears-5/",
+      "https://www.artstation.com/ometto",
+      "https://news.xbox.com/en-us/2020/02/21/gears-of-war-unveils-new-action-figures-at-new-york-toy-fair/"
+    ],
+    "visual_checklist": [
+      "Très grande morphologie Scion, différente du Drone Essaim.",
+      "Casque et cape du Warden standard présents et reconnaissables.",
+      "Cape au repos, pieds visibles et marge autour de toutes les extrémités.",
+      "Aucune masse ni arme fixée au dos ; mains entièrement vides."
+    ],
+    "unresolved_details": [
+      "Xbox confirme explicitement le grand Scion, son casque et sa cape ; ces trois traits sont établis par la source primaire.",
+      "Le portfolio de Fernando Ometto comprend Warden Gears 5 et constitue la piste de contrôle du modèle de production.",
+      "Découpe précise du casque, implantation des textures minérales, attaches de cape et partie cachée du dos à vérifier sur vues détaillées.",
+      "La figurine licenciée sert seulement de recoupement de silhouette : elle ne remplace pas le modèle du jeu pour la fidélité 1:1."
+    ]
+  },
+  {
+    "id": "swarm_drone",
+    "name": "Drone de l’Essaim",
+    "source_game": "Gears of War 4",
+    "costume": "Drone standard de campagne",
+    "prompt": "The standard rifle-class Swarm Drone from the Gears of War 4 campaign, matching the Gears 4 art-book Rifle model. Preserve the original adult bulky humanoid Swarm anatomy, rugged mottled orange-brown organic skin, distinctive broad nonhuman head and jaw, muscle and hard organic surface transitions, and the specific sparse worn straps, belt, pouches and lower-body equipment of the standard Rifle variant. Keep the exact original torso coverage and silhouette rather than adding a Locust breastplate or futuristic armor. All natural protrusions are anatomical surface details in a calm undamaged state. Relaxed neutral face and empty hands. Do not use the Gears 5 Drone redesign, Elite Drone, Grenadier, Sniper, Hunter, Scion or a recolored original Locust Drone. Create exactly one full-body character as a neutral production model reference: standing at rest, weight balanced, shoulders relaxed, arms slightly separated from the torso, both empty hands visible and relaxed. Three-quarter view facing screen-right, turned enough toward profile for a readable side-view 2D silhouette. The complete head, feet, fingers and every costume extremity must fit inside the canvas with a generous transparent margin. Realistic hand-painted 2D UHD game art, anatomically and materially faithful to the named official game model, crisp readable contour, restrained even studio illumination. True transparent alpha background, including gaps between limbs. No text, captions, logos, interface, border, second character, alternate view, scenery, floor, pedestal, cast shadow, glow, particles, action, injury or violence. No handheld or attached weapons. Preserve the exact named episode costume rather than inventing a redesign or combining skins. This is a single calm unarmed reference pose.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-of-war-4/",
+      "https://haiweihou.artstation.com/projects/WrZXJ"
+    ],
+    "visual_checklist": [
+      "Drone de l’Essaim Gears 4, variante Rifle de l’artbook.",
+      "Anatomie organique et tête Essaim ; aucun Drone locuste simplement recoloré.",
+      "Harnais et équipements du Drone standard ; aucune armure d’Elite Drone.",
+      "Toutes les extrémités organiques, mains et pieds restent entières dans le cadre."
+    ],
+    "unresolved_details": [
+      "Haiwei Hou présente des rendus créés pour l’artbook Gears 4 et identifie séparément Rifle, Grenadier, Scion, Sniper, Elite Drone et Hunter : sélectionner Rifle.",
+      "Le placement exact des sangles, poches et protections demeure à comparer sur le rendu Rifle ; la fiche ne prétend pas à une lecture orthographique complète.",
+      "Les teintes organiques varient avec l’éclairage ; aucun code couleur mesuré disponible.",
+      "Le port du Hammerburst n’est pas illustré dans ce lot neutre, conformément à la demande de mains vides."
+    ]
+  },
+  {
+    "id": "ukkon",
+    "name": "Ukkon",
+    "source_game": "Gears Tactics",
+    "costume": "Scientifique de campagne",
+    "prompt": "Ukkon, the adult Locust scientist, in the regular final-production campaign appearance from Gears Tactics, following the character model created by the Splash Damage character team, Ben Davis and Ji Ruan. Use his recognizable long pale ridged head, distinctive facial and mouth anatomy at rest, narrow intelligent face, original dark red and charcoal layered outfit, mechanical armor sections, neck and torso equipment, belt, hanging garment panels and full lower-body equipment. Use the unmasked regular character appearance so his identity is readable; retain only the apparatus actually integrated into that costume, with no new laboratory prop or accessory. Match the final shipped character proportions and coverage, keeping the body intact and undamaged. Do not use a preliminary Kantus-like concept, a creature transformation, the Heroic multiplayer skin, a generic laboratory coat or an invented scientific tool. Create exactly one full-body character as a neutral production model reference: standing at rest, weight balanced, shoulders relaxed, arms slightly separated from the torso, both empty hands visible and relaxed. Three-quarter view facing screen-right, turned enough toward profile for a readable side-view 2D silhouette. The complete head, feet, fingers and every costume extremity must fit inside the canvas with a generous transparent margin. Realistic hand-painted 2D UHD game art, anatomically and materially faithful to the named official game model, crisp readable contour, restrained even studio illumination. True transparent alpha background, including gaps between limbs. No text, captions, logos, interface, border, second character, alternate view, scenery, floor, pedestal, cast shadow, glow, particles, action, injury or violence. No handheld or attached weapons. Preserve the exact named episode costume rather than inventing a redesign or combining skins. This is a single calm unarmed reference pose.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/",
+      "https://ben_davis.artstation.com/projects/4bDBx2",
+      "https://darkmummy.artstation.com/projects/VdA3zn",
+      "https://magazine.artstation.com/2020/04/the-coalition-splash-damage-gears-tactics-art-blast/"
+    ],
+    "visual_checklist": [
+      "Visage et tenue du modèle Ukkon final de Gears Tactics.",
+      "Référence de production Splash Damage ; aucun concept préliminaire utilisé comme costume final.",
+      "Appareillage uniquement là où il appartient au modèle choisi, sans outil inventé.",
+      "Mains vides, posture calme, modèle entier sans mutation ni effet."
+    ],
+    "unresolved_details": [
+      "Ben Davis documente tête, armure, masque, vues avant/arrière et plein pied ; Ji Ruan décrit la finalisation du visage.",
+      "Choix de cadrage : variante régulière sans masque sur le visage pour la lisibilité ; position de l’appareillage non porté sur le visage à confirmer sur le plein pied choisi.",
+      "Petites asymétries, tuyaux, attaches et densité des plaques non certifiés par les seules légendes textuelles.",
+      "Les concepts BlueSky ne prouvent pas un costume final et ne doivent pas être fusionnés avec le modèle livré."
+    ]
+  },
+  {
+    "id": "grenadier",
+    "name": "Grenadier locuste",
+    "source_game": "Gears Tactics",
+    "costume": "Grenadier standard",
+    "prompt": "The standard Locust Grenadier from Gears Tactics in his normal resting state. Preserve the adult massive muscular Locust body, bald rugged grey head, heavy jaw, characteristic exposed muscular upper torso and the exact sparse harness and standard Grenadier equipment, dark waist and lower-body garments, belt, pouches, forearm protection and heavy lower-leg protection from the shipped Tactics model. Keep the deliberately more exposed upper-body silhouette that distinguishes the Grenadier from the torso-armored Drone. Skin is undamaged and the expression neutral. Preserve normal standard-model colors without active effects. Do not use a Grenadier Elite, a Lambent variant, a Disciple, a Swarm Grenadier or a hybrid of the 2006 and Tactics costumes. Create exactly one full-body character as a neutral production model reference: standing at rest, weight balanced, shoulders relaxed, arms slightly separated from the torso, both empty hands visible and relaxed. Three-quarter view facing screen-right, turned enough toward profile for a readable side-view 2D silhouette. The complete head, feet, fingers and every costume extremity must fit inside the canvas with a generous transparent margin. Realistic hand-painted 2D UHD game art, anatomically and materially faithful to the named official game model, crisp readable contour, restrained even studio illumination. True transparent alpha background, including gaps between limbs. No text, captions, logos, interface, border, second character, alternate view, scenery, floor, pedestal, cast shadow, glow, particles, action, injury or violence. No handheld or attached weapons. Preserve the exact named episode costume rather than inventing a redesign or combining skins. This is a single calm unarmed reference pose.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/",
+      "https://store.steampowered.com/news/posts/?appgroupname=Gears+Tactics&appids=1184050&enddate=1588625128&feed=steam_community_announcements"
+    ],
+    "visual_checklist": [
+      "Grenadier locuste standard de Tactics, en état normal.",
+      "Silhouette plus exposée du torse et équipement distincts du Drone et de l’Elite.",
+      "Aucun effet de rage, signe Lambent ni mutation de Disciple.",
+      "Mains vides ; pose neutre et pieds entièrement cadrés."
+    ],
+    "unresolved_details": [
+      "Le blog officiel confirme le Grenadier comme variante du Drone et son identité Tactics, mais n’offre pas une planche de costume dédiée dans le texte accessible.",
+      "Disposition exacte du harnais, poches, attaches et protections de bras à contrôler sur la séquence d’introduction du Grenadier en jeu.",
+      "Les asymétries ne sont pas verrouillées ; ne pas affirmer un côté précis sans capture.",
+      "La différence Tactics/2006 doit être contrôlée avant de qualifier l’image finale de 1:1."
+    ]
+  }
+]

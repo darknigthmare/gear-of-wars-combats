@@ -1,0 +1,121 @@
+{
+  "id": "jack",
+  "version": 2,
+  "generated_asset": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/jack_reference_v2.png",
+  "generated_asset_sha256": "f4056e5c5524959aae93768a01298baec05ec4e87b6727c1f7382f880223dc36",
+  "reference_images": [
+    {
+      "local_path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_refs/jack_screenshot.jpg",
+      "sha256": "0e955951bcbedaf2fa924950dadf9724f222f146bd5f7e06dbd1f6324a168700",
+      "source_type": "Capture du jeu Gears 5 publiée par Windows Central ; pixels du jeu, diffusion secondaire.",
+      "page_url": "https://www.windowscentral.com/gears-5-guide-list-jack-upgrades-and-where-find-them",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/3sAPCx57aUZDTXWGY4gN7U-1920-80.jpg",
+      "limits": "JACK visible entre Kait et Del dans un décor enneigé. Configuration de modules/améliorations non certifiée comme base non améliorée ; une seule vue, flanc opposé partiellement masqué."
+    }
+  ],
+  "method": "Comparaison visuelle directe des images originales à leur résolution native avec view_image ; dimensions, empreintes et alpha mesurés avec Pillow. Aucun pixel image modifié, aucune nouvelle recherche réseau, aucun changement au prototype.",
+  "alpha_and_format": {
+    "mode": "RGBA",
+    "size_px": [
+      1536,
+      1024
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_pixel_percent": 59.76,
+    "fully_opaque_255_pixels": 0,
+    "alpha_corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "nonzero_alpha_bbox": [
+      0,
+      0,
+      1518,
+      1024
+    ],
+    "substantial_alpha_bbox_threshold_16": [
+      40,
+      56,
+      1473,
+      935
+    ],
+    "note": "Vrai canal alpha présent. Des pixels de très faible alpha restent au-delà du corps/châssis. Le fond sombre visible dans certains aperçus RGB ne constitue pas un fond opaque. Aucun test de composition sur décor ou de halo en jeu effectué."
+  },
+  "framing": {
+    "substantial_alpha_bbox_threshold_16": [
+      40,
+      56,
+      1473,
+      935
+    ],
+    "approx_padding_px": {
+      "left": 40,
+      "top": 56,
+      "right": 63,
+      "bottom": 89
+    },
+    "status": "chassis_et_deux_bras_entiers",
+    "orientation": "trois-quarts, grand panneau de modules tourné vers la droite de l’image",
+    "pose": "flottant, outils articulés déployés au repos",
+    "whole_chassis_visible": true,
+    "both_tools_visible": true,
+    "text_ui_or_extra_subject": false
+  },
+  "prototype_modified": false,
+  "bible_modified": false,
+  "workbook_modified": false,
+  "verdict": "Robot de soutien bleu/jaune identifiable comme inspiré de JACK, mais châssis réinventé : non conforme au modèle Gears 5 visible dans la référence.",
+  "identity": {
+    "status": "inspire_de_jack_non_conforme_modele",
+    "matches": [
+      "Un robot unique flottant, châssis compact horizontal bleu cobalt avec panneaux jaunes.",
+      "Deux bras utilitaires articulés ; aucun pied, roue ou rotor de quadricoptère.",
+      "Petits éclairages bleus et mécanique métallique."
+    ],
+    "differences": [
+      "Capot supérieur aplati et grande poignée de transport ajoutée ; le dessus de la référence présente un couvercle circulaire volumineux distinct.",
+      "Quatre grands modules circulaires lumineux remplacent les quatre petites unités à contour triangulaire arrondi visibles dans la référence. Leur fonction exacte n’est pas présumée.",
+      "Disposition de l’ensemble de petits capteurs et de leurs boîtiers changée.",
+      "Volumes latéraux, ouvertures, plaques, fixations et proportions du châssis redessinés.",
+      "Les bras et outils sont transformés en grosse pince générique et perceuse pointue ; leurs articulations, longueurs et extrémités ne suivent pas la capture."
+    ]
+  },
+  "costume": {
+    "status": "sans_objet_robot",
+    "observed": "La conformité doit porter sur le châssis et les modules, pas sur un costume humain."
+  },
+  "defects": [
+    {
+      "severity": "majeure_pour_1to1",
+      "item": "Géométrie du châssis et modules changés",
+      "impact": "La forme du capot et des quatre unités visibles, les outils et les panneaux ne correspondent pas à la capture Gears 5."
+    },
+    {
+      "severity": "mineure",
+      "item": "Pose et orientation non comparables à une vue latérale canonique",
+      "impact": "Le dessin mélange une vue de gros panneau de modules et des capteurs reconfigurés ; ne pas certifier un avant/arrière exact à partir de cette image."
+    }
+  ],
+  "reservations_1to1": [
+    "La capture montre une configuration de campagne dont les améliorations exactes ne sont pas établies.",
+    "La vue unique ne permet pas de garantir toutes les surfaces cachées ; aucun orthographique officiel complet inspecté.",
+    "Ne pas qualifier automatiquement les quatre unités de « yeux » : leur rôle et le côté de service doivent être contrôlés sur le modèle.",
+    "Aucun test d’intégration, de taille par rapport aux humains ou de cycle de vol effectué."
+  ],
+  "correction_reference": {
+    "local_path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_refs/jack_screenshot.jpg",
+    "suitability": "Référence locale la plus précise : JACK complet au centre, entre les deux humains. Pour correction ciblée, conserver géométrie, modules triangulaires, couvercle circulaire et outils visibles ; isoler seulement le robot. Les personnes et le décor doivent être retirés sans inventer les surfaces masquées.",
+    "jack_approx_region_in_source_px": [
+      625,
+      80,
+      1190,
+      620
+    ]
+  },
+  "recommendation": "Révision du modèle prioritaire ; ne pas sélectionner ce rendu comme JACK fidèle 1:1."
+}

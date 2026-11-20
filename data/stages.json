@@ -1,0 +1,2713 @@
+[
+  {
+    "id": "stage_sovereigns",
+    "name": "House of Sovereigns",
+    "source_game": "Gears of War 2006",
+    "time_of_day": "Crépuscule froid",
+    "time_status": "Choix de lumière pour le cadrage 2D ; à comparer à la séquence canonique retenue",
+    "palette": [
+      "pierre grise",
+      "bleu CGU discret",
+      "feu orange lointain"
+    ],
+    "signature_landmark": "Façade monumentale et place éventrée",
+    "priority": "P0",
+    "content_status": "Spécification de production, calques à produire",
+    "formats": [
+      "duel",
+      "boss"
+    ],
+    "canonical_scope": "Lieu de Gears 1 confirmé secondairement ; cadrage latéral et plan de sol sont une adaptation.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/House_of_Sovereigns",
+      "https://gearsofwar.fandom.com/wiki/Mission_to_House_of_Sovereigns"
+    ],
+    "source_validation": "Valider sur capture officielle datée du jeu choisi ; une page de contexte ne prouve pas chaque élément d’architecture",
+    "master_width_px": 4096,
+    "master_height_px": 2048,
+    "render_viewport_px": [
+      1920,
+      1080
+    ],
+    "floor_anchor_y_px": 1600,
+    "layers": [
+      {
+        "id": "stage_sovereigns_far",
+        "z": 0,
+        "parallax_x": 0.04,
+        "parallax_y": 0.014,
+        "content": "Ciel couvert vide de silhouettes jouables",
+        "alpha": false,
+        "file": "assets/stages/stage_sovereigns/far.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_sovereigns_horizon",
+        "z": 1,
+        "parallax_x": 0.15,
+        "parallax_y": 0.052,
+        "content": "Silhouette des tours ruinées d’Ephyra",
+        "alpha": true,
+        "file": "assets/stages/stage_sovereigns/horizon.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_sovereigns_architecture",
+        "z": 2,
+        "parallax_x": 0.36,
+        "parallax_y": 0.126,
+        "content": "Façade de la House of Sovereigns d’après la référence choisie",
+        "alpha": true,
+        "file": "assets/stages/stage_sovereigns/architecture.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_sovereigns_mid",
+        "z": 3,
+        "parallax_x": 0.65,
+        "parallax_y": 0.227,
+        "content": "Escaliers, balustrades et murs brisés derrière le plan de jeu",
+        "alpha": true,
+        "file": "assets/stages/stage_sovereigns/mid.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_sovereigns_floor",
+        "z": 4,
+        "parallax_x": 1.0,
+        "parallax_y": 1.0,
+        "content": "Dalles planes, joints et éclats sans obstacle vertical",
+        "alpha": true,
+        "file": "assets/stages/stage_sovereigns/floor.png",
+        "status": "À générer",
+        "collision": true
+      },
+      {
+        "id": "stage_sovereigns_foreground",
+        "z": 5,
+        "parallax_x": 1.12,
+        "parallax_y": 0.392,
+        "content": "Colonnes cassées sur les bords, poussière transparente",
+        "alpha": true,
+        "file": "assets/stages/stage_sovereigns/foreground.png",
+        "status": "À générer",
+        "collision": false
+      }
+    ],
+    "tournament_variant": {
+      "hazards": false,
+      "random_events": false,
+      "collision": "Sol plat, deux bords fixes, aucun débris solide mobile",
+      "light": "Luminance et contraste constants pendant la manche",
+      "camera_shake": 0,
+      "foreground_opacity_max": 0.12
+    },
+    "spectacle_variant": "Après le premier round, des débris tombent derrière le mur de combat ; la version Berserker ouvre visuellement un accès au ciel.",
+    "readability_rule": "Le centre reste plus clair que les armures Locust ; aucun feu de même couleur qu’un télégraphe actif.",
+    "camera_rule": "Parallaxe cosmétique uniquement ; les limites de combat et le sol ne suivent jamais une couche de fond.",
+    "audio_direction": "Créer une ambiance originale correspondant aux matériaux et événements ; aucune piste ou voix extraite du jeu dans ce lot.",
+    "asset_rules": "Un calque par fichier ; aucun personnage intégré dans le fond ; conserver masques, points d’ancrage et nom de variante."
+  },
+  {
+    "id": "stage_fenix_estate",
+    "name": "Haldane Hall et domaine Fenix",
+    "source_game": "Gears of War 2006",
+    "time_of_day": "Pluie du soir",
+    "time_status": "Choix de lumière pour le cadrage 2D ; à comparer à la séquence canonique retenue",
+    "palette": [
+      "bleu ardoise",
+      "pierre brune",
+      "fenêtres ambrées"
+    ],
+    "signature_landmark": "Maison et marches du domaine",
+    "priority": "P1",
+    "content_status": "Spécification de production, calques à produire",
+    "formats": [
+      "duel",
+      "boss"
+    ],
+    "canonical_scope": "Le domaine Fenix correspond à Haldane Hall ; ne pas le confondre avec Stroud Estate de Gears 4.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Haldane_Hall"
+    ],
+    "source_validation": "Valider sur capture officielle datée du jeu choisi ; une page de contexte ne prouve pas chaque élément d’architecture",
+    "master_width_px": 4096,
+    "master_height_px": 2048,
+    "render_viewport_px": [
+      1920,
+      1080
+    ],
+    "floor_anchor_y_px": 1600,
+    "layers": [
+      {
+        "id": "stage_fenix_estate_far",
+        "z": 0,
+        "parallax_x": 0.04,
+        "parallax_y": 0.014,
+        "content": "Ciel d’orage faiblement animé",
+        "alpha": false,
+        "file": "assets/stages/stage_fenix_estate/far.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_fenix_estate_horizon",
+        "z": 1,
+        "parallax_x": 0.15,
+        "parallax_y": 0.052,
+        "content": "Arbres et reliefs au-delà du mur",
+        "alpha": true,
+        "file": "assets/stages/stage_fenix_estate/horizon.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_fenix_estate_architecture",
+        "z": 2,
+        "parallax_x": 0.36,
+        "parallax_y": 0.126,
+        "content": "Façade du domaine et fenêtres de la référence 2006",
+        "alpha": true,
+        "file": "assets/stages/stage_fenix_estate/architecture.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_fenix_estate_mid",
+        "z": 3,
+        "parallax_x": 0.65,
+        "parallax_y": 0.227,
+        "content": "Muret du jardin et piliers séparés du sol jouable",
+        "alpha": true,
+        "file": "assets/stages/stage_fenix_estate/mid.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_fenix_estate_floor",
+        "z": 4,
+        "parallax_x": 1.0,
+        "parallax_y": 1.0,
+        "content": "Terrasse plane de pierre mouillée",
+        "alpha": true,
+        "file": "assets/stages/stage_fenix_estate/floor.png",
+        "status": "À générer",
+        "collision": true
+      },
+      {
+        "id": "stage_fenix_estate_foreground",
+        "z": 5,
+        "parallax_x": 1.12,
+        "parallax_y": 0.392,
+        "content": "Branches des bords et filets de pluie",
+        "alpha": true,
+        "file": "assets/stages/stage_fenix_estate/foreground.png",
+        "status": "À générer",
+        "collision": false
+      }
+    ],
+    "tournament_variant": {
+      "hazards": false,
+      "random_events": false,
+      "collision": "Sol plat, deux bords fixes, aucun débris solide mobile",
+      "light": "Luminance et contraste constants pendant la manche",
+      "camera_shake": 0,
+      "foreground_opacity_max": 0.12
+    },
+    "spectacle_variant": "Les éclairs éclairent seulement l’arrière-plan et peuvent être désactivés ; une fenêtre se brise au changement de round.",
+    "readability_rule": "Aucune pluie opaque sur les bras ou armes ; reflets du sol plafonnés.",
+    "camera_rule": "Parallaxe cosmétique uniquement ; les limites de combat et le sol ne suivent jamais une couche de fond.",
+    "audio_direction": "Créer une ambiance originale correspondant aux matériaux et événements ; aucune piste ou voix extraite du jeu dans ce lot.",
+    "asset_rules": "Un calque par fichier ; aucun personnage intégré dans le fond ; conserver masques, points d’ancrage et nom de variante."
+  },
+  {
+    "id": "stage_tyro_pillar",
+    "name": "Tyro Pillar",
+    "source_game": "Gears of War 2006",
+    "time_of_day": "Nuit en mouvement",
+    "time_status": "Choix de lumière pour le cadrage 2D ; à comparer à la séquence canonique retenue",
+    "palette": [
+      "acier noir",
+      "lune froide",
+      "lampes jaunes"
+    ],
+    "signature_landmark": "Wagon de train et silhouette de la locomotive",
+    "priority": "P0",
+    "content_status": "Spécification de production, calques à produire",
+    "formats": [
+      "duel",
+      "boss"
+    ],
+    "canonical_scope": "Train et confrontation finale de Gears 1 attestés secondairement ; architecture du wagon à valider sur la version 2006.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Tyro_Pillar",
+      "https://gearsofwar.fandom.com/wiki/Battle_on_the_Tyro_Pillar"
+    ],
+    "source_validation": "Valider sur capture officielle datée du jeu choisi ; une page de contexte ne prouve pas chaque élément d’architecture",
+    "master_width_px": 4096,
+    "master_height_px": 2048,
+    "render_viewport_px": [
+      1920,
+      1080
+    ],
+    "floor_anchor_y_px": 1600,
+    "layers": [
+      {
+        "id": "stage_tyro_pillar_far",
+        "z": 0,
+        "parallax_x": 0.04,
+        "parallax_y": 0.014,
+        "content": "Ciel étoilé et nuages de nuit",
+        "alpha": false,
+        "file": "assets/stages/stage_tyro_pillar/far.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_tyro_pillar_horizon",
+        "z": 1,
+        "parallax_x": 0.15,
+        "parallax_y": 0.052,
+        "content": "Montagnes et pylônes distants",
+        "alpha": true,
+        "file": "assets/stages/stage_tyro_pillar/horizon.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_tyro_pillar_architecture",
+        "z": 2,
+        "parallax_x": 0.36,
+        "parallax_y": 0.126,
+        "content": "Paysage ferré défilant à vitesse de présentation",
+        "alpha": true,
+        "file": "assets/stages/stage_tyro_pillar/architecture.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_tyro_pillar_mid",
+        "z": 3,
+        "parallax_x": 0.65,
+        "parallax_y": 0.227,
+        "content": "Parois de wagons et caisses sans collision",
+        "alpha": true,
+        "file": "assets/stages/stage_tyro_pillar/mid.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_tyro_pillar_floor",
+        "z": 4,
+        "parallax_x": 1.0,
+        "parallax_y": 1.0,
+        "content": "Toit ou pont de wagon plat avec repères fixes",
+        "alpha": true,
+        "file": "assets/stages/stage_tyro_pillar/floor.png",
+        "status": "À générer",
+        "collision": true
+      },
+      {
+        "id": "stage_tyro_pillar_foreground",
+        "z": 5,
+        "parallax_x": 1.12,
+        "parallax_y": 0.392,
+        "content": "Câbles et vapeur cantonnés aux bords",
+        "alpha": true,
+        "file": "assets/stages/stage_tyro_pillar/foreground.png",
+        "status": "À générer",
+        "collision": false
+      }
+    ],
+    "tournament_variant": {
+      "hazards": false,
+      "random_events": false,
+      "collision": "Sol plat, deux bords fixes, aucun débris solide mobile",
+      "light": "Luminance et contraste constants pendant la manche",
+      "camera_shake": 0,
+      "foreground_opacity_max": 0.12
+    },
+    "spectacle_variant": "Passage dans un tunnel au changement de round uniquement ; séquence de Kryll derrière une barrière de lumière, sans dommages en tournoi.",
+    "readability_rule": "Les personnages et le sol restent fixes par rapport à la caméra ; la vitesse du fond n’ajoute pas de déplacement physique.",
+    "camera_rule": "Parallaxe cosmétique uniquement ; les limites de combat et le sol ne suivent jamais une couche de fond.",
+    "audio_direction": "Créer une ambiance originale correspondant aux matériaux et événements ; aucune piste ou voix extraite du jeu dans ce lot.",
+    "asset_rules": "Un calque par fichier ; aucun personnage intégré dans le fond ; conserver masques, points d’ancrage et nom de variante."
+  },
+  {
+    "id": "stage_hollow",
+    "name": "Les profondeurs",
+    "source_game": "Gears of War 2",
+    "time_of_day": "Éclairage souterrain",
+    "time_status": "Choix de lumière pour le cadrage 2D ; à comparer à la séquence canonique retenue",
+    "palette": [
+      "brun roche",
+      "ambre Imulsion",
+      "bleu froid ponctuel"
+    ],
+    "signature_landmark": "Cavernes monumentales et accès Locust",
+    "priority": "P1",
+    "content_status": "Spécification de production, calques à produire",
+    "formats": [
+      "duel",
+      "boss"
+    ],
+    "canonical_scope": "Hollow présent sur la page officielle Gears 2 ; cette corniche est une composition latérale originale.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-of-war-2/",
+      "https://gearsofwar.fandom.com/wiki/Hollow"
+    ],
+    "source_validation": "Valider sur capture officielle datée du jeu choisi ; une page de contexte ne prouve pas chaque élément d’architecture",
+    "master_width_px": 4096,
+    "master_height_px": 2048,
+    "render_viewport_px": [
+      1920,
+      1080
+    ],
+    "floor_anchor_y_px": 1600,
+    "layers": [
+      {
+        "id": "stage_hollow_far",
+        "z": 0,
+        "parallax_x": 0.04,
+        "parallax_y": 0.014,
+        "content": "Brume profonde sur fond sombre",
+        "alpha": false,
+        "file": "assets/stages/stage_hollow/far.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_hollow_horizon",
+        "z": 1,
+        "parallax_x": 0.15,
+        "parallax_y": 0.052,
+        "content": "Voûtes lointaines et reliefs étagés",
+        "alpha": true,
+        "file": "assets/stages/stage_hollow/horizon.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_hollow_architecture",
+        "z": 2,
+        "parallax_x": 0.36,
+        "parallax_y": 0.126,
+        "content": "Ponts Locust au second plan",
+        "alpha": true,
+        "file": "assets/stages/stage_hollow/architecture.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_hollow_mid",
+        "z": 3,
+        "parallax_x": 0.65,
+        "parallax_y": 0.227,
+        "content": "Piliers de roche et matériel d’invasion",
+        "alpha": true,
+        "file": "assets/stages/stage_hollow/mid.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_hollow_floor",
+        "z": 4,
+        "parallax_x": 1.0,
+        "parallax_y": 1.0,
+        "content": "Corniche large sans trou de collision",
+        "alpha": true,
+        "file": "assets/stages/stage_hollow/floor.png",
+        "status": "À générer",
+        "collision": true
+      },
+      {
+        "id": "stage_hollow_foreground",
+        "z": 5,
+        "parallax_x": 1.12,
+        "parallax_y": 0.392,
+        "content": "Stalactites uniquement dans les coins hauts",
+        "alpha": true,
+        "file": "assets/stages/stage_hollow/foreground.png",
+        "status": "À générer",
+        "collision": false
+      }
+    ],
+    "tournament_variant": {
+      "hazards": false,
+      "random_events": false,
+      "collision": "Sol plat, deux bords fixes, aucun débris solide mobile",
+      "light": "Luminance et contraste constants pendant la manche",
+      "camera_shake": 0,
+      "foreground_opacity_max": 0.12
+    },
+    "spectacle_variant": "Un Grindlift traverse le fond avant l’entrée des combattants ; des Reavers très éloignés ne deviennent jamais des attaques.",
+    "readability_rule": "Séparer la lumière Imulsion des indicateurs de dégâts et éviter les silhouettes de faux adversaires à hauteur de jeu.",
+    "camera_rule": "Parallaxe cosmétique uniquement ; les limites de combat et le sol ne suivent jamais une couche de fond.",
+    "audio_direction": "Créer une ambiance originale correspondant aux matériaux et événements ; aucune piste ou voix extraite du jeu dans ce lot.",
+    "asset_rules": "Un calque par fichier ; aucun personnage intégré dans le fond ; conserver masques, points d’ancrage et nom de variante."
+  },
+  {
+    "id": "stage_hollow_lake",
+    "name": "Lac des profondeurs",
+    "source_game": "Gears of War 2",
+    "time_of_day": "Nuit souterraine",
+    "time_status": "Choix de lumière pour le cadrage 2D ; à comparer à la séquence canonique retenue",
+    "palette": [
+      "vert noir",
+      "ambre diffus",
+      "acier humide"
+    ],
+    "signature_landmark": "Pont stable au-dessus d’un lac noir",
+    "priority": "P1",
+    "content_status": "Spécification de production, calques à produire",
+    "formats": [
+      "boss"
+    ],
+    "canonical_scope": "Cadrage de rencontre adapté de Gears 2 ; « Lac des profondeurs » est un libellé descriptif, pas un nouveau toponyme canonique.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Leviathan",
+      "https://gearsofwar.fandom.com/wiki/Gears_of_War_2"
+    ],
+    "source_validation": "Valider sur capture officielle datée du jeu choisi ; une page de contexte ne prouve pas chaque élément d’architecture",
+    "master_width_px": 4096,
+    "master_height_px": 2048,
+    "render_viewport_px": [
+      1920,
+      1080
+    ],
+    "floor_anchor_y_px": 1600,
+    "layers": [
+      {
+        "id": "stage_hollow_lake_far",
+        "z": 0,
+        "parallax_x": 0.04,
+        "parallax_y": 0.014,
+        "content": "Brume de caverne très lointaine",
+        "alpha": false,
+        "file": "assets/stages/stage_hollow_lake/far.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_hollow_lake_horizon",
+        "z": 1,
+        "parallax_x": 0.15,
+        "parallax_y": 0.052,
+        "content": "Voûte et arches immergées",
+        "alpha": true,
+        "file": "assets/stages/stage_hollow_lake/horizon.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_hollow_lake_architecture",
+        "z": 2,
+        "parallax_x": 0.36,
+        "parallax_y": 0.126,
+        "content": "Rive distante et ruines",
+        "alpha": true,
+        "file": "assets/stages/stage_hollow_lake/architecture.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_hollow_lake_mid",
+        "z": 3,
+        "parallax_x": 0.65,
+        "parallax_y": 0.227,
+        "content": "Surface de l’eau hors du sol jouable",
+        "alpha": true,
+        "file": "assets/stages/stage_hollow_lake/mid.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_hollow_lake_floor",
+        "z": 4,
+        "parallax_x": 1.0,
+        "parallax_y": 1.0,
+        "content": "Pont flottant large représenté sans roulis physique",
+        "alpha": true,
+        "file": "assets/stages/stage_hollow_lake/floor.png",
+        "status": "À générer",
+        "collision": true
+      },
+      {
+        "id": "stage_hollow_lake_foreground",
+        "z": 5,
+        "parallax_x": 1.12,
+        "parallax_y": 0.392,
+        "content": "Cordages et éclaboussures au bord inférieur",
+        "alpha": true,
+        "file": "assets/stages/stage_hollow_lake/foreground.png",
+        "status": "À générer",
+        "collision": false
+      }
+    ],
+    "tournament_variant": {
+      "hazards": false,
+      "random_events": false,
+      "collision": "Sol plat, deux bords fixes, aucun débris solide mobile",
+      "light": "Luminance et contraste constants pendant la manche",
+      "camera_shake": 0,
+      "foreground_opacity_max": 0.12
+    },
+    "spectacle_variant": "Les vagues augmentent avec les phases du Leviathan ; le pont dessiné peut fléchir visuellement sans changer la collision.",
+    "readability_rule": "Les tentacules actifs ont un contour dédié ; les reflets décoratifs ne reprennent pas leur couleur d’alerte.",
+    "camera_rule": "Parallaxe cosmétique uniquement ; les limites de combat et le sol ne suivent jamais une couche de fond.",
+    "audio_direction": "Créer une ambiance originale correspondant aux matériaux et événements ; aucune piste ou voix extraite du jeu dans ce lot.",
+    "asset_rules": "Un calque par fichier ; aucun personnage intégré dans le fond ; conserver masques, points d’ancrage et nom de variante."
+  },
+  {
+    "id": "stage_stromson",
+    "name": "Forêt de Stromson",
+    "source_game": "Gears of War 2",
+    "time_of_day": "Aube voilée",
+    "time_status": "Choix de lumière pour le cadrage 2D ; à comparer à la séquence canonique retenue",
+    "palette": [
+      "gris vert",
+      "poussière ocre",
+      "acier froid"
+    ],
+    "signature_landmark": "Forêt et route de guerre en contrebas",
+    "priority": "P1",
+    "content_status": "Spécification de production, calques à produire",
+    "formats": [
+      "duel",
+      "boss"
+    ],
+    "canonical_scope": "Forêt attestée secondairement ; le support de combat latéral est une création pour la poursuite.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Stromson_Forest",
+      "https://gearsofwar.fandom.com/wiki/Battle_of_Stromson_Forest",
+      "https://gearsofwar.fandom.com/wiki/Hydra"
+    ],
+    "source_validation": "Valider sur capture officielle datée du jeu choisi ; une page de contexte ne prouve pas chaque élément d’architecture",
+    "master_width_px": 4096,
+    "master_height_px": 2048,
+    "render_viewport_px": [
+      1920,
+      1080
+    ],
+    "floor_anchor_y_px": 1600,
+    "layers": [
+      {
+        "id": "stage_stromson_far",
+        "z": 0,
+        "parallax_x": 0.04,
+        "parallax_y": 0.014,
+        "content": "Ciel d’aube pâle",
+        "alpha": false,
+        "file": "assets/stages/stage_stromson/far.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_stromson_horizon",
+        "z": 1,
+        "parallax_x": 0.15,
+        "parallax_y": 0.052,
+        "content": "Lignes de forêt lointaine",
+        "alpha": true,
+        "file": "assets/stages/stage_stromson/horizon.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_stromson_architecture",
+        "z": 2,
+        "parallax_x": 0.36,
+        "parallax_y": 0.126,
+        "content": "Falaises et route militaire",
+        "alpha": true,
+        "file": "assets/stages/stage_stromson/architecture.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_stromson_mid",
+        "z": 3,
+        "parallax_x": 0.65,
+        "parallax_y": 0.227,
+        "content": "Arbres proches derrière la plateforme",
+        "alpha": true,
+        "file": "assets/stages/stage_stromson/mid.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_stromson_floor",
+        "z": 4,
+        "parallax_x": 1.0,
+        "parallax_y": 1.0,
+        "content": "Plateforme de poursuite stable ou chaussée de duel selon variante",
+        "alpha": true,
+        "file": "assets/stages/stage_stromson/floor.png",
+        "status": "À générer",
+        "collision": true
+      },
+      {
+        "id": "stage_stromson_foreground",
+        "z": 5,
+        "parallax_x": 1.12,
+        "parallax_y": 0.392,
+        "content": "Branches et fumée aux limites",
+        "alpha": true,
+        "file": "assets/stages/stage_stromson/foreground.png",
+        "status": "À générer",
+        "collision": false
+      }
+    ],
+    "tournament_variant": {
+      "hazards": false,
+      "random_events": false,
+      "collision": "Sol plat, deux bords fixes, aucun débris solide mobile",
+      "light": "Luminance et contraste constants pendant la manche",
+      "camera_shake": 0,
+      "foreground_opacity_max": 0.12
+    },
+    "spectacle_variant": "Convoi de fond et explosions lointaines ; la variante Hydra utilise un support volant à trajectoire visuelle fixe.",
+    "readability_rule": "Les arbres ne traversent pas l’aire jouable ; leur contraste reste inférieur aux personnages.",
+    "camera_rule": "Parallaxe cosmétique uniquement ; les limites de combat et le sol ne suivent jamais une couche de fond.",
+    "audio_direction": "Créer une ambiance originale correspondant aux matériaux et événements ; aucune piste ou voix extraite du jeu dans ce lot.",
+    "asset_rules": "Un calque par fichier ; aucun personnage intégré dans le fond ; conserver masques, points d’ancrage et nom de variante."
+  },
+  {
+    "id": "stage_jacinto",
+    "name": "Jacinto au bord de la chute",
+    "source_game": "Gears of War 2",
+    "time_of_day": "Jour chargé de fumée",
+    "time_status": "Choix de lumière pour le cadrage 2D ; à comparer à la séquence canonique retenue",
+    "palette": [
+      "gris pierre",
+      "orange feu",
+      "bleu fumée"
+    ],
+    "signature_landmark": "Ville en évacuation et rupture du plateau",
+    "priority": "P1",
+    "content_status": "Spécification de production, calques à produire",
+    "formats": [
+      "duel",
+      "boss"
+    ],
+    "canonical_scope": "Contexte de fin de Gears 2 ; géométrie de l’arène et position des bâtiments à vérifier sur captures.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Sinking_of_Jacinto_City",
+      "https://www.gearsofwar.com/en-us/games/gears-of-war-2/"
+    ],
+    "source_validation": "Valider sur capture officielle datée du jeu choisi ; une page de contexte ne prouve pas chaque élément d’architecture",
+    "master_width_px": 4096,
+    "master_height_px": 2048,
+    "render_viewport_px": [
+      1920,
+      1080
+    ],
+    "floor_anchor_y_px": 1600,
+    "layers": [
+      {
+        "id": "stage_jacinto_far",
+        "z": 0,
+        "parallax_x": 0.04,
+        "parallax_y": 0.014,
+        "content": "Ciel gris avec large zone calme",
+        "alpha": false,
+        "file": "assets/stages/stage_jacinto/far.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_jacinto_horizon",
+        "z": 1,
+        "parallax_x": 0.15,
+        "parallax_y": 0.052,
+        "content": "Skyline de Jacinto",
+        "alpha": true,
+        "file": "assets/stages/stage_jacinto/horizon.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_jacinto_architecture",
+        "z": 2,
+        "parallax_x": 0.36,
+        "parallax_y": 0.126,
+        "content": "Façades et grands contreforts",
+        "alpha": true,
+        "file": "assets/stages/stage_jacinto/architecture.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_jacinto_mid",
+        "z": 3,
+        "parallax_x": 0.65,
+        "parallax_y": 0.227,
+        "content": "Débris d’évacuation et barrières",
+        "alpha": true,
+        "file": "assets/stages/stage_jacinto/mid.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_jacinto_floor",
+        "z": 4,
+        "parallax_x": 1.0,
+        "parallax_y": 1.0,
+        "content": "Promontoire plat sécurisé pour le jeu",
+        "alpha": true,
+        "file": "assets/stages/stage_jacinto/floor.png",
+        "status": "À générer",
+        "collision": true
+      },
+      {
+        "id": "stage_jacinto_foreground",
+        "z": 5,
+        "parallax_x": 1.12,
+        "parallax_y": 0.392,
+        "content": "Poussière et petits fragments sans collision",
+        "alpha": true,
+        "file": "assets/stages/stage_jacinto/foreground.png",
+        "status": "À générer",
+        "collision": false
+      }
+    ],
+    "tournament_variant": {
+      "hazards": false,
+      "random_events": false,
+      "collision": "Sol plat, deux bords fixes, aucun débris solide mobile",
+      "light": "Luminance et contraste constants pendant la manche",
+      "camera_shake": 0,
+      "foreground_opacity_max": 0.12
+    },
+    "spectacle_variant": "L’effondrement monumental se déroule après le combat ou dans une boucle lente au fond ; aucun saut de caméra pendant une parade.",
+    "readability_rule": "Éviter que le Brumak Lambent et les feux partagent la même valeur lumineuse.",
+    "camera_rule": "Parallaxe cosmétique uniquement ; les limites de combat et le sol ne suivent jamais une couche de fond.",
+    "audio_direction": "Créer une ambiance originale correspondant aux matériaux et événements ; aucune piste ou voix extraite du jeu dans ce lot.",
+    "asset_rules": "Un calque par fichier ; aucun personnage intégré dans le fond ; conserver masques, points d’ancrage et nom de variante."
+  },
+  {
+    "id": "stage_anvil_gate",
+    "name": "Anvil Gate",
+    "source_game": "Gears of War 3",
+    "time_of_day": "Nuit sous projecteurs",
+    "time_status": "Choix de lumière pour le cadrage 2D ; à comparer à la séquence canonique retenue",
+    "palette": [
+      "sable brun",
+      "gris acier",
+      "feu orange"
+    ],
+    "signature_landmark": "Porte fortifiée et cours de défense",
+    "priority": "P1",
+    "content_status": "Spécification de production, calques à produire",
+    "formats": [
+      "duel",
+      "boss"
+    ],
+    "canonical_scope": "Lieu et bataille de Gears 3 documentés ; version latérale originale.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Battle_of_Anvil_Gate",
+      "https://www.gearsofwar.com/en-us/games/gears-of-war-3/"
+    ],
+    "source_validation": "Valider sur capture officielle datée du jeu choisi ; une page de contexte ne prouve pas chaque élément d’architecture",
+    "master_width_px": 4096,
+    "master_height_px": 2048,
+    "render_viewport_px": [
+      1920,
+      1080
+    ],
+    "floor_anchor_y_px": 1600,
+    "layers": [
+      {
+        "id": "stage_anvil_gate_far",
+        "z": 0,
+        "parallax_x": 0.04,
+        "parallax_y": 0.014,
+        "content": "Ciel nocturne peu contrasté",
+        "alpha": false,
+        "file": "assets/stages/stage_anvil_gate/far.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_anvil_gate_horizon",
+        "z": 1,
+        "parallax_x": 0.15,
+        "parallax_y": 0.052,
+        "content": "Collines et silhouettes de siège",
+        "alpha": true,
+        "file": "assets/stages/stage_anvil_gate/horizon.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_anvil_gate_architecture",
+        "z": 2,
+        "parallax_x": 0.36,
+        "parallax_y": 0.126,
+        "content": "Mur d’Anvil Gate et tour de guet",
+        "alpha": true,
+        "file": "assets/stages/stage_anvil_gate/architecture.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_anvil_gate_mid",
+        "z": 3,
+        "parallax_x": 0.65,
+        "parallax_y": 0.227,
+        "content": "Sacs, caisses et atelier à l’arrière",
+        "alpha": true,
+        "file": "assets/stages/stage_anvil_gate/mid.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_anvil_gate_floor",
+        "z": 4,
+        "parallax_x": 1.0,
+        "parallax_y": 1.0,
+        "content": "Cour plane avec métal et poussière",
+        "alpha": true,
+        "file": "assets/stages/stage_anvil_gate/floor.png",
+        "status": "À générer",
+        "collision": true
+      },
+      {
+        "id": "stage_anvil_gate_foreground",
+        "z": 5,
+        "parallax_x": 1.12,
+        "parallax_y": 0.392,
+        "content": "Bord de rempart très bas et fumée fine",
+        "alpha": true,
+        "file": "assets/stages/stage_anvil_gate/foreground.png",
+        "status": "À générer",
+        "collision": false
+      }
+    ],
+    "tournament_variant": {
+      "hazards": false,
+      "random_events": false,
+      "collision": "Sol plat, deux bords fixes, aucun débris solide mobile",
+      "light": "Luminance et contraste constants pendant la manche",
+      "camera_shake": 0,
+      "foreground_opacity_max": 0.12
+    },
+    "spectacle_variant": "Assaut lointain au premier round, Lambent visibles au second ; un projecteur suit le fond sans illuminer directement les joueurs.",
+    "readability_rule": "Conserver une bande de valeur moyenne derrière les jambes ; flammes hors trajectoire des coups.",
+    "camera_rule": "Parallaxe cosmétique uniquement ; les limites de combat et le sol ne suivent jamais une couche de fond.",
+    "audio_direction": "Créer une ambiance originale correspondant aux matériaux et événements ; aucune piste ou voix extraite du jeu dans ce lot.",
+    "asset_rules": "Un calque par fichier ; aucun personnage intégré dans le fond ; conserver masques, points d’ancrage et nom de variante."
+  },
+  {
+    "id": "stage_sovereign_deck",
+    "name": "Pont du Sovereign",
+    "source_game": "Gears of War 3",
+    "time_of_day": "Aube maritime",
+    "time_status": "Choix de lumière pour le cadrage 2D ; à comparer à la séquence canonique retenue",
+    "palette": [
+      "bleu acier",
+      "orange matinal",
+      "vert mer"
+    ],
+    "signature_landmark": "Pont du navire et superstructure",
+    "priority": "P1",
+    "content_status": "Spécification de production, calques à produire",
+    "formats": [
+      "duel",
+      "boss"
+    ],
+    "canonical_scope": "Navire de Gears 3 et attaque identifiés secondairement ; composition latérale à contrôler.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Lambent_Leviathan",
+      "https://gearsofwar.fandom.com/wiki/Gears_of_War_3"
+    ],
+    "source_validation": "Valider sur capture officielle datée du jeu choisi ; une page de contexte ne prouve pas chaque élément d’architecture",
+    "master_width_px": 4096,
+    "master_height_px": 2048,
+    "render_viewport_px": [
+      1920,
+      1080
+    ],
+    "floor_anchor_y_px": 1600,
+    "layers": [
+      {
+        "id": "stage_sovereign_deck_far",
+        "z": 0,
+        "parallax_x": 0.04,
+        "parallax_y": 0.014,
+        "content": "Ciel matinal doux",
+        "alpha": false,
+        "file": "assets/stages/stage_sovereign_deck/far.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_sovereign_deck_horizon",
+        "z": 1,
+        "parallax_x": 0.15,
+        "parallax_y": 0.052,
+        "content": "Mer et horizon horizontal",
+        "alpha": true,
+        "file": "assets/stages/stage_sovereign_deck/horizon.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_sovereign_deck_architecture",
+        "z": 2,
+        "parallax_x": 0.36,
+        "parallax_y": 0.126,
+        "content": "Superstructure et canots",
+        "alpha": true,
+        "file": "assets/stages/stage_sovereign_deck/architecture.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_sovereign_deck_mid",
+        "z": 3,
+        "parallax_x": 0.65,
+        "parallax_y": 0.227,
+        "content": "Tuyaux, rails et éléments du pont",
+        "alpha": true,
+        "file": "assets/stages/stage_sovereign_deck/mid.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_sovereign_deck_floor",
+        "z": 4,
+        "parallax_x": 1.0,
+        "parallax_y": 1.0,
+        "content": "Pont large avec plaques métalliques",
+        "alpha": true,
+        "file": "assets/stages/stage_sovereign_deck/floor.png",
+        "status": "À générer",
+        "collision": true
+      },
+      {
+        "id": "stage_sovereign_deck_foreground",
+        "z": 5,
+        "parallax_x": 1.12,
+        "parallax_y": 0.392,
+        "content": "Cordages bas aux bords et embruns",
+        "alpha": true,
+        "file": "assets/stages/stage_sovereign_deck/foreground.png",
+        "status": "À générer",
+        "collision": false
+      }
+    ],
+    "tournament_variant": {
+      "hazards": false,
+      "random_events": false,
+      "collision": "Sol plat, deux bords fixes, aucun débris solide mobile",
+      "light": "Luminance et contraste constants pendant la manche",
+      "camera_shake": 0,
+      "foreground_opacity_max": 0.12
+    },
+    "spectacle_variant": "Vagues et mouvement du navire au fond ; l’attaque du Leviathan produit une gîte visuelle limitée seulement en transition.",
+    "readability_rule": "Aucun roulis de caméra imposé ; les bords du pont sont fermés en duel.",
+    "camera_rule": "Parallaxe cosmétique uniquement ; les limites de combat et le sol ne suivent jamais une couche de fond.",
+    "audio_direction": "Créer une ambiance originale correspondant aux matériaux et événements ; aucune piste ou voix extraite du jeu dans ce lot.",
+    "asset_rules": "Un calque par fichier ; aucun personnage intégré dans le fond ; conserver masques, points d’ancrage et nom de variante."
+  },
+  {
+    "id": "stage_azura_tower",
+    "name": "Azura et la tour",
+    "source_game": "Gears of War 3",
+    "time_of_day": "Fin de journée",
+    "time_status": "Choix de lumière pour le cadrage 2D ; à comparer à la séquence canonique retenue",
+    "palette": [
+      "blanc pierre",
+      "turquoise mer",
+      "or solaire"
+    ],
+    "signature_landmark": "Tour et architecture d’Azura",
+    "priority": "P1",
+    "content_status": "Spécification de production, calques à produire",
+    "formats": [
+      "duel",
+      "boss"
+    ],
+    "canonical_scope": "Lieu final de Gears 3 ; position précise des structures à valider dans le jeu.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Battle_of_Azura",
+      "https://gearsofwar.fandom.com/wiki/Tempest"
+    ],
+    "source_validation": "Valider sur capture officielle datée du jeu choisi ; une page de contexte ne prouve pas chaque élément d’architecture",
+    "master_width_px": 4096,
+    "master_height_px": 2048,
+    "render_viewport_px": [
+      1920,
+      1080
+    ],
+    "floor_anchor_y_px": 1600,
+    "layers": [
+      {
+        "id": "stage_azura_tower_far",
+        "z": 0,
+        "parallax_x": 0.04,
+        "parallax_y": 0.014,
+        "content": "Ciel clair et nuages lents",
+        "alpha": false,
+        "file": "assets/stages/stage_azura_tower/far.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_azura_tower_horizon",
+        "z": 1,
+        "parallax_x": 0.15,
+        "parallax_y": 0.052,
+        "content": "Océan et îlots",
+        "alpha": true,
+        "file": "assets/stages/stage_azura_tower/horizon.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_azura_tower_architecture",
+        "z": 2,
+        "parallax_x": 0.36,
+        "parallax_y": 0.126,
+        "content": "Tour et bâtiments reconnaissables",
+        "alpha": true,
+        "file": "assets/stages/stage_azura_tower/architecture.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_azura_tower_mid",
+        "z": 3,
+        "parallax_x": 0.65,
+        "parallax_y": 0.227,
+        "content": "Terrasse, balustrade et végétation",
+        "alpha": true,
+        "file": "assets/stages/stage_azura_tower/mid.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_azura_tower_floor",
+        "z": 4,
+        "parallax_x": 1.0,
+        "parallax_y": 1.0,
+        "content": "Dalles larges sans pente jouable",
+        "alpha": true,
+        "file": "assets/stages/stage_azura_tower/floor.png",
+        "status": "À générer",
+        "collision": true
+      },
+      {
+        "id": "stage_azura_tower_foreground",
+        "z": 5,
+        "parallax_x": 1.12,
+        "parallax_y": 0.392,
+        "content": "Fragments de colonne au bord inférieur",
+        "alpha": true,
+        "file": "assets/stages/stage_azura_tower/foreground.png",
+        "status": "À générer",
+        "collision": false
+      }
+    ],
+    "tournament_variant": {
+      "hazards": false,
+      "random_events": false,
+      "collision": "Sol plat, deux bords fixes, aucun débris solide mobile",
+      "light": "Luminance et contraste constants pendant la manche",
+      "camera_shake": 0,
+      "foreground_opacity_max": 0.12
+    },
+    "spectacle_variant": "La variante Tempest révèle la hauteur de la tour ; seuls les éléments non interactifs s’effondrent hors des fenêtres de combat.",
+    "readability_rule": "Myrrah et le Tempest restent plus sombres que la pierre ; réduire le halo solaire derrière les télégraphes.",
+    "camera_rule": "Parallaxe cosmétique uniquement ; les limites de combat et le sol ne suivent jamais une couche de fond.",
+    "audio_direction": "Créer une ambiance originale correspondant aux matériaux et événements ; aucune piste ou voix extraite du jeu dans ce lot.",
+    "asset_rules": "Un calque par fichier ; aucun personnage intégré dans le fond ; conserver masques, points d’ancrage et nom de variante."
+  },
+  {
+    "id": "stage_halvo_plaza",
+    "name": "Place de Halvo Bay",
+    "source_game": "Gears of War Judgment",
+    "time_of_day": "Jour de siège",
+    "time_status": "Choix de lumière pour le cadrage 2D ; à comparer à la séquence canonique retenue",
+    "palette": [
+      "pierre claire",
+      "suie",
+      "rouge Locust mesuré"
+    ],
+    "signature_landmark": "Monument et place de la confrontation de Kilo",
+    "priority": "P1",
+    "content_status": "Spécification de production, calques à produire",
+    "formats": [
+      "duel",
+      "boss"
+    ],
+    "canonical_scope": "Place finale documentée par source secondaire ; page officielle pour Kilo et le contexte Judgment.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Plaza_for_the_Tyran_Dead_%28Chapter%29",
+      "https://www.gearsofwar.com/en-us/games/gears-of-war-judgment/"
+    ],
+    "source_validation": "Valider sur capture officielle datée du jeu choisi ; une page de contexte ne prouve pas chaque élément d’architecture",
+    "master_width_px": 4096,
+    "master_height_px": 2048,
+    "render_viewport_px": [
+      1920,
+      1080
+    ],
+    "floor_anchor_y_px": 1600,
+    "layers": [
+      {
+        "id": "stage_halvo_plaza_far",
+        "z": 0,
+        "parallax_x": 0.04,
+        "parallax_y": 0.014,
+        "content": "Ciel couvert et fumée lointaine",
+        "alpha": false,
+        "file": "assets/stages/stage_halvo_plaza/far.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_halvo_plaza_horizon",
+        "z": 1,
+        "parallax_x": 0.15,
+        "parallax_y": 0.052,
+        "content": "Skyline de Halvo Bay",
+        "alpha": true,
+        "file": "assets/stages/stage_halvo_plaza/horizon.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_halvo_plaza_architecture",
+        "z": 2,
+        "parallax_x": 0.36,
+        "parallax_y": 0.126,
+        "content": "Monument et bâtiments de la place",
+        "alpha": true,
+        "file": "assets/stages/stage_halvo_plaza/architecture.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_halvo_plaza_mid",
+        "z": 3,
+        "parallax_x": 0.65,
+        "parallax_y": 0.227,
+        "content": "Barricades rompues et marches derrière le plan",
+        "alpha": true,
+        "file": "assets/stages/stage_halvo_plaza/mid.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_halvo_plaza_floor",
+        "z": 4,
+        "parallax_x": 1.0,
+        "parallax_y": 1.0,
+        "content": "Place pavée libre de marche solide",
+        "alpha": true,
+        "file": "assets/stages/stage_halvo_plaza/floor.png",
+        "status": "À générer",
+        "collision": true
+      },
+      {
+        "id": "stage_halvo_plaza_foreground",
+        "z": 5,
+        "parallax_x": 1.12,
+        "parallax_y": 0.392,
+        "content": "Débris d’angle et drapeaux usés",
+        "alpha": true,
+        "file": "assets/stages/stage_halvo_plaza/foreground.png",
+        "status": "À générer",
+        "collision": false
+      }
+    ],
+    "tournament_variant": {
+      "hazards": false,
+      "random_events": false,
+      "collision": "Sol plat, deux bords fixes, aucun débris solide mobile",
+      "light": "Luminance et contraste constants pendant la manche",
+      "camera_shake": 0,
+      "foreground_opacity_max": 0.12
+    },
+    "spectacle_variant": "La façade subit des impacts entre les rounds ; Karn arrive sur Shibboleth en intro et non comme événement aléatoire de duel.",
+    "readability_rule": "Les marches restent derrière les pieds ; aucun décalage de hauteur implicite.",
+    "camera_rule": "Parallaxe cosmétique uniquement ; les limites de combat et le sol ne suivent jamais une couche de fond.",
+    "audio_direction": "Créer une ambiance originale correspondant aux matériaux et événements ; aucune piste ou voix extraite du jeu dans ce lot.",
+    "asset_rules": "Un calque par fichier ; aucun personnage intégré dans le fond ; conserver masques, points d’ancrage et nom de variante."
+  },
+  {
+    "id": "stage_tactics_depot",
+    "name": "Cour de ravitaillement",
+    "source_game": "Gears Tactics",
+    "time_of_day": "Jour voilé",
+    "time_status": "Choix de lumière pour le cadrage 2D ; à comparer à la séquence canonique retenue",
+    "palette": [
+      "ocre",
+      "vert militaire",
+      "gris poussière"
+    ],
+    "signature_landmark": "Entrepôts et pont logistique",
+    "priority": "P0",
+    "content_status": "Spécification de production, calques à produire",
+    "formats": [
+      "duel",
+      "boss"
+    ],
+    "canonical_scope": "Composition originale inspirée de Tactics ; aucun lieu canonique nommé inventé et aucun combat prétendu reproduit plan par plan.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/news/dev-blog-bosses/",
+      "https://gearsofwar.fandom.com/wiki/Gears_Tactics"
+    ],
+    "source_validation": "Valider sur capture officielle datée du jeu choisi ; une page de contexte ne prouve pas chaque élément d’architecture",
+    "master_width_px": 4096,
+    "master_height_px": 2048,
+    "render_viewport_px": [
+      1920,
+      1080
+    ],
+    "floor_anchor_y_px": 1600,
+    "layers": [
+      {
+        "id": "stage_tactics_depot_far",
+        "z": 0,
+        "parallax_x": 0.04,
+        "parallax_y": 0.014,
+        "content": "Ciel pâle sans fort contraste",
+        "alpha": false,
+        "file": "assets/stages/stage_tactics_depot/far.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_tactics_depot_horizon",
+        "z": 1,
+        "parallax_x": 0.15,
+        "parallax_y": 0.052,
+        "content": "Reliefs désertiques et silhouette urbaine",
+        "alpha": true,
+        "file": "assets/stages/stage_tactics_depot/horizon.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_tactics_depot_architecture",
+        "z": 2,
+        "parallax_x": 0.36,
+        "parallax_y": 0.126,
+        "content": "Hangars et pont de ravitaillement",
+        "alpha": true,
+        "file": "assets/stages/stage_tactics_depot/architecture.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_tactics_depot_mid",
+        "z": 3,
+        "parallax_x": 0.65,
+        "parallax_y": 0.227,
+        "content": "Caisses et conduites derrière le plan",
+        "alpha": true,
+        "file": "assets/stages/stage_tactics_depot/mid.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_tactics_depot_floor",
+        "z": 4,
+        "parallax_x": 1.0,
+        "parallax_y": 1.0,
+        "content": "Cour logistique plane",
+        "alpha": true,
+        "file": "assets/stages/stage_tactics_depot/floor.png",
+        "status": "À générer",
+        "collision": true
+      },
+      {
+        "id": "stage_tactics_depot_foreground",
+        "z": 5,
+        "parallax_x": 1.12,
+        "parallax_y": 0.392,
+        "content": "Grillage aux extrémités et poussière",
+        "alpha": true,
+        "file": "assets/stages/stage_tactics_depot/foreground.png",
+        "status": "À générer",
+        "collision": false
+      }
+    ],
+    "tournament_variant": {
+      "hazards": false,
+      "random_events": false,
+      "collision": "Sol plat, deux bords fixes, aucun débris solide mobile",
+      "light": "Luminance et contraste constants pendant la manche",
+      "camera_shake": 0,
+      "foreground_opacity_max": 0.12
+    },
+    "spectacle_variant": "Un canon de Brumak détruit un hangar de fond après désarmement ; les destructions restent enregistrées.",
+    "readability_rule": "La cour conserve un corridor central neutre pour distinguer explosions et points faibles.",
+    "camera_rule": "Parallaxe cosmétique uniquement ; les limites de combat et le sol ne suivent jamais une couche de fond.",
+    "audio_direction": "Créer une ambiance originale correspondant aux matériaux et événements ; aucune piste ou voix extraite du jeu dans ce lot.",
+    "asset_rules": "Un calque par fichier ; aucun personnage intégré dans le fond ; conserver masques, points d’ancrage et nom de variante."
+  },
+  {
+    "id": "stage_tactics_lab",
+    "name": "Laboratoire d’Ukkon",
+    "source_game": "Gears Tactics",
+    "time_of_day": "Éclairage industriel intérieur",
+    "time_status": "Choix de lumière pour le cadrage 2D ; à comparer à la séquence canonique retenue",
+    "palette": [
+      "vert froid",
+      "ambre",
+      "gris béton"
+    ],
+    "signature_landmark": "Installations de laboratoire et conduites",
+    "priority": "P1",
+    "content_status": "Spécification de production, calques à produire",
+    "formats": [
+      "duel",
+      "boss"
+    ],
+    "canonical_scope": "Ukkon officiel ; localisation détaillée du laboratoire documentée secondairement. Corpser sur ce décor uniquement en exhibition, pas présenté comme son lieu canonique.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/",
+      "https://gearsofwar.fandom.com/wiki/Ukkon",
+      "https://gearsofwar.fandom.com/wiki/Gears_Tactics"
+    ],
+    "source_validation": "Valider sur capture officielle datée du jeu choisi ; une page de contexte ne prouve pas chaque élément d’architecture",
+    "master_width_px": 4096,
+    "master_height_px": 2048,
+    "render_viewport_px": [
+      1920,
+      1080
+    ],
+    "floor_anchor_y_px": 1600,
+    "layers": [
+      {
+        "id": "stage_tactics_lab_far",
+        "z": 0,
+        "parallax_x": 0.04,
+        "parallax_y": 0.014,
+        "content": "Ombre du volume intérieur",
+        "alpha": false,
+        "file": "assets/stages/stage_tactics_lab/far.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_tactics_lab_horizon",
+        "z": 1,
+        "parallax_x": 0.15,
+        "parallax_y": 0.052,
+        "content": "Portiques et mezzanines lointaines",
+        "alpha": true,
+        "file": "assets/stages/stage_tactics_lab/horizon.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_tactics_lab_architecture",
+        "z": 2,
+        "parallax_x": 0.36,
+        "parallax_y": 0.126,
+        "content": "Cuves et conduites du laboratoire",
+        "alpha": true,
+        "file": "assets/stages/stage_tactics_lab/architecture.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_tactics_lab_mid",
+        "z": 3,
+        "parallax_x": 0.65,
+        "parallax_y": 0.227,
+        "content": "Consoles et structures derrière le boss",
+        "alpha": true,
+        "file": "assets/stages/stage_tactics_lab/mid.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_tactics_lab_floor",
+        "z": 4,
+        "parallax_x": 1.0,
+        "parallax_y": 1.0,
+        "content": "Sol industriel avec repères lisibles",
+        "alpha": true,
+        "file": "assets/stages/stage_tactics_lab/floor.png",
+        "status": "À générer",
+        "collision": true
+      },
+      {
+        "id": "stage_tactics_lab_foreground",
+        "z": 5,
+        "parallax_x": 1.12,
+        "parallax_y": 0.392,
+        "content": "Câbles périphériques et vapeur transparente",
+        "alpha": true,
+        "file": "assets/stages/stage_tactics_lab/foreground.png",
+        "status": "À générer",
+        "collision": false
+      }
+    ],
+    "tournament_variant": {
+      "hazards": false,
+      "random_events": false,
+      "collision": "Sol plat, deux bords fixes, aucun débris solide mobile",
+      "light": "Luminance et contraste constants pendant la manche",
+      "camera_shake": 0,
+      "foreground_opacity_max": 0.12
+    },
+    "spectacle_variant": "Conduites coupées une à une selon l’objectif ; état visuel synchronisé sur les phases.",
+    "readability_rule": "Les fluides lumineux restent derrière le boss et ne peuvent se confondre avec ses organes vulnérables.",
+    "camera_rule": "Parallaxe cosmétique uniquement ; les limites de combat et le sol ne suivent jamais une couche de fond.",
+    "audio_direction": "Créer une ambiance originale correspondant aux matériaux et événements ; aucune piste ou voix extraite du jeu dans ce lot.",
+    "asset_rules": "Un calque par fichier ; aucun personnage intégré dans le fond ; conserver masques, points d’ancrage et nom de variante."
+  },
+  {
+    "id": "stage_settlement5",
+    "name": "Settlement 5",
+    "source_game": "Gears of War 4",
+    "time_of_day": "Jour blanc",
+    "time_status": "Choix de lumière pour le cadrage 2D ; à comparer à la séquence canonique retenue",
+    "palette": [
+      "béton clair",
+      "bleu CGU",
+      "vert végétation"
+    ],
+    "signature_landmark": "Architecture de colonie CGU et voies logistiques",
+    "priority": "P1",
+    "content_status": "Spécification de production, calques à produire",
+    "formats": [
+      "duel",
+      "boss"
+    ],
+    "canonical_scope": "Colonie du début de Gears 4 à verrouiller sur captures ; pas de mélange avec District de Gears 5.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Gears_of_War_4",
+      "https://gearsofwar.fandom.com/wiki/Kestrel"
+    ],
+    "source_validation": "Valider sur capture officielle datée du jeu choisi ; une page de contexte ne prouve pas chaque élément d’architecture",
+    "master_width_px": 4096,
+    "master_height_px": 2048,
+    "render_viewport_px": [
+      1920,
+      1080
+    ],
+    "floor_anchor_y_px": 1600,
+    "layers": [
+      {
+        "id": "stage_settlement5_far",
+        "z": 0,
+        "parallax_x": 0.04,
+        "parallax_y": 0.014,
+        "content": "Ciel pâle de journée",
+        "alpha": false,
+        "file": "assets/stages/stage_settlement5/far.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_settlement5_horizon",
+        "z": 1,
+        "parallax_x": 0.15,
+        "parallax_y": 0.052,
+        "content": "Reliefs et murs éloignés",
+        "alpha": true,
+        "file": "assets/stages/stage_settlement5/horizon.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_settlement5_architecture",
+        "z": 2,
+        "parallax_x": 0.36,
+        "parallax_y": 0.126,
+        "content": "Bâtiments modulaires CGU",
+        "alpha": true,
+        "file": "assets/stages/stage_settlement5/architecture.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_settlement5_mid",
+        "z": 3,
+        "parallax_x": 0.65,
+        "parallax_y": 0.227,
+        "content": "Barrières, jardinières et dépôt",
+        "alpha": true,
+        "file": "assets/stages/stage_settlement5/mid.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_settlement5_floor",
+        "z": 4,
+        "parallax_x": 1.0,
+        "parallax_y": 1.0,
+        "content": "Rue plane avec voies de circulation",
+        "alpha": true,
+        "file": "assets/stages/stage_settlement5/floor.png",
+        "status": "À générer",
+        "collision": true
+      },
+      {
+        "id": "stage_settlement5_foreground",
+        "z": 5,
+        "parallax_x": 1.12,
+        "parallax_y": 0.392,
+        "content": "Éléments de balustrade aux bords",
+        "alpha": true,
+        "file": "assets/stages/stage_settlement5/foreground.png",
+        "status": "À générer",
+        "collision": false
+      }
+    ],
+    "tournament_variant": {
+      "hazards": false,
+      "random_events": false,
+      "collision": "Sol plat, deux bords fixes, aucun débris solide mobile",
+      "light": "Luminance et contraste constants pendant la manche",
+      "camera_shake": 0,
+      "foreground_opacity_max": 0.12
+    },
+    "spectacle_variant": "Arrivée d’un Kestrel en introduction ; déplacement de robots en fond hors des manches classées.",
+    "readability_rule": "La lumière très claire ne doit pas effacer le contour bleu de l’armure CGU.",
+    "camera_rule": "Parallaxe cosmétique uniquement ; les limites de combat et le sol ne suivent jamais une couche de fond.",
+    "audio_direction": "Créer une ambiance originale correspondant aux matériaux et événements ; aucune piste ou voix extraite du jeu dans ce lot.",
+    "asset_rules": "Un calque par fichier ; aucun personnage intégré dans le fond ; conserver masques, points d’ancrage et nom de variante."
+  },
+  {
+    "id": "stage_swarm_hive",
+    "name": "Ruche de l’Essaim",
+    "source_game": "Gears of War 4",
+    "time_of_day": "Lumière organique",
+    "time_status": "Choix de lumière pour le cadrage 2D ; à comparer à la séquence canonique retenue",
+    "palette": [
+      "rouge sombre",
+      "gris os",
+      "ambre faible"
+    ],
+    "signature_landmark": "Architecture envahie de matière organique",
+    "priority": "P1",
+    "content_status": "Spécification de production, calques à produire",
+    "formats": [
+      "duel",
+      "boss"
+    ],
+    "canonical_scope": "Ruche comme type d’environnement de Gears 4 ; cette salle est un cadrage original.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Gears_of_War_4",
+      "https://gearsofwar.fandom.com/wiki/Snatcher",
+      "https://gearsofwar.fandom.com/wiki/Carrier"
+    ],
+    "source_validation": "Valider sur capture officielle datée du jeu choisi ; une page de contexte ne prouve pas chaque élément d’architecture",
+    "master_width_px": 4096,
+    "master_height_px": 2048,
+    "render_viewport_px": [
+      1920,
+      1080
+    ],
+    "floor_anchor_y_px": 1600,
+    "layers": [
+      {
+        "id": "stage_swarm_hive_far",
+        "z": 0,
+        "parallax_x": 0.04,
+        "parallax_y": 0.014,
+        "content": "Brume sombre au fond du volume",
+        "alpha": false,
+        "file": "assets/stages/stage_swarm_hive/far.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_swarm_hive_horizon",
+        "z": 1,
+        "parallax_x": 0.15,
+        "parallax_y": 0.052,
+        "content": "Voûtes rocheuses et structures enfouies",
+        "alpha": true,
+        "file": "assets/stages/stage_swarm_hive/horizon.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_swarm_hive_architecture",
+        "z": 2,
+        "parallax_x": 0.36,
+        "parallax_y": 0.126,
+        "content": "Nids, poches et résine derrière le combat",
+        "alpha": true,
+        "file": "assets/stages/stage_swarm_hive/architecture.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_swarm_hive_mid",
+        "z": 3,
+        "parallax_x": 0.65,
+        "parallax_y": 0.227,
+        "content": "Parois organiques lisibles et ouverture de tunnel",
+        "alpha": true,
+        "file": "assets/stages/stage_swarm_hive/mid.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_swarm_hive_floor",
+        "z": 4,
+        "parallax_x": 1.0,
+        "parallax_y": 1.0,
+        "content": "Plateforme de roche stable",
+        "alpha": true,
+        "file": "assets/stages/stage_swarm_hive/floor.png",
+        "status": "À générer",
+        "collision": true
+      },
+      {
+        "id": "stage_swarm_hive_foreground",
+        "z": 5,
+        "parallax_x": 1.12,
+        "parallax_y": 0.392,
+        "content": "Filaments périphériques transparents",
+        "alpha": true,
+        "file": "assets/stages/stage_swarm_hive/foreground.png",
+        "status": "À générer",
+        "collision": false
+      }
+    ],
+    "tournament_variant": {
+      "hazards": false,
+      "random_events": false,
+      "collision": "Sol plat, deux bords fixes, aucun débris solide mobile",
+      "light": "Luminance et contraste constants pendant la manche",
+      "camera_shake": 0,
+      "foreground_opacity_max": 0.12
+    },
+    "spectacle_variant": "Les poches du fond pulsent lentement et les filaments se rétractent pendant le résultat.",
+    "readability_rule": "Toutes les poches décoratives sont plus sombres que celles du Snatcher ou du Carrier.",
+    "camera_rule": "Parallaxe cosmétique uniquement ; les limites de combat et le sol ne suivent jamais une couche de fond.",
+    "audio_direction": "Créer une ambiance originale correspondant aux matériaux et événements ; aucune piste ou voix extraite du jeu dans ce lot.",
+    "asset_rules": "Un calque par fichier ; aucun personnage intégré dans le fond ; conserver masques, points d’ancrage et nom de variante."
+  },
+  {
+    "id": "stage_tollen_dam",
+    "name": "Tollen Dam",
+    "source_game": "Gears of War 4",
+    "time_of_day": "Matin couvert",
+    "time_status": "Choix de lumière pour le cadrage 2D ; à comparer à la séquence canonique retenue",
+    "palette": [
+      "gris béton",
+      "bleu eau",
+      "rose organique"
+    ],
+    "signature_landmark": "Barrage et accès de ruche",
+    "priority": "P1",
+    "content_status": "Spécification de production, calques à produire",
+    "formats": [
+      "duel",
+      "boss"
+    ],
+    "canonical_scope": "Barrage et ruche proches attestés secondairement ; vues d’affrontement recadrées pour 2D.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Tollen_Dam",
+      "https://gearsofwar.fandom.com/wiki/Hive_Beast",
+      "https://primagames.com/eguides/gears-of-war-4-eguide/campaign/act-4/chapter-4-powerless"
+    ],
+    "source_validation": "Valider sur capture officielle datée du jeu choisi ; une page de contexte ne prouve pas chaque élément d’architecture",
+    "master_width_px": 4096,
+    "master_height_px": 2048,
+    "render_viewport_px": [
+      1920,
+      1080
+    ],
+    "floor_anchor_y_px": 1600,
+    "layers": [
+      {
+        "id": "stage_tollen_dam_far",
+        "z": 0,
+        "parallax_x": 0.04,
+        "parallax_y": 0.014,
+        "content": "Ciel d’orage en retrait",
+        "alpha": false,
+        "file": "assets/stages/stage_tollen_dam/far.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_tollen_dam_horizon",
+        "z": 1,
+        "parallax_x": 0.15,
+        "parallax_y": 0.052,
+        "content": "Reliefs et masse d’eau",
+        "alpha": true,
+        "file": "assets/stages/stage_tollen_dam/horizon.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_tollen_dam_architecture",
+        "z": 2,
+        "parallax_x": 0.36,
+        "parallax_y": 0.126,
+        "content": "Barrage à grande échelle",
+        "alpha": true,
+        "file": "assets/stages/stage_tollen_dam/architecture.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_tollen_dam_mid",
+        "z": 3,
+        "parallax_x": 0.65,
+        "parallax_y": 0.227,
+        "content": "Passerelles et ruche au-delà du plan",
+        "alpha": true,
+        "file": "assets/stages/stage_tollen_dam/mid.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_tollen_dam_floor",
+        "z": 4,
+        "parallax_x": 1.0,
+        "parallax_y": 1.0,
+        "content": "Tablier stable à sol continu",
+        "alpha": true,
+        "file": "assets/stages/stage_tollen_dam/floor.png",
+        "status": "À générer",
+        "collision": true
+      },
+      {
+        "id": "stage_tollen_dam_foreground",
+        "z": 5,
+        "parallax_x": 1.12,
+        "parallax_y": 0.392,
+        "content": "Éclaboussures et gravats d’angle",
+        "alpha": true,
+        "file": "assets/stages/stage_tollen_dam/foreground.png",
+        "status": "À générer",
+        "collision": false
+      }
+    ],
+    "tournament_variant": {
+      "hazards": false,
+      "random_events": false,
+      "collision": "Sol plat, deux bords fixes, aucun débris solide mobile",
+      "light": "Luminance et contraste constants pendant la manche",
+      "camera_shake": 0,
+      "foreground_opacity_max": 0.12
+    },
+    "spectacle_variant": "La tempête de fond s’intensifie sans déplacer le personnage ; la variante Hive Beast utilise une caméra de siège et outils intégrés.",
+    "readability_rule": "Le corps du boss reste séparé du béton ; aucun effet de pluie devant la jauge de point faible.",
+    "camera_rule": "Parallaxe cosmétique uniquement ; les limites de combat et le sol ne suivent jamais une couche de fond.",
+    "audio_direction": "Créer une ambiance originale correspondant aux matériaux et événements ; aucune piste ou voix extraite du jeu dans ce lot.",
+    "asset_rules": "Un calque par fichier ; aucun personnage intégré dans le fond ; conserver masques, points d’ancrage et nom de variante."
+  },
+  {
+    "id": "stage_new_hope",
+    "name": "New Hope",
+    "source_game": "Gears 5",
+    "time_of_day": "Nuit neigeuse",
+    "time_status": "Choix de lumière pour le cadrage 2D ; à comparer à la séquence canonique retenue",
+    "palette": [
+      "bleu glace",
+      "gris laboratoire",
+      "jaune faible"
+    ],
+    "signature_landmark": "Installation de recherche abandonnée",
+    "priority": "P1",
+    "content_status": "Spécification de production, calques à produire",
+    "formats": [
+      "duel",
+      "boss"
+    ],
+    "canonical_scope": "Version Gears 5 distincte de New Hope Gears 2 ; détails architecturaux à vérifier sur capture.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Gears_5",
+      "https://gearsofwar.fandom.com/wiki/New_Hope_Research_Facility"
+    ],
+    "source_validation": "Valider sur capture officielle datée du jeu choisi ; une page de contexte ne prouve pas chaque élément d’architecture",
+    "master_width_px": 4096,
+    "master_height_px": 2048,
+    "render_viewport_px": [
+      1920,
+      1080
+    ],
+    "floor_anchor_y_px": 1600,
+    "layers": [
+      {
+        "id": "stage_new_hope_far",
+        "z": 0,
+        "parallax_x": 0.04,
+        "parallax_y": 0.014,
+        "content": "Nuit neigeuse sans flash",
+        "alpha": false,
+        "file": "assets/stages/stage_new_hope/far.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_new_hope_horizon",
+        "z": 1,
+        "parallax_x": 0.15,
+        "parallax_y": 0.052,
+        "content": "Reliefs glacés lointains",
+        "alpha": true,
+        "file": "assets/stages/stage_new_hope/horizon.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_new_hope_architecture",
+        "z": 2,
+        "parallax_x": 0.36,
+        "parallax_y": 0.126,
+        "content": "Façade et couloirs du centre",
+        "alpha": true,
+        "file": "assets/stages/stage_new_hope/architecture.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_new_hope_mid",
+        "z": 3,
+        "parallax_x": 0.65,
+        "parallax_y": 0.227,
+        "content": "Vitrages brisés et matériel éteint",
+        "alpha": true,
+        "file": "assets/stages/stage_new_hope/mid.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_new_hope_floor",
+        "z": 4,
+        "parallax_x": 1.0,
+        "parallax_y": 1.0,
+        "content": "Couloir ou cour plate avec neige fine",
+        "alpha": true,
+        "file": "assets/stages/stage_new_hope/floor.png",
+        "status": "À générer",
+        "collision": true
+      },
+      {
+        "id": "stage_new_hope_foreground",
+        "z": 5,
+        "parallax_x": 1.12,
+        "parallax_y": 0.392,
+        "content": "Glace en bordure et particules clairsemées",
+        "alpha": true,
+        "file": "assets/stages/stage_new_hope/foreground.png",
+        "status": "À générer",
+        "collision": false
+      }
+    ],
+    "tournament_variant": {
+      "hazards": false,
+      "random_events": false,
+      "collision": "Sol plat, deux bords fixes, aucun débris solide mobile",
+      "light": "Luminance et contraste constants pendant la manche",
+      "camera_shake": 0,
+      "foreground_opacity_max": 0.12
+    },
+    "spectacle_variant": "Les néons se réactivent progressivement en introduction ; les Sires restent des silhouettes de fond uniquement hors tournoi.",
+    "readability_rule": "Pas de flicker des lampes pendant le combat ; option météo désactivable.",
+    "camera_rule": "Parallaxe cosmétique uniquement ; les limites de combat et le sol ne suivent jamais une couche de fond.",
+    "audio_direction": "Créer une ambiance originale correspondant aux matériaux et événements ; aucune piste ou voix extraite du jeu dans ce lot.",
+    "asset_rules": "Un calque par fichier ; aucun personnage intégré dans le fond ; conserver masques, points d’ancrage et nom de variante."
+  },
+  {
+    "id": "stage_kadar_lab",
+    "name": "Laboratoire sous le mont Kadar",
+    "source_game": "Gears 5",
+    "time_of_day": "Lumière froide intérieure",
+    "time_status": "Choix de lumière pour le cadrage 2D ; à comparer à la séquence canonique retenue",
+    "palette": [
+      "cyan pâle",
+      "blanc neige",
+      "gris acier"
+    ],
+    "signature_landmark": "Chambre glacée de la Matriarch",
+    "priority": "P0",
+    "content_status": "Spécification de production, calques à produire",
+    "formats": [
+      "duel",
+      "boss"
+    ],
+    "canonical_scope": "Chambre associée à la Matriarch dans Gears 5 ; géométrie et nombre des plaques sont de l’adaptation.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Matriarch",
+      "https://gearsofwar.fandom.com/wiki/Gears_5"
+    ],
+    "source_validation": "Valider sur capture officielle datée du jeu choisi ; une page de contexte ne prouve pas chaque élément d’architecture",
+    "master_width_px": 4096,
+    "master_height_px": 2048,
+    "render_viewport_px": [
+      1920,
+      1080
+    ],
+    "floor_anchor_y_px": 1600,
+    "layers": [
+      {
+        "id": "stage_kadar_lab_far",
+        "z": 0,
+        "parallax_x": 0.04,
+        "parallax_y": 0.014,
+        "content": "Ombre de la voûte",
+        "alpha": false,
+        "file": "assets/stages/stage_kadar_lab/far.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_kadar_lab_horizon",
+        "z": 1,
+        "parallax_x": 0.15,
+        "parallax_y": 0.052,
+        "content": "Volumes de glace arrière",
+        "alpha": true,
+        "file": "assets/stages/stage_kadar_lab/horizon.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_kadar_lab_architecture",
+        "z": 2,
+        "parallax_x": 0.36,
+        "parallax_y": 0.126,
+        "content": "Installations et réservoirs de la chambre",
+        "alpha": true,
+        "file": "assets/stages/stage_kadar_lab/architecture.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_kadar_lab_mid",
+        "z": 3,
+        "parallax_x": 0.65,
+        "parallax_y": 0.227,
+        "content": "Banquises et conduites sans collision en duel",
+        "alpha": true,
+        "file": "assets/stages/stage_kadar_lab/mid.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_kadar_lab_floor",
+        "z": 4,
+        "parallax_x": 1.0,
+        "parallax_y": 1.0,
+        "content": "Glace plane avec zones de gel indépendantes en boss",
+        "alpha": true,
+        "file": "assets/stages/stage_kadar_lab/floor.png",
+        "status": "À générer",
+        "collision": true
+      },
+      {
+        "id": "stage_kadar_lab_foreground",
+        "z": 5,
+        "parallax_x": 1.12,
+        "parallax_y": 0.392,
+        "content": "Glace de bord et vapeur basse",
+        "alpha": true,
+        "file": "assets/stages/stage_kadar_lab/foreground.png",
+        "status": "À générer",
+        "collision": false
+      }
+    ],
+    "tournament_variant": {
+      "hazards": false,
+      "random_events": false,
+      "collision": "Sol plat, deux bords fixes, aucun débris solide mobile",
+      "light": "Luminance et contraste constants pendant la manche",
+      "camera_shake": 0,
+      "foreground_opacity_max": 0.12
+    },
+    "spectacle_variant": "Les plaques se brisent uniquement dans Boss Battle ; en duel elles deviennent des animations sans trou ni ralentissement.",
+    "readability_rule": "Les indicateurs des plaques doivent se lire sans distinguer bleu et cyan ; ajouter motifs et contours.",
+    "camera_rule": "Parallaxe cosmétique uniquement ; les limites de combat et le sol ne suivent jamais une couche de fond.",
+    "audio_direction": "Créer une ambiance originale correspondant aux matériaux et événements ; aucune piste ou voix extraite du jeu dans ce lot.",
+    "asset_rules": "Un calque par fichier ; aucun personnage intégré dans le fond ; conserver masques, points d’ancrage et nom de variante."
+  },
+  {
+    "id": "stage_vasgar_airport",
+    "name": "Aéroport de Vasgar",
+    "source_game": "Gears 5",
+    "time_of_day": "Soleil désertique",
+    "time_status": "Choix de lumière pour le cadrage 2D ; à comparer à la séquence canonique retenue",
+    "palette": [
+      "rouge sable",
+      "gris verre",
+      "bleu ciel"
+    ],
+    "signature_landmark": "Aéroport englouti dans le sable rouge",
+    "priority": "P1",
+    "content_status": "Spécification de production, calques à produire",
+    "formats": [
+      "duel",
+      "boss"
+    ],
+    "canonical_scope": "Source officielle pour Vasgar, aéroport et dunes rouges ; conversion de carte 3D à scène 2D originale.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/news/gears-5-launch-maps/"
+    ],
+    "source_validation": "Valider sur capture officielle datée du jeu choisi ; une page de contexte ne prouve pas chaque élément d’architecture",
+    "master_width_px": 4096,
+    "master_height_px": 2048,
+    "render_viewport_px": [
+      1920,
+      1080
+    ],
+    "floor_anchor_y_px": 1600,
+    "layers": [
+      {
+        "id": "stage_vasgar_airport_far",
+        "z": 0,
+        "parallax_x": 0.04,
+        "parallax_y": 0.014,
+        "content": "Ciel clair sans flare central",
+        "alpha": false,
+        "file": "assets/stages/stage_vasgar_airport/far.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_vasgar_airport_horizon",
+        "z": 1,
+        "parallax_x": 0.15,
+        "parallax_y": 0.052,
+        "content": "Dunes de sable rouge",
+        "alpha": true,
+        "file": "assets/stages/stage_vasgar_airport/horizon.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_vasgar_airport_architecture",
+        "z": 2,
+        "parallax_x": 0.36,
+        "parallax_y": 0.126,
+        "content": "Terminal et structures d’aéroport",
+        "alpha": true,
+        "file": "assets/stages/stage_vasgar_airport/architecture.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_vasgar_airport_mid",
+        "z": 3,
+        "parallax_x": 0.65,
+        "parallax_y": 0.227,
+        "content": "Dunes basses et carcasses éloignées",
+        "alpha": true,
+        "file": "assets/stages/stage_vasgar_airport/mid.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_vasgar_airport_floor",
+        "z": 4,
+        "parallax_x": 1.0,
+        "parallax_y": 1.0,
+        "content": "Piste plane de béton et sable compact",
+        "alpha": true,
+        "file": "assets/stages/stage_vasgar_airport/floor.png",
+        "status": "À générer",
+        "collision": true
+      },
+      {
+        "id": "stage_vasgar_airport_foreground",
+        "z": 5,
+        "parallax_x": 1.12,
+        "parallax_y": 0.392,
+        "content": "Barrières cassées aux bords",
+        "alpha": true,
+        "file": "assets/stages/stage_vasgar_airport/foreground.png",
+        "status": "À générer",
+        "collision": false
+      }
+    ],
+    "tournament_variant": {
+      "hazards": false,
+      "random_events": false,
+      "collision": "Sol plat, deux bords fixes, aucun débris solide mobile",
+      "light": "Luminance et contraste constants pendant la manche",
+      "camera_shake": 0,
+      "foreground_opacity_max": 0.12
+    },
+    "spectacle_variant": "Un mur de poussière traverse très lentement le fond entre les rounds ; les débris ne masquent pas les attaques.",
+    "readability_rule": "Le sable reste mat ; contours sombres sur les personnages clairs et effets de Flock lisibles.",
+    "camera_rule": "Parallaxe cosmétique uniquement ; les limites de combat et le sol ne suivent jamais une couche de fond.",
+    "audio_direction": "Créer une ambiance originale correspondant aux matériaux et événements ; aucune piste ou voix extraite du jeu dans ce lot.",
+    "asset_rules": "Un calque par fichier ; aucun personnage intégré dans le fond ; conserver masques, points d’ancrage et nom de variante."
+  },
+  {
+    "id": "stage_new_ephyra",
+    "name": "Rempart de New Ephyra",
+    "source_game": "Gears 5",
+    "time_of_day": "Jour de bataille",
+    "time_status": "Choix de lumière pour le cadrage 2D ; à comparer à la séquence canonique retenue",
+    "palette": [
+      "pierre grise",
+      "bleu fumée",
+      "orange très localisé"
+    ],
+    "signature_landmark": "Mur de défense et ville reconstruite",
+    "priority": "P1",
+    "content_status": "Spécification de production, calques à produire",
+    "formats": [
+      "duel",
+      "boss"
+    ],
+    "canonical_scope": "Défense finale Gears 5 attestée secondairement ; composition du rempart à vérifier sur séquence officielle.",
+    "source_urls": [
+      "https://gearsofwar.fandom.com/wiki/Gears_5",
+      "https://gearsofwar.fandom.com/wiki/Kraken"
+    ],
+    "source_validation": "Valider sur capture officielle datée du jeu choisi ; une page de contexte ne prouve pas chaque élément d’architecture",
+    "master_width_px": 4096,
+    "master_height_px": 2048,
+    "render_viewport_px": [
+      1920,
+      1080
+    ],
+    "floor_anchor_y_px": 1600,
+    "layers": [
+      {
+        "id": "stage_new_ephyra_far",
+        "z": 0,
+        "parallax_x": 0.04,
+        "parallax_y": 0.014,
+        "content": "Ciel couvert de fumée légère",
+        "alpha": false,
+        "file": "assets/stages/stage_new_ephyra/far.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_new_ephyra_horizon",
+        "z": 1,
+        "parallax_x": 0.15,
+        "parallax_y": 0.052,
+        "content": "Skyline de New Ephyra",
+        "alpha": true,
+        "file": "assets/stages/stage_new_ephyra/horizon.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_new_ephyra_architecture",
+        "z": 2,
+        "parallax_x": 0.36,
+        "parallax_y": 0.126,
+        "content": "Mur et structures défensives",
+        "alpha": true,
+        "file": "assets/stages/stage_new_ephyra/architecture.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_new_ephyra_mid",
+        "z": 3,
+        "parallax_x": 0.65,
+        "parallax_y": 0.227,
+        "content": "Canons et obstacles derrière le plan",
+        "alpha": true,
+        "file": "assets/stages/stage_new_ephyra/mid.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_new_ephyra_floor",
+        "z": 4,
+        "parallax_x": 1.0,
+        "parallax_y": 1.0,
+        "content": "Chemin de rempart plat",
+        "alpha": true,
+        "file": "assets/stages/stage_new_ephyra/floor.png",
+        "status": "À générer",
+        "collision": true
+      },
+      {
+        "id": "stage_new_ephyra_foreground",
+        "z": 5,
+        "parallax_x": 1.12,
+        "parallax_y": 0.392,
+        "content": "Drapeaux et débris aux extrémités",
+        "alpha": true,
+        "file": "assets/stages/stage_new_ephyra/foreground.png",
+        "status": "À générer",
+        "collision": false
+      }
+    ],
+    "tournament_variant": {
+      "hazards": false,
+      "random_events": false,
+      "collision": "Sol plat, deux bords fixes, aucun débris solide mobile",
+      "light": "Luminance et contraste constants pendant la manche",
+      "camera_shake": 0,
+      "foreground_opacity_max": 0.12
+    },
+    "spectacle_variant": "Le Kraken occupe l’espace au-delà du mur dans sa variante ; le duel conserve un fond sans créature active.",
+    "readability_rule": "Le mur sert de ligne de sol immuable ; aspiration visible dans les effets au sol, pas par des secousses.",
+    "camera_rule": "Parallaxe cosmétique uniquement ; les limites de combat et le sol ne suivent jamais une couche de fond.",
+    "audio_direction": "Créer une ambiance originale correspondant aux matériaux et événements ; aucune piste ou voix extraite du jeu dans ce lot.",
+    "asset_rules": "Un calque par fichier ; aucun personnage intégré dans le fond ; conserver masques, points d’ancrage et nom de variante."
+  },
+  {
+    "id": "stage_galangi_beach",
+    "name": "Plage de Galangi",
+    "source_game": "Gears 5 Hivebusters",
+    "time_of_day": "Fin de matinée",
+    "time_status": "Choix de lumière pour le cadrage 2D ; à comparer à la séquence canonique retenue",
+    "palette": [
+      "turquoise",
+      "sable beige",
+      "vert jungle"
+    ],
+    "signature_landmark": "Plage volcanique et lisière tropicale",
+    "priority": "P1",
+    "content_status": "Spécification de production, calques à produire",
+    "formats": [
+      "duel",
+      "boss"
+    ],
+    "canonical_scope": "Source officielle pour Galangi, jungle et plages ; disposition latérale originale.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/news/hivebusters/"
+    ],
+    "source_validation": "Valider sur capture officielle datée du jeu choisi ; une page de contexte ne prouve pas chaque élément d’architecture",
+    "master_width_px": 4096,
+    "master_height_px": 2048,
+    "render_viewport_px": [
+      1920,
+      1080
+    ],
+    "floor_anchor_y_px": 1600,
+    "layers": [
+      {
+        "id": "stage_galangi_beach_far",
+        "z": 0,
+        "parallax_x": 0.04,
+        "parallax_y": 0.014,
+        "content": "Ciel tropical",
+        "alpha": false,
+        "file": "assets/stages/stage_galangi_beach/far.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_galangi_beach_horizon",
+        "z": 1,
+        "parallax_x": 0.15,
+        "parallax_y": 0.052,
+        "content": "Océan et îlots",
+        "alpha": true,
+        "file": "assets/stages/stage_galangi_beach/horizon.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_galangi_beach_architecture",
+        "z": 2,
+        "parallax_x": 0.36,
+        "parallax_y": 0.126,
+        "content": "Lisière et relief volcanique",
+        "alpha": true,
+        "file": "assets/stages/stage_galangi_beach/architecture.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_galangi_beach_mid",
+        "z": 3,
+        "parallax_x": 0.65,
+        "parallax_y": 0.227,
+        "content": "Épaves ou éléments de plage confirmés par référence",
+        "alpha": true,
+        "file": "assets/stages/stage_galangi_beach/mid.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_galangi_beach_floor",
+        "z": 4,
+        "parallax_x": 1.0,
+        "parallax_y": 1.0,
+        "content": "Sable compact horizontal",
+        "alpha": true,
+        "file": "assets/stages/stage_galangi_beach/floor.png",
+        "status": "À générer",
+        "collision": true
+      },
+      {
+        "id": "stage_galangi_beach_foreground",
+        "z": 5,
+        "parallax_x": 1.12,
+        "parallax_y": 0.392,
+        "content": "Feuilles au bord et écume très basse",
+        "alpha": true,
+        "file": "assets/stages/stage_galangi_beach/foreground.png",
+        "status": "À générer",
+        "collision": false
+      }
+    ],
+    "tournament_variant": {
+      "hazards": false,
+      "random_events": false,
+      "collision": "Sol plat, deux bords fixes, aucun débris solide mobile",
+      "light": "Luminance et contraste constants pendant la manche",
+      "camera_shake": 0,
+      "foreground_opacity_max": 0.12
+    },
+    "spectacle_variant": "Vagues et faune lointaine sans interaction ; arrivée de Scorpio dans une intro dédiée.",
+    "readability_rule": "Pas de végétation dans le volume des attaques ; lumière uniforme sur les personnages.",
+    "camera_rule": "Parallaxe cosmétique uniquement ; les limites de combat et le sol ne suivent jamais une couche de fond.",
+    "audio_direction": "Créer une ambiance originale correspondant aux matériaux et événements ; aucune piste ou voix extraite du jeu dans ce lot.",
+    "asset_rules": "Un calque par fichier ; aucun personnage intégré dans le fond ; conserver masques, points d’ancrage et nom de variante."
+  },
+  {
+    "id": "stage_galangi_volcano",
+    "name": "Intérieur volcanique de Galangi",
+    "source_game": "Gears 5 Hivebusters",
+    "time_of_day": "Lumière volcanique",
+    "time_status": "Choix de lumière pour le cadrage 2D ; à comparer à la séquence canonique retenue",
+    "palette": [
+      "basalte noir",
+      "orange lave",
+      "vert résiduel"
+    ],
+    "signature_landmark": "Corniche et lave derrière la zone de combat",
+    "priority": "P1",
+    "content_status": "Spécification de production, calques à produire",
+    "formats": [
+      "duel",
+      "boss"
+    ],
+    "canonical_scope": "Galangi volcanique et Wakaatu confirmés officiellement ; détail de cette corniche créé pour l’adaptation.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/news/hivebusters/",
+      "https://gearsofwar.fandom.com/wiki/Wakaatu"
+    ],
+    "source_validation": "Valider sur capture officielle datée du jeu choisi ; une page de contexte ne prouve pas chaque élément d’architecture",
+    "master_width_px": 4096,
+    "master_height_px": 2048,
+    "render_viewport_px": [
+      1920,
+      1080
+    ],
+    "floor_anchor_y_px": 1600,
+    "layers": [
+      {
+        "id": "stage_galangi_volcano_far",
+        "z": 0,
+        "parallax_x": 0.04,
+        "parallax_y": 0.014,
+        "content": "Brume chaude sombre",
+        "alpha": false,
+        "file": "assets/stages/stage_galangi_volcano/far.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_galangi_volcano_horizon",
+        "z": 1,
+        "parallax_x": 0.15,
+        "parallax_y": 0.052,
+        "content": "Parois volcaniques lointaines",
+        "alpha": true,
+        "file": "assets/stages/stage_galangi_volcano/horizon.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_galangi_volcano_architecture",
+        "z": 2,
+        "parallax_x": 0.36,
+        "parallax_y": 0.126,
+        "content": "Cascades de lave et arches de basalte",
+        "alpha": true,
+        "file": "assets/stages/stage_galangi_volcano/architecture.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_galangi_volcano_mid",
+        "z": 3,
+        "parallax_x": 0.65,
+        "parallax_y": 0.227,
+        "content": "Rochers et racines brûlées derrière le sol",
+        "alpha": true,
+        "file": "assets/stages/stage_galangi_volcano/mid.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_galangi_volcano_floor",
+        "z": 4,
+        "parallax_x": 1.0,
+        "parallax_y": 1.0,
+        "content": "Corniche stable de roche mate",
+        "alpha": true,
+        "file": "assets/stages/stage_galangi_volcano/floor.png",
+        "status": "À générer",
+        "collision": true
+      },
+      {
+        "id": "stage_galangi_volcano_foreground",
+        "z": 5,
+        "parallax_x": 1.12,
+        "parallax_y": 0.392,
+        "content": "Cendres légères et bords de pierre",
+        "alpha": true,
+        "file": "assets/stages/stage_galangi_volcano/foreground.png",
+        "status": "À générer",
+        "collision": false
+      }
+    ],
+    "tournament_variant": {
+      "hazards": false,
+      "random_events": false,
+      "collision": "Sol plat, deux bords fixes, aucun débris solide mobile",
+      "light": "Luminance et contraste constants pendant la manche",
+      "camera_shake": 0,
+      "foreground_opacity_max": 0.12
+    },
+    "spectacle_variant": "Une coulée change de vitesse au passage de phase ; la lave reste hors du plan jouable, sauf défi explicitement sélectionné.",
+    "readability_rule": "L’orange ne doit pas noyer le télégraphe du Wakaatu ; toutes les alertes combinent contour et son.",
+    "camera_rule": "Parallaxe cosmétique uniquement ; les limites de combat et le sol ne suivent jamais une couche de fond.",
+    "audio_direction": "Créer une ambiance originale correspondant aux matériaux et événements ; aucune piste ou voix extraite du jeu dans ce lot.",
+    "asset_rules": "Un calque par fichier ; aucun personnage intégré dans le fond ; conserver masques, points d’ancrage et nom de variante."
+  },
+  {
+    "id": "stage_training_hangar",
+    "name": "Hangar de simulation CGU",
+    "source_game": "Création pour Gears of War Combats",
+    "time_of_day": "Éclairage technique constant",
+    "time_status": "Choix de lumière pour le cadrage 2D ; à comparer à la séquence canonique retenue",
+    "palette": [
+      "gris mat",
+      "bleu signal",
+      "blanc industriel"
+    ],
+    "signature_landmark": "Portique d’essai et panneaux d’exercice",
+    "priority": "P1",
+    "content_status": "Spécification de production, calques à produire",
+    "formats": [
+      "duel",
+      "boss"
+    ],
+    "canonical_scope": "Décor original ; la carte officielle Training Grounds prouve seulement l’existence d’installations d’essai DB, pas ce hangar.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/news/gears-5-launch-maps/"
+    ],
+    "source_validation": "Valider sur capture officielle datée du jeu choisi ; une page de contexte ne prouve pas chaque élément d’architecture",
+    "master_width_px": 4096,
+    "master_height_px": 2048,
+    "render_viewport_px": [
+      1920,
+      1080
+    ],
+    "floor_anchor_y_px": 1600,
+    "layers": [
+      {
+        "id": "stage_training_hangar_far",
+        "z": 0,
+        "parallax_x": 0.04,
+        "parallax_y": 0.014,
+        "content": "Ombre du volume de hangar",
+        "alpha": false,
+        "file": "assets/stages/stage_training_hangar/far.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_training_hangar_horizon",
+        "z": 1,
+        "parallax_x": 0.15,
+        "parallax_y": 0.052,
+        "content": "Poutres et plafond",
+        "alpha": true,
+        "file": "assets/stages/stage_training_hangar/horizon.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_training_hangar_architecture",
+        "z": 2,
+        "parallax_x": 0.36,
+        "parallax_y": 0.126,
+        "content": "Portiques industriels inspirés des matériaux CGU",
+        "alpha": true,
+        "file": "assets/stages/stage_training_hangar/architecture.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_training_hangar_mid",
+        "z": 3,
+        "parallax_x": 0.65,
+        "parallax_y": 0.227,
+        "content": "Cibles et consoles d’exercice",
+        "alpha": true,
+        "file": "assets/stages/stage_training_hangar/mid.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_training_hangar_floor",
+        "z": 4,
+        "parallax_x": 1.0,
+        "parallax_y": 1.0,
+        "content": "Dalle plane avec graduation non textuelle",
+        "alpha": true,
+        "file": "assets/stages/stage_training_hangar/floor.png",
+        "status": "À générer",
+        "collision": true
+      },
+      {
+        "id": "stage_training_hangar_foreground",
+        "z": 5,
+        "parallax_x": 1.12,
+        "parallax_y": 0.392,
+        "content": "Garde-corps aux bords",
+        "alpha": true,
+        "file": "assets/stages/stage_training_hangar/foreground.png",
+        "status": "À générer",
+        "collision": false
+      }
+    ],
+    "tournament_variant": {
+      "hazards": false,
+      "random_events": false,
+      "collision": "Sol plat, deux bords fixes, aucun débris solide mobile",
+      "light": "Luminance et contraste constants pendant la manche",
+      "camera_shake": 0,
+      "foreground_opacity_max": 0.12
+    },
+    "spectacle_variant": "Les capteurs s’allument lorsqu’ils sont touchés et le véhicule s’arrête après le résultat ; pas d’explosion réelle.",
+    "readability_rule": "Les panneaux explicites de simulation apparaissent dans l’interface et l’introduction, pas gravés comme un faux logo officiel.",
+    "camera_rule": "Parallaxe cosmétique uniquement ; les limites de combat et le sol ne suivent jamais une couche de fond.",
+    "audio_direction": "Créer une ambiance originale correspondant aux matériaux et événements ; aucune piste ou voix extraite du jeu dans ce lot.",
+    "asset_rules": "Un calque par fichier ; aucun personnage intégré dans le fond ; conserver masques, points d’ancrage et nom de variante."
+  },
+  {
+    "id": "stage_training_range",
+    "name": "Terrain de simulation CGU",
+    "source_game": "Création pour Gears of War Combats",
+    "time_of_day": "Jour neutre",
+    "time_status": "Choix de lumière pour le cadrage 2D ; à comparer à la séquence canonique retenue",
+    "palette": [
+      "gris béton",
+      "ocre sol",
+      "bleu signal"
+    ],
+    "signature_landmark": "Circuit d’essai balisé pour blindés",
+    "priority": "P1",
+    "content_status": "Spécification de production, calques à produire",
+    "formats": [
+      "duel",
+      "boss"
+    ],
+    "canonical_scope": "Composition originale de simulation ; ne prétend pas être une carte officielle existante.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/news/gears-5-launch-maps/",
+      "https://gearsofwar.fandom.com/wiki/Centaur"
+    ],
+    "source_validation": "Valider sur capture officielle datée du jeu choisi ; une page de contexte ne prouve pas chaque élément d’architecture",
+    "master_width_px": 4096,
+    "master_height_px": 2048,
+    "render_viewport_px": [
+      1920,
+      1080
+    ],
+    "floor_anchor_y_px": 1600,
+    "layers": [
+      {
+        "id": "stage_training_range_far",
+        "z": 0,
+        "parallax_x": 0.04,
+        "parallax_y": 0.014,
+        "content": "Ciel pâle",
+        "alpha": false,
+        "file": "assets/stages/stage_training_range/far.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_training_range_horizon",
+        "z": 1,
+        "parallax_x": 0.15,
+        "parallax_y": 0.052,
+        "content": "Reliefs neutres",
+        "alpha": true,
+        "file": "assets/stages/stage_training_range/horizon.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_training_range_architecture",
+        "z": 2,
+        "parallax_x": 0.36,
+        "parallax_y": 0.126,
+        "content": "Murs de protection et miradors d’exercice",
+        "alpha": true,
+        "file": "assets/stages/stage_training_range/architecture.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_training_range_mid",
+        "z": 3,
+        "parallax_x": 0.65,
+        "parallax_y": 0.227,
+        "content": "Cibles rabattables et panneaux abstraits",
+        "alpha": true,
+        "file": "assets/stages/stage_training_range/mid.png",
+        "status": "À générer",
+        "collision": false
+      },
+      {
+        "id": "stage_training_range_floor",
+        "z": 4,
+        "parallax_x": 1.0,
+        "parallax_y": 1.0,
+        "content": "Piste plane avec limites fixes",
+        "alpha": true,
+        "file": "assets/stages/stage_training_range/floor.png",
+        "status": "À générer",
+        "collision": true
+      },
+      {
+        "id": "stage_training_range_foreground",
+        "z": 5,
+        "parallax_x": 1.12,
+        "parallax_y": 0.392,
+        "content": "Grillage et pneus hors zone de jeu",
+        "alpha": true,
+        "file": "assets/stages/stage_training_range/foreground.png",
+        "status": "À générer",
+        "collision": false
+      }
+    ],
+    "tournament_variant": {
+      "hazards": false,
+      "random_events": false,
+      "collision": "Sol plat, deux bords fixes, aucun débris solide mobile",
+      "light": "Luminance et contraste constants pendant la manche",
+      "camera_shake": 0,
+      "foreground_opacity_max": 0.12
+    },
+    "spectacle_variant": "Les cibles se rétractent après validation ; le Centaur rejoint son emplacement sans destruction.",
+    "readability_rule": "Les lignes du sol désignent les attaques sans ressembler à des obstacles solides.",
+    "camera_rule": "Parallaxe cosmétique uniquement ; les limites de combat et le sol ne suivent jamais une couche de fond.",
+    "audio_direction": "Créer une ambiance originale correspondant aux matériaux et événements ; aucune piste ou voix extraite du jeu dans ce lot.",
+    "asset_rules": "Un calque par fichier ; aucun personnage intégré dans le fond ; conserver masques, points d’ancrage et nom de variante."
+  }
+]

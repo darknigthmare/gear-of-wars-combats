@@ -1,0 +1,104 @@
+{
+  "id": "sid",
+  "generated_asset": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/sid_reference_v2.png",
+  "generated_asset_sha256": "8c9ba03f8864947dbf529778d52506bf1dcc3a8c67a87a0f0b76a2ec4d624beb",
+  "official_reference": {
+    "local_path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_refs/sid_official.jpg",
+    "sha256": "f45a5b1774a92028315084030ef02406cec2c6895137efa2ce0989be5ab48d86",
+    "page_url": "https://www.gearsofwar.com/en-nz/news/dev-blog-characters/",
+    "image_url": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/04/b070c2d094613f6ac28e09b19f87bc24cf487790-69cb0c5d1797f.jpg"
+  },
+  "method": "Comparaison visuelle directe des deux images originales avec view_image, puis lecture des dimensions et du canal alpha avec Pillow. Aucun fichier image modifié.",
+  "verdict": "Référence de personnage reconnaissable ; tenue réinterprétée, révision nécessaire avant toute validation 1:1.",
+  "identity": {
+    "status": "reconnaissable_avec_ecarts",
+    "observed": "Homme âgé massif, cheveux blancs très courts, moustache blanche en fer à cheval et cache-œil : les identifiants de Sid sont présents.",
+    "differences": [
+      "Visage généré plus long, étroit et anguleux que le visage large et carré de la référence officielle.",
+      "Tracé des cicatrices frontales et densité de la moustache réinterprétés."
+    ]
+  },
+  "costume": {
+    "status": "non_conforme_1to1",
+    "matches": [
+      "Palette générale olive, métal argent et brun.",
+      "Deux gros disques pectoraux, conduites sous les disques, armure lourde, gants et bottes."
+    ],
+    "differences": [
+      "Grand emblème de crâne dans un engrenage ajouté sur l’épaule proche ; absent de cette épaule dans la référence officielle.",
+      "Bandes lumineuses claires ajoutées sur les bretelles ; le système de fixations et les épaules ne reprennent pas exactement le modèle officiel.",
+      "Petit raccord pectoral central rond remplacé par une pièce rectangulaire verticale ; segmentation et proportions du plastron modifiées.",
+      "Boucle de ceinture modifiée avec symbole de crâne ; le modèle officiel possède une grande pièce mécanique circulaire différente.",
+      "Deux gros cylindres à la ceinture remplacent la rangée de plusieurs petits cylindres du modèle officiel.",
+      "Poches et protections de cuisse différentes : grandes plaques olive et sangles ajoutées à la place des panneaux bruns matelassés originaux.",
+      "Avant-bras et tibias davantage argentés, formes des genouillères, jambières et bottes modifiées."
+    ]
+  },
+  "eyepatch": {
+    "status": "cote_correct",
+    "anatomical_side": "gauche",
+    "observed": "Le cache-œil couvre l’œil anatomiquement gauche ; l’œil droit, du côté le plus visible dans cette orientation vers la droite, reste découvert.",
+    "reserve": "Forme de la pièce, trajet de sa sangle et topologie de la cicatrice ne sont pas des copies exactes."
+  },
+  "framing": {
+    "status": "personnage_entier_marges_serrees",
+    "orientation": "trois-quarts vers la droite",
+    "pose": "debout au repos, deux mains vides ; aucune arme tenue",
+    "head_visible": true,
+    "both_feet_visible": true,
+    "both_hands_visible": true,
+    "observed": "Pas de coupe anatomique visible, mais la tête et les semelles sont très près des bords supérieur et inférieur.",
+    "substantial_alpha_bbox_threshold_16": [
+      108,
+      11,
+      868,
+      1528
+    ],
+    "approx_top_padding_px": 11,
+    "approx_bottom_padding_px": 8,
+    "recommendation": "Prévoir davantage de marge transparente verticale lors d’une future préparation de sprite ; ne pas agrandir davantage le personnage dans ce cadre."
+  },
+  "alpha_and_format": {
+    "mode": "RGBA",
+    "size_px": [
+      1024,
+      1536
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_pixel_percent": 53.35,
+    "alpha_corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "note": "Le canal alpha est bien présent et les quatre coins sont transparents. Des pixels de très faible alpha subsistent loin du corps ; le maximum est 254. Le fond sombre visible dans certains aperçus RGB ne prouve donc pas un fond opaque. Aucun test de composition en jeu effectué dans cette QA."
+  },
+  "defects": [
+    {
+      "severity": "majeure_pour_1to1",
+      "item": "Armure et accessoires réinventés",
+      "impact": "Les motifs d’épaule, fixations, boucle, cylindres de ceinture, cuissards et jambières empêchent de qualifier la tenue de reproduction fidèle 1:1."
+    },
+    {
+      "severity": "moyenne",
+      "item": "Ressemblance du visage approximative",
+      "impact": "Identification par les attributs de Sid, mais proportions faciales et cicatrices différentes."
+    },
+    {
+      "severity": "mineure",
+      "item": "Marge verticale faible",
+      "impact": "Tête entière et pieds entiers, mais marge d’environ 11 px en haut et 8 px en bas sur 1536 px."
+    }
+  ],
+  "reservations_1to1": [
+    "La pose et le point de vue diffèrent de la référence officielle ; les volumes masqués ne peuvent pas être certifiés.",
+    "Un seul rendu neutre ne constitue ni un sprite animé final ni un jeu de vues complet.",
+    "Aucun test des pivots, de la lisibilité à taille de combat ou de l’intégration sur décor n’est compris dans cette comparaison.",
+    "Ne pas labelliser cet actif « fidélité 1:1 validée »."
+  ],
+  "prototype_modified": false
+}

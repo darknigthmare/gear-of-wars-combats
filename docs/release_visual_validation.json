@@ -1,0 +1,553 @@
+{
+  "document": "Gears_of_War_Combats_Bible_v1",
+  "pages": 78,
+  "coverage": [
+    {
+      "page": 1,
+      "sha256": "d3665b56f665479c66739a9986999897b2f688c87f089563c445371913b9385f",
+      "visual_review_reports": [
+        "qa_pages_1_12.json"
+      ]
+    },
+    {
+      "page": 2,
+      "sha256": "ac2e9c2bcdb59818cf7df9c444b8b6ba2de4e7e7e07ec5e648218f5bbcd00f90",
+      "visual_review_reports": [
+        "qa_pages_1_12.json"
+      ]
+    },
+    {
+      "page": 3,
+      "sha256": "52f170baf1cbde6512260d7516f5ff7a4a12454bd710326b07ff318a715ad858",
+      "visual_review_reports": [
+        "qa_pages_1_12.json"
+      ]
+    },
+    {
+      "page": 4,
+      "sha256": "870e165c7692d6012f76618524904cbee866915afe85812fcb87baadd216e197",
+      "visual_review_reports": [
+        "qa_pages_1_12.json"
+      ]
+    },
+    {
+      "page": 5,
+      "sha256": "13c77d63a3e605c915f90cf998b75b515db2baeaadf535c614149454c0bffea0",
+      "visual_review_reports": [
+        "qa_pages_1_12.json"
+      ]
+    },
+    {
+      "page": 6,
+      "sha256": "58f79017752c26ca88ed66f2f58d1cf623727d320f802d3756c43cba89946ba0",
+      "visual_review_reports": [
+        "qa_pages_1_12.json"
+      ]
+    },
+    {
+      "page": 7,
+      "sha256": "a8c1aabbe0d8a1bdfff92cdb914f04cefd2e1c995dd49c27b2ee1eb288cecbb4",
+      "visual_review_reports": [
+        "qa_pages_1_12.json"
+      ]
+    },
+    {
+      "page": 8,
+      "sha256": "d8609438a9a00f879adf81d45f89eea0a5560b6cf8c916fec928964112c8b7b0",
+      "visual_review_reports": [
+        "qa_pages_1_12.json"
+      ]
+    },
+    {
+      "page": 9,
+      "sha256": "a0418762c2e6f3d6422c3cd5d17036e372855673f0016e2322f9af69c63392a1",
+      "visual_review_reports": [
+        "qa_pages_1_12.json"
+      ]
+    },
+    {
+      "page": 10,
+      "sha256": "29550e2bc53902eedc0c6480d1f9d61a7f24012c40a06296ac5ab04ea31a36e7",
+      "visual_review_reports": [
+        "qa_pages_1_12.json"
+      ]
+    },
+    {
+      "page": 11,
+      "sha256": "00c61377fc7d2a0d4afee840aa164cd466fe86d94d33493a0d9459e6dca6582c",
+      "visual_review_reports": [
+        "qa_release_11.json"
+      ]
+    },
+    {
+      "page": 12,
+      "sha256": "0b0206608c3227e86a30f47cdab8e97ccf4a1b10558660384eaa752d172d9b27",
+      "visual_review_reports": [
+        "qa_pages_1_12.json"
+      ]
+    },
+    {
+      "page": 13,
+      "sha256": "13e589f22a48efea45210a83d72999d2baef81a7311fdaf5110b35205dc8c39f",
+      "visual_review_reports": [
+        "qa_pages_13_29.json"
+      ]
+    },
+    {
+      "page": 14,
+      "sha256": "d5f9357fec0f5f5df8867804ae41fa42162288448e5c998dbbea6d6c7555380f",
+      "visual_review_reports": [
+        "qa_pages_13_29.json"
+      ]
+    },
+    {
+      "page": 15,
+      "sha256": "ddaafde57ff438bba497394133624d29fcd4c7cd3abac384daecbf0232f47bd4",
+      "visual_review_reports": [
+        "qa_pages_13_29.json"
+      ]
+    },
+    {
+      "page": 16,
+      "sha256": "a95731402a512f10187d9c2a0e2e646fd1237448fd4c202e903751db3485be1c",
+      "visual_review_reports": [
+        "qa_pages_13_29.json"
+      ]
+    },
+    {
+      "page": 17,
+      "sha256": "bf114d74a563dfd0eb754b708242bcc4dd25cac48c0dec247b0d777afa3a73f4",
+      "visual_review_reports": [
+        "qa_pages_13_29.json"
+      ]
+    },
+    {
+      "page": 18,
+      "sha256": "a7a76b7751e6bca280b203031e34d77e77bff6fcba1286b9ec94da0c10e22652",
+      "visual_review_reports": [
+        "qa_pages_13_29.json"
+      ]
+    },
+    {
+      "page": 19,
+      "sha256": "25750fb9ab75e581232b243bdf4605edc60d38083da339574270f6ac196dbc95",
+      "visual_review_reports": [
+        "qa_pages_13_29.json"
+      ]
+    },
+    {
+      "page": 20,
+      "sha256": "35d4b704c7319b29bb1e4b419e65c5650798067ae6078f521b83b7cfc24d633f",
+      "visual_review_reports": [
+        "qa_pages_13_29.json"
+      ]
+    },
+    {
+      "page": 21,
+      "sha256": "b737ccbb28c93c7d96e02037804528cc54337533a723e117e1f5f93c76bf35f0",
+      "visual_review_reports": [
+        "qa_pages_13_29.json"
+      ]
+    },
+    {
+      "page": 22,
+      "sha256": "d289e686938d7a36aa66d59edf913d7b843423f55dc8c789fed28916a845ba77",
+      "visual_review_reports": [
+        "qa_pages_13_29.json"
+      ]
+    },
+    {
+      "page": 23,
+      "sha256": "a243e95159baeff84294201dc7b31ff803723b9ca1310ac9f6c8184a4b7fd04b",
+      "visual_review_reports": [
+        "qa_pages_13_29.json"
+      ]
+    },
+    {
+      "page": 24,
+      "sha256": "7e881099c8e620c7ad9b731c16bbb4461792896b05de4b18db9b9d95c809cb80",
+      "visual_review_reports": [
+        "qa_pages_13_29.json"
+      ]
+    },
+    {
+      "page": 25,
+      "sha256": "fa108a1d7985047439aee6e83146a152c0449d1e748291e59abb4ef3f7b30cf3",
+      "visual_review_reports": [
+        "qa_pages_13_29.json"
+      ]
+    },
+    {
+      "page": 26,
+      "sha256": "8570913edea6bbe60c7e0d15d920abd29c30a1dc1d863e37f69519ebd5880ac7",
+      "visual_review_reports": [
+        "qa_pages_13_29.json"
+      ]
+    },
+    {
+      "page": 27,
+      "sha256": "c2781788134af31ce6df0b59b7a2e17c53a03afffddb299dc45920990804712f",
+      "visual_review_reports": [
+        "qa_pages_13_29.json"
+      ]
+    },
+    {
+      "page": 28,
+      "sha256": "a727ddd9243e5b1cde0a3989aeb4f8bbcd2a773aafd34453545f54d8c2538534",
+      "visual_review_reports": [
+        "qa_pages_13_29.json"
+      ]
+    },
+    {
+      "page": 29,
+      "sha256": "7c3c60790174dd0de3734c73dbd2f3fd2fdbaf79388f1706b7bf54d0e1a43c74",
+      "visual_review_reports": [
+        "qa_pages_13_29.json"
+      ]
+    },
+    {
+      "page": 30,
+      "sha256": "0fa5a08ec378d58f788a4e40a2c197be459cc43c109505ec3a7e6879a7810b7b",
+      "visual_review_reports": [
+        "qa_pages_30_52.json"
+      ]
+    },
+    {
+      "page": 31,
+      "sha256": "349f8423681e7a75e21821869911d31abea6f813d7f5bf03b69bfebbf308ff95",
+      "visual_review_reports": [
+        "qa_pages_30_52.json"
+      ]
+    },
+    {
+      "page": 32,
+      "sha256": "bcfbb16e1fee7a8bda0e33a4b37829796ed331d8186e8f3c87bb00cb45d2424b",
+      "visual_review_reports": [
+        "qa_pages_30_52.json"
+      ]
+    },
+    {
+      "page": 33,
+      "sha256": "5d06ccdbac423bf2eb7c6e5a022de3852e85c6326c22d25eec6aa50a9127d24d",
+      "visual_review_reports": [
+        "qa_pages_30_52.json"
+      ]
+    },
+    {
+      "page": 34,
+      "sha256": "b743f0d26f1d4c4e0b4ddb8ce3f58890c95254212a204c0df491674c0423a4d6",
+      "visual_review_reports": [
+        "qa_pages_30_52.json"
+      ]
+    },
+    {
+      "page": 35,
+      "sha256": "37fff18040aafb09c7efb11c8bcf4e2d0e64e37b58560b151889d17ba1021bf8",
+      "visual_review_reports": [
+        "qa_pages_30_52.json"
+      ]
+    },
+    {
+      "page": 36,
+      "sha256": "af301dfcb4c0224f8c16785cb86f7b502841a0949686f4e8f1b6414d29e98878",
+      "visual_review_reports": [
+        "qa_pages_30_52.json"
+      ]
+    },
+    {
+      "page": 37,
+      "sha256": "543cb03f5da602f57e0af23330fc06c02d3f7aa0f0ad89a9ebf0c9a4a2feb04c",
+      "visual_review_reports": [
+        "qa_pages_30_52.json"
+      ]
+    },
+    {
+      "page": 38,
+      "sha256": "cb1a35e591680aa174993a144022fcd0b9ab107b9d5aa5963af15e632d391211",
+      "visual_review_reports": [
+        "qa_pages_30_52.json"
+      ]
+    },
+    {
+      "page": 39,
+      "sha256": "bcd210ac01b2add5dce76a4ede561c523db248c032b7b7a5ef3c837b97ad4f86",
+      "visual_review_reports": [
+        "qa_pages_30_52.json"
+      ]
+    },
+    {
+      "page": 40,
+      "sha256": "5f6d48e0c2249930c08226be9bfb3eb9ce97212c9f3bd7c3bb89fcc311ebc785",
+      "visual_review_reports": [
+        "qa_pages_30_52.json"
+      ]
+    },
+    {
+      "page": 41,
+      "sha256": "50054f26949b3c44fd5c261be9e93cf05c9947aab9be6ab55d6dbfa3b2049acc",
+      "visual_review_reports": [
+        "qa_pages_30_52.json"
+      ]
+    },
+    {
+      "page": 42,
+      "sha256": "7e22610fc809187a8ba0ca749ce7a3263e8ecb78d29e8c985cd55c08c04eda09",
+      "visual_review_reports": [
+        "qa_pages_30_52.json"
+      ]
+    },
+    {
+      "page": 43,
+      "sha256": "98c914588940e714f73a90fd8c1ce8333119cbaa029ea5c87f96b05c7bfe9164",
+      "visual_review_reports": [
+        "qa_release_43_44.json"
+      ]
+    },
+    {
+      "page": 44,
+      "sha256": "80f580008d264ce14a6d2680ad82407a0962f098da815cef98f9f7c12a805084",
+      "visual_review_reports": [
+        "qa_release_43_44.json"
+      ]
+    },
+    {
+      "page": 45,
+      "sha256": "9eff6cf077a0d59e43c798595a3b71024e2cec96217bb47e39e24f9fb50600f0",
+      "visual_review_reports": [
+        "qa_pages_30_52.json"
+      ]
+    },
+    {
+      "page": 46,
+      "sha256": "cd3489547b7a63cb9e9abaa44106337b9b2b1ba211f4fea0f2bef564f1c85f32",
+      "visual_review_reports": [
+        "qa_pages_30_52.json"
+      ]
+    },
+    {
+      "page": 47,
+      "sha256": "5e8d6404c86bfa7a30ebcbfd5af6ef0b98396026df37cbf80a5f84b9a8e67dff",
+      "visual_review_reports": [
+        "qa_pages_30_52.json"
+      ]
+    },
+    {
+      "page": 48,
+      "sha256": "28d885804219071a7a9d06140d26fe3ba7138a55313561068c49709e9378e996",
+      "visual_review_reports": [
+        "qa_pages_30_52.json"
+      ]
+    },
+    {
+      "page": 49,
+      "sha256": "e41c6160b2f6fd21ececb034dd9560e20c5f500dd388d87605f8597693aeb462",
+      "visual_review_reports": [
+        "qa_pages_30_52.json"
+      ]
+    },
+    {
+      "page": 50,
+      "sha256": "aae268b2d5575cfe277670726aaf2587c063af34f1794ee51a487b67afadb7c7",
+      "visual_review_reports": [
+        "qa_pages_30_52.json"
+      ]
+    },
+    {
+      "page": 51,
+      "sha256": "12663f2a601e467011d00b94027312facdcf452a98364446d7e770b5a2cd268b",
+      "visual_review_reports": [
+        "qa_pages_30_52.json"
+      ]
+    },
+    {
+      "page": 52,
+      "sha256": "619df4295645eab6497cc7760e72e80a3e8edc49dc7c00e593b88ef1dcf9b023",
+      "visual_review_reports": [
+        "qa_pages_30_52.json"
+      ]
+    },
+    {
+      "page": 53,
+      "sha256": "e60824d3030876e08d447cebd6b5debf3320b5e4d6a97c086a0a88811ac1a32b",
+      "visual_review_reports": [
+        "qa_pages_53_78.json"
+      ]
+    },
+    {
+      "page": 54,
+      "sha256": "99b1006c6354c8c738586a6f53e0a725ddf723de068b5396b41d19485ab6ce85",
+      "visual_review_reports": [
+        "qa_pages_53_78.json"
+      ]
+    },
+    {
+      "page": 55,
+      "sha256": "de05938d7002eb37475292aa528f3af49a7a953563da6f8207e453590a7d5745",
+      "visual_review_reports": [
+        "qa_pages_53_78.json"
+      ]
+    },
+    {
+      "page": 56,
+      "sha256": "e3e0ffc2dfd4326e8902624613c5eb02ce880d8198683f692dd4a18888bd5737",
+      "visual_review_reports": [
+        "qa_pages_53_78.json"
+      ]
+    },
+    {
+      "page": 57,
+      "sha256": "9bb8b40c2eb1f69f4832e768ce78dc3cb4acbf6a166b3d729df270d9a4aeed5f",
+      "visual_review_reports": [
+        "qa_pages_53_78.json"
+      ]
+    },
+    {
+      "page": 58,
+      "sha256": "d49127d01b02868aefd013230bf883caa9eb62b81a8063d777b525fd0b2e3226",
+      "visual_review_reports": [
+        "qa_release_58_75.json"
+      ]
+    },
+    {
+      "page": 59,
+      "sha256": "09da70c3f48cfd527786e93ebea11e5056a6ce193ec93c831fdc88418a0cd68a",
+      "visual_review_reports": [
+        "qa_release_58_75.json"
+      ]
+    },
+    {
+      "page": 60,
+      "sha256": "e4a20c9a93263763294301ca2cbb2ae9d07e563961af9fb60e1815ef9a546d20",
+      "visual_review_reports": [
+        "qa_release_58_75.json"
+      ]
+    },
+    {
+      "page": 61,
+      "sha256": "42a8d4056c6cde9f671638e167e2ca9af88898f770d33396ff22a9c8e45df148",
+      "visual_review_reports": [
+        "qa_release_58_75.json"
+      ]
+    },
+    {
+      "page": 62,
+      "sha256": "b9f6fceee77c5faac03339fd69bb116a1e43ac5e394ec14ecc34195199ae8e9a",
+      "visual_review_reports": [
+        "qa_release_58_75.json"
+      ]
+    },
+    {
+      "page": 63,
+      "sha256": "9696854fbd50ff9878fbba00f7be75828fb60b3cfc29501ef4bbe7faf733543d",
+      "visual_review_reports": [
+        "qa_release_58_75.json"
+      ]
+    },
+    {
+      "page": 64,
+      "sha256": "8fc9a34259bae41f2206d2f0ce50ce6b834f0930ca772ef67c700eac542edd0e",
+      "visual_review_reports": [
+        "qa_release_58_75.json"
+      ]
+    },
+    {
+      "page": 65,
+      "sha256": "70b0ec7b480b75b3b0b601a8f79c4184446f68d647b801168b8b667eb03df781",
+      "visual_review_reports": [
+        "qa_release_58_75.json"
+      ]
+    },
+    {
+      "page": 66,
+      "sha256": "491aa887cf9676cf9e52d52a04ef9ce4d88de041cf76ef670abbbe77bf1694fd",
+      "visual_review_reports": [
+        "qa_release_58_75.json"
+      ]
+    },
+    {
+      "page": 67,
+      "sha256": "8dae62fb5d581a8ee13af6312b638ed5d463f99b439255be350971a87a5a317e",
+      "visual_review_reports": [
+        "qa_release_58_75.json"
+      ]
+    },
+    {
+      "page": 68,
+      "sha256": "d84e6d10df05ddc3c0393c3e028745277c29770780316e6f6a77ce2233722e3a",
+      "visual_review_reports": [
+        "qa_release_58_75.json"
+      ]
+    },
+    {
+      "page": 69,
+      "sha256": "580d4672defca856bac1b46a6892fad6f366ad6f80541815637c97057aee0f69",
+      "visual_review_reports": [
+        "qa_release_58_75.json"
+      ]
+    },
+    {
+      "page": 70,
+      "sha256": "9910485e737837831f6e21b5aab9039f9c612ec242ba28672ef7e2c39dced3bb",
+      "visual_review_reports": [
+        "qa_release_58_75.json"
+      ]
+    },
+    {
+      "page": 71,
+      "sha256": "39cd155e3ba22fff6246826c2d2921f2a045292a7ebffc8b0e25522440a0eb98",
+      "visual_review_reports": [
+        "qa_release_58_75.json"
+      ]
+    },
+    {
+      "page": 72,
+      "sha256": "f585a05b23dcfe9053ba458c1fabafbe3ee45ae8f0a39a105241646b1ca81c47",
+      "visual_review_reports": [
+        "qa_release_58_75.json"
+      ]
+    },
+    {
+      "page": 73,
+      "sha256": "d33cb8016626cc0012b1981a88656d7ed591fa2337fa13ea75af294603ea7e2e",
+      "visual_review_reports": [
+        "qa_release_58_75.json"
+      ]
+    },
+    {
+      "page": 74,
+      "sha256": "1d7e96da631b96ef9046f0ce692f4f6e404ed7500c27565ea51ea7e9436a8c45",
+      "visual_review_reports": [
+        "qa_release_58_75.json"
+      ]
+    },
+    {
+      "page": 75,
+      "sha256": "f7d65aebd887032aa930a978222a3b82221e7fee4181c7d5f53a4e0143993273",
+      "visual_review_reports": [
+        "qa_release_58_75.json"
+      ]
+    },
+    {
+      "page": 76,
+      "sha256": "abb016e641de30afa02b99e0ffca777645896e5e9f5fd3e2e0fdad9996a5064f",
+      "visual_review_reports": [
+        "qa_pages_53_78.json"
+      ]
+    },
+    {
+      "page": 77,
+      "sha256": "752413a935cde12de0a9d212f951141f73fd2542d2e90c3e663886682a275970",
+      "visual_review_reports": [
+        "qa_pages_53_78.json"
+      ]
+    },
+    {
+      "page": 78,
+      "sha256": "a5dbef3e0b078ecfa2d9587c01682188932859c5ecfd9b8b8fa0bac55f02efa5",
+      "visual_review_reports": [
+        "qa_pages_53_78.json"
+      ]
+    }
+  ],
+  "result": "All final page images have visual-review evidence. Byte-identical pages reuse their previous review."
+}

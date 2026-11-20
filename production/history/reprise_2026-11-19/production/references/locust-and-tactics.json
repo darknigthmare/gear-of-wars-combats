@@ -1,0 +1,323 @@
+{
+  "schema_version": "1.0",
+  "scope": "Références visuelles de travail pour dix personnages ; ces références ne constituent pas des assets générés ni une validation finale de fidélité.",
+  "reference_storage": "Les images de référence restent dans /tmp et ne sont pas ajoutées au dépôt. Les URL permettent de retrouver leurs sources.",
+  "records": [
+    {
+      "character_id": "anya_stroud",
+      "label": "Anya Stroud",
+      "variant": "Gears of War 3 — tenue de combat",
+      "source_page": "https://www.gearsofwar.com/en-us/games/gears-of-war-3/",
+      "source_image": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/gears-3-co-op-69d7d90d192e5.jpg",
+      "local_reference": "/tmp/gears3-reference.jpg",
+      "evidence_type": "official_publisher_gameplay_screenshot_visually_inspected",
+      "verified_traits": [
+        "Anya est à droite dans cette capture de groupe ; carré blond, tête nue et haut à manches courtes sous l'armure.",
+        "Armure COG grise usée, modules circulaires du plastron et longues lumières bleues aux épaules.",
+        "Protections d'avant-bras, pantalon sombre ajusté, genouillères et bottes hautes blindées.",
+        "Lancer à tronçonneuse tenu devant le corps."
+      ],
+      "uncertainties": [
+        "La pose et l'arme masquent une partie du torse ; compléter les détails avec le rendu promotionnel individuel.",
+        "Cette capture ne fournit ni vue dorsale ni profil orthographique."
+      ]
+    },
+    {
+      "character_id": "anya_stroud",
+      "label": "Anya Stroud",
+      "variant": "Gears of War 3 — rendu promotionnel E3 2011",
+      "source_page": "https://www.trueachievements.com/n4196/e3-2011-gears-of-war-3-campaign-screenshots",
+      "source_image": "https://www.trueachievements.com/customimages/003230.jpg",
+      "local_reference": "/tmp/gears3-anya.jpg",
+      "evidence_type": "publisher_press_render_on_secondary_host_visually_inspected",
+      "verified_traits": [
+        "Carré blond à frange latérale, visage adulte et tête nue.",
+        "Deux disques pectoraux, barres lumineuses bleues aux épaules et taille articulée entièrement couverte.",
+        "Petit haut beige/gris à manches courtes, tatouage visible sur le haut du bras.",
+        "Protections métalliques d'avant-bras, gants et ceinture à modules circulaires."
+      ],
+      "uncertainties": [
+        "Le média attribue les visuels à Microsoft ; l'hébergement et l'attribution sont secondaires.",
+        "Le cadrage s'arrête au niveau des cuisses et ne documente pas les pieds."
+      ]
+    },
+    {
+      "character_id": "myrrah",
+      "label": "Reine Myrrah",
+      "variant": "Gears of War 3 — armure de guerre, rendu promotionnel E3 2011",
+      "source_page": "https://www.trueachievements.com/n4196/e3-2011-gears-of-war-3-campaign-screenshots",
+      "source_image": "https://www.trueachievements.com/customimages/003248.jpg",
+      "local_reference": "/tmp/gears3-myrrah.jpg",
+      "evidence_type": "publisher_press_render_on_secondary_host_visually_inspected",
+      "verified_traits": [
+        "Visage humain pâle et sévère, cheveux dissimulés par une couronne-casque insectoïde.",
+        "Couronne gris argent à pointes latérales et pierre centrale rouge/ambre.",
+        "Combinaison côtelée bordeaux et armure ornementée acier sombre.",
+        "Gros col et épauliers, motif ambré du gorgerin, gantelets et plaques de hanches évasées."
+      ],
+      "uncertainties": [
+        "Le média attribue les visuels à Microsoft ; l'hébergement et l'attribution sont secondaires.",
+        "Rendu partiel : le bas des jambes, les bottes et le dos ne sont pas visibles.",
+        "L'image ne justifie pas l'ajout d'une longue chevelure blonde libre ou d'une tenue d'une autre édition."
+      ]
+    },
+    {
+      "character_id": "theron_guard",
+      "label": "Theron Guard",
+      "variant": "Gears of War 3 — garde sans casque, rendu promotionnel E3 2011",
+      "source_page": "https://www.trueachievements.com/n4196/e3-2011-gears-of-war-3-campaign-screenshots",
+      "source_image": "https://www.trueachievements.com/customimages/003251.jpg",
+      "local_reference": "/tmp/gears3-theron.jpg",
+      "evidence_type": "publisher_press_render_on_secondary_host_visually_inspected",
+      "verified_traits": [
+        "Tête locuste nue, peau gris pâle rugueuse, mâchoire ouverte et dents irrégulières.",
+        "Grande collerette rouge sombre, épauliers anguleux et armure rouge sur base noire.",
+        "Rangées de boucles au torse, protections d'avant-bras rouges et plaques de hanches superposées.",
+        "Silhouette à distinguer du Theron Sentinel casqué, du Palace Guard doré, du Savage Theron et du Theron Elite noir."
+      ],
+      "uncertainties": [
+        "L'édition documentée est Gears of War 3, pas Gears of War 1.",
+        "Le cadrage coupe le bas des jambes et ne présente aucune arme.",
+        "Le Torque Bow est confirmé pour le Theron par https://www.gearsofwar.com/en-us/news/dev-blog-enemies/, mais cette page concerne Gears Tactics."
+      ]
+    },
+    {
+      "character_id": "raam",
+      "label": "Général RAAM",
+      "variant": "Apparence classique de RAAM — édition exacte du rendu non vérifiée",
+      "source_page": "https://videogamesandthebible.com/2013/07/31/gears-of-war-and-the-bible-part-1-the-locust-horde/",
+      "source_image": "https://noobproguide.files.wordpress.com/2013/12/general-raam-from-gears-of-war-wiki.png?h=1196&w=1280",
+      "local_reference": "/tmp/gears1-raam.jpg",
+      "evidence_type": "secondary_rehosted_render_edition_unverified_visually_inspected",
+      "verified_traits": [
+        "Géant locuste chauve, peau gris pâle rugueuse, large mâchoire et dents irrégulières.",
+        "Armure presque noire et énorme col montant entourant la tête.",
+        "Grands épauliers striés, boucles horizontales au torse et gantelets massifs.",
+        "Tête nue, sans dorures ni ornements de version récente."
+      ],
+      "uncertainties": [
+        "L'image est relayée par un blog et présentée comme provenant du wiki ; aucune origine primaire ni édition exacte n'a été établie.",
+        "Le nom local gears1-raam.jpg est un nom de travail et ne prouve pas que le rendu provient de Gears of War 1.",
+        "Le rendu est tronqué aux hanches et ne montre pas les armes ni les pieds.",
+        "Ne pas déclarer une validation de fidélité 1:1 à Gears of War 1 à partir de ce seul fichier."
+      ]
+    },
+    {
+      "character_id": "raam",
+      "label": "Général RAAM",
+      "variant": "Gears of War — pack NECA RAAM contre Kim",
+      "source_page": "https://store.necaonline.com/blogs/news/174257351-endless-war",
+      "source_image": null,
+      "local_reference": null,
+      "evidence_type": "licensed_manufacturer_text_only",
+      "verified_traits": [
+        "Le fabricant identifie explicitement RAAM comme le boss du premier Gears of War dans le pack RAAM contre Kim.",
+        "Le pack inclut les accessoires Troika, Lancer et couteau ; RAAM est associé au Troika et au grand couteau dans la présentation du combat."
+      ],
+      "uncertainties": [
+        "Les photographies historiques ne sont plus intégrées dans la page migrée consultée.",
+        "Cette preuve textuelle ne permet pas de valider les couleurs, proportions ou détails du rendu relayé par le blog."
+      ]
+    },
+    {
+      "character_id": "dominic_santiago",
+      "label": "Dominic Santiago",
+      "variant": "Gears of War 2 — capture officielle de la campagne",
+      "source_page": "https://www.gearsofwar.com/en-us/games/gears-of-war-2/",
+      "source_image": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/gears-2-co-op-69d7c67170026.jpg",
+      "local_reference": "/tmp/gears2-dom.jpg",
+      "evidence_type": "official_publisher_gameplay_screenshot_visually_inspected",
+      "verified_traits": [
+        "Dom est à droite de la capture ; Marcus est au premier plan à gauche.",
+        "Cheveux bruns courts coiffés vers l'arrière, barbe courte/ombre de barbe et absence de bandana.",
+        "Armure COG grise massive, petits éclairages bleus près des épaules et grand module pectoral sombre asymétrique.",
+        "Haut des bras découvert, tatouage visible et protections métalliques d'avant-bras."
+      ],
+      "uncertainties": [
+        "Capture partiellement occultée par Marcus et tronquée sous la taille.",
+        "La longue barbe et la tenue de Dom dans Gears of War 3 ne sont pas documentées par cette référence.",
+        "Aucune vue orthographique ou dorsale disponible dans ce fichier."
+      ]
+    },
+    {
+      "character_id": "augustus_cole",
+      "label": "Augustus Cole",
+      "variant": "Gears of War 3 — tenue de combat standard, rendu promotionnel E3 2011",
+      "source_page": "https://www.trueachievements.com/n4196/e3-2011-gears-of-war-3-campaign-screenshots",
+      "source_image": "https://www.trueachievements.com/customimages/003252.jpg",
+      "local_reference": "/tmp/gears3-cole.jpg",
+      "evidence_type": "publisher_press_render_on_secondary_host_visually_inspected",
+      "verified_traits": [
+        "Homme noir très musclé, visage énergique et bandana ajusté olive/brun couvrant le crâne.",
+        "Biceps nus, armure COG gris/brun usée, disques pectoraux et bande verticale olive sur le plastron.",
+        "Gantelets massifs, ceinture à boucle circulaire et renforts de cuisses.",
+        "Personnage entièrement visible avec grandes genouillères, jambières et bottes blindées."
+      ],
+      "uncertainties": [
+        "Le média attribue les visuels à Microsoft ; l'hébergement et l'attribution sont secondaires.",
+        "Cette référence ne présente aucune arme et ne montre pas le dos.",
+        "Il s'agit de Cole standard Gears of War 3, pas de Thrashball Cole, d'un Cole vieilli ou de la variante à casquette de baseball."
+      ]
+    },
+    {
+      "character_id": "gabriel_diaz",
+      "label": "Gabriel « Gabe » Diaz",
+      "variant": "Gears Tactics — tenue promotionnelle initiale",
+      "source_page": "https://www.gearsofwar.com/en-us/news/dev-blog-characters/",
+      "source_image": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/04/f58127fb483b171065a9fad6b79ecbcfcf9032d5-69cb0c3a70b1e.jpg",
+      "local_reference": "/tmp/gears-refs-tactics/gabe-official.jpg",
+      "evidence_type": "official_publisher_full_body_render_visually_inspected",
+      "verified_traits": [
+        "Cheveux bruns courts coiffés vers l'arrière avec mèche blanche à l'avant droit du personnage ; barbe brune courte et complète.",
+        "Armure COG gris anthracite rayée, deux disques pectoraux clairs bordés de bleu, petit emblème circulaire central.",
+        "Gros épaulier métallique gauche, haut des bras découvert, attaches d'épaule lumineuses bleues.",
+        "Ceinture à boucle circulaire et deux poches rectangulaires, pantalon kaki/gris à sangles brunes, grandes genouillères et bottes brunes blindées.",
+        "La page officielle confirme la classe Support et le Lancer à tronçonneuse."
+      ],
+      "uncertainties": [
+        "Le rendu ne tient pas d'arme et ne présente pas le dos.",
+        "Ne pas mélanger les pièces personnalisables ou la tenue civile de mécanicien avec cette tenue de référence."
+      ]
+    },
+    {
+      "character_id": "mikayla_dorn",
+      "label": "Mikayla Dorn",
+      "variant": "Gears Tactics — tenue initiale de milicienne",
+      "source_page": "https://www.gearsofwar.com/en-us/news/dev-blog-characters/",
+      "source_image": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/04/fa96bb216cfb2950a825f30086ee5d6f05084c0c-69cb0c872baa9.jpg",
+      "local_reference": "/tmp/gears-refs-tactics/mikayla-official.jpg",
+      "evidence_type": "official_publisher_full_body_render_visually_inspected",
+      "verified_traits": [
+        "Peau brune, cheveux bruns courts et bouclés relevés au-dessus du front, petites boucles d'oreilles annelées.",
+        "Débardeur olive clair usé à motif circulaire pâle, shemagh vert grisé à motifs orange, lunettes techniques suspendues autour du cou.",
+        "Bandage clair sur le haut du bras droit et bracelets au poignet ; protection longue asymétrique du bras et de l'avant-bras gauche.",
+        "Ceinture à grosse boucle ronde, pantalon de travail kaki/brun renforcé, genoux rembourrés, jambières métalliques et bottes.",
+        "La page officielle confirme la classe Sniper."
+      ],
+      "uncertainties": [
+        "Aucune arme visible dans ce rendu ; le détail d'un Longshot nécessite une référence d'arme supplémentaire.",
+        "Le dos n'est pas documenté.",
+        "Ne pas remplacer cette tenue civile par une armure COG générique."
+      ]
+    },
+    {
+      "character_id": "ukkon",
+      "label": "Ukkon",
+      "variant": "Gears Tactics — apparence finale du jeu",
+      "source_page": "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/",
+      "source_image": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/04/e3d6aae501363570c-69cb060527a2d.jpg",
+      "local_reference": "/tmp/gears-refs-tactics/ukkon-official.jpg",
+      "evidence_type": "official_publisher_cinematic_still_visually_inspected",
+      "verified_traits": [
+        "Très haute coiffe rouge sombre/noire à sommet évasé, bordures métalliques et motif orange lumineux au front.",
+        "Visage pâle, yeux jaunes lumineux et appareil respiratoire associé au bas du visage.",
+        "Épauliers très larges relevés en volutes, intérieur bordeaux et bordures décorées.",
+        "Harnais respiratoire thoracique, tuyaux annelés et plusieurs témoins orange."
+      ],
+      "uncertainties": [
+        "Image cadrée au-dessus des jambes ; elle ne fournit pas la longueur de la robe ni la forme des pieds.",
+        "L'éclairage bleu/orange de la scène modifie la perception des couleurs.",
+        "Ne pas lui attribuer le corps massif de RAAM ou celui d'un Drone standard."
+      ]
+    },
+    {
+      "character_id": "ukkon",
+      "label": "Ukkon",
+      "variant": "Gears Tactics — illustration promotionnelle avec ses créatures",
+      "source_page": "https://www.gearsofwar.com/en-us/news/dev-blog-you-should-know/",
+      "source_image": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/05/ukkon-2000x2000-5ea77404740f8-1024x1024-69cb10af12d50.jpg",
+      "local_reference": "/tmp/gears-refs-tactics/ukkon-official-full-scene.jpg",
+      "evidence_type": "official_publisher_ensemble_key_art_visually_inspected",
+      "verified_traits": [
+        "Ukkon est au centre de la composition, debout derrière les créatures du premier plan.",
+        "Silhouette élancée, longue robe rouge/noire près des chevilles avec panneaux verticaux.",
+        "Deux longues structures droites suspendues depuis les épaules encadrent le corps.",
+        "Tuyaux en boucles autour de la taille, haute coiffe et épauliers en volutes cohérents avec la capture officielle."
+      ],
+      "uncertainties": [
+        "Ukkon occupe une petite partie de l'image ; les détails inférieurs ne sont pas assez fins pour une validation 1:1.",
+        "D'autres personnages masquent partiellement le bas de sa robe et ses pieds.",
+        "La présence des autres créatures sert uniquement de contexte ; elles ne doivent pas être reproduites dans son sprite individuel."
+      ]
+    },
+    {
+      "character_id": "warden",
+      "label": "Warden",
+      "variant": "Gears 5 — version casquée en jeu",
+      "source_page": "https://steamcommunity.com/sharedfiles/filedetails/?id=2059243289&l=schinese",
+      "source_image": "https://images.steamusercontent.com/ugc/1011563720478551744/45834B6CC0151AF7851DC5DE8A4D74B94CD6CFE4/?ima=fit&imcolor=%23000000&imh=576&impolicy=Letterbox&imw=1024&letterbox=true",
+      "local_reference": "/tmp/gears-refs-tactics/warden-gameplay-secondary.jpg",
+      "evidence_type": "community_hosted_gameplay_screenshot_visually_inspected",
+      "verified_traits": [
+        "Casque sombre à faceplate rouge segmentée et étroite fente orange lumineuse.",
+        "Immense Scion à torse partiellement nu couvert de cristaux, armure bordeaux sombre et épaulier gauche massif.",
+        "Sangle diagonale avec grand insigne rond sur la poitrine, cape sombre à l'arrière.",
+        "Deux Breaker Maces à longs manches et grosses têtes couvertes de pointes/cristaux."
+      ],
+      "uncertainties": [
+        "Capture publiée par un joueur sur Steam, pas un rendu officiel de l'éditeur.",
+        "Éclairage bleuté d'une scène enneigée ; la capture coupe les pieds et masque partiellement le casque par une masse.",
+        "La description automatique du moteur de recherche évoquait à tort des lance-missiles : aucun n'est visible, et cette description n'a pas été retenue."
+      ]
+    },
+    {
+      "character_id": "warden",
+      "label": "Warden",
+      "variant": "Gears 5 — figurine Storm Collectibles officielle, sans casque, torse",
+      "source_page": "https://www.gearsofwar.com/en-us/news/2020-gearsmas-holiday-gift-guide/",
+      "source_image": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/12/warden1-5fc7e8b56d464-69cb1989afd49.jpg",
+      "local_reference": "/tmp/gears-refs-tactics/warden-official-front.jpg",
+      "evidence_type": "official_publisher_licensed_figure_photo_visually_inspected",
+      "verified_traits": [
+        "Tête nue grise, yeux jaunes et chair gris/brun couverte de nodules et cristaux ambre/orange.",
+        "Armure partielle bordeaux et large épaulier gauche ; sangle diagonale et insigne rond au torse.",
+        "Deux Breaker Maces à pointes/cristaux visibles.",
+        "La page officielle identifie le Warden comme une forme élite de Scion de Gears 5."
+      ],
+      "uncertainties": [
+        "Photographie d'une figurine sous licence, pas un rendu du modèle de jeu.",
+        "Version sans casque ; utiliser la capture de jeu pour la variante casquée.",
+        "Ne pas reproduire les articulations, jointures ou le matériau plastique du produit."
+      ]
+    },
+    {
+      "character_id": "warden",
+      "label": "Warden",
+      "variant": "Gears 5 — figurine Storm Collectibles officielle, sans casque, pose d'attaque",
+      "source_page": "https://www.gearsofwar.com/en-us/news/2020-gearsmas-holiday-gift-guide/",
+      "source_image": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/12/warden2-5fc7e9129d778-69cb1a3ddddbf.jpg",
+      "local_reference": "/tmp/gears-refs-tactics/warden-official-posed.jpg",
+      "evidence_type": "official_publisher_licensed_figure_photo_visually_inspected",
+      "verified_traits": [
+        "Disposition des cristaux ambre sur épaules, torse et bras.",
+        "Plaques de protection bordeaux, gros gantelet et bandes noires autour du bras.",
+        "Plaques de hanches et tablier frontal segmenté.",
+        "Prise des deux masses lors d'une pose d'attaque."
+      ],
+      "uncertainties": [
+        "Photographie de figurine sous licence ; pose exagérée et corps partiellement coupé.",
+        "Les jointures articulées de la figurine ne sont pas des éléments anatomiques du personnage."
+      ]
+    },
+    {
+      "character_id": "warden",
+      "label": "Warden",
+      "variant": "Gears 5 — figurine Storm Collectibles officielle, casque tenu en main",
+      "source_page": "https://www.gearsofwar.com/en-us/news/2020-gearsmas-holiday-gift-guide/",
+      "source_image": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/12/warden3-5fc7e9211fcac-69cb1a3ba9a59.jpg",
+      "local_reference": "/tmp/gears-refs-tactics/warden-official-full.jpg",
+      "evidence_type": "official_publisher_licensed_figure_photo_visually_inspected",
+      "verified_traits": [
+        "Silhouette générale presque entière, grande cape sombre et protections de jambes asymétriques.",
+        "Chaînes autour d'une jambe et à la taille, plaques bordeaux de hanches, cuisses et tibias.",
+        "Casque sombre tenu en main avec traits orange/rouges sur la faceplate.",
+        "Cristaux ambre sur le torse, les épaules, les bras et les jambes."
+      ],
+      "uncertainties": [
+        "Malgré le nom local contenant full, le cadrage coupe l'extrémité des pieds.",
+        "Photographie de figurine sous licence, sans vue dorsale complète.",
+        "Ne pas reproduire les jointures artificielles ni le rendu plastique ; privilégier la capture de jeu pour la matière finale."
+      ]
+    }
+  ]
+}

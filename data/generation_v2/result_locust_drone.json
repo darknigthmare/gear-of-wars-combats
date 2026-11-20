@@ -1,0 +1,20 @@
+{
+  "id": "locust_drone",
+  "name": "Drone locuste",
+  "prompt": "The standard Locust Drone from the original Gears of War (2006), with that exact basic infantry model and costume. Adult nonhuman humanoid, thick muscular build, bald grey rugged head, deep-set eyes, characteristic broad blunt jaw and textured grey skin. Preserve the original stocky proportions, dark heavy segmented torso armor, original shoulder and forearm protections, belt construction, worn dark lower garments and heavy armored lower legs. Preserve all original areas of exposed nonhuman skin and the recognizably practical, rugged Locust silhouette. Resting neutral closed mouth and relaxed fingers. This is the ordinary 2006 Drone: do not use a bare-chested Grenadier, helmeted Theron, Sniper, Disciple, Lambent variant, Swarm Drone or the E-Day redesign. Create exactly one full-body character as a neutral production model reference: standing at rest, weight balanced, shoulders relaxed, arms slightly separated from the torso, both empty hands visible and relaxed. Three-quarter view facing screen-right, turned enough toward profile for a readable side-view 2D silhouette. The complete head, feet, fingers and every costume extremity must fit inside the canvas with a generous transparent margin. Realistic hand-painted 2D UHD game art, anatomically and materially faithful to the named official game model, crisp readable contour, restrained even studio illumination. True transparent alpha background, including gaps between limbs. No text, captions, logos, interface, border, second character, alternate view, scenery, floor, pedestal, cast shadow, glow, particles, action, injury or violence. No handheld or attached weapons. Preserve the exact named episode costume rather than inventing a redesign or combining skins. This is a single calm unarmed reference pose.",
+  "source_game": "Gears of War 2006",
+  "source_urls": [
+    "https://www.gearsofwar.com/en-us/games/gears-of-war/",
+    "https://news.xbox.com/en-us/2019/12/11/gears-5-operation-2-free-for-all-available-today-for-all-players/",
+    "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/"
+  ],
+  "output_hint": "Generated images are saved to /workspace/scratch/230d6e8ab6bb/generated_images as /workspace/scratch/230d6e8ab6bb/generated_images/exec-77a295d1-ef0d-40ec-8dbb-393a9dd29f73.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "error": null,
+  "has_image": true,
+  "status": "generated",
+  "path": "assets/characters_v2/locust_drone_reference_v2.png",
+  "width": 1024,
+  "height": 1536,
+  "alpha": true,
+  "sha256": "e1ee3dca92be0150b70c7c5c2b600f881b8f131e01d3eaa8696ea9bd6adf7a3c"
+}

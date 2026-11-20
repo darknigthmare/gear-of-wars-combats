@@ -1,0 +1,186 @@
+{
+  "id": "reyna",
+  "reviewed_version": "v3",
+  "asset_path": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/reyna_reference_v3.png",
+  "sha256": "ca087379a9c9f1cb82eb8196eaf82a24c43b7c40be298a06c62f4fad1bdb9949",
+  "inspection": "PNG v3 inspecté visuellement à taille native via view_image, comparé aux références déjà téléchargées et inspectées. Canal alpha contrôlé par Pillow sans modifier ni réenregistrer le fichier.",
+  "recommended_version": "v3",
+  "recommended_asset_path": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/reyna_reference_v3.png",
+  "previous_version": {
+    "asset_path": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/reyna_reference_v2.png",
+    "sha256": "6eb0c6d51e4ba022afb421c55714989e23f6071222ab45169a4bbddf8b44132a",
+    "not_selected_reason": "La v2 présente des écarts d’identité plus importants que la v3 ; conserver uniquement comme historique de production."
+  },
+  "verdict": "À corriger",
+  "verdict_reason": "La v3 est clairement préférable et rétablit Queen Reyna standard. L’implantation des cristaux sur la tête reste toutefois transformée en une petite couronne frontale, alors que le visuel officiel montre un amas plus important et asymétrique sur un côté du front. Cette différence visible justifie le statut À corriger, même si la silhouette générale peut être conservée dans le pack comme version la plus aboutie.",
+  "overall_status": "meilleure_version_avec_ecarts_visibles_a_corriger",
+  "canon_1_to_1_certified": false,
+  "subject_recognizable": {
+    "status": "yes_with_reservations",
+    "observation": "Queen Reyna standard est maintenant reconnaissable : cheveux noirs, yeux ambrés, carapace rouge-brun très large, plaques organiques irrégulières, cristaux dorés et faisceaux de vrilles indépendants."
+  },
+  "full_silhouette": {
+    "status": "pass",
+    "observation": "Tête ou couronne, mains et deux pieds visibles ; aucune extrémité du personnage coupée.",
+    "substantial_alpha_bbox": [
+      152,
+      13,
+      821,
+      1521
+    ],
+    "margin_px_alpha_ge_128": {
+      "left": 152,
+      "top": 13,
+      "right": 203,
+      "bottom": 15
+    }
+  },
+  "one_pose": {
+    "status": "pass",
+    "observation": "Un personnage, une pose, sans encart ni doublon."
+  },
+  "angle": {
+    "status": "pass",
+    "observation": "Trois-quarts vers la droite, avec lecture du visage et du torse ; pas de profil orthographique."
+  },
+  "empty_hands": {
+    "status": "pass",
+    "observation": "Deux mains visibles et vides, abaissées ou relâchées ; aucun objet tenu."
+  },
+  "neutral_presentation": {
+    "status": "pass",
+    "observation": "Station immobile au repos, sans geste offensif ni scène de combat."
+  },
+  "alpha": {
+    "mode": "RGBA",
+    "size_px": [
+      1024,
+      1536
+    ],
+    "min": 0,
+    "max": 254,
+    "alpha_zero_pixels": 865400,
+    "alpha_zero_fraction": 0.550207,
+    "pixels_alpha_1_to_15": 51369,
+    "substantial_alpha_bbox": [
+      152,
+      13,
+      821,
+      1521
+    ],
+    "corner_samples_rgba": {
+      "(0, 0)": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "(1023, 0)": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "(0, 1535)": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "(1023, 1535)": [
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    "interpretation": "Le fond RGB visible dans l’outil ne constitue pas un fond opaque : les quatre coins ont alpha 0. Le maximum alpha 254 correspond au comportement du générateur et ne constitue pas un défaut. Présence de faibles valeurs alpha enregistrée sans nettoyage."
+  },
+  "improvements_from_v2": [
+    "La couronne osseuse et la coiffure organique inventées de la v2 ont été remplacées par des cheveux noirs et des cristaux dorés.",
+    "La grande carapace dorsale remonte désormais derrière la tête et dépasse largement les épaules.",
+    "Le torse a une organisation organique irrégulière proche de la référence officielle, au lieu de la cuirasse décorative symétrique de la v2.",
+    "La robe continue à ourlet a disparu ; plusieurs vrilles distinctes descendent maintenant de la taille.",
+    "Les deux jambes sont plus lisibles entre les vrilles, tout en restant une extrapolation non certifiée du bas du modèle."
+  ],
+  "residual_differences": [
+    {
+      "severity": "correction",
+      "area": "implantation_des_cristaux_du_crane",
+      "evidence": "compare_directe",
+      "observation": "La v3 répartit de petites pointes dorées en arc sur le dessus du front, avec un effet de diadème. Le visuel officiel montre une concentration plus massive, nettement asymétrique, qui descend sur un côté du front et de la tempe. La distribution et le volume ne sont pas encore fidèles.",
+      "reference": "reyna_operation6_official.png ; sujet gauche de reyna_g5_community_model.jpg",
+      "recommended_action": "Pour une future révision, reprendre l’amas cristallin asymétrique et sa relation au front depuis le visuel officiel, sans utiliser la variante Blood Red."
+    },
+    {
+      "severity": "reserve",
+      "area": "visage",
+      "evidence": "compare_directe_avec_limite_expression",
+      "observation": "Le visage de la v3 paraît plus régulier et lisse que celui de la référence officielle, notamment autour des joues et de la bouche. L’éclairage, l’angle et l’expression calme diffèrent ; on ne peut pas isoler avec certitude chaque différence de morphologie.",
+      "reference": "reyna_operation6_official.png",
+      "recommended_action": "Conserver une réserve d’identité faciale, sans recopier l’expression menaçante du visuel promotionnel."
+    },
+    {
+      "severity": "non_certifie",
+      "area": "carapace_et_vrilles",
+      "evidence": "limite_des_references",
+      "observation": "L’architecture générale est corrigée, mais le compte des pointes de carapace, des amas cristallins et des vrilles, ainsi que leurs racines et leurs longueurs, ne sont pas certifiés.",
+      "reference": "reyna_operation6_official.png",
+      "recommended_action": "Révision humaine du modèle nécessaire avant usage comme guide exact."
+    },
+    {
+      "severity": "non_certifie",
+      "area": "jambes_et_pieds",
+      "evidence": "references_coupees_en_bas",
+      "observation": "Les deux références récupérées sont coupées avant les pieds. Les jambes longues, les pieds et leurs griffes visibles dans la v3 constituent une reconstruction qui n’a pas été vérifiée sur le modèle entier.",
+      "reference": "reyna_operation6_official.png ; reyna_g5_community_model.jpg",
+      "recommended_action": "Mentionner explicitement le bas non certifié ; ne pas annoncer de correspondance 1:1."
+    }
+  ],
+  "visible_defects": [
+    {
+      "severity": "correction",
+      "area": "implantation_des_cristaux_du_crane",
+      "evidence": "compare_directe",
+      "observation": "La v3 répartit de petites pointes dorées en arc sur le dessus du front, avec un effet de diadème. Le visuel officiel montre une concentration plus massive, nettement asymétrique, qui descend sur un côté du front et de la tempe. La distribution et le volume ne sont pas encore fidèles.",
+      "reference": "reyna_operation6_official.png ; sujet gauche de reyna_g5_community_model.jpg",
+      "recommended_action": "Pour une future révision, reprendre l’amas cristallin asymétrique et sa relation au front depuis le visuel officiel, sans utiliser la variante Blood Red."
+    }
+  ],
+  "fidelity_uncertified": [
+    "Le visage de la v3 paraît plus régulier et lisse que celui de la référence officielle, notamment autour des joues et de la bouche. L’éclairage, l’angle et l’expression calme diffèrent ; on ne peut pas isoler avec certitude chaque différence de morphologie.",
+    "L’architecture générale est corrigée, mais le compte des pointes de carapace, des amas cristallins et des vrilles, ainsi que leurs racines et leurs longueurs, ne sont pas certifiés.",
+    "Les deux références récupérées sont coupées avant les pieds. Les jambes longues, les pieds et leurs griffes visibles dans la v3 constituent une reconstruction qui n’a pas été vérifiée sur le modèle entier."
+  ],
+  "local_reference_paths": [
+    {
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_reference/reyna_operation6_official.png",
+      "sha256": "62347d9b85bbd2dd15f3ce1b56d93e3cacdc2b546646ee433aed10229fc59386",
+      "image_url": "https://clan.fastly.steamstatic.com/images/35210771/85d6b70bdaa73fe7603ea7c0a70522e30962544e.png",
+      "source_page": "https://store.steampowered.com/news/posts/?appids=1097840&enddate=1615235906&feed=steam_community_announcements",
+      "type": "visuel_officiel_Operation_6",
+      "verification_scope": "Queen Reyna standard présentée le 23 février 2021 : visage, cheveux noirs, cristaux asymétriques, grand col/carapace dorsal, torse et départ des vrilles. Le bas du corps est coupé.",
+      "pixels_modified": false
+    },
+    {
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_reference/reyna_g5_community_model.jpg",
+      "sha256": "6d575702435303da1fc3e00e8f000c449b74339c375025c29f0cf0987c12e3af",
+      "image_url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/7864f737-4d1d-40f6-af14-45a9c4dcc374/dgrvxhi-4d78cb6f-e6de-45ef-ac2f-f51d805063d1.jpg",
+      "source_page": "https://www.deviantart.com/jorn-k-nightmane/art/Queen-Reyna-Gears5-for-XPS-FBX-1014298182",
+      "type": "rendu_export_modele_communautaire",
+      "verification_scope": "Utiliser seulement la Queen Reyna standard de GAUCHE ; celle de droite est Blood Red. Corrobore les cheveux, amas cristallins, carapace et faisceaux de vrilles. Ce n’est pas une vue entière : extrémité inférieure hors cadre.",
+      "pixels_modified": false
+    }
+  ],
+  "source_urls": [
+    "https://store.steampowered.com/news/posts/?appids=1097840&enddate=1615235906&feed=steam_community_announcements",
+    "https://www.deviantart.com/jorn-k-nightmane/art/Queen-Reyna-Gears5-for-XPS-FBX-1014298182",
+    "https://clan.fastly.steamstatic.com/images/35210771/85d6b70bdaa73fe7603ea7c0a70522e30962544e.png",
+    "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/7864f737-4d1d-40f6-af14-45a9c4dcc374/dgrvxhi-4d78cb6f-e6de-45ef-ac2f-f51d805063d1.jpg"
+  ],
+  "source_limits": "Le visuel Steam est une source officielle de l’annonce Operation 6 du 23 février 2021. Le rendu XPS/FBX est communautaire et sert uniquement de corroboration ; sa variante de droite Blood Red est explicitement exclue. Aucun des deux ne montre les pieds. L’image générique Xbox Store du lot, qui représentait Hoffman, a été exclue.",
+  "pack_recommendation": "Retenir la v3 dans le pack avec le verdict et les réserves de cette fiche. Cette QA clôt la comparaison ; elle ne demande aucune nouvelle génération et ne certifie pas une fidélité 1:1.",
+  "image_modified": false,
+  "new_research_performed": false,
+  "generation_or_retry_performed": false
+}

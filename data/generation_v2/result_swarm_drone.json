@@ -1,0 +1,19 @@
+{
+  "id": "swarm_drone",
+  "name": "Drone de l’Essaim",
+  "prompt": "The standard rifle-class Swarm Drone from the Gears of War 4 campaign, matching the Gears 4 art-book Rifle model. Preserve the original adult bulky humanoid Swarm anatomy, rugged mottled orange-brown organic skin, distinctive broad nonhuman head and jaw, muscle and hard organic surface transitions, and the specific sparse worn straps, belt, pouches and lower-body equipment of the standard Rifle variant. Keep the exact original torso coverage and silhouette rather than adding a Locust breastplate or futuristic armor. All natural protrusions are anatomical surface details in a calm undamaged state. Relaxed neutral face and empty hands. Do not use the Gears 5 Drone redesign, Elite Drone, Grenadier, Sniper, Hunter, Scion or a recolored original Locust Drone. Create exactly one full-body character as a neutral production model reference: standing at rest, weight balanced, shoulders relaxed, arms slightly separated from the torso, both empty hands visible and relaxed. Three-quarter view facing screen-right, turned enough toward profile for a readable side-view 2D silhouette. The complete head, feet, fingers and every costume extremity must fit inside the canvas with a generous transparent margin. Realistic hand-painted 2D UHD game art, anatomically and materially faithful to the named official game model, crisp readable contour, restrained even studio illumination. True transparent alpha background, including gaps between limbs. No text, captions, logos, interface, border, second character, alternate view, scenery, floor, pedestal, cast shadow, glow, particles, action, injury or violence. No handheld or attached weapons. Preserve the exact named episode costume rather than inventing a redesign or combining skins. This is a single calm unarmed reference pose.",
+  "source_game": "Gears of War 4",
+  "source_urls": [
+    "https://www.gearsofwar.com/en-us/games/gears-of-war-4/",
+    "https://haiweihou.artstation.com/projects/WrZXJ"
+  ],
+  "output_hint": "Generated images are saved to /workspace/scratch/230d6e8ab6bb/generated_images as /workspace/scratch/230d6e8ab6bb/generated_images/exec-74393013-54f5-4323-a0dd-88ea337fafe9.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "error": null,
+  "has_image": true,
+  "status": "generated",
+  "path": "assets/characters_v2/swarm_drone_reference_v2.png",
+  "width": 1024,
+  "height": 1536,
+  "alpha": true,
+  "sha256": "e5988ddd8831be2962b7596f02cdb957d51230026cb41e35312dbc10f97340e0"
+}

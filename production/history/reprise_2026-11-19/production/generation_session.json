@@ -1,0 +1,592 @@
+{
+  "project": "Gears of War Combats",
+  "pass_date": "2026-11-19",
+  "engine": "built_in_imagegen",
+  "records": [
+    {
+      "key": "dom_santiago_gow2_stance",
+      "initial_key": "dom_santiago_gow2_stance",
+      "character_id": "dominic_santiago",
+      "name": "Dominic Santiago",
+      "variant": "gears2",
+      "status": "blocked",
+      "revision": 1,
+      "prompt": null,
+      "reference_paths": null,
+      "failure": {
+        "code": "moderation_blocked",
+        "stage": "output",
+        "message": "Generation refused by image safety system; no output image returned."
+      },
+      "selected_asset_path": null
+    },
+    {
+      "key": "augustus_cole_gow3_stance",
+      "initial_key": "augustus_cole_gow3_stance",
+      "character_id": "augustus_cole",
+      "name": "Augustus Cole",
+      "variant": "gears3",
+      "status": "blocked",
+      "revision": 1,
+      "prompt": null,
+      "reference_paths": null,
+      "failure": {
+        "code": "moderation_blocked",
+        "stage": "output",
+        "message": "Generation refused by image safety system; no output image returned."
+      },
+      "selected_asset_path": null
+    },
+    {
+      "key": "anya_stroud_gow3_stance",
+      "initial_key": "anya_stroud_gow3_stance",
+      "character_id": "anya_stroud",
+      "name": "Anya Stroud",
+      "variant": "gears3",
+      "status": "generated",
+      "revision": 1,
+      "prompt": "Use case: style-transfer. Use the attached canonical Anya Stroud Gears of War 3 image as the identity and costume reference. Turn her into ONE polished full-body 2D fighting-game character sprite, standing upright in a calm ready pose facing right with a slight three-quarter torso. Preserve her recognizable adult face, blonde chin-length bob, tattoo, the exact fully covering COG torso armor with two circular chest plates, blue collar strips, short undershirt sleeves, gloves, segmented leg armor and boots. Complete the lower legs and feet consistently with her original Gears of War 3 costume. Keep authentic body proportions, facial identity, armor details and materials; no redesign. Refined detailed hand-painted raster shading and crisp silhouette. One figure only, entire body including both hands and feet inside the image, clear transparent margin. No action or injuries, no extra people, no scenery, no ground, no title, no text, no border, no multiple poses. Actual transparent background.",
+      "reference_paths": null,
+      "failure": null,
+      "selected_asset_path": "assets/characters/anya_stroud/gears3/reference_fullbody_v01.png"
+    },
+    {
+      "key": "general_raam_classic",
+      "initial_key": "general_raam_classic",
+      "character_id": "raam",
+      "name": "General RAAM",
+      "variant": "classic",
+      "status": "blocked",
+      "revision": 1,
+      "prompt": null,
+      "reference_paths": null,
+      "failure": {
+        "code": "moderation_blocked",
+        "stage": "output",
+        "message": "Generation refused by image safety system; no output image returned."
+      },
+      "selected_asset_path": null
+    },
+    {
+      "key": "queen_myrrah_gow3_stance",
+      "initial_key": "queen_myrrah_gow3_stance",
+      "character_id": "myrrah",
+      "name": "Queen Myrrah",
+      "variant": "gears3",
+      "status": "generated",
+      "revision": 1,
+      "prompt": "Use case: style-transfer. Use the attached canonical Queen Myrrah Gears of War 3 image as the exact character identity and costume reference. Make ONE high-detail full-body 2D fighting-game character sprite, standing in a composed regal neutral pose facing screen-right with a slight three-quarter torso. Preserve her adult facial identity, stern expression, ornate silver-gray crown helmet with central amber-red stone, the distinctive heavy shoulder armor and collar, full burgundy ribbed bodysuit, armored gauntlets, flared segmented hip armor and original leg armor. No redesign, no mixture with any alternate version, no exposed blonde hair. Complete the boots and feet consistently with the canonical outfit. Refined hand-painted raster material shading, crisp silhouette, detailed metal, textured burgundy fabric. One figure only, head to boots entirely visible, centered with safe transparent margins. No action, no injuries, no scenery, no ground, no text or labels, no watermark, no frame, no sheet or extra poses. Actual transparent alpha background.",
+      "reference_paths": null,
+      "failure": null,
+      "selected_asset_path": "assets/characters/myrrah/gears3/reference_fullbody_v01.png"
+    },
+    {
+      "key": "theron_guard_gears3_alpha_v02",
+      "initial_key": "theron_guard_gears3",
+      "character_id": "theron_guard",
+      "name": "Theron Guard",
+      "variant": "gears3",
+      "status": "generated",
+      "revision": 2,
+      "prompt": "Use case: background-extraction. Edit this existing generated full-body Theron Guard image. Change ONLY the background: remove every bit of the brown-gray smoky halo and all rectangular atmospheric shading surrounding the character, replacing it with genuine fully transparent alpha. Preserve the single Theron figure, face, red-black armor, pose, boots, fine straps and cloth edges, original colors and level of detail exactly. Keep full head-to-boots figure completely inside the canvas with clean empty transparent margin. Do not redraw the design, do not add a new backdrop, no floor, no new lighting, no text. Transparency must be real alpha, not black paint or a checkerboard picture.",
+      "reference_paths": [
+        "/workspace/scratch/8b5a16f9fa4a/generated_images/exec-64be91f4-5d33-46da-8356-468a58ac7188.png"
+      ],
+      "failure": null,
+      "selected_asset_path": "assets/characters/theron_guard/gears3/reference_fullbody_v02.png"
+    },
+    {
+      "key": "fahz_chutani_gears5",
+      "initial_key": "fahz_chutani_gears5",
+      "character_id": "fahz_chutani",
+      "name": "Fahz Chutani",
+      "variant": "gears5",
+      "status": "generated",
+      "revision": 1,
+      "prompt": "Use case: style-transfer. Create ONE isolated full-body raster character reference of Fahz Chutani, Gears 5 standard blue COG armor. Use ONLY the human soldier at the LEFT FOREGROUND of the supplied screenshot as the character reference; remove the enemy, other figures, effects, weapon contact, and scenery. Repose Fahz alone in a calm upright neutral ready stance with relaxed arms, slight three-quarter orientation facing right. Preserve his brown skin, short black buzz cut, short facial hair, orange-dark wraparound sunglasses, broad muscular exposed upper arms, blue standard COG vest and armored guards, utility belt and tactical trousers. CRITICAL: his RIGHT anatomical LOWER LEG is a mechanical prosthesis; show its articulated metal structure accurately rather than replacing it with an ordinary leg, and keep the left leg normally booted. Both feet and whole head visible with empty margin, crisp detailed hand-painted game materials and faithful physique. Single clean PNG cutout with genuine transparent alpha beyond the body. No scene, no atmosphere, no extra body, no text or labels, no watermark. Complete obscured costume details conservatively, don't mix with another character.",
+      "reference_paths": [
+        "/tmp/gears-refs-modern/fahz_wallpaper.jpg"
+      ],
+      "failure": null,
+      "selected_asset_path": "assets/characters/fahz_chutani/gears5/reference_fullbody_v01.png"
+    },
+    {
+      "key": "clayton_carmine_gears3_lettering_v02",
+      "initial_key": "clayton_carmine_gears3",
+      "character_id": "clayton_carmine",
+      "name": "Clayton Carmine",
+      "variant": "gears3",
+      "status": "generated",
+      "revision": 2,
+      "prompt": "Use case: precise-object-edit. Edit the supplied Clayton Carmine full-body sprite. Correct only the white painted words on the vertical red chest stripe so they read exactly 'GRUB' on the first line and 'KILLER' on the second. The last letter of GRUB must be B, with two closed rounded bowls, not P. Preserve the hand-painted worn lettering style. Keep the recognizable helmet, face lenses, muscle anatomy, armor geometry, pose, hands, boots, original palette and texture detail unchanged. Add transparent canvas padding if needed so the helmet and soles have a comfortable empty margin, with the entire single figure remaining visible. Maintain actual clean transparent alpha outside the figure; no background or new shadow. No added labels or captions. Do not change the character or redesign the costume.",
+      "reference_paths": [
+        "/workspace/scratch/8b5a16f9fa4a/generated_images/exec-832c06e4-fee7-4f5e-bd3f-c6fe71f8b0a0.png"
+      ],
+      "failure": null,
+      "selected_asset_path": "assets/characters/clayton_carmine/gears3/reference_fullbody_v02.png"
+    },
+    {
+      "key": "victor_hoffman_classic",
+      "initial_key": "victor_hoffman_classic",
+      "character_id": "victor_hoffman",
+      "name": "Victor Hoffman",
+      "variant": "classic",
+      "status": "generated",
+      "revision": 1,
+      "prompt": "Use case: style-transfer. ONE isolated full-body raster character reference for Gears of War Combats. Preserve the exact canonical identity and costume in the attached reference. Calm upright ready stance, slight three-quarter view facing screen-right, arms readable beside the torso. Detailed grounded hand-painted game art, crisp silhouette. Entire character including head, hands and both boots visible, ample empty padding around every edge. Real transparent alpha background with no gradient, atmosphere, ground, floor or cast shadow. No other character, no extra poses, no caption, no watermark, no UI or collage. Do not copy any background or text from the reference.\nSubject: Colonel Victor Hoffman in the exact classic armored appearance shown. Preserve old clean-shaven stern broad face, black military cap with silver COG insignia, heavy gray armor with asymmetrical chest ammunition pouches, full sleeves, circular waist buckle, layered thighs and huge segmented greaves. The supplied image shows the full body: keep all existing costume geometry and proportions. Keep helmet-free cap and exact face, no aging redesign, no different uniform. Hands relaxed with no added weapon.",
+      "reference_paths": [
+        "/tmp/gears-refs-cog/hoffman_gow_classic.png"
+      ],
+      "failure": null,
+      "selected_asset_path": "assets/characters/victor_hoffman/classic/reference_fullbody_v01.png"
+    },
+    {
+      "key": "tai_kaliso_gears2",
+      "initial_key": "tai_kaliso_gears2",
+      "character_id": "tai_kaliso",
+      "name": "Tai Kaliso",
+      "variant": "gears2",
+      "status": "generated",
+      "revision": 1,
+      "prompt": "Use case: style-transfer. ONE isolated full-body raster character reference for Gears of War Combats. Preserve the exact canonical identity and costume in the attached reference. Calm upright ready stance, slight three-quarter view facing screen-right, arms readable beside the torso. Detailed grounded hand-painted game art, crisp silhouette. Entire character including head, hands and both boots visible, ample empty padding around every edge. Real transparent alpha background with no gradient, atmosphere, ground, floor or cast shadow. No other character, no extra poses, no caption, no watermark, no UI or collage. Do not copy any background or text from the reference.\nSubject: Tai Kaliso from Gears of War 2. Image 1, the actual gameplay screenshot, is authoritative for face, SHORT BLACK MOHAWK, curved face and scalp tattoos, dark moustache and short chin beard, giant tattooed bare arms, large COG shoulder plates and blue accents. Image 2, historical concept art, supports only overall full-body proportions and lower-leg armor shape: do not copy its background, labels or yellow accents. Reproduce the final in-game identity from Image 1 and consistent heavy combat boots, not a bald alternate. Neutral pose with relaxed hands rather than aiming the weapon. No invented tattoos replacing visible ones, no duplicate body or environmental scenery.",
+      "reference_paths": [
+        "/tmp/gears-refs-cog/tai_gow2_screenshot.png",
+        "/tmp/gears-refs-cog/tai_gow2.jpg"
+      ],
+      "failure": null,
+      "selected_asset_path": "assets/characters/tai_kaliso/gears2/reference_fullbody_v01.png"
+    },
+    {
+      "key": "dizzy_wallin_gears2",
+      "initial_key": "dizzy_wallin_gears2",
+      "character_id": "dizzy_wallin",
+      "name": "Dizzy Wallin",
+      "variant": "gears2",
+      "status": "blocked",
+      "revision": 1,
+      "prompt": "Use case: style-transfer. ONE isolated full-body raster character reference for Gears of War Combats. Preserve the exact canonical identity and costume in the attached reference. Calm upright ready stance, slight three-quarter view facing screen-right, arms readable beside the torso. Detailed grounded hand-painted game art, crisp silhouette. Entire character including head, hands and both boots visible, ample empty padding around every edge. Real transparent alpha background with no gradient, atmosphere, ground, floor or cast shadow. No other character, no extra poses, no caption, no watermark, no UI or collage. Do not copy any background or text from the reference.\nSubject: Dizzy Wallin standard classic Gears of War 2 outfit. Image 1 is the primary 2008 Gears 2 identity and costume reference; Image 2 supports facial details and classic materials only. Keep his weathered ragged brown cowboy hat, gray beard, earring, recognizable mature face, tattooed bare arms, gray battered armor with faded skull stencil, chest cartridge row on one side and crossed straps on other side, dark torn ribbed undershirt and circular waist buckle. Extend the lower body consistently with his practical armored classic costume, chunky cargo pants, knee protection and heavy boots. Maintain original broad body proportions. No fashion redesign, no modern suit, no extra ornaments.",
+      "reference_paths": [
+        "/tmp/gears-refs-cog/dizzy_gow2.jpg",
+        "/tmp/gears-refs-cog/dizzy_fullbody.jpg"
+      ],
+      "failure": {
+        "code": "moderation_blocked",
+        "stage": "output",
+        "message": "Generation refused by image safety system; no output image returned."
+      },
+      "selected_asset_path": null
+    },
+    {
+      "key": "samantha_byrne_gears3",
+      "initial_key": "samantha_byrne_gears3",
+      "character_id": "samantha_byrne",
+      "name": "Samantha Byrne",
+      "variant": "gears3",
+      "status": "generated",
+      "revision": 1,
+      "prompt": "Use case: style-transfer. Create ONE high-detail full-body raster character reference for Gears of War Combats, using the attached canonical image for identity and exact costume. Stand upright in a calm neutral ready pose facing screen-right at a slight three-quarter angle. Preserve original Gears anatomy, facial identity, clothing cut, armor silhouettes and small defining details. Hand-painted realistic game art, crisp silhouette, material detail. Entire head-to-boots figure and both hands visible, centered with ample 6 percent empty padding around ALL edges. Actual transparent alpha background, NO scenery, no smoke, no lighting gradient outside the character, no floor, no ground shadow, no rectangular backdrop, no added text, no watermark, no UI, no additional character, no duplicate pose, no collage.\nSubject: Samantha 'Sam' Byrne standard Gears of War 3. Preserve short dark asymmetrical bob with side fringe and olive headband, brown complexion, small bandage on her right cheek, choker necklace, olive-tan fitted COG armor with two circular breastplate panels and small blue lamps, short sleeves, cloth biceps wraps, long armored forearms, numerous rectangular belt pouches, dark fitted trousers. Keep her exact recognizable face, original body proportions and fully covered torso. Complete knee armor and sturdy canonical COG boots consistently; no high heels.",
+      "reference_paths": "/tmp/gears-refs-cog/sam_gow3.jpg",
+      "failure": null,
+      "selected_asset_path": "assets/characters/samantha_byrne/gears3/reference_fullbody_v01.png"
+    },
+    {
+      "key": "gabe_diaz_tactics",
+      "initial_key": "gabe_diaz_tactics",
+      "character_id": "gabriel_diaz",
+      "name": "Gabriel Diaz",
+      "variant": "tactics",
+      "status": "generated",
+      "revision": 1,
+      "prompt": "Use case: style-transfer. Create ONE high-detail full-body raster character reference for Gears of War Combats, using the attached canonical image for identity and exact costume. Stand upright in a calm neutral ready pose facing screen-right at a slight three-quarter angle. Preserve original Gears anatomy, facial identity, clothing cut, armor silhouettes and small defining details. Hand-painted realistic game art, crisp silhouette, material detail. Entire head-to-boots figure and both hands visible, centered with ample 6 percent empty padding around ALL edges. Actual transparent alpha background, NO scenery, no smoke, no lighting gradient outside the character, no floor, no ground shadow, no rectangular backdrop, no added text, no watermark, no UI, no additional character, no duplicate pose, no collage.\nSubject: Gabriel 'Gabe' Diaz default Gears Tactics appearance. Preserve swept-back dark hair and distinct white streak at his right hairline, full short brown beard, scratched anthracite armor with twin pale circular chest plates and blue trim, asymmetric broad shoulder armor, exposed biceps, gloves, double belt pouches and round buckle, gray-khaki pants with brown straps, heavy dark segmented shin armor and brown boots. The attached reference shows full body: match all visible design details without inventing a redesign or changing leg armor.",
+      "reference_paths": "/tmp/gears-refs-tactics/gabe-official.jpg",
+      "failure": null,
+      "selected_asset_path": "assets/characters/gabriel_diaz/tactics/reference_fullbody_v01.png"
+    },
+    {
+      "key": "mikayla_dorn_tactics",
+      "initial_key": "mikayla_dorn_tactics",
+      "character_id": "mikayla_dorn",
+      "name": "Mikayla Dorn",
+      "variant": "tactics",
+      "status": "generated",
+      "revision": 1,
+      "prompt": "Use case: style-transfer. Create ONE high-detail full-body raster character reference for Gears of War Combats, using the attached canonical image for identity and exact costume. Stand upright in a calm neutral ready pose facing screen-right at a slight three-quarter angle. Preserve original Gears anatomy, facial identity, clothing cut, armor silhouettes and small defining details. Hand-painted realistic game art, crisp silhouette, material detail. Entire head-to-boots figure and both hands visible, centered with ample 6 percent empty padding around ALL edges. Actual transparent alpha background, NO scenery, no smoke, no lighting gradient outside the character, no floor, no ground shadow, no rectangular backdrop, no added text, no watermark, no UI, no additional character, no duplicate pose, no collage.\nSubject: Mikayla Dorn default militia outfit from Gears Tactics. Preserve brown face, short dark curly raised hair, hoop earrings, olive worn tank top with subtle circular chest emblem, gray-green shemagh with orange motif, goggles hanging at neck, bandage on upper right arm, bracelets, asymmetric covered and armored left forearm, fingerless gloves, big silver circular belt buckle, brown work trousers, tall gray metal greaves and practical boots. The reference shows full body; precisely retain all visible details. No generic COG chest armor, no goggles over eyes, no redesigned costume.",
+      "reference_paths": "/tmp/gears-refs-tactics/mikayla-official.jpg",
+      "failure": null,
+      "selected_asset_path": "assets/characters/mikayla_dorn/tactics/reference_fullbody_v01.png"
+    },
+    {
+      "key": "lahni_kaliso_hivebuster",
+      "initial_key": "lahni_kaliso_hivebuster",
+      "character_id": "lahni_kaliso",
+      "name": "Lahni Kaliso",
+      "variant": "gears5_hivebuster",
+      "status": "generated",
+      "revision": 1,
+      "prompt": "Use case: style-transfer. Make ONE single high-detail full-body character reference for the user's Gears of War Combats 2D project. Use the attached official images ONLY for character identity and costume: REMOVE their promotional text, logos, scenery, and other characters. Render a lone upright figure at a slight three-quarter angle facing right, a quiet neutral ready stance. Preserve the exact face, physique, hairstyle, asymmetry and canonical costume. Detailed grounded raster game art with sharp silhouette and distinct metal/fabric/skin. Entire head-to-boots body and both hands inside the canvas with 6 percent empty margin. Transparent alpha cutout, no opaque or semitransparent background, no haze, glow outside the silhouette, floor or shadow. No text, UI, frame, multiple poses or other figures.\nSubject is ONLY Lahni Kaliso, the woman standing at left of the reference. Keep brown dreadlocks tied in a high topknot with hanging locks, exact adult face and facial tattoo near eye and forehead, arm/shoulder tattoos, athletic muscular bare arms, olive short Scorpio armored vest with circular metal collar/chest modules and blue collar strips, wrapped forearms and half gloves, small exposed waist, frayed blue sash, olive cargo pants and knee pads. Complete practical sturdy boots consistently. No alternate Brash Brigade uniform, no helmet, no generic new tattoos, no blue glowing sword. Hands relaxed.",
+      "reference_paths": [
+        "/tmp/gears-refs-modern/lahni_official.png"
+      ],
+      "failure": null,
+      "selected_asset_path": "assets/characters/lahni_kaliso/gears5_hivebuster/reference_fullbody_v01.png"
+    },
+    {
+      "key": "jeremiah_keegan_hivebuster",
+      "initial_key": "jeremiah_keegan_hivebuster",
+      "character_id": "jeremiah_keegan",
+      "name": "Jeremiah Keegan",
+      "variant": "gears5_hivebuster",
+      "status": "blocked",
+      "revision": 1,
+      "prompt": "Use case: style-transfer. Make ONE single high-detail full-body character reference for the user's Gears of War Combats 2D project. Use the attached official images ONLY for character identity and costume: REMOVE their promotional text, logos, scenery, and other characters. Render a lone upright figure at a slight three-quarter angle facing right, a quiet neutral ready stance. Preserve the exact face, physique, hairstyle, asymmetry and canonical costume. Detailed grounded raster game art with sharp silhouette and distinct metal/fabric/skin. Entire head-to-boots body and both hands inside the canvas with 6 percent empty margin. Transparent alpha cutout, no opaque or semitransparent background, no haze, glow outside the silhouette, floor or shadow. No text, UI, frame, multiple poses or other figures.\nSubject is ONLY Jeremiah Keegan, man standing at left of reference. Keep his older Black face, bald head, prominent dark thick moustache linked to sideburns with clean bare chin, standard olive/tan Hivebuster uniform and short armored green Scorpio chest vest, metal shoulder plates with small E insignia, blue collar strips, long sleeves, fingerless gloves, belt pouches, padded quilted thigh/groin panels, knees and practical heavy boots. Preserve his stout strong proportions and mature face. No Onyx Guard black helmet or alternate uniform. Hands relaxed.",
+      "reference_paths": [
+        "/tmp/gears-refs-modern/keegan_official.jpg"
+      ],
+      "failure": {
+        "code": "moderation_blocked",
+        "stage": "output",
+        "message": "Generation refused by image safety system; no output image returned."
+      },
+      "selected_asset_path": null
+    },
+    {
+      "key": "mac_macallister_hivebuster",
+      "initial_key": "mac_macallister_hivebuster",
+      "character_id": "mac_macallister",
+      "name": "Mac MacAllister",
+      "variant": "gears5_hivebuster",
+      "status": "generated",
+      "revision": 1,
+      "prompt": "Use case: style-transfer. Make ONE single high-detail full-body character reference for the user's Gears of War Combats 2D project. Use the attached official images ONLY for character identity and costume: REMOVE their promotional text, logos, scenery, and other characters. Render a lone upright figure at a slight three-quarter angle facing right, a quiet neutral ready stance. Preserve the exact face, physique, hairstyle, asymmetry and canonical costume. Detailed grounded raster game art with sharp silhouette and distinct metal/fabric/skin. Entire head-to-boots body and both hands inside the canvas with 6 percent empty margin. Transparent alpha cutout, no opaque or semitransparent background, no haze, glow outside the silhouette, floor or shadow. No text, UI, frame, multiple poses or other figures.\nSubject is ONLY Leslie 'Mac' MacAllister, man standing at left of the reference. Keep pale adult face, short vivid ginger quiff with shaved sides, clean-shaven chin, small earring, pendant at neck, gray shirt with rolled sleeves, no shoulder plates, olive Scorpio armored vest with two round chest modules and blue collar strips, leather upper-arm band, exposed forearms and bare hands, olive cargo trousers, leather horizontal strapped thigh protection and utility belt. Complete boots consistently. No Mechanic Mac or different DLC uniform, no beard, no invented armor coverage.",
+      "reference_paths": [
+        "/tmp/gears-refs-modern/mac_official.jpg"
+      ],
+      "failure": null,
+      "selected_asset_path": "assets/characters/mac_macallister/gears5_hivebuster/reference_fullbody_v01.png"
+    },
+    {
+      "key": "deebee_shepherd_gears4",
+      "initial_key": "deebee_shepherd_gears4",
+      "character_id": "deebee_shepherd",
+      "name": "DeeBee Shepherd",
+      "variant": "gears4",
+      "status": "blocked",
+      "revision": 1,
+      "prompt": "Use case: style-transfer. ONE full-body detailed raster character reference of a standard DeeBee Shepherd from Gears of War 4. Image1 is reference for the original Shepherd head and chest geometry; image2 is reference for full-body silhouette and base dark steel/black colors. Do not copy the video thumbnail text, inset card, logo, or red team-tinted presentation. Preserve the elongated mechanical vent-face with four teardrop-shaped light outlines, gray industrial armor, asymmetric large circular chest module, actual small DB1 chest marking, mechanical joints, slimmer humanoid build than a DR-1, articulated forearm plates, jointed legs and robotic feet. One single robot standing in neutral readiness at a slight three-quarter angle facing right, hands relaxed. Head and both feet completely in frame with generous transparent padding. Crisp hand-painted grounded Gears game materials, fully transparent background outside the exact figure contour. No extra pose, no card, no lettering except existing DB1 armor marking, no scenery, no ground, no shadow or atmosphere. Do not substitute DR-1 or a generic humanoid robot.",
+      "reference_paths": [
+        "/tmp/gears-refs-modern/shepherd_gow4_video.jpg",
+        "/tmp/gears-refs-modern/shepherd_review.jpg"
+      ],
+      "failure": {
+        "code": "moderation_blocked",
+        "stage": "output",
+        "message": "Generation refused by image safety system; no output image returned."
+      },
+      "selected_asset_path": null
+    },
+    {
+      "key": "warden_gears5",
+      "initial_key": "warden_gears5",
+      "character_id": "warden",
+      "name": "Warden",
+      "variant": "gears5",
+      "status": "generated",
+      "revision": 1,
+      "prompt": "Use case: style-transfer. ONE isolated full-body raster character reference of the helmeted Warden from Gears 5. Image1 actual gameplay fixes the segmented dark-red helmet and narrow orange eye slit; image2 licensed statue photo supplies armor, body crystal and leg details, but do NOT copy its exposed head, toy joints, plastic finish, or stage. Keep immense Scion proportions, exposed gray-brown body with dense amber-orange crystals, asymmetrical dark burgundy armor including massive LEFT shoulder plate, diagonal chest strap with round insignia, dark ragged rear cape, hip plates, chains, unequal leg guards and huge feet. He carries exactly two canonical Breaker Maces, one in each hand, safely lowered beside the body, both mace heads entirely visible. Calm upright idle three-quarter stance facing right. One character only, entire body and weapons fully inside image with generous empty margin. Detailed grounded hand-painted game art, clean isolated silhouette and actual transparent alpha background. No snow scene, no floor, no surrounding fog, no vignette, no text, no injuries, no other figures, no sheet.",
+      "reference_paths": [
+        "/tmp/gears-refs-tactics/warden-gameplay-secondary.jpg",
+        "/tmp/gears-refs-tactics/warden-official-full.jpg"
+      ],
+      "failure": null,
+      "selected_asset_path": "assets/characters/warden/gears5/reference_fullbody_v01.png"
+    },
+    {
+      "key": "ukkon_tactics_rails_v02",
+      "initial_key": "ukkon_tactics",
+      "character_id": "ukkon",
+      "name": "Ukkon",
+      "variant": "tactics",
+      "status": "generated",
+      "revision": 2,
+      "prompt": "Use case: precise-object-edit. Edit ONLY the two long straight narrow dark metallic rails hanging vertically from Ukkon's shoulder structures in this image. Extend both rails downward so their lower ends reach approximately the ankle/robe-hem height, matching Ukkon's canonical Gears Tactics silhouette. They should hang straight along the outside edges of the body, with the same original width, surface detail and tips; do not add a third rail. Preserve the face, high crown, curled pauldrons, hoses, orange lights, robe, pose, hands, boots, materials and all other character details exactly. Retain the single complete character head-to-boots with empty transparent margin, and actual transparent alpha background. No surrounding haze, scenery, text or additional character. Do not redesign the costume. The sole design correction is the length of the paired hanging shoulder rails.",
+      "reference_paths": [
+        "/workspace/scratch/8b5a16f9fa4a/generated_images/exec-33384a1e-8832-4a06-998c-98c7c11d6245.png"
+      ],
+      "failure": null,
+      "selected_asset_path": "assets/characters/ukkon/tactics/reference_fullbody_v02.png"
+    }
+  ],
+  "attempts": [
+    {
+      "key": "dom_santiago_gow2_stance",
+      "status": "blocked",
+      "prompt": null,
+      "reference_paths": null,
+      "failure": {
+        "code": "moderation_blocked",
+        "stage": "output",
+        "message": "Generation refused by image safety system; no output image returned."
+      },
+      "selected_asset_path": null,
+      "is_selected": false
+    },
+    {
+      "key": "augustus_cole_gow3_stance",
+      "status": "blocked",
+      "prompt": null,
+      "reference_paths": null,
+      "failure": {
+        "code": "moderation_blocked",
+        "stage": "output",
+        "message": "Generation refused by image safety system; no output image returned."
+      },
+      "selected_asset_path": null,
+      "is_selected": false
+    },
+    {
+      "key": "anya_stroud_gow3_stance",
+      "status": "generated",
+      "prompt": "Use case: style-transfer. Use the attached canonical Anya Stroud Gears of War 3 image as the identity and costume reference. Turn her into ONE polished full-body 2D fighting-game character sprite, standing upright in a calm ready pose facing right with a slight three-quarter torso. Preserve her recognizable adult face, blonde chin-length bob, tattoo, the exact fully covering COG torso armor with two circular chest plates, blue collar strips, short undershirt sleeves, gloves, segmented leg armor and boots. Complete the lower legs and feet consistently with her original Gears of War 3 costume. Keep authentic body proportions, facial identity, armor details and materials; no redesign. Refined detailed hand-painted raster shading and crisp silhouette. One figure only, entire body including both hands and feet inside the image, clear transparent margin. No action or injuries, no extra people, no scenery, no ground, no title, no text, no border, no multiple poses. Actual transparent background.",
+      "reference_paths": null,
+      "failure": null,
+      "selected_asset_path": "assets/characters/anya_stroud/gears3/reference_fullbody_v01.png",
+      "is_selected": true
+    },
+    {
+      "key": "general_raam_classic",
+      "status": "blocked",
+      "prompt": null,
+      "reference_paths": null,
+      "failure": {
+        "code": "moderation_blocked",
+        "stage": "output",
+        "message": "Generation refused by image safety system; no output image returned."
+      },
+      "selected_asset_path": null,
+      "is_selected": false
+    },
+    {
+      "key": "queen_myrrah_gow3_stance",
+      "status": "generated",
+      "prompt": "Use case: style-transfer. Use the attached canonical Queen Myrrah Gears of War 3 image as the exact character identity and costume reference. Make ONE high-detail full-body 2D fighting-game character sprite, standing in a composed regal neutral pose facing screen-right with a slight three-quarter torso. Preserve her adult facial identity, stern expression, ornate silver-gray crown helmet with central amber-red stone, the distinctive heavy shoulder armor and collar, full burgundy ribbed bodysuit, armored gauntlets, flared segmented hip armor and original leg armor. No redesign, no mixture with any alternate version, no exposed blonde hair. Complete the boots and feet consistently with the canonical outfit. Refined hand-painted raster material shading, crisp silhouette, detailed metal, textured burgundy fabric. One figure only, head to boots entirely visible, centered with safe transparent margins. No action, no injuries, no scenery, no ground, no text or labels, no watermark, no frame, no sheet or extra poses. Actual transparent alpha background.",
+      "reference_paths": null,
+      "failure": null,
+      "selected_asset_path": "assets/characters/myrrah/gears3/reference_fullbody_v01.png",
+      "is_selected": true
+    },
+    {
+      "key": "theron_guard_gears3",
+      "status": "generated",
+      "prompt": "Use case: style-transfer. Transform the attached original Gears of War 3 Theron Guard reference into ONE clean detailed full-body raster character sprite on an actual transparent background. Preserve this exact Theron Guard design: exposed pale gray rough-skinned Locust head, teeth, tall red armored collar, angular red shoulder plates over black layered armor, multiple chest buckles, dark fabric and armored hip flaps, large wrist guards, heavy legs and boots consistent with the original. This is the unhelmeted red Theron Guard, not the Sentinel, Palace Guard or Elite. Calm standing ready pose, slight three-quarter side view facing right, arms separated enough to read the silhouette. Preserve identity, anatomy, color arrangement and all costume details; no redesign. Full head-to-boots body including both hands, centered with wide transparent padding on every edge. Premium hand-painted realistic 2D game-art materials, crisp readable silhouette. No extra character, no scene, no ground, no action, no injuries, no text, no UI, no frame, no sprite sheet. One character per image.",
+      "reference_paths": null,
+      "failure": null,
+      "selected_asset_path": null,
+      "is_selected": false
+    },
+    {
+      "key": "fahz_chutani_gears5",
+      "status": "generated",
+      "prompt": "Use case: style-transfer. Create ONE isolated full-body raster character reference of Fahz Chutani, Gears 5 standard blue COG armor. Use ONLY the human soldier at the LEFT FOREGROUND of the supplied screenshot as the character reference; remove the enemy, other figures, effects, weapon contact, and scenery. Repose Fahz alone in a calm upright neutral ready stance with relaxed arms, slight three-quarter orientation facing right. Preserve his brown skin, short black buzz cut, short facial hair, orange-dark wraparound sunglasses, broad muscular exposed upper arms, blue standard COG vest and armored guards, utility belt and tactical trousers. CRITICAL: his RIGHT anatomical LOWER LEG is a mechanical prosthesis; show its articulated metal structure accurately rather than replacing it with an ordinary leg, and keep the left leg normally booted. Both feet and whole head visible with empty margin, crisp detailed hand-painted game materials and faithful physique. Single clean PNG cutout with genuine transparent alpha beyond the body. No scene, no atmosphere, no extra body, no text or labels, no watermark. Complete obscured costume details conservatively, don't mix with another character.",
+      "reference_paths": [
+        "/tmp/gears-refs-modern/fahz_wallpaper.jpg"
+      ],
+      "failure": null,
+      "selected_asset_path": "assets/characters/fahz_chutani/gears5/reference_fullbody_v01.png",
+      "is_selected": true
+    },
+    {
+      "key": "clayton_carmine_gears3",
+      "status": "generated",
+      "prompt": "Use case: style-transfer. Create ONE high-detail full-body raster character reference for Gears of War Combats, using the attached canonical image for identity and exact costume. Stand upright in a calm neutral ready pose facing screen-right at a slight three-quarter angle. Preserve original Gears anatomy, facial identity, clothing cut, armor silhouettes and small defining details. Hand-painted realistic game art, crisp silhouette, material detail. Entire head-to-boots figure and both hands visible, centered with ample 6 percent empty padding around ALL edges. Actual transparent alpha background, NO scenery, no smoke, no lighting gradient outside the character, no floor, no ground shadow, no rectangular backdrop, no added text, no watermark, no UI, no additional character, no duplicate pose, no collage.\nSubject: Clayton Carmine standard Gears of War 3 appearance. Keep dark closed helmet with bright blue eye lenses and forehead slit, respiratory mouthplate, extremely muscular exposed upper arms, dark heavy COG armor with two round chest plates and the existing red GRUB KILLER vertical paint stripe, round belt buckle, wrist guards and heavy leg armor. Complete boots consistently with his canonical Gears 3 costume. Keep the existing armor lettering from the reference, add no other lettering. Hands relaxed rather than pointing at camera.",
+      "reference_paths": "/tmp/gears-refs-cog/clayton_gow3.jpg",
+      "failure": null,
+      "selected_asset_path": null,
+      "is_selected": false
+    },
+    {
+      "key": "victor_hoffman_classic",
+      "status": "generated",
+      "prompt": "Use case: style-transfer. ONE isolated full-body raster character reference for Gears of War Combats. Preserve the exact canonical identity and costume in the attached reference. Calm upright ready stance, slight three-quarter view facing screen-right, arms readable beside the torso. Detailed grounded hand-painted game art, crisp silhouette. Entire character including head, hands and both boots visible, ample empty padding around every edge. Real transparent alpha background with no gradient, atmosphere, ground, floor or cast shadow. No other character, no extra poses, no caption, no watermark, no UI or collage. Do not copy any background or text from the reference.\nSubject: Colonel Victor Hoffman in the exact classic armored appearance shown. Preserve old clean-shaven stern broad face, black military cap with silver COG insignia, heavy gray armor with asymmetrical chest ammunition pouches, full sleeves, circular waist buckle, layered thighs and huge segmented greaves. The supplied image shows the full body: keep all existing costume geometry and proportions. Keep helmet-free cap and exact face, no aging redesign, no different uniform. Hands relaxed with no added weapon.",
+      "reference_paths": [
+        "/tmp/gears-refs-cog/hoffman_gow_classic.png"
+      ],
+      "failure": null,
+      "selected_asset_path": "assets/characters/victor_hoffman/classic/reference_fullbody_v01.png",
+      "is_selected": true
+    },
+    {
+      "key": "tai_kaliso_gears2",
+      "status": "generated",
+      "prompt": "Use case: style-transfer. ONE isolated full-body raster character reference for Gears of War Combats. Preserve the exact canonical identity and costume in the attached reference. Calm upright ready stance, slight three-quarter view facing screen-right, arms readable beside the torso. Detailed grounded hand-painted game art, crisp silhouette. Entire character including head, hands and both boots visible, ample empty padding around every edge. Real transparent alpha background with no gradient, atmosphere, ground, floor or cast shadow. No other character, no extra poses, no caption, no watermark, no UI or collage. Do not copy any background or text from the reference.\nSubject: Tai Kaliso from Gears of War 2. Image 1, the actual gameplay screenshot, is authoritative for face, SHORT BLACK MOHAWK, curved face and scalp tattoos, dark moustache and short chin beard, giant tattooed bare arms, large COG shoulder plates and blue accents. Image 2, historical concept art, supports only overall full-body proportions and lower-leg armor shape: do not copy its background, labels or yellow accents. Reproduce the final in-game identity from Image 1 and consistent heavy combat boots, not a bald alternate. Neutral pose with relaxed hands rather than aiming the weapon. No invented tattoos replacing visible ones, no duplicate body or environmental scenery.",
+      "reference_paths": [
+        "/tmp/gears-refs-cog/tai_gow2_screenshot.png",
+        "/tmp/gears-refs-cog/tai_gow2.jpg"
+      ],
+      "failure": null,
+      "selected_asset_path": "assets/characters/tai_kaliso/gears2/reference_fullbody_v01.png",
+      "is_selected": true
+    },
+    {
+      "key": "dizzy_wallin_gears2",
+      "status": "blocked",
+      "prompt": "Use case: style-transfer. ONE isolated full-body raster character reference for Gears of War Combats. Preserve the exact canonical identity and costume in the attached reference. Calm upright ready stance, slight three-quarter view facing screen-right, arms readable beside the torso. Detailed grounded hand-painted game art, crisp silhouette. Entire character including head, hands and both boots visible, ample empty padding around every edge. Real transparent alpha background with no gradient, atmosphere, ground, floor or cast shadow. No other character, no extra poses, no caption, no watermark, no UI or collage. Do not copy any background or text from the reference.\nSubject: Dizzy Wallin standard classic Gears of War 2 outfit. Image 1 is the primary 2008 Gears 2 identity and costume reference; Image 2 supports facial details and classic materials only. Keep his weathered ragged brown cowboy hat, gray beard, earring, recognizable mature face, tattooed bare arms, gray battered armor with faded skull stencil, chest cartridge row on one side and crossed straps on other side, dark torn ribbed undershirt and circular waist buckle. Extend the lower body consistently with his practical armored classic costume, chunky cargo pants, knee protection and heavy boots. Maintain original broad body proportions. No fashion redesign, no modern suit, no extra ornaments.",
+      "reference_paths": [
+        "/tmp/gears-refs-cog/dizzy_gow2.jpg",
+        "/tmp/gears-refs-cog/dizzy_fullbody.jpg"
+      ],
+      "failure": {
+        "code": "moderation_blocked",
+        "stage": "output",
+        "message": "Generation refused by image safety system; no output image returned."
+      },
+      "selected_asset_path": null,
+      "is_selected": false
+    },
+    {
+      "key": "samantha_byrne_gears3",
+      "status": "generated",
+      "prompt": "Use case: style-transfer. Create ONE high-detail full-body raster character reference for Gears of War Combats, using the attached canonical image for identity and exact costume. Stand upright in a calm neutral ready pose facing screen-right at a slight three-quarter angle. Preserve original Gears anatomy, facial identity, clothing cut, armor silhouettes and small defining details. Hand-painted realistic game art, crisp silhouette, material detail. Entire head-to-boots figure and both hands visible, centered with ample 6 percent empty padding around ALL edges. Actual transparent alpha background, NO scenery, no smoke, no lighting gradient outside the character, no floor, no ground shadow, no rectangular backdrop, no added text, no watermark, no UI, no additional character, no duplicate pose, no collage.\nSubject: Samantha 'Sam' Byrne standard Gears of War 3. Preserve short dark asymmetrical bob with side fringe and olive headband, brown complexion, small bandage on her right cheek, choker necklace, olive-tan fitted COG armor with two circular breastplate panels and small blue lamps, short sleeves, cloth biceps wraps, long armored forearms, numerous rectangular belt pouches, dark fitted trousers. Keep her exact recognizable face, original body proportions and fully covered torso. Complete knee armor and sturdy canonical COG boots consistently; no high heels.",
+      "reference_paths": "/tmp/gears-refs-cog/sam_gow3.jpg",
+      "failure": null,
+      "selected_asset_path": "assets/characters/samantha_byrne/gears3/reference_fullbody_v01.png",
+      "is_selected": true
+    },
+    {
+      "key": "gabe_diaz_tactics",
+      "status": "generated",
+      "prompt": "Use case: style-transfer. Create ONE high-detail full-body raster character reference for Gears of War Combats, using the attached canonical image for identity and exact costume. Stand upright in a calm neutral ready pose facing screen-right at a slight three-quarter angle. Preserve original Gears anatomy, facial identity, clothing cut, armor silhouettes and small defining details. Hand-painted realistic game art, crisp silhouette, material detail. Entire head-to-boots figure and both hands visible, centered with ample 6 percent empty padding around ALL edges. Actual transparent alpha background, NO scenery, no smoke, no lighting gradient outside the character, no floor, no ground shadow, no rectangular backdrop, no added text, no watermark, no UI, no additional character, no duplicate pose, no collage.\nSubject: Gabriel 'Gabe' Diaz default Gears Tactics appearance. Preserve swept-back dark hair and distinct white streak at his right hairline, full short brown beard, scratched anthracite armor with twin pale circular chest plates and blue trim, asymmetric broad shoulder armor, exposed biceps, gloves, double belt pouches and round buckle, gray-khaki pants with brown straps, heavy dark segmented shin armor and brown boots. The attached reference shows full body: match all visible design details without inventing a redesign or changing leg armor.",
+      "reference_paths": "/tmp/gears-refs-tactics/gabe-official.jpg",
+      "failure": null,
+      "selected_asset_path": "assets/characters/gabriel_diaz/tactics/reference_fullbody_v01.png",
+      "is_selected": true
+    },
+    {
+      "key": "mikayla_dorn_tactics",
+      "status": "generated",
+      "prompt": "Use case: style-transfer. Create ONE high-detail full-body raster character reference for Gears of War Combats, using the attached canonical image for identity and exact costume. Stand upright in a calm neutral ready pose facing screen-right at a slight three-quarter angle. Preserve original Gears anatomy, facial identity, clothing cut, armor silhouettes and small defining details. Hand-painted realistic game art, crisp silhouette, material detail. Entire head-to-boots figure and both hands visible, centered with ample 6 percent empty padding around ALL edges. Actual transparent alpha background, NO scenery, no smoke, no lighting gradient outside the character, no floor, no ground shadow, no rectangular backdrop, no added text, no watermark, no UI, no additional character, no duplicate pose, no collage.\nSubject: Mikayla Dorn default militia outfit from Gears Tactics. Preserve brown face, short dark curly raised hair, hoop earrings, olive worn tank top with subtle circular chest emblem, gray-green shemagh with orange motif, goggles hanging at neck, bandage on upper right arm, bracelets, asymmetric covered and armored left forearm, fingerless gloves, big silver circular belt buckle, brown work trousers, tall gray metal greaves and practical boots. The reference shows full body; precisely retain all visible details. No generic COG chest armor, no goggles over eyes, no redesigned costume.",
+      "reference_paths": "/tmp/gears-refs-tactics/mikayla-official.jpg",
+      "failure": null,
+      "selected_asset_path": "assets/characters/mikayla_dorn/tactics/reference_fullbody_v01.png",
+      "is_selected": true
+    },
+    {
+      "key": "lahni_kaliso_hivebuster",
+      "status": "generated",
+      "prompt": "Use case: style-transfer. Make ONE single high-detail full-body character reference for the user's Gears of War Combats 2D project. Use the attached official images ONLY for character identity and costume: REMOVE their promotional text, logos, scenery, and other characters. Render a lone upright figure at a slight three-quarter angle facing right, a quiet neutral ready stance. Preserve the exact face, physique, hairstyle, asymmetry and canonical costume. Detailed grounded raster game art with sharp silhouette and distinct metal/fabric/skin. Entire head-to-boots body and both hands inside the canvas with 6 percent empty margin. Transparent alpha cutout, no opaque or semitransparent background, no haze, glow outside the silhouette, floor or shadow. No text, UI, frame, multiple poses or other figures.\nSubject is ONLY Lahni Kaliso, the woman standing at left of the reference. Keep brown dreadlocks tied in a high topknot with hanging locks, exact adult face and facial tattoo near eye and forehead, arm/shoulder tattoos, athletic muscular bare arms, olive short Scorpio armored vest with circular metal collar/chest modules and blue collar strips, wrapped forearms and half gloves, small exposed waist, frayed blue sash, olive cargo pants and knee pads. Complete practical sturdy boots consistently. No alternate Brash Brigade uniform, no helmet, no generic new tattoos, no blue glowing sword. Hands relaxed.",
+      "reference_paths": [
+        "/tmp/gears-refs-modern/lahni_official.png"
+      ],
+      "failure": null,
+      "selected_asset_path": "assets/characters/lahni_kaliso/gears5_hivebuster/reference_fullbody_v01.png",
+      "is_selected": true
+    },
+    {
+      "key": "jeremiah_keegan_hivebuster",
+      "status": "blocked",
+      "prompt": "Use case: style-transfer. Make ONE single high-detail full-body character reference for the user's Gears of War Combats 2D project. Use the attached official images ONLY for character identity and costume: REMOVE their promotional text, logos, scenery, and other characters. Render a lone upright figure at a slight three-quarter angle facing right, a quiet neutral ready stance. Preserve the exact face, physique, hairstyle, asymmetry and canonical costume. Detailed grounded raster game art with sharp silhouette and distinct metal/fabric/skin. Entire head-to-boots body and both hands inside the canvas with 6 percent empty margin. Transparent alpha cutout, no opaque or semitransparent background, no haze, glow outside the silhouette, floor or shadow. No text, UI, frame, multiple poses or other figures.\nSubject is ONLY Jeremiah Keegan, man standing at left of reference. Keep his older Black face, bald head, prominent dark thick moustache linked to sideburns with clean bare chin, standard olive/tan Hivebuster uniform and short armored green Scorpio chest vest, metal shoulder plates with small E insignia, blue collar strips, long sleeves, fingerless gloves, belt pouches, padded quilted thigh/groin panels, knees and practical heavy boots. Preserve his stout strong proportions and mature face. No Onyx Guard black helmet or alternate uniform. Hands relaxed.",
+      "reference_paths": [
+        "/tmp/gears-refs-modern/keegan_official.jpg"
+      ],
+      "failure": {
+        "code": "moderation_blocked",
+        "stage": "output",
+        "message": "Generation refused by image safety system; no output image returned."
+      },
+      "selected_asset_path": null,
+      "is_selected": false
+    },
+    {
+      "key": "mac_macallister_hivebuster",
+      "status": "generated",
+      "prompt": "Use case: style-transfer. Make ONE single high-detail full-body character reference for the user's Gears of War Combats 2D project. Use the attached official images ONLY for character identity and costume: REMOVE their promotional text, logos, scenery, and other characters. Render a lone upright figure at a slight three-quarter angle facing right, a quiet neutral ready stance. Preserve the exact face, physique, hairstyle, asymmetry and canonical costume. Detailed grounded raster game art with sharp silhouette and distinct metal/fabric/skin. Entire head-to-boots body and both hands inside the canvas with 6 percent empty margin. Transparent alpha cutout, no opaque or semitransparent background, no haze, glow outside the silhouette, floor or shadow. No text, UI, frame, multiple poses or other figures.\nSubject is ONLY Leslie 'Mac' MacAllister, man standing at left of the reference. Keep pale adult face, short vivid ginger quiff with shaved sides, clean-shaven chin, small earring, pendant at neck, gray shirt with rolled sleeves, no shoulder plates, olive Scorpio armored vest with two round chest modules and blue collar strips, leather upper-arm band, exposed forearms and bare hands, olive cargo trousers, leather horizontal strapped thigh protection and utility belt. Complete boots consistently. No Mechanic Mac or different DLC uniform, no beard, no invented armor coverage.",
+      "reference_paths": [
+        "/tmp/gears-refs-modern/mac_official.jpg"
+      ],
+      "failure": null,
+      "selected_asset_path": "assets/characters/mac_macallister/gears5_hivebuster/reference_fullbody_v01.png",
+      "is_selected": true
+    },
+    {
+      "key": "deebee_shepherd_gears4",
+      "status": "blocked",
+      "prompt": "Use case: style-transfer. ONE full-body detailed raster character reference of a standard DeeBee Shepherd from Gears of War 4. Image1 is reference for the original Shepherd head and chest geometry; image2 is reference for full-body silhouette and base dark steel/black colors. Do not copy the video thumbnail text, inset card, logo, or red team-tinted presentation. Preserve the elongated mechanical vent-face with four teardrop-shaped light outlines, gray industrial armor, asymmetric large circular chest module, actual small DB1 chest marking, mechanical joints, slimmer humanoid build than a DR-1, articulated forearm plates, jointed legs and robotic feet. One single robot standing in neutral readiness at a slight three-quarter angle facing right, hands relaxed. Head and both feet completely in frame with generous transparent padding. Crisp hand-painted grounded Gears game materials, fully transparent background outside the exact figure contour. No extra pose, no card, no lettering except existing DB1 armor marking, no scenery, no ground, no shadow or atmosphere. Do not substitute DR-1 or a generic humanoid robot.",
+      "reference_paths": [
+        "/tmp/gears-refs-modern/shepherd_gow4_video.jpg",
+        "/tmp/gears-refs-modern/shepherd_review.jpg"
+      ],
+      "failure": {
+        "code": "moderation_blocked",
+        "stage": "output",
+        "message": "Generation refused by image safety system; no output image returned."
+      },
+      "selected_asset_path": null,
+      "is_selected": false
+    },
+    {
+      "key": "warden_gears5",
+      "status": "generated",
+      "prompt": "Use case: style-transfer. ONE isolated full-body raster character reference of the helmeted Warden from Gears 5. Image1 actual gameplay fixes the segmented dark-red helmet and narrow orange eye slit; image2 licensed statue photo supplies armor, body crystal and leg details, but do NOT copy its exposed head, toy joints, plastic finish, or stage. Keep immense Scion proportions, exposed gray-brown body with dense amber-orange crystals, asymmetrical dark burgundy armor including massive LEFT shoulder plate, diagonal chest strap with round insignia, dark ragged rear cape, hip plates, chains, unequal leg guards and huge feet. He carries exactly two canonical Breaker Maces, one in each hand, safely lowered beside the body, both mace heads entirely visible. Calm upright idle three-quarter stance facing right. One character only, entire body and weapons fully inside image with generous empty margin. Detailed grounded hand-painted game art, clean isolated silhouette and actual transparent alpha background. No snow scene, no floor, no surrounding fog, no vignette, no text, no injuries, no other figures, no sheet.",
+      "reference_paths": [
+        "/tmp/gears-refs-tactics/warden-gameplay-secondary.jpg",
+        "/tmp/gears-refs-tactics/warden-official-full.jpg"
+      ],
+      "failure": null,
+      "selected_asset_path": "assets/characters/warden/gears5/reference_fullbody_v01.png",
+      "is_selected": true
+    },
+    {
+      "key": "ukkon_tactics",
+      "status": "generated",
+      "prompt": "Use case: style-transfer. Make ONE single high-detail full-body character reference for the user's Gears of War Combats 2D project. Use the attached official images ONLY for character identity and costume: REMOVE their promotional text, logos, scenery, and other characters. Render a lone upright figure at a slight three-quarter angle facing right, a quiet neutral ready stance. Preserve the exact face, physique, hairstyle, asymmetry and canonical costume. Detailed grounded raster game art with sharp silhouette and distinct metal/fabric/skin. Entire head-to-boots body and both hands inside the canvas with 6 percent empty margin. Transparent alpha cutout, no opaque or semitransparent background, no haze, glow outside the silhouette, floor or shadow. No text, UI, frame, multiple poses or other figures.\nSubject is ONLY Ukkon from Gears Tactics. Image1 locks his upper-body final game costume; Image2 supplies full-body silhouette of Ukkon in the upper center, ignore all other creatures. Preserve high dark red-black flared crown, pale face, luminous yellow eyes, jaw respirator, immense raised curled metal-edged pauldrons, orange indicator lamps on chest harness, ribbed respiratory hoses looping around waist, two long straight hanging shoulder rails, ankle-length dark burgundy-black divided robe. Slim tall ceremonial Locust silhouette, no RAAM bulk, no human hair. One upright figure, arms at ease enough that robe and hoses remain readable. No scenery or beasts, no smoke.",
+      "reference_paths": [
+        "/tmp/gears-refs-tactics/ukkon-official.jpg",
+        "/tmp/gears-refs-tactics/ukkon-official-full-scene.jpg"
+      ],
+      "failure": null,
+      "selected_asset_path": null,
+      "is_selected": false
+    },
+    {
+      "key": "theron_guard_gears3_alpha_v02",
+      "status": "generated",
+      "prompt": "Use case: background-extraction. Edit this existing generated full-body Theron Guard image. Change ONLY the background: remove every bit of the brown-gray smoky halo and all rectangular atmospheric shading surrounding the character, replacing it with genuine fully transparent alpha. Preserve the single Theron figure, face, red-black armor, pose, boots, fine straps and cloth edges, original colors and level of detail exactly. Keep full head-to-boots figure completely inside the canvas with clean empty transparent margin. Do not redraw the design, do not add a new backdrop, no floor, no new lighting, no text. Transparency must be real alpha, not black paint or a checkerboard picture.",
+      "reference_paths": [
+        "/workspace/scratch/8b5a16f9fa4a/generated_images/exec-64be91f4-5d33-46da-8356-468a58ac7188.png"
+      ],
+      "failure": null,
+      "selected_asset_path": "assets/characters/theron_guard/gears3/reference_fullbody_v02.png",
+      "is_selected": true
+    },
+    {
+      "key": "clayton_carmine_gears3_lettering_v02",
+      "status": "generated",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Clayton Carmine full-body sprite. Correct only the white painted words on the vertical red chest stripe so they read exactly 'GRUB' on the first line and 'KILLER' on the second. The last letter of GRUB must be B, with two closed rounded bowls, not P. Preserve the hand-painted worn lettering style. Keep the recognizable helmet, face lenses, muscle anatomy, armor geometry, pose, hands, boots, original palette and texture detail unchanged. Add transparent canvas padding if needed so the helmet and soles have a comfortable empty margin, with the entire single figure remaining visible. Maintain actual clean transparent alpha outside the figure; no background or new shadow. No added labels or captions. Do not change the character or redesign the costume.",
+      "reference_paths": [
+        "/workspace/scratch/8b5a16f9fa4a/generated_images/exec-832c06e4-fee7-4f5e-bd3f-c6fe71f8b0a0.png"
+      ],
+      "failure": null,
+      "selected_asset_path": "assets/characters/clayton_carmine/gears3/reference_fullbody_v02.png",
+      "is_selected": true
+    },
+    {
+      "key": "ukkon_tactics_rails_v02",
+      "status": "generated",
+      "prompt": "Use case: precise-object-edit. Edit ONLY the two long straight narrow dark metallic rails hanging vertically from Ukkon's shoulder structures in this image. Extend both rails downward so their lower ends reach approximately the ankle/robe-hem height, matching Ukkon's canonical Gears Tactics silhouette. They should hang straight along the outside edges of the body, with the same original width, surface detail and tips; do not add a third rail. Preserve the face, high crown, curled pauldrons, hoses, orange lights, robe, pose, hands, boots, materials and all other character details exactly. Retain the single complete character head-to-boots with empty transparent margin, and actual transparent alpha background. No surrounding haze, scenery, text or additional character. Do not redesign the costume. The sole design correction is the length of the paired hanging shoulder rails.",
+      "reference_paths": [
+        "/workspace/scratch/8b5a16f9fa4a/generated_images/exec-33384a1e-8832-4a06-998c-98c7c11d6245.png"
+      ],
+      "failure": null,
+      "selected_asset_path": "assets/characters/ukkon/tactics/reference_fullbody_v02.png",
+      "is_selected": true
+    }
+  ],
+  "counts": {
+    "initial_character_requests": 20,
+    "correction_requests": 3,
+    "all_requests": 23,
+    "successful_outputs_including_revisions": 17,
+    "blocked_requests": 6,
+    "selected_character_images": 14
+  },
+  "reference_path_note": "Les chemins de références temporaires servent à identifier les entrées utilisées. Pour les retrouver durablement, utiliser les URL dans production/references/."
+}

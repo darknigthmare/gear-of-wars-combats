@@ -1,0 +1,88 @@
+{
+  "id": "michael_barrick",
+  "subject_id": "michael_barrick",
+  "category": "character",
+  "character_id": "michael_barrick",
+  "name": "Michael Barrick",
+  "variant": "Gears of War 3 — RAAM's Shadow, armure standard sans casque",
+  "source_game": "Gears of War 3 — RAAM's Shadow",
+  "catalog_target_game": "Gears 5 — Operation 8 Drop 2",
+  "purpose": "reference_fullbody",
+  "variant_relation": "alternate_version",
+  "status": "generated_reference_pending_validation",
+  "asset_path": "assets/characters_v7/michael_barrick_gow3_raams_shadow_fullbody.png",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-20",
+  "prompt": "Use case: identity-preserve. Asset type: one full-body transparent raster character reference for the Gear of Wars Combats project. Primary request: depict exactly ONE Michael Barrick in his Gears of War 3 — RAAM's Shadow appearance, matching the attached official 2011 Epic Games textured model sheet, credited to Mark Morgan, Mike Buck and Chris Wells. Input image 1 is the sole character design reference; its four views show the SAME character, and must produce only one figure, never a lineup. Preserve the distinctive stocky muscular proportions, bald crown with short dark hair around the sides, deeply creased stern brow, thick dark mutton-chop moustache/beard framing an exposed chin, and the short cigar held in the mouth. Match the complete sleeveless blue-grey COG armor exactly: raised shoulder collar and padded straps, the paired dark circular chest assemblies with their existing small faded markings, bright small blue armor lights, the silver-blue side and abdomen hardware, layered broad brown utility belts and circular metal front buckle, strapped asymmetrical brown thigh pouches and holster, brown-grey worn trousers, knee protectors, long elaborate blue-grey shin armor, and heavy segmented boots. Both broad bare upper arms have the skull-and-radiating-lines tattoos visible in the reference. Preserve the asymmetry of the visible accessories and the exact glove/gauntlet construction, exposed fingertips, seams, rivets and metal trim. Do not invent new ornaments. Adapt the reference pose to a calm near-frontal three-quarter standing pose facing slightly screen-right, both boots planted and visible, arms relaxed with a little separation from the torso so the silhouette and full outfit can be read. Keep the characteristic bulky game-model anatomy, face and all source colors, with neutral balanced lighting instead of a dramatic blue rim light. The body must occupy only the central 80 percent of the portrait canvas height, leaving clearly empty transparent margins above the head and below the soles, and at least 8 percent clear space on both sides. The head, cigar, both hands and complete soles must be inside frame. Genuine transparent alpha background; no floor, backdrop, smoke cloud, cast shadow, halo, environment, title, labels, logos, watermark, collage or multiple figures. No weapon added, no helmet, no Gears 5 redesign, no comic costume, no modern tactical equipment. Source credit text and logos are context only and must not appear in the output.",
+  "sources": [
+    {
+      "page_url": "https://gearsofwar.fandom.com/wiki/Category:Character_images",
+      "image_url": "https://static.wikia.nocookie.net/gearsofwar/images/b/b8/BarrickFullModel.jpg/revision/latest",
+      "source_type": "credited_official_model_sheet_reproduced_by_third_party",
+      "scope": "Planche finale texturée intitulée Gears of War 3, quatre vues en pied du même modèle, pieds et dos inclus. Crédits lisibles : copyright 2011 Epic Games ; modèle Mark Morgan ; texture Mike Buck ; rig Jeremy Ernst ; pose/éclairage Chris Wells ; concept James Hawkins ; direction artistique Chris Perna. Copie publique hébergée par le wiki, dont le catalogue liste BarrickFullModel.jpg.",
+      "visual_reference_used": true,
+      "reference_sha256": "92859de1a797be6b10b92c95843e90e3ff8bf0113a3f38baa5d8959ed191774a"
+    },
+    {
+      "page_url": "https://jeuvideo.afjv.com/news/4181_gears_of_war_3_raam_s_shadow.htm",
+      "source_type": "publisher_press_release_reproduced_by_trade_site",
+      "scope": "Communiqué de présentation Microsoft/Epic de RAAM's Shadow : présence de Michael Barrick dans Zeta. Contexte d'édition uniquement.",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://www.gearsofwar.com/en-us/news/operation-8-drop-2-reveal/",
+      "source_type": "official_game_site",
+      "scope": "La cible catalogue demeure Michael Barrick Gears 5 — Operation 8 Drop 2. L'image de cette annonce n'a pas été fournie au générateur ; aucune fusion des costumes Gears 3 et Gears 5.",
+      "visual_reference_used": false
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Un personnage seul en pied, deux semelles, mains et cigare entièrement dans le cadre ; absence de texte ou d'autre personnage.",
+      "Le casque est absent ; calvitie, favoris épais, cigare, bras nus tatoués, deux disques du plastron, ceintures, accessoires asymétriques, protections et bottes suivent la planche Gears 3.",
+      "La seule référence visuelle fournie est la planche complète Gears 3 ; aucun élément Gears 5 n'a été fourni.",
+      "La pose a été adaptée en vue presque frontale orientée légèrement à droite, bras abaissés. La planche source présente plusieurs orientations et documente le bas du corps.",
+      "Le visage, les marques des disques, le tracé des tatouages, les ornements du plastron, la largeur des ceintures et la géométrie des accessoires présentent des différences fines à vérifier ; aucune équivalence 1:1 n'est certifiée.",
+      "Alpha réel vérifié : 58,05 % des pixels sont entièrement transparents. Le RGB sombre visible sous transparence ne constitue pas un fond opaque.",
+      "Marges gauche/haut/droite/bas : 128/29/122/28 px. Les marges verticales demandées de 10 % ne sont pas atteintes ; tête et pieds restent complets."
+    ],
+    "remaining_checks": [
+      "Comparer le visage, la répartition moustache/favoris et les tatouages de chaque bras à la planche et à des captures de RAAM's Shadow.",
+      "Contrôler le nombre et l'emplacement des rivets, plaques, marquages et accessoires, ainsi que les proportions de chaque pièce.",
+      "Ajouter une marge suffisante avant atlas, puis produire garde latérale, orientations complémentaires, pivots et animations.",
+      "Produire séparément la cible catalogue Gears 5 ; cette variante historique ne la valide pas."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2264614,
+    "sha256": "3c9482aaa81b12f1e16f6c5f5a9b2307d611f4e85dad779aaaa2617a23088658",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.5805263519287109,
+    "subject_bbox_alpha_ge_128": [
+      128,
+      29,
+      902,
+      1508
+    ],
+    "subject_margins_ltrb_px": [
+      128,
+      29,
+      122,
+      28
+    ]
+  }
+}

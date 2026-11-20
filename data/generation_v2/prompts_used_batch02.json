@@ -1,0 +1,97 @@
+[
+  {
+    "id": "raam",
+    "name": "Général RAAM",
+    "source_game": "Gears of War 2006",
+    "costume": "Armure du combat final du premier jeu",
+    "prompt": "General RAAM, specifically the final-encounter costume and original proportions from Gears of War (2006). A massively built adult Locust commander with a large bald ridged head, pale grey nonhuman skin, deeply set eyes and heavy characteristic jaw. Preserve the original broad neck and shoulder mass, very heavy dark charcoal riveted plate armor, layered chest construction, armored forearms, broad waist with layered hanging lower armor, heavy leg protection and feet. The armor has the original worn dark metal and restrained reddish accents; keep its characteristic layered silhouette. Face calm and closed-mouthed, head held naturally. Do not substitute the newer Ultimate Edition head sculpt, gilded multiplayer skin or an ordinary Drone body. Create exactly one full-body character as a neutral production model reference: standing at rest, weight balanced, shoulders relaxed, arms slightly separated from the torso, both empty hands visible and relaxed. Three-quarter view facing screen-right, turned enough toward profile for a readable side-view 2D silhouette. The complete head, feet, fingers and every costume extremity must fit inside the canvas with a generous transparent margin. Realistic hand-painted 2D UHD game art, anatomically and materially faithful to the named official game model, crisp readable contour, restrained even studio illumination. True transparent alpha background, including gaps between limbs. No text, captions, logos, interface, border, second character, alternate view, scenery, floor, pedestal, cast shadow, glow, particles, action, injury or violence. No handheld or attached weapons. Preserve the exact named episode costume rather than inventing a redesign or combining skins. This is a single calm unarmed reference pose.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-of-war/",
+      "https://news.xbox.com/en-us/2019/10/16/all-new-heroes-and-villains-are-available-today-in-gears-5/",
+      "https://www.artstation.com/artwork/ay5Zk"
+    ],
+    "visual_checklist": [
+      "RAAM reconnaissable par la tête et le volume du premier jeu ; aucun Drone agrandi.",
+      "Armure noire à rivets et silhouette massive conformes à la tenue choisie.",
+      "Aucun Kryll ni effet ; tête, mains et pieds entiers.",
+      "Les deux mains sont vides, sans objet porté."
+    ],
+    "unresolved_details": [
+      "La page Xbox confirme RAAM mais illustre son retour dans Gears 5 ; elle ne valide pas à elle seule chaque plaque du modèle 2006.",
+      "Le portfolio du modeleur Jonathan Fletcher confirme que le modèle Ultimate Edition a été retravaillé : ne pas l’employer comme preuve 1:1 du visage 2006.",
+      "Dos, nombre exact de rivets, petites attaches, disposition des plaques et asymétries à contrôler sur captures du premier jeu.",
+      "Les images CDN officielles repérées ne sont pas directement inspectables dans cette recherche ; cette fiche reste une référence à valider visuellement, pas un modèle 1:1 certifié."
+    ]
+  },
+  {
+    "id": "myrrah",
+    "name": "Reine Myrrah",
+    "source_game": "Gears of War 3",
+    "costume": "Armure royale de Gears of War 3",
+    "prompt": "Queen Myrrah in her royal armor from Gears of War 3, preserving her recognizable adult human-looking face and pale blonde hair. Match her elaborate open-faced regal headpiece, fitted ornate red-brown and dark metallic armor, layered sculptural chest and shoulder forms, articulated arm protection, fitted waist, characteristic hip and leg armor and boots from that exact game costume. Preserve the original organic architectural ornament, the original coverage of the outfit and the proportions of the official production character. Upright poised posture, composed neutral expression, hair and ornamental pieces resting naturally. Do not use her Gears of War 2 gown, a youthful version, a modern fashion outfit, Queen Reyna, or a new generic fantasy queen design. Create exactly one full-body character as a neutral production model reference: standing at rest, weight balanced, shoulders relaxed, arms slightly separated from the torso, both empty hands visible and relaxed. Three-quarter view facing screen-right, turned enough toward profile for a readable side-view 2D silhouette. The complete head, feet, fingers and every costume extremity must fit inside the canvas with a generous transparent margin. Realistic hand-painted 2D UHD game art, anatomically and materially faithful to the named official game model, crisp readable contour, restrained even studio illumination. True transparent alpha background, including gaps between limbs. No text, captions, logos, interface, border, second character, alternate view, scenery, floor, pedestal, cast shadow, glow, particles, action, injury or violence. No handheld or attached weapons. Preserve the exact named episode costume rather than inventing a redesign or combining skins. This is a single calm unarmed reference pose.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-of-war-3/",
+      "https://news.xbox.com/en-us/2020/03/31/gears-5-operation-3-gridiron-available-today-for-all-players/",
+      "https://www.artstation.com/chriswells"
+    ],
+    "visual_checklist": [
+      "Visage humain adulte et cheveux clairs de Myrrah ; ne pas confondre Reyna.",
+      "Armure royale Gears of War 3, tête ouverte et ornements du costume ; aucune robe Gears 2.",
+      "Respect de la couverture et des volumes du costume officiel, sans ajout de peau exposée.",
+      "Toutes les extrémités du couvre-chef et du vêtement restent dans le cadre."
+    ],
+    "unresolved_details": [
+      "Chris Wells indique avoir modélisé et partiellement texturé Myrrah pour Gears of War 3 ; ses travaux de production sont la référence de détail pertinente.",
+      "Les longueurs des ornements arrière, la géométrie exacte du couvre-chef et les petites attaches nécessitent des vues de production rapprochées.",
+      "La page Xbox Operation 3 concerne Gears 5 et confirme l’identité ; elle ne suffit pas à certifier le costume Gears 3 pixel pour pixel.",
+      "La teinte métallique et la saturation doivent être comparées sous éclairage neutre ; aucune mesure colorimétrique officielle obtenue."
+    ]
+  },
+  {
+    "id": "locust_drone",
+    "name": "Drone locuste",
+    "source_game": "Gears of War 2006",
+    "costume": "Drone de base du premier jeu",
+    "prompt": "The standard Locust Drone from the original Gears of War (2006), with that exact basic infantry model and costume. Adult nonhuman humanoid, thick muscular build, bald grey rugged head, deep-set eyes, characteristic broad blunt jaw and textured grey skin. Preserve the original stocky proportions, dark heavy segmented torso armor, original shoulder and forearm protections, belt construction, worn dark lower garments and heavy armored lower legs. Preserve all original areas of exposed nonhuman skin and the recognizably practical, rugged Locust silhouette. Resting neutral closed mouth and relaxed fingers. This is the ordinary 2006 Drone: do not use a bare-chested Grenadier, helmeted Theron, Sniper, Disciple, Lambent variant, Swarm Drone or the E-Day redesign. Create exactly one full-body character as a neutral production model reference: standing at rest, weight balanced, shoulders relaxed, arms slightly separated from the torso, both empty hands visible and relaxed. Three-quarter view facing screen-right, turned enough toward profile for a readable side-view 2D silhouette. The complete head, feet, fingers and every costume extremity must fit inside the canvas with a generous transparent margin. Realistic hand-painted 2D UHD game art, anatomically and materially faithful to the named official game model, crisp readable contour, restrained even studio illumination. True transparent alpha background, including gaps between limbs. No text, captions, logos, interface, border, second character, alternate view, scenery, floor, pedestal, cast shadow, glow, particles, action, injury or violence. No handheld or attached weapons. Preserve the exact named episode costume rather than inventing a redesign or combining skins. This is a single calm unarmed reference pose.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-of-war/",
+      "https://news.xbox.com/en-us/2019/12/11/gears-5-operation-2-free-for-all-available-today-for-all-players/",
+      "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/"
+    ],
+    "visual_checklist": [
+      "Drone locuste standard Gears of War 2006 ; aucun assemblage des variantes.",
+      "Tête, mâchoire, peau et torse distinguent le Drone de l’Essaim.",
+      "Volumes d’infanterie épaisse et armure de torse du Drone, pas le torse du Grenadier.",
+      "Mains vides et silhouette complète lisible en trois-quarts droite."
+    ],
+    "unresolved_details": [
+      "Les pages officielles modernes confirment le Drone mais ne constituent pas une planche orthographique du modèle 2006.",
+      "Répartition exacte des protections d’épaule et d’avant-bras, attaches et dessous du pied à comparer sur capture du premier jeu.",
+      "Couleur précise des yeux et nombre de petites coutures non verrouillés ; ne pas ajouter de lueur.",
+      "Aucune variante E-Day ne doit être déduite de la référence 2006."
+    ]
+  },
+  {
+    "id": "kantus",
+    "name": "Kantus",
+    "source_game": "Gears of War 2",
+    "costume": "Prêtre Kantus standard",
+    "prompt": "The standard Kantus priest from Gears of War 2 in his original unarmored-priest costume. A very tall lean adult Locust with elongated limbs, a long narrow neck, pale grey textured nonhuman skin, an elongated ridged head and the unmistakable Kantus facial and jaw structure. Preserve the original sparse priestly leather and cloth equipment, dark hanging lower vestments, characteristic collar and body ornaments, belts, limb coverings and feet of the standard Gears of War 2 model. Keep the unusually lean silhouette and naturally long relaxed hands, with the mouth closed or naturally at rest. No ritual gesture and no active effects. Do not turn him into Skorge, the Armored Kantus, a Tactics Zealot, a robed human cleric or a bulky ordinary Drone. Create exactly one full-body character as a neutral production model reference: standing at rest, weight balanced, shoulders relaxed, arms slightly separated from the torso, both empty hands visible and relaxed. Three-quarter view facing screen-right, turned enough toward profile for a readable side-view 2D silhouette. The complete head, feet, fingers and every costume extremity must fit inside the canvas with a generous transparent margin. Realistic hand-painted 2D UHD game art, anatomically and materially faithful to the named official game model, crisp readable contour, restrained even studio illumination. True transparent alpha background, including gaps between limbs. No text, captions, logos, interface, border, second character, alternate view, scenery, floor, pedestal, cast shadow, glow, particles, action, injury or violence. No handheld or attached weapons. Preserve the exact named episode costume rather than inventing a redesign or combining skins. This is a single calm unarmed reference pose.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-of-war-2/",
+      "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/"
+    ],
+    "visual_checklist": [
+      "Morphologie très élancée, long cou et tête Kantus distincte du Drone.",
+      "Costume du prêtre standard Gears of War 2 ; aucune coque de Kantus blindé.",
+      "Ornements et vêtements propres au modèle, aucune invention religieuse générique.",
+      "Aucun cri ni effet de buff ; mains vides et longues extrémités entièrement visibles."
+    ],
+    "unresolved_details": [
+      "Le blog officiel identifie clairement le prêtre Kantus et comporte une image, mais cette image appartient à Gears Tactics.",
+      "La variante exacte Gears of War 2 doit être comparée à une capture dédiée pour le col, les ornements et la longueur du vêtement.",
+      "Anatomie précise des mains et des pieds, nombre de doigts/orteils et petites asymétries non certifiés par les sources textuelles consultées.",
+      "Ne pas reprendre automatiquement les modifications du modèle Tactics."
+    ]
+  }
+]

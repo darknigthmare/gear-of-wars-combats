@@ -1,0 +1,41 @@
+{
+  "id": "mac",
+  "name": "Mac",
+  "source_game": "Gears 5 Hivebusters",
+  "prompt": "Leslie Mac MacAllister in his standard Gears 5 Hivebusters Scorpio campaign outfit, an adult man with pale skin, a clean-shaven angular face and bright copper-red hair in the original swept-up strip with closely cropped sides. His worn light gray-beige long-sleeved shirt with sleeves pushed up to the forearms, olive armored Scorpio vest with two circular upper fittings, blue shoulder indicator strips and a small triangular yellow unit patch. Keep the original small pendant at the open shirt collar, bare hands, broad segmented utility belt, hip pouches, brown military trousers, the distinctive stacked leather straps on his anatomical LEFT thigh, practical knee protection and heavy boots. Maintain his leaner athletic build and recognizable face. This is his standard Scorpio clothing, not the Mechanic Mac skin or a generic red-haired COG soldier. No active Barrier effect. Create exactly one adult fictional character, full body from the top of the head to the soles of both boots, in a calm neutral standing pose with empty relaxed hands and arms separated slightly from the torso. Three-quarter view facing screen right, close enough to a lateral view to read clearly as a 2D fighting-game character. Preserve anatomical left/right asymmetries when changing the view; do not simply mirror them. Realistic painted 2D character illustration with UHD-quality material detail, natural anatomy and a crisp clean silhouette. A fully transparent RGBA background, no scenery, floor, base, cast shadow outside the body, vignette, lettering, captions, logos, UI, borders, extra figures or alternate views. No held or slung weapons. Leave clear transparent padding around every extremity; no cropping.",
+  "source_urls": [
+    "https://news.xbox.com/en-us/2020/12/08/gears-5-hivebusters-arrives-december-15/",
+    "https://www.gearsofwar.com/en-us/news/hivebusters/",
+    "https://www.gearsofwar.com/en-us/news/hivebusters-graphic-novel-available-now/",
+    "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/08/Hivebuster_Bios_Mac_1080x1080-5f443eeb11aeb-69cb1136edf03.jpg",
+    "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/12/hivebusters-keyart-5fd7bad8299a-69cb1bb32298f.jpg"
+  ],
+  "output_hint": "Generated images are saved to /workspace/scratch/1e1136701ce4/generated_images as /workspace/scratch/1e1136701ce4/generated_images/exec-95e6cc77-49d4-4bb7-931c-2a488adb2520.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "error": null,
+  "has_image": true,
+  "path": "assets/characters_v4/mac_reference_v4.png",
+  "width": 1024,
+  "height": 1536,
+  "alpha_min": 0,
+  "alpha_max": 254,
+  "sha256": "a08888becee515c6971948b9fd17fdbfc30589cb725854f6cd169ddf9b720f29",
+  "alpha_bbox_ge_16": [
+    228,
+    5,
+    776,
+    1528
+  ],
+  "transparent_pixel_fraction": 0.6873550415039062,
+  "visual_review": {
+    "inspected": true,
+    "status": "reference_generated_needs_visual_validation",
+    "notes": [
+      "Personnage entier en pose neutre trois-quarts vers la droite, mains nues et vides, bottes entières.",
+      "Cheveux roux relevés, visage rasé, chemise claire aux manches remontées, pendentif et gilet Scorpio présents.",
+      "Sangles de cuir superposées sur la cuisse gauche anatomique visibles.",
+      "Fond alpha transparent vérifié; le halo apparent dans le rendu de prévisualisation est le RGB caché des pixels alpha=0.",
+      "Marge haute courte: 5 pixels au seuil alpha>=16; normalisation du cadrage requise avant animations.",
+      "Visage, emblème, pendentif, épaules et jambières à comparer au modèle source avant validation; fidélité 1:1 non certifiée."
+    ]
+  }
+}

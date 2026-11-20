@@ -1,0 +1,166 @@
+{
+  "id": "reyna",
+  "asset_path": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/reyna_reference_v2.png",
+  "sha256": "6eb0c6d51e4ba022afb421c55714989e23f6071222ab45169a4bbddf8b44132a",
+  "inspection": "PNG ouvert en taille native via view_image et canal RGBA inspecté par Pillow ; aucune modification de l’image.",
+  "overall_status": "non_conforme_a_l_identite_canonique_1_1",
+  "subject_recognizable": {
+    "status": "fail_for_exact_identity",
+    "observation": "La comparaison au visuel officiel Operation 6 confirme une reine fantasy inventée : casque/couronne, visage lisse, plastron décoratif et robe à ourlet diffèrent nettement de Queen Reyna standard."
+  },
+  "full_silhouette": {
+    "status": "pass",
+    "observation": "Tête, mains et deux pieds complets visibles ; aucune extrémité coupée.",
+    "substantial_alpha_bbox": [
+      208,
+      10,
+      750,
+      1520
+    ],
+    "margin_px_alpha_ge_128": {
+      "left": 208,
+      "top": 10,
+      "right": 274,
+      "bottom": 16
+    }
+  },
+  "one_pose": {
+    "status": "pass",
+    "observation": "Un personnage, une pose, aucun doublon ni encart."
+  },
+  "angle": {
+    "status": "pass",
+    "observation": "Trois-quarts orienté vers la droite ; visage et torse lisibles."
+  },
+  "empty_hands": {
+    "status": "pass",
+    "observation": "Deux mains vides et relâchées ; aucun objet tenu."
+  },
+  "neutral_presentation": {
+    "status": "pass",
+    "observation": "Personnage au repos ; aucune action, blessure ou violence."
+  },
+  "alpha": {
+    "mode": "RGBA",
+    "size_px": [
+      1024,
+      1536
+    ],
+    "min": 0,
+    "max": 254,
+    "alpha_zero_pixels": 1032354,
+    "alpha_zero_fraction": 0.656353,
+    "pixels_alpha_1_to_15": 23132,
+    "substantial_alpha_bbox": [
+      208,
+      10,
+      750,
+      1520
+    ],
+    "all_nonzero_alpha_bbox": [
+      0,
+      0,
+      1010,
+      1536
+    ],
+    "corner_samples_rgba": {
+      "(0, 0)": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "(1023, 0)": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "(0, 1535)": [
+        1,
+        2,
+        1,
+        0
+      ],
+      "(1023, 1535)": [
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    "interpretation": "Le RGB de fond affiché n’implique pas un fond opaque. Fond transparent vérifié aux coins ; maximum alpha 254 accepté comme comportement du générateur. Aucun nettoyage effectué."
+  },
+  "visible_defects": [
+    {
+      "severity": "major",
+      "area": "tete",
+      "observation": "La couronne osseuse symétrique et la coiffure organique générées remplacent les cheveux noirs longs et l’amas de cristaux asymétrique du front visibles sur la référence officielle."
+    },
+    {
+      "severity": "major",
+      "area": "visage",
+      "observation": "Visage humain lisse de reine fantasy ; ne restitue pas le visage pâle altéré de Queen Reyna standard et ses yeux ambrés."
+    },
+    {
+      "severity": "major",
+      "area": "epaules_et_torse",
+      "observation": "Petites épaulières et cuirasse décorative près du corps. La référence officielle montre une très large carapace rouge-brun relevée derrière la tête et les épaules, ainsi que des plaques organiques irrégulières sur le torse."
+    },
+    {
+      "severity": "major",
+      "area": "bas_du_corps",
+      "observation": "Longue robe continue à ourlet inventée. Les références montrent des faisceaux de vrilles distinctes descendant de la taille ; elles ne valident pas cette robe à motifs symétriques."
+    },
+    {
+      "severity": "review",
+      "area": "pieds",
+      "observation": "Les pieds générés sont complets dans le cadre mais leur modèle exact n’est pas vérifiable avec les références récupérées, coupées en bas."
+    }
+  ],
+  "fidelity_uncertified": [
+    "Bas complet des jambes et pieds : aucune vue entière du modèle final récupérée.",
+    "Nombre exact, racines et extrémités de toutes les vrilles.",
+    "Dos, côtés cachés, nombre exact de cristaux et détails du mesh non visibles.",
+    "L’éclairage du visuel promotionnel affecte les teintes ; pas de prélèvement de texture canonique depuis cette image."
+  ],
+  "source_urls": [
+    "https://store.steampowered.com/news/posts/?appids=1097840&enddate=1615235906&feed=steam_community_announcements",
+    "https://www.deviantart.com/jorn-k-nightmane/art/Queen-Reyna-Gears5-for-XPS-FBX-1014298182",
+    "https://clan.fastly.steamstatic.com/images/35210771/85d6b70bdaa73fe7603ea7c0a70522e30962544e.png",
+    "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/7864f737-4d1d-40f6-af14-45a9c4dcc374/dgrvxhi-4d78cb6f-e6de-45ef-ac2f-f51d805063d1.jpg"
+  ],
+  "source_limits": "Le visuel Steam est une source officielle de l’annonce Operation 6 du 23 février 2021. Le rendu XPS/FBX est communautaire et sert uniquement de corroboration ; sa variante de droite Blood Red est explicitement exclue. Aucun des deux ne montre les pieds. L’image générique Xbox Store du lot, qui représentait Hoffman, a été exclue.",
+  "image_modified": false,
+  "generation_or_retry_performed": false,
+  "comparison_update": "Comparaison directe au visuel officiel Steam Operation 6 et à un rendu communautaire du modèle ; les écarts d’identité du haut du corps et de la structure inférieure sont établis, les pieds ne sont pas certifiés.",
+  "local_reference_paths": [
+    {
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_reference/reyna_operation6_official.png",
+      "sha256": "62347d9b85bbd2dd15f3ce1b56d93e3cacdc2b546646ee433aed10229fc59386",
+      "image_url": "https://clan.fastly.steamstatic.com/images/35210771/85d6b70bdaa73fe7603ea7c0a70522e30962544e.png",
+      "source_page": "https://store.steampowered.com/news/posts/?appids=1097840&enddate=1615235906&feed=steam_community_announcements",
+      "type": "visuel_officiel_Operation_6",
+      "verification_scope": "Queen Reyna standard présentée le 23 février 2021 : visage, cheveux noirs, cristaux asymétriques, grand col/carapace dorsal, torse et départ des vrilles. Le bas du corps est coupé.",
+      "pixels_modified": false
+    },
+    {
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_reference/reyna_g5_community_model.jpg",
+      "sha256": "6d575702435303da1fc3e00e8f000c449b74339c375025c29f0cf0987c12e3af",
+      "image_url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/7864f737-4d1d-40f6-af14-45a9c4dcc374/dgrvxhi-4d78cb6f-e6de-45ef-ac2f-f51d805063d1.jpg",
+      "source_page": "https://www.deviantart.com/jorn-k-nightmane/art/Queen-Reyna-Gears5-for-XPS-FBX-1014298182",
+      "type": "rendu_export_modele_communautaire",
+      "verification_scope": "Utiliser seulement la Queen Reyna standard de GAUCHE ; celle de droite est Blood Red. Corrobore les cheveux, amas cristallins, carapace et faisceaux de vrilles. Ce n’est pas une vue entière : extrémité inférieure hors cadre.",
+      "pixels_modified": false
+    }
+  ],
+  "targeted_corrections": [
+    "Suivre le modèle standard du visuel officiel Operation 6 et ignorer le skin Blood Red.",
+    "Retirer la couronne organique symétrique. Restituer les cheveux noirs longs et l’implantation asymétrique de cristaux jaunes/dorés sur le front et un côté du crâne.",
+    "Restituer la physionomie pâle et altérée visible sur la référence, avec yeux ambrés ; garder une expression calme au repos.",
+    "Reconstruire le grand col dorsal/carapace rouge-brun qui remonte derrière la tête et déborde nettement de part et d’autre des épaules.",
+    "Restituer les plaques organiques irrégulières du torse et la zone abdominale visible ; supprimer la cuirasse de reine décorative générée.",
+    "Remplacer la robe continue à ourlet par les faisceaux organiques distincts visibles depuis la taille. Ne pas certifier l’extrémité des membres inférieurs sans référence supplémentaire.",
+    "Conserver un seul personnage entier, mains vides relâchées, pose neutre et trois-quarts droite ; ne pas reproduire la gestuelle menaçante du visuel promotionnel."
+  ]
+}

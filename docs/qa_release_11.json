@@ -1,0 +1,11 @@
+{
+  "render": "bible_release",
+  "review": "Page opened at native resolution; no clipping, overflow or orphan heading.",
+  "pages": [
+    {
+      "page": 11,
+      "sha256": "00c61377fc7d2a0d4afee840aa164cd466fe86d94d33493a0d9459e6dca6582c",
+      "status": "pass"
+    }
+  ]
+}

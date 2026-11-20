@@ -1,0 +1,15 @@
+{
+  "id": "cole",
+  "name": "Augustus Cole",
+  "prompt": "Augustus “Cole Train” Cole from Gears of War 3, wearing his regular Gears 3 campaign soldier outfit. Adult Black man with Cole’s recognisable broad face, short facial hair and exceptionally powerful, broad-shouldered athletic build. Use his campaign headwear and armor silhouette shown in the official Gears 3 key art: a close-fitting dark field cap, bulky weathered COG chest and shoulder equipment with restrained blue armor lights, exposed muscular upper-arm areas where appropriate to the campaign outfit, sturdy forearm protection, practical belt and pouches, reinforced combat trousers, knee guards and heavy boots. Preserve his original campaign clothing and imposing but believable game anatomy. This is regular campaign Cole, not Thrashball Cole, not Superstar Cole, not a sports uniform, not a helmeted athlete and not the older Gears 5 redesign. His face is calm and neutral rather than shouting or smiling broadly. Create exactly one adult character, alone, full body from the top of the head to both complete boot soles, centered with clear transparent margin around the silhouette. Neutral relaxed standing pose, three-quarter turn toward screen right, clearly readable as a side-view 2D fighting-game character; both arms resting slightly away from the torso, hands visibly empty and relaxed, legs comfortably separated, neutral closed-mouth expression. Respect the character’s original anatomy and game proportions. Realistic hand-painted 2D production illustration with UHD-level material detail, crisp clean contour and controlled soft lighting; no cartoon, no cel shading, no photograph, no plastic miniature. The background must be truly transparent with an alpha channel. No background color, scenery, floor, pedestal, ground plane, cast shadow outside the silhouette, text, caption, UI, watermark, duplicates, inset portrait, alternate view, held weapon, slung weapon, violence, blood or injuries. This is a single reusable neutral character cutout, not a poster or action scene.",
+  "source_game": "Gears of War 3",
+  "source_urls": [
+    "https://www.gearsofwar.com/en-us/games/gears-of-war-3/",
+    "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/gears-of-war-3-69d7d9132411b-1024x576.jpg",
+    "https://news.xbox.com/en-us/2020/03/31/gears-5-operation-3-gridiron-available-today-for-all-players/"
+  ],
+  "output_hint": null,
+  "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 610ec8f3-59bd-4c99-8c41-4faf777b2d20.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+  "has_image": false,
+  "status": "not_generated"
+}

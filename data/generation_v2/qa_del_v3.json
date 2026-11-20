@@ -1,0 +1,194 @@
+{
+  "id": "del",
+  "name": "Del Walker",
+  "source_game": "Gears 5",
+  "costume": "Armored Del de campagne tempérée avec bandeau",
+  "asset_path": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/del_reference_v3.png",
+  "sha256": "4b6ea5c768808e210a8ad85af8f1985406c3d78222b5a00170532d36e7e2f1bd",
+  "inspection": "PNG V3 et capture officielle de campagne Gears 5 déjà réunie ouverts à taille native via view_image ; inspection RGBA sans modification. Aucune extension de recherche.",
+  "overall_status": "correction_partielle_plastron_encore_a_corriger",
+  "fidelity_recommendation": "À corriger",
+  "certified_1_to_1": false,
+  "subject_recognizable": {
+    "status": "pass_invariants_only",
+    "observation": "Del reconnaissable par son visage adulte, ses cheveux crépus courts, son bandeau vert olive, la tenue de campagne verte et l’armure CGU. La variante tempérée est respectée ; ni bonnet ni col de fourrure de Winter Armor Del."
+  },
+  "full_silhouette": {
+    "status": "pass_with_margin_warning",
+    "observation": "Tête, deux mains et deux pieds entièrement dans le cadre. Le dégagement vertical reste très faible.",
+    "substantial_alpha_bbox": [
+      191,
+      11,
+      808,
+      1529
+    ],
+    "margin_px_alpha_ge_128": {
+      "left": 191,
+      "top": 11,
+      "right": 216,
+      "bottom": 7
+    }
+  },
+  "one_pose": {
+    "status": "pass",
+    "observation": "Un seul personnage et une seule pose, sans encart ni doublon."
+  },
+  "angle": {
+    "status": "pass",
+    "observation": "Trois-quarts orienté vers la droite ; vue de référence en perspective, pas profil orthographique."
+  },
+  "empty_hands": {
+    "status": "pass",
+    "observation": "Deux mains vides au repos, aucune arme ni objet tenu."
+  },
+  "neutral_presentation": {
+    "status": "pass",
+    "observation": "Pose au repos, sans scène offensive, mutilation, sang ou blessure ouverte."
+  },
+  "alpha": {
+    "mode": "RGBA",
+    "size_px": [
+      1024,
+      1536
+    ],
+    "min": 0,
+    "max": 254,
+    "alpha_zero_pixels": 996998,
+    "alpha_zero_fraction": 0.633874,
+    "pixels_alpha_1_to_15": 22612,
+    "substantial_alpha_bbox": [
+      191,
+      11,
+      808,
+      1529
+    ],
+    "all_nonzero_alpha_bbox": [
+      69,
+      0,
+      984,
+      1536
+    ],
+    "corner_and_mid_edge_samples_rgba": {
+      "(0, 0)": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "(1023, 0)": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "(0, 1535)": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "(1023, 1535)": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "(512, 0)": [
+        43,
+        37,
+        34,
+        1
+      ],
+      "(512, 1535)": [
+        40,
+        35,
+        31,
+        0
+      ]
+    },
+    "interpretation": "Les coins sont transparents. Le fond RGB affiché par l’outil ne prouve pas un fond opaque. Alpha maximum 254, conforme au comportement observé du générateur. Faibles résidus alpha consignés sans retouche."
+  },
+  "major_identity_discrepancies": [],
+  "reference_comparison": [
+    {
+      "area": "identité et variante",
+      "status": "pass_invariants",
+      "observation": "Bandeau olive, cheveux courts, tenue de campagne verte et silhouette de Del conservés. Pas de confusion visible avec une variante hivernale."
+    },
+    {
+      "area": "bandes lumineuses",
+      "status": "improved",
+      "observation": "Deux rangées longitudinales rétablies. Leur granularité et leurs attaches ne sont pas validées 1:1."
+    },
+    {
+      "area": "disques du plastron",
+      "status": "correction_required",
+      "observation": "Les lamelles ajoutées couvrent tout le centre circulaire ; il manque la petite fenêtre rectangulaire caractéristique découpée dans une surface circulaire pleine."
+    },
+    {
+      "area": "épaule et emblème",
+      "status": "unverified_asymmetry",
+      "observation": "Le généré et la référence rapprochée exposent des côtés anatomiques différents. Ne pas déduire une erreur d’emblème d’une symétrie non démontrée."
+    }
+  ],
+  "visible_defects": [
+    {
+      "severity": "moderate",
+      "area": "plastron",
+      "observation": "Grilles couvrant le centre circulaire entier, au lieu de la petite ouverture rectangulaire visible sur le modèle officiel. Correction ciblée seulement partielle."
+    },
+    {
+      "severity": "minor",
+      "area": "cadrage",
+      "observation": "Silhouette entière mais marges verticales très courtes, consignées par le seuil alpha 128."
+    },
+    {
+      "severity": "review",
+      "area": "style",
+      "observation": "Rendu très réaliste proche d’un rendu 3D ; validation de la direction peinte 2D encore ouverte."
+    }
+  ],
+  "fidelity_uncertified": [
+    "La ressemblance exacte du visage ne reçoit pas de certification 1:1.",
+    "Les emblèmes des épaules droite et gauche peuvent différer ; ne pas imposer une symétrie non démontrée.",
+    "Le dos, les bottes et les coutures arrière sont insuffisamment visibles.",
+    "Une pose de référence ne valide aucun cycle animé."
+  ],
+  "references_inspected": [
+    {
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_refs/g5_delta_baird_full.jpg",
+      "url": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/Accessibility_desktopBG-69d931f5a4c02.jpg",
+      "sha256": "14b0d716913fac7dd9f4ad7fff6ae7b4e7a9307ede9a3a21ca12bccf02bd3c57",
+      "source_type": "official_CDN",
+      "inspected": true
+    },
+    {
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_refs/del_kait_g5_full.jpg",
+      "url": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/desktop-campaign-3840x2160-69d932032874a.jpg",
+      "sha256": "320386b13da1e56c3703120fafab4298efd593a6075942e77fc1ed78fe662f01",
+      "source_type": "official_CDN",
+      "inspected": true
+    }
+  ],
+  "source_urls": [
+    "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/Accessibility_desktopBG-69d931f5a4c02.jpg",
+    "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/desktop-campaign-3840x2160-69d932032874a.jpg"
+  ],
+  "source_limits": "Comparaison ciblée avec la capture officielle Gears 5 montrant Del au premier plan près de Baird. La référence permet de juger la forme de l’ouverture pectorale et l’orientation des bandes lumineuses. Les détails complets du dos, des bottes, du visage et des asymétries ne sont pas certifiés. Aucune prétention de fidélité 1:1.",
+  "image_modified": false,
+  "generation_or_retry_performed": false,
+  "animation_status": "Non produite : pose unique de référence",
+  "version": "v3",
+  "targeted_corrections": [
+    {
+      "area": "bandes lumineuses d’épaule",
+      "status": "pass_structure_only",
+      "observation": "La V3 présente deux rangées longitudinales parallèles, au lieu des barres transversales de la V2. Cette orientation correspond à la référence. La forme fine et le nombre des modules lumineux restent non certifiés."
+    },
+    {
+      "area": "disques pectoraux",
+      "status": "partial_correction",
+      "observation": "La V3 ajoute des grilles horizontales, mais elles remplissent presque tout le centre circulaire de chaque disque. La référence officielle montre une ouverture rectangulaire plus petite au milieu d’une plaque circulaire autrement pleine. La géométrie ciblée n’est donc pas encore reproduite."
+    }
+  ]
+}

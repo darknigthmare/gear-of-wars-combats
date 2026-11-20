@@ -1,0 +1,320 @@
+{
+  "reviewer": "boss_stages_story",
+  "scope": "Pages 13 à 29 du rendu bible_final, également valides pour bible_release lorsque les SHA256 correspondent.",
+  "all_pages_visually_reviewed": true,
+  "page_count_reviewed": 17,
+  "blocking_layout_issues": [],
+  "editorial_issues": [],
+  "image_caption_status": "Aucune image ni légende d’image dans cette plage.",
+  "table_status": "Tableaux lisibles ; en-têtes répétés dans les tableaux coupés entre 21/22 et 28/29 ; aucune cellule tronquée.",
+  "pages": [
+    {
+      "page": 13,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-13.png",
+      "sha256": "13e589f22a48efea45210a83d72999d2baef81a7311fdaf5110b35205dc8c39f",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": [
+        "Sections son, interface et accessibilité lisibles ; marges et hiérarchie propres."
+      ],
+      "release_path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-13.png",
+      "release_sha256": "13e589f22a48efea45210a83d72999d2baef81a7311fdaf5110b35205dc8c39f",
+      "release_identical": true
+    },
+    {
+      "page": 14,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-14.png",
+      "sha256": "d5f9357fec0f5f5df8867804ae41fa42162288448e5c998dbbea6d6c7555380f",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": [
+        "Sections intégration et validation propres ; aucun titre isolé."
+      ],
+      "release_path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-14.png",
+      "release_sha256": "d5f9357fec0f5f5df8867804ae41fa42162288448e5c998dbbea6d6c7555380f",
+      "release_identical": true
+    },
+    {
+      "page": 15,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-15.png",
+      "sha256": "ddaafde57ff438bba497394133624d29fcd4c7cd3abac384daecbf0232f47bd4",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": [
+        "Fin des jalons et sources lisibles ; les URL restent dans la largeur de composition."
+      ],
+      "release_path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-15.png",
+      "release_sha256": "ddaafde57ff438bba497394133624d29fcd4c7cd3abac384daecbf0232f47bd4",
+      "release_identical": true
+    },
+    {
+      "page": 16,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-16.png",
+      "sha256": "a95731402a512f10187d9c2a0e2e646fd1237448fd4c202e903751db3485be1c",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": [
+        "Ouverture du chapitre personnages propre ; paragraphe sur les frames poursuivi normalement page 17."
+      ],
+      "release_path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-16.png",
+      "release_sha256": "a95731402a512f10187d9c2a0e2e646fd1237448fd4c202e903751db3485be1c",
+      "release_identical": true
+    },
+    {
+      "page": 17,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-17.png",
+      "sha256": "bf114d74a563dfd0eb754b708242bcc4dd25cac48c0dec247b0d777afa3a73f4",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": [
+        "Tableau de normales complet, cinq colonnes lisibles, aucune cellule rognée."
+      ],
+      "release_path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-17.png",
+      "release_sha256": "bf114d74a563dfd0eb754b708242bcc4dd25cac48c0dec247b0d777afa3a73f4",
+      "release_identical": true
+    },
+    {
+      "page": 18,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-18.png",
+      "sha256": "a7a76b7751e6bca280b203031e34d77e77bff6fcba1286b9ec94da0c10e22652",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": [
+        "Fiche Marcus et tableau des actions propres ; textes sous le tableau lisibles."
+      ],
+      "release_path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-18.png",
+      "release_sha256": "a7a76b7751e6bca280b203031e34d77e77bff6fcba1286b9ec94da0c10e22652",
+      "release_identical": true
+    },
+    {
+      "page": 19,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-19.png",
+      "sha256": "25750fb9ab75e581232b243bdf4605edc60d38083da339574270f6ac196dbc95",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": [
+        "Fin de Marcus, début de Dom et tableau complet propres ; bas de page préservé."
+      ],
+      "release_path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-19.png",
+      "release_sha256": "25750fb9ab75e581232b243bdf4605edc60d38083da339574270f6ac196dbc95",
+      "release_identical": true
+    },
+    {
+      "page": 20,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-20.png",
+      "sha256": "35d4b704c7319b29bb1e4b419e65c5650798067ae6078f521b83b7cfc24d633f",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": [
+        "Fin de Dom et tableau de Baird propres ; dernière ligne entière au-dessus du pied de page."
+      ],
+      "release_path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-20.png",
+      "release_sha256": "35d4b704c7319b29bb1e4b419e65c5650798067ae6078f521b83b7cfc24d633f",
+      "release_identical": true
+    },
+    {
+      "page": 21,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-21.png",
+      "sha256": "b737ccbb28c93c7d96e02037804528cc54337533a723e117e1f5f93c76bf35f0",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": [
+        "Tableau de Cole coupé après S4 entre pages ; séparation propre entre deux lignes."
+      ],
+      "release_path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-21.png",
+      "release_sha256": "b737ccbb28c93c7d96e02037804528cc54337533a723e117e1f5f93c76bf35f0",
+      "release_identical": true
+    },
+    {
+      "page": 22,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-22.png",
+      "sha256": "d289e686938d7a36aa66d59edf913d7b843423f55dc8c789fed28916a845ba77",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": [
+        "En-tête du tableau de Cole répété ; début Anya avec contenu suffisant sous le titre."
+      ],
+      "release_path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-22.png",
+      "release_sha256": "d289e686938d7a36aa66d59edf913d7b843423f55dc8c789fed28916a845ba77",
+      "release_identical": true
+    },
+    {
+      "page": 23,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-23.png",
+      "sha256": "a243e95159baeff84294201dc7b31ff803723b9ca1310ac9f6c8184a4b7fd04b",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": [
+        "Tableau et description Anya propres ; aucune coupure de cellule."
+      ],
+      "release_path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-23.png",
+      "release_sha256": "a243e95159baeff84294201dc7b31ff803723b9ca1310ac9f6c8184a4b7fd04b",
+      "release_identical": true
+    },
+    {
+      "page": 24,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-24.png",
+      "sha256": "7e881099c8e620c7ad9b731c16bbb4461792896b05de4b18db9b9d95c809cb80",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": [
+        "Fiche Kait lisible ; référence de la fiche précédente reportée en haut sans débordement."
+      ],
+      "release_path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-24.png",
+      "release_sha256": "7e881099c8e620c7ad9b731c16bbb4461792896b05de4b18db9b9d95c809cb80",
+      "release_identical": true
+    },
+    {
+      "page": 25,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-25.png",
+      "sha256": "fa108a1d7985047439aee6e83146a152c0449d1e748291e59abb4ef3f7b30cf3",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": [
+        "Tableau RAAM complet et descriptions propres ; toutes les colonnes restent lisibles."
+      ],
+      "release_path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-25.png",
+      "release_sha256": "fa108a1d7985047439aee6e83146a152c0449d1e748291e59abb4ef3f7b30cf3",
+      "release_identical": true
+    },
+    {
+      "page": 26,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-26.png",
+      "sha256": "8570913edea6bbe60c7e0d15d920abd29c30a1dc1d863e37f69519ebd5880ac7",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": [
+        "Fin RAAM et tableau Skorge propres ; descriptions sous le tableau préservées."
+      ],
+      "release_path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-26.png",
+      "release_sha256": "8570913edea6bbe60c7e0d15d920abd29c30a1dc1d863e37f69519ebd5880ac7",
+      "release_identical": true
+    },
+    {
+      "page": 27,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-27.png",
+      "sha256": "c2781788134af31ce6df0b59b7a2e17c53a03afffddb299dc45920990804712f",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": [
+        "Tableau Myrrah complet, sans clipping en bas de page."
+      ],
+      "release_path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-27.png",
+      "release_sha256": "c2781788134af31ce6df0b59b7a2e17c53a03afffddb299dc45920990804712f",
+      "release_identical": true
+    },
+    {
+      "page": 28,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-28.png",
+      "sha256": "a727ddd9243e5b1cde0a3989aeb4f8bbcd2a773aafd34453545f54d8c2538534",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": [
+        "Tableau Drone coupé après S4 entre pages ; séparation propre entre deux lignes."
+      ],
+      "release_path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-28.png",
+      "release_sha256": "a727ddd9243e5b1cde0a3989aeb4f8bbcd2a773aafd34453545f54d8c2538534",
+      "release_identical": true
+    },
+    {
+      "page": 29,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-29.png",
+      "sha256": "7c3c60790174dd0de3734c73dbd2f3fd2fdbaf79388f1706b7bf54d0e1a43c74",
+      "inspection": "PNG ouvert en taille native via view_image",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": [
+        "En-tête du tableau Drone répété ; début Kantus correctement accompagné de deux paragraphes."
+      ],
+      "release_path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-29.png",
+      "release_sha256": "7c3c60790174dd0de3734c73dbd2f3fd2fdbaf79388f1706b7bf54d0e1a43c74",
+      "release_identical": true
+    }
+  ],
+  "release_transfer_validated": true,
+  "revalidation_needed": "Aucune pour ces pages si les PNG demeurent identiques."
+}

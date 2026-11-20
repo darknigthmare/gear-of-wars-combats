@@ -1,0 +1,17 @@
+{
+  "id": "sam",
+  "name": "Samantha Byrne",
+  "prompt": "Samantha Sam Byrne in her original Gears of War 3 campaign appearance, an athletic adult woman with an angular face, jaw-length dark brown hair and a long side-swept fringe. Her recognizable cream and weathered gray COG chest armor with two dark circular breastplate fittings, small blue identification lights, rounded armored shoulders, dark olive fabric beneath the armor, fitted dark combat trousers, broad utility belt with large side pouches, forearm guards, fingerless gloves and heavy armored boots. Preserve the compact armor proportions and her original facial features; use the Gears 3 model rather than the older Gears 4 pilot costume. Do not add a prominent bandana, helmet or a different hairstyle. Match the standard campaign shoulder and arm details without inventing decorative tattoo motifs. Create exactly one adult fictional character, full body from the top of the head to the soles of both boots, in a calm neutral standing pose with empty relaxed hands and arms separated slightly from the torso. Three-quarter view facing screen right, close enough to a lateral view to read clearly as a 2D fighting-game character. Preserve anatomical left/right asymmetries when changing the view; do not simply mirror them. Realistic painted 2D character illustration with UHD-quality material detail, natural anatomy and a crisp clean silhouette. A fully transparent RGBA background, no scenery, floor, base, cast shadow outside the body, vignette, lettering, captions, logos, UI, borders, extra figures or alternate views. No held or slung weapons. Leave clear transparent padding around every extremity; no cropping.",
+  "source_game": "Gears of War 3",
+  "source_urls": [
+    "https://www.gearsofwar.com/en-us/games/gears-of-war-3/",
+    "https://chriswells.artstation.com/projects/B3O58",
+    "https://polycount.com/discussion/comment/1451312",
+    "https://www.10wallpaper.com/list/Gears_of_War_3_official_game_wallpaper.html",
+    "https://www.10wallpaper.com/wallpaper/medium/1109/Delta_squad-Sam_Bryne_wallpaper_medium.jpg"
+  ],
+  "output_hint": null,
+  "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID b7183efe-caf8-4273-9fe8-4d9c0b9a4036.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+  "has_image": false,
+  "status": "not_generated"
+}

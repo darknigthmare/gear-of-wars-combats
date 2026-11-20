@@ -1,0 +1,100 @@
+{
+  "id": "cole",
+  "name": "Augustus Cole",
+  "source_game": "Gears of War 3",
+  "prompt": "Augustus “Cole Train” Cole from Gears of War 3, wearing his regular Gears 3 campaign soldier outfit. Adult Black man with Cole’s recognisable broad face, short facial hair and exceptionally powerful, broad-shouldered athletic build. Use his campaign headwear and armor silhouette shown in the official Gears 3 key art: a close-fitting dark field cap, bulky weathered COG chest and shoulder equipment with restrained blue armor lights, exposed muscular upper-arm areas where appropriate to the campaign outfit, sturdy forearm protection, practical belt and pouches, reinforced combat trousers, knee guards and heavy boots. Preserve his original campaign clothing and imposing but believable game anatomy. This is regular campaign Cole, not Thrashball Cole, not Superstar Cole, not a sports uniform, not a helmeted athlete and not the older Gears 5 redesign. His face is calm and neutral rather than shouting or smiling broadly. Create exactly one adult character, alone, full body from the top of the head to both complete boot soles, centered with clear transparent margin around the silhouette. Neutral relaxed standing pose, three-quarter turn toward screen right, clearly readable as a side-view 2D fighting-game character; both arms resting slightly away from the torso, hands visibly empty and relaxed, legs comfortably separated, neutral closed-mouth expression. Respect the character’s original anatomy and game proportions. Realistic hand-painted 2D production illustration with UHD-level material detail, crisp clean contour and controlled soft lighting; no cartoon, no cel shading, no photograph, no plastic miniature. The background must be truly transparent with an alpha channel. No background color, scenery, floor, pedestal, ground plane, cast shadow outside the silhouette, text, caption, UI, watermark, duplicates, inset portrait, alternate view, held weapon, slung weapon, violence, blood or injuries. This is a single reusable neutral character cutout, not a poster or action scene.",
+  "source_urls": [
+    "https://www.gearsofwar.com/en-us/games/gears-of-war-3/",
+    "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/gears-of-war-3-69d7d9132411b-1024x576.jpg",
+    "https://news.xbox.com/en-us/2020/03/31/gears-5-operation-3-gridiron-available-today-for-all-players/"
+  ],
+  "output_hint": "Generated images are saved to /workspace/scratch/1e1136701ce4/generated_images as /workspace/scratch/1e1136701ce4/generated_images/exec-88f05d96-52ac-42a4-9e4a-18d164f0dd10.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "error": null,
+  "has_image": true,
+  "path": "assets/characters_v4/cole_reference_v4.png",
+  "mode": "built-in",
+  "fidelity_approved": false,
+  "width": 1024,
+  "height": 1536,
+  "image_mode": "RGBA",
+  "alpha": true,
+  "alpha_min": 0,
+  "alpha_max": 254,
+  "sha256": "132824804981ebcf0784e376c1fb378bb28547c6be064c99db0f593008284aa9",
+  "qa_notes": [
+    "Personnage unique entier, mains vides, pose neutre et orientation trois-quarts droite inspectées.",
+    "Marge supérieure et marge sous les bottes très faibles : à reprendre avant animation.",
+    "Identité générale de Cole reconnaissable ; armure, tête, symboles et proportions exactes Gears 3 restent à comparer.",
+    "BBox et pixels alpha inspectés ; les marges tête/pieds restent réellement trop étroites.",
+    "Contrôle alpha : les échantillons de fond latéraux, entre les jambes et sous le sujet sont alpha=0. Le point haut central vaut 0–3/255 selon le fichier. Le dégradé RGB aperçu ne prouve donc pas un halo visible ; aucun fond opaque établi."
+  ],
+  "fidelity_status": "À valider",
+  "ready_for_animation": false,
+  "alpha_check": {
+    "alpha_bbox_ge16": [
+      124,
+      5,
+      847,
+      1531
+    ],
+    "transparent_fraction": 0.5777002970377604,
+    "low_alpha_1_15_fraction": 0.017492294311523438,
+    "opaque_ge240_fraction": 0.39704259236653644,
+    "background_samples": {
+      "0,0": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "512,0": [
+        71,
+        67,
+        63,
+        3
+      ],
+      "0,768": [
+        8,
+        6,
+        4,
+        0
+      ],
+      "50,768": [
+        16,
+        13,
+        11,
+        0
+      ],
+      "100,400": [
+        46,
+        39,
+        37,
+        0
+      ],
+      "950,768": [
+        19,
+        15,
+        13,
+        0
+      ],
+      "950,1300": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "512,1535": [
+        31,
+        28,
+        25,
+        0
+      ],
+      "460,1350": [
+        31,
+        26,
+        23,
+        0
+      ]
+    }
+  }
+}

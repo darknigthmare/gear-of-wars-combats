@@ -1,0 +1,388 @@
+{
+  "reviewer": "roster_movesets",
+  "scope": "Pages 58 à 75 incluses du rendu corrigé bible_release",
+  "reviewed_at_utc": "2026-11-19T16:16:10.360596+00:00",
+  "source_pdf": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/Gears_of_War_Combats_Bible_v1.pdf",
+  "source_pdf_sha256": "c29abe4ff71978b976eaff8afefe1ced321e212460ca016c86f2ed9aa47888b0",
+  "all_pages_visually_reviewed": true,
+  "page_count_reviewed": 18,
+  "overall_layout_status": "pass",
+  "blocking_layout_issues": [],
+  "editorial_issues": [],
+  "scope_limit": "Contrôle visuel de la mise en page et des corrections signalées ; ne certifie pas les références canoniques ni le comportement du moteur.",
+  "pages": [
+    {
+      "page": 58,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-58.png",
+      "sha256": "d49127d01b02868aefd013230bf883caa9eb62b81a8063d777b525fd0b2e3226",
+      "dimensions_px": [
+        1547,
+        2002
+      ],
+      "inspection": "PNG ouvert en taille native via view_image, sans redimensionnement ; maximum deux images par sortie de tool",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "overlap": false,
+      "missing_glyph": false,
+      "broken_table": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": [
+        "Tableau des six couches de parallaxe correctement converti et entièrement lisible ; aucun Markdown brut restant. Facteurs visibles : 0,04 / 0,15 / 0,36 / 0,65 / 1,00 / 1,12."
+      ]
+    },
+    {
+      "page": 59,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-59.png",
+      "sha256": "09da70c3f48cfd527786e93ebea11e5056a6ce193ec93c831fdc88418a0cd68a",
+      "dimensions_px": [
+        1547,
+        2002
+      ],
+      "inspection": "PNG ouvert en taille native via view_image, sans redimensionnement ; maximum deux images par sortie de tool",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "overlap": false,
+      "missing_glyph": false,
+      "broken_table": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": []
+    },
+    {
+      "page": 60,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-60.png",
+      "sha256": "e4a20c9a93263763294301ca2cbb2ae9d07e563961af9fb60e1815ef9a546d20",
+      "dimensions_px": [
+        1547,
+        2002
+      ],
+      "inspection": "PNG ouvert en taille native via view_image, sans redimensionnement ; maximum deux images par sortie de tool",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "overlap": false,
+      "missing_glyph": false,
+      "broken_table": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": []
+    },
+    {
+      "page": 61,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-61.png",
+      "sha256": "42a8d4056c6cde9f671638e167e2ca9af88898f770d33396ff22a9c8e45df148",
+      "dimensions_px": [
+        1547,
+        2002
+      ],
+      "inspection": "PNG ouvert en taille native via view_image, sans redimensionnement ; maximum deux images par sortie de tool",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "overlap": false,
+      "missing_glyph": false,
+      "broken_table": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": []
+    },
+    {
+      "page": 62,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-62.png",
+      "sha256": "b9f6fceee77c5faac03339fd69bb116a1e43ac5e394ec14ecc34195199ae8e9a",
+      "dimensions_px": [
+        1547,
+        2002
+      ],
+      "inspection": "PNG ouvert en taille native via view_image, sans redimensionnement ; maximum deux images par sortie de tool",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "overlap": false,
+      "missing_glyph": false,
+      "broken_table": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": []
+    },
+    {
+      "page": 63,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-63.png",
+      "sha256": "9696854fbd50ff9878fbba00f7be75828fb60b3cfc29501ef4bbe7faf733543d",
+      "dimensions_px": [
+        1547,
+        2002
+      ],
+      "inspection": "PNG ouvert en taille native via view_image, sans redimensionnement ; maximum deux images par sortie de tool",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "overlap": false,
+      "missing_glyph": false,
+      "broken_table": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": []
+    },
+    {
+      "page": 64,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-64.png",
+      "sha256": "8fc9a34259bae41f2206d2f0ce50ce6b834f0930ca772ef67c700eac542edd0e",
+      "dimensions_px": [
+        1547,
+        2002
+      ],
+      "inspection": "PNG ouvert en taille native via view_image, sans redimensionnement ; maximum deux images par sortie de tool",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "overlap": false,
+      "missing_glyph": false,
+      "broken_table": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": []
+    },
+    {
+      "page": 65,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-65.png",
+      "sha256": "70b0ec7b480b75b3b0b601a8f79c4184446f68d647b801168b8b667eb03df781",
+      "dimensions_px": [
+        1547,
+        2002
+      ],
+      "inspection": "PNG ouvert en taille native via view_image, sans redimensionnement ; maximum deux images par sortie de tool",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "overlap": false,
+      "missing_glyph": false,
+      "broken_table": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": []
+    },
+    {
+      "page": 66,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-66.png",
+      "sha256": "491aa887cf9676cf9e52d52a04ef9ce4d88de041cf76ef670abbbe77bf1694fd",
+      "dimensions_px": [
+        1547,
+        2002
+      ],
+      "inspection": "PNG ouvert en taille native via view_image, sans redimensionnement ; maximum deux images par sortie de tool",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "overlap": false,
+      "missing_glyph": false,
+      "broken_table": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": [
+        "Reyna Torres humaine est explicitement un personnage narratif. Les jouables du chapitre Tactics sont Gabe, Sid et Mikayla ; une fiche humaine distincte est exigée avant de rendre Reyna jouable."
+      ]
+    },
+    {
+      "page": 67,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-67.png",
+      "sha256": "8dae62fb5d581a8ee13af6312b638ed5d463f99b439255be350971a87a5a317e",
+      "dimensions_px": [
+        1547,
+        2002
+      ],
+      "inspection": "PNG ouvert en taille native via view_image, sans redimensionnement ; maximum deux images par sortie de tool",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "overlap": false,
+      "missing_glyph": false,
+      "broken_table": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": [
+        "La correction « boss humanoïde » pour RAAM est visible."
+      ]
+    },
+    {
+      "page": 68,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-68.png",
+      "sha256": "d84e6d10df05ddc3c0393c3e028745277c29770780316e6f6a77ce2233722e3a",
+      "dimensions_px": [
+        1547,
+        2002
+      ],
+      "inspection": "PNG ouvert en taille native via view_image, sans redimensionnement ; maximum deux images par sortie de tool",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "overlap": false,
+      "missing_glyph": false,
+      "broken_table": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": []
+    },
+    {
+      "page": 69,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-69.png",
+      "sha256": "580d4672defca856bac1b46a6892fad6f366ad6f80541815637c97057aee0f69",
+      "dimensions_px": [
+        1547,
+        2002
+      ],
+      "inspection": "PNG ouvert en taille native via view_image, sans redimensionnement ; maximum deux images par sortie de tool",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "overlap": false,
+      "missing_glyph": false,
+      "broken_table": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": []
+    },
+    {
+      "page": 70,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-70.png",
+      "sha256": "9910485e737837831f6e21b5aab9039f9c612ec242ba28672ef7e2c39dced3bb",
+      "dimensions_px": [
+        1547,
+        2002
+      ],
+      "inspection": "PNG ouvert en taille native via view_image, sans redimensionnement ; maximum deux images par sortie de tool",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "overlap": false,
+      "missing_glyph": false,
+      "broken_table": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": []
+    },
+    {
+      "page": 71,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-71.png",
+      "sha256": "39cd155e3ba22fff6246826c2d2921f2a045292a7ebffc8b0e25522440a0eb98",
+      "dimensions_px": [
+        1547,
+        2002
+      ],
+      "inspection": "PNG ouvert en taille native via view_image, sans redimensionnement ; maximum deux images par sortie de tool",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "overlap": false,
+      "missing_glyph": false,
+      "broken_table": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": []
+    },
+    {
+      "page": 72,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-72.png",
+      "sha256": "f585a05b23dcfe9053ba458c1fabafbe3ee45ae8f0a39a105241646b1ca81c47",
+      "dimensions_px": [
+        1547,
+        2002
+      ],
+      "inspection": "PNG ouvert en taille native via view_image, sans redimensionnement ; maximum deux images par sortie de tool",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "overlap": false,
+      "missing_glyph": false,
+      "broken_table": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": []
+    },
+    {
+      "page": 73,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-73.png",
+      "sha256": "d33cb8016626cc0012b1981a88656d7ed591fa2337fa13ea75af294603ea7e2e",
+      "dimensions_px": [
+        1547,
+        2002
+      ],
+      "inspection": "PNG ouvert en taille native via view_image, sans redimensionnement ; maximum deux images par sortie de tool",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "overlap": false,
+      "missing_glyph": false,
+      "broken_table": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": [
+        "Bibliographie dense mais lisible ; les liens longs reviennent à la ligne sans débordement."
+      ]
+    },
+    {
+      "page": 74,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-74.png",
+      "sha256": "1d7e96da631b96ef9046f0ce692f4f6e404ed7500c27565ea51ea7e9436a8c45",
+      "dimensions_px": [
+        1547,
+        2002
+      ],
+      "inspection": "PNG ouvert en taille native via view_image, sans redimensionnement ; maximum deux images par sortie de tool",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "overlap": false,
+      "missing_glyph": false,
+      "broken_table": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": [
+        "Fin de bibliographie ; réserve blanche inférieure cohérente avec la section suivante, sans page vide parasite."
+      ]
+    },
+    {
+      "page": 75,
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_release/page-75.png",
+      "sha256": "f7d65aebd887032aa930a978222a3b82221e7fee4181c7d5f53a4e0143993273",
+      "dimensions_px": [
+        1547,
+        2002
+      ],
+      "inspection": "PNG ouvert en taille native via view_image, sans redimensionnement ; maximum deux images par sortie de tool",
+      "layout_status": "pass",
+      "clipping": false,
+      "overflow": false,
+      "overlap": false,
+      "missing_glyph": false,
+      "broken_table": false,
+      "orphan_heading": false,
+      "orphan_caption": false,
+      "blank_page": false,
+      "notes": [
+        "Le statut distingue les données de conception, le prototype et les images. La pose unique de Marcus est explicitement distinguée des animations dessinées image par image. En-tête et pied de page revus aussi sur recadrages natifs."
+      ]
+    }
+  ],
+  "revalidation_needed": "Aucune pour ces empreintes. Toute modification du document changeant les PNG exige une nouvelle revue des pages affectées."
+}

@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-20",
+  "asset_validation": {
+    "active_png_files": 50,
+    "archived_png_files": 12,
+    "paths_hashes_and_selection_links": "passed"
+  },
+  "coverage": {
+    "roster_characters": 36,
+    "characters_with_reference": 35,
+    "characters_missing": 1,
+    "character_png_files": 44,
+    "boss_catalog_entries": 24,
+    "bosses_with_reference": 4,
+    "boss_png_files": 4,
+    "stage_catalog_entries": 24,
+    "stages_with_reference": 1,
+    "stage_png_files": 2,
+    "additional_reference_groups": 1,
+    "active_png_files": 50,
+    "unique_active_png_sha256": 50,
+    "archived_png_files": 12,
+    "canonical_fidelity_validated": 0,
+    "completed_animation_sets": 0
+  },
+  "warnings": [],
+  "gallery": {
+    "embedded_catalog_and_javascript_syntax": "passed",
+    "current_readme_and_report_links": "passed",
+    "browser_visual_layout": "not_run_browser_launch_blocked"
+  },
+  "engine": {
+    "existing_tests_passed": 15,
+    "command": "node prototype/tests.cjs"
+  },
+  "data_validation": "docs/data_validation.json",
+  "canvas_validation": "prototype/qa/canvas-report-v5.json",
+  "browser_validation": "prototype/qa/browser-report-v5.json",
+  "new_character_images_visually_inspected": [
+    "dom",
+    "raam",
+    "theron"
+  ],
+  "errors": [],
+  "limits": [
+    "No 1:1 artistic fidelity certification",
+    "No completed animation set",
+    "No physical gamepad verification",
+    "No successful browser layout verification"
+  ]
+}

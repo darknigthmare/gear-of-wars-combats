@@ -1,0 +1,188 @@
+{
+  "render_directory": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final",
+  "render_version": "bible_final, 78 pages, retrait des bordures bleues et budget 552",
+  "actual_pages_inspected": [
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52
+  ],
+  "method": "Inspection visuelle de chaque PNG original avec view_image, deux images au maximum par appel.",
+  "checks": [
+    "débordements de tableaux",
+    "clipping",
+    "titres orphelins",
+    "pieds de page",
+    "lisibilité"
+  ],
+  "anomalies": [
+    {
+      "page": 43,
+      "severity": "major",
+      "section": "Circuits et objectifs",
+      "type": "table_markdown_non_converti",
+      "observation": "Le tableau est imprimé comme du Markdown brut, avec les barres verticales et la ligne |---|---|---|---| visibles, au lieu d’un tableau Word.",
+      "suggested_fix": "Normaliser les lignes vides entre les rangées Markdown avant la conversion en tableau Word.",
+      "correction_status": "Correction annoncée par le parent ; le nouveau rendu bible_release reste à contrôler."
+    }
+  ],
+  "pages": [
+    {
+      "page": 30,
+      "file": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-30.png",
+      "sha256": "0fa5a08ec378d58f788a4e40a2c197be459cc43c109505ec3a7e6879a7810b7b",
+      "visually_inspected": true
+    },
+    {
+      "page": 31,
+      "file": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-31.png",
+      "sha256": "349f8423681e7a75e21821869911d31abea6f813d7f5bf03b69bfebbf308ff95",
+      "visually_inspected": true
+    },
+    {
+      "page": 32,
+      "file": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-32.png",
+      "sha256": "bcfbb16e1fee7a8bda0e33a4b37829796ed331d8186e8f3c87bb00cb45d2424b",
+      "visually_inspected": true
+    },
+    {
+      "page": 33,
+      "file": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-33.png",
+      "sha256": "5d06ccdbac423bf2eb7c6e5a022de3852e85c6326c22d25eec6aa50a9127d24d",
+      "visually_inspected": true
+    },
+    {
+      "page": 34,
+      "file": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-34.png",
+      "sha256": "b743f0d26f1d4c4e0b4ddb8ce3f58890c95254212a204c0df491674c0423a4d6",
+      "visually_inspected": true
+    },
+    {
+      "page": 35,
+      "file": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-35.png",
+      "sha256": "37fff18040aafb09c7efb11c8bcf4e2d0e64e37b58560b151889d17ba1021bf8",
+      "visually_inspected": true
+    },
+    {
+      "page": 36,
+      "file": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-36.png",
+      "sha256": "af301dfcb4c0224f8c16785cb86f7b502841a0949686f4e8f1b6414d29e98878",
+      "visually_inspected": true
+    },
+    {
+      "page": 37,
+      "file": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-37.png",
+      "sha256": "543cb03f5da602f57e0af23330fc06c02d3f7aa0f0ad89a9ebf0c9a4a2feb04c",
+      "visually_inspected": true
+    },
+    {
+      "page": 38,
+      "file": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-38.png",
+      "sha256": "cb1a35e591680aa174993a144022fcd0b9ab107b9d5aa5963af15e632d391211",
+      "visually_inspected": true
+    },
+    {
+      "page": 39,
+      "file": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-39.png",
+      "sha256": "bcd210ac01b2add5dce76a4ede561c523db248c032b7b7a5ef3c837b97ad4f86",
+      "visually_inspected": true
+    },
+    {
+      "page": 40,
+      "file": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-40.png",
+      "sha256": "5f6d48e0c2249930c08226be9bfb3eb9ce97212c9f3bd7c3bb89fcc311ebc785",
+      "visually_inspected": true
+    },
+    {
+      "page": 41,
+      "file": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-41.png",
+      "sha256": "50054f26949b3c44fd5c261be9e93cf05c9947aab9be6ab55d6dbfa3b2049acc",
+      "visually_inspected": true
+    },
+    {
+      "page": 42,
+      "file": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-42.png",
+      "sha256": "7e22610fc809187a8ba0ca749ce7a3263e8ecb78d29e8c985cd55c08c04eda09",
+      "visually_inspected": true
+    },
+    {
+      "page": 43,
+      "file": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-43.png",
+      "sha256": "5cb9fa071b9ae42c0f4e893fd195bcfd0c8b0d5791205b6fc745ef2010507a70",
+      "visually_inspected": true
+    },
+    {
+      "page": 44,
+      "file": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-44.png",
+      "sha256": "3773dd0bd062c9c798e020c546bf09e3f8e90a63f5a98d2365807a3b28f71ad6",
+      "visually_inspected": true
+    },
+    {
+      "page": 45,
+      "file": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-45.png",
+      "sha256": "9eff6cf077a0d59e43c798595a3b71024e2cec96217bb47e39e24f9fb50600f0",
+      "visually_inspected": true
+    },
+    {
+      "page": 46,
+      "file": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-46.png",
+      "sha256": "cd3489547b7a63cb9e9abaa44106337b9b2b1ba211f4fea0f2bef564f1c85f32",
+      "visually_inspected": true
+    },
+    {
+      "page": 47,
+      "file": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-47.png",
+      "sha256": "5e8d6404c86bfa7a30ebcbfd5af6ef0b98396026df37cbf80a5f84b9a8e67dff",
+      "visually_inspected": true
+    },
+    {
+      "page": 48,
+      "file": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-48.png",
+      "sha256": "28d885804219071a7a9d06140d26fe3ba7138a55313561068c49709e9378e996",
+      "visually_inspected": true
+    },
+    {
+      "page": 49,
+      "file": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-49.png",
+      "sha256": "e41c6160b2f6fd21ececb034dd9560e20c5f500dd388d87605f8597693aeb462",
+      "visually_inspected": true
+    },
+    {
+      "page": 50,
+      "file": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-50.png",
+      "sha256": "aae268b2d5575cfe277670726aaf2587c063af34f1794ee51a487b67afadb7c7",
+      "visually_inspected": true
+    },
+    {
+      "page": 51,
+      "file": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-51.png",
+      "sha256": "12663f2a601e467011d00b94027312facdcf452a98364446d7e770b5a2cd268b",
+      "visually_inspected": true
+    },
+    {
+      "page": 52,
+      "file": "/workspace/scratch/230d6e8ab6bb/tmp/qa/bible_final/page-52.png",
+      "sha256": "619df4295645eab6497cc7760e72e80a3e8edc49dc7c00e593b88ef1dcf9b023",
+      "visually_inspected": true
+    }
+  ]
+}

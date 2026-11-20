@@ -1,0 +1,58 @@
+{
+  "baird": {
+    "verdict": "À valider",
+    "note": "Manches inventées retirées ; haut des bras conforme au visuel Gears 3. Petits panneaux, visage et marges avant animation à vérifier."
+  },
+  "jd": {
+    "verdict": "À valider",
+    "note": "Variante après ellipse et bras droit marqué reconnaissables ; détails du visage, des marques et attaches non certifiés."
+  },
+  "del": {
+    "verdict": "À corriger",
+    "note": "Bretelles lumineuses améliorées. Les grilles doivent redevenir de petites ouvertures rectangulaires au milieu des plaques pectorales circulaires."
+  },
+  "lizzie": {
+    "verdict": "À corriger",
+    "note": "Casque, optiques et col réinterprétés ; la correction demandée a été refusée par le système d’image. Version initiale conservée comme candidat."
+  },
+  "sid": {
+    "verdict": "À valider",
+    "note": "Version corrigée d’après le rendu officiel ; cache-œil anatomiquement gauche et pièces principales cohérents. Liserés de détourage à vérifier sur décor."
+  },
+  "paduk": {
+    "verdict": "À valider",
+    "note": "Armure Judgment corrigée à partir du visuel promotionnel. Teintes exactes et partie inférieure des bottes non établies par cette référence."
+  },
+  "sofia": {
+    "verdict": "À valider",
+    "note": "Tenue Onyx et plastron corrigés. Visage, coiffure arrière et détourage à valider ; marge supérieure étroite avant préparation des sprites."
+  },
+  "jack": {
+    "verdict": "À valider",
+    "note": "Capot et modules triangulaires corrigés. Orientation fine des modules, panneaux et configuration des outils encore à vérifier."
+  },
+  "locust_drone": {
+    "verdict": "À valider",
+    "note": "Identité reconnaissable ; panneau par panneau, variante du Drone et correspondance au modèle de 2006 non certifiées."
+  },
+  "kantus": {
+    "verdict": "À valider",
+    "note": "Casque, col, anneaux et pans corrigés. Jambes et pieds comparés à un concept, sans certification du modèle final."
+  },
+  "skorge": {
+    "verdict": "À corriger",
+    "note": "Plastron et abdomen améliorés. Casque encore nervuré horizontalement au lieu de la plaque frontale en V ; liens de tête encore plats."
+  },
+  "reyna": {
+    "verdict": "À corriger",
+    "note": "Cheveux, carapace et vrilles rétablis. Cristaux du front encore en arc de diadème au lieu de l’amas asymétrique ; bas du corps non documenté."
+  },
+  "swarm_drone": {
+    "verdict": "À valider",
+    "note": "Swarm Drone reconnaissable ; équipement précis de la variante Rifle de Gears 4 à comparer au modèle du jeu."
+  },
+  "grenadier": {
+    "verdict": "À valider",
+    "note": "Grenadier reconnaissable ; grenades attachées au harnais acceptées, modèle et quantité exacts de la version Tactics à vérifier."
+  }
+}

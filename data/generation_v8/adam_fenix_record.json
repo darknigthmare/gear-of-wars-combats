@@ -1,0 +1,101 @@
+{
+  "id": "adam_fenix_gow3_multiplayer_v8",
+  "subject_id": "adam_fenix",
+  "category": "character",
+  "character_id": "adam_fenix",
+  "name": "Adam Fenix",
+  "variant": "Gears of War 3 — Soldier Adam, personnage multijoueur",
+  "source_game": "Gears of War 3",
+  "catalog_target_game": "Gears of War 3",
+  "purpose": "reference_fullbody",
+  "variant_relation": "target_version_candidate",
+  "status": "generated_reference_pending_validation",
+  "asset_path": "assets/characters_v8/adam_fenix_gow3_multiplayer_fullbody.png",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-20",
+  "canonical_fidelity_validated": false,
+  "prompt": "Use case: identity-preserve. Asset type: one transparent full-body character reference for Gears of War Combats. Reproduce exactly ONE Adam Fenix in his Soldier Adam multiplayer appearance from Gears of War 3 (2011), based on the supplied complete promotional render. This is the bald older man with a close gray beard in sleeveless COG armor, not Marcus Fenix and not Adam's scientist campaign costume. Preserve the reference's recognizable face, age, bald scalp, gray short beard and moustache, stern brow, muscular stocky build and very heavy Gears proportions. Preserve the complete original armor design and its arrangement: dark gunmetal and worn silver COG chest plate with two large circular chest housings and their diagonal curved inner bars, black central vertical chest vents, short metal shoulder plates, the small blue shoulder lights, exposed muscular upper arms and forearms, dark gray underlayer, broad metal belt with round cog-like central buckle, matching hip holsters and hanging black thigh utility pouches, reinforced dark charcoal trousers, angular metal knee armor, dark armored shin guards and bulky scuffed boots with metal toe protection. Keep all rivets, straps, seams, symbols and surface wear as close as the reference permits. Use the same calm standing pose and same slight three-quarter view facing screen-right. The anatomical right arm hangs relaxed at screen-left. His anatomical left hand at screen-right holds the same Lancer vertically muzzle-down, matching the reference exactly: upper buttstock under the hand, chainsaw teeth along the weapon's outer screen-right edge, worn gray angular housing, black ribbing and small blue accents. Preserve the rifle's full length, exact silhouette and scale relative to him; keep the weapon separate from his boot and inside the frame. One person and one held rifle only. Keep the complete head, both hands, all equipment, both legs and both boots visible. Portrait canvas, zoom out enough that the figure and weapon occupy at most 82 percent of image height, with at least 8 percent empty transparent padding above the head and below the lowest boot, and at least 10 percent at each side. Faithful detailed raster game-render materials, soft neutral studio lighting, readable textures without redesign or stylization. True transparent alpha background. Remove the original black backdrop; no black or gray filled background, no floor, no pedestal, no cast ground shadow, no vignette, no fog, no title, no captions, no watermark, no frame, no collage or multiple views. No bandana, helmet, lab coat, scientist glasses or armor borrowed from another Gears edition. This is a single static reference asset, not a claim of an extracted game model.",
+  "sources": [
+    {
+      "page_url": "https://www.xbox.com/en-us/games/store/adam-fenix-multiplayer-character/btt6glfffmlv",
+      "source_type": "official_publisher_store",
+      "scope": "Microsoft Studios et Epic Games identifient Adam Fenix Multiplayer Character comme contenu de Gears of War 3. Source de l'identité et de l'édition, sans référence visuelle en pied utilisée depuis cette fiche.",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://news.xbox.com/en-us/2011/06/06/announcing-the-xbox-360-gears-of-war-3-limited-edition-console/",
+      "source_type": "official_publisher_announcement",
+      "scope": "Source Microsoft déjà associée à adam_fenix dans le catalogue V7 ; l'offre de console Gears of War 3 comprend le personnage multijoueur Adam Fenix. Aucune image de cette page n'est utilisée par la génération.",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://gamelysium.blogspot.com/2011/05/se-revela-el-contenido-de-las-ediciones.html",
+      "image_url": "https://1.bp.blogspot.com/-_FwVL9f05VA/TdFWK5eO77I/AAAAAAAAAR0/IcY5egcFvbs/s1600/Soldier_Adam-752x1024.jpg",
+      "source_type": "game_promotional_render_reproduced_by_press",
+      "scope": "Article du 16 mai 2011 consacré aux éditions Limited et Epic de Gears of War 3, décrivant le code du personnage Adam Fenix multijoueur. Le fichier Soldier_Adam-752x1024.jpg montre la tenue en pied, bras nus, armure aux deux disques pectoraux, ceinture, sacoches, genouillères, bottes et Lancer vertical. Référence visuelle unique, téléchargée et inspectée avant génération. Il s'agit d'une reproduction promotionnelle sur un site tiers, sans crédit d'artiste individuel ni validation exhaustive du modèle commercialisé en septembre 2011.",
+      "visual_reference_used": true,
+      "reference_sha256": "ebc8dcff8859173ee554205b8e592be1318726a03f63c1a5e21e12db1d5ce5a1",
+      "reference_width": 752,
+      "reference_height": 1024
+    },
+    {
+      "page_url": "https://mygears3.weebly.com/adam-fenix.html",
+      "image_url": "https://mygears3.weebly.com/uploads/3/1/7/0/31708919/9528072_orig.jpg",
+      "source_type": "third_party_gameplay_capture_supplementary",
+      "scope": "Capture du menu Character Setup portant le nom Adam Fenix, inspectée durant la recherche antérieure à la panne du workspace. Elle corrobore l'apparence multijoueur et les grands éléments de l'armure ; elle coupe les jambes et n'a pas été fournie au générateur.",
+      "visual_reference_used": false
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "white_composite_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Un seul Adam Fenix entier en tenue multijoueur : tête chauve, barbe grise courte, bras nus, deux mains, deux jambes, deux bottes et Lancer entièrement visibles.",
+      "La pose et le léger trois-quarts vers la droite suivent le rendu de référence ; le bras droit anatomique tombe à gauche de l'image et la main gauche tient le Lancer vertical à droite.",
+      "Les deux disques pectoraux, les évents centraux, les petites lumières bleues des épaules, la ceinture circulaire, les sacoches de cuisse et les protections des jambes restent reconnaissables.",
+      "Le PNG natif a un canal alpha réel de 0 à 255 ; le compositing sur fond blanc a été inspecté. Le noir visible dans l'aperçu initial ne constitue pas un fond opaque.",
+      "Marges au seuil alpha >= 128 : 167 px à gauche, 80 px en haut, 74 px à droite et 52 px en bas. Les marges haut/bas sont inférieures aux 8 % demandés et la marge droite aux 10 %, sans coupe du sujet.",
+      "Le visage, les textures de peau, les petits rivets et l'usure sont une réinterprétation générative du rendu 752×1024 ; leur égalité exacte au modèle du jeu n'est pas établie.",
+      "La silhouette complète du Lancer est présente. Sa géométrie fine, les petites ouvertures, les dents et la poignée demandent encore une comparaison détaillée avec le modèle final.",
+      "Aucun vêtement de scientifique de campagne ni design d'une autre édition n'a été demandé ou utilisé comme référence."
+    ],
+    "remaining_checks": [
+      "Comparer ce candidat avec des vues du modèle multijoueur commercialisé de Gears of War 3, notamment face, dos et profil ; la référence promotionnelle date de mai 2011.",
+      "Vérifier précisément les traits du visage, les petits symboles pectoraux et de ceinture, le placement des sangles et les attaches des holsters.",
+      "Vérifier la géométrie et les détails du Lancer, des deux mains, des genouillères et des bottes à une résolution supérieure.",
+      "Préparer une pose de combat, les pivots et les animations avant une intégration jouable ; ce PNG reste une référence statique.",
+      "Augmenter les marges verticales et à droite lors d'une prochaine génération si l'atlas de production le requiert, sans certifier automatiquement la fidélité 1:1."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1075,
+    "height": 1463,
+    "bytes": 1637565,
+    "sha256": "ecc9715539f8f18858dda4072ec3fe0836f9ad8582a8c106db0b50c7abe9759a",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.5962568154000223,
+    "subject_bbox_alpha_ge_128": [
+      167,
+      80,
+      1001,
+      1411
+    ],
+    "subject_margins_ltrb_px": [
+      167,
+      80,
+      74,
+      52
+    ]
+  }
+}

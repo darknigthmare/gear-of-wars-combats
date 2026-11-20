@@ -1,0 +1,205 @@
+{
+  "id": "kantus",
+  "reviewed_version": "v3",
+  "asset_path": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/kantus_reference_v3.png",
+  "sha256": "85900a7d134c2c1731dd4a4eda09b7e85d4771e6c9bf3a8848a87d0319a7fa84",
+  "inspection": "PNG v3 inspecté visuellement à taille native via view_image, comparé aux références déjà téléchargées et inspectées. Canal alpha contrôlé par Pillow sans modifier ni réenregistrer le fichier.",
+  "recommended_version": "v3",
+  "recommended_asset_path": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/kantus_reference_v3.png",
+  "previous_version": {
+    "asset_path": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/kantus_reference_v2.png",
+    "sha256": "d8b4e86f04716870b83db4fbb2b4e7a22f28589ccf9daa8e6f02a18e733b2247",
+    "not_selected_reason": "La v2 présente des écarts d’identité plus importants que la v3 ; conserver uniquement comme historique de production."
+  },
+  "verdict": "À valider",
+  "verdict_reason": "La v3 rétablit les signes distinctifs directement vérifiables du Kantus Gears 2 : casque vertical, col épais, paire d’anneaux, tenue sombre et pans séparés. Aucun écart d’identité majeur supplémentaire n’est établi sur les vues disponibles. Les parties non couvertes par les références restent à valider, surtout les jambes et les pieds.",
+  "overall_status": "version_corrigee_a_valider",
+  "canon_1_to_1_certified": false,
+  "subject_recognizable": {
+    "status": "yes_with_reservations",
+    "observation": "Kantus standard Gears 2 maintenant reconnaissable grâce au haut casque vertical, au grand col, aux deux anneaux de poitrine et aux pans séparés laissant l’abdomen visible."
+  },
+  "full_silhouette": {
+    "status": "pass",
+    "observation": "Tête ou couronne, mains et deux pieds visibles ; aucune extrémité du personnage coupée.",
+    "substantial_alpha_bbox": [
+      212,
+      14,
+      813,
+      1527
+    ],
+    "margin_px_alpha_ge_128": {
+      "left": 212,
+      "top": 14,
+      "right": 211,
+      "bottom": 9
+    }
+  },
+  "one_pose": {
+    "status": "pass",
+    "observation": "Un personnage, une pose, sans encart ni doublon."
+  },
+  "angle": {
+    "status": "pass",
+    "observation": "Trois-quarts vers la droite, avec lecture du visage et du torse ; pas de profil orthographique."
+  },
+  "empty_hands": {
+    "status": "pass",
+    "observation": "Deux mains visibles et vides, abaissées ou relâchées ; aucun objet tenu."
+  },
+  "neutral_presentation": {
+    "status": "pass",
+    "observation": "Station immobile au repos, sans geste offensif ni scène de combat."
+  },
+  "alpha": {
+    "mode": "RGBA",
+    "size_px": [
+      1024,
+      1536
+    ],
+    "min": 0,
+    "max": 254,
+    "alpha_zero_pixels": 1097553,
+    "alpha_zero_fraction": 0.697805,
+    "pixels_alpha_1_to_15": 23993,
+    "substantial_alpha_bbox": [
+      212,
+      14,
+      813,
+      1527
+    ],
+    "corner_samples_rgba": {
+      "(0, 0)": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "(1023, 0)": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "(0, 1535)": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "(1023, 1535)": [
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    "interpretation": "Le fond RGB visible dans l’outil ne constitue pas un fond opaque : les quatre coins ont alpha 0. Le maximum alpha 254 correspond au comportement du générateur et ne constitue pas un défaut. Présence de faibles valeurs alpha enregistrée sans nettoyage."
+  },
+  "improvements_from_v2": [
+    "La crête organique orientée en arrière de la v2 a été remplacée par le casque vertical du vocabulaire visuel Gears 2.",
+    "Le col relevé épais encadre désormais la tête.",
+    "Deux anneaux distincts sont placés sous la poitrine, au lieu du grand anneau central inventé.",
+    "La tenue est sombre avec des bordures métalliques, au lieu d’une robe fantasy ornée de losanges.",
+    "L’ouverture centrale restitue l’abdomen visible entre les pans du vêtement.",
+    "Les bras portent des bandes et la peau pâle reste visible comme sur les références."
+  ],
+  "residual_differences": [
+    {
+      "severity": "non_certifie",
+      "area": "casque_et_bas_du_visage",
+      "evidence": "limite_resolution_reference",
+      "observation": "Le masque inférieur, ses pièces circulaires et les fines nervures du casque ne peuvent pas être certifiés à partir du rendu de modèle de 360×480 pixels et de la capture à éclairage sombre. Le résultat est proche dans sa structure, sans validation de chaque pièce.",
+      "reference": "kantus_gears2_model_2008.webp ; kantus_gears2_gameplay.webp",
+      "recommended_action": "Valider les détails du casque et du visage sur le modèle du jeu avant fabrication définitive."
+    },
+    {
+      "severity": "non_certifie",
+      "area": "pans_et_fermetures",
+      "evidence": "limite_des_references",
+      "observation": "Le nombre exact de fermetures centrales, la longueur des pans latéraux et leur terminaison ne sont pas complètement couverts par les vues du modèle final. La v3 reprend correctement le principe des pans séparés.",
+      "reference": "kantus_gears2_model_2008.webp",
+      "recommended_action": "Conserver une réserve sur les détails et longueurs ; ne pas affirmer une reproduction exacte du costume."
+    },
+    {
+      "severity": "non_certifie",
+      "area": "jambes_et_pieds",
+      "evidence": "concept_seulement",
+      "observation": "Le modèle final téléchargé est coupé au-dessus du bas des jambes. La seule référence entière est un concept de production. Les genouillères, bandes de tibias, chevilles, pieds et orteils de la v3 restent donc non certifiés.",
+      "reference": "kantus_gears2_full_concept_2008.webp",
+      "recommended_action": "Ne pas présenter le concept comme une preuve des pieds du modèle final."
+    },
+    {
+      "severity": "minor",
+      "area": "cadrage",
+      "evidence": "mesure_alpha",
+      "observation": "Le corps est entier, mais les marges supérieure et inférieure restent étroites : 14 et 9 pixels au seuil alpha 128. Aucun élément n’est coupé.",
+      "recommended_action": "Prévoir du dégagement à l’intégration ou lors d’une éventuelle exportation future, sans modifier ce fichier pendant la QA."
+    }
+  ],
+  "visible_defects": [
+    {
+      "severity": "minor",
+      "area": "cadrage",
+      "evidence": "mesure_alpha",
+      "observation": "Le corps est entier, mais les marges supérieure et inférieure restent étroites : 14 et 9 pixels au seuil alpha 128. Aucun élément n’est coupé.",
+      "recommended_action": "Prévoir du dégagement à l’intégration ou lors d’une éventuelle exportation future, sans modifier ce fichier pendant la QA."
+    }
+  ],
+  "fidelity_uncertified": [
+    "Le masque inférieur, ses pièces circulaires et les fines nervures du casque ne peuvent pas être certifiés à partir du rendu de modèle de 360×480 pixels et de la capture à éclairage sombre. Le résultat est proche dans sa structure, sans validation de chaque pièce.",
+    "Le nombre exact de fermetures centrales, la longueur des pans latéraux et leur terminaison ne sont pas complètement couverts par les vues du modèle final. La v3 reprend correctement le principe des pans séparés.",
+    "Le modèle final téléchargé est coupé au-dessus du bas des jambes. La seule référence entière est un concept de production. Les genouillères, bandes de tibias, chevilles, pieds et orteils de la v3 restent donc non certifiés."
+  ],
+  "local_reference_paths": [
+    {
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_reference/kantus_gears2_model_2008.webp",
+      "sha256": "55ebd743ff90dae0c681b51a0f7525eebd5973f83fd08d635709316044b39864",
+      "image_url": "https://static.wikia.nocookie.net/gearsofwar/images/e/e3/Gears-of-war-2-20080625113926400_640w.jpg/revision/latest",
+      "source_page": "https://gearsofwar.fandom.com/wiki/Category:Images_of_Kantus",
+      "type": "rendu_modele_Gears_2_republication_secondaire",
+      "verification_scope": "Modèle de 2008 portant le filigrane IGN ; tête, col, anneaux, pans séparés, abdomen et cuisses visibles ; bas des jambes et pieds hors cadre.",
+      "pixels_modified": false
+    },
+    {
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_reference/kantus_gears2_gameplay.webp",
+      "sha256": "205d387d932bc928a4393d9d4421da3c8886b104389ea4368b226241293b164e",
+      "image_url": "https://static.wikia.nocookie.net/gearsofwar/images/a/a0/Gow-2-kantus.jpg/revision/latest",
+      "source_page": "https://gearsofwar.fandom.com/wiki/Category:Images_of_Kantus",
+      "type": "capture_Gears_2_republication_secondaire",
+      "verification_scope": "Confirme casque, visage, grand col rigide et anneaux de poitrine ; vue du haut seulement. Arme tenue dans la référence à ne pas reproduire.",
+      "pixels_modified": false
+    },
+    {
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_reference/kantus_gears2_full_concept_2008.webp",
+      "sha256": "b89dded5666d6e9f762180f3ab77b6d14b3687587021fd4fc19372745af5f647",
+      "image_url": "https://static.wikia.nocookie.net/gearsofwar/images/8/8b/Gears-of-war-2-20080625113906228_640w.jpg/revision/latest",
+      "source_page": "https://gearsofwar.fandom.com/wiki/Category:Images_of_Kantus",
+      "type": "concept_2008_corps_entier_republication_secondaire",
+      "verification_scope": "Corps entier, protections de jambes et pieds visibles ; dessin préparatoire, pas une certification du modèle de jeu final.",
+      "pixels_modified": false
+    },
+    {
+      "path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_reference/kantus_gears2_gamerscore_2008.jpg",
+      "sha256": "367230ba801d463845c25b96f7fcf21aa34b2c1cdf71fc657e3fe5a0619c8a6f",
+      "image_url": "https://live.staticflickr.com/3163/3022163159_332380e008.jpg",
+      "source_page": "https://www.flickr.com/photos/gamerscore/3022163159/",
+      "type": "concept_promotionnel_2008",
+      "verification_scope": "Publication Gamerscore Blog du 11 novembre 2008, Gears of War 2 – Kantus Priest ; structure de casque, col, anneaux et deux longs pans. Coupe aux cuisses.",
+      "pixels_modified": false
+    }
+  ],
+  "source_urls": [
+    "https://gearsofwar.fandom.com/wiki/Category:Images_of_Kantus",
+    "https://www.flickr.com/photos/gamerscore/3022163159/",
+    "https://static.wikia.nocookie.net/gearsofwar/images/e/e3/Gears-of-war-2-20080625113926400_640w.jpg/revision/latest",
+    "https://static.wikia.nocookie.net/gearsofwar/images/a/a0/Gow-2-kantus.jpg/revision/latest",
+    "https://static.wikia.nocookie.net/gearsofwar/images/8/8b/Gears-of-war-2-20080625113906228_640w.jpg/revision/latest",
+    "https://live.staticflickr.com/3163/3022163159_332380e008.jpg"
+  ],
+  "source_limits": "Les images de modèle et de jeu sont des republications secondaires identifiées comme Gears 2. Le concept Gamerscore est contemporain, mais reste un dessin de production. Les corrections tête/col/anneaux/pans sont directement corroborées ; les jambes et pieds restent non certifiés. La page Gamereactor a été exclue : ses légendes ne correspondent plus aux fichiers servis.",
+  "pack_recommendation": "Retenir la v3 dans le pack avec le verdict et les réserves de cette fiche. Cette QA clôt la comparaison ; elle ne demande aucune nouvelle génération et ne certifie pas une fidélité 1:1.",
+  "image_modified": false,
+  "new_research_performed": false,
+  "generation_or_retry_performed": false
+}

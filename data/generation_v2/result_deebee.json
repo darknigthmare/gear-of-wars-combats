@@ -1,0 +1,18 @@
+{
+  "id": "deebee",
+  "name": "DeeBee",
+  "prompt": "Exactly one standard DeeBee Shepherd robot from Gears of War 4, in its canonical intact security-unit chassis, standing upright at rest with both mechanical hands empty and relaxed. Keep the recognizable faceless rectangular robotic head and its clustered small indicator lenses, compact humanoid proportions, worn silver-gray metal armor with dark navy coverings, paired circular louvered chest housings, exposed mechanical neck, elbows, hips and knees, articulated metal fingers and substantial mechanical feet. Use restrained amber-yellow security-state indicators for this neutral Peacekeeper reference, not the blue recolor of a Gears 5 multiplayer teammate. Preserve the actual Shepherd panel layout, joint construction and symmetrical industrial body design; no human face, no flesh, no helmet added over the robot head, no large DR-1 body, no Deadeye-specific equipment and no Swarm corruption. Full chassis from head to both feet, three-quarter view facing screen right, readable from the side. Faithful realistic painted 2D game-asset illustration with UHD-quality materials and a sharp clean silhouette. Fully transparent RGBA background, no scene, floor, base, cast shadow outside the robot, typography, labels, UI, logos or extra robots. One robot and one view only, with clear padding around the head, fingertips and feet. No held or slung weapon and no active combat effects.",
+  "source_game": "Gears of War 4",
+  "source_urls": [
+    "https://www.gearsofwar.com/en-us/games/gears-of-war-4/",
+    "https://primagames.com/eguides/gears-of-war-4-eguide/enemy-forces/deebees",
+    "https://www.artstation.com/artwork/LJO50",
+    "https://gearsofwar.fandom.com/wiki/Shepherd",
+    "https://www.deviantart.com/spartan22294/art/GoW4-DeeBees-Shepherd-739757915",
+    "https://vignette.wikia.nocookie.net/gearsofwar/images/2/23/DeeBee_concepto_01_GoW4.jpg/revision/latest?cb=20201006063735&path-prefix=es"
+  ],
+  "output_hint": null,
+  "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID f703ecca-d07d-4d1d-9a80-f1dca5aa4e71.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+  "has_image": false,
+  "status": "not_generated"
+}

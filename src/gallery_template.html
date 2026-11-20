@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gears of War Combats — Galerie de production</title>
+  <style>
+    :root{color-scheme:dark;--bg:#101317;--panel:#1b2026;--panel2:#242b33;--line:#37414c;--ink:#f4f6f8;--muted:#b7c1cb;--red:#ee6d63;--amber:#edc581;--blue:#9fc3ed}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:var(--blue);text-underline-offset:3px}a:hover{color:#fff}button,input,select{font:inherit}button,select,input{color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:7px}button{cursor:pointer}button:focus-visible,select:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid var(--blue);outline-offset:4px}[hidden]{display:none!important}
+    .shell{max-width:1600px;margin:auto;padding:28px clamp(16px,3vw,46px) 48px}.topline{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap}.eyebrow{color:var(--red);text-transform:uppercase;letter-spacing:.14em;font-size:11px;font-weight:800}.toplinks{display:flex;flex-wrap:wrap;gap:10px 18px;font-size:13px}h1{font-size:clamp(29px,4.5vw,54px);line-height:1.05;letter-spacing:-.035em;margin:27px 0 15px}header .intro{color:var(--muted);max-width:890px;font-size:16px;margin:0}.scope{color:var(--amber);font-size:13px;margin:17px 0 22px;border-left:3px solid var(--red);padding-left:12px}.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:24px 0}.stat{padding:17px 20px;background:var(--panel);border:1px solid var(--line);border-radius:9px}.stat strong{font-size:28px;display:block;line-height:1.15;font-variant-numeric:tabular-nums}.stat span{display:block;margin-top:5px;font-size:12px;color:var(--muted)}
+    .controls{display:flex;flex-wrap:wrap;gap:12px;align-items:end;padding:18px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.search{flex:1 1 270px}.controls label{display:flex;flex-direction:column;gap:5px;font-size:12px;color:var(--muted)}input,select{padding:10px 12px;min-width:0}input{width:100%}.filters{display:flex;gap:6px;flex-wrap:wrap}.filters button{padding:10px 13px;min-height:43px;font-weight:600;font-size:13px}.filters button[aria-pressed="true"]{background:#d35d52;border-color:#f48c83;color:white}.resultline{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin:19px 0;font-size:13px;color:var(--muted)}.resultline p{margin:0}.checker-option{display:flex;align-items:center;gap:7px;cursor:pointer}.checker-option input{width:auto;accent-color:var(--red)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px;align-items:start}.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden;min-width:0}.card-top{padding:14px 16px 12px}.card-top h2{font-size:19px;line-height:1.25;margin:7px 0 3px;letter-spacing:-.015em}.card-top p{font-size:12px;color:var(--muted);margin:0}.badges{display:flex;gap:5px;flex-wrap:wrap;align-items:center;min-height:22px}.badge{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.025em;padding:3px 7px;border-radius:4px;background:#2b3b4e;color:#c7defa}.badge.warning{background:#4a3822;color:#f5d092}.badge.missing{background:#422a2b;color:#ffb1a8}.badge.subtle{background:#303741;color:#c8d1da}.preview{display:flex;align-items:center;justify-content:center;height:350px;width:100%;background:#2d333a;text-decoration:none;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.checker .preview{background-color:#c7cbd0;background-image:conic-gradient(#e0e3e7 25%,transparent 0 50%,#e0e3e7 0 75%,transparent 0);background-size:24px 24px}.preview img{display:block;width:100%;height:100%;object-fit:contain;padding:12px}.preview:focus-visible{outline-offset:-4px}.empty-preview{padding:30px;text-align:center;flex-direction:column;gap:12px;background:#181d23!important;color:var(--muted)}.empty-preview strong{font-size:22px;color:#d5dce4}.empty-preview span{font-size:13px;max-width:225px}.missing-mark{height:55px;width:55px;border:2px dashed #58616c;border-radius:50%;display:grid;place-items:center;font-size:27px;color:#858f9c}.card-body{padding:15px 16px 17px}.variant-label{font-size:12px;color:var(--muted);display:block;margin-bottom:6px}.variant-select{display:block;width:100%;font-size:12px;min-height:42px;white-space:normal;margin-bottom:10px}.version{margin:0 0 10px;font-size:13px;min-height:20px;color:#dce3ea}.metadata{display:flex;gap:6px 12px;flex-wrap:wrap;color:var(--muted);font-size:11px;margin:10px 0}.primary-note{font-size:12px;color:var(--amber);margin:8px 0}.details{border-top:1px solid var(--line);margin-top:11px;padding-top:10px;font-size:12px}.details summary{cursor:pointer;color:var(--blue);font-weight:600}.details ul{padding-left:19px;margin:10px 0 4px;color:var(--muted)}.details li{margin:7px 0}.details a{overflow-wrap:anywhere}.open-link{font-size:12px;font-weight:600}.empty-result{padding:55px 20px;text-align:center;border:1px dashed var(--line);border-radius:9px;color:var(--muted)}footer{margin-top:36px;border-top:1px solid var(--line);padding-top:22px;color:var(--muted);font-size:13px}footer p{max-width:1050px}footer details{margin-top:17px}footer summary{cursor:pointer;color:var(--blue)}.archive-list{columns:2;column-gap:25px;padding-left:19px;font-size:12px}.archive-list li{break-inside:avoid;margin:8px 0;overflow-wrap:anywhere}
+    @media(max-width:720px){.shell{padding-top:20px}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.stat{padding:14px}.stat strong{font-size:25px}.controls{align-items:stretch}.controls>label{flex:1 1 200px}.filters{width:100%}.filters button{flex:1 1 auto}.grid{grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}.archive-list{columns:1}.toplinks{font-size:12px}.preview{height:380px}}
+    @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+  </style>
+</head>
+<body>
+<div class="shell checker" id="app">
+  <header>
+    <div class="topline"><span class="eyebrow">Catalogue de production · 20 novembre 2026</span><nav class="toplinks" aria-label="Documents du projet"><a href="docs/production/CONSOLIDATION_2026-11-20.md">Bilan de consolidation</a><a href="production/coverage.json">Inventaire de couverture</a><a href="prototype/Gears_Combats_Prototype.html">Prototype</a></nav></div>
+    <h1>Gears of War Combats</h1>
+    <p class="intro">Personnages, costumes, boss et stages : les références produites et les éléments restant à illustrer. Les extensions du catalogue sont séparées des 36 fiches du roster de conception ; une variante ne crée pas un personnage supplémentaire.</p>
+    <p class="scope">Références statiques de production · Un sujet par image · Fidélité exacte à contrôler · Animations dessinées à produire</p>
+    <section class="stats" id="stats" aria-label="Couverture vérifiée"></section>
+  </header>
+  <section class="controls" aria-label="Filtres de la galerie">
+    <label class="search" for="search">Rechercher un personnage, un costume, un boss ou un stage<input id="search" type="search" placeholder="Nom, faction, Gears 3, Tactics…" autocomplete="off"></label>
+    <label for="status">État de production<select id="status"><option value="all">Tous les états</option><option value="available">Avec une référence</option><option value="missing">Sans référence attribuée</option><option value="correction_required">Corrections identifiées</option><option value="alternatives">Plusieurs candidats</option></select></label>
+    <div class="filters" aria-label="Type de sujet"><button type="button" data-category="character" aria-pressed="true">Personnages</button><button type="button" data-category="costume" aria-pressed="false">Costumes</button><button type="button" data-category="boss" aria-pressed="false">Boss</button><button type="button" data-category="stage" aria-pressed="false">Stages</button><button type="button" data-category="all" aria-pressed="false">Tout voir</button></div>
+  </section>
+  <div class="resultline"><p id="result-count" role="status" aria-live="polite"></p><label class="checker-option"><input type="checkbox" id="checker" checked>Damier de transparence</label></div>
+  <main class="grid" id="gallery" aria-label="Références et manquants"></main>
+  <p id="empty-result" class="empty-result" hidden>Aucun sujet ne correspond à ces filtres.</p>
+  <footer>
+    <p><strong>Une image disponible ne constitue pas une validation 1:1.</strong> L’édition indiquée appartient à l’image sélectionnée. Un costume sans image attribuée attend une liaison visuelle explicite ou une génération : l’existence d’une autre apparence du personnage ne le complète pas automatiquement. Un master de stage ne remplace pas ses calques de parallaxe. Les notes détaillent les corrections et les éléments non confirmés.</p>
+    <p>Les PNG utilisent leur véritable alpha. Le damier permet de vérifier le détourage ; des couleurs RGB invisibles sous un alpha nul ne sont pas un fond conservé. Les PDF, Word et classeurs de <a href="livrables/">livrables</a> restent les instantanés historiques du 19 novembre. La galerie fonctionne directement depuis ce fichier, sans réseau ni installation.</p>
+    <details><summary id="archive-summary">Versions historiques écartées</summary><ul class="archive-list" id="archive-list"></ul></details>
+    <p><a href="production/asset_manifest.json">Manifeste, dimensions, alpha et empreintes SHA-256</a> · <a href="docs/production/VISUAL_QA_2026-11-19.md">Contrôles visuels historiques</a></p>
+  </footer>
+  <noscript><p>Cette galerie utilise JavaScript localement. Pour consulter les fichiers sans script, ouvrir <a href="docs/production/CONSOLIDATION_2026-11-20.md">le tableau des références</a>.</p></noscript>
+</div>
+<script id="catalog-data" type="application/json">__CATALOG_DATA__</script>
+<script>
+"use strict";
+const catalog=JSON.parse(document.getElementById("catalog-data").textContent);
+const coverage=catalog.coverage;
+const assetById=new Map(catalog.assets.map(asset=>[asset.asset_id,asset]));
+const rows=[...coverage.characters,...(coverage.production_characters||[]),...(coverage.costumes||[]),...coverage.bosses,...coverage.stages,...coverage.additional_references];
+const selectedBySubject=new Map();
+const gallery=document.getElementById("gallery");
+let category="character";
+const labels={character:"Personnage",costume:"Costume",boss:"Boss",stage:"Stage",unassigned:"À classer"};
+function el(tag,classes,text){const node=document.createElement(tag);if(classes)node.className=classes;if(text!==undefined)node.textContent=text;return node;}
+function link(text,path,classes){const a=el("a",classes,text);a.href=path;return a;}
+function normalized(text){return text.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();}
+function refs(row){return row.asset_ids.map(id=>assetById.get(id)).filter(Boolean);}
+function current(row){return assetById.get(selectedBySubject.get(row.id)||row.selected_asset_id);}
+const totals=coverage.totals;
+[[`${totals.characters_with_reference} / ${totals.roster_characters}`,"roster de conception illustré"],[`${totals.production_characters_with_reference||0} / ${totals.production_character_entries||0}`,"extensions de personnages illustrées"],[`${totals.costumes_with_reference||0} / ${totals.costume_catalog_entries||0}`,"costumes avec image attribuée"],[`${totals.bosses_with_reference} / ${totals.boss_catalog_entries}`,"boss avec une référence"],[`${totals.stage_png_files}`,`masters de décor · ${totals.stages_with_reference}/${totals.stage_catalog_entries} arènes associées`],[`${totals.active_png_files}`,"PNG actifs, alternatives incluses"]].forEach(([number,label])=>{const box=el("div","stat");box.append(el("strong","",number),el("span","",label));document.getElementById("stats").append(box);});
+function makeCard(row){
+  const candidates=refs(row),asset=current(row),card=el("article","card");
+  card.dataset.subject=row.id;
+  const top=el("div","card-top"),badges=el("div","badges");
+  badges.append(el("span","badge subtle",labels[row.category]));
+  if(row.catalog_member===false)badges.append(el("span","badge warning",row.category==="stage"?"Master complémentaire":"Hors catalogue"));
+  if(row.catalog_scope==="production_extension")badges.append(el("span","badge subtle","Extension du catalogue"));
+  if(row.catalog_scope==="gameplay_design_roster")badges.append(el("span","badge subtle","Roster de conception"));
+  let state=asset?(asset.quality_state==="correction_required"?"À corriger":"Référence candidate"):(row.visual_status==="generation_blocked"?"Génération refusée":row.visual_status==="generation_pending"?"Génération en cours":"À produire");
+  badges.append(el("span",`badge ${asset?(asset.quality_state==="correction_required"?"warning":""):"missing"}`,state));
+  if(candidates.length>1)badges.append(el("span","badge subtle",`${candidates.length} images`));
+  top.append(badges,el("h2","",row.name),el("p","",row.character_name||row.faction||row.requested_source_game));card.append(top);
+  if(asset){
+    const preview=link("",asset.path,"preview");preview.setAttribute("aria-label",`Ouvrir ${row.name} — ${asset.source_variant}`);
+    const img=el("img");img.src=asset.path;img.alt=`${row.name}, ${asset.source_variant}, ${asset.purpose==="presentation"?"image de présentation":"référence individuelle"}`;img.loading="lazy";img.decoding="async";img.width=asset.width;img.height=asset.height;preview.append(img);card.append(preview);
+  }else{
+    const empty=el("div","preview empty-preview");empty.append(el("div","missing-mark","—"),el("strong","",row.category==="costume"?"Aucune image attribuée":"Aucune image produite"),el("span","",row.visual_status==="generation_blocked"?"Le dernier essai a été refusé par le générateur. Aucun visuel de remplacement n’est compté.":row.category==="costume"?"Cette apparence attend sa propre référence ou la validation d’un rattachement explicite à une image existante.":"Sujet inscrit au catalogue ; sa référence visuelle reste à produire."));card.append(empty);
+  }
+  const body=el("div","card-body");
+  if(candidates.length>1){
+    const label=el("label","variant-label","Afficher une autre référence");label.htmlFor=`variant-${row.id}`;const select=el("select","variant-select");select.id=label.htmlFor;
+    candidates.slice().sort((a,b)=>b.selection_priority-a.selection_priority).forEach(a=>{const option=el("option","",`${a.source_variant} · ${a.purpose==="presentation"?"présentation":a.origin_batch.replace("_2026-11-19","").replace("_2026-11-20","")}${a.asset_id===row.selected_asset_id?" · sélection":""}`);option.value=a.asset_id;option.selected=asset&&asset.asset_id===a.asset_id;select.append(option);});
+    select.addEventListener("change",()=>{selectedBySubject.set(row.id,select.value);const replacement=makeCard(row);card.replaceWith(replacement);replacement.querySelector("select")?.focus({preventScroll:true});});body.append(label,select);
+  }
+  body.append(el("p","version",asset?asset.source_variant:`Cible : ${row.requested_source_game}`));
+  if(row.scope_note)body.append(el("p","primary-note",row.scope_note));
+  if(row.category==="stage"&&asset)body.append(el("p","primary-note","Master statique ; calques de parallaxe séparés à produire et contrôler."));
+  if(asset){
+    const metadata=el("div","metadata");metadata.append(el("span","",`${asset.width} × ${asset.height}`),el("span","",asset.has_transparency?"PNG avec alpha":"Fond opaque"),el("span","",`${(asset.size_bytes/1048576).toFixed(2)} Mio`));body.append(metadata);
+    const relation=row.category==="costume"?(asset.costume_variant_relation||asset.variant_relation):asset.variant_relation;
+    if(relation!=="target_version_candidate")body.append(el("p","primary-note",relation==="alternate_version"?`Variante différente de la cible du catalogue : ${row.requested_source_game}.`:"Édition native de cette apparence non certifiée."));
+    if(asset.quality_state==="correction_required")body.append(el("p","primary-note","Des corrections visuelles restent ouvertes pour ce candidat."));
+    body.append(link("Ouvrir le PNG",asset.path,"open-link"));
+    const details=el("details","details");details.append(el("summary","","Contrôles, réserves et sources"));const list=el("ul");
+    const notes=asset.qa_notes.length?asset.qa_notes:["Référence statique candidate ; détails du costume à confronter aux sources avant validation."];
+    notes.forEach(note=>list.append(el("li","",note)));list.append(el("li","","Aucune conformité 1:1 certifiée ; animations dessinées à produire."));
+    if(row.category==="costume"&&asset.costume_attribution){
+      const attribution=asset.costume_attribution;
+      list.append(el("li","",`Rattachement à cette tenue : ${attribution.rationale}`));
+      (attribution.caveats||[]).forEach(note=>list.append(el("li","",note)));
+      const li=el("li");li.append(link("Audit du rattachement de costume",attribution.mapping_path));list.append(li);
+      (attribution.additional_evidence_paths||[]).forEach(path=>{const evidence=el("li");evidence.append(link("Journal complémentaire de la tenue",path));list.append(evidence);});
+    }
+    if(asset.prototype_integration==="static_reference")list.append(el("li","","Cette image est chargée comme référence statique dans le prototype ; elle ne constitue pas une animation dessinée."));
+    asset.metadata_records.forEach(path=>{const li=el("li");li.append(link("Fiche de production / contrôle",path));list.append(li);});
+    asset.source_urls.slice(0,4).forEach((url,i)=>{const li=el("li");const a=link(`Source visuelle ${i+1}`,url);a.target="_blank";a.rel="noopener noreferrer";li.append(a);list.append(li);});details.append(list);body.append(details);
+  }else{
+    body.append(el("p","primary-note","Aucune animation ni validation visuelle attribuée à ce sujet."));
+    if(row.last_generation_attempt)body.append(link("Voir le résultat du dernier essai",row.last_generation_attempt.record,"open-link"));
+  }
+  if((row.catalog_notes||[]).length||(row.source_urls||[]).length){
+    const details=el("details","details");details.append(el("summary","","Fiche du catalogue et sources"));const list=el("ul");
+    (row.catalog_notes||[]).forEach(note=>list.append(el("li","",note)));
+    (row.source_urls||[]).forEach((url,i)=>{const li=el("li"),a=link(`Source du catalogue ${i+1}`,url);a.target="_blank";a.rel="noopener noreferrer";li.append(a);list.append(li);});
+    details.append(list);body.append(details);
+  }
+  card.append(body);return card;
+}
+function render(){
+  const query=normalized(document.getElementById("search").value.trim()),status=document.getElementById("status").value;
+  const visible=rows.filter(row=>{
+    const candidates=refs(row);
+    if(category!=="all"&&row.category!==category)return false;
+    if(status==="available"&&!row.has_visual_reference)return false;
+    if(status==="missing"&&row.has_visual_reference)return false;
+    if(status==="alternatives"&&candidates.length<2)return false;
+    if(status==="correction_required"&&!candidates.some(a=>a.quality_state==="correction_required"))return false;
+    return !query||normalized([row.name,row.id,row.character_name,row.character_id,row.faction,row.requested_source_game,...candidates.map(a=>a.source_variant)].join(" ")).includes(query);
+  });
+  gallery.replaceChildren(...visible.map(makeCard));document.getElementById("empty-result").hidden=visible.length>0;
+  const illustrated=visible.filter(row=>row.has_visual_reference).length;
+  document.getElementById("result-count").textContent=`${visible.length} sujet${visible.length===1?"":"s"} affiché${visible.length===1?"":"s"} · ${illustrated} avec une référence · ${visible.length-illustrated} sans référence attribuée`;
+}
+document.querySelectorAll("[data-category]").forEach(button=>button.addEventListener("click",()=>{category=button.dataset.category;document.querySelectorAll("[data-category]").forEach(other=>other.setAttribute("aria-pressed",String(other===button)));render();}));
+document.getElementById("search").addEventListener("input",render);document.getElementById("status").addEventListener("change",render);
+document.getElementById("checker").addEventListener("change",event=>document.getElementById("app").classList.toggle("checker",event.target.checked));
+document.getElementById("archive-summary").textContent=`${catalog.archived_assets.length} anciennes versions écartées, conservées hors du compte actif`;
+catalog.archived_assets.forEach(asset=>{const li=el("li");li.append(link(asset.path.split("/").pop(),asset.path),document.createTextNode(` — ${asset.reason}`));document.getElementById("archive-list").append(li);});
+render();
+</script>
+</body>
+</html>

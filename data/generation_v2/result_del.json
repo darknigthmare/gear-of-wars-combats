@@ -1,0 +1,21 @@
+{
+  "id": "del",
+  "name": "Del Walker",
+  "prompt": "Delmont “Del” Walker from Gears 5 in his standard temperate campaign Armored Del outfit, not the winter outfit. Adult Black man with Del’s recognisable face, short tightly curled dark hair and the muted olive-green cloth headband seen in the official Gears 5 campaign and accessibility screenshots. Reproduce his particular broad dark gunmetal COG armor, circular chest panels, blue illuminated shoulder strips, rounded shoulder plates, olive military shirt with short or rolled sleeves, restrained utility pouches and belt, olive-patterned combat trousers, dark knee protection, forearm armor and sturdy military boots. Keep Del’s facial structure, headband, torso panel arrangement and clothing distinct from JD, Cole or Marcus. The expression is calm and approachable but neutral, with no smile or shout. No knitted winter cap, no fur collar, no Gears 4 Outsider outfit and no floating drone companion. Create exactly one adult character, alone, full body from the top of the head to both complete boot soles, centered with clear transparent margin around the silhouette. Neutral relaxed standing pose, three-quarter turn toward screen right, clearly readable as a side-view 2D fighting-game character; both arms resting slightly away from the torso, hands visibly empty and relaxed, legs comfortably separated, neutral closed-mouth expression. Respect the character’s original anatomy and game proportions. Realistic hand-painted 2D production illustration with UHD-level material detail, crisp clean contour and controlled soft lighting; no cartoon, no cel shading, no photograph, no plastic miniature. The background must be truly transparent with an alpha channel. No background color, scenery, floor, pedestal, ground plane, cast shadow outside the silhouette, text, caption, UI, watermark, duplicates, inset portrait, alternate view, held weapon, slung weapon, violence, blood, fresh wounds or exposed tissue. This is a single reusable neutral character cutout, not a poster or action scene.",
+  "source_game": "Gears 5",
+  "source_urls": [
+    "https://www.gearsofwar.com/en-us/games/gears-5/",
+    "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/desktop-campaign-3840x2160-69d932032874a-1024x576.jpg",
+    "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/Accessibility_desktopBG-69d931f5a4c02-1024x570.jpg",
+    "https://news.xbox.com/en-us/2019/06/11/e3-2019-rahul-kohli-of-izombie-joins-cast-of-gears-5/"
+  ],
+  "output_hint": "Generated images are saved to /workspace/scratch/230d6e8ab6bb/generated_images as /workspace/scratch/230d6e8ab6bb/generated_images/exec-3b3c4e7d-1c1a-4985-b6c3-0f2416ba7531.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "error": null,
+  "has_image": true,
+  "status": "generated",
+  "path": "assets/characters_v2/del_reference_v2.png",
+  "width": 1024,
+  "height": 1536,
+  "alpha": true,
+  "sha256": "a9a8fe6eff272087a2ea1e0a466d8027db60aea41d75c7ed0a3bdc9731cc3648"
+}

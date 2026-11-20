@@ -1,0 +1,124 @@
+{
+  "id": "sofia",
+  "version": 2,
+  "generated_asset": "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/sofia_reference_v2.png",
+  "generated_asset_sha256": "d28228ef9fbbbce3c0ed2e79f7aae0bdb4c8ffe8cd7ce851d8a405ad1ea47d52",
+  "reference_images": [
+    {
+      "local_path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_refs/sofia_reference.jpg",
+      "sha256": "03344c1235f62a8e7cee13fef7a08f66704210cb9d710e2a1054a3a559075764",
+      "source_type": "Wallpaper promotionnel composite publié par une source secondaire ; pas un fichier de modèle officiel brut.",
+      "page_url": "https://geektyrant.com/news/2013/3/18/gears-of-war-judgement-kilo-squad-wallpapers.html",
+      "image_url": "https://images.squarespace-cdn.com/content/51b3dc8ee4b051b96ceb10de/1372482096081-5T8L9239ZZUHRFYS67UX/gears_judgement_SHendrick_WP.jpg?content-type=image%2Fjpeg&format=1000w",
+      "limits": "Palette fortement désaturée/teintée ; cheveux éclaircis par le traitement. La forme des panneaux et le corps entier sont visibles, les petits détails du visage et l’attache arrière des cheveux ne le sont pas précisément."
+    }
+  ],
+  "method": "Comparaison visuelle directe des images originales à leur résolution native avec view_image ; dimensions, empreintes et alpha mesurés avec Pillow. Aucun pixel image modifié, aucune nouvelle recherche réseau, aucun changement au prototype.",
+  "alpha_and_format": {
+    "mode": "RGBA",
+    "size_px": [
+      1024,
+      1536
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_pixel_percent": 71.38,
+    "fully_opaque_255_pixels": 0,
+    "alpha_corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "nonzero_alpha_bbox": [
+      23,
+      0,
+      978,
+      1536
+    ],
+    "substantial_alpha_bbox_threshold_16": [
+      239,
+      5,
+      751,
+      1522
+    ],
+    "note": "Vrai canal alpha présent. Des pixels de très faible alpha restent au-delà du corps/châssis. Le fond sombre visible dans certains aperçus RGB ne constitue pas un fond opaque. Aucun test de composition sur décor ou de halo en jeu effectué."
+  },
+  "framing": {
+    "substantial_alpha_bbox_threshold_16": [
+      239,
+      5,
+      751,
+      1522
+    ],
+    "approx_padding_px": {
+      "left": 239,
+      "top": 5,
+      "right": 273,
+      "bottom": 14
+    },
+    "status": "personnage_entier_marges_serrees",
+    "orientation": "trois-quarts vers la droite",
+    "pose": "debout au repos, mains vides",
+    "head_visible": true,
+    "both_feet_visible": true,
+    "both_hands_visible": true,
+    "text_ui_or_extra_subject": false
+  },
+  "prototype_modified": false,
+  "bible_modified": false,
+  "workbook_modified": false,
+  "verdict": "Les grands identifiants de Sofia sont présents, mais le costume Onyx de Judgment n’est pas reproduit : réinterprétation nette de la cuirasse, des vêtements et des accessoires.",
+  "identity": {
+    "status": "reconnaissable_avec_reserves",
+    "matches": [
+      "Femme adulte athlétique, cheveux auburn/roux attachés, frange oblique et mèches latérales.",
+      "Armure sombre et silhouette plus fine que les combattants COG masculins."
+    ],
+    "differences": [
+      "Visage réinterprété ; ressemblance exacte non validable avec le petit visage de la référence composite."
+    ],
+    "unresolved": [
+      "Volume et longueur exacte de la queue de cheval non certifiés par cette seule vue."
+    ]
+  },
+  "costume": {
+    "status": "non_conforme_1to1",
+    "matches": [
+      "Armure sombre gunmetal, col haut, manches longues, épaules arrondies, avant-bras protégés et gants.",
+      "Deux grandes formes pectorales ovales, taille fine, boucle circulaire."
+    ],
+    "differences": [
+      "Deux grands disques presque lisses et cerclés remplacent les panneaux pectoraux sculptés aux motifs internes organiques de la référence.",
+      "Plaques horizontales abdominales et bretelles/sangles ajoutées ; le torse original possède un dessin ajusté continu avec ligne centrale verticale.",
+      "Pantalon cargo froissé et grande poche de cuisse générés, alors que la référence montre un vêtement ajusté continu et un autre système de poches latérales.",
+      "La poche/boîtier à plusieurs éléments circulaires latéraux visible sur la référence n’est pas reprise.",
+      "Formes et assemblages des avant-bras, genouillères et bottes modifiés ; le généré emploie de grosses bottes sanglées plus génériques."
+    ]
+  },
+  "defects": [
+    {
+      "severity": "majeure_pour_1to1",
+      "item": "Costume Onyx remplacé par une armure générique inspirée de Gears",
+      "impact": "Le dessin caractéristique du plastron, de la taille et des poches n’est pas conservé."
+    },
+    {
+      "severity": "mineure",
+      "item": "Marge supérieure presque absente",
+      "impact": "Environ 5 px au-dessus des cheveux et 14 px sous les semelles ; tête et pieds restent entiers."
+    }
+  ],
+  "reservations_1to1": [
+    "Le wallpaper de comparaison ne permet pas une validation colorimétrique. Les cheveux roux sont cohérents avec la description canon, malgré leur aspect clair dans le wallpaper.",
+    "Source textuelle du développeur confirmant les cheveux roux : https://www.engadget.com/2012-06-13-the-testimony-of-damon-baird-in-gears-of-war-judgment.html ; portfolio du sculpteur identifié mais images non inspectées : https://chriswells.artstation.com/projects/qQbnL .",
+    "Petits marquages, coiffure arrière et visage exact restent non vérifiés.",
+    "Aucun défaut anatomique majeur observé, mais aucun test de sprite animé ou de silhouette en jeu effectué."
+  ],
+  "correction_reference": {
+    "local_path": "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_refs/sofia_reference.jpg",
+    "suitability": "Corps entier disponible : utile pour conserver le plastron sculpté, la taille, les poches et les bottes. Ne pas reprendre la désaturation, les textes, le fond ou la couleur de cheveux éclaircie par le traitement."
+  },
+  "recommendation": "Conserver comme concept provisoire ; demander une correction ciblée depuis la référence pour le costume avant toute qualification 1:1."
+}

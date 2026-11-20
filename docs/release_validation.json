@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-19",
+  "document_pages": 78,
+  "word_count_approx": 36068,
+  "workbook_sheets": 14,
+  "workbook_formula_errors": 0,
+  "engine_tests_passed": 15,
+  "data_validation": {
+    "counts": {
+      "fighters": 36,
+      "costume_records": 75,
+      "moves": 179,
+      "arcade_routes": 36,
+      "combos": 24,
+      "bosses": 24,
+      "boss_phases": 72,
+      "stages": 24,
+      "parallax_layers": 144,
+      "campaign_chapters": 12,
+      "animation_drawings_per_side": 552
+    },
+    "checks": [
+      "Unique identifiers",
+      "Combatant and rival references",
+      "Movement ownership and nonnegative costs",
+      "Boss stage references and phase timings",
+      "Stage layers and tournament rules",
+      "Arcade opponents",
+      "Campaign stage and boss references",
+      "Animation estimate total"
+    ],
+    "errors": [],
+    "status": "passed",
+    "limits": "Does not validate canonical visual fidelity, balance, or browser controls."
+  },
+  "images_present": 6,
+  "images_integrated": 2,
+  "images_fidelity_approved": 0,
+  "browser_visual_validation": "Not run: environment blocked browser launch; canvas and JS checks completed.",
+  "hardware_gamepad_validation": "Not run",
+  "canonical_art_fidelity": "Pending comparison with precise game captures"
+}

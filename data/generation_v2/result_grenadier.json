@@ -1,0 +1,19 @@
+{
+  "id": "grenadier",
+  "name": "Grenadier locuste",
+  "prompt": "The standard Locust Grenadier from Gears Tactics in his normal resting state. Preserve the adult massive muscular Locust body, bald rugged grey head, heavy jaw, characteristic exposed muscular upper torso and the exact sparse harness and standard Grenadier equipment, dark waist and lower-body garments, belt, pouches, forearm protection and heavy lower-leg protection from the shipped Tactics model. Keep the deliberately more exposed upper-body silhouette that distinguishes the Grenadier from the torso-armored Drone. Skin is undamaged and the expression neutral. Preserve normal standard-model colors without active effects. Do not use a Grenadier Elite, a Lambent variant, a Disciple, a Swarm Grenadier or a hybrid of the 2006 and Tactics costumes. Create exactly one full-body character as a neutral production model reference: standing at rest, weight balanced, shoulders relaxed, arms slightly separated from the torso, both empty hands visible and relaxed. Three-quarter view facing screen-right, turned enough toward profile for a readable side-view 2D silhouette. The complete head, feet, fingers and every costume extremity must fit inside the canvas with a generous transparent margin. Realistic hand-painted 2D UHD game art, anatomically and materially faithful to the named official game model, crisp readable contour, restrained even studio illumination. True transparent alpha background, including gaps between limbs. No text, captions, logos, interface, border, second character, alternate view, scenery, floor, pedestal, cast shadow, glow, particles, action, injury or violence. No handheld or attached weapons. Preserve the exact named episode costume rather than inventing a redesign or combining skins. This is a single calm unarmed reference pose.",
+  "source_game": "Gears Tactics",
+  "source_urls": [
+    "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/",
+    "https://store.steampowered.com/news/posts/?appgroupname=Gears+Tactics&appids=1184050&enddate=1588625128&feed=steam_community_announcements"
+  ],
+  "output_hint": "Generated images are saved to /workspace/scratch/230d6e8ab6bb/generated_images as /workspace/scratch/230d6e8ab6bb/generated_images/exec-0b0eee8e-6fec-4cdf-821d-f4812a31d900.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "error": null,
+  "has_image": true,
+  "status": "generated",
+  "path": "assets/characters_v2/grenadier_reference_v2.png",
+  "width": 1024,
+  "height": 1536,
+  "alpha": true,
+  "sha256": "5f52a802e772bd4eb5936df0eca5ee818b3686047d7df71992a84f10f909b438"
+}

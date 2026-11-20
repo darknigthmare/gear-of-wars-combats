@@ -1,0 +1,82 @@
+{
+  "id": "alicia_valera",
+  "subject_id": "alicia_valera",
+  "category": "character",
+  "character_id": "alicia_valera",
+  "name": "Alicia Valera",
+  "variant": "Gears of War 3 — RAAM's Shadow, armure standard sans casque",
+  "source_game": "Gears of War 3 — RAAM's Shadow",
+  "purpose": "reference_fullbody",
+  "variant_relation": "alternate_version",
+  "status": "generated_reference_pending_validation",
+  "asset_path": "assets/characters_v6/alicia_valera_gow3_fullbody.png",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-20",
+  "prompt": "Use case: identity-preserve. Asset type: one full-body transparent raster character reference for the Gear of Wars Combats project. Primary request: depict exactly one Alicia Valera, Gears of War 3 — RAAM's Shadow version, faithfully following the attached credited Epic Games / Chris Wells 2011 textured model sheet. Input image 1 is the sole design reference: its left figure establishes face, clothing, armor and boots; its right figure supplies the back armor and tied hair. Do not include both views; output ONE character only. Preserve her recognizable face, dark side-parted hair swept over one side and tied in a low small bun at the back, the fine scar on her left cheek, athletic natural proportions, grey dark long-sleeve high-neck undersuit, textured tan forearm panels, gloves, weathered silver-white COG torso armor with its two large dark circular chest assemblies, the small yellow 08 marking, blue lights, shoulder pieces, yellow lower chest markings, segmented silver utility belt with central cog buckle, one rounded belt pouch and opposite cylindrical canister, dark trousers, exact tall silver shin armor and rounded heavy boots. Match the geometry and asymmetry of the shown armor, seams, trim and existing wear; preserve the original model proportions. She is unarmed, standing calmly with both feet planted apart slightly, arms relaxed with a little silhouette separation, a gentle three-quarter view facing screen-right, face clearly readable. Realistic textured game character render matching the reference, neutral even lighting and clear detail. Center her entire body on a portrait canvas with substantial blank safety margins: at least 8 percent of the canvas above her head and 8 percent below her boots, both hands fully visible. Real transparent alpha background; no ground, cast shadow, haze, rim halo, scenery, label, external logo, border, interface or collage. Do not add a helmet, weapon, hair redesign, bare skin panels, new accessories or elements from Gears 5. The logos and credit text in the source sheet are context only and must not appear in the output.",
+  "sources": [
+    {
+      "page_url": "https://gearsofwar.fandom.com/es/wiki/Alicia_Valera",
+      "image_url": "https://static.wikia.nocookie.net/gearsofwar/images/2/29/Alicia_Valera_modelo_01_GoW3.jpg/revision/latest?cb=20200915015912&path-prefix=es",
+      "scope": "Planche du modèle texturé Gears of War 3, vues en pied de face et de dos, pieds inclus ; reproduction hébergée par le wiki. Crédits directement lisibles sur l'image : copyright 2011 Epic Games, modèle Chris Wells, texture Mike Buck/Chris Wells, rig Jeremy Ernst, concept James Hawkins, direction artistique Chris Perna.",
+      "source_type": "credited_official_model_sheet_reproduced_by_third_party",
+      "visual_reference_used": true
+    },
+    {
+      "page_url": "https://chriswells.artstation.com/",
+      "scope": "Portfolio de Chris Wells : plusieurs projets intitulés Valera sont répertoriés. Les pages détaillées et fichiers ArtStation n'ont pas pu être téléchargés directement (HTTP 403) ; aucune correspondance avec un identifiant précis de projet n'est affirmée.",
+      "source_type": "original_artist_portfolio_context",
+      "visual_reference_used": false
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "white_composite_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Un seul personnage, de la tête aux deux semelles, sans arme, décor ou planche multiple.",
+      "Référence unique Gears of War 3 : aucune image Gears 5 ou variante casquée n'a été fournie au générateur.",
+      "Les deux disques du plastron, le marquage jaune 08, les lumières bleues, la ceinture à boucle centrale, la pochette, le cylindre, les genouillères, les jambières et les bottes reprennent les éléments de la planche créditée.",
+      "Les deux vues de la référence documentent le corps entier, les bottes et le dos ; la pose calme a été adaptée à partir de ces vues.",
+      "La forme du visage et le tracé fin de la cicatrice restent à comparer de près avec la planche ; la cicatrice est peu lisible sur le rendu.",
+      "La pose est presque frontale, avec le visage orienté à droite, plutôt qu'une garde de combat franchement latérale.",
+      "Les marges verticales de 18 px au-dessus et 22 px au-dessous sont inférieures à l'espacement demandé de 8 pour cent.",
+      "Alpha réel vérifié sur fond blanc ; le fond RGB sombre sous alpha nul ne constitue pas un décor opaque."
+    ],
+    "remaining_checks": [
+      "Comparer visage, cicatrice, proportions et silhouette à la planche GoW3 et à des captures de RAAM's Shadow avant validation 1:1.",
+      "Vérifier nombre, emplacement et forme des rivets, gravures et découpes des plaques, ainsi que l'asymétrie des accessoires.",
+      "Préparer une version avec davantage de marge verticale si nécessaire pour l'assemblage des planches et pivots.",
+      "Produire la garde latérale, le dos, les pivots et les animations ; cet asset est uniquement une référence statique.",
+      "La cible du catalogue reste Gears 5 Operation 8 Drop 2 : cette référence historique GoW3 ne satisfait pas le costume Gears 5."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 1965542,
+    "sha256": "cd2041be040950212eb82040685add181c11125add7113c7a7dd48458fcb07fb",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.7037576039632162,
+    "subject_bbox_alpha_ge_128": [
+      201,
+      18,
+      798,
+      1514
+    ],
+    "subject_margins_ltrb_px": [
+      201,
+      18,
+      226,
+      22
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "costume_mac_mechanic",
+  "subject_id": "mac_skin_02",
+  "category": "costume",
+  "character_id": "mac",
+  "costume_id": "mac_skin_02",
+  "name": "Mac — Mechanic Mac",
+  "variant": "Gears 5 — Mechanic Mac (skin Hivebusters)",
+  "source_game": "Gears 5",
+  "purpose": "costume_reference_fullbody",
+  "variant_relation": "target_version_candidate",
+  "status": "generated_reference_pending_validation",
+  "asset_path": "assets/costumes_v6/mac_mechanic_gears5_fullbody.png",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-20",
+  "prompt": "Use case: identity-preserve. Asset type: raster full-body costume reference for the Gears of War Combats 2D game. Use the attached official Gears 5 promotional render as the exact identity, costume, proportion and material reference. Create exactly ONE Mechanic Mac, the standing character on the LEFT of the reference image. Remove the banner with its printed characters, the banner pole, background and floor. Preserve this specific Gears 5 Mechanic Mac costume without redesign: stocky adult male, scratched silver welding helmet with rectangular horizontal eye opening and visible ginger hair above the helmet, weathered green sleeveless zippered work vest with small pockets and shoulder metal buckles, broad belt, brown tool holsters at thighs, silver segmented metal forearm guards and gloves, faded dark charcoal trousers, asymmetrical knee straps and dark heavy lace-up boots. Keep his visible eyes and facial identity through the opening. One calm full-body neutral standing pose, slightly oriented toward screen-right, relaxed empty hands. Preserve all clothing asymmetries from the supplied front view. Refined detailed realistic painted raster game-art rendering, clear silhouette and restrained material highlights. Full helmet, both hands and both feet entirely in frame. Keep at least 8 percent of empty transparent margin above and below and 12 percent on both sides. Transparent alpha background, no floor shadow, no haze, no rim glow, no text added, no logo, no UI, no grid, no frame and no second character. This image is one static reference pose, not an animation sheet.",
+  "sources": [
+    {
+      "page_url": "https://www.gearsofwar.com/en-us/news/hivebusters-graphic-novel-available-now/",
+      "image_url": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/08/MechanicMac_HiRes2_Background-5f3ec711e6433-69cb112e80029.jpg",
+      "scope": "Rendu promotionnel officiel du costume Mechanic Mac Gears 5, sujet gauche vu en pied ; bannière et décor exclus de la génération."
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "white_composite_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Un seul personnage entier : cheveux, casque, mains, pantalon et deux bottes visibles.",
+      "Casque de soudeur argent, veste olive sans manches, inscription MIRACLE MAC, ceintures, outils latéraux, protections métalliques et bottes conservés.",
+      "Asymétries visibles de la référence conservées : lien au genou droit anatomique, accessoires et holsters distincts.",
+      "Le dégradé visible dans le RGB sous alpha nul n'est pas un fond opaque ; le compositing sur blanc a été inspecté.",
+      "Marges verticales réelles 33 px en haut et 23 px en bas (alpha >= 128), inférieures aux 8 % demandés."
+    ],
+    "remaining_checks": [
+      "Comparer rivets, fermetures, nombre exact d'outils et contours du casque en gros plan au modèle de jeu.",
+      "Contrôler la ressemblance faciale et le lettrage contre le rendu officiel de plus haute résolution.",
+      "Préparer la garde strictement latérale, les pivots, marges d'atlas et animations ; référence statique uniquement."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 1912084,
+    "sha256": "1e7081bead984e0f32381aebeaa90c70e80228942c0c8b42564eee002f8baa1c",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.6572049458821615,
+    "subject_bbox_alpha_ge_128": [
+      204,
+      33,
+      827,
+      1513
+    ],
+    "subject_margins_ltrb_px": [
+      204,
+      33,
+      197,
+      23
+    ]
+  }
+}

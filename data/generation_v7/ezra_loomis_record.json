@@ -1,0 +1,95 @@
+{
+  "id": "ezra_loomis",
+  "subject_id": "ezra_loomis",
+  "category": "character",
+  "character_id": "ezra_loomis",
+  "name": "Colonel Ezra Loomis",
+  "variant": "Gears of War: Judgment — uniforme de parade, bras croisés",
+  "source_game": "Gears of War: Judgment",
+  "catalog_target_game": "Gears of War: Judgment",
+  "purpose": "reference_fullbody",
+  "variant_relation": "target_version_candidate",
+  "status": "generated_reference_pending_validation",
+  "asset_path": "assets/characters_v7/ezra_loomis_judgment_fullbody.png",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-20",
+  "prompt": "Use case: identity-preserve. Asset type: one full-body transparent raster character reference for Gear of Wars Combats. Depict exactly ONE Colonel Ezra Loomis in his Gears of War: Judgment appearance. Input image 1 is a textured model sheet showing three views of the SAME character; use the middle front-facing view as the pose and use the side and back views only to understand the same outfit. Match the source closely without redesign: stern angular lined middle-aged face, short swept-back black hair with grey at the temples, a narrow dark moustache and no beard, broad neck and massive Gears proportions. He wears his dark charcoal and muted navy parade uniform, high stand collar with the small white outlined cog insignia on both collar tabs, dark metal armor with silver trim and fine bevels, the single ornamental central round chest emblem visible above his crossed forearms, cyan-blue rectangular light elements at each shoulder strap, layered shoulder plates with silver curved bands, long dark sleeves, metal forearm guards with their visible small rivets, and full dark gloves. Retain the reference's exact arms-folded stance and stern straight posture; do not invent the obscured chest anatomy under the crossed arms. Match the belt and asymmetric gear arrangement: wide brown-black layered belt, ornate circular front buckle, holster at his right hip (viewer left) and pair of small pouches at his left hip (viewer right), short navy uniform skirt panels over dark stitched trousers. Copy the large silver-trimmed knee and shin guards, small cog detail on each kneecap, curved lower vents, strapped high boots, segmented reinforced toe caps and thick ridged soles. Preserve the exact restrained source palette, materials, wear, proportions and accessory shapes. Use balanced neutral studio lighting that makes these details legible. A single complete isolated person, near-frontal as the center source, with both boots fully visible and weight evenly planted. Make the character only 78 percent of the portrait canvas height, leaving broad completely empty transparent space above the hair and below the soles, and clear space at both sides. Do not crop the head, elbows, boot tips or soles. True transparent alpha background with no scenery, no floor and no cast shadow. No extra figure, no turnaround sheet, no inset portrait, no caption, no text or source logo. No helmet, no additional weapon, no cigar, no cape, no new insignia, no exposed arms, no twin circular COG chest speakers, and no other character's armor. The source sheet's game logo is context only and must not appear in the result.",
+  "sources": [
+    {
+      "page_url": "https://gearsofwar.fandom.com/wiki/Category:Images_of_Onyx_Guards",
+      "image_url": "https://static.wikia.nocookie.net/gearsofwar/images/1/1e/Loomis_model.jpg/revision/latest",
+      "source_type": "textured_game_model_sheet_reproduced_by_third_party",
+      "scope": "Planche Gears of War: Judgment inspectée : trois vues en pied du même Loomis, uniforme texturé, face/profil/dos, bras croisés et bottes complètes. Reproduction publique hébergée par le wiki ; aucune preuve que ce fichier miroir est strictement identique au fichier original livré en production. L'entretien des créateurs ci-dessous documente l'identité et le costume. Cette image est la seule référence visuelle fournie au générateur.",
+      "visual_reference_used": true,
+      "reference_sha256": "77855944c77d35d80be4e0471cdcb3299ef4fedba4b37b5aca62a3c3e596582d"
+    },
+    {
+      "page_url": "https://www.maxon.net/en/article/creating-assets-for-epic-games-gears-of-war-judgment",
+      "source_type": "primary_interview_with_game_artists",
+      "scope": "Entretien People Can Fly / Epic du 28 août 2013 : Michal Przybinski détaille la création de Loomis et son uniforme de parade. Confirme la silhouette massive et l'absence de la paire de disques habituelle des armures COG. Le médaillon central ornemental visible dans la planche n'est pas cette paire de disques. Texte primaire pour l'identité, l'édition et le costume ; les fichiers image du CDN Maxon n'ont pas pu être téléchargés.",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://kubi_mp.artstation.com/projects/YG5Od",
+      "source_type": "original_character_artist_portfolio",
+      "scope": "Portfolio Gears of War: Judgment de Michał Przybiński. Attribution de l'artiste et du projet uniquement ; les images de ce portfolio n'ont pas été fournies au générateur.",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://gearsofwar.fandom.com/wiki/Category:Images_of_Onyx_Guards",
+      "image_url": "https://static.wikia.nocookie.net/gearsofwar/images/9/93/Loomis_full_rotation.jpg/revision/latest",
+      "source_type": "sculpt_sheet_reproduced_by_third_party",
+      "scope": "Planche monochrome inspectée puis écartée de la génération : elle documente le sculpt, mais pas les couleurs finales, la moustache ni les cheveux du modèle texturé. Aucune fusion des deux états.",
+      "visual_reference_used": false
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Un seul personnage en pied, sommet du crâne, coudes, bottes et semelles dans le cadre ; absence de texte, d'arme ajoutée ou de personnage supplémentaire.",
+      "Pose bras croisés conservée, cheveux noirs grisonnants aux tempes, moustache fine, col droit à insignes, uniforme bleu-noir, garnitures métalliques, lumières cyan aux épaules et accessoires asymétriques visibles.",
+      "Une seule édition et une seule planche texturée ont guidé la génération : Gears of War: Judgment. Le sculpt monochrome et les autres personnages n'ont pas été fournis au générateur.",
+      "Le visage a été réinterprété ; la forme des insignes du col, les gravures du médaillon, le nombre de rivets, les motifs des genouillères et les proportions des pochettes restent à comparer précisément.",
+      "Alpha réel vérifié : 74,88 % des pixels sont entièrement transparents. Les composantes RGB sombres présentes sous transparence ne constituent pas un fond opaque.",
+      "Marges gauche/haut/droite/bas mesurées au seuil alpha 128 : 283/149/284/68 px. La marge basse est plus faible que les 11 % demandés, mais les semelles sont intégralement visibles.",
+      "Les bras croisés masquent une partie du plastron comme dans la source. Cette image ne suffit pas à valider les parties occultées ni une garde de combat latérale."
+    ],
+    "remaining_checks": [
+      "Comparer le visage et la silhouette à des captures du jeu Judgment et à la planche originale de l'artiste.",
+      "Vérifier les emblèmes du col, le médaillon pectoral et la boucle, les gravures, rivets, coutures, genouillères et détails des bottes pièce par pièce.",
+      "Valider la couleur sous éclairage du jeu ; la lumière neutre de cette image n'est pas une capture du moteur original.",
+      "Préparer les vues de garde latérale, bras dégagés, orientations complémentaires, marges d'atlas, pivots et animations avant un usage jouable."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 1660674,
+    "sha256": "5ce968519e80a9de658cb22cec1a944f171d39e5a54b8c1ad7d6d536c769a921",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.7487653096516927,
+    "subject_bbox_alpha_ge_128": [
+      283,
+      149,
+      740,
+      1468
+    ],
+    "subject_margins_ltrb_px": [
+      283,
+      149,
+      284,
+      68
+    ]
+  }
+}

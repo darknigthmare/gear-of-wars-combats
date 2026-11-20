@@ -1,0 +1,19 @@
+{
+  "id": "gabe",
+  "name": "Gabe Diaz",
+  "source_game": "Gears Tactics",
+  "prompt": "Gabriel Gabe Diaz exactly as his default Gears Tactics character, a broad muscular adult man with dark swept-back short hair, the small pale streak at the front, a square face and a closely trimmed full dark beard. Worn dark gunmetal COG armor, two large circular chest plates edged in faded blue, a small circular fitting between them, segmented abdominal plates, blue rectangular shoulder lights, rounded shoulder armor, exposed upper arms, plated forearm guards and fingerless gloves. Taupe military trousers, brown utility straps, belt pouches, asymmetrical hip holster shapes, heavy worn knee and shin armor, brown armored boots. Match the original Tactics costume rather than a customizable loot armor set or the later Gears 5 variant. Create exactly one adult fictional character, full body from the top of the head to the soles of both boots, in a calm neutral standing pose with empty relaxed hands and arms separated slightly from the torso. Three-quarter view facing screen right, close enough to a lateral view to read clearly as a 2D fighting-game character. Preserve anatomical left/right asymmetries when changing the view; do not simply mirror them. Realistic painted 2D character illustration with UHD-quality material detail, natural anatomy and a crisp clean silhouette. A fully transparent RGBA background, no scenery, floor, base, cast shadow outside the body, vignette, lettering, captions, logos, UI, borders, extra figures or alternate views. No held or slung weapons. Leave clear transparent padding around every extremity; no cropping.",
+  "source_urls": [
+    "https://www.gearsofwar.com/en-nz/news/dev-blog-characters/",
+    "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/04/f58127fb483b171065a9fad6b79ecbcfcf9032d5-69cb0c3a70b1e.jpg"
+  ],
+  "output_hint": null,
+  "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 2aaaccff-4df9-4ca9-aa8c-b71951b6df9f.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+  "has_image": false,
+  "path": null,
+  "width": null,
+  "height": null,
+  "alpha_min": null,
+  "alpha_max": null,
+  "sha256": null
+}

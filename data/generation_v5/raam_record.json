@@ -1,0 +1,88 @@
+{
+  "character_id": "raam",
+  "name": "Général RAAM",
+  "requested_variant": "Gears of War (2006 / portage PC original)",
+  "requested_at": "2026-11-20",
+  "engine": "built_in_imagegen",
+  "status": "generated_reference_pending_validation",
+  "prompt": "Use case: style-transfer. Asset type: ONE isolated full-body hand-painted raster character reference for the user's Gears of War Combats 2D game. Subject: General RAAM, specifically his original Gears of War (2006/PC original) costume and proportions. Reference image 1 shows FRONT and SIDE views of the original game model; use them only to understand the SAME character, never render two figures. Reference image 2 supplies matching classic head, collar and chest material detail. Preserve the massive pale-gray bald Locust head, short broad face and original jaw, thick neck, immense black high ribbed collar, broad layered dark pauldrons, small exposed pale upper-arm sections, original black riveted and buckled cuirass, dark massive forearm bracers, gauntlets, long tattered split armored coat panels down the shins, original heavy segmented greaves and armored feet. Keep the original 2006 design; no enlarged Ultimate Edition shoulder redesign, no new lower-jaw guard, no gold armor, no human soldier substitute. Render ONE character standing alone in a calm upright neutral ready pose, facing screen-right in a slight three-quarter view, arms slightly away from torso, relaxed empty hands visible. Entire head, hands, coat hem and both feet fully inside frame with generous transparent margins around all edges. Premium detailed grounded Gears materials translated into clean 2D hand-painted game art: worn charcoal metal, black-brown cloth, restrained reddish details, readable silhouette, even soft studio illumination. No scenery, no floor, no shadow outside the figure, no haze or vignette, no title or text, no logo, no collage, no extra views, no weapon, no action or injuries. Genuine transparent alpha background, including the gaps between arms and body.",
+  "requested_output_path": "assets/characters_v5/raam_gow1_fullbody.png",
+  "reference_paths": [
+    "/workspace/scratch/e085ec38a002/tmp/raam_refs/raam_gow_pc_model_preview.png",
+    "/tmp/gears1-raam.jpg"
+  ],
+  "references": [
+    {
+      "role": "costume_fullbody",
+      "page": "https://models.spriters-resource.com/pc_computer/gearsofwar/asset/290796/",
+      "image": "https://models.spriters-resource.com/media/preview_icons/288/290796.png?updated=1755498012",
+      "evidence": "Public preview of original PC game model, listed as General RAAM from Gears of War, submitted September 21 2014. Secondary archive; two views inspected; no 3D model downloaded."
+    },
+    {
+      "role": "classic_head_torso_detail",
+      "page": "https://videogamesandthebible.com/2013/07/31/gears-of-war-and-the-bible-part-1-the-locust-horde/",
+      "image": "https://noobproguide.files.wordpress.com/2013/12/general-raam-from-gears-of-war-wiki.png?h=1196&w=1280",
+      "evidence": "Pre-Ultimate-Edition rehosted classic render, waist-up only; exact original edition unverified, not sole proof of 2006 accuracy."
+    },
+    {
+      "role": "edition_difference_check_not_generation_input",
+      "page": "https://jfletcher.artstation.com/projects/ay5Zk",
+      "evidence": "Artist describes his updated Ultimate Edition sculpt and original Epic source material; confirms that the remaster is a distinct design."
+    }
+  ],
+  "qa": {
+    "status": "reference_usable_technical_cleanup_and_canon_validation_pending",
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_head_hands_feet_visible": true,
+    "has_alpha_channel": true,
+    "alpha_min": 0,
+    "alpha_max": 254,
+    "alpha_zero_fraction": 0.49902979532877606,
+    "alpha_ge_250_fraction": 0.4682483673095703,
+    "alpha_1_to_10_fraction": 0.016544342041015625,
+    "alpha_bbox_nonzero": [
+      0,
+      17,
+      1010,
+      1536
+    ],
+    "alpha_bbox_gt_127": [
+      103,
+      28,
+      923,
+      1520
+    ],
+    "core_margin_px": {
+      "left": 103,
+      "top": 28,
+      "right": 101,
+      "bottom": 16
+    },
+    "outer_edge_alpha_max": 1,
+    "fidelity_1_to_1_validated": false,
+    "visual_findings": [
+      "Une seule silhouette complète : tête, mains, pans de manteau, bottes visibles.",
+      "Larges col et épaulières nervurés, cuirasse noire à boucles, bras pâles et long manteau fendu cohérents avec les références classiques.",
+      "Référence de costume original PC inspectée ; aucune référence Ultimate Edition utilisée en entrée de génération.",
+      "La pose reste une référence en pied à trois quarts ; ce n’est pas une animation ni une garde latérale validée.",
+      "La peau et les petits rivets restent à comparer aux captures source pour valider une fidélité 1:1."
+    ],
+    "technical_caveats": [
+      "Le canal alpha du corps atteint seulement 254/255 et se situe surtout à 252–253 ; le premier plan n’est pas entièrement opaque.",
+      "Résidus alpha très faibles : valeur maximale de 1/255 au bord extérieur.",
+      "Marge inférieure du corps principal : 16 pixels sur une hauteur de 1536 ; ajouter du cadrage dans une future révision avant animation.",
+      "Ne pas marquer ce fichier comme sprite moteur final validé."
+    ]
+  },
+  "output_path": "assets/characters_v5/raam_gow1_fullbody.png",
+  "source_generation_file": "/workspace/scratch/e085ec38a002/generated_images/exec-bc085c62-4c38-4c7c-b4ef-bd9fb91e651a.png",
+  "generation_attempts_this_pass": 1,
+  "successful_outputs_this_pass": 1,
+  "corrections_this_pass": 0,
+  "mode": "RGBA",
+  "width": 1024,
+  "height": 1536,
+  "size_bytes": 2459409,
+  "sha256": "d5090cda44057420ff40438a3e3f8d18c94167b95e1bed83a04fc6b2bcd97f95"
+}

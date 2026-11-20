@@ -1,0 +1,19 @@
+{
+  "id": "tai",
+  "name": "Tai Kaliso",
+  "source_game": "Gears of War 2",
+  "prompt": "Tai Kaliso from Gears of War 2 in his intact early-campaign COG outfit. Adult very broad and powerful Islander-looking man with Tai’s recognisable calm, broad face, shaved sides and dark central mohawk, and the character’s specific facial and exposed-arm tattoo patterns. Reproduce the bulky weathered dark COG campaign armor, including the distinctive large asymmetrical campaign shoulder shield on its original side, rather than the reduced multiplayer armor. Include the original chest panel construction, practical straps, forearm protection, military belt and pouches, reinforced combat trousers, knee plates and heavy boots, with small restrained blue equipment lights. Follow Tai’s actual Gears 2 design; do not add arbitrary tribal ornaments or random tattoo patterns. This is neither Jungle Tai from Judgment nor the younger E-Day redesign. His outfit is complete and undamaged in a neutral preparation pose, with both hands empty. Do not depict captivity, suffering, scars from torture, torn skin or any narrative death scene. Create exactly one adult character, alone, full body from the top of the head to both complete boot soles, centered with clear transparent margin around the silhouette. Neutral relaxed standing pose, three-quarter turn toward screen right, clearly readable as a side-view 2D fighting-game character; both arms resting slightly away from the torso, hands visibly empty and relaxed, legs comfortably separated, neutral closed-mouth expression. Respect the character’s original anatomy and game proportions. Realistic hand-painted 2D production illustration with UHD-level material detail, crisp clean contour and controlled soft lighting; no cartoon, no cel shading, no photograph, no plastic miniature. The background must be truly transparent with an alpha channel. No background color, scenery, floor, pedestal, ground plane, cast shadow outside the silhouette, text, caption, UI, watermark, duplicates, inset portrait, alternate view, held weapon, slung weapon, violence, blood, fresh wounds or exposed tissue. This is a single reusable neutral character cutout, not a poster or action scene.",
+  "source_urls": [
+    "https://www.gearsofwar.com/en-us/games/gears-of-war-2/",
+    "https://news.xbox.com/en-us/2020/11/17/gears-5-operation-5/amp/",
+    "https://download.microsoft.com/download/F/9/9/F99AB8F0-5191-4EDD-B312-7A9B9E4784FA/GOW2_MNL_XK.pdf",
+    "https://gearsofwar.fandom.com/wiki/Tai_Kaliso",
+    "https://www.mobygames.com/game/38697/gears-of-war-2/screenshots/xbox360/370298/"
+  ],
+  "output_hint": null,
+  "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 94e0a647-b04b-4d33-9368-8faedaf3179f.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+  "has_image": false,
+  "path": null,
+  "mode": "built-in",
+  "fidelity_approved": false
+}

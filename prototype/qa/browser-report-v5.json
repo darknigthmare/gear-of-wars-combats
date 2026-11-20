@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-20",
+  "status": "blocked_before_page_open",
+  "command": "node prototype/qa-browser.mjs",
+  "error": "Chromium process_singleton_posix socket() failed: Operation not permitted",
+  "page_opened": false,
+  "responsive_tested": false,
+  "hardware_gamepad_tested": false,
+  "fallback_evidence": "canvas-report-v5.json",
+  "notes": "No browser test is reported successful. Canvas and engine checks are tracked separately."
+}

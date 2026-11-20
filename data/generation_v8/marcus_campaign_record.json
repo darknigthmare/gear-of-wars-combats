@@ -1,0 +1,106 @@
+{
+  "id": "marcus_campaign_gow3_v8",
+  "subject_id": "marcus_skin_03",
+  "category": "costume",
+  "character_id": "marcus",
+  "costume_id": "marcus_skin_03",
+  "name": "Marcus Fenix — campagne Gears of War 3",
+  "variant": "Gears of War 3 — armure de campagne",
+  "source_game": "Gears of War 3",
+  "purpose": "costume_reference_fullbody",
+  "variant_relation": "target_version_candidate",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "asset_path": "assets/costumes_v8/marcus_campaign_gow3_fullbody.png",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-20",
+  "prompt": "Use case: identity-preserve. Asset type: one transparent full-body costume reference for the Gears of War Combats project. Depict exactly ONE Marcus Fenix in his GEARS OF WAR 3 (2011) CAMPAIGN armor, using the supplied references strictly for their documented scope. Image 1 is an original Epic Games/Kevin Lanning low-poly production model sheet reproduced in a course PDF: the left and right panels show the entire front and back geometry including the legs, shin plates and boots. Use this to preserve body proportions, the segmented armor outline, thigh pouches, broad shaped shin guards, boot toe shapes and rear equipment. Image 2 is a colored promotional upper-body render from the Gears of War 3 press campaign: follow its actual face, bandana, armor, cloth, arm tattoo, asymmetries, belt pouches, glove construction and colors. Image 3 is Gears 3 promotional key art reproduced as a rough cutout: ONLY use Marcus's own visible lower-leg armor surface as supplementary material evidence, not the extra partial feet, rocks, other silhouettes or surrounding cutout background. Create one neutral standing full-body pose in a slight three-quarter view facing screen-right, both arms relaxed slightly away from the torso so the costume is visible, empty hands, no firearm. Preserve the scarred broad square male face, dark short goatee, black close-fitting bandana with a small pale embroidered emblem, broad heavy Gears muscular proportions and thick neck. Keep the exposed upper arms and frayed beige short sleeves, the tattoo on his anatomical right upper arm, the separate plate on his anatomical left upper arm, the scratched dark steel chest with two round gold-edged emblem discs and small central circular emblem, the compact glowing pale-blue shoulder-strap insets, brown stitched forearm wraps and fingerless gloves, round wrist device, large COG gear belt buckle, asymmetric dark gray utility pouches and broad padded dark trousers. Follow the first sheet for the actual shin-guard and boot silhouette instead of substituting modern Gears 5 armor. Keep the dark worn metal, leather and cloth palette of the supplied Gears 3 references, with neutral studio illumination rather than the orange dramatic key-art lighting. Render detailed realistic game-character artwork, with the whole head, both hands, all leg armor and both boot soles fully within the canvas. Leave at least 10 percent transparent space above and below and generous space at each side. True transparent alpha background; no floor, platform, rocks, cast shadow, extra characters, duplicate poses, collage, wireframe overlay, text, logos or watermark. Do not use the 2006, Ultimate Edition, Judgment Young Marcus, Gears 4 or Gears 5 costume. This is one static costume reference, not an animation sheet.",
+  "sources": [
+    {
+      "page_url": "https://paulobruno.github.io/assets/pdfs/IntroducaoDesenvolvimentoJogosDigitais.pdf",
+      "source_type": "credited_production_model_sheet_reproduced_in_course_pdf",
+      "page_number": 35,
+      "source_image_title": "GEARS OF WAR 3: MARCUS LP UNTEXTURED MODEL",
+      "credits": "© Epic Games 2011 ; modèle Kevin Lanning ; concept James Hawkins ; direction artistique Chris Perna",
+      "scope": "Planche originale créditée Epic, reproduite dans un support de cours ; l’image embarquée a été extraite intacte. Corps complet face/dos en filaire, semelles comprises ; vue dorsale centrale ombrée. Utilisée pour la géométrie et les proportions. Elle ne documente pas les textures couleur intégrales des jambes. Le crédit d’origine est conservé comme preuve, sans présenter l’auteur du cours comme artiste du jeu.",
+      "visual_reference_used": true,
+      "reference_sha256": "63985550bdef55fe7536b4b21e08bfaf0da18a0c8d81413488e128892f8b834c",
+      "reference_width": 1024,
+      "reference_height": 538
+    },
+    {
+      "page_url": "https://www.jeuxactu.com/e3-10-gears-of-war-3-ice-t-confirm-45795.htm",
+      "image_url": "https://i.jeuxactus.com/datas/jeux/g/e/gears-of-war-3/xl/gears-of-war-3-4e265bd1588b4.jpg",
+      "source_type": "game_promotional_render_reproduced_by_press",
+      "scope": "Rendu couleur Gears of War 3 publié dans un article de la période E3 2010. Haut du personnage détaillé, coupé aux cuisses : visage, armure à disques, bandana, tatouage droit, protection du bras gauche, ceinture et gants. La date avant sortie impose un contrôle avec des captures du modèle final de 2011 ; cette vue ne suffit pas seule à documenter les jambes.",
+      "visual_reference_used": true,
+      "reference_sha256": "a9bba6fa9d9934e7c725f492b8472650481ec8f27fdbb583acdc987e5dbc64dd",
+      "reference_width": 1000,
+      "reference_height": 812
+    },
+    {
+      "page_url": "https://backgroundstg.blogspot.com/p/gears-of-war-3-png.html",
+      "image_url": "https://1.bp.blogspot.com/-DtBp0rGadcw/U78zLKBQfPI/AAAAAAAAAEc/I3-GSRETg7k/s1600/Gears_Of_War_31.png",
+      "source_type": "third_party_promotional_key_art_cutout",
+      "scope": "Reproduction détourée imparfaitement du key art Marcus Gears 3 à genou. Seule la surface visible de sa protection de tibia sert de complément de matière ; pieds secondaires, rochers, arrière-plan et pose sont explicitement exclus du prompt. Les bottes de Marcus ne sont pas entièrement visibles et cette reproduction ne certifie pas leur texture finale. L’auteur individuel et la filiation précise de ce détourage ne sont pas validés.",
+      "visual_reference_used": true,
+      "reference_sha256": "2e4adfe3b608ce91a8120dd2184305734889975558c16a30456123d36ad57c65",
+      "reference_width": 1200,
+      "reference_height": 1400
+    },
+    {
+      "page_url": "https://www.3dart.it/en/the-art-of-gears-of-war-3/",
+      "source_type": "production_team_interview_reproduction",
+      "scope": "Entretien de l’équipe Epic repris de CGSociety ; Kevin Lanning décrit son travail sur Marcus Gears 3. La sculpture du haut publiée avec l’entretien a été inspectée comme contrôle documentaire, mais n’a pas été fournie au générateur.",
+      "visual_reference_used": false
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "white_composite_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Un seul Marcus entier, tête, mains et deux bottes sans coupe, sans arme ni socle ; trois quarts tourné vers la droite.",
+      "Bandana noir, bras nus, manches beige effilochées, tatouage droit, protection du bras gauche, plastron à deux disques cerclés d’or, sangles d’épaule à lumière bleue, poignets matelassés, ceinture et protège-tibias repris des références Gears 3.",
+      "La géométrie complète est documentée par une planche en filaire. Les textures du bas du corps et les bottes ne disposent pas d’une planche couleur finale intégrale : elles restent partiellement reconstruites, à valider.",
+      "Le tatouage, les emblèmes, le visage, les sangles, les gravures de tibias et les rivets présentent des détails générés ; la correspondance pièce par pièce n’est pas certifiée.",
+      "55,16 % des pixels sont entièrement transparents ; le composite sur blanc confirme le détourage malgré le dégradé RGB invisible sous alpha nul.",
+      "Marges gauche/haut/droite/bas au seuil alpha 128 : 139/20/107/12 px. Les marges verticales sont inférieures aux 10 % demandés ; une marge supplémentaire sera nécessaire pour un atlas.",
+      "Le rattachement remplit exclusivement marcus_skin_03, costume de campagne Gears 3. La cible de base Marcus 2006 reste ouverte ; le PNG ne la remplace pas."
+    ],
+    "remaining_checks": [
+      "Obtenir une planche couleur entière ou des captures finales 2011 des jambes, des bottes et du dos, puis contrôler/corriger ces zones.",
+      "Vérifier le tracé exact du tatouage, la forme de la barbe et du visage, les emblèmes du bandana et du plastron, les rivets, le dispositif de poignet et la boucle.",
+      "Préparer une pose de garde, augmenter les marges, définir pivots et animations ; ce fichier reste une référence statique."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "bytes": 2328323,
+    "sha256": "2dd233a8192e445d03d36c58b58c2e08cf73dcfe4af1b58ec0edf074041c3250",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.5515638987223307,
+    "subject_bbox_alpha_ge_128": [
+      139,
+      20,
+      917,
+      1524
+    ],
+    "subject_margins_ltrb_px": [
+      139,
+      20,
+      107,
+      12
+    ]
+  }
+}

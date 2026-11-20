@@ -1,0 +1,106 @@
+[
+  {
+    "id": "dom",
+    "name": "Dominic Santiago",
+    "source_game": "Gears of War 2006",
+    "costume": "Armure de campagne du premier jeu — dom_skin_02",
+    "prompt": "Dominic “Dom” Santiago from the original Gears of War (2006), specifically his first-game campaign appearance. Adult muscular Latino-looking man with his recognisable broad, weathered face, short dark hair and close-cropped dark facial hair. Match the first-game Delta Squad official reference, where Dom is the rightmost soldier. Reproduce his individual dark charcoal and gunmetal COG campaign armor, compact blue illuminated armor details, large fitted chest plates, armored shoulders and forearms, practical waist and thigh equipment, dark olive-brown combat trousers, reinforced knees and heavy military boots. Keep Dom’s own face, armor panel layout and proportions distinct from Marcus. Use his short first-game hair and beard silhouette; do not age him into his long-haired, heavily bearded Gears 3 appearance. No bandana. Preserve the period-specific worn metal and fabric construction without mixing in Gears 5 or E-Day redesigns. Create exactly one adult character, alone, full body from the top of the head to both complete boot soles, centered with clear transparent margin around the silhouette. Neutral relaxed standing pose, three-quarter turn toward screen right, clearly readable as a side-view 2D fighting-game character; both arms resting slightly away from the torso, hands visibly empty and relaxed, legs comfortably separated, neutral closed-mouth expression. Respect the character’s original anatomy and game proportions. Realistic hand-painted 2D production illustration with UHD-level material detail, crisp clean contour and controlled soft lighting; no cartoon, no cel shading, no photograph, no plastic miniature. The background must be truly transparent with an alpha channel. No background color, scenery, floor, pedestal, ground plane, cast shadow outside the silhouette, text, caption, UI, watermark, duplicates, inset portrait, alternate view, held weapon, slung weapon, violence, blood or injuries. This is a single reusable neutral character cutout, not a poster or action scene.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-of-war/",
+      "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/gears-1-co-op-69d6e9d002b82.jpg"
+    ],
+    "visual_checklist": [
+      "Comparer au Dom situé à droite sur le visuel officiel Delta Squad du premier jeu.",
+      "Cheveux courts foncés et pilosité courte ; aucune silhouette de Dom Gears 3.",
+      "Visage, torse et proportions distincts de Marcus ; aucune bandana.",
+      "Armure sombre, détails lumineux bleus discrets, plaques de bras, poches et genouillères du premier épisode.",
+      "Orientation trois-quarts vers la droite, pose debout au repos et mains entièrement vides.",
+      "Un seul adulte entier, tête et semelles dans le cadre, contour propre.",
+      "Vérifier le canal alpha réel ; aucun sol, ombre extérieure, texte ou décor."
+    ],
+    "unresolved_details": [
+      "Le visuel officiel inspecté montre le devant et une vue oblique, pas un turnaround ; dos et côté opposé restent à comparer à une capture du jeu 2006.",
+      "La topologie exacte des petites boucles, coutures et marquages ne peut pas être certifiée sur cette seule image.",
+      "La fidélité 1:1 du résultat généré exige une comparaison visuelle après génération."
+    ]
+  },
+  {
+    "id": "baird",
+    "name": "Damon Baird",
+    "source_game": "Gears of War 3",
+    "costume": "Tenue de campagne Gears of War 3 — baird_skin_03",
+    "prompt": "Damon Baird from Gears of War 3, in his original Gears 3 campaign field outfit. Adult heavily built man with recognisable angular facial features, short blond hair, light facial stubble and his distinctive round-lensed blue mechanic goggles resting on his forehead above the eyes. Use the younger campaign Baird, not the grey-haired or bald older Gears 5 engineer. Reproduce the Gears 3 campaign arrangement of weathered dark blue-grey COG chest armor, blue armor lights, field clothing, utility belt and equipment pouches, reinforced combat trousers, knee armor, forearm protection and heavy boots. Keep the goggles, face and engineering-soldier silhouette recognisably Baird’s, while keeping the original Gears 3 armor design rather than importing his Judgment lieutenant uniform or later laboratory clothing. Materials should read as worn metal plates, woven military fabric, leather and rubber. Do not add tools to his hands. Create exactly one adult character, alone, full body from the top of the head to both complete boot soles, centered with clear transparent margin around the silhouette. Neutral relaxed standing pose, three-quarter turn toward screen right, clearly readable as a side-view 2D fighting-game character; both arms resting slightly away from the torso, hands visibly empty and relaxed, legs comfortably separated, neutral closed-mouth expression. Respect the character’s original anatomy and game proportions. Realistic hand-painted 2D production illustration with UHD-level material detail, crisp clean contour and controlled soft lighting; no cartoon, no cel shading, no photograph, no plastic miniature. The background must be truly transparent with an alpha channel. No background color, scenery, floor, pedestal, ground plane, cast shadow outside the silhouette, text, caption, UI, watermark, duplicates, inset portrait, alternate view, held weapon, slung weapon, violence, blood or injuries. This is a single reusable neutral character cutout, not a poster or action scene.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-of-war-3/",
+      "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/gears-of-war-3-69d7d9132411b-1024x576.jpg",
+      "https://www.xbox.com/en-US/games/store/gears-3-baird-multiplayer-character/C54DHPZWRBV5"
+    ],
+    "visual_checklist": [
+      "Baird blond de Gears 3, lunettes mécaniques sur le front et yeux dégagés.",
+      "Ne pas produire le Baird âgé de Gears 5 ni l’uniforme de lieutenant Judgment.",
+      "Comparer l’armure et les vêtements de campagne au visuel Gears 3 ; lumière bleue contrôlée.",
+      "Poches, protection des genoux et bottes doivent garder une silhouette militaire utilitaire.",
+      "Aucun outil ni arme dans les mains ; aucun second personnage.",
+      "Pose neutre orientée à droite, pieds complets et espace transparent périphérique.",
+      "Vérifier l’alpha réel et l’absence de texte, sol, ombre extérieure et UI."
+    ],
+    "unresolved_details": [
+      "Baird est petit dans la composition officielle Gears 3 ; le découpage précis des manches, sangles, plaques latérales et des bottes reste à comparer à une vue rapprochée du modèle du jeu.",
+      "La boutique officielle confirme le nom « Gears 3 Baird » mais sa vignette accessible est une illustration générique Judgment ; elle ne valide pas le costume à elle seule.",
+      "Aucune certification 1:1 avant confrontation du rendu avec des captures rapprochées Gears 3."
+    ]
+  },
+  {
+    "id": "cole",
+    "name": "Augustus Cole",
+    "source_game": "Gears of War 3",
+    "costume": "Tenue de campagne Gears of War 3 — cole_skin_02",
+    "prompt": "Augustus “Cole Train” Cole from Gears of War 3, wearing his regular Gears 3 campaign soldier outfit. Adult Black man with Cole’s recognisable broad face, short facial hair and exceptionally powerful, broad-shouldered athletic build. Use his campaign headwear and armor silhouette shown in the official Gears 3 key art: a close-fitting dark field cap, bulky weathered COG chest and shoulder equipment with restrained blue armor lights, exposed muscular upper-arm areas where appropriate to the campaign outfit, sturdy forearm protection, practical belt and pouches, reinforced combat trousers, knee guards and heavy boots. Preserve his original campaign clothing and imposing but believable game anatomy. This is regular campaign Cole, not Thrashball Cole, not Superstar Cole, not a sports uniform, not a helmeted athlete and not the older Gears 5 redesign. His face is calm and neutral rather than shouting or smiling broadly. Create exactly one adult character, alone, full body from the top of the head to both complete boot soles, centered with clear transparent margin around the silhouette. Neutral relaxed standing pose, three-quarter turn toward screen right, clearly readable as a side-view 2D fighting-game character; both arms resting slightly away from the torso, hands visibly empty and relaxed, legs comfortably separated, neutral closed-mouth expression. Respect the character’s original anatomy and game proportions. Realistic hand-painted 2D production illustration with UHD-level material detail, crisp clean contour and controlled soft lighting; no cartoon, no cel shading, no photograph, no plastic miniature. The background must be truly transparent with an alpha channel. No background color, scenery, floor, pedestal, ground plane, cast shadow outside the silhouette, text, caption, UI, watermark, duplicates, inset portrait, alternate view, held weapon, slung weapon, violence, blood or injuries. This is a single reusable neutral character cutout, not a poster or action scene.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-of-war-3/",
+      "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/gears-of-war-3-69d7d9132411b-1024x576.jpg",
+      "https://news.xbox.com/en-us/2020/03/31/gears-5-operation-3-gridiron-available-today-for-all-players/"
+    ],
+    "visual_checklist": [
+      "Identifier Cole à gauche dans le key art officiel Gears 3 ; garder sa morphologie et son visage propres.",
+      "Tenue militaire de campagne, sans casque, maillot ni accessoires de thrashball.",
+      "Coiffe de campagne, torse blindé et proportions des bras cohérents avec Gears 3.",
+      "Lumières bleues contenues ; matières métalliques et textiles distinctes.",
+      "Expression neutre, aucun cri, aucune attaque, aucune arme.",
+      "Un seul adulte entier, pose de repos trois-quarts vers la droite.",
+      "Pieds et tête intacts dans le cadre ; alpha réel sans sol ni ombre extérieure."
+    ],
+    "unresolved_details": [
+      "Le key art permet de contrôler la silhouette générale mais pas les détails fins de la coiffe, le panneau dorsal ni chaque sangle.",
+      "La page Opération 3 confirme le personnage ; son contenu Gears 5 ne sert pas de preuve pour le costume Gears 3.",
+      "La couleur exacte de la coiffe, les petites attaches et le découpage des protections restent à vérifier sur capture Gears 3 avant validation 1:1."
+    ]
+  },
+  {
+    "id": "anya",
+    "name": "Anya Stroud",
+    "source_game": "Gears of War 3",
+    "costume": "Tenue de combat de campagne Gears of War 3 — anya_skin_02",
+    "prompt": "Anya Stroud in her Gears of War 3 frontline campaign outfit, matching the female soldier on the right of the official Gears 3 cooperative-campaign screenshot. Adult athletic woman with Anya’s recognisable face, fair skin, blonde hair, side-swept fringe and loose face-framing strands following her Gears 3 hairstyle. Reproduce her fitted but practical gunmetal and grey COG field armor: distinctive rounded front chest plate, blue rectangular shoulder-strap lights, muted short-sleeved field underlayer, practical waist belt and pouches, reinforced dark combat trousers, knee and shin guards, armored forearms and heavy boots. Preserve the real campaign construction and modest military fit without exaggerating her body or armor shape. This is combat Anya from Gears 3, not her Gears 1 or 2 communications uniform, not civilian Anya and not a later memorial or ceremonial design. No headset invented from her control-room costume. Create exactly one adult character, alone, full body from the top of the head to both complete boot soles, centered with clear transparent margin around the silhouette. Neutral relaxed standing pose, three-quarter turn toward screen right, clearly readable as a side-view 2D fighting-game character; both arms resting slightly away from the torso, hands visibly empty and relaxed, legs comfortably separated, neutral closed-mouth expression. Respect the character’s original anatomy and game proportions. Realistic hand-painted 2D production illustration with UHD-level material detail, crisp clean contour and controlled soft lighting; no cartoon, no cel shading, no photograph, no plastic miniature. The background must be truly transparent with an alpha channel. No background color, scenery, floor, pedestal, ground plane, cast shadow outside the silhouette, text, caption, UI, watermark, duplicates, inset portrait, alternate view, held weapon, slung weapon, violence, blood or injuries. This is a single reusable neutral character cutout, not a poster or action scene.",
+    "source_urls": [
+      "https://www.gearsofwar.com/en-us/games/gears-of-war-3/",
+      "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/gears-3-co-op-69d7d90d192e5.jpg",
+      "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/gears-of-war-3-69d7d9132411b-1024x576.jpg",
+      "https://www.xbox.com/en-US/games/store/anya-stroud-multiplayer-character/bw4rxp3skl2b"
+    ],
+    "visual_checklist": [
+      "Comparer directement à Anya à droite dans la capture officielle coop Gears 3.",
+      "Cheveux blonds avec mèche de côté et contour du visage conforme.",
+      "Plastron arrondi, deux éléments lumineux bleus aux bretelles et tenue de terrain.",
+      "Silhouette militaire fonctionnelle ; aucune fusion avec la tenue de contrôle ou une tenue civile.",
+      "Pas d’arme ni de casque de communication inventé, expression et posture neutres.",
+      "Tête et deux bottes complètes, orientation trois-quarts vers la droite.",
+      "Transparence alpha réelle, contour sans halo, aucun décor ou texte."
+    ],
+    "unresolved_details": [
+      "La capture avant ne montre pas entièrement la fixation des cheveux à l’arrière ni le dos de l’armure.",
+      "Les microdétails des fermetures, écussons et genouillères nécessitent une comparaison rapprochée.",
+      "La vignette du DLC Anya accessible sur Xbox réutilise une couverture générique Judgment ; seule la description officielle confirme le passage au front dans Gears 3."
+    ]
+  }
+]

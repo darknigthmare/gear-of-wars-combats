@@ -1,0 +1,99 @@
+{
+  "id": "hoffman",
+  "name": "Victor Hoffman",
+  "source_game": "Gears 5 multijoueur",
+  "prompt": "Colonel Victor Hoffman as the specific Armored Hoffman character skin from the Gears 5 Operation 6 bundle. Adult older, stocky and powerful man with Hoffman’s recognisable stern face, grey moustache, strong square jaw and low dark military field cap. Use the armored multiplayer skin, standing able-bodied, not his elderly seated campaign appearance and not an invented ceremonial dress uniform. Match the official Operation 6 bundle artwork: bulky muted olive-grey and dark gunmetal COG armor, high protective collar, rows of compact chest utility pouches and straps, restrained blue shoulder lighting, heavy forearm guards, practical belt equipment, reinforced military trousers, knee plates and substantial boots. Keep the cap, moustache and compact commander silhouette distinctive. No long beard, red beret, decorative medals, officer sword, throne or wheelchair. The face remains neutral and closed-mouthed. Create exactly one adult character, alone, full body from the top of the head to both complete boot soles, centered with clear transparent margin around the silhouette. Neutral relaxed standing pose, three-quarter turn toward screen right, clearly readable as a side-view 2D fighting-game character; both arms resting slightly away from the torso, hands visibly empty and relaxed, legs comfortably separated, neutral closed-mouth expression. Respect the character’s original anatomy and game proportions. Realistic hand-painted 2D production illustration with UHD-level material detail, crisp clean contour and controlled soft lighting; no cartoon, no cel shading, no photograph, no plastic miniature. The background must be truly transparent with an alpha channel. No background color, scenery, floor, pedestal, ground plane, cast shadow outside the silhouette, text, caption, UI, watermark, duplicates, inset portrait, alternate view, held weapon, slung weapon, violence, blood, fresh wounds or exposed tissue. This is a single reusable neutral character cutout, not a poster or action scene.",
+  "source_urls": [
+    "https://www.xbox.com/fr-fr/games/store/gears-5-operation-6-bundle/9nblc6fv6spg",
+    "https://store-images.s-microsoft.com/image/apps.337.13510871565080275.ff765211-eed2-4e91-9d47-e587f251fce5.43d742b7-4c77-4394-997d-4364ddd0157a?h=265&q=90&w=177"
+  ],
+  "output_hint": "Generated images are saved to /workspace/scratch/1e1136701ce4/generated_images as /workspace/scratch/1e1136701ce4/generated_images/exec-856f46d4-c8c0-4de4-b4c7-653900a51eca.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "error": null,
+  "has_image": true,
+  "path": "assets/characters_v4/hoffman_reference_v4.png",
+  "mode": "built-in",
+  "fidelity_approved": false,
+  "width": 1024,
+  "height": 1536,
+  "image_mode": "RGBA",
+  "alpha": true,
+  "alpha_min": 0,
+  "alpha_max": 254,
+  "sha256": "5349cae7484740521a710901c0429de1d0b3b8d170691c32f12af51d092a0e3f",
+  "qa_notes": [
+    "Personnage unique entier, homme âgé moustachu avec casquette, mains vides, orientation droite inspectés.",
+    "Marge supérieure et marge sous les bottes trop faibles pour une base d’animation.",
+    "Armure, distribution des poches et logos de rouage non certifiés par comparaison rapprochée au costume Opération 6.",
+    "BBox et pixels alpha inspectés ; les marges tête/pieds restent réellement trop étroites.",
+    "Contrôle alpha : les échantillons de fond latéraux, entre les jambes et sous le sujet sont alpha=0. Le point haut central vaut 0–3/255 selon le fichier. Le dégradé RGB aperçu ne prouve donc pas un halo visible ; aucun fond opaque établi."
+  ],
+  "fidelity_status": "À valider",
+  "ready_for_animation": false,
+  "alpha_check": {
+    "alpha_bbox_ge16": [
+      150,
+      6,
+      841,
+      1528
+    ],
+    "transparent_fraction": 0.5887298583984375,
+    "low_alpha_1_15_fraction": 0.013359705607096354,
+    "opaque_ge240_fraction": 0.3911914825439453,
+    "background_samples": {
+      "0,0": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "512,0": [
+        58,
+        55,
+        53,
+        0
+      ],
+      "0,768": [
+        3,
+        1,
+        1,
+        0
+      ],
+      "50,768": [
+        9,
+        7,
+        6,
+        0
+      ],
+      "100,400": [
+        16,
+        15,
+        15,
+        0
+      ],
+      "950,768": [
+        21,
+        16,
+        14,
+        0
+      ],
+      "950,1300": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "512,1535": [
+        23,
+        20,
+        18,
+        0
+      ],
+      "460,1350": [
+        21,
+        18,
+        17,
+        0
+      ]
+    }
+  }
+}

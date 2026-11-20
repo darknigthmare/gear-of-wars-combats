@@ -1,0 +1,1439 @@
+{
+  "schema_version": "1.0",
+  "version": "v6",
+  "updated_at": "2026-11-20",
+  "title": "Gears of War Combats — extension du catalogue de production V6",
+  "scope": "Cibles de production documentées; ce fichier ne modifie pas le roster jouable et ne certifie aucune fidélité visuelle.",
+  "baseline": {
+    "characters": 36,
+    "costumes": 75,
+    "bosses": 24,
+    "stages": 24
+  },
+  "identity_rules": [
+    "Fusion par identifiant; mac_skin_02 conserve l’identité du costume Mechanic Mac déjà listé.",
+    "boss_matriarch conserve l’identité de la Matriarch existante; seules ses sources sont enrichies.",
+    "Gridlock de cette passe utilise stage_gridlock_gow4 et cible explicitement Gears of War 4.",
+    "Les rencontres supplémentaires sont des adaptations 2D de sujets canoniques, pas des affirmations de nouveaux boss officiels.",
+    "Un costume distinct reste relié à son personnage; une couleur ou une arme ne crée pas un nouveau personnage.",
+    "La présence réelle d’images est calculée par l’inventaire; aucune entrée de ce catalogue ne présume une génération réussie."
+  ],
+  "characters": [
+    {
+      "id": "anthony_carmine",
+      "name": "Anthony Carmine",
+      "source_game": "Gears of War (2006)",
+      "priority": "P0",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "carmine_riftworm"
+      ],
+      "source_urls": [
+        "https://news.xbox.com/en-us/2014/01/28/games-our-favorite-moments-from-the-gears-of-war-series/"
+      ],
+      "source_scope": "Personnage confirmé; casque et plaques de la version 2006 à capturer séparément. Ne pas utiliser Black Steel Gears 5 comme costume de base.",
+      "notes": [
+        "Personnage confirmé; casque et plaques de la version 2006 à capturer séparément. Ne pas utiliser Black Steel Gears 5 comme costume de base.",
+        "Identité canonique documentée; adaptation du kit en combat 2D originale. Captures précises à valider avant certification visuelle."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "base_costume": "Gears of War (2006) — apparence de référence de cette édition"
+    },
+    {
+      "id": "benjamin_carmine",
+      "name": "Benjamin Carmine",
+      "source_game": "Gears of War 2",
+      "priority": "P0",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "carmine_riftworm",
+        "benjamin_guide"
+      ],
+      "source_urls": [
+        "https://news.xbox.com/en-us/2014/01/28/games-our-favorite-moments-from-the-gears-of-war-series/",
+        "https://ptgmedia.pearsoncmg.com/images/9780744009644/samplepages/0964-4_gearsofwar2.pdf"
+      ],
+      "source_scope": "Personnage confirmé; guide éditeur p.35. Verrouiller casque Benjamin, ne pas substituer Anthony.",
+      "notes": [
+        "Personnage confirmé; guide éditeur p.35. Verrouiller casque Benjamin, ne pas substituer Anthony.",
+        "Identité canonique documentée; adaptation du kit en combat 2D originale. Captures précises à valider avant certification visuelle."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "base_costume": "Gears of War 2 — apparence de référence de cette édition"
+    },
+    {
+      "id": "jace_stratton",
+      "name": "Jace Stratton",
+      "source_game": "Gears of War 3",
+      "priority": "P0",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "jace_dc"
+      ],
+      "source_urls": [
+        "https://www.dc.com/comics/gears-of-war-2008/gears-of-war-14"
+      ],
+      "source_scope": "Identité et présence Gears 3 confirmées par DC; finaliser captures Gears 3 avant la génération. La couverture comic est une autre époque.",
+      "notes": [
+        "Identité et présence Gears 3 confirmées par DC; finaliser captures Gears 3 avant la génération. La couverture comic est une autre époque.",
+        "Identité canonique documentée; adaptation du kit en combat 2D originale. Captures précises à valider avant certification visuelle."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "base_costume": "Gears of War 3 — apparence de référence de cette édition",
+      "visual_evidence_scope": "identity_confirmed_game_costume_pending"
+    },
+    {
+      "id": "michael_barrick",
+      "name": "Michael Barrick",
+      "source_game": "Gears 5 — Operation 8 Drop 2",
+      "priority": "P0",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "op8_drop2",
+        "raam_shadow"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/news/operation-8-drop-2-reveal/",
+        "https://jeuvideo.afjv.com/news/4181_gears_of_war_3_raam_s_shadow.htm"
+      ],
+      "source_scope": "Version multijoueur Gears 5 comme cible; RAAM's Shadow sera une variante distincte.",
+      "notes": [
+        "Version multijoueur Gears 5 comme cible; RAAM's Shadow sera une variante distincte.",
+        "Identité canonique documentée; adaptation du kit en combat 2D originale. Captures précises à valider avant certification visuelle."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "base_costume": "Gears 5 — Operation 8 Drop 2 — apparence de référence de cette édition"
+    },
+    {
+      "id": "alicia_valera",
+      "name": "Alicia Valera",
+      "source_game": "Gears 5 — Operation 8 Drop 2",
+      "priority": "P0",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "op8_drop2",
+        "raam_shadow"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/news/operation-8-drop-2-reveal/",
+        "https://jeuvideo.afjv.com/news/4181_gears_of_war_3_raam_s_shadow.htm"
+      ],
+      "source_scope": "Spécialiste de reconnaissance et membre Zeta-Six; version visuelle Gears 5 à ne pas étiqueter Gears 3.",
+      "notes": [
+        "Spécialiste de reconnaissance et membre Zeta-Six; version visuelle Gears 5 à ne pas étiqueter Gears 3.",
+        "Identité canonique documentée; adaptation du kit en combat 2D originale. Captures précises à valider avant certification visuelle."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "base_costume": "Gears 5 — Operation 8 Drop 2 — apparence de référence de cette édition"
+    },
+    {
+      "id": "minh_young_kim",
+      "name": "Minh Young Kim",
+      "source_game": "Gears of War 3 — RAAM's Shadow",
+      "priority": "P0",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "raam_shadow"
+      ],
+      "source_urls": [
+        "https://jeuvideo.afjv.com/news/4181_gears_of_war_3_raam_s_shadow.htm"
+      ],
+      "source_scope": "Membre Zeta avec Barrick, Tai et Valera confirmé; source de contexte, captures précises requises.",
+      "notes": [
+        "Membre Zeta avec Barrick, Tai et Valera confirmé; source de contexte, captures précises requises.",
+        "Identité canonique documentée; adaptation du kit en combat 2D originale. Captures précises à valider avant certification visuelle."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "base_costume": "Gears of War 3 — RAAM's Shadow — apparence de référence de cette édition"
+    },
+    {
+      "id": "ezra_loomis",
+      "name": "Colonel Ezra Loomis",
+      "source_game": "Gears of War: Judgment",
+      "priority": "P0",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "judgment_team"
+      ],
+      "source_urls": [
+        "https://www.maxon.net/en/article/creating-assets-for-epic-games-gears-of-war-judgment"
+      ],
+      "source_scope": "Uniforme de parade, silhouette massive; armure dépourvue des disques caractéristiques habituels selon ses créateurs.",
+      "notes": [
+        "Uniforme de parade, silhouette massive; armure dépourvue des disques caractéristiques habituels selon ses créateurs.",
+        "Identité canonique documentée; adaptation du kit en combat 2D originale. Captures précises à valider avant certification visuelle."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "base_costume": "Gears of War: Judgment — apparence de référence de cette édition"
+    },
+    {
+      "id": "bernadette_mataki",
+      "name": "Bernadette « Bernie » Mataki",
+      "source_game": "Gears 5 — Armored Bernie",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "op8_bundle",
+        "op8_twig"
+      ],
+      "source_urls": [
+        "https://www.xbox.com/en-us/games/store/Operation-8-Bundle/9N8R67ZSR0F3",
+        "https://store.steampowered.com/news/posts/?enddate=1627996222&feed=steam_community_announcements"
+      ],
+      "source_scope": "Armored Bernie nom officiel; armure Gears 5 cible, ne pas mélanger avec V-Day.",
+      "notes": [
+        "Armored Bernie nom officiel; armure Gears 5 cible, ne pas mélanger avec V-Day.",
+        "Identité canonique documentée; adaptation du kit en combat 2D originale. Captures précises à valider avant certification visuelle."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "base_costume": "Gears 5 — Armored Bernie — apparence de référence de cette édition"
+    },
+    {
+      "id": "ketor_vrol",
+      "name": "Ketor Vrol",
+      "source_game": "Gears 5 — Operation 8",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "op8_bundle",
+        "op8_twig"
+      ],
+      "source_urls": [
+        "https://www.xbox.com/en-us/games/store/Operation-8-Bundle/9N8R67ZSR0F3",
+        "https://store.steampowered.com/news/posts/?enddate=1627996222&feed=steam_community_announcements"
+      ],
+      "source_scope": "Personnage disponible dans le lot Operation 8; figer modèle multijoueur plutôt qu'inventer une synthèse comic/jeu.",
+      "notes": [
+        "Personnage disponible dans le lot Operation 8; figer modèle multijoueur plutôt qu'inventer une synthèse comic/jeu.",
+        "Identité canonique documentée; adaptation du kit en combat 2D originale. Captures précises à valider avant certification visuelle."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "base_costume": "Gears 5 — Operation 8 — apparence de référence de cette édition"
+    },
+    {
+      "id": "oscar_diaz",
+      "name": "Oscar Diaz",
+      "source_game": "Gears 5 — Operation 8 Drop 2",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "op8_drop2"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/news/operation-8-drop-2-reveal/"
+      ],
+      "source_scope": "Chef de Riftworm Village et ancien Gear; rendu officiel Operation 8 disponible.",
+      "notes": [
+        "Chef de Riftworm Village et ancien Gear; rendu officiel Operation 8 disponible.",
+        "Identité canonique documentée; adaptation du kit en combat 2D originale. Captures précises à valider avant certification visuelle."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "base_costume": "Gears 5 — Operation 8 Drop 2 — apparence de référence de cette édition"
+    },
+    {
+      "id": "prescott",
+      "name": "Chairman Prescott",
+      "source_game": "Gears 5 — Armored Prescott",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "prescott_artist"
+      ],
+      "source_urls": [
+        "https://secam_station.artstation.com/projects/q9ydPz"
+      ],
+      "source_scope": "Version Armored Prescott documentée par l’artiste chargé du rig de production; proportions du cou et épaules spécifiques.",
+      "notes": [
+        "Version Armored Prescott documentée par l’artiste chargé du rig de production; proportions du cou et épaules spécifiques.",
+        "Identité canonique documentée; adaptation du kit en combat 2D originale. Captures précises à valider avant certification visuelle."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "base_costume": "Gears 5 — Armored Prescott — apparence de référence de cette édition"
+    },
+    {
+      "id": "hana_cole",
+      "name": "Hana Cole",
+      "source_game": "Gears 5: Hivebusters",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "hana_artist"
+      ],
+      "source_urls": [
+        "https://tylerthebradley.artstation.com/projects/w6oy9Z"
+      ],
+      "source_scope": "Référence de production publiée sous le titre Hanna; comparer au modèle final du DLC avant validation.",
+      "notes": [
+        "Référence de production publiée sous le titre Hanna; comparer au modèle final du DLC avant validation.",
+        "Identité canonique documentée; adaptation du kit en combat 2D originale. Captures précises à valider avant certification visuelle."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "base_costume": "Gears 5: Hivebusters — apparence de référence de cette édition",
+      "visual_evidence_scope": "production_concept_final_model_pending"
+    },
+    {
+      "id": "aaron_griffin",
+      "name": "Aaron Griffin",
+      "source_game": "Gears of War 3",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "griffin_store"
+      ],
+      "source_urls": [
+        "https://www.xbox.com/en-US/games/store/aaron-griffin-multiplayer-character/BTN0D0Q63NP7"
+      ],
+      "source_scope": "Personnage multijoueur confirmé dans la fiche Xbox; proportions, bijoux et tenue à vérifier sur modèle exact.",
+      "notes": [
+        "Personnage multijoueur confirmé dans la fiche Xbox; proportions, bijoux et tenue à vérifier sur modèle exact.",
+        "Identité canonique documentée; adaptation du kit en combat 2D originale. Captures précises à valider avant certification visuelle."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "base_costume": "Gears of War 3 — apparence de référence de cette édition"
+    },
+    {
+      "id": "locust_disciple",
+      "name": "Disciple locuste",
+      "source_game": "Gears Tactics",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "tactics_enemies"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-nz/news/dev-blog-enemies/"
+      ],
+      "source_scope": "Drone modifié à l'Imulsion; distinguer d'un Drone Lambent et du skin Gears 5.",
+      "notes": [
+        "Drone modifié à l'Imulsion; distinguer d'un Drone Lambent et du skin Gears 5.",
+        "Identité canonique documentée; adaptation du kit en combat 2D originale. Captures précises à valider avant certification visuelle."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "base_costume": "Gears Tactics — apparence de référence de cette édition"
+    },
+    {
+      "id": "locust_zealot",
+      "name": "Zealot locuste",
+      "source_game": "Gears Tactics",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "tactics_enemies"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-nz/news/dev-blog-enemies/"
+      ],
+      "source_scope": "Kantus biologiquement modifié; identité indépendante du Kantus standard.",
+      "notes": [
+        "Kantus biologiquement modifié; identité indépendante du Kantus standard.",
+        "Identité canonique documentée; adaptation du kit en combat 2D originale. Captures précises à valider avant certification visuelle."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "base_costume": "Gears Tactics — apparence de référence de cette édition"
+    },
+    {
+      "id": "locust_sniper",
+      "name": "Sniper locuste",
+      "source_game": "Gears Tactics",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "tactics_enemies"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-nz/news/dev-blog-enemies/"
+      ],
+      "source_scope": "Variante Drone avec Longshot; silhouette et accessoires du modèle Tactics à capturer.",
+      "notes": [
+        "Variante Drone avec Longshot; silhouette et accessoires du modèle Tactics à capturer.",
+        "Identité canonique documentée; adaptation du kit en combat 2D originale. Captures précises à valider avant certification visuelle."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "base_costume": "Gears Tactics — apparence de référence de cette édition"
+    },
+    {
+      "id": "boomer_tactics",
+      "name": "Boomer locuste",
+      "source_game": "Gears Tactics",
+      "base_costume": "Modèle Boomer de Gears Tactics, avec Boomshot",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "tactics_enemies"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-nz/news/dev-blog-enemies/"
+      ],
+      "source_scope": "Le blog officiel Enemies identifie le Boomer de Tactics, montre son image et précise sa grande carrure, sa lenteur et son Boomshot.",
+      "notes": [
+        "Boomer de Gears Tactics; conserver son modèle et son Boomshot, sans substitution Grinder/Mulcher ou Mauler/bouclier.",
+        "Le rôle de combattant de duel, les combos et la balance sont des créations pour le projet."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage jouable non attesté par ce catalogue."
+    }
+  ],
+  "costumes": [
+    {
+      "id": "mac_skin_02",
+      "name": "Mac — Mechanic Mac",
+      "source_game": "Gears 5",
+      "priority": "P0",
+      "catalog_origin": "roster_skin_enriched_v6",
+      "catalog_scope": "existing_costume_reference_enrichment",
+      "delta_status": "existing_costume_source_upgrade",
+      "source_ids": [
+        "hivebusters_comic"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/news/hivebusters-graphic-novel-available-now/"
+      ],
+      "source_scope": "Rendu promotionnel officiel du skin; conserver combinaison/équipement et identité Mac.",
+      "notes": [
+        "Rendu promotionnel officiel du skin; conserver combinaison/équipement et identité Mac.",
+        "Réutilise mac_skin_02, déjà présent parmi les 75 costumes. Aucun doublon costume_mac_mechanic ou mac_mechanic_g5 à créer."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "character_id": "mac",
+      "parent_id": "mac",
+      "character_name": "Mac",
+      "costume_name": "Mechanic Mac",
+      "asset_rule": "Un personnage, un costume et une pose par image; rattachement explicite par costume_id.",
+      "gameplay": "Cosmétique; aucun changement de kit présumé.",
+      "source_image_urls": [
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/08/MechanicMac_HiRes2_Background-5f3ec711e6433-69cb112e80029.jpg"
+      ]
+    },
+    {
+      "id": "lahni_hivebusters_intro",
+      "name": "Lahni Kaliso — Lahni — tenue d'introduction Hivebusters",
+      "source_game": "Gears 5: Hivebusters",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "hivebusters_intro"
+      ],
+      "source_urls": [
+        "https://tylerthebradley.artstation.com/projects/ykrQgn"
+      ],
+      "source_scope": "Tenue d'introduction documentée par le concept artist; confronter aux plans définitifs du DLC.",
+      "notes": [
+        "Tenue d'introduction documentée par le concept artist; confronter aux plans définitifs du DLC."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "character_id": "lahni",
+      "parent_id": "lahni",
+      "character_name": "Lahni Kaliso",
+      "costume_name": "Lahni — tenue d'introduction Hivebusters",
+      "asset_rule": "Un personnage, un costume et une pose par image; rattachement explicite par costume_id.",
+      "gameplay": "Cosmétique; aucun changement de kit présumé.",
+      "visual_evidence_scope": "production_concept_final_model_pending"
+    },
+    {
+      "id": "keegan_hivebusters_intro",
+      "name": "Keegan — Keegan — tenue d'introduction Hivebusters",
+      "source_game": "Gears 5: Hivebusters",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "hivebusters_intro"
+      ],
+      "source_urls": [
+        "https://tylerthebradley.artstation.com/projects/ykrQgn"
+      ],
+      "source_scope": "Tenue d'introduction documentée; ne pas confondre avec la tenue de combat/Onyx Guard.",
+      "notes": [
+        "Tenue d'introduction documentée; ne pas confondre avec la tenue de combat/Onyx Guard."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "character_id": "keegan",
+      "parent_id": "keegan",
+      "character_name": "Keegan",
+      "costume_name": "Keegan — tenue d'introduction Hivebusters",
+      "asset_rule": "Un personnage, un costume et une pose par image; rattachement explicite par costume_id.",
+      "gameplay": "Cosmétique; aucun changement de kit présumé.",
+      "visual_evidence_scope": "production_concept_final_model_pending"
+    },
+    {
+      "id": "anthony_black_steel_g5",
+      "name": "Anthony Carmine — Black Steel Anthony Carmine",
+      "source_game": "Gears 5",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "anthony_artist"
+      ],
+      "source_urls": [
+        "https://secam_station.artstation.com/projects/d8XBGe"
+      ],
+      "source_scope": "Skin Black Steel documenté par un artiste de The Coalition, rendu de marketing final.",
+      "notes": [
+        "Skin Black Steel documenté par un artiste de The Coalition, rendu de marketing final."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "character_id": "anthony_carmine",
+      "parent_id": "anthony_carmine",
+      "character_name": "Anthony Carmine",
+      "costume_name": "Black Steel Anthony Carmine",
+      "asset_rule": "Un personnage, un costume et une pose par image; rattachement explicite par costume_id.",
+      "gameplay": "Cosmétique; aucun changement de kit présumé."
+    },
+    {
+      "id": "bernie_armored_g5",
+      "name": "Bernadette « Bernie » Mataki — Armored Bernie",
+      "source_game": "Gears 5",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "op8_bundle"
+      ],
+      "source_urls": [
+        "https://www.xbox.com/en-us/games/store/Operation-8-Bundle/9N8R67ZSR0F3"
+      ],
+      "source_scope": "Skin nommé dans la fiche du bundle; entrée de base du nouveau personnage, pas un second personnage.",
+      "notes": [
+        "Skin nommé dans la fiche du bundle; entrée de base du nouveau personnage, pas un second personnage.",
+        "Costume de base relié au personnage; ne pas compter deux personnages."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "character_id": "bernadette_mataki",
+      "parent_id": "bernadette_mataki",
+      "character_name": "Bernadette « Bernie » Mataki",
+      "costume_name": "Armored Bernie",
+      "asset_rule": "Un personnage, un costume et une pose par image; rattachement explicite par costume_id.",
+      "gameplay": "Cosmétique; aucun changement de kit présumé."
+    },
+    {
+      "id": "sam_vday_g5",
+      "name": "Samantha Byrne — V-Day Sam",
+      "source_game": "Gears 5",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "op8_twig"
+      ],
+      "source_urls": [
+        "https://store.steampowered.com/news/posts/?enddate=1627996222&feed=steam_community_announcements"
+      ],
+      "source_scope": "Nom exact de la boutique officielle; rendu et asymétries à relever.",
+      "notes": [
+        "Nom exact de la boutique officielle; rendu et asymétries à relever."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "character_id": "sam",
+      "parent_id": "sam",
+      "character_name": "Samantha Byrne",
+      "costume_name": "V-Day Sam",
+      "asset_rule": "Un personnage, un costume et une pose par image; rattachement explicite par costume_id.",
+      "gameplay": "Cosmétique; aucun changement de kit présumé."
+    },
+    {
+      "id": "myrrah_black_steel_g5",
+      "name": "Reine Myrrah — Black Steel Queen Myrrah",
+      "source_game": "Gears 5",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "op8_twig"
+      ],
+      "source_urls": [
+        "https://store.steampowered.com/news/posts/?enddate=1627996222&feed=steam_community_announcements"
+      ],
+      "source_scope": "Skin esports nommé officiellement; variation cosmétique multijoueur, pas tenue narrative de campagne.",
+      "notes": [
+        "Skin esports nommé officiellement; variation cosmétique multijoueur, pas tenue narrative de campagne."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "character_id": "myrrah",
+      "parent_id": "myrrah",
+      "character_name": "Reine Myrrah",
+      "costume_name": "Black Steel Queen Myrrah",
+      "asset_rule": "Un personnage, un costume et une pose par image; rattachement explicite par costume_id.",
+      "gameplay": "Cosmétique; aucun changement de kit présumé."
+    },
+    {
+      "id": "fahz_hivebuster_g5",
+      "name": "Fahz Chutani — Hivebuster Fahz",
+      "source_game": "Gears 5",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "op6_twig"
+      ],
+      "source_urls": [
+        "https://store.steampowered.com/news/posts/?appids=1097840&enddate=1615235906&feed=steam_community_announcements"
+      ],
+      "source_scope": "Récompense Tour of Duty officiellement nommée; référence de skin à figer avant génération.",
+      "notes": [
+        "Récompense Tour of Duty officiellement nommée; référence de skin à figer avant génération."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "character_id": "fahz",
+      "parent_id": "fahz",
+      "character_name": "Fahz Chutani",
+      "costume_name": "Hivebuster Fahz",
+      "asset_rule": "Un personnage, un costume et une pose par image; rattachement explicite par costume_id.",
+      "gameplay": "Cosmétique; aucun changement de kit présumé."
+    },
+    {
+      "id": "reyna_blood_red_g5",
+      "name": "Reine Reyna — Blood Red Queen Reyna",
+      "source_game": "Gears 5",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "op6_twig"
+      ],
+      "source_urls": [
+        "https://store.steampowered.com/news/posts/?appids=1097840&enddate=1615235906&feed=steam_community_announcements"
+      ],
+      "source_scope": "Récompense General Operation 6; variante de Reine Reyna.",
+      "notes": [
+        "Récompense General Operation 6; variante de Reine Reyna."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "character_id": "reyna",
+      "parent_id": "reyna",
+      "character_name": "Reine Reyna",
+      "costume_name": "Blood Red Queen Reyna",
+      "asset_rule": "Un personnage, un costume et une pose par image; rattachement explicite par costume_id.",
+      "gameplay": "Cosmétique; aucun changement de kit présumé."
+    },
+    {
+      "id": "swarm_drone_uir_g5",
+      "name": "Drone de l’Essaim — Swarm Elite Drone UIR",
+      "source_game": "Gears 5",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "op6_twig"
+      ],
+      "source_urls": [
+        "https://store.steampowered.com/news/posts/?appids=1097840&enddate=1615235906&feed=steam_community_announcements"
+      ],
+      "source_scope": "Nom officiel du skin; nécessite distinguer le modèle Elite du drone de base.",
+      "notes": [
+        "Nom officiel du skin; nécessite distinguer le modèle Elite du drone de base."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "character_id": "swarm_drone",
+      "parent_id": "swarm_drone",
+      "character_name": "Drone de l’Essaim",
+      "costume_name": "Swarm Elite Drone UIR",
+      "asset_rule": "Un personnage, un costume et une pose par image; rattachement explicite par costume_id.",
+      "gameplay": "Cosmétique; aucun changement de kit présumé."
+    },
+    {
+      "id": "zealot_collectors_g5",
+      "name": "Zealot locuste — Collector's Zealot",
+      "source_game": "Gears 5",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "op6_twig"
+      ],
+      "source_urls": [
+        "https://store.steampowered.com/news/posts/?appids=1097840&enddate=1615235906&feed=steam_community_announcements"
+      ],
+      "source_scope": "Variante cosmétique officielle Gears 5; ne pas recolorer arbitrairement le Zealot Tactics.",
+      "notes": [
+        "Variante cosmétique officielle Gears 5; ne pas recolorer arbitrairement le Zealot Tactics."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "character_id": "locust_zealot",
+      "parent_id": "locust_zealot",
+      "character_name": "Zealot locuste",
+      "costume_name": "Collector's Zealot",
+      "asset_rule": "Un personnage, un costume et une pose par image; rattachement explicite par costume_id.",
+      "gameplay": "Cosmétique; aucun changement de kit présumé."
+    }
+  ],
+  "bosses": [
+    {
+      "id": "boss_pouncer_g4",
+      "name": "Pouncer",
+      "source_game": "Gears of War 4",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "encounter_adaptation_2d",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "swarm_guide"
+      ],
+      "source_urls": [
+        "https://primagames.com/eguides/gears-of-war-4-eguide/enemy-forces/swarm"
+      ],
+      "source_scope": "Quadrupède, bonds, projectiles lancés par la queue, ventre vulnérable; un sujet distinct du Snatcher.",
+      "notes": [
+        "Quadrupède, bonds, projectiles lancés par la queue, ventre vulnérable; un sujet distinct du Snatcher.",
+        "Non affirmée; cette fiche propose une rencontre Boss Battle 2D.",
+        "Phases, durée, hitboxes, objectifs et balance à concevoir pour le projet; aucune propriété de boss officiel supplémentaire déduite.",
+        "Conserver la taille canonique; aucun agrandissement arbitraire pour remplir l'arène."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "canonical_entity": true,
+      "canonical_boss_classification": "Non affirmée; cette fiche propose une rencontre Boss Battle 2D.",
+      "adaptation_status": "Phases, durée, hitboxes, objectifs et balance à concevoir pour le projet; aucune propriété de boss officiel supplémentaire déduite.",
+      "scale_rule": "Conserver la taille canonique; aucun agrandissement arbitraire pour remplir l'arène."
+    },
+    {
+      "id": "boss_dr1_g4",
+      "name": "DeeBee DR-1",
+      "source_game": "Gears of War 4",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "encounter_adaptation_2d",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "deebee_guide"
+      ],
+      "source_urls": [
+        "https://primagames.com/eguides/gears-of-war-4-eguide/enemy-forces/deebees"
+      ],
+      "source_scope": "Grand robot bipède, propulseurs et autodestruction. Décliner Overkill/Tri-Shot/RL-4 Salvo en équipements, pas en trois espèces.",
+      "notes": [
+        "Grand robot bipède, propulseurs et autodestruction. Décliner Overkill/Tri-Shot/RL-4 Salvo en équipements, pas en trois espèces.",
+        "Non affirmée; cette fiche propose une rencontre Boss Battle 2D.",
+        "Phases, durée, hitboxes, objectifs et balance à concevoir pour le projet; aucune propriété de boss officiel supplémentaire déduite.",
+        "Conserver la taille canonique; aucun agrandissement arbitraire pour remplir l'arène."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "canonical_entity": true,
+      "canonical_boss_classification": "Non affirmée; cette fiche propose une rencontre Boss Battle 2D.",
+      "adaptation_status": "Phases, durée, hitboxes, objectifs et balance à concevoir pour le projet; aucune propriété de boss officiel supplémentaire déduite.",
+      "scale_rule": "Conserver la taille canonique; aucun agrandissement arbitraire pour remplir l'arène.",
+      "equipment_variants": [
+        "Overkill",
+        "Tri-Shot",
+        "RL-4 Salvo"
+      ]
+    },
+    {
+      "id": "boss_guardian_g4",
+      "name": "DeeBee Guardian",
+      "source_game": "Gears of War 4",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "encounter_adaptation_2d",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "deebee_guide"
+      ],
+      "source_urls": [
+        "https://primagames.com/eguides/gears-of-war-4-eguide/enemy-forces/deebees"
+      ],
+      "source_scope": "Drone volant à bouclier frontal; arme issue de la variante choisie.",
+      "notes": [
+        "Drone volant à bouclier frontal; arme issue de la variante choisie.",
+        "Non affirmée; cette fiche propose une rencontre Boss Battle 2D.",
+        "Phases, durée, hitboxes, objectifs et balance à concevoir pour le projet; aucune propriété de boss officiel supplémentaire déduite.",
+        "Conserver la taille canonique; aucun agrandissement arbitraire pour remplir l'arène."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "canonical_entity": true,
+      "canonical_boss_classification": "Non affirmée; cette fiche propose une rencontre Boss Battle 2D.",
+      "adaptation_status": "Phases, durée, hitboxes, objectifs et balance à concevoir pour le projet; aucune propriété de boss officiel supplémentaire déduite.",
+      "scale_rule": "Conserver la taille canonique; aucun agrandissement arbitraire pour remplir l'arène.",
+      "equipment_variants": [
+        "Tri-Shot",
+        "RL-4 Salvo"
+      ]
+    },
+    {
+      "id": "boss_scion_g4",
+      "name": "Scion",
+      "source_game": "Gears of War 4",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "encounter_adaptation_2d",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "swarm_guide"
+      ],
+      "source_urls": [
+        "https://primagames.com/eguides/gears-of-war-4-eguide/enemy-forces/swarm"
+      ],
+      "source_scope": "Humanoïde massif à arme lourde et soutien des Drones; préserver le modèle hors Warden.",
+      "notes": [
+        "Humanoïde massif à arme lourde et soutien des Drones; préserver le modèle hors Warden.",
+        "Non affirmée; cette fiche propose une rencontre Boss Battle 2D.",
+        "Phases, durée, hitboxes, objectifs et balance à concevoir pour le projet; aucune propriété de boss officiel supplémentaire déduite.",
+        "Conserver la taille canonique; aucun agrandissement arbitraire pour remplir l'arène."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "canonical_entity": true,
+      "canonical_boss_classification": "Non affirmée; cette fiche propose une rencontre Boss Battle 2D.",
+      "adaptation_status": "Phases, durée, hitboxes, objectifs et balance à concevoir pour le projet; aucune propriété de boss officiel supplémentaire déduite.",
+      "scale_rule": "Conserver la taille canonique; aucun agrandissement arbitraire pour remplir l'arène.",
+      "equipment_variants": [
+        "Mulcher",
+        "Dropshot",
+        "Buzzkill"
+      ]
+    },
+    {
+      "id": "boss_rager_g5",
+      "name": "Rager — épreuve de combat",
+      "source_game": "Gears 5 — Operation 8 Drop 2",
+      "priority": "P2",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "encounter_adaptation_2d",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "op8_drop2"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/news/operation-8-drop-2-reveal/"
+      ],
+      "source_scope": "Rager confirmé, armure minimale. Toute phase enrâgée doit être sourcée séparément dans Judgment avant ajout.",
+      "notes": [
+        "Rager confirmé, armure minimale. Toute phase enrâgée doit être sourcée séparément dans Judgment avant ajout.",
+        "Non affirmée; cette fiche propose une rencontre Boss Battle 2D.",
+        "Phases, durée, hitboxes, objectifs et balance à concevoir pour le projet; aucune propriété de boss officiel supplémentaire déduite.",
+        "Conserver la taille canonique; aucun agrandissement arbitraire pour remplir l'arène."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "canonical_entity": true,
+      "canonical_boss_classification": "Non affirmée; cette fiche propose une rencontre Boss Battle 2D.",
+      "adaptation_status": "Phases, durée, hitboxes, objectifs et balance à concevoir pour le projet; aucune propriété de boss officiel supplémentaire déduite.",
+      "scale_rule": "Conserver la taille canonique; aucun agrandissement arbitraire pour remplir l'arène."
+    },
+    {
+      "id": "boss_riftworm_g2",
+      "name": "Riftworm — rencontre environnementale",
+      "source_game": "Gears of War 2",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "encounter_adaptation_2d",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "carmine_riftworm"
+      ],
+      "source_urls": [
+        "https://news.xbox.com/en-us/2014/01/28/games-our-favorite-moments-from-the-gears-of-war-series/"
+      ],
+      "source_scope": "Créature géante et séquence d'évasion intérieure attestées. Adapter les objectifs internes; éviter une silhouette humaine réduite à combattant.",
+      "notes": [
+        "Créature géante et séquence d'évasion intérieure attestées. Adapter les objectifs internes; éviter une silhouette humaine réduite à combattant.",
+        "Non affirmée; cette fiche propose une rencontre Boss Battle 2D.",
+        "Phases, durée, hitboxes, objectifs et balance à concevoir pour le projet; aucune propriété de boss officiel supplémentaire déduite.",
+        "Conserver la taille canonique; aucun agrandissement arbitraire pour remplir l'arène."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "canonical_entity": true,
+      "canonical_boss_classification": "Non affirmée; cette fiche propose une rencontre Boss Battle 2D.",
+      "adaptation_status": "Phases, durée, hitboxes, objectifs et balance à concevoir pour le projet; aucune propriété de boss officiel supplémentaire déduite.",
+      "scale_rule": "Conserver la taille canonique; aucun agrandissement arbitraire pour remplir l'arène.",
+      "encounter_type": "environmental_survival"
+    },
+    {
+      "id": "boss_sire_g5",
+      "name": "Sire — épreuve de capture",
+      "source_game": "Gears 5",
+      "priority": "P2",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "encounter_adaptation_2d",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "op6_twig"
+      ],
+      "source_urls": [
+        "https://store.steampowered.com/news/posts/?appids=1097840&enddate=1615235906&feed=steam_community_announcements"
+      ],
+      "source_scope": "Existence des Sires confirmée dans l'événement Escape from Kadar; kit, anatomie détaillée et capture doivent encore être contrôlés en jeu.",
+      "notes": [
+        "Existence des Sires confirmée dans l'événement Escape from Kadar; kit, anatomie détaillée et capture doivent encore être contrôlés en jeu.",
+        "Non affirmée; cette fiche propose une rencontre Boss Battle 2D.",
+        "Phases, durée, hitboxes, objectifs et balance à concevoir pour le projet; aucune propriété de boss officiel supplémentaire déduite.",
+        "Conserver la taille canonique; aucun agrandissement arbitraire pour remplir l'arène."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "canonical_entity": true,
+      "canonical_boss_classification": "Non affirmée; cette fiche propose une rencontre Boss Battle 2D.",
+      "adaptation_status": "Phases, durée, hitboxes, objectifs et balance à concevoir pour le projet; aucune propriété de boss officiel supplémentaire déduite.",
+      "scale_rule": "Conserver la taille canonique; aucun agrandissement arbitraire pour remplir l'arène."
+    },
+    {
+      "id": "boss_matriarch",
+      "name": "Matriarch",
+      "source_game": "Gears 5",
+      "priority": "P0",
+      "catalog_origin": "existing_boss_enriched_v6",
+      "catalog_scope": "existing_boss_reference_enrichment",
+      "delta_status": "existing_boss_source_upgrade",
+      "source_ids": [
+        "matriarch_levesque",
+        "matriarch_hanbeck"
+      ],
+      "source_urls": [
+        "https://gearsofwar.fandom.com/wiki/Matriarch",
+        "https://gamefaqs.gamespot.com/pc/241047-gears-5/faqs/77771/boss-fights",
+        "https://olygraph.artstation.com/projects/3okNAo",
+        "https://mediumrare.artstation.com/projects/EV8kJv"
+      ],
+      "source_scope": "Les artistes de The Coalition présentent la Matriarch Gears 5. Lévesque identifie les snapshots Unreal et distingue les rendus clay. Ces sources renforcent la référence de production visuelle sans valider automatiquement l’image générée ni les timings du combat 2D.",
+      "notes": [
+        "Réutilise boss_matriarch déjà présent dans bosses.json; ajout net de boss nul.",
+        "Morphologie, dos, épines, texture et proportions doivent être comparés au personnage Gears 5; ne pas confondre avec la Berserker 2006.",
+        "Les phases, seuils et durées de la fiche de gameplay existante restent des propositions de cette adaptation 2D."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Boss déjà spécifié; enrichissement des sources visuelles, sans affirmation d’implémentation supplémentaire."
+    }
+  ],
+  "stages": [
+    {
+      "id": "stage_gridlock_gow4",
+      "name": "Gridlock",
+      "source_game": "Gears of War 4",
+      "priority": "P0",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "gridlock_artist"
+      ],
+      "source_urls": [
+        "https://macer.artstation.com/projects/3n1Rv"
+      ],
+      "source_scope": "Référence finale artiste: clocher, hôtel, bâtiment sniper, routes détruites et végétalisées. Version Gears 4 précise.",
+      "notes": [
+        "Référence finale artiste: clocher, hôtel, bâtiment sniper, routes détruites et végétalisées. Version Gears 4 précise.",
+        "Cadrage latéral et séparation en calques de parallaxe originaux pour le projet; architecture et matériaux à comparer aux vues de l’édition cible."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "layout_scope": "Cadrage latéral et séparation en calques de parallaxe originaux pour le projet; architecture et matériaux à comparer aux vues de l’édition cible.",
+      "parallax_status": "Calques séparés à produire et contrôler; un master aplati ne les remplace pas."
+    },
+    {
+      "id": "stage_ritual_g5",
+      "name": "Ritual",
+      "source_game": "Gears 5",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "op8_twig",
+        "ritual_artist"
+      ],
+      "source_urls": [
+        "https://store.steampowered.com/news/posts/?enddate=1627996222&feed=steam_community_announcements",
+        "https://tylerthebradley.artstation.com/projects/Rn61nm"
+      ],
+      "source_scope": "Map multijoueur identifiée; concepts disponibles, capture finale requise.",
+      "notes": [
+        "Map multijoueur identifiée; concepts disponibles, capture finale requise.",
+        "Cadrage latéral et séparation en calques de parallaxe originaux pour le projet; architecture et matériaux à comparer aux vues de l’édition cible."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "layout_scope": "Cadrage latéral et séparation en calques de parallaxe originaux pour le projet; architecture et matériaux à comparer aux vues de l’édition cible.",
+      "parallax_status": "Calques séparés à produire et contrôler; un master aplati ne les remplace pas."
+    },
+    {
+      "id": "stage_tomb_g5",
+      "name": "Tomb",
+      "source_game": "Gears 5",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "op8_twig",
+        "tomb_artist"
+      ],
+      "source_urls": [
+        "https://store.steampowered.com/news/posts/?enddate=1627996222&feed=steam_community_announcements",
+        "https://tylerthebradley.artstation.com/projects/mD2xxE"
+      ],
+      "source_scope": "Map multijoueur confirmée et travaux de production disponibles; ne pas fusionner avec Tomb of the Unknown Gears 1.",
+      "notes": [
+        "Map multijoueur confirmée et travaux de production disponibles; ne pas fusionner avec Tomb of the Unknown Gears 1.",
+        "Cadrage latéral et séparation en calques de parallaxe originaux pour le projet; architecture et matériaux à comparer aux vues de l’édition cible."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "layout_scope": "Cadrage latéral et séparation en calques de parallaxe originaux pour le projet; architecture et matériaux à comparer aux vues de l’édition cible.",
+      "parallax_status": "Calques séparés à produire et contrôler; un master aplati ne les remplace pas."
+    },
+    {
+      "id": "stage_village_g5",
+      "name": "Village",
+      "source_game": "Gears 5 — Operation 8 Drop 2",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "op8_drop2"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/news/operation-8-drop-2-reveal/"
+      ],
+      "source_scope": "Village de pêche Weilehan abandonné, huttes et petit quai décrits officiellement.",
+      "notes": [
+        "Village de pêche Weilehan abandonné, huttes et petit quai décrits officiellement.",
+        "Cadrage latéral et séparation en calques de parallaxe originaux pour le projet; architecture et matériaux à comparer aux vues de l’édition cible."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "layout_scope": "Cadrage latéral et séparation en calques de parallaxe originaux pour le projet; architecture et matériaux à comparer aux vues de l’édition cible.",
+      "parallax_status": "Calques séparés à produire et contrôler; un master aplati ne les remplace pas."
+    },
+    {
+      "id": "stage_dawn_g5",
+      "name": "Dawn",
+      "source_game": "Gears 5 — Operation 8 Drop 2",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "op8_drop2"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/news/operation-8-drop-2-reveal/"
+      ],
+      "source_scope": "Ancienne colonie minière réoccupée par les Outsiders; bar élevé et mine retranchée.",
+      "notes": [
+        "Ancienne colonie minière réoccupée par les Outsiders; bar élevé et mine retranchée.",
+        "Cadrage latéral et séparation en calques de parallaxe originaux pour le projet; architecture et matériaux à comparer aux vues de l’édition cible."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "layout_scope": "Cadrage latéral et séparation en calques de parallaxe originaux pour le projet; architecture et matériaux à comparer aux vues de l’édition cible.",
+      "parallax_status": "Calques séparés à produire et contrôler; un master aplati ne les remplace pas."
+    },
+    {
+      "id": "stage_river_g5",
+      "name": "River",
+      "source_game": "Gears 5 — Operation 5",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "op5"
+      ],
+      "source_urls": [
+        "https://news.xbox.com/en-us/2020/11/17/gears-5-operation-5/"
+      ],
+      "source_scope": "Réédition officielle de la map Gears 2; verrouiller rendu Gears 5.",
+      "notes": [
+        "Réédition officielle de la map Gears 2; verrouiller rendu Gears 5.",
+        "Cadrage latéral et séparation en calques de parallaxe originaux pour le projet; architecture et matériaux à comparer aux vues de l’édition cible."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "layout_scope": "Cadrage latéral et séparation en calques de parallaxe originaux pour le projet; architecture et matériaux à comparer aux vues de l’édition cible.",
+      "parallax_status": "Calques séparés à produire et contrôler; un master aplati ne les remplace pas."
+    },
+    {
+      "id": "stage_clocktower_g5",
+      "name": "Clocktower",
+      "source_game": "Gears 5 — Operation 5",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "op5"
+      ],
+      "source_urls": [
+        "https://news.xbox.com/en-us/2020/11/17/gears-5-operation-5/"
+      ],
+      "source_scope": "Map de retour confirmée; pas une simple variante de Gridlock malgré le clocher.",
+      "notes": [
+        "Map de retour confirmée; pas une simple variante de Gridlock malgré le clocher.",
+        "Cadrage latéral et séparation en calques de parallaxe originaux pour le projet; architecture et matériaux à comparer aux vues de l’édition cible."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "layout_scope": "Cadrage latéral et séparation en calques de parallaxe originaux pour le projet; architecture et matériaux à comparer aux vues de l’édition cible.",
+      "parallax_status": "Calques séparés à produire et contrôler; un master aplati ne les remplace pas."
+    },
+    {
+      "id": "stage_nexus_g5",
+      "name": "Nexus",
+      "source_game": "Gears 5 — Operation 5",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "op5"
+      ],
+      "source_urls": [
+        "https://news.xbox.com/en-us/2020/11/17/gears-5-operation-5/"
+      ],
+      "source_scope": "Forteresse locuste sous le mont Kadar, rivières d'Imulsion.",
+      "notes": [
+        "Forteresse locuste sous le mont Kadar, rivières d'Imulsion.",
+        "Cadrage latéral et séparation en calques de parallaxe originaux pour le projet; architecture et matériaux à comparer aux vues de l’édition cible."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "layout_scope": "Cadrage latéral et séparation en calques de parallaxe originaux pour le projet; architecture et matériaux à comparer aux vues de l’édition cible.",
+      "parallax_status": "Calques séparés à produire et contrôler; un master aplati ne les remplace pas."
+    },
+    {
+      "id": "stage_regency_g5",
+      "name": "Regency",
+      "source_game": "Gears 5 — Operation 5",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "op5"
+      ],
+      "source_urls": [
+        "https://news.xbox.com/en-us/2020/11/17/gears-5-operation-5/"
+      ],
+      "source_scope": "Map en hauteur au-dessus des nuages selon l'annonce officielle.",
+      "notes": [
+        "Map en hauteur au-dessus des nuages selon l'annonce officielle.",
+        "Cadrage latéral et séparation en calques de parallaxe originaux pour le projet; architecture et matériaux à comparer aux vues de l’édition cible."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "layout_scope": "Cadrage latéral et séparation en calques de parallaxe originaux pour le projet; architecture et matériaux à comparer aux vues de l’édition cible.",
+      "parallax_status": "Calques séparés à produire et contrôler; un master aplati ne les remplace pas."
+    },
+    {
+      "id": "stage_ilima_raams_shadow",
+      "name": "Ilima — évacuation de Zeta",
+      "source_game": "Gears of War 3 — RAAM's Shadow",
+      "priority": "P1",
+      "catalog_origin": "production_v6",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "raam_shadow"
+      ],
+      "source_urls": [
+        "https://jeuvideo.afjv.com/news/4181_gears_of_war_3_raam_s_shadow.htm"
+      ],
+      "source_scope": "Lieu et évacuation confirmés; cadrage particulier et façades à fixer sur captures du DLC.",
+      "notes": [
+        "Lieu et évacuation confirmés; cadrage particulier et façades à fixer sur captures du DLC.",
+        "Cadrage latéral et séparation en calques de parallaxe originaux pour le projet; architecture et matériaux à comparer aux vues de l’édition cible."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "layout_scope": "Cadrage latéral et séparation en calques de parallaxe originaux pour le projet; architecture et matériaux à comparer aux vues de l’édition cible.",
+      "parallax_status": "Calques séparés à produire et contrôler; un master aplati ne les remplace pas."
+    }
+  ],
+  "counts": {
+    "catalog_rows": {
+      "characters": 17,
+      "costumes": 11,
+      "bosses": 8,
+      "stages": 10
+    },
+    "net_additions": {
+      "characters": 17,
+      "costumes": 10,
+      "bosses": 7,
+      "stages": 10
+    },
+    "existing_enrichments": {
+      "characters": 0,
+      "costumes": 1,
+      "bosses": 1,
+      "stages": 0
+    },
+    "totals_after_merge": {
+      "characters": 53,
+      "costumes": 85,
+      "bosses": 31,
+      "stages": 34
+    },
+    "net_additions_all_categories": 44
+  },
+  "sources": [
+    {
+      "id": "tactics_enemies",
+      "title": "Developer Blog: Enemies",
+      "url": "https://www.gearsofwar.com/en-nz/news/dev-blog-enemies/",
+      "source_type": "publisher",
+      "verified_scope": "Disciple, Zealot, Locust Sniper, Boomer et autres ennemis Tactics; images de production.",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "id": "raam_shadow",
+      "title": "RAAM's Shadow — communiqué Microsoft/Epic distribué par AFJV",
+      "url": "https://jeuvideo.afjv.com/news/4181_gears_of_war_3_raam_s_shadow.htm",
+      "source_type": "publisher_press_release_rehost",
+      "verified_scope": "Barrick, Kim, Tai, Valera, Ilima; communiqué original de Microsoft/Epic reproduit.",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "id": "judgment_team",
+      "title": "Creating assets for Epic Games' Gears of War: Judgment",
+      "url": "https://www.maxon.net/en/article/creating-assets-for-epic-games-gears-of-war-judgment",
+      "source_type": "first_hand_developer_interview",
+      "verified_scope": "Équipe PCF: Loomis en uniforme de parade, armure sans disques; jeune Baird peu usé; Shibboleth.",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "id": "hivebusters_comic",
+      "title": "Introducing Scorpio Squad – The Hivebusters",
+      "url": "https://www.gearsofwar.com/en-us/news/hivebusters-graphic-novel-available-now/",
+      "source_type": "publisher",
+      "verified_scope": "Noms des trois protagonistes et rendu officiel Mechanic Mac.",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "id": "hivebusters_intro",
+      "title": "Hivebusters Keegan and Lahni",
+      "url": "https://tylerthebradley.artstation.com/projects/ykrQgn",
+      "source_type": "production_artist",
+      "verified_scope": "Concepts des tenues d'introduction; à confronter aux tenues dans le jeu final.",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "id": "hana_artist",
+      "title": "Hivebusters Hanna",
+      "url": "https://tylerthebradley.artstation.com/projects/w6oy9Z",
+      "source_type": "production_artist",
+      "verified_scope": "Concepts Hanna/Hana réalisés pour Hivebusters; modèle final à vérifier.",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "id": "op8_drop2",
+      "title": "Operation 8 Drop 2 – Reveal",
+      "url": "https://www.gearsofwar.com/en-us/news/operation-8-drop-2-reveal/",
+      "source_type": "publisher",
+      "verified_scope": "Barrick, Valera, Oscar, Rager, maps Village et Dawn, images officielles.",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "id": "op8_bundle",
+      "title": "Operation 8 Bundle",
+      "url": "https://www.xbox.com/en-us/games/store/Operation-8-Bundle/9N8R67ZSR0F3",
+      "source_type": "publisher_store",
+      "verified_scope": "Ketor Vrol et Armored Bernie nommés comme contenus du lot.",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "id": "op8_twig",
+      "title": "This Week in Gears: Operation 8!",
+      "url": "https://store.steampowered.com/news/posts/?enddate=1627996222&feed=steam_community_announcements",
+      "source_type": "publisher_announcement",
+      "verified_scope": "Annonce Gears 5 du 3 août 2021: Tomb/Ephyra/Ritual, Vrol, Bernie, V-Day Sam, Black Steel Queen Myrrah. Page agrégée: utiliser uniquement la section Gears 5.",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "id": "op6_twig",
+      "title": "This week in Gears - Operation 6",
+      "url": "https://store.steampowered.com/news/posts/?appids=1097840&enddate=1615235906&feed=steam_community_announcements",
+      "source_type": "publisher_announcement",
+      "verified_scope": "Noms des récompenses Collector's Zealot, Swarm Elite Drone UIR, Hivebuster Fahz, Captain Hoffman, Blood Red Queen Reyna; mention des Sires.",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "id": "op5",
+      "title": "Gears 5 Operation 5: Hollow Storm",
+      "url": "https://news.xbox.com/en-us/2020/11/17/gears-5-operation-5/",
+      "source_type": "publisher",
+      "verified_scope": "Nexus, Regency, Gridlock, Clocktower et River; descriptions des deux nouvelles maps; Armored Gabe.",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "id": "carmine_riftworm",
+      "title": "Our Favorite Moments From the Gears of War Series",
+      "url": "https://news.xbox.com/en-us/2014/01/28/games-our-favorite-moments-from-the-gears-of-war-series/",
+      "source_type": "publisher",
+      "verified_scope": "Anthony, Benjamin, Riftworm et première rencontre Berserker; pas preuve détaillée des costumes.",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "id": "benjamin_guide",
+      "title": "Gears of War 2 Official Strategy Guide — extrait éditeur",
+      "url": "https://ptgmedia.pearsoncmg.com/images/9780744009644/samplepages/0964-4_gearsofwar2.pdf",
+      "source_type": "licensed_guide_publisher",
+      "verified_scope": "Benjamin identifié page PDF 8 (index 7), page imprimée 35.",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "id": "jace_dc",
+      "title": "Gears of War #14",
+      "url": "https://www.dc.com/comics/gears-of-war-2008/gears-of-war-14",
+      "source_type": "comic_publisher",
+      "verified_scope": "Jace nommé par l'éditeur; jeune Jace du comic, présence Gears 3 annoncée. Couverture ne prouve pas modèle final Gears 3.",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "id": "griffin_store",
+      "title": "Aaron Griffin Multiplayer Character",
+      "url": "https://www.xbox.com/en-US/games/store/aaron-griffin-multiplayer-character/BTN0D0Q63NP7",
+      "source_type": "publisher_store",
+      "verified_scope": "Personnage Gears of War 3 confirmé, rendu produit disponible.",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "id": "prescott_artist",
+      "title": "Armored Prescott - Gears 5",
+      "url": "https://secam_station.artstation.com/projects/q9ydPz",
+      "source_type": "production_artist",
+      "verified_scope": "Rendu et rig de production Gears 5, morphologie spécifique et armure.",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "id": "anthony_artist",
+      "title": "Black Steel Anthony Carmine - Gears 5",
+      "url": "https://secam_station.artstation.com/projects/d8XBGe",
+      "source_type": "production_artist",
+      "verified_scope": "Rendu de production Black Steel Anthony; variante Gears 5 uniquement.",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "id": "gridlock_artist",
+      "title": "Gears of War 4 - Gridlock MP Map",
+      "url": "https://macer.artstation.com/projects/3n1Rv",
+      "source_type": "production_artist",
+      "verified_scope": "Captures finales par l'artiste de la map: clocher, routes, hôtel, bâtiment sniper. Version Gears 4.",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "id": "ritual_artist",
+      "title": "Gears 5 Ritual Map Concepts",
+      "url": "https://tylerthebradley.artstation.com/projects/Rn61nm",
+      "source_type": "production_artist",
+      "verified_scope": "Concepts Ritual; géométrie finale à comparer au jeu.",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "id": "tomb_artist",
+      "title": "Gears 5 Tomb Map",
+      "url": "https://tylerthebradley.artstation.com/projects/mD2xxE",
+      "source_type": "production_artist",
+      "verified_scope": "Travaux de production sur Tomb, carte multijoueur Gears 5.",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "id": "swarm_guide",
+      "title": "Gears of War 4 eGuide — Swarm",
+      "url": "https://primagames.com/eguides/gears-of-war-4-eguide/enemy-forces/swarm",
+      "source_type": "licensed_strategy_guide",
+      "verified_scope": "Pouncer et Scion, équipement/attaques; leurs rencontres boss 2D ci-dessous sont des adaptations.",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "id": "deebee_guide",
+      "title": "Gears of War 4 eGuide — DeeBees",
+      "url": "https://primagames.com/eguides/gears-of-war-4-eguide/enemy-forces/deebees",
+      "source_type": "licensed_strategy_guide",
+      "verified_scope": "DR-1, Guardian, armement et silhouettes; pas de validation d'une rencontre boss originale.",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "id": "matriarch_levesque",
+      "title": "Gears 5 - Matriarch",
+      "url": "https://olygraph.artstation.com/projects/3okNAo",
+      "source_type": "production_artist",
+      "verified_scope": "P-o Lévesque, Lead Character Artist à The Coalition : snapshots Unreal du personnage, sauf rendus clay KeyShot. Source directe de la Matriarch Gears 5, pas de la Berserker 2006.",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "id": "matriarch_hanbeck",
+      "title": "Gears 5 Matriarch Character",
+      "url": "https://mediumrare.artstation.com/projects/EV8kJv",
+      "source_type": "production_art_director",
+      "verified_scope": "Aryan Hanbeck, directeur artistique The Coalition : présentation du personnage Matriarch Gears 5 datée du 9 octobre 2019.",
+      "checked_at": "2026-11-20"
+    }
+  ]
+}

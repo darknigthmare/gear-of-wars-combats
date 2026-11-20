@@ -1,0 +1,10 @@
+{
+  "id": "lizzie",
+  "prompt": "Edit the first image, a neutral full-body individual character reference of Lizzie Carmine from Gears 5. Use the second image as the authoritative reference for her standard helmet and visible upper armor. Correct only the design discrepancies: replace the invented large rounded goggles with the actual narrow angular nearly rectangular luminous cyan eye openings, reproduce the segmented metal helmet and compact breathing mask with the smaller actual circular side connections and the small yellow accents. Remove the invented brown knitted neck warmer: the source shows bare neck framed by a rigid blue armor collar with small front divisions. Match the source upper chest plate and the construction of its two round armor modules, without inventing generic badges. Keep only Lizzie, one full-body neutral standing pose, hands empty, facing three-quarter right, and keep her original lower-body coverage. No weapon, robot, scene, lettering, or extra character from the reference. Preserve transparent background and full silhouette with margins around head and feet. Photorealistic game production reference, consistent with the first image.",
+  "referenced_image_paths": [
+    "/workspace/scratch/230d6e8ab6bb/gears_of_war_combats/assets/characters_v2/lizzie_reference_v2.png",
+    "/workspace/scratch/230d6e8ab6bb/tmp/generation_v2_refs/lizzie_press_reference.jpg"
+  ],
+  "status": "not_generated",
+  "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 523f0676-c2ff-4d20-95ba-c6579f52d6b8.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+}
