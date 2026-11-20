@@ -7,25 +7,25 @@
     "roster_characters": 36,
     "characters_with_reference": 36,
     "characters_missing": 0,
-    "production_character_entries": 0,
-    "production_characters_with_reference": 0,
-    "character_catalog_entries": 36,
-    "catalog_characters_with_reference": 36,
-    "catalog_characters_missing": 0,
-    "character_png_files": 45,
-    "costume_catalog_entries": 75,
-    "costumes_with_reference": 0,
-    "costumes_without_explicit_reference": 75,
-    "costume_png_files": 0,
-    "boss_catalog_entries": 24,
-    "bosses_with_reference": 4,
-    "boss_png_files": 4,
-    "stage_catalog_entries": 24,
-    "stages_with_reference": 1,
-    "stage_png_files": 2,
+    "production_character_entries": 17,
+    "production_characters_with_reference": 2,
+    "character_catalog_entries": 53,
+    "catalog_characters_with_reference": 38,
+    "catalog_characters_missing": 15,
+    "character_png_files": 47,
+    "costume_catalog_entries": 85,
+    "costumes_with_reference": 1,
+    "costumes_without_explicit_reference": 84,
+    "costume_png_files": 1,
+    "boss_catalog_entries": 31,
+    "bosses_with_reference": 5,
+    "boss_png_files": 5,
+    "stage_catalog_entries": 34,
+    "stages_with_reference": 2,
+    "stage_png_files": 3,
     "additional_reference_groups": 1,
-    "active_png_files": 51,
-    "unique_active_png_sha256": 51,
+    "active_png_files": 56,
+    "unique_active_png_sha256": 56,
     "archived_png_files": 12,
     "canonical_fidelity_validated": 0,
     "completed_animation_sets": 0
@@ -252,6 +252,71 @@
           120,
           59,
           77
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/bosses_v6/matriarch_gears5_fullbody.png",
+      "subject_id": "boss_matriarch",
+      "category": "boss",
+      "name": "Matriarch",
+      "source_variant": "Gears 5 — modèle de campagne",
+      "purpose": "reference_fullbody",
+      "character_id": null,
+      "costume_id": null,
+      "origin_batch": "generation_v6_2026-11-20",
+      "metadata_records": [
+        "data/generation_v6/matriarch_record.json"
+      ],
+      "source_urls": [
+        "https://olygraph.artstation.com/projects/3okNAo",
+        "https://cdna.artstation.com/p/assets/images/images/020/529/530/large/p-o-levesque-matriarch-tposeb.jpg?1568136960",
+        "https://cdnb.artstation.com/p/assets/images/images/020/516/749/large/p-o-levesque-matriarch-tpose2.jpg?1568081947",
+        "https://cdnb.artstation.com/p/assets/images/images/020/534/325/large/p-o-levesque-matriarch-tpose-back-keyshot.jpg?1568149592"
+      ],
+      "qa_notes": [
+        "Un boss entier seul ; crâne clair, peau brune rouge, plaques ivoire, longue couronne de pointes dorsales, mains massives et pieds griffus conservés.",
+        "Orientation trois quarts droite ; textures et proportions générales comparées aux rendus officiels avant et arrière.",
+        "Les pointes proches des bords exigent un contrôle des marges avant atlas.",
+        "Compositing sur blanc inspecté : détourage réel, sans fond visible. Marges alpha>=128 : gauche 17, haut 19, droite 5, bas 7 pixels ; inférieures aux 10 % demandés.",
+        "Comparer nombre et implantation des pointes, géométrie des plaques pectorales et articulations au modèle final.",
+        "Produire la véritable garde latérale, le dos et les phases d’attaque ; cette sortie reste une pose statique.",
+        "Découper seulement après validation des pivots, point faible dorsal et volumes de collision.",
+        "Ajouter des marges après validation de la silhouette avant intégration dans un atlas."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 36,
+      "asset_id": "assets_bosses_v6_matriarch_gears5_fullbody_png",
+      "sha256": "144abc199d23ba9f6bb3f44f77cece669747ac3489bb9c6fec88d3e96bbc803b",
+      "size_bytes": 3000433,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.409051,
+        "near_opaque_fraction_alpha_ge_240": 0.541175,
+        "subject_bbox_alpha_ge_128": [
+          17,
+          19,
+          1019,
+          1529
+        ],
+        "subject_margins_ltrb_px": [
+          17,
+          19,
+          5,
+          7
         ]
       },
       "has_transparency": true,
@@ -2491,6 +2556,139 @@
       "prototype_integration": "not_integrated"
     },
     {
+      "path": "assets/characters_v6/alicia_valera_gow3_fullbody.png",
+      "subject_id": "alicia_valera",
+      "category": "character",
+      "name": "Alicia Valera",
+      "source_variant": "Gears of War 3 — RAAM's Shadow, armure standard sans casque",
+      "purpose": "reference_fullbody",
+      "character_id": "alicia_valera",
+      "costume_id": null,
+      "origin_batch": "generation_v6_2026-11-20",
+      "metadata_records": [
+        "data/generation_v6/alicia_valera_record.json"
+      ],
+      "source_urls": [
+        "https://gearsofwar.fandom.com/es/wiki/Alicia_Valera",
+        "https://static.wikia.nocookie.net/gearsofwar/images/2/29/Alicia_Valera_modelo_01_GoW3.jpg/revision/latest?cb=20200915015912&path-prefix=es",
+        "https://chriswells.artstation.com/"
+      ],
+      "qa_notes": [
+        "Un seul personnage, de la tête aux deux semelles, sans arme, décor ou planche multiple.",
+        "Référence unique Gears of War 3 : aucune image Gears 5 ou variante casquée n'a été fournie au générateur.",
+        "Les deux disques du plastron, le marquage jaune 08, les lumières bleues, la ceinture à boucle centrale, la pochette, le cylindre, les genouillères, les jambières et les bottes reprennent les éléments de la planche créditée.",
+        "Les deux vues de la référence documentent le corps entier, les bottes et le dos ; la pose calme a été adaptée à partir de ces vues.",
+        "La forme du visage et le tracé fin de la cicatrice restent à comparer de près avec la planche ; la cicatrice est peu lisible sur le rendu.",
+        "La pose est presque frontale, avec le visage orienté à droite, plutôt qu'une garde de combat franchement latérale.",
+        "Les marges verticales de 18 px au-dessus et 22 px au-dessous sont inférieures à l'espacement demandé de 8 pour cent.",
+        "Alpha réel vérifié sur fond blanc ; le fond RGB sombre sous alpha nul ne constitue pas un décor opaque.",
+        "Comparer visage, cicatrice, proportions et silhouette à la planche GoW3 et à des captures de RAAM's Shadow avant validation 1:1.",
+        "Vérifier nombre, emplacement et forme des rivets, gravures et découpes des plaques, ainsi que l'asymétrie des accessoires.",
+        "Préparer une version avec davantage de marge verticale si nécessaire pour l'assemblage des planches et pivots.",
+        "Produire la garde latérale, le dos, les pivots et les animations ; cet asset est uniquement une référence statique.",
+        "La cible du catalogue reste Gears 5 Operation 8 Drop 2 : cette référence historique GoW3 ne satisfait pas le costume Gears 5."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "alternate_version",
+      "selection_priority": 36,
+      "asset_id": "assets_characters_v6_alicia_valera_gow3_fullbody_png",
+      "sha256": "cd2041be040950212eb82040685add181c11125add7113c7a7dd48458fcb07fb",
+      "size_bytes": 1965542,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.703758,
+        "near_opaque_fraction_alpha_ge_240": 0.268833,
+        "subject_bbox_alpha_ge_128": [
+          201,
+          18,
+          798,
+          1514
+        ],
+        "subject_margins_ltrb_px": [
+          201,
+          18,
+          226,
+          22
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/characters_v6/boomer_tactics_fullbody.png",
+      "subject_id": "boomer_tactics",
+      "category": "character",
+      "name": "Boomer",
+      "source_variant": "Gears Tactics — Boomer standard avec Boomshot",
+      "purpose": "reference_fullbody",
+      "character_id": "boomer_tactics",
+      "costume_id": null,
+      "origin_batch": "generation_v6_2026-11-20",
+      "metadata_records": [
+        "data/generation_v6/boomer_tactics_record.json"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-nz/news/dev-blog-enemies/",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/04/5d759df3e06b637607e82f6db322f84fc21a6c3d-69cb0da52c84e.jpg"
+      ],
+      "qa_notes": [
+        "Un Boomer entier et un Boomshot entièrement visibles, sans autre sujet.",
+        "Visage plissé, mâchoire lourde, bras massifs, armure rouge sombre à rivets et insert pectoral ajouré reprennent la référence officielle.",
+        "Le Boomshot reprend la structure frontale angulaire et les quatre inserts orange visibles dans la référence ; son arrière et sa prise ont été reconstruits.",
+        "Jambes, protection pelvienne, genouillères et bottes ne sont pas documentées par le rendu source cadré au torse ; elles nécessitent une comparaison avec le jeu.",
+        "Vue trois-quarts quasi frontale ; ce n'est pas encore une garde de combat strictement latérale.",
+        "Alpha réel vérifié sur fond blanc ; les couleurs du fond RGB sous alpha nul ne sont pas une zone opaque.",
+        "Trouver et comparer plusieurs captures en pied de Gears Tactics avant toute validation 1:1 du bas du corps.",
+        "Vérifier nombre et forme des trous/plaques du Boomshot ainsi que l'arrière du canon sur des vues de profil.",
+        "Vérifier proportions tête/corps, orientation et échelle relative au combattant humain ; produire ensuite garde latérale, pivots et animations."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 36,
+      "asset_id": "assets_characters_v6_boomer_tactics_fullbody_png",
+      "sha256": "8908c4b6b515ba8fbb7039042b8211b1dc80cb7caa4190b983252fc52517f9a5",
+      "size_bytes": 2522639,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.506788,
+        "near_opaque_fraction_alpha_ge_240": 0.475499,
+        "subject_bbox_alpha_ge_128": [
+          96,
+          92,
+          942,
+          1484
+        ],
+        "subject_margins_ltrb_px": [
+          96,
+          92,
+          82,
+          52
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
       "path": "assets/characters_v6/dizzy_gow2_fullbody.png",
       "subject_id": "dizzy",
       "category": "character",
@@ -2542,6 +2740,69 @@
           17,
           166,
           13
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/costumes_v6/mac_mechanic_gears5_fullbody.png",
+      "subject_id": "mac_skin_02",
+      "category": "costume",
+      "name": "Mac — Mechanic Mac",
+      "source_variant": "Gears 5 — Mechanic Mac (skin Hivebusters)",
+      "purpose": "costume_reference_fullbody",
+      "character_id": "mac",
+      "costume_id": "mac_skin_02",
+      "origin_batch": "generation_v6_2026-11-20",
+      "metadata_records": [
+        "data/generation_v6/mac_mechanic_record.json"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/news/hivebusters-graphic-novel-available-now/",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/08/MechanicMac_HiRes2_Background-5f3ec711e6433-69cb112e80029.jpg"
+      ],
+      "qa_notes": [
+        "Un seul personnage entier : cheveux, casque, mains, pantalon et deux bottes visibles.",
+        "Casque de soudeur argent, veste olive sans manches, inscription MIRACLE MAC, ceintures, outils latéraux, protections métalliques et bottes conservés.",
+        "Asymétries visibles de la référence conservées : lien au genou droit anatomique, accessoires et holsters distincts.",
+        "Le dégradé visible dans le RGB sous alpha nul n'est pas un fond opaque ; le compositing sur blanc a été inspecté.",
+        "Marges verticales réelles 33 px en haut et 23 px en bas (alpha >= 128), inférieures aux 8 % demandés.",
+        "Comparer rivets, fermetures, nombre exact d'outils et contours du casque en gros plan au modèle de jeu.",
+        "Contrôler la ressemblance faciale et le lettrage contre le rendu officiel de plus haute résolution.",
+        "Préparer la garde strictement latérale, les pivots, marges d'atlas et animations ; référence statique uniquement."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 36,
+      "asset_id": "assets_costumes_v6_mac_mechanic_gears5_fullbody_png",
+      "sha256": "1e7081bead984e0f32381aebeaa90c70e80228942c0c8b42564eee002f8baa1c",
+      "size_bytes": 1912084,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.657205,
+        "near_opaque_fraction_alpha_ge_240": 0.317655,
+        "subject_bbox_alpha_ge_128": [
+          204,
+          33,
+          827,
+          1513
+        ],
+        "subject_margins_ltrb_px": [
+          204,
+          33,
+          197,
+          23
         ]
       },
       "has_transparency": true,
@@ -2787,6 +3048,52 @@
       "asset_id": "assets_stage_hollow_png",
       "sha256": "3b3c83e38bdf15c32ee58c269b8aa55e8e7eea5072cb344229fd92f21a5f03c0",
       "size_bytes": 2601816,
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "format": "PNG",
+      "alpha": null,
+      "has_transparency": false,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/stages_v6/gridlock_gow4_master.png",
+      "subject_id": "stage_gridlock_gow4",
+      "category": "stage",
+      "name": "Gridlock",
+      "source_variant": "Gears of War 4 — cadrage de combat 2D adapté",
+      "purpose": "stage_master",
+      "character_id": null,
+      "costume_id": null,
+      "origin_batch": "generation_v6_2026-11-20",
+      "metadata_records": [
+        "data/generation_v6/gridlock_record.json"
+      ],
+      "source_urls": [
+        "https://macer.artstation.com/projects/3n1Rv",
+        "https://cdnb.artstation.com/p/assets/images/images/007/372/581/large/matthew-macer-gridlock-belltower-2.jpg?1505691584",
+        "https://cdnb.artstation.com/p/assets/images/images/007/372/583/large/matthew-macer-gridlock-hotel-building.jpg?1505691225",
+        "https://cdnb.artstation.com/p/assets/images/images/007/372/577/large/matthew-macer-gridlock-sniper-tower-2.jpg?1505691205"
+      ],
+      "qa_notes": [
+        "Hôtel Coastal, enseigne verticale HOTEL, tour horloge ajourée, pavillon de cloche, statue, lampadaires courbes et voitures rouillées reconnaissables.",
+        "Bande de sol horizontale dégagée adaptée au combat 2D ; aucune interface ni personnage.",
+        "Les perspectives et placements ont été recomposés pour le cadrage de combat.",
+        "Comparer les proportions des façades et l’implantation des voitures avec la map finale Gears 4.",
+        "Produire séparément ciel, silhouettes lointaines, architecture, véhicules, plan de combat et premier plan.",
+        "Ce PNG aplati ne constitue pas des calques de parallaxe ni une reproduction géométrique 1:1 de la map."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 36,
+      "asset_id": "assets_stages_v6_gridlock_gow4_master_png",
+      "sha256": "6fbba543e665f1ffd101cfe4aabafc8fef17e558863bb93008bef64d3f4a48d6",
+      "size_bytes": 3194493,
       "width": 1672,
       "height": 941,
       "mode": "RGB",

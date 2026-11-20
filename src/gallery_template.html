@@ -25,7 +25,7 @@
   </header>
   <section class="controls" aria-label="Filtres de la galerie">
     <label class="search" for="search">Rechercher un personnage, un costume, un boss ou un stage<input id="search" type="search" placeholder="Nom, faction, Gears 3, Tactics…" autocomplete="off"></label>
-    <label for="status">État de production<select id="status"><option value="all">Tous les états</option><option value="available">Avec une référence</option><option value="missing">Sans image</option><option value="correction_required">Corrections identifiées</option><option value="alternatives">Plusieurs candidats</option></select></label>
+    <label for="status">État de production<select id="status"><option value="all">Tous les états</option><option value="available">Avec une référence</option><option value="missing">Sans référence attribuée</option><option value="correction_required">Corrections identifiées</option><option value="alternatives">Plusieurs candidats</option></select></label>
     <div class="filters" aria-label="Type de sujet"><button type="button" data-category="character" aria-pressed="true">Personnages</button><button type="button" data-category="costume" aria-pressed="false">Costumes</button><button type="button" data-category="boss" aria-pressed="false">Boss</button><button type="button" data-category="stage" aria-pressed="false">Stages</button><button type="button" data-category="all" aria-pressed="false">Tout voir</button></div>
   </section>
   <div class="resultline"><p id="result-count" role="status" aria-live="polite"></p><label class="checker-option"><input type="checkbox" id="checker" checked>Damier de transparence</label></div>
@@ -120,7 +120,7 @@ function render(){
   });
   gallery.replaceChildren(...visible.map(makeCard));document.getElementById("empty-result").hidden=visible.length>0;
   const illustrated=visible.filter(row=>row.has_visual_reference).length;
-  document.getElementById("result-count").textContent=`${visible.length} sujet${visible.length===1?"":"s"} affiché${visible.length===1?"":"s"} · ${illustrated} avec une référence · ${visible.length-illustrated} sans image`;
+  document.getElementById("result-count").textContent=`${visible.length} sujet${visible.length===1?"":"s"} affiché${visible.length===1?"":"s"} · ${illustrated} avec une référence · ${visible.length-illustrated} sans référence attribuée`;
 }
 document.querySelectorAll("[data-category]").forEach(button=>button.addEventListener("click",()=>{category=button.dataset.category;document.querySelectorAll("[data-category]").forEach(other=>other.setAttribute("aria-pressed",String(other===button)));render();}));
 document.getElementById("search").addEventListener("input",render);document.getElementById("status").addEventListener("change",render);

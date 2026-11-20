@@ -1,0 +1,73 @@
+{
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-20",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "variant_relation": "target_version_candidate",
+  "id": "matriarch_gears5_fullbody_v6",
+  "subject_id": "boss_matriarch",
+  "category": "boss",
+  "name": "Matriarch",
+  "variant": "Gears 5 — modèle de campagne",
+  "source_game": "Gears 5",
+  "purpose": "reference_fullbody",
+  "asset_path": "assets/bosses_v6/matriarch_gears5_fullbody.png",
+  "prompt": "Use case: style-transfer. Asset type: one full-body raster boss reference for the Gears of War Combats 2D fighting game. Subject: ONLY THE MATRIARCH from GEARS 5. These supplied images are the final game character by The Coalition artist P-o Lévesque: the first two are textured front/three-quarter and back views; the third gray clay render is ONLY a geometry reference for her back and must not change her colors. Reproduce the recognizable exact Gears 5 design with the squat massively muscular hunched body, forward skull-like pale face with recessed dark eyes, huge mantle of long thin backward-swept bony spikes radiating from the upper back, ivory-gray organic plates across shoulders chest pelvis forearms knees and shins, dark reddish brown sinewy skin, very thick long arms ending in massive curled clawed hands, and bulky clawed feet. Preserve the distinctive plate silhouettes, irregular asymmetric spike lengths and proportions shown, not a generic fantasy monster. One character, ONE pose only, neutral threatening ready stance turned slightly toward screen-right, full head/spike tips/hands/feet all visible with generous transparent margin on ALL sides (10 percent clear space above highest spike and below feet). Detailed high-quality realistic painted raster game rendering, crisp coherent silhouette, legible material textures, neutral even light. Actual transparent alpha background. No environment, no floor, no smoke, no shadow plane, no symbols, no additional character, no labels, no logos, no watermark, no collage. No mechanical armor or weapons. Do not repeat or mirror the character. Prefer portrait 1024x1536 or larger.",
+  "sources": [
+    {
+      "page_url": "https://olygraph.artstation.com/projects/3okNAo",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/020/529/530/large/p-o-levesque-matriarch-tposeb.jpg?1568136960",
+      "scope": "Rendus Unreal texturés avant/3-4 du modèle de jeu par P-o Lévesque, artiste The Coalition."
+    },
+    {
+      "page_url": "https://olygraph.artstation.com/projects/3okNAo",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/020/516/749/large/p-o-levesque-matriarch-tpose2.jpg?1568081947",
+      "scope": "Rendus Unreal texturés arrière/3-4 ; anatomie et couleurs."
+    },
+    {
+      "page_url": "https://olygraph.artstation.com/projects/3okNAo",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/020/534/325/large/p-o-levesque-matriarch-tpose-back-keyshot.jpg?1568149592",
+      "scope": "Sculpture grise du dos ; géométrie des pointes et plaque dorsale, pas référence colorimétrique."
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "observations": [
+      "Un boss entier seul ; crâne clair, peau brune rouge, plaques ivoire, longue couronne de pointes dorsales, mains massives et pieds griffus conservés.",
+      "Orientation trois quarts droite ; textures et proportions générales comparées aux rendus officiels avant et arrière.",
+      "Les pointes proches des bords exigent un contrôle des marges avant atlas.",
+      "Compositing sur blanc inspecté : détourage réel, sans fond visible. Marges alpha>=128 : gauche 17, haut 19, droite 5, bas 7 pixels ; inférieures aux 10 % demandés."
+    ],
+    "remaining_checks": [
+      "Comparer nombre et implantation des pointes, géométrie des plaques pectorales et articulations au modèle final.",
+      "Produire la véritable garde latérale, le dos et les phases d’attaque ; cette sortie reste une pose statique.",
+      "Découper seulement après validation des pivots, point faible dorsal et volumes de collision.",
+      "Ajouter des marges après validation de la silhouette avant intégration dans un atlas."
+    ],
+    "transparent_background": true,
+    "white_composite_inspected": true
+  },
+  "output": {
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "format": "PNG",
+    "bytes": 3000433,
+    "sha256": "144abc199d23ba9f6bb3f44f77cece669747ac3489bb9c6fec88d3e96bbc803b",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.40905125935872394,
+    "subject_margins_ltrb_px": [
+      17,
+      19,
+      5,
+      7
+    ]
+  }
+}

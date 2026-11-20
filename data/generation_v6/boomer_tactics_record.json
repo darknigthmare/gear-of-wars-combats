@@ -1,0 +1,70 @@
+{
+  "id": "boomer_tactics",
+  "subject_id": "boomer_tactics",
+  "category": "character",
+  "character_id": "boomer_tactics",
+  "name": "Boomer",
+  "variant": "Gears Tactics — Boomer standard avec Boomshot",
+  "source_game": "Gears Tactics",
+  "purpose": "reference_fullbody",
+  "variant_relation": "target_version_candidate",
+  "status": "generated_reference_pending_validation",
+  "asset_path": "assets/characters_v6/boomer_tactics_fullbody.png",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-20",
+  "prompt": "Use case: stylized-concept. Asset type: one raster full-body character production reference for Gears of War Combats. Subject: exactly one Locust Boomer from Gears Tactics (2020). Use the attached official Gears Tactics render as the precise reference for his face, head silhouette, upper body anatomy, red-black armor and Boomshot weapon. Preserve the hulking squat massively broad Locust proportions, pallid grey deeply wrinkled hairless head, sunken eyes, heavy brow, thick hanging jaw and crooked teeth, huge leathery grey scaled arms, scratched dark steel armor with subdued dark-red painted panels, riveted shoulder plates, black vented chest inset, dark cloth wrapping at the upper arms, and bulky riveted forearm armor. He holds his exact heavy Boomshot grenade launcher at waist height across his body, pointed slightly downward toward screen-right, with the cylindrical barrel and angular black-metal muzzle structure and orange glowing insets matching the supplied render. Whole weapon fully visible. Complete the full-body view with the original Gears Tactics Boomer armored waist, dark armored thighs, bulky knee and shin protection, very broad heavy boots and short powerful legs; no new armor theme or redesign. One stable neutral battle-ready stance, gentle three-quarter view facing screen-right; no attack, projectile or second character. Detailed realistic painted raster game-art style matching the supplied proportions and textures, clean silhouette. Full scalp, both arms, both hands, entire weapon and both boots inside the canvas. Do not crop. Body should occupy 80 percent of canvas height with clearly generous empty space above and below. Genuine transparent alpha background, no ground plane, no cast shadow, no colored halo, no smoke, no text, no logos, no UI, no frame, no collage, no extra equipment beyond the canonical Boomer outfit and Boomshot. No blood or gore.",
+  "sources": [
+    {
+      "page_url": "https://www.gearsofwar.com/en-nz/news/dev-blog-enemies/",
+      "image_url": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/04/5d759df3e06b637607e82f6db322f84fc21a6c3d-69cb0da52c84e.jpg",
+      "scope": "Rendu officiel du Boomer Gears Tactics : visage, torse, bras, armure et partie avant du Boomshot ; jambes et arrière de l'arme hors cadre."
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "white_composite_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Un Boomer entier et un Boomshot entièrement visibles, sans autre sujet.",
+      "Visage plissé, mâchoire lourde, bras massifs, armure rouge sombre à rivets et insert pectoral ajouré reprennent la référence officielle.",
+      "Le Boomshot reprend la structure frontale angulaire et les quatre inserts orange visibles dans la référence ; son arrière et sa prise ont été reconstruits.",
+      "Jambes, protection pelvienne, genouillères et bottes ne sont pas documentées par le rendu source cadré au torse ; elles nécessitent une comparaison avec le jeu.",
+      "Vue trois-quarts quasi frontale ; ce n'est pas encore une garde de combat strictement latérale.",
+      "Alpha réel vérifié sur fond blanc ; les couleurs du fond RGB sous alpha nul ne sont pas une zone opaque."
+    ],
+    "remaining_checks": [
+      "Trouver et comparer plusieurs captures en pied de Gears Tactics avant toute validation 1:1 du bas du corps.",
+      "Vérifier nombre et forme des trous/plaques du Boomshot ainsi que l'arrière du canon sur des vues de profil.",
+      "Vérifier proportions tête/corps, orientation et échelle relative au combattant humain ; produire ensuite garde latérale, pivots et animations."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2522639,
+    "sha256": "8908c4b6b515ba8fbb7039042b8211b1dc80cb7caa4190b983252fc52517f9a5",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.5067882537841797,
+    "subject_bbox_alpha_ge_128": [
+      96,
+      92,
+      942,
+      1484
+    ],
+    "subject_margins_ltrb_px": [
+      96,
+      92,
+      82,
+      52
+    ]
+  }
+}

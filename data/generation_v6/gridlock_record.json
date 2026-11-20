@@ -1,0 +1,58 @@
+{
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-20",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "variant_relation": "target_version_candidate",
+  "id": "gridlock_gow4_master_v6",
+  "subject_id": "stage_gridlock_gow4",
+  "category": "stage",
+  "name": "Gridlock",
+  "variant": "Gears of War 4 — cadrage de combat 2D adapté",
+  "source_game": "Gears of War 4",
+  "purpose": "stage_master",
+  "asset_path": "assets/stages_v6/gridlock_gow4_master.png",
+  "prompt": "Use case: stylized-concept. Asset type: one wide raster master background for a 2D side-view fighting game. Reconstruct GRIDLOCK specifically as it appears in GEARS OF WAR 4, using these three supplied production screenshots by environment artist Matthew Macer as the exact visual anchors. Preserve the distinctive decayed brick seafront square, green oxidized roof tiles, the damaged round clock tower, the adjacent rounded Coastal Hotel building with tall vertical HOTEL sign, the little brick bell pavilion with exposed bell and pyramidal copper roof, the adjacent classical train-station facade and curved riblike lamp posts, trailing ivy, and corroded cars. The three inputs are different camera angles on the same place, not separate locations. Create one coherent 2D fighting-stage panorama with fixed near-horizontal eye-level camera, a level horizontal playable band spanning the entire lower 20 percent of the image, debris and cars behind that plane rather than obstructing it, readable depth in background architecture. Daylight blue-gray sky and muted warm masonry like the references. Preserve the real building shapes and materials and sign identity, no generic gothic cathedral redesign. Detailed realistic painted raster game art matching Gears materials; widescreen 16:9, preferably 2048x1152 or larger. No characters, no opponents, no HUD, no logos, no added caption, no source image border, no collage or sheet. This is a single stage master, not separated parallax layers.",
+  "sources": [
+    {
+      "page_url": "https://macer.artstation.com/projects/3n1Rv",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/007/372/581/large/matthew-macer-gridlock-belltower-2.jpg?1505691584",
+      "scope": "Capture de production de la map Gears 4 publiée par son artiste Matthew Macer ; clocher, hôtel, pavillon, rue et matériaux."
+    },
+    {
+      "page_url": "https://macer.artstation.com/projects/3n1Rv",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/007/372/583/large/matthew-macer-gridlock-hotel-building.jpg?1505691225",
+      "scope": "Vue complémentaire de l’hôtel et de la tour ; conserver version Gears 4."
+    },
+    {
+      "page_url": "https://macer.artstation.com/projects/3n1Rv",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/007/372/577/large/matthew-macer-gridlock-sniper-tower-2.jpg?1505691205",
+      "scope": "Bâtiment du sniper et matériaux de la façade ; référence de lieu et non carte orthographique."
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_stage": true,
+    "transparent_background": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "observations": [
+      "Hôtel Coastal, enseigne verticale HOTEL, tour horloge ajourée, pavillon de cloche, statue, lampadaires courbes et voitures rouillées reconnaissables.",
+      "Bande de sol horizontale dégagée adaptée au combat 2D ; aucune interface ni personnage.",
+      "Les perspectives et placements ont été recomposés pour le cadrage de combat."
+    ],
+    "remaining_checks": [
+      "Comparer les proportions des façades et l’implantation des voitures avec la map finale Gears 4.",
+      "Produire séparément ciel, silhouettes lointaines, architecture, véhicules, plan de combat et premier plan.",
+      "Ce PNG aplati ne constitue pas des calques de parallaxe ni une reproduction géométrique 1:1 de la map."
+    ]
+  },
+  "output": {
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "format": "PNG",
+    "bytes": 3194493,
+    "sha256": "6fbba543e665f1ffd101cfe4aabafc8fef17e558863bb93008bef64d3f4a48d6"
+  }
+}
