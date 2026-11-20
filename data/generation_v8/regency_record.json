@@ -1,0 +1,67 @@
+{
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-20",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "variant_relation": "target_version_candidate",
+  "category": "stage",
+  "source_game": "Gears 5 — Operation 5",
+  "purpose": "stage_master",
+  "id": "regency_gears5_master_v8",
+  "subject_id": "stage_regency_g5",
+  "name": "Regency",
+  "variant": "Gears 5 — Operation 5, terrasse cérémonielle adaptée au combat 2D",
+  "asset_path": "assets/stages_v8/regency_gears5_master.png",
+  "prompt": "Use case: identity-preserve. Asset type: a single widescreen raster stage master for the Gears of War Combats 2D fighting game. Recreate the exterior ceremonial garden terrace of REGENCY from GEARS 5 OPERATION 5, accurately matching the two supplied final-game screenshots by lighting artist Derek Patterson. Reference 1 is the primary terrace composition: golden eagle with a gear halo on its tall fluted white pedestal, a gold standing robed statue on a lower square pedestal, gold bowl fountain, rectangular white-and-gold stone planters containing trimmed green hedges, narrow conical topiary, small white and lilac flowers, low white balustrades, cobalt-blue banners and carpet paths, pale cream stone paving with restrained brass inlays, open blue sky and a sea of cloud far beneath the terrace. Reference 2 is supplemental evidence for matching the material palette, white-stone facade with copper/gold domes, blue COG banners and garden detailing; do not replace the primary terrace with a generic palace. Keep the main eagle silhouette and gear halo, the statue and fountain, the distinct white/cream stone and metallic gold trim, the planters and blue fabric colors. Create a level side-view stage composition with minimal perspective distortion; keep a continuous unobstructed horizontal paved floor band across the bottom 18 percent, put the fountain, planters and monuments behind the combat plane. Preserve the architectural proportions and actual observed ornament as closely as possible. One coherent 16:9 panorama, realistic detailed game environment illustration, bright clear warm daylight and soft sky fill, delicate atmospheric cloud depth, clean readable materials. No fighters, monsters, extra statues, UI, captions, portfolio footer strip, watermarks, collage, multiple panels, smoke or invented science-fiction machinery. This is one flattened master background, not separated parallax layers and not a claim of exact map geometry.",
+  "sources": [
+    {
+      "page_url": "https://news.xbox.com/en-us/2020/11/17/gears-5-operation-5/",
+      "source_type": "official_publisher_announcement",
+      "scope": "Annonce officielle confirmant Regency dans Operation 5 et sa situation au-dessus des nuages ; contexte documentaire, pas une image d’entrée.",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://partypat.artstation.com/projects/bKm1xa",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/032/334/029/large/derek-patterson-regency-001.jpg?1606150771",
+      "source_type": "production_artist_portfolio",
+      "artist": "Derek Patterson — éclairage",
+      "scope": "Capture de production complète de la terrasse, publiée par l’artiste ayant réalisé son éclairage. Référence principale pour la composition, l’aigle, la statue, la fontaine, le jardin et les nuages.",
+      "visual_reference_used": true,
+      "reference_sha256": "6a8e83c97b853f3488aa70e1a6c18abf6ec08053dde79ba1a30f2d8a97e6029e"
+    },
+    {
+      "page_url": "https://partypat.artstation.com/projects/bKm1xa",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/032/334/081/large/derek-patterson-regency-002.jpg?1606150851",
+      "source_type": "production_artist_portfolio",
+      "artist": "Derek Patterson — éclairage",
+      "scope": "Deuxième capture du même niveau, façade et jardin. Référence complémentaire de matériaux et de couleurs ; sa façade n’est pas transposée dans la terrasse du premier angle.",
+      "visual_reference_used": true,
+      "reference_sha256": "6cf600611bdbed0f95c06a7bed64c082f9fe34f84e7e37829875cbe416db7cd1"
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_stage": true,
+    "transparent_background": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "observations": [
+      "Aigle doré à halo en engrenage, statue drapée, fontaine en coupe, jardinières de pierre blanche à liserés dorés, fleurs blanches et mauves, drapeaux bleus et mer de nuages présents.",
+      "Bande de sol horizontale dégagée, sans personnage ni interface ; rendu unique et opaque.",
+      "La caméra et la disposition des éléments ont été recomposées pour le combat latéral ; les proportions, petits ornements et emblèmes CGU ne sont pas certifiés identiques au niveau final."
+    ],
+    "remaining_checks": [
+      "Comparer plusieurs vues du niveau final pour les proportions de l’aigle, les motifs de la fontaine, les emblèmes et les dispositions exactes des jardinières.",
+      "Séparer ciel/nuages, monuments, végétation, sol et premier plan en véritables calques de parallaxe.",
+      "Établir l’échelle des combattants, les limites de l’arène et l’intégration jouable."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "bytes": 2630790,
+    "sha256": "5933e0e5a4e9d679b8a8bdad935fbda5165f699fbce59fbac0108dc6fe354fb6"
+  }
+}

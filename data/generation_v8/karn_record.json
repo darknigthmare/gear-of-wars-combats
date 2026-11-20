@@ -1,0 +1,98 @@
+{
+  "category": "character",
+  "source_game": "Gears of War: Judgment",
+  "catalog_target_game": "Gears of War: Judgment",
+  "purpose": "reference_fullbody",
+  "variant_relation": "target_version_candidate",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-20",
+  "id": "karn",
+  "subject_id": "karn",
+  "character_id": "karn",
+  "name": "Karn — état intact",
+  "variant": "Gears of War: Judgment — Karn intact, personnage seul sans Shibboleth",
+  "reference_state": "intact",
+  "asset_path": "assets/characters_v8/karn_judgment_intact_fullbody.png",
+  "prompt": "Use case: identity-preserve. Asset type: one full-body transparent character reference for Gear of Wars Combats. Depict exactly ONE Karn from Gears of War: Judgment, INTACT state, matching the two attached original Epic Games model renders published by his modeler Mike Kime. Reference 1 is the intact textured front three-quarter model; reference 2 is the intact textured rear model. The tiny colored figures at the lower right are authorship diagrams only; do not include them. Preserve the exceptionally tall narrow humanoid Locust body, small gaunt pale yellow-grey face with its long jaw, irregular pointed white teeth, pale eyes and stern snarling expression. Reproduce the original dark charcoal and muted silver-blue armor precisely: fitted engraved helmet with swept side fins, large sculpted chest plate and its geometric Locust emblem, layered upper-arm plates, spiked shoulder pieces, leather wrappings and crisscross pale cords on forearms and thighs, long angular bladed forearm guards, wrapped hands with their exposed claws, and tall shin guards ending over the heavy exposed taloned feet. Preserve the towering split curved dorsal backplate rising far above the head, its large cutout opening, pointed tips, central rear motif and its connection to the back: it is armor, not biological wings. Match the actual seams, lacing, rings, joints, asymmetry and relief shapes visible in these two views; do not invent generic fantasy armor. Use the original restrained, mostly grey-blue and brown palette and aged metal roughness, no added bright red front glow. All armor plates are present as in the intact references; retain normal surface scratches but no broken armor, torn flesh, blood, missing parts or damaged-state design. Adapt the stance only slightly to a near-frontal three-quarter standing view facing screen-right, arms relaxed and separated slightly from the body, feet planted so every claw is readable. Rotate the character in space rather than mirroring symbols or exchanging left and right construction. Neutral soft lighting reveals the model detail and anatomical proportions. Portrait canvas with true transparent alpha background. Camera pulled back: the COMPLETE figure from the very highest dorsal blade to the lowest claw tip occupies only 72 percent of canvas height, with at least 14 percent empty transparent margin above and below and generous clear space at both sides. Do not enlarge the figure to fill the frame. The full dorsal crest, hands and all talons must fit. One isolated character, no Shibboleth, no mount, no weapon added, no other people, no colored breakdown figures, no inset, no floor, no cast shadow, backdrop, particles, text, logos or watermark. This is Judgment's intact model, not a Gears 5 multiplayer redesign.",
+  "sources": [
+    {
+      "page_url": "https://www.pseudo-pod.com/temp/Judgement/judgement.htm",
+      "image_url": "https://www.pseudo-pod.com/temp/Judgement/Karn_Front.jpg",
+      "source_type": "original_game_artist_textured_model_render",
+      "scope": "Rendu texturé original en pied, vue avant trois quarts de Karn intact, publié sur le site de Mike Kime. Crédits lisibles : Epic Games ; Mike Kime pour tête/bras/jambes, Mark Morgan pour corps et haut des jambes ; concept James Hawkins ; direction Chris Perna. Les petites silhouettes colorées indiquent la répartition du travail et ne sont pas des personnages supplémentaires à générer.",
+      "visual_reference_used": true,
+      "reference_sha256": "d960898592b2f33dc4dc332f4bb9652132270113a35588f7232f23939ee60f66"
+    },
+    {
+      "page_url": "https://www.pseudo-pod.com/temp/Judgement/judgement.htm",
+      "image_url": "https://www.pseudo-pod.com/temp/Judgement/Karn_Back.jpg",
+      "source_type": "original_game_artist_textured_model_render",
+      "scope": "Rendu texturé original en pied, vue arrière de Karn intact, montrant le grand plastron dorsal ajouré, ses pointes, les fixations, cordages, protections et pieds. Même édition et même état que la vue avant.",
+      "visual_reference_used": true,
+      "reference_sha256": "101b32185c8588c5027a56074673b2f36a55c43f1740efceadc545cdb3279011"
+    },
+    {
+      "page_url": "https://pseudopod.artstation.com/projects/gVB5E",
+      "source_type": "original_character_artist_portfolio",
+      "scope": "Portfolio de Mike Kime confirmant le modèle partagé avec Mark Morgan et l'existence d'un état endommagé distinct. Cet état endommagé n'a pas été fourni au générateur.",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://www.maxon.net/en/article/creating-assets-for-epic-games-gears-of-war-judgment",
+      "source_type": "primary_interview_with_game_artists",
+      "scope": "Entretien Epic/People Can Fly : Karn est créé par Kime et Morgan ; Shibboleth est une créature distincte. Contexte d'attribution uniquement.",
+      "visual_reference_used": false
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Karn seul, en état intact, orienté en trois quarts vers la droite. Aucune monture Shibboleth, aucune arme ajoutée, aucune petite silhouette de répartition des crédits.",
+      "La crête dorsale haute et ajourée, le casque, les mains et toutes les griffes des pieds sont entièrement dans le cadre. Les plaques de l'état intact sont présentes ; aucune fusion avec l'état endommagé n'a été demandée.",
+      "Deux références originales de la même édition guident le rendu : avant et arrière texturés de Judgment. Aucun modèle Gears 5 ni visuel de fan n'a été utilisé.",
+      "Palette dominante gris métallique, bleuté désaturé, cuir sombre et peau pâle conservée. Le visage, les dents, les reliefs du plastron, les cordages et les attaches entre casque et grande protection dorsale doivent encore être comparés pièce par pièce.",
+      "La pose a été légèrement tournée vers la droite. La topologie exacte, l'asymétrie des petites pièces, le nombre des rivets et les occultations ne sont pas certifiés par cette vue générée.",
+      "Alpha réel vérifié : 80,11 % des pixels sont entièrement transparents. Une vérification des franges sur plusieurs fonds reste nécessaire avant intégration en atlas.",
+      "Marges gauche/haut/droite/bas au seuil alpha 128 : 311/163/275/96 px. Les marges verticales demandées de 14 % ne sont pas atteintes ; aucune extrémité n'est coupée. Dimensions natives 1086 × 1448 px, sans redimensionnement après génération."
+    ],
+    "remaining_checks": [
+      "Comparer visage, casque, crête dorsale et raccords d'armure à des captures de Karn intact dans Judgment.",
+      "Contrôler les symboles, les nombres de rivets/griffes/dents et les cordages, puis produire les vues supplémentaires documentées.",
+      "Préparer les pivots, marges d'atlas, collisions et animations de combat. Ce PNG ne constitue pas un combattant animé ni un duo monté complet.",
+      "Le personnage Karn et la monture Shibboleth doivent conserver leurs identifiants et leurs assets séparés."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1086,
+    "height": 1448,
+    "bytes": 864815,
+    "sha256": "60fbe14e3ccb6f93942db7f521fe506a0e3b9d5cccb73df892da1fd86e122ac6",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.8010604580649756,
+    "subject_bbox_alpha_ge_128": [
+      311,
+      163,
+      811,
+      1352
+    ],
+    "subject_margins_ltrb_px": [
+      311,
+      163,
+      275,
+      96
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "id": "boss_tempest",
+  "subject_id": "boss_tempest",
+  "boss_id": "boss_tempest",
+  "category": "boss",
+  "name": "Tempest seul — monture sans Myrrah",
+  "variant": "Gears of War 3 — monture seule ; Myrrah absente ; duo non complet",
+  "source_game": "Gears of War 3",
+  "catalog_target_game": "Gears of War 3",
+  "purpose": "reference_fullbody",
+  "variant_relation": "target_version_candidate",
+  "component_scope": "mount_only",
+  "composite_boss_complete": false,
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "asset_path": "assets/bosses_v8/tempest_gow3_mount_only_fullbody.png",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-20",
+  "prompt": "Use case: identity-preserve. Asset type: one complete transparent boss-mount reference for Gears of War Combats. The supplied image is a credited Epic Games 2011 production render of TEMPEST from Gears of War 3, model by Chris Wells and textures by Maury Mountain. Use this image as the only visual design reference. Create exactly ONE complete Tempest creature alone, preserving its full three-quarter frontal suspended pose and the original design. Preserve the four large insect-like wings: two rise diagonally above the head and two spread outward below them, each with its irregular scalloped edge, translucent reddish-brown membrane, pale organic ribbing, elongated holes and torn lattice patterns exactly like the reference. Preserve the compact thick grey-black segmented body, the ornate gold/bronze protective plates on the head and paired front limbs, the ivory horn and thorn shapes around the face, the hooked hanging claws and armored lower abdomen visible under the body. Follow the reference's anatomical silhouette and the number, position and connections of all visible appendages; do not turn the creature into a dragon, Reaver, Hydra, moth or Brumak. Keep the gold metal scrollwork restrained and worn, and the grey organic flesh and reddish wing membranes distinct. Preserve only the subtle warm glow visible in the mouth; exclude the large smoke cloud and any blast effect so the silhouette is clean. Use neutral studio lighting to make the game-render textures readable. No Queen Myrrah, no rider and no separate human figure: this is the mount component only. Keep every wing tip, horn tip, body segment, claw and foot within the frame. Reduce the creature's overall extent to about 78 percent of the available canvas so there is at least 10 percent empty transparent space around all outermost points. Balanced wide or nearly square framing appropriate to four spread wings. True transparent alpha background, no black backdrop, no ground, no pedestal, no cast shadow, no environment, no fire cloud, no text, no source credits or logos in the generated result, no watermark, no duplicate creature and no inset views. Preserve this exact Gears of War 3 version. This remains one static reference candidate and not a complete rider-plus-mount encounter.",
+  "reference_input_mode": "local_reference_image",
+  "generated_path": "/workspace/scratch/ce37905a7ccd/generated_images/exec-608c80e1-33c6-496e-a4a3-1048012a0027.png",
+  "sources": [
+    {
+      "page_url": "https://maurymountain.artstation.com/projects/r9QYlJ",
+      "source_type": "production_texture_artist_portfolio",
+      "scope": "Maury Mountain identifie Tempest comme sa créature texturée pour Gears of War 3 et crédite Chris Wells pour le modèle. Source d'identité, d'édition et d'attribution ; le téléchargement direct ArtStation a renvoyé 403, sans réessai de contournement.",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://polycount.com/discussion/comment/1451312",
+      "source_type": "first_hand_production_artist_post",
+      "scope": "Billet de l'artiste en octobre 2011 : Tempest, monture de Myrrah et boss final Gears 3, textures majoritairement peintes et métal piloté par un shader doré. Les anciennes images Dropbox sont indisponibles (404) et n'ont pas servi au générateur.",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://archive.conference.hitb.org/hitbsecconf2013ams/materials/D2T1%20-%20Pod2g,%20Planetbeing,%20Musclenerd%20and%20Pimskeks%20aka%20Evad3rs%20-%20Swiping%20Through%20Modern%20Security%20Features.pdf",
+      "source_type": "credited_production_render_reproduced_in_public_pdf",
+      "page_number": 60,
+      "page_index": 59,
+      "embedded_image_xref": 1755,
+      "scope": "Reproduction d'un rendu Epic 2011 de Tempest dans une diapositive de conférence. L'image JPEG embarquée a été extraite intacte du PDF, sans les titres superposés de la diapositive : 716 × 648, corps, quatre ailes et membres complets. Le pied de la planche porte les crédits modèle Chris Wells, texture Maury Mountain, rigging Jeremy Ernst, pose et éclairage Chris Wells, concept James Hawkins, direction artistique Chris Perna. Le PDF est une reproduction tierce, pas une publication artistique officielle ; sa fidélité binaire à la planche originale n'est pas attestée. Seule référence visuelle fournie au générateur.",
+      "visual_reference_used": true,
+      "reference_sha256": "19984f5879b2212d2a14e1a2cea618f070d8e6a8077b9c5177cae4d51ed76a6d",
+      "reference_width": 716,
+      "reference_height": 648,
+      "source_pdf_sha256": "8a506929f49af48b4a19ae855a6b7d83536fcb4a56f0e6da9f1fa1618ac8a322",
+      "reference_local_path": "/workspace/scratch/ce37905a7ccd/references/v8_bosses/tempest_reproduction_embedded_2.jpeg"
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "white_composite_inspected": true,
+    "single_creature": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Une seule monture complète, vue de trois quarts avant ; les quatre ailes et leurs pointes, les cornes, les plaques dorées des membres antérieurs et les griffes inférieures sont dans le cadre.",
+      "Silhouette insectoïde, membranes rouges-brunes ajourées, corps gris segmenté et ornementation métallique dorée conservés d'après la planche de production créditée.",
+      "Myrrah est absente. Le fichier couvre uniquement Tempest, sans prétendre compléter le duo de la fiche boss_tempest.",
+      "Les gros nuages de fumée de la référence sont exclus ; un éclat chaud local reste dans la bouche.",
+      "Alpha réel mesuré : 69,56 % des pixels sont entièrement transparents. Le composite blanc a été inspecté, y compris les ajours des ailes et les contours.",
+      "Marges au seuil alpha >= 128 : gauche 136, haut 108, droite 68, bas 88 pixels. Certaines sont inférieures aux 10 % demandés, sans découpe de l'entité.",
+      "La référence embarquée de 716 × 648 limite la lecture des microdétails ; l'image générée interprète ces détails et n'est pas une extraction du modèle."
+    ],
+    "remaining_checks": [
+      "Comparer les découpes des membranes, les connexions des ailes, le nombre et la forme des cornes, les membres et les motifs d'armure au modèle final ou à une planche haute résolution originale.",
+      "Documenter le dos et le profil avant de générer les orientations nécessaires ; ne pas déduire les surfaces cachées de cette seule vue.",
+      "Produire et positionner séparément Myrrah : échelle, posture, selle et points d'attache doivent être contrôlés avant de déclarer le duo complet.",
+      "Préparer des marges d'atlas suffisantes, séparer les ailes et les membres, définir les pivots, les collisions et les animations de la rencontre.",
+      "Vérifier les couleurs et le métal sous éclairage du jeu : un rendu de studio ne remplace pas la validation en jeu."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1314,
+    "height": 1197,
+    "bytes": 1454606,
+    "sha256": "f1815e0081177466721a6296c412876955334ec4645b9566d4a3ffed9c1b375f",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.6956406744919121,
+    "near_opaque_fraction_alpha_ge_240": 0.2425622656336427,
+    "subject_bbox_alpha_ge_128": [
+      136,
+      108,
+      1246,
+      1109
+    ],
+    "subject_margins_ltrb_px": [
+      136,
+      108,
+      68,
+      88
+    ]
+  },
+  "canonical_fidelity_validated": false,
+  "animation_status": "not_produced"
+}

@@ -8,14 +8,14 @@ Les anciennes passes ont été réunies avec les nouvelles sorties réellement p
 | --- | ---: |
 | Personnages possédant au moins une référence | **36 / 36** |
 | Personnages sans référence | **0** |
-| Personnages supplémentaires du catalogue avec une référence | 4 / 20 |
-| Costumes avec une attribution visuelle explicite | 36 / 85 |
-| PNG actifs de personnages, alternatives et présentations incluses | 49 |
-| PNG actifs classés comme costumes | 2 |
-| Boss avec une référence | 6 / 31 |
-| Fiches d’arènes associées à un master | 4 / 34 |
-| Masters de décor, Ephyra complémentaire inclus | 5 |
-| PNG actifs uniques | 62 |
+| Personnages supplémentaires du catalogue avec une référence | 7 / 20 |
+| Costumes avec une attribution visuelle explicite | 37 / 85 |
+| PNG actifs de personnages, alternatives et présentations incluses | 52 |
+| PNG actifs classés comme costumes | 3 |
+| Boss avec une référence | 8 / 31 |
+| Fiches d’arènes associées à un master | 6 / 34 |
+| Masters de décor, Ephyra complémentaire inclus | 7 |
+| PNG actifs uniques | 70 |
 | Anciennes versions écartées conservées séparément | 12 |
 | Personnages certifiés conformes 1:1 | **0** |
 | Ensembles d’animations dessinées finalisés | **0** |
@@ -39,6 +39,8 @@ Les costumes hérités des fiches initiales restent sans attribution tant qu’u
 | --- | --- | --- |
 | Matriarch | Gears 5 — modèle de campagne | [PNG](../../assets/bosses_v6/matriarch_gears5_fullbody.png) |
 | Shibboleth seul — monture sans Karn | Gears of War: Judgment — monture seule ; Karn absent ; duo non complet | [PNG](../../assets/bosses_v7/shibboleth_judgment_mount_only_fullbody.png) |
+| Berserker Lambent | Gears of War 3 — poitrine ouverte, pose de référence | [PNG](../../assets/bosses_v8/lambent_berserker_gow3_fullbody.png) |
+| Tempest seul — monture sans Myrrah | Gears of War 3 — monture seule ; Myrrah absente ; duo non complet | [PNG](../../assets/bosses_v8/tempest_gow3_mount_only_fullbody.png) |
 | Dominic Santiago | Gears of War (2006) — COG armor | [PNG](../../assets/characters_v5/dom_gow1_fullbody.png) |
 | Général RAAM | Gears of War (2006 / portage PC original) | [PNG](../../assets/characters_v5/raam_gow1_fullbody.png) |
 | Garde Theron | Theron Guard classique casqué, cible GoW 2006 ; édition exacte non validée | [PNG](../../assets/characters_v5/theron_gow1_fullbody.png) |
@@ -47,11 +49,17 @@ Les costumes hérités des fiches initiales restent sans attribution tant qu’u
 | Dizzy Wallin | Gears of War 2 — tenue de pilote de Betty | [PNG](../../assets/characters_v6/dizzy_gow2_fullbody.png) |
 | Colonel Ezra Loomis | Gears of War: Judgment — uniforme de parade, bras croisés | [PNG](../../assets/characters_v7/ezra_loomis_judgment_fullbody.png) |
 | Michael Barrick | Gears of War 3 — RAAM's Shadow, armure standard sans casque | [PNG](../../assets/characters_v7/michael_barrick_gow3_raams_shadow_fullbody.png) |
+| Adam Fenix | Gears of War 3 — Soldier Adam, personnage multijoueur | [PNG](../../assets/characters_v8/adam_fenix_gow3_multiplayer_fullbody.png) |
+| Alex Brand | Gears of War: Judgment — apparence multijoueur, personnage seul | [PNG](../../assets/characters_v8/alex_brand_judgment_fullbody.png) |
+| Karn — état intact | Gears of War: Judgment — Karn intact, personnage seul sans Shibboleth | [PNG](../../assets/characters_v8/karn_judgment_intact_fullbody.png) |
 | Mac — Mechanic Mac | Gears 5 — Mechanic Mac (skin Hivebusters) | [PNG](../../assets/costumes_v6/mac_mechanic_gears5_fullbody.png) |
 | Augustus Cole — Thrashball Cole | Gears of War 3 — Thrashball Cole | [PNG](../../assets/costumes_v7/cole_thrashball_gow3_fullbody.png) |
+| Marcus Fenix — campagne Gears of War 3 | Gears of War 3 — armure de campagne | [PNG](../../assets/costumes_v8/marcus_campaign_gow3_fullbody.png) |
 | Gridlock | Gears of War 4 — cadrage de combat 2D adapté | [PNG](../../assets/stages_v6/gridlock_gow4_master.png) |
 | Dawn | Gears 5 — Operation 8, colonie minière adaptée au combat 2D | [PNG](../../assets/stages_v7/dawn_gears5_master.png) |
 | Village | Gears 5 — Operation 8, intérieur cérémoniel adapté au combat 2D | [PNG](../../assets/stages_v7/village_gears5_master.png) |
+| Nexus — galerie souterraine | Gears 5 — Operation 5, galerie souterraine adaptée au combat 2D | [PNG](../../assets/stages_v8/nexus_gears5_master.png) |
+| Regency | Gears 5 — Operation 5, terrasse cérémonielle adaptée au combat 2D | [PNG](../../assets/stages_v8/regency_gears5_master.png) |
 
 Les refus et résultats en cours sont conservés dans les dossiers `data/generation_v*/`. Un refus n’est jamais compté comme une image. Le recalcul accepte un résultat ayant un chemin de fichier valide sans dépendre d’un unique libellé de statut.
 

@@ -1,0 +1,122 @@
+{
+  "category": "character",
+  "source_game": "Gears of War: Judgment",
+  "catalog_target_game": "Gears of War: Judgment",
+  "purpose": "reference_fullbody",
+  "variant_relation": "target_version_candidate",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-20",
+  "id": "alex_brand",
+  "subject_id": "alex_brand",
+  "character_id": "alex_brand",
+  "name": "Alex Brand",
+  "variant": "Gears of War: Judgment — apparence multijoueur, personnage seul",
+  "asset_path": "assets/characters_v8/alex_brand_judgment_fullbody.png",
+  "prompt": "Use case: identity-preserve. Asset type: one full-body transparent character reference for Gear of Wars Combats. Depict exactly ONE Alex Brand in her Gears of War: Judgment multiplayer appearance, following the three original textured Epic Games model renders from Mike Kime. Reference 1 shows her front three-quarter view, reference 2 her right-side profile, reference 3 her back. They depict the SAME character in the SAME costume; create only one figure. Preserve her distinctive face, short auburn asymmetrical hair, shaved/close-cropped side with visible ear piercings, pale skin and serious expression. Keep the true asymmetry: the broad reddish wing-like tattoo belongs on her RIGHT upper arm as shown in the right-side and rear references; the dark angular tattoo climbs the LEFT side of her neck beneath the ear. Do not copy the tattoos to the opposite side. Match the complete Judgment outfit exactly: sleeveless dirty light-grey high-collar top with dark brown quilted leather edging and laced side panel, original diagonal straps carrying ammunition and paired cylindrical cartridges, metal collar/back fittings with small pale lights, dark mechanical backplate, wide worn belt with circular mechanical buckle and eyelets, asymmetric waist ammunition and pouches, dark arm bands, metal elbow guards over black diamond-pattern forearm mesh, fingerless armored gloves, brown-grey trousers with their long diamond-pattern thigh inserts, wrapped knees with small kneecaps, and heavy tall boots with metal shin armor, mesh inserts, buckled ankle straps and thick soles. Copy her in-world details, small markings, seams, jewelry, cartridge placement and proportions from the references without changing the design. Use a calm near-frontal three-quarter standing view facing screen-right, the right upper-arm tattoo visible as allowed by that pose, both hands relaxed, both boots planted. Do not mirror the references; preserve anatomical right and left. Preserve the game character's athletic build and original costume coverage, without exaggerating proportions or adding fashion embellishments. Neutral soft lighting should show the materials clearly without changing their subdued source colors. Portrait canvas, true transparent alpha. Camera pulled back so the entire figure occupies only 72 percent of image height, leaving at least 14 percent empty transparent space above the hair and below the soles, with generous side margins. Full hair silhouette, fingers, toes and soles inside frame. No weapon added, helmet, cape, extra armor or comic-book redesign. No second figure, collage, inset, turnaround sheet, scenery, floor, cast shadow, text, logos or watermark. Source credit text and Epic/Gears branding are context only, and must not appear in the output.\n\nCorrection ciblée après inspection visuelle :\nEdit the most recent generated image of Alex Brand with a very small identity-fidelity correction only. Preserve the exact single full-body figure, right-facing pose, face, proportions, short auburn hair, RIGHT upper-arm reddish tattoo, every piece of clothing and equipment, hands, boots, lighting, canvas, margins and genuine transparent alpha. The dark branching tattoo was incorrectly placed on the visible RIGHT side of her neck. In the original Gears of War: Judgment model, that large dark neck tattoo belongs on her LEFT side beneath the left ear, which is mostly hidden in this right-facing view. Remove the incorrect dark branching tattoo from the visible right side of her neck, restoring ordinary pale skin consistent with the face. Do not move it onto another visible area, do not alter the right upper-arm tattoo, do not remove the dark necklace cords across the collarbone. Make no other changes, add no details, and keep one whole isolated character with all existing transparent margins. No opaque background, floor, shadow, captions or logos.",
+  "generation_passes": [
+    {
+      "index": 1,
+      "operation": "reference_generation",
+      "prompt": "Use case: identity-preserve. Asset type: one full-body transparent character reference for Gear of Wars Combats. Depict exactly ONE Alex Brand in her Gears of War: Judgment multiplayer appearance, following the three original textured Epic Games model renders from Mike Kime. Reference 1 shows her front three-quarter view, reference 2 her right-side profile, reference 3 her back. They depict the SAME character in the SAME costume; create only one figure. Preserve her distinctive face, short auburn asymmetrical hair, shaved/close-cropped side with visible ear piercings, pale skin and serious expression. Keep the true asymmetry: the broad reddish wing-like tattoo belongs on her RIGHT upper arm as shown in the right-side and rear references; the dark angular tattoo climbs the LEFT side of her neck beneath the ear. Do not copy the tattoos to the opposite side. Match the complete Judgment outfit exactly: sleeveless dirty light-grey high-collar top with dark brown quilted leather edging and laced side panel, original diagonal straps carrying ammunition and paired cylindrical cartridges, metal collar/back fittings with small pale lights, dark mechanical backplate, wide worn belt with circular mechanical buckle and eyelets, asymmetric waist ammunition and pouches, dark arm bands, metal elbow guards over black diamond-pattern forearm mesh, fingerless armored gloves, brown-grey trousers with their long diamond-pattern thigh inserts, wrapped knees with small kneecaps, and heavy tall boots with metal shin armor, mesh inserts, buckled ankle straps and thick soles. Copy her in-world details, small markings, seams, jewelry, cartridge placement and proportions from the references without changing the design. Use a calm near-frontal three-quarter standing view facing screen-right, the right upper-arm tattoo visible as allowed by that pose, both hands relaxed, both boots planted. Do not mirror the references; preserve anatomical right and left. Preserve the game character's athletic build and original costume coverage, without exaggerating proportions or adding fashion embellishments. Neutral soft lighting should show the materials clearly without changing their subdued source colors. Portrait canvas, true transparent alpha. Camera pulled back so the entire figure occupies only 72 percent of image height, leaving at least 14 percent empty transparent space above the hair and below the soles, with generous side margins. Full hair silhouette, fingers, toes and soles inside frame. No weapon added, helmet, cape, extra armor or comic-book redesign. No second figure, collage, inset, turnaround sheet, scenery, floor, cast shadow, text, logos or watermark. Source credit text and Epic/Gears branding are context only, and must not appear in the output.",
+      "result_status": "superseded_before_repository_integration",
+      "observation": "Le premier rendu déplaçait le grand tatouage du cou sur le côté droit visible ; il n'est pas publié dans assets."
+    },
+    {
+      "index": 2,
+      "operation": "targeted_image_edit",
+      "prompt": "Edit the most recent generated image of Alex Brand with a very small identity-fidelity correction only. Preserve the exact single full-body figure, right-facing pose, face, proportions, short auburn hair, RIGHT upper-arm reddish tattoo, every piece of clothing and equipment, hands, boots, lighting, canvas, margins and genuine transparent alpha. The dark branching tattoo was incorrectly placed on the visible RIGHT side of her neck. In the original Gears of War: Judgment model, that large dark neck tattoo belongs on her LEFT side beneath the left ear, which is mostly hidden in this right-facing view. Remove the incorrect dark branching tattoo from the visible right side of her neck, restoring ordinary pale skin consistent with the face. Do not move it onto another visible area, do not alter the right upper-arm tattoo, do not remove the dark necklace cords across the collarbone. Make no other changes, add no details, and keep one whole isolated character with all existing transparent margins. No opaque background, floor, shadow, captions or logos.",
+      "reference_mode": "most_recent_conversation_image",
+      "result_status": "retained_pending_validation",
+      "observation": "Tatouage erroné retiré du côté droit visible du cou. Tatouage du bras droit, pose et équipement conservés visuellement. Le côté gauche masqué du cou reste à vérifier sur une autre vue."
+    }
+  ],
+  "sources": [
+    {
+      "page_url": "https://www.pseudo-pod.com/temp/Judgement/judgement.htm",
+      "image_url": "https://www.pseudo-pod.com/temp/Judgement/Alex_Brand_TD0_B.jpg",
+      "source_type": "original_game_artist_textured_model_render",
+      "scope": "Rendu texturé original en pied, vue avant trois quarts d'Alex Brand Judgment. Crédits Epic Games : modèle Mike Kime, avec des pièces fondées sur le travail de Chris Wells ; concept James Hawkins ; direction Chris Perna. Montre la face, l'équipement et le tatouage du côté gauche du cou.",
+      "visual_reference_used": true,
+      "reference_sha256": "81843fa2435727b42751fec51fcc99d268d4c9aeea48018bd3d769e91d322f7c"
+    },
+    {
+      "page_url": "https://www.pseudo-pod.com/temp/Judgement/judgement.htm",
+      "image_url": "https://www.pseudo-pod.com/temp/Judgement/Alex_Brand_Side_B.jpg",
+      "source_type": "original_game_artist_textured_model_render",
+      "scope": "Vue de profil droit du même modèle texturé, en pied : tatouage rouge du bras droit, cheveux, gilet, accessoires, filets, gants et bottes. Cette vue distingue le côté droit du cou du grand tatouage porté sur le côté gauche.",
+      "visual_reference_used": true,
+      "reference_sha256": "6a56734a5689a168b662876df53f1a3d21156d2c959cb8ba38ff25324da922b4"
+    },
+    {
+      "page_url": "https://www.pseudo-pod.com/temp/Judgement/judgement.htm",
+      "image_url": "https://www.pseudo-pod.com/temp/Judgement/Alex_Brand_Back_B.jpg",
+      "source_type": "original_game_artist_textured_model_render",
+      "scope": "Vue arrière en pied du même modèle, utilisée pour le plastron dorsal, les coutures, accessoires et l'asymétrie des bras. Aucune apparence issue des comics.",
+      "visual_reference_used": true,
+      "reference_sha256": "fcd14183f7b874e49455ecd4861f5b07b782e4d29a4e451d4c62742a7bf48b73"
+    },
+    {
+      "page_url": "https://pseudopod.artstation.com/projects/OgJa6",
+      "source_type": "original_character_artist_portfolio",
+      "scope": "Portfolio de Mike Kime confirmant Alex Brand pour Judgment et les crédits de production. Les images utilisées proviennent directement de son site pseudo-pod.com.",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://news.xbox.com/en-us/2012/11/07/gears-of-war-judgment-pre-orders-kickoff-today/",
+      "source_type": "official_publisher_announcement",
+      "scope": "Annonce Xbox Wire du 7 novembre 2012 : Alex Brand figure parmi les apparences multijoueurs de Judgment. Source d'identité/édition, sans image fournie au générateur.",
+      "visual_reference_used": false
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Une seule Alex Brand entière, orientée vers la droite, mains et semelles visibles ; aucun casque, arme ajoutée, texte ou personnage supplémentaire.",
+      "Cheveux auburn courts, tatouage rouge sur le bras droit, gilet gris clair à col relevé, équipements de ceinture asymétriques, filets, gants sans doigts et bottes hautes correspondent aux familles de détails des trois références Judgment.",
+      "Un premier rendu plaçait le grand tatouage du cou sur le côté droit visible. Une correction imagegen dédiée l'a retiré de ce côté en conservant le tatouage du bras droit. Seul le résultat corrigé est retenu.",
+      "Le côté gauche du cou est masqué par l'angle choisi : la présence et le tracé du tatouage canonique sur ce côté ne peuvent pas être certifiés par cette image. Vérification obligatoire sur une vue gauche à produire.",
+      "La forme exacte du visage et de la coiffure, les piercings, les petites marques du visage, le tracé du tatouage du bras, le nombre de cartouches et les reliefs de boucle restent à comparer précisément ; la correction ciblée ne certifie pas l'ensemble du modèle.",
+      "Alpha réel vérifié : 76,01 % des pixels sont entièrement transparents. Les composantes RGB sombres sous transparence ne constituent pas un fond opaque.",
+      "Marges gauche/haut/droite/bas au seuil alpha 128 : 251/94/266/91 px. La marge de 14 % demandée n'est pas atteinte, mais le corps entier reste dans le cadre. Dimensions natives 1024 × 1536 px."
+    ],
+    "remaining_checks": [
+      "Comparer les détails asymétriques des deux côtés aux trois rendus originaux ; produire une vue gauche pour vérifier le tatouage du cou.",
+      "Contrôler visage, coiffure, piercings, petites marques du visage, cartouchières, raccords de sangles et motifs de gants/armure.",
+      "Comparer la palette et les matériaux aux captures finales multijoueur de Judgment ; les rendus sources sont des présentations du modèle de production.",
+      "Préparer les gardes latérales, vues complémentaires, pivots, marges d'atlas et animations. Aucun cycle d'animation complet n'est fourni."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 1696914,
+    "sha256": "cf71a56cd4a88658a8f0e9f90cddb4270c56b3c4c0a70bb816dea338d98ec3a2",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.7601210276285807,
+    "subject_bbox_alpha_ge_128": [
+      251,
+      94,
+      758,
+      1445
+    ],
+    "subject_margins_ltrb_px": [
+      251,
+      94,
+      266,
+      91
+    ]
+  }
+}

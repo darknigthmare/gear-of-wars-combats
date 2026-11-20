@@ -1,0 +1,99 @@
+{
+  "id": "boss_lambent_berserker",
+  "subject_id": "boss_lambent_berserker",
+  "boss_id": "boss_lambent_berserker",
+  "category": "boss",
+  "name": "Berserker Lambent",
+  "variant": "Gears of War 3 — poitrine ouverte, pose de référence",
+  "source_game": "Gears of War 3",
+  "catalog_target_game": "Gears of War 3",
+  "purpose": "reference_fullbody",
+  "variant_relation": "target_version_candidate",
+  "component_scope": "whole_creature",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "asset_path": "assets/bosses_v8/lambent_berserker_gow3_fullbody.png",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-20",
+  "prompt": "Use case: identity-preserve. Asset type: one transparent full-body boss reference for the Gears of War Combats project. Use the most recent displayed full-body Lambent Berserker reference image, the brown-grey monster with four blade-ended dorsal tendrils and a yellow Imulsion core, from Gears of War 3 as the sole design reference. Recreate exactly ONE complete Lambent Berserker, preserving the source's crouched forward-facing three-quarter attack-ready pose, the exact recognizable broad muscular anatomy, small armored skull, exposed yellow-gold Imulsion chest core framed by the separated rib-like chest plates, thick knotted organic brown-grey carapace, large clawed hands, heavy bent legs and broad clawed feet. Preserve exactly FOUR long segmented tendrils emerging from the back, each ending in its distinctive long bladed point; follow the source's four separate curves and connections and do not add or merge limbs. Retain the source's muted ivory/brown/grey organic textures with blue-grey recesses and localized yellow glow only in the chest fissure. Keep the exposed core as luminous Imulsion, without additional blood, wounds or gore. Keep the two arms, two legs, four tendrils and their blade tips readable and inside the canvas. Pull the camera back so the entire creature, from the highest blade tip to both complete feet and all lateral blade tips, occupies at most 78 percent of the image bounds, leaving broad truly transparent margin on every side. Use a tall portrait canvas fitting this silhouette, realistic detailed game-render materials and balanced neutral lighting. The reference has very tight framing; retain the anatomy while giving all the endpoints comfortable breathing room. Actual transparent alpha background, no black rectangle, no floor, no cast shadow, no scene, no other creature, no riders, no weapon, no text, no Gears logo, no watermark, no inset views, no contact sheet. Do not substitute the normal Berserker or the Gears 5 Matriarch. This is one static reference, with no claim of animation or exact asset extraction.",
+  "reference_input_mode": "conversation_image_after_local_runtime_interruption",
+  "output_saved_from": "image_gen_data_url",
+  "sources": [
+    {
+      "page_url": "https://chriswells.artstation.com/projects/NGKVJ",
+      "source_type": "original_character_artist_portfolio",
+      "scope": "Portfolio de Chris Wells : Berserker Lambent. Attribution du personnage ; les images ArtStation n'ont pas été téléchargées (HTTP 403).",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://chriswells.artstation.com/resume",
+      "source_type": "production_artist_resume",
+      "scope": "Le CV de Chris Wells indique son travail sur les modèles Berserker pour Gears of War 3.",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://gearsofwar.wikia.com/wiki/Lambent_Berserker",
+      "image_url": "https://images4.wikia.nocookie.net/__cb20111030202109/gearsofwar/images/0/0b/Lambent_Berserker.png",
+      "source_type": "game_render_reproduced_by_third_party",
+      "scope": "Rendu public téléchargé puis inspecté, représentant le corps et les quatre appendices de la Berserker Lambent. Les pieds et pointes sont cadrés très serrés, avec une extrémité au bord inférieur. L'hébergement miroir ne prouve pas une identité binaire avec l'original de production. Seule référence visuelle fournie au générateur.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/ce37905a7ccd/references/v8_bosses/lambent_berserker_wiki.png",
+      "reference_sha256": "90e626beea8ff39ac02f21e596b78879cb074ba508880fb314e2fa0bddec2e95",
+      "reference_width": 2013,
+      "reference_height": 2241
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "white_composite_inspected": true,
+    "single_creature": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Une seule créature entière ; tête, deux mains, deux jambes, pieds et grandes pointes des quatre appendices dorsaux restent dans le cadre.",
+      "Poitrine ouverte lumineuse jaune-or, plaques costales, carapace organique grise-brune, grandes griffes et courbes des appendices conservées d'après le rendu de référence.",
+      "La pose dynamique du rendu source est conservée ; ce n'est pas une garde latérale ou une nouvelle animation.",
+      "Le rendu source est cadré très serré, avec une extrémité de pied au bord inférieur. Ce détail et les parties peu visibles ne sont pas certifiés.",
+      "Alpha réel mesuré : 69,35 % des pixels sont entièrement transparents. Composite blanc inspecté, sans rectangle noir ni frange colorée opaque.",
+      "Marges au seuil alpha >= 128 : gauche 72, haut 89, droite 74, bas 53 pixels ; inférieures aux marges demandées, mais sujet entier dans le cadre.",
+      "Le fichier est sauvegardé sans retouche depuis la data URL du résultat imagegen ; le retour du runtime a permis le contrôle PIL et SHA-256."
+    ],
+    "remaining_checks": [
+      "Comparer les extrémités des pieds, les jonctions des appendices, les griffes et les détails masqués à une seconde vue complète du modèle final Gears of War 3.",
+      "Vérifier précisément le nombre et l'espacement des plaques thoraciques, la morphologie du visage, les textures et la répartition de l'Imulsion.",
+      "Obtenir les vues latérales et arrière documentées ; l'hébergement miroir de la référence ne certifie pas sa filiation binaire avec le fichier original Epic.",
+      "Préparer des marges d'atlas supplémentaires, séparer les appendices et le point faible, définir les pivots et produire les phases et animations du boss."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1086,
+    "height": 1448,
+    "bytes": 1397045,
+    "sha256": "131e6e974d9a48e46b48740ab17bae39c5e0a69695117de7408be3d2f9bf2fb3",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.6934922621409603,
+    "near_opaque_fraction_alpha_ge_240": 0.24474476766073483,
+    "subject_bbox_alpha_ge_128": [
+      72,
+      89,
+      1012,
+      1395
+    ],
+    "subject_margins_ltrb_px": [
+      72,
+      89,
+      74,
+      53
+    ]
+  },
+  "canonical_fidelity_validated": false,
+  "animation_status": "not_produced"
+}
