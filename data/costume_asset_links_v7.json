@@ -1,0 +1,738 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-11-20",
+  "links": [
+    {
+      "asset_path": "assets/characters_v5/dom_gow1_fullbody.png",
+      "sha256": "1c478f811a1a5001d757bd947ae95faf8439cbbdb20a9683eb0ce3b946cb3235",
+      "character_id": "dom",
+      "costume_id": "dom_skin_02",
+      "source_record_path": "data/generation_v5/dom_record.json",
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/games/gears-of-war/",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/gears-1-co-op-69d6e9d002b82.jpg"
+      ],
+      "rationale": "Le journal nomme explicitement l’armure CGU de Gears of War (2006).",
+      "caveats": [
+        "Silhouette entière, deux mains et deux bottes visibles ; cheveux courts, barbe courte, armure COG sombre, lampes bleues et holster pectoral asymétrique conservés.",
+        "Le RGB brut contient un voile sombre visible dans certains aperçus qui ignorent l'alpha ; le compositing blanc avec alpha produit un détourage visuellement propre.",
+        "Le sommet de la chevelure à alpha >=128 n'a que 18 px de marge ; marge faible pour un futur atlas.",
+        "Comparer les sangles, rivets, tatouages et reliefs de genou contre des captures rapprochées de GoW 2006 ; les détails fins sont reconstruits à partir d'une référence officielle éloignée.",
+        "Valider la ressemblance faciale en vue rapprochée et la silhouette en profil de combat.",
+        "Produire gardes, attaques et animations ; ce fichier constitue une référence en pied statique.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ]
+    },
+    {
+      "asset_path": "assets/characters_v2/baird_reference_v3.png",
+      "sha256": "77db750641b2cae9423f7a2f216aaf2e23a0a89d112fc7176424a09c138d2c28",
+      "character_id": "baird",
+      "costume_id": "baird_skin_03",
+      "source_record_path": "production/history/initial_2026-11-19/assets_manifest.json",
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/games/gears-of-war-3/",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/gears-of-war-3-69d7d9132411b-1024x576.jpg",
+        "https://www.xbox.com/en-US/games/store/gears-3-baird-multiplayer-character/C54DHPZWRBV5"
+      ],
+      "rationale": "La correction V3 prend le key art Gears of War 3 et sa tenue de campagne sans manches comme référence.",
+      "caveats": [
+        "Manches inventées retirées ; haut des bras conforme au visuel Gears 3. Petits panneaux, visage et marges avant animation à vérifier.",
+        "Une pose neutre individuelle ; aucune animation finalisée ni arme tenue. La correspondance 1:1 reste à contrôler.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ],
+      "additional_evidence_paths": [
+        "data/generation_v2/edit_baird_v3.json"
+      ]
+    },
+    {
+      "asset_path": "assets/characters_v4/cole_reference_v4.png",
+      "sha256": "132824804981ebcf0784e376c1fb378bb28547c6be064c99db0f593008284aa9",
+      "character_id": "cole",
+      "costume_id": "cole_skin_02",
+      "source_record_path": "data/generation_v4/result_cole.json",
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/games/gears-of-war-3/",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/gears-of-war-3-69d7d9132411b-1024x576.jpg",
+        "https://news.xbox.com/en-us/2020/03/31/gears-5-operation-3-gridiron-available-today-for-all-players/"
+      ],
+      "rationale": "Le journal V4 identifie la tenue de campagne Gears of War 3, distincte de Thrashball et de Gears 5.",
+      "caveats": [
+        "Personnage unique entier, mains vides, pose neutre et orientation trois-quarts droite inspectées.",
+        "Marge supérieure et marge sous les bottes très faibles : à reprendre avant animation.",
+        "Identité générale de Cole reconnaissable ; armure, tête, symboles et proportions exactes Gears 3 restent à comparer.",
+        "BBox et pixels alpha inspectés ; les marges tête/pieds restent réellement trop étroites.",
+        "Contrôle alpha : les échantillons de fond latéraux, entre les jambes et sous le sujet sont alpha=0. Le point haut central vaut 0–3/255 selon le fichier. Le dégradé RGB aperçu ne prouve donc pas un halo visible ; aucun fond opaque établi.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ]
+    },
+    {
+      "asset_path": "assets/characters/anya_stroud/gears3/reference_fullbody_v01.png",
+      "sha256": "3971c9e39e6e4954361ac74944db42472ba78a6cfdda5d7b2a5fc747391205d3",
+      "character_id": "anya",
+      "costume_id": "anya_skin_02",
+      "source_record_path": "production/history/reprise_2026-11-19/production/asset_manifest.json",
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/games/gears-of-war-3/",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/gears-3-co-op-69d7d90d192e5.jpg",
+        "https://www.trueachievements.com/n4196/e3-2011-gears-of-war-3-campaign-screenshots",
+        "https://www.trueachievements.com/customimages/003230.jpg"
+      ],
+      "rationale": "Le journal sélectionne anya_stroud_gow3_stance : tenue de combat Gears of War 3.",
+      "caveats": [
+        "Source individuelle tronquée ; jambes et bottes à confronter à une référence complète.",
+        "Marge visible étroite : prévoir un canevas de production plus généreux.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ],
+      "additional_evidence_paths": [
+        "production/history/reprise_2026-11-19/production/generation_session.json"
+      ]
+    },
+    {
+      "asset_path": "assets/kait_neutral_cutout.png",
+      "sha256": "1435d8506385ec4b97add0b61b1d75fc23e211f6f3c2a93cfe31e7594c5629ce",
+      "character_id": "kait",
+      "costume_id": "kait_skin_02",
+      "source_record_path": "production/history/initial_2026-11-19/assets_manifest.json",
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/games/gears-5/"
+      ],
+      "rationale": "Le manifeste historique attribue explicitement ce détourage à Gears 5 hiver ; la présentation sur fond gris n’est pas réutilisée.",
+      "caveats": [
+        "Une pose, aucune animation, fidélité visuelle à contrôler",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ]
+    },
+    {
+      "asset_path": "assets/characters_v5/raam_gow1_fullbody.png",
+      "sha256": "d5090cda44057420ff40438a3e3f8d18c94167b95e1bed83a04fc6b2bcd97f95",
+      "character_id": "raam",
+      "costume_id": "raam_skin_01",
+      "source_record_path": "data/generation_v5/raam_record.json",
+      "source_urls": [
+        "https://models.spriters-resource.com/pc_computer/gearsofwar/asset/290796/",
+        "https://models.spriters-resource.com/media/preview_icons/288/290796.png?updated=1755498012",
+        "https://videogamesandthebible.com/2013/07/31/gears-of-war-and-the-bible-part-1-the-locust-horde/",
+        "https://noobproguide.files.wordpress.com/2013/12/general-raam-from-gears-of-war-wiki.png?h=1196&w=1280",
+        "https://jfletcher.artstation.com/projects/ay5Zk"
+      ],
+      "rationale": "Le journal V5 cible le costume original GoW 2006 / portage PC original, en excluant Ultimate Edition des références d’entrée.",
+      "caveats": [
+        "Une seule silhouette complète : tête, mains, pans de manteau, bottes visibles.",
+        "Larges col et épaulières nervurés, cuirasse noire à boucles, bras pâles et long manteau fendu cohérents avec les références classiques.",
+        "Référence de costume original PC inspectée ; aucune référence Ultimate Edition utilisée en entrée de génération.",
+        "La pose reste une référence en pied à trois quarts ; ce n’est pas une animation ni une garde latérale validée.",
+        "La peau et les petits rivets restent à comparer aux captures source pour valider une fidélité 1:1.",
+        "Le canal alpha du corps atteint seulement 254/255 et se situe surtout à 252–253 ; le premier plan n’est pas entièrement opaque.",
+        "Résidus alpha très faibles : valeur maximale de 1/255 au bord extérieur.",
+        "Marge inférieure du corps principal : 16 pixels sur une hauteur de 1536 ; ajouter du cadrage dans une future révision avant animation.",
+        "Ne pas marquer ce fichier comme sprite moteur final validé.",
+        "La provenance directe est le portage PC original ; cette association au costume GoW original ne certifie pas une identité pixel à pixel avec le modèle Xbox 360 de 2006.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ]
+    },
+    {
+      "asset_path": "assets/characters_v2/skorge_reference_v3.png",
+      "sha256": "a4a3d68b3a7b1598aaaea3c0cde50fbeb7d949304e2bbceed8f349c19d222012",
+      "character_id": "skorge",
+      "costume_id": "skorge_skin_01",
+      "source_record_path": "production/history/initial_2026-11-19/assets_manifest.json",
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/games/gears-of-war-2/",
+        "https://news.xbox.com/en-us/2020/11/17/gears-5-operation-5/",
+        "https://gearsofwar.fandom.com/wiki/Skorge"
+      ],
+      "rationale": "La correction V3 utilise le modèle de campagne Gears of War 2 ; le résultat reste à corriger.",
+      "caveats": [
+        "Conserver quality_state=correction_required ; le rattachement ne résout aucune correction visuelle connue.",
+        "Plastron et abdomen améliorés. Casque encore nervuré horizontalement au lieu de la plaque frontale en V ; liens de tête encore plats.",
+        "Une pose neutre individuelle ; aucune animation finalisée ni arme tenue. La correspondance 1:1 reste à contrôler.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ],
+      "additional_evidence_paths": [
+        "data/generation_v2/edit_skorge_v3.json"
+      ]
+    },
+    {
+      "asset_path": "assets/characters/myrrah/gears3/reference_fullbody_v01.png",
+      "sha256": "8f24b38a127405822231481bb55fb33ec0cf111ebce552dad99680af89834a09",
+      "character_id": "myrrah",
+      "costume_id": "myrrah_skin_01",
+      "source_record_path": "production/history/reprise_2026-11-19/production/asset_manifest.json",
+      "source_urls": [
+        "https://www.trueachievements.com/n4196/e3-2011-gears-of-war-3-campaign-screenshots",
+        "https://www.trueachievements.com/customimages/003248.jpg"
+      ],
+      "rationale": "Le journal queen_myrrah_gow3_stance et le rendu promotionnel E3 2011 identifient l’armure royale GoW3.",
+      "caveats": [
+        "Source individuelle tronquée ; protections inférieures à vérifier.",
+        "Marge visible étroite : prévoir un canevas de production plus généreux.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ],
+      "additional_evidence_paths": [
+        "production/history/reprise_2026-11-19/production/generation_session.json"
+      ]
+    },
+    {
+      "asset_path": "assets/characters_v2/locust_drone_reference_v2.png",
+      "sha256": "e1ee3dca92be0150b70c7c5c2b600f881b8f131e01d3eaa8696ea9bd6adf7a3c",
+      "character_id": "locust_drone",
+      "costume_id": "locust_drone_skin_01",
+      "source_record_path": "production/history/initial_2026-11-19/assets_manifest.json",
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/games/gears-of-war/",
+        "https://news.xbox.com/en-us/2019/12/11/gears-5-operation-2-free-for-all-available-today-for-all-players/",
+        "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/"
+      ],
+      "rationale": "Le journal cible explicitement le Drone d’infanterie standard du Gears of War original (2006).",
+      "caveats": [
+        "Identité reconnaissable ; panneau par panneau, variante du Drone et correspondance au modèle de 2006 non certifiées.",
+        "Une pose neutre individuelle ; aucune animation finalisée ni arme tenue. La correspondance 1:1 reste à contrôler.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ],
+      "additional_evidence_paths": [
+        "data/generation_v2/result_locust_drone.json"
+      ]
+    },
+    {
+      "asset_path": "assets/characters_v2/kantus_reference_v3.png",
+      "sha256": "85900a7d134c2c1731dd4a4eda09b7e85d4771e6c9bf3a8848a87d0319a7fa84",
+      "character_id": "kantus",
+      "costume_id": "kantus_skin_01",
+      "source_record_path": "production/history/initial_2026-11-19/assets_manifest.json",
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/games/gears-of-war-2/",
+        "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/"
+      ],
+      "rationale": "Le modèle original Gears of War 2 est prioritaire dans la correction V3 ; ce lien ne couvre pas le Kantus Tactics.",
+      "caveats": [
+        "Casque, col, anneaux et pans corrigés. Jambes et pieds comparés à un concept, sans certification du modèle final.",
+        "Une pose neutre individuelle ; aucune animation finalisée ni arme tenue. La correspondance 1:1 reste à contrôler.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ],
+      "additional_evidence_paths": [
+        "data/generation_v2/edit_kantus_v3.json"
+      ]
+    },
+    {
+      "asset_path": "assets/characters_v2/jd_reference_v2.png",
+      "sha256": "acfe1fb81543e98962767f46299f3362225429db810dee13fcab60c8b3a28fae",
+      "character_id": "jd",
+      "costume_id": "jd_skin_03",
+      "source_record_path": "production/history/initial_2026-11-19/assets_manifest.json",
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/games/gears-5/",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/Accessibility_desktopBG-69d931f5a4c02-1024x570.jpg",
+        "https://www.gearsofwar.com/fr-fr/news/gears-5-on-pc/",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2019/08/squad_desktop-69cafec91903e.jpg",
+        "https://andykoo.artstation.com/projects/9eg9av"
+      ],
+      "rationale": "Le prompt et la QA précisent après ellipse / Scarred JD, partie Vasgar de Gears 5, et excluent le prologue.",
+      "caveats": [
+        "Variante après ellipse et bras droit marqué reconnaissables ; détails du visage, des marques et attaches non certifiés.",
+        "Une pose neutre individuelle ; aucune animation finalisée ni arme tenue. La correspondance 1:1 reste à contrôler.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ],
+      "additional_evidence_paths": [
+        "data/generation_v2/result_jd.json"
+      ]
+    },
+    {
+      "asset_path": "assets/characters_v2/del_reference_v3.png",
+      "sha256": "4b6ea5c768808e210a8ad85af8f1985406c3d78222b5a00170532d36e7e2f1bd",
+      "character_id": "del",
+      "costume_id": "del_skin_02",
+      "source_record_path": "production/history/initial_2026-11-19/assets_manifest.json",
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/games/gears-5/",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/desktop-campaign-3840x2160-69d932032874a-1024x576.jpg",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/Accessibility_desktopBG-69d931f5a4c02-1024x570.jpg",
+        "https://news.xbox.com/en-us/2019/06/11/e3-2019-rahul-kohli-of-izombie-joins-cast-of-gears-5/"
+      ],
+      "rationale": "La correction V3 concerne Del dans sa tenue CGU de campagne Gears 5 ; le journal initial exclut la version hivernale.",
+      "caveats": [
+        "Conserver quality_state=correction_required ; le rattachement ne résout aucune correction visuelle connue.",
+        "Bretelles lumineuses améliorées. Les grilles doivent redevenir de petites ouvertures rectangulaires au milieu des plaques pectorales circulaires.",
+        "Une pose neutre individuelle ; aucune animation finalisée ni arme tenue. La correspondance 1:1 reste à contrôler.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ],
+      "additional_evidence_paths": [
+        "data/generation_v2/edit_del_v3.json"
+      ]
+    },
+    {
+      "asset_path": "assets/characters/fahz_chutani/gears5/reference_fullbody_v01.png",
+      "sha256": "b3f4e9742172264e361c6096cef970388f563e685a80196453ac2caca5ff872c",
+      "character_id": "fahz",
+      "costume_id": "fahz_skin_01",
+      "source_record_path": "production/history/reprise_2026-11-19/production/asset_manifest.json",
+      "source_urls": [
+        "https://www.uhdpaper.com/2019/08/gears-5-fahz-chutani-4k-567.html",
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgi_q09-XsGwF6cjdQhlkaZ1CuI97S9BYlJkPJFmKDS_ANEhQKpnZ5TZ3p2f8OoeuH0PiufIy5n9W8NlEau2uHwF7462bjfx_VezC9o_ClnDFFRSanTp_yyJ_Ix1dBKH8mP1zksjsYyDIg/w919/gears-5-fahz-chutani-uhdpaper.com-4K-5.67-wp.thumbnail.jpg"
+      ],
+      "rationale": "Le journal fahz_chutani_gears5 retient l’armure CGU bleue standard de campagne Gears 5.",
+      "caveats": [
+        "Prothèse de la jambe droite conservée ; visage et détails du plastron limités par la définition de la capture.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ],
+      "additional_evidence_paths": [
+        "production/history/reprise_2026-11-19/production/generation_session.json"
+      ]
+    },
+    {
+      "asset_path": "assets/characters/clayton_carmine/gears3/reference_fullbody_v02.png",
+      "sha256": "6c4ecae874cbbeba258863919d4be8338cc3f1c6f2f1ba4a01772db028887920",
+      "character_id": "clayton",
+      "costume_id": "clayton_skin_01",
+      "source_record_path": "production/history/reprise_2026-11-19/production/asset_manifest.json",
+      "source_urls": [
+        "https://www.trueachievements.com/n4196/e3-2011-gears-of-war-3-campaign-screenshots",
+        "https://www.trueachievements.com/customimages/003232.jpg"
+      ],
+      "rationale": "La sélection clayton_carmine_gears3_lettering_v02 corrige le marquage GRUB KILLER sur la tenue standard GoW3.",
+      "caveats": [
+        "Version v02 : inscription GRUB KILLER corrigée ; bottes et genouillères à vérifier avec une source complète.",
+        "Marge visible étroite : prévoir un canevas de production plus généreux.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ],
+      "additional_evidence_paths": [
+        "production/history/reprise_2026-11-19/production/generation_session.json"
+      ]
+    },
+    {
+      "asset_path": "assets/characters_v2/lizzie_reference_v2.png",
+      "sha256": "e8a46625126247982ea03ecb9fa4c2cc45cac4f21384c444e98c9ac19b3dddf3",
+      "character_id": "lizzie",
+      "costume_id": "lizzie_skin_01",
+      "source_record_path": "production/history/initial_2026-11-19/assets_manifest.json",
+      "source_urls": [
+        "https://news.xbox.com/en-us/2019/12/11/gears-5-operation-2-free-for-all-available-today-for-all-players/",
+        "https://bananachu.artstation.com/projects/QzZvxr?album_id=397336",
+        "https://bananachu.artstation.com/resume",
+        "https://multiplayer.it/articoli/gears-5-operazione-2.html",
+        "https://multiplayer.net-cdn.it/thumbs/images/2019/12/22/gears-5-lizzie-carmine_jpg_0x0_q85.jpg"
+      ],
+      "rationale": "Le journal V2 vise l’armure bleue régulière Gears 5 ; le candidat existant garde ses corrections requises.",
+      "caveats": [
+        "Conserver quality_state=correction_required ; le rattachement ne résout aucune correction visuelle connue.",
+        "Casque, optiques et col réinterprétés ; la correction demandée a été refusée par le système d’image. Version initiale conservée comme candidat.",
+        "Une pose neutre individuelle ; aucune animation finalisée ni arme tenue. La correspondance 1:1 reste à contrôler.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ],
+      "additional_evidence_paths": [
+        "data/generation_v2/result_lizzie.json"
+      ]
+    },
+    {
+      "asset_path": "assets/characters_v4/hoffman_reference_v4.png",
+      "sha256": "5349cae7484740521a710901c0429de1d0b3b8d170691c32f12af51d092a0e3f",
+      "character_id": "hoffman",
+      "costume_id": "hoffman_skin_01",
+      "source_record_path": "data/generation_v4/result_hoffman.json",
+      "source_urls": [
+        "https://www.xbox.com/fr-fr/games/store/gears-5-operation-6-bundle/9nblc6fv6spg",
+        "https://store-images.s-microsoft.com/image/apps.337.13510871565080275.ff765211-eed2-4e91-9d47-e587f251fce5.43d742b7-4c77-4394-997d-4364ddd0157a?h=265&q=90&w=177"
+      ],
+      "rationale": "Le journal V4 nomme Armored Hoffman, Gears 5 Operation 6, et fournit le lien boutique officiel ; le PNG classique non daté est exclu.",
+      "caveats": [
+        "Personnage unique entier, homme âgé moustachu avec casquette, mains vides, orientation droite inspectés.",
+        "Marge supérieure et marge sous les bottes trop faibles pour une base d’animation.",
+        "Armure, distribution des poches et logos de rouage non certifiés par comparaison rapprochée au costume Opération 6.",
+        "BBox et pixels alpha inspectés ; les marges tête/pieds restent réellement trop étroites.",
+        "Contrôle alpha : les échantillons de fond latéraux, entre les jambes et sous le sujet sont alpha=0. Le point haut central vaut 0–3/255 selon le fichier. Le dégradé RGB aperçu ne prouve donc pas un halo visible ; aucun fond opaque établi.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ]
+    },
+    {
+      "asset_path": "assets/characters/tai_kaliso/gears2/reference_fullbody_v01.png",
+      "sha256": "212473ac370562619bdbc5cc062865185cbc28eb4d951f0a06858597ff83ba6a",
+      "character_id": "tai",
+      "costume_id": "tai_skin_01",
+      "source_record_path": "production/history/reprise_2026-11-19/production/asset_manifest.json",
+      "source_urls": [
+        "https://www.mobygames.com/game/38697/gears-of-war-2/screenshots/xbox360/370298/",
+        "https://cdn.mobygames.com/screenshots/16679907-gears-of-war-2-xbox-360-tai-kaliso-a-new-character-featured-in-t.png",
+        "https://www.gamereactor.se/mer-fran-gears-of-war-2-14372/",
+        "https://www.gamereactor.se/media/66/mergearswar_156697_650x.jpg"
+      ],
+      "rationale": "Le journal tai_kaliso_gears2 utilise une capture GoW2 Xbox 360 et le concept contemporain pour la tenue du deuxième jeu.",
+      "caveats": [
+        "Visage et crête fondés sur une capture Gears 2 ; complément de silhouette issu du concept art, détails inférieurs à vérifier.",
+        "Marge visible étroite : prévoir un canevas de production plus généreux.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ],
+      "additional_evidence_paths": [
+        "production/history/reprise_2026-11-19/production/generation_session.json"
+      ]
+    },
+    {
+      "asset_path": "assets/characters_v6/dizzy_gow2_fullbody.png",
+      "sha256": "8d9a5ead61a44d0ffa11518e3b656a364bc7624dd68b4ea02bf939af1dc0108a",
+      "character_id": "dizzy",
+      "costume_id": "dizzy_skin_01",
+      "source_record_path": "data/generation_v6/dizzy_record.json",
+      "source_urls": [
+        "https://www.gamereactor.se/mer-fran-gears-of-war-2-14372/",
+        "https://www.gamereactor.se/media/66/mergearswar_156693_650x.jpg"
+      ],
+      "rationale": "Le journal V6 et le rendu presse de 2008 désignent le pilote GoW2, tenue de Betty.",
+      "caveats": [
+        "Un personnage entier, chapeau, deux mains et deux bottes visibles.",
+        "Chapeau brun usé, barbe grise, boucle dorée, bras tatoués, sangles, cartouches et plastron au crâne reconnaissables.",
+        "Détails des jambes et bottes reconstruits ; ne certifient pas une conformité 1:1.",
+        "Marge haute et basse plus réduite que les 7 % demandés ; à corriger pour un futur atlas.",
+        "Contrôler le bas du costume sur des captures GoW2 en pied.",
+        "Comparer les tatouages, la forme exacte des épaulières et le visage à plusieurs angles du jeu.",
+        "Préparer la garde latérale, les pivots et les animations.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ]
+    },
+    {
+      "asset_path": "assets/characters/samantha_byrne/gears3/reference_fullbody_v01.png",
+      "sha256": "54e2cde4d30e44455048c72b669bd8c3a764b61b6ff9488e4dcac9796a3498dd",
+      "character_id": "sam",
+      "costume_id": "sam_skin_01",
+      "source_record_path": "production/history/reprise_2026-11-19/production/asset_manifest.json",
+      "source_urls": [
+        "https://www.trueachievements.com/n4196/e3-2011-gears-of-war-3-campaign-screenshots",
+        "https://www.trueachievements.com/customimages/003236.jpg"
+      ],
+      "rationale": "La sélection samantha_byrne_gears3 utilise le rendu promotionnel E3 2011 de sa tenue de campagne GoW3.",
+      "caveats": [
+        "Source tronquée ; jambières et bottes à vérifier.",
+        "Marge visible étroite : prévoir un canevas de production plus généreux.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ],
+      "additional_evidence_paths": [
+        "production/history/reprise_2026-11-19/production/generation_session.json"
+      ]
+    },
+    {
+      "asset_path": "assets/characters_v2/paduk_reference_v3.png",
+      "sha256": "96afca09c9ed49c47eaddd0cb3de63055e7d186506b98d7170b084bd7fac251c",
+      "character_id": "paduk",
+      "costume_id": "paduk_skin_01",
+      "source_record_path": "production/history/initial_2026-11-19/assets_manifest.json",
+      "source_urls": [
+        "https://www.gearsofwar.com/en-gb/games/gears-of-war-judgment/",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/gears-judgement-co-op-69d808161b80b.jpg",
+        "https://www.maxon.net/es/article/creating-assets-for-epic-games-gears-of-war-judgment",
+        "https://geektyrant.com/news/2013/3/18/gears-of-war-judgement-kilo-squad-wallpapers.html",
+        "https://images.squarespace-cdn.com/content/51b3dc8ee4b051b96ceb10de/1372482095984-DXURZIMNBB4VMR6D07NR/gears_judgement_GPaduk_WP.jpg?format=1000w&content-type=image/jpeg"
+      ],
+      "rationale": "Le journal initial précise Kilo Squad Judgment ; la correction V3 conserve cette tenue UIR.",
+      "caveats": [
+        "Armure Judgment corrigée à partir du visuel promotionnel. Teintes exactes et partie inférieure des bottes non établies par cette référence.",
+        "Une pose neutre individuelle ; aucune animation finalisée ni arme tenue. La correspondance 1:1 reste à contrôler.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ],
+      "additional_evidence_paths": [
+        "data/generation_v2/edit_paduk_v3.json"
+      ]
+    },
+    {
+      "asset_path": "assets/characters_v2/sofia_reference_v3.png",
+      "sha256": "89e683efac2ddbac0e0132d661065ecc2dc8f967a3101d9d2e2df3000b5b935b",
+      "character_id": "sofia",
+      "costume_id": "sofia_skin_01",
+      "source_record_path": "production/history/initial_2026-11-19/assets_manifest.json",
+      "source_urls": [
+        "https://www.gearsofwar.com/en-gb/games/gears-of-war-judgment/",
+        "https://chriswells.artstation.com/projects/qQbnL",
+        "https://www.maxon.net/es/article/creating-assets-for-epic-games-gears-of-war-judgment",
+        "https://www.engadget.com/2012-06-13-the-testimony-of-damon-baird-in-gears-of-war-judgment.html",
+        "https://images.squarespace-cdn.com/content/51b3dc8ee4b051b96ceb10de/1372482096081-5T8L9239ZZUHRFYS67UX/gears_judgement_SHendrick_WP.jpg?content-type=image%2Fjpeg&format=1000w"
+      ],
+      "rationale": "La correction V3 prend sa tenue de cadette Onyx de Gears of War Judgment ; aucun transfert vers un autre opus.",
+      "caveats": [
+        "Tenue Onyx et plastron corrigés. Visage, coiffure arrière et détourage à valider ; marge supérieure étroite avant préparation des sprites.",
+        "Une pose neutre individuelle ; aucune animation finalisée ni arme tenue. La correspondance 1:1 reste à contrôler.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ],
+      "additional_evidence_paths": [
+        "data/generation_v2/edit_sofia_v3.json"
+      ]
+    },
+    {
+      "asset_path": "assets/characters/gabriel_diaz/tactics/reference_fullbody_v01.png",
+      "sha256": "4a8b42d31cee4372c6003ac1b90393d711a64c03e554e282701b9990ff5f8b31",
+      "character_id": "gabe",
+      "costume_id": "gabe_skin_01",
+      "source_record_path": "production/history/reprise_2026-11-19/production/asset_manifest.json",
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/news/dev-blog-characters/",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/04/f58127fb483b171065a9fad6b79ecbcfcf9032d5-69cb0c3a70b1e.jpg"
+      ],
+      "rationale": "La sélection gabe_diaz_tactics prend le rendu officiel du blog des personnages Tactics pour sa tenue initiale.",
+      "caveats": [
+        "Référence officielle en pied disponible ; petits détails à revalider avant les animations.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ],
+      "additional_evidence_paths": [
+        "production/history/reprise_2026-11-19/production/generation_session.json"
+      ]
+    },
+    {
+      "asset_path": "assets/characters_v2/sid_reference_v3.png",
+      "sha256": "41d3d01b0b9e621fae04e3ae97c88418884cd54bb2f45f143691c4ec38d993f0",
+      "character_id": "sid",
+      "costume_id": "sid_skin_01",
+      "source_record_path": "production/history/initial_2026-11-19/assets_manifest.json",
+      "source_urls": [
+        "https://www.gearsofwar.com/en-nz/news/dev-blog-characters/",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/04/b070c2d094613f6ac28e09b19f87bc24cf487790-69cb0c5d1797f.jpg"
+      ],
+      "rationale": "Le journal V3 conserve la tenue par défaut Gears Tactics lors du retrait du fond.",
+      "caveats": [
+        "Version corrigée d’après le rendu officiel ; cache-œil anatomiquement gauche et pièces principales cohérents. Liserés de détourage à vérifier sur décor.",
+        "Une pose neutre individuelle ; aucune animation finalisée ni arme tenue. La correspondance 1:1 reste à contrôler.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ],
+      "additional_evidence_paths": [
+        "data/generation_v2/edit_sid_v3.json"
+      ]
+    },
+    {
+      "asset_path": "assets/characters/mikayla_dorn/tactics/reference_fullbody_v01.png",
+      "sha256": "7ff15814543f710d68f3f5c1f9c6a323eb77ab7ed3592be7af70ab5d4e7e5a47",
+      "character_id": "mikayla",
+      "costume_id": "mikayla_skin_01",
+      "source_record_path": "production/history/reprise_2026-11-19/production/asset_manifest.json",
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/news/dev-blog-characters/",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/04/fa96bb216cfb2950a825f30086ee5d6f05084c0c-69cb0c872baa9.jpg"
+      ],
+      "rationale": "La sélection mikayla_dorn_tactics utilise le rendu officiel de sa tenue initiale civile / milicienne.",
+      "caveats": [
+        "Référence officielle en pied disponible ; conserver les asymétries et les motifs du shemagh.",
+        "Marge visible étroite : prévoir un canevas de production plus généreux.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ],
+      "additional_evidence_paths": [
+        "production/history/reprise_2026-11-19/production/generation_session.json"
+      ]
+    },
+    {
+      "asset_path": "assets/characters_v2/reyna_reference_v3.png",
+      "sha256": "ca087379a9c9f1cb82eb8196eaf82a24c43b7c40be298a06c62f4fad1bdb9949",
+      "character_id": "reyna",
+      "costume_id": "reyna_skin_01",
+      "source_record_path": "production/history/initial_2026-11-19/assets_manifest.json",
+      "source_urls": [
+        "https://www.xbox.com/fr-fr/games/store/gears-5-operation-6-bundle/9nblc6fv6spg",
+        "https://store.steampowered.com/news/posts/?appids=1097840&enddate=1616457409&feed=steam_community_announcements"
+      ],
+      "rationale": "La correction V3 retient la Reine Reyna normale Gears 5 Operation 6 et exclut la variante Blood Red comme modèle de couleur.",
+      "caveats": [
+        "Conserver quality_state=correction_required ; le rattachement ne résout aucune correction visuelle connue.",
+        "Cheveux, carapace et vrilles rétablis. Cristaux du front encore en arc de diadème au lieu de l’amas asymétrique ; bas du corps non documenté.",
+        "Une pose neutre individuelle ; aucune animation finalisée ni arme tenue. La correspondance 1:1 reste à contrôler.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ],
+      "additional_evidence_paths": [
+        "data/generation_v2/edit_reyna_v3.json"
+      ]
+    },
+    {
+      "asset_path": "assets/characters/lahni_kaliso/gears5_hivebuster/reference_fullbody_v01.png",
+      "sha256": "6b3df7eeeb90d63278ccf21a675aede4977dda510af768fd49348464af142500",
+      "character_id": "lahni",
+      "costume_id": "lahni_skin_02",
+      "source_record_path": "production/history/reprise_2026-11-19/production/asset_manifest.json",
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/news/hivebusters-graphic-novel-available-now/",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/08/Hivebuster_Bios_Lahni_1080x1080-5f443f1966f5b-69cb11337f94d.png"
+      ],
+      "rationale": "Le journal lahni_kaliso_hivebuster et la bio officielle identifient la tenue Scorpio standard / Escape ; aucun lien avec la tenue d’introduction Brash Brigade.",
+      "caveats": [
+        "Tenue Hivebuster / Escape ; pieds non couverts par la fiche officielle, tatouages à contrôler en détail.",
+        "Marge visible étroite : prévoir un canevas de production plus généreux.",
+        "L’intitulé générique Campagne Hivebusters lahni_skin_01 reste non rattaché dans cet audit conservateur ; la tenue d’introduction lahni_hivebusters_intro n’est pas cette tenue Escape.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ],
+      "additional_evidence_paths": [
+        "production/history/reprise_2026-11-19/production/generation_session.json"
+      ]
+    },
+    {
+      "asset_path": "assets/characters_v4/keegan_reference_v4.png",
+      "sha256": "120700af3f9126d700e0139eeaa1c0b8444d77837250949e8180309df804754d",
+      "character_id": "keegan",
+      "costume_id": "keegan_skin_01",
+      "source_record_path": "data/generation_v4/result_keegan.json",
+      "source_urls": [
+        "https://news.xbox.com/en-us/2020/12/08/gears-5-hivebusters-arrives-december-15/",
+        "https://www.gearsofwar.com/en-us/news/hivebusters/",
+        "https://www.gearsofwar.com/en-us/news/hivebusters-graphic-novel-available-now/",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/08/Hivebuster_Bios_Keegan_1080x1080-5f443f3be75cb-69cb1130b4e56.jpg",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/12/hivebusters-keyart-5fd7bad8299a-69cb1bb32298f.jpg"
+      ],
+      "rationale": "Le journal V4 désigne explicitement la tenue Scorpio de campagne Hivebusters et exclut Onyx Guard.",
+      "caveats": [
+        "Personnage entier en pose neutre, tête et bottes complètes, mains vides.",
+        "Crâne chauve, rouflaquettes et moustache reliées, menton découvert, tenue beige/olive Scorpio et jambes matelassées présents.",
+        "Fidélité du visage, motifs, emports et dimensions des pièces non certifiée 1:1; comparaison au modèle original requise.",
+        "Vérification numérique alpha: fond réellement transparent. Le halo brun apparent dans la prévisualisation correspond à des RGB de pixels alpha=0; aucun nettoyage du fond requis sur cette base.",
+        "Marge haute courte: 10 pixels au seuil alpha>=16; cadrage et marges à normaliser lors de la préparation des animations.",
+        "La tenue standard Scorpio ne couvre pas les variantes d’introduction Hivebusters ni les costumes alternatifs du même personnage.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ]
+    },
+    {
+      "asset_path": "assets/characters_v4/mac_reference_v4.png",
+      "sha256": "a08888becee515c6971948b9fd17fdbfc30589cb725854f6cd169ddf9b720f29",
+      "character_id": "mac",
+      "costume_id": "mac_skin_01",
+      "source_record_path": "data/generation_v4/result_mac.json",
+      "source_urls": [
+        "https://news.xbox.com/en-us/2020/12/08/gears-5-hivebusters-arrives-december-15/",
+        "https://www.gearsofwar.com/en-us/news/hivebusters/",
+        "https://www.gearsofwar.com/en-us/news/hivebusters-graphic-novel-available-now/",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/08/Hivebuster_Bios_Mac_1080x1080-5f443eeb11aeb-69cb1136edf03.jpg",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/12/hivebusters-keyart-5fd7bad8299a-69cb1bb32298f.jpg"
+      ],
+      "rationale": "Le journal V4 identifie la tenue Scorpio standard de campagne Hivebusters et exclut expressément Mechanic Mac.",
+      "caveats": [
+        "Personnage entier en pose neutre trois-quarts vers la droite, mains nues et vides, bottes entières.",
+        "Cheveux roux relevés, visage rasé, chemise claire aux manches remontées, pendentif et gilet Scorpio présents.",
+        "Sangles de cuir superposées sur la cuisse gauche anatomique visibles.",
+        "Fond alpha transparent vérifié; le halo apparent dans le rendu de prévisualisation est le RGB caché des pixels alpha=0.",
+        "Marge haute courte: 5 pixels au seuil alpha>=16; normalisation du cadrage requise avant animations.",
+        "Visage, emblème, pendentif, épaules et jambières à comparer au modèle source avant validation; fidélité 1:1 non certifiée.",
+        "La tenue standard Scorpio ne couvre pas les variantes d’introduction Hivebusters ni les costumes alternatifs du même personnage.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ]
+    },
+    {
+      "asset_path": "assets/characters_v2/jack_reference_v3.png",
+      "sha256": "4ea029dd975eb71ea2cc54c2dbc944f6d2804ddd03063fe4fea117c79727a38f",
+      "character_id": "jack",
+      "costume_id": "jack_skin_01",
+      "source_record_path": "production/history/initial_2026-11-19/assets_manifest.json",
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/games/gears-5/",
+        "https://rizo.artstation.com/projects/BmWbJA",
+        "https://mindwalkstudios.artstation.com/projects/oAle0O",
+        "https://www.windowscentral.com/gears-5-guide-list-jack-upgrades-and-where-find-them",
+        "https://cdn.mos.cms.futurecdn.net/3sAPCx57aUZDTXWGY4gN7U-1920-80.jpg"
+      ],
+      "rationale": "La correction V3 reprend JACK sur une capture effective de Gears 5 ; le modèle Tactics est distinct.",
+      "caveats": [
+        "Capot et modules triangulaires corrigés. Orientation fine des modules, panneaux et configuration des outils encore à vérifier.",
+        "Une pose neutre individuelle ; aucune animation finalisée ni arme tenue. La correspondance 1:1 reste à contrôler.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ],
+      "additional_evidence_paths": [
+        "data/generation_v2/edit_jack_v3.json"
+      ]
+    },
+    {
+      "asset_path": "assets/characters_v4/deebee_reference_v4.png",
+      "sha256": "d269f5937c4ffc9d6415f8162b6c1002b615fe5cd87897e5fab58fe0b4cf834c",
+      "character_id": "deebee",
+      "costume_id": "deebee_skin_01",
+      "source_record_path": "data/generation_v4/result_deebee.json",
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/games/gears-of-war-4/",
+        "https://primagames.com/eguides/gears-of-war-4-eguide/enemy-forces/deebees",
+        "https://www.artstation.com/artwork/LJO50",
+        "https://gearsofwar.fandom.com/wiki/Shepherd",
+        "https://www.deviantart.com/spartan22294/art/GoW4-DeeBees-Shepherd-739757915",
+        "https://vignette.wikia.nocookie.net/gearsofwar/images/2/23/DeeBee_concepto_01_GoW4.jpg/revision/latest?cb=20201006063735&path-prefix=es"
+      ],
+      "rationale": "Le journal V4 identifie le Shepherd standard de Gears of War 4 ; ce lien ne remplit pas le DeeBee multijoueur Gears 5.",
+      "caveats": [
+        "Un seul DeeBee, vue trois-quarts vers la droite, mains vides, tête et pieds entiers.",
+        "Capteurs ambre et carénages bleu sombre, proportions générales reconnaissables.",
+        "Microgéométrie du visage et panneaux à comparer au modèle officiel ; fidélité 1:1 non certifiée.",
+        "Les pixels de fond échantillonnés autour du sujet sont réellement transparents (alpha=0) ; le halo de la prévisualisation correspond aux données RGB cachées. Vérifier uniquement les franges fines lors de l’intégration.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ]
+    },
+    {
+      "asset_path": "assets/characters/warden/gears5/reference_fullbody_v01.png",
+      "sha256": "759348e4392a075c9511f2dfb11999b96f6fc0a9959315a9480f985de6213f5d",
+      "character_id": "warden",
+      "costume_id": "warden_skin_01",
+      "source_record_path": "production/history/reprise_2026-11-19/production/asset_manifest.json",
+      "source_urls": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2059243289&l=schinese",
+        "https://images.steamusercontent.com/ugc/1011563720478551744/45834B6CC0151AF7851DC5DE8A4D74B94CD6CFE4/?ima=fit&imcolor=%23000000&imh=576&impolicy=Letterbox&imw=1024&letterbox=true",
+        "https://www.gearsofwar.com/en-us/news/2020-gearsmas-holiday-gift-guide/",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/12/warden1-5fc7e8b56d464-69cb1989afd49.jpg",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/12/warden2-5fc7e9129d778-69cb1a3ddddbf.jpg",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/12/warden3-5fc7e9211fcac-69cb1a3ba9a59.jpg"
+      ],
+      "rationale": "La sélection warden_gears5 utilise la capture en jeu Gears 5 pour le casque et une figurine licenciée comme complément anatomique.",
+      "caveats": [
+        "Casque vérifié sur capture de jeu ; détail des deux Breaker Maces à revalider avec une capture rapprochée.",
+        "Marge visible étroite : prévoir un canevas de production plus généreux.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ],
+      "additional_evidence_paths": [
+        "production/history/reprise_2026-11-19/production/generation_session.json"
+      ]
+    },
+    {
+      "asset_path": "assets/characters_v2/swarm_drone_reference_v2.png",
+      "sha256": "e5988ddd8831be2962b7596f02cdb957d51230026cb41e35312dbc10f97340e0",
+      "character_id": "swarm_drone",
+      "costume_id": "swarm_drone_skin_01",
+      "source_record_path": "production/history/initial_2026-11-19/assets_manifest.json",
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/games/gears-of-war-4/",
+        "https://haiweihou.artstation.com/projects/WrZXJ"
+      ],
+      "rationale": "Le journal V2 nomme le Drone Rifle standard de campagne Gears of War 4 ; Gears 5 et la variante UIR ne sont pas couverts.",
+      "caveats": [
+        "Swarm Drone reconnaissable ; équipement précis de la variante Rifle de Gears 4 à comparer au modèle du jeu.",
+        "Une pose neutre individuelle ; aucune animation finalisée ni arme tenue. La correspondance 1:1 reste à contrôler.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ],
+      "additional_evidence_paths": [
+        "data/generation_v2/result_swarm_drone.json"
+      ]
+    },
+    {
+      "asset_path": "assets/characters/ukkon/tactics/reference_fullbody_v02.png",
+      "sha256": "6f10e33e5195e8a950908a3b8aff5fc5a04b4a7bd82d8d2875e9120630fdf9d6",
+      "character_id": "ukkon",
+      "costume_id": "ukkon_skin_01",
+      "source_record_path": "production/history/reprise_2026-11-19/production/asset_manifest.json",
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/04/e3d6aae501363570c-69cb060527a2d.jpg",
+        "https://www.gearsofwar.com/en-us/news/dev-blog-you-should-know/",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/05/ukkon-2000x2000-5ea77404740f8-1024x1024-69cb10af12d50.jpg"
+      ],
+      "rationale": "La sélection ukkon_tactics_rails_v02 corrige les longues structures d’épaule de la tenue finale Tactics documentée dans les blogs officiels.",
+      "caveats": [
+        "Version v02 : deux rails suspendus allongés vers les chevilles ; détails de la robe et des pieds à contrôler.",
+        "Marge visible étroite : prévoir un canevas de production plus généreux.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ],
+      "additional_evidence_paths": [
+        "production/history/reprise_2026-11-19/production/generation_session.json"
+      ]
+    },
+    {
+      "asset_path": "assets/characters_v2/grenadier_reference_v2.png",
+      "sha256": "5f52a802e772bd4eb5936df0eca5ee818b3686047d7df71992a84f10f909b438",
+      "character_id": "grenadier",
+      "costume_id": "grenadier_skin_01",
+      "source_record_path": "production/history/initial_2026-11-19/assets_manifest.json",
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/",
+        "https://store.steampowered.com/news/posts/?appgroupname=Gears+Tactics&appids=1184050&enddate=1588625128&feed=steam_community_announcements"
+      ],
+      "rationale": "Le journal V2 vise le Grenadier standard Gears Tactics au repos, et non la variante Gears of War 2006.",
+      "caveats": [
+        "Grenadier reconnaissable ; grenades attachées au harnais acceptées, modèle et quantité exacts de la version Tactics à vérifier.",
+        "Une pose neutre individuelle ; aucune animation finalisée ni arme tenue. La correspondance 1:1 reste à contrôler.",
+        "Attribution de référence candidate uniquement : canonical_fidelity_validated=false, production_ready=false, animation_status=not_produced restent inchangés."
+      ],
+      "additional_evidence_paths": [
+        "data/generation_v2/result_grenadier.json"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "cole_thrashball_gow3_v7",
+  "subject_id": "cole_skin_03",
+  "category": "costume",
+  "character_id": "cole",
+  "costume_id": "cole_skin_03",
+  "name": "Augustus Cole — Thrashball Cole",
+  "variant": "Gears of War 3 — Thrashball Cole",
+  "source_game": "Gears of War 3",
+  "purpose": "costume_reference_fullbody",
+  "variant_relation": "target_version_candidate",
+  "status": "generated_reference_pending_validation",
+  "asset_path": "assets/costumes_v7/cole_thrashball_gow3_fullbody.png",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-20",
+  "prompt": "Use case: identity-preserve. Asset type: single transparent full-body costume reference for the Gears of War Combats project. Create exactly ONE Augustus Cole in the Thrashball Cole costume from Gears of War 3 (2011), faithfully following the supplied game promotional render references. Image 1 is the full-body Gears of War 3 Thrashball Cole sports costume and its leg protection, boots, materials, team emblems and proportions. Image 2 is a supplementary upper-body render of the same Gears of War 3 costume, showing the uncovered head, the chest number 83 and the handheld helmet. Preserve this edition exactly; do not use the Gears Tactics or Gears 5 redesign. One complete full-body neutral standing pose, slight three-quarter view facing screen-right, head uncovered, relaxed right hand, holding his blue Thrashball helmet at his left side with his left hand as in image 2. Preserve the recognizable bald muscular Black male face, broad jaw, stern expression, extremely broad heavy Gears proportions, massive bare upper arms. Preserve scratched navy blue and black sports shoulder pads with the white animal team crests; navy split chest plates showing the dark outlined digit 8 on his anatomical right and digit 3 on his anatomical left; exact crossed lacing between the chest plates; visible gray padded abdominal garment; wide black double belt with square silver buckle; worn tan padded elbow and forearm protection; fingerless brown sports gloves with blue armored knuckle pads; light gray padded sports trousers with dark blue outer stripes and front lacing; blue shin protection with tan cuff edging; heavy dark lace-up boots. Preserve the helmet's navy blue shell, white team emblem, gray metal face cage, circular metal ear opening and scuffed finish. Detailed realistic raster game render with balanced neutral studio lighting and legible texture. Keep the entire head, both hands, the entire helmet, both legs and both boots inside the canvas, with 8 percent empty transparent space above and below and at least 12 percent empty transparent space at each side. True transparent alpha background. No floor, no rock pedestal, no ball, no firearm, no cast shadow, no smoke, no painted backdrop, no text outside the authentic uniform markings, no title, no watermark, no border, no duplicate subject and no turnaround sheet. This is one static costume reference pose.",
+  "sources": [
+    {
+      "page_url": "https://www.xbox.com/en-US/games/store/thrashball-cole-multiplayer-character/BZV47NRFVJP5",
+      "source_type": "official_publisher_store",
+      "scope": "Microsoft Studios et Epic Games confirment le nom Thrashball Cole Multiplayer Character et son édition Gears of War 3. Les vignettes de la boutique sont la jaquette générale ; elles n'ont pas servi de référence visuelle au générateur.",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://as.com/meristation/2011/08/28/album/1313436660_000001.html",
+      "image_url": "https://img.asmedia.epimg.net/resizer/v2/FFGAIHFWOZNWLJTYZ4XH5WJJJQ.jpg?auth=0ac17429b3e909b94b6522fc689dfd46860e69d84fd7bb3d50feabaa09233e56&width=1328",
+      "source_type": "game_promotional_render_reproduced_by_press",
+      "scope": "Image thrashball_cole_mp_variant.jpg publiée dans la galerie Gears of War 3 en 2011. Rendu de la tenue sportive en pied, casque porté et ballon tenu, sur socle rocheux. L'URL 1328 px provient du srcset public de cette page. Base visuelle des protections de jambes, bottes, couleurs et proportions ; la pose de course devient une pose debout et le socle/ballon sont exclus. Aucun crédit d'artiste individuel lisible sur cette reproduction n'est affirmé.",
+      "visual_reference_used": true,
+      "reference_sha256": "bddcd0c26c707347478683a48a655e745340a9137e03198c8e8bf4e36062e38c",
+      "reference_width": 1328,
+      "reference_height": 1252
+    },
+    {
+      "page_url": "https://www.pinterest.com/pin/409194316116981862/",
+      "image_url": "https://i.pinimg.com/736x/6c/8f/58/6c8f58de222a14a18d46f0986f307c1e--gears-of-war--sports-uniforms.jpg",
+      "source_type": "third_party_render_reproduction_supplementary",
+      "scope": "Reproduction publique d'un rendu de Thrashball Cole cadré du crâne aux cuisses, tête nue et casque tenu à la main gauche, utilisée uniquement en complément pour le visage, le plastron 83 et le casque. Le fichier image a été téléchargé directement depuis l'URL publiée par la recherche d'images. La page Pinterest elle-même renvoie HTTP 403 ; l'auteur de cette reproduction et sa filiation précise ne sont pas validés. Elle ne constitue pas une preuve autonome des jambes ni une certification de modèle final.",
+      "visual_reference_used": true,
+      "reference_sha256": "49b7051befdb199c1854206ecaf44a512c0d2058089ed3f8bcc9d238a2740d5e",
+      "reference_width": 736,
+      "reference_height": 597
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "white_composite_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Un seul personnage entier : crâne, deux mains, casque tenu à gauche, deux jambes et deux bottes visibles sans coupe.",
+      "Plastron bleu au numéro 83, épaulières avec emblèmes blancs, laçage central, bras nus, protections tan, pantalon gris à bandes bleues et casque à grille métallique conservés.",
+      "Le dégradé du RGB sous les pixels transparents ne constitue pas un fond opaque ; le compositing sur blanc a été inspecté.",
+      "Marges au seuil alpha >= 128 : 161 px à gauche, 21 px en haut, 127 px à droite et 24 px en bas. Marges verticales inférieures aux 8 % demandés, sans coupe du sujet.",
+      "La tête et le torse regardent légèrement vers la gauche de l'image, contrairement à l'orientation vers la droite demandée dans le prompt.",
+      "Le casque tenu et la pose neutre sont documentés par une référence partielle ; la référence intégrale montre une pose de course. La nouvelle pose ne constitue pas une extraction exacte du modèle.",
+      "Aucun mélange de design Gears Tactics ou Gears 5 demandé ; le rattachement de costume vise uniquement Thrashball Cole Gears of War 3."
+    ],
+    "remaining_checks": [
+      "Obtenir une planche complète face/dos du modèle final GoW3 directement créditée à Epic ou une capture en jeu de cette édition ; la provenance de la référence supérieure complémentaire reste incomplète.",
+      "Comparer précisément proportions du visage, petits emblèmes des Cougars, rivets, typographie 83, laçages et coutures avec le modèle final du jeu.",
+      "Contrôler les volumes des genouillères, les protège-tibias et la géométrie des deux bottes dans une vue debout : la référence intégrale fournie montre une jambe partiellement masquée par l'autre.",
+      "Préparer ensuite une garde latérale orientée vers la droite, des marges d'atlas suffisantes, les pivots et les animations. Cette image reste une référence statique."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2291429,
+    "sha256": "5587acefc8ee841d89844a012f50d0240d48b1c1a3a0aba9daeadcfdbf9abb7a",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.582366943359375,
+    "subject_bbox_alpha_ge_128": [
+      161,
+      21,
+      897,
+      1512
+    ],
+    "subject_margins_ltrb_px": [
+      161,
+      21,
+      127,
+      24
+    ]
+  }
+}

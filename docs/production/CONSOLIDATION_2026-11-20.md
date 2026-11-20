@@ -8,23 +8,23 @@ Les anciennes passes ont été réunies avec les nouvelles sorties réellement p
 | --- | ---: |
 | Personnages possédant au moins une référence | **36 / 36** |
 | Personnages sans référence | **0** |
-| Personnages supplémentaires du catalogue avec une référence | 2 / 17 |
-| Costumes avec une attribution visuelle explicite | 1 / 85 |
-| PNG actifs de personnages, alternatives et présentations incluses | 47 |
-| PNG actifs classés comme costumes | 1 |
-| Boss avec une référence | 5 / 31 |
-| Fiches d’arènes associées à un master | 2 / 34 |
-| Masters de décor, Ephyra complémentaire inclus | 3 |
-| PNG actifs uniques | 56 |
+| Personnages supplémentaires du catalogue avec une référence | 4 / 20 |
+| Costumes avec une attribution visuelle explicite | 36 / 85 |
+| PNG actifs de personnages, alternatives et présentations incluses | 49 |
+| PNG actifs classés comme costumes | 2 |
+| Boss avec une référence | 6 / 31 |
+| Fiches d’arènes associées à un master | 4 / 34 |
+| Masters de décor, Ephyra complémentaire inclus | 5 |
+| PNG actifs uniques | 62 |
 | Anciennes versions écartées conservées séparément | 12 |
 | Personnages certifiés conformes 1:1 | **0** |
 | Ensembles d’animations dessinées finalisés | **0** |
 
 **Personnages encore sans image : Aucun personnage du roster sans référence.**
 
-La présence d’un PNG signifie une référence statique disponible, pas un personnage jouable ni un costume certifié. [La galerie complète](../../Galerie_Personnages.html) affiche les 36 personnages du roster de conception, les 17 extensions de personnages, les 85 costumes, les 31 boss et les 34 arènes, avec des cartes explicites pour les manquants. Les extensions de production ne modifient pas le roster du moteur. Ephyra reste un master complémentaire, sans attribution arbitraire à une arène précise.
+La présence d’un PNG signifie une référence statique disponible, pas un personnage jouable ni un costume certifié. [La galerie complète](../../Galerie_Personnages.html) affiche les 36 personnages du roster de conception, les 20 extensions de personnages, les 85 costumes, les 31 boss et les 34 arènes, avec des cartes explicites pour les manquants. Les extensions de production ne modifient pas le roster du moteur. Ephyra reste un master complémentaire, sans attribution arbitraire à une arène précise.
 
-Les costumes hérités des fiches initiales restent sans attribution tant qu’un `costume_id` explicite n’est pas fourni. Cela signifie une liaison visuelle à vérifier, et non nécessairement une image à régénérer. Un master de décor ne vaut pas validation de ses calques de parallaxe séparés.
+Les costumes hérités des fiches initiales restent sans attribution tant qu’un `costume_id` explicite n’est pas fourni. Cela signifie une liaison visuelle à vérifier, et non nécessairement une image à régénérer. Le mapping audité [costume_asset_links_v7.json](../../data/costume_asset_links_v7.json), lorsqu’il est présent, rattache les images existantes à leur costume après vérification du personnage, de la provenance et de l’empreinte ; il ne duplique aucun PNG et ne certifie aucune fidélité. Un master de décor ne vaut pas validation de ses calques de parallaxe séparés.
 
 ## Ce qui a été récupéré
 
@@ -38,14 +38,20 @@ Les costumes hérités des fiches initiales restent sans attribution tant qu’u
 | Sujet | Variante demandée | Fichier |
 | --- | --- | --- |
 | Matriarch | Gears 5 — modèle de campagne | [PNG](../../assets/bosses_v6/matriarch_gears5_fullbody.png) |
+| Shibboleth seul — monture sans Karn | Gears of War: Judgment — monture seule ; Karn absent ; duo non complet | [PNG](../../assets/bosses_v7/shibboleth_judgment_mount_only_fullbody.png) |
 | Dominic Santiago | Gears of War (2006) — COG armor | [PNG](../../assets/characters_v5/dom_gow1_fullbody.png) |
 | Général RAAM | Gears of War (2006 / portage PC original) | [PNG](../../assets/characters_v5/raam_gow1_fullbody.png) |
 | Garde Theron | Theron Guard classique casqué, cible GoW 2006 ; édition exacte non validée | [PNG](../../assets/characters_v5/theron_gow1_fullbody.png) |
 | Alicia Valera | Gears of War 3 — RAAM's Shadow, armure standard sans casque | [PNG](../../assets/characters_v6/alicia_valera_gow3_fullbody.png) |
 | Boomer | Gears Tactics — Boomer standard avec Boomshot | [PNG](../../assets/characters_v6/boomer_tactics_fullbody.png) |
 | Dizzy Wallin | Gears of War 2 — tenue de pilote de Betty | [PNG](../../assets/characters_v6/dizzy_gow2_fullbody.png) |
+| Colonel Ezra Loomis | Gears of War: Judgment — uniforme de parade, bras croisés | [PNG](../../assets/characters_v7/ezra_loomis_judgment_fullbody.png) |
+| Michael Barrick | Gears of War 3 — RAAM's Shadow, armure standard sans casque | [PNG](../../assets/characters_v7/michael_barrick_gow3_raams_shadow_fullbody.png) |
 | Mac — Mechanic Mac | Gears 5 — Mechanic Mac (skin Hivebusters) | [PNG](../../assets/costumes_v6/mac_mechanic_gears5_fullbody.png) |
+| Augustus Cole — Thrashball Cole | Gears of War 3 — Thrashball Cole | [PNG](../../assets/costumes_v7/cole_thrashball_gow3_fullbody.png) |
 | Gridlock | Gears of War 4 — cadrage de combat 2D adapté | [PNG](../../assets/stages_v6/gridlock_gow4_master.png) |
+| Dawn | Gears 5 — Operation 8, colonie minière adaptée au combat 2D | [PNG](../../assets/stages_v7/dawn_gears5_master.png) |
+| Village | Gears 5 — Operation 8, intérieur cérémoniel adapté au combat 2D | [PNG](../../assets/stages_v7/village_gears5_master.png) |
 
 Les refus et résultats en cours sont conservés dans les dossiers `data/generation_v*/`. Un refus n’est jamais compté comme une image. Le recalcul accepte un résultat ayant un chemin de fichier valide sans dépendre d’un unique libellé de statut.
 

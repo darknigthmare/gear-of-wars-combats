@@ -1,0 +1,3655 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-20T10:03:20.828949+00:00",
+  "status": "passed_with_limits",
+  "scope": "Final V7 static and technical audit after consolidation. All active/archived PNGs decoded and measured, six V7 journals checked, 34 costume attributions audited. No browser launch, new engine run, GitHub operation or canonical certification.",
+  "tests": {
+    "data_validation": {
+      "command": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python src/validate_data.py",
+      "executed_this_pass": true,
+      "exit_code": 0,
+      "stderr": "",
+      "existing_report_bytes_unchanged": true,
+      "result": {
+        "counts": {
+          "fighters": 36,
+          "costume_records": 75,
+          "moves": 179,
+          "arcade_routes": 36,
+          "combos": 24,
+          "bosses": 24,
+          "boss_phases": 72,
+          "stages": 24,
+          "parallax_layers": 144,
+          "campaign_chapters": 12,
+          "animation_drawings_per_side": 552
+        },
+        "checks": [
+          "Unique identifiers",
+          "Combatant and rival references",
+          "Movement ownership and nonnegative costs",
+          "Boss stage references and phase timings",
+          "Stage layers and tournament rules",
+          "Arcade opponents",
+          "Campaign stage and boss references",
+          "Animation estimate total"
+        ],
+        "errors": [],
+        "status": "passed",
+        "limits": "Does not validate canonical visual fidelity, balance, or browser controls."
+      }
+    },
+    "inventory_v6": {
+      "command": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python -m unittest discover -s tests -p test_inventory_v6.py",
+      "executed_this_pass": true,
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.015s\n\nOK\n",
+      "tests_run": 4
+    },
+    "inventory_v7": {
+      "command": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python -m unittest discover -s tests -p test_inventory_v7.py",
+      "executed_this_pass": true,
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.016s\n\nOK\n",
+      "tests_run": 4
+    },
+    "prototype_engine": {
+      "command": "node prototype/tests.cjs",
+      "executed_this_pass": false,
+      "tests_passed": 15,
+      "status": "previous_run_passed",
+      "evidence_path": "docs/production/VALIDATION_2026-11-20.json",
+      "note": "Prior engine result retained because V7 introduces no prototype engine change; not claimed as a new test execution."
+    }
+  },
+  "counts": {
+    "roster_characters": 36,
+    "characters_with_reference": 36,
+    "characters_missing": 0,
+    "production_character_entries": 20,
+    "production_characters_with_reference": 4,
+    "character_catalog_entries": 56,
+    "catalog_characters_with_reference": 40,
+    "catalog_characters_missing": 16,
+    "character_png_files": 49,
+    "costume_catalog_entries": 85,
+    "costumes_with_reference": 36,
+    "costumes_without_explicit_reference": 49,
+    "costume_png_files": 2,
+    "reused_character_pngs_for_costumes": 34,
+    "boss_catalog_entries": 31,
+    "bosses_with_reference": 6,
+    "boss_png_files": 6,
+    "stage_catalog_entries": 34,
+    "stages_with_reference": 4,
+    "stage_png_files": 5,
+    "additional_reference_groups": 1,
+    "active_png_files": 62,
+    "unique_active_png_sha256": 62,
+    "archived_png_files": 12,
+    "canonical_fidelity_validated": 0,
+    "completed_animation_sets": 0
+  },
+  "count_assertions": {
+    "expected_active_png": 62,
+    "actual_active_png_on_disk": 62,
+    "actual_manifest_active_png": 62,
+    "expected_archived_png": 12,
+    "actual_archived_png_on_disk": 12,
+    "actual_manifest_archived_png": 12,
+    "decoded_total_png": 74,
+    "active_sha256_unique": 62,
+    "v7_generation_records": 6,
+    "audited_reused_costume_links": 34
+  },
+  "asset_audit": {
+    "status": "passed",
+    "decoded_png_count": 74,
+    "hashes_checked": 74,
+    "coverage_subject_rows": 207,
+    "coverage_reference_links_checked": 96,
+    "coverage_selected_links_checked": 87,
+    "legacy_manifest_entries_checked": 62,
+    "legacy_manifest_matches": true,
+    "v7_generation_records": [
+      {
+        "record_path": "data/generation_v7/cole_thrashball_record.json",
+        "asset_path": "assets/costumes_v7/cole_thrashball_gow3_fullbody.png",
+        "subject_id": "cole_skin_03",
+        "category": "costume",
+        "variant_relation": "target_version_candidate",
+        "component_scope": null,
+        "composite_boss_complete": null,
+        "journal_output_match": true,
+        "sha256": "5587acefc8ee841d89844a012f50d0240d48b1c1a3a0aba9daeadcfdbf9abb7a"
+      },
+      {
+        "record_path": "data/generation_v7/dawn_record.json",
+        "asset_path": "assets/stages_v7/dawn_gears5_master.png",
+        "subject_id": "stage_dawn_g5",
+        "category": "stage",
+        "variant_relation": "target_version_candidate",
+        "component_scope": null,
+        "composite_boss_complete": null,
+        "journal_output_match": true,
+        "sha256": "64e66a7c8e1ab4189bc157e66492da431368fe27c79c80a71cd8adf9a15cd027"
+      },
+      {
+        "record_path": "data/generation_v7/ezra_loomis_record.json",
+        "asset_path": "assets/characters_v7/ezra_loomis_judgment_fullbody.png",
+        "subject_id": "ezra_loomis",
+        "category": "character",
+        "variant_relation": "target_version_candidate",
+        "component_scope": null,
+        "composite_boss_complete": null,
+        "journal_output_match": true,
+        "sha256": "5ce968519e80a9de658cb22cec1a944f171d39e5a54b8c1ad7d6d536c769a921"
+      },
+      {
+        "record_path": "data/generation_v7/michael_barrick_record.json",
+        "asset_path": "assets/characters_v7/michael_barrick_gow3_raams_shadow_fullbody.png",
+        "subject_id": "michael_barrick",
+        "category": "character",
+        "variant_relation": "alternate_version",
+        "component_scope": null,
+        "composite_boss_complete": null,
+        "journal_output_match": true,
+        "sha256": "3c9482aaa81b12f1e16f6c5f5a9b2307d611f4e85dad779aaaa2617a23088658"
+      },
+      {
+        "record_path": "data/generation_v7/shibboleth_record.json",
+        "asset_path": "assets/bosses_v7/shibboleth_judgment_mount_only_fullbody.png",
+        "subject_id": "boss_shibboleth",
+        "category": "boss",
+        "variant_relation": "target_version_candidate",
+        "component_scope": "mount_only",
+        "composite_boss_complete": false,
+        "journal_output_match": true,
+        "sha256": "33ef7c43e29ce09164f65355436d6d72e215b3df8df2adc87806cacc8e031f12"
+      },
+      {
+        "record_path": "data/generation_v7/village_record.json",
+        "asset_path": "assets/stages_v7/village_gears5_master.png",
+        "subject_id": "stage_village_g5",
+        "category": "stage",
+        "variant_relation": "target_version_candidate",
+        "component_scope": null,
+        "composite_boss_complete": null,
+        "journal_output_match": true,
+        "sha256": "cc1d5eef4b703eb52dc4d6e669cd2a195e87bd78a0bd9833e889b2ad5dd62b76"
+      }
+    ],
+    "assets": [
+      {
+        "path": "assets/bosses_v4/boss_brumak_reference_v4.png",
+        "state": "active",
+        "sha256": "a6521c67014561311112d8793ba6dff1a3435fce56f5c0430fd228e03281cc32",
+        "size_bytes": 2050444,
+        "width": 1278,
+        "height": 1230,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 255,
+          "fully_transparent_fraction": 0.47004020509688665,
+          "near_opaque_fraction_alpha_ge_240": 0.5042011781620164,
+          "subject_bbox_alpha_ge_128": [
+            80,
+            40,
+            1183,
+            1185
+          ],
+          "subject_margins_ltrb_px": [
+            80,
+            40,
+            95,
+            45
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_bosses_v4_boss_brumak_reference_v4_png",
+        "subject_id": "boss_brumak",
+        "category": "boss",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference"
+      },
+      {
+        "path": "assets/bosses_v4/boss_corpser_reference_v4.png",
+        "state": "active",
+        "sha256": "9ddccf6d1d69621a148daa259a70b2f9ec693907c64a04ee698f94334227d72e",
+        "size_bytes": 1984211,
+        "width": 1672,
+        "height": 941,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 255,
+          "fully_transparent_fraction": 0.5099952203956902,
+          "near_opaque_fraction_alpha_ge_240": 0.4511546049453651,
+          "subject_bbox_alpha_ge_128": [
+            56,
+            26,
+            1627,
+            912
+          ],
+          "subject_margins_ltrb_px": [
+            56,
+            26,
+            45,
+            29
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_bosses_v4_boss_corpser_reference_v4_png",
+        "subject_id": "boss_corpser",
+        "category": "boss",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference"
+      },
+      {
+        "path": "assets/bosses_v4/boss_kestrel_reference_v4.png",
+        "state": "active",
+        "sha256": "b31135cec00e6daea25e2d6bb1b4c2451c8b09a8eb58ea6f5f3320b99b13b60b",
+        "size_bytes": 1386911,
+        "width": 1774,
+        "height": 887,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 255,
+          "fully_transparent_fraction": 0.645709223418818,
+          "near_opaque_fraction_alpha_ge_240": 0.3147976089551063,
+          "subject_bbox_alpha_ge_128": [
+            92,
+            115,
+            1703,
+            832
+          ],
+          "subject_margins_ltrb_px": [
+            92,
+            115,
+            71,
+            55
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_bosses_v4_boss_kestrel_reference_v4_png",
+        "subject_id": "boss_kestrel",
+        "category": "boss",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference"
+      },
+      {
+        "path": "assets/bosses_v4/boss_king_raven_reference_v4.png",
+        "state": "active",
+        "sha256": "b890c97ce973fb54aaa07497e912a886a014b29dc1a55226fd4b28122c47627e",
+        "size_bytes": 1460520,
+        "width": 1774,
+        "height": 887,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 255,
+          "fully_transparent_fraction": 0.6036447801069945,
+          "near_opaque_fraction_alpha_ge_240": 0.3537683869089911,
+          "subject_bbox_alpha_ge_128": [
+            72,
+            120,
+            1715,
+            810
+          ],
+          "subject_margins_ltrb_px": [
+            72,
+            120,
+            59,
+            77
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_bosses_v4_boss_king_raven_reference_v4_png",
+        "subject_id": "boss_king_raven",
+        "category": "boss",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference"
+      },
+      {
+        "path": "assets/bosses_v6/matriarch_gears5_fullbody.png",
+        "state": "active",
+        "sha256": "144abc199d23ba9f6bb3f44f77cece669747ac3489bb9c6fec88d3e96bbc803b",
+        "size_bytes": 3000433,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.40905125935872394,
+          "near_opaque_fraction_alpha_ge_240": 0.5411752065022787,
+          "subject_bbox_alpha_ge_128": [
+            17,
+            19,
+            1019,
+            1529
+          ],
+          "subject_margins_ltrb_px": [
+            17,
+            19,
+            5,
+            7
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_bosses_v6_matriarch_gears5_fullbody_png",
+        "subject_id": "boss_matriarch",
+        "category": "boss",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": null
+      },
+      {
+        "path": "assets/bosses_v7/shibboleth_judgment_mount_only_fullbody.png",
+        "state": "active",
+        "sha256": "33ef7c43e29ce09164f65355436d6d72e215b3df8df2adc87806cacc8e031f12",
+        "size_bytes": 2813770,
+        "width": 1597,
+        "height": 985,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 255,
+          "fully_transparent_fraction": 0.4131566484112025,
+          "near_opaque_fraction_alpha_ge_240": 0.5496384400954836,
+          "subject_bbox_alpha_ge_128": [
+            71,
+            30,
+            1543,
+            965
+          ],
+          "subject_margins_ltrb_px": [
+            71,
+            30,
+            54,
+            20
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_bosses_v7_shibboleth_judgment_mount_only_fullbody_png",
+        "subject_id": "boss_shibboleth",
+        "category": "boss",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": null
+      },
+      {
+        "path": "assets/characters/anya_stroud/gears3/reference_fullbody_v01.png",
+        "state": "active",
+        "sha256": "3971c9e39e6e4954361ac74944db42472ba78a6cfdda5d7b2a5fc747391205d3",
+        "size_bytes": 1611257,
+        "width": 887,
+        "height": 1774,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 255,
+          "fully_transparent_fraction": 0.6156419482719833,
+          "near_opaque_fraction_alpha_ge_240": 0.35673558566745767,
+          "subject_bbox_alpha_ge_128": [
+            134,
+            15,
+            723,
+            1733
+          ],
+          "subject_margins_ltrb_px": [
+            134,
+            15,
+            164,
+            41
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_anya_stroud_gears3_reference_fullbody_v01_png",
+        "subject_id": "anya",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "anya_skin_02",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters/clayton_carmine/gears3/reference_fullbody_v02.png",
+        "state": "active",
+        "sha256": "6c4ecae874cbbeba258863919d4be8338cc3f1c6f2f1ba4a01772db028887920",
+        "size_bytes": 1634145,
+        "width": 1017,
+        "height": 1547,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 255,
+          "fully_transparent_fraction": 0.5874732012160435,
+          "near_opaque_fraction_alpha_ge_240": 0.39250199739528213,
+          "subject_bbox_alpha_ge_128": [
+            162,
+            7,
+            864,
+            1536
+          ],
+          "subject_margins_ltrb_px": [
+            162,
+            7,
+            153,
+            11
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_clayton_carmine_gears3_reference_fullbody_v02_png",
+        "subject_id": "clayton",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "clayton_skin_01",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters/fahz_chutani/gears5/reference_fullbody_v01.png",
+        "state": "active",
+        "sha256": "b3f4e9742172264e361c6096cef970388f563e685a80196453ac2caca5ff872c",
+        "size_bytes": 2086853,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.6495564778645834,
+          "near_opaque_fraction_alpha_ge_240": 0.3267141977945964,
+          "subject_bbox_alpha_ge_128": [
+            202,
+            30,
+            823,
+            1477
+          ],
+          "subject_margins_ltrb_px": [
+            202,
+            30,
+            201,
+            59
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_fahz_chutani_gears5_reference_fullbody_v01_png",
+        "subject_id": "fahz",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "fahz_skin_01",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters/gabriel_diaz/tactics/reference_fullbody_v01.png",
+        "state": "active",
+        "sha256": "4a8b42d31cee4372c6003ac1b90393d711a64c03e554e282701b9990ff5f8b31",
+        "size_bytes": 1738355,
+        "width": 943,
+        "height": 1668,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 255,
+          "fully_transparent_fraction": 0.5594841200210563,
+          "near_opaque_fraction_alpha_ge_240": 0.41815179881545456,
+          "subject_bbox_alpha_ge_128": [
+            126,
+            49,
+            817,
+            1623
+          ],
+          "subject_margins_ltrb_px": [
+            126,
+            49,
+            126,
+            45
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_gabriel_diaz_tactics_reference_fullbody_v01_png",
+        "subject_id": "gabe",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "gabe_skin_01",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters/lahni_kaliso/gears5_hivebuster/reference_fullbody_v01.png",
+        "state": "active",
+        "sha256": "6b3df7eeeb90d63278ccf21a675aede4977dda510af768fd49348464af142500",
+        "size_bytes": 1951535,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.6829789479573568,
+          "near_opaque_fraction_alpha_ge_240": 0.29183006286621094,
+          "subject_bbox_alpha_ge_128": [
+            228,
+            11,
+            792,
+            1524
+          ],
+          "subject_margins_ltrb_px": [
+            228,
+            11,
+            232,
+            12
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_lahni_kaliso_gears5_hivebuster_reference_fullbody_v01_png",
+        "subject_id": "lahni",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "lahni_skin_02",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters/mac_macallister/gears5_hivebuster/reference_fullbody_v01.png",
+        "state": "active",
+        "sha256": "2d47d6da8cf73f315724fe51ddbcaddc830f5de67d8da2fb90bc5156e0a76379",
+        "size_bytes": 1963979,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.6909027099609375,
+          "near_opaque_fraction_alpha_ge_240": 0.2868048350016276,
+          "subject_bbox_alpha_ge_128": [
+            236,
+            19,
+            772,
+            1522
+          ],
+          "subject_margins_ltrb_px": [
+            236,
+            19,
+            252,
+            14
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_mac_macallister_gears5_hivebuster_reference_fullbody_v01_png",
+        "subject_id": "mac",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference"
+      },
+      {
+        "path": "assets/characters/mikayla_dorn/tactics/reference_fullbody_v01.png",
+        "state": "active",
+        "sha256": "7ff15814543f710d68f3f5c1f9c6a323eb77ab7ed3592be7af70ab5d4e7e5a47",
+        "size_bytes": 1472772,
+        "width": 927,
+        "height": 1697,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 255,
+          "fully_transparent_fraction": 0.6524452377728576,
+          "near_opaque_fraction_alpha_ge_240": 0.32487307063229165,
+          "subject_bbox_alpha_ge_128": [
+            190,
+            18,
+            738,
+            1657
+          ],
+          "subject_margins_ltrb_px": [
+            190,
+            18,
+            189,
+            40
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_mikayla_dorn_tactics_reference_fullbody_v01_png",
+        "subject_id": "mikayla",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "mikayla_skin_01",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters/myrrah/gears3/reference_fullbody_v01.png",
+        "state": "active",
+        "sha256": "8f24b38a127405822231481bb55fb33ec0cf111ebce552dad99680af89834a09",
+        "size_bytes": 1650403,
+        "width": 887,
+        "height": 1774,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 255,
+          "fully_transparent_fraction": 0.61504901692873,
+          "near_opaque_fraction_alpha_ge_240": 0.3583485114436385,
+          "subject_bbox_alpha_ge_128": [
+            153,
+            13,
+            727,
+            1749
+          ],
+          "subject_margins_ltrb_px": [
+            153,
+            13,
+            160,
+            25
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_myrrah_gears3_reference_fullbody_v01_png",
+        "subject_id": "myrrah",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "myrrah_skin_01",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters/samantha_byrne/gears3/reference_fullbody_v01.png",
+        "state": "active",
+        "sha256": "54e2cde4d30e44455048c72b669bd8c3a764b61b6ff9488e4dcac9796a3498dd",
+        "size_bytes": 1536478,
+        "width": 887,
+        "height": 1774,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 255,
+          "fully_transparent_fraction": 0.6088102098582938,
+          "near_opaque_fraction_alpha_ge_240": 0.3667823719541568,
+          "subject_bbox_alpha_ge_128": [
+            148,
+            20,
+            742,
+            1750
+          ],
+          "subject_margins_ltrb_px": [
+            148,
+            20,
+            145,
+            24
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_samantha_byrne_gears3_reference_fullbody_v01_png",
+        "subject_id": "sam",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "sam_skin_01",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters/tai_kaliso/gears2/reference_fullbody_v01.png",
+        "state": "active",
+        "sha256": "212473ac370562619bdbc5cc062865185cbc28eb4d951f0a06858597ff83ba6a",
+        "size_bytes": 2271521,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.548583984375,
+          "near_opaque_fraction_alpha_ge_240": 0.42961374918619794,
+          "subject_bbox_alpha_ge_128": [
+            138,
+            23,
+            887,
+            1522
+          ],
+          "subject_margins_ltrb_px": [
+            138,
+            23,
+            137,
+            14
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_tai_kaliso_gears2_reference_fullbody_v01_png",
+        "subject_id": "tai",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "tai_skin_01",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters/theron_guard/gears3/reference_fullbody_v02.png",
+        "state": "active",
+        "sha256": "0d0919bbb2f8086b7045e7254d9dbb566769cc936d0f57e93e6dbe6c0c8bbf0a",
+        "size_bytes": 2644309,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.508630116780599,
+          "near_opaque_fraction_alpha_ge_240": 0.46879831949869794,
+          "subject_bbox_alpha_ge_128": [
+            129,
+            25,
+            922,
+            1502
+          ],
+          "subject_margins_ltrb_px": [
+            129,
+            25,
+            102,
+            34
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_theron_guard_gears3_reference_fullbody_v02_png",
+        "subject_id": "theron",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "alternate_version",
+        "quality_state": "candidate",
+        "selection_status": "alternate_candidate"
+      },
+      {
+        "path": "assets/characters/ukkon/tactics/reference_fullbody_v02.png",
+        "state": "active",
+        "sha256": "6f10e33e5195e8a950908a3b8aff5fc5a04b4a7bd82d8d2875e9120630fdf9d6",
+        "size_bytes": 2400688,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.49724706013997394,
+          "near_opaque_fraction_alpha_ge_240": 0.4775155385335286,
+          "subject_bbox_alpha_ge_128": [
+            133,
+            6,
+            845,
+            1525
+          ],
+          "subject_margins_ltrb_px": [
+            133,
+            6,
+            179,
+            11
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_ukkon_tactics_reference_fullbody_v02_png",
+        "subject_id": "ukkon",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "ukkon_skin_01",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters/victor_hoffman/classic/reference_fullbody_v01.png",
+        "state": "active",
+        "sha256": "075fd938c15dfc67383f220f907916918bc454f7b42df03cc721e05f5470d158",
+        "size_bytes": 1805494,
+        "width": 880,
+        "height": 1788,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 255,
+          "fully_transparent_fraction": 0.523064749847468,
+          "near_opaque_fraction_alpha_ge_240": 0.45232929123449256,
+          "subject_bbox_alpha_ge_128": [
+            93,
+            98,
+            765,
+            1751
+          ],
+          "subject_margins_ltrb_px": [
+            93,
+            98,
+            115,
+            37
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_victor_hoffman_classic_reference_fullbody_v01_png",
+        "subject_id": "hoffman",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "edition_unverified",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference"
+      },
+      {
+        "path": "assets/characters/warden/gears5/reference_fullbody_v01.png",
+        "state": "active",
+        "sha256": "759348e4392a075c9511f2dfb11999b96f6fc0a9959315a9480f985de6213f5d",
+        "size_bytes": 2634356,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.49533526102701825,
+          "near_opaque_fraction_alpha_ge_240": 0.4679088592529297,
+          "subject_bbox_alpha_ge_128": [
+            22,
+            77,
+            1004,
+            1477
+          ],
+          "subject_margins_ltrb_px": [
+            22,
+            77,
+            20,
+            59
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_warden_gears5_reference_fullbody_v01_png",
+        "subject_id": "warden",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "warden_skin_01",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters_v2/baird_reference_v3.png",
+        "state": "active",
+        "sha256": "77db750641b2cae9423f7a2f216aaf2e23a0a89d112fc7176424a09c138d2c28",
+        "size_bytes": 2260837,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.6116981506347656,
+          "near_opaque_fraction_alpha_ge_240": 0.3637549082438151,
+          "subject_bbox_alpha_ge_128": [
+            155,
+            9,
+            838,
+            1530
+          ],
+          "subject_margins_ltrb_px": [
+            155,
+            9,
+            186,
+            6
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v2_baird_reference_v3_png",
+        "subject_id": "baird",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "baird_skin_03",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters_v2/del_reference_v3.png",
+        "state": "active",
+        "sha256": "4b6ea5c768808e210a8ad85af8f1985406c3d78222b5a00170532d36e7e2f1bd",
+        "size_bytes": 2102628,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.633874257405599,
+          "near_opaque_fraction_alpha_ge_240": 0.34473228454589844,
+          "subject_bbox_alpha_ge_128": [
+            191,
+            11,
+            808,
+            1529
+          ],
+          "subject_margins_ltrb_px": [
+            191,
+            11,
+            216,
+            7
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v2_del_reference_v3_png",
+        "subject_id": "del",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "correction_required",
+        "selection_status": "selected_reference",
+        "costume_id": "del_skin_02",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters_v2/grenadier_reference_v2.png",
+        "state": "active",
+        "sha256": "5f52a802e772bd4eb5936df0eca5ee818b3686047d7df71992a84f10f909b438",
+        "size_bytes": 2293315,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.5501314798990885,
+          "near_opaque_fraction_alpha_ge_240": 0.421871821085612,
+          "subject_bbox_alpha_ge_128": [
+            110,
+            19,
+            878,
+            1511
+          ],
+          "subject_margins_ltrb_px": [
+            110,
+            19,
+            146,
+            25
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v2_grenadier_reference_v2_png",
+        "subject_id": "grenadier",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "grenadier_skin_01",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters_v2/jack_reference_v3.png",
+        "state": "active",
+        "sha256": "4ea029dd975eb71ea2cc54c2dbc944f6d2804ddd03063fe4fea117c79727a38f",
+        "size_bytes": 1926252,
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.6951249440511068,
+          "near_opaque_fraction_alpha_ge_240": 0.2855720520019531,
+          "subject_bbox_alpha_ge_128": [
+            254,
+            53,
+            1290,
+            952
+          ],
+          "subject_margins_ltrb_px": [
+            254,
+            53,
+            246,
+            72
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v2_jack_reference_v3_png",
+        "subject_id": "jack",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "jack_skin_01",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters_v2/jd_reference_v2.png",
+        "state": "active",
+        "sha256": "acfe1fb81543e98962767f46299f3362225429db810dee13fcab60c8b3a28fae",
+        "size_bytes": 2169910,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.6069869995117188,
+          "near_opaque_fraction_alpha_ge_240": 0.36911900838216144,
+          "subject_bbox_alpha_ge_128": [
+            156,
+            9,
+            819,
+            1527
+          ],
+          "subject_margins_ltrb_px": [
+            156,
+            9,
+            205,
+            9
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v2_jd_reference_v2_png",
+        "subject_id": "jd",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "jd_skin_03",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters_v2/kantus_reference_v3.png",
+        "state": "active",
+        "sha256": "85900a7d134c2c1731dd4a4eda09b7e85d4771e6c9bf3a8848a87d0319a7fa84",
+        "size_bytes": 1961538,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.6978054046630859,
+          "near_opaque_fraction_alpha_ge_240": 0.27934900919596356,
+          "subject_bbox_alpha_ge_128": [
+            212,
+            14,
+            813,
+            1527
+          ],
+          "subject_margins_ltrb_px": [
+            212,
+            14,
+            211,
+            9
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v2_kantus_reference_v3_png",
+        "subject_id": "kantus",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "kantus_skin_01",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters_v2/lizzie_reference_v2.png",
+        "state": "active",
+        "sha256": "e8a46625126247982ea03ecb9fa4c2cc45cac4f21384c444e98c9ac19b3dddf3",
+        "size_bytes": 2041793,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.6633586883544922,
+          "near_opaque_fraction_alpha_ge_240": 0.30934906005859375,
+          "subject_bbox_alpha_ge_128": [
+            178,
+            9,
+            784,
+            1527
+          ],
+          "subject_margins_ltrb_px": [
+            178,
+            9,
+            240,
+            9
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v2_lizzie_reference_v2_png",
+        "subject_id": "lizzie",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "correction_required",
+        "selection_status": "selected_reference",
+        "costume_id": "lizzie_skin_01",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters_v2/locust_drone_reference_v2.png",
+        "state": "active",
+        "sha256": "e1ee3dca92be0150b70c7c5c2b600f881b8f131e01d3eaa8696ea9bd6adf7a3c",
+        "size_bytes": 2110070,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.5790373484293619,
+          "near_opaque_fraction_alpha_ge_240": 0.3961334228515625,
+          "subject_bbox_alpha_ge_128": [
+            160,
+            24,
+            836,
+            1515
+          ],
+          "subject_margins_ltrb_px": [
+            160,
+            24,
+            188,
+            21
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v2_locust_drone_reference_v2_png",
+        "subject_id": "locust_drone",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "locust_drone_skin_01",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters_v2/paduk_reference_v3.png",
+        "state": "active",
+        "sha256": "96afca09c9ed49c47eaddd0cb3de63055e7d186506b98d7170b084bd7fac251c",
+        "size_bytes": 2192757,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.6155878702799479,
+          "near_opaque_fraction_alpha_ge_240": 0.3610369364420573,
+          "subject_bbox_alpha_ge_128": [
+            150,
+            15,
+            843,
+            1518
+          ],
+          "subject_margins_ltrb_px": [
+            150,
+            15,
+            181,
+            18
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v2_paduk_reference_v3_png",
+        "subject_id": "paduk",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "paduk_skin_01",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters_v2/reyna_reference_v3.png",
+        "state": "active",
+        "sha256": "ca087379a9c9f1cb82eb8196eaf82a24c43b7c40be298a06c62f4fad1bdb9949",
+        "size_bytes": 2322719,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.5502065022786459,
+          "near_opaque_fraction_alpha_ge_240": 0.40011024475097656,
+          "subject_bbox_alpha_ge_128": [
+            152,
+            13,
+            821,
+            1521
+          ],
+          "subject_margins_ltrb_px": [
+            152,
+            13,
+            203,
+            15
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v2_reyna_reference_v3_png",
+        "subject_id": "reyna",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "correction_required",
+        "selection_status": "selected_reference",
+        "costume_id": "reyna_skin_01",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters_v2/sid_reference_v3.png",
+        "state": "active",
+        "sha256": "41d3d01b0b9e621fae04e3ae97c88418884cd54bb2f45f143691c4ec38d993f0",
+        "size_bytes": 1464044,
+        "width": 927,
+        "height": 1697,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 255,
+          "fully_transparent_fraction": 0.6260785102716323,
+          "near_opaque_fraction_alpha_ge_240": 0.35854820900389606,
+          "subject_bbox_alpha_ge_128": [
+            148,
+            133,
+            741,
+            1614
+          ],
+          "subject_margins_ltrb_px": [
+            148,
+            133,
+            186,
+            83
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v2_sid_reference_v3_png",
+        "subject_id": "sid",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "sid_skin_01",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters_v2/skorge_reference_v3.png",
+        "state": "active",
+        "sha256": "a4a3d68b3a7b1598aaaea3c0cde50fbeb7d949304e2bbceed8f349c19d222012",
+        "size_bytes": 1964480,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.7071545918782552,
+          "near_opaque_fraction_alpha_ge_240": 0.2557684580485026,
+          "subject_bbox_alpha_ge_128": [
+            200,
+            38,
+            786,
+            1514
+          ],
+          "subject_margins_ltrb_px": [
+            200,
+            38,
+            238,
+            22
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v2_skorge_reference_v3_png",
+        "subject_id": "skorge",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "correction_required",
+        "selection_status": "selected_reference",
+        "costume_id": "skorge_skin_01",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters_v2/sofia_reference_v3.png",
+        "state": "active",
+        "sha256": "89e683efac2ddbac0e0132d661065ecc2dc8f967a3101d9d2e2df3000b5b935b",
+        "size_bytes": 1812571,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.7195943196614584,
+          "near_opaque_fraction_alpha_ge_240": 0.25402259826660156,
+          "subject_bbox_alpha_ge_128": [
+            240,
+            8,
+            750,
+            1507
+          ],
+          "subject_margins_ltrb_px": [
+            240,
+            8,
+            274,
+            29
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v2_sofia_reference_v3_png",
+        "subject_id": "sofia",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "sofia_skin_01",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters_v2/swarm_drone_reference_v2.png",
+        "state": "active",
+        "sha256": "e5988ddd8831be2962b7596f02cdb957d51230026cb41e35312dbc10f97340e0",
+        "size_bytes": 2263208,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.5997047424316406,
+          "near_opaque_fraction_alpha_ge_240": 0.3699544270833333,
+          "subject_bbox_alpha_ge_128": [
+            131,
+            13,
+            886,
+            1516
+          ],
+          "subject_margins_ltrb_px": [
+            131,
+            13,
+            138,
+            20
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v2_swarm_drone_reference_v2_png",
+        "subject_id": "swarm_drone",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "swarm_drone_skin_01",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters_v4/clayton_reference_v4.png",
+        "state": "active",
+        "sha256": "5fe4acd20cedfc55804cca76fd3187c9ddc01868856434fd1b56c16000647b77",
+        "size_bytes": 2290063,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.5637346903483073,
+          "near_opaque_fraction_alpha_ge_240": 0.41234270731608075,
+          "subject_bbox_alpha_ge_128": [
+            130,
+            6,
+            865,
+            1524
+          ],
+          "subject_margins_ltrb_px": [
+            130,
+            6,
+            159,
+            12
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v4_clayton_reference_v4_png",
+        "subject_id": "clayton",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "alternate_candidate"
+      },
+      {
+        "path": "assets/characters_v4/cole_reference_v4.png",
+        "state": "active",
+        "sha256": "132824804981ebcf0784e376c1fb378bb28547c6be064c99db0f593008284aa9",
+        "size_bytes": 2322298,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.5777002970377604,
+          "near_opaque_fraction_alpha_ge_240": 0.39704259236653644,
+          "subject_bbox_alpha_ge_128": [
+            125,
+            6,
+            846,
+            1530
+          ],
+          "subject_margins_ltrb_px": [
+            125,
+            6,
+            178,
+            6
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v4_cole_reference_v4_png",
+        "subject_id": "cole",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "cole_skin_02",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters_v4/deebee_reference_v4.png",
+        "state": "active",
+        "sha256": "d269f5937c4ffc9d6415f8162b6c1002b615fe5cd87897e5fab58fe0b4cf834c",
+        "size_bytes": 2050482,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.6649169921875,
+          "near_opaque_fraction_alpha_ge_240": 0.30275599161783856,
+          "subject_bbox_alpha_ge_128": [
+            187,
+            18,
+            769,
+            1505
+          ],
+          "subject_margins_ltrb_px": [
+            187,
+            18,
+            255,
+            31
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v4_deebee_reference_v4_png",
+        "subject_id": "deebee",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "deebee_skin_01",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters_v4/hoffman_reference_v4.png",
+        "state": "active",
+        "sha256": "5349cae7484740521a710901c0429de1d0b3b8d170691c32f12af51d092a0e3f",
+        "size_bytes": 2174103,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.5887298583984375,
+          "near_opaque_fraction_alpha_ge_240": 0.3911914825439453,
+          "subject_bbox_alpha_ge_128": [
+            151,
+            7,
+            841,
+            1528
+          ],
+          "subject_margins_ltrb_px": [
+            151,
+            7,
+            183,
+            8
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v4_hoffman_reference_v4_png",
+        "subject_id": "hoffman",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "hoffman_skin_01",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters_v4/keegan_reference_v4.png",
+        "state": "active",
+        "sha256": "120700af3f9126d700e0139eeaa1c0b8444d77837250949e8180309df804754d",
+        "size_bytes": 2200279,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.5974114735921224,
+          "near_opaque_fraction_alpha_ge_240": 0.3790842692057292,
+          "subject_bbox_alpha_ge_128": [
+            142,
+            11,
+            846,
+            1525
+          ],
+          "subject_margins_ltrb_px": [
+            142,
+            11,
+            178,
+            11
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v4_keegan_reference_v4_png",
+        "subject_id": "keegan",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "keegan_skin_01",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters_v4/mac_reference_v4.png",
+        "state": "active",
+        "sha256": "a08888becee515c6971948b9fd17fdbfc30589cb725854f6cd169ddf9b720f29",
+        "size_bytes": 1917835,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.6873550415039062,
+          "near_opaque_fraction_alpha_ge_240": 0.2917054494222005,
+          "subject_bbox_alpha_ge_128": [
+            229,
+            8,
+            775,
+            1527
+          ],
+          "subject_margins_ltrb_px": [
+            229,
+            8,
+            249,
+            9
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v4_mac_reference_v4_png",
+        "subject_id": "mac",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "mac_skin_01",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters_v4/mikayla_reference_v4.png",
+        "state": "active",
+        "sha256": "019312297e1067873ebdcbaa6dd0cb7ff40d2e8e2e3d544dbde8a0060adbb323",
+        "size_bytes": 1907684,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.7046769460042318,
+          "near_opaque_fraction_alpha_ge_240": 0.27178700764973956,
+          "subject_bbox_alpha_ge_128": [
+            233,
+            5,
+            775,
+            1524
+          ],
+          "subject_margins_ltrb_px": [
+            233,
+            5,
+            249,
+            12
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v4_mikayla_reference_v4_png",
+        "subject_id": "mikayla",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "alternate_candidate"
+      },
+      {
+        "path": "assets/characters_v4/sam_reference_v4.png",
+        "state": "active",
+        "sha256": "9e7f77fc70ece0fecb2c51ae72a085ef398a1d4955de1fb4bda8e024f249af2c",
+        "size_bytes": 1897857,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.6859614054361979,
+          "near_opaque_fraction_alpha_ge_240": 0.28900782267252606,
+          "subject_bbox_alpha_ge_128": [
+            182,
+            8,
+            733,
+            1524
+          ],
+          "subject_margins_ltrb_px": [
+            182,
+            8,
+            291,
+            12
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v4_sam_reference_v4_png",
+        "subject_id": "sam",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "alternate_candidate"
+      },
+      {
+        "path": "assets/characters_v4/ukkon_reference_v4.png",
+        "state": "active",
+        "sha256": "330d5a422c922cee22f9b2776ef39f6d477ae41049fb26b2f390effcb317d212",
+        "size_bytes": 1976711,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.6743183135986328,
+          "near_opaque_fraction_alpha_ge_240": 0.30541102091471356,
+          "subject_bbox_alpha_ge_128": [
+            229,
+            10,
+            761,
+            1524
+          ],
+          "subject_margins_ltrb_px": [
+            229,
+            10,
+            263,
+            12
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v4_ukkon_reference_v4_png",
+        "subject_id": "ukkon",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "alternate_candidate"
+      },
+      {
+        "path": "assets/characters_v5/dom_gow1_fullbody.png",
+        "state": "active",
+        "sha256": "1c478f811a1a5001d757bd947ae95faf8439cbbdb20a9683eb0ce3b946cb3235",
+        "size_bytes": 2066461,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.6021149953206381,
+          "near_opaque_fraction_alpha_ge_240": 0.3764801025390625,
+          "subject_bbox_alpha_ge_128": [
+            168,
+            18,
+            851,
+            1491
+          ],
+          "subject_margins_ltrb_px": [
+            168,
+            18,
+            173,
+            45
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v5_dom_gow1_fullbody_png",
+        "subject_id": "dom",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "dom_skin_02",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters_v5/raam_gow1_fullbody.png",
+        "state": "active",
+        "sha256": "d5090cda44057420ff40438a3e3f8d18c94167b95e1bed83a04fc6b2bcd97f95",
+        "size_bytes": 2459409,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.49902979532877606,
+          "near_opaque_fraction_alpha_ge_240": 0.47677866617838544,
+          "subject_bbox_alpha_ge_128": [
+            103,
+            28,
+            923,
+            1520
+          ],
+          "subject_margins_ltrb_px": [
+            103,
+            28,
+            101,
+            16
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v5_raam_gow1_fullbody_png",
+        "subject_id": "raam",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "raam_skin_01",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters_v5/theron_gow1_fullbody.png",
+        "state": "active",
+        "sha256": "3e1f27f699f4a64f413ec79cc6c315e7faedd621747365d1e221d34ce5d7067a",
+        "size_bytes": 2397881,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.5211416880289713,
+          "near_opaque_fraction_alpha_ge_240": 0.4524161020914714,
+          "subject_bbox_alpha_ge_128": [
+            148,
+            13,
+            853,
+            1522
+          ],
+          "subject_margins_ltrb_px": [
+            148,
+            13,
+            171,
+            14
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v5_theron_gow1_fullbody_png",
+        "subject_id": "theron",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": null
+      },
+      {
+        "path": "assets/characters_v6/alicia_valera_gow3_fullbody.png",
+        "state": "active",
+        "sha256": "cd2041be040950212eb82040685add181c11125add7113c7a7dd48458fcb07fb",
+        "size_bytes": 1965542,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.7037576039632162,
+          "near_opaque_fraction_alpha_ge_240": 0.268832524617513,
+          "subject_bbox_alpha_ge_128": [
+            201,
+            18,
+            798,
+            1514
+          ],
+          "subject_margins_ltrb_px": [
+            201,
+            18,
+            226,
+            22
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v6_alicia_valera_gow3_fullbody_png",
+        "subject_id": "alicia_valera",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "alternate_version",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": null
+      },
+      {
+        "path": "assets/characters_v6/boomer_tactics_fullbody.png",
+        "state": "active",
+        "sha256": "8908c4b6b515ba8fbb7039042b8211b1dc80cb7caa4190b983252fc52517f9a5",
+        "size_bytes": 2522639,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.5067882537841797,
+          "near_opaque_fraction_alpha_ge_240": 0.47549883524576825,
+          "subject_bbox_alpha_ge_128": [
+            96,
+            92,
+            942,
+            1484
+          ],
+          "subject_margins_ltrb_px": [
+            96,
+            92,
+            82,
+            52
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v6_boomer_tactics_fullbody_png",
+        "subject_id": "boomer_tactics",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": null
+      },
+      {
+        "path": "assets/characters_v6/dizzy_gow2_fullbody.png",
+        "state": "active",
+        "sha256": "8d9a5ead61a44d0ffa11518e3b656a364bc7624dd68b4ea02bf939af1dc0108a",
+        "size_bytes": 2221998,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.5992870330810547,
+          "near_opaque_fraction_alpha_ge_240": 0.3767210642496745,
+          "subject_bbox_alpha_ge_128": [
+            169,
+            17,
+            858,
+            1523
+          ],
+          "subject_margins_ltrb_px": [
+            169,
+            17,
+            166,
+            13
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v6_dizzy_gow2_fullbody_png",
+        "subject_id": "dizzy",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "dizzy_skin_01",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/characters_v7/ezra_loomis_judgment_fullbody.png",
+        "state": "active",
+        "sha256": "5ce968519e80a9de658cb22cec1a944f171d39e5a54b8c1ad7d6d536c769a921",
+        "size_bytes": 1660674,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.7487653096516927,
+          "near_opaque_fraction_alpha_ge_240": 0.2371985117594401,
+          "subject_bbox_alpha_ge_128": [
+            283,
+            149,
+            740,
+            1468
+          ],
+          "subject_margins_ltrb_px": [
+            283,
+            149,
+            284,
+            68
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v7_ezra_loomis_judgment_fullbody_png",
+        "subject_id": "ezra_loomis",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": null
+      },
+      {
+        "path": "assets/characters_v7/michael_barrick_gow3_raams_shadow_fullbody.png",
+        "state": "active",
+        "sha256": "3c9482aaa81b12f1e16f6c5f5a9b2307d611f4e85dad779aaaa2617a23088658",
+        "size_bytes": 2264614,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.5805263519287109,
+          "near_opaque_fraction_alpha_ge_240": 0.39604759216308594,
+          "subject_bbox_alpha_ge_128": [
+            128,
+            29,
+            902,
+            1508
+          ],
+          "subject_margins_ltrb_px": [
+            128,
+            29,
+            122,
+            28
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v7_michael_barrick_gow3_raams_shadow_fullbody_png",
+        "subject_id": "michael_barrick",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "alternate_version",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": null
+      },
+      {
+        "path": "assets/costumes_v6/mac_mechanic_gears5_fullbody.png",
+        "state": "active",
+        "sha256": "1e7081bead984e0f32381aebeaa90c70e80228942c0c8b42564eee002f8baa1c",
+        "size_bytes": 1912084,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.6572049458821615,
+          "near_opaque_fraction_alpha_ge_240": 0.31765492757161456,
+          "subject_bbox_alpha_ge_128": [
+            204,
+            33,
+            827,
+            1513
+          ],
+          "subject_margins_ltrb_px": [
+            204,
+            33,
+            197,
+            23
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_costumes_v6_mac_mechanic_gears5_fullbody_png",
+        "subject_id": "mac_skin_02",
+        "category": "costume",
+        "purpose": "costume_reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "mac_skin_02"
+      },
+      {
+        "path": "assets/costumes_v7/cole_thrashball_gow3_fullbody.png",
+        "state": "active",
+        "sha256": "5587acefc8ee841d89844a012f50d0240d48b1c1a3a0aba9daeadcfdbf9abb7a",
+        "size_bytes": 2291429,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.582366943359375,
+          "near_opaque_fraction_alpha_ge_240": 0.3916136423746745,
+          "subject_bbox_alpha_ge_128": [
+            161,
+            21,
+            897,
+            1512
+          ],
+          "subject_margins_ltrb_px": [
+            161,
+            21,
+            127,
+            24
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_costumes_v7_cole_thrashball_gow3_fullbody_png",
+        "subject_id": "cole_skin_03",
+        "category": "costume",
+        "purpose": "costume_reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "cole_skin_03"
+      },
+      {
+        "path": "assets/kait_neutral_cutout.png",
+        "state": "active",
+        "sha256": "1435d8506385ec4b97add0b61b1d75fc23e211f6f3c2a93cfe31e7594c5629ce",
+        "size_bytes": 1896894,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.6886425018310547,
+          "near_opaque_fraction_alpha_ge_240": 0.2949085235595703,
+          "subject_bbox_alpha_ge_128": [
+            226,
+            7,
+            735,
+            1512
+          ],
+          "subject_margins_ltrb_px": [
+            226,
+            7,
+            289,
+            24
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_kait_neutral_cutout_png",
+        "subject_id": "kait",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "kait_skin_02",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "path": "assets/kait_reference.png",
+        "state": "active",
+        "sha256": "e6c225a9a337b4ebfd362892eb1f6718bb7adee7129ab76c8b7bb1780591d2a2",
+        "size_bytes": 2064066,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB",
+        "format": "PNG",
+        "alpha": null,
+        "has_transparency": false,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_kait_reference_png",
+        "subject_id": "kait",
+        "category": "character",
+        "purpose": "presentation",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "alternate_candidate"
+      },
+      {
+        "path": "assets/marcus_neutral_cutout.png",
+        "state": "active",
+        "sha256": "ff56c1c274bf365a45912c1ec2507ebe47a21b8e738c3ebe415df017f792c3ba",
+        "size_bytes": 2090086,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.6060899098714193,
+          "near_opaque_fraction_alpha_ge_240": 0.3756879170735677,
+          "subject_bbox_alpha_ge_128": [
+            183,
+            8,
+            814,
+            1522
+          ],
+          "subject_margins_ltrb_px": [
+            183,
+            8,
+            210,
+            14
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_marcus_neutral_cutout_png",
+        "subject_id": "marcus",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "alternate_version",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference"
+      },
+      {
+        "path": "assets/marcus_reference.png",
+        "state": "active",
+        "sha256": "972f9c12e254f9fa1433cc0f16cf688060c646b94a6dc8dd0599aa4ab4cdee64",
+        "size_bytes": 2125170,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB",
+        "format": "PNG",
+        "alpha": null,
+        "has_transparency": false,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_marcus_reference_png",
+        "subject_id": "marcus",
+        "category": "character",
+        "purpose": "presentation",
+        "variant_relation": "alternate_version",
+        "quality_state": "candidate",
+        "selection_status": "alternate_candidate"
+      },
+      {
+        "path": "assets/stage_ephyra.png",
+        "state": "active",
+        "sha256": "3e5dc9544ded1a605efbcbbb0bed1125001aa0b8d5ca2cae49033ba24deb6ff3",
+        "size_bytes": 2929191,
+        "width": 1897,
+        "height": 829,
+        "mode": "RGB",
+        "format": "PNG",
+        "alpha": null,
+        "has_transparency": false,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_stage_ephyra_png",
+        "subject_id": "stage_ephyra",
+        "category": "stage",
+        "purpose": "stage_master",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference"
+      },
+      {
+        "path": "assets/stage_hollow.png",
+        "state": "active",
+        "sha256": "3b3c83e38bdf15c32ee58c269b8aa55e8e7eea5072cb344229fd92f21a5f03c0",
+        "size_bytes": 2601816,
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "format": "PNG",
+        "alpha": null,
+        "has_transparency": false,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_stage_hollow_png",
+        "subject_id": "stage_hollow",
+        "category": "stage",
+        "purpose": "stage_master",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference"
+      },
+      {
+        "path": "assets/stages_v6/gridlock_gow4_master.png",
+        "state": "active",
+        "sha256": "6fbba543e665f1ffd101cfe4aabafc8fef17e558863bb93008bef64d3f4a48d6",
+        "size_bytes": 3194493,
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "format": "PNG",
+        "alpha": null,
+        "has_transparency": false,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_stages_v6_gridlock_gow4_master_png",
+        "subject_id": "stage_gridlock_gow4",
+        "category": "stage",
+        "purpose": "stage_master",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": null
+      },
+      {
+        "path": "assets/stages_v7/dawn_gears5_master.png",
+        "state": "active",
+        "sha256": "64e66a7c8e1ab4189bc157e66492da431368fe27c79c80a71cd8adf9a15cd027",
+        "size_bytes": 3266597,
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "format": "PNG",
+        "alpha": null,
+        "has_transparency": false,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_stages_v7_dawn_gears5_master_png",
+        "subject_id": "stage_dawn_g5",
+        "category": "stage",
+        "purpose": "stage_master",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": null
+      },
+      {
+        "path": "assets/stages_v7/village_gears5_master.png",
+        "state": "active",
+        "sha256": "cc1d5eef4b703eb52dc4d6e669cd2a195e87bd78a0bd9833e889b2ad5dd62b76",
+        "size_bytes": 3101669,
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "format": "PNG",
+        "alpha": null,
+        "has_transparency": false,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_stages_v7_village_gears5_master_png",
+        "subject_id": "stage_village_g5",
+        "category": "stage",
+        "purpose": "stage_master",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": null
+      },
+      {
+        "path": "rejected_candidates/characters_20261119/clayton_carmine_gears3_reference_fullbody_v01.png",
+        "state": "archived",
+        "sha256": "41a7944d366e62fb101fa2332b26bec403e1134d23a2bec5d4ad69bacd834b29",
+        "size_bytes": 1712438,
+        "width": 1017,
+        "height": 1547,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 255,
+          "fully_transparent_fraction": 0.5921862277926828,
+          "near_opaque_fraction_alpha_ge_240": 0.38546455568839744,
+          "subject_bbox_alpha_ge_128": [
+            163,
+            9,
+            862,
+            1534
+          ],
+          "subject_margins_ltrb_px": [
+            163,
+            9,
+            155,
+            13
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true
+      },
+      {
+        "path": "rejected_candidates/characters_20261119/theron_guard_gears3_reference_fullbody_v01.png",
+        "state": "archived",
+        "sha256": "04379ec00bf3581352b0183487fcafe4dab6aa42c7df6067e4df0ce552697a8b",
+        "size_bytes": 2595880,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.49876149495442706,
+          "near_opaque_fraction_alpha_ge_240": 0.46922556559244794,
+          "subject_bbox_alpha_ge_128": [
+            132,
+            25,
+            920,
+            1502
+          ],
+          "subject_margins_ltrb_px": [
+            132,
+            25,
+            104,
+            34
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true
+      },
+      {
+        "path": "rejected_candidates/characters_20261119/ukkon_tactics_reference_fullbody_v01.png",
+        "state": "archived",
+        "sha256": "10990976847e8e9520ca2ec7f8bf5ec35d09daa1e267b9c0397c8ce24ba17aa8",
+        "size_bytes": 2449010,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.5024255116780599,
+          "near_opaque_fraction_alpha_ge_240": 0.4731591542561849,
+          "subject_bbox_alpha_ge_128": [
+            133,
+            5,
+            845,
+            1525
+          ],
+          "subject_margins_ltrb_px": [
+            133,
+            5,
+            179,
+            11
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true
+      },
+      {
+        "path": "rejected_candidates/characters_v2/baird_reference_v2.png",
+        "state": "archived",
+        "sha256": "2f3ffdd8ef8ddffd428d706364431e5a4ff49ba4054cb25106bbc2fa7931ae36",
+        "size_bytes": 2199478,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.6150455474853516,
+          "near_opaque_fraction_alpha_ge_240": 0.3612740834554036,
+          "subject_bbox_alpha_ge_128": [
+            158,
+            10,
+            834,
+            1530
+          ],
+          "subject_margins_ltrb_px": [
+            158,
+            10,
+            190,
+            6
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true
+      },
+      {
+        "path": "rejected_candidates/characters_v2/del_reference_v2.png",
+        "state": "archived",
+        "sha256": "a9a8fe6eff272087a2ea1e0a466d8027db60aea41d75c7ed0a3bdc9731cc3648",
+        "size_bytes": 2033720,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.6389923095703125,
+          "near_opaque_fraction_alpha_ge_240": 0.3400433858235677,
+          "subject_bbox_alpha_ge_128": [
+            190,
+            9,
+            800,
+            1528
+          ],
+          "subject_margins_ltrb_px": [
+            190,
+            9,
+            224,
+            8
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true
+      },
+      {
+        "path": "rejected_candidates/characters_v2/jack_reference_v2.png",
+        "state": "archived",
+        "sha256": "f4056e5c5524959aae93768a01298baec05ec4e87b6727c1f7382f880223dc36",
+        "size_bytes": 2146356,
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.5976079305013021,
+          "near_opaque_fraction_alpha_ge_240": 0.3758379618326823,
+          "subject_bbox_alpha_ge_128": [
+            41,
+            56,
+            1472,
+            935
+          ],
+          "subject_margins_ltrb_px": [
+            41,
+            56,
+            64,
+            89
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true
+      },
+      {
+        "path": "rejected_candidates/characters_v2/kantus_reference_v2.png",
+        "state": "archived",
+        "sha256": "d8b4e86f04716870b83db4fbb2b4e7a22f28589ccf9daa8e6f02a18e733b2247",
+        "size_bytes": 1870901,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.7067578633626302,
+          "near_opaque_fraction_alpha_ge_240": 0.2626330057779948,
+          "subject_bbox_alpha_ge_128": [
+            239,
+            16,
+            766,
+            1523
+          ],
+          "subject_margins_ltrb_px": [
+            239,
+            16,
+            258,
+            13
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true
+      },
+      {
+        "path": "rejected_candidates/characters_v2/paduk_reference_v2.png",
+        "state": "archived",
+        "sha256": "fd61ccaea1bdc2aaa96f75bc5f00c5c2c0cf9b87db7ffb0e0a087a25664aebf2",
+        "size_bytes": 2232286,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.5841255187988281,
+          "near_opaque_fraction_alpha_ge_240": 0.39092381795247394,
+          "subject_bbox_alpha_ge_128": [
+            137,
+            12,
+            845,
+            1524
+          ],
+          "subject_margins_ltrb_px": [
+            137,
+            12,
+            179,
+            12
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true
+      },
+      {
+        "path": "rejected_candidates/characters_v2/reyna_reference_v2.png",
+        "state": "archived",
+        "sha256": "6eb0c6d51e4ba022afb421c55714989e23f6071222ab45169a4bbddf8b44132a",
+        "size_bytes": 2099334,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.6563529968261719,
+          "near_opaque_fraction_alpha_ge_240": 0.32216644287109375,
+          "subject_bbox_alpha_ge_128": [
+            208,
+            10,
+            750,
+            1520
+          ],
+          "subject_margins_ltrb_px": [
+            208,
+            10,
+            274,
+            16
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true
+      },
+      {
+        "path": "rejected_candidates/characters_v2/sid_reference_v2.png",
+        "state": "archived",
+        "sha256": "8c9ba03f8864947dbf529778d52506bf1dcc3a8c67a87a0f0b76a2ec4d624beb",
+        "size_bytes": 2461184,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.5334949493408203,
+          "near_opaque_fraction_alpha_ge_240": 0.4436149597167969,
+          "subject_bbox_alpha_ge_128": [
+            109,
+            12,
+            868,
+            1527
+          ],
+          "subject_margins_ltrb_px": [
+            109,
+            12,
+            156,
+            9
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true
+      },
+      {
+        "path": "rejected_candidates/characters_v2/skorge_reference_v2.png",
+        "state": "archived",
+        "sha256": "34da8e10bde1b68ee4f68870394f63bca8743d8af855af22a615f7078e394fa5",
+        "size_bytes": 2025822,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.6865558624267578,
+          "near_opaque_fraction_alpha_ge_240": 0.2718098958333333,
+          "subject_bbox_alpha_ge_128": [
+            206,
+            9,
+            766,
+            1513
+          ],
+          "subject_margins_ltrb_px": [
+            206,
+            9,
+            258,
+            23
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true
+      },
+      {
+        "path": "rejected_candidates/characters_v2/sofia_reference_v2.png",
+        "state": "archived",
+        "sha256": "d28228ef9fbbbce3c0ed2e79f7aae0bdb4c8ffe8cd7ce851d8a405ad1ea47d52",
+        "size_bytes": 1738551,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.7138487497965494,
+          "near_opaque_fraction_alpha_ge_240": 0.2654584248860677,
+          "subject_bbox_alpha_ge_128": [
+            240,
+            6,
+            750,
+            1521
+          ],
+          "subject_margins_ltrb_px": [
+            240,
+            6,
+            274,
+            15
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true
+      }
+    ]
+  },
+  "costume_link_audit": {
+    "count": 34,
+    "no_image_duplication": true,
+    "checked_unchanged_fields": [
+      "sha256",
+      "subject_id",
+      "category",
+      "purpose",
+      "quality_state",
+      "variant_relation",
+      "metadata_records",
+      "qa_notes",
+      "canonical_fidelity_validated",
+      "production_ready",
+      "animation_status"
+    ],
+    "all_checks_passed": true,
+    "links": [
+      {
+        "asset_path": "assets/characters_v5/dom_gow1_fullbody.png",
+        "costume_id": "dom_skin_02",
+        "character_id": "dom",
+        "source_record_path": "data/generation_v5/dom_record.json",
+        "all_checks_passed": true,
+        "quality_state": "candidate",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/characters_v2/baird_reference_v3.png",
+        "costume_id": "baird_skin_03",
+        "character_id": "baird",
+        "source_record_path": "production/history/initial_2026-11-19/assets_manifest.json",
+        "all_checks_passed": true,
+        "quality_state": "candidate",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/characters_v4/cole_reference_v4.png",
+        "costume_id": "cole_skin_02",
+        "character_id": "cole",
+        "source_record_path": "data/generation_v4/result_cole.json",
+        "all_checks_passed": true,
+        "quality_state": "candidate",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/characters/anya_stroud/gears3/reference_fullbody_v01.png",
+        "costume_id": "anya_skin_02",
+        "character_id": "anya",
+        "source_record_path": "production/history/reprise_2026-11-19/production/asset_manifest.json",
+        "all_checks_passed": true,
+        "quality_state": "candidate",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/kait_neutral_cutout.png",
+        "costume_id": "kait_skin_02",
+        "character_id": "kait",
+        "source_record_path": "production/history/initial_2026-11-19/assets_manifest.json",
+        "all_checks_passed": true,
+        "quality_state": "candidate",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/characters_v5/raam_gow1_fullbody.png",
+        "costume_id": "raam_skin_01",
+        "character_id": "raam",
+        "source_record_path": "data/generation_v5/raam_record.json",
+        "all_checks_passed": true,
+        "quality_state": "candidate",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/characters_v2/skorge_reference_v3.png",
+        "costume_id": "skorge_skin_01",
+        "character_id": "skorge",
+        "source_record_path": "production/history/initial_2026-11-19/assets_manifest.json",
+        "all_checks_passed": true,
+        "quality_state": "correction_required",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/characters/myrrah/gears3/reference_fullbody_v01.png",
+        "costume_id": "myrrah_skin_01",
+        "character_id": "myrrah",
+        "source_record_path": "production/history/reprise_2026-11-19/production/asset_manifest.json",
+        "all_checks_passed": true,
+        "quality_state": "candidate",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/characters_v2/locust_drone_reference_v2.png",
+        "costume_id": "locust_drone_skin_01",
+        "character_id": "locust_drone",
+        "source_record_path": "production/history/initial_2026-11-19/assets_manifest.json",
+        "all_checks_passed": true,
+        "quality_state": "candidate",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/characters_v2/kantus_reference_v3.png",
+        "costume_id": "kantus_skin_01",
+        "character_id": "kantus",
+        "source_record_path": "production/history/initial_2026-11-19/assets_manifest.json",
+        "all_checks_passed": true,
+        "quality_state": "candidate",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/characters_v2/jd_reference_v2.png",
+        "costume_id": "jd_skin_03",
+        "character_id": "jd",
+        "source_record_path": "production/history/initial_2026-11-19/assets_manifest.json",
+        "all_checks_passed": true,
+        "quality_state": "candidate",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/characters_v2/del_reference_v3.png",
+        "costume_id": "del_skin_02",
+        "character_id": "del",
+        "source_record_path": "production/history/initial_2026-11-19/assets_manifest.json",
+        "all_checks_passed": true,
+        "quality_state": "correction_required",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/characters/fahz_chutani/gears5/reference_fullbody_v01.png",
+        "costume_id": "fahz_skin_01",
+        "character_id": "fahz",
+        "source_record_path": "production/history/reprise_2026-11-19/production/asset_manifest.json",
+        "all_checks_passed": true,
+        "quality_state": "candidate",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/characters/clayton_carmine/gears3/reference_fullbody_v02.png",
+        "costume_id": "clayton_skin_01",
+        "character_id": "clayton",
+        "source_record_path": "production/history/reprise_2026-11-19/production/asset_manifest.json",
+        "all_checks_passed": true,
+        "quality_state": "candidate",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/characters_v2/lizzie_reference_v2.png",
+        "costume_id": "lizzie_skin_01",
+        "character_id": "lizzie",
+        "source_record_path": "production/history/initial_2026-11-19/assets_manifest.json",
+        "all_checks_passed": true,
+        "quality_state": "correction_required",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/characters_v4/hoffman_reference_v4.png",
+        "costume_id": "hoffman_skin_01",
+        "character_id": "hoffman",
+        "source_record_path": "data/generation_v4/result_hoffman.json",
+        "all_checks_passed": true,
+        "quality_state": "candidate",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/characters/tai_kaliso/gears2/reference_fullbody_v01.png",
+        "costume_id": "tai_skin_01",
+        "character_id": "tai",
+        "source_record_path": "production/history/reprise_2026-11-19/production/asset_manifest.json",
+        "all_checks_passed": true,
+        "quality_state": "candidate",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/characters_v6/dizzy_gow2_fullbody.png",
+        "costume_id": "dizzy_skin_01",
+        "character_id": "dizzy",
+        "source_record_path": "data/generation_v6/dizzy_record.json",
+        "all_checks_passed": true,
+        "quality_state": "candidate",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/characters/samantha_byrne/gears3/reference_fullbody_v01.png",
+        "costume_id": "sam_skin_01",
+        "character_id": "sam",
+        "source_record_path": "production/history/reprise_2026-11-19/production/asset_manifest.json",
+        "all_checks_passed": true,
+        "quality_state": "candidate",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/characters_v2/paduk_reference_v3.png",
+        "costume_id": "paduk_skin_01",
+        "character_id": "paduk",
+        "source_record_path": "production/history/initial_2026-11-19/assets_manifest.json",
+        "all_checks_passed": true,
+        "quality_state": "candidate",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/characters_v2/sofia_reference_v3.png",
+        "costume_id": "sofia_skin_01",
+        "character_id": "sofia",
+        "source_record_path": "production/history/initial_2026-11-19/assets_manifest.json",
+        "all_checks_passed": true,
+        "quality_state": "candidate",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/characters/gabriel_diaz/tactics/reference_fullbody_v01.png",
+        "costume_id": "gabe_skin_01",
+        "character_id": "gabe",
+        "source_record_path": "production/history/reprise_2026-11-19/production/asset_manifest.json",
+        "all_checks_passed": true,
+        "quality_state": "candidate",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/characters_v2/sid_reference_v3.png",
+        "costume_id": "sid_skin_01",
+        "character_id": "sid",
+        "source_record_path": "production/history/initial_2026-11-19/assets_manifest.json",
+        "all_checks_passed": true,
+        "quality_state": "candidate",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/characters/mikayla_dorn/tactics/reference_fullbody_v01.png",
+        "costume_id": "mikayla_skin_01",
+        "character_id": "mikayla",
+        "source_record_path": "production/history/reprise_2026-11-19/production/asset_manifest.json",
+        "all_checks_passed": true,
+        "quality_state": "candidate",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/characters_v2/reyna_reference_v3.png",
+        "costume_id": "reyna_skin_01",
+        "character_id": "reyna",
+        "source_record_path": "production/history/initial_2026-11-19/assets_manifest.json",
+        "all_checks_passed": true,
+        "quality_state": "correction_required",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/characters/lahni_kaliso/gears5_hivebuster/reference_fullbody_v01.png",
+        "costume_id": "lahni_skin_02",
+        "character_id": "lahni",
+        "source_record_path": "production/history/reprise_2026-11-19/production/asset_manifest.json",
+        "all_checks_passed": true,
+        "quality_state": "candidate",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/characters_v4/keegan_reference_v4.png",
+        "costume_id": "keegan_skin_01",
+        "character_id": "keegan",
+        "source_record_path": "data/generation_v4/result_keegan.json",
+        "all_checks_passed": true,
+        "quality_state": "candidate",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/characters_v4/mac_reference_v4.png",
+        "costume_id": "mac_skin_01",
+        "character_id": "mac",
+        "source_record_path": "data/generation_v4/result_mac.json",
+        "all_checks_passed": true,
+        "quality_state": "candidate",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/characters_v2/jack_reference_v3.png",
+        "costume_id": "jack_skin_01",
+        "character_id": "jack",
+        "source_record_path": "production/history/initial_2026-11-19/assets_manifest.json",
+        "all_checks_passed": true,
+        "quality_state": "candidate",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/characters_v4/deebee_reference_v4.png",
+        "costume_id": "deebee_skin_01",
+        "character_id": "deebee",
+        "source_record_path": "data/generation_v4/result_deebee.json",
+        "all_checks_passed": true,
+        "quality_state": "candidate",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/characters/warden/gears5/reference_fullbody_v01.png",
+        "costume_id": "warden_skin_01",
+        "character_id": "warden",
+        "source_record_path": "production/history/reprise_2026-11-19/production/asset_manifest.json",
+        "all_checks_passed": true,
+        "quality_state": "candidate",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/characters_v2/swarm_drone_reference_v2.png",
+        "costume_id": "swarm_drone_skin_01",
+        "character_id": "swarm_drone",
+        "source_record_path": "production/history/initial_2026-11-19/assets_manifest.json",
+        "all_checks_passed": true,
+        "quality_state": "candidate",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/characters/ukkon/tactics/reference_fullbody_v02.png",
+        "costume_id": "ukkon_skin_01",
+        "character_id": "ukkon",
+        "source_record_path": "production/history/reprise_2026-11-19/production/asset_manifest.json",
+        "all_checks_passed": true,
+        "quality_state": "candidate",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      },
+      {
+        "asset_path": "assets/characters_v2/grenadier_reference_v2.png",
+        "costume_id": "grenadier_skin_01",
+        "character_id": "grenadier",
+        "source_record_path": "production/history/initial_2026-11-19/assets_manifest.json",
+        "all_checks_passed": true,
+        "quality_state": "candidate",
+        "character_variant_relation": "target_version_candidate",
+        "costume_variant_relation": "target_version_candidate"
+      }
+    ]
+  },
+  "coverage_by_target_version": {
+    "characters": {
+      "entries": 36,
+      "with_any_reference": 36,
+      "with_target_version_candidate": 35,
+      "selected_variant_relations": {
+        "alternate_version": 1,
+        "target_version_candidate": 34,
+        "edition_unverified": 1
+      }
+    },
+    "production_characters": {
+      "entries": 20,
+      "with_any_reference": 4,
+      "with_target_version_candidate": 2,
+      "selected_variant_relations": {
+        "missing": 16,
+        "alternate_version": 2,
+        "target_version_candidate": 2
+      }
+    },
+    "costumes": {
+      "entries": 85,
+      "with_any_reference": 36,
+      "with_target_version_candidate": 36,
+      "selected_variant_relations": {
+        "missing": 49,
+        "target_version_candidate": 36
+      }
+    },
+    "bosses": {
+      "entries": 31,
+      "with_any_reference": 6,
+      "with_target_version_candidate": 6,
+      "selected_variant_relations": {
+        "missing": 25,
+        "target_version_candidate": 6
+      }
+    },
+    "stages": {
+      "entries": 34,
+      "with_any_reference": 4,
+      "with_target_version_candidate": 4,
+      "selected_variant_relations": {
+        "missing": 30,
+        "target_version_candidate": 4
+      }
+    },
+    "additional_references": {
+      "entries": 1,
+      "with_any_reference": 1,
+      "with_target_version_candidate": 1,
+      "selected_variant_relations": {
+        "target_version_candidate": 1
+      }
+    }
+  },
+  "barrick_version_status": {
+    "catalog_target_game": "Gears 5 — Operation 8 Drop 2",
+    "generated_source_game": "Gears of War 3 — RAAM's Shadow",
+    "selected_variant_relation": "alternate_version",
+    "target_version_candidate_available": false,
+    "note": "GoW3 RAAMs Shadow historical reference; the Gears5 catalog target remains missing."
+  },
+  "shibboleth_component_status": {
+    "subject_id": "boss_shibboleth",
+    "catalog_name": "Karn sur Shibboleth",
+    "source_game": "Gears of War Judgment",
+    "component_scope": "mount_only",
+    "composite_boss_complete": false,
+    "note": "The boss reference count includes the mount alone. Karn, rider placement and the complete boss encounter remain unproduced."
+  },
+  "gallery": {
+    "javascript_syntax": [
+      {
+        "path": "Galerie_Personnages.html",
+        "script_index": 1,
+        "command": "node --check (JavaScript on stdin)",
+        "exit_code": 0,
+        "stderr": ""
+      },
+      {
+        "path": "src/gallery_template.html",
+        "script_index": 1,
+        "command": "node --check (JavaScript on stdin)",
+        "exit_code": 0,
+        "stderr": ""
+      }
+    ],
+    "embedded_catalog_matches": true,
+    "static_local_links_checked": 7,
+    "browser_visual_layout": "not_validated_browser_launch_previously_blocked",
+    "browser_retried_this_pass": false,
+    "browser_evidence_path": "prototype/qa/browser-report-v5.json",
+    "prior_browser_result": {
+      "date": "2026-11-20",
+      "status": "blocked_before_page_open",
+      "command": "node prototype/qa-browser.mjs",
+      "error": "Chromium process_singleton_posix socket() failed: Operation not permitted",
+      "page_opened": false,
+      "responsive_tested": false,
+      "hardware_gamepad_tested": false,
+      "fallback_evidence": "canvas-report-v5.json",
+      "notes": "No browser test is reported successful. Canvas and engine checks are tracked separately."
+    },
+    "static_local_paths": [
+      {
+        "path": "docs/production/CONSOLIDATION_2026-11-20.md",
+        "exists": true,
+        "kind": "file"
+      },
+      {
+        "path": "production/coverage.json",
+        "exists": true,
+        "kind": "file"
+      },
+      {
+        "path": "prototype/Gears_Combats_Prototype.html",
+        "exists": true,
+        "kind": "file"
+      },
+      {
+        "path": "livrables/",
+        "exists": true,
+        "kind": "directory"
+      },
+      {
+        "path": "production/asset_manifest.json",
+        "exists": true,
+        "kind": "file"
+      },
+      {
+        "path": "docs/production/VISUAL_QA_2026-11-19.md",
+        "exists": true,
+        "kind": "file"
+      },
+      {
+        "path": "docs/production/CONSOLIDATION_2026-11-20.md",
+        "exists": true,
+        "kind": "file"
+      }
+    ],
+    "directory_links_supported": true
+  },
+  "new_asset_visual_review": [
+    {
+      "path": "assets/costumes_v7/cole_thrashball_gow3_fullbody.png",
+      "journal": "data/generation_v7/cole_thrashball_record.json",
+      "subject_id": "cole_skin_03",
+      "visually_inspected_this_pass": true,
+      "inspection_method": "Six-asset contact sheet; RGBA images composited over white. Cole was also individually reviewed over white.",
+      "journal_description_consistent": true,
+      "observations": [
+        "One entire bald character, blue number 83 sports armor, gray trousers, shin protection, dark boots and helmet held at his left side.",
+        "White-background review confirms the cutout; face, team crests, seams and exact footwear remain unvalidated."
+      ],
+      "remaining_checks_from_journal": [
+        "Obtenir une planche complète face/dos du modèle final GoW3 directement créditée à Epic ou une capture en jeu de cette édition ; la provenance de la référence supérieure complémentaire reste incomplète.",
+        "Comparer précisément proportions du visage, petits emblèmes des Cougars, rivets, typographie 83, laçages et coutures avec le modèle final du jeu.",
+        "Contrôler les volumes des genouillères, les protège-tibias et la géométrie des deux bottes dans une vue debout : la référence intégrale fournie montre une jambe partiellement masquée par l'autre.",
+        "Préparer ensuite une garde latérale orientée vers la droite, des marges d'atlas suffisantes, les pivots et les animations. Cette image reste une référence statique."
+      ],
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "measured_output": {
+        "path": "assets/costumes_v7/cole_thrashball_gow3_fullbody.png",
+        "state": "active",
+        "sha256": "5587acefc8ee841d89844a012f50d0240d48b1c1a3a0aba9daeadcfdbf9abb7a",
+        "size_bytes": 2291429,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.582366943359375,
+          "near_opaque_fraction_alpha_ge_240": 0.3916136423746745,
+          "subject_bbox_alpha_ge_128": [
+            161,
+            21,
+            897,
+            1512
+          ],
+          "subject_margins_ltrb_px": [
+            161,
+            21,
+            127,
+            24
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_costumes_v7_cole_thrashball_gow3_fullbody_png",
+        "subject_id": "cole_skin_03",
+        "category": "costume",
+        "purpose": "costume_reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": "cole_skin_03"
+      }
+    },
+    {
+      "path": "assets/stages_v7/dawn_gears5_master.png",
+      "journal": "data/generation_v7/dawn_record.json",
+      "subject_id": "stage_dawn_g5",
+      "visually_inspected_this_pass": true,
+      "inspection_method": "Six-asset contact sheet; RGBA images composited over white. Cole was also individually reviewed over white.",
+      "journal_description_consistent": true,
+      "observations": [
+        "One opaque mining environment with large ribbed industrial structures, wooden huts, pale cliffs and clear lower floor.",
+        "A flattened stage master; side-view composition is adapted and not a complete playable map."
+      ],
+      "remaining_checks_from_journal": [
+        "Comparer les dimensions, implantations et détails des cabanes, machines et voies ferrées avec plusieurs vues de la map finale.",
+        "Séparer ciel, falaises, machines, cabanes, accessoires et sol en calques ; le master seul ne fournit aucune parallaxe.",
+        "Définir l’échelle des combattants et les limites de la scène ; topologie originale non reproduite à l’identique."
+      ],
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "measured_output": {
+        "path": "assets/stages_v7/dawn_gears5_master.png",
+        "state": "active",
+        "sha256": "64e66a7c8e1ab4189bc157e66492da431368fe27c79c80a71cd8adf9a15cd027",
+        "size_bytes": 3266597,
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "format": "PNG",
+        "alpha": null,
+        "has_transparency": false,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_stages_v7_dawn_gears5_master_png",
+        "subject_id": "stage_dawn_g5",
+        "category": "stage",
+        "purpose": "stage_master",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": null
+      }
+    },
+    {
+      "path": "assets/characters_v7/ezra_loomis_judgment_fullbody.png",
+      "journal": "data/generation_v7/ezra_loomis_record.json",
+      "subject_id": "ezra_loomis",
+      "visually_inspected_this_pass": true,
+      "inspection_method": "Six-asset contact sheet; RGBA images composited over white. Cole was also individually reviewed over white.",
+      "journal_description_consistent": true,
+      "observations": [
+        "One entire officer with crossed arms, moustache, high collar, cyan shoulder lights, dark dress armor and both boots.",
+        "Crossed arms obscure part of the chest as stated in the journal; insignia and likeness are not certified."
+      ],
+      "remaining_checks_from_journal": [
+        "Comparer le visage et la silhouette à des captures du jeu Judgment et à la planche originale de l'artiste.",
+        "Vérifier les emblèmes du col, le médaillon pectoral et la boucle, les gravures, rivets, coutures, genouillères et détails des bottes pièce par pièce.",
+        "Valider la couleur sous éclairage du jeu ; la lumière neutre de cette image n'est pas une capture du moteur original.",
+        "Préparer les vues de garde latérale, bras dégagés, orientations complémentaires, marges d'atlas, pivots et animations avant un usage jouable."
+      ],
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "measured_output": {
+        "path": "assets/characters_v7/ezra_loomis_judgment_fullbody.png",
+        "state": "active",
+        "sha256": "5ce968519e80a9de658cb22cec1a944f171d39e5a54b8c1ad7d6d536c769a921",
+        "size_bytes": 1660674,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.7487653096516927,
+          "near_opaque_fraction_alpha_ge_240": 0.2371985117594401,
+          "subject_bbox_alpha_ge_128": [
+            283,
+            149,
+            740,
+            1468
+          ],
+          "subject_margins_ltrb_px": [
+            283,
+            149,
+            284,
+            68
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v7_ezra_loomis_judgment_fullbody_png",
+        "subject_id": "ezra_loomis",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": null
+      }
+    },
+    {
+      "path": "assets/characters_v7/michael_barrick_gow3_raams_shadow_fullbody.png",
+      "journal": "data/generation_v7/michael_barrick_record.json",
+      "subject_id": "michael_barrick",
+      "visually_inspected_this_pass": true,
+      "inspection_method": "Six-asset contact sheet; RGBA images composited over white. Cole was also individually reviewed over white.",
+      "journal_description_consistent": true,
+      "observations": [
+        "One entire character with receding hair, thick sideburns, cigar, tattooed bare upper arms and two circular chest plates.",
+        "This is the GoW3 historical costume; it does not complete the Gears5 target."
+      ],
+      "remaining_checks_from_journal": [
+        "Comparer le visage, la répartition moustache/favoris et les tatouages de chaque bras à la planche et à des captures de RAAM's Shadow.",
+        "Contrôler le nombre et l'emplacement des rivets, plaques, marquages et accessoires, ainsi que les proportions de chaque pièce.",
+        "Ajouter une marge suffisante avant atlas, puis produire garde latérale, orientations complémentaires, pivots et animations.",
+        "Produire séparément la cible catalogue Gears 5 ; cette variante historique ne la valide pas."
+      ],
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "measured_output": {
+        "path": "assets/characters_v7/michael_barrick_gow3_raams_shadow_fullbody.png",
+        "state": "active",
+        "sha256": "3c9482aaa81b12f1e16f6c5f5a9b2307d611f4e85dad779aaaa2617a23088658",
+        "size_bytes": 2264614,
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fully_transparent_fraction": 0.5805263519287109,
+          "near_opaque_fraction_alpha_ge_240": 0.39604759216308594,
+          "subject_bbox_alpha_ge_128": [
+            128,
+            29,
+            902,
+            1508
+          ],
+          "subject_margins_ltrb_px": [
+            128,
+            29,
+            122,
+            28
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_characters_v7_michael_barrick_gow3_raams_shadow_fullbody_png",
+        "subject_id": "michael_barrick",
+        "category": "character",
+        "purpose": "reference_fullbody",
+        "variant_relation": "alternate_version",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": null
+      }
+    },
+    {
+      "path": "assets/bosses_v7/shibboleth_judgment_mount_only_fullbody.png",
+      "journal": "data/generation_v7/shibboleth_record.json",
+      "subject_id": "boss_shibboleth",
+      "visually_inspected_this_pass": true,
+      "inspection_method": "Six-asset contact sheet; RGBA images composited over white. Cole was also individually reviewed over white.",
+      "journal_description_consistent": true,
+      "observations": [
+        "One complete front-facing armored mount with distinct mechanical limb, visible cannons and all outer limb tips inside the frame.",
+        "Karn is absent. This is mount_only, not the complete composite boss encounter."
+      ],
+      "remaining_checks_from_journal": [
+        "Comparer les détails du modèle à des captures de Judgment et, si disponible, au rendu original de Kamil Kozlowski.",
+        "Vérifier les attaches de la patte mécanique, le nombre et les articulations des membres, les symboles, les armements et les proportions de la tête.",
+        "Créer séparément le cavalier Karn, puis contrôler sa posture, ses points d'attache et son échelle sur cette monture avant de déclarer le duo complet.",
+        "Produire les profils et les vues arrière documentés, préparer les marges d'atlas et contrôler les contours alpha avant animation.",
+        "Les attaques, phases, collisions et animations de la rencontre 2D restent à implémenter ; ce PNG ne les valide pas."
+      ],
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "measured_output": {
+        "path": "assets/bosses_v7/shibboleth_judgment_mount_only_fullbody.png",
+        "state": "active",
+        "sha256": "33ef7c43e29ce09164f65355436d6d72e215b3df8df2adc87806cacc8e031f12",
+        "size_bytes": 2813770,
+        "width": 1597,
+        "height": 985,
+        "mode": "RGBA",
+        "format": "PNG",
+        "alpha": {
+          "min": 0,
+          "max": 255,
+          "fully_transparent_fraction": 0.4131566484112025,
+          "near_opaque_fraction_alpha_ge_240": 0.5496384400954836,
+          "subject_bbox_alpha_ge_128": [
+            71,
+            30,
+            1543,
+            965
+          ],
+          "subject_margins_ltrb_px": [
+            71,
+            30,
+            54,
+            20
+          ]
+        },
+        "has_transparency": true,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_bosses_v7_shibboleth_judgment_mount_only_fullbody_png",
+        "subject_id": "boss_shibboleth",
+        "category": "boss",
+        "purpose": "reference_fullbody",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": null
+      }
+    },
+    {
+      "path": "assets/stages_v7/village_gears5_master.png",
+      "journal": "data/generation_v7/village_record.json",
+      "subject_id": "stage_village_g5",
+      "visually_inspected_this_pass": true,
+      "inspection_method": "Six-asset contact sheet; RGBA images composited over white. Cole was also individually reviewed over white.",
+      "journal_description_consistent": true,
+      "observations": [
+        "One opaque environment with carved wooden pillars, central altar, palms, hanging lanterns, candles and clear lower floor.",
+        "A flattened stage master; geometric map fidelity and separate parallax layers remain unvalidated."
+      ],
+      "remaining_checks_from_journal": [
+        "Comparer les sculptures, le nombre de lanternes et les rapports de dimensions avec plusieurs vues du niveau final.",
+        "Produire séparément arrière-plan, colonnes, autel, sol et premier plan ; le PNG est un master aplati.",
+        "Établir l’échelle des combattants et les limites du plan de combat dans la scène jouable."
+      ],
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "measured_output": {
+        "path": "assets/stages_v7/village_gears5_master.png",
+        "state": "active",
+        "sha256": "cc1d5eef4b703eb52dc4d6e669cd2a195e87bd78a0bd9833e889b2ad5dd62b76",
+        "size_bytes": 3101669,
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "format": "PNG",
+        "alpha": null,
+        "has_transparency": false,
+        "manifest_metadata_match": true,
+        "asset_id": "assets_stages_v7_village_gears5_master_png",
+        "subject_id": "stage_village_g5",
+        "category": "stage",
+        "purpose": "stage_master",
+        "variant_relation": "target_version_candidate",
+        "quality_state": "candidate",
+        "selection_status": "selected_reference",
+        "costume_id": null
+      }
+    }
+  ],
+  "evidence_snapshots": {
+    "production/asset_manifest.json": "83a0bc410189516fb8ff8bcd9f8e404307cef77635a18a2bfc4b26d0c8a3b61b",
+    "production/coverage.json": "843cd039252b30e806ececf00825937c53554d562d5404bd79ec1b0303856228",
+    "production/asset_registry.json": "703642e17a66d4010e5525bce133477a9f7e1ecf0022ea7bcbf149859363afcf",
+    "data/assets_manifest.json": "5fe4ed4c403cecab49dfa6038b02c0e674121aca5478c2a2f1a9ecf582efa047",
+    "data/costume_asset_links_v7.json": "d04edc9b0feb643b167574968381a996fa0b787e7eebaa6cbb8db5d46f07a77c",
+    "data/roster.json": "a4d5db6f8a822a5af0980cb35dafeff498ee20fe30716cb53aa8bc6ab8a20b19",
+    "data/production_catalog_v6.json": "976978119ecb6adb3d9c3abac69a2dc11c434dddcece2f23fe091fe900a5beca",
+    "data/production_catalog_v7.json": "ba64d8490c8cb08e1f55dc51767f4821b0e7b732c949590a46b2b8c9713a3e29",
+    "Galerie_Personnages.html": "3ba175f47f711a5ba2cebe0126085c5282f8152305fe8a10c150abe944c33909",
+    "src/gallery_template.html": "18ea7eea8c2a674b29b84e819fc3c641ca40a9429ca5193eb3e0850a4dfdbe90",
+    "src/validate_data.py": "2f18e75fa2e01be0be12b3f818f2d56b822c0a2eb22d72a5f4d313f9b908d0d1",
+    "src/consolidate_inventory.py": "994a00aa806d001a87f853d8c440e41aa8417d664a308b0c82217ffd2675c30a",
+    "tests/test_inventory_v6.py": "fe3909866eb1fc07eeddc1b99de986adc13f17d9ceb73662d9620bf39a7ed7aa",
+    "tests/test_inventory_v7.py": "64105b62de2d2fbbbadb204d4f263d0b79a3abbc1dbc9431a4e816e01e85db36",
+    "prototype/tests.cjs": "b66159b96ac1cbc6517055a4516cf28fc16af946c11f9408984dae536a142f07",
+    "prototype/qa/browser-report-v5.json": "904bbd4701977217f68448d79cbcc337e1ee9dc3afd897bb9b62839a2d11239d",
+    "docs/production/VALIDATION_2026-11-20.json": "35f6bc4902b632a9cba26da61ad0d5a78ffddd33f94bf6ee7b195f74c4fc3252"
+  },
+  "audited_inputs_unchanged_during_run": true,
+  "warnings": [],
+  "errors": [],
+  "limits": [
+    "No image is certified as canonically faithful 1:1; canonical_fidelity_validated remains false.",
+    "Reference availability includes alternate editions and incomplete composite subjects; it is not target completion.",
+    "Barrick is an alternate GoW3 version and does not satisfy the Gears5 target.",
+    "Shibboleth is mount_only; Karn is absent and composite_boss_complete is false.",
+    "Cole uses a full-body 2011 promotional reproduction plus a supplementary partial third-party view with incomplete provenance; detailed costume matching remains open.",
+    "Several new cutouts have tight vertical margins; edge quality, atlas padding and exact details need further work.",
+    "Village and Dawn are opaque flattened stage masters with adapted side-view composition; no separate parallax layers or exact map geometry is validated.",
+    "No completed animation set or newly playable fighter/boss is established by this audit.",
+    "The 15 engine tests are earlier evidence, not rerun for V7.",
+    "Chromium previously failed with Operation not permitted. Browser layout, responsive behavior and physical gamepad operation remain unvalidated."
+  ]
+}

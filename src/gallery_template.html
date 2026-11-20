@@ -86,12 +86,20 @@ function makeCard(row){
   if(row.category==="stage"&&asset)body.append(el("p","primary-note","Master statique ; calques de parallaxe séparés à produire et contrôler."));
   if(asset){
     const metadata=el("div","metadata");metadata.append(el("span","",`${asset.width} × ${asset.height}`),el("span","",asset.has_transparency?"PNG avec alpha":"Fond opaque"),el("span","",`${(asset.size_bytes/1048576).toFixed(2)} Mio`));body.append(metadata);
-    if(asset.variant_relation!=="target_version_candidate")body.append(el("p","primary-note",asset.variant_relation==="alternate_version"?`Variante différente de la cible du catalogue : ${row.requested_source_game}.`:"Édition native de cette apparence non certifiée."));
+    const relation=row.category==="costume"?(asset.costume_variant_relation||asset.variant_relation):asset.variant_relation;
+    if(relation!=="target_version_candidate")body.append(el("p","primary-note",relation==="alternate_version"?`Variante différente de la cible du catalogue : ${row.requested_source_game}.`:"Édition native de cette apparence non certifiée."));
     if(asset.quality_state==="correction_required")body.append(el("p","primary-note","Des corrections visuelles restent ouvertes pour ce candidat."));
     body.append(link("Ouvrir le PNG",asset.path,"open-link"));
     const details=el("details","details");details.append(el("summary","","Contrôles, réserves et sources"));const list=el("ul");
     const notes=asset.qa_notes.length?asset.qa_notes:["Référence statique candidate ; détails du costume à confronter aux sources avant validation."];
     notes.forEach(note=>list.append(el("li","",note)));list.append(el("li","","Aucune conformité 1:1 certifiée ; animations dessinées à produire."));
+    if(row.category==="costume"&&asset.costume_attribution){
+      const attribution=asset.costume_attribution;
+      list.append(el("li","",`Rattachement à cette tenue : ${attribution.rationale}`));
+      (attribution.caveats||[]).forEach(note=>list.append(el("li","",note)));
+      const li=el("li");li.append(link("Audit du rattachement de costume",attribution.mapping_path));list.append(li);
+      (attribution.additional_evidence_paths||[]).forEach(path=>{const evidence=el("li");evidence.append(link("Journal complémentaire de la tenue",path));list.append(evidence);});
+    }
     if(asset.prototype_integration==="static_reference")list.append(el("li","","Cette image est chargée comme référence statique dans le prototype ; elle ne constitue pas une animation dessinée."));
     asset.metadata_records.forEach(path=>{const li=el("li");li.append(link("Fiche de production / contrôle",path));list.append(li);});
     asset.source_urls.slice(0,4).forEach((url,i)=>{const li=el("li");const a=link(`Source visuelle ${i+1}`,url);a.target="_blank";a.rel="noopener noreferrer";li.append(a);list.append(li);});details.append(list);body.append(details);

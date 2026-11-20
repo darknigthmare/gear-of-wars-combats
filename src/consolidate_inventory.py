@@ -85,13 +85,21 @@ def load_production_catalog(roster: list[dict]) -> dict:
     A costume is only illustrated when an asset explicitly carries its identity.
     A different appearance of the same character never fills that costume slot.
     """
-    path = ROOT / "data/production_catalog_v6.json"
-    catalog = read_json(path) if path.is_file() else {}
-    if not isinstance(catalog, dict):
-        raise ValueError("production_catalog_v6.json must contain an object")
-    for key in ("characters", "costumes", "bosses", "stages"):
-        if not isinstance(catalog.get(key, []), list):
-            raise ValueError(f"Production catalog {key} must be a list")
+    categories = ("characters", "costumes", "bosses", "stages")
+    catalog = {key: [] for key in categories}
+    versions = []
+    for path in (ROOT / "data").glob("production_catalog_v*.json"):
+        match = re.fullmatch(r"production_catalog_v(\d+)\.json", path.name)
+        if match:
+            versions.append((int(match.group(1)), path))
+    for _, path in sorted(versions):
+        addition = read_json(path)
+        if not isinstance(addition, dict):
+            raise ValueError(f"{path.name} must contain an object")
+        for key in categories:
+            if not isinstance(addition.get(key, []), list):
+                raise ValueError(f"Production catalog {key} must be a list: {path.name}")
+            catalog[key] = merge_catalog_rows(catalog[key], addition.get(key, []))
     roster_ids = {row["id"] for row in roster}
     production_characters = [row for row in merge_catalog_rows([], catalog.get("characters", [])) if row["id"] not in roster_ids]
     inherited_costumes = []
@@ -245,6 +253,76 @@ def collect_assets(registry: dict, roster: list[dict], catalog: dict | None = No
     return assets, archived, attempts, warnings
 
 
+def apply_costume_asset_links(assets: list[dict], catalog: dict) -> None:
+    """Attribute an existing character PNG to a documented costume without copying it.
+
+    The image identity, generation record and quality findings remain unchanged.
+    A hash and parent check prevent an attribution from surviving a replaced image
+    or silently crossing to another character. Edition matching is an explicit
+    audited decision recorded in the mapping, not inferred from the filename.
+    """
+    relative_mapping = "data/costume_asset_links_v7.json"
+    path = ROOT / relative_mapping
+    if not path.is_file():
+        return
+    mapping = read_json(path)
+    if not isinstance(mapping, dict) or not isinstance(mapping.get("links"), list):
+        raise ValueError("Costume asset mapping requires a links list")
+    by_path = {asset["path"]: asset for asset in assets}
+    costumes = {row["id"]: row for row in catalog["costumes"]}
+    seen = set()
+    for link in mapping["links"]:
+        if not isinstance(link, dict):
+            raise ValueError("Costume asset links must be objects")
+        relative = link.get("asset_path")
+        if relative in seen:
+            raise ValueError(f"Duplicate costume asset link: {relative}")
+        seen.add(relative)
+        asset = by_path.get(relative)
+        if asset is None:
+            raise ValueError(f"Costume link asset is not active: {relative}")
+        costume_id = link.get("costume_id")
+        costume = costumes.get(costume_id)
+        if costume is None:
+            raise ValueError(f"Unknown linked costume: {costume_id}")
+        parent = costume.get("character_id") or costume.get("parent_id")
+        if asset["category"] != "character" or asset["subject_id"] != parent or link.get("character_id") != parent:
+            raise ValueError(f"Costume link character mismatch: {relative} -> {costume_id}")
+        if asset["purpose"] == "presentation":
+            raise ValueError(f"Costume link cannot use a presentation image: {relative}")
+        if link.get("sha256") != asset["sha256"]:
+            raise ValueError(f"Costume link image hash mismatch: {relative}")
+        record = link.get("source_record_path")
+        if record not in asset.get("metadata_records", []) or not local_path(record).is_file():
+            raise ValueError(f"Costume link lacks its image provenance record: {relative}")
+        if not isinstance(link.get("rationale"), str) or not link["rationale"].strip():
+            raise ValueError(f"Costume link requires an edition rationale: {relative}")
+        evidence = link.get("additional_evidence_paths", [])
+        if not isinstance(evidence, list) or any(not isinstance(item, str) or not local_path(item).is_file() for item in evidence):
+            raise ValueError(f"Costume link has missing supporting evidence: {relative}")
+        if asset.get("costume_id") not in (None, costume_id):
+            raise ValueError(f"Conflicting costume attribution: {relative}")
+        asset["costume_id"] = costume_id
+        # This relation belongs to the costume row. Do not overwrite the relation
+        # to the character's base costume, which can still be another edition.
+        asset["costume_variant_relation"] = "target_version_candidate"
+        asset["costume_attribution"] = {
+            "mapping_path": relative_mapping,
+            "source_record_path": record,
+            "additional_evidence_paths": evidence,
+            "rationale": link["rationale"],
+            "source_urls": link.get("source_urls", []),
+            "caveats": link.get("caveats", []),
+            "canonical_fidelity_validated": False,
+        }
+
+
+def relation_for(asset: dict, category: str) -> str:
+    if category == "costume":
+        return asset.get("costume_variant_relation", asset["variant_relation"])
+    return asset["variant_relation"]
+
+
 def select_reference(assets: list[dict]):
     eligible = [a for a in assets if a["purpose"] != "presentation"]
     return max(eligible, key=lambda a: (a["selection_priority"], a["path"]), default=None)
@@ -257,7 +335,7 @@ def make_coverage(rows, category, assets, attempts):
                       (a["category"] == category and a["subject_id"] == row["id"])
                       or (category == "costume" and a.get("costume_id") == row["id"])]
         selected = select_reference(references)
-        targets = [a for a in references if a["variant_relation"] == "target_version_candidate" and a["purpose"] != "presentation"]
+        targets = [a for a in references if relation_for(a, category) == "target_version_candidate" and a["purpose"] != "presentation"]
         selected_target = select_reference(targets)
         if selected:
             selected["selection_status"] = "selected_reference"
@@ -276,7 +354,7 @@ def make_coverage(rows, category, assets, attempts):
             "selected_asset_id": selected["asset_id"] if selected else None,
             "selected_path": selected["path"] if selected else None,
             "selected_source_variant": selected["source_variant"] if selected else None,
-            "selected_variant_relation": selected["variant_relation"] if selected else None,
+            "selected_variant_relation": relation_for(selected, category) if selected else None,
             "asset_ids": [a["asset_id"] for a in references],
             "target_version_candidate_available": bool(selected_target),
             "target_version_candidate_path": selected_target["path"] if selected_target else None,
@@ -348,7 +426,7 @@ Les anciennes passes ont été réunies avec les nouvelles sorties réellement p
 
 La présence d’un PNG signifie une référence statique disponible, pas un personnage jouable ni un costume certifié. [La galerie complète](../../Galerie_Personnages.html) affiche les {totals['roster_characters']} personnages du roster de conception, les {totals['production_character_entries']} extensions de personnages, les {totals['costume_catalog_entries']} costumes, les {totals['boss_catalog_entries']} boss et les {totals['stage_catalog_entries']} arènes, avec des cartes explicites pour les manquants. Les extensions de production ne modifient pas le roster du moteur. Ephyra reste un master complémentaire, sans attribution arbitraire à une arène précise.
 
-Les costumes hérités des fiches initiales restent sans attribution tant qu’un `costume_id` explicite n’est pas fourni. Cela signifie une liaison visuelle à vérifier, et non nécessairement une image à régénérer. Un master de décor ne vaut pas validation de ses calques de parallaxe séparés.
+Les costumes hérités des fiches initiales restent sans attribution tant qu’un `costume_id` explicite n’est pas fourni. Cela signifie une liaison visuelle à vérifier, et non nécessairement une image à régénérer. Le mapping audité [costume_asset_links_v7.json](../../data/costume_asset_links_v7.json), lorsqu’il est présent, rattache les images existantes à leur costume après vérification du personnage, de la provenance et de l’empreinte ; il ne duplique aucun PNG et ne certifie aucune fidélité. Un master de décor ne vaut pas validation de ses calques de parallaxe séparés.
 
 ## Ce qui a été récupéré
 
@@ -410,6 +488,7 @@ def build_inventory():
     roster = read_json(ROOT / "data/roster.json")
     catalog = load_production_catalog(roster)
     assets, archived, attempts, warnings = collect_assets(registry, roster, catalog)
+    apply_costume_asset_links(assets, catalog)
     prototype_map_path = ROOT / "prototype/asset-map.json"
     prototype_paths = set()
     if prototype_map_path.is_file():
@@ -451,6 +530,7 @@ def build_inventory():
         "costume_catalog_entries": len(costumes), "costumes_with_reference": sum(c["has_visual_reference"] for c in costumes),
         "costumes_without_explicit_reference": sum(not c["has_visual_reference"] for c in costumes),
         "costume_png_files": sum(a["category"] == "costume" for a in assets),
+        "reused_character_pngs_for_costumes": sum(a["category"] == "character" and bool(a.get("costume_attribution")) for a in assets),
         "boss_catalog_entries": len(bosses), "bosses_with_reference": sum(c["has_visual_reference"] for c in bosses),
         "boss_png_files": sum(a["category"] == "boss" for a in assets),
         "stage_catalog_entries": len(stages), "stages_with_reference": sum(c["has_visual_reference"] for c in stages),
@@ -463,7 +543,7 @@ def build_inventory():
     if any(count != 1 for count in counts.values()):
         raise ValueError("Duplicate asset identifiers")
     coverage = {
-        "schema_version": "1.1", "project": "Gears of War Combats", "snapshot_date": DATE,
+        "schema_version": "1.2", "project": "Gears of War Combats", "snapshot_date": DATE,
         "generator": "src/consolidate_inventory.py", "totals": totals,
         "characters": characters, "production_characters": production_characters, "costumes": costumes,
         "bosses": bosses, "stages": stages,
@@ -476,7 +556,7 @@ def build_inventory():
         "warnings": warnings,
         "limits": "Comptage de fichiers de référence ; ni certification 1:1, ni animation finalisée, ni intégration automatique au moteur, ni preuve de publication.",
     }
-    manifest = {"schema_version": "1.1", "project": "Gears of War Combats", "snapshot_date": DATE,
+    manifest = {"schema_version": "1.2", "project": "Gears of War Combats", "snapshot_date": DATE,
                 "generator": "src/consolidate_inventory.py", "counts": totals, "assets": assets,
                 "archived_assets": archived, "limits": coverage["limits"]}
     write_json(ROOT / "production/asset_manifest.json", manifest)

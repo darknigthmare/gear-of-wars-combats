@@ -1,0 +1,92 @@
+{
+  "id": "boss_shibboleth",
+  "subject_id": "boss_shibboleth",
+  "category": "boss",
+  "boss_id": "boss_shibboleth",
+  "name": "Shibboleth seul — monture sans Karn",
+  "variant": "Gears of War: Judgment — monture seule ; Karn absent ; duo non complet",
+  "source_game": "Gears of War Judgment",
+  "catalog_target_game": "Gears of War Judgment",
+  "purpose": "reference_fullbody",
+  "variant_relation": "target_version_candidate",
+  "component_scope": "mount_only",
+  "composite_boss_complete": false,
+  "status": "generated_reference_pending_validation",
+  "asset_path": "assets/bosses_v7/shibboleth_judgment_mount_only_fullbody.png",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-20",
+  "prompt": "Use case: identity-preserve. Asset type: one complete transparent raster boss-creature reference for Gear of Wars Combats. Reproduce exactly ONE Shibboleth, the armored mount from Gears of War: Judgment, closely matching input image 1, the full frontal textured game-model reference. This is the mount alone, with no rider. Keep the reference's frontal low, broad stance and its full existing silhouette, including all feet, leg tips, upper cannon muzzles and antenna rods. Match the exact irregular arrangement of legs and armor rather than symmetrizing it: the large mechanically reconstructed outer limb on the viewer's left has exposed round joints, black tubes, paired cylindrical pistons and worn pale metal shield plates; the other legs show pale wrinkled tan organic tissue with long heavily riveted steel armor plates, faded orange-red paint, angular edges and red circular lights near their lower sections. Preserve the visible rear limbs and their placement behind the large front limbs. Match the massive pale central head under the intricate dark harness, the raised engraved black-metal brow and small bone-skull ornament, crossing leather straps and buckles over pale carapace panels, the cluster of round glowing red lenses just above the snout, the deep mouth with the exact irregular yellowed pointed teeth and surrounding tusk-like flesh projections. Preserve the broad upper armored saddle/gun structure, two round multi-barrel gun muzzles, bent upper handles, sideways thin rods, worn red-orange crest and the specific red Locust emblem from the source. Copy the source's material colors, scratches, rivet spacing, exposed skin folds, shell panels, relative sizes and visibly asymmetric construction as closely as possible. Do not add a human or Locust rider: Karn is absent from the reference and is not part of this asset. Do not add extra legs, tentacles, wings, horns or invented armor. Keep the same camera direction and pose to avoid inventing unseen sides. Balanced soft neutral lighting, clear game-model surface detail, no artistic redesign. Landscape canvas. Fit the entire creature inside the central 80 percent of the canvas width and height, with broad empty transparent margins on every side. The topmost joints and gun handles, the outermost leg plates, all visible claws and the lowest pointed foot tips must be inside the frame. True transparent alpha background; no ground plane, backdrop, floor shadow, aura, scenery, dust, smoke or fire. One creature only, no turnaround sheet, montage, inset, labels, title, watermarks or source corner logo. Preserve in-world armor symbols visible on the model, but omit the Gears of War Judgment branding in the lower-left corner of the source. No Corpser from another edition, no Wakaatu, no Snatcher, no generic spider design.",
+  "sources": [
+    {
+      "page_url": "https://gearsofwar.fandom.com/wiki/Shibboleth",
+      "image_url": "https://static.wikia.nocookie.net/gearsofwar/images/2/21/GOWJ_Shibboleth.jpg/revision/latest",
+      "source_type": "textured_game_model_render_reproduced_by_third_party",
+      "scope": "Rendu texturé de Shibboleth entier, vue frontale, portant le logo Gears of War Judgment. Image publique de 1500 × 925 px inspectée, reproduite par le wiki et indexée dans la recherche d'images. La patte mécanique, le harnais, les extrémités et l'armement supérieur sont visibles ; Karn est absent. Ce fichier miroir n'est pas hébergé par le studio et son identité binaire avec le rendu original n'est pas certifiée. Seule référence visuelle fournie au générateur.",
+      "visual_reference_used": true,
+      "reference_sha256": "0d2440933c2bd71756c517724ef751bbc56308686442a400a4b5f65cb54ec51c"
+    },
+    {
+      "page_url": "https://kozlowski.artstation.com/projects/aAoJ",
+      "source_type": "original_character_artist_portfolio",
+      "scope": "Projet de Kamil Kozlowski consacré au modèle low poly texturé de Shibboleth. Source primaire d'attribution et d'état du modèle ; ses images hébergées par ArtStation n'ont pas été téléchargées ni fournies au générateur.",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://www.maxon.net/en/article/creating-assets-for-epic-games-gears-of-war-judgment",
+      "source_type": "primary_interview_with_game_artists",
+      "scope": "Entretien People Can Fly / Epic du 28 août 2013 : création de Shibboleth par PCF, travail de Kamil sur la créature, construction du harnais et du filet. Karn est traité séparément par les artistes Epic. Source primaire de contexte ; aucun fichier du CDN Maxon n'a été utilisé.",
+      "visual_reference_used": false
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_creature": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "composite_boss_complete": false,
+    "observations": [
+      "L'image couvre Shibboleth seul. Karn est absent ; la rencontre catalogue « Karn sur Shibboleth » n'est donc pas livrée en duo complet.",
+      "Une seule créature en vue frontale, tête, jambes, pointes des pieds, grandes plaques, canons et poignées supérieures dans le cadre ; aucun texte ni personnage supplémentaire.",
+      "La patte mécanique du côté gauche de l'image reste distincte des autres membres organiques blindés. Harnais, double canon, lentilles rouges, plaques usées et peintures orangées reprennent la référence Judgment.",
+      "Le cadrage frontal de la source est conservé pour limiter l'invention des flancs et du dos, qui restent occultés et non validés.",
+      "Le nombre exact et le dessin des rivets, l'espacement des lentilles, les dents, les motifs gravés, la géométrie des canons et les proportions du harnais présentent des détails à confronter au modèle original ; aucune fidélité 1:1 n'est certifiée.",
+      "Alpha réel vérifié : 41,32 % des pixels sont entièrement transparents. Certaines franges de très faible alpha subsistent aux limites du rendu et doivent être contrôlées sur différents fonds avant atlas.",
+      "Marges gauche/haut/droite/bas au seuil alpha 128 : 71/30/54/20 px. Les marges de 10 % demandées ne sont pas atteintes ; toutes les extrémités restent dans le cadre. Le fichier natif mesure 1597 × 985 px et n'a pas été redimensionné."
+    ],
+    "remaining_checks": [
+      "Comparer les détails du modèle à des captures de Judgment et, si disponible, au rendu original de Kamil Kozlowski.",
+      "Vérifier les attaches de la patte mécanique, le nombre et les articulations des membres, les symboles, les armements et les proportions de la tête.",
+      "Créer séparément le cavalier Karn, puis contrôler sa posture, ses points d'attache et son échelle sur cette monture avant de déclarer le duo complet.",
+      "Produire les profils et les vues arrière documentés, préparer les marges d'atlas et contrôler les contours alpha avant animation.",
+      "Les attaques, phases, collisions et animations de la rencontre 2D restent à implémenter ; ce PNG ne les valide pas."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1597,
+    "height": 985,
+    "bytes": 2813770,
+    "sha256": "33ef7c43e29ce09164f65355436d6d72e215b3df8df2adc87806cacc8e031f12",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.4131566484112025,
+    "subject_bbox_alpha_ge_128": [
+      71,
+      30,
+      1543,
+      965
+    ],
+    "subject_margins_ltrb_px": [
+      71,
+      30,
+      54,
+      20
+    ]
+  }
+}

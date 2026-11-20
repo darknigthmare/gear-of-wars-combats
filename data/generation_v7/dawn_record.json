@@ -1,0 +1,48 @@
+{
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-20",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "variant_relation": "target_version_candidate",
+  "id": "dawn_gears5_master_v7",
+  "subject_id": "stage_dawn_g5",
+  "category": "stage",
+  "name": "Dawn",
+  "variant": "Gears 5 — Operation 8, colonie minière adaptée au combat 2D",
+  "source_game": "Gears 5 — Operation 8 Drop 2",
+  "purpose": "stage_master",
+  "asset_path": "assets/stages_v7/dawn_gears5_master.png",
+  "prompt": "Use case: stylized-concept. Asset type: a single widescreen raster stage master for a 2D side-view fighting game. Recreate DAWN specifically in GEARS 5 OPERATION 8 using the supplied official Gears 5 screenshot as the visual anchor. Preserve the recognizable abandoned mining settlement reused by Outsiders: huge rusted and oxidized ribbed industrial metal ducts and curved turbine housings, a large rounded bronze-colored ventilation structure immediately behind a small timber hut, tall industrial buildings at the sides, timber porches, patched metal roofs, low mining carts and retaining walls, cylindrical weathered turquoise tanks, cables, and pale sheer sunlit canyon cliffs rising behind the village. Keep the distinctive arrangement and silhouettes from the reference, the scale of the giant machinery compared with the timber houses, the warm dusty light, oxidized green metal, worn brown wood, pale rocks, and blue sky. Produce a coherent 16:9 composition viewed from a fixed near-horizontal side-view camera; put a broad level unobstructed fighting-ground band across the bottom 20 percent. Place the mine structures and clutter behind that fighting plane. Keep the mining-colony identity and the large central curved industrial housing, and preserve the buildings' material language. Detailed realistic raster game art, natural daylight, readable depth, sharp material textures. No characters, monsters, weapons, UI, added text, signs invented from scratch, watermarks, collage, or panels. No modern city or generic fantasy redesign. This is a single flattened background master; separate parallax layers will be produced later. Aim for high-resolution widescreen.",
+  "sources": [
+    {
+      "page_url": "https://www.gearsofwar.com/en-us/news/operation-8-drop-2-reveal/",
+      "image_url": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2021/09/op8-drop-2-dawn-69cb1e5013459.jpg",
+      "scope": "Capture officielle de Dawn dans Gears 5 Operation 8 ; seule référence fournie au générateur, sans réemploi d’une capture de Gears 4."
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_stage": true,
+    "transparent_background": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "observations": [
+      "Colonie minière, grandes structures métalliques arrondies et nervurées, cabanes en bois, métal oxydé turquoise, falaises claires et éclairage diurne repris de la capture Gears 5.",
+      "Le cadrage frontal et le sol horizontal dégagé constituent une adaptation pour le combat 2D.",
+      "Aucun combattant ni interface ; le grand volume industriel demeure derrière la petite cabane centrale."
+    ],
+    "remaining_checks": [
+      "Comparer les dimensions, implantations et détails des cabanes, machines et voies ferrées avec plusieurs vues de la map finale.",
+      "Séparer ciel, falaises, machines, cabanes, accessoires et sol en calques ; le master seul ne fournit aucune parallaxe.",
+      "Définir l’échelle des combattants et les limites de la scène ; topologie originale non reproduite à l’identique."
+    ]
+  },
+  "output": {
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "format": "PNG",
+    "bytes": 3266597,
+    "sha256": "64e66a7c8e1ab4189bc157e66492da431368fe27c79c80a71cd8adf9a15cd027"
+  }
+}

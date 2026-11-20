@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0",
+  "version": "v7",
+  "updated_at": "2026-11-20",
+  "title": "Gears of War Combats — extension du catalogue de production V7",
+  "scope": "Trois identités supplémentaires documentées par des sources primaires. Ce fichier ne modifie pas le roster jouable, ne présume aucune image et ne certifie aucune fidélité visuelle.",
+  "baseline": {
+    "characters": 53,
+    "costumes": 85,
+    "bosses": 31,
+    "stages": 34
+  },
+  "identity_rules": [
+    "Fusion par identifiant après le catalogue V6; les trois identifiants de personnages sont absents du roster initial et du catalogue V6.",
+    "Karn possède une fiche de personnage distincte; boss_shibboleth reste la rencontre existante Karn sur Shibboleth et ne doit être ni renommée ni dupliquée.",
+    "Adam Fenix cible explicitement le personnage multijoueur Gears of War 3; aucune équivalence avec une tenue de campagne n'est présumée.",
+    "Alex Brand cible l'apparence multijoueur de Judgment documentée par Xbox et son modélisateur; ses variantes de comics ou d'autres jeux ne sont pas fusionnées.",
+    "Les descriptions de costume définissent une cible de recherche; les matériaux, détails cachés et états de dommage restent à vérifier avant génération ou certification.",
+    "La présence réelle de PNG et leurs statuts restent calculés par l'inventaire; aucune nouvelle entrée n'implique un asset généré."
+  ],
+  "characters": [
+    {
+      "id": "adam_fenix",
+      "name": "Adam Fenix",
+      "source_game": "Gears of War 3",
+      "priority": "P1",
+      "catalog_origin": "production_v7",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "adam_fenix_store",
+        "adam_fenix_console"
+      ],
+      "source_urls": [
+        "https://www.xbox.com/en-us/games/store/adam-fenix-multiplayer-character/btt6glfffmlv",
+        "https://news.xbox.com/en-us/2011/06/06/announcing-the-xbox-360-gears-of-war-3-limited-edition-console/"
+      ],
+      "source_scope": "Identité et variante multijoueur Gears of War 3 confirmées par Microsoft. La fiche produit ne suffit pas à valider les détails de la tenue en pied.",
+      "notes": [
+        "Cible : personnage multijoueur distribué avec les éditions et offres indiquées sur la fiche officielle de Gears of War 3.",
+        "Verrouiller des captures du modèle multijoueur complet avant génération; ne pas substituer automatiquement le vêtement de campagne.",
+        "Identité canonique documentée; adaptation du kit en combat 2D originale. Aucune fidélité 1:1 validée."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "base_costume": "Gears of War 3 — apparence du personnage multijoueur Adam Fenix",
+      "visual_evidence_scope": "identity_confirmed_game_costume_pending"
+    },
+    {
+      "id": "alex_brand",
+      "name": "Alex Brand",
+      "source_game": "Gears of War: Judgment",
+      "priority": "P1",
+      "catalog_origin": "production_v7",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "judgment_preorder",
+        "alex_brand_kime",
+        "judgment_team"
+      ],
+      "source_urls": [
+        "https://news.xbox.com/en-us/2012/11/07/gears-of-war-judgment-pre-orders-kickoff-today/",
+        "https://pseudopod.artstation.com/projects/OgJa6",
+        "https://www.maxon.net/en/article/creating-assets-for-epic-games-gears-of-war-judgment"
+      ],
+      "source_scope": "L'apparence multijoueur de Judgment est annoncée par Xbox; le modèle de production est identifié dans le portfolio de Mike Kime. Comparaison visuelle au jeu final encore requise.",
+      "notes": [
+        "La fiche désigne le personnage multijoueur de Judgment; elle n'attribue pas à Alex Brand un rôle de campagne non établi par ces sources.",
+        "Le portfolio du modélisateur donne une référence de production de cette édition. Relever les vues et matériaux du modèle final avant génération.",
+        "Conserver séparément les apparences des comics et toute variante d'une autre édition.",
+        "Identité canonique documentée; adaptation du kit en combat 2D originale. Aucune fidélité 1:1 validée."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "base_costume": "Gears of War: Judgment — apparence multijoueur Alex Brand",
+      "visual_evidence_scope": "identity_and_model_credit_confirmed_visual_review_pending"
+    },
+    {
+      "id": "karn",
+      "name": "Karn",
+      "source_game": "Gears of War: Judgment",
+      "priority": "P1",
+      "catalog_origin": "production_v7",
+      "catalog_scope": "production_extension",
+      "delta_status": "absent_from_current_catalog",
+      "source_ids": [
+        "karn_kime_morgan",
+        "judgment_team"
+      ],
+      "source_urls": [
+        "https://pseudopod.artstation.com/projects/gVB5E",
+        "https://www.maxon.net/en/article/creating-assets-for-epic-games-gears-of-war-judgment"
+      ],
+      "source_scope": "Identité de Karn et modèle Judgment documentés par ses artistes Mike Kime et Mark Morgan. Le personnage est distinct de Shibboleth, déjà catalogué comme rencontre montée.",
+      "notes": [
+        "Le catalogue initial contient boss_shibboleth, nommé Karn sur Shibboleth, mais aucune fiche de personnage autonome karn.",
+        "Conserver boss_shibboleth et sa rencontre existante; cet ajout ne crée pas un second boss ni une seconde identité pour la monture.",
+        "Le portfolio comprend une mention d'état endommagé : fixer l'état de référence et ne pas mélanger les états intact et endommagé.",
+        "La documentation du personnage antagoniste ne prouve pas un personnage multijoueur jouable dans Judgment.",
+        "Identité canonique documentée; adaptation du kit en combat 2D originale. Aucune fidélité 1:1 validée."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
+      "base_costume": "Gears of War: Judgment — modèle de Karn, personnage distinct de sa monture Shibboleth",
+      "visual_evidence_scope": "identity_and_model_credit_confirmed_visual_review_pending"
+    }
+  ],
+  "costumes": [],
+  "bosses": [],
+  "stages": [],
+  "counts": {
+    "catalog_rows": {
+      "characters": 3,
+      "costumes": 0,
+      "bosses": 0,
+      "stages": 0
+    },
+    "net_additions": {
+      "characters": 3,
+      "costumes": 0,
+      "bosses": 0,
+      "stages": 0
+    },
+    "existing_enrichments": {
+      "characters": 0,
+      "costumes": 0,
+      "bosses": 0,
+      "stages": 0
+    },
+    "totals_after_merge": {
+      "characters": 56,
+      "costumes": 85,
+      "bosses": 31,
+      "stages": 34
+    },
+    "net_additions_all_categories": 3
+  },
+  "sources": [
+    {
+      "id": "adam_fenix_store",
+      "title": "Adam Fenix Multiplayer Character",
+      "url": "https://www.xbox.com/en-us/games/store/adam-fenix-multiplayer-character/btt6glfffmlv",
+      "source_type": "publisher_store",
+      "verified_scope": "Fiche Microsoft Studios / Epic Games : personnage multijoueur Adam Fenix pour Gears of War 3. Identité et édition confirmées ; détails de tenue à contrôler dans le jeu.",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "id": "adam_fenix_console",
+      "title": "Announcing the Xbox 360 Gears of War 3 Limited Edition Console",
+      "url": "https://news.xbox.com/en-us/2011/06/06/announcing-the-xbox-360-gears-of-war-3-limited-edition-console/",
+      "source_type": "publisher",
+      "verified_scope": "Annonce Xbox du 6 juin 2011 : Adam Fenix est inclus comme personnage multijoueur de Gears of War 3.",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "id": "judgment_preorder",
+      "title": "Gears of War: Judgment Pre-Orders Kickoff Today",
+      "url": "https://news.xbox.com/en-us/2012/11/07/gears-of-war-judgment-pre-orders-kickoff-today/",
+      "source_type": "publisher",
+      "verified_scope": "Annonce Xbox du 7 novembre 2012 : Alex Brand est une apparence de personnage multijoueur de Judgment proposée avec certaines précommandes.",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "id": "alex_brand_kime",
+      "title": "Gears of War Judgement : Alex Brand — Mike Kime",
+      "url": "https://pseudopod.artstation.com/projects/OgJa6",
+      "source_type": "production_artist",
+      "verified_scope": "Portfolio du créateur du modèle Alex Brand pour Epic Games / Judgment ; concept James Hawkins, modèle Mike Kime avec certaines pièces issues du travail de Chris Wells.",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "id": "karn_kime_morgan",
+      "title": "Gears of War Judgement : Karn — Mike Kime",
+      "url": "https://pseudopod.artstation.com/projects/gVB5E",
+      "source_type": "production_artist",
+      "verified_scope": "Modèle de Karn pour Epic Games / Judgment créé par Mike Kime et Mark Morgan, concept James Hawkins. L'artiste indique également avoir réalisé l'état endommagé ; ces états doivent rester distincts.",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "id": "judgment_team",
+      "title": "Creating assets for Epic Games' Gears of War: Judgment",
+      "url": "https://www.maxon.net/en/article/creating-assets-for-epic-games-gears-of-war-judgment",
+      "source_type": "first_hand_developer_interview",
+      "verified_scope": "Entretien du 28 août 2013 avec les artistes Epic / People Can Fly : Karn est un modèle partagé entre Mike Kime et Mark Morgan ; Shibboleth est la créature montée produite par PCF ; Mike Kime cite aussi Alex Brand parmi ses personnages.",
+      "checked_at": "2026-11-20"
+    }
+  ]
+}
