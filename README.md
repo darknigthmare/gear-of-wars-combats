@@ -1,10 +1,37 @@
 # Gears of War Combats
 
-Corpus de conception, prototype et références visuelles consolidés le **20 novembre 2026** pour Darknigthmare.
+Corpus de conception, prototype et références visuelles consolidés le **25 novembre 2026** pour Darknigthmare.
+
+## État courant — passe V9 — assets fixes
+
+**20 nouveaux PNG**, un sujet par image, sans animations. Les fichiers sont intégrés à la galerie et à l’inventaire, avec leur prompt, leurs sources et leur contrôle visuel.
+
+- [Images livrées et tentatives bloquées](docs/production/LISTING_V9.md)
+- [Liste complète des manquants après V9](docs/production/REPRISE_V9.md)
+- [Validation technique V9](docs/production/VALIDATION_V9.json)
+- [Sources et prompts V9](docs/references/production-v9-research.md)
+
+| Catégorie | Références disponibles | Manquants |
+|---|---:|---:|
+| Personnages | 49 / 56 | 7 |
+| Costumes | 38 / 85 | 47 |
+| Boss, créatures et machines | 13 / 31 | 18 |
+| Stages | 12 / 34 | 22 |
+| Projectiles | 3 / 8 | 5 |
+
+Total actif : **90 PNG uniques**. Ephyra est un décor complémentaire ; les costumes rattachés à un PNG existant ne doublent pas le total.
+
+Cette passe ajoute un filtre Projectiles, le suivi des références absentes ou refusées et des rapports datés. Les attributions de costumes sont désormais lues dans les mappings versionnés, en conservant l’audit V7.
+
+Les images sont des candidats statiques visant une fidélité 1:1. Les écarts et reconstructions restent documentés : Scientist Hana et la figurine Disciple n’attestent pas automatiquement leur édition cible. Les projectiles Buzzkill/Dropshot sont marqués **À corriger**, car leurs détails sont reconstruits à partir de texte. Les masters de stages utilisent un cadrage latéral adapté.
+
+### Validation technique V9
+
+Les **13 tests d’inventaire** passent. Les nouveaux PNG sont décodés, mesurés et liés à leur journal ; leurs empreintes SHA-256 sont enregistrées. Les silhouettes des sprites disposent d’un alpha réel et restent à l’intérieur du cadre. La logique des filtres a passé 30 vérifications dans Node avec un DOM simulé. Le contrôle du rendu navigateur et mobile reste bloqué : aucun binaire n’est installé et le téléchargement officiel a été indisponible. Les résultats et cette limite sont consignés dans le [rapport V9](docs/production/VALIDATION_V9.json).
 
 ## Consulter le projet
 
-- [Galerie des personnages, costumes, boss et stages](Galerie_Personnages.html)
+- [Galerie des personnages, costumes, boss, stages et projectiles](Galerie_Personnages.html)
 - [Reprise V7 : images, réserves et manques exacts](docs/production/REPRISE_V7.md)
 - [Listing V7 : nouvelles identités et costumes rattachés](docs/production/LISTING_V7.md)
 - [Audit des 34 rattachements de costumes](docs/production/AUDIT_COSTUMES_V7.md)
@@ -13,7 +40,7 @@ Corpus de conception, prototype et références visuelles consolidés le **20 no
 - [Reprise V6 historique](docs/production/REPRISE_V6.md)
 - [Listing V6 et éditions cibles](docs/production/LISTING_V6.md)
 - [Rapport de validation V6](docs/production/VALIDATION_V6.json)
-- [État consolidé et limites de production](docs/production/CONSOLIDATION_2026-11-20.md)
+- [État consolidé et limites de production](docs/production/CONSOLIDATION_2026-11-25.md)
 - [Inventaire courant et couverture](production/coverage.json)
 - [Prototype autonome](prototype/Gears_Combats_Prototype.html)
 - [Bible illustrée v1 en PDF](livrables/Gears_of_War_Combats_Bible_v1.pdf)
@@ -21,7 +48,7 @@ Corpus de conception, prototype et références visuelles consolidés le **20 no
 
 Le fichier HTML du prototype embarque son code, ses styles et ses trois images utilisées. La galerie utilise les PNG du dossier `assets` : conserver son arborescence pour la consulter hors ligne.
 
-## État courant — lot V7
+## Historique — lot V7
 
 Les comptes ci-dessous ont été vérifiés dans l’[inventaire consolidé](production/coverage.json) et le [manifeste des fichiers](production/asset_manifest.json). La consolidation ne signale aucune alerte.
 
@@ -108,7 +135,7 @@ La reprise V5 a ajouté Dominic Santiago, RAAM et un Theron classique casqué. C
 
 Le [listing V6](docs/production/LISTING_V6.md) apporte **44 ajouts nets de catalogue** et enrichit deux identités existantes, Mechanic Mac et Matriarch. Les détails des sources figurent dans le [registre V6](docs/references/production-v6.md).
 
-Contribution suivie dans la **[PR #1, ouverte en brouillon](https://github.com/darknigthmare/gear-of-wars-combats/pull/1)**, sur la branche `codex/gears-combats-corpus-v6-20261120`.
+Contribution historique fusionnée dans la **[PR #1](https://github.com/darknigthmare/gear-of-wars-combats/pull/1)**, sur la branche `codex/gears-combats-corpus-v6-20261120`.
 
 ## Prototype réellement jouable
 
@@ -154,9 +181,9 @@ node prototype/build.mjs
 node prototype/tests.cjs
 ```
 
-Le script de consolidation relit les fichiers, leurs journaux et tous les `data/production_catalog_v*.json` dans l’ordre numérique des versions pour actualiser le manifeste, la couverture et la galerie. Il fusionne les entrées par identifiant et rejette les collisions entre catégories. Après collecte des assets, il applique `data/costume_asset_links_v7.json` : le personnage parent, l’empreinte SHA-256, le journal déjà associé à l’image et les preuves complémentaires doivent correspondre. Une image de présentation, un doublon de lien ou une provenance absente ne peut pas combler un costume. Il distingue les extensions de personnages, les identités de costumes, les variantes d’édition, les boss et les stages. Les anciens scripts de finalisation d’un lot ne doivent pas être utilisés pour remplacer l’inventaire courant. La reconstruction du classeur accepte `GEARS_OUTPUT_DIR`, `GEARS_OUTPUT_FILENAME` et `GEARS_QA_DIR` ; sa racine de données est relative au dépôt.
+Le script de consolidation relit les fichiers, leurs journaux et tous les `data/production_catalog_v*.json` dans l’ordre numérique des versions pour actualiser le manifeste, la couverture et la galerie. Il fusionne les entrées par identifiant et rejette les collisions entre catégories. Après collecte des assets, il applique tous les `data/costume_asset_links_v*.json` dans leur ordre numérique : le personnage parent, l’empreinte SHA-256, le journal déjà associé à l’image et les preuves complémentaires doivent correspondre. Une image de présentation, un doublon de lien ou une provenance absente ne peut pas combler un costume. Il distingue les extensions de personnages, les identités de costumes, les variantes d’édition, les boss, les stages et les projectiles. Les anciens scripts de finalisation d’un lot ne doivent pas être utilisés pour remplacer l’inventaire courant. La reconstruction du classeur accepte `GEARS_OUTPUT_DIR`, `GEARS_OUTPUT_FILENAME` et `GEARS_QA_DIR` ; sa racine de données est relative au dépôt.
 
-## Vérification de la reprise
+## Historique de validation — V7
 
 Le [rapport de validation V7](docs/production/VALIDATION_V7.json) contrôle **74 PNG** : 62 actifs uniques et 12 archives. Il vérifie aussi les six journaux, les 34 rattachements de costumes, les références entre sujets et images, la syntaxe JavaScript et l’identité du catalogue embarqué dans la galerie avec les JSON consolidés. Aucune erreur technique n’est signalée.
 

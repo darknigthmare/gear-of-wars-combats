@@ -1,0 +1,72 @@
+{
+  "category": "projectile",
+  "source_game": "Gears of War 3",
+  "catalog_target_game": "Gears of War 3",
+  "purpose": "projectile_static",
+  "variant_relation": "target_version_candidate",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "id": "projectile_frag_grenade_g3",
+  "subject_id": "projectile_frag_grenade_g3",
+  "projectile_id": "projectile_frag_grenade_g3",
+  "name": "Grenade Bolo / Frag",
+  "source_weapon": "Frag Grenade",
+  "weapon_id": "frag",
+  "variant": "Gears of War 3 — projectile isolé, pose fixe",
+  "asset_path": "assets/projectiles_v9/frag_grenade_gow3.png",
+  "prompt": "Use case: stylized-concept. Create ONE isolated static 2D game projectile asset: the Gears of War 3 Bolo / Frag Grenade, faithfully matching the attached original in-game model reference. Reference image shows two angles of the SAME item; output exactly ONE grenade only. Preserve the squat round segmented red/rust-red metal grenade head, worn metal seams, blunt short steel protrusions, small orange glowing apertures, the asymmetrical side mechanics, linked metal chain and leather-wrapped short grip terminating in the rough triangular metal cap. Choose the LOWER reference angle but extend the chain leftward in a gentle shallow arc so the single grip is at left and grenade head at right. All parts connected, entire chain and handle in frame. Side-view usable full silhouette, high-detail hand-painted 2D UHD sprite, realistic original game proportions and material colors. Centered in a landscape canvas with at least 10% empty margin. True transparent PNG background (alpha zero outside the item), clean edges, no opaque backdrop, no ground shadow. No explosion, no smoke, no animation, no characters, no text, no logo, no cutaway, no construction diagram, no duplicate grenade.",
+  "sources": [
+    {
+      "page_url": "https://gearsofwar.fandom.com/wiki/Bolo_Grenade",
+      "image_url": "https://vignette.wikia.nocookie.net/gearsofwar/images/7/7b/Gow-3-frag.jpeg/revision/latest?cb=20120429152459",
+      "source_type": "game_model_render_rehosted_secondary",
+      "scope": "Deux vues du modèle Gears 3. La génération produit une grenade unique avec poignée et chaîne; détails métalliques et usure à confronter au modèle."
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_object": true,
+    "complete_object_in_frame": true,
+    "transparent_background": true,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Une seule grenade complète, poignée à gauche et tête à droite, chaîne connectée; aucune animation ni effet ajouté.",
+      "Les éléments distinctifs visibles du modèle sont repris : tête rouge segmentée, petites pointes grises, fentes orange, poignée enveloppée et culot triangulaire.",
+      "Les dimensions relatives, le nombre de rivets et les maillons ne constituent pas une copie géométrique certifiée.",
+      "Contrôle indépendant : chaîne plus longue et disposition des maillons modifiée par rapport au rendu de référence ; proportions et petits éléments à comparer au modèle final."
+    ],
+    "remaining_checks": [
+      "Comparer la silhouette, les proportions et les micro-détails au modèle exact de l'édition cible avant validation 1:1."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1983,
+    "height": 793,
+    "bytes": 1327684,
+    "sha256": "7b6cbf28221e2ceeacf7cffe9f2909428eb24605c471859a8fdb780fd51d454a",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.7207575870307449,
+    "subject_bbox_alpha_ge_128": [
+      43,
+      99,
+      1908,
+      712
+    ],
+    "subject_margins_ltrb_px": [
+      43,
+      99,
+      75,
+      81
+    ]
+  },
+  "has_image": true
+}

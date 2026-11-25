@@ -1,0 +1,31 @@
+{
+  "id": "projectile_torque_bow_bolt_g3",
+  "subject_id": "projectile_torque_bow_bolt_g3",
+  "name": "Torque Bow — carreau",
+  "category": "projectile",
+  "source_game": "Gears of War 3",
+  "variant": "Gears of War 3",
+  "pass_date": "2026-11-25",
+  "status": "blocked",
+  "engine": "built_in_imagegen",
+  "has_image": false,
+  "asset_path": null,
+  "prompt": "Use case: stylized-concept. Asset: ONE static isolated 2D projectile sprite for Gears of War Combats. Reproduce a single explosive bolt fired by the TORQUE BOW from GEARS OF WAR 3, as faithfully to the canonical in-game ammunition as possible. Show ONLY the complete bolt, no bow or launcher. Preserve its distinctive gritty Locust mechanical appearance and recognizable pointed penetrating tip, narrow rigid metal shaft and compact explosive portion with restrained orange charged highlights; do not turn it into a medieval feathered arrow, fantasy ornament, bullet with a brass casing, or modern missile. Horizontal orientation, sharp tip pointing RIGHT, frozen in flight with no motion streak and no exhaust. Orthographic side-readable view, high-detail hand-painted 2D UHD asset with weathered dark metal, restrained warm accents and crisp silhouette. Entire object in frame with generous empty margins. True transparent PNG alpha outside the bolt. One item, no duplicate views, no animation, no explosion, no smoke, no characters, no text, no watermark, no blueprint or internal cutaway.",
+  "error": "moderation_blocked",
+  "request_id": "20e987b1-ac3b-43b8-82b3-a9ee486cfb85",
+  "moderation_stage": "output",
+  "moderation_categories": [
+    "illicit"
+  ],
+  "canonical_fidelity_validated": false,
+  "notes": [
+    "Aucun PNG produit. Sujet maintenu manquant; aucun contournement ou appel à un autre moteur."
+  ],
+  "sources": [
+    {
+      "url": "https://primagames.com/eguides/gears-of-war-4-eguide/multiplayer/multiplayer-arsenal/explosive-weapons",
+      "type": "official_strategy_guide_text_other_edition",
+      "note": "Documentation du type d’arme en Gears 4 ; ne valide pas la géométrie du carreau Gears 3, aucune image de référence jointe."
+    }
+  ]
+}

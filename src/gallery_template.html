@@ -17,16 +17,16 @@
 <body>
 <div class="shell checker" id="app">
   <header>
-    <div class="topline"><span class="eyebrow">Catalogue de production · 20 novembre 2026</span><nav class="toplinks" aria-label="Documents du projet"><a href="docs/production/CONSOLIDATION_2026-11-20.md">Bilan de consolidation</a><a href="production/coverage.json">Inventaire de couverture</a><a href="prototype/Gears_Combats_Prototype.html">Prototype</a></nav></div>
+    <div class="topline"><span class="eyebrow">Catalogue de production · __SNAPSHOT_DATE__</span><nav class="toplinks" aria-label="Documents du projet"><a href="__REPORT_PATH__">Bilan de consolidation</a><a href="production/coverage.json">Inventaire de couverture</a><a href="prototype/Gears_Combats_Prototype.html">Prototype</a></nav></div>
     <h1>Gears of War Combats</h1>
-    <p class="intro">Personnages, costumes, boss et stages : les références produites et les éléments restant à illustrer. Les extensions du catalogue sont séparées des 36 fiches du roster de conception ; une variante ne crée pas un personnage supplémentaire.</p>
-    <p class="scope">Références statiques de production · Un sujet par image · Fidélité exacte à contrôler · Animations dessinées à produire</p>
+    <p class="intro">Personnages, costumes, boss, stages et projectiles : les références produites et les éléments restant à illustrer. Les extensions du catalogue sont séparées des 36 fiches du roster de conception ; une variante ne crée pas un personnage supplémentaire.</p>
+    <p class="scope">Références statiques de production · Un sujet par image · Fidélité exacte à contrôler · Sans animations</p>
     <section class="stats" id="stats" aria-label="Couverture vérifiée"></section>
   </header>
   <section class="controls" aria-label="Filtres de la galerie">
-    <label class="search" for="search">Rechercher un personnage, un costume, un boss ou un stage<input id="search" type="search" placeholder="Nom, faction, Gears 3, Tactics…" autocomplete="off"></label>
+    <label class="search" for="search">Rechercher un personnage, un costume, un boss, un stage ou un projectile<input id="search" type="search" placeholder="Nom, arme, faction, Gears 3, Tactics…" autocomplete="off"></label>
     <label for="status">État de production<select id="status"><option value="all">Tous les états</option><option value="available">Avec une référence</option><option value="missing">Sans référence attribuée</option><option value="correction_required">Corrections identifiées</option><option value="alternatives">Plusieurs candidats</option></select></label>
-    <div class="filters" aria-label="Type de sujet"><button type="button" data-category="character" aria-pressed="true">Personnages</button><button type="button" data-category="costume" aria-pressed="false">Costumes</button><button type="button" data-category="boss" aria-pressed="false">Boss</button><button type="button" data-category="stage" aria-pressed="false">Stages</button><button type="button" data-category="all" aria-pressed="false">Tout voir</button></div>
+    <div class="filters" aria-label="Type de sujet"><button type="button" data-category="character" aria-pressed="true">Personnages</button><button type="button" data-category="costume" aria-pressed="false">Costumes</button><button type="button" data-category="boss" aria-pressed="false">Boss</button><button type="button" data-category="stage" aria-pressed="false">Stages</button><button type="button" data-category="projectile" aria-pressed="false">Projectiles</button><button type="button" data-category="all" aria-pressed="false">Tout voir</button></div>
   </section>
   <div class="resultline"><p id="result-count" role="status" aria-live="polite"></p><label class="checker-option"><input type="checkbox" id="checker" checked>Damier de transparence</label></div>
   <main class="grid" id="gallery" aria-label="Références et manquants"></main>
@@ -37,7 +37,7 @@
     <details><summary id="archive-summary">Versions historiques écartées</summary><ul class="archive-list" id="archive-list"></ul></details>
     <p><a href="production/asset_manifest.json">Manifeste, dimensions, alpha et empreintes SHA-256</a> · <a href="docs/production/VISUAL_QA_2026-11-19.md">Contrôles visuels historiques</a></p>
   </footer>
-  <noscript><p>Cette galerie utilise JavaScript localement. Pour consulter les fichiers sans script, ouvrir <a href="docs/production/CONSOLIDATION_2026-11-20.md">le tableau des références</a>.</p></noscript>
+  <noscript><p>Cette galerie utilise JavaScript localement. Pour consulter les fichiers sans script, ouvrir <a href="__REPORT_PATH__">le tableau des références</a>.</p></noscript>
 </div>
 <script id="catalog-data" type="application/json">__CATALOG_DATA__</script>
 <script>
@@ -45,18 +45,18 @@
 const catalog=JSON.parse(document.getElementById("catalog-data").textContent);
 const coverage=catalog.coverage;
 const assetById=new Map(catalog.assets.map(asset=>[asset.asset_id,asset]));
-const rows=[...coverage.characters,...(coverage.production_characters||[]),...(coverage.costumes||[]),...coverage.bosses,...coverage.stages,...coverage.additional_references];
+const rows=[...coverage.characters,...(coverage.production_characters||[]),...(coverage.costumes||[]),...coverage.bosses,...coverage.stages,...(coverage.projectiles||[]),...coverage.additional_references];
 const selectedBySubject=new Map();
 const gallery=document.getElementById("gallery");
 let category="character";
-const labels={character:"Personnage",costume:"Costume",boss:"Boss",stage:"Stage",unassigned:"À classer"};
+const labels={character:"Personnage",costume:"Costume",boss:"Boss",stage:"Stage",projectile:"Projectile",unassigned:"À classer"};
 function el(tag,classes,text){const node=document.createElement(tag);if(classes)node.className=classes;if(text!==undefined)node.textContent=text;return node;}
 function link(text,path,classes){const a=el("a",classes,text);a.href=path;return a;}
 function normalized(text){return text.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();}
 function refs(row){return row.asset_ids.map(id=>assetById.get(id)).filter(Boolean);}
 function current(row){return assetById.get(selectedBySubject.get(row.id)||row.selected_asset_id);}
 const totals=coverage.totals;
-[[`${totals.characters_with_reference} / ${totals.roster_characters}`,"roster de conception illustré"],[`${totals.production_characters_with_reference||0} / ${totals.production_character_entries||0}`,"extensions de personnages illustrées"],[`${totals.costumes_with_reference||0} / ${totals.costume_catalog_entries||0}`,"costumes avec image attribuée"],[`${totals.bosses_with_reference} / ${totals.boss_catalog_entries}`,"boss avec une référence"],[`${totals.stage_png_files}`,`masters de décor · ${totals.stages_with_reference}/${totals.stage_catalog_entries} arènes associées`],[`${totals.active_png_files}`,"PNG actifs, alternatives incluses"]].forEach(([number,label])=>{const box=el("div","stat");box.append(el("strong","",number),el("span","",label));document.getElementById("stats").append(box);});
+[[`${totals.characters_with_reference} / ${totals.roster_characters}`,"roster de conception illustré"],[`${totals.production_characters_with_reference||0} / ${totals.production_character_entries||0}`,"extensions de personnages illustrées"],[`${totals.costumes_with_reference||0} / ${totals.costume_catalog_entries||0}`,"costumes avec image attribuée"],[`${totals.bosses_with_reference} / ${totals.boss_catalog_entries}`,"boss avec une référence"],[`${totals.stage_png_files}`,`masters de décor · ${totals.stages_with_reference}/${totals.stage_catalog_entries} arènes associées`],[`${totals.projectiles_with_reference||0} / ${totals.projectile_catalog_entries||0}`,"projectiles avec une référence"],[`${totals.active_png_files}`,"PNG actifs, alternatives incluses"]].forEach(([number,label])=>{const box=el("div","stat");box.append(el("strong","",number),el("span","",label));document.getElementById("stats").append(box);});
 function makeCard(row){
   const candidates=refs(row),asset=current(row),card=el("article","card");
   card.dataset.subject=row.id;
@@ -78,21 +78,22 @@ function makeCard(row){
   const body=el("div","card-body");
   if(candidates.length>1){
     const label=el("label","variant-label","Afficher une autre référence");label.htmlFor=`variant-${row.id}`;const select=el("select","variant-select");select.id=label.htmlFor;
-    candidates.slice().sort((a,b)=>b.selection_priority-a.selection_priority).forEach(a=>{const option=el("option","",`${a.source_variant} · ${a.purpose==="presentation"?"présentation":a.origin_batch.replace("_2026-11-19","").replace("_2026-11-20","")}${a.asset_id===row.selected_asset_id?" · sélection":""}`);option.value=a.asset_id;option.selected=asset&&asset.asset_id===a.asset_id;select.append(option);});
+    candidates.slice().sort((a,b)=>b.selection_priority-a.selection_priority).forEach(a=>{const option=el("option","",`${a.source_variant} · ${a.purpose==="presentation"?"présentation":a.origin_batch.replace(/_\d{4}-\d{2}-\d{2}$/u,"")}${a.asset_id===row.selected_asset_id?" · sélection":""}`);option.value=a.asset_id;option.selected=asset&&asset.asset_id===a.asset_id;select.append(option);});
     select.addEventListener("change",()=>{selectedBySubject.set(row.id,select.value);const replacement=makeCard(row);card.replaceWith(replacement);replacement.querySelector("select")?.focus({preventScroll:true});});body.append(label,select);
   }
   body.append(el("p","version",asset?asset.source_variant:`Cible : ${row.requested_source_game}`));
   if(row.scope_note)body.append(el("p","primary-note",row.scope_note));
   if(row.category==="stage"&&asset)body.append(el("p","primary-note","Master statique ; calques de parallaxe séparés à produire et contrôler."));
+  if(row.category==="projectile"&&asset)body.append(el("p","primary-note",`Sprite statique${row.source_weapon?` · ${row.source_weapon}`:""} ; trajectoire, collisions et effet à l’impact non validés par l’image.`));
   if(asset){
     const metadata=el("div","metadata");metadata.append(el("span","",`${asset.width} × ${asset.height}`),el("span","",asset.has_transparency?"PNG avec alpha":"Fond opaque"),el("span","",`${(asset.size_bytes/1048576).toFixed(2)} Mio`));body.append(metadata);
     const relation=row.category==="costume"?(asset.costume_variant_relation||asset.variant_relation):asset.variant_relation;
-    if(relation!=="target_version_candidate")body.append(el("p","primary-note",relation==="alternate_version"?`Variante différente de la cible du catalogue : ${row.requested_source_game}.`:"Édition native de cette apparence non certifiée."));
+    if(relation!=="target_version_candidate")body.append(el("p","primary-note",relation==="alternate_version"?`Variante différente de la cible du catalogue : ${row.requested_source_game}.`:relation==="text_reconstruction_candidate"?"Reconstruction à partir de descriptions textuelles ; détails du modèle à vérifier.":relation==="licensed_figure_reference_candidate"?"Référence fondée sur la figurine officielle ; modèle du jeu à vérifier.":"Édition native de cette apparence non certifiée."));
     if(asset.quality_state==="correction_required")body.append(el("p","primary-note","Des corrections visuelles restent ouvertes pour ce candidat."));
     body.append(link("Ouvrir le PNG",asset.path,"open-link"));
     const details=el("details","details");details.append(el("summary","","Contrôles, réserves et sources"));const list=el("ul");
-    const notes=asset.qa_notes.length?asset.qa_notes:["Référence statique candidate ; détails du costume à confronter aux sources avant validation."];
-    notes.forEach(note=>list.append(el("li","",note)));list.append(el("li","","Aucune conformité 1:1 certifiée ; animations dessinées à produire."));
+    const notes=asset.qa_notes.length?asset.qa_notes:["Référence statique candidate ; détails visuels à confronter aux sources avant validation."];
+    notes.forEach(note=>list.append(el("li","",note)));list.append(el("li","","Aucune conformité 1:1 certifiée ; image statique sans animation."));
     if(row.category==="costume"&&asset.costume_attribution){
       const attribution=asset.costume_attribution;
       list.append(el("li","",`Rattachement à cette tenue : ${attribution.rationale}`));
@@ -102,7 +103,7 @@ function makeCard(row){
     }
     if(asset.prototype_integration==="static_reference")list.append(el("li","","Cette image est chargée comme référence statique dans le prototype ; elle ne constitue pas une animation dessinée."));
     asset.metadata_records.forEach(path=>{const li=el("li");li.append(link("Fiche de production / contrôle",path));list.append(li);});
-    asset.source_urls.slice(0,4).forEach((url,i)=>{const li=el("li");const a=link(`Source visuelle ${i+1}`,url);a.target="_blank";a.rel="noopener noreferrer";li.append(a);list.append(li);});details.append(list);body.append(details);
+    asset.source_urls.slice(0,4).forEach((url,i)=>{const li=el("li");const a=link(`Source ${i+1}`,url);a.target="_blank";a.rel="noopener noreferrer";li.append(a);list.append(li);});details.append(list);body.append(details);
   }else{
     body.append(el("p","primary-note","Aucune animation ni validation visuelle attribuée à ce sujet."));
     if(row.last_generation_attempt)body.append(link("Voir le résultat du dernier essai",row.last_generation_attempt.record,"open-link"));
@@ -124,7 +125,7 @@ function render(){
     if(status==="missing"&&row.has_visual_reference)return false;
     if(status==="alternatives"&&candidates.length<2)return false;
     if(status==="correction_required"&&!candidates.some(a=>a.quality_state==="correction_required"))return false;
-    return !query||normalized([row.name,row.id,row.character_name,row.character_id,row.faction,row.requested_source_game,...candidates.map(a=>a.source_variant)].join(" ")).includes(query);
+    return !query||normalized([row.name,row.id,row.character_name,row.character_id,row.source_weapon,row.weapon_id,row.faction,row.requested_source_game,...candidates.map(a=>a.source_variant)].join(" ")).includes(query);
   });
   gallery.replaceChildren(...visible.map(makeCard));document.getElementById("empty-result").hidden=visible.length>0;
   const illustrated=visible.filter(row=>row.has_visual_reference).length;

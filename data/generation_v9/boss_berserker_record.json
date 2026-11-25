@@ -1,0 +1,89 @@
+{
+  "id": "boss_berserker",
+  "name": "Berserker",
+  "source_game": "Gears of War",
+  "variant": "Gears of War (2006) — candidat guidé par promotion d'époque et artbook",
+  "prompt": "Use case: identity-preserve. Produce exactly one complete static Berserker creature targeting the ORIGINAL Gears of War (2006), guided by the two attached original-era references: the official promotional Berserker image and the Berserker portrait photographed in the 2006 Destroyed Beauty collector artbook. Use the creature only; no typography, borders, book pages or surrounding scene. Preserve the distinctive original small pale ridged face recessed under a thick dark hood-like bony carapace, myopic pale eyes, broad toothy jaw, long vertically ridged throat, massive sloping shoulders and heavy upper torso, layered jagged charcoal-grey organic carapace covering shoulders and outer arms, pale-grey weathered stone-like skin, extremely large forearms and hands, thick stocky legs and broad clawed feet. Keep the first game's restrained grey-brown palette and original anatomy and proportions. Do not introduce the Lambent glowing yellow growths, the Gears5 Matriarch design, or a remastered skin. Stand in a stationary neutral ready pose at a shallow three-quarter angle facing screen-right, head alert, arms down and apart from torso, feet planted; one complete character, no attack motion or other characters. Full-body view from the highest carapace tip to the lowest toe, all hands and claws visible. Realistic detailed game rendering suitable for a 2D raster bestiary sprite, controlled neutral lighting, material detail matching the reference rather than painterly concept sketch. True transparent alpha background, no scenery, floor, shadow, glow, gradient, checkerboard, text, logo or watermark. Pull the camera back: complete creature contained within the central 74 percent of a portrait canvas with generous transparent margins all around. No blood, injuries, victim, weapons, action scene, collage or animation strip.",
+  "sources": [
+    {
+      "page_url": "https://wall.alphacoders.com/big.php?i=387691",
+      "image_url": "https://images6.alphacoders.com/387/387691.jpg",
+      "source_type": "official_era_promotional_image_on_secondary_mirror",
+      "scope": "Visuel promotionnel Berserker portant les marques Gears of War, Epic Games/Microsoft et celles de la campagne originale, hébergé par un site tiers. Inspecté localement. Montre tête, torse et bras, pas les pieds. Une image promotionnelle d’époque ne certifie pas les différences avec le modèle final Xbox 360.",
+      "visual_reference_used": true,
+      "reference_sha256": "bbbe6fe58d9530adaae422d2398e39d5cfe809818f848ac1b37dee1e3b8e5ea9"
+    },
+    {
+      "page_url": "https://www.videogameshelf.com/gears-of-war-collectors-edition/",
+      "image_url": "https://www.videogameshelf.com/wp-content/uploads/2013/10/Gears-of-War-Limited-Collectors-Edition-Artbook-Berserker.jpg",
+      "source_type": "photo_of_original_2006_official_artbook",
+      "scope": "Photo de la page Berserker du livre Destroyed Beauty livré avec le collector 2006. Gros plan de tête et carapace, inspecté localement. Support original photographié par une source secondaire, pas un rendu du modèle final complet.",
+      "visual_reference_used": true,
+      "reference_sha256": "044b602150a31a8607ea6711d1c03d5cfd4e760e5db4097c13672825778138a5"
+    },
+    {
+      "page_url": "https://models.spriters-resource.com/pc_computer/gearsofwar/asset/290794/",
+      "source_type": "archived_original_game_model_listing",
+      "scope": "Fiche modèle du Gears of War PC original consultée pour l'édition. L'image d'aperçu a renvoyé403 au téléchargement ; elle n'a pas été inspectée localement ni fournie au générateur.",
+      "visual_reference_used": false
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "orientation_facing_right": true,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Une Berserker seule, pose fixe en trois quarts vers la droite, tête et membres entiers ; aucune animation, aucun autre personnage.",
+      "Tête pâle encapuchonnée par la carapace, mâchoire, gorge ridée, épaules et avant-bras massifs suivent les références promotionnelles d'époque.",
+      "Les deux références sont partielles et montrent surtout le haut du corps. Jambes, pieds, certaines proportions et surfaces cachées ont été reconstitués ; aucune certification du modèle final Gears 2006.",
+      "Aucun modèle Ultimate Edition, Reloaded, Lambent ou Matriarch n'a été fourni au générateur. L'identité précise du design final 2006 demande encore une comparaison avec des captures du jeu.",
+      "Les marges sont plus serrées que demandé, surtout au-dessus de la tête et à droite. Toutes les extrémités restent visibles. PNG natif conservé sans transformation raster.",
+      "Alpha réel vérifié : 49.28 % des pixels entièrement transparents. Marges gauche/haut/droite/bas au seuil alpha 128 : 68/32/57/30 px."
+    ],
+    "remaining_checks": [
+      "Comparer les différences entre promotion/artbook d'époque et modèle final Gears 2006, notamment tête, poignets/chaînes, jambes, pieds et nombre de griffes.",
+      "Revoir le cadrage pour marges d'atlas et contrôler les franges alpha. Aucune animation produite."
+    ]
+  },
+  "subject_id": "boss_berserker",
+  "category": "boss",
+  "catalog_target_game": "Gears of War",
+  "purpose": "reference_fullbody",
+  "variant_relation": "target_version_candidate",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "has_image": true,
+  "asset_path": "assets/bosses_v9/berserker_gears2006_fullbody.png",
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1086,
+    "height": 1448,
+    "bytes": 2011640,
+    "sha256": "af1609c95eed912ba1648d3a29eb6f94f6adfba3da813778243fb751e739fa8c",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.49277214777733686,
+    "subject_bbox_alpha_ge_128": [
+      68,
+      32,
+      1029,
+      1418
+    ],
+    "subject_margins_ltrb_px": [
+      68,
+      32,
+      57,
+      30
+    ]
+  }
+}

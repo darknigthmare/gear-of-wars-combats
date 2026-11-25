@@ -1,0 +1,564 @@
+{
+  "date": "2026-11-25",
+  "status": "passed_with_browser_check_blocked",
+  "scope": "PNG statiques, inventaire, galerie; aucune animation ajoutée",
+  "generated_pngs": 20,
+  "generated_by_category": {
+    "character": 6,
+    "boss": 5,
+    "projectile": 3,
+    "stage": 6
+  },
+  "blocked_attempts": 6,
+  "asset_decoding": "passed",
+  "alpha_for_non_stages": "passed",
+  "opaque_silhouettes_not_clipped": "passed",
+  "sha256_and_native_dimensions": "recorded",
+  "inventory_tests": {
+    "passed": 13,
+    "failed": 0
+  },
+  "consolidation_warnings": [],
+  "coverage_totals": {
+    "roster_characters": 36,
+    "characters_with_reference": 36,
+    "characters_missing": 0,
+    "production_character_entries": 20,
+    "production_characters_with_reference": 13,
+    "character_catalog_entries": 56,
+    "catalog_characters_with_reference": 49,
+    "catalog_characters_missing": 7,
+    "character_png_files": 58,
+    "costume_catalog_entries": 85,
+    "costumes_with_reference": 38,
+    "costumes_without_explicit_reference": 47,
+    "costume_png_files": 3,
+    "reused_character_pngs_for_costumes": 35,
+    "boss_catalog_entries": 31,
+    "bosses_with_reference": 13,
+    "boss_png_files": 13,
+    "stage_catalog_entries": 34,
+    "stages_with_reference": 12,
+    "stage_png_files": 13,
+    "projectile_catalog_entries": 8,
+    "projectiles_with_reference": 3,
+    "projectiles_missing": 5,
+    "projectile_png_files": 3,
+    "additional_reference_groups": 1,
+    "active_png_files": 90,
+    "unique_active_png_sha256": 90,
+    "archived_png_files": 12,
+    "canonical_fidelity_validated": 0,
+    "completed_animation_sets": 0
+  },
+  "visual_fidelity_certified": false,
+  "correction_required": [
+    "projectile_buzzkill_sawblade_g4",
+    "projectile_dropshot_drill_g4"
+  ],
+  "gallery_browser_check": {
+    "status": "blocked_by_environment",
+    "reason": "Le wrapper /usr/bin/chromium existe, mais aucun binaire Chromium, Firefox ou WebKit n’est installé. Le téléchargement officiel Chrome Headless Shell depuis cdn.playwright.dev a échoué avec HTTP 403 Site Unavailable.",
+    "browser_render_verified": false,
+    "responsive_layout_verified": false,
+    "screenshots_produced": false
+  },
+  "generated": [
+    {
+      "subject_id": "bernadette_mataki",
+      "category": "character",
+      "path": "assets/characters_v9/bernie_armored_gears5_fullbody.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2112271,
+      "sha256": "5d0a6f9f48c65f5c92e1b377c35679c71113c5040a3e6d30cb70c897201bc354",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_fraction": 0.6593659718831381,
+      "subject_bbox_alpha_ge_128": [
+        186,
+        16,
+        853,
+        1511
+      ],
+      "subject_margins_ltrb_px": [
+        186,
+        16,
+        171,
+        25
+      ]
+    },
+    {
+      "subject_id": "boss_berserker",
+      "category": "boss",
+      "path": "assets/bosses_v9/berserker_gears2006_fullbody.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 2011640,
+      "sha256": "af1609c95eed912ba1648d3a29eb6f94f6adfba3da813778243fb751e739fa8c",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_fraction": 0.49277214777733686,
+      "subject_bbox_alpha_ge_128": [
+        68,
+        32,
+        1029,
+        1418
+      ],
+      "subject_margins_ltrb_px": [
+        68,
+        32,
+        57,
+        30
+      ]
+    },
+    {
+      "subject_id": "boss_dr1_g4",
+      "category": "boss",
+      "path": "assets/bosses_v9/dr1_gears4_fullbody.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1025,
+      "height": 1534,
+      "bytes": 1283627,
+      "sha256": "d4f27b4cbd8f5b4dbab2c21284209c41254ec7a4d2f32c5bd984d0339e2843a8",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_fraction": 0.6879664196902725,
+      "subject_bbox_alpha_ge_128": [
+        180,
+        137,
+        887,
+        1433
+      ],
+      "subject_margins_ltrb_px": [
+        180,
+        137,
+        138,
+        101
+      ]
+    },
+    {
+      "subject_id": "boss_guardian_g4",
+      "category": "boss",
+      "path": "assets/bosses_v9/guardian_gears4_fullbody.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1848142,
+      "sha256": "e2ed8412250998cb7c518585bf5dd5bfa98a6e73f5fa31667d0de064745d3a8e",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_fraction": 0.7031834920247396,
+      "subject_bbox_alpha_ge_128": [
+        168,
+        136,
+        1360,
+        905
+      ],
+      "subject_margins_ltrb_px": [
+        168,
+        136,
+        176,
+        119
+      ]
+    },
+    {
+      "subject_id": "boss_pouncer_g4",
+      "category": "boss",
+      "path": "assets/bosses_v9/pouncer_gears4_fullbody.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1861365,
+      "sha256": "610d3e9f404ff07cdb4a2a6b2b4cc8ac3623af751f09a301cd1845b366946d3d",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_fraction": 0.7554842631022135,
+      "subject_bbox_alpha_ge_128": [
+        313,
+        29,
+        1241,
+        972
+      ],
+      "subject_margins_ltrb_px": [
+        313,
+        29,
+        295,
+        52
+      ]
+    },
+    {
+      "subject_id": "boss_silverback",
+      "category": "boss",
+      "path": "assets/bosses_v9/silverback_gears3_fullbody.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1312,
+      "height": 1199,
+      "bytes": 1426057,
+      "sha256": "4596aae0b0b9d0e760083b7c45f2bb2a030fe07bb297544c46df535b076069fa",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_fraction": 0.6646913586525357,
+      "subject_bbox_alpha_ge_128": [
+        208,
+        137,
+        1103,
+        1070
+      ],
+      "subject_margins_ltrb_px": [
+        208,
+        137,
+        209,
+        129
+      ]
+    },
+    {
+      "subject_id": "hana_cole",
+      "category": "character",
+      "path": "assets/characters_v9/hana_cole.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1626224,
+      "sha256": "556ad5728efb2189946050cad5431b7610aae882678bfd3f4ee01f4bd1f8b0ef",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_fraction": 0.7515811920166016,
+      "subject_bbox_alpha_ge_128": [
+        212,
+        70,
+        789,
+        1482
+      ],
+      "subject_margins_ltrb_px": [
+        212,
+        70,
+        235,
+        54
+      ]
+    },
+    {
+      "subject_id": "ketor_vrol",
+      "category": "character",
+      "path": "assets/characters_v9/ketor_vrol.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2127626,
+      "sha256": "6e0b13d5fdf9b6e711d566c3dcb2dc291ce22cba8a4b64321975c01f1b4cba0c",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_fraction": 0.6384283701578776,
+      "subject_bbox_alpha_ge_128": [
+        169,
+        2,
+        822,
+        1534
+      ],
+      "subject_margins_ltrb_px": [
+        169,
+        2,
+        202,
+        2
+      ]
+    },
+    {
+      "subject_id": "locust_disciple",
+      "category": "character",
+      "path": "assets/characters_v9/locust_disciple.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1199,
+      "height": 1312,
+      "bytes": 1470156,
+      "sha256": "976b3e9a5252773cb1439b0054768071c89b18f510180369c7889c2e84c8aa79",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_fraction": 0.6378339927581929,
+      "subject_bbox_alpha_ge_128": [
+        203,
+        45,
+        1023,
+        1267
+      ],
+      "subject_margins_ltrb_px": [
+        203,
+        45,
+        176,
+        45
+      ]
+    },
+    {
+      "subject_id": "locust_sniper",
+      "category": "character",
+      "path": "assets/characters_v9/locust_sniper.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1199,
+      "height": 1312,
+      "bytes": 1192004,
+      "sha256": "f0f7e9bacc03077dc3da92ab2f06c07343d3e6294ad61ae2f3573b876249c618",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_fraction": 0.7032136790821619,
+      "subject_bbox_alpha_ge_128": [
+        178,
+        119,
+        1111,
+        1226
+      ],
+      "subject_margins_ltrb_px": [
+        178,
+        119,
+        88,
+        86
+      ]
+    },
+    {
+      "subject_id": "locust_zealot",
+      "category": "character",
+      "path": "assets/characters_v9/locust_zealot.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1157,
+      "height": 1360,
+      "bytes": 1458606,
+      "sha256": "d53dd6a72c286e13c83d9cabcf24f7a1ada224479171f4af9d27c087f411b9c4",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_fraction": 0.6831536936295693,
+      "subject_bbox_alpha_ge_128": [
+        237,
+        8,
+        922,
+        1344
+      ],
+      "subject_margins_ltrb_px": [
+        237,
+        8,
+        235,
+        16
+      ]
+    },
+    {
+      "subject_id": "projectile_buzzkill_sawblade_g4",
+      "category": "projectile",
+      "path": "assets/projectiles_v9/buzzkill_sawblade_gow4.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2358537,
+      "sha256": "c052d5b46f5b929a406628df79faac5a74f9a194aeaa9588a32173ad0d201c5a",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_fraction": 0.4191143365154949,
+      "subject_bbox_alpha_ge_128": [
+        59,
+        54,
+        1197,
+        1186
+      ],
+      "subject_margins_ltrb_px": [
+        59,
+        54,
+        57,
+        68
+      ]
+    },
+    {
+      "subject_id": "projectile_dropshot_drill_g4",
+      "category": "projectile",
+      "path": "assets/projectiles_v9/dropshot_drill_gow4.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1199,
+      "height": 1312,
+      "bytes": 1200935,
+      "sha256": "f9a205e5abf901a168ae45a4592f47afd6dc11f66f8576a28bc1407494e0da4d",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_fraction": 0.6569193840395452,
+      "subject_bbox_alpha_ge_128": [
+        251,
+        30,
+        910,
+        1279
+      ],
+      "subject_margins_ltrb_px": [
+        251,
+        30,
+        289,
+        33
+      ]
+    },
+    {
+      "subject_id": "projectile_frag_grenade_g3",
+      "category": "projectile",
+      "path": "assets/projectiles_v9/frag_grenade_gow3.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1983,
+      "height": 793,
+      "bytes": 1327684,
+      "sha256": "7b6cbf28221e2ceeacf7cffe9f2909428eb24605c471859a8fdb780fd51d454a",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_fraction": 0.7207575870307449,
+      "subject_bbox_alpha_ge_128": [
+        43,
+        99,
+        1908,
+        712
+      ],
+      "subject_margins_ltrb_px": [
+        43,
+        99,
+        75,
+        81
+      ]
+    },
+    {
+      "subject_id": "stage_anvil_gate",
+      "category": "stage",
+      "path": "assets/stages_v9/anvil_gate_gears3_master.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2698313,
+      "sha256": "2de63569563bfc261baf61774c03ce150bff3060dd3625eaf3a50440b3885399"
+    },
+    {
+      "subject_id": "stage_clocktower_g5",
+      "category": "stage",
+      "path": "assets/stages_v9/clocktower_gears5_master.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2686256,
+      "sha256": "b97db88ba5866082ba8f6eb187bb07cb210b9bc3eb18f3b6290fb59b4d00a332"
+    },
+    {
+      "subject_id": "stage_fenix_estate",
+      "category": "stage",
+      "path": "assets/stages_v9/fenix_estate_gow2006_garden_master.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3535892,
+      "sha256": "0c3929dc3e3ab1b178561bc7c7a1bf1407f14f1fd2d8a47f1604471398c3557b"
+    },
+    {
+      "subject_id": "stage_river_g5",
+      "category": "stage",
+      "path": "assets/stages_v9/river_gears5_tavern_master.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2743887,
+      "sha256": "bacbb0441a4b2baea08c0c1e95d67f6492c243cc9d21a35e6f9dcc2138ec8c91"
+    },
+    {
+      "subject_id": "stage_sovereigns",
+      "category": "stage",
+      "path": "assets/stages_v9/house_of_sovereigns_gow2006_master.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2691383,
+      "sha256": "2fd0ca1397e49cecb048e3368ed193d4b15e688141ebff9af9d4581b7f550dbe"
+    },
+    {
+      "subject_id": "stage_tyro_pillar",
+      "category": "stage",
+      "path": "assets/stages_v9/tyro_pillar_gow2006_master.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2771367,
+      "sha256": "1b0d48862713aba94b49e9e3c08a0d3e45d25bd7cc49c77d7241f0ea59cfe672"
+    }
+  ],
+  "data_validation": {
+    "status": "passed",
+    "errors": [],
+    "report": "docs/data_validation.json"
+  },
+  "independent_review": {
+    "status": "passed_with_documented_reservations",
+    "scopes": [
+      "personnages et trois premiers ennemis",
+      "trois projectiles",
+      "inventaire, mappings et filtres"
+    ],
+    "key_findings": [
+      "Guardian corrigé vers la droite",
+      "Silverback corrigé sans pilote",
+      "Buzzkill et Dropshot marqués correction_required",
+      "Marges serrées, variantes et parties reconstruites consignées"
+    ]
+  },
+  "consistency_checks": {
+    "status": "passed",
+    "embedded_gallery_data_matches_json": true,
+    "v9_pngs_have_exactly_one_generation_record": true,
+    "all_new_document_local_links_exist": true,
+    "javascript_syntax": "passed",
+    "old_pngs_unchanged": true,
+    "new_generated_pngs": 20,
+    "generation_records": 26,
+    "blocked_without_png": 6
+  },
+  "gallery_filter_logic_check": {
+    "status": "passed",
+    "runtime": "Node.js, fonction render extraite de la galerie, DOM minimal simulé",
+    "category_status_combinations": 30,
+    "weapon_search": "Buzzkill — passed",
+    "asset_paths_exist": true,
+    "limits": "Ne valide pas le moteur de rendu, les événements DOM réels ni la mise en page mobile."
+  }
+}

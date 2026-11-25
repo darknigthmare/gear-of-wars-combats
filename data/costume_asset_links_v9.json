@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "version": "v9",
+  "updated_at": "2026-11-25",
+  "scope": "Un rattachement de costume à un PNG personnage existant, sans doublon de fichier.",
+  "links": [
+    {
+      "asset_path": "assets/characters_v9/bernie_armored_gears5_fullbody.png",
+      "sha256": "5d0a6f9f48c65f5c92e1b377c35679c71113c5040a3e6d30cb70c897201bc354",
+      "character_id": "bernadette_mataki",
+      "costume_id": "bernie_armored_g5",
+      "source_record_path": "data/generation_v9/bernadette_mataki_record.json",
+      "additional_evidence_paths": [],
+      "rationale": "Le personnage et le costume Armored Bernie du catalogue ciblent explicitement le même modèle Gears 5 Operation 8. Le PNG est généré depuis le panneau officiel Armored Bernie, sans mélange avec V-Day Gears 3.",
+      "source_urls": [
+        "https://store.steampowered.com/news/app/1097840/view/2975175813409684111"
+      ],
+      "caveats": [
+        "Source partielle aux cuisses; bottes et jambes reconstruites et non certifiées.",
+        "Le rattachement de costume ne crée pas un PNG supplémentaire ni un état animé."
+      ]
+    }
+  ]
+}

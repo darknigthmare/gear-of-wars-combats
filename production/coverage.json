@@ -1,32 +1,37 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "project": "Gears of War Combats",
-  "snapshot_date": "2026-11-20",
+  "snapshot_date": "2026-11-25",
+  "report_path": "docs/production/CONSOLIDATION_2026-11-25.md",
   "generator": "src/consolidate_inventory.py",
   "totals": {
     "roster_characters": 36,
     "characters_with_reference": 36,
     "characters_missing": 0,
     "production_character_entries": 20,
-    "production_characters_with_reference": 7,
+    "production_characters_with_reference": 13,
     "character_catalog_entries": 56,
-    "catalog_characters_with_reference": 43,
-    "catalog_characters_missing": 13,
-    "character_png_files": 52,
+    "catalog_characters_with_reference": 49,
+    "catalog_characters_missing": 7,
+    "character_png_files": 58,
     "costume_catalog_entries": 85,
-    "costumes_with_reference": 37,
-    "costumes_without_explicit_reference": 48,
+    "costumes_with_reference": 38,
+    "costumes_without_explicit_reference": 47,
     "costume_png_files": 3,
-    "reused_character_pngs_for_costumes": 34,
+    "reused_character_pngs_for_costumes": 35,
     "boss_catalog_entries": 31,
-    "bosses_with_reference": 8,
-    "boss_png_files": 8,
+    "bosses_with_reference": 13,
+    "boss_png_files": 13,
     "stage_catalog_entries": 34,
-    "stages_with_reference": 6,
-    "stage_png_files": 7,
+    "stages_with_reference": 12,
+    "stage_png_files": 13,
+    "projectile_catalog_entries": 8,
+    "projectiles_with_reference": 3,
+    "projectiles_missing": 5,
+    "projectile_png_files": 3,
     "additional_reference_groups": 1,
-    "active_png_files": 70,
-    "unique_active_png_sha256": 70,
+    "active_png_files": 90,
+    "unique_active_png_sha256": 90,
     "archived_png_files": 12,
     "canonical_fidelity_validated": 0,
     "completed_animation_sets": 0
@@ -100,7 +105,8 @@
         "generation": 5,
         "status": "generated",
         "category": "character",
-        "has_file": true
+        "has_file": true,
+        "pass_date": "2026-11-20"
       }
     },
     {
@@ -452,7 +458,8 @@
         "generation": 5,
         "status": "generated",
         "category": "character",
-        "has_file": true
+        "has_file": true,
+        "pass_date": "2026-11-20"
       }
     },
     {
@@ -740,7 +747,8 @@
         "generation": 6,
         "status": "generated_reference_pending_validation",
         "category": "character",
-        "has_file": true
+        "has_file": true,
+        "pass_date": "2026-11-20"
       }
     },
     {
@@ -1371,7 +1379,7 @@
       "catalog_scope": "production_extension",
       "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
       "has_visual_reference": false,
-      "visual_status": "missing",
+      "visual_status": "generation_blocked",
       "selected_asset_id": null,
       "selected_path": null,
       "selected_source_variant": null,
@@ -1381,7 +1389,14 @@
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null,
+      "last_generation_attempt": {
+        "record": "data/generation_v9/benjamin_carmine_record.json",
+        "generation": 9,
+        "status": "blocked",
+        "category": "character",
+        "has_file": false,
+        "pass_date": "2026-11-25"
+      },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
     },
     {
@@ -1405,7 +1420,7 @@
       "catalog_scope": "production_extension",
       "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
       "has_visual_reference": false,
-      "visual_status": "missing",
+      "visual_status": "generation_blocked",
       "selected_asset_id": null,
       "selected_path": null,
       "selected_source_variant": null,
@@ -1415,7 +1430,14 @@
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null,
+      "last_generation_attempt": {
+        "record": "data/generation_v9/jace_stratton_record.json",
+        "generation": 9,
+        "status": "blocked",
+        "category": "character",
+        "has_file": false,
+        "pass_date": "2026-11-25"
+      },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
     },
     {
@@ -1457,7 +1479,8 @@
         "generation": 7,
         "status": "generated_reference_pending_validation",
         "category": "character",
-        "has_file": true
+        "has_file": true,
+        "pass_date": "2026-11-20"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
     },
@@ -1500,7 +1523,8 @@
         "generation": 6,
         "status": "generated_reference_pending_validation",
         "category": "character",
-        "has_file": true
+        "has_file": true,
+        "pass_date": "2026-11-20"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
     },
@@ -1576,7 +1600,8 @@
         "generation": 7,
         "status": "generated_reference_pending_validation",
         "category": "character",
-        "has_file": true
+        "has_file": true,
+        "pass_date": "2026-11-20"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
     },
@@ -1601,18 +1626,27 @@
       ],
       "catalog_scope": "production_extension",
       "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_characters_v9_bernie_armored_gears5_fullbody_png",
+      "selected_path": "assets/characters_v9/bernie_armored_gears5_fullbody.png",
+      "selected_source_variant": "Gears 5 — Armored Bernie, pose de base fixe",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_characters_v9_bernie_armored_gears5_fullbody_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/characters_v9/bernie_armored_gears5_fullbody.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null,
+      "last_generation_attempt": {
+        "record": "data/generation_v9/bernadette_mataki_record.json",
+        "generation": 9,
+        "status": "generated_reference_pending_validation",
+        "category": "character",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
     },
     {
@@ -1636,18 +1670,27 @@
       ],
       "catalog_scope": "production_extension",
       "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_characters_v9_ketor_vrol_png",
+      "selected_path": "assets/characters_v9/ketor_vrol.png",
+      "selected_source_variant": "Gears 5 — Ketor Vrol multijoueur Operation 8",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_characters_v9_ketor_vrol_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/characters_v9/ketor_vrol.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null,
+      "last_generation_attempt": {
+        "record": "data/generation_v9/ketor_vrol_record.json",
+        "generation": 9,
+        "status": "generated_reference_pending_validation",
+        "category": "character",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
     },
     {
@@ -1705,7 +1748,7 @@
       "catalog_scope": "production_extension",
       "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
       "has_visual_reference": false,
-      "visual_status": "missing",
+      "visual_status": "generation_blocked",
       "selected_asset_id": null,
       "selected_path": null,
       "selected_source_variant": null,
@@ -1715,7 +1758,14 @@
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null,
+      "last_generation_attempt": {
+        "record": "data/generation_v9/prescott_record.json",
+        "generation": 9,
+        "status": "blocked",
+        "category": "character",
+        "has_file": false,
+        "pass_date": "2026-11-25"
+      },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
     },
     {
@@ -1738,18 +1788,27 @@
       ],
       "catalog_scope": "production_extension",
       "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_characters_v9_hana_cole_png",
+      "selected_path": "assets/characters_v9/hana_cole.png",
+      "selected_source_variant": "Gears 5 — Scientist Hana, référence multijoueur Operation 7 à comparer à Hivebusters",
+      "selected_variant_relation": "cross_mode_appearance_candidate",
+      "asset_ids": [
+        "assets_characters_v9_hana_cole_png"
+      ],
       "target_version_candidate_available": false,
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null,
+      "last_generation_attempt": {
+        "record": "data/generation_v9/hana_cole_record.json",
+        "generation": 9,
+        "status": "generated_reference_pending_validation",
+        "category": "character",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
     },
     {
@@ -1806,18 +1865,27 @@
       ],
       "catalog_scope": "production_extension",
       "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_characters_v9_locust_disciple_png",
+      "selected_path": "assets/characters_v9/locust_disciple.png",
+      "selected_source_variant": "Gears Tactics — Disciple standard tête nue, harnais à Imulsion",
+      "selected_variant_relation": "licensed_figure_reference_candidate",
+      "asset_ids": [
+        "assets_characters_v9_locust_disciple_png"
+      ],
       "target_version_candidate_available": false,
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null,
+      "last_generation_attempt": {
+        "record": "data/generation_v9/locust_disciple_record.json",
+        "generation": 9,
+        "status": "generated_reference_pending_validation",
+        "category": "character",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
     },
     {
@@ -1840,18 +1908,27 @@
       ],
       "catalog_scope": "production_extension",
       "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_characters_v9_locust_zealot_png",
+      "selected_path": "assets/characters_v9/locust_zealot.png",
+      "selected_source_variant": "Gears Tactics — Zealot standard avec casque pointu",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_characters_v9_locust_zealot_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/characters_v9/locust_zealot.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null,
+      "last_generation_attempt": {
+        "record": "data/generation_v9/locust_zealot_record.json",
+        "generation": 9,
+        "status": "generated_reference_pending_validation",
+        "category": "character",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
     },
     {
@@ -1874,18 +1951,27 @@
       ],
       "catalog_scope": "production_extension",
       "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_characters_v9_locust_sniper_png",
+      "selected_path": "assets/characters_v9/locust_sniper.png",
+      "selected_source_variant": "Gears Tactics — Sniper Drone standard avec Longshot",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_characters_v9_locust_sniper_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/characters_v9/locust_sniper.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null,
+      "last_generation_attempt": {
+        "record": "data/generation_v9/locust_sniper_record.json",
+        "generation": 9,
+        "status": "generated_reference_pending_validation",
+        "category": "character",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
     },
     {
@@ -1926,7 +2012,8 @@
         "generation": 6,
         "status": "generated_reference_pending_validation",
         "category": "character",
-        "has_file": true
+        "has_file": true,
+        "pass_date": "2026-11-20"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
     },
@@ -1970,7 +2057,8 @@
         "generation": 8,
         "status": "generated_reference_pending_validation",
         "category": "character",
-        "has_file": true
+        "has_file": true,
+        "pass_date": "2026-11-20"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
     },
@@ -2016,7 +2104,8 @@
         "generation": 8,
         "status": "generated_reference_pending_validation",
         "category": "character",
-        "has_file": true
+        "has_file": true,
+        "pass_date": "2026-11-20"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
     },
@@ -2062,7 +2151,8 @@
         "generation": 8,
         "status": "generated_reference_pending_validation",
         "category": "character",
-        "has_file": true
+        "has_file": true,
+        "pass_date": "2026-11-20"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
     }
@@ -2169,7 +2259,8 @@
         "generation": 8,
         "status": "generated_reference_pending_validation",
         "category": "costume",
-        "has_file": true
+        "has_file": true,
+        "pass_date": "2026-11-20"
       }
     },
     {
@@ -2567,7 +2658,8 @@
         "generation": 7,
         "status": "generated_reference_pending_validation",
         "category": "costume",
-        "has_file": true
+        "has_file": true,
+        "pass_date": "2026-11-20"
       }
     },
     {
@@ -4227,7 +4319,8 @@
         "generation": 6,
         "status": "generated_reference_pending_validation",
         "category": "costume",
-        "has_file": true
+        "has_file": true,
+        "pass_date": "2026-11-20"
       }
     },
     {
@@ -4678,15 +4771,17 @@
       ],
       "catalog_scope": "production_extension",
       "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_characters_v9_bernie_armored_gears5_fullbody_png",
+      "selected_path": "assets/characters_v9/bernie_armored_gears5_fullbody.png",
+      "selected_source_variant": "Gears 5 — Armored Bernie, pose de base fixe",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_characters_v9_bernie_armored_gears5_fullbody_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/characters_v9/bernie_armored_gears5_fullbody.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": null
@@ -4903,18 +4998,27 @@
       "catalog_notes": [],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_bosses_v9_berserker_gears2006_fullbody_png",
+      "selected_path": "assets/bosses_v9/berserker_gears2006_fullbody.png",
+      "selected_source_variant": "Gears of War (2006) — candidat guidé par promotion d'époque et artbook",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_bosses_v9_berserker_gears2006_fullbody_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/bosses_v9/berserker_gears2006_fullbody.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v9/boss_berserker_record.json",
+        "generation": 9,
+        "status": "generated_reference_pending_validation",
+        "category": "boss",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      }
     },
     {
       "id": "boss_corpser",
@@ -5152,7 +5256,8 @@
         "generation": 8,
         "status": "generated_reference_pending_validation",
         "category": "boss",
-        "has_file": true
+        "has_file": true,
+        "pass_date": "2026-11-20"
       }
     },
     {
@@ -5221,7 +5326,8 @@
         "generation": 8,
         "status": "generated_reference_pending_validation",
         "category": "boss",
-        "has_file": true
+        "has_file": true,
+        "pass_date": "2026-11-20"
       }
     },
     {
@@ -5261,7 +5367,8 @@
         "generation": 7,
         "status": "generated_reference_pending_validation",
         "category": "boss",
-        "has_file": true
+        "has_file": true,
+        "pass_date": "2026-11-20"
       }
     },
     {
@@ -5501,7 +5608,8 @@
         "generation": 6,
         "status": "generated_reference_pending_validation",
         "category": "boss",
-        "has_file": true
+        "has_file": true,
+        "pass_date": "2026-11-20"
       }
     },
     {
@@ -5683,18 +5791,27 @@
       "catalog_notes": [],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_bosses_v9_silverback_gears3_fullbody_png",
+      "selected_path": "assets/bosses_v9/silverback_gears3_fullbody.png",
+      "selected_source_variant": "Gears of War 3 — exosquelette seul, sans pilote",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_bosses_v9_silverback_gears3_fullbody_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/bosses_v9/silverback_gears3_fullbody.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v9/boss_silverback_record.json",
+        "generation": 9,
+        "status": "generated_reference_pending_validation",
+        "category": "boss",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      }
     },
     {
       "id": "boss_pouncer_g4",
@@ -5718,18 +5835,27 @@
       ],
       "catalog_scope": "encounter_adaptation_2d",
       "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_bosses_v9_pouncer_gears4_fullbody_png",
+      "selected_path": "assets/bosses_v9/pouncer_gears4_fullbody.png",
+      "selected_source_variant": "Gears of War 4 — Pouncer, pose fixe",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_bosses_v9_pouncer_gears4_fullbody_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/bosses_v9/pouncer_gears4_fullbody.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v9/boss_pouncer_g4_record.json",
+        "generation": 9,
+        "status": "generated_reference_pending_validation",
+        "category": "boss",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      }
     },
     {
       "id": "boss_dr1_g4",
@@ -5753,18 +5879,27 @@
       ],
       "catalog_scope": "encounter_adaptation_2d",
       "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_bosses_v9_dr1_gears4_fullbody_png",
+      "selected_path": "assets/bosses_v9/dr1_gears4_fullbody.png",
+      "selected_source_variant": "Gears of War 4 — DR-1 bleu avec Overkill",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_bosses_v9_dr1_gears4_fullbody_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/bosses_v9/dr1_gears4_fullbody.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v9/boss_dr1_g4_record.json",
+        "generation": 9,
+        "status": "generated_reference_pending_validation",
+        "category": "boss",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      }
     },
     {
       "id": "boss_guardian_g4",
@@ -5788,18 +5923,27 @@
       ],
       "catalog_scope": "encounter_adaptation_2d",
       "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_bosses_v9_guardian_gears4_fullbody_png",
+      "selected_path": "assets/bosses_v9/guardian_gears4_fullbody.png",
+      "selected_source_variant": "Gears of War 4 — Guardian Tri-Shot, drone seul sans bouclier actif",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_bosses_v9_guardian_gears4_fullbody_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/bosses_v9/guardian_gears4_fullbody.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v9/boss_guardian_g4_record.json",
+        "generation": 9,
+        "status": "generated_reference_pending_validation",
+        "category": "boss",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      }
     },
     {
       "id": "boss_scion_g4",
@@ -5824,7 +5968,7 @@
       "catalog_scope": "encounter_adaptation_2d",
       "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
       "has_visual_reference": false,
-      "visual_status": "missing",
+      "visual_status": "generation_blocked",
       "selected_asset_id": null,
       "selected_path": null,
       "selected_source_variant": null,
@@ -5834,7 +5978,14 @@
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v9/boss_scion_g4_record.json",
+        "generation": 9,
+        "status": "blocked",
+        "category": "boss",
+        "has_file": false,
+        "pass_date": "2026-11-25"
+      }
     },
     {
       "id": "boss_rager_g5",
@@ -5961,18 +6112,27 @@
       "catalog_notes": [],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_stages_v9_house_of_sovereigns_gow2006_master_png",
+      "selected_path": "assets/stages_v9/house_of_sovereigns_gow2006_master.png",
+      "selected_source_variant": "Gears of War (2006) — parvis extérieur adapté au combat latéral",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_stages_v9_house_of_sovereigns_gow2006_master_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/stages_v9/house_of_sovereigns_gow2006_master.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null,
+      "last_generation_attempt": {
+        "record": "data/generation_v9/stage_sovereigns_record.json",
+        "generation": 9,
+        "status": "generated_reference_pending_validation",
+        "category": "stage",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      },
       "parallax_status": "separate_layers_not_validated"
     },
     {
@@ -5992,18 +6152,27 @@
       "catalog_notes": [],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_stages_v9_fenix_estate_gow2006_garden_master_png",
+      "selected_path": "assets/stages_v9/fenix_estate_gow2006_garden_master.png",
+      "selected_source_variant": "Gears of War 2006 — terrasse du jardin et escalier du domaine adaptés au combat latéral",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_stages_v9_fenix_estate_gow2006_garden_master_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/stages_v9/fenix_estate_gow2006_garden_master.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null,
+      "last_generation_attempt": {
+        "record": "data/generation_v9/stage_fenix_estate_record.json",
+        "generation": 9,
+        "status": "generated_reference_pending_validation",
+        "category": "stage",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      },
       "parallax_status": "separate_layers_not_validated"
     },
     {
@@ -6024,18 +6193,27 @@
       "catalog_notes": [],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_stages_v9_tyro_pillar_gow2006_master_png",
+      "selected_path": "assets/stages_v9/tyro_pillar_gow2006_master.png",
+      "selected_source_variant": "Gears of War 2006 — pont de fret adapté au combat latéral",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_stages_v9_tyro_pillar_gow2006_master_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/stages_v9/tyro_pillar_gow2006_master.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null,
+      "last_generation_attempt": {
+        "record": "data/generation_v9/stage_tyro_pillar_record.json",
+        "generation": 9,
+        "status": "generated_reference_pending_validation",
+        "category": "stage",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      },
       "parallax_status": "separate_layers_not_validated"
     },
     {
@@ -6187,18 +6365,27 @@
       "catalog_notes": [],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_stages_v9_anvil_gate_gears3_master_png",
+      "selected_path": "assets/stages_v9/anvil_gate_gears3_master.png",
+      "selected_source_variant": "Gears of War 3 — cour intérieure de la porte 02 adaptée au combat latéral",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_stages_v9_anvil_gate_gears3_master_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/stages_v9/anvil_gate_gears3_master.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null,
+      "last_generation_attempt": {
+        "record": "data/generation_v9/stage_anvil_gate_record.json",
+        "generation": 9,
+        "status": "generated_reference_pending_validation",
+        "category": "stage",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      },
       "parallax_status": "separate_layers_not_validated"
     },
     {
@@ -6751,7 +6938,8 @@
         "generation": 6,
         "status": "generated_reference_pending_validation",
         "category": "stage",
-        "has_file": true
+        "has_file": true,
+        "pass_date": "2026-11-20"
       },
       "parallax_status": "separate_layers_not_validated"
     },
@@ -6863,7 +7051,8 @@
         "generation": 7,
         "status": "generated_reference_pending_validation",
         "category": "stage",
-        "has_file": true
+        "has_file": true,
+        "pass_date": "2026-11-20"
       },
       "parallax_status": "separate_layers_not_validated"
     },
@@ -6905,7 +7094,8 @@
         "generation": 7,
         "status": "generated_reference_pending_validation",
         "category": "stage",
-        "has_file": true
+        "has_file": true,
+        "pass_date": "2026-11-20"
       },
       "parallax_status": "separate_layers_not_validated"
     },
@@ -6929,18 +7119,27 @@
       ],
       "catalog_scope": "production_extension",
       "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_stages_v9_river_gears5_tavern_master_png",
+      "selected_path": "assets/stages_v9/river_gears5_tavern_master.png",
+      "selected_source_variant": "Gears 5 — River, intérieur de taverne adapté au combat latéral",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_stages_v9_river_gears5_tavern_master_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/stages_v9/river_gears5_tavern_master.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null,
+      "last_generation_attempt": {
+        "record": "data/generation_v9/stage_river_g5_record.json",
+        "generation": 9,
+        "status": "generated_reference_pending_validation",
+        "category": "stage",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      },
       "parallax_status": "separate_layers_not_validated"
     },
     {
@@ -6963,18 +7162,27 @@
       ],
       "catalog_scope": "production_extension",
       "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_stages_v9_clocktower_gears5_master_png",
+      "selected_path": "assets/stages_v9/clocktower_gears5_master.png",
+      "selected_source_variant": "Gears 5 — Clocktower, terrasse nocturne adaptée au combat latéral",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_stages_v9_clocktower_gears5_master_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/stages_v9/clocktower_gears5_master.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null,
+      "last_generation_attempt": {
+        "record": "data/generation_v9/stage_clocktower_g5_record.json",
+        "generation": 9,
+        "status": "generated_reference_pending_validation",
+        "category": "stage",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      },
       "parallax_status": "separate_layers_not_validated"
     },
     {
@@ -7015,7 +7223,8 @@
         "generation": 8,
         "status": "generated_reference_pending_validation",
         "category": "stage",
-        "has_file": true
+        "has_file": true,
+        "pass_date": "2026-11-20"
       },
       "parallax_status": "separate_layers_not_validated"
     },
@@ -7057,7 +7266,8 @@
         "generation": 8,
         "status": "generated_reference_pending_validation",
         "category": "stage",
-        "has_file": true
+        "has_file": true,
+        "pass_date": "2026-11-20"
       },
       "parallax_status": "separate_layers_not_validated"
     },
@@ -7094,6 +7304,333 @@
       "animation_status": "not_produced",
       "last_generation_attempt": null,
       "parallax_status": "separate_layers_not_validated"
+    }
+  ],
+  "projectiles": [
+    {
+      "id": "projectile_frag_grenade_g3",
+      "name": "Grenade Bolo / Frag",
+      "category": "projectile",
+      "requested_source_game": "Gears of War 3",
+      "requested_base_costume": null,
+      "priority": "P1",
+      "faction": "",
+      "character_id": null,
+      "character_name": null,
+      "parent_id": null,
+      "source_urls": [
+        "https://gearsofwar.fandom.com/wiki/Bolo_Grenade"
+      ],
+      "catalog_notes": [
+        "Un projectile isolé et statique par image, sans séquence ni animation.",
+        "Présence du fichier vérifiée par la consolidation; aucun détail visuel non contrôlé n'est certifié 1:1."
+      ],
+      "catalog_scope": "production_extension",
+      "implementation_status": "Candidat d’asset statique ; modèle final et intégration au moteur à vérifier.",
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_projectiles_v9_frag_grenade_gow3_png",
+      "selected_path": "assets/projectiles_v9/frag_grenade_gow3.png",
+      "selected_source_variant": "Gears of War 3 — projectile isolé, pose fixe",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_projectiles_v9_frag_grenade_gow3_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/projectiles_v9/frag_grenade_gow3.png",
+      "canonical_fidelity_validated": false,
+      "animation_status": "not_produced",
+      "last_generation_attempt": {
+        "record": "data/generation_v9/projectile_frag_grenade_g3_record.json",
+        "generation": 9,
+        "status": "generated_reference_pending_validation",
+        "category": "projectile",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      },
+      "weapon_id": "frag",
+      "source_weapon": "Frag Grenade"
+    },
+    {
+      "id": "projectile_buzzkill_sawblade_g4",
+      "name": "Buzzkill — lame circulaire",
+      "category": "projectile",
+      "requested_source_game": "Gears of War 4",
+      "requested_base_costume": null,
+      "priority": "P1",
+      "faction": "",
+      "character_id": null,
+      "character_name": null,
+      "parent_id": null,
+      "source_urls": [
+        "https://primagames.com/eguides/gears-of-war-4-eguide/multiplayer/multiplayer-arsenal/heavy-weapons"
+      ],
+      "catalog_notes": [
+        "Un projectile isolé et statique par image, sans séquence ni animation.",
+        "Présence du fichier vérifiée par la consolidation; aucun détail visuel non contrôlé n'est certifié 1:1.",
+        "Reconstruction à partir de descriptions textuelles : détails du projectile non confirmés visuellement, candidat marqué À corriger."
+      ],
+      "catalog_scope": "production_extension",
+      "implementation_status": "Candidat d’asset statique ; modèle final et intégration au moteur à vérifier.",
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_projectiles_v9_buzzkill_sawblade_gow4_png",
+      "selected_path": "assets/projectiles_v9/buzzkill_sawblade_gow4.png",
+      "selected_source_variant": "Gears of War 4 — projectile isolé, pose fixe",
+      "selected_variant_relation": "text_reconstruction_candidate",
+      "asset_ids": [
+        "assets_projectiles_v9_buzzkill_sawblade_gow4_png"
+      ],
+      "target_version_candidate_available": false,
+      "target_version_candidate_path": null,
+      "canonical_fidelity_validated": false,
+      "animation_status": "not_produced",
+      "last_generation_attempt": {
+        "record": "data/generation_v9/projectile_buzzkill_sawblade_g4_record.json",
+        "generation": 9,
+        "status": "generated_reference_pending_validation",
+        "category": "projectile",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      },
+      "weapon_id": "buzzkill",
+      "source_weapon": "Buzzkill"
+    },
+    {
+      "id": "projectile_dropshot_drill_g4",
+      "name": "Dropshot — projectile foreuse",
+      "category": "projectile",
+      "requested_source_game": "Gears of War 4",
+      "requested_base_costume": null,
+      "priority": "P1",
+      "faction": "",
+      "character_id": null,
+      "character_name": null,
+      "parent_id": null,
+      "source_urls": [
+        "https://primagames.com/eguides/gears-of-war-4-eguide/multiplayer/multiplayer-arsenal/explosive-weapons",
+        "https://www.gallerynucleus.com/detail/21616/"
+      ],
+      "catalog_notes": [
+        "Un projectile isolé et statique par image, sans séquence ni animation.",
+        "Présence du fichier vérifiée par la consolidation; aucun détail visuel non contrôlé n'est certifié 1:1.",
+        "Reconstruction à partir de descriptions textuelles : détails du projectile non confirmés visuellement, candidat marqué À corriger."
+      ],
+      "catalog_scope": "production_extension",
+      "implementation_status": "Candidat d’asset statique ; modèle final et intégration au moteur à vérifier.",
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_projectiles_v9_dropshot_drill_gow4_png",
+      "selected_path": "assets/projectiles_v9/dropshot_drill_gow4.png",
+      "selected_source_variant": "Gears of War 4 — projectile isolé, pose fixe",
+      "selected_variant_relation": "text_reconstruction_candidate",
+      "asset_ids": [
+        "assets_projectiles_v9_dropshot_drill_gow4_png"
+      ],
+      "target_version_candidate_available": false,
+      "target_version_candidate_path": null,
+      "canonical_fidelity_validated": false,
+      "animation_status": "not_produced",
+      "last_generation_attempt": {
+        "record": "data/generation_v9/projectile_dropshot_drill_g4_record.json",
+        "generation": 9,
+        "status": "generated_reference_pending_validation",
+        "category": "projectile",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      },
+      "weapon_id": "dropshot",
+      "source_weapon": "Dropshot"
+    },
+    {
+      "id": "projectile_torque_bow_bolt_g3",
+      "name": "Torque Bow — carreau",
+      "category": "projectile",
+      "requested_source_game": "Gears of War 3",
+      "requested_base_costume": null,
+      "priority": "P1",
+      "faction": "",
+      "character_id": null,
+      "character_name": null,
+      "parent_id": null,
+      "source_urls": [
+        "https://primagames.com/eguides/gears-of-war-4-eguide/multiplayer/multiplayer-arsenal/explosive-weapons"
+      ],
+      "catalog_notes": [
+        "Cible de production statique; une fiche de catalogue n'implique pas une image disponible.",
+        "Modèle visuel précis à comparer à l'édition cible.",
+        "La source Gears 4 documente le type d’arme, pas l’apparence exacte du carreau Gears 3 ; une référence de cette édition reste nécessaire."
+      ],
+      "catalog_scope": "production_extension",
+      "implementation_status": "Cible documentée, PNG compté uniquement s'il existe.",
+      "has_visual_reference": false,
+      "visual_status": "generation_blocked",
+      "selected_asset_id": null,
+      "selected_path": null,
+      "selected_source_variant": null,
+      "selected_variant_relation": null,
+      "asset_ids": [],
+      "target_version_candidate_available": false,
+      "target_version_candidate_path": null,
+      "canonical_fidelity_validated": false,
+      "animation_status": "not_produced",
+      "last_generation_attempt": {
+        "record": "data/generation_v9/projectile_torque_bow_bolt_g3_record.json",
+        "generation": 9,
+        "status": "blocked",
+        "category": "projectile",
+        "has_file": false,
+        "pass_date": "2026-11-25"
+      },
+      "weapon_id": "torque_bow",
+      "source_weapon": "Torque Bow"
+    },
+    {
+      "id": "projectile_shock_grenade_g4",
+      "name": "Grenade Shock",
+      "category": "projectile",
+      "requested_source_game": "Gears of War 4",
+      "requested_base_costume": null,
+      "priority": "P1",
+      "faction": "",
+      "character_id": null,
+      "character_name": null,
+      "parent_id": null,
+      "source_urls": [
+        "https://primagames.com/eguides/gears-of-war-4-eguide/multiplayer/multiplayer-arsenal/grenades"
+      ],
+      "catalog_notes": [
+        "Cible de production statique; une fiche de catalogue n'implique pas une image disponible.",
+        "Modèle visuel précis à comparer à l'édition cible."
+      ],
+      "catalog_scope": "production_extension",
+      "implementation_status": "Cible documentée, PNG compté uniquement s'il existe.",
+      "has_visual_reference": false,
+      "visual_status": "generation_blocked",
+      "selected_asset_id": null,
+      "selected_path": null,
+      "selected_source_variant": null,
+      "selected_variant_relation": null,
+      "asset_ids": [],
+      "target_version_candidate_available": false,
+      "target_version_candidate_path": null,
+      "canonical_fidelity_validated": false,
+      "animation_status": "not_produced",
+      "last_generation_attempt": {
+        "record": "data/generation_v9/projectile_shock_grenade_g4_record.json",
+        "generation": 9,
+        "status": "blocked",
+        "category": "projectile",
+        "has_file": false,
+        "pass_date": "2026-11-25"
+      },
+      "weapon_id": "shock_grenade",
+      "source_weapon": "Shock Grenade"
+    },
+    {
+      "id": "projectile_smoke_grenade_g4",
+      "name": "Grenade fumigène",
+      "category": "projectile",
+      "requested_source_game": "Gears of War 4",
+      "requested_base_costume": null,
+      "priority": "P1",
+      "faction": "",
+      "character_id": null,
+      "character_name": null,
+      "parent_id": null,
+      "source_urls": [
+        "https://primagames.com/eguides/gears-of-war-4-eguide/multiplayer/multiplayer-arsenal/grenades"
+      ],
+      "catalog_notes": [
+        "Cible de production statique; une fiche de catalogue n'implique pas une image disponible.",
+        "Modèle visuel précis à comparer à l'édition cible."
+      ],
+      "catalog_scope": "production_extension",
+      "implementation_status": "Cible documentée, PNG compté uniquement s'il existe.",
+      "has_visual_reference": false,
+      "visual_status": "missing",
+      "selected_asset_id": null,
+      "selected_path": null,
+      "selected_source_variant": null,
+      "selected_variant_relation": null,
+      "asset_ids": [],
+      "target_version_candidate_available": false,
+      "target_version_candidate_path": null,
+      "canonical_fidelity_validated": false,
+      "animation_status": "not_produced",
+      "last_generation_attempt": null,
+      "weapon_id": "smoke_grenade",
+      "source_weapon": "Smoke Grenade"
+    },
+    {
+      "id": "projectile_incendiary_grenade_g4",
+      "name": "Grenade incendiaire",
+      "category": "projectile",
+      "requested_source_game": "Gears of War 4",
+      "requested_base_costume": null,
+      "priority": "P1",
+      "faction": "",
+      "character_id": null,
+      "character_name": null,
+      "parent_id": null,
+      "source_urls": [
+        "https://primagames.com/eguides/gears-of-war-4-eguide/multiplayer/multiplayer-arsenal/grenades"
+      ],
+      "catalog_notes": [
+        "Cible de production statique; une fiche de catalogue n'implique pas une image disponible.",
+        "Modèle visuel précis à comparer à l'édition cible."
+      ],
+      "catalog_scope": "production_extension",
+      "implementation_status": "Cible documentée, PNG compté uniquement s'il existe.",
+      "has_visual_reference": false,
+      "visual_status": "missing",
+      "selected_asset_id": null,
+      "selected_path": null,
+      "selected_source_variant": null,
+      "selected_variant_relation": null,
+      "asset_ids": [],
+      "target_version_candidate_available": false,
+      "target_version_candidate_path": null,
+      "canonical_fidelity_validated": false,
+      "animation_status": "not_produced",
+      "last_generation_attempt": null,
+      "weapon_id": "incendiary_grenade",
+      "source_weapon": "Incendiary Grenade"
+    },
+    {
+      "id": "projectile_boomshot_shell_g4",
+      "name": "Boomshot — munition",
+      "category": "projectile",
+      "requested_source_game": "Gears of War 4",
+      "requested_base_costume": null,
+      "priority": "P1",
+      "faction": "",
+      "character_id": null,
+      "character_name": null,
+      "parent_id": null,
+      "source_urls": [
+        "https://primagames.com/eguides/gears-of-war-4-eguide/multiplayer/multiplayer-arsenal/explosive-weapons"
+      ],
+      "catalog_notes": [
+        "Cible de production statique; une fiche de catalogue n'implique pas une image disponible.",
+        "Modèle visuel précis à comparer à l'édition cible."
+      ],
+      "catalog_scope": "production_extension",
+      "implementation_status": "Cible documentée, PNG compté uniquement s'il existe.",
+      "has_visual_reference": false,
+      "visual_status": "missing",
+      "selected_asset_id": null,
+      "selected_path": null,
+      "selected_source_variant": null,
+      "selected_variant_relation": null,
+      "asset_ids": [],
+      "target_version_candidate_available": false,
+      "target_version_candidate_path": null,
+      "canonical_fidelity_validated": false,
+      "animation_status": "not_produced",
+      "last_generation_attempt": null,
+      "weapon_id": "boomshot",
+      "source_weapon": "Boomshot"
     }
   ],
   "additional_references": [
@@ -7138,15 +7675,9 @@
       "benjamin_carmine",
       "jace_stratton",
       "minh_young_kim",
-      "bernadette_mataki",
-      "ketor_vrol",
       "oscar_diaz",
       "prescott",
-      "hana_cole",
-      "aaron_griffin",
-      "locust_disciple",
-      "locust_zealot",
-      "locust_sniper"
+      "aaron_griffin"
     ],
     "costumes": [
       "marcus_skin_01",
@@ -7190,7 +7721,6 @@
       "lahni_hivebusters_intro",
       "keegan_hivebusters_intro",
       "anthony_black_steel_g5",
-      "bernie_armored_g5",
       "sam_vday_g5",
       "myrrah_black_steel_g5",
       "fahz_hivebuster_g5",
@@ -7199,7 +7729,6 @@
       "zealot_collectors_g5"
     ],
     "bosses": [
-      "boss_berserker",
       "boss_reaver",
       "boss_leviathan",
       "boss_hydra_skorge",
@@ -7214,23 +7743,15 @@
       "boss_flock",
       "boss_wakaatu",
       "boss_centaur",
-      "boss_silverback",
-      "boss_pouncer_g4",
-      "boss_dr1_g4",
-      "boss_guardian_g4",
       "boss_scion_g4",
       "boss_rager_g5",
       "boss_riftworm_g2",
       "boss_sire_g5"
     ],
     "stages": [
-      "stage_sovereigns",
-      "stage_fenix_estate",
-      "stage_tyro_pillar",
       "stage_hollow_lake",
       "stage_stromson",
       "stage_jacinto",
-      "stage_anvil_gate",
       "stage_sovereign_deck",
       "stage_azura_tower",
       "stage_halvo_plaza",
@@ -7249,9 +7770,14 @@
       "stage_training_range",
       "stage_ritual_g5",
       "stage_tomb_g5",
-      "stage_river_g5",
-      "stage_clocktower_g5",
       "stage_ilima_raams_shadow"
+    ],
+    "projectiles": [
+      "projectile_torque_bow_bolt_g3",
+      "projectile_shock_grenade_g4",
+      "projectile_smoke_grenade_g4",
+      "projectile_incendiary_grenade_g4",
+      "projectile_boomshot_shell_g4"
     ]
   },
   "warnings": [],

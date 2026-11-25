@@ -1,32 +1,36 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "project": "Gears of War Combats",
-  "snapshot_date": "2026-11-20",
+  "snapshot_date": "2026-11-25",
   "generator": "src/consolidate_inventory.py",
   "counts": {
     "roster_characters": 36,
     "characters_with_reference": 36,
     "characters_missing": 0,
     "production_character_entries": 20,
-    "production_characters_with_reference": 7,
+    "production_characters_with_reference": 13,
     "character_catalog_entries": 56,
-    "catalog_characters_with_reference": 43,
-    "catalog_characters_missing": 13,
-    "character_png_files": 52,
+    "catalog_characters_with_reference": 49,
+    "catalog_characters_missing": 7,
+    "character_png_files": 58,
     "costume_catalog_entries": 85,
-    "costumes_with_reference": 37,
-    "costumes_without_explicit_reference": 48,
+    "costumes_with_reference": 38,
+    "costumes_without_explicit_reference": 47,
     "costume_png_files": 3,
-    "reused_character_pngs_for_costumes": 34,
+    "reused_character_pngs_for_costumes": 35,
     "boss_catalog_entries": 31,
-    "bosses_with_reference": 8,
-    "boss_png_files": 8,
+    "bosses_with_reference": 13,
+    "boss_png_files": 13,
     "stage_catalog_entries": 34,
-    "stages_with_reference": 6,
-    "stage_png_files": 7,
+    "stages_with_reference": 12,
+    "stage_png_files": 13,
+    "projectile_catalog_entries": 8,
+    "projectiles_with_reference": 3,
+    "projectiles_missing": 5,
+    "projectile_png_files": 3,
     "additional_reference_groups": 1,
-    "active_png_files": 70,
-    "unique_active_png_sha256": 70,
+    "active_png_files": 90,
+    "unique_active_png_sha256": 90,
     "archived_png_files": 12,
     "canonical_fidelity_validated": 0,
     "completed_animation_sets": 0
@@ -523,6 +527,327 @@
           108,
           68,
           88
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/bosses_v9/berserker_gears2006_fullbody.png",
+      "subject_id": "boss_berserker",
+      "category": "boss",
+      "name": "Berserker",
+      "source_variant": "Gears of War (2006) — candidat guidé par promotion d'époque et artbook",
+      "purpose": "reference_fullbody",
+      "character_id": null,
+      "costume_id": null,
+      "origin_batch": "generation_v9_2026-11-25",
+      "metadata_records": [
+        "data/generation_v9/boss_berserker_record.json"
+      ],
+      "source_urls": [
+        "https://wall.alphacoders.com/big.php?i=387691",
+        "https://images6.alphacoders.com/387/387691.jpg",
+        "https://www.videogameshelf.com/gears-of-war-collectors-edition/",
+        "https://www.videogameshelf.com/wp-content/uploads/2013/10/Gears-of-War-Limited-Collectors-Edition-Artbook-Berserker.jpg",
+        "https://models.spriters-resource.com/pc_computer/gearsofwar/asset/290794/"
+      ],
+      "qa_notes": [
+        "Une Berserker seule, pose fixe en trois quarts vers la droite, tête et membres entiers ; aucune animation, aucun autre personnage.",
+        "Tête pâle encapuchonnée par la carapace, mâchoire, gorge ridée, épaules et avant-bras massifs suivent les références promotionnelles d'époque.",
+        "Les deux références sont partielles et montrent surtout le haut du corps. Jambes, pieds, certaines proportions et surfaces cachées ont été reconstitués ; aucune certification du modèle final Gears 2006.",
+        "Aucun modèle Ultimate Edition, Reloaded, Lambent ou Matriarch n'a été fourni au générateur. L'identité précise du design final 2006 demande encore une comparaison avec des captures du jeu.",
+        "Les marges sont plus serrées que demandé, surtout au-dessus de la tête et à droite. Toutes les extrémités restent visibles. PNG natif conservé sans transformation raster.",
+        "Alpha réel vérifié : 49.28 % des pixels entièrement transparents. Marges gauche/haut/droite/bas au seuil alpha 128 : 68/32/57/30 px.",
+        "Comparer les différences entre promotion/artbook d'époque et modèle final Gears 2006, notamment tête, poignets/chaînes, jambes, pieds et nombre de griffes.",
+        "Revoir le cadrage pour marges d'atlas et contrôler les franges alpha. Aucune animation produite."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 39,
+      "asset_id": "assets_bosses_v9_berserker_gears2006_fullbody_png",
+      "sha256": "af1609c95eed912ba1648d3a29eb6f94f6adfba3da813778243fb751e739fa8c",
+      "size_bytes": 2011640,
+      "width": 1086,
+      "height": 1448,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "fully_transparent_fraction": 0.492772,
+        "near_opaque_fraction_alpha_ge_240": 0.476014,
+        "subject_bbox_alpha_ge_128": [
+          68,
+          32,
+          1029,
+          1418
+        ],
+        "subject_margins_ltrb_px": [
+          68,
+          32,
+          57,
+          30
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/bosses_v9/dr1_gears4_fullbody.png",
+      "subject_id": "boss_dr1_g4",
+      "category": "boss",
+      "name": "DR-1 DeeBee",
+      "source_variant": "Gears of War 4 — DR-1 bleu avec Overkill",
+      "purpose": "reference_fullbody",
+      "character_id": null,
+      "costume_id": null,
+      "origin_batch": "generation_v9_2026-11-25",
+      "metadata_records": [
+        "data/generation_v9/boss_dr1_g4_record.json"
+      ],
+      "source_urls": [
+        "https://gearsofwar.fandom.com/wiki/DR-1",
+        "https://vignette.wikia.nocookie.net/gearsofwar/images/b/ba/DB-DR-1.jpg/revision/latest",
+        "https://primagames.com/eguides/gears-of-war-4-eguide/enemy-forces/deebees"
+      ],
+      "qa_notes": [
+        "Un DR-1 bleu intact seul avec Overkill à quatre canons, pose fixe en trois quarts vers la droite, pieds et arme entièrement visibles.",
+        "Ventilateurs pectoraux, capteurs orange, genoux hydrauliques et grands protège-tibias proches de la référence Gears4. Les inscriptions, rivets, assemblages des mains et proportions précises restent non certifiés.",
+        "Alpha réel vérifié ; marges alpha≥128 gauche/haut/droite/bas : 180/137/138/101 px.",
+        "La hauteur occupée dépasse les 76 % demandés, mais aucun pied, canon ou élément de tête n'est coupé. PNG natif 1025×1534 conservé sans rééchantillonnage.",
+        "Comparer chaque pièce d'armure et la géométrie de l'Overkill au modèle Gears4.",
+        "Contrôler les franges sur plusieurs fonds et définir le pivot d'intégration. Pas d'animation produite."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 39,
+      "asset_id": "assets_bosses_v9_dr1_gears4_fullbody_png",
+      "sha256": "d4f27b4cbd8f5b4dbab2c21284209c41254ec7a4d2f32c5bd984d0339e2843a8",
+      "size_bytes": 1283627,
+      "width": 1025,
+      "height": 1534,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "fully_transparent_fraction": 0.687966,
+        "near_opaque_fraction_alpha_ge_240": 0.291945,
+        "subject_bbox_alpha_ge_128": [
+          180,
+          137,
+          887,
+          1433
+        ],
+        "subject_margins_ltrb_px": [
+          180,
+          137,
+          138,
+          101
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/bosses_v9/guardian_gears4_fullbody.png",
+      "subject_id": "boss_guardian_g4",
+      "category": "boss",
+      "name": "Guardian DeeBee",
+      "source_variant": "Gears of War 4 — Guardian Tri-Shot, drone seul sans bouclier actif",
+      "purpose": "reference_fullbody",
+      "character_id": null,
+      "costume_id": null,
+      "origin_batch": "generation_v9_2026-11-25",
+      "metadata_records": [
+        "data/generation_v9/boss_guardian_g4_record.json"
+      ],
+      "source_urls": [
+        "https://gearsofwar.fandom.com/wiki/Guardian",
+        "https://vignette.wikia.nocookie.net/gearsofwar/images/9/94/DB-Guardian.jpg/revision/latest",
+        "https://emcknight.artstation.com/projects/vykaD",
+        "https://primagames.com/eguides/gears-of-war-4-eguide/enemy-forces/deebees"
+      ],
+      "qa_notes": [
+        "Un drone Guardian seul, deux turbines, capteurs orange, caisse bleue, Tri-Shot ventral à trois canons et bande d'alimentation. Aucun pilote ou autre personnage.",
+        "Première génération orientée à gauche, corrigée par imagegen dans un second passage : optiques avant et extrémités des canons pointent maintenant vers la droite. La géométrie cachée et l'asymétrie exacte restent à valider.",
+        "Bouclier et panaches de propulsion omis pour conserver le matériel isolé. L'orientation n'a pas été corrigée par une transformation raster ; les deux sorties originales sont conservées.",
+        "Alpha réel vérifié ; 70,32 % de pixels entièrement transparents. Des données RGB de halo sont présentes sous alpha nul ; les franges proches du contour restent à contrôler sur plusieurs fonds.",
+        "Marges alpha≥128 gauche/haut/droite/bas : 168/136/176/119 px. Turbines, antennes et canons entiers.",
+        "Inscriptions, capteurs, charnières, bande d'alimentation et topologie non validés 1:1. Aucun état animé produit.",
+        "Comparer les panneaux et l'asymétrie réelle au modèle Gears4 après rotation ; vérifier la bande d'alimentation et les marquages.",
+        "Contrôler les contours alpha sur fonds clair et foncé, puis définir le pivot d'intégration."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 39,
+      "asset_id": "assets_bosses_v9_guardian_gears4_fullbody_png",
+      "sha256": "e2ed8412250998cb7c518585bf5dd5bfa98a6e73f5fa31667d0de064745d3a8e",
+      "size_bytes": 1848142,
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.703183,
+        "near_opaque_fraction_alpha_ge_240": 0.278792,
+        "subject_bbox_alpha_ge_128": [
+          168,
+          136,
+          1360,
+          905
+        ],
+        "subject_margins_ltrb_px": [
+          168,
+          136,
+          176,
+          119
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/bosses_v9/pouncer_gears4_fullbody.png",
+      "subject_id": "boss_pouncer_g4",
+      "category": "boss",
+      "name": "Pouncer",
+      "source_variant": "Gears of War 4 — Pouncer, pose fixe",
+      "purpose": "reference_fullbody",
+      "character_id": null,
+      "costume_id": null,
+      "origin_batch": "generation_v9_2026-11-25",
+      "metadata_records": [
+        "data/generation_v9/boss_pouncer_g4_record.json"
+      ],
+      "source_urls": [
+        "https://haiweihou.artstation.com/projects/qEWJD",
+        "https://vignette.wikia.nocookie.net/gearsofwar/images/6/6c/Haiwei-hou-artbook-swarmpouncer-l.jpg/revision/latest",
+        "https://heber.artstation.com/projects/Wz8Qv"
+      ],
+      "qa_notes": [
+        "Pouncer seul, quatre membres, corps quadrupède bas, coque bordeaux, peau bleu-gris, queue segmentée terminée par un éventail épineux. Silhouette complète, sans animation ni autre créature.",
+        "Orientation trois quarts vers la droite obtenue. Les détails du visage, le nombre exact des pointes et les raccords des plaques restent à comparer au modèle original.",
+        "Alpha réel vérifié. Les pixels du halo gris/brun visibles dans certains aperçus sont à alpha nul aux points échantillonnés ; les franges près du contour demandent une vérification sur fonds variés.",
+        "Marges alpha≥128 gauche/haut/droite/bas : 313/29/295/52 px. Les marges verticales généreuses demandées ne sont pas atteintes ; la queue et les pattes ne sont pas coupées.",
+        "PNG natif copié sans transformation des pixels. Fidélité 1:1 non certifiée.",
+        "Comparer l'anatomie de la tête, les yeux, les mandibules, le nombre de griffes et les pointes de queue au modèle Gears4.",
+        "Contrôler les franges alpha et préparer des marges d'atlas suffisantes avant intégration. Aucune animation demandée ou produite."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 39,
+      "asset_id": "assets_bosses_v9_pouncer_gears4_fullbody_png",
+      "sha256": "610d3e9f404ff07cdb4a2a6b2b4cc8ac3623af751f09a301cd1845b366946d3d",
+      "size_bytes": 1861365,
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.755484,
+        "near_opaque_fraction_alpha_ge_240": 0.223184,
+        "subject_bbox_alpha_ge_128": [
+          313,
+          29,
+          1241,
+          972
+        ],
+        "subject_margins_ltrb_px": [
+          313,
+          29,
+          295,
+          52
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/bosses_v9/silverback_gears3_fullbody.png",
+      "subject_id": "boss_silverback",
+      "category": "boss",
+      "name": "Silverback",
+      "source_variant": "Gears of War 3 — exosquelette seul, sans pilote",
+      "purpose": "reference_fullbody",
+      "character_id": null,
+      "costume_id": null,
+      "origin_batch": "generation_v9_2026-11-25",
+      "metadata_records": [
+        "data/generation_v9/boss_silverback_record.json"
+      ],
+      "source_urls": [
+        "https://gearsofwar.fandom.com/wiki/Silverback",
+        "https://img2.wikia.nocookie.net/__cb20130530021316/gearsofwar/images/8/81/Silverbackrender.png",
+        "https://vignette.wikia.nocookie.net/gearsofwar/images/a/a3/Gow-silverback-servicebay.JPG/revision/latest",
+        "https://www.gamedeveloper.com/design/migs-2011-designers-must-champion-their-ideas---epic-s-perry"
+      ],
+      "qa_notes": [
+        "Exosquelette Silverback seul, silhouette complète en trois quarts vers la droite, stationnaire. Aucune animation ou deuxième sujet.",
+        "Les deux gants indésirables de la première sortie ont été retirés par imagegen. Les commandes apparaissent vides ; aucun corps, bras ou pilote humain ajouté dans la version finale.",
+        "Châssis ivoire/gris, lentille et cœur cyan, boucliers de jambes aux lampes hexagonales, armes fixes et pieds conservés. La géométrie précise de l'arme, le nombre des lampes, les marquages et les pieds restent à comparer au jeu.",
+        "Référence avant recadrée et capture en baie de maintenance à faible résolution : certaines surfaces cachées, mécanismes et semelles sont reconstitués, leur fidélité 1:1 n'est pas certifiée.",
+        "PNG final natif, copié sans transformation raster externe. Les franges fines du détourage demandent un contrôle sur plusieurs fonds.",
+        "Alpha réel vérifié : 66.47 % des pixels entièrement transparents. Marges gauche/haut/droite/bas au seuil alpha 128 : 208/137/209/129 px.",
+        "Comparer les montages d'armes, l'espace opérateur vide, les plaques de jambes et les pieds à des captures Gears3 plus précises.",
+        "Contrôler les franges alpha et les marquages avant atlas. Aucune animation produite."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 39,
+      "asset_id": "assets_bosses_v9_silverback_gears3_fullbody_png",
+      "sha256": "4596aae0b0b9d0e760083b7c45f2bb2a030fe07bb297544c46df535b076069fa",
+      "size_bytes": 1426057,
+      "width": 1312,
+      "height": 1199,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "fully_transparent_fraction": 0.664691,
+        "near_opaque_fraction_alpha_ge_240": 0.316467,
+        "subject_bbox_alpha_ge_128": [
+          208,
+          137,
+          1103,
+          1070
+        ],
+        "subject_margins_ltrb_px": [
+          208,
+          137,
+          209,
+          129
         ]
       },
       "has_transparency": true,
@@ -4027,6 +4352,393 @@
       "prototype_integration": "not_integrated"
     },
     {
+      "path": "assets/characters_v9/bernie_armored_gears5_fullbody.png",
+      "subject_id": "bernadette_mataki",
+      "category": "character",
+      "name": "Bernadette « Bernie » Mataki — Armored Bernie",
+      "source_variant": "Gears 5 — Armored Bernie, pose de base fixe",
+      "purpose": "reference_fullbody",
+      "character_id": "bernadette_mataki",
+      "costume_id": "bernie_armored_g5",
+      "origin_batch": "generation_v9_2026-11-25",
+      "metadata_records": [
+        "data/generation_v9/bernadette_mataki_record.json"
+      ],
+      "source_urls": [
+        "https://store.steampowered.com/news/app/1097840/view/2975175813409684111",
+        "https://clan.fastly.steamstatic.com/images/35210771/f9fbd58c54b01f58436923e8626480121081e5b7.jpg"
+      ],
+      "qa_notes": [
+        "Un seul personnage, pose fixe orientée trois quarts vers la droite, sans arme ni animation.",
+        "Cheveux gris attachés, bras tatoués, deux disques pectoraux et armure vert-gris cohérents avec le panneau Armored Bernie consulté.",
+        "Les bottes et genouillères sont reconstruites : la source officielle fournie s'arrête aux cuisses. Les micro-symboles et rivets du rendu ne sont pas certifiés.",
+        "L'extérieur visible comme sombre dans l'aperçu RGB est transparent dans le PNG : alpha 0 aux échantillons de fond, 65,94 % de pixels entièrement transparents. Alpha maximal 254.",
+        "Marges haut et bas réduites (16 et 25 px au seuil alpha 128); aucune extrémité coupée. Un essai de nettoyage via imagegen a modifié des détails et n'a pas été retenu.",
+        "Comparer les jambes et les bottes au modèle Gears 5 complet.",
+        "Contrôler le dessin exact des tatouages, du visage, des symboles et la densité de matière avant validation 1:1."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 39,
+      "asset_id": "assets_characters_v9_bernie_armored_gears5_fullbody_png",
+      "sha256": "5d0a6f9f48c65f5c92e1b377c35679c71113c5040a3e6d30cb70c897201bc354",
+      "size_bytes": 2112271,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.659366,
+        "near_opaque_fraction_alpha_ge_240": 0.311995,
+        "subject_bbox_alpha_ge_128": [
+          186,
+          16,
+          853,
+          1511
+        ],
+        "subject_margins_ltrb_px": [
+          186,
+          16,
+          171,
+          25
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "costume_variant_relation": "target_version_candidate",
+      "costume_attribution": {
+        "mapping_path": "data/costume_asset_links_v9.json",
+        "source_record_path": "data/generation_v9/bernadette_mataki_record.json",
+        "additional_evidence_paths": [],
+        "rationale": "Le personnage et le costume Armored Bernie du catalogue ciblent explicitement le même modèle Gears 5 Operation 8. Le PNG est généré depuis le panneau officiel Armored Bernie, sans mélange avec V-Day Gears 3.",
+        "source_urls": [
+          "https://store.steampowered.com/news/app/1097840/view/2975175813409684111"
+        ],
+        "caveats": [
+          "Source partielle aux cuisses; bottes et jambes reconstruites et non certifiées.",
+          "Le rattachement de costume ne crée pas un PNG supplémentaire ni un état animé."
+        ],
+        "canonical_fidelity_validated": false
+      },
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/characters_v9/hana_cole.png",
+      "subject_id": "hana_cole",
+      "category": "character",
+      "name": "Hana Cole",
+      "source_variant": "Gears 5 — Scientist Hana, référence multijoueur Operation 7 à comparer à Hivebusters",
+      "purpose": "reference_fullbody",
+      "character_id": "hana_cole",
+      "costume_id": null,
+      "origin_batch": "generation_v9_2026-11-25",
+      "metadata_records": [
+        "data/generation_v9/hana_cole_record.json"
+      ],
+      "source_urls": [
+        "https://tylerthebradley.artstation.com/projects/w6oy9Z",
+        "https://store.steampowered.com/news/posts/?appgroupname=Gears+5&appids=1097840&enddate=1621961507&feed=steam_community_announcements",
+        "https://www.xbox.com/fr-FR/games/store/lot-operation-7-de-gears-5/9P3L0QX8FKJ2",
+        "https://clan.fastly.steamstatic.com/images/35210771/414db5aa2bbe78b9d2086faad7ace76b5b6fafc7.jpg",
+        "https://clan.fastly.steamstatic.com/images/35210771/95a71e913cfd1a8f6b7e84a75874974054874e5c.jpg"
+      ],
+      "qa_notes": [
+        "Les images finales fournies au générateur sont les références Scientist Hana du multijoueur Gears 5 ; l’identité est celle de Hana, mais la concordance exacte avec chaque détail du modèle Hivebusters reste à vérifier.",
+        "One adult Hana, full-body lab outfit, locs hairstyle, pale jacket, dark yoke, belt, wrist device and boots. Unarmed neutral fixed stance. Face and cloth geometry remain reinterpretation.",
+        "PNG RGBA with genuine alpha. All corners transparent; outside coverage measured. RGB halo in raw preview is not proof of opaque background.",
+        "Mesures alpha réalisées sans transformation raster du PNG original ; pixels de très faible alpha possibles en marge. Les valeurs du champ output décrivent le fichier livré."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "cross_mode_appearance_candidate",
+      "selection_priority": 39,
+      "asset_id": "assets_characters_v9_hana_cole_png",
+      "sha256": "556ad5728efb2189946050cad5431b7610aae882678bfd3f4ee01f4bd1f8b0ef",
+      "size_bytes": 1626224,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.751581,
+        "near_opaque_fraction_alpha_ge_240": 0.225108,
+        "subject_bbox_alpha_ge_128": [
+          212,
+          70,
+          789,
+          1482
+        ],
+        "subject_margins_ltrb_px": [
+          212,
+          70,
+          235,
+          54
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/characters_v9/ketor_vrol.png",
+      "subject_id": "ketor_vrol",
+      "category": "character",
+      "name": "Ketor Vrol",
+      "source_variant": "Gears 5 — Ketor Vrol multijoueur Operation 8",
+      "purpose": "reference_fullbody",
+      "character_id": "ketor_vrol",
+      "costume_id": null,
+      "origin_batch": "generation_v9_2026-11-25",
+      "metadata_records": [
+        "data/generation_v9/ketor_vrol_record.json"
+      ],
+      "source_urls": [
+        "https://store.steampowered.com/oldnews/?appgroupname=Gears+5&appids=1097840&feed=steam_community_announcements",
+        "https://www.xbox.com/en-us/games/store/operation-8-bundle/9n8r67zsr0f3",
+        "https://clan.fastly.steamstatic.com/images/35210771/f9fbd58c54b01f58436923e8626480121081e5b7.jpg"
+      ],
+      "qa_notes": [
+        "One character, intact full body and helmet, red armor and collar tubing reproduced. Top margin small; small geometry remains interpretive.",
+        "PNG RGBA with genuine alpha. All corners transparent; outside coverage measured. RGB halo in raw preview is not proof of opaque background.",
+        "Mesures alpha réalisées sans transformation raster du PNG original ; pixels de très faible alpha possibles en marge. Les valeurs du champ output décrivent le fichier livré."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 39,
+      "asset_id": "assets_characters_v9_ketor_vrol_png",
+      "sha256": "6e0b13d5fdf9b6e711d566c3dcb2dc291ce22cba8a4b64321975c01f1b4cba0c",
+      "size_bytes": 2127626,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.638428,
+        "near_opaque_fraction_alpha_ge_240": 0.338182,
+        "subject_bbox_alpha_ge_128": [
+          169,
+          2,
+          822,
+          1534
+        ],
+        "subject_margins_ltrb_px": [
+          169,
+          2,
+          202,
+          2
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/characters_v9/locust_disciple.png",
+      "subject_id": "locust_disciple",
+      "category": "character",
+      "name": "Disciple locuste",
+      "source_variant": "Gears Tactics — Disciple standard tête nue, harnais à Imulsion",
+      "purpose": "reference_fullbody",
+      "character_id": "locust_disciple",
+      "costume_id": null,
+      "origin_batch": "generation_v9_2026-11-25",
+      "metadata_records": [
+        "data/generation_v9/locust_disciple_record.json"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/news/2020-gearsmas-holiday-gift-guide/",
+        "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/",
+        "https://pav3d.artstation.com/projects/RYAQJE",
+        "https://news.xbox.com/en-us/2020/02/21/gears-of-war-unveils-new-action-figures-at-new-york-toy-fair/",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/12/Disciple_5-5fc7ee6d77dac-69cb1a6e59c07.jpg",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/12/Disciple_3-5fc7ee8a26afa-69cb1ac7326e4.jpg",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/12/Disciple_2-5fc7ee9909a31-69cb1aca09e30.jpg"
+      ],
+      "qa_notes": [
+        "Un seul Disciple tête nue en pied, stance fixe trois quarts vers la droite, avec harnais bordeaux circulaire, tubes jaunes du cou et tuyaux allant aux bras.",
+        "Bas du corps, veines jaunes et volumes du harnais reprennent la figurine officielle. Casque optionnel exclu conformément à la cible standard.",
+        "Le Hammerburst porté est une reconstruction et sa géométrie exacte n'est pas démontrée par les deux photos choisies. Pas de certification des proportions ni des détails transférés d'une figurine au mesh Tactics.",
+        "Les alpha extérieurs sont majoritairement nuls. Un coin contient alpha=1 et quelques pixels de très faible alpha s'étendent jusqu'aux bords ; aucun détourage raster n'a été appliqué.",
+        "Mesures alpha réalisées sans transformation raster du PNG original ; pixels de très faible alpha possibles en marge. Les valeurs du champ output décrivent le fichier livré.",
+        "Comparer à une capture complète ou au rendu texturé exact du Disciple Tactics avant validation de la silhouette, de l'armure et des tuyaux.",
+        "Vérifier le Hammerburst, les différences figurine/modèle de production, la tête et la disposition exacte des pièces du harnais."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "licensed_figure_reference_candidate",
+      "selection_priority": 39,
+      "asset_id": "assets_characters_v9_locust_disciple_png",
+      "sha256": "976b3e9a5252773cb1439b0054768071c89b18f510180369c7889c2e84c8aa79",
+      "size_bytes": 1470156,
+      "width": 1199,
+      "height": 1312,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "fully_transparent_fraction": 0.637834,
+        "near_opaque_fraction_alpha_ge_240": 0.34366,
+        "subject_bbox_alpha_ge_128": [
+          203,
+          45,
+          1023,
+          1267
+        ],
+        "subject_margins_ltrb_px": [
+          203,
+          45,
+          176,
+          45
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/characters_v9/locust_sniper.png",
+      "subject_id": "locust_sniper",
+      "category": "character",
+      "name": "Sniper locuste",
+      "source_variant": "Gears Tactics — Sniper Drone standard avec Longshot",
+      "purpose": "reference_fullbody",
+      "character_id": "locust_sniper",
+      "costume_id": null,
+      "origin_batch": "generation_v9_2026-11-25",
+      "metadata_records": [
+        "data/generation_v9/locust_sniper_record.json"
+      ],
+      "source_urls": [
+        "https://jenherrondev.com/gears-tactics",
+        "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/",
+        "https://images.squarespace-cdn.com/content/v1/6269c7fea7cf5201cbe765f1/8ba9eed3-b5d3-433c-8ee5-0b65670bacf5/img_sniperDrone.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6269c7fea7cf5201cbe765f1/7ee0ecec-8a9f-40ec-85a7-d99e3c83c7d5/img_sniper_01.jpg"
+      ],
+      "qa_notes": [
+        "Un seul Sniper Drone en pied, trois quarts vers la droite, Longshot tenu à deux mains ; visage, arme, doigts et semelles visibles.",
+        "Optique orange, peau gris pierre craquelée, épaules sombres imbriquées et équipements du cou reprennent les grandes familles du gros plan primaire.",
+        "Les jambes, genouillères, bottes et une partie du fusil ont été reconstruites. Leur géométrie et la disposition exacte des raccords d'armure ne sont pas validées par la référence.",
+        "Fond RGBA transparent mesuré ; des pixels alpha très faible étendent le bbox jusqu'aux bords malgré une silhouette utile en retrait.",
+        "Mesures alpha réalisées sans transformation raster du PNG original ; pixels de très faible alpha possibles en marge. Les valeurs du champ output décrivent le fichier livré.",
+        "Comparer le modèle complet Tactics, spécialement jambes, bottes, ceinture et forme précise du Longshot.",
+        "Vérifier géométrie des optiques et tubes, proportions du visage et couleur de l'armure face au modèle final du jeu."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 39,
+      "asset_id": "assets_characters_v9_locust_sniper_png",
+      "sha256": "f0f7e9bacc03077dc3da92ab2f06c07343d3e6294ad61ae2f3573b876249c618",
+      "size_bytes": 1192004,
+      "width": 1199,
+      "height": 1312,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "fully_transparent_fraction": 0.703214,
+        "near_opaque_fraction_alpha_ge_240": 0.276724,
+        "subject_bbox_alpha_ge_128": [
+          178,
+          119,
+          1111,
+          1226
+        ],
+        "subject_margins_ltrb_px": [
+          178,
+          119,
+          88,
+          86
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/characters_v9/locust_zealot.png",
+      "subject_id": "locust_zealot",
+      "category": "character",
+      "name": "Zealot locuste",
+      "source_variant": "Gears Tactics — Zealot standard avec casque pointu",
+      "purpose": "reference_fullbody",
+      "character_id": "locust_zealot",
+      "costume_id": null,
+      "origin_batch": "generation_v9_2026-11-25",
+      "metadata_records": [
+        "data/generation_v9/locust_zealot_record.json"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/04/d6e3fd32def4f8a0b7b9c894cfcd6b6425c8c348-69cb0dfa49562.jpg"
+      ],
+      "qa_notes": [
+        "One Zealot, intact body, pointed helmet, angular tassets, bare clawed feet, tubes and yellow branching veins. Margins smaller than requested; silhouette and base costume recognizable. Exact topology not certified.",
+        "PNG RGBA with genuine alpha. All corners transparent; outside coverage measured. RGB halo in raw preview is not proof of opaque background.",
+        "Mesures alpha réalisées sans transformation raster du PNG original ; pixels de très faible alpha possibles en marge. Les valeurs du champ output décrivent le fichier livré."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 39,
+      "asset_id": "assets_characters_v9_locust_zealot_png",
+      "sha256": "d53dd6a72c286e13c83d9cabcf24f7a1ada224479171f4af9d27c087f411b9c4",
+      "size_bytes": 1458606,
+      "width": 1157,
+      "height": 1360,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "fully_transparent_fraction": 0.683154,
+        "near_opaque_fraction_alpha_ge_240": 0.28993,
+        "subject_bbox_alpha_ge_128": [
+          237,
+          8,
+          922,
+          1344
+        ],
+        "subject_margins_ltrb_px": [
+          237,
+          8,
+          235,
+          16
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
       "path": "assets/costumes_v6/mac_mechanic_gears5_fullbody.png",
       "subject_id": "mac_skin_02",
       "category": "costume",
@@ -4424,6 +5136,183 @@
       "prototype_integration": "not_integrated"
     },
     {
+      "path": "assets/projectiles_v9/buzzkill_sawblade_gow4.png",
+      "subject_id": "projectile_buzzkill_sawblade_g4",
+      "category": "projectile",
+      "name": "Buzzkill — lame circulaire",
+      "source_variant": "Gears of War 4 — projectile isolé, pose fixe",
+      "purpose": "projectile_static",
+      "character_id": null,
+      "costume_id": null,
+      "origin_batch": "generation_v9_2026-11-25",
+      "metadata_records": [
+        "data/generation_v9/projectile_buzzkill_sawblade_g4_record.json"
+      ],
+      "source_urls": [
+        "https://primagames.com/eguides/gears-of-war-4-eguide/multiplayer/multiplayer-arsenal/heavy-weapons"
+      ],
+      "qa_notes": [
+        "Lame unique isolée, trou central et denture complète, sans mouvement ni lanceur.",
+        "Candidat reconstruit à partir du type canonique documenté. Le moyeu, les fentes et le nombre exact de dents restent non validés faute de gros plan du modèle livré.",
+        "À corriger avant validation du modèle : reconstruction sans vue rapprochée du projectile ; moyeu cruciforme, boulons, fentes et denture non confirmés visuellement.",
+        "Comparer la silhouette, les proportions et les micro-détails au modèle exact de l'édition cible avant validation 1:1."
+      ],
+      "quality_state": "correction_required",
+      "variant_relation": "text_reconstruction_candidate",
+      "selection_priority": 39,
+      "asset_id": "assets_projectiles_v9_buzzkill_sawblade_gow4_png",
+      "sha256": "c052d5b46f5b929a406628df79faac5a74f9a194aeaa9588a32173ad0d201c5a",
+      "size_bytes": 2358537,
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "fully_transparent_fraction": 0.419114,
+        "near_opaque_fraction_alpha_ge_240": 0.557431,
+        "subject_bbox_alpha_ge_128": [
+          59,
+          54,
+          1197,
+          1186
+        ],
+        "subject_margins_ltrb_px": [
+          59,
+          54,
+          57,
+          68
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/projectiles_v9/dropshot_drill_gow4.png",
+      "subject_id": "projectile_dropshot_drill_g4",
+      "category": "projectile",
+      "name": "Dropshot — projectile foreuse",
+      "source_variant": "Gears of War 4 — projectile isolé, pose fixe",
+      "purpose": "projectile_static",
+      "character_id": null,
+      "costume_id": null,
+      "origin_batch": "generation_v9_2026-11-25",
+      "metadata_records": [
+        "data/generation_v9/projectile_dropshot_drill_g4_record.json"
+      ],
+      "source_urls": [
+        "https://primagames.com/eguides/gears-of-war-4-eguide/multiplayer/multiplayer-arsenal/explosive-weapons",
+        "https://www.gallerynucleus.com/detail/21616/"
+      ],
+      "qa_notes": [
+        "Un seul projectile à pointe hélicoïdale orientée vers le bas, sans lanceur, trajectoire ni animation.",
+        "L'aspect est une reconstruction candidate. Le logo crâne et le carter rouge présents dans la sortie sont non confirmés par les sources accessibles; comparaison au projectile de jeu obligatoire.",
+        "À corriger avant validation du modèle : reconstruction sans vue rapprochée du projectile ; carter rouge et grand logo crâne non confirmés visuellement.",
+        "Comparer la silhouette, les proportions et les micro-détails au modèle exact de l'édition cible avant validation 1:1."
+      ],
+      "quality_state": "correction_required",
+      "variant_relation": "text_reconstruction_candidate",
+      "selection_priority": 39,
+      "asset_id": "assets_projectiles_v9_dropshot_drill_gow4_png",
+      "sha256": "f9a205e5abf901a168ae45a4592f47afd6dc11f66f8576a28bc1407494e0da4d",
+      "size_bytes": 1200935,
+      "width": 1199,
+      "height": 1312,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "fully_transparent_fraction": 0.656919,
+        "near_opaque_fraction_alpha_ge_240": 0.331152,
+        "subject_bbox_alpha_ge_128": [
+          251,
+          30,
+          910,
+          1279
+        ],
+        "subject_margins_ltrb_px": [
+          251,
+          30,
+          289,
+          33
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/projectiles_v9/frag_grenade_gow3.png",
+      "subject_id": "projectile_frag_grenade_g3",
+      "category": "projectile",
+      "name": "Grenade Bolo / Frag",
+      "source_variant": "Gears of War 3 — projectile isolé, pose fixe",
+      "purpose": "projectile_static",
+      "character_id": null,
+      "costume_id": null,
+      "origin_batch": "generation_v9_2026-11-25",
+      "metadata_records": [
+        "data/generation_v9/projectile_frag_grenade_g3_record.json"
+      ],
+      "source_urls": [
+        "https://gearsofwar.fandom.com/wiki/Bolo_Grenade",
+        "https://vignette.wikia.nocookie.net/gearsofwar/images/7/7b/Gow-3-frag.jpeg/revision/latest?cb=20120429152459"
+      ],
+      "qa_notes": [
+        "Une seule grenade complète, poignée à gauche et tête à droite, chaîne connectée; aucune animation ni effet ajouté.",
+        "Les éléments distinctifs visibles du modèle sont repris : tête rouge segmentée, petites pointes grises, fentes orange, poignée enveloppée et culot triangulaire.",
+        "Les dimensions relatives, le nombre de rivets et les maillons ne constituent pas une copie géométrique certifiée.",
+        "Contrôle indépendant : chaîne plus longue et disposition des maillons modifiée par rapport au rendu de référence ; proportions et petits éléments à comparer au modèle final.",
+        "Comparer la silhouette, les proportions et les micro-détails au modèle exact de l'édition cible avant validation 1:1."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 39,
+      "asset_id": "assets_projectiles_v9_frag_grenade_gow3_png",
+      "sha256": "7b6cbf28221e2ceeacf7cffe9f2909428eb24605c471859a8fdb780fd51d454a",
+      "size_bytes": 1327684,
+      "width": 1983,
+      "height": 793,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "fully_transparent_fraction": 0.720758,
+        "near_opaque_fraction_alpha_ge_240": 0.252497,
+        "subject_bbox_alpha_ge_128": [
+          43,
+          99,
+          1908,
+          712
+        ],
+        "subject_margins_ltrb_px": [
+          43,
+          99,
+          75,
+          81
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
       "path": "assets/stage_ephyra.png",
       "subject_id": "stage_ephyra",
       "category": "stage",
@@ -4706,6 +5595,272 @@
       "asset_id": "assets_stages_v8_regency_gears5_master_png",
       "sha256": "5933e0e5a4e9d679b8a8bdad935fbda5165f699fbce59fbac0108dc6fe354fb6",
       "size_bytes": 2630790,
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "format": "PNG",
+      "alpha": null,
+      "has_transparency": false,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/stages_v9/anvil_gate_gears3_master.png",
+      "subject_id": "stage_anvil_gate",
+      "category": "stage",
+      "name": "Anvil Gate — cour de la porte 02",
+      "source_variant": "Gears of War 3 — cour intérieure de la porte 02 adaptée au combat latéral",
+      "purpose": "stage_master",
+      "character_id": null,
+      "costume_id": null,
+      "origin_batch": "generation_v9_2026-11-25",
+      "metadata_records": [
+        "data/generation_v9/stage_anvil_gate_record.json"
+      ],
+      "source_urls": [
+        "https://primagames.com/eguides/gears-war-3-eguide/campaign-walkthrough/act-3/chapter-1-unbreakable",
+        "https://primagames.com/eguides/media/_w/700/files/eguide_assets/gears-war-3-eguide/06-WALK-act01-act03-web-resources/image/011_Act3.jpg",
+        "https://primagames.com/eguides/media/_w/700/files/eguide_assets/gears-war-3-eguide/06-WALK-act01-act03-web-resources/image/002_Act3.jpg"
+      ],
+      "qa_notes": [
+        "Façade blindée portant 02, passerelles, escaliers métalliques, abris en planches, sacs de sable et éclairage dirigé repris du vocabulaire visible des captures.",
+        "Bande de sol horizontale continue, sans personnages, cadavres, tirs, HUD ou compteurs ; aucun élément animé.",
+        "Porte représentée fermée alors que la capture principale montre un passage ouvert ; organisation des passerelles et des abris recomposée pour la vue latérale.",
+        "Les proportions et les motifs des bannières restent une interprétation à comparer au jeu, sans certification 1:1.",
+        "Comparer l’état de la porte et les emblèmes aux vues de la cour choisie dans Gears of War 3.",
+        "Contrôler l’échelle, la lisibilité des combattants et l’emplacement du sol en situation."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 39,
+      "asset_id": "assets_stages_v9_anvil_gate_gears3_master_png",
+      "sha256": "2de63569563bfc261baf61774c03ce150bff3060dd3625eaf3a50440b3885399",
+      "size_bytes": 2698313,
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "format": "PNG",
+      "alpha": null,
+      "has_transparency": false,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/stages_v9/clocktower_gears5_master.png",
+      "subject_id": "stage_clocktower_g5",
+      "category": "stage",
+      "name": "Clocktower",
+      "source_variant": "Gears 5 — Clocktower, terrasse nocturne adaptée au combat latéral",
+      "purpose": "stage_master",
+      "character_id": null,
+      "costume_id": null,
+      "origin_batch": "generation_v9_2026-11-25",
+      "metadata_records": [
+        "data/generation_v9/stage_clocktower_g5_record.json"
+      ],
+      "source_urls": [
+        "https://news.xbox.com/en-us/2020/11/17/gears-5-operation-5/",
+        "https://mt145.artstation.com/projects/KrJDg4",
+        "https://cdnb.artstation.com/p/assets/images/images/033/497/495/large/mike-tam-g5-clocktower-overhex-map.jpg?1609783890"
+      ],
+      "qa_notes": [
+        "Tour à cadran circulaire doré, couronnement architectural anguleux, colonnades, murets, ferronnerie, statue de lion, arbres et fleurs sous une lumière nocturne bleue présents.",
+        "Plan tactique et cadre UI de la source supprimés du rendu; sol pavé continu en premier plan, aucun personnage.",
+        "La source masque une partie du niveau par une carte tactique. Les éléments centraux occultés et le cadrage latéral ont été reconstruits; leur géométrie exacte reste non validée.",
+        "Obtenir des captures sans surimpression pour contrôler l’arc central, les sculptures et les distances.",
+        "Vérifier cadran, nombre de colonnes, ornements et lumière à la version Gears 5, distincte de Gears 1/3/4.",
+        "Contrôler l’échelle du plan de combat avant intégration jouable."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 39,
+      "asset_id": "assets_stages_v9_clocktower_gears5_master_png",
+      "sha256": "b97db88ba5866082ba8f6eb187bb07cb210b9bc3eb18f3b6290fb59b4d00a332",
+      "size_bytes": 2686256,
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "format": "PNG",
+      "alpha": null,
+      "has_transparency": false,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/stages_v9/fenix_estate_gow2006_garden_master.png",
+      "subject_id": "stage_fenix_estate",
+      "category": "stage",
+      "name": "Haldane Hall — jardin du domaine Fenix",
+      "source_variant": "Gears of War 2006 — terrasse du jardin et escalier du domaine adaptés au combat latéral",
+      "purpose": "stage_master",
+      "character_id": null,
+      "costume_id": null,
+      "origin_batch": "generation_v9_2026-11-25",
+      "metadata_records": [
+        "data/generation_v9/stage_fenix_estate_record.json"
+      ],
+      "source_urls": [
+        "https://ptgmedia.pearsoncmg.com/imprint_downloads/brady/promotions/Gears3/9780744013610.pdf",
+        "https://primagames.com/eguides/gears-war-eguide/campaign-walkthrough/act-4-the-long-road-home"
+      ],
+      "qa_notes": [
+        "Escalier en pierre claire, parapets massifs, piliers carrés coiffés, monument du jardin, lierre et arbres d’automne repris des deux captures de 2006.",
+        "Faîtage sombre du manoir visible derrière les arbres ; ce master représente le jardin d’accès, pas une vue complète de sa façade.",
+        "Pavés horizontaux dégagés au premier plan ; aucun soldat, monstre, arme, interface ou texte parasite visible.",
+        "La largeur de l’escalier, le muret au premier plan et l’agencement végétal sont recomposés pour l’arène ; les petits détails du monument sont extrapolés depuis des captures limitées.",
+        "Comparer les proportions de l’escalier, du monument et la silhouette de toiture aux captures haute résolution du jeu original.",
+        "Valider le sol et l’échelle des personnages en situation ; aucune géométrie de collision n’est incluse dans le PNG."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 39,
+      "asset_id": "assets_stages_v9_fenix_estate_gow2006_garden_master_png",
+      "sha256": "0c3929dc3e3ab1b178561bc7c7a1bf1407f14f1fd2d8a47f1604471398c3557b",
+      "size_bytes": 3535892,
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "format": "PNG",
+      "alpha": null,
+      "has_transparency": false,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/stages_v9/house_of_sovereigns_gow2006_master.png",
+      "subject_id": "stage_sovereigns",
+      "category": "stage",
+      "name": "House of Sovereigns",
+      "source_variant": "Gears of War (2006) — parvis extérieur adapté au combat latéral",
+      "purpose": "stage_master",
+      "character_id": null,
+      "costume_id": null,
+      "origin_batch": "generation_v9_2026-11-25",
+      "metadata_records": [
+        "data/generation_v9/stage_sovereigns_record.json"
+      ],
+      "source_urls": [
+        "https://polycount.com/discussion/157596/splash-damage-art-team-gears-of-war-ultimate-edition-art-dump",
+        "https://i.imgur.com/MM896Rq.jpg"
+      ],
+      "qa_notes": [
+        "Façade incurvée, colonnes cannelées, dômes bronze, fontaine surélevée, escaliers, haies et bornes noires conservés d’après la capture originale 2006.",
+        "Le rendu initial contenait deux micro-marques parasites en bordure. Une correction imagegen ciblée les a supprimées; le fichier retenu ne présente ni légende ni interface.",
+        "Une chaussée horizontale dégagée occupe le premier plan; les éléments de couverture restent derrière cette bande.",
+        "La composition a été redressée et élargie pour le combat 2D. Les écarts de perspective, proportions et ornements fins empêchent de certifier la fidélité 1:1.",
+        "Comparer les ornements des chapiteaux, les ouvertures et la fontaine à plusieurs captures du jeu 2006.",
+        "Contrôler l’échelle du sol avec les sprites et les limites de cadrage avant utilisation jouable."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 39,
+      "asset_id": "assets_stages_v9_house_of_sovereigns_gow2006_master_png",
+      "sha256": "2fd0ca1397e49cecb048e3368ed193d4b15e688141ebff9af9d4581b7f550dbe",
+      "size_bytes": 2691383,
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "format": "PNG",
+      "alpha": null,
+      "has_transparency": false,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/stages_v9/river_gears5_tavern_master.png",
+      "subject_id": "stage_river_g5",
+      "category": "stage",
+      "name": "River — taverne",
+      "source_variant": "Gears 5 — River, intérieur de taverne adapté au combat latéral",
+      "purpose": "stage_master",
+      "character_id": null,
+      "costume_id": null,
+      "origin_batch": "generation_v9_2026-11-25",
+      "metadata_records": [
+        "data/generation_v9/stage_river_g5_record.json"
+      ],
+      "source_urls": [
+        "https://news.xbox.com/en-us/2020/11/17/gears-5-operation-5/",
+        "https://dvids.artstation.com/projects/3dmRZA",
+        "https://cdnb.artstation.com/p/assets/images/images/032/192/169/large/julius-peters-gears-5-river-08.jpg?1605725891"
+      ],
+      "qa_notes": [
+        "Deux grandes arches claires, deux fenêtres brisées, enduit bordeaux, moulures vertes, bois et fanions rouges repris de la vue artiste.",
+        "Plancher horizontal dégagé, lumière chaude et flaques, aucun personnage actif ni interface; bande de crédits source omise.",
+        "La patte pétrifiée et la carcasse mécanique visibles dans la source restent des éléments fixes du décor extérieur; aucun ennemi séparé n’est produit par ce PNG.",
+        "Point de vue redressé, toit et sol recomposés; les proportions exactes du niveau ne sont pas certifiées.",
+        "Comparer les arches, les moulures, la charpente et les silhouettes visibles par les ouvertures aux captures de River Gears 5.",
+        "Vérifier le plancher et l’échelle des combattants en situation avant activation dans une arène."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 39,
+      "asset_id": "assets_stages_v9_river_gears5_tavern_master_png",
+      "sha256": "bacbb0441a4b2baea08c0c1e95d67f6492c243cc9d21a35e6f9dcc2138ec8c91",
+      "size_bytes": 2743887,
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "format": "PNG",
+      "alpha": null,
+      "has_transparency": false,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/stages_v9/tyro_pillar_gow2006_master.png",
+      "subject_id": "stage_tyro_pillar",
+      "category": "stage",
+      "name": "Tyro Pillar — pont de fret",
+      "source_variant": "Gears of War 2006 — pont de fret adapté au combat latéral",
+      "purpose": "stage_master",
+      "character_id": null,
+      "costume_id": null,
+      "origin_batch": "generation_v9_2026-11-25",
+      "metadata_records": [
+        "data/generation_v9/stage_tyro_pillar_record.json"
+      ],
+      "source_urls": [
+        "https://ptgmedia.pearsoncmg.com/imprint_downloads/brady/promotions/Gears3/9780744013610.pdf"
+      ],
+      "qa_notes": [
+        "Citerne horizontale sanglée, caisses cerclées, garde-corps segmenté, tôles rivetées et extrémité de wagon arrondie repris des captures de 2006.",
+        "Sol métallique horizontal dégagé sur environ le cinquième inférieur ; aucun combattant, interface ou marque parasite visible.",
+        "La lumière brun-violet et le ciel nuageux suivent les captures retenues. Ce master ne matérialise pas le choix de nuit étoilée précédemment listé dans les calques du catalogue.",
+        "Le cadrage latéral, la place relative des cargaisons et les montagnes ont été recomposés ; ce n’est pas une reproduction géométrique certifiée du train.",
+        "Comparer les dimensions de la citerne, les fixations et le garde-corps à une capture de jeu rapprochée avant validation canonique.",
+        "Vérifier la hauteur du plancher et l’échelle des combattants dans l’arène."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 39,
+      "asset_id": "assets_stages_v9_tyro_pillar_gow2006_master_png",
+      "sha256": "1b0d48862713aba94b49e9e3c08a0d3e45d25bd7cc49c77d7241f0ea59cfe672",
+      "size_bytes": 2771367,
       "width": 1672,
       "height": 941,
       "mode": "RGB",

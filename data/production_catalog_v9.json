@@ -1,0 +1,199 @@
+{
+  "schema_version": "1.0",
+  "version": "v9",
+  "updated_at": "2026-11-25",
+  "title": "Gears of War Combats — projectiles statiques V9",
+  "scope": "Ajout de huit cibles de projectiles; les nouvelles poses de personnages, boss et stages réutilisent les identifiants existants. Aucune animation.",
+  "baseline": {
+    "characters": 56,
+    "costumes": 85,
+    "bosses": 31,
+    "stages": 34,
+    "projectiles": 0
+  },
+  "identity_rules": [
+    "Un asset par fichier; pas de spritesheet ni animation.",
+    "Les variantes de jeu restent identifiées séparément; pas de fusion de silhouettes de plusieurs opus.",
+    "Les statuts généré, manquant et bloqué sont recalculés depuis les fichiers et journaux.",
+    "Les projectiles génériques reconstruits sont des candidats nécessitant comparaison, pas des modèles officiels certifiés."
+  ],
+  "characters": [],
+  "costumes": [],
+  "bosses": [],
+  "stages": [],
+  "projectiles": [
+    {
+      "id": "projectile_frag_grenade_g3",
+      "name": "Grenade Bolo / Frag",
+      "source_game": "Gears of War 3",
+      "priority": "P1",
+      "catalog_origin": "production_v9",
+      "catalog_scope": "production_extension",
+      "weapon_id": "frag",
+      "source_weapon": "Frag Grenade",
+      "source_urls": [
+        "https://gearsofwar.fandom.com/wiki/Bolo_Grenade"
+      ],
+      "notes": [
+        "Un projectile isolé et statique par image, sans séquence ni animation.",
+        "Présence du fichier vérifiée par la consolidation; aucun détail visuel non contrôlé n'est certifié 1:1."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Candidat d’asset statique ; modèle final et intégration au moteur à vérifier."
+    },
+    {
+      "id": "projectile_buzzkill_sawblade_g4",
+      "name": "Buzzkill — lame circulaire",
+      "source_game": "Gears of War 4",
+      "priority": "P1",
+      "catalog_origin": "production_v9",
+      "catalog_scope": "production_extension",
+      "weapon_id": "buzzkill",
+      "source_weapon": "Buzzkill",
+      "source_urls": [
+        "https://primagames.com/eguides/gears-of-war-4-eguide/multiplayer/multiplayer-arsenal/heavy-weapons"
+      ],
+      "notes": [
+        "Un projectile isolé et statique par image, sans séquence ni animation.",
+        "Présence du fichier vérifiée par la consolidation; aucun détail visuel non contrôlé n'est certifié 1:1.",
+        "Reconstruction à partir de descriptions textuelles : détails du projectile non confirmés visuellement, candidat marqué À corriger."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Candidat d’asset statique ; modèle final et intégration au moteur à vérifier."
+    },
+    {
+      "id": "projectile_dropshot_drill_g4",
+      "name": "Dropshot — projectile foreuse",
+      "source_game": "Gears of War 4",
+      "priority": "P1",
+      "catalog_origin": "production_v9",
+      "catalog_scope": "production_extension",
+      "weapon_id": "dropshot",
+      "source_weapon": "Dropshot",
+      "source_urls": [
+        "https://primagames.com/eguides/gears-of-war-4-eguide/multiplayer/multiplayer-arsenal/explosive-weapons",
+        "https://www.gallerynucleus.com/detail/21616/"
+      ],
+      "notes": [
+        "Un projectile isolé et statique par image, sans séquence ni animation.",
+        "Présence du fichier vérifiée par la consolidation; aucun détail visuel non contrôlé n'est certifié 1:1.",
+        "Reconstruction à partir de descriptions textuelles : détails du projectile non confirmés visuellement, candidat marqué À corriger."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Candidat d’asset statique ; modèle final et intégration au moteur à vérifier."
+    },
+    {
+      "id": "projectile_torque_bow_bolt_g3",
+      "name": "Torque Bow — carreau",
+      "source_game": "Gears of War 3",
+      "weapon_id": "torque_bow",
+      "source_weapon": "Torque Bow",
+      "priority": "P1",
+      "catalog_origin": "production_v9",
+      "catalog_scope": "production_extension",
+      "source_urls": [
+        "https://primagames.com/eguides/gears-of-war-4-eguide/multiplayer/multiplayer-arsenal/explosive-weapons"
+      ],
+      "notes": [
+        "Cible de production statique; une fiche de catalogue n'implique pas une image disponible.",
+        "Modèle visuel précis à comparer à l'édition cible.",
+        "La source Gears 4 documente le type d’arme, pas l’apparence exacte du carreau Gears 3 ; une référence de cette édition reste nécessaire."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée, PNG compté uniquement s'il existe."
+    },
+    {
+      "id": "projectile_shock_grenade_g4",
+      "name": "Grenade Shock",
+      "source_game": "Gears of War 4",
+      "weapon_id": "shock_grenade",
+      "source_weapon": "Shock Grenade",
+      "priority": "P1",
+      "catalog_origin": "production_v9",
+      "catalog_scope": "production_extension",
+      "source_urls": [
+        "https://primagames.com/eguides/gears-of-war-4-eguide/multiplayer/multiplayer-arsenal/grenades"
+      ],
+      "notes": [
+        "Cible de production statique; une fiche de catalogue n'implique pas une image disponible.",
+        "Modèle visuel précis à comparer à l'édition cible."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée, PNG compté uniquement s'il existe."
+    },
+    {
+      "id": "projectile_smoke_grenade_g4",
+      "name": "Grenade fumigène",
+      "source_game": "Gears of War 4",
+      "weapon_id": "smoke_grenade",
+      "source_weapon": "Smoke Grenade",
+      "priority": "P1",
+      "catalog_origin": "production_v9",
+      "catalog_scope": "production_extension",
+      "source_urls": [
+        "https://primagames.com/eguides/gears-of-war-4-eguide/multiplayer/multiplayer-arsenal/grenades"
+      ],
+      "notes": [
+        "Cible de production statique; une fiche de catalogue n'implique pas une image disponible.",
+        "Modèle visuel précis à comparer à l'édition cible."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée, PNG compté uniquement s'il existe."
+    },
+    {
+      "id": "projectile_incendiary_grenade_g4",
+      "name": "Grenade incendiaire",
+      "source_game": "Gears of War 4",
+      "weapon_id": "incendiary_grenade",
+      "source_weapon": "Incendiary Grenade",
+      "priority": "P1",
+      "catalog_origin": "production_v9",
+      "catalog_scope": "production_extension",
+      "source_urls": [
+        "https://primagames.com/eguides/gears-of-war-4-eguide/multiplayer/multiplayer-arsenal/grenades"
+      ],
+      "notes": [
+        "Cible de production statique; une fiche de catalogue n'implique pas une image disponible.",
+        "Modèle visuel précis à comparer à l'édition cible."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée, PNG compté uniquement s'il existe."
+    },
+    {
+      "id": "projectile_boomshot_shell_g4",
+      "name": "Boomshot — munition",
+      "source_game": "Gears of War 4",
+      "weapon_id": "boomshot",
+      "source_weapon": "Boomshot",
+      "priority": "P1",
+      "catalog_origin": "production_v9",
+      "catalog_scope": "production_extension",
+      "source_urls": [
+        "https://primagames.com/eguides/gears-of-war-4-eguide/multiplayer/multiplayer-arsenal/explosive-weapons"
+      ],
+      "notes": [
+        "Cible de production statique; une fiche de catalogue n'implique pas une image disponible.",
+        "Modèle visuel précis à comparer à l'édition cible."
+      ],
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Cible documentée, PNG compté uniquement s'il existe."
+    }
+  ],
+  "counts": {
+    "new_projectiles": 8
+  },
+  "sources": [
+    {
+      "id": "g4_grenades",
+      "url": "https://primagames.com/eguides/gears-of-war-4-eguide/multiplayer/multiplayer-arsenal/grenades"
+    },
+    {
+      "id": "g4_explosive",
+      "url": "https://primagames.com/eguides/gears-of-war-4-eguide/multiplayer/multiplayer-arsenal/explosive-weapons"
+    },
+    {
+      "id": "g4_heavy",
+      "url": "https://primagames.com/eguides/gears-of-war-4-eguide/multiplayer/multiplayer-arsenal/heavy-weapons"
+    }
+  ]
+}

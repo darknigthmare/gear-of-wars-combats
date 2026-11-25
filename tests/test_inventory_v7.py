@@ -97,6 +97,21 @@ class CostumeAttributionTests(unittest.TestCase):
                 with self.assertRaisesRegex(ValueError, message):
                     inventory.build_inventory()
 
+    def test_new_pass_mapping_keeps_the_earlier_audit_unchanged(self):
+        self.write_links([])
+        previous = self.root / "data/costume_asset_links_v7.json"
+        previous_bytes = previous.read_bytes()
+        inventory.write_json(self.root / "data/costume_asset_links_v9.json", {"links": [self.link]})
+        result = inventory.build_inventory()
+        self.assertEqual(result["totals"]["active_png_files"], 1)
+        self.assertEqual(result["totals"]["costumes_with_reference"], 1)
+        self.assertEqual(previous.read_bytes(), previous_bytes)
+        asset = inventory.read_json(self.root / "production/asset_manifest.json")["assets"][0]
+        self.assertEqual(asset["costume_attribution"]["mapping_path"], "data/costume_asset_links_v9.json")
+        self.write_links([self.link])
+        with self.assertRaisesRegex(ValueError, "Duplicate costume asset link"):
+            inventory.build_inventory()
+
     def test_duplicate_links_and_presentation_images_cannot_fill_costume_slots(self):
         self.write_links([self.link, self.link])
         with self.assertRaisesRegex(ValueError, "Duplicate costume asset link"):

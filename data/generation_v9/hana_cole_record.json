@@ -1,0 +1,131 @@
+{
+  "id": "hana_cole",
+  "name": "Hana Cole",
+  "source_game": "Gears 5 — Scientist Hana / Operation 7",
+  "prompt": "Use case: stylized-concept.\nAsset type: one static full-body 2D fighting-game character sprite.\nPrimary request: Hana Cole, scientist from Gears 5: Hivebusters, using the supplied official Gears 5 character and store images as appearance references. Use ONLY the woman Hana from these references; ignore Ukkon, backgrounds, all interface panels and text.\nSubject: one young adult Black woman with the exact reference hairstyle of short black locs tied and swept back with a few hanging near the face, serious intelligent expression and athletic modest build. Her official pale off-white fitted long laboratory jacket has a high collar, dark gray shoulder and upper-sleeve panels, central front zipper, a gray belt with rectangular buckle over the waist, split long jacket tails to upper thighs, fitted dark trousers, practical dark boots and a small cyan-lit wrist device. Keep this lab outfit, not COG plated armor.\nPose: full-body three-quarter SIDE view facing screen RIGHT, balanced neutral guard pose, hands relaxed but ready, unarmed to keep her laboratory identity clear. One subject and one still pose only.\nFraming: at least 8 percent empty transparent margin above head and below boots and to each side. Full body from hair tips to soles, nothing cropped.\nStyle: polished detailed hand-painted 2D game cutout with realistic Gears proportions and materials, crisp readable silhouette, neutral controlled light.\nBackground: true transparent alpha only, no floor, no ground shadow, no haze, no glow cloud, no vignette, no scene.\nConstraints: closely preserve the supplied official face/hair/clothing identity; no weapon or gear invented, no lab props, no second person, no text, no logo, no panel, no frame, no animation, no action sequence, no spritesheet.",
+  "source_urls": [
+    "https://tylerthebradley.artstation.com/projects/w6oy9Z",
+    "https://store.steampowered.com/news/posts/?appgroupname=Gears+5&appids=1097840&enddate=1621961507&feed=steam_community_announcements",
+    "https://www.xbox.com/fr-FR/games/store/lot-operation-7-de-gears-5/9P3L0QX8FKJ2"
+  ],
+  "reference_images": [
+    "https://clan.fastly.steamstatic.com/images/35210771/414db5aa2bbe78b9d2086faad7ace76b5b6fafc7.jpg",
+    "https://clan.fastly.steamstatic.com/images/35210771/95a71e913cfd1a8f6b7e84a75874974054874e5c.jpg"
+  ],
+  "reference_scope": "Hivebusters concept author page consulted; final Gears 5 Scientist Hana official publisher store and reveal images visually inspected. These provide the lab outfit rather than unverified concept-only details.",
+  "qa": {
+    "visual_review": "One adult Hana, full-body lab outfit, locs hairstyle, pale jacket, dark yoke, belt, wrist device and boots. Unarmed neutral fixed stance. Face and cloth geometry remain reinterpretation.",
+    "alpha_review": "PNG RGBA with genuine alpha. All corners transparent; outside coverage measured. RGB halo in raw preview is not proof of opaque background.",
+    "pixel_measurements": {
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1536,
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_percent": 75.16,
+      "alpha_bbox": [
+        0,
+        21,
+        986,
+        1496
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sha256": "556ad5728efb2189946050cad5431b7610aae882678bfd3f4ee01f4bd1f8b0ef"
+    },
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "One adult Hana, full-body lab outfit, locs hairstyle, pale jacket, dark yoke, belt, wrist device and boots. Unarmed neutral fixed stance. Face and cloth geometry remain reinterpretation.",
+      "PNG RGBA with genuine alpha. All corners transparent; outside coverage measured. RGB halo in raw preview is not proof of opaque background.",
+      "Mesures alpha réalisées sans transformation raster du PNG original ; pixels de très faible alpha possibles en marge. Les valeurs du champ output décrivent le fichier livré."
+    ]
+  },
+  "category": "character",
+  "pass_date": "2026-11-25",
+  "asset_path": "assets/characters_v9/hana_cole.png",
+  "generation_method": "built-in image_gen",
+  "generation_status": "generated_review_pending",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "animation": false,
+  "pose": "single static full-body three-quarter guard facing right",
+  "subject_id": "hana_cole",
+  "character_id": "hana_cole",
+  "purpose": "reference_fullbody",
+  "variant": "Gears 5 — Scientist Hana, référence multijoueur Operation 7 à comparer à Hivebusters",
+  "engine": "built_in_imagegen",
+  "status": "generated_reference_pending_validation",
+  "has_image": true,
+  "quality_state": "candidate",
+  "variant_relation": "cross_mode_appearance_candidate",
+  "catalog_target_game": "Gears 5: Hivebusters",
+  "notes": [
+    "Les images finales fournies au générateur sont les références Scientist Hana du multijoueur Gears 5 ; l’identité est celle de Hana, mais la concordance exacte avec chaque détail du modèle Hivebusters reste à vérifier."
+  ],
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-6807f1a3-7ffa-47c8-867b-fa4ca5bb4d8d.png",
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 1626224,
+    "sha256": "556ad5728efb2189946050cad5431b7610aae882678bfd3f4ee01f4bd1f8b0ef",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.7515811920166016,
+    "subject_bbox_alpha_ge_128": [
+      212,
+      70,
+      789,
+      1482
+    ],
+    "subject_margins_ltrb_px": [
+      212,
+      70,
+      235,
+      54
+    ]
+  },
+  "sources": [
+    {
+      "page_url": "https://store.steampowered.com/news/posts/?appgroupname=Gears+5&appids=1097840&enddate=1621961507&feed=steam_community_announcements",
+      "image_url": "https://clan.fastly.steamstatic.com/images/35210771/414db5aa2bbe78b9d2086faad7ace76b5b6fafc7.jpg",
+      "source_type": "official_publisher_final_multiplayer_character_image",
+      "scope": "Scientist Hana Gears 5, tenue de laboratoire finale Operation 7 ; comparaison avec détails exacts du modèle Hivebusters encore requise.",
+      "visual_reference_used": true,
+      "reference_sha256": "3797d578dec847669c711713c9ac6b2ed0df9f65c7c48308789c4a3d9b730c4f"
+    },
+    {
+      "page_url": "https://store.steampowered.com/news/posts/?appgroupname=Gears+5&appids=1097840&enddate=1621961507&feed=steam_community_announcements",
+      "image_url": "https://clan.fastly.steamstatic.com/images/35210771/95a71e913cfd1a8f6b7e84a75874974054874e5c.jpg",
+      "source_type": "official_publisher_final_multiplayer_character_image",
+      "scope": "Scientist Hana Gears 5, tenue de laboratoire finale Operation 7 ; comparaison avec détails exacts du modèle Hivebusters encore requise.",
+      "visual_reference_used": true,
+      "reference_sha256": "9c1256bfecccbc32c86f7dbc5cd2d5628beed0133c09ebb8e9c1e56685ecaaab"
+    },
+    {
+      "page_url": "https://tylerthebradley.artstation.com/projects/w6oy9Z",
+      "source_type": "original_concept_artist_portfolio",
+      "scope": "Concept Hanna pour Hivebusters ; texte consulté, image du portfolio non fournie au générateur.",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://www.xbox.com/fr-FR/games/store/lot-operation-7-de-gears-5/9P3L0QX8FKJ2",
+      "source_type": "official_xbox_store_listing",
+      "scope": "Confirme Hana dans le lot Operation 7.",
+      "visual_reference_used": false
+    }
+  ]
+}

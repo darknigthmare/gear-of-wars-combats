@@ -1,0 +1,32 @@
+{
+  "id": "jace_stratton",
+  "subject_id": "jace_stratton",
+  "character_id": "jace_stratton",
+  "name": "Jace Stratton",
+  "category": "character",
+  "source_game": "Gears of War 3",
+  "variant": "Gears of War 3",
+  "pass_date": "2026-11-25",
+  "status": "blocked",
+  "engine": "built_in_imagegen",
+  "has_image": false,
+  "asset_path": null,
+  "prompt": "Use case: stylized-concept. Create exactly ONE static full-body 2D game sprite of JACE STRATTON from GEARS OF WAR 3, using the attached Gears 3 promotional portrait as the visual identity and costume reference. Match his face, skin tone, tightly braided cornrows swept back, small mustache and chin facial hair, characteristic pale silver-grey COG breastplate with two dark circular chest components and split central vertical panel, segmented dark shoulder armor, rolled dark shirt sleeves exposing his forearms, white-grey gloves, circular belt buckle and utility gear. Preserve the original character and outfit rather than redesigning him. Complete his legs with the standard dark Gears 3 military trousers, matching knee plates and heavy dark COG boots; avoid added colors or ornaments. Full-body, standing in a neutral ready pose with both hands empty, turned three-quarter side view facing RIGHT. Realistic muscular Gears proportions, detailed hand-painted 2D UHD asset with worn metal texture and fabric. Remove all promotional background, emblem and title: only Jace against real alpha transparency. No other figures, no weapon, no scene, no text, no animation. Entire figure head-to-sole visible, generous transparent margin on all sides.",
+  "error": "moderation_blocked",
+  "request_id": "a35ace3a-bfbf-4904-addc-38befef87a18",
+  "moderation_stage": "output",
+  "moderation_categories": [
+    "other"
+  ],
+  "sources": [
+    {
+      "page_url": "https://www.10wallpaper.com/view/Delta_squad-Jace_Stratton_wallpaper.html",
+      "image_url": "https://www.10wallpaper.com/wallpaper/medium/1109/Delta_squad-Jace_Stratton_wallpaper_medium.jpg",
+      "source_type": "promotional_image_secondary_mirror",
+      "scope": "Portrait Gears 3, visage et haut du corps. Bas du corps non fourni."
+    }
+  ],
+  "notes": [
+    "Aucun PNG produit. Maintenu parmi les manquants, sans contournement du refus."
+  ]
+}

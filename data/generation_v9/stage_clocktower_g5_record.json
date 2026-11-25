@@ -1,0 +1,61 @@
+{
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "variant_relation": "target_version_candidate",
+  "category": "stage",
+  "purpose": "stage_master",
+  "animation_status": "not_requested_this_pass",
+  "canonical_fidelity_validated": false,
+  "id": "clocktower_gears5_master_v9",
+  "subject_id": "stage_clocktower_g5",
+  "name": "Clocktower",
+  "source_game": "Gears 5 — Operation 5",
+  "variant": "Gears 5 — Clocktower, terrasse nocturne adaptée au combat latéral",
+  "asset_path": "assets/stages_v9/clocktower_gears5_master.png",
+  "prompt": "Use case: stylized-concept. Asset type: one static HD 16:9 stage background for a 2D fighting game. Recreate CLOCKTOWER from GEARS 5 Operation 5 using the supplied image by UI artist Mike Tam. The reference contains a top-down minimap overlay: ignore and entirely omit that overlay and use ONLY the actual dark blue night environment screenshot behind it for visual reference. Preserve the tall intricate monumental dark gray stone clock-tower architecture with its large circular gold-and-cream clock face, layered narrow angular tower crown, tall fluted columns and arched masonry, weathered tiered terrace walls with subtle gold trim, iron railings and broad stone paving, dark leafy trees and ornamental flowers, bronze architectural statuary toward the edges. The mood is the blue-black cloudy moonlit Gears5 night scene in the reference, not a sunny or fantasy redesign. Adapt to a lateral eye-height fighting-stage composition with a continuous level horizontal paved band in the bottom fifth and the clock facade behind it, moderate depth, no steep foreground steps crossing the fight line. Detailed realistic painted game-art materials, rich controlled cold light, legible architectural silhouettes. Exactly one empty location, no person, no enemy, no body, no violence, no top-down map, no diagram, no HUD, no labels, no logo, no signature, no watermark, no borders or caption. A single flattened static master, no animation.",
+  "sources": [
+    {
+      "page_url": "https://news.xbox.com/en-us/2020/11/17/gears-5-operation-5/",
+      "source_type": "official_publisher_announcement",
+      "scope": "Annonce officielle de Clocktower dans Operation 5; contexte de version.",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://mt145.artstation.com/projects/KrJDg4",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/033/497/495/large/mike-tam-g5-clocktower-overhex-map.jpg?1609783890",
+      "source_type": "production_artist_portfolio",
+      "artist": "Mike Tam — UI Artist",
+      "scope": "Capture du niveau Gears 5 sous une surimpression de plan UI. Seul l’environnement visible derrière le plan sert de référence; la partie occultée ne constitue pas une preuve de géométrie.",
+      "visual_reference_used": true
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_stage": true,
+    "transparent_background": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "observations": [
+      "Tour à cadran circulaire doré, couronnement architectural anguleux, colonnades, murets, ferronnerie, statue de lion, arbres et fleurs sous une lumière nocturne bleue présents.",
+      "Plan tactique et cadre UI de la source supprimés du rendu; sol pavé continu en premier plan, aucun personnage.",
+      "La source masque une partie du niveau par une carte tactique. Les éléments centraux occultés et le cadrage latéral ont été reconstruits; leur géométrie exacte reste non validée."
+    ],
+    "remaining_checks": [
+      "Obtenir des captures sans surimpression pour contrôler l’arc central, les sculptures et les distances.",
+      "Vérifier cadran, nombre de colonnes, ornements et lumière à la version Gears 5, distincte de Gears 1/3/4.",
+      "Contrôler l’échelle du plan de combat avant intégration jouable."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGB",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2686256,
+    "sha256": "b97db88ba5866082ba8f6eb187bb07cb210b9bc3eb18f3b6290fb59b4d00a332"
+  },
+  "has_image": true
+}

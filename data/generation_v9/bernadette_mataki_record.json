@@ -1,0 +1,72 @@
+{
+  "category": "character",
+  "source_game": "Gears 5 — Armored Bernie",
+  "catalog_target_game": "Gears 5 — Armored Bernie",
+  "purpose": "reference_fullbody",
+  "variant_relation": "target_version_candidate",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "id": "bernadette_mataki",
+  "subject_id": "bernadette_mataki",
+  "character_id": "bernadette_mataki",
+  "name": "Bernadette « Bernie » Mataki — Armored Bernie",
+  "variant": "Gears 5 — Armored Bernie, pose de base fixe",
+  "asset_path": "assets/characters_v9/bernie_armored_gears5_fullbody.png",
+  "prompt": "Use case: stylized-concept. Asset type: ONE static full-body character sprite for the 2D fighting game Gears of War Combats. Subject: Bernadette 'Bernie' Mataki, precisely the ARMORED BERNIE Gears 5 Operation 8 outfit. The attached official promotional sheet is a visual reference ONLY: reproduce ONLY the second panel woman, never the other four panels or text. Preserve her mature rugged face, swept-back white-grey hair tied back, exposed tattooed arms, weathered olive-grey COG armored torso with two large round chest armor discs, small blue luminous shoulder fittings, compact shoulder plates, fingerless grey gloves, broad utility belt with brown pouches, grey-brown military trousers, knee armor and heavy combat boots. Faithfully preserve the visible outfit, identity and proportions; do not replace her by Anya, Sam, or a youthful woman. Full body head-to-toe, no weapons, relaxed neutral ready stance, both empty hands visible. Three-quarter side orientation facing right suitable for a side-view fighting game. Highly detailed hand-painted 2D UHD game asset, realistic Gears proportions, carefully defined hard armor edges and cloth texture, sober diffuse lighting. Only one isolated character, one pose, centered with generous transparent margin on every side. REAL transparent background, no ground plane, no scenery, no collage, no labels, no text, no watermark, no duplicate views, no animation. Treat lower legs that are not visible on the promo as a restrained reconstruction consistent with Armored Bernie rather than a redesign.",
+  "sources": [
+    {
+      "page_url": "https://store.steampowered.com/news/app/1097840/view/2975175813409684111",
+      "image_url": "https://clan.fastly.steamstatic.com/images/35210771/f9fbd58c54b01f58436923e8626480121081e5b7.jpg",
+      "source_type": "official_developer_store_promo",
+      "scope": "Panneau Armored Bernie de l'annonce Operation 8 : cheveux, visage, tatouages, armure et ceinture; bas des jambes non visible."
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Un seul personnage, pose fixe orientée trois quarts vers la droite, sans arme ni animation.",
+      "Cheveux gris attachés, bras tatoués, deux disques pectoraux et armure vert-gris cohérents avec le panneau Armored Bernie consulté.",
+      "Les bottes et genouillères sont reconstruites : la source officielle fournie s'arrête aux cuisses. Les micro-symboles et rivets du rendu ne sont pas certifiés.",
+      "L'extérieur visible comme sombre dans l'aperçu RGB est transparent dans le PNG : alpha 0 aux échantillons de fond, 65,94 % de pixels entièrement transparents. Alpha maximal 254.",
+      "Marges haut et bas réduites (16 et 25 px au seuil alpha 128); aucune extrémité coupée. Un essai de nettoyage via imagegen a modifié des détails et n'a pas été retenu."
+    ],
+    "remaining_checks": [
+      "Comparer les jambes et les bottes au modèle Gears 5 complet.",
+      "Contrôler le dessin exact des tatouages, du visage, des symboles et la densité de matière avant validation 1:1."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2112271,
+    "sha256": "5d0a6f9f48c65f5c92e1b377c35679c71113c5040a3e6d30cb70c897201bc354",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.6593659718831381,
+    "subject_bbox_alpha_ge_128": [
+      186,
+      16,
+      853,
+      1511
+    ],
+    "subject_margins_ltrb_px": [
+      186,
+      16,
+      171,
+      25
+    ]
+  },
+  "has_image": true
+}

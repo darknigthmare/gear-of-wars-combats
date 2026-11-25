@@ -1,0 +1,67 @@
+{
+  "id": "prescott",
+  "name": "Chairman Prescott",
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE fixed full-body character sprite for a 2D fighting game, not an animation.\nPrimary request: Richard Prescott, specifically ARMORED PRESCOTT from Gears 5 Operation 6. Use the supplied official Gears 5 image as the visual identity reference: match his older narrow aristocratic face, receding short dark hair graying at temples, prominent long nose, stern expression, small dark chin beard, and his armor rather than Marcus or Baird.\nSubject: one human male in the official slate gray and dark blue Armored Prescott COG armor, asymmetrical detailed metal chest plate, blue illuminated panels, dark gray collared undershirt with sleeves rolled to elbow, muscular forearms, armored gloves, utilitarian tan-gray pants, pouch belt, kneepads and heavy armored boots. Carry the Longshot rifle visible in the official image at low ready with both hands; preserve recognizable gun geometry.\nPose: calm, planted combat-ready guard, three-quarter SIDE view facing screen RIGHT. Entire head, boots and rifle inside image. One pose only.\nFraming: portrait full-body with at least EIGHT PERCENT EMPTY TRANSPARENT MARGIN above the head and below the boots and on either side. Do not let any part approach the canvas edge. Character occupies no more than 84% of image height.\nStyle: detailed realistic Gears materials translated into high-end hand-painted 2D game cutout, crisp textures and readable silhouette, neutral studio light.\nBackground: genuinely transparent alpha, no ground plane, no shadow cast outside the silhouette, no smoky aura, no haze, no vignette, no frame, no text. Fully opaque human and equipment except edge antialiasing.\nConstraints: exact version cues from reference; no generic replacement soldier, no helmet, no bandanna, no duplicate, no animation, no spritesheet, no collage, no extra people, no effects. Single intact character.",
+  "source_game": "Gears 5 — Armored Prescott",
+  "pass_date": "2026-11-25",
+  "asset_path": null,
+  "generation_method": "built-in image_gen",
+  "generation_status": "blocked",
+  "animation": false,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "source_urls": [
+    "https://steamcommunity.com/games/1097840/announcements/detail/3092259257862238633",
+    "https://secam_station.artstation.com/projects/q9ydPz"
+  ],
+  "reference_images": [
+    "https://clan.fastly.steamstatic.com/images/35210771/1a6ca767891d9d189254f337d1b5697ae612ffe3.jpg"
+  ],
+  "error": {
+    "code": "moderation_blocked",
+    "stage": "output",
+    "category": "other",
+    "request_id": "409ae88f-46e5-47af-ac73-eb45b2012400"
+  },
+  "notes": [
+    "No PNG produced; missing asset stays missing. No bypass attempted."
+  ],
+  "category": "character",
+  "subject_id": "prescott",
+  "character_id": "prescott",
+  "purpose": "reference_fullbody",
+  "variant": "Gears 5 — Armored Prescott Operation 6",
+  "engine": "built_in_imagegen",
+  "status": "blocked",
+  "has_image": false,
+  "quality_state": "blocked",
+  "variant_relation": "target_version_candidate",
+  "catalog_target_game": "Gears 5 — Armored Prescott",
+  "qa": {
+    "visually_inspected": false,
+    "single_character": false,
+    "full_body_in_frame": false,
+    "transparent_background": false,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Le générateur a bloqué la sortie. Aucun PNG livré, aucune inspection de sortie et aucun contournement."
+    ]
+  },
+  "sources": [
+    {
+      "page_url": "https://steamcommunity.com/games/1097840/announcements/detail/3092259257862238633",
+      "image_url": "https://clan.fastly.steamstatic.com/images/35210771/1a6ca767891d9d189254f337d1b5697ae612ffe3.jpg",
+      "source_type": "official_publisher_character_screenshot",
+      "scope": "Capture officielle Armored Prescott Gears 5 inspectée puis fournie au générateur ; aucune sortie obtenue.",
+      "visual_reference_used": true
+    },
+    {
+      "page_url": "https://secam_station.artstation.com/projects/q9ydPz",
+      "source_type": "original_rigging_artist_portfolio",
+      "scope": "Portfolio de production Armored Prescott consulté pour identifier la version.",
+      "visual_reference_used": false
+    }
+  ]
+}
