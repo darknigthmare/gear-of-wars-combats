@@ -1,0 +1,80 @@
+{
+  "subject_id": "sam_vday_g5",
+  "costume_id": "sam_vday_g5",
+  "character_id": "sam",
+  "category": "costume",
+  "name": "Samantha Byrne — V-Day Sam",
+  "source_game": "Gears 5",
+  "variant": "Gears 5 — V-Day Sam, pose fixe en pied",
+  "variant_relation": "target_version_candidate",
+  "prompt": "Use case: stylized-concept. Create exactly ONE full-body static 2D character sprite of SAMANTHA BYRNE wearing her V-DAY SAM appearance from GEARS 5. The attached official store panel is a visual reference: reproduce ONLY the woman in the FIRST panel at far left labeled V-DAY SAM. Ignore every other panel, weapon, person, price and graphic. Keep her recognizable mature face, medium tan skin, dark shoulder-length side-parted hair, worn bronze-grey COG armor with two round pectoral plates, exposed upper arms, asymmetrical layered shoulder guards, armored long forearm guards and gloves, robust utility belt and hip pouches, dark combat trousers, reinforced knee guards and heavy boots. Match the visible armor, color, surface wear and proportions from this specific official costume. No helmet, no head covering, no new costume embellishments. Calm combat-ready base stance, three-quarter view facing RIGHT, both hands empty and separated, both legs and feet completely visible. Hand-painted realistic high-detail 2D game sprite consistent with gritty Gears art, natural anatomy and sturdy soldier proportions. One full figure, occupying no more than eighty percent of the canvas height, with clear transparent space around every extremity. True transparent PNG alpha, no background, no cast shadow, no floor, no scene, no second character, no lettering, no watermark, no animation or sequential poses.",
+  "sources": [
+    {
+      "url": "https://store.steampowered.com/news/posts/?enddate=1627996222&feed=steam_community_announcements",
+      "type": "official_store_announcement",
+      "note": "Annonce Operation8 du3août2021 nommant V-Day Sam et contenant son panneau officiel."
+    },
+    {
+      "url": "https://clan.fastly.steamstatic.com/images/35210771/4752ed92235cc79507cd0b0776f5c9c64a25e0e6.jpg",
+      "type": "official_visual_reference",
+      "note": "Premier panneau : visage et tenue V-Day Sam jusqu’aux cuisses ; jambes basses non visibles."
+    }
+  ],
+  "id": "sam_vday_g5",
+  "asset_path": "assets/costumes_v10/sam_vday_gears5_fullbody.png",
+  "quality_state": "candidate",
+  "qa": {
+    "orientation_facing_right": true,
+    "observations": [
+      "La référence officielle couvre le visage et la tenue jusqu’aux cuisses ; genoux, bottes et volumes cachés reconstitués.",
+      "Première sortie : regard vers la gauche. Édition ciblée du visage vers la droite, corps et asymétries conservés sans miroir.",
+      "Un seul personnage entier, mains vides, pose fixe ; pas de validation artistique 1:1.",
+      "Revue croisée : silhouette entière, regard vers la droite, aucun pixel non transparent sur les bords. Les petits emblèmes des disques pectoraux et de la boucle restent peu lisibles sur le panneau officiel. Marges haut/bas inférieures aux 10 % demandés : 19/16 px."
+    ],
+    "ten_percent_padding_met": false
+  },
+  "generation_history": [
+    {
+      "stage": "initial",
+      "prompt": "Use case: stylized-concept. Create exactly ONE full-body static 2D character sprite of SAMANTHA BYRNE wearing her V-DAY SAM appearance from GEARS 5. The attached official store panel is a visual reference: reproduce ONLY the woman in the FIRST panel at far left labeled V-DAY SAM. Ignore every other panel, weapon, person, price and graphic. Keep her recognizable mature face, medium tan skin, dark shoulder-length side-parted hair, worn bronze-grey COG armor with two round pectoral plates, exposed upper arms, asymmetrical layered shoulder guards, armored long forearm guards and gloves, robust utility belt and hip pouches, dark combat trousers, reinforced knee guards and heavy boots. Match the visible armor, color, surface wear and proportions from this specific official costume. No helmet, no head covering, no new costume embellishments. Calm combat-ready base stance, three-quarter view facing RIGHT, both hands empty and separated, both legs and feet completely visible. Hand-painted realistic high-detail 2D game sprite consistent with gritty Gears art, natural anatomy and sturdy soldier proportions. One full figure, occupying no more than eighty percent of the canvas height, with clear transparent space around every extremity. True transparent PNG alpha, no background, no cast shadow, no floor, no scene, no second character, no lettering, no watermark, no animation or sequential poses.",
+      "output_filename": "exec-51f54adb-2276-4426-b168-3ae33d3aa13f.png"
+    },
+    {
+      "stage": "selected_orientation_correction",
+      "prompt": "Use case: precise-object-edit. Edit this single Samantha Byrne V-Day Sam game sprite. Correct ONLY the direction of her head and gaze: turn her head so that her nose clearly points toward the RIGHT edge of the image, in a calm three-quarter right-facing combat stance. Her eyes must look to the right. Preserve her exact face identity, hair, armor, body, empty hands, materials, every emblem, asymmetrical details, legs and feet. Do not mirror or horizontally flip the image. Keep the existing body and costume unchanged. Keep the whole figure inside the frame, with a true transparent PNG background and no scenery or cast shadow. One character, one static pose, no extra views or animation.",
+      "output_filename": "exec-825049d6-660e-4496-b85b-716c6d6636e6.png"
+    }
+  ],
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2047476,
+    "sha256": "4c36ed3da9df69e4a2ef6131e4dd37be1c41fed9cd72ba6a63b341249a5851e6",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.6624368031819662,
+    "subject_bbox_alpha_ge_128": [
+      188,
+      19,
+      823,
+      1520
+    ],
+    "subject_margins_ltrb_px": [
+      188,
+      19,
+      201,
+      16
+    ]
+  },
+  "has_image": true,
+  "status": "generated_reference_pending_validation",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false
+}

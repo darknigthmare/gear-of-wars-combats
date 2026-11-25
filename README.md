@@ -2,32 +2,36 @@
 
 Corpus de conception, prototype et références visuelles consolidés le **25 novembre 2026** pour Darknigthmare.
 
-## État courant — passe V9 — assets fixes
+## État courant — passe V10 — assets fixes
 
-**20 nouveaux PNG**, un sujet par image, sans animations. Les fichiers sont intégrés à la galerie et à l’inventaire, avec leur prompt, leurs sources et leur contrôle visuel.
+**20 nouveaux PNG**, un sujet par image, sans animations. Ils sont intégrés à la galerie et à l’inventaire avec leurs sources, prompts et réserves de fidélité.
 
-- [Images livrées et tentatives bloquées](docs/production/LISTING_V9.md)
-- [Liste complète des manquants après V9](docs/production/REPRISE_V9.md)
-- [Validation technique V9](docs/production/VALIDATION_V9.json)
-- [Sources et prompts V9](docs/references/production-v9-research.md)
+- [Images livrées, refus et recherches en attente](docs/production/LISTING_V10.md)
+- [Liste complète des manquants après V10](docs/production/REPRISE_V10.md)
+- [Validation technique V10](docs/production/VALIDATION_V10.json)
+- [Sources et prompts V10](docs/references/production-v10-research.md)
 
 | Catégorie | Références disponibles | Manquants |
 |---|---:|---:|
-| Personnages | 49 / 56 | 7 |
-| Costumes | 38 / 85 | 47 |
-| Boss, créatures et machines | 13 / 31 | 18 |
-| Stages | 12 / 34 | 22 |
-| Projectiles | 3 / 8 | 5 |
+| Personnages | 51 / 56 | 5 |
+| Costumes | 42 / 85 | 43 |
+| Boss, créatures et machines | 18 / 31 | 13 |
+| Stages | 20 / 34 | 14 |
+| Projectiles | 4 / 8 | 4 |
 
-Total actif : **90 PNG uniques**. Ephyra est un décor complémentaire ; les costumes rattachés à un PNG existant ne doublent pas le total.
+Total actif : **110 PNG uniques**. Ephyra est un décor complémentaire ; les costumes rattachés à un PNG existant ne doublent pas le total.
 
-Cette passe ajoute un filtre Projectiles, le suivi des références absentes ou refusées et des rapports datés. Les attributions de costumes sont désormais lues dans les mappings versionnés, en conservant l’audit V7.
+Les images restent des candidats statiques visant une fidélité 1:1. La fumigène reprend un concept officiel, signalé comme tel dans la galerie ; le modèle final de Gears of War 4 reste à confirmer. Reaver et Swarmak sont sans cavaliers. Certaines surfaces cachées sont reconstituées et les stages ont un cadrage latéral adapté.
 
-Les images sont des candidats statiques visant une fidélité 1:1. Les écarts et reconstructions restent documentés : Scientist Hana et la figurine Disciple n’attestent pas automatiquement leur édition cible. Les projectiles Buzzkill/Dropshot sont marqués **À corriger**, car leurs détails sont reconstruits à partir de texte. Les masters de stages utilisent un cadrage latéral adapté.
+3 essais V10 ont été refusés et 2 sujets restent au stade de recherche de référence ; aucun n’est compté comme PNG. Buzzkill et Dropshot V9 conservent leur état **À corriger**.
 
-### Validation technique V9
+### Validation technique V10
 
-Les **13 tests d’inventaire** passent. Les nouveaux PNG sont décodés, mesurés et liés à leur journal ; leurs empreintes SHA-256 sont enregistrées. Les silhouettes des sprites disposent d’un alpha réel et restent à l’intérieur du cadre. La logique des filtres a passé 30 vérifications dans Node avec un DOM simulé. Le contrôle du rendu navigateur et mobile reste bloqué : aucun binaire n’est installé et le téléchargement officiel a été indisponible. Les résultats et cette limite sont consignés dans le [rapport V9](docs/production/VALIDATION_V9.json).
+Les **13 tests d’inventaire** passent, ainsi que les **30 combinaisons de filtres et 9 recherches** exécutées avec un DOM simulé. Les 20 nouveaux PNG sont identiques aux sorties natives ; les 102 PNG antérieurs (actifs et archives) restent inchangés. Dimensions, alpha, marges et liens sont contrôlés. Le rendu navigateur/mobile reste non vérifié ; les résultats et cette limite sont consignés dans le [rapport V10](docs/production/VALIDATION_V10.json). Aucun changement au moteur de combat.
+
+### Passe V9 conservée
+
+Les 20 images de V9, ses sources et ses résultats restent documentés : [listing V9](docs/production/LISTING_V9.md), [manquants à la clôture V9](docs/production/REPRISE_V9.md), [validation V9](docs/production/VALIDATION_V9.json).
 
 ## Consulter le projet
 

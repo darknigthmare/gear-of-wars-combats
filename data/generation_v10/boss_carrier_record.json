@@ -1,0 +1,86 @@
+{
+  "id": "boss_carrier",
+  "subject_id": "boss_carrier",
+  "name": "Carrier",
+  "category": "boss",
+  "source_game": "Gears of War 4",
+  "catalog_target_game": "Gears of War 4",
+  "variant": "Gears of War 4 — Carrier, pose fixe",
+  "purpose": "reference_fullbody",
+  "variant_relation": "target_version_candidate",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "has_image": true,
+  "canonical_fidelity_validated": false,
+  "asset_path": "assets/bosses_v10/carrier_gears4_fullbody.png",
+  "prompt": "Use case: stylized-concept. Asset type: one full-body static boss sprite. Create exactly one Carrier creature from Gears of War 4 using the first attached final-game model render as the authoritative reference for its head, chest, shoulders, arms, glossy dark red shell and grey folded skin. Second reference is Anthony Francisco's original Carrier development sheet: its final trailer screenshot reinforces the face and material, and its small design sketches may clarify the compact bent hindquarters hidden behind the upper body in the first image. Reproduce the final game Carrier's huge broad hunched upper body, enormous long arm masses resting on knuckles, huge dark burgundy armored shoulders and forearms, inward-curved pale thumb claws, narrow red helmet-like head with two orange eyes, angular toothy jaw, blue-grey leathery skin and plated closed chest. Pose it low and stationary on its powerful arms and short bent rear legs, in a shallow three-quarter view facing SCREEN-RIGHT, face to the right and rear haunches to the left. Keep the chest carapace CLOSED, natural intact body, no projectiles, no detached creatures, no victim. Show all toes and lower extremities as well as the entire back and forearms; the creature must be fully framed. Maintain the exact Carrier mass distribution and textures; avoid making it a humanoid soldier or adding machinery. Detailed realistic original game-style creature render, soft neutral lighting, restrained highlights, no action. Transparent alpha background only; no floor, cast shadow, environment, haze, vignette, gradient, checkerboard, captions, logo or watermark. One creature and one neutral fixed pose, no extra figure, no human scale reference, no concept-sheet panels or alternate views. Landscape canvas with the subject entirely within the central seventy-six percent of width and height, at least ten percent genuinely empty margin at every edge.",
+  "sources": [
+    {
+      "page_url": "https://gearsofwar.fandom.com/wiki/Carrier",
+      "image_url": "https://vignette.wikia.nocookie.net/gearsofwar/images/7/77/Carrier-Swarm.jpg/revision/latest",
+      "source_type": "game_model_render_on_secondary_mirror",
+      "scope": "Rendu Carrier inspecté, référence finale principale du haut du corps, tête, plastron fermé, épaules et bras. Le bas des pattes est masqué par cette vue.",
+      "visual_reference_used": true,
+      "reference_sha256": "e5e89f9927a5617175f9b72d86a0a1aaa05a232f0bf5e9dc11aff7c7c00b94e2"
+    },
+    {
+      "page_url": "https://www.deviantart.com/ubermonster/art/Gears-of-War-4-Carrier-Creature-Concept-646139388",
+      "image_url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4df77334-3f76-4414-8353-9c61a7c20fd6/daop0cc-3926e064-4fb5-4139-8f82-3f274df5f74d.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi80ZGY3NzMzNC0zZjc2LTQ0MTQtODM1My05YzYxYTdjMjBmZDYvZGFvcDBjYy0zOTI2ZTA2NC00ZmI1LTQxMzktOGY4Mi0zZjI3NGRmNWY3NGQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.jk35kJNVuZ178ZaFpV0z6P2P__gTWZqTPd_yiLqz8_I",
+      "source_type": "primary_creature_concept_artist",
+      "scope": "Planche originale Anthony Francisco, publiée 2016, réunissant capture du trailer final et premières recherches du Carrier. Utilisée comme appoint des pattes arrière, avec priorité au rendu final ; les esquisses initiales ne garantissent pas l'anatomie finale exacte.",
+      "visual_reference_used": true,
+      "reference_sha256": "7714c7a5c2ddb477a4d4e287054e0ed39242bdfdd5052eb1209da1f4f6850bca"
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "orientation_facing_right": true,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Carrier seul à carapace bordeaux, énormes bras, thorax fermé, peau gris-bleu ; aucun projectile ni autre créature. Trois quarts vers la droite, corps entier.",
+      "Les pattes arrière et doigts ont été reconstitués depuis un concept initial, car le rendu final inspecté les masque. Leur forme finale exacte n'est pas validée.",
+      "La texture humide de la carapace et les couleurs suivent le rendu de référence ; proportions et contours de chaque plaque restent à contrôler.",
+      "PNG natif RGBA copié sans transformation des pixels ; alpha réel vérifié. Les contours et pixels partiellement transparents nécessitent encore une inspection sur fonds variés.",
+      "Marges alpha≥128 gauche/haut/droite/bas : 90/69/80/42 px. Le sujet reste entier ; la consigne de 10 % de marge n’est pas atteinte sur tous les bords.",
+      "Aucune animation demandée ni produite. Candidat généré, fidélité 1:1 et conformité canonique non certifiées."
+    ],
+    "remaining_checks": [
+      "Vérifier prioritairement les pattes arrière et les doigts contre une vue complète du modèle final de Gears of War 4.",
+      "Contrôler les franges alpha et préparer des marges d’atlas suffisantes avant intégration."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2655566,
+    "sha256": "90512252a22bd23eeee636856126525b5ae02a15e817ba9a9a7eaf591658b12c",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.4714775085449219,
+    "subject_bbox_alpha_ge_128": [
+      90,
+      69,
+      1456,
+      982
+    ],
+    "subject_margins_ltrb_px": [
+      90,
+      69,
+      80,
+      42
+    ]
+  },
+  "fidelity_1to1_certified": false,
+  "production_ready": false
+}

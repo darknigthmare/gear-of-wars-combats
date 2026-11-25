@@ -1,0 +1,75 @@
+{
+  "id": "boss_wakaatu",
+  "subject_id": "boss_wakaatu",
+  "name": "Wakaatu",
+  "category": "boss",
+  "source_game": "Gears 5 Hivebusters",
+  "catalog_target_game": "Gears 5 Hivebusters",
+  "variant": "Gears 5 Hivebusters — Wakaatu, pose fixe attendue",
+  "purpose": "reference_fullbody",
+  "variant_relation": "target_version_candidate",
+  "status": "reference_research_pending",
+  "quality_state": "reference_research_pending",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "has_image": false,
+  "asset_path": null,
+  "canonical_fidelity_validated": false,
+  "generation_attempted": false,
+  "prompt": "PLANNED, NOT SUBMITTED. Create one full-body Wakaatu specifically from Gears 5 Hivebusters, strictly using an inspected complete final-game visual reference. One creature alone, in a neutral fixed base pose, shallow three-quarter view facing screen-right, every wing, tail, foot, beak and head appendage fully visible. Faithful proportions, colors and material details to the final model. Actual transparent alpha, no environment, shadow, extra subject, action, projectiles, captions or watermark. Leave at least ten percent transparent margin at each edge. Do not execute this generation until a legible complete anatomical reference has been obtained.",
+  "sources": [
+    {
+      "page_url": "https://tylerthebradley.artstation.com/projects/Krb5LB",
+      "source_type": "primary_creature_concept_artist",
+      "scope": "Portfolio primaire Tyler Bradley, titre Wakaatu et attribution explicite au DLC Gears 5 Hivebusters. Texte consulté ; aucune image complète récupérée et inspectée pour génération.",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://gearsofwar.fandom.com/wiki/Wakaatu",
+      "image_url": "https://vignette.wikia.nocookie.net/gearsofwar/images/2/23/Wakaatu.png/revision/latest",
+      "source_type": "game_cutscene_closeup_on_secondary_mirror",
+      "scope": "Capture récupérée et inspectée : gros plan de la tête (846×420), œil jaune, bec, plumes et appendices faciaux. Le corps, les ailes et les queues sont hors champ ; insuffisante pour un candidat plein corps fidèle.",
+      "visual_reference_used": false,
+      "reference_visually_inspected": true,
+      "reference_sha256": "47482803a3d43400193ef13160d1d1a4899819bc62a3c43e9a1450c3b8e95201"
+    },
+    {
+      "page_url": "https://www.gearsofwar.com/en-us/news/hivebusters/",
+      "source_type": "official_game_announcement",
+      "scope": "Annonce officielle du DLC confirmant le Wakaatu. Visuel de Scorpio Squad, sans référence anatomique complète du boss.",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://www.noobfeed.com/articles/gears-5-hivebusters-how-to-defeat-wakaatu-insane",
+      "image_url": "https://i.imgur.com/W5aEJGO.png",
+      "source_type": "gameplay_guide_screenshot_unavailable",
+      "scope": "Guide du 17 décembre 2020 et capture explicitement nommée Wakaatu. Téléchargement image refusé HTTP429 ; aucun pixel inspecté, aucun réessai de contournement.",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://store.steampowered.com/app/1415070/Gears_5__Hivebusters/",
+      "source_type": "official_game_store_screenshots",
+      "scope": "Quatre captures officielles inspectées : Scorpio Squad, Hoffman et rencontres Swarm ; aucune ne montre le corps du Wakaatu.",
+      "visual_reference_used": false
+    }
+  ],
+  "qa": {
+    "visually_inspected": false,
+    "single_character": null,
+    "full_body_in_frame": null,
+    "transparent_background": null,
+    "orientation_facing_right": null,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Recherche visuelle effectuée mais aucun PNG généré : ne pas compter ce sujet comme couvert.",
+      "Une vraie vue de la tête a été inspectée, mais aucune vue complète exploitable n'a permis de contrôler les six ailes, les queues, les pattes et leurs proportions.",
+      "Blocage de référence, pas refus du système de génération : aucun appel imagegen exécuté pour le Wakaatu V10."
+    ],
+    "remaining_checks": [
+      "Obtenir et inspecter une vue complète du modèle final Gears 5 Hivebusters, idéalement plusieurs angles, puis générer une seule pose fixe."
+    ]
+  },
+  "pending_reason": "insufficient_visual_reference"
+}

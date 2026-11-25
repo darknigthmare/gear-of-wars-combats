@@ -1,0 +1,61 @@
+{
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "variant_relation": "target_version_candidate",
+  "category": "stage",
+  "purpose": "stage_master",
+  "animation_status": "not_requested_this_pass",
+  "canonical_fidelity_validated": false,
+  "has_image": true,
+  "id": "tomb_gears5_cemetery_master_v10",
+  "subject_id": "stage_tomb_g5",
+  "name": "Tomb — cour du cimetière",
+  "source_game": "Gears 5 — Operation 6",
+  "catalog_target_game": "Gears 5",
+  "variant": "Gears 5 — Tomb, cour adaptée au combat latéral",
+  "asset_path": "assets/stages_v10/tomb_gears5_cemetery_master.png",
+  "prompt": "Use case: static HD painted environment for a 2D fighting game. Create ONE opaque landscape 16:9 empty stage faithfully reconstructing TOMB from GEARS 5 OPERATION 6, using the attached final spectator screenshot by the map's production artist. This is the Gears 5 multiplayer cemetery map, not the Gears 1 Tomb of the Unknowns. Recompose the shot to a level lateral standing-height camera with a broad continuous flat wet stone-paved fighting surface across the lower 22% of the frame. The exact characteristic environment remains behind that combat band: richly weathered gray-green mausoleum arcade with multiple round arches on the left, oxidized green segmented metal roof with the ragged blue sheet on it; cyan-blue light inside one left arcade opening; the prominent freestanding semicircular ivy-covered stone arch slightly right of center; behind it the larger double arch facade and ornate wrought iron gate; sculpted winged stone angel statues mounted on architectural pillars and restrained stone lion ornaments; the unmistakable upright large gear-ring stone memorial atop its rectangular tall pedestal on the left. Keep all of these statues immobile carved stone architecture, no living figures. Dead bare trees, sparse autumn yellow-orange leaves, moss, wet pavement reflections and muted murky green storm-cloud light. Retain the supplied architecture's restrained ornate masonry language and materials, with crisp detailed reliefs, high-quality dark 2D game background finish. Moderate background depth, a readable continuous horizontal foreground without steps blocking fighters. No characters, creatures, enemies, corpses, weapons, glowing ammo pickups, floating objects, text, labels, interface, logo, watermark or credits. Single scene, no collage or animation frames. Prioritize precise identity from the reference over generic graveyard invention.",
+  "sources": [
+    {
+      "page_url": "https://abodden.artstation.com/projects/q9VOrP",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/037/854/040/large/adam-bodden-gears5-tomb-007.jpg?1621491079",
+      "source_type": "production_artist_portfolio",
+      "artist": "Adam Bodden — level artist",
+      "scope": "Capture finale en mode spectateur multijoueur de Tomb, Gears 5 Operation 6, publiée par un artiste responsable de la carte.",
+      "visual_reference_used": true,
+      "reference_sha256": "401fce45e62155a1c2d38c2d3ad509b2ebf2a3e517ff029499b94a99d6eea874"
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_stage": true,
+    "transparent_background": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "observations": [
+      "Arcades du mausolée, toiture métallique patinée et bâche bleue, arche basse végétalisée, portail de fer, mémorial en rouage, lions et anges sculptés repris de la source Gears 5.",
+      "Sol humide horizontal continu au premier plan; le pickup lumineux de la capture a été omis, aucun combattant ou interface visible.",
+      "L’angle plongeant a été recomposé latéralement et les obstacles reculés. Le nombre d’ouvertures, les reliefs, les distances entre monuments et la disposition des lions diffèrent de la capture; plan exact non validé."
+    ],
+    "remaining_checks": [
+      "Comparer les reliefs et l’implantation des monuments avec plusieurs vues finales de Tomb.",
+      "Contrôler l’échelle du plan de combat avant intégration jouable."
+    ],
+    "alpha_channel_present": false,
+    "opaque": true
+  },
+  "output": {
+    "format": "PNG",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "bytes": 3265074,
+    "sha256": "4c47c4d71c0a095cf96eddd9b5e2c86e7043b084a5073342d362ca74eed339b3"
+  },
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-8243cec2-b772-4c06-8a6f-632a88cd3ba4.png",
+  "fidelity_1to1_certified": false,
+  "production_ready": false
+}

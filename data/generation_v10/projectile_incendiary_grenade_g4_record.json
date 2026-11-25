@@ -1,0 +1,46 @@
+{
+  "subject_id": "projectile_incendiary_grenade_g4",
+  "category": "projectile",
+  "name": "Grenade incendiaire",
+  "variant": "Gears of War 4 — grenade incendiaire, modèle extérieur isolé",
+  "source_game": "Gears of War 4",
+  "variant_relation": "ported_model_reference_candidate",
+  "prompt": "Use case: stylized-concept. Create ONE complete static 2D game asset of the Incendiary Grenade from GEARS OF WAR 4, matching the attached two views of its game model. The first image is a reference for the whole object's exact silhouette; the second is for close-up materials and connections. Reproduce only that single game prop, remove all page graphics, background, human hand and text labels. Preserve the worn squat red canister with its tapering shoulder, dark metal end rings, protective dark brace, brown crossed straps, scratched pale painted marking, and narrow dark end section with small blue slots. Preserve the short curved brown wrapped connector and the distinct chunky dark metal handle with worn red grip. Do not substitute a modern military grenade, a plain bottle, a ball grenade, or a different Gears edition. Arrange the complete object horizontally with the handle to the left and canister to the right, in a readable three-quarter view. One item only, complete within frame with at least ten percent transparent padding on every side. Detailed realistic hand-painted 2D game sprite, weathered materials and readable outline; strictly preserve the referenced design and proportions. True transparent PNG alpha outside the object, no cast shadow, no scenery, no characters, no flame, no smoke, no explosion, no motion streak, no duplicate angles, no animation, no watermark.",
+  "sources": [
+    {
+      "url": "https://primagames.com/eguides/gears-of-war-4-eguide/multiplayer/multiplayer-arsenal/grenades",
+      "type": "official_strategy_guide_text",
+      "note": "Confirme le type de projectile et son édition ; pas une référence de géométrie."
+    },
+    {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3642338663",
+      "type": "community_port_of_game_model",
+      "note": "EnergyFlamer présente le modèle porté depuis Gears of War 4 ; éclairage et pose dans un autre moteur, fidélité du port non auditée."
+    },
+    {
+      "url": "https://images.steamusercontent.com/ugc/15092923533972507400/8CD0C11CBE7EBD348B8A4FBDD815872B3DFFEF80/",
+      "type": "visual_reference_full_object"
+    },
+    {
+      "url": "https://images.steamusercontent.com/ugc/12772457377239399093/1AF4239BE6F50281FEE4814DBC97190235396B84/",
+      "type": "visual_reference_closeup"
+    }
+  ],
+  "id": "projectile_incendiary_grenade_g4",
+  "pass_date": "2026-11-25",
+  "status": "blocked",
+  "engine": "built_in_imagegen",
+  "has_image": false,
+  "asset_path": null,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "error": "moderation_blocked",
+  "request_id": "3048d9e3-fede-43b1-b295-d6ccf88e6306",
+  "moderation_stage": "output",
+  "moderation_categories": [
+    "illicit"
+  ],
+  "notes": [
+    "Aucun PNG produit ; refus consigné sans nouvel essai ni contournement."
+  ]
+}

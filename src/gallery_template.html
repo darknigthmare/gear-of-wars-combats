@@ -88,7 +88,7 @@ function makeCard(row){
   if(asset){
     const metadata=el("div","metadata");metadata.append(el("span","",`${asset.width} × ${asset.height}`),el("span","",asset.has_transparency?"PNG avec alpha":"Fond opaque"),el("span","",`${(asset.size_bytes/1048576).toFixed(2)} Mio`));body.append(metadata);
     const relation=row.category==="costume"?(asset.costume_variant_relation||asset.variant_relation):asset.variant_relation;
-    if(relation!=="target_version_candidate")body.append(el("p","primary-note",relation==="alternate_version"?`Variante différente de la cible du catalogue : ${row.requested_source_game}.`:relation==="text_reconstruction_candidate"?"Reconstruction à partir de descriptions textuelles ; détails du modèle à vérifier.":relation==="licensed_figure_reference_candidate"?"Référence fondée sur la figurine officielle ; modèle du jeu à vérifier.":"Édition native de cette apparence non certifiée."));
+    if(relation!=="target_version_candidate")body.append(el("p","primary-note",relation==="alternate_version"?`Variante différente de la cible du catalogue : ${row.requested_source_game}.`:relation==="text_reconstruction_candidate"?"Reconstruction à partir de descriptions textuelles ; détails du modèle à vérifier.":relation==="concept_art_candidate"?"Variante issue d’un concept de production ; correspondance avec le modèle final du jeu non attestée.":relation==="licensed_figure_reference_candidate"?"Référence fondée sur la figurine officielle ; modèle du jeu à vérifier.":"Édition native de cette apparence non certifiée."));
     if(asset.quality_state==="correction_required")body.append(el("p","primary-note","Des corrections visuelles restent ouvertes pour ce candidat."));
     body.append(link("Ouvrir le PNG",asset.path,"open-link"));
     const details=el("details","details");details.append(el("summary","","Contrôles, réserves et sources"));const list=el("ul");
@@ -106,7 +106,7 @@ function makeCard(row){
     asset.source_urls.slice(0,4).forEach((url,i)=>{const li=el("li");const a=link(`Source ${i+1}`,url);a.target="_blank";a.rel="noopener noreferrer";li.append(a);list.append(li);});details.append(list);body.append(details);
   }else{
     body.append(el("p","primary-note","Aucune animation ni validation visuelle attribuée à ce sujet."));
-    if(row.last_generation_attempt)body.append(link("Voir le résultat du dernier essai",row.last_generation_attempt.record,"open-link"));
+    if(row.last_generation_attempt)body.append(link(row.last_generation_attempt.status==="reference_research_pending"?"Voir la recherche de référence":"Voir le résultat du dernier essai",row.last_generation_attempt.record,"open-link"));
   }
   if((row.catalog_notes||[]).length||(row.source_urls||[]).length){
     const details=el("details","details");details.append(el("summary","","Fiche du catalogue et sources"));const list=el("ul");

@@ -1,0 +1,84 @@
+{
+  "id": "boss_swarmak",
+  "subject_id": "boss_swarmak",
+  "name": "Swarmak",
+  "category": "boss",
+  "source_game": "Gears of War 4",
+  "catalog_target_game": "Gears of War 4",
+  "variant": "Gears of War 4 — Swarmak, pose fixe",
+  "purpose": "reference_fullbody",
+  "variant_relation": "target_version_candidate",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "has_image": true,
+  "canonical_fidelity_validated": false,
+  "asset_path": "assets/bosses_v10/swarmak_gears4_fullbody.png",
+  "prompt": "Use case: stylized-concept. Asset type: one complete static boss sprite. Reproduce exactly one Swarmak from Gears of War 4 using the attached complete game-model render as the visual reference. Preserve this exact enormous hunched biped creature: low broad reptilian head, dense angular amber-gold crystal clusters over the forehead, shoulders, back and wrist mounts, rough mottled grey-brown skin, thick muscular legs with large splayed clawed feet, natural intact orange luminous nodules, heavy linked chains and straps, battered dark gunmetal and muted red armor, twin wrist-mounted rotary gun assemblies and the large original rocket platform over the back. Match the reference's distinct mechanical layout, relative sizes, chains, plates and distribution of crystals; the Swarmak is not a plain Brumak recolor. No rider or Speaker character; the mounted saddle and weapon hardware remain empty and are part of this one creature. Pose stationary, weight balanced on both feet, head and muzzles pointing SCREEN-RIGHT in a shallow three-quarter view, arms down, no firing or attack action. Entire creature and mounted hardware fully visible from the tallest rocket mount to the lowest claws. Realistic detailed game rendering with neutral soft lighting and controlled highlights; preserve the grey, dark metal, muted red, gold crystal and restrained orange palette. True transparent alpha, no scenery, floor, shadow, halo, fog, gradient, checkerboard, text or watermark. Pull the camera back and leave at least ten percent empty transparent space on every side, all extremities within the central seventy-six percent of a landscape canvas. One creature in one fixed pose, no separate character, no human, no loose projectile, no animation or multi-view sheet.",
+  "sources": [
+    {
+      "page_url": "https://gearsofwar.fandom.com/wiki/Swarmak",
+      "image_url": "https://vignette.wikia.nocookie.net/gearsofwar/images/0/0b/SwarmakRender.jpg/revision/latest",
+      "source_type": "game_model_render_on_secondary_mirror",
+      "scope": "Rendu complet Swarmak, cristaux, armes montées et harnais. Image inspectée avant génération ; origine individuelle du fichier non confirmée.",
+      "visual_reference_used": true,
+      "reference_sha256": "0c37d48a28cdfc0c4b5415d5cd099ff19080f01cd48f118bd9a6a6044dcf6e4a"
+    },
+    {
+      "page_url": "https://primagames.com/eguides/gears-of-war-4-eguide/campaign/act-4/chapter-5-storm-warning",
+      "source_type": "licensed_game_guide",
+      "scope": "Guide Gears of War 4 : première confrontation avec le Swarmak, armes aux poignets et plateforme supérieure. Consultation textuelle.",
+      "visual_reference_used": false
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "orientation_facing_right": true,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Swarmak seul, bipède massif cristallisé, deux armes rotatives aux poignets, harnais et plateforme de roquettes supérieure. Orientation droite, extrémités visibles, aucune animation.",
+      "Le Speaker n'est pas représenté : ce candidat couvre la créature équipée seule et ne constitue pas la rencontre complète du jeu.",
+      "Disposition des cristaux, chaînes et canons : proximité visuelle recherchée, détails mécaniques non certifiés à l'identique.",
+      "PNG natif RGBA copié sans transformation des pixels ; alpha réel vérifié. Les contours et pixels partiellement transparents nécessitent encore une inspection sur fonds variés.",
+      "Marges alpha≥128 gauche/haut/droite/bas : 192/39/196/36 px. Le sujet reste entier ; la consigne de 10 % de marge n’est pas atteinte sur tous les bords.",
+      "Aucune animation demandée ni produite. Candidat généré, fidélité 1:1 et conformité canonique non certifiées."
+    ],
+    "remaining_checks": [
+      "Comparer les cristaux, le montage supérieur, les canons aux poignets et les nodules au modèle Gears of War 4.",
+      "Contrôler les franges alpha et préparer des marges d’atlas suffisantes avant intégration."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 1753245,
+    "sha256": "7c42c32cd49f3275fb427355b6baf1282b89133223823666460677e59f379bce",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.597873614969018,
+    "subject_bbox_alpha_ge_128": [
+      192,
+      39,
+      1252,
+      1050
+    ],
+    "subject_margins_ltrb_px": [
+      192,
+      39,
+      196,
+      36
+    ]
+  },
+  "fidelity_1to1_certified": false,
+  "production_ready": false
+}

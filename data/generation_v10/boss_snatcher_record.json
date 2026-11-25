@@ -1,0 +1,83 @@
+{
+  "id": "boss_snatcher",
+  "subject_id": "boss_snatcher",
+  "name": "Snatcher",
+  "category": "boss",
+  "source_game": "Gears of War 4",
+  "catalog_target_game": "Gears of War 4",
+  "variant": "Gears of War 4 — Snatcher, pose fixe",
+  "purpose": "reference_fullbody",
+  "variant_relation": "target_version_candidate",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "has_image": true,
+  "canonical_fidelity_validated": false,
+  "asset_path": "assets/bosses_v10/snatcher_gears4_fullbody.png",
+  "prompt": "Use case: stylized-concept. Asset type: one static full-body creature sprite. Create exactly one Snatcher from Gears of War 4, matching the attached complete original-game model render in anatomy, proportions, shell design, skin texture and colors. Preserve the tall ridged burgundy-red crest continuing from the face over the neck and back, small paired orange eyes, grey narrow mouth with thin feelers, four long articulated legs ending in blade-like pointed feet, dark red limb armor plates, pale blue-grey folded skin, rounded pale pink throat/ventral pouch and the long tapering curved tail with pointed tip. This is the large tall-legged Snatcher, with the same distinct anatomy as the reference. The ventral pouch is closed and empty; no captured person or other creature. Pose stationary in a stable four-legged stance at a shallow three-quarter angle facing SCREEN-RIGHT, snout and mouth feelers on the RIGHT side and tail sweeping to the LEFT behind it. Rotate the subject spatially, keep the original anatomy. Show the complete crest, each leg tip, all feelers and the entire tail. Detailed realistic game render with crisp surface detail, neutral soft lighting and no action or firing. True transparent alpha background with no environment, floor, cast shadow, gradient, haze, halo, checkerboard, captions, logos or watermark. Landscape canvas, camera pulled back: leave at least ten percent genuinely empty transparent margin at every edge, whole creature at most seventy-six percent of canvas width and height. One creature, one fixed pose, no duplicates, no animation sheet, no other subjects.",
+  "sources": [
+    {
+      "page_url": "https://gearsofwar.fandom.com/wiki/Snatcher",
+      "image_url": "https://vignette.wikia.nocookie.net/gearsofwar/images/4/40/Snatcher.jpg/revision/latest",
+      "source_type": "game_model_render_on_secondary_mirror",
+      "scope": "Rendu complet du Snatcher, référence visuelle directe inspectée. Attribution individuelle de cette image non confirmée ; référence au design du jeu Gears4.",
+      "visual_reference_used": true,
+      "reference_sha256": "303b5f1c489503ac37ceab68f892d64f9729c09b6c0a7bc8a710aa716441204d"
+    },
+    {
+      "page_url": "https://heber.artstation.com/projects/b8ZDg",
+      "source_type": "original_game_character_artist_portfolio",
+      "scope": "Heber Alvarado présente le Swarm Snatcher de Gears of War 4 et ses crédits de modélisation, textures, matériaux et pose. Consultation textuelle ; le fichier miroir n'est pas attribué individuellement à ce portfolio.",
+      "visual_reference_used": false
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "orientation_facing_right": true,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Snatcher seul, quatre longues pattes pointues, crête bordeaux, peau grise plissée, poche ventrale rose fermée et vide, longue queue entière. Pose fixe trois quarts vers la droite.",
+      "Le nombre exact des yeux/feelers, les raccords de carapace et la forme finale de la queue restent à comparer au modèle du jeu.",
+      "PNG natif RGBA copié sans transformation des pixels ; alpha réel vérifié. Les contours et pixels partiellement transparents nécessitent encore une inspection sur fonds variés.",
+      "Marges alpha≥128 gauche/haut/droite/bas : 193/73/309/47 px. Le sujet reste entier ; la consigne de 10 % de marge n’est pas atteinte sur tous les bords.",
+      "Aucune animation demandée ni produite. Candidat généré, fidélité 1:1 et conformité canonique non certifiées."
+    ],
+    "remaining_checks": [
+      "Contrôler les détails des yeux, appendices faciaux, pieds et queue contre le modèle original de Gears of War 4.",
+      "Contrôler les franges alpha et préparer des marges d’atlas suffisantes avant intégration."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1672,
+    "height": 941,
+    "bytes": 962419,
+    "sha256": "904679f8a7fb4bc2d3838a55aaa75226dc665843e09a3dc0dd6b96cfeaf6134b",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.7940200285759321,
+    "subject_bbox_alpha_ge_128": [
+      193,
+      73,
+      1363,
+      894
+    ],
+    "subject_margins_ltrb_px": [
+      193,
+      73,
+      309,
+      47
+    ]
+  },
+  "fidelity_1to1_certified": false,
+  "production_ready": false
+}

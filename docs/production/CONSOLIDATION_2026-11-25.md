@@ -8,16 +8,16 @@ Les anciennes passes ont été réunies avec les nouvelles sorties réellement p
 | --- | ---: |
 | Personnages possédant au moins une référence | **36 / 36** |
 | Personnages sans référence | **0** |
-| Personnages supplémentaires du catalogue avec une référence | 13 / 20 |
-| Costumes avec une attribution visuelle explicite | 38 / 85 |
-| PNG actifs de personnages, alternatives et présentations incluses | 58 |
-| PNG actifs classés comme costumes | 3 |
-| Boss avec une référence | 13 / 31 |
-| Fiches d’arènes associées à un master | 12 / 34 |
-| Masters de décor, Ephyra complémentaire inclus | 13 |
-| Projectiles avec une référence statique | 3 / 8 |
-| PNG actifs de projectiles | 3 |
-| PNG actifs uniques | 90 |
+| Personnages supplémentaires du catalogue avec une référence | 15 / 20 |
+| Costumes avec une attribution visuelle explicite | 42 / 85 |
+| PNG actifs de personnages, alternatives et présentations incluses | 60 |
+| PNG actifs classés comme costumes | 7 |
+| Boss avec une référence | 18 / 31 |
+| Fiches d’arènes associées à un master | 20 / 34 |
+| Masters de décor, Ephyra complémentaire inclus | 21 |
+| Projectiles avec une référence statique | 4 / 8 |
+| PNG actifs de projectiles | 4 |
+| PNG actifs uniques | 110 |
 | Anciennes versions écartées conservées séparément | 12 |
 | Personnages certifiés conformes 1:1 | **0** |
 | Ensembles d’animations dessinées finalisés | **0** |
@@ -39,6 +39,11 @@ Les costumes hérités des fiches initiales restent sans attribution tant qu’u
 
 | Sujet | Variante demandée | Fichier |
 | --- | --- | --- |
+| Carrier | Gears of War 4 — Carrier, pose fixe | [PNG](../../assets/bosses_v10/carrier_gears4_fullbody.png) |
+| Centaur | Gears of War 2 — Centaur, pose fixe | [PNG](../../assets/bosses_v10/centaur_gears2_fullbody.png) |
+| Reaver | Gears of War 2 — Reaver, pose fixe | [PNG](../../assets/bosses_v10/reaver_gears2_mount_only_fullbody.png) |
+| Snatcher | Gears of War 4 — Snatcher, pose fixe | [PNG](../../assets/bosses_v10/snatcher_gears4_fullbody.png) |
+| Swarmak | Gears of War 4 — Swarmak, pose fixe | [PNG](../../assets/bosses_v10/swarmak_gears4_fullbody.png) |
 | Matriarch | Gears 5 — modèle de campagne | [PNG](../../assets/bosses_v6/matriarch_gears5_fullbody.png) |
 | Shibboleth seul — monture sans Karn | Gears of War: Judgment — monture seule ; Karn absent ; duo non complet | [PNG](../../assets/bosses_v7/shibboleth_judgment_mount_only_fullbody.png) |
 | Berserker Lambent | Gears of War 3 — poitrine ouverte, pose de référence | [PNG](../../assets/bosses_v8/lambent_berserker_gow3_fullbody.png) |
@@ -48,6 +53,8 @@ Les costumes hérités des fiches initiales restent sans attribution tant qu’u
 | Guardian DeeBee | Gears of War 4 — Guardian Tri-Shot, drone seul sans bouclier actif | [PNG](../../assets/bosses_v9/guardian_gears4_fullbody.png) |
 | Pouncer | Gears of War 4 — Pouncer, pose fixe | [PNG](../../assets/bosses_v9/pouncer_gears4_fullbody.png) |
 | Silverback | Gears of War 3 — exosquelette seul, sans pilote | [PNG](../../assets/bosses_v9/silverback_gears3_fullbody.png) |
+| Aaron Griffin | Gears of War 3 — tenue originale du modèle Mike Kime (2011) | [PNG](../../assets/characters_v10/aaron_griffin.png) |
+| Oscar Diaz | Last Stand Oscar — Operation 8 Drop 2 (2021) | [PNG](../../assets/characters_v10/oscar_diaz.png) |
 | Dominic Santiago | Gears of War (2006) — COG armor | [PNG](../../assets/characters_v5/dom_gow1_fullbody.png) |
 | Général RAAM | Gears of War (2006 / portage PC original) | [PNG](../../assets/characters_v5/raam_gow1_fullbody.png) |
 | Garde Theron | Theron Guard classique casqué, cible GoW 2006 ; édition exacte non validée | [PNG](../../assets/characters_v5/theron_gow1_fullbody.png) |
@@ -65,12 +72,25 @@ Les costumes hérités des fiches initiales restent sans attribution tant qu’u
 | Disciple locuste | Gears Tactics — Disciple standard tête nue, harnais à Imulsion | [PNG](../../assets/characters_v9/locust_disciple.png) |
 | Sniper locuste | Gears Tactics — Sniper Drone standard avec Longshot | [PNG](../../assets/characters_v9/locust_sniper.png) |
 | Zealot locuste | Gears Tactics — Zealot standard avec casque pointu | [PNG](../../assets/characters_v9/locust_zealot.png) |
+| Damon Baird — Lieutenant (Judgment) | Lieutenant Baird — modèle original Judgment | [PNG](../../assets/costumes_v10/baird_skin_01.png) |
+| Damon Baird — DB Industries (Gears 5) | DB Industries Baird — âgé, blouse de laboratoire (campagne et Operation 3) | [PNG](../../assets/costumes_v10/baird_skin_04.png) |
+| Reine Myrrah — Black Steel Queen Myrrah | Gears 5 — Black Steel Queen Myrrah, pose fixe en pied | [PNG](../../assets/costumes_v10/myrrah_black_steel_gears5_fullbody.png) |
+| Samantha Byrne — V-Day Sam | Gears 5 — V-Day Sam, pose fixe en pied | [PNG](../../assets/costumes_v10/sam_vday_gears5_fullbody.png) |
 | Mac — Mechanic Mac | Gears 5 — Mechanic Mac (skin Hivebusters) | [PNG](../../assets/costumes_v6/mac_mechanic_gears5_fullbody.png) |
 | Augustus Cole — Thrashball Cole | Gears of War 3 — Thrashball Cole | [PNG](../../assets/costumes_v7/cole_thrashball_gow3_fullbody.png) |
 | Marcus Fenix — campagne Gears of War 3 | Gears of War 3 — armure de campagne | [PNG](../../assets/costumes_v8/marcus_campaign_gow3_fullbody.png) |
+| Grenade fumigène — concept officiel C | Gears of War 4 — Smoke Grenade, variante C du concept Jarold Sng | [PNG](../../assets/projectiles_v10/smoke_grenade_gow4_concept_c.png) |
 | Buzzkill — lame circulaire | Gears of War 4 — projectile isolé, pose fixe | [PNG](../../assets/projectiles_v9/buzzkill_sawblade_gow4.png) |
 | Dropshot — projectile foreuse | Gears of War 4 — projectile isolé, pose fixe | [PNG](../../assets/projectiles_v9/dropshot_drill_gow4.png) |
 | Grenade Bolo / Frag | Gears of War 3 — projectile isolé, pose fixe | [PNG](../../assets/projectiles_v9/frag_grenade_gow3.png) |
+| Azura — terrasse de Pinnacle Tower | Gears of War 3 — terrasse et fontaines devant Pinnacle Tower adaptées au combat latéral | [PNG](../../assets/stages_v10/azura_tower_gears3_terrace_master.png) |
+| Lac des Hollows — pont du bateau locuste | Gears of War 2 — lac souterrain depuis un pont de bateau adapté au combat latéral | [PNG](../../assets/stages_v10/hollow_lake_gears2_boat_master.png) |
+| Jacinto — au bord de la chute | Gears of War 2 — terrasses effondrées de Jacinto adaptées au combat latéral | [PNG](../../assets/stages_v10/jacinto_gears2_collapse_master.png) |
+| New Hope — couloir gelé | Gears 5 — New Hope, couloir de recherche abandonné adapté au combat latéral | [PNG](../../assets/stages_v10/new_hope_gears5_corridor_master.png) |
+| Ritual — cour du temple | Gears 5 — Ritual, cour adaptée au combat latéral | [PNG](../../assets/stages_v10/ritual_gears5_courtyard_master.png) |
+| CNV Sovereign — pont jardiné | Gears of War 3 — pont extérieur jardiné du Sovereign adapté au combat latéral | [PNG](../../assets/stages_v10/sovereign_deck_gears3_master.png) |
+| Forêt de Stromson — route et derrick | Gears of War 2 — lisière de Stromson avec derrick immobilisé, adaptée au combat latéral | [PNG](../../assets/stages_v10/stromson_forest_gears2_master.png) |
+| Tomb — cour du cimetière | Gears 5 — Tomb, cour adaptée au combat latéral | [PNG](../../assets/stages_v10/tomb_gears5_cemetery_master.png) |
 | Gridlock | Gears of War 4 — cadrage de combat 2D adapté | [PNG](../../assets/stages_v6/gridlock_gow4_master.png) |
 | Dawn | Gears 5 — Operation 8, colonie minière adaptée au combat 2D | [PNG](../../assets/stages_v7/dawn_gears5_master.png) |
 | Village | Gears 5 — Operation 8, intérieur cérémoniel adapté au combat 2D | [PNG](../../assets/stages_v7/village_gears5_master.png) |

@@ -1,0 +1,70 @@
+{
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "variant_relation": "target_version_candidate",
+  "category": "stage",
+  "purpose": "stage_master",
+  "animation_status": "not_requested_this_pass",
+  "canonical_fidelity_validated": false,
+  "has_image": true,
+  "id": "new_hope_gears5_corridor_master_v10",
+  "subject_id": "stage_new_hope",
+  "name": "New Hope — couloir gelé",
+  "source_game": "Gears 5 — Acte II, Forest for the Trees",
+  "catalog_target_game": "Gears 5",
+  "variant": "Gears 5 — New Hope, couloir de recherche abandonné adapté au combat latéral",
+  "asset_path": "assets/stages_v10/new_hope_gears5_corridor_master.png",
+  "prompt": "Create ONE opaque wide 16:9 static HD 2D fighting-game environment of the abandoned NEW HOPE RESEARCH FACILITY as seen in GEARS 5 ACT II, Forest for the Trees. The attached two final production screenshots are the exact edition references: use their decayed institutional corridor architecture, not the Gears 2 facility or the Mount Kadar laboratory. Transform the corridor into a wider lateral interior stage, camera level at standing height facing the long wall of this passage; maintain a broad flat wet cracked tiled fighting strip across the bottom 22%, with modest depth and no steep perspective running through the combat band. Preserve the characteristic very thick curved dark metal service ducts at ceiling height, large round bolted elbows, paired massive ribbed metal reinforcement frames inset into dirty ochre plaster walls, broken window bays and rectangular doorways, dark green tiled lower wall panels, exposed cables hanging from broken ceiling, and distressed blue-gray/brown checkerboard floor tiles. An opening through the ruined passage at the right rear shows cold pale blue snow and icicles, a little dim orange-yellow utility light nearby. Keep the rusty metal joints, flaking paint, wet reflective tile, fallen panels and sparse debris accurate to the attached Gears5 corridor materials. Move large rubble behind the flat foreground to keep it usable. Dark foreboding blue-gray and oxidized ochre lighting; realistic texture-rich 2D painted environmental art. This is ONE empty section of the facility, no living people, robots, experiments, creatures, enemies, corpses, blood, weapons, HUD, text or signage. Entirely omit the reference's black portfolio footer, game logos and credits. Single continuous scene, no collage, no animation frames, no parallax separation. Reference-driven architecture, no generic spaceship redesign.",
+  "sources": [
+    {
+      "page_url": "https://kezo.artstation.com/projects/GXWKR1",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/020/533/587/large/keswick-allen-gow5-act2-hope-08a.jpg?1568147539",
+      "source_type": "production_artist_portfolio",
+      "artist": "Keswick Allen — lead level artist; level art Michael Marraffa, Mark Sayson et William Busby",
+      "scope": "Capture finale du couloir de New Hope dans Forest for the Trees, Gears 5 Acte II; tuyaux, contreforts métalliques et brèche enneigée.",
+      "visual_reference_used": true,
+      "reference_sha256": "6b39725121dc324bf09bf61561f52c7c2cb73a7b4e9a9da3d22ce1c0f4170d3f"
+    },
+    {
+      "page_url": "https://kezo.artstation.com/projects/GXWKR1",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/020/532/721/large/keswick-allen-gow5-act2-hope-02a.jpg?1568145592",
+      "source_type": "production_artist_portfolio",
+      "artist": "Keswick Allen — lead level artist",
+      "scope": "Deuxième capture finale du couloir de New Hope Gears 5, utilisée pour le carrelage, les encadrements et les panneaux muraux.",
+      "visual_reference_used": true,
+      "reference_sha256": "38ca7ff2fbcd8da37da14aee039be628de1f3cd8e4370791b42ec2049837bc1e"
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_stage": true,
+    "transparent_background": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "observations": [
+      "Conduits courbes massifs, contreforts nervurés rivetés, murs ocre écaillés et soubassement carrelé vert repris des captures finales Gears 5.",
+      "Couloir vu latéralement avec sol carrelé humide continu; brèche enneigée et lumière jaune faible à droite, aucun personnage, robot ou interface.",
+      "Le passage longitudinal a été élargi et son mur recomposé face caméra. Le nombre de travées, l’emplacement de la brèche et la distribution des ouvertures ne constituent pas une reproduction du plan exact. La capture ne permet pas de certifier l’heure nocturne prévue au catalogue."
+    ],
+    "remaining_checks": [
+      "Comparer les travées et l’emplacement des ouvertures avec des captures supplémentaires de New Hope Gears 5.",
+      "Valider la portion de couloir et l’échelle de combat avant intégration jouable."
+    ],
+    "alpha_channel_present": false,
+    "opaque": true
+  },
+  "output": {
+    "format": "PNG",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "bytes": 2617384,
+    "sha256": "97ad89f2f84fcd212262c3248e0070832bc2d584ad7b25f9cce7e613a3b83fa8"
+  },
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-58e1da8c-d3db-4393-9d2e-11e69959e5b2.png",
+  "fidelity_1to1_certified": false,
+  "production_ready": false
+}

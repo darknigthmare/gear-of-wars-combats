@@ -1,0 +1,76 @@
+{
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "variant_relation": "target_version_candidate",
+  "category": "stage",
+  "purpose": "stage_master",
+  "animation_status": "not_requested_this_pass",
+  "canonical_fidelity_validated": false,
+  "has_image": true,
+  "id": "stromson_forest_gears2_master_v10",
+  "subject_id": "stage_stromson",
+  "name": "Forêt de Stromson — route et derrick",
+  "source_game": "Gears of War 2 — Rolling Thunder",
+  "catalog_target_game": "Gears of War 2",
+  "variant": "Gears of War 2 — lisière de Stromson avec derrick immobilisé, adaptée au combat latéral",
+  "asset_path": "assets/stages_v10/stromson_forest_gears2_master.png",
+  "prompt": "Produce ONE opaque 16:9 landscape static HD background for a side-view 2D fighting game, specifically STROMSON FOREST from original GEARS OF WAR 2 (2008), Act I Rolling Thunder, based on the three attached actual gameplay screenshots. Environment only; use their exact vegetation, rocky terrain and massive COG assault derrick design, not later-game remakes or a generic fantasy forest. Composition: level lateral camera, a broad continuous flat strip of hard-packed dusty ochre road with embedded stones along the bottom 23% for combat. Behind that flat road are rounded angular layered gray granite rocks with moss, sparse yellow-brown autumn shrubs, dark weathered pines and occasional bare branching trees; steep rocky mountain faces at the right and misty wooded mountains behind. A single large disabled dark olive-brown COG assault derrick like the parked one in screenshot 1 is partly occluded by shrubbery on the middle-left, with its very large heavy wheels, dense industrial tubing, armored forward cabin, large railing and utilitarian battered silhouette accurately based on the reference. This stationary vehicle is scenery. Retain a small weathered concrete roadside retaining wall from screenshot 2 behind the playable band, restrained enough to see the forest. Cool pale overcast daylight from a clouded sky, yellow vegetation and gray stone, dirty steel, grounded muted Gears 2 colors. Detailed realistic 2D painted environment, crisp materials and depth while preserving recognisable original location cues. No people, soldiers, pilots, enemies, flying beasts, aircraft, weapons, gunfire, blood, corpses, HUD, mission overlays, captions, labels, logos, signature, borders or watermark. Remove all characters and UI from reference images. One empty continuous scene, no animation frames or separated layers. Foreground flat and unobstructed; major rocks and vehicle remain behind the combat plane.",
+  "sources": [
+    {
+      "page_url": "https://primagames.com/eguides/gears-war-2-eguide/act-1-tip-of-the-spear/chapter-3-rolling-thunder",
+      "image_url": "https://primagames.com/eguides/media/_w/700/files/eguide_assets/gears-war-2-eguide/032-091_act_01-02-web-resources/image/A1C3E06.jpg",
+      "source_type": "official_licensed_strategy_guide",
+      "scope": "Capture Gears of War 2 du derrick D28 Marilyn immobilisé dans la végétation de Stromson; référence de silhouette et de matériaux du véhicule de décor.",
+      "visual_reference_used": true,
+      "reference_sha256": "71c5018bb63b61acba8ad6873692045afd3e95965eab26eaa85ba68ed4d07614"
+    },
+    {
+      "page_url": "https://primagames.com/eguides/gears-war-2-eguide/act-1-tip-of-the-spear/chapter-3-rolling-thunder",
+      "image_url": "https://primagames.com/eguides/media/_w/700/files/eguide_assets/gears-war-2-eguide/032-091_act_01-02-web-resources/image/A1C3E07.jpg",
+      "source_type": "official_licensed_strategy_guide",
+      "scope": "Capture Gears of War 2 des soutènements de béton, roches et végétation du bord de route.",
+      "visual_reference_used": true,
+      "reference_sha256": "b8b59a687e67d00770920bd90e1cda83b6d84c55838fbfcabec0dc688ac6d17c"
+    },
+    {
+      "page_url": "https://primagames.com/eguides/gears-war-2-eguide/act-1-tip-of-the-spear/chapter-3-rolling-thunder",
+      "image_url": "https://primagames.com/eguides/media/_w/700/files/eguide_assets/gears-war-2-eguide/032-091_act_01-02-web-resources/image/A1C3E03.jpg",
+      "source_type": "official_licensed_strategy_guide",
+      "scope": "Capture Gears of War 2 de la forêt et des montagnes; les personnages et créatures au premier plan sont exclus.",
+      "visual_reference_used": true,
+      "reference_sha256": "6cf745a3c59e7b137441e3d9e5e61aa66337c67e2c4a036d2dc90027d35b5233"
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_stage": true,
+    "transparent_background": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "observations": [
+      "Végétation jaune-brun, pins sombres, rochers gris et derrick immobilisé à grandes roues repris des captures du chapitre Rolling Thunder.",
+      "Route horizontale continue en premier plan, aucun personnage, créature volante, interface ou tir visible.",
+      "Relief du bord de route et position du soutènement recomposés à partir de plusieurs captures. Le sommet des montagnes, le tracé des tuyaux et les proportions détaillées du derrick sont extrapolés à partir de références de faible résolution; géométrie exacte non validée."
+    ],
+    "remaining_checks": [
+      "Comparer le derrick D28 et le profil du talus avec des captures HD du jeu original.",
+      "Valider l’échelle du véhicule de décor et la largeur du plan de combat."
+    ],
+    "alpha_channel_present": false,
+    "opaque": true
+  },
+  "output": {
+    "format": "PNG",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "bytes": 3305379,
+    "sha256": "f0e5db2fc4fe9b422d1f018a6849a90c24ef518f16e70af7805a8e19e54da41b"
+  },
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-033b659d-8f3b-4f5b-b6aa-5e23818abfe5.png",
+  "fidelity_1to1_certified": false,
+  "production_ready": false
+}

@@ -1,0 +1,72 @@
+{
+  "id": "anthony_carmine",
+  "subject_id": "anthony_carmine",
+  "character_id": "anthony_carmine",
+  "name": "Anthony Carmine",
+  "category": "character",
+  "pass_date": "2026-11-25",
+  "source_game": "Gears of War (2006)",
+  "catalog_target_game": "Gears of War (2006)",
+  "variant": "Original Anthony Carmine — référence figurine licenciée NECA SDCC 2008",
+  "variant_relation": "licensed_figure_reference_candidate",
+  "purpose": "reference_fullbody",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "status": "blocked",
+  "generation_status": "blocked",
+  "has_image": false,
+  "asset_path": null,
+  "quality_state": "blocked",
+  "prompt": "Use case: stylized-concept.\nAsset type: one static full-body transparent character reference candidate.\nPrimary request: Anthony Carmine in the original Gears of War (2006) outfit. Input image 1 is a licensed NECA 2008 Anthony Carmine figure promo photo, a reference for the original design and complete clothing silhouette, NOT a request to make a toy. This predates Gears of War 2. Use this image only; do not substitute the Gears 5 remaster, Benjamin's helmet, Clayton's bare arms, or Black Steel colors.\nSubject details: male COG soldier with face completely concealed by Anthony's specific closed helmet: two separate blue eye lenses, angular metal brow with circular blue center lamp, side circular units, curved tubes alongside the lower face, centered long rectangular vented mouth/chin plate. Worn muted blue and gunmetal rounded shoulder plates; two large dark circular chest plates inset into blue armor with small central black COG skull insignia. Full black textured sleeves, neck collar, armored forearms, dark gloves. Heavy utility belt with circular buckle and pouches, dark trousers, asymmetric thigh holster and cargo pouch, old blue-and-black knee pads, heavy plated shin guards and ribbed broad military boots exactly following the reference. Retain human anatomy; remove toy articulation seams, shiny molded plastic and oversized toy joints. No exposed face. No extra futuristic armor.\nComposition: one character only, relaxed static standing pose, front three-quarter turned screen RIGHT, helmet gaze and toes clearly to the right, empty hands resting loosely at sides. Entire head and both soles visible. Keep subject only 75% of total image height, with at least 10% truly empty alpha margin above head, below both feet, left and right. No gun and no detached accessories.\nStyle/medium: realistic game-character render with the weight and textures of original-era Gears armor, faithful to visible design; neutral even light. Scene/backdrop: real transparent alpha, no background, no ground, no shadow cloud, no halo, no platform, no labels, no text, no logo overlay, no watermark. Single still, not sprite sheet and not animation.",
+  "sources": [
+    {
+      "page_url": "https://toynewsi.com/139-12938",
+      "image_url": "https://i.toynewsi.com/g/generated/NECA/Gears_Of_War/08_SDCC/Carmine1__scaled_800.jpg",
+      "source_type": "licensed_figure_publisher_promo_rehosted",
+      "scope": "Photos promotionnelles NECA du 12 mai 2008 pour Anthony Carmine du premier Gears ; figurine complète, pas un modèle extrait du jeu.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/207fbd1207b7/research_gears/v10/anthony_neca2008_front.jpg",
+      "reference_sha256": "2d810870add68630f2279a7ff0a6d01bef1b3ab5134acc90b2d2b9a0aede857b"
+    },
+    {
+      "page_url": "https://toynewsi.com/139-12938",
+      "image_url": "https://i.toynewsi.com/g/generated/NECA/Gears_Of_War/08_SDCC/GOWcarmineBack__scaled_800.jpg",
+      "source_type": "licensed_figure_packaging",
+      "scope": "Packaging inspecté confirmant le nom Anthony Carmine ; non fourni au générateur.",
+      "visual_reference_used": false,
+      "local_reference": "/workspace/scratch/207fbd1207b7/research_gears/v10/anthony_neca2008_back.jpg",
+      "reference_sha256": "e9f6676ee1164487da4b1f0b7203d571301063f0e91f4085ec76197837f7731b"
+    }
+  ],
+  "blocking_error": {
+    "code": "moderation_blocked",
+    "stage": "output",
+    "categories": [
+      "other"
+    ],
+    "request_id": "6a37a82f-77d0-4094-bd3d-d0a8854ff973",
+    "message": "Your request was rejected by the safety system."
+  },
+  "qa": {
+    "visually_inspected": false,
+    "production_ready": false,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "observations": [
+      "Aucun fichier image produit : appel unique rejeté par le système de sécurité à la sortie.",
+      "Aucun réessai ou contournement.",
+      "Les deux captures Fandom examinées avaient une édition non établie (apparence Gears 3 possible), elles ont été exclues du prompt pour éviter la confusion avec 2006.",
+      "La source effectivement utilisée est une figurine licenciée de 2008 : même en cas de succès, elle n'aurait pas certifié les dimensions/textures exactes du modèle jeu."
+    ]
+  },
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "animation": false,
+  "output": null,
+  "source_urls": [
+    "https://toynewsi.com/139-12938"
+  ],
+  "reference_images": [
+    "/workspace/scratch/207fbd1207b7/research_gears/v10/anthony_neca2008_front.jpg"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "projectile_boomshot_shell_g4",
+  "subject_id": "projectile_boomshot_shell_g4",
+  "projectile_id": "projectile_boomshot_shell_g4",
+  "category": "projectile",
+  "name": "Obus Boomshot — référence visuelle à compléter",
+  "source_game": "Gears of War 4",
+  "status": "reference_research_pending",
+  "quality_state": "reference_missing",
+  "pass_date": "2026-11-25",
+  "has_image": false,
+  "asset_path": null,
+  "generation_attempted": false,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "sources": [
+    {
+      "url": "https://primagames.com/eguides/gears-of-war-4-eguide/campaign-arsenal/primary-weapons",
+      "type": "official_guide_text",
+      "note": "Le guide confirme le projectile de l’arme dans Gears of War 4, sans fournir ici une vue exploitable de sa géométrie extérieure."
+    },
+    {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=680947866",
+      "type": "community_model_port_different_edition",
+      "note": "Le port décrit un modèle de projectile séparé, mais il concerne Gears of War 2. Il n’atteste pas la forme exacte du projectile Gears of War 4."
+    }
+  ],
+  "qa": {
+    "observations": [
+      "Aucune image précise et attribuée à l’édition cible n’a été inspectée dans cette recherche.",
+      "Aucun appel de génération : le projectile reste manquant, sans reconstruction de détails à partir du seul texte."
+    ]
+  }
+}

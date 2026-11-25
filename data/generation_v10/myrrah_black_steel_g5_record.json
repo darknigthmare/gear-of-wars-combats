@@ -1,0 +1,75 @@
+{
+  "subject_id": "myrrah_black_steel_g5",
+  "costume_id": "myrrah_black_steel_g5",
+  "character_id": "myrrah",
+  "category": "costume",
+  "name": "Reine Myrrah — Black Steel Queen Myrrah",
+  "source_game": "Gears 5",
+  "variant": "Gears 5 — Black Steel Queen Myrrah, pose fixe en pied",
+  "variant_relation": "target_version_candidate",
+  "prompt": "Use case: stylized-concept. Create ONE full-body static 2D game sprite of QUEEN MYRRAH wearing the BLACK STEEL QUEEN MYRRAH costume from GEARS 5. Use the attached official esports image as the design reference. Reproduce only the queen, preserving her recognizable face, pale tan complexion, exact sharp black crown with three small red lights on its forehead plate, swept black collar, ornate black steel chest and waist armor with silver ribbed filigree and narrow vivid red luminous inlays, pointed layered shoulder guards, black armored forearms, matching gloves, hip plates and the close-fitting armored lower body. Keep the specific black, silver and red materials; do not replace this with Chrome Steel, the standard red costume, a gown or a new design. Extend the pictured costume coherently to complete armored shins and boots. Neutral poised standing combat stance, three-quarter body to the RIGHT, head and nose clearly pointing to the RIGHT edge, empty hands, fully visible feet. High-detail realistic hand-painted 2D sprite, Gears character proportions, crisp readable silhouette. Center the WHOLE figure with generous empty bands above the crown and below the boots, at least twelve percent padding at top and bottom; no part touching the canvas border. True transparent PNG alpha. No background, no cast shadow, no ground, no graphic panels, no text, no logo, no second subject, no alternate views, no animation.",
+  "sources": [
+    {
+      "url": "https://store.steampowered.com/news/posts/?enddate=1627996222&feed=steam_community_announcements",
+      "type": "official_store_announcement",
+      "note": "Annonce Operation8 : entrée esports Black Steel Queen Myrrah."
+    },
+    {
+      "url": "https://clan.fastly.steamstatic.com/images/35210771/e1a84ee3bd5400ab4d8ea36d7abf0baae46b8f76.jpg",
+      "type": "official_visual_reference",
+      "note": "Portrait officiel jusqu’aux cuisses ; jambes basses non visibles."
+    }
+  ],
+  "id": "myrrah_black_steel_g5",
+  "asset_path": "assets/costumes_v10/myrrah_black_steel_gears5_fullbody.png",
+  "quality_state": "candidate",
+  "qa": {
+    "orientation_facing_right": true,
+    "observations": [
+      "Couronne, visage, plastron noir, filigranes argentés et liserés rouges guidés par le portrait officiel Black Steel.",
+      "Jambes basses, genouillères et bottes reconstituées ; détails de la couronne et petits motifs à confronter au modèle complet.",
+      "Silhouette entière, un seul sujet, mains vides, pose fixe ; aucune certification 1:1.",
+      "Revue croisée : silhouette entière, tête vers la droite, palette noir/argent/rouge cohérente. Sur les bords, 31 pixels ont un alpha maximal de 1/255, sans élément solide coupé. Marges haut/bas inférieures aux 10 % demandés : 38/52 px."
+    ],
+    "ten_percent_padding_met": false
+  },
+  "generation_history": [
+    {
+      "stage": "selected",
+      "prompt": "Use case: stylized-concept. Create ONE full-body static 2D game sprite of QUEEN MYRRAH wearing the BLACK STEEL QUEEN MYRRAH costume from GEARS 5. Use the attached official esports image as the design reference. Reproduce only the queen, preserving her recognizable face, pale tan complexion, exact sharp black crown with three small red lights on its forehead plate, swept black collar, ornate black steel chest and waist armor with silver ribbed filigree and narrow vivid red luminous inlays, pointed layered shoulder guards, black armored forearms, matching gloves, hip plates and the close-fitting armored lower body. Keep the specific black, silver and red materials; do not replace this with Chrome Steel, the standard red costume, a gown or a new design. Extend the pictured costume coherently to complete armored shins and boots. Neutral poised standing combat stance, three-quarter body to the RIGHT, head and nose clearly pointing to the RIGHT edge, empty hands, fully visible feet. High-detail realistic hand-painted 2D sprite, Gears character proportions, crisp readable silhouette. Center the WHOLE figure with generous empty bands above the crown and below the boots, at least twelve percent padding at top and bottom; no part touching the canvas border. True transparent PNG alpha. No background, no cast shadow, no ground, no graphic panels, no text, no logo, no second subject, no alternate views, no animation.",
+      "output_filename": "exec-91fb50bb-02da-4610-aa67-4e21f61e5f2f.png"
+    }
+  ],
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 1760740,
+    "sha256": "cd43b6fc2df235d5d47770dce1212f7f6b399a933f29af4ea768ccfa3f2434f2",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.7295557657877604,
+    "subject_bbox_alpha_ge_128": [
+      242,
+      38,
+      770,
+      1484
+    ],
+    "subject_margins_ltrb_px": [
+      242,
+      38,
+      254,
+      52
+    ]
+  },
+  "has_image": true,
+  "status": "generated_reference_pending_validation",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false
+}
