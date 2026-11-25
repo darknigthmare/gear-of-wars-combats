@@ -1,0 +1,73 @@
+{
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "variant_relation": "target_version_candidate",
+  "category": "stage",
+  "purpose": "stage_master",
+  "animation_status": "not_requested_this_pass",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "has_image": true,
+  "generation_attempted": true,
+  "qa": {
+    "visually_inspected": true,
+    "single_stage": true,
+    "transparent_background": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "observations": [
+      "La façade de brique, la toiture en arc, les montants d’entrée métalliques, caisses et garde-corps reprennent les environnements finaux COG Industrial.",
+      "Bande d’asphalte et béton continue au premier plan; caisses, palettes et accès au hangar demeurent derrière le plan de combat.",
+      "La fiche catalogue prévoit explicitement une composition originale inspirée de Tactics. Cour, passerelle droite et distribution des accessoires sont créées pour le projet et ne désignent aucun lieu canonique nommé.",
+      "Éclairage passé de la nuit des références à un jour couvert, tel que prévu par la direction du stage; formes et matériaux gardés comme guides, aucune scène reproduite plan par plan."
+    ],
+    "remaining_checks": [
+      "Contrôler l’échelle des entrées et des accessoires avec les combattants.",
+      "Valider la lisibilité des pieds sur les marques jaunes et l’état de ruine souhaité pour cette création."
+    ],
+    "alpha_channel_present": false,
+    "opaque": true
+  },
+  "id": "tactics_depot_cog_industrial_courtyard_master_v11",
+  "subject_id": "stage_tactics_depot",
+  "name": "Cour de ravitaillement — composition originale inspirée de Tactics",
+  "source_game": "Gears Tactics",
+  "catalog_target_game": "Gears Tactics",
+  "variant": "Création de cour logistique pour le projet à partir du biome COG Industrial ; aucun dépôt canonique nommé revendiqué",
+  "asset_path": "assets/stages_v11/tactics_depot_cog_industrial_courtyard_master.png",
+  "prompt": "Create ONE opaque widescreen 16:9 static 2D fighting stage: an original resupply courtyard for the Gears of War Combats project, explicitly inspired by the documented COG Industrial environments of Gears Tactics. The two attached images are actual final environment screenshots by Akash Dholakia. Use their specific worn dark red brick warehouse architecture, large semicircular roof truss above an industrial vehicle entrance, thick ornamental vertical metal entrance supports, chipped off-white concrete, shallow wall cornices, small arched industrial windows, patched corrugated metal, weathered green equipment cases and muted yellow hazard paint. Compose one coherent courtyard viewed frontally at standing height: warehouse with broad open loading entrance slightly left of center, a small raised logistics catwalk across the back/right supported by metal pillars, a few closed equipment cases and pallet stacks behind the playing area, cable runs high on the rear walls, industrial lamps. The catwalk and courtyard arrangement are a project-specific recomposition, not a purported canonically named depot. Palette: dusty grey concrete, aged ochre brick, dark military green equipment, cool overcast early daylight with muted warm lamps; preserve the game's restrained weathered realistic materials, no glossy generic futuristic redesign. Bottom 24 percent is one continuous flat clear concrete-and-asphalt combat lane spanning the whole image, no stairs, pits, big debris or cover objects crossing it. All covers and loading ramps stay behind the lane. Camera near side-on, no tactical bird's-eye view; readable AAA-game environment detail with atmospheric depth. No people, enemies, robots, parked trucks in the foreground, corpses, weapons, ammunition, HUD, readable lettering, captions, logos/credits, watermarks, borders, panels or animation. Exactly one environment master, opaque full canvas at maximum native landscape resolution.",
+  "sources": [
+    {
+      "page_url": "https://polygonsatwork.com/projects/8l9LbE",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/026/110/313/large/akash-dholakia-gears-tactics-act1b-01.jpg?1587913534",
+      "source_type": "primary_artist_final_game_environment",
+      "scope": "Akash Dholakia : environnement final COG Industrial de Gears Tactics, entrée d’entrepôt au toit semi-circulaire, maçonnerie et ornements industriels.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/207fbd1207b7/research_stages_v11/tactics_industrial_0.jpg",
+      "reference_sha256": "b96cbd216bfd7651659251a5adf0fa2591d34db79fc0343afd906952fb1fb8cc"
+    },
+    {
+      "page_url": "https://polygonsatwork.com/projects/8l9LbE",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/026/110/309/large/akash-dholakia-gears-tactics-act1b-05.jpg?1587913525",
+      "source_type": "primary_artist_final_game_environment",
+      "scope": "Akash Dholakia : intérieur industriel final, caisses vertes, garde-corps, béton peint, passerelles et texture de manutention ; source de vocabulaire visuel uniquement.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/207fbd1207b7/research_stages_v11/tactics_industrial_2.jpg",
+      "reference_sha256": "2a064a44c8d2964a16ab47a95ff29d48b77e0f805be13aa8873ab0bbae7d6206"
+    }
+  ],
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-1b419b94-bd98-4973-a286-f09074b72bc9.png",
+  "output": {
+    "format": "PNG",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "bytes": 2986190,
+    "sha256": "5218cd6ddb22b4511bc42b1ac1b4c9cc55b215c48e4e9147af4148ac9e3f9ae3"
+  },
+  "canonical_origin": "project_original"
+}

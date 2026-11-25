@@ -1,0 +1,114 @@
+{
+  "id": "cole_skin_04",
+  "subject_id": "cole_skin_04",
+  "character_id": "cole",
+  "costume_id": "cole_skin_04",
+  "name": "Augustus Cole — Gears 5 Operation 3, variante multijoueur",
+  "category": "costume",
+  "source_game": "Gears 5 — Operation 3: Gridiron (2020)",
+  "catalog_target_game": "Gears 5 — Vétéran de campagne",
+  "variant": "Cole du rendu officiel multijoueur Operation 3 ; correspondance avec le vétéran de campagne non établie",
+  "variant_relation": "alternate_version",
+  "asset_path": "assets/costumes_v11/cole_skin_04.png",
+  "prompt": "Use case: stylized-concept.\nAsset: ONE static transparent full-body costume reference for Augustus Cole — Gears 5 Operation 3 multiplayer appearance, costume id cole_skin_04. The catalog calls this slot Veteran Gears 5, but the supplied reference specifically proves the Operation 3 multiplayer presentation; do not invent additional veteran costume changes that are not visible.\nTarget visible source: the official Xbox Gears 5 Operation 3 Cole promotional screenshot dated March 31, 2020. Use its single centered Cole as the visual guide. Preserve the short close-cut dark hair, medium-dark skin, clean-shaven face without headwear, massive athletic body and bare muscular upper arms. Match the visible outfit: heavy silver/gray sleeveless COG chest armor with two round breast plates, circular skull/COG-like chest medallion at upper center, layered harness around the raised collar and shoulders, broad belt with round front buckle and side rectangular utility pouches, dark brown tactical trousers, large asymmetric strapped thigh holster/pouches, angular gray leg plates, long shin guards and heavy thick-soled armored boots. He wears fingerless brown/dark tactical gloves and forearm protection. Use neutral steel and dark brown colors corrected for the orange flame lighting in the source. Some boot edges and the back are obscured: complete these conservatively with matching materials and no new conspicuous motifs.\nPose change: stand still in a neutral front three-quarter base pose facing screen RIGHT, nose and toes toward right, both empty relaxed hands visible down at sides. Remove the carried pistol and all running, fire and action effects. No animation. One complete character only.\nComposition: whole body from hair to boot soles, character at only 75% of image height, at least 10% clear transparent margin on every edge. Do not crop hands, feet or hair.\nRealistic Gears 5 game character proportions and materials, neutral studio illumination, genuine transparent alpha background. No environment, floor plane, flames, smoke, halo, gradient, shadow cloud, watermark, UI, labels, text or additional people.",
+  "sources": [
+    {
+      "page_url": "https://news.xbox.com/en-us/2020/03/31/gears-5-operation-3-gridiron-available-today-for-all-players/",
+      "image_url": "https://xboxwire.thesourcemediaassets.com/sites/2/2020/03/OP3_FlamingCole_Screenshot.jpg",
+      "source_type": "first_party_xbox_promotional_game_capture",
+      "scope": "Capture officielle Xbox/The Coalition de Cole à l'annonce Operation 3 de Gears 5, 31 mars 2020. Tenue multijoueur attestée, personnage sans couvre-chef et sans barbe ; ne suffit pas à prouver l'apparence vétéran de campagne ciblée.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/207fbd1207b7/research_gears/v11_costumes/cole_g5_xbox.jpg",
+      "reference_sha256": "50d24595c308deed6eca0d04018b87ef596c59ff647a7b1f2c407df5dc1c8030"
+    },
+    {
+      "page_url": "https://store.steampowered.com/news/posts/?appids=1097840&enddate=1612461707&feed=steam_community_announcements",
+      "image_url": "https://i.imgur.com/hAIF9AP.png",
+      "source_type": "first_party_developer_announcement_mirrored_on_steam",
+      "scope": "Même capture avec logo Operation 3 publiée par The Coalition sur l'actualité Steam officielle ; contrôlée pour provenance, non fournie au générateur.",
+      "visual_reference_used": false,
+      "local_reference": "/workspace/scratch/207fbd1207b7/research_gears/v11_costumes/cole_g5_hero.png",
+      "reference_sha256": "86f93e94d747180636dbc2bb51a9eab0593ad92da5c96f5eed6992d9f2866108"
+    }
+  ],
+  "qa": {
+    "observations": [
+      "Un seul Cole entier, mains vides, pose statique de trois quarts vers la droite. Aucun effet de feu ou arme conservé.",
+      "La tenue est fondée sur le rendu multijoueur Gears 5 Operation 3 attesté par Xbox : bras nus, visage rasé, cheveux courts, aucune casquette et cuirasse à deux disques.",
+      "Variante explicitement distincte de la cible vétéran de campagne : son équivalence n'est pas établie ; la référence disponible ne valide pas la cible.",
+      "La source est éclairée par des flammes : colorimétrie neutre reconstruite. Bottes partiellement masquées, dos et petits éléments reconstitués.",
+      "Visage, proportion des biceps, boucle, médaillon de poitrine, coutures et semelles restent à comparer au modèle natif ; fidélité 1:1 non certifiée.",
+      "Alpha RGBA réel : 62.70% de pixels entièrement transparents ; alpha maximal bande extérieure de 8 px : 1.",
+      "Marges de silhouette alpha >=128 (gauche, haut, droite, bas) : [184, 43, 180, 41] px ; anatomie complète, marges cibles de 10% à contrôler."
+    ],
+    "remaining_checks": [
+      "Identifier et comparer une capture complète du Cole vétéran en campagne Gears 5 avant rattachement canonique.",
+      "Valider vieillissement du visage, armure et éventuel couvre-chef de la cible.",
+      "Contrôler les bottes, fixations et couleurs sous un éclairage neutre du jeu."
+    ],
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "alpha_measured": true,
+    "framing_measured": true
+  },
+  "notes": [
+    "alternate_version : le nom du fichier correspond au slot demandé mais l'asset documente seulement la présentation multijoueur Operation 3.",
+    "Le refus de cole_skin_01 Judgment reste enregistré sans réessai ; cible différente attribuée séparément.",
+    "PNG natif copié sans traitement raster."
+  ],
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2056231,
+    "sha256": "e0b179cdbb7d82bdec19121e3ac09be90535dbffeea1fb1e6708e8e1a33d5ec5",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.6270491282145182,
+    "subject_bbox_alpha_ge_128": [
+      184,
+      43,
+      844,
+      1495
+    ],
+    "subject_margins_ltrb_px": [
+      184,
+      43,
+      180,
+      41
+    ],
+    "edge_band_width_px": 8,
+    "edge_alpha_max": 1,
+    "has_real_alpha": true,
+    "native_copy_verified": true
+  },
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-515c08dc-d4b6-4dfb-89dc-60268bba2da9.png",
+  "has_image": true,
+  "status": "generated_reference_pending_validation",
+  "generation_status": "generated_reference_pending_validation",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "pose": "static_front_three_quarter_facing_right",
+  "quality_state": "candidate",
+  "purpose": "reference_fullbody",
+  "source_urls": [
+    "https://news.xbox.com/en-us/2020/03/31/gears-5-operation-3-gridiron-available-today-for-all-players/",
+    "https://store.steampowered.com/news/posts/?appids=1097840&enddate=1612461707&feed=steam_community_announcements"
+  ],
+  "reference_images": [
+    "/workspace/scratch/207fbd1207b7/research_gears/v11_costumes/cole_g5_xbox.jpg"
+  ]
+}

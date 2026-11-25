@@ -1,0 +1,113 @@
+{
+  "id": "dom_skin_04",
+  "subject_id": "dom_skin_04",
+  "character_id": "dom",
+  "costume_id": "dom_skin_04",
+  "name": "Dominic Santiago — Campagne Gears of War 3",
+  "category": "costume",
+  "source_game": "Gears of War 3 (2011)",
+  "catalog_target_game": "Gears of War 3 (2011)",
+  "variant": "Dom barbu de campagne, cuirasse sans manches",
+  "variant_relation": "target_version_candidate",
+  "asset_path": "assets/costumes_v11/dom_skin_04.png",
+  "prompt": "Use case: stylized-concept.\nAsset: ONE static transparent full-body costume reference for Dominic Santiago — Campaign Gears of War 3, costume id dom_skin_04.\nTarget edition: original Gears of War 3 (2011) campaign. This is the bearded, sleeveless older Dom of Gears 3, a different costume from his Gears 2 armor. Input image 1 is the original Gears 3 campaign character render published in 2011, showing head through thighs; use it as the controlling reference for final face, chest, gloves and belt. Image 2 is the 2010 Game Informer character-profile concept with full-body silhouette; use only its lower-body armor arrangement as a secondary guide, because final appearance must follow the first reference. Ignore the text, the gun, inset portrait and all page graphics.\nCreate exactly ONE whole character. Preserve short thick dark hair, tired stern face with a thick full dark beard, massive muscular frame and bare tattooed upper arms. Match the sleeve-free gray steel torso cuirass with two dark round breast plates and central pale vertical panel with small round connector and dark stencil motif, blue circular shoulder indicators, weathered gray-brown bracers with stitched padded fabric and segmented metal plaques, brown fingerless gloves, broad belt with round skull-pattern buckle and short tubular ammo holders at the waist, brown-gray reinforced paneled trousers, asymmetric thigh holster/pouches and leg straps, bulky rounded knee/shin guards with broad reinforced heavy boots. The memorial tattoo is a small worn illustrative mark; do not add prominent lettering. Match the gritty original game's fabric, seams and restrained battle wear.\nPose: neutral motionless front three-quarter standing facing screen RIGHT, nose and boot toes towards right. Both relaxed empty hands at sides, no rifle or other object. No action, no animation.\nFraming: exactly ONE complete figure, full head, hands and boot soles visible, only 75% of image height with at least 10% clear transparent margin around all sides.\nRealistic original game character materials and proportions, neutral readable studio illumination, genuine transparent alpha background. No floor plane, environment, smoke, halo, shadow cloud, vignette, watermark, UI, labels or added text.",
+  "sources": [
+    {
+      "page_url": "https://gearsofwar.fandom.com/es/wiki/Dominic_Santiago",
+      "image_url": "https://vignette.wikia.nocookie.net/gearsofwar/images/e/e2/Gears_of_War_3_Personajes_COG_Dom_V2.png/revision/latest?cb=20110624215048&path-prefix=es",
+      "source_type": "secondary_original_promotional_character_render_rehosted",
+      "scope": "Rendu promotionnel original Dom campagne Gears of War 3, fichier daté juin 2011, tête à cuisses ; contrôle principal pour visage, cuirasse, bras, gants et ceinture.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/207fbd1207b7/research_gears/v11_costumes/dom_g3_official_mirror.png",
+      "reference_sha256": "7df6f04a241e8c2d0a6c82acabb4b4c96492ffd0395fd2a0fd93b8e719cf078f"
+    },
+    {
+      "page_url": "https://gameinformer.com/b/features/archive/2010/05/21/character-profile%3A-santiago%2C-dominic-a345.aspx",
+      "image_url": "https://gameinformer.com/s3/files/styles/body_default/s3/legacy-images/imagefeed/Character%20Profile%3A%20Santiago%2C%20Dominic/5661.Dominic_2D00_Santiago_2D00_Profile_2D00_Web.jpg",
+      "source_type": "secondary_official_pre_release_character_profile_concept",
+      "scope": "Profil Game Informer du 21 mai 2010 : concept entier et capture de Dom Gears 3. Référence complémentaire du bas du corps seulement ; concept avant sortie, aucune équivalence exacte avec le modèle final affirmée.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/207fbd1207b7/research_gears/v11_costumes/dom_g3_gi.jpg",
+      "reference_sha256": "65cdcf0c9f52c8b2ffe604b3c1928e3426853c9cecf56f6bfc20b06cbdf4732c"
+    }
+  ],
+  "qa": {
+    "observations": [
+      "Dom barbu avec cuirasse sans manches, tatouage au bras, deux disques pectoraux et ceinture à éléments tubulaires : tenue Gears 3 cohérente avec le rendu original.",
+      "Une figure entière, pose statique de trois quarts vers la droite, mains vides.",
+      "Les jambes basses et bottes se fondent sur un concept préparatoire de 2010 ; forme finale Gears 3 à contrôler.",
+      "Le tatouage et ses lettres, les stencils de poitrine, les coutures, les semelles et le visage sont reconstruits ; fidélité 1:1 non certifiée.",
+      "Cette génération concerne la cible Gears 3 distincte attribuée initialement ; le refus de dom_skin_03 Gears 2 demeure enregistré sans réessai.",
+      "Alpha RGBA réel : 64.18% de pixels entièrement transparents ; alpha maximal bande extérieure de 8 px : 1.",
+      "Marges de silhouette alpha >=128 (gauche, haut, droite, bas) : [210, 64, 195, 45] px ; anatomie complète, marges cibles de 10% à contrôler."
+    ],
+    "remaining_checks": [
+      "Comparer les protections de genoux, tibias et bottes avec le modèle final Gears of War 3.",
+      "Valider le tatouage, les attaches de ceinture et la coiffure contre une capture native."
+    ],
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "alpha_measured": true,
+    "framing_measured": true
+  },
+  "notes": [
+    "Rendu original 2011 prioritaire ; concept préparatoire 2010 limité à une aide de silhouette basse.",
+    "PNG natif copié sans traitement raster."
+  ],
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2060760,
+    "sha256": "b4cc56834c16f27ceadc2de26c54c8f8d5d857e78bec2340e976438d24ebef84",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.6418355305989584,
+    "subject_bbox_alpha_ge_128": [
+      210,
+      64,
+      829,
+      1491
+    ],
+    "subject_margins_ltrb_px": [
+      210,
+      64,
+      195,
+      45
+    ],
+    "edge_band_width_px": 8,
+    "edge_alpha_max": 1,
+    "has_real_alpha": true,
+    "native_copy_verified": true
+  },
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-de68ce87-098e-4f78-a7d4-e85762e7befe.png",
+  "has_image": true,
+  "status": "generated_reference_pending_validation",
+  "generation_status": "generated_reference_pending_validation",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "pose": "static_front_three_quarter_facing_right",
+  "quality_state": "candidate",
+  "purpose": "reference_fullbody",
+  "source_urls": [
+    "https://gearsofwar.fandom.com/es/wiki/Dominic_Santiago",
+    "https://gameinformer.com/b/features/archive/2010/05/21/character-profile%3A-santiago%2C-dominic-a345.aspx"
+  ],
+  "reference_images": [
+    "/workspace/scratch/207fbd1207b7/research_gears/v11_costumes/dom_g3_official_mirror.png",
+    "/workspace/scratch/207fbd1207b7/research_gears/v11_costumes/dom_g3_gi.jpg"
+  ]
+}

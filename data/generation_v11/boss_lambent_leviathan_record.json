@@ -1,0 +1,91 @@
+{
+  "category": "boss",
+  "variant_relation": "target_version_candidate",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "generation_attempted": true,
+  "has_image": true,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "id": "boss_lambent_leviathan",
+  "subject_id": "boss_lambent_leviathan",
+  "name": "Lambent Leviathan",
+  "source_game": "Gears of War 3",
+  "catalog_target_game": "Gears of War 3",
+  "variant": "Gears of War 3 — Lambent Leviathan, volume visible du modèle, pose fixe",
+  "purpose": "reference_visible_model_portion",
+  "asset_path": "assets/bosses_v11/lambent_leviathan_gears3_visible_model.png",
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-f1ea2116-5557-4239-9e23-953cbeb8ba03.png",
+  "prompt": "Use case: realistic game asset based on supplied references. Create exactly one static Lambent Leviathan from Gears of War 3. The first reference is a community 3D presentation of the visible creature model; the second is the licensed Prima gameplay capture confirming the Gears of War 3 head and encounter. Match the displayed anatomy: the huge tall asymmetric triangular crown with layered grey-brown plates and pointed crest tips, massive recessed tooth-lined mouth, branching ridges around the face, the curled tapering appendages attached around the displayed head-body volume, and the small amber Imulsion weakpoint areas. Keep the original game's grey and earthy organic texture with restrained amber light confined to the visible weakpoint tissue. Reproduce ONLY the model portion actually shown in the reference; do not invent a fish tail, huge hidden underwater body, extra tentacles, legs or posterior anatomy. Preserve the silhouette and visible appendage arrangement, with every shown tip fully in frame. Stationary shallow three-quarter view facing SCREEN-RIGHT, mouth on the right side; no attacking, no water splash, no projectiles, no action effects. Exactly one creature, no people or other enemies. Crisp original-game-style material detail and neutral soft light. True transparent alpha background with no dark texture backdrop, floor, cast shadow, gradient, haze, aura, checkerboard, text, logos or watermark. Landscape canvas, pull camera back, at least ten percent genuinely transparent margin around all displayed extremities. Single fixed pose, no animation sheet.",
+  "sources": [
+    {
+      "page_url": "https://sketchfab.com/3d-models/lambent--leviathan-25c85d25564e4e5083f651c8ea1ae960",
+      "image_url": "https://media.sketchfab.com/models/25c85d25564e4e5083f651c8ea1ae960/thumbnails/b0dbd740ea61442cbd72f16b53c6fec2/0c6b77c11c52482e8cbc94bb0ec9cd16.jpeg",
+      "source_type": "community_3d_model_presentation",
+      "scope": "Fliqpy717, Lambent_ Leviathan. Présentation communautaire du volume visible ; la page ne précise pas si le modèle est extrait, édité ou reconstruit. Pas de certification d’origine Epic. Référence complémentaire de silhouette et d’appendices, distincte de la source Prima.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/207fbd1207b7/research_gears_v11/bosses/lambent_leviathan_sketchfab.jpg",
+      "reference_sha256": "2087effc527e3d764c7b0dfcd5ba12187e4eb8404ac0c3b44f4dba88828b3218"
+    },
+    {
+      "page_url": "https://primagames.com/eguides/gears-war-3-eguide/campaign-walkthrough/act-1/boss-battle",
+      "image_url": "https://primagames.com/eguides/media/_w/700/files/eguide_assets/gears-war-3-eguide/06-WALK-act01-act03-web-resources/image/024_Act1.jpg",
+      "source_type": "licensed_official_guide_gameplay_capture",
+      "scope": "Prima Gears of War 3, Boss Battle du CNV Sovereign. Atteste le Lambent Leviathan, sa tête/crête, la grande bouche et l’éclairage des tissus Lambent. Vue de face partielle ; l’anatomie sous l’eau n’est pas visible.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/207fbd1207b7/research_gears_v11/bosses/lambent_leviathan_prima_024_Act1.jpg",
+      "reference_sha256": "6757b7dece86c94dab5b669fe8acd66b8d96c0bf568b28521b312343ac85e895"
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": false,
+    "complete_referenced_portion_in_frame": true,
+    "transparent_background": true,
+    "orientation_facing_right": true,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "La crête haute, la grande bouche, les tissus gris-brun et les appendices courbés suivent la présentation de Fliqpy717 ; faibles zones ambrées à la face, un seul sujet sans bateau ni eau ni autre ennemi.",
+      "Le fichier représente le volume montré dans la présentation 3D ; ce volume n’est pas démontré comme corps entier dans le jeu. Aucun corps sous-marin complet n’est revendiqué.",
+      "Le guide Prima ne corrobore que la tête visible. Les dessous, raccords d’appendices, motifs et géométrie du modèle communautaire demandent vérification sur une source originale.",
+      "Pose statique trois quarts vers la droite, alpha réel, extrémités visibles entières. Marges haut/bas réduites malgré le prompt."
+    ],
+    "remaining_checks": [
+      "Trouver une vue du modèle original G3 qui confirme les appendices, le volume inférieur et les couleurs sous lumière neutre.",
+      "Comparer les tissus ambrés autour des yeux et la forme du museau au boss du CNV Sovereign.",
+      "Contrôler les franges alpha et ajouter un espace d’atlas approprié lors d’une future préparation validée."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1672,
+    "height": 941,
+    "bytes": 1156040,
+    "sha256": "180262ccd6488509914067b661783eeb7db9b439282142024491d7437ddf1197",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.7153014709994966,
+    "subject_bbox_alpha_ge_128": [
+      295,
+      21,
+      1329,
+      927
+    ],
+    "subject_margins_ltrb_px": [
+      295,
+      21,
+      343,
+      14
+    ],
+    "native_copy_verified": true
+  }
+}

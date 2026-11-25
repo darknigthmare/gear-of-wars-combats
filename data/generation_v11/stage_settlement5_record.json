@@ -1,0 +1,72 @@
+{
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "variant_relation": "target_version_candidate",
+  "category": "stage",
+  "purpose": "stage_master",
+  "animation_status": "not_requested_this_pass",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "has_image": true,
+  "generation_attempted": true,
+  "qa": {
+    "visually_inspected": true,
+    "single_stage": true,
+    "transparent_background": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "observations": [
+      "Tour rectangulaire bleue avec insigne, façades modulaires en brique/pierre, cadres d’acier, grue et portail issus des captures finales du début de Gears 4.",
+      "Rue pavée et rails horizontaux au premier plan dégagés sur toute la largeur; caisses et bordures sont en retrait. Aucun DeeBee ni personnage.",
+      "Les deux vues distinctes du même settlement sont recomposées en un cadrage frontal. Tour, grue et portail sont rapprochés; aucune restitution métrique du parcours n’est revendiquée.",
+      "Les inscriptions et numéros ont été supprimés. Emblème de portail simplifié et montagne reconfigurée; détails à comparer avant une validation stricte."
+    ],
+    "remaining_checks": [
+      "Contrôler proportions de la tour, portail et emblèmes sur captures du parcours Settlement 5.",
+      "Valider rails à fleur du sol et échelle des combattants sur la bande basse."
+    ],
+    "alpha_channel_present": false,
+    "opaque": true
+  },
+  "id": "settlement5_gears4_security_gate_master_v11",
+  "subject_id": "stage_settlement5",
+  "name": "Settlement 5 — rue et portail de chantier",
+  "source_game": "Gears of War 4",
+  "catalog_target_game": "Gears of War 4",
+  "variant": "Rue du niveau Raid et portail de sécurité, adaptation latérale issue de captures finales",
+  "asset_path": "assets/stages_v11/settlement5_gears4_security_gate_master.png",
+  "prompt": "Create ONE opaque widescreen 16:9 static side-view fighting-game environment master of SETTLEMENT 5 as seen in Gears of War 4. Use these two actual final-game Raid Level images by art director Aryan Hanbeck as architectural references. This is the newly constructed COG settlement from Gears of War 4, not the later Gears 5 District map. Depict an empty exterior street at the settlement's security gate and construction perimeter. Preserve the tall simple rectangular blue-grey steel civic tower with recessed upper vent and circular COG architectural insignia; modular cream stone and reddish brick buildings with blue-grey steel frames, narrow arched windows, pale copper rooftops, yellow construction crane behind the street, COG security gate panels, sparse autumn trees, and steep sunlit pale mountains beyond. Reference 1 supplies the tower/street materials; reference 2 supplies the construction gate and exposed girders. Keep the setting pristine but lightly weathered and under construction, no generic bombed-out city. Recompose the visible motifs as a frontal lateral fighting-game stage, near human standing camera height, restrained perspective depth. Reserve bottom 24 percent as one flat, level, unobstructed stone-paved street across the entire width, with two flush inlaid rails running horizontally, not raised tracks. Put all crates, barriers, plantings and crane components behind that combat lane. Keep a recognisable gate and civic tower as background anchors without inventing additional named landmarks. High quality realistic AAA game surfaces, clear muted daylight, cool blue steel, warm stone and ochre accents, strong foreground readability. This is a reference-guided candidate composition, not a metrically exact street map. No people, robots, enemies, bodies, weapons, ammo, combat effects, text signs, large numbers, HUD, captions, logos/credit strips, watermark, border, montage or animation frames. One complete opaque landscape environment, native maximum resolution.",
+  "sources": [
+    {
+      "page_url": "https://mediumrare.artstation.com/projects/gJ31YE",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/019/243/667/large/aryan-hanbeck-raid-screenshot-4.jpg?1562702139",
+      "source_type": "primary_artist_final_game_environment",
+      "scope": "Aryan Hanbeck : rue du niveau Raid de Gears 4, tour centrale, façades modulaires, portail et arbres d’automne.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/207fbd1207b7/research_stages_v11/raid_final_1.jpg",
+      "reference_sha256": "26a21ddf6698dfc70d954e45c5201cdad09aed6e7a0f62fbed3345332238a7f1"
+    },
+    {
+      "page_url": "https://mediumrare.artstation.com/projects/gJ31YE",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/019/243/649/large/aryan-hanbeck-raid-screenshot-21.jpg?1562657999",
+      "source_type": "primary_artist_final_game_environment",
+      "scope": "Aryan Hanbeck : portail de Settlement 5 en cours de construction, poutres apparentes, grue jaune, voies encastrées et matériaux de chantier.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/207fbd1207b7/research_stages_v11/raid_final_2.jpg",
+      "reference_sha256": "defaaeb3449b058900c4b180e714cbca912c0131aaa7e9e93d7175f6aa937f2b"
+    }
+  ],
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-c3ef90fc-1262-41fe-8273-4159bbd9a4c1.png",
+  "output": {
+    "format": "PNG",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "bytes": 3348200,
+    "sha256": "eb98a87dde4f186cb2ab31853aa334b88cbf251dbdd6ab086e18ef93bca1e109"
+  }
+}

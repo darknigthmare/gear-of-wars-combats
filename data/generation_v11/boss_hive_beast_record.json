@@ -1,0 +1,81 @@
+{
+  "id": "boss_hive_beast",
+  "subject_id": "boss_hive_beast",
+  "name": "Hive Beast",
+  "category": "boss",
+  "source_game": "Gears of War 4",
+  "catalog_target_game": "Gears of War 4",
+  "variant": "Gears of War 4 — Hive Beast, portion émergente attestée et quatre tentacules, pose fixe",
+  "purpose": "reference_visible_portion",
+  "variant_relation": "target_version_candidate",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "generation_attempted": true,
+  "has_image": true,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "asset_path": "assets/bosses_v11/hive_beast_gears4_visible_portion.png",
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-50bec50f-5b74-4a4b-b121-9decc094f0dd.png",
+  "prompt": "Use case: game-asset reproduction from a real reference. Create one static cutout of the Hive Beast from Gears of War 4, using the attached licensed Prima guide model render as the exact visual reference. Reproduce only the complete VISIBLE creature portion in this render: broad pale bone-grey plated head, paired small pale eyes, huge tooth-lined mouth, blue-grey layered wrinkled torso, thick bony pointed supporting limbs at the sides, and FOUR long armored tentacles with pink-orange undersides, segmented grey spines and flattened pointed ends. Preserve the visible anatomy, relative thicknesses, proportions, material colors and asymmetric overlap. Show all four tentacle tips and both pointed support limbs without clipping. The reference's lower torso is an emerging-body boundary; preserve that boundary and DO NOT invent an unseen lower body, hidden legs, tail or underwater anatomy. Pose fixed, calm, shallow three-quarter facing SCREEN-RIGHT, close to the reference view; do not animate or show an attack. Single creature alone, no smaller creatures or projectiles. Crisp realistic original-game rendering, readable neutral soft light, no stylization or redesign. True transparent alpha background, no white backdrop, no floor, no shadow, no environment, no haze, no glow aura, no checkerboard, no captions or logo. Landscape canvas pulled back, at least 9 percent genuinely empty transparent margin on every side including around every tentacle. One static PNG, not a sheet.",
+  "sources": [
+    {
+      "page_url": "https://primagames.com/eguides/gears-of-war-4-eguide/campaign/act-5/chapter-4-release",
+      "image_url": "https://primagames.com/eguides/media/files/eguide_assets/gears-of-war-4-eguide/038-151_walk-web-resources/image/hive-boss_04.jpg",
+      "source_type": "licensed_official_guide_model_render",
+      "scope": "Guide Prima de Gears of War 4, Acte 5 chapitre 4. Rendu de la portion émergente du modèle : tête, torse, deux membres de soutien visibles et quatre tentacules. La base du torse est coupée dans ce rendu ; il ne documente pas un corps complet souterrain.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/207fbd1207b7/research_gears_v11/bosses/hive_beast_prima_model_original.jpg",
+      "reference_sha256": "2d1a17960809bc8783c1714647dece3a02ec7d9424efb40307162111aeeecc1d"
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": false,
+    "complete_referenced_portion_in_frame": true,
+    "transparent_background": true,
+    "orientation_facing_right": true,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Le rendu généré conserve les quatre tentacules, leur face rose, les plaques grises, les deux appuis latéraux pointus et le torse bleu-gris visibles dans le guide ; aucun cavalier ni projectile.",
+      "La portion émergente est entière dans le cadre. La base tronquée du modèle de référence est conservée ; ce fichier ne représente pas le corps souterrain complet et ne doit pas être présenté comme un modèle complet.",
+      "Pose fixe trois quarts orientée à droite, très proche de la référence. La ressemblance générale n’établit pas une fidélité canonique 1:1.",
+      "PNG natif copié sans retouche. Les franges semi-transparentes autour des appendices nécessitent un contrôle sur fonds variés avant production."
+    ],
+    "remaining_checks": [
+      "Comparer les raccords de quatre tentacules, le nombre d’yeux, la dentition et les détails du plastron au modèle original.",
+      "Valider les contours alpha et le placement de la limite inférieure dans le décor avant intégration."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1662,
+    "height": 946,
+    "bytes": 1634630,
+    "sha256": "1516396d24ee2f424db7f699ad4c7fa8f628e89a40d560af29fe384f39d46007",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.5025841913382842,
+    "subject_bbox_alpha_ge_128": [
+      139,
+      96,
+      1518,
+      891
+    ],
+    "subject_margins_ltrb_px": [
+      139,
+      96,
+      144,
+      55
+    ],
+    "native_copy_verified": true
+  }
+}

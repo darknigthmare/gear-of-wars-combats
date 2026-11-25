@@ -1,0 +1,91 @@
+{
+  "id": "boss_hydra_ukkon",
+  "subject_id": "boss_hydra_ukkon",
+  "name": "Hydra d’Ukkon",
+  "category": "boss",
+  "source_game": "Gears Tactics",
+  "catalog_target_game": "Gears Tactics",
+  "variant": "Gears Tactics — Hydra d’Ukkon, tête et torse supérieur attestés, sans cavalier",
+  "purpose": "reference_visible_upperbody_portion",
+  "variant_relation": "target_version_candidate",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "generation_attempted": true,
+  "has_image": true,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "asset_path": "assets/bosses_v11/hydra_ukkon_tactics_upperbody_portion.png",
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-493c7ce2-f86d-4654-a5cf-d20603871842.png",
+  "prompt": "Use case: faithful partial creature reference cutout. Reproduce ONE static upper-body portion of Ukkon's Hydra from Gears Tactics, using the attached final-model renders by original character artist Ji Ruan. The source photos deliberately crop the long lower appendages; this deliverable is a PARTIAL MODEL REFERENCE, not an invented whole creature. Preserve exactly the visible giant organic head and upper torso, the huge long tooth-lined mouth, wide angular bony cheek flanges, dark grey leathery folded hide, red-and-black metal head armor with amber horizontal lamps, and the red-and-black mounted dorsal assembly with twin yellow tanks and attached side rocket pods. All armor must follow the supplied model, not the Hydra from Gears of War 2. Include the head armor and upper artillery assembly entirely. Reorient gently to a three-quarter view facing SCREEN-RIGHT. Stop the lower-body crop just beneath the head and at the same visible appendage bases as the source; keep a clear deliberate cropped boundary. Do not finish those bases with invented legs, feet, tails, tentacle tips or a rounded new body. There is no rider or Ukkon. No separate weapons or projectiles; the integral mounted hardware remains attached and inactive. One connected upper-body portion only, no animation or action. Match the realistic original-game textures and proportions with neutral clear light. True transparent alpha surrounding the partial cutout, no environment, floor, shadow, solid grey backdrop, gradient, haze, glow aura, checkerboard, text, logo or watermark. Landscape frame, enough transparent margin around head and side pods, preserve every tip in the portion that is actually shown.",
+  "sources": [
+    {
+      "page_url": "https://darkmummy.artstation.com/projects/GXA9wB",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/026/093/443/large/ji-ruan-reaver-e.jpg?1587851881",
+      "source_type": "primary_original_game_character_artist_final_model",
+      "scope": "Ji Ruan, Gears Tactics Boss Hydra. Rendu du modèle final tête/torse/armement dorsal ; extrémités des longs appendices coupées. Ji Ruan crédite Tim Appleby et Ben Davis pour la supervision, Saeed Ramezani pour le concept, Paul Widelski pour le canon latéral et le travail partagé de textures/low-poly.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/207fbd1207b7/research_gears_v11/bosses/hydra_tactics_ji-ruan-reaver-e.jpg",
+      "reference_sha256": "eb3f61e17b03bc1d386e3d84c5180577cdec5c304ee54a5d2865d1fba542c7a0"
+    },
+    {
+      "page_url": "https://darkmummy.artstation.com/projects/GXA9wB",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/026/093/316/large/ji-ruan-reaver-b.jpg?1587851613",
+      "source_type": "primary_original_game_character_artist_final_model_detail",
+      "scope": "Vue complémentaire du même modèle par Ji Ruan : plaques rouges/noires, réservoirs jaunes, pod et tuyauterie. Cette image est un détail dorsal, pas un corps complet.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/207fbd1207b7/research_gears_v11/bosses/hydra_tactics_ji-ruan-reaver-b.jpg",
+      "reference_sha256": "5307074674c2a7ae0620fa576d0c0c11598c9b2d6a79064967f3968fc4f7d1af"
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": false,
+    "complete_referenced_portion_in_frame": true,
+    "transparent_background": true,
+    "orientation_facing_right": true,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Un seul torse supérieur de Hydra Tactics, bouche allongée à dents, peau sombre plissée, joues osseuses, tête blindée rouge, deux réservoirs jaunes et pods latéraux attachés ; aucun cavalier Ukkon ou Skorge.",
+      "Portion volontairement arrêtée à la base visible des appendices, avec une limite inférieure coupée. L’image n’est pas un corps entier et ne remplace pas les longues pattes/tentacules manquants.",
+      "La référence principale documente très bien le haut mais pas les extrémités. Aucun pied, queue ou bout de tentacule complet n’a été inventé pour combler ce manque.",
+      "Pose trois quarts vers la droite. Le canal alpha est contrôlé sur le PNG natif ; les marges sont très réduites en haut/bas et la transition inférieure reste à intégrer comme portion."
+    ],
+    "remaining_checks": [
+      "Récupérer une vue complète du modèle original Tactics pour produire ultérieurement un corps entier sans extrapolation.",
+      "Comparer l’asymétrie et les faces des pods ainsi que les détails de tête après réorientation.",
+      "Valider alpha et limite inférieure sur le décor de l’épreuve avant intégration."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2884966,
+    "sha256": "e50442ee4d2f275967fa5e937ad72fb5fe41fd521e71132f56cc0aad9e7ed544",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.35508155822753906,
+    "subject_bbox_alpha_ge_128": [
+      59,
+      6,
+      1481,
+      1019
+    ],
+    "subject_margins_ltrb_px": [
+      59,
+      6,
+      55,
+      5
+    ],
+    "native_copy_verified": true
+  }
+}

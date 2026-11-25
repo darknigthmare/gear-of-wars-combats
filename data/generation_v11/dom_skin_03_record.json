@@ -1,0 +1,63 @@
+{
+  "id": "dom_skin_03",
+  "subject_id": "dom_skin_03",
+  "character_id": "dom",
+  "costume_id": "dom_skin_03",
+  "name": "Dominic Santiago — Campagne Gears of War 2",
+  "category": "costume",
+  "pass_date": "2026-11-25",
+  "source_game": "Gears of War 2 (2008) — Xbox 360",
+  "catalog_target_game": "Gears of War 2 (2008)",
+  "variant": "Tenue de campagne C.O.G. Armor",
+  "variant_relation": "target_version_requested",
+  "purpose": "reference_fullbody",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "status": "blocked_generator_refusal",
+  "generation_status": "blocked_generator_refusal",
+  "has_image": false,
+  "asset_path": null,
+  "quality_state": "blocked",
+  "prompt": "Use case: stylized-concept.\nAsset: ONE static transparent full-body costume reference for Dominic Santiago — Campaign Gears of War 2, costume id dom_skin_03.\nTarget edition: Gears of War 2, original Xbox 360 (2008), ordinary campaign C.O.G. armor. The reference image is a front/back preview of the extracted Gears of War 2 model (Models Resource asset 296746), so copy its version-specific silhouette and outfit rather than a later remake. These are two views of the SAME man; output exactly ONE full-body figure. His face has short cropped dark hair and a short dark goatee, not the long beard of Gears 3.\nMatch the game model: bulky scuffed dark blue-gray COG armor with circular breast structures and the narrow central plate, high layered collar, blue circular shoulder light, chest-mounted long vertical holster/strap on his right chest, short cloth sleeves above the exposed muscular forearms, massive dark plated bracers, fingerless tactical gloves, broad heavy belt and pouch-covered skirt-like hip panels, dusty gray camouflage cargo trousers, dark broad ribbed knee/shin armor with rounded upper panels, thick worn gray-brown armored boots. Match the heavy stocky proportions. The reference is low resolution: keep small seam work, scratches and glyphs restrained instead of inventing large new insignia. No Gears 3 sleeveless cuirass, no long beard, no Judgment or Gears 5 variant.\nPose: neutral motionless full-body standing, front three-quarter facing screen RIGHT; nose and toes pointing right, both relaxed empty hands visible at his sides. No weapon in hand, no action, no animation. Use one complete subject.\nComposition: whole figure including hair and boot soles, scaled down to 75% of image height; leave at least 10% transparent margin above, below and beside all body parts.\nRealistic game character materials, faithful original outfit proportions, soft readable studio lighting, genuine transparent alpha background. No environment, floor plane, colored backdrop, smoke, halo, shadow cloud, labels, UI, watermark or added text.",
+  "sources": [
+    {
+      "page_url": "https://models.spriters-resource.com/xbox_360/gearsofwar2/asset/296746/",
+      "image_url": "https://models.spriters-resource.com/media/preview_icons/294/296746.png?updated=1755499447",
+      "source_type": "secondary_original_extracted_game_model_preview",
+      "scope": "Vue avant/arrière du modèle original Gears of War 2 Xbox 360, Dominic Santiago C.O.G. Armor, partagé par Ecelon. Identification d'édition explicite, aperçu faible résolution, corps entier.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/207fbd1207b7/research_gears/v11_costumes/dom_g2_preview.png",
+      "reference_sha256": "d3501e0804be0a49e020017be885e6689672e0c3817d7253e9a387b38cf4528d"
+    }
+  ],
+  "qa": {
+    "reference_visually_inspected": true,
+    "output_visually_inspected": false,
+    "observations": [
+      "La référence entière a été téléchargée et inspectée avant l'unique appel.",
+      "Le générateur a refusé la sortie ; aucun PNG reçu, aucun réessai ni reformulation pour cet asset."
+    ]
+  },
+  "refusal": {
+    "code": "moderation_blocked",
+    "stage": "output",
+    "categories": [
+      "other"
+    ],
+    "request_id": "8d623d35-99f5-40f1-9079-0f65434b7f62",
+    "message": "Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 8d623d35-99f5-40f1-9079-0f65434b7f62.",
+    "attempts": 1,
+    "retried": false
+  },
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "pose": "static_front_three_quarter_facing_right",
+  "source_urls": [
+    "https://models.spriters-resource.com/xbox_360/gearsofwar2/asset/296746/"
+  ],
+  "reference_images": [
+    "/workspace/scratch/207fbd1207b7/research_gears/v11_costumes/dom_g2_preview.png"
+  ]
+}

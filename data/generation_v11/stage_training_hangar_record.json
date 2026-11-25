@@ -1,0 +1,71 @@
+{
+  "id": "training_hangar_original_master_v11",
+  "subject_id": "stage_training_hangar",
+  "category": "stage",
+  "purpose": "stage_master",
+  "name": "Hangar d’entraînement — création du projet",
+  "source_game": "Création pour Gears of War Combats",
+  "catalog_target_game": "Création pour Gears of War Combats",
+  "variant": "Arène originale — hangar d’essai COG; matériaux inspirés de Training Grounds Gears 5",
+  "variant_relation": "target_version_candidate",
+  "canonical_origin": "project_original",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "animation_status": "not_requested_this_pass",
+  "status": "generated_reference_pending_validation",
+  "has_image": true,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "asset_path": "assets/stages_v11/stage_training_hangar.png",
+  "prompt": "Generate one wide 16:9 opaque static empty fighting-game background: an ORIGINAL COG training hangar designed for the fan project Gears of War Combats, not a recreation of an official map. The attached Julius Peters Gears 5 Training Grounds screenshots are ONLY material and industrial-design references. Carry over the modern COG language of heavy blue-gray steel wall modules, thick bevelled slab frames, cream painted inset panels, deep navy panels, ribbed metallic service doors, discreet cyan control screens, exposed ceiling conduits, large weighty mechanical supports and realistic wear. Compose a spacious enclosed industrial testing hangar at a level lateral standing-height camera. Broad absolutely flat continuous dark gray concrete-and-steel combat strip across the whole lower quarter, with restrained pale measurement dashes without numbers or letters, no obstruction in the combat volume. Behind it, a long row of sturdy test gantries and inactive abstract rectangular target panels on recessed rails, small wall-mounted consoles; deep rear wall with a few tall closed service doors, overhead truss beams and cable conduits. Neutral soft white industrial ceiling light, restrained cobalt blue safety signals, moderate depth, clean legibility in the playable strip and intricate darker background machinery. Side guardrails remain at the very outer edges behind the fighting strip. This is a calm empty test facility, no robots, people, creature silhouettes, armored vehicles, weapons, ammunition, rubble piles or foreground obstacles. Do not copy the spherical pod, ruins or outdoor composition from reference two. High-quality realistic Gears-like 2D game environment finish. No text, UI, logos, gear insignias, labels, credits, watermarks, border or collage. One single scene, no animation.",
+  "sources": [
+    {
+      "page_url": "https://dvids.artstation.com/projects/4b2eRW",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/020/439/159/medium/julius-peters-gears-5-traininggrounds-013.jpg?1567768155",
+      "source_type": "production_artist_portfolio_style_only",
+      "artist": "Julius Peters — The Coalition",
+      "scope": "Matériaux COG modernes, parois modulaires et consoles de Training Grounds. Le hangar proposé n’est pas une carte officielle.",
+      "visual_reference_used": true,
+      "reference_sha256": "fde81f18c1ad0e432db30c03922f003a0ba2be3f687e36c1808c3b34d6215002"
+    },
+    {
+      "page_url": "https://dvids.artstation.com/projects/4b2eRW",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/020/439/166/medium/julius-peters-gears-5-traininggrounds-006.jpg?1567768169",
+      "source_type": "production_artist_portfolio_style_only",
+      "artist": "Julius Peters — The Coalition",
+      "scope": "Vocabulaire des structures d’essai et du métal peint; implantation d’origine non reproduite.",
+      "visual_reference_used": true,
+      "reference_sha256": "027f17befdf1bac55b9adc99e3eb863326c4e2c5f02441e879993a5c614d3fb2"
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_stage": true,
+    "transparent_background": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "observations": [
+      "Création originale du projet. Le lien avec Training Grounds concerne les matériaux et les installations d’exercice, pas l’existence d’un hangar canonique.",
+      "Le statut de simulation doit être présenté par l’interface du jeu, pas par un faux marquage officiel peint dans le décor.",
+      "Trois cibles géométriques fixes au fond, consoles cyan et structures bleu-gris; sol horizontal continu et vide au premier plan. Aucun personnage ni texte visible.",
+      "Les équipements, portes et proportions sont dessinés pour ce projet, sans certification d’une installation du jeu original."
+    ],
+    "remaining_checks": [
+      "Vérifier l’échelle et la lisibilité de l’arène avec les combattants."
+    ],
+    "alpha_channel_present": false,
+    "opaque": true
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGB",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2677424,
+    "sha256": "cfc3681e40b19b396bb9262c8067d9d96120fb99fefc189b472c208e6b1736de"
+  },
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-346cf863-e095-4561-a95e-949cc823613b.png"
+}

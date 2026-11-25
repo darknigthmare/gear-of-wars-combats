@@ -1,0 +1,80 @@
+{
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "variant_relation": "target_version_candidate",
+  "category": "stage",
+  "purpose": "stage_master",
+  "animation_status": "not_requested_this_pass",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "has_image": true,
+  "generation_attempted": true,
+  "qa": {
+    "visually_inspected": true,
+    "single_stage": true,
+    "transparent_background": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "observations": [
+      "Master unique opaque, aucune animation ni figure active ; résultat inspecté visuellement.",
+      "Façades à frontons, dôme vert, auvents orange et paire de colonnes sont guidés par deux captures du DLC RAAM’s Shadow.",
+      "Ville encore debout, lumière de jour et dégâts localisés ; pas de mélange avec Ilima engloutie de Gears2.",
+      "Bande pavée latérale libre au premier plan ; obstacles et protections derrière la bande."
+    ],
+    "remaining_checks": [
+      "Sources visuelles secondaires en 600 pixels de large : les détails de moulures et textures sont reconstruits, pas certifiés 1:1.",
+      "La caméra et la géométrie de la place ont été adaptées au combat latéral, avec suppression des trous et du combat ; plan canonique exact à comparer.",
+      "Vérifier l’échelle du dôme, des colonnes, des murets et des ouvertures sur des captures directes haute résolution avant validation."
+    ],
+    "alpha_channel_present": false,
+    "opaque": true
+  },
+  "id": "stage_ilima_raams_shadow",
+  "subject_id": "stage_ilima_raams_shadow",
+  "name": "Ilima — évacuation de Zeta",
+  "source_game": "Gears of War 3 — RAAM's Shadow",
+  "asset_path": "assets/stages_v11/ilima_raams_shadow_evacuation_square_master.png",
+  "prompt": "Create ONE static opaque 16:9 environment master for a lateral fighting stage in Ilima during the evacuation by Zeta Squad, specifically the Gears of War 3 campaign DLC RAAM's Shadow. Use the TWO attached actual DLC gameplay screenshots of the same exterior city square as the architectural and edition reference. Produce a single empty coherent scene, not a collage or sheet.\n\nPreserve the distinctive pale gray classical municipal architecture shown: the nearer angular two-storey corner building with triangular pediment, repeated rectangular windows and faded burnt-orange shop awnings, the taller ornamented building with the greenish dome behind it, distant white block buildings with recessed arches, the pair of tall thin freestanding stone columns on the right, leafy green trees, low pale carved retaining walls and urban street paving. The city still stands; it is being evacuated and attacked, not an ancient sunken ruin. Retain localized soot, broken masonry, disturbed paving and a little smoke and warm orange glow in the distant background. The sky is slate blue and smoky, with clear neutral daylight on pale stone as in these screenshots. Do not turn this into night, a futuristic city, Gears2 sunken Ilima or modern New Ephyra.\n\nCompose a side-on readable broad square, camera approximately horizontal, no overhead or isometric view. Keep the foreground bottom 25 percent a continuous level paved strip, completely passable left-to-right, no pits or holes, sandbags, fences, trees or rubble blocking the combat lane. Put the low defences and damaged street edge behind this strip, with the buildings and columns layered into the background. The street plan is a guided adaptation of the photographed in-game scene for a lateral combat stage; avoid introducing major invented landmarks. Realistic richly detailed videogame environment rendering with original Gears3-era weathered stone and restrained gritty contrast.\n\nRemove ALL people, Michael Barrick, Zeta Squad, Locust, monsters, corpses, creatures, gunfire, blood effects, weapons, active vehicles, HUD, crosshairs, subtitles, numbers, logos and text from the reference. Empty environment only. No animated effects, no panel borders, no contact sheet. Opaque widescreen 16:9.",
+  "sources": [
+    {
+      "title": "Gears of War 3: RAAM’s Shadow DLC Review",
+      "url": "https://www.capsulecomputers.com.au/2011/12/gears-of-war-3-raams-shadow-dlc-review/",
+      "source_type": "secondary_gameplay_screenshot",
+      "image_url": "https://www.capsulecomputers.com.au/wp-content/uploads/2011/12/raams-shadow-review-01.jpg",
+      "reference_local_path": "/workspace/scratch/207fbd1207b7/research_stages_v11/ilima_capsule_0.jpg",
+      "visual_reference_used": true,
+      "description": "Capture du DLC dans une place d’Ilima : bâtiments classiques clairs, auvents orange, dôme et deux colonnes ; vue de jeu partiellement occultée par Barrick et le combat.",
+      "reference_sha256": "a67f68237168d3477b3aac40b7314c3885d3335bcef65eb1ee2d51854e46eca0"
+    },
+    {
+      "title": "RAAM’s Shadow — galerie de 30 captures avant sortie",
+      "url": "https://doope.jp/2011/1120772.html",
+      "source_type": "contemporary_press_gameplay_screenshot",
+      "image_url": "https://doope.jp/media/11q4/img4163_26.jpg",
+      "reference_local_path": "/workspace/scratch/207fbd1207b7/research_stages_v11/ilima_doope_20.jpg",
+      "visual_reference_used": true,
+      "description": "Seconde capture de la même place du DLC, avec vue élargie sur la façade, le dôme, les colonnes et l’atmosphère ; publication tierce de captures du jeu, pas un portfolio primaire.",
+      "reference_sha256": "72d82009a71db050fc4c67596d5b373ac58eb9de2c6ff75f9a4b03eaa8ed6c05"
+    },
+    {
+      "title": "Gears of War 3 RAAM’s Shadow — annonce relayée",
+      "url": "https://jeuvideo.afjv.com/news/4181_gears_of_war_3_raam_s_shadow.htm",
+      "source_type": "publisher_announcement_mirror",
+      "visual_reference_used": false,
+      "description": "Identification du DLC et de l’évacuation d’Ilima par Zeta."
+    }
+  ],
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-703e86a9-94d0-4f3d-bf69-aea6ad7c0f7f.png",
+  "output": {
+    "format": "PNG",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "bytes": 3186990,
+    "sha256": "80ede270bffeb12fd27d0ce94ca54da56eaf9d0aab135590b69cedd48db6c362"
+  }
+}

@@ -9,15 +9,15 @@ Les anciennes passes ont été réunies avec les nouvelles sorties réellement p
 | Personnages possédant au moins une référence | **36 / 36** |
 | Personnages sans référence | **0** |
 | Personnages supplémentaires du catalogue avec une référence | 15 / 20 |
-| Costumes avec une attribution visuelle explicite | 42 / 85 |
+| Costumes avec une attribution visuelle explicite | 48 / 85 |
 | PNG actifs de personnages, alternatives et présentations incluses | 60 |
-| PNG actifs classés comme costumes | 7 |
-| Boss avec une référence | 18 / 31 |
-| Fiches d’arènes associées à un master | 20 / 34 |
-| Masters de décor, Ephyra complémentaire inclus | 21 |
+| PNG actifs classés comme costumes | 13 |
+| Boss avec une référence | 24 / 31 |
+| Fiches d’arènes associées à un master | 34 / 34 |
+| Masters de décor, Ephyra complémentaire inclus | 35 |
 | Projectiles avec une référence statique | 4 / 8 |
 | PNG actifs de projectiles | 4 |
-| PNG actifs uniques | 110 |
+| PNG actifs uniques | 136 |
 | Anciennes versions écartées conservées séparément | 12 |
 | Personnages certifiés conformes 1:1 | **0** |
 | Ensembles d’animations dessinées finalisés | **0** |
@@ -44,6 +44,12 @@ Les costumes hérités des fiches initiales restent sans attribution tant qu’u
 | Reaver | Gears of War 2 — Reaver, pose fixe | [PNG](../../assets/bosses_v10/reaver_gears2_mount_only_fullbody.png) |
 | Snatcher | Gears of War 4 — Snatcher, pose fixe | [PNG](../../assets/bosses_v10/snatcher_gears4_fullbody.png) |
 | Swarmak | Gears of War 4 — Swarmak, pose fixe | [PNG](../../assets/bosses_v10/swarmak_gears4_fullbody.png) |
+| Hive Beast | Gears of War 4 — Hive Beast, portion émergente attestée et quatre tentacules, pose fixe | [PNG](../../assets/bosses_v11/hive_beast_gears4_visible_portion.png) |
+| Hydra d’Ukkon | Gears Tactics — Hydra d’Ukkon, tête et torse supérieur attestés, sans cavalier | [PNG](../../assets/bosses_v11/hydra_ukkon_tactics_upperbody_portion.png) |
+| Lambent Brumak | Gears of War 2 — Lambent Brumak final, assemblage statique du modèle attesté | [PNG](../../assets/bosses_v11/lambent_brumak_gears2_model_assembly.png) |
+| Lambent Leviathan | Gears of War 3 — Lambent Leviathan, volume visible du modèle, pose fixe | [PNG](../../assets/bosses_v11/lambent_leviathan_gears3_visible_model.png) |
+| Leviathan | Gears of War 2 — Leviathan original, modèle recourbé et pose fixe | [PNG](../../assets/bosses_v11/leviathan_gears2_fullbody.png) |
+| Rager — forme normale Gears 5 | Rager normal de Gears 5 Op8 Drop2, échelle humanoïde, mains vides | [PNG](../../assets/bosses_v11/rager_gears5_normal_fullbody.png) |
 | Matriarch | Gears 5 — modèle de campagne | [PNG](../../assets/bosses_v6/matriarch_gears5_fullbody.png) |
 | Shibboleth seul — monture sans Karn | Gears of War: Judgment — monture seule ; Karn absent ; duo non complet | [PNG](../../assets/bosses_v7/shibboleth_judgment_mount_only_fullbody.png) |
 | Berserker Lambent | Gears of War 3 — poitrine ouverte, pose de référence | [PNG](../../assets/bosses_v8/lambent_berserker_gow3_fullbody.png) |
@@ -76,6 +82,12 @@ Les costumes hérités des fiches initiales restent sans attribution tant qu’u
 | Damon Baird — DB Industries (Gears 5) | DB Industries Baird — âgé, blouse de laboratoire (campagne et Operation 3) | [PNG](../../assets/costumes_v10/baird_skin_04.png) |
 | Reine Myrrah — Black Steel Queen Myrrah | Gears 5 — Black Steel Queen Myrrah, pose fixe en pied | [PNG](../../assets/costumes_v10/myrrah_black_steel_gears5_fullbody.png) |
 | Samantha Byrne — V-Day Sam | Gears 5 — V-Day Sam, pose fixe en pied | [PNG](../../assets/costumes_v10/sam_vday_gears5_fullbody.png) |
+| Augustus Cole — Gears 5 Operation 3, variante multijoueur | Cole du rendu officiel multijoueur Operation 3 ; correspondance avec le vétéran de campagne non établie | [PNG](../../assets/costumes_v11/cole_skin_04.png) |
+| Dominic Santiago — Campagne Gears of War 3 | Dom barbu de campagne, cuirasse sans manches | [PNG](../../assets/costumes_v11/dom_skin_04.png) |
+| Kait Diaz — Outsider Gears of War 4 | Kait Outsider — veste courte brune, Gears of War 4 | [PNG](../../assets/costumes_v11/kait_skin_01.png) |
+| Marcus Fenix — Campagne Gears of War 2006 | Marcus du premier Gears original, modèle du port PC ; équivalence Xbox 360 2006 à vérifier | [PNG](../../assets/costumes_v11/marcus_skin_02.png) |
+| Marcus Fenix — Vétéran Gears 5 | Marcus âgé et barbu en armure Gears 5 | [PNG](../../assets/costumes_v11/marcus_skin_04.png) |
+| Garron Paduk — Vétéran Gears 5 | Paduk âgé — armure UIR verte de campagne Gears 5 | [PNG](../../assets/costumes_v11/paduk_skin_02.png) |
 | Mac — Mechanic Mac | Gears 5 — Mechanic Mac (skin Hivebusters) | [PNG](../../assets/costumes_v6/mac_mechanic_gears5_fullbody.png) |
 | Augustus Cole — Thrashball Cole | Gears of War 3 — Thrashball Cole | [PNG](../../assets/costumes_v7/cole_thrashball_gow3_fullbody.png) |
 | Marcus Fenix — campagne Gears of War 3 | Gears of War 3 — armure de campagne | [PNG](../../assets/costumes_v8/marcus_campaign_gow3_fullbody.png) |
@@ -91,6 +103,20 @@ Les costumes hérités des fiches initiales restent sans attribution tant qu’u
 | CNV Sovereign — pont jardiné | Gears of War 3 — pont extérieur jardiné du Sovereign adapté au combat latéral | [PNG](../../assets/stages_v10/sovereign_deck_gears3_master.png) |
 | Forêt de Stromson — route et derrick | Gears of War 2 — lisière de Stromson avec derrick immobilisé, adaptée au combat latéral | [PNG](../../assets/stages_v10/stromson_forest_gears2_master.png) |
 | Tomb — cour du cimetière | Gears 5 — Tomb, cour adaptée au combat latéral | [PNG](../../assets/stages_v10/tomb_gears5_cemetery_master.png) |
+| Place de Halvo Bay — Plaza for the Tyran Dead | Gears of War: Judgment | [PNG](../../assets/stages_v11/halvo_plaza_judgment_courthouse_night_master.png) |
+| Ilima — évacuation de Zeta | Gears of War 3 — RAAM's Shadow | [PNG](../../assets/stages_v11/ilima_raams_shadow_evacuation_square_master.png) |
+| Laboratoire sous le mont Kadar — chambre de confinement gelée | Chambre à cuve sphérique du niveau Mt Kadar, adaptée en arène latérale | [PNG](../../assets/stages_v11/kadar_lab_gears5_containment_chamber_master.png) |
+| Rempart de New Ephyra | Gears 5 — Act IV Chapter 2: The Fall | [PNG](../../assets/stages_v11/new_ephyra_gears5_final_battlement_master.png) |
+| Settlement 5 — rue et portail de chantier | Rue du niveau Raid et portail de sécurité, adaptation latérale issue de captures finales | [PNG](../../assets/stages_v11/settlement5_gears4_security_gate_master.png) |
+| Galangi — plage et lisière tropicale | Plage de Galangi — rivage endommagé, adaptation latérale de la cinématique | [PNG](../../assets/stages_v11/stage_galangi_beach.png) |
+| Galangi — intérieur volcanique | Galangi — coulées de lave et corniche adaptée au combat latéral | [PNG](../../assets/stages_v11/stage_galangi_volcano.png) |
+| Laboratoire d’Ukkon — concept de la finale | Laboratoire d’Ukkon — adaptation latérale du concept Act3Finale_ArenaFeedback de Malte Langheim | [PNG](../../assets/stages_v11/stage_tactics_lab.png) |
+| Hangar d’entraînement — création du projet | Arène originale — hangar d’essai COG; matériaux inspirés de Training Grounds Gears 5 | [PNG](../../assets/stages_v11/stage_training_hangar.png) |
+| Piste d’essai — création du projet | Arène originale — piste d’essai COG; matériaux inspirés de Training Grounds Gears 5 | [PNG](../../assets/stages_v11/stage_training_range.png) |
+| Ruche de l’Essaim — chambre voûtée colonisée | Composition latérale originale d’un intérieur de ruche fondée sur les environnements Swarm finaux de Gears 4 | [PNG](../../assets/stages_v11/swarm_hive_gears4_infested_chamber_master.png) |
+| Cour de ravitaillement — composition originale inspirée de Tactics | Création de cour logistique pour le projet à partir du biome COG Industrial ; aucun dépôt canonique nommé revendiqué | [PNG](../../assets/stages_v11/tactics_depot_cog_industrial_courtyard_master.png) |
+| Tollen Dam — cour d’entrée du barrage | Façade et accès du barrage de Tollen recomposés pour une bande de combat latérale | [PNG](../../assets/stages_v11/tollen_dam_gears4_entrance_master.png) |
+| Aéroport de Vasgar — terminal et contrôle de sécurité | Terminal de la carte Vasgar, composition latérale issue de deux vues de production finales | [PNG](../../assets/stages_v11/vasgar_airport_gears5_terminal_master.png) |
 | Gridlock | Gears of War 4 — cadrage de combat 2D adapté | [PNG](../../assets/stages_v6/gridlock_gow4_master.png) |
 | Dawn | Gears 5 — Operation 8, colonie minière adaptée au combat 2D | [PNG](../../assets/stages_v7/dawn_gears5_master.png) |
 | Village | Gears 5 — Operation 8, intérieur cérémoniel adapté au combat 2D | [PNG](../../assets/stages_v7/village_gears5_master.png) |

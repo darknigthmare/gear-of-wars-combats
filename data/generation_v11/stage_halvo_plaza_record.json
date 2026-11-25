@@ -1,0 +1,80 @@
+{
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "variant_relation": "target_version_candidate",
+  "category": "stage",
+  "purpose": "stage_master",
+  "animation_status": "not_requested_this_pass",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "has_image": true,
+  "generation_attempted": true,
+  "qa": {
+    "visually_inspected": true,
+    "single_stage": true,
+    "transparent_background": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "observations": [
+      "Master opaque unique ; inspection visuelle du résultat et des deux captures fournies.",
+      "Le tribunal classique, les portiques triangulaires, les coupoles et les blocs mémoriels suivent les repères visibles de Judgment.",
+      "La nuit bleue/orange provient des captures du chapitre exact ; elle prévaut ici sur la direction diurne initiale de la fiche.",
+      "Bande de dallage horizontale dégagée au premier plan ; personnages, boss et HUD absents."
+    ],
+    "remaining_checks": [
+      "La géométrie de la place, les proportions et la caméra sont recomposées pour un décor latéral ; le plan exact du niveau n’est pas validé.",
+      "Références secondaires de faible résolution et partiellement occultées : détails fins de sculpture, symboles et textures restent à confronter à des captures directes haute résolution.",
+      "Conserver comme candidat jusqu’à validation humaine de l’édition Judgment ; aucune certification de fidélité 1:1."
+    ],
+    "alpha_channel_present": false,
+    "opaque": true
+  },
+  "id": "stage_halvo_plaza",
+  "subject_id": "stage_halvo_plaza",
+  "name": "Place de Halvo Bay — Plaza for the Tyran Dead",
+  "source_game": "Gears of War: Judgment",
+  "asset_path": "assets/stages_v11/halvo_plaza_judgment_courthouse_night_master.png",
+  "prompt": "Create ONE opaque 16:9 static environment master image for a side-view combat game: the Plaza for the Tyran Dead outside the Courthouse in Halvo Bay, specifically Gears of War: Judgment, based on the two attached actual gameplay screenshots of that location. This is an empty environment, no animation frames or contact sheet.\n\nUse these screenshots as the visual authority. Preserve their night setting, deep blue smoky sky, restrained drifting embers, warm orange light on weathered pale stone, broad neoclassical courthouse façades with triangular columned porticoes, long rectangular windows, balustrades and the round cupola above. Respect the monumental stone memorial plaza, the square dark stone remembrance plinths and recessed engraved panel shapes. Build a coherent courtyard viewpoint in front of the courthouse, with the recognisable portico and upper dome centered in the distant backdrop. The second reference provides a closer view of the weathered cornice and rectangular windows. Do not add an unrelated futuristic skyline or a daylight palette.\n\nRender as high quality detailed realistic videogame environment art with physically plausible stone textures, quiet smoke depth and readable architectural silhouettes, matching the original edition's heavy, worn architecture. Camera near horizontal, a broad lateral composition, not isometric and not overhead. Keep the full bottom 25 percent of the image as a continuous level stone-paved combat lane from left to right, no holes, stairs or obstacles crossing it. Place the blocky memorial stones, shallow stairs and broken small debris only beyond that lane in the middle ground. Derive the paving from the actual reference. This is a guided recomposition for a fighting arena, not a claim of an exact camera or map layout.\n\nRemove all characters, monsters, Karn, weapons, ammunition, corpses, combat action, projectiles, HUD, reticle, labels, logos and text from the references. No people, no living subjects. No decorative borders. Keep the entire image opaque, landscape 16:9.",
+  "sources": [
+    {
+      "title": "Gears of War Judgment — Plaza for the Tyran Dead",
+      "url": "https://www.gamepressure.com/gearsofwarjudgment/plaza-for-the-tyran-dead/z14bfe",
+      "source_type": "secondary_gameplay_screenshot",
+      "image_url": "https://www.gamepressure.com/gearsofwarjudgment/gfx/word/598695140.jpg",
+      "reference_local_path": "/workspace/scratch/207fbd1207b7/research_stages_v11/halvo_guide_1.jpg",
+      "visual_reference_used": true,
+      "description": "Capture de la place et du tribunal pendant le combat contre Karn ; architecturalement utile malgré le personnage, les obstacles et le HUD.",
+      "reference_sha256": "6101dd94009d95fb6b4f12dad9fd55edf7f8d15b13884d47053ca1a48db124da"
+    },
+    {
+      "title": "Gears of War Judgment — Plaza for the Tyran Dead, façade de proximité",
+      "url": "https://www.gamepressure.com/gearsofwarjudgment/plaza-for-the-tyran-dead/z14bfe",
+      "source_type": "secondary_gameplay_screenshot",
+      "image_url": "https://www.gamepressure.com/gearsofwarjudgment/gfx/word/598695171.jpg",
+      "reference_local_path": "/workspace/scratch/207fbd1207b7/research_stages_v11/halvo_guide_3.jpg",
+      "visual_reference_used": true,
+      "description": "Capture du même combat nocturne ; corniche, fenêtres et pierre de la façade, partiellement occultées par le boss.",
+      "reference_sha256": "80d74fc7826427c19d628257c2721fa9108720d0cf842119566b349517360493"
+    },
+    {
+      "title": "Gears of War Judgment Walkthrough — The Courthouse",
+      "url": "https://primagames.com/news/gears-war-judgment-walkthrough-part-2-2",
+      "source_type": "licensed_game_guide",
+      "visual_reference_used": false,
+      "description": "Identification du chapitre Plaza for the Tyran Dead et du combat final de Karn."
+    }
+  ],
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-3bd7ab81-3f97-4901-ab74-cc78ef223437.png",
+  "output": {
+    "format": "PNG",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "bytes": 2762182,
+    "sha256": "836444c4e0dbc80dcd66e9e809a1c13c0912cd826f32d9ab58887ec8abb63bb2"
+  }
+}

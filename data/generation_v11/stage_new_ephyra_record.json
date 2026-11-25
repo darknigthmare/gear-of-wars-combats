@@ -1,0 +1,87 @@
+{
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "variant_relation": "target_version_candidate",
+  "category": "stage",
+  "purpose": "stage_master",
+  "animation_status": "not_requested_this_pass",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "has_image": true,
+  "generation_attempted": true,
+  "qa": {
+    "visually_inspected": true,
+    "single_stage": true,
+    "transparent_background": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "observations": [
+      "Master fixe unique opaque ; résultat et références visuellement inspectés.",
+      "Représente le chemin supérieur du rempart final, avec canon bleu inactif en arrière-plan gauche, plaques humides, défenses basses et bordures jaunes.",
+      "Panorama extérieur de ruines et grue, atmosphère bleu-vert pluvieuse guidée par le chapitre final ; aucune créature ni HUD intégré.",
+      "Bande de sol continue et dégagée au premier plan ; le canon est du décor fixe derrière cette bande."
+    ],
+    "remaining_checks": [
+      "Le Kraken masque une grande partie du panorama dans les captures : la ville centrale est recomposée à partir des silhouettes visibles, sans validation 1:1.",
+      "Caméra et largeur du plateau adaptées au combat latéral ; position exacte des caisses, défenses et canon, proportions et détails fins restent à vérifier.",
+      "Sources visuelles finales secondaires de 720 pixels de large ; une comparaison avec capture directe haute résolution est nécessaire avant certification."
+    ],
+    "alpha_channel_present": false,
+    "opaque": true
+  },
+  "id": "stage_new_ephyra",
+  "subject_id": "stage_new_ephyra",
+  "name": "Rempart de New Ephyra",
+  "source_game": "Gears 5 — Act IV Chapter 2: The Fall",
+  "asset_path": "assets/stages_v11/new_ephyra_gears5_final_battlement_master.png",
+  "prompt": "Create ONE static opaque 16:9 environment master of the defensive wall battlement in New Ephyra during Act IV Chapter 2 \"The Fall\", specifically Gears5, for a lateral fighting game stage. The TWO attached actual gameplay screenshots from that final battle are the visual authority. Make a single coherent EMPTY battlement looking outward toward the devastated Old Ephyra skyline. This is the wall-top combat platform, not the monumental front facade at ground level.\n\nPreserve the shown broad flat gray metallic/concrete-plated platform, its inset panel joints and orange-brown cable/trim strips, sturdy low defenses, worn yellow edging, and the blue COG electromagnetic railgun visible in the second reference. Place one inactive unoccupied blue railgun well BEHIND the playable foreground on the far left, directed outward over the wall; it is fixed scenery, not a floating weapon. Keep the distant ruined pale gray classical city silhouettes, broken dome and windowed structures, and the tall yellow construction crane on the right that are visible around the creature. The skyline beyond the wall is Old Ephyra in ruins, not a pristine future city. Match the gloomy green-blue rainy atmosphere, layered haze, scattered distant orange fires and damp gray surfaces. Keep good visibility with moderate contrast, detailed realistic Gears5-style environment rendering.\n\nCompletely REMOVE the Kraken, every tentacle, every living creature, every soldier and corpse, Kait, HUD, aiming reticles, weapons held by characters, projectiles, combat effects, subtitles, logos and text. Reconstruct the background architecture obscured by the Kraken conservatively using the actually visible surrounding silhouettes. Do not substitute a different game or show the Kraken arena at the Vasgar rocket launchpad. No giant monster, no monster-shaped architecture.\n\nCompose a horizontal near-eye-level lateral stage view, not overhead or isometric. Entire bottom 25 percent must be a continuous level unobstructed combat lane spanning left to right on the platform. Small weathering and panel seams are fine, but move the broken chunks and loose fragments out of the walking lane and put cover, railgun, railing and heavier debris only in the midground behind it. No holes, steps or rails crossing the foreground. No forced symmetry. The camera and floor layout are adapted for a fighting stage, with the source architecture and materials guiding the visible scene. One opaque landscape image, 16:9, no border, no sheet, no animation.",
+  "sources": [
+    {
+      "title": "Gears 5: Act 4 Chapter 2 — The Fall, rempart pendant le combat final",
+      "url": "https://www.gamepressure.com/gears-5/chapter-2-the-fall/zdcb53",
+      "source_type": "secondary_gameplay_screenshot",
+      "image_url": "https://www.gamepressure.com/gears-5/gfx/word/172497796.jpg",
+      "reference_local_path": "/workspace/scratch/207fbd1207b7/research_stages_v11/ephyra_final_guide_13.jpg",
+      "visual_reference_used": true,
+      "description": "Vue du plateau de combat final : plaques de sol, défenses basses, grue et ruines extérieures, partiellement cachées par le Kraken.",
+      "reference_sha256": "fc161632e6ae426de00557c37b46b892121ceb91e3eb27fe7c5d4e425bcddd5b"
+    },
+    {
+      "title": "Gears 5: Act 4 Chapter 2 — The Fall, canon du rempart",
+      "url": "https://www.gamepressure.com/gears-5/chapter-2-the-fall/zdcb53",
+      "source_type": "secondary_gameplay_screenshot",
+      "image_url": "https://www.gamepressure.com/gears-5/gfx/word/172497781.jpg",
+      "reference_local_path": "/workspace/scratch/207fbd1207b7/research_stages_v11/ephyra_final_guide_12.jpg",
+      "visual_reference_used": true,
+      "description": "Capture finale à proximité du canon électromagnétique bleu ; précise sa silhouette, les surfaces du rempart et les bâtiments ruinés visibles autour du Kraken.",
+      "reference_sha256": "6e969c8fa5279c0b7985e567c1bb2539a7404dd8084e7c21d9a265a0445bc750"
+    },
+    {
+      "title": "Gears 5 boss fight guide — Final Kraken battle",
+      "url": "https://www.shacknews.com/article/113841/gears-5-boss-fight-guide",
+      "source_type": "secondary_game_guide",
+      "visual_reference_used": false,
+      "description": "Confirme le combat au sommet de la muraille et l’usage du canon ; source de contexte, non preuve des détails d’architecture."
+    },
+    {
+      "title": "Cesar Rizo — Gears5 Ephyra wall",
+      "url": "https://rizo.artstation.com/projects/PmZ95B",
+      "source_type": "primary_production_concept",
+      "visual_reference_used": false,
+      "description": "Concept primaire de façade étudié puis écarté du prompt : le décor demandé est le chemin supérieur du rempart, documenté par les captures finales."
+    }
+  ],
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-1fb4fc7e-c747-4088-a529-4be8ab730b74.png",
+  "output": {
+    "format": "PNG",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "bytes": 2553446,
+    "sha256": "40eb80e7d052335d56782953f9251e28257c389cb03d23273794b34a0c6818ed"
+  }
+}

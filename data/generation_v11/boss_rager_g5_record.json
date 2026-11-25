@@ -1,0 +1,99 @@
+{
+  "category": "boss",
+  "variant_relation": "target_version_candidate",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "generation_attempted": true,
+  "has_image": true,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "id": "boss_rager_g5",
+  "subject_id": "boss_rager_g5",
+  "name": "Rager — forme normale Gears 5",
+  "source_game": "Gears 5 — Operation 8 Drop 2",
+  "catalog_target_game": "Gears 5",
+  "variant": "Rager normal de Gears 5 Op8 Drop2, échelle humanoïde, mains vides",
+  "purpose": "reference_fullbody",
+  "asset_path": "assets/bosses_v11/rager_gears5_normal_fullbody.png",
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-afac1d0b-e32d-42c7-9fcb-4eb579d06a0c.png",
+  "prompt": "Use case: realistic static character asset. Create exactly one NORMAL-FORM Rager as released in Gears 5 Operation 8 Drop 2. Reference one is the official release illustration; reference two shows the in-game Rager portrait and neutral grey skin; reference three is a low-resolution gameplay storyboard showing the same character's body proportions and lower silhouette. Preserve the grey pale rough hairless head, narrow deeply ridged angry face, small dark-set eyes, exposed teeth, muscular wiry unarmored torso and bare shoulders, the very heavy dark iron chain harness with a large ring at the sternum and another at the waist, dark brown leather waist covering/front panel, and the specific brown forearm bracers with small amber circles. Preserve normal Gears 5 humanoid proportions, never a gigantic boss or enraged mutant. Full body head to feet, wearing the same restrained dark brown lower-leg equipment and foot covering visible in the gameplay silhouette; do not embellish with new symbols or additional armor. Stand still in a neutral readable pose, both hands EMPTY and relaxed, arms slightly away from the body, feet apart, three-quarter facing SCREEN-RIGHT. No gun, held object or weapon on the back. No rage transformation, extra limbs, orange skin, fire, VFX or attack. One character only, realistic original-game rendering, neutral soft light, no dramatic orange cast. True transparent alpha background, no backdrop, floor, shadow, glow, haze, checkerboard, captions, logo or watermark. Portrait canvas, entire head, hands and feet in frame, at least ten percent transparent margin. One fixed pose, no animation sheet.",
+  "sources": [
+    {
+      "page_url": "https://www.gearsofwar.com/en-us/news/operation-8-drop-2-reveal/",
+      "image_url": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2021/09/op8-drop-2-rager-69cb1e56cbb2a.jpg",
+      "source_type": "official_game_release_character_image",
+      "scope": "Visuel officiel Rager Op8 Drop2 : tête, haut du corps, chaînes, bracelets, mains et haut des cuisses. Jambes inférieures et pieds hors champ ; teinte chaude due à la scène.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/207fbd1207b7/research_gears_v11/bosses/rager_official_op8-drop-2-rager-69cb1e56cbb2a.jpg",
+      "reference_sha256": "eb319dffcf3f1a7f7c96199b9e68caecad1626094b435a73b3a0871efb999ece"
+    },
+    {
+      "page_url": "https://www.youtube.com/watch?v=U56wkMmy-Zw",
+      "image_url": "https://i.ytimg.com/vi/U56wkMmy-Zw/maxresdefault.jpg",
+      "source_type": "attributed_gameplay_video_thumbnail",
+      "scope": "GOWSeriesVideos, Gears 5 - Multiplayer Characters: Rager, 15 septembre 2021. Portrait en jeu et gros plan : peau grise, dessin du visage, chaîne et bracelets. Source secondaire de capture du jeu.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/207fbd1207b7/research_gears_v11/bosses/rager_g5_gowseries_thumbnail.jpg",
+      "reference_sha256": "252443a4c393fa4d7b7904d561519e438d8f1f5d087d52ba82452e4c5c1c09d8"
+    },
+    {
+      "page_url": "https://www.youtube.com/watch?v=U56wkMmy-Zw",
+      "source_type": "attributed_gameplay_storyboard",
+      "scope": "Storyboard public YouTube du même gameplay, premières 120 secondes, 25 cases 160x90 espacées de 5 secondes. Silhouette générale complète et position des jambes seulement ; résolution insuffisante pour certifier boucles et détails de chaussures.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/207fbd1207b7/research_gears_v11/bosses/rager_g5_storyboard_0.jpg",
+      "reference_sha256": "a622683c3b141532cccda67d11b4f2e6eeb6f5bb0e2e4fd54732f25c071ac753",
+      "image_url": "https://i.ytimg.com/sb/U56wkMmy-Zw/storyboard3_L2/M0.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCOjliIoG&sigh=rs%24AOn4CLBf7PSvDae7fiI2N4ZSnbGXShI-YQ"
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "orientation_facing_right": true,
+    "empty_hands": true,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Rager normal seul, peau grise, chaînes épaisses à deux anneaux, torse découvert, bracelets bruns, mains vides et pose fixe trois quarts vers la droite.",
+      "Référence officielle arrêtée aux cuisses : formes détaillées des protections de tibias et pieds sont une reconstruction guidée par de petites silhouettes de gameplay, à comparer à une capture haute résolution avant certification.",
+      "La catégorie boss appartient à l’adaptation de rencontre 2D du projet ; le rendu n’ajoute ni gigantisme, ni nouvelle phase, ni transformation de rage de Judgment.",
+      "Personnage entier dans le cadre et vrai alpha ; marges et franges à vérifier avant atlas. Aucune animation ni projectile."
+    ],
+    "remaining_checks": [
+      "Obtenir une vue rapprochée des jambes et pieds de la variante normale Gears 5 Op8 Drop2 ; vérifier boucles, matière et découpes.",
+      "Comparer proportions, visage, anneaux et bracelets au modèle original sous lumière neutre."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1086,
+    "height": 1448,
+    "bytes": 1344185,
+    "sha256": "58a5585995ee59428ecb358cc6dc7a6dc717c044f1a0d5879b251e02393f68f8",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.6636740331491713,
+    "subject_bbox_alpha_ge_128": [
+      198,
+      26,
+      864,
+      1420
+    ],
+    "subject_margins_ltrb_px": [
+      198,
+      26,
+      222,
+      28
+    ],
+    "native_copy_verified": true
+  }
+}

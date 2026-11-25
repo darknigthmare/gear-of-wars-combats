@@ -2,36 +2,36 @@
 
 Corpus de conception, prototype et références visuelles consolidés le **25 novembre 2026** pour Darknigthmare.
 
-## État courant — passe V10 — assets fixes
+## État courant — passe V11 — assets fixes
 
-**20 nouveaux PNG**, un sujet par image, sans animations. Ils sont intégrés à la galerie et à l’inventaire avec leurs sources, prompts et réserves de fidélité.
+**26 nouveaux PNG**, un sujet par image, sans animations. Ils sont intégrés à la galerie et à l’inventaire avec leurs sources, prompts et réserves de fidélité.
 
-- [Images livrées, refus et recherches en attente](docs/production/LISTING_V10.md)
-- [Liste complète des manquants après V10](docs/production/REPRISE_V10.md)
-- [Validation technique V10](docs/production/VALIDATION_V10.json)
-- [Sources et prompts V10](docs/references/production-v10-research.md)
+- [Images livrées, refus et recherches en attente](docs/production/LISTING_V11.md)
+- [Liste complète des manquants après V11](docs/production/REPRISE_V11.md)
+- [Validation technique V11](docs/production/VALIDATION_V11.json)
+- [Sources et prompts V11](docs/references/production-v11-research.md)
 
 | Catégorie | Références disponibles | Manquants |
 |---|---:|---:|
 | Personnages | 51 / 56 | 5 |
-| Costumes | 42 / 85 | 43 |
-| Boss, créatures et machines | 18 / 31 | 13 |
-| Stages | 20 / 34 | 14 |
+| Costumes | 48 / 85 | 37 |
+| Boss, créatures et machines | 24 / 31 | 7 |
+| Stages | 34 / 34 | 0 |
 | Projectiles | 4 / 8 | 4 |
 
-Total actif : **110 PNG uniques**. Ephyra est un décor complémentaire ; les costumes rattachés à un PNG existant ne doublent pas le total.
+Total actif : **136 PNG uniques**. Ephyra est un décor complémentaire ; les costumes rattachés à un PNG existant ne doublent pas le total.
 
-Les images restent des candidats statiques visant une fidélité 1:1. La fumigène reprend un concept officiel, signalé comme tel dans la galerie ; le modèle final de Gears of War 4 reste à confirmer. Reaver et Swarmak sont sans cavaliers. Certaines surfaces cachées sont reconstituées et les stages ont un cadrage latéral adapté.
+Les images restent des candidats statiques visant une fidélité 1:1. Les références d’édition, corps partiels, reconstitutions, créations originales et défauts identifiés sont documentés dans les journaux. Les décors sont adaptés au combat latéral ; les deux arènes d’entraînement sont des créations du projet.
 
-3 essais V10 ont été refusés et 2 sujets restent au stade de recherche de référence ; aucun n’est compté comme PNG. Buzzkill et Dropshot V9 conservent leur état **À corriger**.
+2 essais V11 ont été refusés et 3 sujets restent au stade de recherche de référence ; aucun n’est compté comme PNG. Buzzkill et Dropshot V9 conservent leur état **À corriger**.
 
-### Validation technique V10
+### Validation technique V11
 
-Les **13 tests d’inventaire** passent, ainsi que les **30 combinaisons de filtres et 9 recherches** exécutées avec un DOM simulé. Les 20 nouveaux PNG sont identiques aux sorties natives ; les 102 PNG antérieurs (actifs et archives) restent inchangés. Dimensions, alpha, marges et liens sont contrôlés. Le rendu navigateur/mobile reste non vérifié ; les résultats et cette limite sont consignés dans le [rapport V10](docs/production/VALIDATION_V10.json). Aucun changement au moteur de combat.
+Les dimensions natives, empreintes SHA-256, canaux alpha et marges de silhouette sont contrôlés. Les tests d’inventaire, la cohérence de la galerie et les limites du contrôle navigateur sont consignés dans le [rapport V11](docs/production/VALIDATION_V11.json). Aucun changement au moteur de combat.
 
-### Passe V9 conservée
+### Passes V9 et V10 conservées
 
-Les 20 images de V9, ses sources et ses résultats restent documentés : [listing V9](docs/production/LISTING_V9.md), [manquants à la clôture V9](docs/production/REPRISE_V9.md), [validation V9](docs/production/VALIDATION_V9.json).
+Les 40 images des passes V9 et V10 et leurs résultats restent documentés : [listing V9](docs/production/LISTING_V9.md), [validation V9](docs/production/VALIDATION_V9.json), [listing V10](docs/production/LISTING_V10.md), [manquants à la clôture V10](docs/production/REPRISE_V10.md), [validation V10](docs/production/VALIDATION_V10.json).
 
 ## Consulter le projet
 

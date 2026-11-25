@@ -15,23 +15,23 @@
     "catalog_characters_missing": 5,
     "character_png_files": 60,
     "costume_catalog_entries": 85,
-    "costumes_with_reference": 42,
-    "costumes_without_explicit_reference": 43,
-    "costume_png_files": 7,
+    "costumes_with_reference": 48,
+    "costumes_without_explicit_reference": 37,
+    "costume_png_files": 13,
     "reused_character_pngs_for_costumes": 35,
     "boss_catalog_entries": 31,
-    "bosses_with_reference": 18,
-    "boss_png_files": 18,
+    "bosses_with_reference": 24,
+    "boss_png_files": 24,
     "stage_catalog_entries": 34,
-    "stages_with_reference": 20,
-    "stage_png_files": 21,
+    "stages_with_reference": 34,
+    "stage_png_files": 35,
     "projectile_catalog_entries": 8,
     "projectiles_with_reference": 4,
     "projectiles_missing": 4,
     "projectile_png_files": 4,
     "additional_reference_groups": 1,
-    "active_png_files": 110,
-    "unique_active_png_sha256": 110,
+    "active_png_files": 136,
+    "unique_active_png_sha256": 136,
     "archived_png_files": 12,
     "canonical_fidelity_validated": 0,
     "completed_animation_sets": 0
@@ -2241,18 +2241,27 @@
       ],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_costumes_v11_marcus_skin_02_png",
+      "selected_path": "assets/costumes_v11/marcus_skin_02.png",
+      "selected_source_variant": "Marcus du premier Gears original, modèle du port PC ; équivalence Xbox 360 2006 à vérifier",
+      "selected_variant_relation": "original_pc_port_candidate_for_2006_target",
+      "asset_ids": [
+        "assets_costumes_v11_marcus_skin_02_png"
+      ],
       "target_version_candidate_available": false,
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v11/marcus_skin_02_record.json",
+        "generation": 11,
+        "status": "generated_reference_pending_validation",
+        "category": "costume",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      }
     },
     {
       "id": "marcus_skin_03",
@@ -2314,18 +2323,27 @@
       ],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_costumes_v11_marcus_skin_04_png",
+      "selected_path": "assets/costumes_v11/marcus_skin_04.png",
+      "selected_source_variant": "Marcus âgé et barbu en armure Gears 5",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_costumes_v11_marcus_skin_04_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/costumes_v11/marcus_skin_04.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v11/marcus_skin_04_record.json",
+        "generation": 11,
+        "status": "generated_reference_pending_validation",
+        "category": "costume",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      }
     },
     {
       "id": "dom_skin_01",
@@ -2413,7 +2431,7 @@
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
       "has_visual_reference": false,
-      "visual_status": "missing",
+      "visual_status": "generation_blocked",
       "selected_asset_id": null,
       "selected_path": null,
       "selected_source_variant": null,
@@ -2423,7 +2441,14 @@
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v11/dom_skin_03_record.json",
+        "generation": 11,
+        "status": "blocked_generator_refusal",
+        "category": "costume",
+        "has_file": false,
+        "pass_date": "2026-11-25"
+      }
     },
     {
       "id": "dom_skin_04",
@@ -2444,18 +2469,27 @@
       ],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_costumes_v11_dom_skin_04_png",
+      "selected_path": "assets/costumes_v11/dom_skin_04.png",
+      "selected_source_variant": "Dom barbu de campagne, cuirasse sans manches",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_costumes_v11_dom_skin_04_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/costumes_v11/dom_skin_04.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v11/dom_skin_04_record.json",
+        "generation": 11,
+        "status": "generated_reference_pending_validation",
+        "category": "costume",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      }
     },
     {
       "id": "baird_skin_01",
@@ -2625,7 +2659,7 @@
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
       "has_visual_reference": false,
-      "visual_status": "missing",
+      "visual_status": "generation_blocked",
       "selected_asset_id": null,
       "selected_path": null,
       "selected_source_variant": null,
@@ -2635,7 +2669,14 @@
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v11/cole_skin_01_record.json",
+        "generation": 11,
+        "status": "blocked_generator_refusal",
+        "category": "costume",
+        "has_file": false,
+        "pass_date": "2026-11-25"
+      }
     },
     {
       "id": "cole_skin_02",
@@ -2731,18 +2772,27 @@
       ],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_costumes_v11_cole_skin_04_png",
+      "selected_path": "assets/costumes_v11/cole_skin_04.png",
+      "selected_source_variant": "Cole du rendu officiel multijoueur Operation 3 ; correspondance avec le vétéran de campagne non établie",
+      "selected_variant_relation": "alternate_version",
+      "asset_ids": [
+        "assets_costumes_v11_cole_skin_04_png"
+      ],
       "target_version_candidate_available": false,
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v11/cole_skin_04_record.json",
+        "generation": 11,
+        "status": "generated_reference_pending_validation",
+        "category": "costume",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      }
     },
     {
       "id": "anya_skin_01",
@@ -2829,18 +2879,27 @@
       ],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_costumes_v11_kait_skin_01_png",
+      "selected_path": "assets/costumes_v11/kait_skin_01.png",
+      "selected_source_variant": "Kait Outsider — veste courte brune, Gears of War 4",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_costumes_v11_kait_skin_01_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/costumes_v11/kait_skin_01.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v11/kait_skin_01_record.json",
+        "generation": 11,
+        "status": "generated_reference_pending_validation",
+        "category": "costume",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      }
     },
     {
       "id": "kait_skin_02",
@@ -3917,18 +3976,27 @@
       ],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_costumes_v11_paduk_skin_02_png",
+      "selected_path": "assets/costumes_v11/paduk_skin_02.png",
+      "selected_source_variant": "Paduk âgé — armure UIR verte de campagne Gears 5",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_costumes_v11_paduk_skin_02_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/costumes_v11/paduk_skin_02.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v11/paduk_skin_02_record.json",
+        "generation": 11,
+        "status": "generated_reference_pending_validation",
+        "category": "costume",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      }
     },
     {
       "id": "sofia_skin_01",
@@ -5223,18 +5291,27 @@
       "catalog_notes": [],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_bosses_v11_leviathan_gears2_fullbody_png",
+      "selected_path": "assets/bosses_v11/leviathan_gears2_fullbody.png",
+      "selected_source_variant": "Gears of War 2 — Leviathan original, modèle recourbé et pose fixe",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_bosses_v11_leviathan_gears2_fullbody_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/bosses_v11/leviathan_gears2_fullbody.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v11/boss_leviathan_record.json",
+        "generation": 11,
+        "status": "generated_reference_pending_validation",
+        "category": "boss",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      }
     },
     {
       "id": "boss_hydra_skorge",
@@ -5265,7 +5342,14 @@
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v11/boss_hydra_skorge_record.json",
+        "generation": 11,
+        "status": "reference_research_pending",
+        "category": "boss",
+        "has_file": false,
+        "pass_date": "2026-11-25"
+      }
     },
     {
       "id": "boss_lambent_brumak",
@@ -5285,18 +5369,27 @@
       "catalog_notes": [],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_bosses_v11_lambent_brumak_gears2_model_assembly_png",
+      "selected_path": "assets/bosses_v11/lambent_brumak_gears2_model_assembly.png",
+      "selected_source_variant": "Gears of War 2 — Lambent Brumak final, assemblage statique du modèle attesté",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_bosses_v11_lambent_brumak_gears2_model_assembly_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/bosses_v11/lambent_brumak_gears2_model_assembly.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v11/boss_lambent_brumak_record.json",
+        "generation": 11,
+        "status": "generated_reference_pending_validation",
+        "category": "boss",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      }
     },
     {
       "id": "boss_lambent_berserker",
@@ -5354,18 +5447,27 @@
       "catalog_notes": [],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_bosses_v11_lambent_leviathan_gears3_visible_model_png",
+      "selected_path": "assets/bosses_v11/lambent_leviathan_gears3_visible_model.png",
+      "selected_source_variant": "Gears of War 3 — Lambent Leviathan, volume visible du modèle, pose fixe",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_bosses_v11_lambent_leviathan_gears3_visible_model_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/bosses_v11/lambent_leviathan_gears3_visible_model.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v11/boss_lambent_leviathan_record.json",
+        "generation": 11,
+        "status": "generated_reference_pending_validation",
+        "category": "boss",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      }
     },
     {
       "id": "boss_tempest",
@@ -5467,18 +5569,27 @@
       "catalog_notes": [],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_bosses_v11_hydra_ukkon_tactics_upperbody_portion_png",
+      "selected_path": "assets/bosses_v11/hydra_ukkon_tactics_upperbody_portion.png",
+      "selected_source_variant": "Gears Tactics — Hydra d’Ukkon, tête et torse supérieur attestés, sans cavalier",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_bosses_v11_hydra_ukkon_tactics_upperbody_portion_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/bosses_v11/hydra_ukkon_tactics_upperbody_portion.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v11/boss_hydra_ukkon_record.json",
+        "generation": 11,
+        "status": "generated_reference_pending_validation",
+        "category": "boss",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      }
     },
     {
       "id": "boss_swarmak",
@@ -5657,18 +5768,27 @@
       "catalog_notes": [],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_bosses_v11_hive_beast_gears4_visible_portion_png",
+      "selected_path": "assets/bosses_v11/hive_beast_gears4_visible_portion.png",
+      "selected_source_variant": "Gears of War 4 — Hive Beast, portion émergente attestée et quatre tentacules, pose fixe",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_bosses_v11_hive_beast_gears4_visible_portion_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/bosses_v11/hive_beast_gears4_visible_portion.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v11/boss_hive_beast_record.json",
+        "generation": 11,
+        "status": "generated_reference_pending_validation",
+        "category": "boss",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      }
     },
     {
       "id": "boss_matriarch",
@@ -6129,18 +6249,27 @@
       ],
       "catalog_scope": "encounter_adaptation_2d",
       "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_bosses_v11_rager_gears5_normal_fullbody_png",
+      "selected_path": "assets/bosses_v11/rager_gears5_normal_fullbody.png",
+      "selected_source_variant": "Rager normal de Gears 5 Op8 Drop2, échelle humanoïde, mains vides",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_bosses_v11_rager_gears5_normal_fullbody_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/bosses_v11/rager_gears5_normal_fullbody.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v11/boss_rager_g5_record.json",
+        "generation": 11,
+        "status": "generated_reference_pending_validation",
+        "category": "boss",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      }
     },
     {
       "id": "boss_riftworm_g2",
@@ -6210,7 +6339,14 @@
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v11/boss_sire_g5_record.json",
+        "generation": 11,
+        "status": "reference_research_pending",
+        "category": "boss",
+        "has_file": false,
+        "pass_date": "2026-11-25"
+      }
     }
   ],
   "stages": [
@@ -6635,18 +6771,27 @@
       "catalog_notes": [],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_stages_v11_halvo_plaza_judgment_courthouse_night_master_png",
+      "selected_path": "assets/stages_v11/halvo_plaza_judgment_courthouse_night_master.png",
+      "selected_source_variant": "Gears of War: Judgment",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_stages_v11_halvo_plaza_judgment_courthouse_night_master_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/stages_v11/halvo_plaza_judgment_courthouse_night_master.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null,
+      "last_generation_attempt": {
+        "record": "data/generation_v11/stage_halvo_plaza_record.json",
+        "generation": 11,
+        "status": "generated_reference_pending_validation",
+        "category": "stage",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      },
       "parallax_status": "separate_layers_not_validated"
     },
     {
@@ -6667,18 +6812,27 @@
       "catalog_notes": [],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_stages_v11_tactics_depot_cog_industrial_courtyard_master_png",
+      "selected_path": "assets/stages_v11/tactics_depot_cog_industrial_courtyard_master.png",
+      "selected_source_variant": "Création de cour logistique pour le projet à partir du biome COG Industrial ; aucun dépôt canonique nommé revendiqué",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_stages_v11_tactics_depot_cog_industrial_courtyard_master_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/stages_v11/tactics_depot_cog_industrial_courtyard_master.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null,
+      "last_generation_attempt": {
+        "record": "data/generation_v11/stage_tactics_depot_record.json",
+        "generation": 11,
+        "status": "generated_reference_pending_validation",
+        "category": "stage",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      },
       "parallax_status": "separate_layers_not_validated"
     },
     {
@@ -6700,18 +6854,27 @@
       "catalog_notes": [],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_stages_v11_stage_tactics_lab_png",
+      "selected_path": "assets/stages_v11/stage_tactics_lab.png",
+      "selected_source_variant": "Laboratoire d’Ukkon — adaptation latérale du concept Act3Finale_ArenaFeedback de Malte Langheim",
+      "selected_variant_relation": "concept_art_candidate",
+      "asset_ids": [
+        "assets_stages_v11_stage_tactics_lab_png"
+      ],
       "target_version_candidate_available": false,
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null,
+      "last_generation_attempt": {
+        "record": "data/generation_v11/stage_tactics_lab_record.json",
+        "generation": 11,
+        "status": "generated_reference_pending_validation",
+        "category": "stage",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      },
       "parallax_status": "separate_layers_not_validated"
     },
     {
@@ -6732,18 +6895,27 @@
       "catalog_notes": [],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_stages_v11_settlement5_gears4_security_gate_master_png",
+      "selected_path": "assets/stages_v11/settlement5_gears4_security_gate_master.png",
+      "selected_source_variant": "Rue du niveau Raid et portail de sécurité, adaptation latérale issue de captures finales",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_stages_v11_settlement5_gears4_security_gate_master_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/stages_v11/settlement5_gears4_security_gate_master.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null,
+      "last_generation_attempt": {
+        "record": "data/generation_v11/stage_settlement5_record.json",
+        "generation": 11,
+        "status": "generated_reference_pending_validation",
+        "category": "stage",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      },
       "parallax_status": "separate_layers_not_validated"
     },
     {
@@ -6765,18 +6937,27 @@
       "catalog_notes": [],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_stages_v11_swarm_hive_gears4_infested_chamber_master_png",
+      "selected_path": "assets/stages_v11/swarm_hive_gears4_infested_chamber_master.png",
+      "selected_source_variant": "Composition latérale originale d’un intérieur de ruche fondée sur les environnements Swarm finaux de Gears 4",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_stages_v11_swarm_hive_gears4_infested_chamber_master_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/stages_v11/swarm_hive_gears4_infested_chamber_master.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null,
+      "last_generation_attempt": {
+        "record": "data/generation_v11/stage_swarm_hive_record.json",
+        "generation": 11,
+        "status": "generated_reference_pending_validation",
+        "category": "stage",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      },
       "parallax_status": "separate_layers_not_validated"
     },
     {
@@ -6798,18 +6979,27 @@
       "catalog_notes": [],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_stages_v11_tollen_dam_gears4_entrance_master_png",
+      "selected_path": "assets/stages_v11/tollen_dam_gears4_entrance_master.png",
+      "selected_source_variant": "Façade et accès du barrage de Tollen recomposés pour une bande de combat latérale",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_stages_v11_tollen_dam_gears4_entrance_master_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/stages_v11/tollen_dam_gears4_entrance_master.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null,
+      "last_generation_attempt": {
+        "record": "data/generation_v11/stage_tollen_dam_record.json",
+        "generation": 11,
+        "status": "generated_reference_pending_validation",
+        "category": "stage",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      },
       "parallax_status": "separate_layers_not_validated"
     },
     {
@@ -6871,18 +7061,27 @@
       "catalog_notes": [],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_stages_v11_kadar_lab_gears5_containment_chamber_master_png",
+      "selected_path": "assets/stages_v11/kadar_lab_gears5_containment_chamber_master.png",
+      "selected_source_variant": "Chambre à cuve sphérique du niveau Mt Kadar, adaptée en arène latérale",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_stages_v11_kadar_lab_gears5_containment_chamber_master_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/stages_v11/kadar_lab_gears5_containment_chamber_master.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null,
+      "last_generation_attempt": {
+        "record": "data/generation_v11/stage_kadar_lab_record.json",
+        "generation": 11,
+        "status": "generated_reference_pending_validation",
+        "category": "stage",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      },
       "parallax_status": "separate_layers_not_validated"
     },
     {
@@ -6902,18 +7101,27 @@
       "catalog_notes": [],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_stages_v11_vasgar_airport_gears5_terminal_master_png",
+      "selected_path": "assets/stages_v11/vasgar_airport_gears5_terminal_master.png",
+      "selected_source_variant": "Terminal de la carte Vasgar, composition latérale issue de deux vues de production finales",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_stages_v11_vasgar_airport_gears5_terminal_master_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/stages_v11/vasgar_airport_gears5_terminal_master.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null,
+      "last_generation_attempt": {
+        "record": "data/generation_v11/stage_vasgar_airport_record.json",
+        "generation": 11,
+        "status": "generated_reference_pending_validation",
+        "category": "stage",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      },
       "parallax_status": "separate_layers_not_validated"
     },
     {
@@ -6934,18 +7142,27 @@
       "catalog_notes": [],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_stages_v11_new_ephyra_gears5_final_battlement_master_png",
+      "selected_path": "assets/stages_v11/new_ephyra_gears5_final_battlement_master.png",
+      "selected_source_variant": "Gears 5 — Act IV Chapter 2: The Fall",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_stages_v11_new_ephyra_gears5_final_battlement_master_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/stages_v11/new_ephyra_gears5_final_battlement_master.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null,
+      "last_generation_attempt": {
+        "record": "data/generation_v11/stage_new_ephyra_record.json",
+        "generation": 11,
+        "status": "generated_reference_pending_validation",
+        "category": "stage",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      },
       "parallax_status": "separate_layers_not_validated"
     },
     {
@@ -6965,18 +7182,27 @@
       "catalog_notes": [],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_stages_v11_stage_galangi_beach_png",
+      "selected_path": "assets/stages_v11/stage_galangi_beach.png",
+      "selected_source_variant": "Plage de Galangi — rivage endommagé, adaptation latérale de la cinématique",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_stages_v11_stage_galangi_beach_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/stages_v11/stage_galangi_beach.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null,
+      "last_generation_attempt": {
+        "record": "data/generation_v11/stage_galangi_beach_record.json",
+        "generation": 11,
+        "status": "generated_reference_pending_validation",
+        "category": "stage",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      },
       "parallax_status": "separate_layers_not_validated"
     },
     {
@@ -6997,18 +7223,27 @@
       "catalog_notes": [],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_stages_v11_stage_galangi_volcano_png",
+      "selected_path": "assets/stages_v11/stage_galangi_volcano.png",
+      "selected_source_variant": "Galangi — coulées de lave et corniche adaptée au combat latéral",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_stages_v11_stage_galangi_volcano_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/stages_v11/stage_galangi_volcano.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null,
+      "last_generation_attempt": {
+        "record": "data/generation_v11/stage_galangi_volcano_record.json",
+        "generation": 11,
+        "status": "generated_reference_pending_validation",
+        "category": "stage",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      },
       "parallax_status": "separate_layers_not_validated"
     },
     {
@@ -7028,18 +7263,27 @@
       "catalog_notes": [],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_stages_v11_stage_training_hangar_png",
+      "selected_path": "assets/stages_v11/stage_training_hangar.png",
+      "selected_source_variant": "Arène originale — hangar d’essai COG; matériaux inspirés de Training Grounds Gears 5",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_stages_v11_stage_training_hangar_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/stages_v11/stage_training_hangar.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null,
+      "last_generation_attempt": {
+        "record": "data/generation_v11/stage_training_hangar_record.json",
+        "generation": 11,
+        "status": "generated_reference_pending_validation",
+        "category": "stage",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      },
       "parallax_status": "separate_layers_not_validated"
     },
     {
@@ -7060,18 +7304,27 @@
       "catalog_notes": [],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_stages_v11_stage_training_range_png",
+      "selected_path": "assets/stages_v11/stage_training_range.png",
+      "selected_source_variant": "Arène originale — piste d’essai COG; matériaux inspirés de Training Grounds Gears 5",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_stages_v11_stage_training_range_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/stages_v11/stage_training_range.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null,
+      "last_generation_attempt": {
+        "record": "data/generation_v11/stage_training_range_record.json",
+        "generation": 11,
+        "status": "generated_reference_pending_validation",
+        "category": "stage",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      },
       "parallax_status": "separate_layers_not_validated"
     },
     {
@@ -7483,18 +7736,27 @@
       ],
       "catalog_scope": "production_extension",
       "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_stages_v11_ilima_raams_shadow_evacuation_square_master_png",
+      "selected_path": "assets/stages_v11/ilima_raams_shadow_evacuation_square_master.png",
+      "selected_source_variant": "Gears of War 3 — RAAM's Shadow",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_stages_v11_ilima_raams_shadow_evacuation_square_master_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/stages_v11/ilima_raams_shadow_evacuation_square_master.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null,
+      "last_generation_attempt": {
+        "record": "data/generation_v11/stage_ilima_raams_shadow_record.json",
+        "generation": 11,
+        "status": "generated_reference_pending_validation",
+        "category": "stage",
+        "has_file": true,
+        "pass_date": "2026-11-25"
+      },
       "parallax_status": "separate_layers_not_validated"
     }
   ],
@@ -7837,8 +8099,8 @@
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": {
-        "record": "data/generation_v10/projectile_boomshot_shell_g4_record.json",
-        "generation": 10,
+        "record": "data/generation_v11/projectile_boomshot_shell_g4_record.json",
+        "generation": 11,
         "status": "reference_research_pending",
         "category": "projectile",
         "has_file": false,
@@ -7894,16 +8156,11 @@
     ],
     "costumes": [
       "marcus_skin_01",
-      "marcus_skin_02",
-      "marcus_skin_04",
       "dom_skin_01",
       "dom_skin_03",
-      "dom_skin_04",
       "baird_skin_02",
       "cole_skin_01",
-      "cole_skin_04",
       "anya_skin_01",
-      "kait_skin_01",
       "kait_skin_03",
       "raam_skin_02",
       "skorge_skin_02",
@@ -7920,7 +8177,6 @@
       "tai_skin_02",
       "dizzy_skin_02",
       "sam_skin_02",
-      "paduk_skin_02",
       "gabe_skin_02",
       "reyna_skin_02",
       "lahni_skin_01",
@@ -7938,36 +8194,15 @@
       "zealot_collectors_g5"
     ],
     "bosses": [
-      "boss_leviathan",
       "boss_hydra_skorge",
-      "boss_lambent_brumak",
-      "boss_lambent_leviathan",
-      "boss_hydra_ukkon",
-      "boss_hive_beast",
       "boss_kraken",
       "boss_flock",
       "boss_wakaatu",
       "boss_scion_g4",
-      "boss_rager_g5",
       "boss_riftworm_g2",
       "boss_sire_g5"
     ],
-    "stages": [
-      "stage_halvo_plaza",
-      "stage_tactics_depot",
-      "stage_tactics_lab",
-      "stage_settlement5",
-      "stage_swarm_hive",
-      "stage_tollen_dam",
-      "stage_kadar_lab",
-      "stage_vasgar_airport",
-      "stage_new_ephyra",
-      "stage_galangi_beach",
-      "stage_galangi_volcano",
-      "stage_training_hangar",
-      "stage_training_range",
-      "stage_ilima_raams_shadow"
-    ],
+    "stages": [],
     "projectiles": [
       "projectile_torque_bow_bolt_g3",
       "projectile_shock_grenade_g4",

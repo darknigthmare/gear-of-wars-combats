@@ -1,0 +1,73 @@
+{
+  "id": "ukkon_lab_tactics_concept_master_v11",
+  "subject_id": "stage_tactics_lab",
+  "category": "stage",
+  "purpose": "stage_master",
+  "name": "Laboratoire d’Ukkon — concept de la finale",
+  "source_game": "Gears Tactics — concept de production Acte 3",
+  "catalog_target_game": "Gears Tactics",
+  "variant": "Laboratoire d’Ukkon — adaptation latérale du concept Act3Finale_ArenaFeedback de Malte Langheim",
+  "variant_relation": "concept_art_candidate",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "animation_status": "not_requested_this_pass",
+  "status": "generated_reference_pending_validation",
+  "has_image": true,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "asset_path": "assets/stages_v11/stage_tactics_lab.png",
+  "prompt": "Create ONE static opaque wide 16:9 empty environment master for a 2D fighting game: Ukkon's laboratory arena in Gears Tactics, reconstructed from the attached PRIMARY PRODUCTION CONCEPT ART by Malte Langheim, Act3Finale_ArenaFeedback. Follow the supplied concept closely; do not turn this into a generic science lab or another Gears location. Recompose the overhead tilted view to a level lateral standing-height camera looking across a solid perimeter platform into a colossal industrial vertical shaft. Preserve the distinctive huge dim green-gray concrete-and-steel shaft walls, repeated very tall rectangular industrial ribs and lift latticework, thick vertical pipe bundles and hanging support cables, pale green-amber industrial vapor glow from far below, muted cyan-white service lights and sparse amber signals. The main identifying feature remains in the far-right middle background: THREE massive parallel black corrugated service hoses with yellow-glowing segmented ribbed couplings, arcing from the laboratory platform toward a tall pale illuminated rectangular wall aperture. Show the battered metal perimeter deck, yellow-edged pipe elbows, control consoles and three pale rounded capped containment/pressure fixtures around the inner platform edge as in the reference, placed behind the playable area. The deep inner shaft is behind the foreground fighting strip, never a gap in it. Across the entire lower quarter make one broad continuous level gunmetal deck with fine grated insets and subtle warning strips at the rear edge, side-to-side fighting space free of tall machinery, railings, cables, crates or floor openings. Move all original cover boxes behind the playable band or omit them. Preserve immense scale, worn dark iron, pale dirty concrete, densely built industrial supports, restrained green/amber palette, detailed realistic Gears industrial look with crisp 2D game readability. No creatures, characters, Hydra, Ukkon, brains, organic specimens, weapons, moving machinery, combat effects or flying debris. All tanks closed/empty mechanical fixtures. No source annotations, outline sketches, logo, UI, text, credits, watermarks, border, collage or animation. One environment scene. This represents a faithful adaptation of the production CONCEPT, not a certified reconstruction of the released level.",
+  "sources": [
+    {
+      "page_url": "https://maltelangheim.com/gears-tactics-world-design/",
+      "image_url": "https://images.squarespace-cdn.com/content/v1/55c76692e4b0ec8d22d4cdbe/1789236017333-IW8JOGQOL1DUEKQ21I1Z/Act3Finale_ArenaFeedback.jpg",
+      "source_type": "primary_production_concept_art",
+      "artist": "Malte Langheim — concept et direction artistique",
+      "scope": "Act3Finale_ArenaFeedback : vue d’ensemble de la plateforme et du puits industriel, trois grandes conduites raccordées à la paroi. Concept de production, pas une capture certifiée du niveau final.",
+      "visual_reference_used": true,
+      "reference_sha256": "322bcb53c4cb0448dd4a33e5825ccfa34b4c844a84ea314882ac2a6675b4e176"
+    },
+    {
+      "page_url": "https://maltelangheim.com/gears-tactics-world-design/",
+      "image_url": "https://images.squarespace-cdn.com/content/v1/55c76692e4b0ec8d22d4cdbe/1789236017464-MEGLJGTZU0LO8RX80R1S/Act3Finale_BossMomentConcept.jpg",
+      "source_type": "primary_production_concept_art_context_only",
+      "artist": "Malte Langheim",
+      "scope": "Concept de confrontation servant uniquement à confirmer le contexte de la finale; non fourni au générateur et boss non intégré dans le décor.",
+      "visual_reference_used": false,
+      "reference_sha256": "03bee458c07b25efe31c9c1d88b960a032c6d12c15842dd2a223c31d92ec0631"
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_stage": true,
+    "transparent_background": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "observations": [
+      "La source est un concept primaire de production précisément attribué à Act3 Finale; correspondance avec le niveau final non attestée.",
+      "Vue oblique plongeante transformée en arène latérale; le plan de combat et la profondeur visible du puits sont des adaptations.",
+      "Aucun Corps de Hydra, Ukkon ou autre ennemi ne doit être intégré au fond.",
+      "Trois grosses conduites à segments jaunes raccordées à l’ouverture claire, parois verticales avec treillis et faisceaux de tuyaux, trois fixtures pâles et consoles; le repère principal du concept est conservé.",
+      "Le puits est suggéré par la profondeur et la lumière, mais sa forme polygonale centrale a été recomposée. Les dispositifs au bord ont été interprétés comme fixtures fermées.",
+      "Bande de combat métallique plane et continue; aucun personnage, boss, logo ou texte incrusté."
+    ],
+    "remaining_checks": [
+      "Comparer ce concept à une vue du laboratoire dans le jeu final avant validation de l’édition.",
+      "Contrôler les fixtures, l’implantation des conduites et l’échelle de la plateforme dans le moteur."
+    ],
+    "alpha_channel_present": false,
+    "opaque": true
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGB",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2642098,
+    "sha256": "a6a25b7e57c0b4eb5407903f94c49ef3c1f8a0e0acf2b55e72a379fc3892d1f0"
+  },
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-bcbf7ac1-3ca1-4f23-bead-2afa99d44ca5.png"
+}

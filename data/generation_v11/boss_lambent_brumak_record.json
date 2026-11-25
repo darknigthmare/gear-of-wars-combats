@@ -1,0 +1,101 @@
+{
+  "id": "boss_lambent_brumak",
+  "subject_id": "boss_lambent_brumak",
+  "name": "Lambent Brumak",
+  "category": "boss",
+  "source_game": "Gears of War 2",
+  "catalog_target_game": "Gears of War 2",
+  "variant": "Gears of War 2 — Lambent Brumak final, assemblage statique du modèle attesté",
+  "purpose": "reference_model_assembly",
+  "variant_relation": "target_version_candidate",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "correction_required",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "generation_attempted": true,
+  "has_image": true,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "asset_path": "assets/bosses_v11/lambent_brumak_gears2_model_assembly.png",
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-67dd4749-9f88-42bb-8975-e253961f0097.png",
+  "prompt": "Use case: realistic game asset. Make one static cutout of the Lambent Brumak from the ending of Gears of War 2, faithfully matching the supplied references of that specific mutated creature. The first reference is the assembled original-game model port, the second shows its body/base and the detachable tentacle parts, and the third is the licensed Prima gameplay capture confirming the final encounter. Render ONE assembled creature only, with the visible organic anatomy of reference one: massively swollen lopsided upper head and shoulders, tooth-filled recessed face, a long distorted organic torso, knotted dark lower base with its branching root-like supports, and the long serpentine tentacles with toothed split-jaw tips arranged as in the assembled reference. Maintain its grey-brown and muted mauve organic material palette, wrinkled textures, residual dark spines and huge deformed silhouette. Do not add normal Brumak legs or mechanical arm cannons, do not add armor, humanoids, riders or another monster. The model-port refs have tiny border crops; simply bring the demonstrated support tips and tentacle tips fully inside the canvas without inventing a new lower anatomy. Three-quarter stationary presentation facing SCREEN-RIGHT. Neutral held pose, no firing, no movement, no animation, no lasers or sparks. Keep the visual completeness limited to the illustrated model assembly; no invented unseen underground body. Crisp detailed realistic game rendering with neutral light. True transparent alpha background, no sky, sand, floor, environment, cast shadow, aura, checkerboard, text, logo or watermark. Landscape canvas, camera pulled back, every extremity inside, at least ten percent transparent margin all around. Exactly one assembled subject and one frame.",
+  "sources": [
+    {
+      "page_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=716663437",
+      "image_url": "https://images.steamusercontent.com/ugc/267218898421351385/22C5CBAB6391C63CE097DEC50CC8F5249668E40D/",
+      "source_type": "community_port_claiming_original_game_model",
+      "scope": "Moon., Gears of War 2 models: Lambent Brumak. Vue assemblée du port communautaire attribué au modèle de Gears of War 2 ; géométrie non vérifiée indépendamment, très légère coupure de pointes inférieures. Source secondaire explicitement identifiée, pas un rendu publié directement par Epic.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/207fbd1207b7/research_gears_v11/bosses/lambent_brumak_steam_1.jpg",
+      "reference_sha256": "9fc59788b465ec65e75518a4b334b4e5054c3b8a0533cb6625327e6df87177f3"
+    },
+    {
+      "page_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=716663437",
+      "image_url": "https://images.steamusercontent.com/ugc/267218898421351656/E2F266CF8143DFFDD0481829FA7D0B72DEC376AC/",
+      "source_type": "community_port_parts_reference",
+      "scope": "Même port : base ramifiée et modèles d’appendices présentés séparément. Utilisé pour préciser les supports ; la présentation séparée ne prouve pas un nombre canonique de quatre tentacules simultanés.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/207fbd1207b7/research_gears_v11/bosses/lambent_brumak_steam_2.jpg",
+      "reference_sha256": "6d68b0ac03ed554aa1c8236cff28a0d2dcf7e323a526a931f17295f4e94863dc"
+    },
+    {
+      "page_url": "https://primagames.com/eguides/gears-war-2-eguide/act-v-aftermath/chapter-5-closure",
+      "image_url": "https://primagames.com/eguides/media/files/eguide_assets/gears-war-2-eguide/092-189_act_03-05-web-resources/image/A5C5E27.jpg",
+      "source_type": "licensed_official_guide_gameplay_capture",
+      "scope": "Guide Prima, Closure, rencontre finale. Confirme la silhouette supérieure mutée et les appendices dans le jeu. Vue partielle sous éclairage de combat ; ne documente pas toute la base.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/207fbd1207b7/research_gears_v11/bosses/lambent_brumak_prima_A5C5E27.jpg",
+      "reference_sha256": "38a080669f2b761f4d77cfb8a2b65e9a624d0d4361977e6920d6716a6978b4a6"
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": false,
+    "complete_referenced_model_assembly_in_frame": true,
+    "transparent_background": true,
+    "orientation_facing_right": false,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Un seul assemblage de créature, torse difforme, grosse tête, appendices à extrémités dentées et base ramifiée conservés ; absence de cavalier, d’armement mécanique et de décor.",
+      "Le rendu de face légèrement oblique ne satisfait pas clairement l’orientation trois quarts vers la droite. L’image reste un candidat à validation, non prête pour production.",
+      "La base ramifiée est attestée par le port communautaire, mais sa correspondance complète au modèle du jeu et sa pose restent à contrôler. Les quelques pointes auparavant coupées par les bords ont été reconstruites ; aucune anatomie souterraine supplémentaire n’est revendiquée.",
+      "Le cadrage laisse peu de marge en bas et en haut. Les pixels alpha partiels et franges exigent une validation avant atlas.",
+      "La capture du guide ne montre que le haut ; le port sert d’assemblage complémentaire avec provenance secondaire explicite."
+    ],
+    "remaining_checks": [
+      "Vérifier nombre, attache et longueur des tentacules au modèle original Gears of War 2.",
+      "Corriger ou valider le trois quarts vers la droite et les marges avant intégration.",
+      "Comparer le matériau gris/mauve du port à l’apparence en jeu sous éclairage neutre."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1586,
+    "height": 992,
+    "bytes": 1368413,
+    "sha256": "d5844e62442b143d72e8b2b9a0dbd41f33f57cdf968ae7fdb43157db088eb801",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.7221879703453606,
+    "subject_bbox_alpha_ge_128": [
+      150,
+      19,
+      1463,
+      980
+    ],
+    "subject_margins_ltrb_px": [
+      150,
+      19,
+      123,
+      12
+    ],
+    "native_copy_verified": true
+  }
+}
