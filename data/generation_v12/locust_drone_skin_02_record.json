@@ -1,0 +1,68 @@
+{
+  "id": "locust_drone_skin_02",
+  "subject_id": "locust_drone_skin_02",
+  "costume_id": "locust_drone_skin_02",
+  "character_id": "locust_drone",
+  "name": "Drone locuste — E-Day",
+  "category": "costume",
+  "source_game": "Gears of War: E-Day",
+  "catalog_target_game": "Gears of War: E-Day",
+  "requested_variant": "Modèle final E-Day complet en pied, tenue à documenter",
+  "purpose": "reference_research",
+  "status": "reference_research_pending",
+  "blocking_reason": "full_body_reference_not_visually_established",
+  "pass_date": "2026-11-27",
+  "generation_attempted": false,
+  "has_image": false,
+  "asset_path": null,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "sources": [
+    {
+      "page_url": "https://www.artstation.com/artwork/xddAaO",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/103/198/680/large/aryan-hanbeck-drone.webp?1791932180",
+      "source_type": "first_party_art_director_production_render",
+      "artist": "Aryan Hanbeck / The Coalition",
+      "scope": "Portrait du modèle en jeu : tête et peau visibles, mais pas le corps, les jambes ou l'équipement complet.",
+      "visual_reference_used": false,
+      "visually_inspected": true,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/locust_drone_eday_model.webp",
+      "reference_sha256": "78d72a0481ffbd3f50181d3263da792a204bba3ed6061bf8493d8504e8e24dba"
+    },
+    {
+      "page_url": "https://www.artstation.com/artwork/KR3KG4",
+      "source_type": "production_character_artist_portfolio",
+      "artist": "Antoine Verney-Carron / Mighty Canvas",
+      "scope": "La page crédite les parties organiques du Drone. Les trois images dr01/dr02/dr03 identifiées par les métadonnées publiques n'ont pas pu être téléchargées (HTTP 403). Elles n'ont donc pas été inspectées et ne prouvent pas ici une référence en pied.",
+      "visual_reference_used": false,
+      "visually_inspected": false,
+      "access_result": "image_download_http_403",
+      "discovered_image_urls": [
+        "https://cdna.artstation.com/p/assets/images/images/103/359/138/large/antoine-verney-carron-dr01.jpg?1792447655",
+        "https://cdna.artstation.com/p/assets/images/images/103/359/140/large/antoine-verney-carron-dr02.jpg?1792447660",
+        "https://cdnb.artstation.com/p/assets/images/images/103/359/143/large/antoine-verney-carron-dr03.jpg?1792447665"
+      ]
+    },
+    {
+      "page_url": "https://giorgiobaroni.artstation.com/projects/mOOgBZ",
+      "source_type": "production_concept_artist_portfolio",
+      "scope": "Explorations anatomiques précoces, identifiées comme concepts par l'auteur ; ne remplacent pas une vue du modèle final habillé.",
+      "visual_reference_used": false,
+      "visually_inspected": false
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "observations": [
+      "La tête de l'édition cible est établie par un rendu de production, mais pas le costume entier.",
+      "Aucun corps de Drone 2006, Ultimate Edition ou d'une autre édition n'a été substitué.",
+      "Aucun appel de génération effectué pour cette cible pendant V12."
+    ],
+    "remaining_checks": [
+      "Obtenir une référence complète accessible du modèle final E-Day, avec avant, dos, jambes et pieds.",
+      "Établir la tenue précise du catalogue avant toute génération en pied."
+    ]
+  }
+}

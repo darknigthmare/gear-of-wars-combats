@@ -1,0 +1,49 @@
+{
+  "id": "boss_riftworm_g2",
+  "subject_id": "boss_riftworm_g2",
+  "name": "Riftworm — rencontre environnementale",
+  "category": "boss",
+  "source_game": "Gears of War 2",
+  "requested_variant": "Gears of War 2 — référence finale complète à documenter",
+  "purpose": "reference_research",
+  "status": "reference_research_pending",
+  "pass_date": "2026-11-27",
+  "generation_attempted": false,
+  "has_image": false,
+  "asset_path": null,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation_status": "not_requested_this_pass",
+  "sources": [
+    {
+      "page_url": "https://hawkprey.artstation.com/projects/LexBR",
+      "source_type": "production_artist_concept",
+      "scope": "GOW2 Riftworm par James Hawkins : tête et partie émergée dans un concept. Ni turnaround du corps entier ni preuve exhaustive du modèle final.",
+      "visual_reference_used": false,
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/000/538/775/large/james-hawkins-riftworm.jpg?1426063908",
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/riftworm_g2_concept.jpg",
+      "reference_sha256": "065f684f11dbd5f7484e7aa0813787c0ea9bb2297c8b289553c2760ebf611013",
+      "visually_inspected": true
+    },
+    {
+      "page_url": "https://de45xmedrsdbp.cloudfront.net/Resources/files/GDC09_Smedberg_RenderingTechniques-1415210295.pdf",
+      "source_type": "first_party_technical_presentation",
+      "scope": "Présentation Epic sur les techniques de rendu Gears 2, sections intérieures du Riftworm et chambres cardiaques ; contexte de rencontre environnementale, pas silhouette extérieure complète.",
+      "visual_reference_used": false,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/gdc09_rendering_gears2.pdf",
+      "reference_sha256": "059c6990220f1764206aa1ff21aaabe4a70c625b1b3cc3d31aec1aa167250fd6",
+      "visually_inspected": true
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "observations": [
+      "La silhouette émergée de concept est documentée, mais produire un ver entier imposerait de reconstruire une anatomie non montrée.",
+      "La fiche reste une rencontre environnementale. Un corps miniature ou une arène réinventée ne remplace pas les coupes, hazards et espaces réellement à produire."
+    ],
+    "remaining_checks": [
+      "Collecter captures du Riftworm final Gears 2 et vues de son intérieur ; définir séparément référence extérieure, morceaux et espaces jouables."
+    ]
+  }
+}

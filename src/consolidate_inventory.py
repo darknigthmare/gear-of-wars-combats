@@ -349,7 +349,10 @@ def relation_for(asset: dict, category: str) -> str:
 
 
 def select_reference(assets: list[dict]):
-    eligible = [a for a in assets if a["purpose"] != "presentation"]
+    # A copied PNG is a physical file, but cannot satisfy a catalog identity
+    # until a provenance record establishes which edition and subject it is.
+    eligible = [a for a in assets if a["purpose"] != "presentation"
+                and a.get("quality_state") != "metadata_pending"]
     return max(eligible, key=lambda a: (a["selection_priority"], a["path"]), default=None)
 
 

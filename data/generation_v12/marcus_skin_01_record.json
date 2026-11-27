@@ -1,0 +1,151 @@
+{
+  "id": "marcus_skin_01",
+  "subject_id": "marcus_skin_01",
+  "costume_id": "marcus_skin_01",
+  "character_id": "marcus",
+  "name": "Marcus Fenix — E-Day",
+  "category": "costume",
+  "source_game": "Gears of War: E-Day",
+  "catalog_target_game": "Gears of War: E-Day",
+  "variant": "Marcus jeune — modèle de production E-Day",
+  "variant_relation": "target_version_candidate",
+  "purpose": "reference_fullbody",
+  "status": "generated_reference_pending_validation",
+  "generation_status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "pass_date": "2026-11-27",
+  "generation_attempted": true,
+  "generation_attempt_count": 1,
+  "has_image": true,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "pose": "static_front_three_quarter_facing_right",
+  "asset_path": "assets/costumes_v12/marcus_eday.png",
+  "original_output_path": "/workspace/scratch/3c791759fb15/generated_images/exec-4451194c-0db8-4256-a4dc-3041be307968.png",
+  "prompt": "Create exactly ONE full-body static transparent-background character reference sprite of young Marcus Fenix wearing his Gears of War: E-Day production costume shown in these references by P-o Lévesque of The Coalition. All five references depict this same E-Day model. Reference 1 gives the textured front and overall proportions down through the thighs, reference 2 the textured front and back construction, reference 3 the exact boots from several angles, reference 4 the high-poly body geometry down to the knees and feet (its pale gray clay material is NOT the costume color), and reference 5 the finished face and bandana. Preserve the identity and precise costume from these references; do not substitute original 2006 Marcus, the Ultimate Edition model, or old Gears 5 Marcus.\nYoung but stern rugged face, heavy low brows, blue gray eyes, short dark hair, light rough stubble and the small central dark chin patch. Dark charcoal tied bandana with the small white shield insignia visible in the references. Massive dark weathered gunmetal armor with two big circular pectoral plates and small ochre triangular markings, central COG skull-and-cog insignia, thick curved collar, strap buckles over both shoulders, metal shoulder plates, full segmented biceps and forearm guards over dark undersuit, dark gloves, central circular belt buckle, two brown utility pouches, armored codpiece, dark pants with thigh armor, exact segmented knee and shin protection and heavy strapped boots. Match the plate shapes, buckles, piping, proportions, subdued blue rear armor lights, wear and material colors. No large bright blue chest lamps or bare upper arms from other editions.\nPose: stationary neutral combat-ready stance for a side-view fighting game, entire body facing SCREEN RIGHT with only a slight front three-quarter turn so the chest remains readable, arms lowered slightly away from torso with relaxed hands, knees gently bent and feet grounded, no attack, no movement and no held weapon. Preserve the head-to-body scale and muscular build of the actual model, not chibi or caricature.\nOne single full figure only, head through both boot soles entirely inside frame. Center the subject at no more than 75 percent of canvas height with at least 12 percent empty transparent padding at top and bottom. True RGBA transparency, neutral readable studio lighting, realistic textured game rendering with crisp contours. No floor, cast shadow, landscape, smoke, aura, text overlay, logo outside costume, watermark, caption, UI, collage, turnaround or sprite sheet. Do not copy the presentation typography. This is a static reference candidate, not an animation.",
+  "sources": [
+    {
+      "page_url": "https://www.artstation.com/artwork/Z00gZ1",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/103/210/218/large/p-o-levesque-keyart5.webp?1791972741",
+      "source_type": "production_character_artist_render",
+      "artist": "P-o Lévesque",
+      "scope": "Rendu texturé de face, tête, torse, bras et cuisses ; les bottes ne sont pas dans cette vue.",
+      "visual_reference_used": true,
+      "visually_inspected": true,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/marcus_eday_keyart.webp",
+      "reference_sha256": "667f4a3a8f1ef593e79aaa23f2d95dcf8f555dffc4029a336ee71cde5e266872"
+    },
+    {
+      "page_url": "https://www.artstation.com/artwork/Z00gZ1",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/103/203/225/large/p-o-levesque-marcus-front-back.webp?1791947592",
+      "source_type": "production_character_artist_render",
+      "artist": "P-o Lévesque",
+      "scope": "Construction avant/arrière du torse ; la vue ne couvre pas le corps entier.",
+      "visual_reference_used": true,
+      "visually_inspected": true,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/marcus_eday_front_back.webp",
+      "reference_sha256": "58885e40dce84e4afc112e3e94cf17d57e3342333c1c0d8153a5a6472d20f57c"
+    },
+    {
+      "page_url": "https://www.artstation.com/artwork/Z00gZ1",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/103/203/885/large/p-o-levesque-boots.webp?1791950093",
+      "source_type": "production_character_artist_render",
+      "artist": "P-o Lévesque",
+      "scope": "Bottes du même modèle, vues avant/arrière et trois-quarts.",
+      "visual_reference_used": true,
+      "visually_inspected": true,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/marcus_eday_boots.webp",
+      "reference_sha256": "493973efb850f41702dc6535e3b87972666235bbdbe84b942ff3f803307c9e2a"
+    },
+    {
+      "page_url": "https://www.artstation.com/artwork/Z00gZ1",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/103/203/933/large/p-o-levesque-marcus-clay05.webp?1791950264",
+      "source_type": "production_character_artist_render",
+      "artist": "P-o Lévesque",
+      "scope": "Géométrie haute définition du corps et des jambes en deux poses accroupies ; matériau gris de sculpture, pas couleur du costume.",
+      "visual_reference_used": true,
+      "visually_inspected": true,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/marcus_eday_clay.webp",
+      "reference_sha256": "729edb021965fc34e01f1fb7ee49ac913762257b4798d002f4751d7b8aa41878"
+    },
+    {
+      "page_url": "https://www.artstation.com/artwork/Z00gZ1",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/103/194/180/large/p-o-levesque-marcus-hex.webp?1791922411",
+      "source_type": "production_character_artist_render",
+      "artist": "P-o Lévesque",
+      "scope": "Gros plan texturé de la tête et du bandana du modèle de production.",
+      "visual_reference_used": true,
+      "visually_inspected": true,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/marcus_eday_hex.webp",
+      "reference_sha256": "a73b79fc552facebb1463498e60e6ca1b1e8d1a472c46579fe47358d34903332"
+    }
+  ],
+  "source_urls": [
+    "https://www.artstation.com/artwork/Z00gZ1",
+    "https://olygraph.artstation.com/projects/Z00gZ1"
+  ],
+  "reference_images": [
+    "/workspace/scratch/3c791759fb15/research_v12/marcus_eday_keyart.webp",
+    "/workspace/scratch/3c791759fb15/research_v12/marcus_eday_front_back.webp",
+    "/workspace/scratch/3c791759fb15/research_v12/marcus_eday_boots.webp",
+    "/workspace/scratch/3c791759fb15/research_v12/marcus_eday_clay.webp",
+    "/workspace/scratch/3c791759fb15/research_v12/marcus_eday_hex.webp"
+  ],
+  "qa": {
+    "reference_visually_inspected": true,
+    "output_visually_inspected": true,
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "orientation_facing_right": true,
+    "orientation_note": "Visage vers la droite et corps en trois-quarts avant ; la vue est plus frontale que le profil de combat demandé.",
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Modèle jeune, bandana, armure à disques pectoraux, manches et protections complètes, deux poches et bottes comparés aux cinq vues du même modèle E-Day.",
+      "Une seule silhouette complète ; sortie native conservée sans recadrage ni réencodage.",
+      "Transparence réelle mesurée ; le maximum alpha de la sortie est 254 et de faibles valeurs alpha persistent autour de certains contours.",
+      "Marges verticales de 68 et 70 px : l'objectif de 12 % n'est pas atteint, mais tête et semelles restent entièrement dans le cadre.",
+      "Pose recomposée et détails fins interprétés : ne vaut pas une certification de fidélité 1:1."
+    ],
+    "remaining_checks": [
+      "Comparer le visage, les proportions, les attaches, inscriptions et rayures aux vues de production et aux captures du jeu.",
+      "Vérifier les faibles pixels alpha et les franges sur fonds clair et sombre avant production.",
+      "Définir une pose latérale cohérente avec les autres combattants dans une passe distincte.",
+      "Aucune animation, collision ni intégration moteur réalisée."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2136935,
+    "sha256": "96958efb1028baaac9128444ab633fb3a1770ee57e955302a07d5d1a851f2e6e",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.6042353312174479,
+    "subject_bbox_alpha_ge_128": [
+      151,
+      68,
+      883,
+      1466
+    ],
+    "subject_margins_ltrb_px": [
+      151,
+      68,
+      141,
+      70
+    ],
+    "native_copy_verified": true
+  },
+  "prompt_sha256": "888489973fbc97146bcfb86f7effddb04cb44be9cb050093defb2af5fe2bddaf"
+}

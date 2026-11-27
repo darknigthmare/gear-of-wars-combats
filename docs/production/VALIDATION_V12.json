@@ -1,0 +1,601 @@
+{
+  "schema_version": 1,
+  "version": "V12",
+  "date": "2026-11-27",
+  "project": "Gears of War Combats",
+  "scope": "Static reference candidates and documentary integration of the combat guide and two extensions; no new gameplay runtime.",
+  "baseline_commit": "370e49593ee6690076b4051afc7357d1e1707aad",
+  "previous_pngs_unchanged": 148,
+  "historical_records_and_reports_unchanged": 270,
+  "new_pngs": 12,
+  "new_archived_pngs": 3,
+  "new_archives": [
+    {
+      "path": "rejected_candidates/bosses_v12/flock_density_candidate.png",
+      "sha256": "375f96dc8e9967dab91f20be85581baae38b9e50cf92b1d473dae46b1497d6ce",
+      "reason": "Première sortie Flock V12 : Leeches trop grosses et trop alignées pour la masse collective visée ; remplacée par assets/bosses_v12/flock_gears5_swarm.png après révision de densité. Conservée comme révision, hors total actif ; aucune conformité 1:1 certifiée."
+    },
+    {
+      "path": "rejected_candidates/bosses_v12/kraken_framing_candidate.png",
+      "sha256": "1235ba02953bd70173a0f6160d22f05ea103847191d62873acd98134b40b723e",
+      "reason": "Première sortie Kraken V12 : marges insuffisantes autour de la tête et du manteau ; remplacée par assets/bosses_v12/kraken_gears5_head_mantle.png après correction de cadrage par le générateur. Conservée comme révision, hors total actif ; aucune conformité 1:1 certifiée."
+    },
+    {
+      "path": "rejected_candidates/costumes_v12/swarm_drone_skin_02_mirrored_bandolier.png",
+      "sha256": "30c465f3e58a6129c4bdbe521e7a595ea73451b57efc8704ba0fea931a3151fa",
+      "reason": "Première sortie du Drone de l’Essaim standard Gears 5 V12 : orientation anatomique du harnais inversée ; remplacée par assets/costumes_v12/swarm_drone_skin_02.png après correction par le générateur. Conservée comme révision, hors total actif ; aucune conformité 1:1 certifiée."
+    }
+  ],
+  "new_png_native_copies_verified": 12,
+  "generation_v12_records": 21,
+  "generation_v12_records_without_file": 9,
+  "new_categories": {
+    "boss": 2,
+    "costume": 10
+  },
+  "totals": {
+    "roster_characters": 36,
+    "characters_with_reference": 36,
+    "characters_missing": 0,
+    "production_character_entries": 20,
+    "production_characters_with_reference": 15,
+    "character_catalog_entries": 56,
+    "catalog_characters_with_reference": 51,
+    "catalog_characters_missing": 5,
+    "character_png_files": 60,
+    "costume_catalog_entries": 85,
+    "costumes_with_reference": 58,
+    "costumes_without_explicit_reference": 27,
+    "costume_png_files": 23,
+    "reused_character_pngs_for_costumes": 35,
+    "boss_catalog_entries": 31,
+    "bosses_with_reference": 26,
+    "boss_png_files": 26,
+    "stage_catalog_entries": 34,
+    "stages_with_reference": 34,
+    "stage_png_files": 35,
+    "projectile_catalog_entries": 8,
+    "projectiles_with_reference": 4,
+    "projectiles_missing": 4,
+    "projectile_png_files": 4,
+    "additional_reference_groups": 1,
+    "active_png_files": 148,
+    "unique_active_png_sha256": 148,
+    "archived_png_files": 15,
+    "canonical_fidelity_validated": 0,
+    "completed_animation_sets": 0
+  },
+  "warnings": [],
+  "new_assets": [
+    {
+      "path": "assets/bosses_v12/flock_gears5_swarm.png",
+      "subject_id": "boss_flock",
+      "category": "boss",
+      "sha256": "b5f0e21f735ac774ff04064c6a3b0e5a19bcf11cc22d4fac84c7c0a0749610f8",
+      "width": 1374,
+      "height": 1145,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "fully_transparent_fraction": 0.63771,
+        "near_opaque_fraction_alpha_ge_240": 0.310656,
+        "subject_bbox_alpha_ge_128": [
+          182,
+          125,
+          1204,
+          1018
+        ],
+        "subject_margins_ltrb_px": [
+          182,
+          125,
+          170,
+          127
+        ]
+      },
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "native_copy_verified": true
+    },
+    {
+      "path": "assets/bosses_v12/kraken_gears5_head_mantle.png",
+      "subject_id": "boss_kraken",
+      "category": "boss",
+      "sha256": "b87f7aebc35c6fa9b6563060389ea38b2665ab5292a4253b65536167b4f13536",
+      "width": 1727,
+      "height": 910,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "fully_transparent_fraction": 0.764595,
+        "near_opaque_fraction_alpha_ge_240": 0.227912,
+        "subject_bbox_alpha_ge_128": [
+          314,
+          168,
+          1410,
+          793
+        ],
+        "subject_margins_ltrb_px": [
+          314,
+          168,
+          317,
+          117
+        ]
+      },
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "native_copy_verified": true
+    },
+    {
+      "path": "assets/costumes_v12/clayton_gears5_operation3.png",
+      "subject_id": "clayton_skin_02",
+      "category": "costume",
+      "sha256": "3b503debd5a6e2a159b87edd37fbad42dcb860fc9dfc4359cd7696e45c6ac8e0",
+      "width": 1151,
+      "height": 1367,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "fully_transparent_fraction": 0.65044,
+        "near_opaque_fraction_alpha_ge_240": 0.329601,
+        "subject_bbox_alpha_ge_128": [
+          187,
+          18,
+          1060,
+          1351
+        ],
+        "subject_margins_ltrb_px": [
+          187,
+          18,
+          91,
+          16
+        ]
+      },
+      "quality_state": "candidate",
+      "variant_relation": "edition_unverified",
+      "native_copy_verified": true
+    },
+    {
+      "path": "assets/costumes_v12/del_skin_01.png",
+      "subject_id": "del_skin_01",
+      "category": "costume",
+      "sha256": "4f385264e9311cebc9fdb78329f3384c6b461292f9876eaabb2f078a0820fd13",
+      "width": 1024,
+      "height": 1536,
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.707298,
+        "near_opaque_fraction_alpha_ge_240": 0.269557,
+        "subject_bbox_alpha_ge_128": [
+          196,
+          86,
+          806,
+          1488
+        ],
+        "subject_margins_ltrb_px": [
+          196,
+          86,
+          218,
+          48
+        ]
+      },
+      "quality_state": "candidate",
+      "variant_relation": "edition_unverified",
+      "native_copy_verified": true
+    },
+    {
+      "path": "assets/costumes_v12/dom_eday.png",
+      "subject_id": "dom_skin_01",
+      "category": "costume",
+      "sha256": "24e692f56d85a46970c4bd84eba48630f5ac5d3f730f54c36ed195451e724298",
+      "width": 1024,
+      "height": 1536,
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.583901,
+        "near_opaque_fraction_alpha_ge_240": 0.39381,
+        "subject_bbox_alpha_ge_128": [
+          114,
+          121,
+          914,
+          1495
+        ],
+        "subject_margins_ltrb_px": [
+          114,
+          121,
+          110,
+          41
+        ]
+      },
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "native_copy_verified": true
+    },
+    {
+      "path": "assets/costumes_v12/jack_tactics.png",
+      "subject_id": "jack_skin_02",
+      "category": "costume",
+      "sha256": "b4a3568b1c908fe74a0c78987d92554fa37546c38728e7f4f067fae346dc0687",
+      "width": 1363,
+      "height": 1154,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "fully_transparent_fraction": 0.663791,
+        "near_opaque_fraction_alpha_ge_240": 0.305819,
+        "subject_bbox_alpha_ge_128": [
+          85,
+          31,
+          1305,
+          1137
+        ],
+        "subject_margins_ltrb_px": [
+          85,
+          31,
+          58,
+          17
+        ]
+      },
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "native_copy_verified": true
+    },
+    {
+      "path": "assets/costumes_v12/jd_skin_01.png",
+      "subject_id": "jd_skin_01",
+      "category": "costume",
+      "sha256": "42d82fd578c054078b5883d4fbbb480d734874e7bcfdfd38a36c01b76768e3bc",
+      "width": 1024,
+      "height": 1536,
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.691867,
+        "near_opaque_fraction_alpha_ge_240": 0.286333,
+        "subject_bbox_alpha_ge_128": [
+          195,
+          93,
+          804,
+          1486
+        ],
+        "subject_margins_ltrb_px": [
+          195,
+          93,
+          220,
+          50
+        ]
+      },
+      "quality_state": "candidate",
+      "variant_relation": "edition_unverified",
+      "native_copy_verified": true
+    },
+    {
+      "path": "assets/costumes_v12/marcus_eday.png",
+      "subject_id": "marcus_skin_01",
+      "category": "costume",
+      "sha256": "96958efb1028baaac9128444ab633fb3a1770ee57e955302a07d5d1a851f2e6e",
+      "width": 1024,
+      "height": 1536,
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.604235,
+        "near_opaque_fraction_alpha_ge_240": 0.375718,
+        "subject_bbox_alpha_ge_128": [
+          151,
+          68,
+          883,
+          1466
+        ],
+        "subject_margins_ltrb_px": [
+          151,
+          68,
+          141,
+          70
+        ]
+      },
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "native_copy_verified": true
+    },
+    {
+      "path": "assets/costumes_v12/reyna_blood_red_g5.png",
+      "subject_id": "reyna_blood_red_g5",
+      "category": "costume",
+      "sha256": "7b7a1b3cac0ac10fe55e45373fbc17e00da1258ecc999c9cef243cb13923d3b0",
+      "width": 1024,
+      "height": 1536,
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.560959,
+        "near_opaque_fraction_alpha_ge_240": 0.400083,
+        "subject_bbox_alpha_ge_128": [
+          71,
+          65,
+          956,
+          1495
+        ],
+        "subject_margins_ltrb_px": [
+          71,
+          65,
+          68,
+          41
+        ]
+      },
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "native_copy_verified": true
+    },
+    {
+      "path": "assets/costumes_v12/swarm_drone_skin_02.png",
+      "subject_id": "swarm_drone_skin_02",
+      "category": "costume",
+      "sha256": "1a52f335f703790d0002a8e4dd98a596d8b9febd0c1304d904951fcbef346ef0",
+      "width": 1199,
+      "height": 1312,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "fully_transparent_fraction": 0.665555,
+        "near_opaque_fraction_alpha_ge_240": 0.309326,
+        "subject_bbox_alpha_ge_128": [
+          236,
+          104,
+          952,
+          1263
+        ],
+        "subject_margins_ltrb_px": [
+          236,
+          104,
+          247,
+          49
+        ]
+      },
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "native_copy_verified": true
+    },
+    {
+      "path": "assets/costumes_v12/swarm_drone_uir_g5.png",
+      "subject_id": "swarm_drone_uir_g5",
+      "category": "costume",
+      "sha256": "9301dd15b55dd1cb700d591fd063c95e060ea6c14259675b88fccfea4cc94d8f",
+      "width": 1159,
+      "height": 1357,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "fully_transparent_fraction": 0.599629,
+        "near_opaque_fraction_alpha_ge_240": 0.365784,
+        "subject_bbox_alpha_ge_128": [
+          150,
+          73,
+          982,
+          1312
+        ],
+        "subject_margins_ltrb_px": [
+          150,
+          73,
+          177,
+          45
+        ]
+      },
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "native_copy_verified": true
+    },
+    {
+      "path": "assets/costumes_v12/zealot_collectors_g5.png",
+      "subject_id": "zealot_collectors_g5",
+      "category": "costume",
+      "sha256": "a096dd8bca846bb48fe3325f2bdcec3699d313166eac5387e0b5199cdc47307f",
+      "width": 1024,
+      "height": 1536,
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.647716,
+        "near_opaque_fraction_alpha_ge_240": 0.322893,
+        "subject_bbox_alpha_ge_128": [
+          154,
+          33,
+          862,
+          1494
+        ],
+        "subject_margins_ltrb_px": [
+          154,
+          33,
+          162,
+          42
+        ]
+      },
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "native_copy_verified": true
+    }
+  ],
+  "inventory_tests": {
+    "status": "passed",
+    "tests": 14,
+    "command": "python -m unittest discover -s tests -p 'test_inventory*.py' -v",
+    "log": "docs/production/INVENTORY_TESTS_V12.txt"
+  },
+  "data_validation": {
+    "counts": {
+      "fighters": 36,
+      "costume_records": 75,
+      "moves": 179,
+      "arcade_routes": 36,
+      "combos": 24,
+      "bosses": 24,
+      "boss_phases": 72,
+      "stages": 24,
+      "parallax_layers": 144,
+      "campaign_chapters": 12,
+      "animation_drawings_per_side": 552
+    },
+    "checks": [
+      "Unique identifiers",
+      "Combatant and rival references",
+      "Movement ownership and nonnegative costs",
+      "Boss stage references and phase timings",
+      "Stage layers and tournament rules",
+      "Arcade opponents",
+      "Campaign stage and boss references",
+      "Animation estimate total"
+    ],
+    "errors": [],
+    "status": "passed",
+    "limits": "Does not validate canonical visual fidelity, balance, or browser controls.",
+    "scope": "Original structured design data (V1 core). The expanded production catalog and visual references are covered by the separate inventory checks."
+  },
+  "gallery_check": {
+    "status": "passed",
+    "embedded_data_exactly_matches_manifests": true,
+    "javascript_syntax": "syntax_ok",
+    "javascript_unchanged_from_v11": true,
+    "navigation_links_checked": 11,
+    "asset_links_checked": 163,
+    "browser_rendering": "not_run",
+    "limitations": [
+      "No browser layout or interaction verification; the gallery JavaScript has not changed, its embedded data and linked files are verified."
+    ]
+  },
+  "files_and_history_check": {
+    "status": "passed",
+    "baseline_commit": "370e49593ee6690076b4051afc7357d1e1707aad",
+    "previous_pngs_unchanged": 148,
+    "historical_records_and_reports_unchanged": 270
+  },
+  "source_guides_check": {
+    "status": "passed",
+    "documents": 3,
+    "verbatim_sha256_verified": true
+  },
+  "bible_build_check": {
+    "status": "passed",
+    "output": "livrables/Gears_of_War_Combats_Bible_v12.md",
+    "sha256": "460589dc411db0f7bdfaf7edd607cdc707a75661e4f2afb8e6b48f9aa4a0f1f7",
+    "source_inputs_verified": 13,
+    "source_chapters": 6,
+    "requirements": 68,
+    "acceptance_cases": 40,
+    "acceptance_runtime_tests": "not_run",
+    "historical_binaries_rebuilt": false,
+    "reproducible_rebuild_same_sha256": true
+  },
+  "json_check": {
+    "status": "passed",
+    "changed_json_files_parsed": 31
+  },
+  "engine_tests": {
+    "status": "not_run",
+    "reason": "Game engine and gameplay scope unchanged in this pass."
+  },
+  "markdown_links": {
+    "status": "passed",
+    "files_checked": 10,
+    "local_link_occurrences_checked": 712,
+    "per_file": {
+      "README.md": 61,
+      "docs/combat_extensions.md": 8,
+      "docs/core_bible.md": 4,
+      "docs/guides/combat/README.md": 9,
+      "docs/production/CONSOLIDATION_2026-11-27.md": 143,
+      "docs/production/GUIDE_INTEGRATION_V12.md": 7,
+      "docs/production/LISTING_V12.md": 63,
+      "docs/production/REPRISE_V12.md": 19,
+      "docs/references/production-v12-research.md": 38,
+      "livrables/Gears_of_War_Combats_Bible_v12.md": 360
+    },
+    "root_readme_included": true,
+    "root_readme_final_check_pending": false,
+    "scope": "Changed or added Markdown relative to the V11 baseline, without following external URLs."
+  },
+  "git_diff_check": "passed",
+  "generation_results": {
+    "subject_records": 21,
+    "generated_candidates": [
+      "boss_flock",
+      "boss_kraken",
+      "clayton_skin_02",
+      "del_skin_01",
+      "dom_skin_01",
+      "jack_skin_02",
+      "jd_skin_01",
+      "marcus_skin_01",
+      "reyna_blood_red_g5",
+      "swarm_drone_skin_02",
+      "swarm_drone_uir_g5",
+      "zealot_collectors_g5"
+    ],
+    "generator_refusals": [
+      "baird_skin_02",
+      "fahz_hivebuster_g5",
+      "kait_skin_03",
+      "kantus_skin_02"
+    ],
+    "reference_research_without_generation": [
+      "boss_hydra_skorge",
+      "boss_riftworm_g2",
+      "boss_wakaatu",
+      "locust_drone_skin_02",
+      "theron_skin_02"
+    ],
+    "refusals_retried": false
+  },
+  "guide_integration_check": {
+    "status": "passed",
+    "verbatim_originals": 3,
+    "original_copies_present_at_baseline": 0,
+    "source_sections_traced": 68,
+    "unique_section_ids": true,
+    "csv_and_json_rows_identical": true,
+    "documentary_decisions": {
+      "retained": 57,
+      "adapted": 8,
+      "deferred": 2,
+      "offer_decision_before_activation": 1
+    },
+    "acceptance_cases_preserved_verbatim": 40,
+    "acceptance_case_split": {
+      "extension_01": 18,
+      "extension_02": 22
+    },
+    "runtime_acceptance_cases_executed": 0,
+    "relative_document_links_and_anchors_cross_reviewed": 28,
+    "source_templates_preserved": {
+      "extension_01": 10,
+      "extension_02": 6
+    },
+    "individual_content_templates_claimed_complete": false,
+    "lore_and_access_scope_review": "Canon, playable adaptation, compatible original content, alternate/crossover and unconfirmed content are distinguished. Access and subscription rules remain inactive design specifications."
+  },
+  "independent_visual_review": {
+    "status": "limitations_confirmed",
+    "subjects": [
+      "boss_kraken",
+      "boss_flock",
+      "marcus_skin_01"
+    ],
+    "source_images_cross_reviewed": 10,
+    "findings": [
+      "Kraken covers head/mantle only; no complete creature claimed.",
+      "Flock is a recomposed collective formation; density and individual anatomy remain to validate.",
+      "Marcus is a complete but mainly front-three-quarter candidate; margins and alpha reservations match the native output."
+    ],
+    "fidelity_1to1_certified": false
+  },
+  "limitations": [
+    "All 12 new active PNGs remain candidates; no canonical 1:1 fidelity certified.",
+    "JD and Del Outsider are based mainly on preproduction concepts; Clayton Operation 3 is not proven equivalent to the internal Veteran label.",
+    "Kraken is a partial head/mantle reference; Flock is a collective recomposition.",
+    "Narrow margins, reconstructed regions, faces, small details and alpha fringes remain listed by subject.",
+    "No animations, hitboxes, playable roster expansion, tag system or subscription service implemented.",
+    "Historical V1 PDF, DOCX and spreadsheets were not rebuilt.",
+    "Browser/mobile rendering not verified; no available Chromium browser was used."
+  ],
+  "git_diff_check_scope": "All staged added and modified files; generated CSV line endings normalized to LF while preserving all 68 rows and fields."
+}

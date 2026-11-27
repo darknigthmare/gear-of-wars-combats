@@ -1,0 +1,99 @@
+{
+  "id": "theron_skin_02",
+  "subject_id": "theron_skin_02",
+  "costume_id": "theron_skin_02",
+  "character_id": "theron",
+  "name": "Garde Theron — Gears Tactics",
+  "category": "costume",
+  "source_game": "Gears Tactics (2020)",
+  "catalog_target_game": "Gears Tactics",
+  "variant": "Garde Theron Gears Tactics",
+  "variant_relation": "target_version_requested",
+  "purpose": "reference_fullbody",
+  "status": "reference_research_pending",
+  "generation_status": "not_attempted_reference_incomplete",
+  "quality_state": "blocked",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "pass_date": "2026-11-27",
+  "generation_attempted": false,
+  "has_image": false,
+  "asset_path": null,
+  "original_output_path": null,
+  "prompt": null,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "pose": "static_side_three_quarter_facing_right",
+  "sources": [
+    {
+      "page_url": "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/",
+      "image_url": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/04/c2fcd853880fcada1996def87bfd8bea45d0ee83-69cb0ddd936f3.png",
+      "source_type": "official_developer_blog_partial_render",
+      "scope": "La page officielle situe Theron dans Tactics ; le visuel montre une tête nue et l'armure jusqu'aux genoux, avec mollets et pieds hors cadre. Cette illustration de blog ne suffit pas à attester tous les détails du modèle final en pied.",
+      "visual_reference_used": false,
+      "visually_inspected": true,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/theron_tactics_developer.png",
+      "reference_sha256": "64cb74388fa94283b21d4b2e4b3d284dc39dd42cd01ff2dae35778557c3c10ce"
+    },
+    {
+      "page_url": "https://www.jeuxvideo.com/wikis-soluce-astuces/1235733/chapitre-5-contrebande.htm",
+      "image_url": "https://image.jeuxvideo.com/medias-md/159162/1591621646-4944-capture-d-ecran.jpg",
+      "source_type": "third_party_gameplay_screenshot",
+      "scope": "Capture de l'introduction en jeu, titrée GARDE THERON, confirmant tête nue, haut d'armure et panneaux orange. Gros plan coupé au torse ; pas de jambes ni de pieds. Sert à contrôler l'édition, pas à compléter arbitrairement le corps.",
+      "visual_reference_used": false,
+      "visually_inspected": true,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/theron_tactics_jvc_map.jpg",
+      "reference_sha256": "a7a8f439e6e43403faf903e37472d30f1e60d5a7eaaba279e6c5bf5d5b0c1782"
+    },
+    {
+      "page_url": "https://www.jeuxvideo.com/wikis-soluce-astuces/1235733/chapitre-5-contrebande.htm",
+      "image_url": "https://image.jeuxvideo.com/medias-sm/159162/1591621646-9782-capture-d-ecran.jpg",
+      "source_type": "third_party_gameplay_screenshot",
+      "scope": "Vue tactique éloignée de la mission ; les sujets et bas de corps sont trop petits pour établir une référence de costume détaillée.",
+      "visual_reference_used": false,
+      "visually_inspected": true,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/theron_tactics_jvc_intro.jpg",
+      "reference_sha256": "2b7475300379871ec69e4bfe7a7ad27fb9c668c59ad5c0bd0380466b50dac5a2"
+    },
+    {
+      "page_url": "https://www.youtube.com/watch?v=6sjDDwzKuvg",
+      "source_type": "third_party_gameplay_video_index",
+      "scope": "Description consultée : introduction du Theron à 02:50. Vidéo non visionnée ; aucune image non inspectée utilisée comme preuve.",
+      "visual_reference_used": false,
+      "visually_inspected": false
+    }
+  ],
+  "source_urls": [
+    "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/",
+    "https://www.jeuxvideo.com/wikis-soluce-astuces/1235733/chapitre-5-contrebande.htm",
+    "https://www.youtube.com/watch?v=6sjDDwzKuvg"
+  ],
+  "reference_images": [],
+  "qa": {
+    "reference_visually_inspected": true,
+    "output_visually_inspected": false,
+    "visually_inspected": false,
+    "observations": [
+      "L'identité Garde Theron et sa présence dans Gears Tactics sont attestées.",
+      "Aucune vue complète suffisamment détaillée de la bonne édition n'a été réunie dans cette recherche.",
+      "Le visuel officiel partiel et le gros plan en jeu ne prouvent pas les mollets, pieds, dos, asymétries et position exacte de l'arc.",
+      "Aucune génération à partir du nom seul ; aucun mélange avec Theron Gears 5, Theron 2006 ou Sentinelle."
+    ],
+    "remaining_checks": [
+      "Réunir une capture de modèle Tactics complète (ou plusieurs angles couvrant toutes les régions) avec provenance vérifiable.",
+      "Comparer casque éventuel, panneaux lumineux, jupe d'armure et Torque Bow au modèle final Tactics avant toute génération."
+    ]
+  },
+  "blocker": {
+    "type": "missing_complete_visual_reference",
+    "reason": "Références inspectées partielles ou trop éloignées ; silhouette en pied et détails d'édition non suffisamment établis.",
+    "safety_refusal": false,
+    "attempts": 0
+  },
+  "output": null,
+  "prompt_sha256": null,
+  "generation_attempt_count": 0,
+  "blocking_reason": "reference_gap"
+}

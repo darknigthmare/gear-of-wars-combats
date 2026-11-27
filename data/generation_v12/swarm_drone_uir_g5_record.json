@@ -1,0 +1,123 @@
+{
+  "id": "swarm_drone_uir_g5",
+  "subject_id": "swarm_drone_uir_g5",
+  "character_id": "swarm_drone",
+  "costume_id": "swarm_drone_uir_g5",
+  "name": "Drone de l'Essaim — Swarm Elite Drone UIR",
+  "category": "costume",
+  "source_game": "Gears 5 — Operation 6",
+  "catalog_target_game": "Gears 5",
+  "variant": "UIR Elite Drone — skin multijoueur Gears 5 Operation 6",
+  "variant_relation": "target_version_candidate",
+  "asset_path": "assets/costumes_v12/swarm_drone_uir_g5.png",
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE static isolated full-body 2D fighting-game costume sprite.\nPrimary request: UIR Elite Drone / Swarm Elite Drone UIR from Gears 5 Operation 6, costume id swarm_drone_uir_g5. Preserve the exact variant's asymmetrical scavenged UIR equipment.\nReferences: Image 1 is the OFFICIAL Operation 6 Tour of Duty board, the UIR ELITE DRONE card in the top Private group. Image 2 is a larger community in-game-model view of the exact UIR Elite Swarm Drone and is the main visible outfit reference. Image 3 is the OFFICIAL Gears 5 Swarm rifleman production front/back render by Aryan Hanbeck / The Coalition, used only to anchor the same species' full anatomy and conservative lower-body silhouette, not to replace the UIR chest or head armor.\nOne hulking hunched Swarm Drone, thick orange-brown mottled leathery skin with an exposed snarling toothy jaw, small luminous eyes, rough ridged bald skull. Its own RIGHT brow and cheek are covered by a broken olive-green angular UIR helmet/face plate, leaving the opposite side exposed. Worn olive-green scavenged armor fragments, visible red paint remnants, chipped metal, charcoal thick segmented diagonal ammunition harness from its left shoulder across chest with large metal circular fasteners and a visible yellow-and-black cartridge. Preserve the green irregular chest plate and small round orange-red illuminated components, asymmetric upper-arm scrap plates, wrist armor and thick bare clawed hands shown in image 2.\nKeep the fullbody Swarm rifleman proportions from image 3: massive arms and shoulders, wide waist, sturdy legs, worn gray-tan frayed loincloth, chained belt, strapped irregular metal thigh and shin protection, broad clawed bare feet. Conservatively reconstruct any unseen lower UIR-specific surface details without introducing conspicuous new insignia, futuristic blue lights, an intact human UIR uniform, or new equipment.\nPose: a quiet combat-ready planted guard, whole character in predominantly SIDE VIEW with a slight front three-quarter angle, facing screen RIGHT, head and feet pointing right. Empty hands in low guard, no firearm or projectile, no action and no gore.\nDetailed realistic Gears rough metal/cloth/skin textures interpreted as a crisp hand-painted 2D game cutout. Soft neutral studio lighting, clear silhouette.\nFraming: one complete figure, including head and both clawed feet, no more than 78% of canvas height and at least 10% empty transparent padding on all sides.\nActual transparent alpha background, fully opaque subject with antialiased edges. No scene, floor, shadows outside silhouette, atmospheric halo, dust, smoke, gradient, text, watermark, logo, UI or border. Only one static pose; no other characters, no duplicate front/back views, no sprite sheet.",
+  "sources": [
+    {
+      "page_url": "https://store.steampowered.com/news/posts/?appids=1097840&enddate=1615235906&feed=steam_community_announcements",
+      "image_url": "https://clan.akamai.steamstatic.com/images/35210771/f8676389b44d26696c93a3a7f128e59b293c653d.png",
+      "source_type": "first_party_publisher_announcement",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v12_costumes/operation6_tour_of_duty_official.png",
+      "scope": "Planche officielle Tour of Duty Operation 6 : carte Private UIR Elite Drone ; tableau nommé Swarm Elite Drone UIR. Modèle Elite, distinct du Drone de base.",
+      "reference_sha256": "493be3d97a2424317ab74be2561cf5c0344588a733b0a6426f2a0279892b4e32"
+    },
+    {
+      "page_url": "https://www.youtube.com/watch?v=pPsR_3vJm9s",
+      "image_url": "https://i.ytimg.com/vi/pPsR_3vJm9s/maxresdefault.jpg",
+      "source_type": "secondary_in_game_model_thumbnail",
+      "scope": "Vignette SASxSH4DOWZ du 14 mars 2021 présentant exactement UIR Elite Swarm Drone : plaques vert olive de casque/torse, harnais et cartouche. Seule la vignette a été inspectée.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v12_costumes/uir_drone_gameplay_thumbnail.jpg",
+      "reference_sha256": "70fed1b8c831dc49a943b5928d53c5746661a17a17b2d17e9409c38f41983736"
+    },
+    {
+      "page_url": "https://mediumrare.artstation.com/projects/6aoByW?album_id=1597441",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/020/729/860/large/aryan-hanbeck-drone-rifleman.jpg?1568930524",
+      "source_type": "first_party_art_director_production_render",
+      "scope": "Rendu officiel en pied avant/arrière Gears 5 Drone Swarm Rifleman, Aryan Hanbeck, The Coalition. Appui anatomie et silhouette du bas du corps ; ne certifie pas les détails UIR des zones hors référence du skin.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v12_costumes/swarm_rifleman_official.jpg",
+      "reference_sha256": "c341ef30ab35d233b9fa76c7c100cb50d3461ee76d27312c765ddecd8de7df1f"
+    }
+  ],
+  "qa": {
+    "observations": [
+      "Un Drone massif entier tourné à droite en trois-quarts ; plaque de casque verte asymétrique, fragment de torse olive, harnais segmenté, voyants orange-rouge et cartouche jaune/noire cohérents avec la capture du skin.",
+      "La référence officielle en pied du rifleman sert au bas du corps, mais ne certifie pas les éventuelles différences UIR des jambes/plaques.",
+      "Les détails de visage, dents, motifs, attaches, chaînes et plaques sont des approximations génératives à valider.",
+      "RGBA réel : 59,96 % alpha=0 ; dimensions natives 1159 × 1357, sans mise à l'échelle.",
+      "Marges alpha >=128 : [150, 73, 177, 45] px ; silhouette entière, mais marges verticales de 10 % non atteintes."
+    ],
+    "remaining_checks": [
+      "Comparer les plaques et le pagne du bas du corps à une capture en pied UIR Elite Drone.",
+      "Valider les côtés anatomiques, l'ordre des cartouches et la forme du fragment de casque.",
+      "Vérifier la découpe alpha et le profil de combat dans le moteur."
+    ],
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "alpha_measured": true,
+    "framing_measured": true
+  },
+  "notes": [
+    "Candidat statique d'une variante multijoueur officielle, sans modification du kit ou de la chronologie canonique présumée.",
+    "PNG natif copié sans traitement raster, agrandissement ou fabrication de spritesheet."
+  ],
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1159,
+    "height": 1357,
+    "bytes": 1714059,
+    "sha256": "9301dd15b55dd1cb700d591fd063c95e060ea6c14259675b88fccfea4cc94d8f",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.5996294419438911,
+    "subject_bbox_alpha_ge_128": [
+      150,
+      73,
+      982,
+      1312
+    ],
+    "subject_margins_ltrb_px": [
+      150,
+      73,
+      177,
+      45
+    ],
+    "edge_band_width_px": 8,
+    "edge_alpha_max": 1,
+    "has_real_alpha": true,
+    "native_copy_verified": true
+  },
+  "original_output_path": "/workspace/scratch/3c791759fb15/generated_images/exec-c011ee7c-f9e8-465c-9aa1-a66c878b4fda.png",
+  "has_image": true,
+  "status": "generated_reference_pending_validation",
+  "generation_status": "generated_reference_pending_validation",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "pass_date": "2026-11-27",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "pose": "static_front_three_quarter_facing_right",
+  "quality_state": "candidate",
+  "purpose": "reference_fullbody",
+  "source_urls": [
+    "https://store.steampowered.com/news/posts/?appids=1097840&enddate=1615235906&feed=steam_community_announcements",
+    "https://www.youtube.com/watch?v=pPsR_3vJm9s",
+    "https://mediumrare.artstation.com/projects/6aoByW?album_id=1597441"
+  ],
+  "reference_images": [
+    "/workspace/scratch/3c791759fb15/research_v12_costumes/operation6_tour_of_duty_official.png",
+    "/workspace/scratch/3c791759fb15/research_v12_costumes/uir_drone_gameplay_thumbnail.jpg",
+    "/workspace/scratch/3c791759fb15/research_v12_costumes/swarm_rifleman_official.jpg"
+  ]
+}

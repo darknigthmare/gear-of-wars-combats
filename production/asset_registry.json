@@ -1115,6 +1115,9 @@
   "archived_revision_notes": {
     "rejected_candidates/characters_20261119/theron_guard_gears3_reference_fullbody_v01.png": "Ancienne sortie Theron remplacée par la v02 sélectionnée ; conservée pour historique, exclue des actifs.",
     "rejected_candidates/characters_20261119/clayton_carmine_gears3_reference_fullbody_v01.png": "Inscription de poitrine incorrecte dans cette v01 ; remplacée par la v02 GRUB KILLER.",
-    "rejected_candidates/characters_20261119/ukkon_tactics_reference_fullbody_v01.png": "Montants latéraux trop courts dans cette v01 ; remplacée par la v02 corrigée."
+    "rejected_candidates/characters_20261119/ukkon_tactics_reference_fullbody_v01.png": "Montants latéraux trop courts dans cette v01 ; remplacée par la v02 corrigée.",
+    "rejected_candidates/bosses_v12/kraken_framing_candidate.png": "Première sortie Kraken V12 : marges insuffisantes autour de la tête et du manteau ; remplacée par assets/bosses_v12/kraken_gears5_head_mantle.png après correction de cadrage par le générateur. Conservée comme révision, hors total actif ; aucune conformité 1:1 certifiée.",
+    "rejected_candidates/bosses_v12/flock_density_candidate.png": "Première sortie Flock V12 : Leeches trop grosses et trop alignées pour la masse collective visée ; remplacée par assets/bosses_v12/flock_gears5_swarm.png après révision de densité. Conservée comme révision, hors total actif ; aucune conformité 1:1 certifiée.",
+    "rejected_candidates/costumes_v12/swarm_drone_skin_02_mirrored_bandolier.png": "Première sortie du Drone de l’Essaim standard Gears 5 V12 : orientation anatomique du harnais inversée ; remplacée par assets/costumes_v12/swarm_drone_skin_02.png après correction par le générateur. Conservée comme révision, hors total actif ; aucune conformité 1:1 certifiée."
   }
 }

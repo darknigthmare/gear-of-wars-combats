@@ -1,0 +1,16 @@
+{
+  "subject_id": "swarm_drone_skin_02",
+  "category": "costume",
+  "status": "rejected_candidate",
+  "pass_date": "2026-11-27",
+  "asset_path": "rejected_candidates/costumes_v12/swarm_drone_skin_02_mirrored_bandolier.png",
+  "source_native_path": "/workspace/scratch/3c791759fb15/generated_images/exec-a523a311-4e7d-461c-8a6a-e466ae408ed4.png",
+  "sha256": "30c465f3e58a6129c4bdbe521e7a595ea73451b57efc8704ba0fea931a3151fa",
+  "bytes": 1388860,
+  "native_copy_verified": true,
+  "reason": "Harnais initial inversé : attache haute sur épaule droite anatomique au lieu de gauche ; seule la sortie corrigée figure dans assets/costumes_v12.",
+  "selected_replacement_path": "assets/costumes_v12/swarm_drone_skin_02.png",
+  "selected_replacement_sha256": "1a52f335f703790d0002a8e4dd98a596d8b9febd0c1304d904951fcbef346ef0",
+  "canonical_fidelity_validated": false,
+  "production_ready": false
+}

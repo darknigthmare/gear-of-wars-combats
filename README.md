@@ -1,8 +1,50 @@
 # Gears of War Combats
 
-Corpus de conception, prototype et références visuelles consolidés le **25 novembre 2026** pour Darknigthmare.
+Corpus de conception, prototype et références visuelles consolidés le **27 novembre 2026** pour Darknigthmare.
 
-## État courant — passe V11 — assets fixes
+## État courant — passe V12 — bible, extensions et assets fixes
+
+La **[bible de conception V12](livrables/Gears_of_War_Combats_Bible_v12.md)** rassemble les chapitres existants, le catalogue visuel courant, le guide général et les deux extensions adaptées à Gears. Cette passe ajoute aussi **12 PNG actifs natifs : 10 costumes et 2 références de boss**, un sujet par image et sans animation.
+
+### Guide général et deux extensions intégrés
+
+Les trois originaux v1.0, absents à l’identique du commit de départ V11, sont maintenant conservés sans modification avec leurs sources et empreintes :
+
+- [Guide général pour la bible des jeux de combat](docs/guides/combat/Combat_Games_Guide_General_v1.0.txt).
+- [Extension 01 — taunts, sélection, assistances/tag, supers, bonus et exploration](docs/guides/combat/Combat_Games_Extension_01_Tag_Taunts_Bonus_v1.0.txt).
+- [Extension 02 — slots verrouillés, déblocages et contenus abonnés](docs/guides/combat/Combat_Games_Extension_02_Slots_Verrouilles_Deblocages_Abonnes_v1.0.txt).
+
+Le [chapitre d’adaptation à Gears](docs/combat_extensions.md) couvre les équipes, jauges, clashes, entités persistantes, transitions, conditions d’accès et récompenses. Il distingue canon attesté, adaptation jouable, contenu original compatible, crossover et information à confirmer. Les personnages, costumes, armes et partenaires restent liés à leur époque ; une simulation libre ne devient pas un événement de campagne.
+
+**68 rubriques sont tracées** dans la [matrice d’intégration](docs/production/GUIDE_REQUIREMENTS_V12.csv), et les **40 cas d’acceptation sources** sont repris dans l’[audit V12](docs/production/GUIDE_INTEGRATION_V12.md). Ces cas restent **non exécutés** : les extensions sont intégrées à la conception, sans nouveau système de tag, d’animation ou d’abonnement opérationnel dans le prototype.
+
+### Références visuelles après V12
+
+| Catégorie | Références disponibles | Manquants |
+|---|---:|---:|
+| Personnages | 51 / 56 | 5 |
+| Costumes | 58 / 85 | 27 |
+| Boss, créatures et machines | 26 / 31 | 5 |
+| Stages | 34 / 34 | 0 |
+| Projectiles | 4 / 8 | 4 |
+
+**148 PNG actifs uniques**, plus **15 révisions archivées** hors total actif. Ces nombres mesurent la présence de références, y compris partielles ou d’une édition restant à confirmer. **0 fidélité 1:1 certifiée et 0 jeu d’animations complet.**
+
+Les nouveaux costumes couvrent Marcus et Dom E-Day, JACK Tactics, Clayton Gears 5 Operation 3, Blood Red Queen Reyna, Collector’s Zealot, UIR Elite Swarm Drone, le Drone standard Gears 5, JD Outsider et Del Outsider. Le Kraken Gears 5 apporte une référence de tête/manteau ; le Flock apporte une formation collective de Leeches.
+
+Les limites sont conservées par sujet : **JD/Del reposent principalement sur des concepts de préproduction**, comparés à une capture de campagne ; **Clayton correspond au modèle multijoueur Operation 3**, sans équivalence attestée avec le libellé interne « Vétéran ». Le Kraken est partiel et le Flock recomposé. Les poses, marges, contours, visages et microdétails restent à valider. Les corrections demandées pour Buzzkill, Dropshot et Brumak Lambent sont maintenues.
+
+Les **21 journaux V12** comprennent 12 images, 4 refus uniques du générateur (Fahz Hivebuster, Kait Désert, Kantus Tactics, Baird 2006) et 5 recherches sans génération (Hydra de Skorge, Wakaatu, Riftworm, Theron Tactics, Drone E-Day). Aucun refus n’a été relancé.
+
+- [Listing des 12 nouveaux PNG, refus et réserves](docs/production/LISTING_V12.md).
+- [Manquants exacts et prochaines références nécessaires](docs/production/REPRISE_V12.md).
+- [Sources visuelles et décisions V12](docs/references/production-v12-research.md).
+- [Validation technique et documentaire V12](docs/production/VALIDATION_V12.json).
+- [Manifeste de construction de la bible V12](docs/production/BIBLE_BUILD_V12.json).
+
+La galerie et les manifestes sont consolidés sur les fichiers réels. Les 148 PNG antérieurs et les 270 journaux/rapports historiques sont préservés à l’identique. Le moteur de combat et les trois rencontres du prototype gardent leur périmètre. Les PDF, DOCX et classeurs V1 restent les livrables historiques ; la nouvelle bible V12 est fournie en Markdown.
+
+## Historique — passe V11 — assets fixes
 
 **26 nouveaux PNG**, un sujet par image, sans animations. Ils sont intégrés à la galerie et à l’inventaire avec leurs sources, prompts et réserves de fidélité.
 
@@ -44,11 +86,11 @@ Les 40 images des passes V9 et V10 et leurs résultats restent documentés : [li
 - [Reprise V6 historique](docs/production/REPRISE_V6.md)
 - [Listing V6 et éditions cibles](docs/production/LISTING_V6.md)
 - [Rapport de validation V6](docs/production/VALIDATION_V6.json)
-- [État consolidé et limites de production](docs/production/CONSOLIDATION_2026-11-25.md)
+- [État consolidé et limites de production](docs/production/CONSOLIDATION_2026-11-27.md)
 - [Inventaire courant et couverture](production/coverage.json)
 - [Prototype autonome](prototype/Gears_Combats_Prototype.html)
-- [Bible illustrée v1 en PDF](livrables/Gears_of_War_Combats_Bible_v1.pdf)
-- [Bible v1 en Markdown](livrables/Gears_of_War_Combats_Bible_v1.md)
+- [Bible illustrée v1 en PDF — historique](livrables/Gears_of_War_Combats_Bible_v1.pdf)
+- [Bible v1 en Markdown — historique](livrables/Gears_of_War_Combats_Bible_v1.md)
 
 Le fichier HTML du prototype embarque son code, ses styles et ses trois images utilisées. La galerie utilise les PNG du dossier `assets` : conserver son arborescence pour la consulter hors ligne.
 
@@ -180,6 +222,7 @@ Les PDF, Word et deux classeurs dans `livrables` sont les versions historiques p
 ```bash
 python -m unittest discover -s tests -p 'test_inventory_v*.py' -v
 python src/consolidate_inventory.py
+python src/build_bible_markdown.py
 python src/validate_data.py
 node prototype/build.mjs
 node prototype/tests.cjs

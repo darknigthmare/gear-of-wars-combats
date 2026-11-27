@@ -1,0 +1,135 @@
+{
+  "id": "reyna_blood_red_g5",
+  "subject_id": "reyna_blood_red_g5",
+  "character_id": "reyna",
+  "costume_id": "reyna_blood_red_g5",
+  "name": "Reine Reyna — Blood Red Queen Reyna",
+  "category": "costume",
+  "source_game": "Gears 5 — Operation 6",
+  "catalog_target_game": "Gears 5",
+  "variant": "Blood Red Queen Reyna — skin multijoueur Operation 6, tentacules inférieurs reconstitués",
+  "variant_relation": "target_version_candidate",
+  "asset_path": "assets/costumes_v12/reyna_blood_red_g5.png",
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE isolated static full-body 2D fighting-game costume cutout, one subject only.\nPrimary request: Blood Red Queen Reyna from Gears 5 Operation 6, costume id reyna_blood_red_g5. Preserve this exact multiplayer skin's design, without turning her into human Reyna, Queen Myrrah or a generic demon.\nReferences: Image 1 is the OFFICIAL Operation 6 Tour of Duty board; the gold General card near the bottom center depicts Blood Red Queen Reyna. Image 2 is a community in-game-model thumbnail of exactly Blood Red Queen Reyna, used for the skin's visible colors and head/upper torso. Image 3 is the OFFICIAL Gears 5 Queen Reyna promotional render, used only for the character's organic costume geometry and hanging tendril silhouette; use the Blood Red colors from images 1 and 2 instead of the normal pale/brown palette. Image 4 is a secondary two-variant model preview; only the figure on the RIGHT is the requested Blood Red skin; do not reproduce the pair.\nSubject: one tall female humanoid Swarm Queen, charcoal-black skin with thin glowing red branching cracks, long straight dark hair around the face, bright orange-red eyes, crimson crystal growths offset to one side of the forehead. Organic chest armor with layered riblike plates, enormous asymmetrical ridged red-black shoulder plates with sharp crimson crystal tips, dark forearms with crystalline growths and clawed hands. Long dark-red ribbed organic tendrils form the layered hanging skirt below her waist; preserve the heavy flowing tendril silhouette and conservatively complete its lower ends rather than introducing unrelated clothing, a metallic gown or new accessories. Restrained red glow stays on cracks and crystal surfaces only, no surrounding aura. Match face, proportions, silhouette, colors, crystals and organic plate arrangement to the supplied Blood Red references.\nPose: calm stationary guard for a side-view fighting game, mostly SIDE VIEW with slight front three-quarter angle, body, head and feet/lower-body direction toward screen RIGHT. Both empty hands separate from the torso, no weapon, no enemy, no attack, no gore.\nStyle: detailed realistic Gears material textures interpreted as a polished hand-painted 2D cutout with clean readable edges and neutral lighting.\nFraming: the entire subject from crystal crown to the lowest tendril ends stays inside the frame. Scale the figure to at most 78% of the image height, with at least 10% empty transparent space above and below and side padding.\nOutput one single full-length static pose on actual transparent alpha. No floor, no shadow cloud, no smoke, no gradient, no background, no text, logos, watermark, labels, cards or UI. No sprite sheet, no collage, no second character.",
+  "sources": [
+    {
+      "page_url": "https://store.steampowered.com/news/posts/?appids=1097840&enddate=1615235906&feed=steam_community_announcements",
+      "image_url": "https://clan.akamai.steamstatic.com/images/35210771/f8676389b44d26696c93a3a7f128e59b293c653d.png",
+      "source_type": "first_party_publisher_announcement",
+      "scope": "Planche Tour of Duty Operation 6 : carte General Blood Red Queen Reyna, skin nommément attesté dans le tableau officiel.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v12_costumes/operation6_tour_of_duty_official.png",
+      "reference_sha256": "493be3d97a2424317ab74be2561cf5c0344588a733b0a6426f2a0279892b4e32"
+    },
+    {
+      "page_url": "https://www.youtube.com/watch?v=6qjLRKGjoXk",
+      "image_url": "https://i.ytimg.com/vi/6qjLRKGjoXk/maxresdefault.jpg",
+      "source_type": "secondary_in_game_capture_thumbnail",
+      "scope": "Vignette de SASxSH4DOWZ, Blood Red Queen Reyna, publiée le 7 mars 2021. Couleurs et détails tête/torse du skin ; seule la vignette a été inspectée, pas la vidéo complète.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v12_costumes/reyna_gameplay_thumbnail.jpg",
+      "reference_sha256": "564b2f96cfa508aa65763841e46794aa6cf4306cf1efda25f28b928eb14d8497"
+    },
+    {
+      "page_url": "https://store.steampowered.com/news/posts/?appgroupname=Gears+5&appids=1097840&enddate=1617721047&feed=steam_community_announcements",
+      "image_url": "https://clan.akamai.steamstatic.com/images/35210771/85d6b70bdaa73fe7603ea7c0a70522e30962544e.png",
+      "source_type": "first_party_publisher_promotional_render",
+      "scope": "Rendu Queen Reyna standard, Reveal Operation 6 du 23 février 2021 ; complément pour géométrie des plaques et tentacules visibles, pas preuve de couleur Blood Red ni des extrémités inférieures.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v12_costumes/reyna_g5_official.png",
+      "reference_sha256": "62347d9b85bbd2dd15f3ce1b56d93e3cacdc2b546646ee433aed10229fc59386"
+    },
+    {
+      "page_url": "https://www.deviantart.com/jorn-k-nightmane/art/Queen-Reyna-Gears5-for-XPS-FBX-1014298182",
+      "image_url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/7864f737-4d1d-40f6-af14-45a9c4dcc374/dgrvxhi-4d78cb6f-e6de-45ef-ac2f-f51d805063d1.jpg",
+      "source_type": "secondary_model_preview",
+      "scope": "Aperçu XPS/FBX de Jorn-K-Nightmane retrouvé par recherche d'images ; variantes standard et Blood Red côte à côte, seule la droite est utilisée. Image téléchargée et inspectée, texte de la page inaccessible (403) ; provenance d'export non certifiée. Bas des tentacules hors cadre.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v12_costumes/reyna_model_preview.jpg",
+      "reference_sha256": "6d575702435303da1fc3e00e8f000c449b74339c375025c29f0cf0987c12e3af"
+    }
+  ],
+  "qa": {
+    "observations": [
+      "Une seule Reyna, face et silhouette tournées à droite en trois-quarts ; peau charbon, fissures rouges, cheveux noirs, cristaux rouges et grandes plaques organiques d'épaules cohérents avec les références visibles.",
+      "Référence primaire de la variante limitée au portrait ; le rendu standard et deux sources secondaires complètent la géométrie du torse.",
+      "Les extrémités inférieures et l'agencement des longs tentacules sont reconstitués ; aucun pied ni corps inférieur canonique complet n'est certifié.",
+      "La géométrie exacte des cristaux, le visage, les fissures et asymétries restent à comparer au modèle de jeu.",
+      "PNG RGBA réel : 56,10 % de pixels alpha=0 ; le halo rouge visible dans certains aperçus est contenu dans des couleurs RGB de pixels alpha=0 aux points sondés, sans fond opaque à ces endroits.",
+      "Marges alpha >=128 : gauche 71, haut 65, droite 68, bas 41 px. Silhouette entière, mais marges cibles de 10 % non atteintes."
+    ],
+    "remaining_checks": [
+      "Comparer le bas des tentacules et le corps inférieur au modèle original Gears 5.",
+      "Valider la vue latérale de combat, la topologie des plaques et les détails du visage/skin.",
+      "Vérifier les franges à très faible alpha dans le moteur sur fond clair et sombre."
+    ],
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "alpha_measured": true,
+    "framing_measured": true
+  },
+  "notes": [
+    "Candidat statique du skin multijoueur officiel ; aucune nouvelle histoire ou pouvoir canonique présumé.",
+    "Un PNG natif copié sans retouche, extraction raster ni agrandissement."
+  ],
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2255787,
+    "sha256": "7b7a1b3cac0ac10fe55e45373fbc17e00da1258ecc999c9cef243cb13923d3b0",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.5609594980875651,
+    "subject_bbox_alpha_ge_128": [
+      71,
+      65,
+      956,
+      1495
+    ],
+    "subject_margins_ltrb_px": [
+      71,
+      65,
+      68,
+      41
+    ],
+    "edge_band_width_px": 8,
+    "edge_alpha_max": 1,
+    "has_real_alpha": true,
+    "native_copy_verified": true
+  },
+  "original_output_path": "/workspace/scratch/3c791759fb15/generated_images/exec-13e19fe1-9d11-4d80-95ae-f104093ca658.png",
+  "has_image": true,
+  "status": "generated_reference_pending_validation",
+  "generation_status": "generated_reference_pending_validation",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "pass_date": "2026-11-27",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "pose": "static_front_three_quarter_facing_right",
+  "quality_state": "candidate",
+  "purpose": "reference_fullbody",
+  "source_urls": [
+    "https://store.steampowered.com/news/posts/?appids=1097840&enddate=1615235906&feed=steam_community_announcements",
+    "https://www.youtube.com/watch?v=6qjLRKGjoXk",
+    "https://store.steampowered.com/news/posts/?appgroupname=Gears+5&appids=1097840&enddate=1617721047&feed=steam_community_announcements",
+    "https://www.deviantart.com/jorn-k-nightmane/art/Queen-Reyna-Gears5-for-XPS-FBX-1014298182"
+  ],
+  "reference_images": [
+    "/workspace/scratch/3c791759fb15/research_v12_costumes/operation6_tour_of_duty_official.png",
+    "/workspace/scratch/3c791759fb15/research_v12_costumes/reyna_gameplay_thumbnail.jpg",
+    "/workspace/scratch/3c791759fb15/research_v12_costumes/reyna_g5_official.png",
+    "/workspace/scratch/3c791759fb15/research_v12_costumes/reyna_model_preview.jpg"
+  ]
+}

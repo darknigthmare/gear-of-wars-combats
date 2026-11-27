@@ -1,8 +1,8 @@
 {
   "schema_version": "1.3",
   "project": "Gears of War Combats",
-  "snapshot_date": "2026-11-25",
-  "report_path": "docs/production/CONSOLIDATION_2026-11-25.md",
+  "snapshot_date": "2026-11-27",
+  "report_path": "docs/production/CONSOLIDATION_2026-11-27.md",
   "generator": "src/consolidate_inventory.py",
   "totals": {
     "roster_characters": 36,
@@ -15,13 +15,13 @@
     "catalog_characters_missing": 5,
     "character_png_files": 60,
     "costume_catalog_entries": 85,
-    "costumes_with_reference": 48,
-    "costumes_without_explicit_reference": 37,
-    "costume_png_files": 13,
+    "costumes_with_reference": 58,
+    "costumes_without_explicit_reference": 27,
+    "costume_png_files": 23,
     "reused_character_pngs_for_costumes": 35,
     "boss_catalog_entries": 31,
-    "bosses_with_reference": 24,
-    "boss_png_files": 24,
+    "bosses_with_reference": 26,
+    "boss_png_files": 26,
     "stage_catalog_entries": 34,
     "stages_with_reference": 34,
     "stage_png_files": 35,
@@ -30,9 +30,9 @@
     "projectiles_missing": 4,
     "projectile_png_files": 4,
     "additional_reference_groups": 1,
-    "active_png_files": 136,
-    "unique_active_png_sha256": 136,
-    "archived_png_files": 12,
+    "active_png_files": 148,
+    "unique_active_png_sha256": 148,
+    "archived_png_files": 15,
     "canonical_fidelity_validated": 0,
     "completed_animation_sets": 0
   },
@@ -2209,18 +2209,27 @@
       ],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_costumes_v12_marcus_eday_png",
+      "selected_path": "assets/costumes_v12/marcus_eday.png",
+      "selected_source_variant": "Marcus jeune — modèle de production E-Day",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_costumes_v12_marcus_eday_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/costumes_v12/marcus_eday.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v12/marcus_skin_01_record.json",
+        "generation": 12,
+        "status": "generated_reference_pending_validation",
+        "category": "costume",
+        "has_file": true,
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "marcus_skin_02",
@@ -2364,18 +2373,27 @@
       ],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_costumes_v12_dom_eday_png",
+      "selected_path": "assets/costumes_v12/dom_eday.png",
+      "selected_source_variant": "Dom jeune — modèle de production E-Day",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_costumes_v12_dom_eday_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/costumes_v12/dom_eday.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v12/dom_skin_01_record.json",
+        "generation": 12,
+        "status": "generated_reference_pending_validation",
+        "category": "costume",
+        "has_file": true,
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "dom_skin_02",
@@ -2552,7 +2570,7 @@
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
       "has_visual_reference": false,
-      "visual_status": "missing",
+      "visual_status": "generation_blocked",
       "selected_asset_id": null,
       "selected_path": null,
       "selected_source_variant": null,
@@ -2562,7 +2580,14 @@
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v12/baird_skin_02_record.json",
+        "generation": 12,
+        "status": "blocked_generator_refusal",
+        "category": "costume",
+        "has_file": false,
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "baird_skin_03",
@@ -2955,7 +2980,7 @@
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
       "has_visual_reference": false,
-      "visual_status": "missing",
+      "visual_status": "generation_blocked",
       "selected_asset_id": null,
       "selected_path": null,
       "selected_source_variant": null,
@@ -2965,7 +2990,14 @@
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v12/kait_skin_03_record.json",
+        "generation": 12,
+        "status": "blocked_generator_refusal",
+        "category": "costume",
+        "has_file": false,
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "raam_skin_01",
@@ -3229,7 +3261,14 @@
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v12/locust_drone_skin_02_record.json",
+        "generation": 12,
+        "status": "reference_research_pending",
+        "category": "costume",
+        "has_file": false,
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "kantus_skin_01",
@@ -3285,7 +3324,7 @@
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
       "has_visual_reference": false,
-      "visual_status": "missing",
+      "visual_status": "generation_blocked",
       "selected_asset_id": null,
       "selected_path": null,
       "selected_source_variant": null,
@@ -3295,7 +3334,14 @@
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v12/kantus_skin_02_record.json",
+        "generation": 12,
+        "status": "blocked_generator_refusal",
+        "category": "costume",
+        "has_file": false,
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "theron_skin_01",
@@ -3359,7 +3405,14 @@
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v12/theron_skin_02_record.json",
+        "generation": 12,
+        "status": "reference_research_pending",
+        "category": "costume",
+        "has_file": false,
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "jd_skin_01",
@@ -3380,18 +3433,27 @@
       ],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_costumes_v12_jd_skin_01_png",
+      "selected_path": "assets/costumes_v12/jd_skin_01.png",
+      "selected_source_variant": "JD Outsider — concept Microsoft avril 2016, corroboration partielle campagne",
+      "selected_variant_relation": "edition_unverified",
+      "asset_ids": [
+        "assets_costumes_v12_jd_skin_01_png"
+      ],
       "target_version_candidate_available": false,
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v12/jd_skin_01_record.json",
+        "generation": 12,
+        "status": "generated_reference_pending_validation",
+        "category": "costume",
+        "has_file": true,
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "jd_skin_02",
@@ -3478,18 +3540,27 @@
       ],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_costumes_v12_del_skin_01_png",
+      "selected_path": "assets/costumes_v12/del_skin_01.png",
+      "selected_source_variant": "Del Outsider — concept Goran Bukvic/Microsoft, corroboration partielle campagne",
+      "selected_variant_relation": "edition_unverified",
+      "asset_ids": [
+        "assets_costumes_v12_del_skin_01_png"
+      ],
       "target_version_candidate_available": false,
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v12/del_skin_01_record.json",
+        "generation": 12,
+        "status": "generated_reference_pending_validation",
+        "category": "costume",
+        "has_file": true,
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "del_skin_02",
@@ -3612,18 +3683,27 @@
       ],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_costumes_v12_clayton_gears5_operation3_png",
+      "selected_path": "assets/costumes_v12/clayton_gears5_operation3.png",
+      "selected_source_variant": "Modèle multijoueur Gears 5 Operation 3 montré par Xbox Wire le 31 mars 2020",
+      "selected_variant_relation": "edition_unverified",
+      "asset_ids": [
+        "assets_costumes_v12_clayton_gears5_operation3_png"
+      ],
       "target_version_candidate_available": false,
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v12/clayton_skin_02_record.json",
+        "generation": 12,
+        "status": "generated_reference_pending_validation",
+        "category": "costume",
+        "has_file": true,
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "lizzie_skin_01",
@@ -4494,18 +4574,27 @@
       ],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_costumes_v12_jack_tactics_png",
+      "selected_path": "assets/costumes_v12/jack_tactics.png",
+      "selected_source_variant": "JACK Tactics — robot de soutien à quatre optiques, bras manipulateur et outil distincts",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_costumes_v12_jack_tactics_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/costumes_v12/jack_tactics.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v12/jack_skin_02_record.json",
+        "generation": 12,
+        "status": "generated_reference_pending_validation",
+        "category": "costume",
+        "has_file": true,
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "deebee_skin_01",
@@ -4660,18 +4749,27 @@
       ],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_costumes_v12_swarm_drone_skin_02_png",
+      "selected_path": "assets/costumes_v12/swarm_drone_skin_02.png",
+      "selected_source_variant": "Swarm Drone Rifleman — modèle standard Gears 5",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_costumes_v12_swarm_drone_skin_02_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/costumes_v12/swarm_drone_skin_02.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v12/swarm_drone_skin_02_record.json",
+        "generation": 12,
+        "status": "generated_reference_pending_validation",
+        "category": "costume",
+        "has_file": true,
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "ukkon_skin_01",
@@ -5006,7 +5104,7 @@
       "catalog_scope": "production_extension",
       "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
       "has_visual_reference": false,
-      "visual_status": "missing",
+      "visual_status": "generation_blocked",
       "selected_asset_id": null,
       "selected_path": null,
       "selected_source_variant": null,
@@ -5016,7 +5114,14 @@
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v12/fahz_hivebuster_g5_record.json",
+        "generation": 12,
+        "status": "blocked_generator_refusal",
+        "category": "costume",
+        "has_file": false,
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "reyna_blood_red_g5",
@@ -5037,18 +5142,27 @@
       ],
       "catalog_scope": "production_extension",
       "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_costumes_v12_reyna_blood_red_g5_png",
+      "selected_path": "assets/costumes_v12/reyna_blood_red_g5.png",
+      "selected_source_variant": "Blood Red Queen Reyna — skin multijoueur Operation 6, tentacules inférieurs reconstitués",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_costumes_v12_reyna_blood_red_g5_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/costumes_v12/reyna_blood_red_g5.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v12/reyna_blood_red_g5_record.json",
+        "generation": 12,
+        "status": "generated_reference_pending_validation",
+        "category": "costume",
+        "has_file": true,
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "swarm_drone_uir_g5",
@@ -5069,18 +5183,27 @@
       ],
       "catalog_scope": "production_extension",
       "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_costumes_v12_swarm_drone_uir_g5_png",
+      "selected_path": "assets/costumes_v12/swarm_drone_uir_g5.png",
+      "selected_source_variant": "UIR Elite Drone — skin multijoueur Gears 5 Operation 6",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_costumes_v12_swarm_drone_uir_g5_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/costumes_v12/swarm_drone_uir_g5.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v12/swarm_drone_uir_g5_record.json",
+        "generation": 12,
+        "status": "generated_reference_pending_validation",
+        "category": "costume",
+        "has_file": true,
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "zealot_collectors_g5",
@@ -5101,18 +5224,27 @@
       ],
       "catalog_scope": "production_extension",
       "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_costumes_v12_zealot_collectors_g5_png",
+      "selected_path": "assets/costumes_v12/zealot_collectors_g5.png",
+      "selected_source_variant": "Collector's Zealot — skin multijoueur Gears 5 Operation 6",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_costumes_v12_zealot_collectors_g5_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/costumes_v12/zealot_collectors_g5.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v12/zealot_collectors_g5_record.json",
+        "generation": 12,
+        "status": "generated_reference_pending_validation",
+        "category": "costume",
+        "has_file": true,
+        "pass_date": "2026-11-27"
+      }
     }
   ],
   "bosses": [
@@ -5343,12 +5475,12 @@
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": {
-        "record": "data/generation_v11/boss_hydra_skorge_record.json",
-        "generation": 11,
+        "record": "data/generation_v12/boss_hydra_skorge_record.json",
+        "generation": 12,
         "status": "reference_research_pending",
         "category": "boss",
         "has_file": false,
-        "pass_date": "2026-11-25"
+        "pass_date": "2026-11-27"
       }
     },
     {
@@ -5854,18 +5986,27 @@
       "catalog_notes": [],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_bosses_v12_kraken_gears5_head_mantle_png",
+      "selected_path": "assets/bosses_v12/kraken_gears5_head_mantle.png",
+      "selected_source_variant": "Gears 5 — tête et manteau exposés du Kraken, ensemble central seulement",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_bosses_v12_kraken_gears5_head_mantle_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/bosses_v12/kraken_gears5_head_mantle.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v12/boss_kraken_record.json",
+        "generation": 12,
+        "status": "generated_reference_pending_validation",
+        "category": "boss",
+        "has_file": true,
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "boss_flock",
@@ -5885,18 +6026,27 @@
       "catalog_notes": [],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_bosses_v12_flock_gears5_swarm_png",
+      "selected_path": "assets/bosses_v12/flock_gears5_swarm.png",
+      "selected_source_variant": "Gears 5 — essaim de Leeches, formation collective recomposée",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_bosses_v12_flock_gears5_swarm_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/bosses_v12/flock_gears5_swarm.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v12/boss_flock_record.json",
+        "generation": 12,
+        "status": "generated_reference_pending_validation",
+        "category": "boss",
+        "has_file": true,
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "boss_wakaatu",
@@ -5928,12 +6078,12 @@
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": {
-        "record": "data/generation_v10/boss_wakaatu_record.json",
-        "generation": 10,
+        "record": "data/generation_v12/boss_wakaatu_record.json",
+        "generation": 12,
         "status": "reference_research_pending",
         "category": "boss",
         "has_file": false,
-        "pass_date": "2026-11-25"
+        "pass_date": "2026-11-27"
       }
     },
     {
@@ -6304,7 +6454,14 @@
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v12/boss_riftworm_g2_record.json",
+        "generation": 12,
+        "status": "reference_research_pending",
+        "category": "boss",
+        "has_file": false,
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "boss_sire_g5",
@@ -8155,8 +8312,6 @@
       "prescott"
     ],
     "costumes": [
-      "marcus_skin_01",
-      "dom_skin_01",
       "dom_skin_03",
       "baird_skin_02",
       "cole_skin_01",
@@ -8169,10 +8324,7 @@
       "kantus_skin_02",
       "theron_skin_01",
       "theron_skin_02",
-      "jd_skin_01",
       "jd_skin_02",
-      "del_skin_01",
-      "clayton_skin_02",
       "hoffman_skin_02",
       "tai_skin_02",
       "dizzy_skin_02",
@@ -8181,22 +8333,15 @@
       "reyna_skin_02",
       "lahni_skin_01",
       "keegan_skin_02",
-      "jack_skin_02",
       "deebee_skin_02",
-      "swarm_drone_skin_02",
       "grenadier_skin_02",
       "lahni_hivebusters_intro",
       "keegan_hivebusters_intro",
       "anthony_black_steel_g5",
-      "fahz_hivebuster_g5",
-      "reyna_blood_red_g5",
-      "swarm_drone_uir_g5",
-      "zealot_collectors_g5"
+      "fahz_hivebuster_g5"
     ],
     "bosses": [
       "boss_hydra_skorge",
-      "boss_kraken",
-      "boss_flock",
       "boss_wakaatu",
       "boss_scion_g4",
       "boss_riftworm_g2",

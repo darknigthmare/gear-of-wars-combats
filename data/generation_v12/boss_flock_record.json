@@ -1,0 +1,133 @@
+{
+  "id": "boss_flock",
+  "subject_id": "boss_flock",
+  "name": "Flock",
+  "category": "boss",
+  "source_game": "Gears 5",
+  "catalog_target_game": "Gears 5",
+  "variant": "Gears 5 — essaim de Leeches, formation collective recomposée",
+  "purpose": "reference_collective_swarm",
+  "variant_relation": "target_version_candidate",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-27",
+  "generation_attempted": true,
+  "has_image": true,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "asset_path": "assets/bosses_v12/flock_gears5_swarm.png",
+  "original_output_path": "/workspace/scratch/3c791759fb15/generated_images/exec-8423f28f-a09c-4e5e-aefd-c82a903a86cb.png",
+  "prompt": "Create ONE native RGBA transparent-background static reference sprite of ONE Flock enemy formation from Gears 5 (2019), faithful to the attached released-game references. This is one collective enemy, a dense airborne mass of Leeches, not two enemies and not a sheet. Reference 1 (the snowy gameplay screenshot) establishes the in-game Flock's dense swirling oval body silhouette and layered dark wine-red organisms; exclude the environment, protagonist, weapons, HUD and second formation. References 2 and 3 show the actual Leech game model and define the anatomy of every visible organism: flattened leathery dark maroon flesh, radial toothlined funnel mouth, fleshy broad triangular mantle with short thornlike projections, a long tapering ribbon body and thin trailing appendages. Reproduce this game anatomy, not bats, insects with articulated legs, birds, dragons, tentacle monsters or skulls. Group these small organisms into a single dense, roughly oblong airborne ball as seen in reference 1, mostly drifting toward the right. Readable irregular outer silhouette, layers of overlapping long tails, a few clearly readable Leech heads on the outer layer, restrained reddish pink emissive mouth interiors. There is NO separate giant central face or single mouth belonging to the whole swarm, no new creature anatomy, no black smoke, no fire, no particles detached outside the formation. Preserve the game's muted palette and fleshy textures. Side-oriented composition suitable for a 2D fighting-game reference, with game-authentic volume and readable forms, neutral diffuse lighting and all anatomical elements fully inside frame. One cohesive subject only, centered at approximately 70 percent of canvas width and height, with generous 15 percent transparent margins on every side. No ground, no floor shadow, no lettering, no logo, no UI, no border, no backdrop and no contact sheet. Static raster reference asset, not animation and not a certified production asset.",
+  "revision": {
+    "reason": "Première formation trop alignée et Leeches trop grosses relativement à l'essaim. Recomposition plus dense demandée au générateur.",
+    "prompt": "Revise the attached Gears 5 Flock sprite using the attached in-game screenshot as the composition target. Keep ONE single formation, true transparent alpha, no environment or HUD. The existing version's Leech bodies are far too large relative to the whole swarm and arranged like parallel planks. Correct ONLY this major collective scale/composition issue: make each Leech much smaller relative to the entire Flock and greatly increase their density, producing the dense chaotic oval whirl of many overlapping thin maroon bodies and tapering tails seen in each of the two in-game Flocks in reference 2. Deliver only ONE of those formations. The whole formation must read as a compact swirling mass with interlocking directions around its center, not a linear school of a dozen giant creatures. Retain the flesh, spines and mouth anatomy from reference 3, but only several small peripheral mouths should be readable, distributed through the layer edges. Most tiny mouths are hidden among the intertwined organisms. Use small restrained pink-red light glimpses among dark wine-red body layers. Do not invent a central creature, eye or giant maw; the Flock is a mass of separate Leeches moving collectively. Do not add smoke, flames, detached embers or abstract energy. Full formation fully contained and centered, comfortably separated from all edges with at least 12 percent transparent margin. Slight bias toward the right, but essentially a dense naturally irregular ball as in gameplay. Exactly one static asset, no sheet, no text, no floor and no shadow on a background.",
+    "previous_output_path": "/workspace/scratch/3c791759fb15/generated_images/exec-a7e7bafc-c945-4845-b5b1-4c9fb99dc61d.png",
+    "archived_asset_path": "rejected_candidates/bosses_v12/flock_density_candidate.png",
+    "archived_output": {
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1374,
+      "height": 1145,
+      "bytes": 1464035,
+      "sha256": "375f96dc8e9967dab91f20be85581baae38b9e50cf92b1d473dae46b1497d6ce",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_fraction": 0.6101453697170789,
+      "subject_bbox_alpha_ge_128": [
+        75,
+        166,
+        1283,
+        969
+      ],
+      "subject_margins_ltrb_px": [
+        75,
+        166,
+        91,
+        176
+      ],
+      "native_copy_verified": true
+    }
+  },
+  "sources": [
+    {
+      "page_url": "https://www.gamepressure.com/gears-5/act-2-chapter-4-the-source-of-it-all-walkthrough/z2c8fa",
+      "image_url": "https://www.gamepressure.com/gears-5/gfx/word/438688078.jpg",
+      "source_type": "secondary_publisher_in_game_screenshot",
+      "scope": "Capture Gears 5 dans les ruines enneigées montrant deux Flocks. Utilisée pour la densité, la silhouette et la couleur de l'essaim ; une seule formation générée. La capture ne fixe pas un nombre canonique de Leeches.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/flock_gameplay.jpg",
+      "reference_sha256": "dfabe6f70c976a65722a08b8485703e211a6c8e0a2283d7e20482e77788b4ca1"
+    },
+    {
+      "page_url": "https://www.artstation.com/artwork/2xzmJB",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/020/540/573/large/bruno-melo-leech-01.jpg?1568179433",
+      "source_type": "production_artist_final_model",
+      "scope": "Bruno Melo : highpoly du Leech ; gamemesh et textures crédités à Can Etiskol. Vues du modèle de production. Preuve anatomique de l'organisme individuel, pas d'une formation déterminée.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/leech_model_1.jpg",
+      "reference_sha256": "daf533f87755b30676d9373fe21f3222fe719e2f3d8425efa05d81a7c1b06c1d"
+    },
+    {
+      "page_url": "https://www.artstation.com/artwork/2xzmJB",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/020/540/574/large/bruno-melo-leech-02.jpg?1568179436",
+      "source_type": "production_artist_final_model",
+      "scope": "Deux vues du Leech en posture de déplacement ; manteau aplati, gueule en entonnoir, épines et appendices effilés.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/leech_model_2.jpg",
+      "reference_sha256": "376241edbd8dcdbac87d59c90efca5d5fbecaa28d5782fcc3592e09ae3286889"
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_subject": true,
+    "single_character": false,
+    "single_collective_enemy": true,
+    "full_formation_in_frame": true,
+    "transparent_background": true,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Un seul Flock : plusieurs Leeches forment une entité collective, conformément à la nature du sujet ; il ne s'agit pas d'une planche de personnages.",
+      "La révision a réduit la taille relative des organismes et diversifié leurs directions. La densité et le mouvement collectif restent une recomposition, pas la copie d'une frame de jeu.",
+      "Le jeu montre des détails plus petits et moins séparables : disposition, nombre, proportions exactes, rigidité des manteaux et intensité des lumières internes restent à comparer.",
+      "Marge minimale de 125 pixels à alpha >=128. Toutes les extrémités principales restent dans le cadre ; cible de 12 % non atteinte verticalement.",
+      "Aucun effet de fumée, fond, interface ou géant central ajouté. Les Leeches ne sont pas des assets séparés livrés par ce PNG."
+    ],
+    "remaining_checks": [
+      "Comparer le volume et la densité de l'essaim sur plusieurs captures Gears 5 ; vérifier que les couches ne ressemblent pas à un empilement rigide.",
+      "Contrôler l'anatomie et les éléments fins de chaque Leech discernable, ainsi que les franges d'alpha avant utilisation.",
+      "Aucune dispersion, recomposition, attaque, animation ou logique de boss produite."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1374,
+    "height": 1145,
+    "bytes": 1436558,
+    "sha256": "b5f0e21f735ac774ff04064c6a3b0e5a19bcf11cc22d4fac84c7c0a0749610f8",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.6377096800849208,
+    "subject_bbox_alpha_ge_128": [
+      182,
+      125,
+      1204,
+      1018
+    ],
+    "subject_margins_ltrb_px": [
+      182,
+      125,
+      170,
+      127
+    ],
+    "native_copy_verified": true
+  }
+}

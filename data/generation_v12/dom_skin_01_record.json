@@ -1,0 +1,141 @@
+{
+  "id": "dom_skin_01",
+  "subject_id": "dom_skin_01",
+  "costume_id": "dom_skin_01",
+  "character_id": "dom",
+  "name": "Dominic Santiago — E-Day",
+  "category": "costume",
+  "source_game": "Gears of War: E-Day",
+  "catalog_target_game": "Gears of War: E-Day",
+  "variant": "Dom jeune — modèle de production E-Day",
+  "variant_relation": "target_version_candidate",
+  "purpose": "reference_fullbody",
+  "status": "generated_reference_pending_validation",
+  "generation_status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "pass_date": "2026-11-27",
+  "generation_attempted": true,
+  "generation_attempt_count": 1,
+  "has_image": true,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "pose": "static_front_three_quarter_facing_right",
+  "asset_path": "assets/costumes_v12/dom_eday.png",
+  "original_output_path": "/workspace/scratch/3c791759fb15/generated_images/exec-a931c21b-b86c-494e-a3dd-67096392f0eb.png",
+  "prompt": "Create exactly ONE static full-body reference image of young Dominic \"Dom\" Santiago in his Gears of War: E-Day costume, faithfully following the attached actual production model renders by Vince Rizzi. References 1 and 2 show the entire same model including boots, reference 3 gives the torso, hands and waist details, reference 4 gives the face. Use these exact edition-specific proportions, face, outfit, materials and asymmetries. Do not substitute Dom from Gears of War 2006, Ultimate Edition, Gears 2 or Gears 3.\nPreserve the young broad face, short dark upright hair with clipped sides, short angular beard and chin strip, small hoop earring, stocky heavily muscular build, olive drab camouflage short-sleeved undersuit, visible upper arms and the upper-arm tattoo where visible. The weathered dark iron chest armor has two large circular metal pectoral discs (not glowing blue discs), central skull-cog badge, small restrained ochre markings and the asymmetrical knife fastened on the character's RIGHT chest strap; the small pale blue round shoulder lamp is on the character's LEFT collar. Follow the source exactly for shoulder plates, straps, buckles, round belt buckle, forearm gauntlets with the row of short shells on the LEFT forearm, fingerless gloves, camouflage trousers, right thigh metal bands, left hip pouch, knees, broad shin guards and heavy angular boots. Never mirror the asymmetrical equipment. Same sober metallic palette and scale of parts as shown.\nOne calm stationary combat-ready stance suitable as a side-view fighting-game reference: face and feet point SCREEN RIGHT, torso in a restrained front three-quarter turn, knees slightly bent, empty hands held away from the body so the armor and outline stay readable. Remove the held firearm only, keep attached outfit gear. No attack, no movement, no second figure.\nFull character head to both complete boot soles entirely inside frame. Subject no more than 76 percent of canvas height with at least 12 percent genuinely empty transparent margin above head and below feet. True transparent RGBA background, neutral studio illumination, realistic textured game-render style and crisp readable edges. No floor, ground shadow, scenery, fog, pedestal, typography, watermark, title, logo outside the costume, UI, collage, turnaround or animation. This is a static candidate for manual review.",
+  "sources": [
+    {
+      "page_url": "https://vincerizzi.artstation.com/projects/xddAmR",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/103/190/406/large/vince-rizzi-dom02.webp?1791915190",
+      "source_type": "production_character_artist_render",
+      "artist": "Vince Rizzi",
+      "scope": "Modèle final texturé en pied, vue trois-quarts ; bottes et équipement de jambe visibles.",
+      "visual_reference_used": true,
+      "visually_inspected": true,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/dom_eday_model02.webp",
+      "reference_sha256": "d36e4e49d3b399db3d51ec8962ed0af4dbe62d22858f57b1722c4a62fc500d49"
+    },
+    {
+      "page_url": "https://vincerizzi.artstation.com/projects/xddAmR",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/103/190/410/large/vince-rizzi-dom03.webp?1791915198",
+      "source_type": "production_character_artist_render",
+      "artist": "Vince Rizzi",
+      "scope": "Deuxième vue en pied, orientation vers la droite ; asymétries, tatouage et deux bottes visibles.",
+      "visual_reference_used": true,
+      "visually_inspected": true,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/dom_eday_model03.webp",
+      "reference_sha256": "540b5c618b5483012b8c2d262efa493d551ec03833fb5246e6b4c3f2a61ecf3a"
+    },
+    {
+      "page_url": "https://vincerizzi.artstation.com/projects/xddAmR",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/103/190/723/large/vince-rizzi-dom05.webp?1791915598",
+      "source_type": "production_character_artist_render",
+      "artist": "Vince Rizzi",
+      "scope": "Vue rapprochée du torse, des mains, du couteau, de la lampe, de la ceinture et de la poche.",
+      "visual_reference_used": true,
+      "visually_inspected": true,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/dom_eday_model05.webp",
+      "reference_sha256": "30f667d359ebca2b28ff35294fd71bf362d92dc4840eaae1f3ed1e2ec61943af"
+    },
+    {
+      "page_url": "https://vincerizzi.artstation.com/projects/xddAmR",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/103/190/061/large/vince-rizzi-dom-01.webp?1791914622",
+      "source_type": "production_character_artist_render",
+      "artist": "Vince Rizzi",
+      "scope": "Gros plan de la tête, cheveux, barbe, armure et lampe du même modèle.",
+      "visual_reference_used": true,
+      "visually_inspected": true,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/dom_eday_model01.webp",
+      "reference_sha256": "8e8e0837a6710cabd9e666ce1c0c73f2bf4c61f88857c3f71aba1773a0794221"
+    }
+  ],
+  "source_urls": [
+    "https://vincerizzi.artstation.com/projects/xddAmR",
+    "https://www.artstation.com/artwork/xddAmR"
+  ],
+  "reference_images": [
+    "/workspace/scratch/3c791759fb15/research_v12/dom_eday_model02.webp",
+    "/workspace/scratch/3c791759fb15/research_v12/dom_eday_model03.webp",
+    "/workspace/scratch/3c791759fb15/research_v12/dom_eday_model05.webp",
+    "/workspace/scratch/3c791759fb15/research_v12/dom_eday_model01.webp"
+  ],
+  "qa": {
+    "reference_visually_inspected": true,
+    "output_visually_inspected": true,
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "orientation_facing_right": true,
+    "orientation_note": "Tête tournée vers la droite, corps en trois-quarts avant ; la pose reste plus frontale que strictement latérale.",
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Une seule silhouette complète ; casque absent conformément au modèle, cheveux courts, barbe, boucle d'oreille, tenue camouflage et armure à disques pectoraux.",
+      "Couteau conservé sur le côté droit anatomique du torse, lampe au col gauche, munitions à l'avant-bras gauche et poche à la hanche gauche ; pas de miroir global du personnage.",
+      "Références de production complètes jusqu'aux deux semelles ; aucune substitution depuis les éditions 2006, Gears 2 ou Gears 3.",
+      "Tatouage, camouflage, rayures, rivets et petits composants sont recomposés et demandent une comparaison détaillée.",
+      "Sortie native conservée sans recadrage, redimensionnement ni réencodage.",
+      "Transparence réelle mesurée : 58.39% de pixels alpha=0 ; maximum alpha=254.",
+      "Marges à alpha >=128 : [114, 121, 110, 41] px ; corps entièrement dans le cadre, mais objectif de 12 % vertical non atteint."
+    ],
+    "remaining_checks": [
+      "Comparer le visage, le tatouage, le nombre exact de munitions et les petites attaches au modèle de production.",
+      "Contrôler les franges et les pixels à faible alpha sur fonds clair et sombre avant toute intégration.",
+      "Valider l'échelle et une pose latérale cohérente avec les autres candidats.",
+      "Aucune animation, collision ni intégration moteur réalisée."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2173308,
+    "sha256": "24e692f56d85a46970c4bd84eba48630f5ac5d3f730f54c36ed195451e724298",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.5839010874430338,
+    "subject_bbox_alpha_ge_128": [
+      114,
+      121,
+      914,
+      1495
+    ],
+    "subject_margins_ltrb_px": [
+      114,
+      121,
+      110,
+      41
+    ],
+    "native_copy_verified": true
+  },
+  "prompt_sha256": "92c000a3d5b6465db73dc2dc3fb716d37ffdfa01f6ffe763516bfb1353f4314c"
+}

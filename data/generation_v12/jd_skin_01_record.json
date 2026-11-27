@@ -1,0 +1,132 @@
+{
+  "id": "jd_skin_01",
+  "subject_id": "jd_skin_01",
+  "character_id": "jd",
+  "costume_id": "jd_skin_01",
+  "name": "JD Fenix — Outsider Gears 4, candidat de concept",
+  "category": "costume",
+  "source_game": "Gears of War 4 — concept de préproduction Outsider",
+  "catalog_target_game": "Gears of War 4",
+  "variant": "JD Outsider — concept Microsoft avril 2016, corroboration partielle campagne",
+  "variant_relation": "edition_unverified",
+  "asset_path": "assets/costumes_v12/jd_skin_01.png",
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE static transparent full-body 2D game costume candidate.\nPrimary request: JD Fenix in his Outsider clothing from Gears of War 4, costume id jd_skin_01.\nReference roles: Image 1 is Microsoft's published full-body Outsider JD concept art from April 2016 and supplies the full clothing/boot silhouette. Image 2 is an actual Gears of War 4 campaign character capture: JD is the young blond man SECOND FROM THE LEFT, between Kait and the large gray-bearded Marcus. Use only JD's identity and clothing in this capture, not the three other people. Both references were checked for the matching brown Outsider vest, olive scarf, dark sleeves, diagonal blue-lit shoulder harness and tan trousers. Render one single JD only.\nPreserve young adult JD's short swept blond hair, fair skin, blue eyes, light stubble and recognizable Gears 4 face from the capture. Match the worn brown leather sleeveless vest over a pale gray zip-front hooded layer and dark blue-gray long sleeves, olive-green scarf, one diagonal dark metal-and-webbing equipment strap from his ANATOMICAL LEFT shoulder down to his RIGHT waist with the blue-lit shoulder/backpack attachment. Use the correct broad belt, tan-brown utility trousers, dark holster and paired straps on his RIGHT thigh, worn dark lace-up boots with their cuff straps as shown in the full-body concept, and fingerless gloves. Do not replace this with COG plate armor, Gears 5 medical arm gear, a bald head or a full beard. Do not invent logos or equipment.\nPose: quiet static combat-ready guard, slight bend in knees, both empty hands visible away from torso. Predominantly SIDE VIEW with small front three-quarter angle facing screen RIGHT, nose and toes pointing right. No held gun, no attack or particles.\nStyle: realistic worn leather, cloth and metal interpreted as a crisp hand-painted 2D sprite with natural neutral lighting.\nComposition: exactly one complete figure from hair to soles, both boots in frame; figure occupies only 75% of canvas height with at least 10% transparent space on each side.\nReal transparent alpha background, opaque character with clean antialiased edges. No background scene, floor, ground shadow, smoke, halo, gradient, backdrop, text, watermark, UI, duplicate figure, turnaround, sprite sheet or animation.",
+  "sources": [
+    {
+      "page_url": "https://www.gamempire.it/gears-of-war-4-rilasciate-nuove-immagini/",
+      "image_url": "https://www.gamempire.it/wp-content/uploads/2016/04/gears-of-war-4-12-1.jpg",
+      "source_type": "publisher_released_preproduction_concept_rehosted_by_press",
+      "scope": "Concept Microsoft en pied de JD Outsider publié en avril 2016 : habit, harnais, pantalon, holster et bottes complets. Ce n'est pas un rendu du modèle final. La sortie Microsoft de concepts et captures est également rapportée par GameSpot.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v12_costumes/jd_outsider_microsoft_press.jpg",
+      "reference_sha256": "23916e7567b918c2f80c5eb292b0d263f5fabe3af7c92e24494e36942c70ba68"
+    },
+    {
+      "page_url": "https://www.gamespot.com/articles/gears-of-war-4s-campaign-mixes-guns-and-gore-with-/1100-6443693/",
+      "image_url": "https://www.gamespot.com/wp-content/uploads/original/1560/15603561/3131268-gears4_squad.jpg",
+      "source_type": "secondary_press_in_game_campaign_capture",
+      "scope": "Capture de campagne Gears of War 4 à l'armurerie de Marcus : JD deuxième depuis la gauche, Del à l'extrême droite. Visages, couleurs et accessoires visibles comparés aux concepts ; bas des bottes hors cadre.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v12_costumes/outsider_squad_campaign_capture.jpg",
+      "reference_sha256": "987ceb9144253b40ac77e11ea2c9a7049d812647111436f175efd255691ca2a3"
+    },
+    {
+      "page_url": "https://www.youtube.com/watch?v=oubS8ZB5Ias",
+      "image_url": "https://i.ytimg.com/vi/oubS8ZB5Ias/maxresdefault.jpg",
+      "source_type": "secondary_in_game_cutscene_thumbnail",
+      "scope": "Vignette de cinématique Comic-Con 2016 consultée uniquement pour corroborer vestes, couleurs et harnais Outsider de JD/Del ; seule la vignette a été inspectée, pas la vidéo complète. Pieds hors cadre. Non transmise au générateur.",
+      "visual_reference_used": false,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v12_costumes/outsider_raid_gameplay_thumbnail.jpg",
+      "reference_sha256": "571e19e32f2b299860850f450af4cb161129159a041eab65eaa0ddb0b46ede64"
+    },
+    {
+      "page_url": "https://www.gamespot.com/articles/look-at-all-these-gears-of-war-4-campaign-high-res/1100-6439201/",
+      "source_type": "press_attestation_of_microsoft_release",
+      "scope": "Article décrivant le lot d'images fourni par Microsoft, dont les concepts de personnages. Attribution et contexte de préproduction, pas référence de modèle final.",
+      "visual_reference_used": false
+    }
+  ],
+  "qa": {
+    "observations": [
+      "Un seul jeune JD blond en pied, tourné à droite en trois-quarts ; veste brune, foulard olive, couche grise à capuche, manches sombres, harnais diagonal à lumière bleue, pantalon beige et holster à la cuisse droite présents.",
+      "La capture de campagne corroborait ces éléments du haut du corps ; le visage généré et les finitions du vêtement restent interprétés, sans validation du modèle final.",
+      "Le rendu est surtout frontal de trois-quarts, mains ouvertes et garde peu marquée ; ce n'est pas encore la pose latérale cible.",
+      "RGBA 1024 × 1536, 69,19 % alpha=0, bordure de 8 px entièrement transparente. Les couleurs de fond visibles dans certains aperçus ne prouvent pas un fond opaque.",
+      "Silhouette entière ; marges alpha >=128 [195,93,220,50] px. L'objectif de 10 % de marge verticale n'est pas atteint."
+    ],
+    "remaining_checks": [
+      "Comparer le visage, les proportions et les détails du harnais au modèle final de campagne Gears 4.",
+      "Vérifier pantalon, holster, bottes et accessoires sur un rendu final complet ; le concept ne certifie pas leur identité finale.",
+      "Valider ou corriger la pose latérale de combat et la marge verticale ; contrôler les contours dans le moteur."
+    ],
+    "reference_visually_inspected": true,
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "alpha_measured": true,
+    "framing_measured": true
+  },
+  "notes": [
+    "Candidat de concept Outsider, corroboré seulement sur les parties visibles dans des captures de campagne. Le modèle final complet n'est pas validé ; édition à vérifier, fidélité 1:1 non certifiée.",
+    "Les détails des jambes et bottes proviennent principalement du concept de préproduction. Aucune confusion avec les rendus COG Armoured, explicitement exclus.",
+    "Une seule tentative imagegen. PNG natif copié octet pour octet, sans retouche, agrandissement, animation ni spritesheet."
+  ],
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 1825254,
+    "sha256": "42d82fd578c054078b5883d4fbbb480d734874e7bcfdfd38a36c01b76768e3bc",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.6918665568033854,
+    "subject_bbox_alpha_ge_128": [
+      195,
+      93,
+      804,
+      1486
+    ],
+    "subject_margins_ltrb_px": [
+      195,
+      93,
+      220,
+      50
+    ],
+    "edge_band_width_px": 8,
+    "edge_alpha_max": 0,
+    "has_real_alpha": true,
+    "native_copy_verified": true
+  },
+  "original_output_path": "/workspace/scratch/3c791759fb15/generated_images/exec-3021de89-bb0f-4b16-b2d2-e353df7f704e.png",
+  "has_image": true,
+  "status": "generated_reference_pending_validation",
+  "generation_status": "generated_reference_pending_validation",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "generation_attempts": 1,
+  "pass_date": "2026-11-27",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "pose": "static_front_three_quarter_facing_right",
+  "quality_state": "candidate",
+  "purpose": "reference_fullbody",
+  "source_urls": [
+    "https://www.gamempire.it/gears-of-war-4-rilasciate-nuove-immagini/",
+    "https://www.gamespot.com/articles/gears-of-war-4s-campaign-mixes-guns-and-gore-with-/1100-6443693/",
+    "https://www.youtube.com/watch?v=oubS8ZB5Ias",
+    "https://www.gamespot.com/articles/look-at-all-these-gears-of-war-4-campaign-high-res/1100-6439201/"
+  ],
+  "reference_images": [
+    "/workspace/scratch/3c791759fb15/research_v12_costumes/jd_outsider_microsoft_press.jpg",
+    "/workspace/scratch/3c791759fb15/research_v12_costumes/outsider_squad_campaign_capture.jpg"
+  ]
+}
