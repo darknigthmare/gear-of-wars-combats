@@ -1,0 +1,116 @@
+{
+  "category": "costume",
+  "pass_date": "2026-11-27",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "purpose": "reference_fullbody",
+  "id": "anya_skin_01",
+  "subject_id": "anya_skin_01",
+  "costume_id": "anya_skin_01",
+  "character_id": "anya",
+  "name": "Anya Stroud — Contrôle Gears of War 2",
+  "source_game": "Gears of War 2",
+  "catalog_target_game": "Gears of War 2",
+  "variant": "Contrôle Gears 2 — édition choisie dans la cible G1/G2",
+  "variant_relation": "target_version_unconfirmed",
+  "asset_path": null,
+  "prompt": null,
+  "has_image": false,
+  "status": "reference_research_pending",
+  "generation_status": "reference_research_pending",
+  "generation_attempted": false,
+  "generation_attempts": 0,
+  "generation_attempt_count_this_pass": 0,
+  "engine": null,
+  "generation_method": "reference_research_only",
+  "quality_state": "reference_incomplete",
+  "reason": "La version Contrôle de Gears of War 2 est retenue explicitement. La capture de campagne retrouvée documente le visage, la coiffure et le haut de l'uniforme, mais s'arrête à la taille. Aucune vue finale complète de cette édition n'a été établie pour les jambes, les chaussures et les proportions du corps. Une tenue Gears 1, un concept ancien ou Civilian Anya de Gears 3 ne permet pas de compléter fidèlement le modèle Gears 2.",
+  "missing_reference_reason": "La version Contrôle de Gears of War 2 est retenue explicitement. La capture de campagne retrouvée documente le visage, la coiffure et le haut de l'uniforme, mais s'arrête à la taille. Aucune vue finale complète de cette édition n'a été établie pour les jambes, les chaussures et les proportions du corps. Une tenue Gears 1, un concept ancien ou Civilian Anya de Gears 3 ne permet pas de compléter fidèlement le modèle Gears 2.",
+  "notes": [
+    "Le catalogue associait Gears 1 et Gears 2 ; ce journal ne fusionne pas les deux modèles et choisit Gears 2.",
+    "Aucun appel au générateur : le bas de l'uniforme exact manque. Les captures Gears 1 et les costumes Gears 3 restent exclus."
+  ],
+  "sources": [
+    {
+      "page_url": "https://www.gamespot.com/articles/then-and-now-gears-of-war-2/1100-6202581/",
+      "image_url": "https://www.gamespot.com/wp-content/uploads/original/gamespot/images/2008/features/hardware/thengears/2153469-021.jpg",
+      "source_type": "secondary_press_comparison_actual_game_capture",
+      "scope": "Section Anya Stroud : capture de campagne Gears 2 inspectée, visage et uniforme jusqu'à la taille seulement.",
+      "visual_reference_used": false,
+      "reference_visually_inspected": true,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v13_classic/anya_g2_capture.jpg",
+      "reference_sha256": "c904dbde7d051c6fc6091597714db42cb7466ea374a2af807c3b336943b92376",
+      "reference_dimensions": [
+        768,
+        432
+      ]
+    },
+    {
+      "page_url": "https://www.gamespot.com/articles/then-and-now-gears-of-war-2/1100-6202581/",
+      "image_url": "https://www.gamespot.com/wp-content/uploads/original/gamespot/images/2008/features/hardware/thengears/2153471-021a.jpg",
+      "source_type": "secondary_press_comparison_wrong_edition_excluded",
+      "scope": "Capture Gears 1 inspectée uniquement pour distinguer les éditions ; elle ne sert pas de référence pour Gears 2 et ne montre pas les jambes.",
+      "visual_reference_used": false,
+      "reference_visually_inspected": true,
+      "excluded_from_target": true,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v13_classic/anya_g1_capture.jpg",
+      "reference_sha256": "f3df24d5d62787bf2a0fe446ff9ecd7d0f774a426bb1a2d70fc9c0300fec3ec2",
+      "reference_dimensions": [
+        768,
+        432
+      ]
+    },
+    {
+      "page_url": "https://www.engadget.com/2008-09-04-pax-08-lead-gow2-artist-and-writer-talk-lancer-polys-deaths-an.html",
+      "source_type": "developer_interview_via_press",
+      "scope": "Entretien de Pete Hayes : refonte d'Anya pour Gears 2.",
+      "visual_reference_used": false
+    }
+  ],
+  "research_log": [
+    {
+      "url": "https://www.zbrushcentral.com/t/zbrushcentral-interview-epic-games-gears-of-war-2/278215",
+      "result": "Archive d'entretien Epic consultée ; aucun modèle complet d'Anya Gears 2 établi à partir des images accessibles."
+    },
+    {
+      "url": "https://www.pixologic.com/interview/epic/1/",
+      "result": "Ancienne galerie d'entretien inaccessible pendant la recherche ; aucune image de cette galerie déclarée inspectée."
+    },
+    {
+      "url": "https://www.creativeuncut.com/gallery-13/gow-anya.html",
+      "result": "Concept Gears 1 repéré, exclu de la cible finale Gears 2 ; aucune image utilisée."
+    }
+  ],
+  "qa": {
+    "reference_visually_inspected": true,
+    "visually_inspected": false,
+    "output_visually_inspected": false,
+    "single_character": null,
+    "full_body_in_frame": null,
+    "transparent_background": null,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "alpha_measured": false,
+    "framing_measured": false,
+    "observations": [
+      "Aucune image générée pour cette cible dans cette passe. Le journal documente la recherche et la limite constatée."
+    ],
+    "remaining_checks": [
+      "La version Contrôle de Gears of War 2 est retenue explicitement. La capture de campagne retrouvée documente le visage, la coiffure et le haut de l'uniforme, mais s'arrête à la taille. Aucune vue finale complète de cette édition n'a été établie pour les jambes, les chaussures et les proportions du corps. Une tenue Gears 1, un concept ancien ou Civilian Anya de Gears 3 ne permet pas de compléter fidèlement le modèle Gears 2."
+    ]
+  },
+  "history_check": {
+    "baseline_commit": "3d12276302c040f05e5452de073dc3a67470554f",
+    "all_generation_directories_and_archives_checked": true,
+    "exact_subject_previously_attempted": false,
+    "notes": "Les historiques Anya concernent d'autres éditions/costumes, notamment Gears 3 ; aucun appel antérieur retrouvé pour Contrôle Gears 2."
+  },
+  "source_urls": [
+    "https://www.gamespot.com/articles/then-and-now-gears-of-war-2/1100-6202581/",
+    "https://www.engadget.com/2008-09-04-pax-08-lead-gow2-artist-and-writer-talk-lancer-polys-deaths-an.html"
+  ],
+  "reference_images": []
+}

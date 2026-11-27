@@ -6,6 +6,7 @@ written. Historical records, source images and generation result files stay inta
 """
 from __future__ import annotations
 
+import argparse
 import hashlib
 import json
 import re
@@ -213,7 +214,8 @@ def collect_assets(registry: dict, roster: list[dict], catalog: dict | None = No
             relative_asset = record.get("asset_path") or record.get("output_path") or record.get("path")
             status = record.get("status") or ("generated" if record.get("has_image") else "blocked" if record.get("error") else "unknown")
             attempt = {"record": relative_record, "generation": generation, "status": status, "category": category,
-                       "has_file": bool(relative_asset and local_path(relative_asset).is_file())}
+                       "has_file": bool(relative_asset and local_path(relative_asset).is_file()),
+                       "record_sha256": hashlib.sha256(path.read_bytes()).hexdigest()}
             pass_date = record_date(record)
             if pass_date:
                 attempt["pass_date"] = pass_date
@@ -505,7 +507,7 @@ La galerie indique l’édition réellement documentée pour chaque image. Les a
 ## Recalcul après génération
 
 ```bash
-python src/consolidate_inventory.py
+python src/consolidate_inventory.py{' --report-suffix ' + coverage['report_suffix'] if coverage.get('report_suffix') else ''}
 ```
 
 Cette commande vérifie les fichiers, recalcule empreintes, dimensions, alpha et comptes, réconcilie les références du roster, puis reconstruit l’inventaire et la galerie autonome. Elle lit les résultats des passes v5 et suivantes sans les modifier. `src/build_asset_manifest.py` appelle également ce recalcul avant de renouveler la file de production. `src/finalize_generation_v2.py` reste un script historique de v2, pas la commande courante de consolidation.
@@ -517,12 +519,31 @@ Ce rapport décrit les fichiers préparés. Il ne constitue pas une preuve de pu
     path.write_text(report, encoding="utf-8")
 
 
-def build_inventory():
+def build_inventory(*, report_suffix: str | None = None):
+    # Several passes can share one date. An explicit version keeps a later
+    # consolidation from overwriting the already published daily report.
+    if report_suffix and not re.fullmatch(r"V[1-9]\d*", report_suffix):
+        raise ValueError("Report suffix must be a version such as V13")
     registry = read_json(ROOT / "production/asset_registry.json")
     roster = read_json(ROOT / "data/roster.json")
     catalog = load_production_catalog(roster)
     assets, archived, attempts, warnings = collect_assets(registry, roster, catalog)
     snapshot_date = max([DATE] + [attempt["pass_date"] for attempt in attempts.values() if attempt.get("pass_date")])
+    if report_suffix is None:
+        # The manifest wrapper also calls this function without arguments.
+        # Keep an existing versioned report, or version a newer same-day pass.
+        previous_path = ROOT / "production/coverage.json"
+        previous = read_json(previous_path) if previous_path.is_file() else {}
+        report_suffix = previous.get("report_suffix", "")
+        previous_attempts = [row.get("last_generation_attempt") or {} for group in
+                             ("characters", "production_characters", "costumes", "bosses", "stages", "projectiles", "additional_references")
+                             for row in previous.get(group, [])]
+        previous_generation = max([0] + [attempt.get("generation", 0) for attempt in previous_attempts])
+        current_generation = max([0] + [attempt["generation"] for attempt in attempts.values()])
+        if current_generation > previous_generation and (report_suffix or previous.get("snapshot_date") == snapshot_date):
+            report_suffix = f"V{current_generation}"
+        if report_suffix and not re.fullmatch(r"V[1-9]\d*", report_suffix):
+            raise ValueError("Stored report suffix must be a version such as V13")
     apply_costume_asset_links(assets, catalog)
     prototype_map_path = ROOT / "prototype/asset-map.json"
     prototype_paths = set()
@@ -583,7 +604,8 @@ def build_inventory():
         raise ValueError("Duplicate asset identifiers")
     coverage = {
         "schema_version": "1.3", "project": "Gears of War Combats", "snapshot_date": snapshot_date,
-        "report_path": f"docs/production/CONSOLIDATION_{snapshot_date}.md",
+        "report_path": f"docs/production/CONSOLIDATION_{snapshot_date}{'_' + report_suffix if report_suffix else ''}.md",
+        "report_suffix": report_suffix,
         "generator": "src/consolidate_inventory.py", "totals": totals,
         "characters": characters, "production_characters": production_characters, "costumes": costumes,
         "bosses": bosses, "stages": stages, "projectiles": projectiles,
@@ -631,4 +653,7 @@ def build_inventory():
 
 
 if __name__ == "__main__":
-    print(json.dumps(build_inventory(), ensure_ascii=False, indent=2))
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--report-suffix", default=None, help="Versioned report suffix, e.g. V13; by default preserve the current version or version a newer same-day pass")
+    args = parser.parse_args()
+    print(json.dumps(build_inventory(report_suffix=args.report_suffix), ensure_ascii=False, indent=2))

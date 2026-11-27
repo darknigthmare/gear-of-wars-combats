@@ -1,0 +1,117 @@
+{
+  "id": "riftworm_g2_exterior_v13",
+  "subject_id": "boss_riftworm_g2",
+  "name": "Riftworm — extérieur Gears of War 2",
+  "category": "boss",
+  "source_game": "Gears of War 2",
+  "variant": "Riftworm Gears of War 2 — corps extérieur complet, vue latérale de modèle",
+  "variant_relation": "target_version_candidate",
+  "purpose": "reference_exterior_fullbody",
+  "status": "generated_reference_pending_validation",
+  "pass_date": "2026-11-27",
+  "engine": "built_in_imagegen",
+  "generation_attempted": true,
+  "generation_attempts": 2,
+  "successful_outputs": 1,
+  "generator_refusals": 0,
+  "infrastructure_events": [
+    {
+      "call": 1,
+      "error": "unable to read referenced image: exec-server transport closed",
+      "stage": "reference_read_before_generation",
+      "retry": "Même prompt et même référence ; échec de transport, aucun refus du générateur."
+    }
+  ],
+  "has_image": true,
+  "asset_path": "assets/bosses_v13/riftworm_g2_exterior.png",
+  "original_output_path": "/workspace/scratch/3c791759fb15/generated_images/exec-99b385e7-fdab-45af-bfad-ff05c8a7c82c.png",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation_status": "not_requested_this_pass",
+  "quality_state": "candidate",
+  "prompt": "Create one static production reference candidate for Gears of War Combats: the exterior of the Riftworm from Gears of War 2. Use the attached full side-view game-model preview as the controlling visual reference. Preserve that exact silhouette, head-to-body ratio, tapering blunt tail, irregular armored dorsal ridges, wrinkled segmented underside, hollow recesses in the head plating, and the visible arrangement of upper and lower teeth. Head faces screen-right and tail extends screen-left, just as in the supplied image. Keep the complete straight horizontal body within frame, including every tooth and the tail tip, with clear margins. One creature only. This is a faithful static rendition of the documented model, not a redesigned worm or a new species; do not add eyes, limbs, riders, weapons, glowing features or ornate invented armor. Maintain the dark desaturated olive-gray, weathered ochre-brown organic material and its uneven relief. Moderately clearer neutral studio illumination may make existing details legible, without inventing surface details. Use a wide landscape canvas, the creature occupying most of its width. A single clean game-art sprite/reference render on a truly transparent background; no floor, contact shadow, backdrop, text, label, logo, interface, decorative border, scene, cutaway or internal organs. Preserve the full exterior proportions shown in the reference. No animation frames. The result is a visual candidate requiring comparison, not a certification of exact fidelity.",
+  "previous_record_path": "data/generation_v12/boss_riftworm_g2_record.json",
+  "sources": [
+    {
+      "page_url": "https://models.spriters-resource.com/xbox_360/gearsofwar2/asset/289559/",
+      "image_url": "https://models.spriters-resource.com/media/preview_icons/286/289559.png?updated=1755497732",
+      "source_type": "community_extracted_game_model_preview",
+      "scope": "Locust Riftworm, Gears of War 2 Xbox 360, soumis par jfmherokiller en 2013. Aperçu du modèle extérieur complet de profil : tête à droite, queue à gauche. Attribution communautaire de modèle ; pas un rendu publié directement par Epic. La silhouette a été comparée au concept de production de James Hawkins, sans certification d’intégrité du modèle extrait.",
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v13_creatures/riftworm_g2_model_preview.png",
+      "reference_sha256": "a0711958be852998173d3e7a98a4314af23ba3ab4e932ff1efc7e55bc46d717b",
+      "visually_inspected": true,
+      "visual_reference_used": true
+    },
+    {
+      "page_url": "https://hawkprey.artstation.com/projects/LexBR",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/000/538/775/large/james-hawkins-riftworm.jpg?1426063908",
+      "source_type": "production_artist_concept",
+      "scope": "GOW2 Riftworm, James Hawkins, Principal Artist Epic. Concept inspecté pour corroborer l’identité et le traitement de tête. Le corps n’est pas intégral ; ce concept n’a pas été fourni au générateur et ne remplace pas une preuve de modèle final.",
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/riftworm_g2_concept.jpg",
+      "reference_sha256": "065f684f11dbd5f7484e7aa0813787c0ea9bb2297c8b289553c2760ebf611013",
+      "visually_inspected": true,
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://primagames.com/eguides/gears-war-2-eguide/act-ii-denizens/chapter-6-intestinal-fortitude",
+      "source_type": "licensed_strategy_guide",
+      "scope": "Contexte de la rencontre environnementale intérieure. La référence extérieure produite ne crée ni chambres cardiaques, ni hazards, ni niveau jouable.",
+      "visual_reference_used": false
+    }
+  ],
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 2172,
+    "height": 724,
+    "sha256": "7a56659e9ed8ef1bf9636c33a73ebcbf99e88c6cf5e5c3f265b4d8a05ce2cd2f",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.6159712259495539,
+    "subject_bbox_alpha_ge_128": [
+      33,
+      151,
+      2141,
+      552
+    ],
+    "subject_margins_ltrb_px": [
+      33,
+      151,
+      31,
+      172
+    ],
+    "native_copy_verified": true
+  },
+  "qa": {
+    "visually_inspected": true,
+    "reference_visually_inspected": true,
+    "single_subject": true,
+    "full_exterior_in_frame": true,
+    "transparent_background": true,
+    "canonical_fidelity_validated": false,
+    "observations": [
+      "Un seul ver entier de profil vers la droite ; tête et queue à l’intérieur du cadre, relief dorsal et ventre segmenté présents.",
+      "Le rendu conserve la silhouette générale de l’aperçu, mais l’éclairage est plus clair ; la granularité du relief et l’arrangement exact des dents restent une reconstruction générative.",
+      "Transparence native réelle ; 61,60 % de pixels alpha=0. Marges alpha≥128 de 33/151/31/172 px : côtés étroits, corps complet non recadré.",
+      "Cette image documente uniquement l’extérieur. Elle ne représente pas le niveau Intestinal Fortitude, ses coupes, ses organes ou son échelle jouable."
+    ],
+    "remaining_checks": [
+      "Comparer nombre et position des dents, reliefs, creux et asymétries à un modèle final authentifié.",
+      "Contrôler les franges de faible alpha et les marges latérales dans le pipeline ; aucune retouche ou mise à l’échelle appliquée.",
+      "Documenter séparément l’intérieur et les éléments de rencontre environnementale sans prétendre qu’ils sont livrés."
+    ]
+  },
+  "notes": [
+    "Copie native octet pour octet, aucune retouche raster, recadrage, agrandissement ou animation.",
+    "La cible précédemment sans référence possède maintenant un candidat extérieur ; présence du PNG et certification 1:1 restent distinctes.",
+    "Le ZIP tiers n’a pas été intégré au dépôt ; seuls les liens, la provenance et les réserves de l’aperçu de recherche sont conservés."
+  ],
+  "history_check": {
+    "baseline_commit": "3d12276302c040f05e5452de073dc3a67470554f",
+    "exact_subject_previously_attempted": false,
+    "previous_state": "Recherche V12 sans génération."
+  }
+}

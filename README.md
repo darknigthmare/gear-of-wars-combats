@@ -2,7 +2,36 @@
 
 Corpus de conception, prototype et références visuelles consolidés le **27 novembre 2026** pour Darknigthmare.
 
-## État courant — passe V12 — bible, extensions et assets fixes
+## État courant — passe V13 — tous les manquants examinés
+
+**6 nouveaux PNG actifs**, **2 nouveaux refus**, **1 refus historique retrouvé** et **17 recherches sans génération**, dans **26 journaux V13**. Les **15 autres refus antérieurs** restent conservés sans relance. Les 41 manquants de départ ont tous un état traçable.
+
+| Catégorie | Avec référence | Catalogue | Sans référence |
+| --- | --- | --- | --- |
+| Personnages | 51 | 56 | 5 |
+| Costumes | 63 | 85 | 22 |
+| Boss, créatures et machines | 27 | 31 | 4 |
+| Stages | 34 | 34 | 0 |
+| Projectiles | 4 | 8 | 4 |
+
+**154 PNG actifs uniques**, plus **15 archives**. **0 fidélité 1:1 certifiée ; 0 ensemble d’animations complet.** Les comptes mesurent une référence attribuée, avec les réserves d’édition et de portée documentées.
+
+Nouveaux candidats : Riftworm — extérieur Gears of War 2, Dizzy Wallin — standard Gears of War 3, Victor Hoffman — campagne Gears of War 3, JD Fenix — CGU au début de Gears 5, Lahni — campagne Hivebusters / Brash Brigade, Locust Drone — modèle multijoueur Gears of War: E-Day. Un sujet par image, octets et dimensions natifs, sans retouche raster.
+
+Les alias possibles des tenues intro de Lahni et Keegan restent documentés sans PNG dupliqué ni couverture automatique. Le Theron 2006 reste gelé après rapprochement avec son refus V4. Les concepts sans modèle final complet et les vues ambiguës ne remplacent pas l’édition demandée.
+
+La **[bible de conception V13](livrables/Gears_of_War_Combats_Bible_v13.md)** actualise le catalogue et conserve les six chapitres, les trois guides originaux, les 68 rubriques et les 40 cas d’acceptation issus de V12. Les extensions sont intégrées à la conception ; leurs cas d’acceptation restent non exécutés.
+
+- [Nouveaux PNG, refus et réserves](docs/production/LISTING_V13.md).
+- [Audit des 41 manquants et suites exactes](docs/production/REPRISE_V13.md).
+- [Sources visuelles et décisions](docs/references/production-v13-research.md).
+- [Validation V13](docs/production/VALIDATION_V13.json).
+- [Revues indépendantes V13](docs/production/REVIEW_V13.md).
+- [Manifeste de construction V13](docs/production/BIBLE_BUILD_V13.json).
+
+Les 163 PNG de production antérieurs, les 5 captures QA du prototype et les 276 autres fichiers historiques contrôlés sont inchangés. Le moteur, les anciens journaux, rapports, guides et la bible V12 sont conservés. Le suffixe V13 empêche le rapport de consolidation du même jour d’écraser V12.
+
+## Historique — passe V12 — bible, extensions et assets fixes
 
 La **[bible de conception V12](livrables/Gears_of_War_Combats_Bible_v12.md)** rassemble les chapitres existants, le catalogue visuel courant, le guide général et les deux extensions adaptées à Gears. Cette passe ajoute aussi **12 PNG actifs natifs : 10 costumes et 2 références de boss**, un sujet par image et sans animation.
 
@@ -86,7 +115,7 @@ Les 40 images des passes V9 et V10 et leurs résultats restent documentés : [li
 - [Reprise V6 historique](docs/production/REPRISE_V6.md)
 - [Listing V6 et éditions cibles](docs/production/LISTING_V6.md)
 - [Rapport de validation V6](docs/production/VALIDATION_V6.json)
-- [État consolidé et limites de production](docs/production/CONSOLIDATION_2026-11-27.md)
+- [État consolidé et limites de production](docs/production/CONSOLIDATION_2026-11-27_V13.md)
 - [Inventaire courant et couverture](production/coverage.json)
 - [Prototype autonome](prototype/Gears_Combats_Prototype.html)
 - [Bible illustrée v1 en PDF — historique](livrables/Gears_of_War_Combats_Bible_v1.pdf)

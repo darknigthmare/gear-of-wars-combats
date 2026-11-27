@@ -1,0 +1,78 @@
+{
+  "id": "boss_sire_g5_research_v13",
+  "subject_id": "boss_sire_g5",
+  "name": "Sire — épreuve de capture",
+  "category": "boss",
+  "source_game": "Gears 5",
+  "catalog_target_game": "Gears 5",
+  "variant": "Sire Gears 5 — anatomie complète à documenter",
+  "purpose": "reference_research",
+  "variant_relation": "target_version_candidate",
+  "status": "reference_research_pending",
+  "quality_state": "missing_reference",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-27",
+  "generation_attempted": false,
+  "has_image": false,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "asset_path": null,
+  "prompt": null,
+  "original_output_path": null,
+  "sources": [
+    {
+      "page_url": "https://store.steampowered.com/news/posts/?appids=1097840&enddate=1615235906&feed=steam_community_announcements",
+      "source_type": "official_game_announcement_on_steam",
+      "scope": "Annonce This week in Gears - Operation 6 ; présence des Sires dans Escape from Kadar. Consultation textuelle, ne fournit pas une vue complète isolée du Sire G5.",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3643143091",
+      "image_url": "https://images.steamusercontent.com/ugc/13652027396361710232/CBD2163839B768670A58FA34E9E534D47AC8376D/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true",
+      "source_type": "community_port_claiming_gears5_model",
+      "scope": "EnergyFlamer, COMM: Locust Sire [Boomer], modèle annoncé comme provenant de Gears of War 5, rigging/édition ErichGrooms1. Illustration inspectée mais coupée aux bras et au bas du tronc ; jambes/pieds et anatomie totale non documentés, modification du rig non vérifiée.",
+      "visual_reference_used": false,
+      "reference_local_path": "/workspace/scratch/207fbd1207b7/research_gears_v11/bosses/sire_steam_image.jpg",
+      "reference_sha256": "d6a6213873322e66686c5e65b443d715f08aeec42915598494a64818aea73793"
+    },
+    {
+      "page_url": "https://news.xbox.com/en-us/2019/08/09/gears-5-has-gone-gold-celebrate-with-our-full-achievement-list/",
+      "source_type": "official_xbox_game_announcement",
+      "scope": "Succès Sire, Interrupted confirme le Sire et la capture d’un coéquipier dans Gears 5. Pas une preuve d’anatomie complète. Le téléchargement de l’illustration Xbox Live repérée ailleurs a échoué (HTTP 503).",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://www.shacknews.com/article/113815/gears-5-horde-mode-guide-start-making-waves",
+      "image_url": "https://d1lss44hh2trtw.cloudfront.net/assets/editorial/2019/09/gears-5-horde-mode-guide-sires.jpg",
+      "source_type": "secondary_publisher_in_game_screenshot",
+      "scope": "Capture Gears 5, Horde vague 18 : Sire en train de capturer un soldat. Tête, relief dorsal, bras et contentions visibles ; visage incliné et partiellement masqué, autre personnage superposé, bas d’un pied coupé et dos non intégral.",
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v13_creatures/sire_g5_shacknews.jpg",
+      "reference_sha256": "99c0314eb5bfb8b407dd4e20ba448fb668dccede73fd168bbaface7fe1f3028d",
+      "visually_inspected": true,
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://gamerdvr.com/games/gears-5/achievements/20",
+      "source_type": "achievement_index_official_image_unavailable",
+      "scope": "Image du succès Sire, Interrupted localisée sur images-eds.xboxlive.com ; récupération HTTP 503 dans cette passe. Aucun fichier inspecté ; non utilisée comme preuve complète.",
+      "visually_inspected": false,
+      "visual_reference_used": false
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "observations": [
+      "Une nouvelle capture de jeu a été récupérée et inspectée. Elle confirme certains détails de matière et de contentions mais ne permet pas de voir le corps isolé entier sous un angle contrôlable.",
+      "Le personnage saisi masque le torse et une partie du bas du corps. Une référence isolée obligerait encore à reconstruire des surfaces cachées ; la capture n’est pas transformée en pseudo-turnaround.",
+      "Aucune génération V13 ; le port communautaire modifié et coupé de V11 ne résout pas les parties absentes."
+    ],
+    "remaining_checks": [
+      "Obtenir une vue finale G5 complète sans personnage superposé, avec pieds, mains, visage et toutes les contentions visibles ; vérifier le dos séparément."
+    ]
+  },
+  "previous_record_path": "data/generation_v11/boss_sire_g5_record.json",
+  "previous_record_sha256": "eee330b4698e09c04ebe2ccb8e9eaaf79cdaa1c5c6d500c7586957e27628f938",
+  "animation_status": "not_requested_this_pass",
+  "research_pass": "V13 — recherche complémentaire ; preuves V11/V12 conservées avec leur périmètre original"
+}

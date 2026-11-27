@@ -1,0 +1,87 @@
+{
+  "id": "skorge_skin_02",
+  "subject_id": "skorge_skin_02",
+  "costume_id": "skorge_skin_02",
+  "character_id": "skorge",
+  "name": "Skorge — modèle multijoueur Gears 5 Opération 5",
+  "category": "costume",
+  "source_game": "Gears 5",
+  "catalog_target_game": "Gears 5",
+  "variant": "Apparence multijoueur standard, Opération 5",
+  "purpose": "reference_fullbody",
+  "variant_relation": "target_version_candidate",
+  "status": "blocked_generator_refusal",
+  "quality_state": "blocked",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-27",
+  "generation_attempted": true,
+  "generation_attempt_count_this_pass": 1,
+  "has_image": false,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "asset_path": null,
+  "prompt": "Use case: stylized-concept. Asset type: one high-detail static raster character reference for a 2D fighting game. Create exactly ONE Skorge in his standard Gears 5 Operation 5 multiplayer appearance. The FIRST attached image is the official Operation 5 launch lineup: Skorge is the tall creature on the LEFT, with both arms spread and one knee raised. Use only that character. The SECOND image is official Operation 5 launch artwork, supplementing the helmet and face details. Preserve the specific Gears 5 reference appearance and its recognizable proportions, armor segmentation, ornament, exposed grey-purple leathery abdomen, bronze-dark-metal and red-brown armor surfaces, narrow ribbed face, glowing warm small chest lights, ridged headpiece, trailing long red-brown head straps, spiked bracers, inscribed belt, layered hip plates and hanging leather panels, long armored shin and clawed forward foot. Keep essentially the SAME airborne pose and same three-quarter direction as the first image: both hands open, forward leg descending, rear leg folded behind the hips with natural self-occlusion. The pose is a single still reference, not an animation. Do not invent a rear view or turn it into a standing orthographic figure. Preserve the visible anatomy; do not add a new exposed rear foot where the reference hides it. Show the entire depicted silhouette uncropped, with all visible fingers, head straps, hip panels and forward toes inside the frame. Place the character in the central 72% of the canvas, with generous genuine transparent empty margins on every edge. Use readable neutral studio lighting while retaining the worn material and color relationships in the references. No other characters, no weapons, no floor, no scene, no smoke, no sparks, no text, no logos, no watermark, no collage, no sprite sheet. TRUE transparent alpha background. Exactly one isolated static character. Do not introduce Crimson Skorge, Trinity Skorge, Gears 4 or Gears 2 variant-specific changes.",
+  "sources": [
+    {
+      "page_url": "https://news.xbox.com/en-us/2020/11/17/gears-5-operation-5/",
+      "image_url": "https://xboxwire.thesourcemediaassets.com/sites/2/2020/11/Gears5_Op5_LaunchLineUp.jpg",
+      "source_type": "official_publisher_launch_image",
+      "scope": "Image de lancement officielle : Skorge à gauche, silhouette dans une pose aérienne avec une jambe repliée et occultée ; tête, deux mains, jambe avant et pied visibles. Le dos et le pied arrière ne sont pas documentés.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v13_enemies/skorge_op5_lineup.jpg",
+      "reference_sha256": "d20224a7a27504ea899787e57f61a6653232d7622ffc8d08f384a5094716feee"
+    },
+    {
+      "page_url": "https://news.xbox.com/en-us/2020/11/17/gears-5-operation-5/",
+      "image_url": "https://xboxwire.thesourcemediaassets.com/sites/2/2020/11/Gears5_Op5_KeyArt_Logo_1920x1080-HERO.jpg",
+      "source_type": "official_publisher_launch_image",
+      "scope": "Illustration de lancement officielle complémentaire : casque, visage et cordons ; éclairage artistique doré, pas une vue orthographique.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v13_enemies/skorge_op5_keyart.jpg",
+      "reference_sha256": "535352a346928badbce05fe90842f2aadae0d84afee2cebaf4272605cf855027"
+    }
+  ],
+  "reference_limitations": [
+    "Une seule pose aérienne officielle ; jambe arrière occultée par le corps et les panneaux de hanche.",
+    "Éclairage artistique des sources, aucune vue orthographique ni certification de couleurs neutres.",
+    "Candidat statique : les détails du dos et les surfaces cachées ne sont pas établis."
+  ],
+  "research_log": [
+    {
+      "url": "https://secam_station.artstation.com/projects/XnQ03a",
+      "result": "Crimson Skorge Gears 5 Opération 7, autre costume : exclu."
+    },
+    {
+      "url": "https://secam_station.artstation.com/projects/w6ky1Z",
+      "result": "Trinity Skorge Gears 5 Opération 8, autre costume : exclu."
+    },
+    {
+      "url": "https://haiweihou.artstation.com/projects/lekWz",
+      "result": "Skorge Pack Promo Gears 4, autre édition : exclu."
+    }
+  ],
+  "historical_refusal_retained": false,
+  "refusal": {
+    "http_status": 400,
+    "code": "moderation_blocked",
+    "moderation_stage": "output",
+    "categories": [
+      "other"
+    ],
+    "request_id": "15212b00-a791-42b6-897e-5abfbeaa3a97",
+    "message": "Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 15212b00-a791-42b6-897e-5abfbeaa3a97."
+  },
+  "reason": "Tentative unique V13 refusée par le générateur ; aucun PNG produit et aucune relance.",
+  "qa": {
+    "visually_inspected": false,
+    "transparent_background": null,
+    "full_body_in_frame": null,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Sortie image indisponible après refus ; les seuls visuels inspectés sont les références officielles."
+    ]
+  }
+}

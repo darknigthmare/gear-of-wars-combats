@@ -1,0 +1,119 @@
+{
+  "id": "jd_skin_02",
+  "subject_id": "jd_skin_02",
+  "character_id": "jd",
+  "costume_id": "jd_skin_02",
+  "name": "JD Fenix — CGU au début de Gears 5",
+  "category": "costume",
+  "source_game": "Gears 5",
+  "catalog_target_game": "Gears 5",
+  "variant": "JD CGU non cicatrisé — début de campagne Gears 5",
+  "variant_relation": "target_version_candidate",
+  "asset_path": "assets/costumes_v13/jd_skin_02.png",
+  "prompt": "Use case: precise-object-edit / stylized-concept.\nAsset type: ONE static full-body transparent 2D game costume reference.\nPrimary request: James Dominic JD Fenix in his original UNSCARRED COG armor at the beginning of GEARS 5, costume id jd_skin_02.\nReferences: both supplied images are the official Gears 5 production model by Fernando Ometto / The Coalition. Image 1 is the complete front/back/side model sheet. Image 2 is a close-up for face, armor surface, shoulder attachment and back details. They depict one young clean-shaven JD, before the later scarred/bald/bearded campaign appearance. Output only one JD in one pose; do not reproduce the sheet.\nFaithfully preserve his recognizable broad young face and jaw, fair skin, short brushed-up dark-blond hair, subtle facial stubble, no full beard. Match his broad muscular Gears build. Exact heavy dark gray/silver COG chest armor with two large recessed circular chest discs, small central COG skull emblem, blue edging and bright blue slatted shoulder attachments, layered rounded metal shoulder plates, tan-gray long cloth sleeves, gray metal forearm cuffs and dark fingerless gloves. Keep the visible chevron marking on the upper-arm band. Preserve the utility belt with square buckle, gray canvas pouches, slim blue illuminated canister on his anatomical RIGHT side, dark blue-gray cargo trousers, the exact holster and double thigh straps on the anatomical RIGHT thigh, angular dark knee pads, tall black-gray strapped shin armor and heavy brown lace-up boots. Follow the round fan and central grille of the official back plate when visible. No Outsider vest or scarf, no medical arm sleeve, no bald head, no scarred JD redesign, no new markings or hardware.\nChange only pose: calm static combat-ready stance, knees gently bent, empty hands slightly raised and separated from torso. Predominantly SIDE VIEW with a small front three-quarter component, facing screen RIGHT; nose and boots clearly point right. No weapon or action.\nRendering: accurate realistic Gears materials interpreted as crisp controlled hand-painted 2D shading, neutral even light, clean readable silhouette.\nComposition: one whole figure from hair to both soles, both hands fully visible. Keep figure at most 75% of image height with at least 10% clear transparent margin on every side. No cropping.\nBackground must be real transparent alpha; character opaque with clean antialiased edges. No scenery, floor, ground shadow, colored haze, halo, gradient, text, labels, watermark, game logo, UI, duplicate person, turnaround, sheet or animation.",
+  "sources": [
+    {
+      "page_url": "https://ometto.artstation.com/projects/JlWV4A",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/020/452/036/large/fernando-ometto-jd02.jpg?1567807823",
+      "source_type": "first_party_character_artist_production_turnaround",
+      "scope": "Fernando Ometto / The Coalition : JD Gears 5 avant la transformation Scarred. Trois vues en pied, avant/arrière/profil ; corps et textures par Ometto, visage et textures initiales par Dan Roarty. Tenue CGU du début de campagne, distincte de l'Outsider G4 et du JD cicatrisé.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v13_classic/jd_g5_02.jpg",
+      "reference_sha256": "3c9230fcc89c2267fdae3c06090de4550f1388be7fcac078518d1f2cf57bdb92"
+    },
+    {
+      "page_url": "https://ometto.artstation.com/projects/JlWV4A",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/020/452/038/large/fernando-ometto-jd01.jpg?1567807826",
+      "source_type": "first_party_character_artist_production_closeup",
+      "scope": "Gros plan officiel avant/arrière du même JD Gears 5 pour visage, matières, plaques, attaches et dos. Inspecté avec le rendu complet.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v13_classic/jd_g5_01.jpg",
+      "reference_sha256": "43b801be150326cde22d43dd20a2cca792a1c929a35e24535d928ad35f9e2cfa"
+    }
+  ],
+  "qa": {
+    "observations": [
+      "Un seul JD entier, cheveux courts, sans barbe épaisse ni manchon médical, correspondant à la phase initiale Gears 5.",
+      "Armure CGU à disques circulaires, éclairages bleus aux épaules, manches longues beige-gris, holster de cuisse droite, genouillères et bottes cohérents avec la référence officielle.",
+      "La ressemblance faciale, la coiffure et certains petits détails du métal restent interprétés. Pose de trois-quarts, plus frontale que la vue latérale demandée, mains abaissées.",
+      "RGBA natif, 62,44 % alpha=0 ; bordure 8 px alpha maximum 1. Personnage complet, mais marges haut/bas 45/30 px : cible de 10 % non atteinte."
+    ],
+    "remaining_checks": [
+      "Comparer précisément visage, coiffure, insigne de poitrine, chevrons et architecture des attaches au modèle officiel.",
+      "Contrôler emplacement et dimensions des canisters, pouches et pièces de jambières.",
+      "Valider pose latérale de combat, marges verticales et franges alpha dans le moteur."
+    ],
+    "reference_visually_inspected": true,
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "alpha_measured": true,
+    "framing_measured": true
+  },
+  "notes": [
+    "Modèle de production officiel de l'édition cible inspecté en pied avant génération. L'adaptation de pose reste générative : fidélité 1:1 non certifiée.",
+    "Une seule tentative. Sortie native copiée octet pour octet sans découpe, retouche raster, agrandissement ni animation."
+  ],
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2124709,
+    "sha256": "bbee0761a88c20e2aac82ee921a65cf4351bb2da601c73235d0ba6a3d1d5b339",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.6243635813395182,
+    "subject_bbox_alpha_ge_128": [
+      185,
+      45,
+      838,
+      1506
+    ],
+    "subject_margins_ltrb_px": [
+      185,
+      45,
+      186,
+      30
+    ],
+    "edge_band_width_px": 8,
+    "edge_alpha_max": 1,
+    "has_real_alpha": true,
+    "native_copy_verified": true
+  },
+  "original_output_path": "/workspace/scratch/3c791759fb15/generated_images/exec-a7f2310b-088b-4412-ac93-3ff1dbf33202.png",
+  "has_image": true,
+  "status": "generated_reference_pending_validation",
+  "generation_status": "generated_reference_pending_validation",
+  "generation_attempted": true,
+  "generation_attempts": 1,
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "pass_date": "2026-11-27",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "pose": "static_front_three_quarter_facing_right",
+  "quality_state": "candidate",
+  "purpose": "reference_fullbody",
+  "history_check": {
+    "baseline_commit": "3d12276302c040f05e5452de073dc3a67470554f",
+    "all_generation_directories_and_archives_checked": true,
+    "exact_subject_previously_attempted": false,
+    "notes": "Les historiques du même personnage concernent d'autres éditions ou costumes. Aucun refus précédent de cette cible exacte retrouvé."
+  },
+  "source_urls": [
+    "https://ometto.artstation.com/projects/JlWV4A"
+  ],
+  "reference_images": [
+    "/workspace/scratch/3c791759fb15/research_v13_classic/jd_g5_02.jpg",
+    "/workspace/scratch/3c791759fb15/research_v13_classic/jd_g5_01.jpg"
+  ]
+}

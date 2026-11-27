@@ -138,6 +138,32 @@ class ProjectileInventoryTests(unittest.TestCase):
         self.assertEqual(result["totals"]["active_png_files"], 4)
         self.assertEqual(inventory.read_json(self.root / "production/coverage.json")["snapshot_date"], "2026-11-20")
 
+    def test_same_day_versioned_pass_preserves_published_report(self):
+        inventory.build_inventory()
+        old_report = self.root / "docs/production/CONSOLIDATION_2026-11-20.md"
+        old_bytes = old_report.read_bytes()
+        record_path = "data/generation_v13/boss_fixture.json"
+        self.write(record_path, {
+            "subject_id": "boss_fixture", "category": "boss", "status": "research_needed",
+            "pass_date": "2026-11-20", "notes": ["No new image."],
+        })
+        inventory.build_inventory()
+        coverage = inventory.read_json(self.root / "production/coverage.json")
+        expected = "docs/production/CONSOLIDATION_2026-11-20_V13.md"
+        self.assertEqual(coverage["report_path"], expected)
+        self.assertTrue((self.root / expected).is_file())
+        self.assertEqual(old_report.read_bytes(), old_bytes)
+        self.assertIn(f'href="{expected}"', (self.root / "Galerie_Personnages.html").read_text())
+        attempt = coverage["bosses"][0]["last_generation_attempt"]
+        self.assertEqual(attempt["record"], record_path)
+        self.assertEqual(attempt["record_sha256"], inventory.hashlib.sha256((self.root / record_path).read_bytes()).hexdigest())
+        inventory.build_inventory(report_suffix="V13")
+        inventory.build_inventory()  # The manifest wrapper uses this form.
+        self.assertEqual(inventory.read_json(self.root / "production/coverage.json")["report_path"], expected)
+        self.assertEqual(old_report.read_bytes(), old_bytes)
+        with self.assertRaisesRegex(ValueError, "Report suffix"):
+            inventory.build_inventory(report_suffix="../V13")
+
     def test_projectile_identity_collision_and_wrong_category_are_rejected(self):
         self.write("data/production_catalog_v9.json", {"projectiles": [{"id": "hero", "name": "Conflicting identity"}]})
         with self.assertRaisesRegex(ValueError, "unique across categories"):

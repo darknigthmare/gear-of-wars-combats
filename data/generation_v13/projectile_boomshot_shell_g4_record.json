@@ -1,0 +1,59 @@
+{
+  "id": "projectile_boomshot_shell_g4_research_v13",
+  "subject_id": "projectile_boomshot_shell_g4",
+  "category": "projectile",
+  "purpose": "reference_research",
+  "name": "Obus de Boomshot — Gears of War 4",
+  "source_game": "Gears of War 4",
+  "requested_variant": "Projectile isolé de Boomshot — modèle final Gears of War 4",
+  "status": "reference_research_pending",
+  "pass_date": "2026-11-27",
+  "generation_attempted": false,
+  "has_image": false,
+  "asset_path": null,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation_status": "not_requested_this_pass",
+  "sources": [
+    {
+      "page_url": "https://primagames.com/eguides/gears-of-war-4-eguide/campaign-arsenal/primary-weapons",
+      "source_type": "licensed_strategy_guide",
+      "scope": "Description du fonctionnement et du projectile de Boomshot G4. Aucun gros plan isolé du modèle de munition n’a été identifié dans cette recherche.",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://primagames.com/eguides/gears-of-war-4-eguide/multiplayer/multiplayer-arsenal/explosive-weapons",
+      "source_type": "licensed_strategy_guide",
+      "scope": "Guide Boomshot G4, trajectoire et impact; ne valide pas la forme exacte d’un obus isolé.",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://www.gearsofwar.com/en-us/game-guide/power-weapons/",
+      "source_type": "official_game_guide_other_edition",
+      "scope": "Page officielle de power weapons décrivant des unités Tactics et son Boomshot; non utilisée comme preuve d’édition G4.",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://www.youtube.com/watch?v=vG6IzGG2COI",
+      "source_type": "community_gameplay_video_index_only",
+      "scope": "Vidéo « Gears of War 4 — All Weapons Reload Animations » repérée, séquence Boomshot annoncée à 06:26. Aucun extrait vidéo récupéré ou inspecté ; pas de preuve de géométrie de l’obus.",
+      "visually_inspected": false,
+      "visual_reference_used": false
+    }
+  ],
+  "qa": {
+    "visually_inspected": false,
+    "observations": [
+      "Les descriptions Prima du Boomshot G4 confirment la trajectoire et le comportement, sans image isolée exploitable de sa munition.",
+      "Les recherches de modèles et de rechargement ont surtout retrouvé des lanceurs, des ressources G2 ou des collections de mods mêlant plusieurs jeux. Aucun projectile n’est réattribué à G4 sur cette seule base.",
+      "Aucune génération V13 : ni obus générique, ni explosion lumineuse utilisée pour remplir artificiellement cette fiche."
+    ],
+    "remaining_checks": [
+      "Gros plan ou extraction visuelle documentée du projectile final G4 : corps, culot et tête visibles ; distinguer obus chargé, projectile en vol et effet d’impact."
+    ]
+  },
+  "previous_record_path": "data/generation_v11/projectile_boomshot_shell_g4_record.json",
+  "previous_record_sha256": "87ce11b1666d0dd8a284994687e6c415ae1ca8b84b3edf2b8c8431716cf4a4a3",
+  "research_pass": "V13 — recherche complémentaire ; preuves V11/V12 conservées avec leur périmètre original"
+}

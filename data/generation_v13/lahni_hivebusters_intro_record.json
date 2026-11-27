@@ -1,0 +1,96 @@
+{
+  "id": "lahni_hivebusters_intro",
+  "subject_id": "lahni_hivebusters_intro",
+  "character_id": "lahni",
+  "costume_id": "lahni_hivebusters_intro",
+  "name": "Lahni — tenue intro Hivebusters",
+  "category": "costume",
+  "source_game": "Gears 5: Hivebusters",
+  "catalog_target_game": "Gears 5: Hivebusters",
+  "variant": "Tenue intro de production ; correspondance de catalogue à résoudre",
+  "variant_relation": "target_version_requested",
+  "purpose": "reference_fullbody",
+  "pass_date": "2026-11-27",
+  "status": "reference_research_pending",
+  "generation_status": "reference_research_pending",
+  "quality_state": "reference_research_pending",
+  "generation_attempted": false,
+  "generation_attempt_count": 0,
+  "has_image": false,
+  "asset_path": null,
+  "original_output_path": null,
+  "prompt": null,
+  "output": null,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "sources": [
+    {
+      "page_url": "https://mediumrare.artstation.com/projects/oAdmNw",
+      "source_type": "first_party_art_director_final_model",
+      "scope": "Rendu final DLC du 18 décembre 2020 : trois vues en pied de Lahni Brash Brigade, avec chaussures, armure et équipements. Référence utilisée pour générer lahni_skin_01 ; consultée ici pour rapprocher les deux intitulés, sans tentative de génération pour cet ID intro.",
+      "visual_reference_used": false,
+      "accessed_date": "2026-11-27",
+      "source_author": "Aryan Hanbeck — The Coalition",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/033/077/882/large/aryan-hanbeck-hivebuster-lahni.jpg?1608320756",
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v13_hivebusters/lahni_dlc_final.jpg",
+      "reference_sha256": "93766182b16e33914ec578d815bc932d4af3a9ff9e4c999cd458974e2b010cb4",
+      "visually_inspected": true
+    },
+    {
+      "page_url": "https://tylerthebradley.artstation.com/projects/ykrQgn",
+      "source_type": "first_party_production_concept",
+      "scope": "Turnaround concept brashbrigadelahni-turnaround, explicitement décrit comme tenue intro. La construction générale concorde avec le rendu final DLC, mais le rendu final a priorité (notamment manches).",
+      "visual_reference_used": false,
+      "accessed_date": "2026-11-27",
+      "source_author": "Tyler Bradley",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/038/911/697/large/tyler-bradley-brashbrigadelahni-turnaround.jpg?1624416620",
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v13_hivebusters/lahni_intro_concept.jpg",
+      "reference_sha256": "955d9aae5037ac88491d0f254ac79e7d2db6f72100fa743411da83c32583ae48",
+      "visually_inspected": true
+    },
+    {
+      "page_url": "https://mediumrare.artstation.com/projects/GXKLDB",
+      "source_type": "first_party_art_director_final_model",
+      "scope": "Rendu final Escape du 19 septembre 2019, inspecté uniquement pour distinguer skin_02 : gilet olive court sans manches, pantalon retroussé et petites bottes, différent de la tenue DLC en armure.",
+      "visual_reference_used": false,
+      "accessed_date": "2026-11-27",
+      "source_author": "Aryan Hanbeck — The Coalition",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/020/730/381/large/aryan-hanbeck-lahni.jpg?1568933014",
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v13_hivebusters/lahni_escape_final.jpg",
+      "reference_sha256": "f5798577a67d7545f2e971a60b888fdc0aafeee29147157375cc12defc1e2bb3",
+      "visually_inspected": true
+    }
+  ],
+  "notes": [
+    "Possibilité de réutilisation explicite future du candidat Brash Brigade après revue, sans nouveau PNG ni certification.",
+    "Le concept intro ne doit pas être présenté comme le modèle final ; le rendu final du directeur artistique corrobore la tenue."
+  ],
+  "qa": {
+    "visually_inspected": false,
+    "output_visually_inspected": false,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Le concept intro et les rendus finaux présentent la même apparence que lahni_skin_01.",
+      "Les IDs de catalogue restent distincts en attendant revue explicite ; aucune image supplémentaire et aucun partage de couverture implicite."
+    ],
+    "remaining_checks": [
+      "Valider la relation d’alias et la portée exacte de l’ID avant toute attribution de PNG au catalogue."
+    ],
+    "reference_visually_inspected": true
+  },
+  "blocking_reason": "catalogue_alias_resolution",
+  "possible_alias_of": "lahni_skin_01",
+  "alias_resolution_pending": true,
+  "count_as_covered": false,
+  "related_candidate_record": "data/generation_v13/lahni_skin_01_record.json",
+  "source_urls": [
+    "https://mediumrare.artstation.com/projects/oAdmNw",
+    "https://tylerthebradley.artstation.com/projects/ykrQgn",
+    "https://mediumrare.artstation.com/projects/GXKLDB"
+  ],
+  "reference_images": []
+}

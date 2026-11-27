@@ -1,0 +1,75 @@
+{
+  "id": "theron_skin_01",
+  "subject_id": "theron_skin_01",
+  "costume_id": "theron_skin_01",
+  "character_id": "theron",
+  "name": "Garde Theron — original 2006",
+  "category": "costume",
+  "source_game": "Gears of War (2006)",
+  "catalog_target_game": "Gears of War (2006)",
+  "variant": "Theron Guard standard casqué, original 2006",
+  "purpose": "reference_fullbody",
+  "variant_relation": "target_version_unconfirmed",
+  "status": "blocked_prior_generator_refusal",
+  "quality_state": "blocked",
+  "engine": null,
+  "pass_date": "2026-11-27",
+  "generation_attempted": false,
+  "generation_attempt_count_this_pass": 0,
+  "has_image": false,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "asset_path": null,
+  "prompt": null,
+  "reason": "Refus antérieur explicite pour le même costume 2006 retrouvé en V4 (et V2). Interdiction de relance maintenue ; aucune tentative V13. Le candidat V5 d’édition non établie ne change pas cet historique.",
+  "sources": [],
+  "research_log": [
+    {
+      "local_path": "data/generation_v5/theron_record.json",
+      "result": "Ancien candidat Theron V5 : référence de figurine sous licence et promotion 2008, édition 2006 non établie. Ce candidat n’efface pas le refus historique et n’est pas requalifié comme modèle final 2006."
+    }
+  ],
+  "historical_refusal_retained": true,
+  "qa": {
+    "visually_inspected": false,
+    "references_visually_inspected": false,
+    "single_character": null,
+    "full_body_in_frame": null,
+    "transparent_background": null,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Aucune image V13 générée pour cette cible ; le statut ne représente pas une implémentation ni un sprite livré."
+    ]
+  },
+  "prior_refusals": [
+    {
+      "record_path": "data/generation_v4/result_theron.json",
+      "record_sha256": "163969f586e2dbe79ad8a8dc253bae45bc92deb5f89d5775e882aef3322701ac",
+      "request_id": "21cc51b9-59c2-453a-845a-b9adf122c778",
+      "http_status": 400,
+      "code": "moderation_blocked",
+      "moderation_stage": "output",
+      "categories": [
+        "other"
+      ],
+      "target_match": "Même Theron Guard standard Gears of War (2006) explicitement nommé dans le prompt historique.",
+      "prompt": "The standard Theron Guard in his original Gears of War (2006) costume. A tall broad adult Locust elite with the original standard Guard helmet and its exact facial opening, the distinct red-maroon and dark metal layered armor, substantial collar and shoulders, articulated chest and waist protection, characteristic hanging armored skirt panels, guarded forearms and heavy armored lower legs. Preserve the original patterned plates and visible grey Locust skin only where present in that specific costume. Helm and torso must read as a Theron Guard even with empty hands. Calm static posture with all skirt panels hanging naturally. Do not mix the Guard helmet with a Theron Sentinel, Palace Guard, Savage Theron, Tactics redesign or gold multiplayer skin. Create exactly one full-body character as a neutral production model reference: standing at rest, weight balanced, shoulders relaxed, arms slightly separated from the torso, both empty hands visible and relaxed. Three-quarter view facing screen-right, turned enough toward profile for a readable side-view 2D silhouette. The complete head, feet, fingers and every costume extremity must fit inside the canvas with a generous transparent margin. Realistic hand-painted 2D UHD game art, anatomically and materially faithful to the named official game model, crisp readable contour, restrained even studio illumination. True transparent alpha background, including gaps between limbs. No text, captions, logos, interface, border, second character, alternate view, scenery, floor, pedestal, cast shadow, glow, particles, action, injury or violence. No handheld or attached weapons. Preserve the exact named episode costume rather than inventing a redesign or combining skins. This is a single calm unarmed reference pose."
+    },
+    {
+      "record_path": "data/generation_v2/result_theron.json",
+      "record_sha256": "b3e89532c52bbe4c7ad35f6ec1323136bef710756b374de058e7bcd901f381c6",
+      "request_id": "8e71aee8-280e-4f33-865e-a0cd2c73f932",
+      "http_status": 400,
+      "code": "moderation_blocked",
+      "moderation_stage": "output",
+      "categories": [
+        "other"
+      ],
+      "target_match": "Même Theron Guard standard Gears of War (2006) explicitement nommé dans le prompt historique.",
+      "prompt": "The standard Theron Guard in his original Gears of War (2006) costume. A tall broad adult Locust elite with the original standard Guard helmet and its exact facial opening, the distinct red-maroon and dark metal layered armor, substantial collar and shoulders, articulated chest and waist protection, characteristic hanging armored skirt panels, guarded forearms and heavy armored lower legs. Preserve the original patterned plates and visible grey Locust skin only where present in that specific costume. Helm and torso must read as a Theron Guard even with empty hands. Calm static posture with all skirt panels hanging naturally. Do not mix the Guard helmet with a Theron Sentinel, Palace Guard, Savage Theron, Tactics redesign or gold multiplayer skin. Create exactly one full-body character as a neutral production model reference: standing at rest, weight balanced, shoulders relaxed, arms slightly separated from the torso, both empty hands visible and relaxed. Three-quarter view facing screen-right, turned enough toward profile for a readable side-view 2D silhouette. The complete head, feet, fingers and every costume extremity must fit inside the canvas with a generous transparent margin. Realistic hand-painted 2D UHD game art, anatomically and materially faithful to the named official game model, crisp readable contour, restrained even studio illumination. True transparent alpha background, including gaps between limbs. No text, captions, logos, interface, border, second character, alternate view, scenery, floor, pedestal, cast shadow, glow, particles, action, injury or violence. No handheld or attached weapons. Preserve the exact named episode costume rather than inventing a redesign or combining skins. This is a single calm unarmed reference pose."
+    }
+  ]
+}

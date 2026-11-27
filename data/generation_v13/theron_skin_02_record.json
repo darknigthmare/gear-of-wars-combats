@@ -1,0 +1,87 @@
+{
+  "id": "theron_skin_02",
+  "subject_id": "theron_skin_02",
+  "costume_id": "theron_skin_02",
+  "character_id": "theron",
+  "name": "Garde Theron — Gears Tactics",
+  "category": "costume",
+  "source_game": "Gears Tactics",
+  "catalog_target_game": "Gears Tactics",
+  "variant": "Theron de Gears Tactics, distinct du garde casqué 2006",
+  "purpose": "reference_fullbody",
+  "variant_relation": "target_version_unconfirmed",
+  "status": "reference_research_pending",
+  "quality_state": "reference_incomplete",
+  "engine": null,
+  "pass_date": "2026-11-27",
+  "generation_attempted": false,
+  "generation_attempt_count_this_pass": 0,
+  "has_image": false,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "asset_path": null,
+  "prompt": null,
+  "reason": "La référence officielle Tactics est cadrée de la tête aux genoux ; pieds et bas des jambes restent hors champ. La reprise officielle Steam pointe sur le même visuel c2fcd853880fcada1996def87bfd8bea45d0ee83.png. Les autres captures identifiées ne complètent pas la vue exploitable des pieds. Aucun PNG ni tentative V13.",
+  "sources": [
+    {
+      "page_url": "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/",
+      "image_url": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/04/c2fcd853880fcada1996def87bfd8bea45d0ee83-69cb0ddd936f3.png",
+      "source_type": "official_developer_enemy_blog",
+      "scope": "Theron Tactics tête/torse/jambes hautes ; cadre coupé avant les pieds, déjà inspecté en V12.",
+      "visual_reference_used": false,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/theron_tactics_developer.png",
+      "reference_sha256": "64cb74388fa94283b21d4b2e4b3d284dc39dd42cd01ff2dae35778557c3c10ce",
+      "reference_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "page_url": "https://www.jeuxvideo.com/wikis-soluce-astuces/1235733/chapitre-5-contrebande.htm",
+      "image_url": "https://image.jeuxvideo.com/medias-md/159162/1591621646-4944-capture-d-ecran.jpg",
+      "source_type": "secondary_gameplay_capture",
+      "scope": "Introduction en jeu du Theron ; haut du corps, aucun pied visible. Nom local historique conservé, ce fichier est une introduction et non une carte.",
+      "visual_reference_used": false,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/theron_tactics_jvc_map.jpg",
+      "reference_sha256": "a7a8f439e6e43403faf903e37472d30f1e60d5a7eaaba279e6c5bf5d5b0c1782",
+      "reference_dimensions": [
+        768,
+        432
+      ]
+    }
+  ],
+  "research_log": [
+    {
+      "url": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=1184050&count=100&maxlength=0&enddate=1588625128",
+      "local_path": "/workspace/scratch/3c791759fb15/research_v13_enemies/steam_tactics_enemies_news.json",
+      "result": "Annonce officielle Gears Tactics Developer Blog - Enemies, gid 3112493747263998932. Section Theron : même identifiant image c2fcd853880fcada1996def87bfd8bea45d0ee83.png, ne comble pas la lacune."
+    },
+    {
+      "url": "https://pav3d.artstation.com/projects/RYAQJE",
+      "result": "Portfolio Paul Widelski : Disciple Tactics, ennemi différent ; exclu."
+    },
+    {
+      "url": "https://darkmummy.artstation.com/projects/xza2QW",
+      "result": "Portfolio Ji Ruan : Kantus Tactics, ennemi différent ; exclu."
+    },
+    {
+      "local_path": "data/generation_v12/theron_skin_02_record.json",
+      "result": "Revue de la limitation V12 : aucune tentative de génération antérieure pour cette édition. Pages Fandom/Neoseeker précédemment bloquées non contournées."
+    }
+  ],
+  "historical_refusal_retained": false,
+  "qa": {
+    "visually_inspected": false,
+    "references_visually_inspected": true,
+    "single_character": null,
+    "full_body_in_frame": null,
+    "transparent_background": null,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Aucune image V13 générée pour cette cible ; le statut ne représente pas une implémentation ni un sprite livré."
+    ]
+  }
+}

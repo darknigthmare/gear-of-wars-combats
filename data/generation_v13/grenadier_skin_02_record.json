@@ -1,0 +1,69 @@
+{
+  "id": "grenadier_skin_02",
+  "subject_id": "grenadier_skin_02",
+  "costume_id": "grenadier_skin_02",
+  "character_id": "grenadier",
+  "name": "Grenadier Locuste — original 2006",
+  "category": "costume",
+  "source_game": "Gears of War (2006)",
+  "catalog_target_game": "Gears of War (2006)",
+  "variant": "Grenadier standard original 2006, distinct du Grenadier Elite et des révisions ultérieures",
+  "purpose": "reference_fullbody",
+  "variant_relation": "target_version_unconfirmed",
+  "status": "reference_research_pending",
+  "quality_state": "reference_incomplete",
+  "engine": null,
+  "pass_date": "2026-11-27",
+  "generation_attempted": false,
+  "generation_attempt_count_this_pass": 0,
+  "has_image": false,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "asset_path": null,
+  "prompt": null,
+  "reason": "Aucune vue complète et attribuée de façon suffisamment sûre au modèle final standard de 2006 n’a été établie. Les pistes complètes renvoient à Gears 3, Tactics, Ultimate Edition, à une figurine ou à une illustration non datée ; les crédits d’artiste seuls n’établissent pas la variante visible. Pas de génération à partir du nom ni de substitution d’édition.",
+  "sources": [],
+  "research_log": [
+    {
+      "url": "https://maurymountain.artstation.com/projects/wJzKgX",
+      "result": "Portfolio du créateur : modèle Locust mis à jour pour Gears of War 3, pas preuve du costume 2006. Exclu."
+    },
+    {
+      "url": "https://boogieman147.wordpress.com/animation-and-kinetics/",
+      "local_path": "/workspace/scratch/3c791759fb15/research_v13_enemies/grenadier_student_research.html",
+      "result": "Page secondaire d’étude citant Kevin Lanning, image fichier gw2.png publiée dans uploads/2013/04. Attribution de la variante finale 2006 non démontrée ; image non utilisée."
+    },
+    {
+      "url": "https://modelarchive.databases.biz/data_models/gaming_gears_of_war/locusts.html",
+      "local_path": "/workspace/scratch/3c791759fb15/research_v13_enemies/grenadier_modelarchive.html",
+      "result": "Archive descriptive affirmant reprendre le site Gears ; section Grenadier textuelle sans rendu complet exploitable ni preuve d’édition."
+    },
+    {
+      "url": "https://gdcvault.com/play/1013213/Modeling-Next-Gen-Characters-From",
+      "result": "Session primaire GDC 2006 de Kevin Lanning/Jerry O’Flaherty identifiée ; description de pipeline du jeu encore à venir, ne prouve pas un rendu complet final du Grenadier."
+    },
+    {
+      "url": "https://download.microsoft.com/download/F/9/9/F99AB8F0-5191-4EDD-B312-7A9B9E4784FA/GOW_MNL_XK.pdf",
+      "result": "Manuel officiel 2006 identifié dans la recherche ; crédit Kevin Lanning, sans preuve visuelle complète du costume cible. PDF non téléchargé ni inspecté visuellement."
+    },
+    {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1473237868",
+      "result": "Pack tiers identifie notamment Locust Grenadier Gears 3 : mauvaise édition pour cette cible."
+    }
+  ],
+  "historical_refusal_retained": false,
+  "qa": {
+    "visually_inspected": false,
+    "references_visually_inspected": false,
+    "single_character": null,
+    "full_body_in_frame": null,
+    "transparent_background": null,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Aucune image V13 générée pour cette cible ; le statut ne représente pas une implémentation ni un sprite livré."
+    ]
+  }
+}

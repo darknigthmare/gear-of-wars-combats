@@ -14,13 +14,13 @@
     "catalog_characters_missing": 5,
     "character_png_files": 60,
     "costume_catalog_entries": 85,
-    "costumes_with_reference": 58,
-    "costumes_without_explicit_reference": 27,
-    "costume_png_files": 23,
+    "costumes_with_reference": 63,
+    "costumes_without_explicit_reference": 22,
+    "costume_png_files": 28,
     "reused_character_pngs_for_costumes": 35,
     "boss_catalog_entries": 31,
-    "bosses_with_reference": 26,
-    "boss_png_files": 26,
+    "bosses_with_reference": 27,
+    "boss_png_files": 27,
     "stage_catalog_entries": 34,
     "stages_with_reference": 34,
     "stage_png_files": 35,
@@ -29,8 +29,8 @@
     "projectiles_missing": 4,
     "projectile_png_files": 4,
     "additional_reference_groups": 1,
-    "active_png_files": 148,
-    "unique_active_png_sha256": 148,
+    "active_png_files": 154,
+    "unique_active_png_sha256": 154,
     "archived_png_files": 15,
     "canonical_fidelity_validated": 0,
     "completed_animation_sets": 0
@@ -856,6 +856,74 @@
           168,
           317,
           117
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/bosses_v13/riftworm_g2_exterior.png",
+      "subject_id": "boss_riftworm_g2",
+      "category": "boss",
+      "name": "Riftworm — extérieur Gears of War 2",
+      "source_variant": "Riftworm Gears of War 2 — corps extérieur complet, vue latérale de modèle",
+      "purpose": "reference_exterior_fullbody",
+      "character_id": null,
+      "costume_id": null,
+      "origin_batch": "generation_v13_2026-11-27",
+      "metadata_records": [
+        "data/generation_v13/boss_riftworm_g2_record.json"
+      ],
+      "source_urls": [
+        "https://models.spriters-resource.com/xbox_360/gearsofwar2/asset/289559/",
+        "https://models.spriters-resource.com/media/preview_icons/286/289559.png?updated=1755497732",
+        "https://hawkprey.artstation.com/projects/LexBR",
+        "https://cdnb.artstation.com/p/assets/images/images/000/538/775/large/james-hawkins-riftworm.jpg?1426063908",
+        "https://primagames.com/eguides/gears-war-2-eguide/act-ii-denizens/chapter-6-intestinal-fortitude"
+      ],
+      "qa_notes": [
+        "Copie native octet pour octet, aucune retouche raster, recadrage, agrandissement ou animation.",
+        "La cible précédemment sans référence possède maintenant un candidat extérieur ; présence du PNG et certification 1:1 restent distinctes.",
+        "Le ZIP tiers n’a pas été intégré au dépôt ; seuls les liens, la provenance et les réserves de l’aperçu de recherche sont conservés.",
+        "Un seul ver entier de profil vers la droite ; tête et queue à l’intérieur du cadre, relief dorsal et ventre segmenté présents.",
+        "Le rendu conserve la silhouette générale de l’aperçu, mais l’éclairage est plus clair ; la granularité du relief et l’arrangement exact des dents restent une reconstruction générative.",
+        "Transparence native réelle ; 61,60 % de pixels alpha=0. Marges alpha≥128 de 33/151/31/172 px : côtés étroits, corps complet non recadré.",
+        "Cette image documente uniquement l’extérieur. Elle ne représente pas le niveau Intestinal Fortitude, ses coupes, ses organes ou son échelle jouable.",
+        "Comparer nombre et position des dents, reliefs, creux et asymétries à un modèle final authentifié.",
+        "Contrôler les franges de faible alpha et les marges latérales dans le pipeline ; aucune retouche ou mise à l’échelle appliquée.",
+        "Documenter séparément l’intérieur et les éléments de rencontre environnementale sans prétendre qu’ils sont livrés."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 43,
+      "asset_id": "assets_bosses_v13_riftworm_g2_exterior_png",
+      "sha256": "7a56659e9ed8ef1bf9636c33a73ebcbf99e88c6cf5e5c3f265b4d8a05ce2cd2f",
+      "size_bytes": 1558101,
+      "width": 2172,
+      "height": 724,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "fully_transparent_fraction": 0.615971,
+        "near_opaque_fraction_alpha_ge_240": 0.353795,
+        "subject_bbox_alpha_ge_128": [
+          33,
+          151,
+          2141,
+          552
+        ],
+        "subject_margins_ltrb_px": [
+          33,
+          151,
+          31,
+          172
         ]
       },
       "has_transparency": true,
@@ -7050,6 +7118,337 @@
           33,
           162,
           42
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/costumes_v13/dizzy_skin_02.png",
+      "subject_id": "dizzy_skin_02",
+      "category": "costume",
+      "name": "Dizzy Wallin — standard Gears of War 3",
+      "source_variant": "Dizzy standard Gears 3 — rendu Epic 2011, copie de diffusion",
+      "purpose": "reference_fullbody",
+      "character_id": "dizzy",
+      "costume_id": "dizzy_skin_02",
+      "origin_batch": "generation_v13_2026-11-27",
+      "metadata_records": [
+        "data/generation_v13/dizzy_skin_02_record.json"
+      ],
+      "source_urls": [
+        "https://gamefaqs.gamespot.com/boards/991468-gears-of-war-3/60942842",
+        "https://i21.photobucket.com/albums/b287/redwoodphoto/Dizzy.jpg",
+        "https://chriswells.artstation.com/resume"
+      ],
+      "qa_notes": [
+        "Une seule tentative de génération. Aucune retouche, découpe, conversion, animation ou mise à l'échelle de la sortie native.",
+        "Le rendu source correspond à l'édition cible, mais sa provenance accessible est un miroir secondaire avec crédits incorporés. Cette limite reste conservée dans le journal.",
+        "La référence Gears 2 déjà présente au catalogue et Big Rig Dizzy ne sont pas utilisés pour compléter les zones peu lisibles. Fidélité 1:1 non certifiée.",
+        "Un seul Dizzy entier, tourné vers la droite, chapeau de cowboy, barbe grisonnante, bras nus tatoués, armure gris-vert, cartouchière, ceinture à boucle ronde, poche de cuisse, genouillères et bottes visibles.",
+        "Les grandes formes du costume suivent le rendu Gears 3. Les motifs exacts des tatouages, le visage, les attaches et les reliefs restent interprétés ; la petite référence et son filigrane limitent leur vérification.",
+        "La sortie reste en trois-quarts frontal, mains basses ; la garde latérale de jeu stricte n'est pas obtenue.",
+        "PNG RGBA natif, 63,02 % alpha=0, alpha maximal 254 ; quelques pixels alpha=1 atteignent la bande de 8 px. Les marges haut/bas 47/29 px n'atteignent pas la cible de 10 %.",
+        "Comparer précisément visage, tatouages, plaques, poches et attaches à un original Gears 3 de meilleure résolution.",
+        "Contrôler les couleurs et les contours par composition dans le moteur, dont les pixels alpha très faible.",
+        "Valider la pose latérale et les marges du sprite avant utilisation en jeu."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 43,
+      "asset_id": "assets_costumes_v13_dizzy_skin_02_png",
+      "sha256": "8da3482a91492596108febeb80ef48de036a4aad2e8ff3aeeae6db11275558a9",
+      "size_bytes": 2104304,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.630196,
+        "near_opaque_fraction_alpha_ge_240": 0.348253,
+        "subject_bbox_alpha_ge_128": [
+          202,
+          47,
+          821,
+          1507
+        ],
+        "subject_margins_ltrb_px": [
+          202,
+          47,
+          203,
+          29
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/costumes_v13/hoffman_skin_02.png",
+      "subject_id": "hoffman_skin_02",
+      "category": "costume",
+      "name": "Victor Hoffman — campagne Gears of War 3",
+      "source_variant": "Hoffman Gears 3 — modèle de production Epic",
+      "purpose": "reference_fullbody",
+      "character_id": "hoffman",
+      "costume_id": "hoffman_skin_02",
+      "origin_batch": "generation_v13_2026-11-27",
+      "metadata_records": [
+        "data/generation_v13/hoffman_skin_02_record.json"
+      ],
+      "source_urls": [
+        "https://polycount.com/discussion/comment/1449655",
+        "https://www.pseudo-pod.com/temp/G3/hoffman.jpg"
+      ],
+      "qa_notes": [
+        "Modèle de production officiel de l'édition cible inspecté en pied avant génération. L'adaptation de pose reste générative : fidélité 1:1 non certifiée.",
+        "Une seule tentative. Sortie native copiée octet pour octet sans découpe, retouche raster, agrandissement ni animation.",
+        "Un seul Hoffman entier vers la droite, visage âgé glabre, casquette à courte visière, bras nus, médaillons d'armure et équipement Gears 3 reconnaissables.",
+        "L'armure sombre, les lumières bleu-blanc, les bottes et le système de ceinture suivent le modèle fourni ; les petits reliefs et proportions ne sont pas certifiés exacts.",
+        "Le corps reste principalement en trois-quarts frontal, mains basses ; la garde de combat latérale stricte reste à valider.",
+        "RGBA natif, 69,73 % alpha=0 et bordure 8 px entièrement transparente. Silhouette complète ; marges haut/bas 69/85 px, inférieures à la cible de 10 %.",
+        "Comparer le profil du visage, le volume des bras et les asymétries des poches au modèle low-poly final.",
+        "Vérifier les reliefs des deux médaillons, les insignes, les coutures et toutes les pièces de jambière.",
+        "Valider la pose latérale, les marges et les contours dans le moteur."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 43,
+      "asset_id": "assets_costumes_v13_hoffman_skin_02_png",
+      "sha256": "10329a5b417ce923a2eef32458c784062243a0d4dd01fe5df780358bc90554cd",
+      "size_bytes": 1801009,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.697283,
+        "near_opaque_fraction_alpha_ge_240": 0.285444,
+        "subject_bbox_alpha_ge_128": [
+          252,
+          69,
+          791,
+          1451
+        ],
+        "subject_margins_ltrb_px": [
+          252,
+          69,
+          233,
+          85
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/costumes_v13/jd_skin_02.png",
+      "subject_id": "jd_skin_02",
+      "category": "costume",
+      "name": "JD Fenix — CGU au début de Gears 5",
+      "source_variant": "JD CGU non cicatrisé — début de campagne Gears 5",
+      "purpose": "reference_fullbody",
+      "character_id": "jd",
+      "costume_id": "jd_skin_02",
+      "origin_batch": "generation_v13_2026-11-27",
+      "metadata_records": [
+        "data/generation_v13/jd_skin_02_record.json"
+      ],
+      "source_urls": [
+        "https://ometto.artstation.com/projects/JlWV4A",
+        "https://cdna.artstation.com/p/assets/images/images/020/452/036/large/fernando-ometto-jd02.jpg?1567807823",
+        "https://cdna.artstation.com/p/assets/images/images/020/452/038/large/fernando-ometto-jd01.jpg?1567807826"
+      ],
+      "qa_notes": [
+        "Modèle de production officiel de l'édition cible inspecté en pied avant génération. L'adaptation de pose reste générative : fidélité 1:1 non certifiée.",
+        "Une seule tentative. Sortie native copiée octet pour octet sans découpe, retouche raster, agrandissement ni animation.",
+        "Un seul JD entier, cheveux courts, sans barbe épaisse ni manchon médical, correspondant à la phase initiale Gears 5.",
+        "Armure CGU à disques circulaires, éclairages bleus aux épaules, manches longues beige-gris, holster de cuisse droite, genouillères et bottes cohérents avec la référence officielle.",
+        "La ressemblance faciale, la coiffure et certains petits détails du métal restent interprétés. Pose de trois-quarts, plus frontale que la vue latérale demandée, mains abaissées.",
+        "RGBA natif, 62,44 % alpha=0 ; bordure 8 px alpha maximum 1. Personnage complet, mais marges haut/bas 45/30 px : cible de 10 % non atteinte.",
+        "Comparer précisément visage, coiffure, insigne de poitrine, chevrons et architecture des attaches au modèle officiel.",
+        "Contrôler emplacement et dimensions des canisters, pouches et pièces de jambières.",
+        "Valider pose latérale de combat, marges verticales et franges alpha dans le moteur."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 43,
+      "asset_id": "assets_costumes_v13_jd_skin_02_png",
+      "sha256": "bbee0761a88c20e2aac82ee921a65cf4351bb2da601c73235d0ba6a3d1d5b339",
+      "size_bytes": 2124709,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.624364,
+        "near_opaque_fraction_alpha_ge_240": 0.351527,
+        "subject_bbox_alpha_ge_128": [
+          185,
+          45,
+          838,
+          1506
+        ],
+        "subject_margins_ltrb_px": [
+          185,
+          45,
+          186,
+          30
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/costumes_v13/lahni_skin_01.png",
+      "subject_id": "lahni_skin_01",
+      "category": "costume",
+      "name": "Lahni — campagne Hivebusters / Brash Brigade",
+      "source_variant": "Brash Brigade Lahni — tenue en armure du début du DLC, modèle final",
+      "purpose": "reference_fullbody",
+      "character_id": "lahni",
+      "costume_id": "lahni_skin_01",
+      "origin_batch": "generation_v13_2026-11-27",
+      "metadata_records": [
+        "data/generation_v13/lahni_skin_01_record.json"
+      ],
+      "source_urls": [
+        "https://mediumrare.artstation.com/projects/oAdmNw",
+        "https://cdna.artstation.com/p/assets/images/images/033/077/882/large/aryan-hanbeck-hivebuster-lahni.jpg?1608320756",
+        "https://tylerthebradley.artstation.com/projects/ykrQgn",
+        "https://cdnb.artstation.com/p/assets/images/images/038/911/697/large/tyler-bradley-brashbrigadelahni-turnaround.jpg?1624416620",
+        "https://mediumrare.artstation.com/projects/GXKLDB",
+        "https://cdnb.artstation.com/p/assets/images/images/020/730/381/large/aryan-hanbeck-lahni.jpg?1568933014"
+      ],
+      "qa_notes": [
+        "Une seule tentative de génération.",
+        "Le modèle final a priorité sur le concept de Tyler Bradley ; le concept est cité seulement pour la correspondance de tenue intro.",
+        "Réutilisation possible pour lahni_hivebusters_intro uniquement après résolution explicite du catalogue par une revue ultérieure ; aucun mapping central modifié et aucun deuxième PNG.",
+        "Une Lahni entière en armure DLC, bandeau olive, dreadlocks, deux disques thoraciques, marquages jaunes, manchettes asymétriques, poche de cuir et deux canisters ; tenue distincte du PNG Escape existant.",
+        "Copie native exacte du PNG encodé dans la data URL retournée ; aucun recadrage, agrandissement, peinture, effacement ou correction alpha.",
+        "RGBA 1024 × 1536 ; 69,57 % de pixels alpha=0 ; alpha maximal natif 254 ; contour alpha>=128 [246,19,790,1504].",
+        "Marges au seuil alpha>=128 : gauche 246, haut 19, droite 234, bas 32 px. La silhouette est entière, mais les 10 % de marge demandés ne sont pas respectés verticalement.",
+        "Halo diffus à faible alpha autour de la silhouette : contour alpha>0 [65,15,984,1507] plus large que le contour principal ; les huit pixels périphériques sont toutefois transparents.",
+        "Les motifs des tatouages, les glyphes du plastron, le visage, les attaches et détails de cuir demeurent une interprétation générative. Orientation principalement trois-quarts frontal, pas profil de combat validé.",
+        "Comparer précisément visage, tatouages, glyphes et attaches au modèle final du DLC.",
+        "Valider un détourage sans halo et une marge de production suffisante lors d’une future passe expressément dédiée.",
+        "Vérifier lisibilité de la pose et import alpha dans le moteur ; aucune animation ni certification 1:1."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 43,
+      "asset_id": "assets_costumes_v13_lahni_skin_01_png",
+      "sha256": "1e9359c427ca81256b92aa011e6b838b7e44889ae55309ec38c0ac48527e11f4",
+      "size_bytes": 1882309,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.695668,
+        "near_opaque_fraction_alpha_ge_240": 0.28279,
+        "subject_bbox_alpha_ge_128": [
+          246,
+          19,
+          790,
+          1504
+        ],
+        "subject_margins_ltrb_px": [
+          246,
+          19,
+          234,
+          32
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/costumes_v13/locust_drone_eday_multiplayer.png",
+      "subject_id": "locust_drone_skin_02",
+      "category": "costume",
+      "name": "Locust Drone — modèle multijoueur Gears of War: E-Day",
+      "source_variant": "Modèle multijoueur visible dans la galerie officielle E-Day",
+      "purpose": "reference_fullbody",
+      "character_id": "locust_drone",
+      "costume_id": "locust_drone_skin_02",
+      "origin_batch": "generation_v13_2026-11-27",
+      "metadata_records": [
+        "data/generation_v13/locust_drone_skin_02_record.json"
+      ],
+      "source_urls": [
+        "https://www.gearsofwar.com/en-us/",
+        "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/07/GoW_EDAY_Versus_Final-6a67ac11d1548-scaled.jpg",
+        "https://www.artstation.com/artwork/xddAaO",
+        "https://cdna.artstation.com/p/assets/images/images/103/198/680/large/aryan-hanbeck-drone.webp?1791932180"
+      ],
+      "qa_notes": [
+        "Tête, deux mains et deux bottes visibles ; un seul Drone statique, sans arme ni autres personnages.",
+        "Pose recomposée ; face plus fermée et dentition réinterprétée par rapport au portrait Hanbeck.",
+        "Poitrine, sangles, segmentations et petits motifs d’armure réinterprétés ; l’occlusion dans la source empêche d’établir certains détails.",
+        "Marge alpha ≥128 mesurée gauche/haut/droite/bas : 137/58/149/38 px. Haut 3,78 % et bas 2,47 % de la hauteur : consigne 14 % non atteinte ; toute la silhouette principale reste cadrée. Quelques pixels alpha 1 touchent les bords bas/gauche. Aucune retouche ni deuxième tentative.",
+        "PNG RGBA natif : alpha 0–254, 59,53 % de pixels totalement transparents ; aucun pixel alpha 255. Le fond sombre visible dans certains lecteurs correspond au RGB natif sous transparence, à contrôler en composition.",
+        "Comparer armure de poitrine, dispositifs lumineux, attaches et bottes à des vues complémentaires du modèle multijoueur E-Day.",
+        "Vérifier en compositing les bords et réserver de nouvelles marges lors d’une future préparation atlas autorisée.",
+        "Aucune certification 1:1, canon ou état prêt production."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 43,
+      "asset_id": "assets_costumes_v13_locust_drone_eday_multiplayer_png",
+      "sha256": "b4dab7cad506e2b989a2758c2fbfbcd3f67bb4a226a0ee290f862ab439dcf015",
+      "size_bytes": 2294215,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.595271,
+        "near_opaque_fraction_alpha_ge_240": 0.379584,
+        "subject_bbox_alpha_ge_128": [
+          137,
+          58,
+          875,
+          1498
+        ],
+        "subject_margins_ltrb_px": [
+          137,
+          58,
+          149,
+          38
         ]
       },
       "has_transparency": true,

@@ -2,7 +2,8 @@
   "schema_version": "1.3",
   "project": "Gears of War Combats",
   "snapshot_date": "2026-11-27",
-  "report_path": "docs/production/CONSOLIDATION_2026-11-27.md",
+  "report_path": "docs/production/CONSOLIDATION_2026-11-27_V13.md",
+  "report_suffix": "V13",
   "generator": "src/consolidate_inventory.py",
   "totals": {
     "roster_characters": 36,
@@ -15,13 +16,13 @@
     "catalog_characters_missing": 5,
     "character_png_files": 60,
     "costume_catalog_entries": 85,
-    "costumes_with_reference": 58,
-    "costumes_without_explicit_reference": 27,
-    "costume_png_files": 23,
+    "costumes_with_reference": 63,
+    "costumes_without_explicit_reference": 22,
+    "costume_png_files": 28,
     "reused_character_pngs_for_costumes": 35,
     "boss_catalog_entries": 31,
-    "bosses_with_reference": 26,
-    "boss_png_files": 26,
+    "bosses_with_reference": 27,
+    "boss_png_files": 27,
     "stage_catalog_entries": 34,
     "stages_with_reference": 34,
     "stage_png_files": 35,
@@ -30,8 +31,8 @@
     "projectiles_missing": 4,
     "projectile_png_files": 4,
     "additional_reference_groups": 1,
-    "active_png_files": 148,
-    "unique_active_png_sha256": 148,
+    "active_png_files": 154,
+    "unique_active_png_sha256": 154,
     "archived_png_files": 15,
     "canonical_fidelity_validated": 0,
     "completed_animation_sets": 0
@@ -106,6 +107,7 @@
         "status": "generated",
         "category": "character",
         "has_file": true,
+        "record_sha256": "745c8bdca16d716c81584e2c761a5ce04de6acb272ba2049a413c3bf8baa8b11",
         "pass_date": "2026-11-20"
       }
     },
@@ -176,7 +178,8 @@
         "generation": 4,
         "status": "generated",
         "category": "character",
-        "has_file": true
+        "has_file": true,
+        "record_sha256": "15b1a6e91b959cce072202c61e90d125e60b312cd6d6c97c15905e9b9fed4f59"
       }
     },
     {
@@ -214,7 +217,8 @@
         "generation": 4,
         "status": "blocked",
         "category": "character",
-        "has_file": false
+        "has_file": false,
+        "record_sha256": "7a13215ceb010789ab18bc9e67a6e5e9acf917f030cab25787bc26570824e0b7"
       }
     },
     {
@@ -285,7 +289,8 @@
         "generation": 5,
         "status": "generated_reference_pending_validation",
         "category": "character",
-        "has_file": true
+        "has_file": true,
+        "record_sha256": "4d74884d69a01e931a6dc4ff5b4b6fa3954284dced5f44606e547147ddc65a02"
       }
     },
     {
@@ -355,7 +360,8 @@
         "generation": 4,
         "status": "blocked_by_image_system",
         "category": "character",
-        "has_file": false
+        "has_file": false,
+        "record_sha256": "f457d2010701559addba462ef760b6113653e4fcd279b5adf9414a53abcf1e9d"
       }
     },
     {
@@ -459,6 +465,7 @@
         "status": "generated",
         "category": "character",
         "has_file": true,
+        "record_sha256": "66b82228bf2e959c7661ddeea45b1af4b2cf18b0ea5601d8c8d6a6b3cf32e751",
         "pass_date": "2026-11-20"
       }
     },
@@ -561,7 +568,8 @@
         "generation": 4,
         "status": "blocked",
         "category": "character",
-        "has_file": false
+        "has_file": false,
+        "record_sha256": "04f5c43f1c07cb528caf034c15d0fd6ea61d949be648c42c61ebf40f87e050bf"
       }
     },
     {
@@ -600,7 +608,8 @@
         "generation": 4,
         "status": "generated",
         "category": "character",
-        "has_file": true
+        "has_file": true,
+        "record_sha256": "50430cfbe2784f72879fb9369f59ef5907b163472fae948669bfbe6ae17e6a1a"
       }
     },
     {
@@ -671,7 +680,8 @@
         "generation": 4,
         "status": "generated",
         "category": "character",
-        "has_file": true
+        "has_file": true,
+        "record_sha256": "e17e75ad17ef05d6240888979d1b8aea03d80faff8c9079dd0b9622141d62e84"
       }
     },
     {
@@ -709,7 +719,8 @@
         "generation": 4,
         "status": "blocked",
         "category": "character",
-        "has_file": false
+        "has_file": false,
+        "record_sha256": "b79681396a319289bb7e1a7faab6c9bdcf79a1370cfd1cc426b02317f3d60bbd"
       }
     },
     {
@@ -748,6 +759,7 @@
         "status": "generated_reference_pending_validation",
         "category": "character",
         "has_file": true,
+        "record_sha256": "7e410269e04ca17551a1f75bf5db069ec7191ce76d9aef9e1931aee348aad6a7",
         "pass_date": "2026-11-20"
       }
     },
@@ -787,7 +799,8 @@
         "generation": 4,
         "status": "generated",
         "category": "character",
-        "has_file": true
+        "has_file": true,
+        "record_sha256": "8adba5d1b28d623c50b6c4091dc5460bfddf1bcb8e4576138d6b8b940b63e88a"
       }
     },
     {
@@ -889,7 +902,8 @@
         "generation": 4,
         "status": "blocked",
         "category": "character",
-        "has_file": false
+        "has_file": false,
+        "record_sha256": "36f1773ab320ea19007aa38b3f28eb13fefe475ed8bf9c4655e0c26ccdcb39cd"
       }
     },
     {
@@ -960,7 +974,8 @@
         "generation": 4,
         "status": "generated",
         "category": "character",
-        "has_file": true
+        "has_file": true,
+        "record_sha256": "8c66adc63c121d3b6c8c25122b284a672db7bfc4d0b0f8f1a50d6e0d1185662f"
       }
     },
     {
@@ -1030,7 +1045,8 @@
         "generation": 4,
         "status": "blocked",
         "category": "character",
-        "has_file": false
+        "has_file": false,
+        "record_sha256": "82e16110fcc7fd496081c6952cecdeaa6876ee750a491ac850b20198f6b882dc"
       }
     },
     {
@@ -1068,7 +1084,8 @@
         "generation": 4,
         "status": "generated",
         "category": "character",
-        "has_file": true
+        "has_file": true,
+        "record_sha256": "cdab6b4a325c84642dfbb0242c50ab926c9eda975cce9cbef366e8b44fba6e16"
       }
     },
     {
@@ -1107,7 +1124,8 @@
         "generation": 4,
         "status": "generated",
         "category": "character",
-        "has_file": true
+        "has_file": true,
+        "record_sha256": "eea80237bc8f2eb4e0c62a71bd81a2a74c880fcc0ce08baf99480ae53714be61"
       }
     },
     {
@@ -1177,7 +1195,8 @@
         "generation": 4,
         "status": "generated_candidate",
         "category": "character",
-        "has_file": true
+        "has_file": true,
+        "record_sha256": "5fdc3485c6e3111d7d920448361863677efc90cb72e59e0cd133d3a8812ac927"
       }
     },
     {
@@ -1215,7 +1234,8 @@
         "generation": 4,
         "status": "blocked_by_image_system",
         "category": "character",
-        "has_file": false
+        "has_file": false,
+        "record_sha256": "b4ba80c68ba7c7cf0414f4c3291acf1d97ff82aa9e4d283ab13b2f8d0297005f"
       }
     },
     {
@@ -1286,7 +1306,8 @@
         "generation": 4,
         "status": "generated_candidate",
         "category": "character",
-        "has_file": true
+        "has_file": true,
+        "record_sha256": "05cc777d10f6ba571fe8f018726f66b5ccc644bb7913d28b8f0fdcc0a7cf2458"
       }
     },
     {
@@ -1360,6 +1381,7 @@
         "status": "blocked",
         "category": "character",
         "has_file": false,
+        "record_sha256": "3589f6135d6348fad8f6df06f013496445c963b283929875098bdd37c80073be",
         "pass_date": "2026-11-25"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
@@ -1402,6 +1424,7 @@
         "status": "blocked",
         "category": "character",
         "has_file": false,
+        "record_sha256": "b65e5746c470c60a0a7690a5840d0f767d27aaea03672ffff7ceea86787adeb2",
         "pass_date": "2026-11-25"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
@@ -1443,6 +1466,7 @@
         "status": "blocked",
         "category": "character",
         "has_file": false,
+        "record_sha256": "434e8d283726e04b0ac0247cc6a365c15c53f76cbd002b5cf5f3287e6b60da86",
         "pass_date": "2026-11-25"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
@@ -1487,6 +1511,7 @@
         "status": "generated_reference_pending_validation",
         "category": "character",
         "has_file": true,
+        "record_sha256": "3200e9f2f8817839e72d87830b80dccd0db3adecc35b7ffbda90dfda9ca6c500",
         "pass_date": "2026-11-20"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
@@ -1531,6 +1556,7 @@
         "status": "generated_reference_pending_validation",
         "category": "character",
         "has_file": true,
+        "record_sha256": "016c7e8db9043cb620edf108248a879596ce196caff56b5df7f3d5c79dc4d0f0",
         "pass_date": "2026-11-20"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
@@ -1572,6 +1598,7 @@
         "status": "blocked",
         "category": "character",
         "has_file": false,
+        "record_sha256": "68a0fb1b76146260c8a7e50505a9c7fb65400fbe1a1e5957113b365521be201d",
         "pass_date": "2026-11-25"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
@@ -1615,6 +1642,7 @@
         "status": "generated_reference_pending_validation",
         "category": "character",
         "has_file": true,
+        "record_sha256": "a1e4bd30ea96a07c30a66f3e5b1486c79eac0fd9a7eabbd9130eb063d05569a4",
         "pass_date": "2026-11-20"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
@@ -1659,6 +1687,7 @@
         "status": "generated_reference_pending_validation",
         "category": "character",
         "has_file": true,
+        "record_sha256": "26f93b1a836dc708aed91e64f15c275c5d5bb9209d411df8b4c586892c03cfc7",
         "pass_date": "2026-11-25"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
@@ -1703,6 +1732,7 @@
         "status": "generated_reference_pending_validation",
         "category": "character",
         "has_file": true,
+        "record_sha256": "204ff2ddcab4632af3f82275c4a724dc9cccfaf4bd32de1409d272100384e801",
         "pass_date": "2026-11-25"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
@@ -1746,6 +1776,7 @@
         "status": "generated_reference_pending_validation",
         "category": "character",
         "has_file": true,
+        "record_sha256": "a16dc293a76d69ce394ccae835aca4c50a7342b88f94b4299100341687647d79",
         "pass_date": "2026-11-25"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
@@ -1787,6 +1818,7 @@
         "status": "blocked",
         "category": "character",
         "has_file": false,
+        "record_sha256": "ee0bd9544268831a1b2db99ea91dfa6aaf3420f1c0449dc8547e2618f7e1d901",
         "pass_date": "2026-11-25"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
@@ -1830,6 +1862,7 @@
         "status": "generated_reference_pending_validation",
         "category": "character",
         "has_file": true,
+        "record_sha256": "db7ce3aaf3ee43cf3f70295bcd7841677d51ee5bba9cf40598ced49beaeb22e4",
         "pass_date": "2026-11-25"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
@@ -1873,6 +1906,7 @@
         "status": "generated_reference_pending_validation",
         "category": "character",
         "has_file": true,
+        "record_sha256": "7a21e0a86b8657e3300c5e894007e7f2ec219d249d617e23e609deb0eec2f398",
         "pass_date": "2026-11-25"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
@@ -1916,6 +1950,7 @@
         "status": "generated_reference_pending_validation",
         "category": "character",
         "has_file": true,
+        "record_sha256": "2646e37245e403663b26f482cb44849c5bf0efeab4ee90c183bdd95e7f8d4777",
         "pass_date": "2026-11-25"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
@@ -1959,6 +1994,7 @@
         "status": "generated_reference_pending_validation",
         "category": "character",
         "has_file": true,
+        "record_sha256": "9e9fcfda20089ca3fbf8d26d90bb870d890a697e5d88961fcb14792f2a72ccf3",
         "pass_date": "2026-11-25"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
@@ -2002,6 +2038,7 @@
         "status": "generated_reference_pending_validation",
         "category": "character",
         "has_file": true,
+        "record_sha256": "1d29a8e112306f9555fb39afae45cbd4567ba9299d95964df39a05312e9b2499",
         "pass_date": "2026-11-25"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
@@ -2045,6 +2082,7 @@
         "status": "generated_reference_pending_validation",
         "category": "character",
         "has_file": true,
+        "record_sha256": "192f6a3848f16f4048aed2cd0f9bdf683c8e6dc4946acd36b50a2bce64df155e",
         "pass_date": "2026-11-20"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
@@ -2090,6 +2128,7 @@
         "status": "generated_reference_pending_validation",
         "category": "character",
         "has_file": true,
+        "record_sha256": "3760b8ffb7b15138de5ca26e2710334d1c5ff65d54958871b151175b40fd28b4",
         "pass_date": "2026-11-20"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
@@ -2137,6 +2176,7 @@
         "status": "generated_reference_pending_validation",
         "category": "character",
         "has_file": true,
+        "record_sha256": "001eb5b125fe3b19d23a9e894d501b361a4871a88ceed76bfc98319b63b0e15e",
         "pass_date": "2026-11-20"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
@@ -2184,6 +2224,7 @@
         "status": "generated_reference_pending_validation",
         "category": "character",
         "has_file": true,
+        "record_sha256": "bb2e0218fe10afed136f2c2e46d7027507041a02d9a8b22a2260eafb8d3bd19a",
         "pass_date": "2026-11-20"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
@@ -2228,6 +2269,7 @@
         "status": "generated_reference_pending_validation",
         "category": "costume",
         "has_file": true,
+        "record_sha256": "c3f9af17be3727a5b0bd79abfae524c7eb80bbbf3abc1f5b5fe5fe3e3745bcd8",
         "pass_date": "2026-11-27"
       }
     },
@@ -2269,6 +2311,7 @@
         "status": "generated_reference_pending_validation",
         "category": "costume",
         "has_file": true,
+        "record_sha256": "16668e24615322bafa6243e93c6fc455326e32980ffcdf3f16c9ef724156b290",
         "pass_date": "2026-11-25"
       }
     },
@@ -2310,6 +2353,7 @@
         "status": "generated_reference_pending_validation",
         "category": "costume",
         "has_file": true,
+        "record_sha256": "bf09b5823effc267bd6607ab7e2ca8f713377d1b1f1f876c238eae04663a67dd",
         "pass_date": "2026-11-20"
       }
     },
@@ -2351,6 +2395,7 @@
         "status": "generated_reference_pending_validation",
         "category": "costume",
         "has_file": true,
+        "record_sha256": "d8bd3aee9f5961cd4a38fdf426601b93bc3b4e7c8fccb4b6b50c0176eee20b0d",
         "pass_date": "2026-11-25"
       }
     },
@@ -2392,6 +2437,7 @@
         "status": "generated_reference_pending_validation",
         "category": "costume",
         "has_file": true,
+        "record_sha256": "46fcc50e84dd53601cda204caa55159515f6cd8ba2aa244636deae8ba78de051",
         "pass_date": "2026-11-27"
       }
     },
@@ -2465,6 +2511,7 @@
         "status": "blocked_generator_refusal",
         "category": "costume",
         "has_file": false,
+        "record_sha256": "cc398b0f2feb44242ddd4c9d36cfe10b6c0fe3263269a8bbb9fb36fc39bb6811",
         "pass_date": "2026-11-25"
       }
     },
@@ -2506,6 +2553,7 @@
         "status": "generated_reference_pending_validation",
         "category": "costume",
         "has_file": true,
+        "record_sha256": "724dcf6fdd61c3222b629ee4ebbc9f5b237399117a14c55cb8119b3af56fd67f",
         "pass_date": "2026-11-25"
       }
     },
@@ -2547,6 +2595,7 @@
         "status": "generated_reference_pending_validation",
         "category": "costume",
         "has_file": true,
+        "record_sha256": "e3be3fe06227d2d57e7f698a386d9c6572277da4bd78ff0ab3481d68187130cf",
         "pass_date": "2026-11-25"
       }
     },
@@ -2586,6 +2635,7 @@
         "status": "blocked_generator_refusal",
         "category": "costume",
         "has_file": false,
+        "record_sha256": "8d89959de4de17d07d731b7669347cf55915f7b7a2349615d2985b30da1e9fd3",
         "pass_date": "2026-11-27"
       }
     },
@@ -2661,6 +2711,7 @@
         "status": "generated_reference_pending_validation",
         "category": "costume",
         "has_file": true,
+        "record_sha256": "58fed02e714fe1ca0fb6d45b7d82a19db5a67a4fd2a4789b4994d2711c2baf37",
         "pass_date": "2026-11-25"
       }
     },
@@ -2700,6 +2751,7 @@
         "status": "blocked_generator_refusal",
         "category": "costume",
         "has_file": false,
+        "record_sha256": "9a4d0a237467572ef640145986bfabb815a3c2e43199d78fa856b774e9d477c6",
         "pass_date": "2026-11-25"
       }
     },
@@ -2775,6 +2827,7 @@
         "status": "generated_reference_pending_validation",
         "category": "costume",
         "has_file": true,
+        "record_sha256": "c10fe63cce0511d6ccf36d44838a4749f015ae81fcea2a3408413e101561752e",
         "pass_date": "2026-11-20"
       }
     },
@@ -2816,6 +2869,7 @@
         "status": "generated_reference_pending_validation",
         "category": "costume",
         "has_file": true,
+        "record_sha256": "6a65c98da73ee52540899fb61b13c90a35af269185ef4d3b59cf104e801ef656",
         "pass_date": "2026-11-25"
       }
     },
@@ -2849,7 +2903,15 @@
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v13/anya_skin_01_record.json",
+        "generation": 13,
+        "status": "reference_research_pending",
+        "category": "costume",
+        "has_file": false,
+        "record_sha256": "633fbf4150f81bb9747795f5d62efd247a3632e123f939349583ad7945522c36",
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "anya_skin_02",
@@ -2923,6 +2985,7 @@
         "status": "generated_reference_pending_validation",
         "category": "costume",
         "has_file": true,
+        "record_sha256": "c7aa526cbfe2bd9706a29859de37af88b7bf4cb6e7f1dc04a169b29940f51700",
         "pass_date": "2026-11-25"
       }
     },
@@ -2996,6 +3059,7 @@
         "status": "blocked_generator_refusal",
         "category": "costume",
         "has_file": false,
+        "record_sha256": "fad5a0ae246bb6b9a849f4766cc8c8f387727eed4551b509d1cacca37a6b3342",
         "pass_date": "2026-11-27"
       }
     },
@@ -3063,7 +3127,15 @@
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v13/raam_skin_02_record.json",
+        "generation": 13,
+        "status": "reference_research_pending",
+        "category": "costume",
+        "has_file": false,
+        "record_sha256": "7453076ab38fffc45b39c5151766f720dc73b511b7e5b7ef895b7432f33c495b",
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "skorge_skin_01",
@@ -3119,7 +3191,7 @@
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
       "has_visual_reference": false,
-      "visual_status": "missing",
+      "visual_status": "generation_blocked",
       "selected_asset_id": null,
       "selected_path": null,
       "selected_source_variant": null,
@@ -3129,7 +3201,15 @@
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v13/skorge_skin_02_record.json",
+        "generation": 13,
+        "status": "blocked_generator_refusal",
+        "category": "costume",
+        "has_file": false,
+        "record_sha256": "c70907197cecd0a6a27a666b00e0561d2589f0bd8a89924612705f3fa88c6bc2",
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "myrrah_skin_01",
@@ -3195,7 +3275,15 @@
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v13/myrrah_skin_02_record.json",
+        "generation": 13,
+        "status": "reference_research_pending",
+        "category": "costume",
+        "has_file": false,
+        "record_sha256": "bf6dd7d5ba8d6a2966201d81f05767f18e0061914ee151ba402806c1157d73e2",
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "locust_drone_skin_01",
@@ -3250,23 +3338,26 @@
       ],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_costumes_v13_locust_drone_eday_multiplayer_png",
+      "selected_path": "assets/costumes_v13/locust_drone_eday_multiplayer.png",
+      "selected_source_variant": "Modèle multijoueur visible dans la galerie officielle E-Day",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_costumes_v13_locust_drone_eday_multiplayer_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/costumes_v13/locust_drone_eday_multiplayer.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": {
-        "record": "data/generation_v12/locust_drone_skin_02_record.json",
-        "generation": 12,
-        "status": "reference_research_pending",
+        "record": "data/generation_v13/locust_drone_skin_02_record.json",
+        "generation": 13,
+        "status": "generated_reference_pending_validation",
         "category": "costume",
-        "has_file": false,
+        "has_file": true,
+        "record_sha256": "4074dc034e8b34e937eab24143e37b84c4fb5ec5af11c3217790ff84017c57ae",
         "pass_date": "2026-11-27"
       }
     },
@@ -3340,6 +3431,7 @@
         "status": "blocked_generator_refusal",
         "category": "costume",
         "has_file": false,
+        "record_sha256": "d11c9d58ffdec3bb1b914f4d3b94c36f77b38cc0c242ddfa7ca70dbdf9881660",
         "pass_date": "2026-11-27"
       }
     },
@@ -3363,7 +3455,7 @@
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
       "has_visual_reference": false,
-      "visual_status": "missing",
+      "visual_status": "generation_blocked",
       "selected_asset_id": null,
       "selected_path": null,
       "selected_source_variant": null,
@@ -3373,7 +3465,15 @@
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v13/theron_skin_01_record.json",
+        "generation": 13,
+        "status": "blocked_prior_generator_refusal",
+        "category": "costume",
+        "has_file": false,
+        "record_sha256": "e09d58c2fd569ed802db012f7542ecdef0c901ebec31ae3505ead9f34904a3bc",
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "theron_skin_02",
@@ -3406,11 +3506,12 @@
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": {
-        "record": "data/generation_v12/theron_skin_02_record.json",
-        "generation": 12,
+        "record": "data/generation_v13/theron_skin_02_record.json",
+        "generation": 13,
         "status": "reference_research_pending",
         "category": "costume",
         "has_file": false,
+        "record_sha256": "86d44779b165088f6e02533ebbf3a8861709cbea8f05e15d89ef091249059839",
         "pass_date": "2026-11-27"
       }
     },
@@ -3452,6 +3553,7 @@
         "status": "generated_reference_pending_validation",
         "category": "costume",
         "has_file": true,
+        "record_sha256": "49077c946a3c7dd6e7902ed690402b3b52fa24cb0a7735668067d065d818e494",
         "pass_date": "2026-11-27"
       }
     },
@@ -3474,18 +3576,28 @@
       ],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_costumes_v13_jd_skin_02_png",
+      "selected_path": "assets/costumes_v13/jd_skin_02.png",
+      "selected_source_variant": "JD CGU non cicatrisé — début de campagne Gears 5",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_costumes_v13_jd_skin_02_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/costumes_v13/jd_skin_02.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v13/jd_skin_02_record.json",
+        "generation": 13,
+        "status": "generated_reference_pending_validation",
+        "category": "costume",
+        "has_file": true,
+        "record_sha256": "828d2669616ef174b398136c3b08f4d908cf42834da7921002ea7a930289da3f",
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "jd_skin_03",
@@ -3559,6 +3671,7 @@
         "status": "generated_reference_pending_validation",
         "category": "costume",
         "has_file": true,
+        "record_sha256": "ee9a0862cd5c7a3ddbc0690e3d4e48f6bb1338eaa710f55c5ab8ca571483e5fa",
         "pass_date": "2026-11-27"
       }
     },
@@ -3702,6 +3815,7 @@
         "status": "generated_reference_pending_validation",
         "category": "costume",
         "has_file": true,
+        "record_sha256": "8698dbd1108110bff2a6920f0c3b593142c8c3a65cb731853b66f5e4b5441428",
         "pass_date": "2026-11-27"
       }
     },
@@ -3792,18 +3906,28 @@
       ],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_costumes_v13_hoffman_skin_02_png",
+      "selected_path": "assets/costumes_v13/hoffman_skin_02.png",
+      "selected_source_variant": "Hoffman Gears 3 — modèle de production Epic",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_costumes_v13_hoffman_skin_02_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/costumes_v13/hoffman_skin_02.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v13/hoffman_skin_02_record.json",
+        "generation": 13,
+        "status": "generated_reference_pending_validation",
+        "category": "costume",
+        "has_file": true,
+        "record_sha256": "9f4fbe98802fb26218d4e3c3ee2c4262e01a79f26558f4ecfe8c690aea4f5bd2",
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "tai_skin_01",
@@ -3869,7 +3993,15 @@
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v13/tai_skin_02_record.json",
+        "generation": 13,
+        "status": "reference_research_pending",
+        "category": "costume",
+        "has_file": false,
+        "record_sha256": "e26aff6378571309d5e48e13a76ea0afe60f55a0cee47f6e72dff8a673ddd741",
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "dizzy_skin_01",
@@ -3924,18 +4056,28 @@
       ],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_costumes_v13_dizzy_skin_02_png",
+      "selected_path": "assets/costumes_v13/dizzy_skin_02.png",
+      "selected_source_variant": "Dizzy standard Gears 3 — rendu Epic 2011, copie de diffusion",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_costumes_v13_dizzy_skin_02_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/costumes_v13/dizzy_skin_02.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v13/dizzy_skin_02_record.json",
+        "generation": 13,
+        "status": "generated_reference_pending_validation",
+        "category": "costume",
+        "has_file": true,
+        "record_sha256": "5296615dd75fb082c02c7c2b4e1b5a697a8e1e52d3c3793ec256230ef9fe7a07",
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "sam_skin_01",
@@ -4001,7 +4143,15 @@
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v13/sam_skin_02_record.json",
+        "generation": 13,
+        "status": "reference_research_pending",
+        "category": "costume",
+        "has_file": false,
+        "record_sha256": "3e80ab11731a4adc3976472ad70e5f4ccdc2131e27d735d91df775b2b682f3a0",
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "paduk_skin_01",
@@ -4075,6 +4225,7 @@
         "status": "generated_reference_pending_validation",
         "category": "costume",
         "has_file": true,
+        "record_sha256": "5564826cea162a2ade0b1590fadf8f763fc65c1d735772c45aba695ed011ec81",
         "pass_date": "2026-11-25"
       }
     },
@@ -4176,7 +4327,15 @@
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v13/gabe_skin_02_record.json",
+        "generation": 13,
+        "status": "reference_research_pending",
+        "category": "costume",
+        "has_file": false,
+        "record_sha256": "ff6f9998620a50a23b1ed5e74c45db2763337f5f15879f00e0b8f27afde549ff",
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "sid_skin_01",
@@ -4310,7 +4469,15 @@
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v13/reyna_skin_02_record.json",
+        "generation": 13,
+        "status": "reference_research_pending",
+        "category": "costume",
+        "has_file": false,
+        "record_sha256": "836b26188f5d421911e3ba677c6a45acce0a10784f3f65b4ba5a03ad1ca07e7b",
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "lahni_skin_01",
@@ -4331,18 +4498,28 @@
       ],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_costumes_v13_lahni_skin_01_png",
+      "selected_path": "assets/costumes_v13/lahni_skin_01.png",
+      "selected_source_variant": "Brash Brigade Lahni — tenue en armure du début du DLC, modèle final",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_costumes_v13_lahni_skin_01_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/costumes_v13/lahni_skin_01.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v13/lahni_skin_01_record.json",
+        "generation": 13,
+        "status": "generated_reference_pending_validation",
+        "category": "costume",
+        "has_file": true,
+        "record_sha256": "54b984e3eaa1fc0f0985b8de4b2e8531923a36b2aa2bd11b2ec0ffbf3f8f2fa7",
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "lahni_skin_02",
@@ -4432,7 +4609,7 @@
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
       "has_visual_reference": false,
-      "visual_status": "missing",
+      "visual_status": "generation_blocked",
       "selected_asset_id": null,
       "selected_path": null,
       "selected_source_variant": null,
@@ -4442,7 +4619,15 @@
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v13/keegan_skin_02_record.json",
+        "generation": 13,
+        "status": "blocked_generator_refusal",
+        "category": "costume",
+        "has_file": false,
+        "record_sha256": "a79b7d644ad61e82788eaa4801497a6844d07896d777a5b40b542ea0ca37894c",
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "mac_skin_01",
@@ -4518,6 +4703,7 @@
         "status": "generated_reference_pending_validation",
         "category": "costume",
         "has_file": true,
+        "record_sha256": "611c5580b259047bc8bf3b5c41a89210fd776a4c32b43e1dbe39c67129c2aa18",
         "pass_date": "2026-11-20"
       }
     },
@@ -4593,6 +4779,7 @@
         "status": "generated_reference_pending_validation",
         "category": "costume",
         "has_file": true,
+        "record_sha256": "83259a3f8d7b6153b8bcc5b867a69b7e95cf326bbb6a8b4a4a57a961aa6a9797",
         "pass_date": "2026-11-27"
       }
     },
@@ -4660,7 +4847,15 @@
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v13/deebee_skin_02_record.json",
+        "generation": 13,
+        "status": "reference_research_pending",
+        "category": "costume",
+        "has_file": false,
+        "record_sha256": "10b21e9c24ea89f0a720d65039c2b78d6006fa7af3ee6c06cd8f816202e2d781",
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "warden_skin_01",
@@ -4768,6 +4963,7 @@
         "status": "generated_reference_pending_validation",
         "category": "costume",
         "has_file": true,
+        "record_sha256": "0aef0fbf85109beb548c22c7706cba24061d94aeffedc981028bb8ea3e0dfea1",
         "pass_date": "2026-11-27"
       }
     },
@@ -4869,7 +5065,15 @@
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v13/grenadier_skin_02_record.json",
+        "generation": 13,
+        "status": "reference_research_pending",
+        "category": "costume",
+        "has_file": false,
+        "record_sha256": "b7dff672b673c7d981b799859706cf4063698310319be5be9b1f10c57fc1a6d4",
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "lahni_hivebusters_intro",
@@ -4901,7 +5105,15 @@
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v13/lahni_hivebusters_intro_record.json",
+        "generation": 13,
+        "status": "reference_research_pending",
+        "category": "costume",
+        "has_file": false,
+        "record_sha256": "cbe8a625f5015f82c3d178cf477c97342013d0e43c1ce1afd88e4aba34c4b983",
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "keegan_hivebusters_intro",
@@ -4933,7 +5145,15 @@
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v13/keegan_hivebusters_intro_record.json",
+        "generation": 13,
+        "status": "reference_research_pending",
+        "category": "costume",
+        "has_file": false,
+        "record_sha256": "457af8b1f4388f205aa6bc4de92c38cff138c9fa43b6766aa4a86a8f04666935",
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "anthony_black_steel_g5",
@@ -4965,7 +5185,15 @@
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
-      "last_generation_attempt": null
+      "last_generation_attempt": {
+        "record": "data/generation_v13/anthony_black_steel_g5_record.json",
+        "generation": 13,
+        "status": "reference_research_pending",
+        "category": "costume",
+        "has_file": false,
+        "record_sha256": "428d70f027e79ef3a4612ff38260a0d3422ab4bcf84bf13d3d1c6df08ffbc11f",
+        "pass_date": "2026-11-27"
+      }
     },
     {
       "id": "bernie_armored_g5",
@@ -5040,6 +5268,7 @@
         "status": "generated_reference_pending_validation",
         "category": "costume",
         "has_file": true,
+        "record_sha256": "0b42d62d1cfc8412278e4c3baee24f2742eb13e79c13b112b167595da3e2766f",
         "pass_date": "2026-11-25"
       }
     },
@@ -5081,6 +5310,7 @@
         "status": "generated_reference_pending_validation",
         "category": "costume",
         "has_file": true,
+        "record_sha256": "29f75e86a1025bedac7ffa628fa4db4201bf696600501ff10d8e20961a305fbd",
         "pass_date": "2026-11-25"
       }
     },
@@ -5120,6 +5350,7 @@
         "status": "blocked_generator_refusal",
         "category": "costume",
         "has_file": false,
+        "record_sha256": "3464f85cecb04deae381c8a927c63c43f798cff53b0db8f3a285103ded6b78dc",
         "pass_date": "2026-11-27"
       }
     },
@@ -5161,6 +5392,7 @@
         "status": "generated_reference_pending_validation",
         "category": "costume",
         "has_file": true,
+        "record_sha256": "f9a56349853845852c6ad95637ca310f65deb1a4fa4a3b449b6583bc14e497ad",
         "pass_date": "2026-11-27"
       }
     },
@@ -5202,6 +5434,7 @@
         "status": "generated_reference_pending_validation",
         "category": "costume",
         "has_file": true,
+        "record_sha256": "8af7dd596e4954eafe7d6d263035b33fca31b13e53786abd90048dbc36e471a9",
         "pass_date": "2026-11-27"
       }
     },
@@ -5243,6 +5476,7 @@
         "status": "generated_reference_pending_validation",
         "category": "costume",
         "has_file": true,
+        "record_sha256": "2fe8c232e18b8333c2ef2f69b279701affab25ada7992287d7f1e75db42ae11e",
         "pass_date": "2026-11-27"
       }
     }
@@ -5285,6 +5519,7 @@
         "status": "generated_reference_pending_validation",
         "category": "boss",
         "has_file": true,
+        "record_sha256": "6c3ea030c1b6a92d26179288ad8bd1158d4c9b201157c7de56fbde8a1ddbc4dc",
         "pass_date": "2026-11-25"
       }
     },
@@ -5324,7 +5559,8 @@
         "generation": 4,
         "status": "generated",
         "category": "boss",
-        "has_file": true
+        "has_file": true,
+        "record_sha256": "6f3c120a750f81de9e67067651658ad8504ada29741ba76e9a6834d87483a3e7"
       }
     },
     {
@@ -5363,7 +5599,8 @@
         "generation": 4,
         "status": "generated",
         "category": "boss",
-        "has_file": true
+        "has_file": true,
+        "record_sha256": "d8ee8adb117844a838b5a93f9b1b0c03b9ddd8b0f927ed4cdd02491c7c2a2422"
       }
     },
     {
@@ -5403,6 +5640,7 @@
         "status": "generated_reference_pending_validation",
         "category": "boss",
         "has_file": true,
+        "record_sha256": "e74d45930a983c769725fa7b6016e5d2d33bf4dfec952cb2ae4b7fcee8a304b7",
         "pass_date": "2026-11-25"
       }
     },
@@ -5442,6 +5680,7 @@
         "status": "generated_reference_pending_validation",
         "category": "boss",
         "has_file": true,
+        "record_sha256": "e63fd229c5270e29a1322801dd65ee2da9ef6d33aca535829c82deae463fe836",
         "pass_date": "2026-11-25"
       }
     },
@@ -5475,11 +5714,12 @@
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": {
-        "record": "data/generation_v12/boss_hydra_skorge_record.json",
-        "generation": 12,
+        "record": "data/generation_v13/boss_hydra_skorge_record.json",
+        "generation": 13,
         "status": "reference_research_pending",
         "category": "boss",
         "has_file": false,
+        "record_sha256": "34e6310798d48b6680e18326ddfe9dce1cdaefbd86abef73ba9afe159d703f0f",
         "pass_date": "2026-11-27"
       }
     },
@@ -5520,6 +5760,7 @@
         "status": "generated_reference_pending_validation",
         "category": "boss",
         "has_file": true,
+        "record_sha256": "455a567e3c993fd691e15681fccfe90e2e960e934888dadc27bcbc3f6f9d4e68",
         "pass_date": "2026-11-25"
       }
     },
@@ -5559,6 +5800,7 @@
         "status": "generated_reference_pending_validation",
         "category": "boss",
         "has_file": true,
+        "record_sha256": "e45fc7e0c008d0d50df56ea234bf445500c42db4458082905be41434bc524a24",
         "pass_date": "2026-11-20"
       }
     },
@@ -5598,6 +5840,7 @@
         "status": "generated_reference_pending_validation",
         "category": "boss",
         "has_file": true,
+        "record_sha256": "882560a1fa506c0d051f75c2779b22ddc802417a64f202a0622bd85f227f95e8",
         "pass_date": "2026-11-25"
       }
     },
@@ -5638,6 +5881,7 @@
         "status": "generated_reference_pending_validation",
         "category": "boss",
         "has_file": true,
+        "record_sha256": "7ad240be1efedd4daefb571aad103a8ead04bbf55b816a97e12cee393df1feec",
         "pass_date": "2026-11-20"
       }
     },
@@ -5679,6 +5923,7 @@
         "status": "generated_reference_pending_validation",
         "category": "boss",
         "has_file": true,
+        "record_sha256": "dfc18745c9a666bcf08a8648e127decbf355d9cbdbe2fe09da8759d140bd1f5f",
         "pass_date": "2026-11-20"
       }
     },
@@ -5720,6 +5965,7 @@
         "status": "generated_reference_pending_validation",
         "category": "boss",
         "has_file": true,
+        "record_sha256": "a53a4481824c5ac62ead682deae818c22003a9763286c01911fc0087d9012105",
         "pass_date": "2026-11-25"
       }
     },
@@ -5760,6 +6006,7 @@
         "status": "generated_reference_pending_validation",
         "category": "boss",
         "has_file": true,
+        "record_sha256": "414103678aad4a029e1b74537b1fb859e98a8da63728525e6e7485cff511e7b7",
         "pass_date": "2026-11-25"
       }
     },
@@ -5800,6 +6047,7 @@
         "status": "generated_reference_pending_validation",
         "category": "boss",
         "has_file": true,
+        "record_sha256": "4df1a67db5f1675ea598dfb61f4358399b853824a3320b1abd2b3af627edeff6",
         "pass_date": "2026-11-25"
       }
     },
@@ -5840,6 +6088,7 @@
         "status": "generated_reference_pending_validation",
         "category": "boss",
         "has_file": true,
+        "record_sha256": "faac61a0a480d0a6d56fe397bc793de1a1737cee82dde83a7173950c3594dfa6",
         "pass_date": "2026-11-25"
       }
     },
@@ -5879,7 +6128,8 @@
         "generation": 4,
         "status": "generated",
         "category": "boss",
-        "has_file": false
+        "has_file": false,
+        "record_sha256": "a51e413fda30f09704be3297c03719b17dc40a272e65c27cfe165d191a7b8106"
       }
     },
     {
@@ -5919,6 +6169,7 @@
         "status": "generated_reference_pending_validation",
         "category": "boss",
         "has_file": true,
+        "record_sha256": "f628f0e75da34b15ea707b0868b4f94dda36562c34ade6e422335cd6f1e6ea44",
         "pass_date": "2026-11-25"
       }
     },
@@ -5965,6 +6216,7 @@
         "status": "generated_reference_pending_validation",
         "category": "boss",
         "has_file": true,
+        "record_sha256": "838abd1d8601b53ce7dbcc1ea0ac289c3765db0bee40af074485a89b650922d5",
         "pass_date": "2026-11-20"
       }
     },
@@ -6005,6 +6257,7 @@
         "status": "generated_reference_pending_validation",
         "category": "boss",
         "has_file": true,
+        "record_sha256": "4141be44d0abced4cdbecd8b71855beb305fd73093ed23d3c69854ff5d6c7578",
         "pass_date": "2026-11-27"
       }
     },
@@ -6045,6 +6298,7 @@
         "status": "generated_reference_pending_validation",
         "category": "boss",
         "has_file": true,
+        "record_sha256": "7dc17f6067fda5399a5e32be2367d610cd6a5f4c8209c3806ad18935285e509a",
         "pass_date": "2026-11-27"
       }
     },
@@ -6078,11 +6332,12 @@
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": {
-        "record": "data/generation_v12/boss_wakaatu_record.json",
-        "generation": 12,
+        "record": "data/generation_v13/boss_wakaatu_record.json",
+        "generation": 13,
         "status": "reference_research_pending",
         "category": "boss",
         "has_file": false,
+        "record_sha256": "7ee7d10b313030f9fe234df7094503ea91b489a95bdf4ea1725adbc8dd715d8f",
         "pass_date": "2026-11-27"
       }
     },
@@ -6121,7 +6376,8 @@
         "generation": 4,
         "status": "generated",
         "category": "boss",
-        "has_file": true
+        "has_file": true,
+        "record_sha256": "38345176b2459a4db78c54e13ef55519262e150fbe5e9db5f147d235e2e94507"
       }
     },
     {
@@ -6160,6 +6416,7 @@
         "status": "generated_reference_pending_validation",
         "category": "boss",
         "has_file": true,
+        "record_sha256": "1023972a05b3cbb8a4d7cfb458b8fffefdfa2ae12b14fbd56927baf14ef4d5ca",
         "pass_date": "2026-11-25"
       }
     },
@@ -6200,6 +6457,7 @@
         "status": "generated_reference_pending_validation",
         "category": "boss",
         "has_file": true,
+        "record_sha256": "f234460dda738af6ae41282bb1c275d7245feb6b8e2dc393504d970a386dd400",
         "pass_date": "2026-11-25"
       }
     },
@@ -6244,6 +6502,7 @@
         "status": "generated_reference_pending_validation",
         "category": "boss",
         "has_file": true,
+        "record_sha256": "a097eb4dedcd73ad1bc1788b799b1babd410d1b3bed135320f4a32274bec98cf",
         "pass_date": "2026-11-25"
       }
     },
@@ -6288,6 +6547,7 @@
         "status": "generated_reference_pending_validation",
         "category": "boss",
         "has_file": true,
+        "record_sha256": "23fdbf55988f6a97e1bbbce09c01b34dfd40e051c7fbe05ad96932db4c697ea5",
         "pass_date": "2026-11-25"
       }
     },
@@ -6332,6 +6592,7 @@
         "status": "generated_reference_pending_validation",
         "category": "boss",
         "has_file": true,
+        "record_sha256": "b8df60ef72a7377438160c2a76467ff5861e94246a30c132a2785e9a579b159a",
         "pass_date": "2026-11-25"
       }
     },
@@ -6374,6 +6635,7 @@
         "status": "blocked",
         "category": "boss",
         "has_file": false,
+        "record_sha256": "e3039889cca69883d0651edefa7afee8f3ef99b9c2996e106457c2e495ec0815",
         "pass_date": "2026-11-25"
       }
     },
@@ -6418,6 +6680,7 @@
         "status": "generated_reference_pending_validation",
         "category": "boss",
         "has_file": true,
+        "record_sha256": "54c8e00648b57be7c222a79b4ec179bebdc2fc1a8abfd0d3c20aa488375179ff",
         "pass_date": "2026-11-25"
       }
     },
@@ -6443,23 +6706,26 @@
       ],
       "catalog_scope": "encounter_adaptation_2d",
       "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_bosses_v13_riftworm_g2_exterior_png",
+      "selected_path": "assets/bosses_v13/riftworm_g2_exterior.png",
+      "selected_source_variant": "Riftworm Gears of War 2 — corps extérieur complet, vue latérale de modèle",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_bosses_v13_riftworm_g2_exterior_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/bosses_v13/riftworm_g2_exterior.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": {
-        "record": "data/generation_v12/boss_riftworm_g2_record.json",
-        "generation": 12,
-        "status": "reference_research_pending",
+        "record": "data/generation_v13/boss_riftworm_g2_record.json",
+        "generation": 13,
+        "status": "generated_reference_pending_validation",
         "category": "boss",
-        "has_file": false,
+        "has_file": true,
+        "record_sha256": "241c5da142f7702126b823d1025707f446f935e20c54f350fc267f5d0ab04f17",
         "pass_date": "2026-11-27"
       }
     },
@@ -6497,12 +6763,13 @@
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": {
-        "record": "data/generation_v11/boss_sire_g5_record.json",
-        "generation": 11,
+        "record": "data/generation_v13/boss_sire_g5_record.json",
+        "generation": 13,
         "status": "reference_research_pending",
         "category": "boss",
         "has_file": false,
-        "pass_date": "2026-11-25"
+        "record_sha256": "bf3a604d21dc5f089897da1108e41ed70dcf8cc7e9283a709268c6162f270447",
+        "pass_date": "2026-11-27"
       }
     }
   ],
@@ -6544,6 +6811,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "cacda7ce004e69797dcd76c48aa5b2d2baf6444e7dcbbfefa44d33195831b4e4",
         "pass_date": "2026-11-25"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -6584,6 +6852,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "1158da7fa6814744b9a16bf4035f10c74f8c6b5d94e735cdb1721a8435cacb32",
         "pass_date": "2026-11-25"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -6625,6 +6894,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "3cf2c24ed413cde8cbb6a11f742337b5ab30b2cb2cfcb2730557df8a504fe8ab",
         "pass_date": "2026-11-25"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -6700,6 +6970,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "6f5f0bb11387740ae4df42125b18e9c76e1de15b467f3b8d2fd8a631da69d209",
         "pass_date": "2026-11-25"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -6742,6 +7013,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "9989075ff73b57ea9679130e8a8b01551515c6fa74959ed59d2eeb3724d42ea1",
         "pass_date": "2026-11-25"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -6783,6 +7055,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "6d7814345cd5e291dd76de5ad375367953f8c042c84cf62f43696d6ad9cd9aab",
         "pass_date": "2026-11-25"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -6824,6 +7097,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "beb000fbeb8992cce68bb78a1e0ec1c23c501c1f6b8e26a1b6b25f4e35c2e7f5",
         "pass_date": "2026-11-25"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -6865,6 +7139,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "1ff0ee8e012c4b26b740966268734949ad798c9eeeae74e93aa246cc4977aecc",
         "pass_date": "2026-11-25"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -6906,6 +7181,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "d514cd47b78ecda07b3347d259904d5e67bfbf24575ed9ece90f4744585730e5",
         "pass_date": "2026-11-25"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -6947,6 +7223,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "974ab18daa829a8a635d812be06895729581540313c0043873164631db543e8f",
         "pass_date": "2026-11-25"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -6988,6 +7265,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "1fb47eab74ff9e37de4a934d1784ea1da18d3acc9a3185b344b6407941128e5e",
         "pass_date": "2026-11-25"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -7030,6 +7308,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "b09e60aa0017b04b60543739b016623fcad6f424ee451e609bec09c46fe94b1b",
         "pass_date": "2026-11-25"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -7071,6 +7350,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "81d4e4ec6aca432e88fa6f350adc87b6f0ac382f07719a09d2e9232879868806",
         "pass_date": "2026-11-25"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -7113,6 +7393,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "d90aeb5f32f54d82c8853cc27dcef7be40e9a430177bcd0eb61c6fbeb76de291",
         "pass_date": "2026-11-25"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -7155,6 +7436,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "d64090d69366c25e8a5cbe5a12089378a1e3ddeba03f05175561d55b61b296d2",
         "pass_date": "2026-11-25"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -7196,6 +7478,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "daa9a23e441145b912858919f0fb176da47379061cb5ffd44bb1524743241b58",
         "pass_date": "2026-11-25"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -7237,6 +7520,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "f8e02b7496056ee8267cd253a3c70df6a784b45e36c221acfa35404e9b3d5a95",
         "pass_date": "2026-11-25"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -7277,6 +7561,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "b252cd078930681afdef83b98177866496a4af430bf13b30bee8dffb031ae0a1",
         "pass_date": "2026-11-25"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -7318,6 +7603,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "f789e80e05c4b12d95957a3bbe207237344a43c04ca3b83a1a9d81a69451d2a0",
         "pass_date": "2026-11-25"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -7358,6 +7644,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "076688f394ebff870d2613bb26d2ca8148b72fb300899baf0a43d90f1648b1eb",
         "pass_date": "2026-11-25"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -7399,6 +7686,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "611df5cb6c1b225f552a1e2f302f280f1cc0df2c869cfa4f3016b1beb5e4ed8b",
         "pass_date": "2026-11-25"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -7439,6 +7727,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "cb233df6e6daa4b37da4dcc8e3c166f99d6dba637c2878aaf22d05943016d531",
         "pass_date": "2026-11-25"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -7480,6 +7769,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "6262a7310efe2311e606a274aef98d8d7e9dea6437249b458dbe28c5044d1415",
         "pass_date": "2026-11-25"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -7523,6 +7813,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "1b77f0e1f034012976976f1cbbec06b8ad6729bc464016aee715b6519eb10ab4",
         "pass_date": "2026-11-20"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -7567,6 +7858,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "be95e2f783b308d28ae7c1e44f91d6444f4ed454454c3cdbaabc98a6b35ae326",
         "pass_date": "2026-11-25"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -7611,6 +7903,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "b5f5b50d3a0a08b9053c87d7e8ac8cffc8e2c372fb00b47fe5f6828c7a3e789e",
         "pass_date": "2026-11-25"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -7654,6 +7947,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "97ffc8434c159a3613fecdd8aaf2307f45bd7da25d9c00481d4ab2d670f0328b",
         "pass_date": "2026-11-20"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -7697,6 +7991,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "b2d03079cb37e927762bcdd92e2a03fa1e2d949a3db975e78718cf2369b86f45",
         "pass_date": "2026-11-20"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -7740,6 +8035,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "b60682c67ee03eadd26570818921d559f01d3daa3e4edb0752ef4fb1df14f707",
         "pass_date": "2026-11-25"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -7783,6 +8079,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "5bee061001fdc7f10bd7f390a5660569d55f69f1822fbd34f6473cb8e46873db",
         "pass_date": "2026-11-25"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -7826,6 +8123,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "04b0447755f18dde24dceeae5873ea8850794ec98c25b443359e6c6f447af144",
         "pass_date": "2026-11-20"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -7869,6 +8167,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "1c07796c66a5fabd7fad117bda9983bd931c79b71fe0bccd29b97bad6c6b5976",
         "pass_date": "2026-11-20"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -7912,6 +8211,7 @@
         "status": "generated_reference_pending_validation",
         "category": "stage",
         "has_file": true,
+        "record_sha256": "cbd68a225a3f4bfb743deddb53269bbab206a35238d2a211a8676735801d7e37",
         "pass_date": "2026-11-25"
       },
       "parallax_status": "separate_layers_not_validated"
@@ -7957,6 +8257,7 @@
         "status": "generated_reference_pending_validation",
         "category": "projectile",
         "has_file": true,
+        "record_sha256": "3beb3f4304757cad6909ff5490f9816d369df551c60b3a34688290d8547fae49",
         "pass_date": "2026-11-25"
       },
       "weapon_id": "frag",
@@ -8002,6 +8303,7 @@
         "status": "generated_reference_pending_validation",
         "category": "projectile",
         "has_file": true,
+        "record_sha256": "3c8746675f0ec7607a340ba3a7726f35a2a0b6522155ea52303b41c11b7a3544",
         "pass_date": "2026-11-25"
       },
       "weapon_id": "buzzkill",
@@ -8048,6 +8350,7 @@
         "status": "generated_reference_pending_validation",
         "category": "projectile",
         "has_file": true,
+        "record_sha256": "34cb3f067b905fd76c2786152c1a5721cf17b0faab72fe1b356c7e8a7d9eb407",
         "pass_date": "2026-11-25"
       },
       "weapon_id": "dropshot",
@@ -8091,6 +8394,7 @@
         "status": "blocked",
         "category": "projectile",
         "has_file": false,
+        "record_sha256": "0d4307318a9b9c862c04e1e0e5d18de3aef6e3689ca165d6da082290d5716606",
         "pass_date": "2026-11-25"
       },
       "weapon_id": "torque_bow",
@@ -8133,6 +8437,7 @@
         "status": "blocked",
         "category": "projectile",
         "has_file": false,
+        "record_sha256": "b21efb3c4bb2a4fc17e65b0f2b60fe2df15728ce4c1cc40ee33930828bbda856",
         "pass_date": "2026-11-25"
       },
       "weapon_id": "shock_grenade",
@@ -8177,6 +8482,7 @@
         "status": "generated_reference_pending_validation",
         "category": "projectile",
         "has_file": true,
+        "record_sha256": "1419deecc72d96b8eba4bef616643eea0cbf49e115b1aeba44c0729978477058",
         "pass_date": "2026-11-25"
       },
       "weapon_id": "smoke_grenade",
@@ -8219,6 +8525,7 @@
         "status": "blocked",
         "category": "projectile",
         "has_file": false,
+        "record_sha256": "a6565ee140be328af480cba17788a2137906cf913f02eaf42fb99f49c54e675c",
         "pass_date": "2026-11-25"
       },
       "weapon_id": "incendiary_grenade",
@@ -8256,12 +8563,13 @@
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": {
-        "record": "data/generation_v11/projectile_boomshot_shell_g4_record.json",
-        "generation": 11,
+        "record": "data/generation_v13/projectile_boomshot_shell_g4_record.json",
+        "generation": 13,
         "status": "reference_research_pending",
         "category": "projectile",
         "has_file": false,
-        "pass_date": "2026-11-25"
+        "record_sha256": "e3462d213974b8fc3b3e65c57de5d30c37fa1b6307c6271f582b6fedee4c5620",
+        "pass_date": "2026-11-27"
       },
       "weapon_id": "boomshot",
       "source_weapon": "Boomshot"
@@ -8320,18 +8628,13 @@
       "raam_skin_02",
       "skorge_skin_02",
       "myrrah_skin_02",
-      "locust_drone_skin_02",
       "kantus_skin_02",
       "theron_skin_01",
       "theron_skin_02",
-      "jd_skin_02",
-      "hoffman_skin_02",
       "tai_skin_02",
-      "dizzy_skin_02",
       "sam_skin_02",
       "gabe_skin_02",
       "reyna_skin_02",
-      "lahni_skin_01",
       "keegan_skin_02",
       "deebee_skin_02",
       "grenadier_skin_02",
@@ -8344,7 +8647,6 @@
       "boss_hydra_skorge",
       "boss_wakaatu",
       "boss_scion_g4",
-      "boss_riftworm_g2",
       "boss_sire_g5"
     ],
     "stages": [],

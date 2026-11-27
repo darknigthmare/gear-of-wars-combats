@@ -1,0 +1,124 @@
+{
+  "category": "costume",
+  "pass_date": "2026-11-27",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "purpose": "reference_fullbody",
+  "id": "anthony_black_steel_g5",
+  "subject_id": "anthony_black_steel_g5",
+  "costume_id": "anthony_black_steel_g5",
+  "character_id": "anthony_carmine",
+  "name": "Anthony Carmine Black Steel — Gears 5",
+  "source_game": "Gears 5",
+  "catalog_target_game": "Gears 5",
+  "variant": "Black Steel Anthony Carmine — Gears 5, édition confirmée",
+  "variant_relation": "target_version_unconfirmed",
+  "asset_path": null,
+  "prompt": null,
+  "has_image": false,
+  "status": "reference_research_pending",
+  "generation_status": "reference_research_pending",
+  "generation_attempted": false,
+  "generation_attempts": 0,
+  "generation_attempt_count_this_pass": 0,
+  "engine": null,
+  "generation_method": "reference_research_only",
+  "quality_state": "reference_incomplete",
+  "reason": "L'existence exacte de Black Steel Anthony Carmine dans Gears 5 est confirmée par la fiche Xbox (Works with Gears 5, sortie 1 juin 2021) et le rigueur crédité chez The Coalition. Cependant les deux rendus officiels de l'artiste et l'image Xbox inspectés sont coupés à la taille ou aux cuisses. Les genoux, les bottes et les matériaux du bas de ce skin Gears 5 restent non documentés par une vue complète. Aucun modèle Gears 4 n'est substitué.",
+  "missing_reference_reason": "L'existence exacte de Black Steel Anthony Carmine dans Gears 5 est confirmée par la fiche Xbox (Works with Gears 5, sortie 1 juin 2021) et le rigueur crédité chez The Coalition. Cependant les deux rendus officiels de l'artiste et l'image Xbox inspectés sont coupés à la taille ou aux cuisses. Les genoux, les bottes et les matériaux du bas de ce skin Gears 5 restent non documentés par une vue complète. Aucun modèle Gears 4 n'est substitué.",
+  "notes": [
+    "La correspondance avec Gears 5 est confirmée : le blocage porte sur la couverture visuelle du corps, pas sur l'existence du skin.",
+    "Les descriptions automatiques d'image indiquant « fullbody » ne correspondent pas à l'image Xbox inspectée, qui s'arrête aux cuisses. Aucun appel au générateur."
+  ],
+  "sources": [
+    {
+      "page_url": "https://www.xbox.com/en-US/games/store/black-steel-anthony-carmine/9MTRK6Z1RQWN",
+      "image_url": "https://store-images.s-microsoft.com/image/apps.20136.13802737660705705.0c524e52-1ff4-4412-9713-2015e81ba653.ae9be2a1-83cc-40f3-ae71-4fff40076b5e",
+      "source_type": "official_xbox_product_listing_and_artwork",
+      "scope": "Fiche Black Steel Anthony Carmine, Xbox Game Studios / The Coalition, sortie 2021-06-01, Works with Gears 5. Visuel inspecté : tête, torse et haut des cuisses avec fondu, pas de genoux ni de pieds.",
+      "visual_reference_used": false,
+      "reference_visually_inspected": true,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v13_classic/anthony_g5_xbox.jpg",
+      "reference_sha256": "4a7e18109d553830f74e3f4edc7fae868abc1b722e0d19b109fbc0546c3bb9d8",
+      "reference_dimensions": [
+        1440,
+        2160
+      ]
+    },
+    {
+      "page_url": "https://www.artstation.com/artwork/d8XBGe",
+      "original_artist_url": "https://secam_station.artstation.com/projects/d8XBGe",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/061/040/114/large/sebastien-camrrubi-gears-5-anthony-carmine-black-steel-character-rigging-the-coalition-microsoft-xbox-sebastien-camrrubi-secam-station-1.jpg?1679899926",
+      "source_type": "first_party_character_rigger_marketing_render",
+      "scope": "Sebastien Camrrubi, rig d'Anthony Black Steel pour The Coalition/Gears 5, rendu marketing © Microsoft 2021. Premier rendu inspecté, coupé aux cuisses.",
+      "visual_reference_used": false,
+      "reference_visually_inspected": true,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v13_classic/anthony_g5_primary_1.jpg",
+      "reference_sha256": "11a631775f5b8aba0fd84813607274b14740de0e2ae5fdc9ec091f4a0432ba3b",
+      "reference_dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "page_url": "https://www.artstation.com/artwork/d8XBGe",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/061/040/120/large/sebastien-camrrubi-gears-5-anthony-carmine-black-steel-character-rigging-the-coalition-microsoft-xbox-sebastien-camrrubi-secam-station-2.jpg?1679899931",
+      "source_type": "first_party_character_rigger_marketing_render",
+      "scope": "Second rendu de la même page officielle de l'artiste, inspecté en trois-quarts mais coupé en haut des cuisses ; aucune jambe complète.",
+      "visual_reference_used": false,
+      "reference_visually_inspected": true,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v13_classic/anthony_g5_primary_2.jpg",
+      "reference_sha256": "281f8bd2b62c15fa8cbbadf5bbd598513a3abd558cb9fd0160dace5a0c42d9b8",
+      "reference_dimensions": [
+        1920,
+        1080
+      ]
+    }
+  ],
+  "research_log": [
+    {
+      "url": "https://store.steampowered.com/itemstore/1097840/browse/",
+      "result": "Catalogue Gears 5 corroborant le nom Black Steel Anthony Carmine."
+    },
+    {
+      "url": "https://www.artstation.com/projects/d8XBGe.json",
+      "result": "Données publiques du projet consultées pour identifier les deux rendus officiels et la vidéo liée."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=2OY-Pv-hhr4",
+      "result": "Vidéo liée par le projet de l'artiste, non visionnée dans cette passe. Aucune vue complète prétendue à partir de ce lien."
+    }
+  ],
+  "qa": {
+    "reference_visually_inspected": true,
+    "visually_inspected": false,
+    "output_visually_inspected": false,
+    "single_character": null,
+    "full_body_in_frame": null,
+    "transparent_background": null,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "alpha_measured": false,
+    "framing_measured": false,
+    "observations": [
+      "Aucune image générée pour cette cible dans cette passe. Le journal documente la recherche et la limite constatée."
+    ],
+    "remaining_checks": [
+      "L'existence exacte de Black Steel Anthony Carmine dans Gears 5 est confirmée par la fiche Xbox (Works with Gears 5, sortie 1 juin 2021) et le rigueur crédité chez The Coalition. Cependant les deux rendus officiels de l'artiste et l'image Xbox inspectés sont coupés à la taille ou aux cuisses. Les genoux, les bottes et les matériaux du bas de ce skin Gears 5 restent non documentés par une vue complète. Aucun modèle Gears 4 n'est substitué."
+    ]
+  },
+  "history_check": {
+    "baseline_commit": "3d12276302c040f05e5452de073dc3a67470554f",
+    "all_generation_directories_and_archives_checked": true,
+    "exact_subject_previously_attempted": false,
+    "notes": "Le refus historique Anthony Carmine original 2006 porte sur une autre variante. Aucun appel antérieur retrouvé pour Black Steel Anthony Gears 5."
+  },
+  "source_urls": [
+    "https://www.xbox.com/en-US/games/store/black-steel-anthony-carmine/9MTRK6Z1RQWN",
+    "https://www.artstation.com/artwork/d8XBGe"
+  ],
+  "reference_images": []
+}
