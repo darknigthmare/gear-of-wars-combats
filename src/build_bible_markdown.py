@@ -13,7 +13,7 @@ from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = "V14"
+VERSION = "V15"
 OUTPUT = ROOT / f"livrables/Gears_of_War_Combats_Bible_{VERSION.lower()}.md"
 MANIFEST = ROOT / f"docs/production/BIBLE_BUILD_{VERSION}.json"
 CHAPTERS = [
@@ -22,6 +22,7 @@ CHAPTERS = [
     ("Boss, arenes et campagne", "docs/boss_stages_story.md"),
     ("Guide commun et deux extensions adaptes a Gears", "docs/combat_extensions.md"),
     ("Personnages et creatures complementaires V14", "docs/production/CAST_AND_CREATURES_V14.md"),
+    ("Reprise des references et revue des editions V15", "docs/production/REFERENCE_REVIEW_V15.md"),
 ]
 
 
@@ -226,6 +227,7 @@ def build() -> dict:
             "- [Boss, arènes et campagne](#boss-arenes-et-campagne)",
             "- [Guide et extensions adaptés à Gears](#guide-commun-et-deux-extensions-adaptes-a-gears)",
             "- [Personnages et créatures complémentaires V14](#personnages-et-creatures-complementaires-v14)",
+            "- [Reprise des références et revue des éditions V15](#reprise-des-references-et-revue-des-editions-v15)",
             "- [Catalogue de production](#catalogue-courant-de-production)",
             "- [Matrice des 68 rubriques](#matrice-complete-des-68-rubriques)",
             "- [Audit et 40 cas d'acceptation](#audit-et-cas-dacceptation-des-extensions)",
@@ -241,7 +243,9 @@ def build() -> dict:
         ]),
     ]
     for title, relative in CHAPTERS:
-        if relative == "docs/production/CAST_AND_CREATURES_V14.md":
+        if relative == "docs/production/REFERENCE_REVIEW_V15.md":
+            note = "Revue V15 des nouvelles tentatives, de leurs limites et des identités de costumes ; images fixes seulement."
+        elif relative == "docs/production/CAST_AND_CREATURES_V14.md":
             note = "Compléments V14 : références de modèles de production et propositions d'intégration, sans nouveau comportement moteur livré."
         elif relative == "docs/combat_extensions.md":
             note = "Adaptation V12 complète. Les sources officielles étayent les identités et périodes ; les règles et chorégraphies nouvelles demeurent des créations du projet."

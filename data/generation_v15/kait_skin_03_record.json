@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "id": "kait_skin_03",
+  "subject_id": "kait_skin_03",
+  "character_id": "kait",
+  "costume_id": "kait_skin_03",
+  "name": "Kait Diaz — Désert Gears 5",
+  "category": "costume",
+  "pass_date": "2026-11-27",
+  "source_game": "Gears 5",
+  "catalog_target_game": "Gears 5",
+  "variant": "Desert Armor Kait — Gears 5",
+  "variant_relation": "target_version_requested",
+  "purpose": "costume_reference_fullbody",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "status": "blocked_generator_refusal",
+  "generation_status": "blocked_generator_refusal",
+  "quality_state": "blocked",
+  "generation_attempted": true,
+  "generation_attempt_count": 1,
+  "total_documented_attempts_for_target": 2,
+  "has_image": false,
+  "asset_path": null,
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE static transparent full-body 2D fighting-game costume reference.\nPrimary request: Kait Diaz, Desert Armor variant from Gears 5, costume id kait_skin_03.\nReference image: the attached OFFICIAL production turnaround by Aryan Hanbeck / The Coalition shows the same Desert Kait in three views. Match this exact final model, not Winter Kait or generic armored Kait. Use the three views for identity and equipment; output exactly ONE woman in ONE pose.\nPreserve her athletic adult proportions, face, swept short black hair and red braided hair cord, tied hair at back, gold ear jewelry, large round dark-lensed metal-rimmed goggles over the eyes, mustard-tan patterned neck scarf with its small tails. Sleeveless outfit with bare shoulders and arms, geometric tattoo around her ANATOMICAL LEFT upper arm, no tattoo on the right arm. Silver/dark-gray chest armor with blue circular ring details, COG center emblem, small blue shoulder lights and the exact blue backpack plate with central vertical vent. Pale sand undershirt, broad utilitarian belt with brown pouches and metal buckle, fitted dusty brown trousers, a side holster on her ANATOMICAL RIGHT thigh, correct side pouches/straps, knee guards and knee-high dark brown boots with multiple metal-buckled straps. Brown fingerless gloves and narrow wrist wraps. Match all visible asymmetries, materials and equipment placements, do not swap left/right, invent badges or add clothing.\nPose: calm neutral fighting guard, knees slightly flexed, body mostly in side view with a small front three-quarter angle, facing screen RIGHT. Keep the character's tattoo on her LEFT arm even if partly obscured from this right-facing camera. Both hands empty and held apart from the torso, no firearm or attack.\nDetailed realistic Gears skin, fabric and worn metal, crisp hand-painted 2D sprite rendering with neutral light and readable silhouette.\nComposition: one complete figure from hair to boot soles, including both hands. Figure occupies only 75% of canvas height, with at least 10% clean transparent padding on every side.\nActual transparent alpha background, opaque character with antialiased edges. No floor, environment, shadows outside the silhouette, fog, halo, gradient, title, letters, watermark, UI, second subject, turnaround or sprite sheet. One static pose only.",
+  "prompt_sha256": "2ef968f05a4e3846c7ee4f8870783e514d2efc5360eaea9a410aa1c9ad29fb93",
+  "source_urls": [
+    "https://mediumrare.artstation.com/projects/OyVRz8"
+  ],
+  "sources": [
+    {
+      "page_url": "https://mediumrare.artstation.com/projects/OyVRz8",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/020/730/723/large/aryan-hanbeck-kait3.jpg?1568934636",
+      "source_type": "first_party_art_director_production_turnaround",
+      "scope": "Trois vues officielles en pied de Kait Désert Gears 5, Aryan Hanbeck / The Coalition, 19 septembre 2019 : lunettes rondes, foulard sable, bras nus avec tatouage gauche, bottes sanglées. Image entière inspectée avant l'unique tentative ; autres variantes du même portfolio exclues.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v12_costumes/kait_hanbeck_3.jpg",
+      "reference_sha256": "d3769b59bd766e946129fc99104fd2562e114a66a097f8e31d8aed9feb17cbe1",
+      "visually_inspected": true,
+      "accessed_date": "2026-11-27"
+    }
+  ],
+  "reference_images": [
+    "/workspace/scratch/3c791759fb15/research_v12_costumes/kait_hanbeck_3.jpg"
+  ],
+  "new_attempt_authorization": {
+    "user_request": "meme promtp et en paralele reassayer ce qui on ete refuser",
+    "source": "Nouvelle instruction utilisateur transmise par root pour la passe V15.",
+    "previous_no_retry_preference_explicitly_superseded": true,
+    "scope": "Une seule nouvelle tentative de ce sujet dans la passe V15 ; arrêt si nouveau refus.",
+    "prompt_identical_to_previous": true,
+    "previous_prompt_sha256": "2ef968f05a4e3846c7ee4f8870783e514d2efc5360eaea9a410aa1c9ad29fb93",
+    "character_name_preserved": true,
+    "no_moderation_bypass_or_alternate_engine": true
+  },
+  "previous_attempt": {
+    "record_path": "data/generation_v12/kait_skin_03_record.json",
+    "record_sha256": "fad5a0ae246bb6b9a849f4766cc8c8f387727eed4551b509d1cacca37a6b3342",
+    "baseline_commit": "4eedf19b7d50a66b2b209a1d76445d6078dd7403",
+    "status": "blocked_generator_refusal",
+    "refusal": {
+      "code": "moderation_blocked",
+      "stage": "output",
+      "categories": [
+        "other"
+      ],
+      "request_id": "7080c182-6cd5-47b3-bddf-9502e7778f2c",
+      "message": "Your request was rejected by the safety system.",
+      "attempts": 1,
+      "retried": false
+    },
+    "preserved_without_modification": true
+  },
+  "qa": {
+    "reference_visually_inspected": true,
+    "output_visually_inspected": false,
+    "observations": [
+      "Un seul nouvel appel effectué en V15, après demande utilisateur explicite de réessayer.",
+      "Prompt complet repris à l'identique ; noms des personnages, costumes et éditions conservés.",
+      "Références d'entrée inspectées avant l'appel. Les références Dom/Cole disparues ont été téléchargées à nouveau avec les mêmes empreintes.",
+      "Nouveau refus au stade sortie : aucun PNG ni image_url reçu ; aucun réessai supplémentaire, autre moteur ou reformulation.",
+      "Le refus et le journal de la génération précédente restent intacts ; la présente provenance est distincte."
+    ],
+    "remaining_checks": [
+      "Planche finale complète Desert Kait Gears 5 disponible ; refus indépendant de la complétude de cette référence. Aucun résultat visuel à comparer."
+    ]
+  },
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "pose": "static_side_three_quarter_facing_right",
+  "output": null,
+  "refusal": {
+    "http_status": 400,
+    "code": "moderation_blocked",
+    "stage": "output",
+    "categories": [
+      "other"
+    ],
+    "request_id": "0b3dcdef-6c0a-465c-b04d-49d03888e75b",
+    "message": "Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 0b3dcdef-6c0a-465c-b04d-49d03888e75b.",
+    "attempts_in_v15": 1,
+    "retries_after_current_refusal": 0,
+    "retried_after_current_refusal": false,
+    "raw_error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 0b3dcdef-6c0a-465c-b04d-49d03888e75b.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+  },
+  "is_active_reference": false
+}

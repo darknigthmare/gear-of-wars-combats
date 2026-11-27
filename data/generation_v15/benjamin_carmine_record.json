@@ -1,0 +1,131 @@
+{
+  "id": "benjamin_carmine",
+  "subject_id": "benjamin_carmine",
+  "character_id": "benjamin_carmine",
+  "name": "Benjamin Carmine",
+  "category": "character",
+  "source_game": "Gears of War 2",
+  "catalog_target_game": "Gears of War 2",
+  "variant": "Gears of War 2",
+  "variant_relation": "target_version_candidate",
+  "purpose": "reference_fullbody",
+  "pass_date": "2026-11-27",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "status": "blocked_generator_refusal",
+  "generation_status": "blocked_generator_refusal",
+  "generation_attempted": true,
+  "generation_attempt_count": 1,
+  "retry_count_this_pass": 0,
+  "has_image": false,
+  "asset_path": null,
+  "output": null,
+  "prompt": "Use case: stylized-concept. Create exactly ONE standalone full-body static character sprite of BENJAMIN CARMINE in his original GEARS OF WAR 2 COG uniform. The attached official 2008 BradyGames guide page is visual reference ONLY. Match the masked soldier labeled BENJAMIN CARMINE in the LOWER LEFT of the page; ignore Marcus at the top, all screenshots, all text and page layout. Preserve Benjamin's distinct closed angular blue-grey COG helmet with two separate luminous blue goggles and the flat angular respirator mask from that lower-left portrait, his COG chest armor with round pectoral plates, broad layered shoulder plates, dark fabric sleeves, armored forearms, dark utility belt and reinforced trousers, heavy COG knee guards and boots. Keep the original 2008 uniform, not the Gears 5 cosmetic versions and not Anthony or Clayton Carmine. He stands head-to-toe in a calm neutral ready stance, three-quarter side view facing right, both feet fully visible, both hands empty and separate. High-detail hand-painted realistic 2D UHD game sprite, authentic bulky Gears proportions, weathered grey-blue steel and dark cloth, small blue armor lights. Single figure occupying only 80% of canvas height with generous transparent padding. Truly transparent PNG alpha outside the silhouette, no floor, no shadow, no background, no extra figures, no props, no text, no logo. One pose only, no animation.",
+  "prompt_sha256": "8b5dff01187349ce318a1161f708e2036b8bd5b49f0d1a3e78383c76b715c72e",
+  "same_prompt_replay": true,
+  "prompt_changed": false,
+  "reference_images": [
+    "/workspace/scratch/f809e6610dc2/references_v15/guide_characters/benjamin_official_page35.png"
+  ],
+  "reference_inputs": [
+    {
+      "role": "visual_reference",
+      "local_path": "/workspace/scratch/f809e6610dc2/references_v15/guide_characters/benjamin_official_page35.png",
+      "page_url": "https://ptgmedia.pearsoncmg.com/images/9780744009644/samplepages/0964-4_gearsofwar2.pdf",
+      "sha256": "8fc44e8f76e0335dfc6d3683416c7edf98ef382dd5012e1e5ca0075510d05775",
+      "dimensions": [
+        1110,
+        1395
+      ],
+      "format": "PNG",
+      "visually_inspected": true
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ptgmedia.pearsoncmg.com/images/9780744009644/samplepages/0964-4_gearsofwar2.pdf",
+      "type": "official_strategy_guide_visual_reference",
+      "note": "Guide officiel BradyGames Gears of War 2 (2008), page imprimée 35 ; portrait Benjamin Carmine en bas à gauche fourni au générateur.",
+      "visual_reference_used": true,
+      "accessed_date": "2026-11-27",
+      "local_reference": "/workspace/scratch/f809e6610dc2/references_v15/guide_characters/benjamin_official_page35.png",
+      "reference_sha256": "8fc44e8f76e0335dfc6d3683416c7edf98ef382dd5012e1e5ca0075510d05775",
+      "reference_visually_inspected": true,
+      "page_url": "https://ptgmedia.pearsoncmg.com/images/9780744009644/samplepages/0964-4_gearsofwar2.pdf",
+      "source_type": "official_strategy_guide_visual_reference",
+      "printed_page": 35,
+      "pdf_page_index": 7,
+      "pdf_local_path": "/workspace/scratch/f809e6610dc2/references_v15/guide_characters/benjamin_official_guide.pdf",
+      "pdf_sha256": "38fcae5bdb60dc4956f50cfd9603a66ae056c8892d222b6acdcf04c4d6309a43",
+      "render_command": "pdftoppm -f 8 -l 8 -singlefile -r 120 -png",
+      "reference_render_note": "Page entière, sans recadrage ni retouche."
+    }
+  ],
+  "source_urls": [
+    "https://ptgmedia.pearsoncmg.com/images/9780744009644/samplepages/0964-4_gearsofwar2.pdf"
+  ],
+  "source_research": {
+    "date": "2026-11-27",
+    "scope": "Recherche primaire complémentaire ciblée avant un seul nouvel essai autorisé, non exhaustive.",
+    "urls_reviewed": [
+      "https://ptgmedia.pearsoncmg.com/images/9780744009644/samplepages/0964-4_gearsofwar2.pdf",
+      "https://waveofdoom.artstation.com/projects/Z5X4ww"
+    ],
+    "new_final_fullbody_reference_established": false,
+    "limitations": [
+      "Guide officiel BradyGames 2008, page imprimée 35 : portrait Benjamin en bas à gauche, cadré au torse.",
+      "Les jambes, genoux et chaussures du résultat restent extrapolés faute de modèle final complet retrouvé.",
+      "Les études personnelles de casque trouvées sur ArtStation ne sont pas des références de production et sont exclues."
+    ]
+  },
+  "retry_authorization": {
+    "user_request_verbatim": "meme promtp et en paralele reassayer ce qui on ete refuser",
+    "scope": "Un nouveau passage explicite pour les sujets précédemment refusés, même prompt ; arrêt après cet essai si nouveau refus.",
+    "previous_no_retry_preference_lifted": true,
+    "same_builtin_engine": true,
+    "no_identity_obfuscation": true,
+    "historical_records_preserved": true
+  },
+  "previous_attempt": {
+    "record": "data/generation_v9/benjamin_carmine_record.json",
+    "record_sha256": "b65e5746c470c60a0a7690a5840d0f767d27aaea03672ffff7ceea86787adeb2",
+    "status": "blocked",
+    "prompt_sha256": "8b5dff01187349ce318a1161f708e2036b8bd5b49f0d1a3e78383c76b715c72e",
+    "blocking_error": "moderation_blocked"
+  },
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "quality_state": "blocked_generator_refusal",
+  "qa": {
+    "reference_visually_inspected": true,
+    "output_visually_inspected": false,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "remaining_checks": [
+      "Guide officiel BradyGames 2008, page imprimée 35 : portrait Benjamin en bas à gauche, cadré au torse.",
+      "La référence ne documente pas les jambes, genoux et chaussures ; aucune sortie n’a été retournée lors de ce nouvel essai.",
+      "Les études personnelles de casque trouvées sur ArtStation ne sont pas des références de production et sont exclues."
+    ],
+    "source_full_body_game_model_verified": false
+  },
+  "notes": [
+    "Nouvel essai expressément autorisé par l’utilisateur après le refus historique.",
+    "Prompt historique repris littéralement, noms et édition conservés ; aucun autre moteur.",
+    "Un sujet fixe par PNG avec transparence demandée ; aucune animation.",
+    "Le seul nouvel appel V15 a été refusé à l’étape output (moderation_blocked, catégorie other). Aucun PNG retourné, aucune relance après ce refus et aucun changement de moteur ou de formulation."
+  ],
+  "blocking_error": {
+    "code": "moderation_blocked",
+    "stage": "output",
+    "categories": [
+      "other"
+    ],
+    "type": "image_generation_user_error",
+    "request_id": "3723a3c4-794b-48e1-96a1-a1edd225f469",
+    "message": "Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 3723a3c4-794b-48e1-96a1-a1edd225f469.",
+    "raw_tool_error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 3723a3c4-794b-48e1-96a1-a1edd225f469.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+  }
+}

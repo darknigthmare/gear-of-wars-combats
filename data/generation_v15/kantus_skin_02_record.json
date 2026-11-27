@@ -1,0 +1,128 @@
+{
+  "id": "kantus_skin_02",
+  "subject_id": "kantus_skin_02",
+  "costume_id": "kantus_skin_02",
+  "character_id": "kantus",
+  "name": "Kantus — Gears Tactics",
+  "category": "costume",
+  "source_game": "Gears Tactics (2020)",
+  "catalog_target_game": "Gears Tactics",
+  "variant": "Kantus — modèle final Gears Tactics publié par Ji Ruan",
+  "variant_relation": "target_version_candidate",
+  "purpose": "reference_fullbody",
+  "pass_date": "2026-11-27",
+  "status": "blocked_generator_refusal",
+  "generation_status": "blocked_generator_refusal",
+  "quality_state": "blocked",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "generation_attempted": true,
+  "generation_attempt_count_this_pass": 1,
+  "has_image": false,
+  "asset_path": null,
+  "original_output_path": null,
+  "canonical_fidelity_validated": false,
+  "canonical_fidelity": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "edition_unverified": false,
+  "animation": false,
+  "retry_authorization": {
+    "explicit": true,
+    "user_instruction": "meme promtp et en paralele reassayer ce qui on ete refuser",
+    "scope": "One new admissible built-in imagegen attempt for this target in V15; no loop after renewed refusal.",
+    "date": "2026-11-27",
+    "prompt_unchanged_from_previous_attempt": true
+  },
+  "historical_refusal_retained": true,
+  "previous_generation_records": [
+    {
+      "path": "data/generation_v12/kantus_skin_02_record.json",
+      "sha256": "d11c9d58ffdec3bb1b914f4d3b94c36f77b38cc0c242ddfa7ca70dbdf9881660",
+      "status": "blocked_generator_refusal",
+      "refusal": {
+        "code": "moderation_blocked",
+        "stage": "output",
+        "categories": [
+          "other"
+        ],
+        "request_id": "0d2ecbc3-1837-4f10-bcd5-429ab3509a74",
+        "message": "Your request was rejected by the safety system.",
+        "attempts": 1,
+        "retried": false,
+        "raw_error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 0d2ecbc3-1837-4f10-bcd5-429ab3509a74.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+      }
+    }
+  ],
+  "prompt": "Use the three attached production-model reference sheets as the authoritative visual guide for a single static full-body Kantus from GEARS TACTICS (2020), not a generic Kantus or a costume from another Gears edition. These are Ji Ruan's published Gears Tactics final character renders. Create one clean isolated game-asset reference render, with actual transparent alpha background. Exactly one Kantus, one pose, no duplicates or turnaround grid. Full silhouette from the tall crested helmet to every clawed toe and robe hem visible, generous clear padding around all extremities. Tall portrait composition. Standing calm battle-ready idle pose, body and face oriented toward screen RIGHT in a three-quarter side view, feet grounded, both arms separated enough to read the silhouette, hands empty and relaxed. Preserve the Tactics model's tall slender-but-muscular anatomy, elongated crested burgundy/brown helmet with tarnished brass trim and small central gold emblem, pale gray-purple craggy skin, orange-red eyes, exposed interlocking uneven ivory teeth, bony knobbled shoulder anatomy, two metal chest rings and buckles, black-gray wrappings on forearms, narrow waist, layered dark leathery robe and hanging panels with gold-brass borders, worn distressed hem, digitigrade-looking legs and large dark clawed feet. Use the front, three-quarter and side reference views to preserve costume construction and proportions; do not invent extra armor, weapons, glowing effects, spikes, insignia, or new color schemes. Render faithful dark realistic materials in clear neutral studio lighting with readable local detail, not theatrical shadows. No scene, floor, contact shadow outside the subject, text, watermark, logo, border, UI, labels, character name, card, or animation. The deliverable is a high-detail still candidate for manual fidelity review, not a claim of exact asset reproduction.",
+  "prompt_sha256": "8173a896ab2b3feeea23a843a66954bbb7c0172e2e1721864d0c37f348e970a2",
+  "reference_images": [
+    "/workspace/scratch/3c791759fb15/research_v12/kantus_tactics_26092947.jpg",
+    "/workspace/scratch/3c791759fb15/research_v12/kantus_tactics_26092942.jpg",
+    "/workspace/scratch/3c791759fb15/research_v12/kantus_tactics_26093012.jpg"
+  ],
+  "sources": [
+    {
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/026/092/947/large/ji-ruan-kantus-c-a.jpg?1587850582",
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/kantus_tactics_26092947.jpg",
+      "reference_sha256": "08d9b931caed01395db988205cd09a7391dcbcafe50b5d558f29c4e784dde49d",
+      "scope": "Rendu couleur du modèle complet : face et deux vues trois-quarts ; tenue, proportions, griffes et ourlet.",
+      "page_url": "https://darkmummy.artstation.com/projects/xza2QW",
+      "source_type": "production_artist_final_model",
+      "source_author": "Ji Ruan",
+      "visual_reference_used": true,
+      "visually_inspected": true
+    },
+    {
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/026/092/942/large/ji-ruan-kantus-g-a.jpg?1587850556",
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/kantus_tactics_26092942.jpg",
+      "reference_sha256": "16bb1fe6a00ab737d8ce23da82bd146f2e2c1245d28e685ada0689beface3f1c",
+      "scope": "Rendu couleur de profil droit et gauche complet : casque, dos et robe.",
+      "page_url": "https://darkmummy.artstation.com/projects/xza2QW",
+      "source_type": "production_artist_final_model",
+      "source_author": "Ji Ruan",
+      "visual_reference_used": true,
+      "visually_inspected": true
+    },
+    {
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/026/093/012/large/ji-ruan-kantus-b-a.jpg?1587850844",
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/kantus_tactics_26093012.jpg",
+      "reference_sha256": "226879b9d5b1ff63955ed8b770d5837ee451f5b22455d7034d51462ce95e9367",
+      "scope": "Gros plans couleur du visage et du casque.",
+      "page_url": "https://darkmummy.artstation.com/projects/xza2QW",
+      "source_type": "production_artist_final_model",
+      "source_author": "Ji Ruan",
+      "visual_reference_used": true,
+      "visually_inspected": true
+    }
+  ],
+  "refusal": {
+    "code": "moderation_blocked",
+    "http_status": 400,
+    "stage": "output",
+    "categories": [
+      "other"
+    ],
+    "request_id": "b5967a87-f3d0-4be7-81df-54e430c63cd7",
+    "message": "Your request was rejected by the safety system.",
+    "attempts_this_pass": 1,
+    "retried_after_this_refusal": false,
+    "raw_error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID b5967a87-f3d0-4be7-81df-54e430c63cd7.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+  },
+  "qa": {
+    "reference_visually_inspected": true,
+    "output_visually_inspected": false,
+    "visually_inspected": false,
+    "transparent_background": null,
+    "full_body_in_frame": null,
+    "observations": [
+      "All three Ji Ruan final Tactics reference sheets were inspected.",
+      "The exact V12 prompt was submitted once under the new explicit V15 retry authorization.",
+      "The generator refused output again; no PNG produced, no subsequent retry or alternate engine used."
+    ]
+  },
+  "reason": "Renewed generator refusal on the single explicitly reauthorized V15 attempt.",
+  "historical_prompt_sha256": "8173a896ab2b3feeea23a843a66954bbb7c0172e2e1721864d0c37f348e970a2",
+  "prompt_identical_to_prior": true,
+  "prompt_change_reason": "Historical prompt reused byte-for-byte; no wording change."
+}

@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "document_type": "remaining_boss_projectiles_reference_review",
+  "generation_version": "V15",
+  "review_date": "2026-11-27",
+  "baseline_commit": "4eedf19b7d50a66b2b209a1d76445d6078dd7403",
+  "fidelity_target": "1:1",
+  "scope": "Clôture des quatre recherches de références encore incomplètes, distinctes des six nouvelles tentatives autorisées pour les refus antérieurs.",
+  "methodology": [
+    "Conclusions fondées sur les références déjà examinées et les journaux V13 conservés, avec distinction entre concept, modèle final, capture en jeu et simple contexte textuel.",
+    "Aucune nouvelle recherche large et aucune génération supplémentaire pour cette clôture.",
+    "Les empreintes des quatre journaux historiques ont été recalculées pour identifier exactement les preuves de départ. Les fichiers historiques restent inchangés.",
+    "Aucune fidélité canonique ni disponibilité de production n’est certifiée sur la base de preuves partielles."
+  ],
+  "summary": {
+    "subjects_reviewed": 4,
+    "new_complete_final_references_verified": 0,
+    "new_generations": 0,
+    "new_refusals": 0,
+    "remaining_reference_research_pending": 4,
+    "catalogue_or_manifest_changes_in_this_report": 0
+  },
+  "subjects": [
+    {
+      "subject_id": "boss_hydra_skorge",
+      "category": "boss",
+      "source_game": "Gears of War 2",
+      "status": "reference_research_pending",
+      "decision": "keep_pending_until_complete_final_reference",
+      "generation_attempted": false,
+      "new_complete_final_reference_found": false,
+      "new_generator_refusal": false,
+      "canonical_fidelity": false,
+      "production_ready": false,
+      "previous_record_path": "data/generation_v13/boss_hydra_skorge_record.json",
+      "previous_record_sha256": "34e6310798d48b6680e18326ddfe9dce1cdaefbd86abef73ba9afe159d703f0f",
+      "label": "Hydra de Skorge — Gears of War 2",
+      "confirmed": [
+        "Le concept Uber Reaver de James Hawkins documente l’origine du design.",
+        "La présentation Epic Games GDC 2009 montre des éléments du modèle de production Gears of War 2, sous forme éclatée et endommagée."
+      ],
+      "missing_evidence": [
+        "Vue en couleurs du modèle final intact, avec le corps entier et tous les appendices.",
+        "Disposition finale des équipements, tourelles, attaches et emplacement de Skorge sur sa monture.",
+        "Vues complémentaires permettant de distinguer les éléments masqués sans reprendre le concept comme modèle final."
+      ],
+      "decision_reason": "Le concept et la planche technique endommagée ne suffisent pas à reconstruire fidèlement la monture complète de Gears of War 2. Aucun nouveau rendu final intégral vérifié.",
+      "access_limits": [
+        "La page communautaire Hydra repérée antérieurement est restée inaccessible à l’ouverture ; son éventuelle illustration n’a pas été inspectée.",
+        "Le guide Prima apporte le contexte de la poursuite, sans turnaround intégral intact établi dans les preuves examinées."
+      ],
+      "edition_exclusions": [
+        "Hydra de Gears Tactics",
+        "Concept Uber Reaver considéré à tort comme rendu final intégral"
+      ],
+      "best_available_evidence": "Présentation Epic Games GDC 2009, page 12 (index 11), à croiser avec le concept de James Hawkins ; insuffisant pour une génération fidèle du modèle intact.",
+      "next_reference_required": "Capture ou rendu de production attribué à Gears of War 2 montrant intégralement la monture intacte, ses équipements et ses appendices.",
+      "sources": [
+        {
+          "page_url": "https://hawkprey.artstation.com/projects/Zex3m",
+          "source_type": "production_artist_concept",
+          "scope": "Concept GOW Uber Reaver par James Hawkins. Une origine de design, sans preuve suffisante des détails finaux de la monture Gears 2.",
+          "visual_reference_used": false,
+          "image_url": "https://cdnb.artstation.com/p/assets/images/images/000/537/945/large/james-hawkins-locust-uberreaver.jpg?1443926973",
+          "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/uber_reaver_concept.jpg",
+          "reference_sha256": "a43ba69bffb1cb29677fd614ac15fbbb55d5dc9e6197efb6bac62fe4e71ae7d9",
+          "visually_inspected": true
+        },
+        {
+          "page_url": "https://de45xmedrsdbp.cloudfront.net/Resources/files/GDC09_Smedberg_RenderingTechniques-1415210295.pdf",
+          "source_type": "first_party_technical_presentation",
+          "scope": "Rendering Techniques in Gears of War 2, Niklas Smedberg et Daniel Wright, Epic Games, GDC 2009, page 12 (index 11). Planche de modèle éclaté endommagé Uber Reaver. Crédit modèle Kevin Lanning ; texture Chris Perna et Mike Buck. Pas de vue intacte complète ni cavalier Skorge.",
+          "visual_reference_used": false,
+          "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/gdc09_rendering_gears2.pdf",
+          "reference_sha256": "059c6990220f1764206aa1ff21aaabe4a70c625b1b3cc3d31aec1aa167250fd6",
+          "visually_inspected": true
+        },
+        {
+          "page_url": "https://gearsofwar.fandom.com/es/wiki/Hydra",
+          "source_type": "community_index_unavailable",
+          "scope": "L’index de recherche annonce un modèle du Hydra G2 ; la page reste inaccessible à l’ouverture (restricted URL). Image non récupérée et non inspectée ; aucune preuve visuelle ajoutée.",
+          "visual_reference_used": false,
+          "visually_inspected": false
+        },
+        {
+          "page_url": "https://models.spriters-resource.com/xbox_360/gearsofwar2/",
+          "source_type": "community_model_catalog",
+          "scope": "Catalogue public consulté : huit ressources, dont Boomer et Riftworm pour les ennemis ; aucun Hydra dans ce catalogue.",
+          "visual_reference_used": false
+        },
+        {
+          "page_url": "https://primagames.com/eguides/gears-war-2-eguide/act-v-aftermath/chapter-1-escape",
+          "source_type": "licensed_strategy_guide",
+          "scope": "Contexte de poursuite et armement de la rencontre ; ne documente pas un turnaround intégral intact.",
+          "visual_reference_used": false
+        }
+      ],
+      "source_review_note": "Les sources et empreintes déjà consignées sont conservées. Une source textuelle, un concept, une illustration inaccessible ou une vue partielle ne sont pas promus en référence finale complète."
+    },
+    {
+      "subject_id": "boss_wakaatu",
+      "category": "boss",
+      "source_game": "Gears 5: Hivebusters",
+      "status": "reference_research_pending",
+      "decision": "keep_pending_until_complete_final_reference",
+      "generation_attempted": false,
+      "new_complete_final_reference_found": false,
+      "new_generator_refusal": false,
+      "canonical_fidelity": false,
+      "production_ready": false,
+      "previous_record_path": "data/generation_v13/boss_wakaatu_record.json",
+      "previous_record_sha256": "7ee7d10b313030f9fe234df7094503ea91b489a95bdf4ea1725adbc8dd715d8f",
+      "label": "Wakaatu — Gears 5: Hivebusters",
+      "confirmed": [
+        "Le concept multi-angle de Tyler Bradley montre la structure générale conçue pour Wakaatu.",
+        "La capture de jeu examinée documente une partie de la tête, un plumage sombre et un œil jaune."
+      ],
+      "missing_evidence": [
+        "Palette et matériaux de la totalité du modèle final en jeu.",
+        "Corps entier, ailes ou appendices, pattes et extrémités visibles sans coupe ni occultation.",
+        "Correspondance vérifiée entre le concept multi-angle et la version finale de Hivebusters."
+      ],
+      "decision_reason": "Le concept gris et la capture limitée à la tête ne documentent pas ensemble un modèle final complet en couleurs. Les références de décors ne complètent pas l’anatomie.",
+      "access_limits": [
+        "La capture de jeu examinée comporte du flou de mouvement et de l’interface.",
+        "Les pages d’annonce officielles confirment le contexte Hivebusters, mais ne constituent pas des vues anatomiques complètes."
+      ],
+      "edition_exclusions": [
+        "Projets ArtStation de décors Ritual ou Path utilisés comme preuve du modèle de la créature",
+        "Illustration cinématique de l’équipe Hivebusters utilisée comme image de Wakaatu"
+      ],
+      "best_available_evidence": "Concept de Tyler Bradley et capture de tête publiée par NoobFeed ; ils restent complémentaires mais incomplets.",
+      "next_reference_required": "Rendu final en couleurs de la créature entière, ou ensemble de captures de Hivebusters documentant toutes les extrémités et la palette du corps.",
+      "sources": [
+        {
+          "page_url": "https://tylerthebradley.artstation.com/projects/Krb5LB",
+          "source_type": "production_artist_concept",
+          "scope": "Concept gris multi-angle de Tyler Bradley. Géométrie de concept visible, pas un modèle final complet en couleurs.",
+          "visual_reference_used": false,
+          "image_url": "https://cdna.artstation.com/p/assets/images/images/038/686/682/large/tyler-bradley-predator-finalrender.jpg?1623778406",
+          "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/wakaatu_final_concept.jpg",
+          "reference_sha256": "e738a3dae8a506274ac15a81172d0738fb1e74b89c95bc32117094d9d585b5cc",
+          "visually_inspected": true
+        },
+        {
+          "page_url": "https://www.noobfeed.com/articles/gears-5-hivebusters-how-to-defeat-wakaatu-insane",
+          "source_type": "secondary_publisher_in_game_screenshot",
+          "scope": "Capture de tête au sol : plumage sombre et œil jaune visibles ; corps absent, flou de mouvement et interface. Ne résout pas la palette du corps entier.",
+          "visual_reference_used": false,
+          "image_url": "https://i.imgur.com/W5aEJGO.png",
+          "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/wakaatu_gameplay_head.png",
+          "reference_sha256": "0abb76b9ef4dcb224ff2029f28699c13e543086fdafd417ce735110f4bc1ea51",
+          "visually_inspected": true
+        },
+        {
+          "page_url": "https://www.gearsofwar.com/en-us/news/hivebusters/",
+          "source_type": "official_game_announcement",
+          "scope": "Atteste le contexte Hivebusters et Galangi ; ne donne pas un turnaround de modèle.",
+          "visual_reference_used": false
+        },
+        {
+          "page_url": "https://www.artstation.com/artwork/kD55Jn",
+          "source_type": "production_artist_environment_excluded",
+          "scope": "Projet « Gears 5 — Ritual » de Boyd McKenzie. Source sur le temple/arène, pas un modèle complet de Wakaatu : exclu pour l’anatomie de la créature.",
+          "visual_reference_used": false
+        },
+        {
+          "page_url": "https://store.steampowered.com/news/posts/?appids=1097840&enddate=1612818534&feed=steam_community_announcements",
+          "source_type": "official_game_announcement",
+          "scope": "Annonce Hivebusters et présence du Wakaatu dans les îles Galangi ; preuve de contexte uniquement.",
+          "visual_reference_used": false
+        }
+      ],
+      "source_review_note": "Les sources et empreintes déjà consignées sont conservées. Une source textuelle, un concept, une illustration inaccessible ou une vue partielle ne sont pas promus en référence finale complète."
+    },
+    {
+      "subject_id": "boss_sire_g5",
+      "category": "boss",
+      "source_game": "Gears 5",
+      "status": "reference_research_pending",
+      "decision": "keep_pending_until_complete_final_reference",
+      "generation_attempted": false,
+      "new_complete_final_reference_found": false,
+      "new_generator_refusal": false,
+      "canonical_fidelity": false,
+      "production_ready": false,
+      "previous_record_path": "data/generation_v13/boss_sire_g5_record.json",
+      "previous_record_sha256": "bf3a604d21dc5f089897da1108e41ed70dcf8cc7e9283a709268c6162f270447",
+      "label": "Sire — Gears 5",
+      "confirmed": [
+        "Les annonces officielles et le succès Sire, Interrupted confirment le sujet dans Gears 5.",
+        "La capture Horde publiée par Shacknews documente la tête, une partie du relief dorsal, les bras et les contentions du Sire."
+      ],
+      "missing_evidence": [
+        "Vue complète du modèle final Gears 5, pieds et mains compris, sans soldat superposé.",
+        "Dos et proportions des membres suffisamment visibles pour éviter de compléter l’anatomie par supposition.",
+        "Source primaire du modèle final ou captures de jeu complètes permettant de vérifier les détails du port communautaire."
+      ],
+      "decision_reason": "La capture de jeu est partiellement occultée et coupée. Le port communautaire est incomplet dans son illustration et son intégrité vis-à-vis du modèle Gears 5 n’a pas été vérifiée.",
+      "access_limits": [
+        "L’illustration Xbox Live du succès a renvoyé HTTP 503 lors de la recherche antérieure ; elle n’a pas été inspectée.",
+        "L’illustration du port communautaire coupe les bras et le bas du corps ; le rig a été modifié selon les crédits."
+      ],
+      "edition_exclusions": [
+        "Sire Gears of War 2 substitué au modèle Gears 5",
+        "Port communautaire traité comme extraction originale non modifiée sans vérification"
+      ],
+      "best_available_evidence": "Capture de gameplay Gears 5 publiée par Shacknews ; source de détails partiels, insuffisante comme référence complète.",
+      "next_reference_required": "Rendu de production attribué à Gears 5 ou captures complètes du Sire seul, de face et de profil ou de dos.",
+      "sources": [
+        {
+          "page_url": "https://store.steampowered.com/news/posts/?appids=1097840&enddate=1615235906&feed=steam_community_announcements",
+          "source_type": "official_game_announcement_on_steam",
+          "scope": "Annonce This week in Gears - Operation 6 ; présence des Sires dans Escape from Kadar. Consultation textuelle, ne fournit pas une vue complète isolée du Sire G5.",
+          "visual_reference_used": false
+        },
+        {
+          "page_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3643143091",
+          "image_url": "https://images.steamusercontent.com/ugc/13652027396361710232/CBD2163839B768670A58FA34E9E534D47AC8376D/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true",
+          "source_type": "community_port_claiming_gears5_model",
+          "scope": "EnergyFlamer, COMM: Locust Sire [Boomer], modèle annoncé comme provenant de Gears of War 5, rigging/édition ErichGrooms1. Illustration inspectée mais coupée aux bras et au bas du tronc ; jambes/pieds et anatomie totale non documentés, modification du rig non vérifiée.",
+          "visual_reference_used": false,
+          "reference_local_path": "/workspace/scratch/207fbd1207b7/research_gears_v11/bosses/sire_steam_image.jpg",
+          "reference_sha256": "d6a6213873322e66686c5e65b443d715f08aeec42915598494a64818aea73793"
+        },
+        {
+          "page_url": "https://news.xbox.com/en-us/2019/08/09/gears-5-has-gone-gold-celebrate-with-our-full-achievement-list/",
+          "source_type": "official_xbox_game_announcement",
+          "scope": "Succès Sire, Interrupted confirme le Sire et la capture d’un coéquipier dans Gears 5. Pas une preuve d’anatomie complète. Le téléchargement de l’illustration Xbox Live repérée ailleurs a échoué (HTTP 503).",
+          "visual_reference_used": false
+        },
+        {
+          "page_url": "https://www.shacknews.com/article/113815/gears-5-horde-mode-guide-start-making-waves",
+          "image_url": "https://d1lss44hh2trtw.cloudfront.net/assets/editorial/2019/09/gears-5-horde-mode-guide-sires.jpg",
+          "source_type": "secondary_publisher_in_game_screenshot",
+          "scope": "Capture Gears 5, Horde vague 18 : Sire en train de capturer un soldat. Tête, relief dorsal, bras et contentions visibles ; visage incliné et partiellement masqué, autre personnage superposé, bas d’un pied coupé et dos non intégral.",
+          "reference_local_path": "/workspace/scratch/3c791759fb15/research_v13_creatures/sire_g5_shacknews.jpg",
+          "reference_sha256": "99c0314eb5bfb8b407dd4e20ba448fb668dccede73fd168bbaface7fe1f3028d",
+          "visually_inspected": true,
+          "visual_reference_used": false
+        },
+        {
+          "page_url": "https://gamerdvr.com/games/gears-5/achievements/20",
+          "source_type": "achievement_index_official_image_unavailable",
+          "scope": "Image du succès Sire, Interrupted localisée sur images-eds.xboxlive.com ; récupération HTTP 503 dans cette passe. Aucun fichier inspecté ; non utilisée comme preuve complète.",
+          "visually_inspected": false,
+          "visual_reference_used": false
+        }
+      ],
+      "source_review_note": "Les sources et empreintes déjà consignées sont conservées. Une source textuelle, un concept, une illustration inaccessible ou une vue partielle ne sont pas promus en référence finale complète."
+    },
+    {
+      "subject_id": "projectile_boomshot_shell_g4",
+      "category": "projectile",
+      "source_game": "Gears of War 4",
+      "status": "reference_research_pending",
+      "decision": "keep_pending_until_complete_final_reference",
+      "generation_attempted": false,
+      "new_complete_final_reference_found": false,
+      "new_generator_refusal": false,
+      "canonical_fidelity": false,
+      "production_ready": false,
+      "previous_record_path": "data/generation_v13/projectile_boomshot_shell_g4_record.json",
+      "previous_record_sha256": "e3462d213974b8fc3b3e65c57de5d30c37fa1b6307c6271f582b6fedee4c5620",
+      "label": "Obus du Boomshot — Gears of War 4",
+      "confirmed": [
+        "Les guides Prima de Gears of War 4 identifient le Boomshot et son projectile.",
+        "Une vidéo de rechargements Gears of War 4 a été indexée avec une séquence Boomshot annoncée à 06:26."
+      ],
+      "missing_evidence": [
+        "Vue extérieure du projectile complet isolé dans son édition Gears of War 4.",
+        "Forme de la tête, du corps et de la base suffisamment visible pour identifier la munition exacte.",
+        "Distinction visuelle vérifiée entre la munition chargée, un élément éjecté et les effets du tir ou de l’impact."
+      ],
+      "decision_reason": "Les preuves examinées identifient l’arme et le contexte Gears of War 4, mais aucune géométrie complète et isolée de la munition n’a été vérifiée.",
+      "access_limits": [
+        "La vidéo de rechargements n’a pas été récupérée ni inspectée ; son horodatage ne constitue pas une preuve visuelle de la forme de l’obus.",
+        "La représentation d’un lanceur complet ne prouve pas la géométrie du projectile isolé."
+      ],
+      "edition_exclusions": [
+        "Boomshot de Gears Tactics utilisé comme preuve de l’édition Gears of War 4",
+        "Projectile générique ou forme déduite uniquement du texte des guides"
+      ],
+      "best_available_evidence": "Guides Prima Gears of War 4 pour l’attribution d’édition et le contexte ; aucune référence géométrique complète utilisable.",
+      "next_reference_required": "Vue rapprochée issue de Gears of War 4 ou rendu de production de la munition entière, permettant de voir sa silhouette et ses extrémités.",
+      "sources": [
+        {
+          "page_url": "https://primagames.com/eguides/gears-of-war-4-eguide/campaign-arsenal/primary-weapons",
+          "source_type": "licensed_strategy_guide",
+          "scope": "Description du fonctionnement et du projectile de Boomshot G4. Aucun gros plan isolé du modèle de munition n’a été identifié dans cette recherche.",
+          "visual_reference_used": false
+        },
+        {
+          "page_url": "https://primagames.com/eguides/gears-of-war-4-eguide/multiplayer/multiplayer-arsenal/explosive-weapons",
+          "source_type": "licensed_strategy_guide",
+          "scope": "Guide Boomshot G4, trajectoire et impact; ne valide pas la forme exacte d’un obus isolé.",
+          "visual_reference_used": false
+        },
+        {
+          "page_url": "https://www.gearsofwar.com/en-us/game-guide/power-weapons/",
+          "source_type": "official_game_guide_other_edition",
+          "scope": "Page officielle de power weapons décrivant des unités Tactics et son Boomshot; non utilisée comme preuve d’édition G4.",
+          "visual_reference_used": false
+        },
+        {
+          "page_url": "https://www.youtube.com/watch?v=vG6IzGG2COI",
+          "source_type": "community_gameplay_video_index_only",
+          "scope": "Vidéo « Gears of War 4 — All Weapons Reload Animations » repérée, séquence Boomshot annoncée à 06:26. Aucun extrait vidéo récupéré ou inspecté ; pas de preuve de géométrie de l’obus.",
+          "visually_inspected": false,
+          "visual_reference_used": false
+        }
+      ],
+      "source_review_note": "Les sources et empreintes déjà consignées sont conservées. Une source textuelle, un concept, une illustration inaccessible ou une vue partielle ne sont pas promus en référence finale complète."
+    }
+  ]
+}

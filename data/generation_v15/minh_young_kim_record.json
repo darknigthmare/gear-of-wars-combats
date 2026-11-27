@@ -1,0 +1,207 @@
+{
+  "id": "minh_young_kim",
+  "subject_id": "minh_young_kim",
+  "character_id": "minh_young_kim",
+  "name": "Minh Young Kim",
+  "category": "character",
+  "source_game": "Gears of War 3: RAAM's Shadow",
+  "catalog_target_game": "Gears of War 3: RAAM's Shadow",
+  "variant": "Minh Young Kim — RAAM's Shadow (2011)",
+  "variant_relation": "target_version_candidate",
+  "purpose": "reference_fullbody",
+  "pass_date": "2026-11-27",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "status": "generated_reference_pending_validation",
+  "generation_status": "generated_reference_pending_validation",
+  "generation_attempted": true,
+  "generation_attempt_count": 1,
+  "retry_count_this_pass": 0,
+  "has_image": true,
+  "asset_path": "assets/characters_v15/minh_young_kim.png",
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 1701093,
+    "sha256": "9f108c867dac76bb017a25bb20fefaa817e39f60c3471007e8410f7d13cb58ec",
+    "git_blob_sha": "3dd31cbac340c9bdf5a671340286580a67a03d17",
+    "has_real_alpha": true,
+    "native_copy_verified": true,
+    "returned_data_url_bytes_preserved": true,
+    "pixel_modifications": false,
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.6936505635579427,
+    "low_alpha_1_to_15_pixels": 14873,
+    "alpha_nonzero_bbox": [
+      0,
+      65,
+      998,
+      1508
+    ],
+    "subject_bbox_alpha_ge_128": [
+      224,
+      106,
+      770,
+      1454
+    ],
+    "subject_margins_ltrb_px": [
+      224,
+      106,
+      254,
+      82
+    ],
+    "useful_bbox_alpha_gt_8": [
+      223,
+      105,
+      770,
+      1455
+    ],
+    "useful_margins_ltrb_px": [
+      223,
+      105,
+      254,
+      81
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "edge_band_width_px": 8,
+    "edge_alpha_max": 1
+  },
+  "prompt": "Use case: stylized-concept.\nAsset type: one static full-body transparent character candidate for Gear of wars combats.\nSubject: Lieutenant Minh Young Kim specifically as he appears in Gears of War 3: RAAM's Shadow (2011). Input image is a scene capture from RAAM's Shadow: Kim is the bald armored man at the center-right, gesturing at the civilian. Recreate ONLY Kim, not the civilian or Barrick behind him.\nReference constraints: preserve Kim's distinctive clean-shaven bald East Asian face, thick dark eyebrows, square jaw, original rounded blue COG armor, two large circular black breast plates with fine metal rims, central dark COG insignia, scuffed cyan-blue borders and rounded pauldrons, brown shoulder straps and buckles, dark full sleeves and armored gloves. Keep the double belt structure and circular lower belt buckle with small metal panels shown in the capture. Do not substitute a Gears 5/Ultimate Edition remastered face or altered armor, and no helmet. The source does not show lower legs; continue his standard dark original-era COG field trousers, restrained knee/shin armor and broad combat boots in matching materials, without adding new emblems or unusual futuristic shapes.\nComposition: exactly ONE subject, neutral standing full body seen in front three-quarter view facing screen RIGHT; face/nose and both boot toes point clearly right. Empty hands, relaxed at sides, no gesture and no weapon, no combat action. Whole head, hands and complete soles must fit comfortably. Subject occupies 75% of total canvas height only; at least 10% genuine transparent space at all four sides, especially above the head and beneath both feet.\nStyle: detailed realistic Gears game-character render, heavy grounded proportions and worn blue steel, dark fabric, neutral readable illumination, no stylization into a toy.\nBackdrop: actual transparent alpha PNG. No scene, no floor or ground shadow, no background gradient, no halo, no text, no HUD, no additional character, no animation or multiple poses.",
+  "prompt_sha256": "e81bedf92c504237958a7cb001903db5dffe563c4221eafff4cbd3784998df3c",
+  "same_prompt_replay": true,
+  "prompt_changed": false,
+  "reference_images": [
+    "/workspace/scratch/f809e6610dc2/references_v15/guide_characters/kim_raams_shadow.jpg"
+  ],
+  "reference_inputs": [
+    {
+      "role": "visual_reference",
+      "local_path": "/workspace/scratch/f809e6610dc2/references_v15/guide_characters/kim_raams_shadow.jpg",
+      "page_url": "https://gearsofwar.fandom.com/wiki/Minh_Young_Kim",
+      "sha256": "f2df854254fad2b1865f750c8ebb07fe16c15d19c4a771cd24bf2915ca2845a7",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "format": "WEBP",
+      "visually_inspected": true
+    }
+  ],
+  "sources": [
+    {
+      "page_url": "https://gearsofwar.fandom.com/wiki/Minh_Young_Kim",
+      "image_url": "https://vignette.wikia.nocookie.net/gearsofwar/images/7/74/RS_Kim.jpg/revision/latest",
+      "source_type": "secondary_game_screenshot_rehosted",
+      "scope": "Média public RS_Kim.jpg téléchargé et inspecté : Kim au premier plan d'une scène RAAM's Shadow, avec Barrick derrière. Visage, torse et ceinture visibles, jambes non visibles. Page Fandom non lisible robots.",
+      "visual_reference_used": true,
+      "reference_sha256": "f2df854254fad2b1865f750c8ebb07fe16c15d19c4a771cd24bf2915ca2845a7",
+      "historical_local_reference": "/workspace/scratch/207fbd1207b7/research_gears/v10/kim_raams_shadow_fandom.jpg",
+      "accessed_date": "2026-11-27",
+      "local_reference": "/workspace/scratch/f809e6610dc2/references_v15/guide_characters/kim_raams_shadow.jpg",
+      "reference_visually_inspected": true
+    },
+    {
+      "page_url": "https://jeuvideo.afjv.com/news/4181_gears_of_war_3_raam_s_shadow.htm",
+      "source_type": "publisher_press_release_republished",
+      "scope": "Communiqué Microsoft/Epic 2011 confirmant la présence de Kim dans RAAM's Shadow. Illustration du communiqué est RAAM, exclue de la génération.",
+      "visual_reference_used": false,
+      "accessed_date": "2026-11-27"
+    }
+  ],
+  "source_urls": [
+    "https://gearsofwar.fandom.com/wiki/Minh_Young_Kim",
+    "https://jeuvideo.afjv.com/news/4181_gears_of_war_3_raam_s_shadow.htm"
+  ],
+  "source_research": {
+    "date": "2026-11-27",
+    "scope": "Recherche primaire complémentaire ciblée avant un seul nouvel essai autorisé, non exhaustive.",
+    "urls_reviewed": [
+      "https://jeuvideo.afjv.com/news/4181_gears_of_war_3_raam_s_shadow.htm",
+      "https://store.necaonline.com/blogs/news/174257351-endless-war"
+    ],
+    "new_final_fullbody_reference_established": false,
+    "limitations": [
+      "Capture exacte de RAAM’s Shadow réhébergée ; visage, torse et ceintures visibles, jambes hors champ.",
+      "Le communiqué Microsoft/Epic réédité par l’AFJV confirme Kim dans le DLC, sans vue finale complète supplémentaire.",
+      "Les figurines Kim du premier Gears et les versions remasterisées ne sont pas substituées au DLC."
+    ]
+  },
+  "retry_authorization": {
+    "user_request_verbatim": "meme promtp et en paralele reassayer ce qui on ete refuser",
+    "scope": "Un nouveau passage explicite pour les sujets précédemment refusés, même prompt ; arrêt après cet essai si nouveau refus.",
+    "previous_no_retry_preference_lifted": true,
+    "same_builtin_engine": true,
+    "no_identity_obfuscation": true,
+    "historical_records_preserved": true
+  },
+  "previous_attempt": {
+    "record": "data/generation_v10/minh_young_kim_record.json",
+    "record_sha256": "68a0fb1b76146260c8a7e50505a9c7fb65400fbe1a1e5957113b365521be201d",
+    "status": "blocked",
+    "prompt_sha256": "e81bedf92c504237958a7cb001903db5dffe563c4221eafff4cbd3784998df3c",
+    "blocking_error": {
+      "code": "moderation_blocked",
+      "stage": "output",
+      "categories": [
+        "other"
+      ],
+      "request_id": "d5288765-4d14-4473-ba4f-9760bab49f2c",
+      "message": "Your request was rejected by the safety system."
+    }
+  },
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "quality_state": "candidate",
+  "qa": {
+    "reference_visually_inspected": true,
+    "output_visually_inspected": true,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "remaining_checks": [
+      "Capture exacte de RAAM’s Shadow réhébergée ; visage, torse et ceintures visibles, jambes hors champ.",
+      "Le communiqué Microsoft/Epic réédité par l’AFJV confirme Kim dans le DLC, sans vue finale complète supplémentaire.",
+      "Les figurines Kim du premier Gears et les versions remasterisées ne sont pas substituées au DLC.",
+      "La référence de RAAM’s Shadow ne montre ni les genoux ni les pieds. Le pantalon, les poches, les genouillères et les bottes sont extrapolés et restent à vérifier sur le modèle final du DLC.",
+      "Le visage, l’insigne COG, le dessin des sangles, l’usure et les boucles sont des reconstructions génératives, sans certification 1:1.",
+      "Tête et chaussures entières. Marges haut/bas de 106/82 px au seuil alpha ≥128 (6,9 % /5,3 %) : les 10 % demandés ne sont pas atteints."
+    ],
+    "alpha_measured": true,
+    "framing_measured": true,
+    "visually_inspected": true,
+    "single_subject": true,
+    "full_body_visible": true,
+    "transparent_background_measured": true,
+    "source_full_body_game_model_verified": false,
+    "visual_review_summary": "Sujet unique en pied, tête rasée, plastron bleu à deux disques, sangles brunes, manches longues sombres et double ceinture : rapprochement avec Kim dans la capture de RAAM’s Shadow.",
+    "reference_limitations": [
+      "La référence de RAAM’s Shadow ne montre ni les genoux ni les pieds. Le pantalon, les poches, les genouillères et les bottes sont extrapolés et restent à vérifier sur le modèle final du DLC.",
+      "Le visage, l’insigne COG, le dessin des sangles, l’usure et les boucles sont des reconstructions génératives, sans certification 1:1."
+    ],
+    "framing_note": "Tête et chaussures entières. Marges haut/bas de 106/82 px au seuil alpha ≥128 (6,9 % /5,3 %) : les 10 % demandés ne sont pas atteints.",
+    "padding_requirement": "10_percent_all_sides",
+    "padding_requirement_met": false,
+    "pixel_editing_performed": false,
+    "alpha_note": "Canal alpha réel 0–254. Des résidus de très faible alpha subsistent ; maximum alpha 1 dans la bande périphérique de 8 px. Les pixels natifs sont préservés sans détourage, nettoyage ni conversion."
+  },
+  "notes": [
+    "Nouvel essai expressément autorisé par l’utilisateur après le refus historique.",
+    "Prompt historique repris littéralement, noms et édition conservés ; aucun autre moteur.",
+    "Un sujet fixe par PNG avec transparence demandée ; aucune animation.",
+    "Sortie native inspectée, hash du fichier identique aux octets PNG retournés par le générateur ; candidat de référence uniquement, fidélité 1:1 et production non validées."
+  ],
+  "original_output_path": "/workspace/scratch/f809e6610dc2/generated_v15/minh_young_kim_native.png",
+  "original_output_origin": "unmodified_tool_data_url_png_bytes"
+}

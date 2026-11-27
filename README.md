@@ -2,7 +2,36 @@
 
 Corpus de conception, prototype et références visuelles consolidés le **27 novembre 2026** pour Darknigthmare.
 
-## État courant — passe V14 — références finales et manquants tracés
+## État courant — passe V15 — nouvelles tentatives et revue visuelle
+
+**5 nouveaux PNG actifs**, **1 nouvelle image archivée après revue**, **13 refus renouvelés** et **1 alias Keegan sans génération**. Les **19 sujets précédemment refusés** ont chacun fait l’objet d’un nouvel appel explicitement demandé par l’utilisateur ; 19 appels au total dans cette passe.
+
+**Prompts : 17/19 repris à l’identique.** Écart à la demande « même prompt » : les prompts Shock Grenade et Incendiary Grenade ont été complétés avec les formes/couleurs des nouvelles images du guide officiel Prima Gears 4. Le texte historique est conservé dans les journaux ; ces deux appels ne sont pas comptés comme des reprises strictement identiques. Les deux ont de nouveau été refusés.
+
+| Catégorie | Avec référence | Catalogue | Sans référence |
+| --- | --- | --- | --- |
+| Personnages | 54 | 57 | 3 |
+| Costumes | 68 | 85 | 17 |
+| Boss, créatures et machines | 30 | 34 | 4 |
+| Stages | 34 | 34 | 0 |
+| Projectiles | 5 | 9 | 4 |
+
+**164 PNG actifs uniques + 18 archives**, **219 entrées de catalogue**, **28 sans référence attribuée**. **0 fidélité 1:1 certifiée ; 0 ensemble d’animations complet.**
+
+Les 34 manquants de départ sont tous tracés. Keegan intro partage la référence Onyx Guard finale par un alias documenté. Le PNG Theron au casque incorrect est archivé et reste exclu de la couverture active.
+
+La **[Bible V15](livrables/Gears_of_War_Combats_Bible_v15.md)** rassemble huit chapitres sources, les trois guides originaux inchangés, les 68 rubriques et les 40 cas d’acceptation conservés. Les extensions restent intégrées à la conception ; leurs cas ne sont pas exécutés. Le prototype et les livrables historiques sont inchangés.
+
+- [Images, résultats et réserves V15](docs/production/LISTING_V15.md).
+- [Manquants et blocages précis](docs/production/REPRISE_V15.md).
+- [Audit des 19 nouvelles tentatives](docs/production/RETRY_AUDIT_V15.json).
+- [Validation technique V15](docs/production/VALIDATION_V15.json).
+- [Revue indépendante V15](docs/production/REVIEW_V15.md).
+- [Manifeste de construction V15](docs/production/BIBLE_BUILD_V15.json).
+
+Les compteurs mesurent les références attribuées. La pose, le cadrage, le détourage et les détails canoniques restent soumis aux réserves de chaque journal.
+
+## Historique — passe V14 — références finales et manquants tracés
 
 La passe apporte **5 nouveaux PNG actifs**, **2 révisions Reyna archivées, avec la correction de coiffure sélectionnée comme référence**, **1 refus unique pour Mina Jinn** et **1 alias Lahni documenté sans génération**. Les **18 refus antérieurs** sont conservés sans relance.
 

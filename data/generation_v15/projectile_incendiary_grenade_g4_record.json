@@ -1,0 +1,128 @@
+{
+  "id": "projectile_incendiary_grenade_g4",
+  "subject_id": "projectile_incendiary_grenade_g4",
+  "name": "Grenade incendiaire",
+  "category": "projectile",
+  "source_game": "Gears of War 4",
+  "variant": "Gears of War 4 — grenade incendiaire, modèle extérieur isolé",
+  "variant_relation": "target_version_candidate",
+  "purpose": "reference_static_projectile",
+  "pass_date": "2026-11-27",
+  "status": "blocked_generator_refusal",
+  "generation_status": "blocked_generator_refusal",
+  "quality_state": "blocked",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "generation_attempted": true,
+  "generation_attempt_count_this_pass": 1,
+  "has_image": false,
+  "asset_path": null,
+  "original_output_path": null,
+  "canonical_fidelity_validated": false,
+  "canonical_fidelity": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "edition_unverified": false,
+  "reference_port_integrity_unverified": true,
+  "animation": false,
+  "retry_authorization": {
+    "explicit": true,
+    "user_instruction": "meme promtp et en paralele reassayer ce qui on ete refuser",
+    "scope": "One new admissible static fictional game-sprite attempt in V15; no loop after renewed refusal.",
+    "date": "2026-11-27",
+    "prompt_unchanged_from_previous_attempt": false
+  },
+  "historical_refusal_retained": true,
+  "previous_generation_records": [
+    {
+      "path": "data/generation_v10/projectile_incendiary_grenade_g4_record.json",
+      "sha256": "a6565ee140be328af480cba17788a2137906cf913f02eaf42fb99f49c54e675c",
+      "status": "blocked",
+      "error": "moderation_blocked",
+      "request_id": "3048d9e3-fede-43b1-b295-d6ccf88e6306",
+      "moderation_stage": "output",
+      "moderation_categories": [
+        "illicit"
+      ]
+    }
+  ],
+  "historical_prompt": "Use case: stylized-concept. Create ONE complete static 2D game asset of the Incendiary Grenade from GEARS OF WAR 4, matching the attached two views of its game model. The first image is a reference for the whole object's exact silhouette; the second is for close-up materials and connections. Reproduce only that single game prop, remove all page graphics, background, human hand and text labels. Preserve the worn squat red canister with its tapering shoulder, dark metal end rings, protective dark brace, brown crossed straps, scratched pale painted marking, and narrow dark end section with small blue slots. Preserve the short curved brown wrapped connector and the distinct chunky dark metal handle with worn red grip. Do not substitute a modern military grenade, a plain bottle, a ball grenade, or a different Gears edition. Arrange the complete object horizontally with the handle to the left and canister to the right, in a readable three-quarter view. One item only, complete within frame with at least ten percent transparent padding on every side. Detailed realistic hand-painted 2D game sprite, weathered materials and readable outline; strictly preserve the referenced design and proportions. True transparent PNG alpha outside the object, no cast shadow, no scenery, no characters, no flame, no smoke, no explosion, no motion streak, no duplicate angles, no animation, no watermark.",
+  "prompt": "Use case: stylized-concept. Create ONE complete static 2D game asset of the Incendiary Grenade from GEARS OF WAR 4, matching the attached two views of its game model. The first image is a reference for the whole object's exact silhouette; the second is for close-up materials and connections. Reproduce only that single game prop, remove all page graphics, background, human hand and text labels. Preserve the worn squat red canister with its tapering shoulder, dark metal end rings, protective dark brace, brown crossed straps, scratched pale painted marking, and narrow dark end section with small blue slots. Preserve the short curved brown wrapped connector and the distinct chunky dark metal handle with worn red grip. Do not substitute a modern military grenade, a plain bottle, a ball grenade, or a different Gears edition. Arrange the complete object horizontally with the handle to the left and canister to the right, in a readable three-quarter view. One item only, complete within frame with at least ten percent transparent padding on every side. Detailed realistic hand-painted 2D game sprite, weathered materials and readable outline; strictly preserve the referenced design and proportions. True transparent PNG alpha outside the object, no cast shadow, no scenery, no characters, no flame, no smoke, no explosion, no motion streak, no duplicate angles, no animation, no watermark.\n\nReference provenance update: image 1 is now the complete Incendiary Grenade render from the official Prima Games Gears of War 4 guide and is authoritative for silhouette, proportions and colour. Image 2 remains a closeup of the community port of the Gears of War 4 model, used only for visible exterior material and connection detail. Where the two differ, follow the official first image, including its restrained pale warm/amber slot highlights instead of saturated blue. Keep the exact fictional Gears of War 4 prop and its complete curved connector and handle; exclude the human hand from image 2. Exterior game-asset appearance only, no internal view or technical diagram.",
+  "prompt_changes": [
+    "Original prompt retained as base; first whole-object reference upgraded from community port to official Prima G4 render.",
+    "Appended explicit primary-source priority over differing port lighting and small slot colours. Subject name/game unchanged."
+  ],
+  "reference_images": [
+    "/workspace/scratch/f809e6610dc2/references_v15/prima_g4_incendiary_full.jpg",
+    "/workspace/scratch/f809e6610dc2/references_v15/incendiary_port_close.jpg"
+  ],
+  "sources": [
+    {
+      "page_url": "https://primagames.com/eguides/gears-of-war-4-eguide/multiplayer/multiplayer-arsenal/grenades",
+      "image_url": "https://primagames.com/eguides/media/files/eguide_assets/gears-of-war-4-eguide/152-233_mp-web-resources/image/37982.jpg",
+      "source_type": "official_licensed_guide_final_model_render",
+      "source_author": "Prima Games",
+      "reference_local_path": "/workspace/scratch/f809e6610dc2/references_v15/prima_g4_incendiary_full.jpg",
+      "reference_sha256": "cedeaaf9b75e1ddc0fe247aff1ae81bac3954a9ffeb2da9a1ed9f9ebf3145b92",
+      "visual_reference_used": true,
+      "visually_inspected": true,
+      "scope": "Full G4 Incendiary Grenade shown under explicit heading: worn red canister, protective brace, wrapped curved connector and complete handle; authoritative silhouette and colour."
+    },
+    {
+      "page_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3642338663",
+      "image_url": "https://images.steamusercontent.com/ugc/12772457377239399093/1AF4239BE6F50281FEE4814DBC97190235396B84/",
+      "source_type": "community_port_of_game_model_closeup",
+      "source_author": "EnergyFlamer",
+      "reference_local_path": "/workspace/scratch/f809e6610dc2/references_v15/incendiary_port_close.jpg",
+      "reference_sha256": "6fc344cfd4e588cae16ccbfd11827a02b8a1e040b2810761a6ecbd2c5723262d",
+      "visual_reference_used": true,
+      "visually_inspected": true,
+      "scope": "Closeup of G4-labelled community model port. Supplementary visible material/connection detail; the primary guide image overrides port colour differences. Human hand excluded."
+    },
+    {
+      "page_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3642338663",
+      "image_url": "https://images.steamusercontent.com/ugc/15092923533972507400/8CD0C11CBE7EBD348B8A4FBDD815872B3DFFEF80/",
+      "source_type": "community_port_of_game_model_full_view",
+      "reference_local_path": "/workspace/scratch/f809e6610dc2/references_v15/incendiary_port_full.jpg",
+      "reference_sha256": "6d8113bcaf06ba401bd388b6b74eff33df3afb06577c1d5f8baeb5a3f7089f33",
+      "visual_reference_used": false,
+      "visually_inspected": true,
+      "scope": "Historical full-object port view inspected; replaced in V15 input by the primary guide render."
+    }
+  ],
+  "refusal": {
+    "code": "moderation_blocked",
+    "http_status": 400,
+    "stage": "output",
+    "categories": [
+      "illicit"
+    ],
+    "request_id": "e9ecebd2-74b1-4fd4-b0e2-38080bad7922",
+    "message": "Your request was rejected by the safety system. safety_violations=[illicit].",
+    "attempts_this_pass": 1,
+    "retried_after_this_refusal": false,
+    "raw_error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID e9ecebd2-74b1-4fd4-b0e2-38080bad7922. safety_violations=[illicit].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"illicit\\\"\\n      ]\\n    }\\n  }\\n}\")"
+  },
+  "qa": {
+    "reference_visually_inspected": true,
+    "output_visually_inspected": false,
+    "visually_inspected": false,
+    "transparent_background": null,
+    "full_object_in_frame": null,
+    "observations": [
+      "Primary final G4 guide render and supplementary community closeup inspected before generation.",
+      "Single V15 attempt refused; no PNG, no further retry or alternate engine."
+    ],
+    "remaining_checks": [
+      "Community-port integrity is not independently audited; primary official render takes precedence.",
+      "No generated output exists to validate."
+    ]
+  },
+  "reason": "Renewed generator refusal on the single explicitly reauthorized V15 attempt.",
+  "prompt_sha256": "99c3378acb3c79c9791164cc279dc97490c7b5aaa8c72729f9905a4065cc40d7",
+  "historical_prompt_sha256": "0bebf737cdd38a3fe60cf55fad8d3e6b238341fe894104932246714da8de10de",
+  "prompt_identical_to_prior": false,
+  "prompt_change_reason": "Original prompt retained in full, followed by an explicit reference update: whole view upgraded to official Prima G4 render; primary silhouette/colour and pale warm slot highlights override differences in the community port. The closeup port remains supplementary.",
+  "prompt_appendix": "\n\nReference provenance update: image 1 is now the complete Incendiary Grenade render from the official Prima Games Gears of War 4 guide and is authoritative for silhouette, proportions and colour. Image 2 remains a closeup of the community port of the Gears of War 4 model, used only for visible exterior material and connection detail. Where the two differ, follow the official first image, including its restrained pale warm/amber slot highlights instead of saturated blue. Keep the exact fictional Gears of War 4 prop and its complete curved connector and handle; exclude the human hand from image 2. Exterior game-asset appearance only, no internal view or technical diagram.",
+  "prompt_appendix_sha256": "ffd95f1b770a5cee96c6a2381c0983e464f03ca07eb50c24cf05c65d3de8ab11"
+}

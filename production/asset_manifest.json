@@ -8,16 +8,16 @@
     "characters_with_reference": 36,
     "characters_missing": 0,
     "production_character_entries": 21,
-    "production_characters_with_reference": 15,
+    "production_characters_with_reference": 18,
     "character_catalog_entries": 57,
-    "catalog_characters_with_reference": 51,
-    "catalog_characters_missing": 6,
-    "character_png_files": 60,
+    "catalog_characters_with_reference": 54,
+    "catalog_characters_missing": 3,
+    "character_png_files": 63,
     "costume_catalog_entries": 85,
-    "costumes_with_reference": 65,
-    "costumes_without_explicit_reference": 20,
-    "costume_png_files": 29,
-    "costume_reference_aliases": 1,
+    "costumes_with_reference": 68,
+    "costumes_without_explicit_reference": 17,
+    "costume_png_files": 31,
+    "costume_reference_aliases": 2,
     "reused_character_pngs_for_costumes": 35,
     "boss_catalog_entries": 34,
     "bosses_with_reference": 30,
@@ -30,9 +30,9 @@
     "projectiles_missing": 4,
     "projectile_png_files": 5,
     "additional_reference_groups": 1,
-    "active_png_files": 159,
-    "unique_active_png_sha256": 159,
-    "archived_png_files": 17,
+    "active_png_files": 164,
+    "unique_active_png_sha256": 164,
+    "archived_png_files": 18,
     "canonical_fidelity_validated": 0,
     "completed_animation_sets": 0
   },
@@ -2846,6 +2846,203 @@
           45,
           242,
           23
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/characters_v15/anthony_carmine.png",
+      "subject_id": "anthony_carmine",
+      "category": "character",
+      "name": "Anthony Carmine",
+      "source_variant": "Original Anthony Carmine — référence figurine licenciée NECA SDCC 2008",
+      "purpose": "reference_fullbody",
+      "character_id": "anthony_carmine",
+      "costume_id": null,
+      "origin_batch": "generation_v15_2026-11-27",
+      "metadata_records": [
+        "data/generation_v15/anthony_carmine_record.json"
+      ],
+      "source_urls": [
+        "https://toynewsi.com/139-12938",
+        "https://i.toynewsi.com/g/generated/NECA/Gears_Of_War/08_SDCC/Carmine1__scaled_800.jpg",
+        "https://i.toynewsi.com/g/generated/NECA/Gears_Of_War/08_SDCC/GOWcarmineBack__scaled_800.jpg"
+      ],
+      "qa_notes": [
+        "Nouvel essai expressément autorisé par l’utilisateur après le refus historique.",
+        "Prompt historique repris littéralement, noms et édition conservés ; aucun autre moteur.",
+        "Un sujet fixe par PNG avec transparence demandée ; aucune animation.",
+        "Sortie native inspectée, hash du fichier identique aux octets PNG retournés par le générateur ; candidat de référence uniquement, fidélité 1:1 et production non validées.",
+        "Référence en pied d’une figurine licenciée NECA SDCC 2008, pas une extraction du modèle final 2006.",
+        "Photographies et packaging nomment Anthony ; aucune substitution par Benjamin, Gears 5 ou Black Steel.",
+        "La silhouette, les matières et proportions du jeu exact restent à vérifier ; retrait des articulations de figurine demandé par le prompt historique.",
+        "La seule référence complète est une figurine licenciée NECA de 2008 ; proportions, matériaux et détails de jeu ne sont pas établis par un modèle final 2006.",
+        "Le casque, ses raccords, l’emblème, les attaches et les bottes comportent une interprétation générative ; aucun de ces détails n’est certifié 1:1.",
+        "Tête et chaussures entières. Au seuil alpha ≥128, marges haut/bas de 153/72 px sur 1536 px : la marge inférieure de 4,7 % ne respecte pas les 10 % demandés."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "licensed_figure_reference_candidate",
+      "selection_priority": 45,
+      "asset_id": "assets_characters_v15_anthony_carmine_png",
+      "sha256": "647f95ac3eef91da1fee6a831482d9390572f8a0a77d614b38f8153fb74e5dd2",
+      "size_bytes": 1747793,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.721752,
+        "near_opaque_fraction_alpha_ge_240": 0.258206,
+        "subject_bbox_alpha_ge_128": [
+          228,
+          153,
+          770,
+          1464
+        ],
+        "subject_margins_ltrb_px": [
+          228,
+          153,
+          254,
+          72
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/characters_v15/jace_stratton.png",
+      "subject_id": "jace_stratton",
+      "category": "character",
+      "name": "Jace Stratton",
+      "source_variant": "Gears of War 3",
+      "purpose": "reference_fullbody",
+      "character_id": "jace_stratton",
+      "costume_id": null,
+      "origin_batch": "generation_v15_2026-11-27",
+      "metadata_records": [
+        "data/generation_v15/jace_stratton_record.json"
+      ],
+      "source_urls": [
+        "https://www.10wallpaper.com/view/Delta_squad-Jace_Stratton_wallpaper.html",
+        "https://www.10wallpaper.com/wallpaper/medium/1109/Delta_squad-Jace_Stratton_wallpaper_medium.jpg"
+      ],
+      "qa_notes": [
+        "Nouvel essai expressément autorisé par l’utilisateur après le refus historique.",
+        "Prompt historique repris littéralement, noms et édition conservés ; aucun autre moteur.",
+        "Un sujet fixe par PNG avec transparence demandée ; aucune animation.",
+        "Sortie native inspectée, hash du fichier identique aux octets PNG retournés par le générateur ; candidat de référence uniquement, fidélité 1:1 et production non validées.",
+        "Portrait promotionnel Gears 3 portant le logo et © Epic Games 2011, conservé sur un miroir secondaire.",
+        "La référence s’arrête aux hanches ; jambes, genoux et bottes ne sont pas documentés par cette image.",
+        "Les recherches primaires ArtStation/ZBrushCentral et les portfolios de production consultés n’ont pas établi de modèle final complet supplémentaire pour Jace.",
+        "La référence promotionnelle s’arrête aux hanches. Le pantalon, les poches, les sangles, les genouillères et les bottes sont extrapolés ; leur conformité au modèle final Gears 3 n’est pas établie.",
+        "Le visage, les détails de coiffure et les petites pièces du plastron demandent une comparaison indépendante avec des vues de production ; l’image générée ne prouve pas une identité visuelle 1:1.",
+        "Tête et semelles entières mais cadrage très serré : marges haut/bas de 23/21 px au seuil alpha ≥128 (environ 1,5 %). La marge généreuse demandée n’est pas obtenue."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 45,
+      "asset_id": "assets_characters_v15_jace_stratton_png",
+      "sha256": "4dea29f863abbbf1850d3aec69231273b8366e7e8b0a132d7d7aa73d39462ed8",
+      "size_bytes": 2155945,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.650714,
+        "near_opaque_fraction_alpha_ge_240": 0.327806,
+        "subject_bbox_alpha_ge_128": [
+          203,
+          23,
+          804,
+          1515
+        ],
+        "subject_margins_ltrb_px": [
+          203,
+          23,
+          220,
+          21
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/characters_v15/minh_young_kim.png",
+      "subject_id": "minh_young_kim",
+      "category": "character",
+      "name": "Minh Young Kim",
+      "source_variant": "Minh Young Kim — RAAM's Shadow (2011)",
+      "purpose": "reference_fullbody",
+      "character_id": "minh_young_kim",
+      "costume_id": null,
+      "origin_batch": "generation_v15_2026-11-27",
+      "metadata_records": [
+        "data/generation_v15/minh_young_kim_record.json"
+      ],
+      "source_urls": [
+        "https://gearsofwar.fandom.com/wiki/Minh_Young_Kim",
+        "https://vignette.wikia.nocookie.net/gearsofwar/images/7/74/RS_Kim.jpg/revision/latest",
+        "https://jeuvideo.afjv.com/news/4181_gears_of_war_3_raam_s_shadow.htm"
+      ],
+      "qa_notes": [
+        "Nouvel essai expressément autorisé par l’utilisateur après le refus historique.",
+        "Prompt historique repris littéralement, noms et édition conservés ; aucun autre moteur.",
+        "Un sujet fixe par PNG avec transparence demandée ; aucune animation.",
+        "Sortie native inspectée, hash du fichier identique aux octets PNG retournés par le générateur ; candidat de référence uniquement, fidélité 1:1 et production non validées.",
+        "Capture exacte de RAAM’s Shadow réhébergée ; visage, torse et ceintures visibles, jambes hors champ.",
+        "Le communiqué Microsoft/Epic réédité par l’AFJV confirme Kim dans le DLC, sans vue finale complète supplémentaire.",
+        "Les figurines Kim du premier Gears et les versions remasterisées ne sont pas substituées au DLC.",
+        "La référence de RAAM’s Shadow ne montre ni les genoux ni les pieds. Le pantalon, les poches, les genouillères et les bottes sont extrapolés et restent à vérifier sur le modèle final du DLC.",
+        "Le visage, l’insigne COG, le dessin des sangles, l’usure et les boucles sont des reconstructions génératives, sans certification 1:1.",
+        "Tête et chaussures entières. Marges haut/bas de 106/82 px au seuil alpha ≥128 (6,9 % /5,3 %) : les 10 % demandés ne sont pas atteints."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 45,
+      "asset_id": "assets_characters_v15_minh_young_kim_png",
+      "sha256": "9f108c867dac76bb017a25bb20fefaa817e39f60c3471007e8410f7d13cb58ec",
+      "size_bytes": 1701093,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.693651,
+        "near_opaque_fraction_alpha_ge_240": 0.290758,
+        "subject_bbox_alpha_ge_128": [
+          224,
+          106,
+          770,
+          1454
+        ],
+        "subject_margins_ltrb_px": [
+          224,
+          106,
+          254,
+          82
         ]
       },
       "has_transparency": true,
@@ -7529,6 +7726,138 @@
       "prototype_integration": "not_integrated"
     },
     {
+      "path": "assets/costumes_v15/keegan_skin_02.png",
+      "subject_id": "keegan_skin_02",
+      "category": "costume",
+      "name": "Keegan — Onyx Guard Gears 5 Hivebusters",
+      "source_variant": "Onyx Guard Keegan — modèle cinématique temps réel final du DLC",
+      "purpose": "reference_fullbody",
+      "character_id": "keegan",
+      "costume_id": "keegan_skin_02",
+      "origin_batch": "generation_v15_2026-11-27",
+      "metadata_records": [
+        "data/generation_v15/keegan_skin_02_record.json"
+      ],
+      "source_urls": [
+        "https://alexbobylev.artstation.com/projects/Vg3qGR",
+        "https://cdna.artstation.com/p/assets/images/images/032/935/296/large/alex-bobylev-1n2-full-v1.jpg?1607934339",
+        "https://cdnb.artstation.com/p/assets/images/images/032/935/299/large/alex-bobylev-fullbody2-small.jpg?1607934343",
+        "https://tylerthebradley.artstation.com/projects/ykrQgn",
+        "https://cdna.artstation.com/p/assets/images/images/038/911/694/large/tyler-bradley-onyx-keegan-final.jpg?1624416612"
+      ],
+      "qa_notes": [
+        "Nouvel essai V15 demandé par l’utilisateur ; le journal du refus V13 reste intact.",
+        "Référence statique candidate ; aucune animation ni implémentation de gameplay.",
+        "Keegan seul et entier, crâne chauve, moustache et favoris épais avec menton central dégagé ; face candidate à comparer au modèle exact.",
+        "Armure Onyx noire/gris carbone, disques pectoraux à centres triangulaires jaunes, bandes lumineuses bleues, col haut, grandes épaulières et protections de tibia présents.",
+        "Cartouches sur épaule anatomique droite et holster sur cuisse droite conservés ; aucun miroir global du personnage.",
+        "Pose frontale légèrement de trois quarts vers la droite ; elle n’est pas un profil de combat strict.",
+        "Les attaches, coutures, textures carbone, proportions du visage et petits éléments métalliques restent interprétés et non homologués.",
+        "Comparer à nouveau le modèle final en jeu avant validation 1:1.",
+        "Agrandir les marges transparentes utiles avant atlas ; la sortie ne respecte pas les 10 % demandés sur tous les bords.",
+        "Contrôler les faibles alpha périphériques en composition claire et sombre."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 45,
+      "asset_id": "assets_costumes_v15_keegan_skin_02_png",
+      "sha256": "c07bb1a98955c0147ffb2d89cbbe185ffe8a9d1268b9eb73f197e2bfee52be62",
+      "size_bytes": 2205399,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.59679,
+        "near_opaque_fraction_alpha_ge_240": 0.377813,
+        "subject_bbox_alpha_ge_128": [
+          178,
+          31,
+          852,
+          1509
+        ],
+        "subject_margins_ltrb_px": [
+          178,
+          31,
+          172,
+          27
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/costumes_v15/skorge_skin_02.png",
+      "subject_id": "skorge_skin_02",
+      "category": "costume",
+      "name": "Skorge — modèle multijoueur Gears 5 Opération 5",
+      "source_variant": "Apparence multijoueur standard, Opération 5",
+      "purpose": "reference_fullbody",
+      "character_id": "skorge",
+      "costume_id": "skorge_skin_02",
+      "origin_batch": "generation_v15_2026-11-27",
+      "metadata_records": [
+        "data/generation_v15/skorge_skin_02_record.json"
+      ],
+      "source_urls": [
+        "https://news.xbox.com/en-us/2020/11/17/gears-5-operation-5/",
+        "https://xboxwire.thesourcemediaassets.com/sites/2/2020/11/Gears5_Op5_LaunchLineUp.jpg",
+        "https://xboxwire.thesourcemediaassets.com/sites/2/2020/11/Gears5_Op5_KeyArt_Logo_1920x1080-HERO.jpg"
+      ],
+      "qa_notes": [
+        "A single isolated Skorge in the official Operation 5 airborne pose; both open hands, forward foot and trailing helmet/hip straps are visible.",
+        "Grey-purple flesh, warm bronze/red-brown armour, bright small chest lights, segmented headpiece and characteristic narrow face follow the official source.",
+        "Rear leg remains folded and occluded as in the reference; this does not document the hidden rear anatomy.",
+        "Source logo, other characters and scenery removed. Native RGBA bytes retained unchanged.",
+        "Margins are much smaller than prompted: useful alpha>8 margins approximately 3.50% left, 2.75% right, 1.68% top and 1.07% bottom.",
+        "Very low alpha=1 residue reaches canvas edges. Visible silhouette remains inside frame.",
+        "Warm promotional lighting limits verification of neutral material colour; small inscriptions, strap contours and fine details are approximations.",
+        "Generated static reference candidate; neither certified 1:1 nor production-ready."
+      ],
+      "quality_state": "manual_validation_required",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 45,
+      "asset_id": "assets_costumes_v15_skorge_skin_02_png",
+      "sha256": "fc89f308d9132afb01a085672e38cf898a8b513ab5d5be9f2dd5cb9781eb359c",
+      "size_bytes": 1596893,
+      "width": 1199,
+      "height": 1312,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "fully_transparent_fraction": 0.64204,
+        "near_opaque_fraction_alpha_ge_240": 0.315336,
+        "subject_bbox_alpha_ge_128": [
+          43,
+          23,
+          1166,
+          1297
+        ],
+        "subject_margins_ltrb_px": [
+          43,
+          23,
+          33,
+          15
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
       "path": "assets/costumes_v6/mac_mechanic_gears5_fullbody.png",
       "subject_id": "mac_skin_02",
       "category": "costume",
@@ -10502,6 +10831,37 @@
           27,
           145,
           11
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured"
+    },
+    {
+      "path": "rejected_candidates/costumes_v15/theron_skin_01.png",
+      "status": "archived_not_active",
+      "reason": "V15 : génération réussie mais rejet visuel — casque ouvert/crêté et armure non conformes au Theron Guard standard 2006 ; ne ferme pas le costume manquant.",
+      "sha256": "97b7d40b861501177ab6c7da3dc37b247f933722d86ea4eab471e2ea9e1ea2bd",
+      "size_bytes": 2297876,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.556355,
+        "near_opaque_fraction_alpha_ge_240": 0.4193,
+        "subject_bbox_alpha_ge_128": [
+          136,
+          6,
+          806,
+          1526
+        ],
+        "subject_margins_ltrb_px": [
+          136,
+          6,
+          218,
+          10
         ]
       },
       "has_transparency": true,

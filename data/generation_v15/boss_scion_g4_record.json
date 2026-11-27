@@ -1,0 +1,104 @@
+{
+  "id": "boss_scion_g4",
+  "subject_id": "boss_scion_g4",
+  "name": "Scion",
+  "category": "boss",
+  "source_game": "Gears of War 4",
+  "variant": "Gears of War 4 — Scion avec Dropshot, pose fixe",
+  "variant_relation": "target_version_candidate",
+  "purpose": "reference_fullbody",
+  "pass_date": "2026-11-27",
+  "status": "blocked_generator_refusal",
+  "generation_status": "blocked_generator_refusal",
+  "quality_state": "blocked",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "generation_attempted": true,
+  "generation_attempt_count_this_pass": 1,
+  "has_image": false,
+  "asset_path": null,
+  "original_output_path": null,
+  "canonical_fidelity_validated": false,
+  "canonical_fidelity": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "edition_unverified": false,
+  "animation": false,
+  "retry_authorization": {
+    "explicit": true,
+    "user_instruction": "meme promtp et en paralele reassayer ce qui on ete refuser",
+    "scope": "One new admissible built-in imagegen attempt for this target in V15; no loop after renewed refusal.",
+    "date": "2026-11-27",
+    "prompt_unchanged_from_previous_attempt": true
+  },
+  "historical_refusal_retained": true,
+  "previous_generation_records": [
+    {
+      "path": "data/generation_v9/boss_scion_g4_record.json",
+      "sha256": "e3039889cca69883d0651edefa7afee8f3ef99b9c2996e106457c2e495ec0815",
+      "status": "blocked",
+      "error": "moderation_blocked",
+      "request_id": "5a619e0a-53a5-4b29-aace-f1cb3d604d3a",
+      "moderation_stage": "output",
+      "moderation_categories": [
+        "other"
+      ]
+    }
+  ],
+  "prompt": "Use case: stylized-concept. Asset type: a single detailed static full-body sprite for a 2D Gears of War fighting-game bestiary. Create exactly ONE Scion from Gears of War 4, matching the attached official artbook model render in anatomy, silhouette, original materials, colors and equipment. The attached image is the visual reference. Preserve its bald small head, broad pale grey leathery face and ridged jaw, very heavy muscular torso, rough cracked pale skin, amber crystalline patches around its exposed right shoulder, the dark leather cross-body strap, asymmetrical blackened steel and dark burgundy-red armor plates, engraved belt, coarse red-brown loin panels, broad thigh wraps, shin armor and thick three-toed feet. Keep its original yellow industrial Dropshot held lowered in its LEFT hand as shown, with its bulky black ribbing and circular front: the weapon is part of this one character, not a second object on a display stand. Keep the exact original armor coverage and asymmetry; do not turn this into a Warden, a helmeted heavy Scion, a Gears 5 skin, or a generic ogre. Pose: stationary neutral ready stance, full body at a shallow three-quarter angle facing screen-right, both feet grounded, no firing, no attack motion. Rotate the subject in space rather than flipping the reference; left/right equipment must stay anatomically correct. Crisp high-detail realistic game rendering that reads as a 2D raster sprite, soft neutral lighting showing the surface detail, no painterly sketch. True transparent alpha background, no backdrop, gradient, visible checkerboard, floor, glow halo or cast shadow. Complete figure and weapon isolated, camera pulled back so all extremities occupy at most 75 percent of canvas height and width with generous clear transparent margins on all sides. One subject only, one pose, no animation strip, no collage, no alternate view, no text, no logo, no watermark, no other characters, no blood or injuries.",
+  "reference_images": [
+    "/workspace/scratch/f809e6610dc2/references_v15/scion_g4_artbook_final.jpg"
+  ],
+  "sources": [
+    {
+      "page_url": "https://haiweihou.artstation.com/projects/WrZXJ",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/003/791/807/large/haiwei-hou-artbook-swarmscion-l.jpg?1477517544",
+      "source_type": "production_artist_final_artbook_render",
+      "source_author": "Haiwei Hou",
+      "reference_local_path": "/workspace/scratch/f809e6610dc2/references_v15/scion_g4_artbook_final.jpg",
+      "reference_sha256": "1518911b5c566d4ec7fefa73409b1ca8179af9557cd3696504f41c377ffd82d5",
+      "visual_reference_used": true,
+      "visually_inspected": true,
+      "scope": "Same full coloured Scion G4 artbook render as historical attempt, now obtained directly from the artist's public CDN rather than a wiki mirror; Dropshot in anatomical left hand."
+    },
+    {
+      "page_url": "https://heber.artstation.com/projects/Wz8Qv",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/004/245/349/large/heber-alvarado-team-scion1.jpg?1481679149",
+      "source_type": "production_artist_portfolio",
+      "source_author": "Heber Alvarado",
+      "visual_reference_used": false,
+      "visually_inspected": true,
+      "scope": "Scion team modelling sheet, several variants in monochrome; inspected as provenance, not attached to avoid variant mixing."
+    }
+  ],
+  "refusal": {
+    "code": "moderation_blocked",
+    "http_status": 400,
+    "stage": "output",
+    "categories": [
+      "other"
+    ],
+    "request_id": "1ee6b6c1-e543-46ff-94f2-27035a4001d7",
+    "message": "Your request was rejected by the safety system.",
+    "attempts_this_pass": 1,
+    "retried_after_this_refusal": false,
+    "raw_error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 1ee6b6c1-e543-46ff-94f2-27035a4001d7.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+  },
+  "qa": {
+    "reference_visually_inspected": true,
+    "output_visually_inspected": false,
+    "visually_inspected": false,
+    "transparent_background": null,
+    "full_body_in_frame": null,
+    "observations": [
+      "Primary full-body final G4 artbook render inspected.",
+      "Original V9 prompt reused exactly with the same depicted design.",
+      "Generator refused output again. No PNG, no further retry and no alternative engine."
+    ]
+  },
+  "reason": "Renewed generator refusal on the single explicitly reauthorized V15 attempt.",
+  "prompt_sha256": "946946db3038042c6640b1e8c4ba213f4ec510e786acab8120a8ec29921acf2a",
+  "historical_prompt_sha256": "946946db3038042c6640b1e8c4ba213f4ec510e786acab8120a8ec29921acf2a",
+  "prompt_identical_to_prior": true,
+  "prompt_change_reason": "Historical prompt reused byte-for-byte; no wording change."
+}

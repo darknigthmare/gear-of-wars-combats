@@ -2,24 +2,24 @@
   "schema_version": "1.3",
   "project": "Gears of War Combats",
   "snapshot_date": "2026-11-27",
-  "report_path": "docs/production/CONSOLIDATION_2026-11-27_V14.md",
-  "report_suffix": "V14",
+  "report_path": "docs/production/CONSOLIDATION_2026-11-27_V15.md",
+  "report_suffix": "V15",
   "generator": "src/consolidate_inventory.py",
   "totals": {
     "roster_characters": 36,
     "characters_with_reference": 36,
     "characters_missing": 0,
     "production_character_entries": 21,
-    "production_characters_with_reference": 15,
+    "production_characters_with_reference": 18,
     "character_catalog_entries": 57,
-    "catalog_characters_with_reference": 51,
-    "catalog_characters_missing": 6,
-    "character_png_files": 60,
+    "catalog_characters_with_reference": 54,
+    "catalog_characters_missing": 3,
+    "character_png_files": 63,
     "costume_catalog_entries": 85,
-    "costumes_with_reference": 65,
-    "costumes_without_explicit_reference": 20,
-    "costume_png_files": 29,
-    "costume_reference_aliases": 1,
+    "costumes_with_reference": 68,
+    "costumes_without_explicit_reference": 17,
+    "costume_png_files": 31,
+    "costume_reference_aliases": 2,
     "reused_character_pngs_for_costumes": 35,
     "boss_catalog_entries": 34,
     "bosses_with_reference": 30,
@@ -32,9 +32,9 @@
     "projectiles_missing": 4,
     "projectile_png_files": 5,
     "additional_reference_groups": 1,
-    "active_png_files": 159,
-    "unique_active_png_sha256": 159,
-    "archived_png_files": 17,
+    "active_png_files": 164,
+    "unique_active_png_sha256": 164,
+    "archived_png_files": 18,
     "canonical_fidelity_validated": 0,
     "completed_animation_sets": 0
   },
@@ -1365,25 +1365,27 @@
       ],
       "catalog_scope": "production_extension",
       "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
-      "has_visual_reference": false,
-      "visual_status": "generation_blocked",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_characters_v15_anthony_carmine_png",
+      "selected_path": "assets/characters_v15/anthony_carmine.png",
+      "selected_source_variant": "Original Anthony Carmine — référence figurine licenciée NECA SDCC 2008",
+      "selected_variant_relation": "licensed_figure_reference_candidate",
+      "asset_ids": [
+        "assets_characters_v15_anthony_carmine_png"
+      ],
       "target_version_candidate_available": false,
       "target_version_candidate_path": null,
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": {
-        "record": "data/generation_v10/anthony_carmine_record.json",
-        "generation": 10,
-        "status": "blocked",
+        "record": "data/generation_v15/anthony_carmine_record.json",
+        "generation": 15,
+        "status": "generated_reference_pending_validation",
         "category": "character",
-        "has_file": false,
-        "record_sha256": "3589f6135d6348fad8f6df06f013496445c963b283929875098bdd37c80073be",
-        "pass_date": "2026-11-25"
+        "has_file": true,
+        "record_sha256": "0aeeed770c604c75c28bebfcd7f875021ab738769257d0e063265bef3d519f05",
+        "pass_date": "2026-11-27"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
     },
@@ -1420,13 +1422,13 @@
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": {
-        "record": "data/generation_v9/benjamin_carmine_record.json",
-        "generation": 9,
-        "status": "blocked",
+        "record": "data/generation_v15/benjamin_carmine_record.json",
+        "generation": 15,
+        "status": "blocked_generator_refusal",
         "category": "character",
         "has_file": false,
-        "record_sha256": "b65e5746c470c60a0a7690a5840d0f767d27aaea03672ffff7ceea86787adeb2",
-        "pass_date": "2026-11-25"
+        "record_sha256": "d04eb16cc252cdbef2af55aa307ac05834adbda3121be6bafbbaf44fd81244ef",
+        "pass_date": "2026-11-27"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
     },
@@ -1450,25 +1452,27 @@
       ],
       "catalog_scope": "production_extension",
       "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
-      "has_visual_reference": false,
-      "visual_status": "generation_blocked",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_characters_v15_jace_stratton_png",
+      "selected_path": "assets/characters_v15/jace_stratton.png",
+      "selected_source_variant": "Gears of War 3",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_characters_v15_jace_stratton_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/characters_v15/jace_stratton.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": {
-        "record": "data/generation_v9/jace_stratton_record.json",
-        "generation": 9,
-        "status": "blocked",
+        "record": "data/generation_v15/jace_stratton_record.json",
+        "generation": 15,
+        "status": "generated_reference_pending_validation",
         "category": "character",
-        "has_file": false,
-        "record_sha256": "434e8d283726e04b0ac0247cc6a365c15c53f76cbd002b5cf5f3287e6b60da86",
-        "pass_date": "2026-11-25"
+        "has_file": true,
+        "record_sha256": "c4a10a79b003af45d46784f744bb423e0e71b8913f60a446437db90e98eaa05a",
+        "pass_date": "2026-11-27"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
     },
@@ -1582,25 +1586,27 @@
       ],
       "catalog_scope": "production_extension",
       "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
-      "has_visual_reference": false,
-      "visual_status": "generation_blocked",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_characters_v15_minh_young_kim_png",
+      "selected_path": "assets/characters_v15/minh_young_kim.png",
+      "selected_source_variant": "Minh Young Kim — RAAM's Shadow (2011)",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_characters_v15_minh_young_kim_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/characters_v15/minh_young_kim.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": {
-        "record": "data/generation_v10/minh_young_kim_record.json",
-        "generation": 10,
-        "status": "blocked",
+        "record": "data/generation_v15/minh_young_kim_record.json",
+        "generation": 15,
+        "status": "generated_reference_pending_validation",
         "category": "character",
-        "has_file": false,
-        "record_sha256": "68a0fb1b76146260c8a7e50505a9c7fb65400fbe1a1e5957113b365521be201d",
-        "pass_date": "2026-11-25"
+        "has_file": true,
+        "record_sha256": "69a4c900a5c28b1cdc8e98209b2a47b44ca20ef076752bdf26e7ca01a2cf692a",
+        "pass_date": "2026-11-27"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
     },
@@ -1814,13 +1820,13 @@
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": {
-        "record": "data/generation_v9/prescott_record.json",
-        "generation": 9,
-        "status": "blocked",
+        "record": "data/generation_v15/prescott_record.json",
+        "generation": 15,
+        "status": "blocked_generator_refusal",
         "category": "character",
         "has_file": false,
-        "record_sha256": "ee0bd9544268831a1b2db99ea91dfa6aaf3420f1c0449dc8547e2618f7e1d901",
-        "pass_date": "2026-11-25"
+        "record_sha256": "59cc357c720893b970c3f9c0815f19eba5e24bd5ab11a964700b5fa1d818a09d",
+        "pass_date": "2026-11-27"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
     },
@@ -2263,12 +2269,12 @@
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": {
-        "record": "data/generation_v14/mina_jinn_g4_record.json",
-        "generation": 14,
+        "record": "data/generation_v15/mina_jinn_g4_record.json",
+        "generation": 15,
         "status": "blocked_generator_refusal",
         "category": "character",
         "has_file": false,
-        "record_sha256": "d654edd5956ee3390c5b05e86227ebbf2bc56efa3f7128d45d82ec5578b78a31",
+        "record_sha256": "625cd6fa7ba23ea2fe65b7ef2e251f077d5e1a85c83564f6d3dce6b4ce51dd53",
         "pass_date": "2026-11-27"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
@@ -2550,13 +2556,13 @@
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": {
-        "record": "data/generation_v11/dom_skin_03_record.json",
-        "generation": 11,
+        "record": "data/generation_v15/dom_skin_03_record.json",
+        "generation": 15,
         "status": "blocked_generator_refusal",
         "category": "costume",
         "has_file": false,
-        "record_sha256": "cc398b0f2feb44242ddd4c9d36cfe10b6c0fe3263269a8bbb9fb36fc39bb6811",
-        "pass_date": "2026-11-25"
+        "record_sha256": "18ff48eab3c98ab8c0252e05c4d267096897140c91520a500c9d564995a958ea",
+        "pass_date": "2026-11-27"
       }
     },
     {
@@ -2674,12 +2680,12 @@
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": {
-        "record": "data/generation_v12/baird_skin_02_record.json",
-        "generation": 12,
+        "record": "data/generation_v15/baird_skin_02_record.json",
+        "generation": 15,
         "status": "blocked_generator_refusal",
         "category": "costume",
         "has_file": false,
-        "record_sha256": "8d89959de4de17d07d731b7669347cf55915f7b7a2349615d2985b30da1e9fd3",
+        "record_sha256": "b008f27cb61fe23f59e99dd43b7cf6260f2fc1ba1b23f9b36b886e6acc78d610",
         "pass_date": "2026-11-27"
       }
     },
@@ -2790,13 +2796,13 @@
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": {
-        "record": "data/generation_v11/cole_skin_01_record.json",
-        "generation": 11,
+        "record": "data/generation_v15/cole_skin_01_record.json",
+        "generation": 15,
         "status": "blocked_generator_refusal",
         "category": "costume",
         "has_file": false,
-        "record_sha256": "9a4d0a237467572ef640145986bfabb815a3c2e43199d78fa856b774e9d477c6",
-        "pass_date": "2026-11-25"
+        "record_sha256": "397190dae9f1c8786672c4ba71c079c338a574cba82f41a02fa50a8e2110ea24",
+        "pass_date": "2026-11-27"
       }
     },
     {
@@ -3100,12 +3106,12 @@
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": {
-        "record": "data/generation_v12/kait_skin_03_record.json",
-        "generation": 12,
+        "record": "data/generation_v15/kait_skin_03_record.json",
+        "generation": 15,
         "status": "blocked_generator_refusal",
         "category": "costume",
         "has_file": false,
-        "record_sha256": "fad5a0ae246bb6b9a849f4766cc8c8f387727eed4551b509d1cacca37a6b3342",
+        "record_sha256": "5f4e3ab5d88860a919972788ef84a1e668aa7f58a2a3d76660521e68ccdfbbd6",
         "pass_date": "2026-11-27"
       }
     },
@@ -3236,24 +3242,26 @@
       ],
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "generation_blocked",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_costumes_v15_skorge_skin_02_png",
+      "selected_path": "assets/costumes_v15/skorge_skin_02.png",
+      "selected_source_variant": "Apparence multijoueur standard, Opération 5",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_costumes_v15_skorge_skin_02_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/costumes_v15/skorge_skin_02.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": {
-        "record": "data/generation_v13/skorge_skin_02_record.json",
-        "generation": 13,
-        "status": "blocked_generator_refusal",
+        "record": "data/generation_v15/skorge_skin_02_record.json",
+        "generation": 15,
+        "status": "generated_reference_pending_validation",
         "category": "costume",
-        "has_file": false,
-        "record_sha256": "c70907197cecd0a6a27a666b00e0561d2589f0bd8a89924612705f3fa88c6bc2",
+        "has_file": true,
+        "record_sha256": "16845250274f30c687474c01a27f90d417078298628e51b3cec09068b443d396",
         "pass_date": "2026-11-27"
       }
     },
@@ -3472,12 +3480,12 @@
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": {
-        "record": "data/generation_v12/kantus_skin_02_record.json",
-        "generation": 12,
+        "record": "data/generation_v15/kantus_skin_02_record.json",
+        "generation": 15,
         "status": "blocked_generator_refusal",
         "category": "costume",
         "has_file": false,
-        "record_sha256": "d11c9d58ffdec3bb1b914f4d3b94c36f77b38cc0c242ddfa7ca70dbdf9881660",
+        "record_sha256": "44463544fcca6e8530a714b68756cdbb727d623343f281fe4145102e2b69778a",
         "pass_date": "2026-11-27"
       }
     },
@@ -3501,7 +3509,7 @@
       "catalog_scope": "production_catalog",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
       "has_visual_reference": false,
-      "visual_status": "generation_blocked",
+      "visual_status": "missing",
       "selected_asset_id": null,
       "selected_path": null,
       "selected_source_variant": null,
@@ -3512,12 +3520,12 @@
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": {
-        "record": "data/generation_v13/theron_skin_01_record.json",
-        "generation": 13,
-        "status": "blocked_prior_generator_refusal",
+        "record": "data/generation_v15/theron_skin_01_record.json",
+        "generation": 15,
+        "status": "generated_rejected_visual",
         "category": "costume",
         "has_file": false,
-        "record_sha256": "e09d58c2fd569ed802db012f7542ecdef0c901ebec31ae3505ead9f34904a3bc",
+        "record_sha256": "514dcb55263f32466c2a2b1ce503fbd2ba48af02ea3d21fbff3d6a0cae215176",
         "pass_date": "2026-11-27"
       }
     },
@@ -4647,9 +4655,9 @@
     },
     {
       "id": "keegan_skin_02",
-      "name": "Keegan — Onyx Guard Keegan à documenter",
+      "name": "Keegan — Onyx Guard, début de Hivebusters",
       "category": "costume",
-      "requested_source_game": "Onyx Guard Keegan à documenter",
+      "requested_source_game": "Gears 5: Hivebusters",
       "requested_base_costume": null,
       "priority": "P1",
       "faction": "",
@@ -4657,31 +4665,37 @@
       "character_name": "Keegan",
       "parent_id": "keegan",
       "source_urls": [
-        "https://news.xbox.com/en-us/2020/12/08/gears-5-hivebusters-arrives-december-15/"
+        "https://alexbobylev.artstation.com/projects/Vg3qGR",
+        "https://tylerthebradley.artstation.com/projects/ykrQgn"
       ],
       "catalog_notes": [
-        "Apparence du catalogue initial ; aucune image attribuée sans identité de costume explicite."
+        "Le concept de Tyler Bradley est explicitement associé à la tenue intro Hivebusters et représente Onyx Keegan.",
+        "Le modèle final temps réel de Alex Bobylev confirme la tenue Onyx Guard ; il prévaut sur les détails du concept.",
+        "L’ancien texte opposant intro et Onyx Guard est corrigé dans le catalogue courant, sans réécrire les catalogues historiques.",
+        "La tenue Escape/Hivebuster beige est distincte ; aucune assimilation avec keegan_skin_01."
       ],
-      "catalog_scope": "production_catalog",
+      "catalog_scope": "production_extension",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "generation_blocked",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_costumes_v15_keegan_skin_02_png",
+      "selected_path": "assets/costumes_v15/keegan_skin_02.png",
+      "selected_source_variant": "Onyx Guard Keegan — modèle cinématique temps réel final du DLC",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_costumes_v15_keegan_skin_02_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/costumes_v15/keegan_skin_02.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": {
-        "record": "data/generation_v13/keegan_skin_02_record.json",
-        "generation": 13,
-        "status": "blocked_generator_refusal",
+        "record": "data/generation_v15/keegan_skin_02_record.json",
+        "generation": 15,
+        "status": "generated_reference_pending_validation",
         "category": "costume",
-        "has_file": false,
-        "record_sha256": "a79b7d644ad61e82788eaa4801497a6844d07896d777a5b40b542ea0ca37894c",
+        "has_file": true,
+        "record_sha256": "8df272f0db712c625bb7ce82869944fef5d18d00339d0d5443ba4a3b089351b3",
         "pass_date": "2026-11-27"
       }
     },
@@ -5206,7 +5220,7 @@
     },
     {
       "id": "keegan_hivebusters_intro",
-      "name": "Keegan — Keegan — tenue d'introduction Hivebusters",
+      "name": "Keegan — introduction Hivebusters (alias Onyx Guard)",
       "category": "costume",
       "requested_source_game": "Gears 5: Hivebusters",
       "requested_base_costume": null,
@@ -5216,32 +5230,65 @@
       "character_name": "Keegan",
       "parent_id": "keegan",
       "source_urls": [
+        "https://alexbobylev.artstation.com/projects/Vg3qGR",
         "https://tylerthebradley.artstation.com/projects/ykrQgn"
       ],
       "catalog_notes": [
-        "Tenue d'introduction documentée; ne pas confondre avec la tenue de combat/Onyx Guard."
+        "Le concept de Tyler Bradley est explicitement associé à la tenue intro Hivebusters et représente Onyx Keegan.",
+        "Le modèle final temps réel de Alex Bobylev confirme la tenue Onyx Guard ; il prévaut sur les détails du concept.",
+        "L’ancien texte opposant intro et Onyx Guard est corrigé dans le catalogue courant, sans réécrire les catalogues historiques.",
+        "La tenue Escape/Hivebuster beige est distincte ; aucune assimilation avec keegan_skin_01.",
+        "Alias de référence documenté de keegan_skin_02 : fichier partagé assets/costumes_v15/keegan_skin_02.png ; aucune nouvelle génération ni validation 1:1."
       ],
       "catalog_scope": "production_extension",
       "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_costumes_v15_keegan_skin_02_png",
+      "selected_path": "assets/costumes_v15/keegan_skin_02.png",
+      "selected_source_variant": "Onyx Guard Keegan — modèle cinématique temps réel final du DLC",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_costumes_v15_keegan_skin_02_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/costumes_v15/keegan_skin_02.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": {
-        "record": "data/generation_v13/keegan_hivebusters_intro_record.json",
-        "generation": 13,
-        "status": "reference_research_pending",
+        "record": "data/generation_v15/keegan_hivebusters_intro_record.json",
+        "generation": 15,
+        "status": "documented_reference_alias",
         "category": "costume",
         "has_file": false,
-        "record_sha256": "457af8b1f4388f205aa6bc4de92c38cff138c9fa43b6766aa4a86a8f04666935",
+        "record_sha256": "e839cbd688e8dda70f2120cc58035eedaa5fbdb08070dd45d994c008ee84e7f2",
         "pass_date": "2026-11-27"
+      },
+      "reference_alias_of": "keegan_skin_02",
+      "reference_resolution": {
+        "kind": "documented_costume_reference_alias",
+        "alias_id": "keegan_hivebusters_intro",
+        "canonical_id": "keegan_skin_02",
+        "character_id": "keegan",
+        "source_game": "Gears 5: Hivebusters",
+        "mapping_path": "data/costume_reference_aliases_v15.json",
+        "mapping_sha256": "b30991451ea36ba1d9fbb7309931f868f49447edb53e4b36d63b2db56046e1d0",
+        "asset_path": "assets/costumes_v15/keegan_skin_02.png",
+        "asset_sha256": "c07bb1a98955c0147ffb2d89cbbe185ffe8a9d1268b9eb73f197e2bfee52be62",
+        "source_record_path": "data/generation_v15/keegan_skin_02_record.json",
+        "source_record_sha256": "8df272f0db712c625bb7ce82869944fef5d18d00339d0d5443ba4a3b089351b3",
+        "evidence_record_path": "data/generation_v15/keegan_hivebusters_intro_record.json",
+        "evidence_record_sha256": "e839cbd688e8dda70f2120cc58035eedaa5fbdb08070dd45d994c008ee84e7f2",
+        "rationale": "Rapprochement documenté des deux appellations de la même tenue, à partir du concept intro et du modèle final Onyx Guard.",
+        "source_urls": [
+          "https://alexbobylev.artstation.com/projects/Vg3qGR",
+          "https://tylerthebradley.artstation.com/projects/ykrQgn"
+        ],
+        "caveats": [
+          "Le modèle final prévaut sur le concept intro.",
+          "Les réserves du PNG restent inchangées ; fidélité 1:1 non certifiée.",
+          "Ne concerne pas la tenue beige Escape/Hivebuster."
+        ]
       }
     },
     {
@@ -5434,12 +5481,12 @@
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": {
-        "record": "data/generation_v12/fahz_hivebuster_g5_record.json",
-        "generation": 12,
+        "record": "data/generation_v15/fahz_hivebuster_g5_record.json",
+        "generation": 15,
         "status": "blocked_generator_refusal",
         "category": "costume",
         "has_file": false,
-        "record_sha256": "3464f85cecb04deae381c8a927c63c43f798cff53b0db8f3a285103ded6b78dc",
+        "record_sha256": "ad1312d9cf94e2f2f21ed17eb8ad4b92b56d30ab4fde5290f46e526efd7fc817",
         "pass_date": "2026-11-27"
       }
     },
@@ -6719,13 +6766,13 @@
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": {
-        "record": "data/generation_v9/boss_scion_g4_record.json",
-        "generation": 9,
-        "status": "blocked",
+        "record": "data/generation_v15/boss_scion_g4_record.json",
+        "generation": 15,
+        "status": "blocked_generator_refusal",
         "category": "boss",
         "has_file": false,
-        "record_sha256": "e3039889cca69883d0651edefa7afee8f3ef99b9c2996e106457c2e495ec0815",
-        "pass_date": "2026-11-25"
+        "record_sha256": "8dcfe15b043e5e309fcec5d5110efcc7c3199fbe5fc8c1516871f63642c83b0d",
+        "pass_date": "2026-11-27"
       }
     },
     {
@@ -8612,13 +8659,13 @@
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": {
-        "record": "data/generation_v9/projectile_torque_bow_bolt_g3_record.json",
-        "generation": 9,
-        "status": "blocked",
+        "record": "data/generation_v15/projectile_torque_bow_bolt_g3_record.json",
+        "generation": 15,
+        "status": "blocked_generator_refusal",
         "category": "projectile",
         "has_file": false,
-        "record_sha256": "0d4307318a9b9c862c04e1e0e5d18de3aef6e3689ca165d6da082290d5716606",
-        "pass_date": "2026-11-25"
+        "record_sha256": "8338e59bb5702e1f7b14893528a185b52501496fff0c3a68faf15fdf28083032",
+        "pass_date": "2026-11-27"
       },
       "weapon_id": "torque_bow",
       "source_weapon": "Torque Bow"
@@ -8655,13 +8702,13 @@
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": {
-        "record": "data/generation_v9/projectile_shock_grenade_g4_record.json",
-        "generation": 9,
-        "status": "blocked",
+        "record": "data/generation_v15/projectile_shock_grenade_g4_record.json",
+        "generation": 15,
+        "status": "blocked_generator_refusal",
         "category": "projectile",
         "has_file": false,
-        "record_sha256": "b21efb3c4bb2a4fc17e65b0f2b60fe2df15728ce4c1cc40ee33930828bbda856",
-        "pass_date": "2026-11-25"
+        "record_sha256": "d434161134e72e711bb6848428a487bc948d500c14684643272409b5d149b8fe",
+        "pass_date": "2026-11-27"
       },
       "weapon_id": "shock_grenade",
       "source_weapon": "Shock Grenade"
@@ -8743,13 +8790,13 @@
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": {
-        "record": "data/generation_v10/projectile_incendiary_grenade_g4_record.json",
-        "generation": 10,
-        "status": "blocked",
+        "record": "data/generation_v15/projectile_incendiary_grenade_g4_record.json",
+        "generation": 15,
+        "status": "blocked_generator_refusal",
         "category": "projectile",
         "has_file": false,
-        "record_sha256": "a6565ee140be328af480cba17788a2137906cf913f02eaf42fb99f49c54e675c",
-        "pass_date": "2026-11-25"
+        "record_sha256": "1fb1011841d25e98a874fa83d4689eda6637e9dc3a61059d0d368ee78e2bb032",
+        "pass_date": "2026-11-27"
       },
       "weapon_id": "incendiary_grenade",
       "source_weapon": "Incendiary Grenade"
@@ -8883,10 +8930,7 @@
   "missing": {
     "characters": [],
     "production_characters": [
-      "anthony_carmine",
       "benjamin_carmine",
-      "jace_stratton",
-      "minh_young_kim",
       "prescott",
       "mina_jinn_g4"
     ],
@@ -8897,7 +8941,6 @@
       "anya_skin_01",
       "kait_skin_03",
       "raam_skin_02",
-      "skorge_skin_02",
       "myrrah_skin_02",
       "kantus_skin_02",
       "theron_skin_01",
@@ -8905,10 +8948,8 @@
       "tai_skin_02",
       "sam_skin_02",
       "gabe_skin_02",
-      "keegan_skin_02",
       "deebee_skin_02",
       "grenadier_skin_02",
-      "keegan_hivebusters_intro",
       "anthony_black_steel_g5",
       "fahz_hivebuster_g5"
     ],

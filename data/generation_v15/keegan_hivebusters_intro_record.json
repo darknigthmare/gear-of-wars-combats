@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "id": "keegan_hivebusters_intro",
+  "subject_id": "keegan_hivebusters_intro",
+  "costume_id": "keegan_hivebusters_intro",
+  "character_id": "keegan",
+  "name": "Keegan — introduction Hivebusters (alias Onyx Guard)",
+  "category": "costume",
+  "source_game": "Gears 5: Hivebusters",
+  "pass_date": "2026-11-27",
+  "status": "documented_reference_alias",
+  "generation_attempted": false,
+  "generation_attempt_count": 0,
+  "has_image": false,
+  "asset_path": null,
+  "reference_alias_of": "keegan_skin_02",
+  "reference_asset_path": "assets/costumes_v15/keegan_skin_02.png",
+  "reference_asset_sha256": "c07bb1a98955c0147ffb2d89cbbe185ffe8a9d1268b9eb73f197e2bfee52be62",
+  "reference_record_path": "data/generation_v15/keegan_skin_02_record.json",
+  "canonical_fidelity_validated": false,
+  "production_ready": false,
+  "animation": false,
+  "source_urls": [
+    "https://alexbobylev.artstation.com/projects/Vg3qGR",
+    "https://tylerthebradley.artstation.com/projects/ykrQgn"
+  ],
+  "sources": [
+    {
+      "page_url": "https://alexbobylev.artstation.com/projects/Vg3qGR",
+      "source_type": "final_production_artist",
+      "scope": "Alex Bobylev décrit Onyx Guard Keegan pour le DLC, avec modèle final cinématique temps réel et textures."
+    },
+    {
+      "page_url": "https://tylerthebradley.artstation.com/projects/ykrQgn",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/038/911/694/large/tyler-bradley-onyx-keegan-final.jpg?1624416612",
+      "source_type": "production_concept_artist",
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v13_hivebusters/keegan_intro_concept.jpg",
+      "reference_sha256": "d6d907d962657867c5e52d98c533cea0fb70e553fdd7d7ab7470dcd769797dbd",
+      "scope": "Tyler Bradley précise intro outfits ; concept Onyx Keegan comparé visuellement au modèle final.",
+      "visually_inspected": true
+    }
+  ],
+  "inference": "Rapprochement documenté des deux appellations de la même tenue, à partir du concept intro et du modèle final Onyx Guard.",
+  "qa": {
+    "visually_inspected": true,
+    "observations": [
+      "Les deux sources conservent le même col haut, les disques pectoraux à triangles, la cartouchière sur épaule droite, la disposition du holster et les protections carbone.",
+      "Le PNG V15 fournit la référence partagée ; aucune génération supplémentaire ne complète l’alias.",
+      "Les réserves de visage, textures, accessoires, pose et marges du PNG canonique restent entièrement applicables."
+    ]
+  }
+}

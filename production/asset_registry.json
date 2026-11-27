@@ -1120,6 +1120,7 @@
     "rejected_candidates/bosses_v12/flock_density_candidate.png": "Première sortie Flock V12 : Leeches trop grosses et trop alignées pour la masse collective visée ; remplacée par assets/bosses_v12/flock_gears5_swarm.png après révision de densité. Conservée comme révision, hors total actif ; aucune conformité 1:1 certifiée.",
     "rejected_candidates/costumes_v12/swarm_drone_skin_02_mirrored_bandolier.png": "Première sortie du Drone de l’Essaim standard Gears 5 V12 : orientation anatomique du harnais inversée ; remplacée par assets/costumes_v12/swarm_drone_skin_02.png après correction par le générateur. Conservée comme révision, hors total actif ; aucune conformité 1:1 certifiée.",
     "rejected_candidates/costumes_v14/reyna_human_g4_clean.png": "Édition V14 non sélectionnée : marges insuffisantes et détails repeints ; original conservé. Voir docs/production/revisions_v14/reyna_human_g4_clean_record.json.",
-    "rejected_candidates/costumes_v14/reyna_human_g4_initial.png": "Candidat initial Reyna V14 : côté rasé inversé. Supersédé par la correction de coiffure après comparaison au modèle officiel ; journal docs/production/revisions_v14/reyna_human_g4_initial_record.json."
+    "rejected_candidates/costumes_v14/reyna_human_g4_initial.png": "Candidat initial Reyna V14 : côté rasé inversé. Supersédé par la correction de coiffure après comparaison au modèle officiel ; journal docs/production/revisions_v14/reyna_human_g4_initial_record.json.",
+    "rejected_candidates/costumes_v15/theron_skin_01.png": "V15 : génération réussie mais rejet visuel — casque ouvert/crêté et armure non conformes au Theron Guard standard 2006 ; ne ferme pas le costume manquant."
   }
 }
