@@ -1,0 +1,60 @@
+{
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "variant_relation": "target_version_candidate",
+  "category": "stage",
+  "purpose": "stage_master",
+  "animation_status": "not_requested_this_pass",
+  "canonical_fidelity_validated": false,
+  "has_image": true,
+  "id": "jacinto_gears2_collapse_master_v10",
+  "subject_id": "stage_jacinto",
+  "name": "Jacinto — au bord de la chute",
+  "source_game": "Gears of War 2 — Tenuous Footing",
+  "catalog_target_game": "Gears of War 2",
+  "variant": "Gears of War 2 — terrasses effondrées de Jacinto adaptées au combat latéral",
+  "asset_path": "assets/stages_v10/jacinto_gears2_collapse_master.png",
+  "prompt": "Create ONE opaque wide landscape 16:9 HD static 2D fighting-game stage of JACINTO ON THE EDGE OF COLLAPSE in original GEARS OF WAR 2 (2008), Act V Tenuous Footing, using the attached original gameplay screenshot as its concrete scene reference. This is the campaign's collapsing Jacinto, not a multiplayer map remake. Remove the soldier, weapon and chapter-title overlay. Preserve the reference's devastated urban structure: a vast smoke-filled subsidence void across the middle distance, fragmented stone terraces and half-collapsed metal railings around it, charred upright ruined columns, distant tall gray/beige civic building facades, and the large dark industrial crane structure projecting from the upper right over the void. Tangled broken iron walkways and torn exposed structural beams at the right, ragged pale masonry rubble behind the foreground, multiple isolated orange fires deep in the collapse and dense gray-brown smoke under a hazy warm orange sky. Use the same stone, soot, steel and dust palette as the real Gears2 reference, preserving the layered collapsing-city silhouette. Adapt only the viewpoint to a horizontal lateral fighting-game composition: broad continuous flat stable dusty cracked stone/concrete platform spanning the lower 22% for combat; broken platform edges and rubble behind this band, no holes or steep steps in the playable band. Camera at standing height, modest depth in front, towering ruins behind. Exceptional textured dark 2D environmental painting, recognizable original era materials, no generic fantasy or futuristic-city redesign. Exactly one unoccupied stage, no people, soldiers, enemies, animals, corpses, weapons, gore, interactive pickups, HUD, text, logos, caption, border or watermark. Fires and smoke are captured in a single still master, no animation frames or separated layers.",
+  "sources": [
+    {
+      "page_url": "https://primagames.com/eguides/gears-war-2-eguide/act-v-aftermath/chapter-4-tenuous-footing",
+      "image_url": "https://primagames.com/eguides/media/_w/700/files/eguide_assets/gears-war-2-eguide/092-189_act_03-05-web-resources/image/A5C4E01.jpg",
+      "source_type": "official_licensed_strategy_guide",
+      "scope": "Capture d’ouverture de Tenuous Footing dans Gears of War 2 : gouffre urbain enfumé, terrasses, bâtiments et structure de grue à droite.",
+      "visual_reference_used": true,
+      "reference_sha256": "136fc64b026d5b3ad2b1f90048bd23a3f9c49ac56361f9b35b11479f986e6121"
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_stage": true,
+    "transparent_background": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "observations": [
+      "Gouffre enfumé, foyers orange, terrasses et passerelles rompues, façades et grand bâti de grue à droite repris de la capture de campagne Gears of War 2.",
+      "Bande stable de sol fissuré continue en premier plan; aucun personnage, interface ou titre de chapitre.",
+      "La camera et le sol sont adaptés au duel latéral. Les façades lointaines ont été détaillées au-delà de ce que la source de faible résolution permet d’établir; fenêtres, corniches et distances non validées."
+    ],
+    "remaining_checks": [
+      "Comparer silhouettes et ornements des façades avec des captures HD de Tenuous Footing.",
+      "Vérifier l’échelle de la plateforme de combat face au gouffre et à la grue."
+    ],
+    "alpha_channel_present": false,
+    "opaque": true
+  },
+  "output": {
+    "format": "PNG",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "bytes": 2778291,
+    "sha256": "0e92959dcf4623e39b706198e2f0d4b9d2f4a05eed7ef888cbe448d0dab25c98"
+  },
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-71f9152e-4780-4a36-8d83-8e34e4b2203d.png",
+  "fidelity_1to1_certified": false,
+  "production_ready": false
+}

@@ -1,0 +1,134 @@
+{
+  "id": "projectile_torque_bow_bolt_g3",
+  "subject_id": "projectile_torque_bow_bolt_g3",
+  "name": "Torque Bow — carreau",
+  "category": "projectile",
+  "source_game": "Gears of War 3",
+  "variant": "Gears of War 3 — carreau Torque Bow ; géométrie complète non vérifiée",
+  "variant_relation": "target_version_candidate",
+  "purpose": "reference_static_projectile",
+  "pass_date": "2026-11-27",
+  "status": "blocked_generator_refusal",
+  "generation_status": "blocked_generator_refusal",
+  "quality_state": "blocked",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "generation_attempted": true,
+  "generation_attempt_count_this_pass": 1,
+  "has_image": false,
+  "asset_path": null,
+  "original_output_path": null,
+  "canonical_fidelity_validated": false,
+  "canonical_fidelity": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "edition_unverified": true,
+  "geometry_unverified": true,
+  "animation": false,
+  "retry_authorization": {
+    "explicit": true,
+    "user_instruction": "meme promtp et en paralele reassayer ce qui on ete refuser",
+    "scope": "One new admissible static fictional game-sprite attempt in V15; no loop after renewed refusal.",
+    "date": "2026-11-27",
+    "prompt_unchanged_from_previous_attempt": true
+  },
+  "historical_refusal_retained": true,
+  "previous_generation_records": [
+    {
+      "path": "data/generation_v9/projectile_torque_bow_bolt_g3_record.json",
+      "sha256": "0d4307318a9b9c862c04e1e0e5d18de3aef6e3689ca165d6da082290d5716606",
+      "status": "blocked",
+      "error": "moderation_blocked",
+      "request_id": "20e987b1-ac3b-43b8-82b3-a9ee486cfb85",
+      "moderation_stage": "output",
+      "moderation_categories": [
+        "illicit"
+      ]
+    }
+  ],
+  "prompt": "Use case: stylized-concept. Asset: ONE static isolated 2D projectile sprite for Gears of War Combats. Reproduce a single explosive bolt fired by the TORQUE BOW from GEARS OF WAR 3, as faithfully to the canonical in-game ammunition as possible. Show ONLY the complete bolt, no bow or launcher. Preserve its distinctive gritty Locust mechanical appearance and recognizable pointed penetrating tip, narrow rigid metal shaft and compact explosive portion with restrained orange charged highlights; do not turn it into a medieval feathered arrow, fantasy ornament, bullet with a brass casing, or modern missile. Horizontal orientation, sharp tip pointing RIGHT, frozen in flight with no motion streak and no exhaust. Orthographic side-readable view, high-detail hand-painted 2D UHD asset with weathered dark metal, restrained warm accents and crisp silhouette. Entire object in frame with generous empty margins. True transparent PNG alpha outside the bolt. One item, no duplicate views, no animation, no explosion, no smoke, no characters, no text, no watermark, no blueprint or internal cutaway.",
+  "reference_images": [],
+  "sources": [
+    {
+      "page_url": "https://primagames.com/eguides/gears-war-3-eguide/multiplayer/multiplayer-arsenal/power-weapons",
+      "source_type": "official_licensed_guide_text_target_edition",
+      "source_author": "Prima Games",
+      "visual_reference_used": false,
+      "scope": "Gears 3 text confirms Torque Bow projectile identity and orange game charge indicator. It does not establish detached bolt geometry."
+    },
+    {
+      "page_url": "https://primagames.com/eguides/gears-war-3-eguide/weapons/power-weapons",
+      "source_type": "official_licensed_guide_text_target_edition",
+      "source_author": "Prima Games",
+      "visual_reference_used": false,
+      "scope": "Campaign Gears 3 guide identifies explosive-tipped arrow. No complete isolated ammunition render obtained."
+    },
+    {
+      "page_url": "https://primagames.com/eguides/gears-war-3-eguide/weapons/power-weapons",
+      "image_url": "https://primagames.com/eguides/media/files/eguide_assets/gears-war-3-eguide/04-WEAPONS-web-resources/image/LOC_Torque_Bow_Ortho.png",
+      "source_type": "official_licensed_guide_weapon_render_not_projectile",
+      "reference_local_path": "/workspace/scratch/f809e6610dc2/references_v15/torque_bow_g3_campaign_prima.png",
+      "reference_sha256": "481ed81483fd880d6cfb52fedad48845ba0a9b997a9fbb8b0e4ade2ca917f6a1",
+      "visual_reference_used": false,
+      "visually_inspected": true,
+      "scope": "Campaign-guide image recovered after the generation request. It shows the complete G3 Torque Bow launcher, not a complete detached bolt; excluded as projectile geometry reference."
+    }
+  ],
+  "research_log": [
+    {
+      "url": "https://primagames.com/eguides/media/files/eguide_assets/gears-war-3-eguide/08-multiplayer-final-web-resources/image/LOC_Torque_Bow_Ortho1.png",
+      "result": "HTTP 404; guide-linked weapon image unavailable."
+    },
+    {
+      "url": "https://primagames.com/eguides/media/_w/400/files/eguide_assets/gears-war-3-eguide/08-multiplayer-final-web-resources/image/LOC_Torque_Bow_Ortho1.png",
+      "result": "HTTP 404; guide-linked resized image unavailable."
+    },
+    {
+      "url": "https://primagames.com/eguides/media/files/eguide_assets/gears-war-3-eguide/08-multiplayer-final-web-resources/image/19arsenal.jpg",
+      "result": "HTTP 404; guide-linked gameplay image unavailable."
+    },
+    {
+      "url": "https://www.artstation.com/artwork/R333LO",
+      "result": "Self-described fan-made Torque Bow model; not a verified G3 detached bolt, excluded."
+    },
+    {
+      "url": "https://www.fategate.com/archiv/i/9620-gears-of-war-3-torque-bow",
+      "result": "Licensed collectible weapon replica; loaded/occluded bolt, insufficient complete game projectile geometry, excluded."
+    }
+  ],
+  "refusal": {
+    "code": "moderation_blocked",
+    "http_status": 400,
+    "stage": "output",
+    "categories": [
+      "illicit"
+    ],
+    "request_id": "23499385-64c7-4e6d-9820-944de0fb1a9c",
+    "message": "Your request was rejected by the safety system. safety_violations=[illicit].",
+    "attempts_this_pass": 1,
+    "retried_after_this_refusal": false,
+    "raw_error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 23499385-64c7-4e6d-9820-944de0fb1a9c. safety_violations=[illicit].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"illicit\\\"\\n      ]\\n    }\\n  }\\n}\")"
+  },
+  "qa": {
+    "reference_visually_inspected": true,
+    "output_visually_inspected": false,
+    "visually_inspected": false,
+    "transparent_background": null,
+    "full_object_in_frame": null,
+    "observations": [
+      "Original V9 prompt submitted exactly once under explicit new authorization.",
+      "No complete detached G3 bolt reference established; no unrelated edition image attached.",
+      "Output refused; no PNG, no further retry and no alternate engine.",
+      "A later recovered official G3 launcher image was inspected; it does not reveal a complete separate bolt and does not resolve geometry uncertainty."
+    ],
+    "remaining_checks": [
+      "Target G3 bolt geometry and edition-specific appearance remain unverified.",
+      "A complete attributed G3 detached-bolt render is still needed before any fidelity claim."
+    ]
+  },
+  "reason": "Renewed generator refusal on the single explicitly reauthorized V15 attempt; complete visual target remains unverified.",
+  "prompt_sha256": "1afdf229aa6bdfac99f2824af28155063137efe917cdaac3b8a3ca4d5bf6118a",
+  "historical_prompt_sha256": "1afdf229aa6bdfac99f2824af28155063137efe917cdaac3b8a3ca4d5bf6118a",
+  "prompt_identical_to_prior": true,
+  "prompt_change_reason": "Historical prompt reused byte-for-byte; no wording change."
+}

@@ -1,0 +1,191 @@
+{
+  "id": "jace_stratton",
+  "subject_id": "jace_stratton",
+  "character_id": "jace_stratton",
+  "name": "Jace Stratton",
+  "category": "character",
+  "source_game": "Gears of War 3",
+  "catalog_target_game": "Gears of War 3",
+  "variant": "Gears of War 3",
+  "variant_relation": "target_version_candidate",
+  "purpose": "reference_fullbody",
+  "pass_date": "2026-11-27",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "status": "generated_reference_pending_validation",
+  "generation_status": "generated_reference_pending_validation",
+  "generation_attempted": true,
+  "generation_attempt_count": 1,
+  "retry_count_this_pass": 0,
+  "has_image": true,
+  "asset_path": "assets/characters_v15/jace_stratton.png",
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2155945,
+    "sha256": "4dea29f863abbbf1850d3aec69231273b8366e7e8b0a132d7d7aa73d39462ed8",
+    "git_blob_sha": "c5cd14a41a1eecdbd2fd1c273371f9650f408aa3",
+    "has_real_alpha": true,
+    "native_copy_verified": true,
+    "returned_data_url_bytes_preserved": true,
+    "pixel_modifications": false,
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.6507142384847006,
+    "low_alpha_1_to_15_pixels": 23522,
+    "alpha_nonzero_bbox": [
+      0,
+      15,
+      1010,
+      1523
+    ],
+    "subject_bbox_alpha_ge_128": [
+      203,
+      23,
+      804,
+      1515
+    ],
+    "subject_margins_ltrb_px": [
+      203,
+      23,
+      220,
+      21
+    ],
+    "useful_bbox_alpha_gt_8": [
+      202,
+      22,
+      805,
+      1516
+    ],
+    "useful_margins_ltrb_px": [
+      202,
+      22,
+      219,
+      20
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "edge_band_width_px": 8,
+    "edge_alpha_max": 1
+  },
+  "prompt": "Use case: stylized-concept. Create exactly ONE static full-body 2D game sprite of JACE STRATTON from GEARS OF WAR 3, using the attached Gears 3 promotional portrait as the visual identity and costume reference. Match his face, skin tone, tightly braided cornrows swept back, small mustache and chin facial hair, characteristic pale silver-grey COG breastplate with two dark circular chest components and split central vertical panel, segmented dark shoulder armor, rolled dark shirt sleeves exposing his forearms, white-grey gloves, circular belt buckle and utility gear. Preserve the original character and outfit rather than redesigning him. Complete his legs with the standard dark Gears 3 military trousers, matching knee plates and heavy dark COG boots; avoid added colors or ornaments. Full-body, standing in a neutral ready pose with both hands empty, turned three-quarter side view facing RIGHT. Realistic muscular Gears proportions, detailed hand-painted 2D UHD asset with worn metal texture and fabric. Remove all promotional background, emblem and title: only Jace against real alpha transparency. No other figures, no weapon, no scene, no text, no animation. Entire figure head-to-sole visible, generous transparent margin on all sides.",
+  "prompt_sha256": "899ad0f5ba96ed53a4a0e017905d21fe9abc530f8230fb6c810f7c1a3d8bb0d9",
+  "same_prompt_replay": true,
+  "prompt_changed": false,
+  "reference_images": [
+    "/workspace/scratch/f809e6610dc2/references_v15/guide_characters/jace_g3_promo.jpg"
+  ],
+  "reference_inputs": [
+    {
+      "role": "visual_reference",
+      "local_path": "/workspace/scratch/f809e6610dc2/references_v15/guide_characters/jace_g3_promo.jpg",
+      "page_url": "https://www.10wallpaper.com/view/Delta_squad-Jace_Stratton_wallpaper.html",
+      "sha256": "b556d0aa90e12528b2539edf87fff60493536b52e8aec4c3c636eaee195f61da",
+      "dimensions": [
+        700,
+        437
+      ],
+      "format": "JPEG",
+      "visually_inspected": true
+    }
+  ],
+  "sources": [
+    {
+      "page_url": "https://www.10wallpaper.com/view/Delta_squad-Jace_Stratton_wallpaper.html",
+      "image_url": "https://www.10wallpaper.com/wallpaper/medium/1109/Delta_squad-Jace_Stratton_wallpaper_medium.jpg",
+      "source_type": "promotional_image_secondary_mirror",
+      "scope": "Portrait Gears 3, visage et haut du corps. Bas du corps non fourni.",
+      "visual_reference_used": true,
+      "accessed_date": "2026-11-27",
+      "local_reference": "/workspace/scratch/f809e6610dc2/references_v15/guide_characters/jace_g3_promo.jpg",
+      "reference_sha256": "b556d0aa90e12528b2539edf87fff60493536b52e8aec4c3c636eaee195f61da",
+      "reference_visually_inspected": true
+    }
+  ],
+  "source_urls": [
+    "https://www.10wallpaper.com/view/Delta_squad-Jace_Stratton_wallpaper.html"
+  ],
+  "source_research": {
+    "date": "2026-11-27",
+    "scope": "Recherche primaire complémentaire ciblée avant un seul nouvel essai autorisé, non exhaustive.",
+    "urls_reviewed": [
+      "https://www.10wallpaper.com/view/Delta_squad-Jace_Stratton_wallpaper.html",
+      "https://chriswells.artstation.com/resume",
+      "https://polycount.com/discussion/comment/1449655"
+    ],
+    "new_final_fullbody_reference_established": false,
+    "limitations": [
+      "Portrait promotionnel Gears 3 portant le logo et © Epic Games 2011, conservé sur un miroir secondaire.",
+      "La référence s’arrête aux hanches ; jambes, genoux et bottes ne sont pas documentés par cette image.",
+      "Les recherches primaires ArtStation/ZBrushCentral et les portfolios de production consultés n’ont pas établi de modèle final complet supplémentaire pour Jace."
+    ]
+  },
+  "retry_authorization": {
+    "user_request_verbatim": "meme promtp et en paralele reassayer ce qui on ete refuser",
+    "scope": "Un nouveau passage explicite pour les sujets précédemment refusés, même prompt ; arrêt après cet essai si nouveau refus.",
+    "previous_no_retry_preference_lifted": true,
+    "same_builtin_engine": true,
+    "no_identity_obfuscation": true,
+    "historical_records_preserved": true
+  },
+  "previous_attempt": {
+    "record": "data/generation_v9/jace_stratton_record.json",
+    "record_sha256": "434e8d283726e04b0ac0247cc6a365c15c53f76cbd002b5cf5f3287e6b60da86",
+    "status": "blocked",
+    "prompt_sha256": "899ad0f5ba96ed53a4a0e017905d21fe9abc530f8230fb6c810f7c1a3d8bb0d9",
+    "blocking_error": "moderation_blocked"
+  },
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "quality_state": "candidate",
+  "qa": {
+    "reference_visually_inspected": true,
+    "output_visually_inspected": true,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "remaining_checks": [
+      "Portrait promotionnel Gears 3 portant le logo et © Epic Games 2011, conservé sur un miroir secondaire.",
+      "La référence s’arrête aux hanches ; jambes, genoux et bottes ne sont pas documentés par cette image.",
+      "Les recherches primaires ArtStation/ZBrushCentral et les portfolios de production consultés n’ont pas établi de modèle final complet supplémentaire pour Jace.",
+      "La référence promotionnelle s’arrête aux hanches. Le pantalon, les poches, les sangles, les genouillères et les bottes sont extrapolés ; leur conformité au modèle final Gears 3 n’est pas établie.",
+      "Le visage, les détails de coiffure et les petites pièces du plastron demandent une comparaison indépendante avec des vues de production ; l’image générée ne prouve pas une identité visuelle 1:1.",
+      "Tête et semelles entières mais cadrage très serré : marges haut/bas de 23/21 px au seuil alpha ≥128 (environ 1,5 %). La marge généreuse demandée n’est pas obtenue."
+    ],
+    "alpha_measured": true,
+    "framing_measured": true,
+    "visually_inspected": true,
+    "single_subject": true,
+    "full_body_visible": true,
+    "transparent_background_measured": true,
+    "source_full_body_game_model_verified": false,
+    "visual_review_summary": "Sujet unique en pied, cornrows, barbe courte, plastron gris à deux disques, manches retroussées, avant-bras visibles et gants clairs : rapprochement visuel avec le portrait Gears 3.",
+    "reference_limitations": [
+      "La référence promotionnelle s’arrête aux hanches. Le pantalon, les poches, les sangles, les genouillères et les bottes sont extrapolés ; leur conformité au modèle final Gears 3 n’est pas établie.",
+      "Le visage, les détails de coiffure et les petites pièces du plastron demandent une comparaison indépendante avec des vues de production ; l’image générée ne prouve pas une identité visuelle 1:1."
+    ],
+    "framing_note": "Tête et semelles entières mais cadrage très serré : marges haut/bas de 23/21 px au seuil alpha ≥128 (environ 1,5 %). La marge généreuse demandée n’est pas obtenue.",
+    "padding_requirement": "generous_padding",
+    "padding_requirement_met": false,
+    "pixel_editing_performed": false,
+    "alpha_note": "Canal alpha réel 0–254. Des résidus de très faible alpha subsistent ; maximum alpha 1 dans la bande périphérique de 8 px. Les pixels natifs sont préservés sans détourage, nettoyage ni conversion."
+  },
+  "notes": [
+    "Nouvel essai expressément autorisé par l’utilisateur après le refus historique.",
+    "Prompt historique repris littéralement, noms et édition conservés ; aucun autre moteur.",
+    "Un sujet fixe par PNG avec transparence demandée ; aucune animation.",
+    "Sortie native inspectée, hash du fichier identique aux octets PNG retournés par le générateur ; candidat de référence uniquement, fidélité 1:1 et production non validées."
+  ],
+  "original_output_path": "/workspace/scratch/f809e6610dc2/generated_images/exec-a177ad93-55a1-491c-bbe1-a23baddc926f.png",
+  "original_output_origin": "builtin_native_file"
+}

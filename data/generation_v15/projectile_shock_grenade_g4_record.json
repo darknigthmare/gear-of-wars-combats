@@ -1,0 +1,104 @@
+{
+  "id": "projectile_shock_grenade_g4",
+  "subject_id": "projectile_shock_grenade_g4",
+  "name": "Shock Grenade",
+  "category": "projectile",
+  "source_game": "Gears of War 4",
+  "variant": "Gears of War 4 — modèle extérieur Shock Grenade vérifié dans le guide officiel",
+  "variant_relation": "target_version_candidate",
+  "purpose": "reference_static_projectile",
+  "pass_date": "2026-11-27",
+  "status": "blocked_generator_refusal",
+  "generation_status": "blocked_generator_refusal",
+  "quality_state": "blocked",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "generation_attempted": true,
+  "generation_attempt_count_this_pass": 1,
+  "has_image": false,
+  "asset_path": null,
+  "original_output_path": null,
+  "canonical_fidelity_validated": false,
+  "canonical_fidelity": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "edition_unverified": false,
+  "animation": false,
+  "retry_authorization": {
+    "explicit": true,
+    "user_instruction": "meme promtp et en paralele reassayer ce qui on ete refuser",
+    "scope": "One new admissible static fictional game-sprite attempt in V15; no loop after renewed refusal.",
+    "date": "2026-11-27",
+    "prompt_unchanged_from_previous_attempt": false
+  },
+  "historical_refusal_retained": true,
+  "previous_generation_records": [
+    {
+      "path": "data/generation_v9/projectile_shock_grenade_g4_record.json",
+      "sha256": "b21efb3c4bb2a4fc17e65b0f2b60fe2df15728ce4c1cc40ee33930828bbda856",
+      "status": "blocked",
+      "error": "moderation_blocked",
+      "request_id": "0d830ee0-74b8-4d5e-8d37-20f8d64a738f",
+      "moderation_stage": "output",
+      "moderation_categories": [
+        "illicit"
+      ]
+    }
+  ],
+  "historical_prompt": "Single static 2D game asset for Gears of War Combats: one Shock Grenade exactly as it appears in Gears of War 4, all its distinctive original shape, chain handle, metallic segmented casing and blue electrically illuminated accents faithfully retained. Render the COMPLETE item, including its handle and connecting chain, in a clear three-quarter side view, with the canister on the right and the handle extending to the left in a relaxed curve. Detailed realistic hand-painted UHD sprite, gritty industrial Gears finish, small readable blue lights, no redesign. One item, one pose, fully within frame, generous transparent margins. True transparent PNG background; no shadow, no scenery, no smoke, no sparks, no discharge, no character, no typography, no labels or watermark.",
+  "prompt": "Single static 2D game asset for Gears of War Combats: one Shock Grenade exactly as it appears in Gears of War 4, all its distinctive original shape, chain handle, metallic segmented casing and blue electrically illuminated accents faithfully retained. Render the COMPLETE item, including its handle and connecting chain, in a clear three-quarter side view, with the canister on the right and the handle extending to the left in a relaxed curve. Detailed realistic hand-painted UHD sprite, gritty industrial Gears finish, small readable blue lights, no redesign. One item, one pose, fully within frame, generous transparent margins. True transparent PNG background; no shadow, no scenery, no smoke, no sparks, no discharge, no character, no typography, no labels or watermark.\n\nAuthoritative visual-reference update: the attached image is the final Shock Grenade render in the official Prima Games Gears of War 4 guide. Follow this exact exterior model. Its compact flattened circular head has stacked dark concentric rims with restrained brass-gold bands; a smooth rigid angled metal linkage joins it to a black knurled cylindrical grip with gold rings and a small angular T-shaped end cap. These observed model details replace the earlier unsupported assumptions of a loose chain and blue-lit segmented canister. Preserve the reference's actual geometry, proportions, colours and connectors. Show that single complete fictional videogame grenade externally, with the circular head toward the RIGHT and the entire handle/linkage toward the LEFT. Remove the source image's white background and cast shadow; retain genuinely transparent surroundings. No diagrams, internal views or functional construction information.",
+  "prompt_changes": [
+    "Appended explicit correction using the newly inspected official G4 model: circular gold-banded head and rigid bent link replace unsupported chain/blue canister assumptions.",
+    "The target name and game edition remain explicit; only visual accuracy was changed."
+  ],
+  "reference_images": [
+    "/workspace/scratch/f809e6610dc2/references_v15/prima_g4_shock_full.jpg"
+  ],
+  "sources": [
+    {
+      "page_url": "https://primagames.com/eguides/gears-of-war-4-eguide/multiplayer/multiplayer-arsenal/grenades",
+      "image_url": "https://primagames.com/eguides/media/files/eguide_assets/gears-of-war-4-eguide/152-233_mp-web-resources/image/38028.jpg",
+      "source_type": "official_licensed_guide_final_model_render",
+      "source_author": "Prima Games",
+      "reference_local_path": "/workspace/scratch/f809e6610dc2/references_v15/prima_g4_shock_full.jpg",
+      "reference_sha256": "85935966af4ad885d4c4eff2daeebd73c94d35b2ecde01707237d252a8619770",
+      "visual_reference_used": true,
+      "visually_inspected": true,
+      "scope": "Complete Shock Grenade render under the explicit Shock Grenade heading in the Gears of War 4 guide. Dark flattened circular head with gold bands, rigid bent metallic connection, knurled handle and angular end cap. Public full-size image recovered from guide link."
+    }
+  ],
+  "refusal": {
+    "code": "moderation_blocked",
+    "http_status": 400,
+    "stage": "output",
+    "categories": [
+      "illicit"
+    ],
+    "request_id": "644b51c3-427a-4df9-b0e0-da062854d4ea",
+    "message": "Your request was rejected by the safety system. safety_violations=[illicit].",
+    "attempts_this_pass": 1,
+    "retried_after_this_refusal": false,
+    "raw_error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 644b51c3-427a-4df9-b0e0-da062854d4ea. safety_violations=[illicit].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"illicit\\\"\\n      ]\\n    }\\n  }\\n}\")"
+  },
+  "qa": {
+    "reference_visually_inspected": true,
+    "output_visually_inspected": false,
+    "visually_inspected": false,
+    "transparent_background": null,
+    "full_object_in_frame": null,
+    "observations": [
+      "New complete primary final-model reference inspected before the sole V15 attempt.",
+      "Output refused. No PNG produced, no further retry and no alternate engine."
+    ],
+    "remaining_checks": [
+      "The historical unsupported geometry has been corrected in the specification, but no generated output exists to validate."
+    ]
+  },
+  "reason": "Renewed generator refusal on the single explicitly reauthorized V15 attempt.",
+  "prompt_sha256": "28224cf22d164bfbbbf94b601dc42e57317ad92c9a97c7d2ccb205a5b89cb49f",
+  "historical_prompt_sha256": "d43561ac669136e02f0f86fc6caf7b70fde7208d70a09f9f9fc8bba8069c29e0",
+  "prompt_identical_to_prior": false,
+  "prompt_change_reason": "Original prompt retained in full, followed by an explicit correction from the official Prima G4 render: flattened circular gold-banded head and rigid angled linkage replace the unsupported chain/blue-canister description.",
+  "prompt_appendix": "\n\nAuthoritative visual-reference update: the attached image is the final Shock Grenade render in the official Prima Games Gears of War 4 guide. Follow this exact exterior model. Its compact flattened circular head has stacked dark concentric rims with restrained brass-gold bands; a smooth rigid angled metal linkage joins it to a black knurled cylindrical grip with gold rings and a small angular T-shaped end cap. These observed model details replace the earlier unsupported assumptions of a loose chain and blue-lit segmented canister. Preserve the reference's actual geometry, proportions, colours and connectors. Show that single complete fictional videogame grenade externally, with the circular head toward the RIGHT and the entire handle/linkage toward the LEFT. Remove the source image's white background and cast shadow; retain genuinely transparent surroundings. No diagrams, internal views or functional construction information.",
+  "prompt_appendix_sha256": "7c024218af2f68858dc95f132647602831ae97e6c4f2f7a22a266365239aa320"
+}

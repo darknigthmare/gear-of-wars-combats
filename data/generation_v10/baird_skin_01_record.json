@@ -1,0 +1,123 @@
+{
+  "id": "baird_skin_01",
+  "subject_id": "baird_skin_01",
+  "character_id": "baird",
+  "costume_id": "baird_skin_01",
+  "name": "Damon Baird — Lieutenant (Judgment)",
+  "category": "costume",
+  "pass_date": "2026-11-25",
+  "source_game": "Gears of War: Judgment (2013)",
+  "catalog_target_game": "Gears of War: Judgment (2013)",
+  "variant": "Lieutenant Baird — modèle original Judgment",
+  "variant_relation": "target_version_candidate",
+  "purpose": "reference_fullbody",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "status": "generated_reference_pending_validation",
+  "generation_status": "generated_reference_pending_validation",
+  "has_image": true,
+  "asset_path": "assets/costumes_v10/baird_skin_01.png",
+  "quality_state": "candidate",
+  "prompt": "Use case: stylized-concept.\nAsset: ONE static transparent full-body costume reference for Damon Baird, costume id baird_skin_01, Lieutenant Judgment.\nTarget edition: original Gears of War: Judgment (2013), young Lieutenant Baird. Input image 1 is the developer-published People Can Fly/Maxon illustration: Baird is the standing blond man on the far right, and the full boots and armor are visible. Ignore the seated woman and every background figure. Input image 2 is a supplementary original Judgment character render on black, used for front armor, face and trousers.\nPreserve the young square-jawed face, short neat swept-up blond hair, light stubble and round blue-lensed goggles worn on the forehead. Match the Judgment uniform precisely: bulky blue-gray chest plate with two dark circular breast discs edged in ochre metal, small central cyan lieutenant/COG emblem, ochre-yellow rank-like markings on the upper shoulders, brown straps with rectangular buckles, layered shoulder armor, gray upper-arm material with straps and insignia, blue-gray armored bracers, fingerless dark gloves, broad belt with cog buckle, muted gray cargo trousers with stitched panels, asymmetric strapped thigh pouches/holster, long blue-gray knee/shin guards and wide ribbed armored boots. Armor should look relatively new with small scratches, as in Judgment, not the heavy damage or homemade pieces of older Baird. No bald Gears 5 Baird, no Gears 5 Kilo Squad remaster, no Gears 3 sleeveless mechanic outfit.\nPose: calm neutral full-body standing, front three-quarter facing screen RIGHT; nose and toes point right, empty relaxed hands at sides. No weapon, no action, no animation. Exactly one complete figure.\nFraming: make figure only 75% of the image height, leave at least 10% transparent margin on every side and above/below all body parts. All hair, hands and soles visible. No crop.\nRendering: realistic game character materials and source proportions, readable neutral studio lighting, genuine transparent alpha background. No environment, floor plane, smoke, halo, shadow cloud, vignette, watermark, label, UI, or added text.",
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-b6365942-54fa-4096-ace5-d8144d4910a9.png",
+  "sources": [
+    {
+      "page_url": "https://www.maxon.net/fr/article/creating-assets-for-epic-games-gears-of-war-judgment",
+      "image_url": "https://maxonnetassets.maxon.net/images/News/201308_Gears_of_War_Judgment_02.jpg",
+      "source_type": "first_party_developer_interview_art",
+      "scope": "People Can Fly présente le développement de Lt. Baird, modèle original Judgment. Illustration incluant Baird debout à droite, tenue entière et bottes visibles.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/207fbd1207b7/research_gears/v10/baird_judgment_pcf_02.jpg",
+      "reference_sha256": "37dcc9c8534c9fc74d3c2baa6520e8c182c8f735750ba07a2faad01bee1175fd"
+    },
+    {
+      "page_url": "https://getwallpapers.com/collection/gears-of-war-judgment-wallpaper",
+      "image_url": "https://getwallpapers.com/wallpaper/full/3/a/2/934803-new-gears-of-war-judgment-wallpaper-1920x1080-lockscreen.jpg",
+      "source_type": "secondary_original_character_render_rehosted",
+      "scope": "Baird Judgment de face jusqu'aux genoux, détails de poitrine, visage, sangles et pantalon concordant avec les sources du studio.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/207fbd1207b7/research_gears/v10/baird_judgment_wallpaper_secondary.jpg",
+      "reference_sha256": "d5e189eb0e7afe7bef72351998584bb380a50c331960e47d32e13723b43424de"
+    },
+    {
+      "page_url": "https://www.maxon.net/fr/article/creating-assets-for-epic-games-gears-of-war-judgment",
+      "image_url": "https://maxonnetassets.maxon.net/images/News/201308_Gears_of_War_Judgment_07.jpg",
+      "source_type": "first_party_developer_interview_art",
+      "scope": "Vue complémentaire inspectée avec Baird à droite ; non fournie au générateur. Le texte précise visage plus jeune, armure presque neuve, sans pièces bricolées.",
+      "visual_reference_used": false,
+      "local_reference": "/workspace/scratch/207fbd1207b7/research_gears/v10/baird_judgment_pcf_07.jpg",
+      "reference_sha256": "f9a542e674a35c84f25bdb47806246269d2f559afb22c8fa5432f89b0b139fde"
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Jeune Baird avec lunettes sur le front, poitrine à deux disques, marques jaunes d'épaule et uniforme Judgment.",
+      "Pose calme vers la droite, mains vides, plein pied ; un seul sujet.",
+      "Les sources originales 2013 ont été privilégiées ; le skin Gears5 Kilo Squad n'a pas servi de référence.",
+      "Le pied complet est fondé sur l'illustration primaire PCF, mais les petites boucles, couture, proportions des bottes et marques doivent être contrôlées avec le modèle du jeu.",
+      "Visage et coiffure sont une reconstruction générative ; aucune identité ou fidélité 1:1 certifiée.",
+      "Alpha réel RGBA : 72.09% des pixels entièrement transparents ; alpha maximal du bord de 8 px : 0. Le halo RVB de l’aperçu ne signifie pas fond opaque.",
+      "Marges de silhouette alpha >=128 (gauche, haut, droite, bas) : [246, 128, 253, 116] px ; les marges verticales de 10% demandées ne sont pas entièrement atteintes, sans partie anatomique coupée."
+    ],
+    "remaining_checks": [
+      "Validation des grades, insignes, sangles et asymétries.",
+      "Comparaison native du visage avec Lieutenant Baird Judgment.",
+      "Valider le cadrage et marges mesurés avant usage production."
+    ],
+    "alpha_measured": true,
+    "framing_measured": true
+  },
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "animation": false,
+  "pose": "static_front_three_quarter_facing_right",
+  "notes": [
+    "L'URL Op2 du catalogue parent confirme seulement Baird, pas ce costume ; source Judgment indépendante utilisée.",
+    "Aucun traitement raster, PNG natif conservé."
+  ],
+  "source_urls": [
+    "https://www.maxon.net/fr/article/creating-assets-for-epic-games-gears-of-war-judgment",
+    "https://getwallpapers.com/collection/gears-of-war-judgment-wallpaper"
+  ],
+  "reference_images": [
+    "/workspace/scratch/207fbd1207b7/research_gears/v10/baird_judgment_pcf_02.jpg",
+    "/workspace/scratch/207fbd1207b7/research_gears/v10/baird_judgment_wallpaper_secondary.jpg"
+  ],
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 1856867,
+    "sha256": "5bfd492b35f9a35a3f0f9291a165e1e13ef14d4bc37b14063e3c47c393ec2b75",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.7209434509277344,
+    "subject_bbox_alpha_ge_128": [
+      246,
+      128,
+      771,
+      1420
+    ],
+    "subject_margins_ltrb_px": [
+      246,
+      128,
+      253,
+      116
+    ],
+    "edge_band_width_px": 8,
+    "edge_alpha_max": 0,
+    "has_real_alpha": true,
+    "native_copy_verified": true
+  },
+  "production_ready": false
+}

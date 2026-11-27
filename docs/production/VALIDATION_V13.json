@@ -1,0 +1,273 @@
+{
+  "version": "V13",
+  "snapshot_date": "2026-11-27",
+  "baseline_commit": "3d12276302c040f05e5452de073dc3a67470554f",
+  "status": "passed",
+  "scope": "Validation technique et documentaire des assets fixes ; aucune certification 1:1, aucun test des fonctions nouvelles de combat.",
+  "new_png_files": 6,
+  "new_png_assets": [
+    {
+      "subject_id": "boss_riftworm_g2",
+      "path": "assets/bosses_v13/riftworm_g2_exterior.png",
+      "sha256": "7a56659e9ed8ef1bf9636c33a73ebcbf99e88c6cf5e5c3f265b4d8a05ce2cd2f",
+      "width": 2172,
+      "height": 724,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_fraction": 0.6159712259495539,
+      "subject_margins_ltrb_px": [
+        33,
+        151,
+        31,
+        172
+      ],
+      "native_bytes_equal": true
+    },
+    {
+      "subject_id": "dizzy_skin_02",
+      "path": "assets/costumes_v13/dizzy_skin_02.png",
+      "sha256": "8da3482a91492596108febeb80ef48de036a4aad2e8ff3aeeae6db11275558a9",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_fraction": 0.6301956176757812,
+      "subject_margins_ltrb_px": [
+        202,
+        47,
+        203,
+        29
+      ],
+      "native_bytes_equal": true
+    },
+    {
+      "subject_id": "hoffman_skin_02",
+      "path": "assets/costumes_v13/hoffman_skin_02.png",
+      "sha256": "10329a5b417ce923a2eef32458c784062243a0d4dd01fe5df780358bc90554cd",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_fraction": 0.6972827911376953,
+      "subject_margins_ltrb_px": [
+        252,
+        69,
+        233,
+        85
+      ],
+      "native_bytes_equal": true
+    },
+    {
+      "subject_id": "jd_skin_02",
+      "path": "assets/costumes_v13/jd_skin_02.png",
+      "sha256": "bbee0761a88c20e2aac82ee921a65cf4351bb2da601c73235d0ba6a3d1d5b339",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_fraction": 0.6243635813395182,
+      "subject_margins_ltrb_px": [
+        185,
+        45,
+        186,
+        30
+      ],
+      "native_bytes_equal": true
+    },
+    {
+      "subject_id": "lahni_skin_01",
+      "path": "assets/costumes_v13/lahni_skin_01.png",
+      "sha256": "1e9359c427ca81256b92aa011e6b838b7e44889ae55309ec38c0ac48527e11f4",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_fraction": 0.6956679026285807,
+      "subject_margins_ltrb_px": [
+        246,
+        19,
+        234,
+        32
+      ],
+      "native_bytes_equal": true
+    },
+    {
+      "subject_id": "locust_drone_skin_02",
+      "path": "assets/costumes_v13/locust_drone_eday_multiplayer.png",
+      "sha256": "b4dab7cad506e2b989a2758c2fbfbcd3f67bb4a226a0ee290f862ab439dcf015",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_fraction": 0.5952714284261068,
+      "subject_margins_ltrb_px": [
+        137,
+        58,
+        149,
+        38
+      ],
+      "native_bytes_equal": true
+    }
+  ],
+  "v13_subject_records": 26,
+  "new_generator_refusals": 2,
+  "historical_refusal_rediscovered": 1,
+  "research_without_generation": 17,
+  "previous_refusals_retained_without_new_record": 15,
+  "all_41_initial_missing_entries_accounted_for": true,
+  "remaining_without_reference": 35,
+  "inventory_totals": {
+    "roster_characters": 36,
+    "characters_with_reference": 36,
+    "characters_missing": 0,
+    "production_character_entries": 20,
+    "production_characters_with_reference": 15,
+    "character_catalog_entries": 56,
+    "catalog_characters_with_reference": 51,
+    "catalog_characters_missing": 5,
+    "character_png_files": 60,
+    "costume_catalog_entries": 85,
+    "costumes_with_reference": 63,
+    "costumes_without_explicit_reference": 22,
+    "costume_png_files": 28,
+    "reused_character_pngs_for_costumes": 35,
+    "boss_catalog_entries": 31,
+    "bosses_with_reference": 27,
+    "boss_png_files": 27,
+    "stage_catalog_entries": 34,
+    "stages_with_reference": 34,
+    "stage_png_files": 35,
+    "projectile_catalog_entries": 8,
+    "projectiles_with_reference": 4,
+    "projectiles_missing": 4,
+    "projectile_png_files": 4,
+    "additional_reference_groups": 1,
+    "active_png_files": 154,
+    "unique_active_png_sha256": 154,
+    "archived_png_files": 15,
+    "canonical_fidelity_validated": 0,
+    "completed_animation_sets": 0
+  },
+  "inventory_warnings": [],
+  "all_production_png_paths_and_sha256_checked": 169,
+  "historical_preservation": {
+    "protected_files_checked": 444,
+    "all_unchanged": true,
+    "production_png_files": 163,
+    "prototype_qa_png_files": 5,
+    "other_protected_files": 276,
+    "bible_v12_sha256": "460589dc411db0f7bdfaf7edd607cdc707a75661e4f2afb8e6b48f9aa4a0f1f7",
+    "prototype_and_historical_deliverables_unchanged": true
+  },
+  "sources": {
+    "visual_inputs_used_unique": 12,
+    "used_reference_bytes_verified": true,
+    "third_party_reference_files_added_to_repo": false
+  },
+  "tests": {
+    "command": "python -m unittest discover -s tests -p test_*.py -v",
+    "passed": 16,
+    "failed": 0,
+    "log": "docs/production/INVENTORY_TESTS_V13.txt",
+    "coverage": [
+      "Catalogue, costumes et projectiles",
+      "Passes du même jour et appel sans argument du wrapper",
+      "Journal sans image modifié, journal supprimé et PNG supprimé rejetés par la construction de bible"
+    ]
+  },
+  "data_validation": {
+    "counts": {
+      "fighters": 36,
+      "costume_records": 75,
+      "moves": 179,
+      "arcade_routes": 36,
+      "combos": 24,
+      "bosses": 24,
+      "boss_phases": 72,
+      "stages": 24,
+      "parallax_layers": 144,
+      "campaign_chapters": 12,
+      "animation_drawings_per_side": 552
+    },
+    "checks": [
+      "Unique identifiers",
+      "Combatant and rival references",
+      "Movement ownership and nonnegative costs",
+      "Boss stage references and phase timings",
+      "Stage layers and tournament rules",
+      "Arcade opponents",
+      "Campaign stage and boss references",
+      "Animation estimate total"
+    ],
+    "errors": [],
+    "status": "passed",
+    "limits": "Does not validate canonical visual fidelity, balance, or browser controls."
+  },
+  "gallery": {
+    "embedded_data_matches_manifests": true,
+    "javascript_syntax_valid": true,
+    "executable_javascript_unchanged": true,
+    "browser_render_tested": false,
+    "mobile_render_tested": false
+  },
+  "local_markdown_links": {
+    "documents_checked": 10,
+    "targets_checked": 776,
+    "broken": 0,
+    "anchors_checked": false
+  },
+  "bible": {
+    "output": "livrables/Gears_of_War_Combats_Bible_v13.md",
+    "bytes": 402524,
+    "words": 57711,
+    "sha256": "8e06213eb24590b0cd7bae02409bd9e814b767fda9008e522d77a0570b1d36e5",
+    "deterministic_rebuild": true,
+    "source_chapters": 6,
+    "source_hashes_checked": 13,
+    "catalog_entries": 214,
+    "guide_originals_unchanged": 3,
+    "requirements": 68,
+    "acceptance_cases_preserved": 40,
+    "extension_acceptance_cases_executed": 0
+  },
+  "independent_review": {
+    "report": "docs/production/REVIEW_V13.md",
+    "technical_findings_resolved": 3,
+    "documentary_clarifications_resolved": 2,
+    "cross_reviewed_new_images": [
+      "boss_riftworm_g2",
+      "lahni_skin_01"
+    ],
+    "bible_toc_anchors_checked": 9,
+    "certification_claimed": false
+  },
+  "same_day_report_path": "docs/production/CONSOLIDATION_2026-11-27_V13.md",
+  "canonical_fidelity_validated": 0,
+  "completed_animation_sets": 0,
+  "runtime_implementation_changed": false,
+  "historical_binaries_rebuilt": false,
+  "publication": {
+    "branch": "codex/gears-static-assets-v9-20261125",
+    "pull_request": 6,
+    "merged_to_main": false,
+    "remote_publication_proof": "À vérifier séparément après création du commit ; ce fichier décrit les octets préparés."
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "boss_kraken",
+  "subject_id": "boss_kraken",
+  "name": "Kraken",
+  "category": "boss",
+  "source_game": "Gears 5",
+  "catalog_target_game": "Gears 5",
+  "variant": "Gears 5 — tête et manteau exposés du Kraken, ensemble central seulement",
+  "purpose": "reference_partial",
+  "variant_relation": "target_version_candidate",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-27",
+  "generation_attempted": true,
+  "has_image": true,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "asset_path": "assets/bosses_v12/kraken_gears5_head_mantle.png",
+  "original_output_path": "/workspace/scratch/3c791759fb15/generated_images/exec-2189acde-e909-47d0-ab1f-dfa2644fcf84.png",
+  "prompt": "Use case: stylized-concept. Asset type: high-detail static raster boss reference for a 2D fighting game. Create exactly ONE Kraken from Gears 5, specifically its exposed CENTRAL HEAD AND MANTLE ASSEMBLY as shown in the attached production model renders by Antoine Di Lorenzo. These are visual references, not parts to collage: image 1 frontal model, image 2 three-quarter model. Preserve the recognisable triangular vertical tooth-lined maw, deep recessed amber-orange internal weak-point sacs, enormous irregular dark brown maroon rocky carapace, very tall single central crest and lateral blunt hornlike armour protrusions, pale leathery ribbed undersides, dense asymmetric surface ridges. Preserve the reference anatomy and colors closely. Show only the supported head/mantle portion, with the short visible arm roots terminating naturally as in the isolated model presentation; do not invent a complete subterranean body, extra eyes, legs, wings or long tentacles. Rotate the same head assembly very slightly toward SCREEN-RIGHT, approximately 20 degrees from the frontal presentation, for readable boss-facing composition. Frame the entire selected head/mantle assembly uncropped inside a landscape canvas with at least 10% transparent margin to every extremity. Neutral studio light with readable surface detail. Detailed game rendering with crisp clean contours. TRUE transparent alpha background, no floor, shadows on background, fog, scenery, particles, text, branding or watermark. One boss portion, one still pose, no montage and no sprite sheet. This is a reference of the visible head assembly, not a depiction of a complete Kraken body.",
+  "revision": {
+    "reason": "Marge insuffisante de la première sortie ; recadrage demandé au générateur, pas de retouche ni agrandissement raster externe.",
+    "prompt": "Edit the attached Kraken head-assembly sprite ONLY to correct framing. Preserve exactly its design, pose, orientation, anatomy, colors, material texture and lighting. Pull the camera back so the existing head/mantle assembly occupies only the central 70% of the total canvas width AND no more than 70% of its total height. All extremities, in particular the tall crest at the top and pointed lower jaw at the bottom, must be separated from the image edges by generous fully transparent empty margins, minimum 15% on all four sides. Remove tiny detached red edge specks. Keep the genuine transparent alpha background. Do not add, extend, redesign or change any anatomy. No typography, no environment, no floor, no cast shadow and no extra objects. One single fixed image.",
+    "previous_output_path": "/workspace/scratch/3c791759fb15/generated_images/exec-df280504-a274-4dc7-b89c-7f75103aecd7.png",
+    "archived_asset_path": "rejected_candidates/bosses_v12/kraken_framing_candidate.png",
+    "archived_output": {
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1727,
+      "height": 911,
+      "bytes": 2006393,
+      "sha256": "1235ba02953bd70173a0f6160d22f05ea103847191d62873acd98134b40b723e",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_fraction": 0.5102768263080651,
+      "subject_bbox_alpha_ge_128": [
+        79,
+        9,
+        1648,
+        904
+      ],
+      "subject_margins_ltrb_px": [
+        79,
+        9,
+        79,
+        7
+      ],
+      "native_copy_verified": true
+    }
+  },
+  "sources": [
+    {
+      "page_url": "https://toninio.artstation.com/projects/3on4GY",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/050/311/746/large/antoine-di-lorenzo-gears-5-kraken-b-01.jpg?1654559331",
+      "source_type": "production_artist_final_model",
+      "scope": "Antoine Di Lorenzo, auteur du modèle, textures et intégration du corps et des tendrils du Kraken. Rendu frontal de l'ensemble tête/manteau. Les longues extensions et le corps complet ne sont pas documentés par ce seul cadrage.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/kraken_body_front.jpg",
+      "reference_sha256": "917bf8a28342fb82c0140128ec905d329c33b4d04ab7a88da7e4877109463e39"
+    },
+    {
+      "page_url": "https://toninio.artstation.com/projects/3on4GY",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/050/311/838/large/antoine-di-lorenzo-gears-5-kraken-b-02.jpg?1654559685",
+      "source_type": "production_artist_final_model",
+      "scope": "Même modèle sous un autre angle ; volumes, bouche, crête et texture du manteau.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/kraken_body_side.jpg",
+      "reference_sha256": "d67b1aa5e27298acff30572953efd86e1251b93f2f7338e1fe0d3c5f1c21974f"
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": false,
+    "selected_portion_in_frame": true,
+    "transparent_background": true,
+    "orientation_facing_right": true,
+    "orientation_note": "Léger trois-quarts vers la droite, tête centrale de boss ; pas un profil complet du corps.",
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Référence partielle du Kraken : tête, manteau et bases des appendices seulement ; aucun corps complet revendiqué.",
+      "Bouche verticale, crête centrale, carapace irrégulière et lumières internes orange reprises des rendus du créateur.",
+      "Marge minimale finale mesurée de 117 pixels ; supérieur au seuil 10 % sur chaque bord mais consigne de 15 % non atteinte en bas.",
+      "Réorientation légère et recadrage ont recomposé certains détails de dentition, crêtes et peau ; conformité 1:1 à contrôler."
+    ],
+    "remaining_checks": [
+      "Comparer les volumes exacts, la dentition et les saccules à des vues orthographiques ou captures complémentaires.",
+      "Produire séparément tendrils et langue, sans les considérer livrés par cette image.",
+      "Contrôler les fines franges colorées avant atlas ; garder les octets natifs."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1727,
+    "height": 910,
+    "bytes": 993708,
+    "sha256": "b87f7aebc35c6fa9b6563060389ea38b2665ab5292a4253b65536167b4f13536",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.7645952773341308,
+    "subject_bbox_alpha_ge_128": [
+      314,
+      168,
+      1410,
+      793
+    ],
+    "subject_margins_ltrb_px": [
+      314,
+      168,
+      317,
+      117
+    ],
+    "native_copy_verified": true
+  }
+}

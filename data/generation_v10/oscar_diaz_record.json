@@ -1,0 +1,111 @@
+{
+  "category": "character",
+  "pass_date": "2026-11-25",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "status": "generated_reference_pending_validation",
+  "generation_status": "generated_reference_pending_validation",
+  "has_image": true,
+  "quality_state": "candidate",
+  "variant_relation": "target_version_candidate",
+  "purpose": "reference_fullbody",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "animation": false,
+  "pose": "static_front_three_quarter_facing_right",
+  "id": "oscar_diaz",
+  "subject_id": "oscar_diaz",
+  "character_id": "oscar_diaz",
+  "name": "Oscar Diaz",
+  "source_game": "Gears 5 — Operation 8 Drop 2",
+  "catalog_target_game": "Gears 5",
+  "variant": "Last Stand Oscar — Operation 8 Drop 2 (2021)",
+  "asset_path": "assets/characters_v10/oscar_diaz.png",
+  "prompt": "Use case: stylized-concept.\nAsset type: one static full-body transparent character reference candidate for Gear of wars combats.\nSubject: Oscar Diaz, precisely the LAST STAND OSCAR model released in Gears 5 Operation 8 Drop 2 (2021), not summer Oscar from Gears of War 4.\nInput image 1: official Operation 8 Drop 2 reveal artwork. Oscar is the large bearded man in the foreground center; ignore the other two characters. Input image 2: Gears 5 in-game LAST STAND OSCAR menu screenshot, used for his face, jacket, trousers and boot-cuff details.\nRecreate Oscar alone: broad stocky older body, tan skin, swept-back dark gray topknot/short shaved sides, thick long gray and black beard with the small golden central tie, serious heavy face. Weathered brown leather long jacket with pale piping along lapels and hem, large turned-up pale collar, gray ribbed layered scarf/high-neck knit, bright short blue rectangular badge on anatomical LEFT chest, worn muted gray-green lower shirt, dark brown/charcoal trousers with simple belt, rugged dark boots with thick fur cuffs. Keep the actual visible details from these references; the soles below the menu crop are necessarily a restrained continuation, not an added armor design.\nComposition: ONE character, head and complete feet included, calm standing front three-quarter view facing screen RIGHT. Nose and toes visibly point right, shoulders rotated naturally, arms relaxed with EMPTY hands; remove the weapon without changing his clothing. No duplicate subject or turnaround. Character occupies only 75–78% of image height with at least 10% transparent padding above hair and below boot soles and 10% at sides.\nStyle: realistic detailed game-character render matching the reference model proportions, no redesign, no chibi or toy joints.\nScene/background: actual transparent alpha, no floor, no halo, no backdrop, no gradient, no scene, no interface, no labels, no added text, no animation. Neutral soft light makes brown leather, knit and beard readable.",
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-36afe11d-7f96-42e3-8b46-d747d685426f.png",
+  "source_urls": [
+    "https://www.gearsofwar.com/en-us/news/operation-8-drop-2-reveal/",
+    "https://www.deviantart.com/spartan22294/art/GEARS-5-Outsider-Oscar-Diaz-895500667"
+  ],
+  "sources": [
+    {
+      "page_url": "https://www.gearsofwar.com/en-us/news/operation-8-drop-2-reveal/",
+      "image_url": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2021/09/op8-drop-2-characters-69cb1e5944e56.jpg",
+      "source_type": "official_publisher_reveal",
+      "scope": "Oscar au premier plan central de l'illustration Operation 8 Drop 2 ; visage et veste de Last Stand Oscar.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/207fbd1207b7/research_gears/v10/oscar_op8d2_official.jpg",
+      "reference_sha256": "ee0383797f06f63fc06137954d998040200fa1c4afcac987ff5f71d9460acaf2"
+    },
+    {
+      "page_url": "https://www.deviantart.com/spartan22294/art/GEARS-5-Outsider-Oscar-Diaz-895500667",
+      "image_url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7d462bf9-74df-4fc2-a16a-43b22e9cbf14/det5oqj-23065eb9-07b5-46f0-8fd3-59065e3b6b9e.png",
+      "source_type": "secondary_in_game_menu_capture",
+      "scope": "Capture publique indexée LAST STAND OSCAR : veste entière, pantalon, hauts de bottes. Page refusée en accès ; média indexé téléchargé et inspecté. Les semelles ne sont pas visibles.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/207fbd1207b7/research_gears/v10/oscar_g5_last_stand_menu_secondary.png",
+      "reference_sha256": "0567ecd4b72272f4e445a3969ed3015674a85cfeade6e4589a5bfa6888169927"
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Version Last Stand Oscar de Gears 5, distincte du modèle été sans veste de Gears of War 4.",
+      "Vue trois-quarts vers la droite, mains vides, un personnage complet ; badge bleu sur poitrine anatomique gauche.",
+      "La source de menu est coupée sous les poignets de fourrure des bottes : bas des bottes et semelles sont une continuation générative, à contrôler.",
+      "La barbe, les accessoires de cheveux et les détails des poches/coutures restent à comparer au modèle exact.",
+      "Alpha extérieur transparent ; pixels de bord de 8 px alpha maximal 1 (quasi transparent).",
+      "Marges alpha >=128 : gauche 244, haut 45, droite 242, bas 23 px ; plein pied présent mais la marge de 10% n'est pas atteinte.",
+      "Aucune fidélité 1:1 ni disponibilité production certifiée."
+    ],
+    "remaining_checks": [
+      "Comparer jambes/bottes non intégralement visibles dans la source menu.",
+      "Vérifier topknot, attaches dorées, exactitude du badge et coupe de veste."
+    ],
+    "alpha_measured": true,
+    "framing_measured": true
+  },
+  "notes": [
+    "Aucun traitement raster ; original PNG natif copié dans le dépôt."
+  ],
+  "reference_images": [
+    "/workspace/scratch/207fbd1207b7/research_gears/v10/oscar_op8d2_official.jpg",
+    "/workspace/scratch/207fbd1207b7/research_gears/v10/oscar_g5_last_stand_menu_secondary.png"
+  ],
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1086,
+    "height": 1448,
+    "bytes": 1223247,
+    "sha256": "0dcea53d6ef8d8d39a7d12b8b1fa2036f77059bf92e4a4abfd6a7dfc47ee32da",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.6654609647650153,
+    "subject_bbox_alpha_ge_128": [
+      244,
+      45,
+      844,
+      1425
+    ],
+    "subject_margins_ltrb_px": [
+      244,
+      45,
+      242,
+      23
+    ],
+    "edge_band_width_px": 8,
+    "edge_alpha_max": 1,
+    "has_real_alpha": true,
+    "native_copy_verified": true
+  },
+  "production_ready": false
+}

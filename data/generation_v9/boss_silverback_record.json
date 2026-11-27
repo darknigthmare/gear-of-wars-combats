@@ -1,0 +1,105 @@
+{
+  "id": "boss_silverback",
+  "name": "Silverback",
+  "source_game": "Gears of War 3",
+  "variant": "Gears of War 3 — exosquelette seul, sans pilote",
+  "prompt": "Use case: identity-preserve. Edit this single isolated Gears of War 3 Silverback exoskeleton image. Remove BOTH visible glove-shaped human hands near the chest-height controls: one on the viewer's left immediately above the left circular waist joint, and one on the viewer's right above the right circular waist joint. The exoskeleton must be completely UNMANNED: no hands, gloves, arms, head, legs or other pilot body parts anywhere. Leave those two operator control grips empty and show only the existing mechanical housing, original empty operator space, rods and joints behind them. These gloves are not parts of the machine and must not be replaced with robot hands. Preserve all other actual Silverback hardware exactly, including both weapon mounts, gun barrels, upper armor, optical lens, circular cyan chest light, leg shield plates with hexagonal cyan lamps, hinges, cables and feet. Preserve the same stationary full-body three-quarter view facing screen-right, same worn ivory-grey metal palette, proportions and rendering. One machine only and one static pose, no weapon firing or visual effects. Keep a genuine transparent alpha background, no backdrop or cast shadow. Give all extremities generous empty transparent margin by pulling the camera back slightly, no clipping. No text, watermark or additional objects.",
+  "sources": [
+    {
+      "page_url": "https://gearsofwar.fandom.com/wiki/Silverback",
+      "image_url": "https://img2.wikia.nocookie.net/__cb20130530021316/gearsofwar/images/8/81/Silverbackrender.png",
+      "source_type": "game_model_render_on_secondary_mirror",
+      "scope": "Rendu Gears3 cadré partiellement : caisse avant, optique, armes, armure et lumières cyan. Référence inspectée avant génération. Bas des pieds absent ; ne certifie pas tout le modèle.",
+      "visual_reference_used": true,
+      "reference_sha256": "139bb8f7089353726f5987afc7f3196d39ae2d200aefe6fe9d103ff96a56a287"
+    },
+    {
+      "page_url": "https://gearsofwar.fandom.com/wiki/Silverback",
+      "image_url": "https://vignette.wikia.nocookie.net/gearsofwar/images/a/a3/Gow-silverback-servicebay.JPG/revision/latest",
+      "source_type": "original_game_screenshot_on_secondary_mirror",
+      "scope": "Capture Gears3 du Silverback vide dans la baie de maintenance. Vue complète mais de faible résolution ; précise espace opérateur et bas des protections. Référence inspectée avant génération.",
+      "visual_reference_used": true,
+      "reference_sha256": "e9c893532103c7fcd524efe92d7310b6a166d721ff794bb5fa344478776f8278"
+    },
+    {
+      "page_url": "https://www.gamedeveloper.com/design/migs-2011-designers-must-champion-their-ideas---epic-s-perry",
+      "source_type": "primary_interview_with_game_designer",
+      "scope": "Intervention du concepteur Lee Perry sur le Silverback, exosquelette pilotable de Gears3. Contexte d'attribution, pas de pixels fournis au générateur.",
+      "visual_reference_used": false
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "orientation_facing_right": true,
+    "no_pilot": true,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Exosquelette Silverback seul, silhouette complète en trois quarts vers la droite, stationnaire. Aucune animation ou deuxième sujet.",
+      "Les deux gants indésirables de la première sortie ont été retirés par imagegen. Les commandes apparaissent vides ; aucun corps, bras ou pilote humain ajouté dans la version finale.",
+      "Châssis ivoire/gris, lentille et cœur cyan, boucliers de jambes aux lampes hexagonales, armes fixes et pieds conservés. La géométrie précise de l'arme, le nombre des lampes, les marquages et les pieds restent à comparer au jeu.",
+      "Référence avant recadrée et capture en baie de maintenance à faible résolution : certaines surfaces cachées, mécanismes et semelles sont reconstitués, leur fidélité 1:1 n'est pas certifiée.",
+      "PNG final natif, copié sans transformation raster externe. Les franges fines du détourage demandent un contrôle sur plusieurs fonds.",
+      "Alpha réel vérifié : 66.47 % des pixels entièrement transparents. Marges gauche/haut/droite/bas au seuil alpha 128 : 208/137/209/129 px."
+    ],
+    "remaining_checks": [
+      "Comparer les montages d'armes, l'espace opérateur vide, les plaques de jambes et les pieds à des captures Gears3 plus précises.",
+      "Contrôler les franges alpha et les marquages avant atlas. Aucune animation produite."
+    ]
+  },
+  "initial_prompt": "Use case: identity-preserve. Create exactly one complete static COG Silverback exoskeleton from Gears of War 3 using the two attached original-game images as visual references. Reference 1 shows the final game armor and forward hardware; reference 2 shows the full empty machine in its maintenance bay, including lower armor and the empty operator space. Reproduce this Gears 3 machine alone, with NO pilot, human body, human arms or hands added. Preserve its original heavy low stocky proportions, weathered ivory-grey and dark metal plates, compact pointed upper front housing with a small cyan optical lens, small yellow caution markings, round cyan chest light, exposed dark cylindrical shoulder joints, arm-mounted original machine gun and rocket launcher assemblies, thick leg armor, large rectangular front leg shields with clustered cyan hexagonal lamps, compact mechanical feet and original cables and hinges. It is the original Gears3 Silverback powered exoskeleton, not a Gears5 skin, giant humanoid robot or invented mech. Show the machine at rest, both feet planted, armor intact, arms lowered slightly, shallow three-quarter view facing screen-right. Keep the original exoskeleton structure and operator recess visibly empty wherever it can be seen. Render every machine component completely in frame, including the top housing, both complete weapons, bottom edges of leg shields and both feet. Match the chipped ivory paint, dull grey steel, dark joint mechanisms and restrained cyan lights from the final model reference. No firing, no explosions, no motion. Detailed realistic game rendering suitable as a single 2D raster sprite, neutral studio lighting. True transparent alpha background; remove the maintenance bay, floor, background colors, sparks, cast shadows, gradients, glow halos and all other scene elements. Portrait framing, pull the camera back so the machine occupies at most 74 percent of the canvas height and width, with generous clear transparent margins all around. One machine, one fixed pose, no people, enemy, collage, animation frames, caption, watermark or text overlay.",
+  "generation_history": [
+    {
+      "step": 1,
+      "role": "initial_generation",
+      "selected": false,
+      "reason": "Deux formes de gants humains indésirables sur les commandes ; sortie non intégrée comme actif final."
+    },
+    {
+      "step": 2,
+      "role": "imagegen_empty_controls_edit",
+      "selected": true,
+      "reason": "Suppression des deux gants et conservation des poignées vides ; aucun pilote visible."
+    }
+  ],
+  "subject_id": "boss_silverback",
+  "category": "boss",
+  "catalog_target_game": "Gears of War 3",
+  "purpose": "reference_fullbody",
+  "variant_relation": "target_version_candidate",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "has_image": true,
+  "asset_path": "assets/bosses_v9/silverback_gears3_fullbody.png",
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1312,
+    "height": 1199,
+    "bytes": 1426057,
+    "sha256": "4596aae0b0b9d0e760083b7c45f2bb2a030fe07bb297544c46df535b076069fa",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.6646913586525357,
+    "subject_bbox_alpha_ge_128": [
+      208,
+      137,
+      1103,
+      1070
+    ],
+    "subject_margins_ltrb_px": [
+      208,
+      137,
+      209,
+      129
+    ]
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "id": "creature_ticker_eday",
+  "subject_id": "creature_ticker_eday",
+  "name": "Ticker organique — Gears of War: E-Day",
+  "category": "boss",
+  "encounter_role": "small_enemy",
+  "source_game": "Gears of War: E-Day",
+  "catalog_target_game": "Gears of War: E-Day",
+  "variant": "Ticker E-Day — modèle organique sans harnais ni bombe, partie inférieure du rendu final",
+  "variant_relation": "target_version_candidate",
+  "purpose": "reference_fullbody",
+  "pass_date": "2026-11-27",
+  "status": "generated_reference_pending_validation",
+  "generation_status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "generation_attempted": true,
+  "generation_attempt_count": 1,
+  "has_image": true,
+  "asset_path": "assets/creatures_v14/ticker_eday.png",
+  "original_output_path": "/workspace/scratch/f809e6610dc2/generated_images/exec-3dbb7c1c-9f06-48f2-9e94-763e1de4f61f.png",
+  "prompt": "Use case: stylized-concept.\nAsset type: a single static transparent PNG enemy reference for a 2D fighting-game catalogue.\nCreate exactly ONE Ticker from Gears of War: E-Day, faithfully matching the SMALLER creature in the LOWER HALF of the attached Antoine Verney-Carron production render. This lower creature is the only anatomical and colour reference. The large creature across the upper half is a Reaver: exclude it completely, including its tentacles and anatomy.\nScene/backdrop: true transparent alpha outside the Ticker.\nSubject: the complete bare organic E-Day Ticker, without equipment. Preserve the reference model's low squat four-limbed posture, broad rounded back and layered grey-olive dorsal plates, wedge-shaped heavy overhanging head, wide toothed jaw, wrinkled neck folds, porous bony shoulder surfaces, long slim front limbs with stretched finger-like claws, and shorter bent hind legs. Closely match the exact lengths, joint positions, claw shapes, dorsal ridges and small spikes visible on that lower model. Do not redesign it.\nPose: facing RIGHT, a readable side / slight three-quarter view close to the lower reference model's crouched pose, appropriate for a 2D combat sprite. One pose. Keep the entire mouth, back, all limbs and every claw tip within the frame.\nComposition: landscape canvas, centre the single creature. The complete silhouette must occupy no more than 80–84 percent of canvas width. Keep at least 8 percent genuinely empty transparent margin on the left and right and at least 10 percent above and below. No cropped extremities.\nStyle, lighting and materials: detailed game-authentic 3D realism rendered to a 2D raster asset; muted grey, olive-grey and pale brown organic skin and shell, leathery wrinkles, pitted shoulder texture, ivory teeth and darker claw tips exactly as the lower source model. Soft neutral diffuse lighting, restrained specular highlights.\nConstraints: only this E-Day organic model, not a Tactics Ticker. No harness, bomb, explosive containers, pipes, machinery, armour accessories, artificial lights or equipment, because none are on this source model. No Reaver, tentacles, extra limbs, second creature, invented tail, particles or scene. No ground, floor shadow, background glow, text, logo, captions, signature, watermark, border or contact sheet.",
+  "prompt_sha256": "899a4301f229560290cf9c12fda8c67129e598e7c7668dcdb9b8307c8e7089d7",
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1774,
+    "height": 887,
+    "bytes": 1543009,
+    "sha256": "ae7291da0c64bb5fc40de236f2f686d447da162ecab06334ccd68dac503ff03e",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.6356853155119229,
+    "alpha_nonzero_bbox": [
+      0,
+      0,
+      1746,
+      865
+    ],
+    "subject_bbox_alpha_ge_128": [
+      114,
+      53,
+      1661,
+      850
+    ],
+    "subject_margins_ltrb_px": [
+      114,
+      53,
+      113,
+      37
+    ],
+    "has_real_alpha": true,
+    "native_copy_verified": true
+  },
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "source_urls": [
+    "https://antoineverneycarron.artstation.com/projects/KR3KG4",
+    "https://www.artstation.com/artwork/KR3KG4"
+  ],
+  "sources": [
+    {
+      "page": "https://antoineverneycarron.artstation.com/projects/KR3KG4",
+      "alternate_page": "https://www.artstation.com/artwork/KR3KG4",
+      "title": "Gears of War: E-Day",
+      "author": "Antoine Verney-Carron",
+      "studio": "Mighty Canvas",
+      "credited_contribution": "Ticker/Reaver: texturing",
+      "edition": "Gears of War: E-Day",
+      "type": "primary production artist portfolio, final textured model render",
+      "downloaded_html": "/workspace/scratch/f809e6610dc2/references_v14/wretch_eday_artist.html"
+    }
+  ],
+  "reference_images": [
+    "/workspace/scratch/f809e6610dc2/references_v14/ticker_eday_artist.jpg"
+  ],
+  "input_images": [
+    {
+      "path": "/workspace/scratch/f809e6610dc2/references_v14/ticker_eday_artist.jpg",
+      "role": "Only lower Ticker; complete final coloured organic production model. Upper Reaver excluded.",
+      "url": "https://cdna.artstation.com/p/assets/images/images/103/353/664/large/antoine-verney-carron-tc.jpg?1792435473",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "a8212f5d5dec825c5de8d8857384d54bf8a292a31a585eebf444f70019cf277f",
+      "artist_caption": "Ticker/Reaver: texturing",
+      "visually_inspected": true
+    }
+  ],
+  "qa": {
+    "path": "/workspace/scratch/f809e6610dc2/generated_v14/ticker_eday.png",
+    "native_source": "/workspace/scratch/f809e6610dc2/generated_images/exec-3dbb7c1c-9f06-48f2-9e94-763e1de4f61f.png",
+    "dimensions": [
+      1774,
+      887
+    ],
+    "mode": "RGBA",
+    "bytes": 1543009,
+    "sha256": "ae7291da0c64bb5fc40de236f2f686d447da162ecab06334ccd68dac503ff03e",
+    "native_pixels_unchanged": true,
+    "alpha_range": [
+      0,
+      255
+    ],
+    "alpha_bboxes": {
+      "0": [
+        0,
+        0,
+        1746,
+        865
+      ],
+      "1": [
+        113,
+        50,
+        1662,
+        855
+      ],
+      "8": [
+        113,
+        52,
+        1662,
+        852
+      ],
+      "32": [
+        113,
+        52,
+        1661,
+        850
+      ],
+      "128": [
+        114,
+        53,
+        1661,
+        850
+      ],
+      "250": [
+        144,
+        60,
+        1652,
+        848
+      ]
+    },
+    "alpha_0_pixel_count": 1000275,
+    "alpha_1_pixel_count": 17629,
+    "alpha_255_pixel_count": 776,
+    "partial_alpha_pixel_count": 572487,
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "edge_alpha_max": {
+      "left": 1,
+      "top": 1,
+      "right": 0,
+      "bottom": 0
+    },
+    "visible_margin_percent_alpha_gt_8": {
+      "left": 6.36978579481398,
+      "top": 5.862457722660654,
+      "right": 6.313416009019165,
+      "bottom": 3.9458850056369785
+    },
+    "eight_percent_margin_all_sides": false,
+    "image_visually_inspected": true,
+    "visual_inspection_basis": "Sortie imagegen inspectée par le générateur ; copie et planche finale inspectées à nouveau par root après retour de l’environnement.",
+    "subject_count": 1,
+    "pose_count": 1,
+    "full_body_visible": true,
+    "facing": "right, slight three-quarter",
+    "anatomy_and_identity_observations": [
+      "Single lower-source Ticker, low crouch, segmented broad back, heavy wedge head, toothed jaw, organic neck folds, porous shoulder plates.",
+      "Two long front limbs, nearer bent hind leg and partly occluded far hind foot retained as in source.",
+      "Muted grey-olive and pale brown palette retained.",
+      "No Reaver, tentacles, harness, bomb, containers, machinery, artificial lights, text or logos.",
+      "All visible anatomical tips inside frame."
+    ],
+    "caveats": [
+      "Requested 8 percent useful margins not achieved: 6.37% left, 6.31% right, 5.86% top, 3.95% bottom.",
+      "Alpha=1 residue touches upper/left edges; useful alpha>8 silhouette fully contained.",
+      "Far hind leg partly occluded by body; no independent rear or orthographic reference.",
+      "Fine teeth, pores, plate contours and spines are approximations. Not certified 1:1 or official extraction.",
+      "One attempt; no retry, padding, resizing or alpha cleanup."
+    ],
+    "recommended_use": "Reference candidate with exact E-Day edition and margin reservation preserved.",
+    "remaining_checks": [
+      "Requested 8 percent useful margins not achieved: 6.37% left, 6.31% right, 5.86% top, 3.95% bottom.",
+      "Alpha=1 residue touches upper/left edges; useful alpha>8 silhouette fully contained.",
+      "Far hind leg partly occluded by body; no independent rear or orthographic reference.",
+      "Fine teeth, pores, plate contours and spines are approximations. Not certified 1:1 or official extraction.",
+      "One attempt; no retry, padding, resizing or alpha cleanup."
+    ],
+    "observations": [
+      "Single lower-source Ticker, low crouch, segmented broad back, heavy wedge head, toothed jaw, organic neck folds, porous shoulder plates.",
+      "Two long front limbs, nearer bent hind leg and partly occluded far hind foot retained as in source.",
+      "Muted grey-olive and pale brown palette retained.",
+      "No Reaver, tentacles, harness, bomb, containers, machinery, artificial lights, text or logos.",
+      "All visible anatomical tips inside frame."
+    ],
+    "root_visual_review": [
+      "PNG et planche finale inspectés visuellement après retour de l’environnement.",
+      "Carapace, pattes avant et arrière, plis et dentition reconnaissables ; microdétails et marges restent à contrôler."
+    ]
+  },
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "notes": [
+    "Un seul Ticker organique ; la partie supérieure de la planche représente un Reaver et n’est pas reproduite.",
+    "Version E-Day, distincte du modèle Tactics. Aucun harnais ni explosif ajouté sans preuve."
+  ]
+}

@@ -10,6 +10,10 @@ Trois statuts accompagnent le contenu : une référence canonique décrit ce qui
 
 ### Livrables et lecture
 
+**Mise à jour V12 — 27 novembre 2026.** Le [chapitre d'intégration du guide et des deux extensions](combat_extensions.md) rattache les trois sources communes à cette bible : taunts et sélection, assistances et tag, supers/finishers d'équipe, clashes, entités persistantes, stages bonus, espace d'archives, slots verrouillés et règles de déblocage. Les [originaux et leur provenance](guides/combat/README.md), le [rapport d'écart](production/GUIDE_INTEGRATION_V12.md) et la [matrice des 68 rubriques](production/GUIDE_REQUIREMENTS_V12.csv) distinguent documentation, production et fonctionnement vérifié.
+
+La phase courante reste la production des **assets fixes manquants**. Les animations des extensions sont spécifiées pour la suite ; leur présence dans les guides ne les rend pas produites ou jouables. Les jalons d'animation décrits plus bas restent des objectifs futurs. Les nouveaux contrats d'équipe et d'accès sont des adaptations conçues pour ce mode, avec les restrictions d'époque et de lore exposées dans le chapitre V12.
+
 La bible principale présente les décisions et les règles. Les annexes détaillent le roster, les coups, les 36 parcours arcade, les 24 boss, les 24 stages et les 12 chapitres. Le classeur de production permet de filtrer les entrées et de suivre les assets. Les fichiers JSON constituent les données structurées. Le prototype HTML permet d'essayer un sous-ensemble des mécaniques ; la disponibilité de chaque fonction est indiquée dans son fichier de lecture.
 
 Un combattant inscrit au roster n'est pas compté comme animé ou intégré. Un visuel généré n'est pas compté comme un costume terminé. Un décor complet ne vaut pas livraison de ses couches de parallaxe. Ces distinctions structurent le suivi de production et évitent de masquer le travail restant.

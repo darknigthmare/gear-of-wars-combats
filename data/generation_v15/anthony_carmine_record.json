@@ -1,0 +1,211 @@
+{
+  "id": "anthony_carmine",
+  "subject_id": "anthony_carmine",
+  "character_id": "anthony_carmine",
+  "name": "Anthony Carmine",
+  "category": "character",
+  "source_game": "Gears of War (2006)",
+  "catalog_target_game": "Gears of War (2006)",
+  "variant": "Original Anthony Carmine — référence figurine licenciée NECA SDCC 2008",
+  "variant_relation": "licensed_figure_reference_candidate",
+  "purpose": "reference_fullbody",
+  "pass_date": "2026-11-27",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "status": "generated_reference_pending_validation",
+  "generation_status": "generated_reference_pending_validation",
+  "generation_attempted": true,
+  "generation_attempt_count": 1,
+  "retry_count_this_pass": 0,
+  "has_image": true,
+  "asset_path": "assets/characters_v15/anthony_carmine.png",
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 1747793,
+    "sha256": "647f95ac3eef91da1fee6a831482d9390572f8a0a77d614b38f8153fb74e5dd2",
+    "git_blob_sha": "e9c9c6a5967d9fe8ae13799b1c06f16e2ff04065",
+    "has_real_alpha": true,
+    "native_copy_verified": true,
+    "returned_data_url_bytes_preserved": true,
+    "pixel_modifications": false,
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.7217515309651693,
+    "low_alpha_1_to_15_pixels": 21545,
+    "alpha_nonzero_bbox": [
+      0,
+      0,
+      1002,
+      1471
+    ],
+    "subject_bbox_alpha_ge_128": [
+      228,
+      153,
+      770,
+      1464
+    ],
+    "subject_margins_ltrb_px": [
+      228,
+      153,
+      254,
+      72
+    ],
+    "useful_bbox_alpha_gt_8": [
+      227,
+      152,
+      771,
+      1465
+    ],
+    "useful_margins_ltrb_px": [
+      227,
+      152,
+      253,
+      71
+    ],
+    "corner_alpha": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "edge_band_width_px": 8,
+    "edge_alpha_max": 1
+  },
+  "prompt": "Use case: stylized-concept.\nAsset type: one static full-body transparent character reference candidate.\nPrimary request: Anthony Carmine in the original Gears of War (2006) outfit. Input image 1 is a licensed NECA 2008 Anthony Carmine figure promo photo, a reference for the original design and complete clothing silhouette, NOT a request to make a toy. This predates Gears of War 2. Use this image only; do not substitute the Gears 5 remaster, Benjamin's helmet, Clayton's bare arms, or Black Steel colors.\nSubject details: male COG soldier with face completely concealed by Anthony's specific closed helmet: two separate blue eye lenses, angular metal brow with circular blue center lamp, side circular units, curved tubes alongside the lower face, centered long rectangular vented mouth/chin plate. Worn muted blue and gunmetal rounded shoulder plates; two large dark circular chest plates inset into blue armor with small central black COG skull insignia. Full black textured sleeves, neck collar, armored forearms, dark gloves. Heavy utility belt with circular buckle and pouches, dark trousers, asymmetric thigh holster and cargo pouch, old blue-and-black knee pads, heavy plated shin guards and ribbed broad military boots exactly following the reference. Retain human anatomy; remove toy articulation seams, shiny molded plastic and oversized toy joints. No exposed face. No extra futuristic armor.\nComposition: one character only, relaxed static standing pose, front three-quarter turned screen RIGHT, helmet gaze and toes clearly to the right, empty hands resting loosely at sides. Entire head and both soles visible. Keep subject only 75% of total image height, with at least 10% truly empty alpha margin above head, below both feet, left and right. No gun and no detached accessories.\nStyle/medium: realistic game-character render with the weight and textures of original-era Gears armor, faithful to visible design; neutral even light. Scene/backdrop: real transparent alpha, no background, no ground, no shadow cloud, no halo, no platform, no labels, no text, no logo overlay, no watermark. Single still, not sprite sheet and not animation.",
+  "prompt_sha256": "89469e8b5e8e489a28768333a02e1b599df1cc0951617812f1101406617fc9ae",
+  "same_prompt_replay": true,
+  "prompt_changed": false,
+  "reference_images": [
+    "/workspace/scratch/f809e6610dc2/references_v15/guide_characters/anthony_neca2008_front.jpg"
+  ],
+  "reference_inputs": [
+    {
+      "role": "visual_reference",
+      "local_path": "/workspace/scratch/f809e6610dc2/references_v15/guide_characters/anthony_neca2008_front.jpg",
+      "page_url": "https://toynewsi.com/139-12938",
+      "sha256": "2d810870add68630f2279a7ff0a6d01bef1b3ab5134acc90b2d2b9a0aede857b",
+      "dimensions": [
+        800,
+        1502
+      ],
+      "format": "JPEG",
+      "visually_inspected": true
+    }
+  ],
+  "sources": [
+    {
+      "page_url": "https://toynewsi.com/139-12938",
+      "image_url": "https://i.toynewsi.com/g/generated/NECA/Gears_Of_War/08_SDCC/Carmine1__scaled_800.jpg",
+      "source_type": "licensed_figure_publisher_promo_rehosted",
+      "scope": "Photos promotionnelles NECA du 12 mai 2008 pour Anthony Carmine du premier Gears ; figurine complète, pas un modèle extrait du jeu.",
+      "visual_reference_used": true,
+      "reference_sha256": "2d810870add68630f2279a7ff0a6d01bef1b3ab5134acc90b2d2b9a0aede857b",
+      "historical_local_reference": "/workspace/scratch/207fbd1207b7/research_gears/v10/anthony_neca2008_front.jpg",
+      "accessed_date": "2026-11-27",
+      "local_reference": "/workspace/scratch/f809e6610dc2/references_v15/guide_characters/anthony_neca2008_front.jpg",
+      "reference_visually_inspected": true
+    },
+    {
+      "page_url": "https://toynewsi.com/139-12938",
+      "image_url": "https://i.toynewsi.com/g/generated/NECA/Gears_Of_War/08_SDCC/GOWcarmineBack__scaled_800.jpg",
+      "source_type": "licensed_figure_packaging",
+      "scope": "Packaging inspecté confirmant le nom Anthony Carmine ; non fourni au générateur.",
+      "visual_reference_used": false,
+      "reference_sha256": "e9f6676ee1164487da4b1f0b7203d571301063f0e91f4085ec76197837f7731b",
+      "historical_local_reference": "/workspace/scratch/207fbd1207b7/research_gears/v10/anthony_neca2008_back.jpg",
+      "accessed_date": "2026-11-27",
+      "local_reference": "/workspace/scratch/f809e6610dc2/references_v15/guide_characters/anthony_neca2008_back.jpg",
+      "reference_visually_inspected": true
+    }
+  ],
+  "source_urls": [
+    "https://toynewsi.com/139-12938"
+  ],
+  "source_research": {
+    "date": "2026-11-27",
+    "scope": "Recherche primaire complémentaire ciblée avant un seul nouvel essai autorisé, non exhaustive.",
+    "urls_reviewed": [
+      "https://toynewsi.com/139-12938",
+      "https://store.necaonline.com/blogs/news/174247431-download-our-full-gears-of-war-and-predators-lines-visual-guides-free"
+    ],
+    "new_final_fullbody_reference_established": false,
+    "limitations": [
+      "Référence en pied d’une figurine licenciée NECA SDCC 2008, pas une extraction du modèle final 2006.",
+      "Photographies et packaging nomment Anthony ; aucune substitution par Benjamin, Gears 5 ou Black Steel.",
+      "La silhouette, les matières et proportions du jeu exact restent à vérifier ; retrait des articulations de figurine demandé par le prompt historique."
+    ]
+  },
+  "retry_authorization": {
+    "user_request_verbatim": "meme promtp et en paralele reassayer ce qui on ete refuser",
+    "scope": "Un nouveau passage explicite pour les sujets précédemment refusés, même prompt ; arrêt après cet essai si nouveau refus.",
+    "previous_no_retry_preference_lifted": true,
+    "same_builtin_engine": true,
+    "no_identity_obfuscation": true,
+    "historical_records_preserved": true
+  },
+  "previous_attempt": {
+    "record": "data/generation_v10/anthony_carmine_record.json",
+    "record_sha256": "3589f6135d6348fad8f6df06f013496445c963b283929875098bdd37c80073be",
+    "status": "blocked",
+    "prompt_sha256": "89469e8b5e8e489a28768333a02e1b599df1cc0951617812f1101406617fc9ae",
+    "blocking_error": {
+      "code": "moderation_blocked",
+      "stage": "output",
+      "categories": [
+        "other"
+      ],
+      "request_id": "6a37a82f-77d0-4094-bd3d-d0a8854ff973",
+      "message": "Your request was rejected by the safety system."
+    }
+  },
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "quality_state": "candidate",
+  "qa": {
+    "reference_visually_inspected": true,
+    "output_visually_inspected": true,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "remaining_checks": [
+      "Référence en pied d’une figurine licenciée NECA SDCC 2008, pas une extraction du modèle final 2006.",
+      "Photographies et packaging nomment Anthony ; aucune substitution par Benjamin, Gears 5 ou Black Steel.",
+      "La silhouette, les matières et proportions du jeu exact restent à vérifier ; retrait des articulations de figurine demandé par le prompt historique.",
+      "La seule référence complète est une figurine licenciée NECA de 2008 ; proportions, matériaux et détails de jeu ne sont pas établis par un modèle final 2006.",
+      "Le casque, ses raccords, l’emblème, les attaches et les bottes comportent une interprétation générative ; aucun de ces détails n’est certifié 1:1.",
+      "Tête et chaussures entières. Au seuil alpha ≥128, marges haut/bas de 153/72 px sur 1536 px : la marge inférieure de 4,7 % ne respecte pas les 10 % demandés."
+    ],
+    "alpha_measured": true,
+    "framing_measured": true,
+    "visually_inspected": true,
+    "single_subject": true,
+    "full_body_visible": true,
+    "transparent_background_measured": true,
+    "source_full_body_game_model_verified": false,
+    "visual_review_summary": "Sujet unique en pied, mains vides, casque fermé à optiques bleues, deux disques de plastron et armure bleue : cohérence générale avec la figurine de référence, sans validation du modèle de jeu 2006.",
+    "reference_limitations": [
+      "La seule référence complète est une figurine licenciée NECA de 2008 ; proportions, matériaux et détails de jeu ne sont pas établis par un modèle final 2006.",
+      "Le casque, ses raccords, l’emblème, les attaches et les bottes comportent une interprétation générative ; aucun de ces détails n’est certifié 1:1."
+    ],
+    "framing_note": "Tête et chaussures entières. Au seuil alpha ≥128, marges haut/bas de 153/72 px sur 1536 px : la marge inférieure de 4,7 % ne respecte pas les 10 % demandés.",
+    "padding_requirement": "10_percent_all_sides",
+    "padding_requirement_met": false,
+    "pixel_editing_performed": false,
+    "alpha_note": "Canal alpha réel 0–254. Des résidus de très faible alpha subsistent ; maximum alpha 1 dans la bande périphérique de 8 px. Les pixels natifs sont préservés sans détourage, nettoyage ni conversion."
+  },
+  "notes": [
+    "Nouvel essai expressément autorisé par l’utilisateur après le refus historique.",
+    "Prompt historique repris littéralement, noms et édition conservés ; aucun autre moteur.",
+    "Un sujet fixe par PNG avec transparence demandée ; aucune animation.",
+    "Sortie native inspectée, hash du fichier identique aux octets PNG retournés par le générateur ; candidat de référence uniquement, fidélité 1:1 et production non validées."
+  ],
+  "original_output_path": "/workspace/scratch/f809e6610dc2/generated_v15/anthony_carmine_native.png",
+  "original_output_origin": "unmodified_tool_data_url_png_bytes"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "reyna_skin_02",
+  "subject_id": "reyna_skin_02",
+  "character_id": "reyna",
+  "costume_id": "reyna_skin_02",
+  "name": "Reyna — version humaine future à définir",
+  "category": "costume",
+  "source_game": "Édition humaine non définie dans le catalogue",
+  "catalog_target_game": "Non défini ; parent catalogue Gears 5 multijoueur",
+  "variant": "Intitulé de planification ambigu ; aucune nouvelle apparence officielle identifiée par cet intitulé",
+  "variant_relation": "target_version_requested",
+  "purpose": "reference_fullbody",
+  "pass_date": "2026-11-27",
+  "status": "reference_research_pending",
+  "generation_status": "reference_research_pending",
+  "quality_state": "reference_research_pending",
+  "generation_attempted": false,
+  "generation_attempt_count": 0,
+  "has_image": false,
+  "asset_path": null,
+  "original_output_path": null,
+  "prompt": null,
+  "output": null,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "sources": [
+    {
+      "page_url": "https://www.xbox.com/fr-fr/games/store/gears-5-operation-6-bundle/9nblc6fv6spg",
+      "source_type": "first_party_publisher_announcement",
+      "scope": "Source exacte du catalogue : lot du 2 mars 2021 incluant Reine Reyna, Hoffman et Dévôt. Cette fiche ne documente aucune Reyna humaine et ne choisit ni la version Gears 4 ni la version Tactics.",
+      "visual_reference_used": false,
+      "accessed_date": "2026-11-27"
+    },
+    {
+      "page_url": "https://store.steampowered.com/news/posts/?appids=1097840&enddate=1615832334&feed=steam_community_announcements",
+      "source_type": "first_party_publisher_announcement",
+      "scope": "Annonce officielle Operation 6 : Queen Reyna transformée après sa mort, ancienne dirigeante Outsider ; confirme le contexte de la Reine, sans définir un skin humain futur.",
+      "visual_reference_used": false,
+      "accessed_date": "2026-11-27"
+    }
+  ],
+  "notes": [
+    "Absence de source suffisante pour cet intitulé précis, sans prétendre démontrer l’inexistence de toute variante humaine dans la franchise.",
+    "Aucun prompt envoyé, aucune génération tentée, aucun PNG."
+  ],
+  "qa": {
+    "visually_inspected": false,
+    "output_visually_inspected": false,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Le parent catalogue précise de ne pas mélanger les apparences humaines Gears 4/Tactics avec la Reine Reyna.",
+      "La formule « version humaine future » décrit une intention de production, sans édition, costume ou apparence officielle déterminés. Elle ne prouve pas une nouvelle forme canonique future.",
+      "Aucune substitution de version humaine Gears 4 ou Tactics et aucune invention de costume."
+    ],
+    "remaining_checks": [
+      "Définir explicitement quelle Reyna humaine canonique, de quel jeu et de quelle tenue, cet ID doit représenter.",
+      "Réunir ensuite des vues complètes du modèle final exact et clarifier le kit de gameplay distinct déjà mentionné par le catalogue."
+    ]
+  },
+  "blocking_reason": "catalogue_edition_ambiguity",
+  "source_urls": [
+    "https://www.xbox.com/fr-fr/games/store/gears-5-operation-6-bundle/9nblc6fv6spg",
+    "https://store.steampowered.com/news/posts/?appids=1097840&enddate=1615832334&feed=steam_community_announcements"
+  ],
+  "reference_images": []
+}

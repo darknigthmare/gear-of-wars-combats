@@ -1,0 +1,87 @@
+{
+  "id": "reyna_human_g4_clean",
+  "subject_id": "reyna_skin_02",
+  "pass_date": "2026-11-27",
+  "engine": "image_gen_builtin",
+  "operation": "edit_background_alpha_and_margins",
+  "status": "generated_edit_not_selected",
+  "generation_attempted": true,
+  "generation_attempt_count": 1,
+  "retries": 0,
+  "has_image": true,
+  "source_initial": "rejected_candidates/costumes_v14/reyna_human_g4_initial.png",
+  "source_initial_sha256": "21adc45fa2889c4dd72e6959e0f97653eb83b5c471ff7514b52ac40569da6715",
+  "prompt": "Use case: background-extraction. Edit target: the supplied single PNG of human Reyna Diaz from Gears of War 4. This is a cleanup of an already approved subject, not a redesign. Change ONLY the background/alpha and canvas placement. Remove the entire diffuse brown/gray halo, glow, haze, shadow and all background color surrounding the character, including gaps between arms and torso, between the legs, under the knife, and around hair. The empty area must be fully transparent alpha 0, with only a tight 1–2 pixel antialiased edge immediately along the physical silhouette. Preserve the exact same face, expression, hairstyle, braid over anatomical right shoulder, tattoo on anatomical left arm, skin, clothing, gold motifs, pendant, belts, bracers, knife, boots, proportions, pose, viewing direction, lighting on the subject and all fine subject details. Do not repaint or simplify the costume, do not mirror it, do not change the knife, do not alter the character's identity. Uniformly scale and center the entire unchanged subject if required so there is comfortable empty transparent margin of at least 8 percent on every side; keep her full hair, knife and both whole boots in frame. Preserve portrait aspect ratio. Output exactly one crisp full-body transparent RGBA PNG, no floor, no glow, no vignette, no drop shadow, no scene, no text, no checkerboard texture baked into pixels.",
+  "asset_path": "rejected_candidates/costumes_v14/reyna_human_g4_clean.png",
+  "original_output_path": "/workspace/scratch/f809e6610dc2/generated_images/exec-f2d24325-54b6-46f4-9ddc-65a14f11b872.png",
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2048901,
+    "sha256": "9a556bfb42c72d72d37c40276791bf784339b8fb1793c0b0f1949354b8c1fa99",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.6614844004313151,
+    "alpha_nonzero_bbox": [
+      33,
+      20,
+      1002,
+      1536
+    ],
+    "subject_bbox_alpha_ge_128": [
+      76,
+      33,
+      880,
+      1526
+    ],
+    "subject_margins_ltrb_px": [
+      76,
+      33,
+      144,
+      10
+    ],
+    "has_real_alpha": true,
+    "native_copy_verified": true
+  },
+  "qa": {
+    "reference_visually_inspected": true,
+    "output_visually_inspected": true,
+    "single_subject": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "selected": false,
+    "automatic_replacement": false,
+    "production_ready": false,
+    "canonical_fidelity_validated": false,
+    "fidelity_1to1_certified": false,
+    "requested_cleanup_fully_achieved": false,
+    "observations": [
+      "Le grand halo brun visible dans certains aperçus correspond principalement à des valeurs RGB sous alpha=0, y compris dans l'original ; il ne doit pas être décrit comme un fond opaque visible en composition correcte.",
+      "Six points dans les régions périphériques (180,500), (200,300), (300,250), (700,100), (780,1100), (200,1250) ont alpha=0 dans les deux images ; leurs RGB sont colorés mais entièrement invisibles en composition alpha.",
+      "Les vrais pixels d'alpha 1–15 passent de 27020 à 25157 ; présence résiduelle périphérique à mesurer séparément des RGB transparents.",
+      "L'édition n'a pas recentré/réduit suffisamment le sujet : marge utile haute 32 px, basse 10 px, loin des 8 % demandés.",
+      "La pose, la natte droite et le tatouage gauche sont conservés globalement ; certains motifs, reflets, coutures, boucles et traits du visage ont été repeints. L'édition n'est donc pas une modification exclusive de l'alpha.",
+      "Le fichier original est conservé et recommandé comme candidat principal ; cette édition demeure un essai de nettoyage non sélectionné."
+    ],
+    "remaining_checks": [
+      "Conserver la réserve sur marges et faible alpha périphérique de l'original, sans affirmer un halo opaque.",
+      "Vérifier les détails visuels de l'original au modèle final ; aucune certification 1:1."
+    ]
+  },
+  "source_page": "https://www.zbrushcentral.com/t/gears-of-war-4-art-dump/206321",
+  "source_image": "https://www.zbrushcentral.com/uploads/default/original/3X/3/3/33ce37a0270d862ad45ef6131e76f2b24e56380f.jpeg",
+  "animation": false,
+  "category": "costume",
+  "active": false,
+  "selected": false,
+  "archive_status": "archived_not_active",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "prompt_sha256": "c7177d8ef0adaa0a394a73575c2b9b551b0c655a3f3e6450ae27b9b08ed67ad7",
+  "subsequent_selection_note": "L’original était préféré à cette correction alpha à ce stade ; une correction de coiffure ultérieure est maintenant sélectionnée après comparaison au modèle officiel."
+}

@@ -1,0 +1,137 @@
+{
+  "id": "del_skin_01",
+  "subject_id": "del_skin_01",
+  "character_id": "del",
+  "costume_id": "del_skin_01",
+  "name": "Del Walker — Outsider Gears 4, candidat de concept",
+  "category": "costume",
+  "source_game": "Gears of War 4 — concept de préproduction Outsider",
+  "catalog_target_game": "Gears of War 4",
+  "variant": "Del Outsider — concept Goran Bukvic/Microsoft, corroboration partielle campagne",
+  "variant_relation": "edition_unverified",
+  "asset_path": "assets/costumes_v12/del_skin_01.png",
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE static transparent full-body 2D game costume candidate.\nPrimary request: Del Walker in Outsider clothing from Gears of War 4, costume id del_skin_01.\nReference roles: Image 1 is Microsoft's published full-body Outsider Del concept art; image 2 is the Gears 4 concept artist Goran Bukvic's official front/back development sheet, where the two fully colored figures at RIGHT are the same Del. These provide the complete outfit shape. Image 3 is an actual campaign model capture: Del is the young Black man at the FAR RIGHT, behind the gray-bearded Marcus. Use the campaign view to anchor facial identity, modest facial hair and visible clothing colors. Output exactly ONE Del in ONE pose, no other person and no concept sheet.\nMatch Del's athletic build, short coarse dark hair with raised textured top and closely clipped sides, dark skin, eyebrow piercing and subtle facial hair seen in the campaign view. Preserve the worn rust-brown leather sleeveless vest, layered pale gray long-sleeved shirt with mustard/olive outer short sleeves, yellow-lensed goggles hanging at the upper chest, black diagonal utilitarian harness running from the ANATOMICAL LEFT shoulder toward the RIGHT waist, metal shoulder attachment with small blue light, brown belt and sheath at the right hip, dark olive vertically ribbed work trousers, rugged black lace-up mid-calf boots and black wrist wraps on bare hands. Use the concept front/back only for the lower-body details not fully visible in the campaign capture. Do not give him JD's face, blond hair, heavy COG body armor or Gears 5 costume. No new insignia or gadgets.\nPose: calm neutral combat guard, knees lightly bent, empty hands separated from the torso, whole body mostly SIDE VIEW with a small front three-quarter angle facing screen RIGHT. No held gun, no attack, no projectile.\nRendering: realistic worn Gears leather, fabric and hardware as a crisp hand-painted 2D game cutout under neutral studio light, readable silhouette.\nFraming: exactly one full figure including all hair, hands and both boot soles, no crop; figure uses only 75% of image height, at least 10% clean transparent padding on all sides.\nActual transparent alpha background, opaque subject and clean antialiased edge. No scenery, floor, cast shadow, fog, halo, gradient, title, logos, watermark, UI, second character, sheet or animation.",
+  "sources": [
+    {
+      "page_url": "https://www.gamempire.it/gears-of-war-4-rilasciate-nuove-immagini/",
+      "image_url": "https://www.gamempire.it/wp-content/uploads/2016/04/gears-of-war-4-11.jpg",
+      "source_type": "publisher_released_preproduction_concept_rehosted_by_press",
+      "scope": "Concept Microsoft en pied de Del Outsider publié en avril 2016. Silhouette complète ; visage et couleurs du haut du corps varient par rapport à la capture de campagne. Ce n'est pas un rendu final.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v12_costumes/del_outsider_microsoft_press.jpg",
+      "reference_sha256": "bd2e089c670fd13393e3dbae77c1d9b38341625a54955bb4a26ddd4b059df4fe"
+    },
+    {
+      "page_url": "https://crazybrush.artstation.com/projects/5ZNDw",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/003/822/140/large/goran-bukvic-crazybrush-del-46.jpg?1605538253",
+      "source_type": "first_party_concept_artist_development_sheet",
+      "scope": "Planche Gears 4 de Goran Bukvic : figures colorées avant/arrière de Del à droite, utilisée pour la géométrie complète du vêtement et des bottes. Document de développement, pas modèle final.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v12_costumes/del_outsider_concept.jpg",
+      "reference_sha256": "dab078541ab6f839f333a2749121a6e85efe22e29f92c4ea7dd8f6b3deb918ea"
+    },
+    {
+      "page_url": "https://www.gamespot.com/articles/gears-of-war-4s-campaign-mixes-guns-and-gore-with-/1100-6443693/",
+      "image_url": "https://www.gamespot.com/wp-content/uploads/original/1560/15603561/3131268-gears4_squad.jpg",
+      "source_type": "secondary_press_in_game_campaign_capture",
+      "scope": "Capture de campagne Gears of War 4 à l'armurerie de Marcus : JD deuxième depuis la gauche, Del à l'extrême droite. Visages, couleurs et accessoires visibles comparés aux concepts ; bas des bottes hors cadre.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v12_costumes/outsider_squad_campaign_capture.jpg",
+      "reference_sha256": "987ceb9144253b40ac77e11ea2c9a7049d812647111436f175efd255691ca2a3"
+    },
+    {
+      "page_url": "https://www.youtube.com/watch?v=oubS8ZB5Ias",
+      "image_url": "https://i.ytimg.com/vi/oubS8ZB5Ias/maxresdefault.jpg",
+      "source_type": "secondary_in_game_cutscene_thumbnail",
+      "scope": "Vignette de cinématique Comic-Con 2016 consultée uniquement pour corroborer vestes, couleurs et harnais Outsider de JD/Del ; seule la vignette a été inspectée, pas la vidéo complète. Pieds hors cadre. Non transmise au générateur.",
+      "visual_reference_used": false,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v12_costumes/outsider_raid_gameplay_thumbnail.jpg",
+      "reference_sha256": "571e19e32f2b299860850f450af4cb161129159a041eab65eaa0ddb0b46ede64"
+    }
+  ],
+  "qa": {
+    "observations": [
+      "Un seul Del en pied, regard et bottes vers la droite ; veste brun rouille, lunettes jaunes au cou, harnais à lumière bleue, haut à manches superposées, pantalon côtelé sombre et bottes lacées présents.",
+      "La coupe de cheveux, le visage et la barbe sont interprétés ; la barbe générée est plus marquée que celle de la capture de campagne. Les manches supérieures olive restent à comparer à la teinte moutarde du jeu.",
+      "Le vêtement complet dérive des concepts avant/arrière ; la capture finale corrobore seulement les parties visibles, sans certifier le bas du corps.",
+      "Pose surtout de trois-quarts frontal, mains ouvertes : adaptation à la garde latérale encore à valider.",
+      "RGBA 1024 × 1536, 70,73 % alpha=0. Bordure de 8 px alpha maximum 1.",
+      "Silhouette complète ; marges alpha >=128 [196,86,218,48] px. L'objectif de 10 % de marge verticale n'est pas atteint."
+    ],
+    "remaining_checks": [
+      "Comparer et corriger si nécessaire la ressemblance du visage, la longueur des cheveux et la barbe par rapport au modèle final Gears 4.",
+      "Vérifier les couleurs, la disposition exacte des bretelles, le fourreau, les coutures et les bottes sur le modèle final complet.",
+      "Valider la pose latérale de combat, les marges et le rendu des contours alpha dans le moteur."
+    ],
+    "reference_visually_inspected": true,
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "alpha_measured": true,
+    "framing_measured": true
+  },
+  "notes": [
+    "Candidat de concept Outsider, corroboré seulement sur les parties visibles dans des captures de campagne. Le modèle final complet n'est pas validé ; édition à vérifier, fidélité 1:1 non certifiée.",
+    "Les détails des jambes et bottes proviennent principalement du concept de préproduction. Aucune confusion avec les rendus COG Armoured, explicitement exclus.",
+    "Une seule tentative imagegen. PNG natif copié octet pour octet, sans retouche, agrandissement, animation ni spritesheet."
+  ],
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 1784811,
+    "sha256": "4f385264e9311cebc9fdb78329f3384c6b461292f9876eaabb2f078a0820fd13",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.7072982788085938,
+    "subject_bbox_alpha_ge_128": [
+      196,
+      86,
+      806,
+      1488
+    ],
+    "subject_margins_ltrb_px": [
+      196,
+      86,
+      218,
+      48
+    ],
+    "edge_band_width_px": 8,
+    "edge_alpha_max": 1,
+    "has_real_alpha": true,
+    "native_copy_verified": true
+  },
+  "original_output_path": "/workspace/scratch/3c791759fb15/generated_images/exec-cdae37cd-a3cb-441c-9355-abc54e3c13cf.png",
+  "has_image": true,
+  "status": "generated_reference_pending_validation",
+  "generation_status": "generated_reference_pending_validation",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "generation_attempts": 1,
+  "pass_date": "2026-11-27",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "pose": "static_front_three_quarter_facing_right",
+  "quality_state": "candidate",
+  "purpose": "reference_fullbody",
+  "source_urls": [
+    "https://www.gamempire.it/gears-of-war-4-rilasciate-nuove-immagini/",
+    "https://crazybrush.artstation.com/projects/5ZNDw",
+    "https://www.gamespot.com/articles/gears-of-war-4s-campaign-mixes-guns-and-gore-with-/1100-6443693/",
+    "https://www.youtube.com/watch?v=oubS8ZB5Ias"
+  ],
+  "reference_images": [
+    "/workspace/scratch/3c791759fb15/research_v12_costumes/del_outsider_microsoft_press.jpg",
+    "/workspace/scratch/3c791759fb15/research_v12_costumes/del_outsider_concept.jpg",
+    "/workspace/scratch/3c791759fb15/research_v12_costumes/outsider_squad_campaign_capture.jpg"
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "pass_date": "2026-11-27",
+  "project": "Gears of War Combats",
+  "scope": "Revue ciblée des costumes Anya Contrôle G2, RAAM’s Shadow G3, Myrrah multijoueur G5, Sam vétérane/pilote G4",
+  "generation_count": 0,
+  "new_validated_fullbody_references": 0,
+  "repository_modified": false,
+  "records": [
+    {
+      "id": "anya_skin_01",
+      "edition": "Gears of War 2",
+      "status": "reference_research_pending",
+      "prior_record_read": "data/generation_v13/anya_skin_01_record.json",
+      "result": "Édition G2 conservée. Les nouvelles recherches ramènent des variantes G3/Judgment ou des captures partielles ; aucun modèle final G2 en pied établi.",
+      "sources": [
+        {
+          "url": "https://chriswells.artstation.com/resume",
+          "type": "first_party_artist",
+          "decision": "L’artiste rattache Anya à Gears3, donc exclu de G2."
+        },
+        {
+          "url": "https://www.gamersyde.com/news_epic_games_interview-7253_en.html",
+          "type": "developer_interview_republished_search_excerpt",
+          "decision": "Modèle Anya modifié pour G2 confirmé textuellement ; pas de vue intégrale."
+        },
+        {
+          "url": "https://www.gow-series.com/en",
+          "image_url": "https://media.gow-series.com/images/site/newsimages/gears-of-war-judgment-anya-stroud-preorder.jpg",
+          "type": "image_search_candidate",
+          "decision": "Précommande Judgment, autre édition et costume ; exclu."
+        }
+      ],
+      "remaining_requirement": "Vue finale Contrôle G2 avec jambes, chaussures et proportions, sans fusion G1/G2 ni remplacement par Civilian Anya G3."
+    },
+    {
+      "id": "raam_skin_02",
+      "edition": "Gears of War 3 — RAAM’s Shadow",
+      "status": "reference_research_pending",
+      "prior_record_read": "data/generation_v13/raam_skin_02_record.json",
+      "result": "Deux nouvelles pistes de captures presse attribuées au développeur identifiées, mais non inspectables : HTTP403. Aucun corps entier exact validé.",
+      "sources": [
+        {
+          "url": "https://www.trueachievements.com/n6664/gears-3-raams-shadow-screenshots-released",
+          "type": "publisher_screenshots_republished",
+          "date": "2011-12-08",
+          "decision": "Résultat de recherche confirme les captures du développeur ; ouverture web HTTP403. Aucun contournement."
+        },
+        {
+          "url": "https://news.softpedia.com/news/Second-Gears-of-War-3-DLC-RAAM-s-Shadow-Gets-First-Details-229463.shtml",
+          "image_url": "https://news-cdn.softpedia.com/images/news2/Second-Gears-of-War-3-DLC-RAAM-s-Shadow-Gets-First-Details-2.jpg",
+          "type": "publisher_press_material_republished",
+          "date": "2011-10-24",
+          "decision": "Article lu, image créditée EpicGames. Téléchargement de l'image HTTP403 ; corps/cadrage non inspectés."
+        },
+        {
+          "url": "https://www.artstation.com/artwork/ay5Zk",
+          "type": "first_party_artist_wrong_edition",
+          "author": "Jonathan Fletcher",
+          "decision": "Modèle UltimateEdition remanié ; exclu du DLC2011."
+        }
+      ],
+      "remaining_requirement": "Rendu final du DLC2011 complet, dont bas des jambes et pieds, réellement inspectable.",
+      "historical_refusal_retained": "RAAM2006, aucune relance."
+    },
+    {
+      "id": "myrrah_skin_02",
+      "edition": "Gears 5 — multijoueur standard Opération3",
+      "status": "reference_research_pending",
+      "prior_record_read": "data/generation_v13/myrrah_skin_02_record.json",
+      "result": "Aucune nouvelle vue primaire intégrale G5. Les recherches trouvent des portraits connus, MyrrahG3/UE, cosplay et fonds d'écran sans provenance démontrée.",
+      "sources": [
+        {
+          "url": "https://chriswells.artstation.com/resume",
+          "type": "first_party_artist_wrong_edition",
+          "decision": "Myrrah de Gears3, non G5."
+        },
+        {
+          "url": "https://www.geeksagogo.com/single-post/2017/03/23/the-making-of-myrrah-gears-of-war",
+          "type": "cosplay_and_older_model_reproduction",
+          "decision": "Planche Gears3 datée2011 et cosplay ; exclus."
+        },
+        {
+          "url": "https://wallpapers.com/background/iphone-xs-gears-of-war-5-background-664-x-1080-ogd0wcd1wdhiy2i6.html",
+          "type": "secondary_wallpaper_unverified",
+          "decision": "Le titre Gears5 ne démontre pas l'édition/provenance du modèle ; non utilisé."
+        }
+      ],
+      "remaining_requirement": "Capture de personnalisation ou rendu primaire standard G5 en pied.",
+      "historical_refusal_retained": "MyrrahG3, aucune relance."
+    },
+    {
+      "id": "sam_skin_02",
+      "edition": "Gears of War 4 — vétérane/pilote de campagne",
+      "status": "reference_research_pending",
+      "prior_record_read": "data/generation_v13/sam_skin_02_record.json",
+      "result": "Aucun rendu primaire intégral de la Sam âgée/pilote G4 établi. Les portfolios retournent SamG3 ; index de captures et galeries ne prouvent pas la tenue entière.",
+      "sources": [
+        {
+          "url": "https://chriswells.artstation.com/resume",
+          "type": "first_party_artist_wrong_edition",
+          "decision": "Travail Sam explicitement Gears3 ; exclu."
+        },
+        {
+          "url": "https://www.gamespot.com/articles/look-at-all-these-gears-of-war-4-campaign-high-res/1100-6439201/",
+          "type": "publisher_images_republished_search_metadata",
+          "decision": "Galerie mélangeant concepts et captures ; pas de modèle final SamG4 en pied identifié."
+        },
+        {
+          "url": "https://www.mobygames.com/game/81083/gears-of-war-4/screenshots/",
+          "type": "secondary_game_capture_index",
+          "decision": "Aucune vue primaire intégrale SamG4 établie."
+        },
+        {
+          "url": "https://gearsofwar.fandom.com/wiki/Samantha_Byrne",
+          "type": "secondary_search_metadata_only",
+          "decision": "La galerie distingue Sam42AE des versions précédentes ; aucune image complète inspectée cette passe."
+        }
+      ],
+      "remaining_requirement": "Vue finale de la Sam âgée/pilote G4, sans substitution par V-Day/ArmoredSam multijoueur ou SamG3."
+    }
+  ],
+  "constraints": {
+    "static_only": true,
+    "one_subject_per_png": true,
+    "never_retry_refusal": true,
+    "no_concept_substitution": true,
+    "no_edition_substitution": true
+  },
+  "audit_limit": "Les quatre journaux V13 ont été lus. Un audit rg global supplémentaire a échoué parce que l’environnement est devenu indisponible. Aucun appel imagegen de ces quatre cibles n'a été effectué.",
+  "file_write_state": "Préparé comme blob GitHub ; inclusion finale par le commit coordonné de la PR6."
+}

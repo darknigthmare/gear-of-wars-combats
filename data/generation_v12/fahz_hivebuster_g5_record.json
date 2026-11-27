@@ -1,0 +1,86 @@
+{
+  "id": "fahz_hivebuster_g5",
+  "subject_id": "fahz_hivebuster_g5",
+  "character_id": "fahz",
+  "costume_id": "fahz_hivebuster_g5",
+  "name": "Fahz Chutani — Hivebuster Fahz",
+  "category": "costume",
+  "pass_date": "2026-11-27",
+  "source_game": "Gears 5 — Operation 6",
+  "catalog_target_game": "Gears 5",
+  "variant": "Hivebuster Fahz — skin multijoueur Operation 6",
+  "variant_relation": "target_version_requested",
+  "purpose": "reference_fullbody",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "status": "blocked_generator_refusal",
+  "generation_status": "blocked_generator_refusal",
+  "has_image": false,
+  "asset_path": null,
+  "quality_state": "blocked",
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE isolated static full-body costume reference / 2D fighting-game sprite, a single character per image.\nPrimary request: Faithfully depict Hivebuster Fahz (Fahz Chutani), Gears 5 Operation 6 multiplayer costume, costume id fahz_hivebuster_g5. Use the provided images as design references, not as an image to copy as a collage.\nReference roles: image 1 is the OFFICIAL Operation 6 Tour of Duty board; the Hivebuster Fahz card is the blue card at the far top right. Image 2 is an in-game-model close view of exactly Hivebuster Fahz, authoritative for the specific chest vest and rolled-sleeve shirt. Image 3 is the original production Fahz model by Kenneth Doyle / The Coalition, authoritative for facial identity, body proportions, trouser/leg silhouette and the RIGHT prosthetic lower leg, NOT for the blue campaign torso armor.\nPreserve Fahz's medium brown skin, short dark mohawk with close-shaved sides, neatly shaped full black beard, reddish-dark wraparound sunglasses, robust muscular build. Exact Hivebuster upper costume: blue-gray fabric short placket shirt with sleeves rolled above elbows; olive and graphite compact armored vest with two large exposed circular silver-edged upper-chest components, pale khaki shield-shaped center plate and small pale insignia, thick dark shoulder straps with metal tabs and compact blue status dots; no oversized blue COG shoulder pauldrons. Worn dark tactical gloves, functional belt, pouches. Use dark quilted blue-gray utility trousers, conservative gray-olive knee plates. Fahz has a mechanical prosthetic RIGHT lower leg and mechanical foot with exposed ankle hinge, whereas the LEFT foot is a normal heavy boot. Keep this anatomical asymmetry; do not give him two prosthetic legs or two boots.\nPose: quiet planted neutral fighting stance, mostly SIDE VIEW with a slight front three-quarter angle, whole body and head facing screen RIGHT, nose and toes pointing right. Arms bent in a calm empty-handed guard with hands visibly separated from torso. No held weapon, no attack, no effects.\nHigh-detail realistic Gears materials rendered as a clean hand-painted 2D cutout, crisp silhouette with faithful proportions. Neutral light.\nFraming: the entire character including hair, fingers and both foot soles must fit; character occupies no more than 78% of image height, with at least 10% empty transparent padding above and below, and generous margins on both sides.\nBackground: actual transparent alpha, fully opaque body with antialiased edges. No floor, no ground shadow, no smoke, no backdrop, no gradient, no title, no logo, no watermark, no UI, no frame. Exactly ONE character and ONE static pose. Do not include any cards or labels from the references.",
+  "sources": [
+    {
+      "page_url": "https://store.steampowered.com/news/posts/?appids=1097840&enddate=1615235906&feed=steam_community_announcements",
+      "image_url": "https://clan.akamai.steamstatic.com/images/35210771/f8676389b44d26696c93a3a7f128e59b293c653d.png",
+      "source_type": "first_party_publisher_announcement",
+      "scope": "Annonce officielle Gears 5 Operation 6 du 1 mars 2021 ; skin Hivebuster Fahz nommé et illustré dans la carte Sergeant de la planche Tour of Duty. Le portrait montre surtout le torse.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v12_costumes/operation6_tour_of_duty_official.png",
+      "reference_sha256": "493be3d97a2424317ab74be2561cf5c0344588a733b0a6426f2a0279892b4e32"
+    },
+    {
+      "page_url": "https://www.youtube.com/watch?v=53GczcfTpH0",
+      "image_url": "https://i.ytimg.com/vi/53GczcfTpH0/maxresdefault.jpg",
+      "source_type": "secondary_in_game_capture_thumbnail",
+      "scope": "Vignette de SASxSH4DOWZ, vidéo Hivebuster Fahz du 5 mars 2021 : modèle du costume en gros plan, torse et tête. Vidéo non visionnée intégralement, seule la vignette a été inspectée.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v12_costumes/fahz_gameplay_thumbnail.jpg",
+      "reference_sha256": "5f827cba8b452c20aa2f3f006e4946aebf7e4c34dd27b32c9ed489bb4e4eb0b7"
+    },
+    {
+      "page_url": "https://kend.artstation.com/projects/e0rE5D",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/020/582/718/large/kenneth-doyle-fahz.jpg?1568335553",
+      "source_type": "first_party_character_artist",
+      "scope": "Rendu en pied de Fahz par Kenneth Doyle, artiste du corps/textures. Modèle standard Gears 5 utilisé seulement pour identité, proportions et jambe droite prothétique, pas comme preuve de la tenue Hivebuster.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v12_costumes/fahz_model_official.jpg",
+      "reference_sha256": "ec7139ea7e60dcb74c9e01571b26cc9490639139165bd53191998a8a7fd45b37"
+    }
+  ],
+  "qa": {
+    "reference_visually_inspected": true,
+    "output_visually_inspected": false,
+    "observations": [
+      "Sources officielles et vignette de capture du costume inspectées avant l'unique appel.",
+      "Refus au stade sortie : aucun PNG reçu ; aucun réessai ni reformulation.",
+      "Le modèle standard ne certifie pas les éventuelles différences du bas du costume Hivebuster."
+    ]
+  },
+  "refusal": {
+    "code": "moderation_blocked",
+    "stage": "output",
+    "categories": [
+      "other"
+    ],
+    "request_id": "4217f130-d4d8-47fd-b604-fcd8c9033adb",
+    "message": "Your request was rejected by the safety system.",
+    "attempts": 1,
+    "retried": false
+  },
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "pose": "static_side_three_quarter_facing_right",
+  "source_urls": [
+    "https://store.steampowered.com/news/posts/?appids=1097840&enddate=1615235906&feed=steam_community_announcements",
+    "https://www.youtube.com/watch?v=53GczcfTpH0",
+    "https://kend.artstation.com/projects/e0rE5D"
+  ],
+  "reference_images": [
+    "/workspace/scratch/3c791759fb15/research_v12_costumes/operation6_tour_of_duty_official.png",
+    "/workspace/scratch/3c791759fb15/research_v12_costumes/fahz_gameplay_thumbnail.jpg",
+    "/workspace/scratch/3c791759fb15/research_v12_costumes/fahz_model_official.jpg"
+  ]
+}

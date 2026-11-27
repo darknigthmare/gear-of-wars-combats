@@ -1,0 +1,96 @@
+{
+  "category": "costume",
+  "pass_date": "2026-11-27",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "purpose": "reference_fullbody",
+  "id": "sam_skin_02",
+  "subject_id": "sam_skin_02",
+  "costume_id": "sam_skin_02",
+  "character_id": "sam",
+  "name": "Samantha Byrne — vétérane Gears of War 4",
+  "source_game": "Gears of War 4",
+  "catalog_target_game": "Gears of War 4",
+  "variant": "Sam vétérane/pilote — campagne Gears 4",
+  "variant_relation": "target_version_unconfirmed",
+  "asset_path": null,
+  "prompt": null,
+  "has_image": false,
+  "status": "reference_research_pending",
+  "generation_status": "reference_research_pending",
+  "generation_attempted": false,
+  "generation_attempts": 0,
+  "generation_attempt_count_this_pass": 0,
+  "engine": null,
+  "generation_method": "reference_research_only",
+  "quality_state": "reference_incomplete",
+  "reason": "Le costume demandé est Sam vétérane/pilote dans la campagne Gears of War 4. La source Gears 3 du catalogue, les modèles de Sam Gears 3 et les skins Gears 5 ne documentent pas cette tenue exacte. La recherche n'a pas établi de modèle final Gears 4 en pied ; visage âgé, tenue de pilote, bas du corps et bottes restent insuffisamment documentés. Aucune génération ne remplace cette cible par une autre édition.",
+  "missing_reference_reason": "Le costume demandé est Sam vétérane/pilote dans la campagne Gears of War 4. La source Gears 3 du catalogue, les modèles de Sam Gears 3 et les skins Gears 5 ne documentent pas cette tenue exacte. La recherche n'a pas établi de modèle final Gears 4 en pied ; visage âgé, tenue de pilote, bas du corps et bottes restent insuffisamment documentés. Aucune génération ne remplace cette cible par une autre édition.",
+  "notes": [
+    "La présence de Sam dans Gears 4 et les variantes multijoueur réutilisées ne suffisent pas à identifier une tenue de campagne complète.",
+    "Aucune image de Sam Gears 4 n'a pu être inspectée en pied pendant cette passe ; aucun appel au générateur."
+  ],
+  "sources": [
+    {
+      "page_url": "https://gearsofwar.fandom.com/wiki/Samantha_Byrne",
+      "source_type": "secondary_character_index_search_metadata_only",
+      "scope": "Métadonnées de recherche sur la présence de Sam dans Gears 4 ; aucune vue finale complète inspectée. Cette source secondaire ne valide pas la tenue en pied.",
+      "visual_reference_used": false,
+      "reference_visually_inspected": false
+    },
+    {
+      "page_url": "https://maurymountain.artstation.com/projects/5Br2vE",
+      "source_type": "first_party_artist_wrong_edition_excluded",
+      "scope": "Projet explicitement intitulé Gears of War 3 Sam ; exclu de la cible Gears 4 vétérane. Aucun visuel de ce projet employé.",
+      "visual_reference_used": false,
+      "reference_visually_inspected": false,
+      "excluded_from_target": true
+    }
+  ],
+  "research_log": [
+    {
+      "url": "https://gearsofwar.fandom.com/es/wiki/Samantha_Byrne",
+      "result": "Une légende Gears 4 apparaît dans l'index de recherche ; la page directe répond HTTP 402. Aucune image téléchargée ou inspectée et aucun contournement."
+    },
+    {
+      "url": "https://gearsofwar.fandom.com/wiki/Gears_of_War_4",
+      "result": "Index secondaire consulté pour distinguer la présence en campagne des variantes multijoueur ; pas de modèle complet exact."
+    },
+    {
+      "url": "https://www.artstation.com/chriswells",
+      "result": "Travaux Sam Gears 3 repérés ; ils n'établissent pas la version vétérane Gears 4."
+    }
+  ],
+  "qa": {
+    "reference_visually_inspected": false,
+    "visually_inspected": false,
+    "output_visually_inspected": false,
+    "single_character": null,
+    "full_body_in_frame": null,
+    "transparent_background": null,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "alpha_measured": false,
+    "framing_measured": false,
+    "observations": [
+      "Aucune image générée pour cette cible dans cette passe. Le journal documente la recherche et la limite constatée."
+    ],
+    "remaining_checks": [
+      "Le costume demandé est Sam vétérane/pilote dans la campagne Gears of War 4. La source Gears 3 du catalogue, les modèles de Sam Gears 3 et les skins Gears 5 ne documentent pas cette tenue exacte. La recherche n'a pas établi de modèle final Gears 4 en pied ; visage âgé, tenue de pilote, bas du corps et bottes restent insuffisamment documentés. Aucune génération ne remplace cette cible par une autre édition."
+    ]
+  },
+  "history_check": {
+    "baseline_commit": "3d12276302c040f05e5452de073dc3a67470554f",
+    "all_generation_directories_and_archives_checked": true,
+    "exact_subject_previously_attempted": false,
+    "notes": "Les historiques Sam Gears 3 et V-Day Sam Gears 5 sont distincts de la cible vétérane Gears 4. Aucun appel antérieur retrouvé pour ce costume exact."
+  },
+  "source_urls": [
+    "https://gearsofwar.fandom.com/wiki/Samantha_Byrne",
+    "https://maurymountain.artstation.com/projects/5Br2vE"
+  ],
+  "reference_images": []
+}

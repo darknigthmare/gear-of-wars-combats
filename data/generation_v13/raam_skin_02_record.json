@@ -1,0 +1,90 @@
+{
+  "id": "raam_skin_02",
+  "subject_id": "raam_skin_02",
+  "costume_id": "raam_skin_02",
+  "character_id": "raam",
+  "name": "RAAM — RAAM’s Shadow",
+  "category": "costume",
+  "source_game": "Gears of War 3 — RAAM’s Shadow",
+  "catalog_target_game": "Gears of War 3 — RAAM’s Shadow",
+  "variant": "RAAM du DLC RAAM’s Shadow (2011)",
+  "purpose": "reference_fullbody",
+  "variant_relation": "target_version_unconfirmed",
+  "status": "reference_research_pending",
+  "quality_state": "reference_incomplete",
+  "engine": null,
+  "pass_date": "2026-11-27",
+  "generation_attempted": false,
+  "generation_attempt_count_this_pass": 0,
+  "has_image": false,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "asset_path": null,
+  "prompt": null,
+  "reason": "Les captures spécifiques au DLC consultées montrent le haut du corps et les cuisses/genoux, sans vue exploitable des jambes basses et des pieds. Aucune référence complète de cette édition n’a été établie ; pas de génération à partir du nom ni de substitution par RAAM 2006, Ultimate Edition, Gears 5 ou Killer Instinct.",
+  "sources": [
+    {
+      "page_url": "https://gamefragger.com/xbox/xbox_360/other_shooter/gears_of_war/gears_of_war_3/pictures/gears-of-war-3-raams-shadow-dlc-4-i10632",
+      "image_url": "https://gamefragger.com/images/pictures/10632L.jpg",
+      "source_type": "publisher_press_image_republished",
+      "scope": "Galerie explicitement RAAM’s Shadow ; capture inspectée, tête/torse/bras visibles, bas du corps coupé.",
+      "visual_reference_used": false,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v13_enemies/raam_shadow_press.jpg",
+      "reference_sha256": "9e7e2003fb0979ffcad42ecac2889a50935329704b80edb5e15359f94f2ccd91",
+      "reference_dimensions": [
+        1024,
+        576
+      ]
+    },
+    {
+      "page_url": "https://yougoboomnow.wordpress.com/2011/12/14/gears-of-war-3-raams-shadow-dlc-review/",
+      "image_url": "https://i0.wp.com/images2.wikia.nocookie.net/__cb20111212124758/gearsofwar/images/3/35/RAAMonthefield.jpg",
+      "source_type": "secondary_gameplay_capture",
+      "scope": "Compte rendu du DLC daté du 14/12/2011 ; RAAM visible jusqu’aux cuisses/genoux, pieds hors champ.",
+      "visual_reference_used": false,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v13_enemies/raam_shadow_secondary_field.jpg",
+      "reference_sha256": "960314e5a588c4c9ba89adef56289da42e0cf5620f872aabba5ec7f4adc3fb57",
+      "reference_dimensions": [
+        694,
+        758
+      ]
+    }
+  ],
+  "research_log": [
+    {
+      "url": "https://jeuvideo.afjv.com/news_amp/4181_gears_of_war_3_raam_s_shadow.htm",
+      "result": "Communiqué éditeur reproduit : identification du DLC et de RAAM ; aucune vue intégrale exploitable."
+    },
+    {
+      "url": "https://www.gamersyde.com/news_gears_of_war_3_raam_s_shadow-12266_en.html",
+      "result": "HTTP 403 observé ; aucun contournement ni téléchargement des images liées après ce refus d’accès."
+    },
+    {
+      "url": "https://models.spriters-resource.com/pc_computer/gearsofwar/asset/290796/",
+      "result": "Modèle RAAM du premier Gears of War, édition différente : exclu du DLC 2011."
+    },
+    {
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1473237868",
+      "result": "Pack tiers de modèles réimportés/ré-riggés mélangeant Gears 3, DLC et Judgment ; ne démontre pas seul un modèle final exact de la cible."
+    },
+    {
+      "local_path": "data/generation_v4/result_raam.json",
+      "result": "Refus historique du costume Gears of War 2006 ; cible différente de RAAM’s Shadow, aucun réessai de 2006 effectué."
+    }
+  ],
+  "historical_refusal_retained": false,
+  "qa": {
+    "visually_inspected": false,
+    "references_visually_inspected": true,
+    "single_character": null,
+    "full_body_in_frame": null,
+    "transparent_background": null,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Aucune image V13 générée pour cette cible ; le statut ne représente pas une implémentation ni un sprite livré."
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "id": "ketor_vrol",
+  "category": "character",
+  "name": "Ketor Vrol",
+  "source_game": "Gears 5 — Operation 8",
+  "pass_date": "2026-11-25",
+  "asset_path": "assets/characters_v9/ketor_vrol.png",
+  "generation_method": "built-in image_gen",
+  "prompt": "Use case: stylized-concept.\nAsset type: single fixed full-body 2D fighting-game character sprite, not an animation.\nPrimary request: Ketor Vrol, specifically his official Gears 5 Operation 8 default armor. The reference image is an official Weekly Store panel: use ONLY the leftmost character labelled KETOR VROL as the identity/armor reference, ignore the other panels and all text.\nSubject: one tall, lean, imposing Locust high priest, narrow pale leathery face in a severe dark metal priestly helmet with tall flat-topped central crest; red worn armored pauldrons and reddish dark segmented chest/belly and thigh armor, black ribbed undersuit, thick ribbed hoses forming a high collar and descending across his chest, heavy dark mechanical boots, leather belts. Match the supplied official head shape, red-metal armor panels, tubes, silhouette and proportions as closely as possible.\nComposition: ONE character only, entire body from helmet crest to soles visible with generous transparent margins, standing firmly in one calm neutral combat-ready guard, body in three-quarter side view facing screen RIGHT. Hands naturally down/ready, no spell, no invented sword, no gun added, no background.\nStyle: high-detail realistic Gears game materials translated into a polished hand-painted 2D game cutout, strong readable silhouette and natural anatomy. Restrained neutral studio lighting.\nBackground: true transparent alpha, absolutely no scenery, no floor, no ground shadow, no fog, no glow surrounding body, no vignette, no colored haze. Fully opaque character surface with clean antialiased edges.\nConstraints: preserve the reference identity, costume and helmet; one subject, one pose, no text, no logo, no labels, no panel, no frame, no motion blur, no particles, no duplicate, no sprite sheet. This is a static game asset.",
+  "reference_images": [
+    "https://clan.fastly.steamstatic.com/images/35210771/f9fbd58c54b01f58436923e8626480121081e5b7.jpg"
+  ],
+  "source_urls": [
+    "https://store.steampowered.com/oldnews/?appgroupname=Gears+5&appids=1097840&feed=steam_community_announcements",
+    "https://www.xbox.com/en-us/games/store/operation-8-bundle/9n8r67zsr0f3"
+  ],
+  "reference_scope": "Official Operation 8 store character panel inspected before generation. Lower legs partly obscured in source panel; generated lower-body detail remains interpretive.",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "animation": false,
+  "pose": "single static full-body three-quarter guard facing right",
+  "qa": {
+    "visual_review": "One character, intact full body and helmet, red armor and collar tubing reproduced. Top margin small; small geometry remains interpretive.",
+    "alpha_review": "PNG RGBA with genuine alpha. All corners transparent; outside coverage measured. RGB halo in raw preview is not proof of opaque background.",
+    "pixel_measurements": {
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1536,
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_percent": 63.84,
+      "alpha_bbox": [
+        0,
+        0,
+        996,
+        1536
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sha256": "6e0b13d5fdf9b6e711d566c3dcb2dc291ce22cba8a4b64321975c01f1b4cba0c"
+    },
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "One character, intact full body and helmet, red armor and collar tubing reproduced. Top margin small; small geometry remains interpretive.",
+      "PNG RGBA with genuine alpha. All corners transparent; outside coverage measured. RGB halo in raw preview is not proof of opaque background.",
+      "Mesures alpha réalisées sans transformation raster du PNG original ; pixels de très faible alpha possibles en marge. Les valeurs du champ output décrivent le fichier livré."
+    ]
+  },
+  "subject_id": "ketor_vrol",
+  "character_id": "ketor_vrol",
+  "purpose": "reference_fullbody",
+  "variant": "Gears 5 — Ketor Vrol multijoueur Operation 8",
+  "engine": "built_in_imagegen",
+  "status": "generated_reference_pending_validation",
+  "has_image": true,
+  "quality_state": "candidate",
+  "variant_relation": "target_version_candidate",
+  "catalog_target_game": "Gears 5 — Operation 8",
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-a193dd1e-8829-4d9e-91b2-fa37f323ac40.png",
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2127626,
+    "sha256": "6e0b13d5fdf9b6e711d566c3dcb2dc291ce22cba8a4b64321975c01f1b4cba0c",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.6384283701578776,
+    "subject_bbox_alpha_ge_128": [
+      169,
+      2,
+      822,
+      1534
+    ],
+    "subject_margins_ltrb_px": [
+      169,
+      2,
+      202,
+      2
+    ]
+  },
+  "sources": [
+    {
+      "page_url": "https://store.steampowered.com/oldnews/?appgroupname=Gears+5&appids=1097840&feed=steam_community_announcements",
+      "image_url": "https://clan.fastly.steamstatic.com/images/35210771/f9fbd58c54b01f58436923e8626480121081e5b7.jpg",
+      "source_type": "official_publisher_store_promo_panel",
+      "scope": "Panneau boutique officiel Operation 8, Ketor Vrol à gauche. Tête, armure et tubes observés ; jambes en partie masquées.",
+      "visual_reference_used": true,
+      "reference_sha256": "362985b7a7db6c7a50f7f88661e0acbbd80ec4e8eb779c3cc1501acd8ae92257"
+    },
+    {
+      "page_url": "https://www.xbox.com/en-us/games/store/operation-8-bundle/9n8r67zsr0f3",
+      "source_type": "official_xbox_store_listing",
+      "scope": "Confirme la présence de Ketor Vrol dans le lot Operation 8.",
+      "visual_reference_used": false
+    }
+  ]
+}

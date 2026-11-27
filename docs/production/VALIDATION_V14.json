@@ -1,0 +1,257 @@
+{
+  "version": "V14",
+  "snapshot_date": "2026-11-27",
+  "baseline_commit": "b13c29a549d5768deec51191bb43a12ece41e812",
+  "status": "passed",
+  "scope": "Validation technique et documentaire des images fixes ; aucune certification 1:1, aucun test de nouveaux comportements de combat.",
+  "new_active_png_files": 5,
+  "new_png_assets": [
+    {
+      "subject_id": "creature_leech_g5",
+      "path": "assets/creatures_v14/leech_g5.png",
+      "sha256": "994a0a2dc12aaa65119ed85301ef1ef52920cf91dc6e52f583d100e873a8ad92",
+      "width": 2172,
+      "height": 724,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_fraction": 0.6272587833094228,
+      "subject_margins_ltrb_px": [
+        81,
+        102,
+        71,
+        79
+      ],
+      "native_bytes_equal": true
+    },
+    {
+      "subject_id": "creature_ticker_eday",
+      "path": "assets/creatures_v14/ticker_eday.png",
+      "sha256": "ae7291da0c64bb5fc40de236f2f686d447da162ecab06334ccd68dac503ff03e",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_fraction": 0.6356853155119229,
+      "subject_margins_ltrb_px": [
+        114,
+        53,
+        113,
+        37
+      ],
+      "native_bytes_equal": true
+    },
+    {
+      "subject_id": "creature_wretch_eday",
+      "path": "assets/creatures_v14/wretch_eday.png",
+      "sha256": "1515f872211b4722ca8eb2f990cf9c877682db92b6576c71f0149df5310d7c51",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_fraction": 0.6763540903727213,
+      "subject_margins_ltrb_px": [
+        113,
+        198,
+        125,
+        115
+      ],
+      "native_bytes_equal": true
+    },
+    {
+      "subject_id": "projectile_canker_g4",
+      "path": "assets/projectiles_v14/canker_g4.png",
+      "sha256": "d4a9280ef8d64a723f85b7337d4632f217b0e04140ccb82a28a3f699099be29b",
+      "width": 1877,
+      "height": 838,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_fraction": 0.6272094173533911,
+      "subject_margins_ltrb_px": [
+        64,
+        129,
+        50,
+        84
+      ],
+      "native_bytes_equal": true
+    },
+    {
+      "subject_id": "reyna_skin_02",
+      "path": "assets/costumes_v14/reyna_human_g4_hairfix.png",
+      "sha256": "2f286efc3e8da89109c2008f86c5a5fb3222cb2fcbff8c6726ade2e60b90cff1",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_fraction": 0.6464659372965494,
+      "subject_margins_ltrb_px": [
+        77,
+        28,
+        144,
+        11
+      ],
+      "native_bytes_equal": true
+    }
+  ],
+  "new_archived_png_files": 2,
+  "generation_records": 7,
+  "generator_calls": 8,
+  "new_generator_refusals": 1,
+  "historical_refusals_not_retried": 18,
+  "all_35_initial_missing_entries_accounted_for": true,
+  "remaining_without_reference": 34,
+  "inventory_totals": {
+    "roster_characters": 36,
+    "characters_with_reference": 36,
+    "characters_missing": 0,
+    "production_character_entries": 21,
+    "production_characters_with_reference": 15,
+    "character_catalog_entries": 57,
+    "catalog_characters_with_reference": 51,
+    "catalog_characters_missing": 6,
+    "character_png_files": 60,
+    "costume_catalog_entries": 85,
+    "costumes_with_reference": 65,
+    "costumes_without_explicit_reference": 20,
+    "costume_png_files": 29,
+    "costume_reference_aliases": 1,
+    "reused_character_pngs_for_costumes": 35,
+    "boss_catalog_entries": 34,
+    "bosses_with_reference": 30,
+    "boss_png_files": 30,
+    "stage_catalog_entries": 34,
+    "stages_with_reference": 34,
+    "stage_png_files": 35,
+    "projectile_catalog_entries": 9,
+    "projectiles_with_reference": 5,
+    "projectiles_missing": 4,
+    "projectile_png_files": 5,
+    "additional_reference_groups": 1,
+    "active_png_files": 159,
+    "unique_active_png_sha256": 159,
+    "archived_png_files": 17,
+    "canonical_fidelity_validated": 0,
+    "completed_animation_sets": 0
+  },
+  "inventory_warnings": [],
+  "all_production_png_paths_and_sha256_checked": 176,
+  "historical_preservation": {
+    "protected_files_checked": 594,
+    "all_unchanged": true,
+    "production_png_files": 169,
+    "all_historical_png_files": 174,
+    "prototype_and_historical_deliverables_unchanged": true,
+    "three_guide_originals_unchanged": true
+  },
+  "sources": {
+    "visual_input_files_with_hash_checked": 9,
+    "used_reference_bytes_verified": true,
+    "third_party_reference_files_added_to_repo": false
+  },
+  "tests": {
+    "command": "python -m unittest discover -s tests -p test_*.py -v",
+    "passed": 27,
+    "failed": 0,
+    "log": "docs/production/INVENTORY_TESTS_V14.txt",
+    "alias_cases": 11
+  },
+  "data_validation": {
+    "counts": {
+      "fighters": 36,
+      "costume_records": 75,
+      "moves": 179,
+      "arcade_routes": 36,
+      "combos": 24,
+      "bosses": 24,
+      "boss_phases": 72,
+      "stages": 24,
+      "parallax_layers": 144,
+      "campaign_chapters": 12,
+      "animation_drawings_per_side": 552
+    },
+    "checks": [
+      "Unique identifiers",
+      "Combatant and rival references",
+      "Movement ownership and nonnegative costs",
+      "Boss stage references and phase timings",
+      "Stage layers and tournament rules",
+      "Arcade opponents",
+      "Campaign stage and boss references",
+      "Animation estimate total"
+    ],
+    "errors": [],
+    "status": "passed",
+    "limits": "Does not validate canonical visual fidelity, balance, or browser controls."
+  },
+  "gallery": {
+    "embedded_data_matches_manifests": true,
+    "javascript_syntax_valid": true,
+    "executable_javascript_unchanged": true,
+    "browser_render_tested": false,
+    "mobile_render_tested": false
+  },
+  "local_markdown_links": {
+    "documents_checked": 11,
+    "targets_checked": 795,
+    "broken": 0,
+    "anchors_checked": false
+  },
+  "bible": {
+    "output": "livrables/Gears_of_War_Combats_Bible_v14.md",
+    "bytes": 414612,
+    "words": 59343,
+    "sha256": "91c5204199f717e33fa804735136b6254a95991201a83b82475e1036c0b18617",
+    "deterministic_rebuild": true,
+    "source_chapters": 7,
+    "source_hashes_checked": 14,
+    "catalog_entries": 219,
+    "guide_originals_unchanged": 3,
+    "requirements": 68,
+    "acceptance_cases_preserved": 40,
+    "extension_acceptance_cases_executed": 0
+  },
+  "costume_aliases": {
+    "resolved": 1,
+    "new_png_created_by_alias": 0,
+    "quality_flags_preserved": true
+  },
+  "independent_review": {
+    "report": "docs/production/REVIEW_V14.md",
+    "certification_claimed": false
+  },
+  "recovery": {
+    "executor_temporarily_unavailable": true,
+    "native_outputs_recovered_without_regeneration": true,
+    "final_consolidation_and_tests_ran_in_restored_original_environment": true,
+    "vercel_sandbox_created": false,
+    "cloud_js_rebuild_used_for_final_artifacts": false
+  },
+  "canonical_fidelity_validated": 0,
+  "completed_animation_sets": 0,
+  "runtime_implementation_changed": false,
+  "historical_binaries_rebuilt": false,
+  "publication": {
+    "branch": "codex/gears-static-assets-v9-20261125",
+    "pull_request": 6,
+    "merged_to_main": false,
+    "remote_publication_proof": "À vérifier séparément après commit ; ce rapport décrit les octets préparés."
+  },
+  "staged_diff_check": {
+    "passed": true,
+    "scope": "Tous les fichiers indexés, ajouts compris ; espaces de fin de ligne du rapport de revue supprimés sans changement de contenu."
+  }
+}

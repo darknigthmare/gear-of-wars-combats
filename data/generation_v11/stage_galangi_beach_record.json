@@ -1,0 +1,63 @@
+{
+  "id": "galangi_beach_gears5_master_v11",
+  "subject_id": "stage_galangi_beach",
+  "category": "stage",
+  "purpose": "stage_master",
+  "name": "Galangi — plage et lisière tropicale",
+  "source_game": "Gears 5 — Hivebusters",
+  "catalog_target_game": "Gears 5 — Hivebusters",
+  "variant": "Plage de Galangi — rivage endommagé, adaptation latérale de la cinématique",
+  "variant_relation": "target_version_candidate",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "animation_status": "not_requested_this_pass",
+  "status": "generated_reference_pending_validation",
+  "has_image": true,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "asset_path": "assets/stages_v11/stage_galangi_beach.png",
+  "prompt": "Create ONE static opaque wide 16:9 empty background for a 2D fighting game, faithfully based on the supplied final Gears 5 Hivebusters beach cinematic screenshot published by VFX artist Bruno Afonseca. Location: the Galangi beach at the tropical jungle edge. Preserve this specific scene's pale beige compacted sand, dark charcoal coastal rock ledges and white ocean foam on the left, dense tropical palms and tall straight palm trunks along the right and rear, dark layered volcanic rocks behind the beach, tangled green jungle canopy, scattered charred tree stumps and the muted hazy daylight of the cinematic. Recompose this high oblique camera into a level lateral standing-height camera for fighting-game use. The whole lower quarter must become a broad flat continuous beige sandy fighting strip, edge-to-edge, with only fine sand texture and a few tiny flat leaf fragments. Relocate large rocks, fallen trunks and all tall vegetation to the background beyond the combat band. Keep a limited dark blue-green ocean view and low white surf toward the left background behind the sand, with dense recognizable palm forest and coastal rock shapes across the rear. Small low residual orange fires may appear in only two distant background stumps to preserve the reference's recently damaged coastline, no flames on the playable floor. Remove every creature, body, living figure, weapon and the green venom clouds from the source. No helicopters, flying machines, boats, invented wreckage, ruins or buildings. Natural dramatic but readable atmosphere, evenly lit neutral foreground, detailed realistic Gears 5 environment material language. This is a lateral adaptation of the referenced beach, not an exact reproduction of the original camera. No UI, logos, text, watermark, credits, border, collage, characters, enemies or animation sequence. One coherent empty stage PNG.",
+  "sources": [
+    {
+      "page_url": "https://bruno.artstation.com/projects/L3BZev",
+      "image_url": "https://cdn.artstation.com/p/thumbnails/000/220/494/thumb.jpg",
+      "video_url": "https://cdn.artstation.com/p/video_sources/000/228/020/montage-helicopter.mp4",
+      "source_type": "production_artist_portfolio",
+      "artist": "Bruno Afonseca — cinématiques et VFX",
+      "scope": "Affiche native du montage de cinématiques d’hélicoptère : plage, rochers côtiers, palmiers, feux et écume. Source visuelle de la plage; vidéo non reproduite et aucune animation livrée.",
+      "visual_reference_used": true,
+      "reference_sha256": "9e9740767eef76fdca27cfa865a5f8438b097a337124303045a737bac72af437"
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_stage": true,
+    "transparent_background": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "observations": [
+      "La source primaire montre bien une plage avec écume, palmiers et rochers, et non seulement une vue générique de jungle.",
+      "La caméra plongeante, les obstacles et les effets de venin sont adaptés pour dégager le plan de combat; le moment précis du niveau n’est pas reproduit à l’identique.",
+      "Rochers côtiers et écume à gauche, palmiers et jungle au fond, deux souches en feu éloignées; bande de sable plate et continue au premier plan. Aucun personnage, véhicule, texte ou interface.",
+      "La vue latérale étend le rivage et redistribue les troncs; cette géométrie et la nouvelle lumière plus uniforme ne sont pas certifiées 1:1."
+    ],
+    "remaining_checks": [
+      "Comparer l’implantation et l’éclairage avec plusieurs vues finales de la plage.",
+      "Vérifier l’échelle et le contraste des combattants devant le sable et la jungle."
+    ],
+    "alpha_channel_present": false,
+    "opaque": true
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGB",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2725598,
+    "sha256": "9463b4086c5cbe1d7cb55afe4ecb4d3e7bd9500638548afcbeea46cd14f4c7c5"
+  },
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-c14672f4-774e-44e3-95e1-c51c25dc5c75.png"
+}

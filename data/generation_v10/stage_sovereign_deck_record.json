@@ -1,0 +1,76 @@
+{
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "variant_relation": "target_version_candidate",
+  "category": "stage",
+  "purpose": "stage_master",
+  "animation_status": "not_requested_this_pass",
+  "canonical_fidelity_validated": false,
+  "has_image": true,
+  "id": "sovereign_deck_gears3_master_v10",
+  "subject_id": "stage_sovereign_deck",
+  "name": "CNV Sovereign — pont jardiné",
+  "source_game": "Gears of War 3 — Anchored / Abandon Ship",
+  "catalog_target_game": "Gears of War 3",
+  "variant": "Gears of War 3 — pont extérieur jardiné du Sovereign adapté au combat latéral",
+  "asset_path": "assets/stages_v10/sovereign_deck_gears3_master.png",
+  "prompt": "Create ONE opaque 16:9 HD static environment master for a 2D side-view fighting game, precisely the EXTERIOR DECK OF THE CNV SOVEREIGN in original GEARS OF WAR 3 (2011), Act I Anchored. Use the attached actual gameplay screenshots for the ship identity and materials. Compose a level lateral standing-height view of the deck, with an uninterrupted broad flat strip of weathered gray steel deck plating in the bottom 23%, subtle faded yellow safety lines and seams. Behind it is the recognisable improvised garden deck from these screenshots: rectangular vegetable beds bounded by low olive sandbags, modest green crop rows, a few metal barrels and shipping containers, all behind the fight plane, not strewn across it. The background is the SOVEREIGN'S utilitarian naval superstructure, rectangular riveted steel panels, windowed enclosed walkways, wire-mesh fences and rails, red-orange life rings, and the distinctive broad polygonal glazed bridge rising at rear-left as seen in reference 1. Overhead dense dark crane arms and cables, large chipped yellow industrial pipes crossing the scene as in reference 3. Sea fog and a subdued gray ocean sliver to the far right beyond the ship railing, pale cloudy daylight, worn cream-gray paint with orange rust and yellow details. Preserve the old Gears3 ship construction, layered bridge proportions and distressed metal, not a contemporary aircraft carrier redesign or generic space station. Crisp very detailed dark realistic 2D painted game environment. All plant rows, railings and crates sit behind a flat clear playable foreground. Exactly one empty stage, no soldiers, people, enemies, Lambent stalks, sea creatures, aircraft, guns, gunfire, fireballs, explosions, bodies, blood, interface, targeting reticle, captions, text, logos, watermark or borders. Delete all characters and HUD from the references. Single continuous composition, no collage, no animation frames or extra layers.",
+  "sources": [
+    {
+      "page_url": "https://primagames.com/eguides/gears-war-3-eguide/campaign-walkthrough/act-1/chapter-1-anchored",
+      "image_url": "https://primagames.com/eguides/media/_w/700/files/eguide_assets/gears-war-3-eguide/06-WALK-act01-act03-web-resources/image/012_Act1.jpg",
+      "source_type": "official_licensed_strategy_guide",
+      "scope": "Capture Anchored du pont jardiné et de la superstructure du Sovereign, Gears of War 3.",
+      "visual_reference_used": true,
+      "reference_sha256": "776dec01bb81931229aae2c749a311c644dc29a004cf217159e38ad1a7727a48"
+    },
+    {
+      "page_url": "https://primagames.com/eguides/gears-war-3-eguide/campaign-walkthrough/act-1/chapter-1-anchored",
+      "image_url": "https://primagames.com/eguides/media/_w/700/files/eguide_assets/gears-war-3-eguide/06-WALK-act01-act03-web-resources/image/013_Act1.jpg",
+      "source_type": "official_licensed_strategy_guide",
+      "scope": "Capture rapprochée Anchored des potagers, passerelles, grilles, conteneurs et bouées du pont.",
+      "visual_reference_used": true,
+      "reference_sha256": "263a9192f465eda9860d15248e6d2ef4f0c39270ed8064af9052ee99484ea982"
+    },
+    {
+      "page_url": "https://primagames.com/eguides/gears-war-3-eguide/campaign-walkthrough/act-1/chapter-2-abandon-ship",
+      "image_url": "https://primagames.com/eguides/media/_w/700/files/eguide_assets/gears-war-3-eguide/06-WALK-act01-act03-web-resources/image/020_Act1.jpg",
+      "source_type": "official_licensed_strategy_guide",
+      "scope": "Capture Abandon Ship des grandes canalisations jaunes et équipements du pont; personnages et incendies exclus.",
+      "visual_reference_used": true,
+      "reference_sha256": "0077ac05ffedc92f4fcacba55ca9477e5e028c16a79464e055b647bbbfeba85a"
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_stage": true,
+    "transparent_background": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "observations": [
+      "Pont de tôle rivetée, potagers bordés de sacs, passerelles grillagées, passerelle de commandement vitrée, canalisations jaunes et bouées repris des captures du Sovereign Gears of War 3.",
+      "Sol continu horizontal sans occupant; aucun soldat, créature, tir, interface ou texte visible.",
+      "Vue latérale obtenue par recomposition de captures plongeantes. Le sommet du poste de commandement, les distances entre tuyaux, le bras de grue et le nombre de travées sont extrapolés; leur géométrie exacte reste à vérifier."
+    ],
+    "remaining_checks": [
+      "Comparer la silhouette supérieure du poste de commandement, les bras de grue et les tuyaux à une capture panoramique du pont.",
+      "Vérifier l’échelle du potager par rapport au plan de combat avant intégration."
+    ],
+    "alpha_channel_present": false,
+    "opaque": true
+  },
+  "output": {
+    "format": "PNG",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "bytes": 3076124,
+    "sha256": "49d7c80ac132b7eab1f3dcac72d45c4327e52f96a8cc7f113dcd703566dc2ab1"
+  },
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-95014afa-dc8a-4629-a00e-928730b76dd1.png",
+  "fidelity_1to1_certified": false,
+  "production_ready": false
+}

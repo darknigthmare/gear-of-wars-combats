@@ -1,0 +1,109 @@
+{
+  "id": "hoffman_skin_02",
+  "subject_id": "hoffman_skin_02",
+  "character_id": "hoffman",
+  "costume_id": "hoffman_skin_02",
+  "name": "Victor Hoffman — campagne Gears of War 3",
+  "category": "costume",
+  "source_game": "Gears of War 3",
+  "catalog_target_game": "Gears of War 3",
+  "variant": "Hoffman Gears 3 — modèle de production Epic",
+  "variant_relation": "target_version_candidate",
+  "asset_path": "assets/costumes_v13/hoffman_skin_02.png",
+  "prompt": "Use case: precise-object-edit / stylized-concept.\nAsset type: one static full-body 2D game character costume reference, actual transparent background.\nPrimary request: Colonel Victor Hoffman, EXACT GEARS OF WAR 3 campaign model, costume id hoffman_skin_02.\nReference: Mike Kime's official Epic Games production sheet presents high-poly and low-poly views of the SAME Gears 3 Hoffman. The SECOND figure from the LEFT is the final low-poly front view; the FAR RIGHT is the final low-poly back view. Use these views for the exact identity, shapes, materials and costume. Output ONE Hoffman only, not a sheet.\nPreserve the elderly pale weathered CLEAN-SHAVEN face, prominent square jaw, deep face creases, stern expression, close-cropped gray hair under the dark short-brim military patrol cap with the small COG badge. Do not add a moustache or beard or replace the cap with a beret. Keep his older muscular bare upper arms and forearms, dark short-sleeved ribbed underlayer, exact dull dark gray/green armor with two large round chest plates and raised gear-and-wings relief, neck/shoulder padding and white-blue shoulder light bars, small shoulder insignia, armored full-finger gloves, heavy utility belt with circular gear buckle, asymmetric hip holster and pouches, dark fitted trousers with stitched knees, bulky strapped shin armor and large plated boots. Reproduce both chest medallions and the specific back plate with its oblique blue light slits. Keep all details as in Gears 3, no Gears 5 redesign, no new emblems or equipment.\nChange only the pose to a calm standing combat-ready guard with knees lightly bent, both empty hands clearly separated from the torso. View the whole figure mostly from its SIDE with a small front three-quarter component, facing screen RIGHT, nose and boot toes to the right. Natural anatomically correct hands. No weapon, no attack, no other character.\nRendering: realistic worn leather and metal with clear restrained painted 2D game shading and neutral light. Preserve the bulky authentic Gears proportions and exact costume silhouette.\nComposition: ONE complete figure from cap to both boot soles, no crop. Figure occupies at most 75% of the canvas height. At least 10% genuinely empty transparent padding on all four sides.\nActual transparent alpha background with opaque character and clean antialiased silhouette. No scenery, floor, cast shadow outside the body, halo, haze, gradients, ground, background, letters, logos, watermark, UI, repeated figure, turnaround, sheet or animation.",
+  "sources": [
+    {
+      "page_url": "https://polycount.com/discussion/comment/1449655",
+      "image_url": "https://www.pseudo-pod.com/temp/G3/hoffman.jpg",
+      "source_type": "first_party_character_artist_production_comparison",
+      "scope": "Mike Kime (rv_el), artiste Epic Games : nouveau Hoffman Gears 3, comparaison high-poly/low-poly avant/arrière en pied, octobre 2011. Le texte confirme le corps reconstruit pour Gears 3 avec la tête issue du travail de Kevin Lanning ; les deux vues low-poly servent de modèle final.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v13_classic/hoffman_g3_official.jpg",
+      "reference_sha256": "62f823195770a0956580ac0933bff3c41fe7571f68c47b022a50f925d11ae822"
+    }
+  ],
+  "qa": {
+    "observations": [
+      "Un seul Hoffman entier vers la droite, visage âgé glabre, casquette à courte visière, bras nus, médaillons d'armure et équipement Gears 3 reconnaissables.",
+      "L'armure sombre, les lumières bleu-blanc, les bottes et le système de ceinture suivent le modèle fourni ; les petits reliefs et proportions ne sont pas certifiés exacts.",
+      "Le corps reste principalement en trois-quarts frontal, mains basses ; la garde de combat latérale stricte reste à valider.",
+      "RGBA natif, 69,73 % alpha=0 et bordure 8 px entièrement transparente. Silhouette complète ; marges haut/bas 69/85 px, inférieures à la cible de 10 %."
+    ],
+    "remaining_checks": [
+      "Comparer le profil du visage, le volume des bras et les asymétries des poches au modèle low-poly final.",
+      "Vérifier les reliefs des deux médaillons, les insignes, les coutures et toutes les pièces de jambière.",
+      "Valider la pose latérale, les marges et les contours dans le moteur."
+    ],
+    "reference_visually_inspected": true,
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "alpha_measured": true,
+    "framing_measured": true
+  },
+  "notes": [
+    "Modèle de production officiel de l'édition cible inspecté en pied avant génération. L'adaptation de pose reste générative : fidélité 1:1 non certifiée.",
+    "Une seule tentative. Sortie native copiée octet pour octet sans découpe, retouche raster, agrandissement ni animation."
+  ],
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 1801009,
+    "sha256": "10329a5b417ce923a2eef32458c784062243a0d4dd01fe5df780358bc90554cd",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.6972827911376953,
+    "subject_bbox_alpha_ge_128": [
+      252,
+      69,
+      791,
+      1451
+    ],
+    "subject_margins_ltrb_px": [
+      252,
+      69,
+      233,
+      85
+    ],
+    "edge_band_width_px": 8,
+    "edge_alpha_max": 0,
+    "has_real_alpha": true,
+    "native_copy_verified": true
+  },
+  "original_output_path": "/workspace/scratch/3c791759fb15/generated_images/exec-7481bbce-1823-4af2-a549-f4536f9c354d.png",
+  "has_image": true,
+  "status": "generated_reference_pending_validation",
+  "generation_status": "generated_reference_pending_validation",
+  "generation_attempted": true,
+  "generation_attempts": 1,
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "pass_date": "2026-11-27",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "pose": "static_front_three_quarter_facing_right",
+  "quality_state": "candidate",
+  "purpose": "reference_fullbody",
+  "history_check": {
+    "baseline_commit": "3d12276302c040f05e5452de073dc3a67470554f",
+    "all_generation_directories_and_archives_checked": true,
+    "exact_subject_previously_attempted": false,
+    "notes": "Les historiques du même personnage concernent d'autres éditions ou costumes. Aucun refus précédent de cette cible exacte retrouvé."
+  },
+  "source_urls": [
+    "https://polycount.com/discussion/comment/1449655"
+  ],
+  "reference_images": [
+    "/workspace/scratch/3c791759fb15/research_v13_classic/hoffman_g3_official.jpg"
+  ]
+}

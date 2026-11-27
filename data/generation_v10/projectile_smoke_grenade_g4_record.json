@@ -1,0 +1,82 @@
+{
+  "subject_id": "projectile_smoke_grenade_g4",
+  "projectile_id": "projectile_smoke_grenade_g4",
+  "category": "projectile",
+  "name": "Grenade fumigène — concept officiel C",
+  "source_game": "Gears of War 4 — concept art de production, 2014",
+  "variant": "Gears of War 4 — Smoke Grenade, variante C du concept Jarold Sng",
+  "variant_relation": "concept_art_candidate",
+  "prompt": "Use case: stylized-concept. Create ONE isolated static 2D game prop faithfully reproducing the SMOKE GRENADE concept labeled C in the RIGHTMOST column of the attached official Gears of War 4 concept sheet by Jarold Sng. Use only variant C, not A, B or the small Original section. Preserve the full exterior silhouette and proportions: dark elongated cylindrical lower canister with two silver-blue bands and restrained pale blue light slots, dark longitudinal rails, the angular side bracket with finger-like notches, the short two-link chain, and the long black diamond-textured handle with its silver caps and distinctive broad asymmetrical top cap shown for C. Keep its black steel, gunmetal, desaturated blue and worn silver finish exactly consistent with the reference. Show the entire connected prop in one readable three-quarter side view, arranged horizontally with handle left and canister right, without exposing internal parts. One object, generous transparent padding on all sides. Detailed realistic hand-painted 2D game asset. True transparent PNG alpha, no background, no shadow, no floor, no characters, no smoke emission, no sparks, no labels, no letters A B C, no technical sheet, no duplicate angles, no animation.",
+  "sources": [
+    {
+      "url": "https://www.jaroldsng.com/gears-of-war-4",
+      "type": "primary_artist_portfolio",
+      "note": "Portfolio du concept artist Jarold Sng ; planche datée du 8 mai 2014, explorations de production."
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/55519204e4b0b260d393b852/1749799775380-F9HIZ58JP8KQYI5OB0S9/MSBT_DELTA_SmokeGrenade_Sub1.jpg",
+      "type": "official_production_concept_visual",
+      "note": "Variante C de la planche, modèle complet visible. Le choix C n’atteste pas le modèle finalement livré dans Gears4."
+    },
+    {
+      "url": "https://primagames.com/eguides/gears-of-war-4-eguide/multiplayer/multiplayer-arsenal/grenades",
+      "type": "official_guide_text",
+      "note": "Documentation de la grenade fumigène en multijoueur."
+    }
+  ],
+  "id": "projectile_smoke_grenade_g4",
+  "asset_path": "assets/projectiles_v10/smoke_grenade_gow4_concept_c.png",
+  "quality_state": "candidate",
+  "qa": {
+    "observations": [
+      "Reproduction isolée de la variante C d’un concept de production officiel ; la correspondance avec le modèle final de Gears of War 4 n’est pas attestée.",
+      "Première sortie : un seul maillon lisible. Une édition ciblée rétablit deux maillons circulaires distincts, sans modifier l’orientation.",
+      "Vue horizontale adaptée à un asset fixe ; proportions et détails de la garde à comparer au concept. Aucun effet de fumée ni animation.",
+      "Objet complet et fond transparent ; aucun statut de fidélité 1:1 certifiée."
+    ]
+  },
+  "generation_history": [
+    {
+      "stage": "initial",
+      "prompt": "Use case: stylized-concept. Create ONE isolated static 2D game prop faithfully reproducing the SMOKE GRENADE concept labeled C in the RIGHTMOST column of the attached official Gears of War 4 concept sheet by Jarold Sng. Use only variant C, not A, B or the small Original section. Preserve the full exterior silhouette and proportions: dark elongated cylindrical lower canister with two silver-blue bands and restrained pale blue light slots, dark longitudinal rails, the angular side bracket with finger-like notches, the short two-link chain, and the long black diamond-textured handle with its silver caps and distinctive broad asymmetrical top cap shown for C. Keep its black steel, gunmetal, desaturated blue and worn silver finish exactly consistent with the reference. Show the entire connected prop in one readable three-quarter side view, arranged horizontally with handle left and canister right, without exposing internal parts. One object, generous transparent padding on all sides. Detailed realistic hand-painted 2D game asset. True transparent PNG alpha, no background, no shadow, no floor, no characters, no smoke emission, no sparks, no labels, no letters A B C, no technical sheet, no duplicate angles, no animation.",
+      "output_filename": "exec-0fff6f64-af68-43a1-92a8-8b8e41c253c8.png"
+    },
+    {
+      "stage": "selected_chain_correction",
+      "prompt": "Use case: precise-object-edit. Correct only the short chain connector of this single static smoke-grenade prop. In the first attached generated PNG, the connection between the textured handle and cylindrical canister is too short. Match the C concept at the far right of the second attached official concept sheet: exactly TWO clearly distinct round steel chain links, interlocked through a short flat connector, with a small lug at each end. Extend the transparent canvas horizontally if needed so the complete prop has generous padding. Keep the existing handle at left and canister at right, materials, colors, lighting, both component shapes and all other details unchanged; no horizontal flip. One whole isolated prop with true transparent alpha, no ground, no cast shadow, no background, no smoke effect, no annotations, no extra object or alternate view, no animation.",
+      "output_filename": "exec-7ba3a135-15a9-4f7c-9813-47c035accc99.png"
+    }
+  ],
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 2172,
+    "height": 724,
+    "bytes": 1080332,
+    "sha256": "44f31b4de4ca05ebb0193ef38edb038778cfc749e9bbac652e2fb2e591611d28",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.700499450566222,
+    "subject_bbox_alpha_ge_128": [
+      81,
+      178,
+      2091,
+      599
+    ],
+    "subject_margins_ltrb_px": [
+      81,
+      178,
+      81,
+      125
+    ]
+  },
+  "has_image": true,
+  "status": "generated_reference_pending_validation",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false
+}

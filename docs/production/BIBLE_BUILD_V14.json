@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "version": "V14",
+  "snapshot_date": "2026-11-27",
+  "generator": "src/build_bible_markdown.py",
+  "output": "livrables/Gears_of_War_Combats_Bible_v14.md",
+  "bytes": 414612,
+  "words": 59343,
+  "sha256": "91c5204199f717e33fa804735136b6254a95991201a83b82475e1036c0b18617",
+  "source_chapters_included": 7,
+  "requirements_included": 68,
+  "acceptance_cases_included": 40,
+  "runtime_implementation_claimed": false,
+  "historical_binaries_rebuilt": false,
+  "inputs": [
+    {
+      "path": "docs/core_bible.md",
+      "sha256": "1255cd885c49b34a4b68c3170e377e3a1c1cd2469ca07008f581b890638aeaf8"
+    },
+    {
+      "path": "docs/roster_movesets.md",
+      "sha256": "5b38105b35fa11a5dc569b0df63e8a4963a685e9c3fd66657c74ad2902fa78c9"
+    },
+    {
+      "path": "docs/boss_stages_story.md",
+      "sha256": "ddd7049c95f38949bae7e8437c0df95473f8f5f799ac8ae78fe4405c3cb04146"
+    },
+    {
+      "path": "docs/combat_extensions.md",
+      "sha256": "7198882ebee47013ed44286af023f530c356d1b4ae2757e680de289d779134e3"
+    },
+    {
+      "path": "docs/production/CAST_AND_CREATURES_V14.md",
+      "sha256": "9ff6208a1ac2db59fddeb77c79543cb8dbbea5a5773e300ef4db4737911a7891"
+    },
+    {
+      "path": "docs/production/GUIDE_INTEGRATION_V12.md",
+      "sha256": "c7ee99a7aabd09f56b0ade44d13c081ded7fd742c3077472738f397fd0b536b8"
+    },
+    {
+      "path": "docs/production/GUIDE_REQUIREMENTS_V12.json",
+      "sha256": "0aa9a3e8cae74529caeefd0c178370307a1d2cd324ff6ed799432627ded19228"
+    },
+    {
+      "path": "docs/guides/combat/source_manifest.json",
+      "sha256": "ba145b9aa868f5d033e71f32e2de4594c4d7ba4a02b9c4005f81a71a1da07edc"
+    },
+    {
+      "path": "docs/delivery_status.md",
+      "sha256": "ad5926341ba08b5126718a4a783c8913937b1be2ad0c782928215fc4686d0462"
+    },
+    {
+      "path": "production/coverage.json",
+      "sha256": "6ab49096fc9d806c1ffebec8f64d353c69beae325a143bc2c4ebe66878c74fd9"
+    },
+    {
+      "path": "production/asset_manifest.json",
+      "sha256": "f818e617b654d60c376ba2c848610e9e4e8f3c36f14665b12c271f6b642b3b8b"
+    },
+    {
+      "path": "docs/guides/combat/Combat_Games_Guide_General_v1.0.txt",
+      "sha256": "4844584616072ac0d52d37c2fab4365e1ec489240f17a721ee216e223b0355b7"
+    },
+    {
+      "path": "docs/guides/combat/Combat_Games_Extension_01_Tag_Taunts_Bonus_v1.0.txt",
+      "sha256": "330fb7485a7a52b2a20f855646c940aaac0fcd9510032bc84b2e17c518edd25f"
+    },
+    {
+      "path": "docs/guides/combat/Combat_Games_Extension_02_Slots_Verrouilles_Deblocages_Abonnes_v1.0.txt",
+      "sha256": "08b57ea542e83c487fef3276997a612d4657f2ee9ed4f8e46b0bf65a2778038b"
+    }
+  ]
+}

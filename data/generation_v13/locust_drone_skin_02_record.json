@@ -1,0 +1,130 @@
+{
+  "id": "locust_drone_skin_02",
+  "subject_id": "locust_drone_skin_02",
+  "costume_id": "locust_drone_skin_02",
+  "character_id": "locust_drone",
+  "name": "Locust Drone — modèle multijoueur Gears of War: E-Day",
+  "category": "costume",
+  "source_game": "Gears of War: E-Day",
+  "catalog_target_game": "Gears of War: E-Day",
+  "variant": "Modèle multijoueur visible dans la galerie officielle E-Day",
+  "purpose": "reference_fullbody",
+  "variant_relation": "target_version_candidate",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-27",
+  "generation_attempted": true,
+  "generation_attempt_count_this_pass": 1,
+  "has_image": true,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "asset_path": "assets/costumes_v13/locust_drone_eday_multiplayer.png",
+  "prompt": "Use case: stylized-concept. Asset type: one high-detail static raster character reference for a 2D fighting game. Create exactly ONE healthy, intact Locust Drone using the Gears of War: E-Day multiplayer model pictured in the FIRST attached official screenshot. The target is the large grey humanoid creature in the CENTER foreground, immediately to the right of Tai. Do not depict Tai, any other person, any weapons, or the combat action. The SECOND attached image is a close-up of the actual E-Day Drone head by the game's art director: use it strictly for the face, skull, teeth and grey scaly skin. The first screenshot supplies the body, equipment, legs and feet. Preserve this specific E-Day appearance: bald ridged elongated skull, deep-set small dark eyes, broad flattened nasal cavity, irregular long teeth; thick pebbled grey skin and heavy muscular limbs; dark weathered leather and metal military harness, warm orange paired cylindrical shoulder indicators, layered ribbed torso gear, utility belt and hip pouches, thick textured armored trousers, knobbly knee sections, broad shin guards and heavy segmented boots with broad toe sections. Follow the actual armor shapes in the reference rather than replacing them with Gears 1, Ultimate Edition, Gears 3, or Gears 5 gear. Maintain the recognizable body proportions. Present the single intact character in a relaxed three-quarter standing pose facing slightly toward SCREEN-RIGHT, arms separated slightly from the torso with empty hands visible, both feet flat and fully visible. The standing pose is a new still pose based on the pictured model; no animation. No gore, injuries, victim, combat scene, sparks, blood, scenery, floor, cast background shadow, lettering, logo, watermark or extra objects. Readable neutral studio lighting, realistic worn game materials, crisp contours. TRUE transparent alpha background. Keep all anatomy, fingers and boots uncropped inside the central 72% of the canvas, with at least 14% clear transparent margin above, below, and beside the silhouette. Exactly one isolated static full-body character, not a montage or a sprite sheet. Do not add goggles, a helmet, a weapon, or Boomer-specific bulk and equipment.",
+  "sources": [
+    {
+      "page_url": "https://www.gearsofwar.com/en-us/",
+      "image_url": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/07/GoW_EDAY_Versus_Final-6a67ac11d1548-scaled.jpg",
+      "source_type": "official_publisher_multiplayer_screenshot",
+      "scope": "Galerie officielle, légende Tai chainsaws through enemy drone in Multiplayer mode. Drone central entier : tête, mains, jambes et deux pieds ; frontal de poitrine partiellement masqué par arme/personnage. Éclairage de scène sombre.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v13_enemies/drone_eday_official_tai.jpg",
+      "reference_sha256": "ee06f2a40e7394b65b8668d0af3c96d5491b6f1d5b77a7c7b3f41077662d9188"
+    },
+    {
+      "page_url": "https://www.artstation.com/artwork/xddAaO",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/103/198/680/large/aryan-hanbeck-drone.webp?1791932180",
+      "source_type": "production_art_director_final_model",
+      "scope": "Aryan Hanbeck, modèle temps réel explicitement Locust Drone. Tête seulement ; aucune preuve du corps apportée par ce portrait.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/locust_drone_eday_model.webp",
+      "reference_sha256": "78d72a0481ffbd3f50181d3263da792a204bba3ed6061bf8493d8504e8e24dba"
+    }
+  ],
+  "reference_limitations": [
+    "Corps complet visible dans une capture en action ; poitrine partiellement masquée et éclairage sombre.",
+    "La pose debout demandée est recomposée ; aucune vue orthographique du corps ni certification de couleurs.",
+    "Le portrait Hanbeck établit la tête du Drone, pas ses vêtements ou le corps."
+  ],
+  "research_log": [
+    {
+      "url": "https://www.gearsofwar.com/en-us/games/gears-of-war-eday/",
+      "result": "Image ThreatFromBelow : légende Drone sur Gears mais Boomer sur Xbox. Même silhouette vérifiée dans les deux images. Exclue des références de génération en raison du conflit d’identité."
+    },
+    {
+      "url": "https://www.xbox.com/en-US/games/gears-of-war-eday",
+      "result": "Confirme légende Boomer pour ThreatFromBelow ; son autre image de Marcus face à un grand Locust montre un ennemi arachnéen, pas le Drone. Exclues."
+    },
+    {
+      "url": "https://www.artstation.com/artwork/KR3KG4",
+      "result": "Modèle organique crédité Antoine Verney-Carron ; les URL dr01/dr02/dr03 avaient renvoyé 403 en V12. Aucune nouvelle tentative de téléchargement et aucune image non vue revendiquée."
+    },
+    {
+      "url": "https://giorgiobaroni.artstation.com/projects/mOOgBZ",
+      "result": "Concept initial, exclu du modèle final."
+    },
+    {
+      "url": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/07/GoW_EDAY_Versus_Breechshot_comp-6a6938e2c59b0.jpg",
+      "result": "Image officielle inspectée : variante portant des lunettes, pieds coupés. Non fournie au générateur pour éviter le mélange de variantes."
+    }
+  ],
+  "historical_refusal_retained": false,
+  "original_output_path": "/workspace/scratch/3c791759fb15/generated_images/exec-eceab9ee-af8f-44eb-981a-f0482f28f4e6.png",
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2294215,
+    "sha256": "b4dab7cad506e2b989a2758c2fbfbcd3f67bb4a226a0ee290f862ab439dcf015",
+    "native_copy_verified": true,
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.5952714284261068,
+    "fully_opaque_fraction": 0.0,
+    "subject_bbox_alpha_ge_128": [
+      137,
+      58,
+      875,
+      1498
+    ],
+    "subject_margins_ltrb_px": [
+      137,
+      58,
+      149,
+      38
+    ],
+    "edge_alpha_max": {
+      "top": 0,
+      "bottom": 1,
+      "left": 1,
+      "right": 0
+    }
+  },
+  "qa": {
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "orientation_facing_right": true,
+    "orientation_note": "Trois-quarts frontal légèrement vers la droite ; nouvelle pose debout, pas la pose de la capture.",
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Tête, deux mains et deux bottes visibles ; un seul Drone statique, sans arme ni autres personnages.",
+      "Pose recomposée ; face plus fermée et dentition réinterprétée par rapport au portrait Hanbeck.",
+      "Poitrine, sangles, segmentations et petits motifs d’armure réinterprétés ; l’occlusion dans la source empêche d’établir certains détails.",
+      "Marge alpha ≥128 mesurée gauche/haut/droite/bas : 137/58/149/38 px. Haut 3,78 % et bas 2,47 % de la hauteur : consigne 14 % non atteinte ; toute la silhouette principale reste cadrée. Quelques pixels alpha 1 touchent les bords bas/gauche. Aucune retouche ni deuxième tentative.",
+      "PNG RGBA natif : alpha 0–254, 59,53 % de pixels totalement transparents ; aucun pixel alpha 255. Le fond sombre visible dans certains lecteurs correspond au RGB natif sous transparence, à contrôler en composition."
+    ],
+    "remaining_checks": [
+      "Comparer armure de poitrine, dispositifs lumineux, attaches et bottes à des vues complémentaires du modèle multijoueur E-Day.",
+      "Vérifier en compositing les bords et réserver de nouvelles marges lors d’une future préparation atlas autorisée.",
+      "Aucune certification 1:1, canon ou état prêt production."
+    ]
+  }
+}

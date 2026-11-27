@@ -1,0 +1,681 @@
+{
+  "date": "2026-11-25",
+  "status": "passed",
+  "scope": "PNG statiques, inventaire, galerie ; aucune animation ajoutée",
+  "generated_pngs": 26,
+  "generated_by_category": {
+    "boss": 6,
+    "costume": 6,
+    "stage": 14
+  },
+  "blocked_generation_attempts": 2,
+  "reference_research_without_generation": 3,
+  "asset_decoding": "passed",
+  "alpha_for_non_stages": "passed",
+  "stages_opaque": "passed",
+  "opaque_silhouettes_not_clipped": "passed",
+  "native_png_bytes_preserved": "passed",
+  "sha256_and_native_dimensions": "recorded",
+  "inventory_tests": {
+    "passed": 13,
+    "failed": 0,
+    "command": "python -m unittest discover -s tests -p 'test_inventory_v*.py' -v"
+  },
+  "consolidation_warnings": [],
+  "coverage_totals": {
+    "roster_characters": 36,
+    "characters_with_reference": 36,
+    "characters_missing": 0,
+    "production_character_entries": 20,
+    "production_characters_with_reference": 15,
+    "character_catalog_entries": 56,
+    "catalog_characters_with_reference": 51,
+    "catalog_characters_missing": 5,
+    "character_png_files": 60,
+    "costume_catalog_entries": 85,
+    "costumes_with_reference": 48,
+    "costumes_without_explicit_reference": 37,
+    "costume_png_files": 13,
+    "reused_character_pngs_for_costumes": 35,
+    "boss_catalog_entries": 31,
+    "bosses_with_reference": 24,
+    "boss_png_files": 24,
+    "stage_catalog_entries": 34,
+    "stages_with_reference": 34,
+    "stage_png_files": 35,
+    "projectile_catalog_entries": 8,
+    "projectiles_with_reference": 4,
+    "projectiles_missing": 4,
+    "projectile_png_files": 4,
+    "additional_reference_groups": 1,
+    "active_png_files": 136,
+    "unique_active_png_sha256": 136,
+    "archived_png_files": 12,
+    "canonical_fidelity_validated": 0,
+    "completed_animation_sets": 0
+  },
+  "visual_fidelity_certified": false,
+  "production_ready": false,
+  "correction_required": [
+    "boss_lambent_brumak"
+  ],
+  "non_target_version_candidates": [
+    "cole_skin_04",
+    "marcus_skin_02",
+    "stage_tactics_lab"
+  ],
+  "project_original_stages": [
+    "stage_tactics_depot",
+    "stage_training_hangar",
+    "stage_training_range"
+  ],
+  "gallery_browser_check": {
+    "status": "not_verified",
+    "reason": "Blocage constaté pendant V9 : binaire Chromium absent et téléchargement officiel de Chrome Headless Shell indisponible (HTTP 403). Aucun nouvel essai ni screenshot navigateur dans V11."
+  },
+  "generated": [
+    {
+      "subject_id": "boss_hive_beast",
+      "category": "boss",
+      "path": "assets/bosses_v11/hive_beast_gears4_visible_portion.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1662,
+      "height": 946,
+      "bytes": 1634630,
+      "sha256": "1516396d24ee2f424db7f699ad4c7fa8f628e89a40d560af29fe384f39d46007",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_fraction": 0.5025841913382842,
+      "subject_bbox_alpha_ge_128": [
+        139,
+        96,
+        1518,
+        891
+      ],
+      "subject_margins_ltrb_px": [
+        139,
+        96,
+        144,
+        55
+      ],
+      "native_copy_verified": true
+    },
+    {
+      "subject_id": "boss_hydra_ukkon",
+      "category": "boss",
+      "path": "assets/bosses_v11/hydra_ukkon_tactics_upperbody_portion.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2884966,
+      "sha256": "e50442ee4d2f275967fa5e937ad72fb5fe41fd521e71132f56cc0aad9e7ed544",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_fraction": 0.35508155822753906,
+      "subject_bbox_alpha_ge_128": [
+        59,
+        6,
+        1481,
+        1019
+      ],
+      "subject_margins_ltrb_px": [
+        59,
+        6,
+        55,
+        5
+      ],
+      "native_copy_verified": true
+    },
+    {
+      "subject_id": "boss_lambent_brumak",
+      "category": "boss",
+      "path": "assets/bosses_v11/lambent_brumak_gears2_model_assembly.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1586,
+      "height": 992,
+      "bytes": 1368413,
+      "sha256": "d5844e62442b143d72e8b2b9a0dbd41f33f57cdf968ae7fdb43157db088eb801",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_fraction": 0.7221879703453606,
+      "subject_bbox_alpha_ge_128": [
+        150,
+        19,
+        1463,
+        980
+      ],
+      "subject_margins_ltrb_px": [
+        150,
+        19,
+        123,
+        12
+      ],
+      "native_copy_verified": true
+    },
+    {
+      "subject_id": "boss_lambent_leviathan",
+      "category": "boss",
+      "path": "assets/bosses_v11/lambent_leviathan_gears3_visible_model.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1156040,
+      "sha256": "180262ccd6488509914067b661783eeb7db9b439282142024491d7437ddf1197",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_fraction": 0.7153014709994966,
+      "subject_bbox_alpha_ge_128": [
+        295,
+        21,
+        1329,
+        927
+      ],
+      "subject_margins_ltrb_px": [
+        295,
+        21,
+        343,
+        14
+      ],
+      "native_copy_verified": true
+    },
+    {
+      "subject_id": "boss_leviathan",
+      "category": "boss",
+      "path": "assets/bosses_v11/leviathan_gears2_fullbody.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2513516,
+      "sha256": "bb878b0ed0294b42ab628b0e5187c830e02520e2baff71abc46e13cfd3124114",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_fraction": 0.5496184031168619,
+      "subject_bbox_alpha_ge_128": [
+        155,
+        20,
+        1427,
+        1013
+      ],
+      "subject_margins_ltrb_px": [
+        155,
+        20,
+        109,
+        11
+      ],
+      "native_copy_verified": true
+    },
+    {
+      "subject_id": "boss_rager_g5",
+      "category": "boss",
+      "path": "assets/bosses_v11/rager_gears5_normal_fullbody.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1344185,
+      "sha256": "58a5585995ee59428ecb358cc6dc7a6dc717c044f1a0d5879b251e02393f68f8",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_fraction": 0.6636740331491713,
+      "subject_bbox_alpha_ge_128": [
+        198,
+        26,
+        864,
+        1420
+      ],
+      "subject_margins_ltrb_px": [
+        198,
+        26,
+        222,
+        28
+      ],
+      "native_copy_verified": true
+    },
+    {
+      "subject_id": "cole_skin_04",
+      "category": "costume",
+      "path": "assets/costumes_v11/cole_skin_04.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2056231,
+      "sha256": "e0b179cdbb7d82bdec19121e3ac09be90535dbffeea1fb1e6708e8e1a33d5ec5",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_fraction": 0.6270491282145182,
+      "subject_bbox_alpha_ge_128": [
+        184,
+        43,
+        844,
+        1495
+      ],
+      "subject_margins_ltrb_px": [
+        184,
+        43,
+        180,
+        41
+      ],
+      "edge_band_width_px": 8,
+      "edge_alpha_max": 1,
+      "has_real_alpha": true,
+      "native_copy_verified": true
+    },
+    {
+      "subject_id": "dom_skin_04",
+      "category": "costume",
+      "path": "assets/costumes_v11/dom_skin_04.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2060760,
+      "sha256": "b4cc56834c16f27ceadc2de26c54c8f8d5d857e78bec2340e976438d24ebef84",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_fraction": 0.6418355305989584,
+      "subject_bbox_alpha_ge_128": [
+        210,
+        64,
+        829,
+        1491
+      ],
+      "subject_margins_ltrb_px": [
+        210,
+        64,
+        195,
+        45
+      ],
+      "edge_band_width_px": 8,
+      "edge_alpha_max": 1,
+      "has_real_alpha": true,
+      "native_copy_verified": true
+    },
+    {
+      "subject_id": "kait_skin_01",
+      "category": "costume",
+      "path": "assets/costumes_v11/kait_skin_01.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1886983,
+      "sha256": "eed0012cec05c5626375cbb165d191d8ec3e4f63c983176120fbf839d3b2fa52",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_fraction": 0.7207584381103516,
+      "subject_bbox_alpha_ge_128": [
+        261,
+        17,
+        754,
+        1522
+      ],
+      "subject_margins_ltrb_px": [
+        261,
+        17,
+        270,
+        14
+      ],
+      "edge_band_width_px": 8,
+      "edge_alpha_max": 1,
+      "has_real_alpha": true,
+      "native_copy_verified": true
+    },
+    {
+      "subject_id": "marcus_skin_02",
+      "category": "costume",
+      "path": "assets/costumes_v11/marcus_skin_02.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1876665,
+      "sha256": "3b660f229a3ff7d8b1ca39c0f0a47efd62f2e56bd9c46c3370c07603452afa9b",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_fraction": 0.6036179860432943,
+      "subject_bbox_alpha_ge_128": [
+        197,
+        29,
+        818,
+        1509
+      ],
+      "subject_margins_ltrb_px": [
+        197,
+        29,
+        206,
+        27
+      ],
+      "edge_band_width_px": 8,
+      "edge_alpha_max": 1,
+      "has_real_alpha": true,
+      "native_copy_verified": true
+    },
+    {
+      "subject_id": "marcus_skin_04",
+      "category": "costume",
+      "path": "assets/costumes_v11/marcus_skin_04.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2118327,
+      "sha256": "9e38e1b2325df1636cda21daea83c7eab7bb56cbbe7d4d7bf5103750f00dbdfe",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_fraction": 0.607879638671875,
+      "subject_bbox_alpha_ge_128": [
+        175,
+        38,
+        815,
+        1509
+      ],
+      "subject_margins_ltrb_px": [
+        175,
+        38,
+        209,
+        27
+      ],
+      "edge_band_width_px": 8,
+      "edge_alpha_max": 1,
+      "has_real_alpha": true,
+      "native_copy_verified": true
+    },
+    {
+      "subject_id": "paduk_skin_02",
+      "category": "costume",
+      "path": "assets/costumes_v11/paduk_skin_02.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1887555,
+      "sha256": "740fca995245b8fd7c81a964be0ce146b3a93e9753628348ee91d8129d31f115",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_fraction": 0.6476281483968099,
+      "subject_bbox_alpha_ge_128": [
+        190,
+        46,
+        821,
+        1501
+      ],
+      "subject_margins_ltrb_px": [
+        190,
+        46,
+        203,
+        35
+      ],
+      "edge_band_width_px": 8,
+      "edge_alpha_max": 0,
+      "has_real_alpha": true,
+      "native_copy_verified": true
+    },
+    {
+      "subject_id": "stage_galangi_beach",
+      "category": "stage",
+      "path": "assets/stages_v11/stage_galangi_beach.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2725598,
+      "sha256": "9463b4086c5cbe1d7cb55afe4ecb4d3e7bd9500638548afcbeea46cd14f4c7c5"
+    },
+    {
+      "subject_id": "stage_galangi_volcano",
+      "category": "stage",
+      "path": "assets/stages_v11/stage_galangi_volcano.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2496076,
+      "sha256": "b43cb01e8300a7e50f420847de1957b66cf9d1b25cb10d4a099d67df3829a341"
+    },
+    {
+      "subject_id": "stage_halvo_plaza",
+      "category": "stage",
+      "path": "assets/stages_v11/halvo_plaza_judgment_courthouse_night_master.png",
+      "format": "PNG",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 2762182,
+      "sha256": "836444c4e0dbc80dcd66e9e809a1c13c0912cd826f32d9ab58887ec8abb63bb2"
+    },
+    {
+      "subject_id": "stage_ilima_raams_shadow",
+      "category": "stage",
+      "path": "assets/stages_v11/ilima_raams_shadow_evacuation_square_master.png",
+      "format": "PNG",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 3186990,
+      "sha256": "80ede270bffeb12fd27d0ce94ca54da56eaf9d0aab135590b69cedd48db6c362"
+    },
+    {
+      "subject_id": "stage_kadar_lab",
+      "category": "stage",
+      "path": "assets/stages_v11/kadar_lab_gears5_containment_chamber_master.png",
+      "format": "PNG",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 2645707,
+      "sha256": "2547f4f32e06fb5346c7da87bf2ff0fd814182ecc4c8fe39adeca9138587bd80"
+    },
+    {
+      "subject_id": "stage_new_ephyra",
+      "category": "stage",
+      "path": "assets/stages_v11/new_ephyra_gears5_final_battlement_master.png",
+      "format": "PNG",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 2553446,
+      "sha256": "40eb80e7d052335d56782953f9251e28257c389cb03d23273794b34a0c6818ed"
+    },
+    {
+      "subject_id": "stage_settlement5",
+      "category": "stage",
+      "path": "assets/stages_v11/settlement5_gears4_security_gate_master.png",
+      "format": "PNG",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 3348200,
+      "sha256": "eb98a87dde4f186cb2ab31853aa334b88cbf251dbdd6ab086e18ef93bca1e109"
+    },
+    {
+      "subject_id": "stage_swarm_hive",
+      "category": "stage",
+      "path": "assets/stages_v11/swarm_hive_gears4_infested_chamber_master.png",
+      "format": "PNG",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 2723069,
+      "sha256": "89831ec30c08374180e6191ce7ec68624b67390c52a04cb59d85f76e7935ab82"
+    },
+    {
+      "subject_id": "stage_tactics_depot",
+      "category": "stage",
+      "path": "assets/stages_v11/tactics_depot_cog_industrial_courtyard_master.png",
+      "format": "PNG",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 2986190,
+      "sha256": "5218cd6ddb22b4511bc42b1ac1b4c9cc55b215c48e4e9147af4148ac9e3f9ae3"
+    },
+    {
+      "subject_id": "stage_tactics_lab",
+      "category": "stage",
+      "path": "assets/stages_v11/stage_tactics_lab.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2642098,
+      "sha256": "a6a25b7e57c0b4eb5407903f94c49ef3c1f8a0e0acf2b55e72a379fc3892d1f0"
+    },
+    {
+      "subject_id": "stage_tollen_dam",
+      "category": "stage",
+      "path": "assets/stages_v11/tollen_dam_gears4_entrance_master.png",
+      "format": "PNG",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 3070820,
+      "sha256": "968a28bca88f54fd531866d4da2ebec1598bef0dd791e634b36e2fb13829e24f"
+    },
+    {
+      "subject_id": "stage_training_hangar",
+      "category": "stage",
+      "path": "assets/stages_v11/stage_training_hangar.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2677424,
+      "sha256": "cfc3681e40b19b396bb9262c8067d9d96120fb99fefc189b472c208e6b1736de"
+    },
+    {
+      "subject_id": "stage_training_range",
+      "category": "stage",
+      "path": "assets/stages_v11/stage_training_range.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2872522,
+      "sha256": "f228c3da7ab5e012b4ac1359fa0dac23e0c333398e83c638904d6b23731a3217"
+    },
+    {
+      "subject_id": "stage_vasgar_airport",
+      "category": "stage",
+      "path": "assets/stages_v11/vasgar_airport_gears5_terminal_master.png",
+      "format": "PNG",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 3168262,
+      "sha256": "e5c3bfc05740ca554587fab0c09a9bff503584b2deaf72efe665629b47212bab"
+    }
+  ],
+  "data_validation": {
+    "status": "passed",
+    "command": "python src/validate_data.py",
+    "errors": []
+  },
+  "files_and_history_check": {
+    "status": "passed",
+    "baseline_commit": "03bc08a1f23940498d0842f48fd11c4d5962bb3e",
+    "previous_pngs_unchanged": 122,
+    "historical_records_and_reports_unchanged": 197,
+    "new_png_native_copies_verified": 26,
+    "individual_records": 31,
+    "gallery_embedded_data_and_manifests": "passed",
+    "local_markdown_links_checked": 776,
+    "git_diff_check": "passed"
+  },
+  "gallery_javascript_check": {
+    "status": "passed",
+    "mode": "actual_inline_script_with_minimal_simulated_dom",
+    "assertions": 3033,
+    "category_state_combinations": 30,
+    "search_cases": 9,
+    "concept_cards": [
+      {
+        "subject_id": "stage_tactics_lab",
+        "asset_path": "assets/stages_v11/stage_tactics_lab.png",
+        "displayed_label": "Variante issue d’un concept de production ; correspondance avec le modèle final du jeu non attestée."
+      },
+      {
+        "subject_id": "projectile_smoke_grenade_g4",
+        "asset_path": "assets/projectiles_v10/smoke_grenade_gow4_concept_c.png",
+        "displayed_label": "Variante issue d’un concept de production ; correspondance avec le modèle final du jeu non attestée."
+      }
+    ],
+    "research_cards": [
+      {
+        "subject_id": "boss_hydra_skorge",
+        "record_path": "data/generation_v11/boss_hydra_skorge_record.json",
+        "displayed_label": "Voir la recherche de référence",
+        "visual_status": "missing"
+      },
+      {
+        "subject_id": "boss_wakaatu",
+        "record_path": "data/generation_v10/boss_wakaatu_record.json",
+        "displayed_label": "Voir la recherche de référence",
+        "visual_status": "missing"
+      },
+      {
+        "subject_id": "boss_sire_g5",
+        "record_path": "data/generation_v11/boss_sire_g5_record.json",
+        "displayed_label": "Voir la recherche de référence",
+        "visual_status": "missing"
+      },
+      {
+        "subject_id": "projectile_boomshot_shell_g4",
+        "record_path": "data/generation_v11/projectile_boomshot_shell_g4_record.json",
+        "displayed_label": "Voir la recherche de référence",
+        "visual_status": "missing"
+      }
+    ],
+    "checks": [
+      "Actual inline program initialized without error; embedded coverage matches production/coverage.json.",
+      "30 category/state combinations, searches, empty state, live counts and local image paths passed.",
+      "Concept caveat and pending-reference journals render with accurate user-facing labels.",
+      "Alternative selection, focus restoration, persistence, checkerboard and archive/statistics passed."
+    ],
+    "limitations": [
+      "No browser layout, visual rendering or image decoding is exercised."
+    ]
+  },
+  "independent_review": {
+    "record_consistency": "passed: IDs, parents, provenance, actual PNGs versus refusals/research, version candidate selection",
+    "costume_visual_cross_review": "6 PNG reviewed: one entire figure, empty hands, right-facing pose, no scenery or second subject",
+    "scope_limit": "Does not certify canonical fidelity or unobserved details."
+  },
+  "known_v11_limits": [
+    "Lambent Brumak is marked correction_required for front-oblique orientation.",
+    "Hydra Tactics is an upper-body portion, without rider or reconstructed long extremities; Hive Beast is the visible emerging portion.",
+    "Marcus original PC-port equivalence to Xbox 360 2006 is not validated; Cole Operation 3 is an alternate multiplayer reference.",
+    "Ukkon laboratory is adapted from primary production concept art; released level correspondence is not verified.",
+    "Training hangar, training range and Tactics supply courtyard are original project compositions.",
+    "Native dimensions and alpha retained; 10% requested margins are not achieved for all sprites; no parallax layers or animations delivered."
+  ]
+}

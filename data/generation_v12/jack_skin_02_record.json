@@ -1,0 +1,121 @@
+{
+  "id": "jack_skin_02",
+  "subject_id": "jack_skin_02",
+  "costume_id": "jack_skin_02",
+  "character_id": "jack",
+  "name": "JACK — Gears Tactics",
+  "category": "costume",
+  "source_game": "Gears Tactics — mise à jour Jacked, novembre 2020",
+  "catalog_target_game": "Gears Tactics",
+  "variant": "JACK Tactics — robot de soutien à quatre optiques, bras manipulateur et outil distincts",
+  "variant_relation": "target_version_candidate",
+  "purpose": "reference_fullbody",
+  "status": "generated_reference_pending_validation",
+  "generation_status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "pass_date": "2026-11-27",
+  "generation_attempted": true,
+  "has_image": true,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "pose": "static_side_three_quarter_facing_right",
+  "asset_path": "assets/costumes_v12/jack_tactics.png",
+  "original_output_path": "/workspace/scratch/3c791759fb15/generated_images/exec-073cebd9-3e0b-44a6-8298-5c059054f692.png",
+  "prompt": "Create one clean isolated static character-reference render of JACK as he appears in GEARS TACTICS, the November 2020 Jacked campaign update. The attached references show the exact target model: the first is a large complete render republished as 'Gears Tactics Developer Blog Jack'; the second is the official Gears Tactics gameplay promotional image on gearsofwar.com and independently confirms that this is the correct Tactics robot. In the second reference JACK is the small floating robot in the upper left; use only JACK, not any soldiers, creatures or environment. Match the complete large robot's visible construction and slightly front-three-quarter orientation, with the front pointing modestly toward SCREEN RIGHT. Single floating body centered with generous clear margins around antenna, side plates and both tools. Exactly one JACK, one pose, no multiple views. Preserve the compact shield-shaped rounded industrial chassis, heavily weathered dark blue-gray metal panels with brass/steel wear, rounded upper shell, four circular blue optical lenses arranged in two pairs, top rectangular light, slim vertical aerial, angled tabs, circular top access plate, the two different thin articulated service arms and their exact distinct end tools (one three-prong manipulator, one slim cylindrical implement), and the separate rounded dark side panels. Keep the robotic mechanical proportions and component counts faithful to the images. Do not substitute the redesigned Gears 5 Jack, fabricate extra eyes or arms, add legs, firearms, flashy new armor or fictional upgrades. Match the visible source angle closely so hidden construction is not invented. Clear neutral studio lighting with realistic hard-surface materials. Actual transparent alpha background, no checkerboard texture, no floor, no shadows detached from the subject, no scenery, no soldiers, no text, logo, watermark, border, UI or animation. High-detail still asset candidate for manual review, full robot in frame.",
+  "sources": [
+    {
+      "page_url": "https://www.pngaaa.com/detail/5767279",
+      "image_url": "https://image.pngaaa.com/279/5767279-middle.png",
+      "source_type": "third_party_republished_render",
+      "scope": "Rendu complet attribué par le site au Developer Blog JACK Tactics ; origine éditoriale indépendante non prouvée par ce miroir seul. Construction et silhouette corroborées par l'image officielle Tactics.",
+      "visual_reference_used": true,
+      "visually_inspected": true,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/jack_tactics_developer_mirror.png",
+      "reference_sha256": "8b2be777b3c0eb1a7f68e253b03d727cdc79bfcc654ce64d491bd0a3a3747fd8"
+    },
+    {
+      "page_url": "https://www.gearsofwar.com/en-us/games/gears-tactics/",
+      "image_url": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2026/04/gears-tactics-explore-desktop-xbox-jackbot-69d8280f20244-2048x1152.jpg",
+      "source_type": "official_game_promotional_screenshot",
+      "scope": "Capture officielle de la section New Content : JACK entier dans le quart supérieur gauche ; quatre optiques, carrosserie, antenne et deux bras distincts visibles. Confirme l'édition Tactics du modèle, mais pas tous les petits détails cachés.",
+      "visual_reference_used": true,
+      "visually_inspected": true,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/jack_tactics_official_explore.jpg",
+      "reference_sha256": "45e97576842fb4fb01e33d43eda67d7fa7844a091a2fc2d56a8b561ef4b87d21"
+    },
+    {
+      "page_url": "https://www.gearsofwar.com/en-us/news/developer-blog-jack-skills/",
+      "source_type": "official_developer_blog",
+      "scope": "Annonce du 3 novembre 2020 confirmant JACK comme ajout de Gears Tactics ; texte et icône/arbre de compétences, sans preuve complète du modèle à partir de cette page seule.",
+      "visual_reference_used": false
+    }
+  ],
+  "source_urls": [
+    "https://www.pngaaa.com/detail/5767279",
+    "https://www.gearsofwar.com/en-us/games/gears-tactics/",
+    "https://www.gearsofwar.com/en-us/news/developer-blog-jack-skills/"
+  ],
+  "reference_images": [
+    "/workspace/scratch/3c791759fb15/research_v12/jack_tactics_developer_mirror.png",
+    "/workspace/scratch/3c791759fb15/research_v12/jack_tactics_official_explore.jpg"
+  ],
+  "qa": {
+    "reference_visually_inspected": true,
+    "output_visually_inspected": true,
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "orientation_facing_right": true,
+    "orientation_note": "Vue avant trois-quarts légèrement orientée vers la droite, proche du rendu de référence ; ce n'est pas un profil de combat strict.",
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Un seul robot complet : quatre grandes optiques bleues, antenne, plaque supérieure et deux bras/outils distincts.",
+      "Transparence réelle mesurée ; absence du damier de la référence.",
+      "Copie native conservée sans recadrage, redimensionnement ni réencodage.",
+      "Silhouette et composants principaux cohérents avec la capture officielle Tactics ; fidélité microscopique non validée.",
+      "Marge basse étroite : 17 px à alpha >=128 ; toutes les griffes restent dans le cadre.",
+      "De minces franges colorées sont visibles sur certains bords métalliques : contrôle à fond clair et correction future requise avant production."
+    ],
+    "remaining_checks": [
+      "Comparer les petits joints, gravures, attaches et asymétries aux captures complètes du jeu Tactics.",
+      "Vérifier contours sur fonds clair/sombre et uniformiser les marges dans une passe autorisée distincte.",
+      "Validation manuelle de l'identité de l'édition et des matériaux ; aucune certification 1:1.",
+      "Aucune animation, collision ni intégration moteur produite."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1363,
+    "height": 1154,
+    "bytes": 1404956,
+    "sha256": "b4a3568b1c908fe74a0c78987d92554fa37546c38728e7f4f067fae346dc0687",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.6637908782619641,
+    "subject_bbox_alpha_ge_128": [
+      85,
+      31,
+      1305,
+      1137
+    ],
+    "subject_margins_ltrb_px": [
+      85,
+      31,
+      58,
+      17
+    ],
+    "native_copy_verified": true
+  },
+  "prompt_sha256": "c5e9a08589351a193b5dc0fffdeb78b4a4d4dbe8be6053db3a4c9be47ac137ed",
+  "generation_attempt_count": 1
+}

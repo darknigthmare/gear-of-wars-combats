@@ -1,0 +1,63 @@
+{
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "variant_relation": "target_version_candidate",
+  "category": "stage",
+  "purpose": "stage_master",
+  "animation_status": "not_requested_this_pass",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "has_image": true,
+  "generation_attempted": true,
+  "qa": {
+    "visually_inspected": true,
+    "single_stage": true,
+    "transparent_background": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "observations": [
+      "Caverne glacée bleue, grandes stalactites, cuve sphérique à arceaux sombres, logements verticaux lumineux et mécanisme circulaire reproduisent le vocabulaire de la capture finale Mt Kadar.",
+      "Sol glacé continu au premier plan; marches et garde-corps restent en arrière. Aucun personnage ni créature n’est visible dans la cuve.",
+      "Perspective abaissée, paroi droite et disposition des cuves recomposées; nombre de cuves et silhouette du socle non validés 1:1.",
+      "Le catalogue vise une chambre liée à la Matriarch. Cette vue confirme le laboratoire Mt Kadar mais ne certifie pas l’intégralité de la géométrie de son combat; cette vérification reste ouverte."
+    ],
+    "remaining_checks": [
+      "Comparer la portion représentée au parcours exact et à l’arène de la Matriarch.",
+      "Valider le nombre des cuves, la structure du socle et l’échelle du plan de combat."
+    ],
+    "alpha_channel_present": false,
+    "opaque": true
+  },
+  "id": "kadar_lab_gears5_containment_chamber_master_v11",
+  "subject_id": "stage_kadar_lab",
+  "name": "Laboratoire sous le mont Kadar — chambre de confinement gelée",
+  "source_game": "Gears 5",
+  "catalog_target_game": "Gears 5",
+  "variant": "Chambre à cuve sphérique du niveau Mt Kadar, adaptée en arène latérale",
+  "asset_path": "assets/stages_v11/kadar_lab_gears5_containment_chamber_master.png",
+  "prompt": "Create ONE opaque 16:9 widescreen static side-view fighting-game environment from the Gears 5 Mount Kadar laboratory, grounded closely in the attached final-game screenshot from art director Aryan Hanbeck. Use this exact visible icy laboratory chamber as the architectural reference: an enormous cavern of layered blue ice and dark rock, hanging long icicles, pale cyan shafts of light, a large spherical frosted greenish glass containment vessel with dark curved reinforcing bands on a heavy concrete and metal pedestal, a circular mechanical housing below the sphere, clustered tall luminous rectangular containment cylinders along the side walls, short railings and shallow stairs behind the playing area. Preserve the specific rounded vessel silhouette and restrained cyan/teal, dark steel and green-white lighting; do not transform it into a generic futuristic reactor. Any content inside the frosted tank remains obscured, no visible creature or person. Recompose the visible chamber into a single EMPTY near-frontal lateral fighting stage at standing camera height. Bottom 24 percent must be one continuous level icy stone-and-metal floor from edge to edge, with subtle flat cracks and frost but no holes, steps, railings or boulders blocking the combat lane. Keep all elevated equipment, steps, rubble and cave formations behind that plane. Main sphere offset slightly left of center, icy cavern extending to both sides; cavern roof may extend out of frame. Photorealistic richly detailed AAA game environment painted master, good foreground readability and atmospheric depth. This is a reference-guided candidate adaptation of the visible Mount Kadar laboratory chamber; camera and unseen geometry are recomposed, not a certified map reconstruction. No characters, Matriarch, Sires, enemies, corpses, guns, ammunition, effects, HUD, labels, captions, logos, credit strip, watermark, borders, collage, animation frames or separate layers. One opaque full-canvas environment at native maximum landscape resolution.",
+  "sources": [
+    {
+      "page_url": "https://mediumrare.artstation.com/projects/4bxJqY",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/020/992/223/large/aryan-hanbeck-kadar5.jpg?1569955804",
+      "source_type": "primary_artist_final_game_environment",
+      "scope": "Aryan Hanbeck, art director : capture finale Gears 5 Mt Kadar montrant la chambre à cuve sphérique dans la caverne gelée. La correspondance exacte avec toute l’arène de la Matriarch n’est pas attestée par cette vue unique.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/207fbd1207b7/research_stages_v11/kadar_final_4.jpg",
+      "reference_sha256": "dc2c3fcba09063c2b717414e0e51252bda5ca21316f9ada0fcd9d70073d40fcc"
+    }
+  ],
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-4b9b7471-e2af-4649-9966-47075038d477.png",
+  "output": {
+    "format": "PNG",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "bytes": 2645707,
+    "sha256": "2547f4f32e06fb5346c7da87bf2ff0fd814182ecc4c8fe39adeca9138587bd80"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "training_range_original_master_v11",
+  "subject_id": "stage_training_range",
+  "category": "stage",
+  "purpose": "stage_master",
+  "name": "Piste d’essai — création du projet",
+  "source_game": "Création pour Gears of War Combats",
+  "catalog_target_game": "Création pour Gears of War Combats",
+  "variant": "Arène originale — piste d’essai COG; matériaux inspirés de Training Grounds Gears 5",
+  "variant_relation": "target_version_candidate",
+  "canonical_origin": "project_original",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "animation_status": "not_requested_this_pass",
+  "status": "generated_reference_pending_validation",
+  "has_image": true,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "asset_path": "assets/stages_v11/stage_training_range.png",
+  "prompt": "Create ONE static opaque wide 16:9 environment for a side-view fighting game: an ORIGINAL outdoor COG armored-training test range for the project Gears of War Combats. This is a project-created arena, not an official Gears map. Use the attached Gears 5 Training Grounds production image ONLY as a reference for modern COG industrial construction, thick weathered blue-gray modular steel, pale concrete, bolted frames, dark blue painted hardware, cyan signal strips and believable military test facilities. Do NOT reproduce the original map, House of Sovereigns, its old stone tower, elevated walkways, large spherical pod or ruins. New composition: level lateral standing-height camera, a broad completely uninterrupted horizontal ochre-and-gray compacted test track across the lower quarter, with small flat white lane boundary dashes painted on the ground, no physical obstacles or depressions. Beyond the combat band, a long battered reinforced concrete blast wall, heavy steel supports, two compact unoccupied observation towers at the far sides, blue-gray retractable abstract rectangular target boards behind the track, deep background neutral dry low hills and a pale bright overcast sky. Modest industrial exercise equipment and cable conduits, a few tires and protective fences located only at the very outer margins behind the track. Steel and concrete should share the reference's tangible bulky construction and rough realistic weathering. Uniform cool-neutral daylight for clearly readable fighters, subdued contrast and subtle ochre dust. No people, robots, enemies, vehicles, aircraft, weapons, ammo, graphic insignias, text, numbers, posters, UI, logos, credits, watermarks, collage or animation frames. Single empty cohesive original arena, polished detailed Gears-like game background.",
+  "sources": [
+    {
+      "page_url": "https://dvids.artstation.com/projects/4b2eRW",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/020/439/166/medium/julius-peters-gears-5-traininggrounds-006.jpg?1567768169",
+      "source_type": "production_artist_portfolio_style_only",
+      "artist": "Julius Peters — The Coalition",
+      "scope": "Vocabulaire COG des structures d’exercice et du métal peint. Ne prouve pas l’existence de cette piste; composition entièrement originale pour le projet.",
+      "visual_reference_used": true,
+      "reference_sha256": "027f17befdf1bac55b9adc99e3eb863326c4e2c5f02441e879993a5c614d3fb2"
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_stage": true,
+    "transparent_background": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "observations": [
+      "Création originale prévue au catalogue; aucun lieu exact de la saga n’est revendiqué.",
+      "Training Grounds sert uniquement de référence de style et de matériaux COG; implantation, reliefs et parcours sont créés pour le projet.",
+      "Mur de protection, deux tours vides, panneaux de cibles fixes, métal bleu-gris usé, piste plane et marquages au sol; aucun personnage, véhicule ou interface visible.",
+      "Les trois tracés de cible sont de simples graphismes sur panneaux, sans combattants incrustés. La disposition est une création du projet."
+    ],
+    "remaining_checks": [
+      "Vérifier l’échelle de la piste et la lisibilité des combattants dans le moteur."
+    ],
+    "alpha_channel_present": false,
+    "opaque": true
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGB",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2872522,
+    "sha256": "f228c3da7ab5e012b4ac1359fa0dac23e0c333398e83c638904d6b23731a3217"
+  },
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-8a39653c-92bb-480f-a542-0afc814538c7.png"
+}

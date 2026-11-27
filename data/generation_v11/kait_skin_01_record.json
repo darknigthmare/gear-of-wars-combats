@@ -1,0 +1,102 @@
+{
+  "id": "kait_skin_01",
+  "subject_id": "kait_skin_01",
+  "character_id": "kait",
+  "costume_id": "kait_skin_01",
+  "name": "Kait Diaz — Outsider Gears of War 4",
+  "category": "costume",
+  "source_game": "Gears of War 4 (2016)",
+  "catalog_target_game": "Gears of War 4 (2016)",
+  "variant": "Kait Outsider — veste courte brune, Gears of War 4",
+  "variant_relation": "target_version_candidate",
+  "asset_path": "assets/costumes_v11/kait_skin_01.png",
+  "prompt": "Use case: stylized-concept.\nAsset: ONE static transparent full-body costume reference for Kait Diaz — Outsider Gears of War 4, costume id kait_skin_01.\nTarget edition: original Gears of War 4 (2016), Outsider Kait before her COG armored outfit. The attached image is the official character model by Heber Alvarado and Michelle Zhang at The Coalition, showing front and rear of the SAME person. Output exactly ONE full character, not a pair or turnaround. Preserve the source youthful face, dark side-swept fringe and tied-back hair, small scar on the cheek, burgundy knitted slouch beanie, small earrings, patterned red/cream/black bead choker and purple feather hanging at the neck.\nMatch the outfit: short worn brown leather bolero jacket with three-quarter sleeves and laced seams, pale gray-olive ribbed undershirt, gold pendant necklace, compact metal backpack harness with blue luminous accents and yellow triangle labels, dark belt with rectangular metal buckle, asymmetrical blue-lit belt pouches, gray herringbone trousers, fringed mustard-yellow checked cloth tied around the hips, wrapped forearms and worn brown fingerless gloves. The reference ends near the upper thighs, so reconstruct the lower trouser legs and rugged practical dark-brown boots conservatively without inventing bright badges or heavy COG leg armor. Match the leather, cloth and metal texture family of the visible source. Do not turn her into Armored Kait, Winter Kait, Desert Kait, a Gears 5 armored version, or a generic soldier.\nPose: quiet neutral full-body standing, front three-quarter facing screen RIGHT, nose and toes pointing right; arms relaxed, both hands empty and fully visible. No gun or carried item, no combat action, no animation.\nFraming: entire body and boot soles within frame; the figure occupies only 75% of image height and has at least 10% empty transparent margin on all sides.\nRealistic game character rendering, faithful source proportions, neutral studio light; actual transparent alpha background. No floor, environment, gradient, smoke, halo, shadow cloud, watermark, UI, labels or added text.",
+  "sources": [
+    {
+      "page_url": "https://www.zbrushcentral.com/t/gears-of-war-4-art-dump/206321",
+      "image_url": "https://www.zbrushcentral.com/uploads/default/original/3X/6/c/6cfdd85e4d21d7b95620fa85d2142f07b5acca53.jpeg",
+      "source_type": "first_party_character_artist",
+      "scope": "Rendu officiel Kait Outsider publié par Heber Alvarado (corps) et Michelle Zhang (tête), The Coalition. Édition Gears of War 4 explicite ; face/dos jusqu'aux cuisses.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/207fbd1207b7/research_gears/v11_costumes/kait_outsider_g4.jpg",
+      "reference_sha256": "4705b969b12c1895a5de292bb06824c35dd2d242e2111f4bd6a7344ff14de536"
+    }
+  ],
+  "qa": {
+    "observations": [
+      "Kait Outsider : bonnet bordeaux, veste courte brune, sous-pull clair, pendentif, plume et tissu jaune à la ceinture concordants avec la source du studio.",
+      "Un seul personnage entier, pose calme vers la droite, mains vides.",
+      "Le bas de pantalon et les bottes ne sont pas visibles dans la source ; ces portions sont reconstituées et doivent être comparées au modèle du jeu.",
+      "Coutures, tressage du collier, boucle, breloques, visage et petits sigles sont des approximations génératives, non des détails 1:1 validés.",
+      "Les marges verticales sont nettement plus petites que les 10 % demandés ; aucune partie anatomique ne paraît coupée.",
+      "Alpha RGBA réel : 72.08% de pixels entièrement transparents ; alpha maximal bande extérieure de 8 px : 1.",
+      "Marges de silhouette alpha >=128 (gauche, haut, droite, bas) : [261, 17, 270, 14] px ; anatomie complète, marges cibles de 10% à contrôler."
+    ],
+    "remaining_checks": [
+      "Comparer la coupe du pantalon, les bottes et la longueur du tissu de hanches à une capture originale Gears of War 4.",
+      "Valider proportions, asymétries de l'équipement et petits emblèmes."
+    ],
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "alpha_measured": true,
+    "framing_measured": true
+  },
+  "notes": [
+    "Référence Outfit Outsider originale Gears of War 4 ; aucune tenue COG Armored ou Gears 5 fusionnée.",
+    "PNG natif copié sans traitement raster."
+  ],
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 1886983,
+    "sha256": "eed0012cec05c5626375cbb165d191d8ec3e4f63c983176120fbf839d3b2fa52",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.7207584381103516,
+    "subject_bbox_alpha_ge_128": [
+      261,
+      17,
+      754,
+      1522
+    ],
+    "subject_margins_ltrb_px": [
+      261,
+      17,
+      270,
+      14
+    ],
+    "edge_band_width_px": 8,
+    "edge_alpha_max": 1,
+    "has_real_alpha": true,
+    "native_copy_verified": true
+  },
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-63918e91-ed4a-4a3b-b778-01e256303765.png",
+  "has_image": true,
+  "status": "generated_reference_pending_validation",
+  "generation_status": "generated_reference_pending_validation",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "pose": "static_front_three_quarter_facing_right",
+  "quality_state": "candidate",
+  "purpose": "reference_fullbody",
+  "source_urls": [
+    "https://www.zbrushcentral.com/t/gears-of-war-4-art-dump/206321"
+  ],
+  "reference_images": [
+    "/workspace/scratch/207fbd1207b7/research_gears/v11_costumes/kait_outsider_g4.jpg"
+  ]
+}

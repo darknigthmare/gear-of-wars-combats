@@ -1,0 +1,95 @@
+{
+  "id": "keegan_hivebusters_intro",
+  "subject_id": "keegan_hivebusters_intro",
+  "character_id": "keegan",
+  "costume_id": "keegan_hivebusters_intro",
+  "name": "Keegan — tenue intro Hivebusters",
+  "category": "costume",
+  "source_game": "Gears 5: Hivebusters",
+  "catalog_target_game": "Gears 5: Hivebusters",
+  "variant": "Tenue intro de production ; correspondance de catalogue à résoudre",
+  "variant_relation": "target_version_requested",
+  "purpose": "reference_fullbody",
+  "pass_date": "2026-11-27",
+  "status": "reference_research_pending",
+  "generation_status": "reference_research_pending",
+  "quality_state": "reference_research_pending",
+  "generation_attempted": false,
+  "generation_attempt_count": 0,
+  "has_image": false,
+  "asset_path": null,
+  "original_output_path": null,
+  "prompt": null,
+  "output": null,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "sources": [
+    {
+      "page_url": "https://alexbobylev.artstation.com/projects/Vg3qGR",
+      "source_type": "first_party_production_artist_final_model",
+      "scope": "Modèle cinématique temps réel final Onyx Guard Keegan, publié par son artiste à The Coalition ; vue en pied face et dos, chaussures comprises.",
+      "visual_reference_used": false,
+      "accessed_date": "2026-11-27",
+      "source_author": "Alex Bobylev",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/032/935/296/large/alex-bobylev-1n2-full-v1.jpg?1607934339",
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v13_hivebusters/onyx_keegan_full_pair.jpg",
+      "reference_sha256": "dff8be7f805aeb8b6e960b22a2013bb2dcad0622ebcd6929518f94530567e6a2",
+      "visually_inspected": true
+    },
+    {
+      "page_url": "https://alexbobylev.artstation.com/projects/Vg3qGR",
+      "source_type": "first_party_production_artist_final_model",
+      "scope": "Deuxième rendu complet du même modèle final, trois-quarts face/dos ; même tenue et détails asymétriques.",
+      "visual_reference_used": false,
+      "accessed_date": "2026-11-27",
+      "source_author": "Alex Bobylev",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/032/935/299/large/alex-bobylev-fullbody2-small.jpg?1607934343",
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v13_hivebusters/onyx_keegan_fullbody.jpg",
+      "reference_sha256": "9b4e56c6cc1e1a4b102b935a99708d689a1dce89f9dc9e3d9fe55af96f0b7856",
+      "visually_inspected": true
+    },
+    {
+      "page_url": "https://tylerthebradley.artstation.com/projects/ykrQgn",
+      "source_type": "first_party_production_concept",
+      "scope": "Concept de production nommé onyx-keegan-final ; le texte du créateur identifie les tenues intro du DLC. Contrôle de correspondance entre les deux IDs, non utilisé pour remplacer le modèle final.",
+      "visual_reference_used": false,
+      "accessed_date": "2026-11-27",
+      "source_author": "Tyler Bradley",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/038/911/694/large/tyler-bradley-onyx-keegan-final.jpg?1624416612",
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v13_hivebusters/keegan_intro_concept.jpg",
+      "reference_sha256": "d6d907d962657867c5e52d98c533cea0fb70e553fdd7d7ab7470dcd769797dbd",
+      "visually_inspected": true
+    }
+  ],
+  "notes": [
+    "Aucune tentative sur cet ID. Le refus nouveau est exclusivement celui de keegan_skin_02.",
+    "Même apparence : ne pas relancer sous un autre intitulé après refus."
+  ],
+  "qa": {
+    "visually_inspected": false,
+    "output_visually_inspected": false,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Le concept intro et les rendus finaux présentent la même apparence que keegan_skin_02.",
+      "Les IDs de catalogue restent distincts en attendant revue explicite ; aucune image supplémentaire et aucun partage de couverture implicite."
+    ],
+    "remaining_checks": [
+      "Valider la relation d’alias et la portée exacte de l’ID avant toute attribution de PNG au catalogue."
+    ],
+    "reference_visually_inspected": true
+  },
+  "blocking_reason": "catalogue_alias_resolution",
+  "possible_alias_of": "keegan_skin_02",
+  "alias_resolution_pending": true,
+  "count_as_covered": false,
+  "related_refusal_record": "data/generation_v13/keegan_skin_02_record.json",
+  "source_urls": [
+    "https://alexbobylev.artstation.com/projects/Vg3qGR",
+    "https://tylerthebradley.artstation.com/projects/ykrQgn"
+  ],
+  "reference_images": []
+}

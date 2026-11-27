@@ -1,10 +1,170 @@
 # Gears of War Combats
 
-Corpus de conception, prototype et références visuelles consolidés le **20 novembre 2026** pour Darknigthmare.
+Corpus de conception, prototype et références visuelles consolidés le **27 novembre 2026** pour Darknigthmare.
+
+## État courant — passe V15 — nouvelles tentatives et revue visuelle
+
+**5 nouveaux PNG actifs**, **1 nouvelle image archivée après revue**, **13 refus renouvelés** et **1 alias Keegan sans génération**. Les **19 sujets précédemment refusés** ont chacun fait l’objet d’un nouvel appel explicitement demandé par l’utilisateur ; 19 appels au total dans cette passe.
+
+**Prompts : 17/19 repris à l’identique.** Écart à la demande « même prompt » : les prompts Shock Grenade et Incendiary Grenade ont été complétés avec les formes/couleurs des nouvelles images du guide officiel Prima Gears 4. Le texte historique est conservé dans les journaux ; ces deux appels ne sont pas comptés comme des reprises strictement identiques. Les deux ont de nouveau été refusés.
+
+| Catégorie | Avec référence | Catalogue | Sans référence |
+| --- | --- | --- | --- |
+| Personnages | 54 | 57 | 3 |
+| Costumes | 68 | 85 | 17 |
+| Boss, créatures et machines | 30 | 34 | 4 |
+| Stages | 34 | 34 | 0 |
+| Projectiles | 5 | 9 | 4 |
+
+**164 PNG actifs uniques + 18 archives**, **219 entrées de catalogue**, **28 sans référence attribuée**. **0 fidélité 1:1 certifiée ; 0 ensemble d’animations complet.**
+
+Les 34 manquants de départ sont tous tracés. Keegan intro partage la référence Onyx Guard finale par un alias documenté. Le PNG Theron au casque incorrect est archivé et reste exclu de la couverture active.
+
+La **[Bible V15](livrables/Gears_of_War_Combats_Bible_v15.md)** rassemble huit chapitres sources, les trois guides originaux inchangés, les 68 rubriques et les 40 cas d’acceptation conservés. Les extensions restent intégrées à la conception ; leurs cas ne sont pas exécutés. Le prototype et les livrables historiques sont inchangés.
+
+- [Images, résultats et réserves V15](docs/production/LISTING_V15.md).
+- [Manquants et blocages précis](docs/production/REPRISE_V15.md).
+- [Audit des 19 nouvelles tentatives](docs/production/RETRY_AUDIT_V15.json).
+- [Validation technique V15](docs/production/VALIDATION_V15.json).
+- [Revue indépendante V15](docs/production/REVIEW_V15.md).
+- [Manifeste de construction V15](docs/production/BIBLE_BUILD_V15.json).
+
+Les compteurs mesurent les références attribuées. La pose, le cadrage, le détourage et les détails canoniques restent soumis aux réserves de chaque journal.
+
+## Historique — passe V14 — références finales et manquants tracés
+
+La passe apporte **5 nouveaux PNG actifs**, **2 révisions Reyna archivées, avec la correction de coiffure sélectionnée comme référence**, **1 refus unique pour Mina Jinn** et **1 alias Lahni documenté sans génération**. Les **18 refus antérieurs** sont conservés sans relance.
+
+| Catégorie | Avec référence | Catalogue | Sans référence |
+| --- | --- | --- | --- |
+| Personnages | 51 | 57 | 6 |
+| Costumes | 65 | 85 | 20 |
+| Boss, créatures et machines | 30 | 34 | 4 |
+| Stages | 34 | 34 | 0 |
+| Projectiles | 5 | 9 | 4 |
+
+**159 PNG actifs uniques + 17 archives**, **219 entrées de catalogue**, **34 sans référence attribuée**. **0 fidélité 1:1 certifiée ; 0 ensemble d’animations complet.** Les nombres mesurent des références attribuées, pas des personnages jouables ni des éditions visuellement homologuées.
+
+Nouveaux candidats : **Reyna humaine Outsider Gears 4, Canker Gears 4, Leech individuel Gears 5, Wretch E-Day et Ticker organique E-Day**. Chaque image conserve son opus précis, ses dimensions natives, son prompt, ses sources et ses réserves. Reyna humaine exige un gameplay distinct de Queen Reyna ; elle ne reçoit aucun pouvoir automatiquement.
+
+Lahni intro partage le PNG Brash Brigade V13 après rapprochement documenté. Le candidat initial Reyna et son essai de nettoyage sont archivés ; la correction du côté de coiffure est sélectionnée, avec ses limites restantes. Mina Jinn est ajoutée au catalogue narratif, sans PNG après un refus unique. Les 35 anciens manquants sont tous revus ; deux entrées obtiennent une référence (Reyna et l’alias Lahni). Quatre des cinq nouvelles entrées sont illustrées.
+
+La **[bible de conception V14](livrables/Gears_of_War_Combats_Bible_v14.md)** ajoute l’annexe sur les identités et créatures complémentaires : **sept chapitres**, les **trois guides originaux**, les **68 rubriques** et les **40 cas d’acceptation**, toujours non exécutés. Le prototype conserve ses 36 combattants de conception et ses systèmes existants.
+
+- [Cinq PNG actifs, archive, refus et réserves](docs/production/LISTING_V14.md).
+- [Audit des manquants et conditions exactes de reprise](docs/production/REPRISE_V14.md).
+- [Sources et décisions V14](docs/references/production-v14-research.md).
+- [Validation V14](docs/production/VALIDATION_V14.json).
+- [Revue indépendante V14](docs/production/REVIEW_V14.md).
+- [Manifeste de construction V14](docs/production/BIBLE_BUILD_V14.json).
+
+Les images et journaux V1–V13, les guides originaux et les livrables historiques sont conservés. Les profils stricts, microdétails, marges, contours et fonctionnalités moteur ne deviennent pas validés du seul fait de la couverture du catalogue.
+
+## Historique — passe V13 — tous les manquants examinés
+
+**6 nouveaux PNG actifs**, **2 nouveaux refus**, **1 refus historique retrouvé** et **17 recherches sans génération**, dans **26 journaux V13**. Les **15 autres refus antérieurs** restent conservés sans relance. Les 41 manquants de départ ont tous un état traçable.
+
+| Catégorie | Avec référence | Catalogue | Sans référence |
+| --- | --- | --- | --- |
+| Personnages | 51 | 56 | 5 |
+| Costumes | 63 | 85 | 22 |
+| Boss, créatures et machines | 27 | 31 | 4 |
+| Stages | 34 | 34 | 0 |
+| Projectiles | 4 | 8 | 4 |
+
+**154 PNG actifs uniques**, plus **15 archives**. **0 fidélité 1:1 certifiée ; 0 ensemble d’animations complet.** Les comptes mesurent une référence attribuée, avec les réserves d’édition et de portée documentées.
+
+Nouveaux candidats : Riftworm — extérieur Gears of War 2, Dizzy Wallin — standard Gears of War 3, Victor Hoffman — campagne Gears of War 3, JD Fenix — CGU au début de Gears 5, Lahni — campagne Hivebusters / Brash Brigade, Locust Drone — modèle multijoueur Gears of War: E-Day. Un sujet par image, octets et dimensions natifs, sans retouche raster.
+
+Les alias possibles des tenues intro de Lahni et Keegan restent documentés sans PNG dupliqué ni couverture automatique. Le Theron 2006 reste gelé après rapprochement avec son refus V4. Les concepts sans modèle final complet et les vues ambiguës ne remplacent pas l’édition demandée.
+
+La **[bible de conception V13](livrables/Gears_of_War_Combats_Bible_v13.md)** actualise le catalogue et conserve les six chapitres, les trois guides originaux, les 68 rubriques et les 40 cas d’acceptation issus de V12. Les extensions sont intégrées à la conception ; leurs cas d’acceptation restent non exécutés.
+
+- [Nouveaux PNG, refus et réserves](docs/production/LISTING_V13.md).
+- [Audit des 41 manquants et suites exactes](docs/production/REPRISE_V13.md).
+- [Sources visuelles et décisions](docs/references/production-v13-research.md).
+- [Validation V13](docs/production/VALIDATION_V13.json).
+- [Revues indépendantes V13](docs/production/REVIEW_V13.md).
+- [Manifeste de construction V13](docs/production/BIBLE_BUILD_V13.json).
+
+Les 163 PNG de production antérieurs, les 5 captures QA du prototype et les 276 autres fichiers historiques contrôlés sont inchangés. Le moteur, les anciens journaux, rapports, guides et la bible V12 sont conservés. Le suffixe V13 empêche le rapport de consolidation du même jour d’écraser V12.
+
+## Historique — passe V12 — bible, extensions et assets fixes
+
+La **[bible de conception V12](livrables/Gears_of_War_Combats_Bible_v12.md)** rassemble les chapitres existants, le catalogue visuel courant, le guide général et les deux extensions adaptées à Gears. Cette passe ajoute aussi **12 PNG actifs natifs : 10 costumes et 2 références de boss**, un sujet par image et sans animation.
+
+### Guide général et deux extensions intégrés
+
+Les trois originaux v1.0, absents à l’identique du commit de départ V11, sont maintenant conservés sans modification avec leurs sources et empreintes :
+
+- [Guide général pour la bible des jeux de combat](docs/guides/combat/Combat_Games_Guide_General_v1.0.txt).
+- [Extension 01 — taunts, sélection, assistances/tag, supers, bonus et exploration](docs/guides/combat/Combat_Games_Extension_01_Tag_Taunts_Bonus_v1.0.txt).
+- [Extension 02 — slots verrouillés, déblocages et contenus abonnés](docs/guides/combat/Combat_Games_Extension_02_Slots_Verrouilles_Deblocages_Abonnes_v1.0.txt).
+
+Le [chapitre d’adaptation à Gears](docs/combat_extensions.md) couvre les équipes, jauges, clashes, entités persistantes, transitions, conditions d’accès et récompenses. Il distingue canon attesté, adaptation jouable, contenu original compatible, crossover et information à confirmer. Les personnages, costumes, armes et partenaires restent liés à leur époque ; une simulation libre ne devient pas un événement de campagne.
+
+**68 rubriques sont tracées** dans la [matrice d’intégration](docs/production/GUIDE_REQUIREMENTS_V12.csv), et les **40 cas d’acceptation sources** sont repris dans l’[audit V12](docs/production/GUIDE_INTEGRATION_V12.md). Ces cas restent **non exécutés** : les extensions sont intégrées à la conception, sans nouveau système de tag, d’animation ou d’abonnement opérationnel dans le prototype.
+
+### Références visuelles après V12
+
+| Catégorie | Références disponibles | Manquants |
+|---|---:|---:|
+| Personnages | 51 / 56 | 5 |
+| Costumes | 58 / 85 | 27 |
+| Boss, créatures et machines | 26 / 31 | 5 |
+| Stages | 34 / 34 | 0 |
+| Projectiles | 4 / 8 | 4 |
+
+**148 PNG actifs uniques**, plus **15 révisions archivées** hors total actif. Ces nombres mesurent la présence de références, y compris partielles ou d’une édition restant à confirmer. **0 fidélité 1:1 certifiée et 0 jeu d’animations complet.**
+
+Les nouveaux costumes couvrent Marcus et Dom E-Day, JACK Tactics, Clayton Gears 5 Operation 3, Blood Red Queen Reyna, Collector’s Zealot, UIR Elite Swarm Drone, le Drone standard Gears 5, JD Outsider et Del Outsider. Le Kraken Gears 5 apporte une référence de tête/manteau ; le Flock apporte une formation collective de Leeches.
+
+Les limites sont conservées par sujet : **JD/Del reposent principalement sur des concepts de préproduction**, comparés à une capture de campagne ; **Clayton correspond au modèle multijoueur Operation 3**, sans équivalence attestée avec le libellé interne « Vétéran ». Le Kraken est partiel et le Flock recomposé. Les poses, marges, contours, visages et microdétails restent à valider. Les corrections demandées pour Buzzkill, Dropshot et Brumak Lambent sont maintenues.
+
+Les **21 journaux V12** comprennent 12 images, 4 refus uniques du générateur (Fahz Hivebuster, Kait Désert, Kantus Tactics, Baird 2006) et 5 recherches sans génération (Hydra de Skorge, Wakaatu, Riftworm, Theron Tactics, Drone E-Day). Aucun refus n’a été relancé.
+
+- [Listing des 12 nouveaux PNG, refus et réserves](docs/production/LISTING_V12.md).
+- [Manquants exacts et prochaines références nécessaires](docs/production/REPRISE_V12.md).
+- [Sources visuelles et décisions V12](docs/references/production-v12-research.md).
+- [Validation technique et documentaire V12](docs/production/VALIDATION_V12.json).
+- [Manifeste de construction de la bible V12](docs/production/BIBLE_BUILD_V12.json).
+
+La galerie et les manifestes sont consolidés sur les fichiers réels. Les 148 PNG antérieurs et les 270 journaux/rapports historiques sont préservés à l’identique. Le moteur de combat et les trois rencontres du prototype gardent leur périmètre. Les PDF, DOCX et classeurs V1 restent les livrables historiques ; la nouvelle bible V12 est fournie en Markdown.
+
+## Historique — passe V11 — assets fixes
+
+**26 nouveaux PNG**, un sujet par image, sans animations. Ils sont intégrés à la galerie et à l’inventaire avec leurs sources, prompts et réserves de fidélité.
+
+- [Images livrées, refus et recherches en attente](docs/production/LISTING_V11.md)
+- [Liste complète des manquants après V11](docs/production/REPRISE_V11.md)
+- [Validation technique V11](docs/production/VALIDATION_V11.json)
+- [Sources et prompts V11](docs/references/production-v11-research.md)
+
+| Catégorie | Références disponibles | Manquants |
+|---|---:|---:|
+| Personnages | 51 / 56 | 5 |
+| Costumes | 48 / 85 | 37 |
+| Boss, créatures et machines | 24 / 31 | 7 |
+| Stages | 34 / 34 | 0 |
+| Projectiles | 4 / 8 | 4 |
+
+Total actif : **136 PNG uniques**. Ephyra est un décor complémentaire ; les costumes rattachés à un PNG existant ne doublent pas le total.
+
+Les images restent des candidats statiques visant une fidélité 1:1. Les références d’édition, corps partiels, reconstitutions, créations originales et défauts identifiés sont documentés dans les journaux. Les décors sont adaptés au combat latéral ; les deux arènes d’entraînement sont des créations du projet.
+
+2 essais V11 ont été refusés et 3 sujets restent au stade de recherche de référence ; aucun n’est compté comme PNG. Buzzkill et Dropshot V9 conservent leur état **À corriger**.
+
+### Validation technique V11
+
+Les dimensions natives, empreintes SHA-256, canaux alpha et marges de silhouette sont contrôlés. Les tests d’inventaire, la cohérence de la galerie et les limites du contrôle navigateur sont consignés dans le [rapport V11](docs/production/VALIDATION_V11.json). Aucun changement au moteur de combat.
+
+### Passes V9 et V10 conservées
+
+Les 40 images des passes V9 et V10 et leurs résultats restent documentés : [listing V9](docs/production/LISTING_V9.md), [validation V9](docs/production/VALIDATION_V9.json), [listing V10](docs/production/LISTING_V10.md), [manquants à la clôture V10](docs/production/REPRISE_V10.md), [validation V10](docs/production/VALIDATION_V10.json).
 
 ## Consulter le projet
 
-- [Galerie des personnages, costumes, boss et stages](Galerie_Personnages.html)
+- [Galerie des personnages, costumes, boss, stages et projectiles](Galerie_Personnages.html)
 - [Reprise V7 : images, réserves et manques exacts](docs/production/REPRISE_V7.md)
 - [Listing V7 : nouvelles identités et costumes rattachés](docs/production/LISTING_V7.md)
 - [Audit des 34 rattachements de costumes](docs/production/AUDIT_COSTUMES_V7.md)
@@ -13,15 +173,15 @@ Corpus de conception, prototype et références visuelles consolidés le **20 no
 - [Reprise V6 historique](docs/production/REPRISE_V6.md)
 - [Listing V6 et éditions cibles](docs/production/LISTING_V6.md)
 - [Rapport de validation V6](docs/production/VALIDATION_V6.json)
-- [État consolidé et limites de production](docs/production/CONSOLIDATION_2026-11-20.md)
+- [État consolidé et limites de production](docs/production/CONSOLIDATION_2026-11-27_V14.md)
 - [Inventaire courant et couverture](production/coverage.json)
 - [Prototype autonome](prototype/Gears_Combats_Prototype.html)
-- [Bible illustrée v1 en PDF](livrables/Gears_of_War_Combats_Bible_v1.pdf)
-- [Bible v1 en Markdown](livrables/Gears_of_War_Combats_Bible_v1.md)
+- [Bible illustrée v1 en PDF — historique](livrables/Gears_of_War_Combats_Bible_v1.pdf)
+- [Bible v1 en Markdown — historique](livrables/Gears_of_War_Combats_Bible_v1.md)
 
 Le fichier HTML du prototype embarque son code, ses styles et ses trois images utilisées. La galerie utilise les PNG du dossier `assets` : conserver son arborescence pour la consulter hors ligne.
 
-## État courant — lot V7
+## Historique — lot V7
 
 Les comptes ci-dessous ont été vérifiés dans l’[inventaire consolidé](production/coverage.json) et le [manifeste des fichiers](production/asset_manifest.json). La consolidation ne signale aucune alerte.
 
@@ -108,7 +268,7 @@ La reprise V5 a ajouté Dominic Santiago, RAAM et un Theron classique casqué. C
 
 Le [listing V6](docs/production/LISTING_V6.md) apporte **44 ajouts nets de catalogue** et enrichit deux identités existantes, Mechanic Mac et Matriarch. Les détails des sources figurent dans le [registre V6](docs/references/production-v6.md).
 
-Contribution suivie dans la **[PR #1, ouverte en brouillon](https://github.com/darknigthmare/gear-of-wars-combats/pull/1)**, sur la branche `codex/gears-combats-corpus-v6-20261120`.
+Contribution historique fusionnée dans la **[PR #1](https://github.com/darknigthmare/gear-of-wars-combats/pull/1)**, sur la branche `codex/gears-combats-corpus-v6-20261120`.
 
 ## Prototype réellement jouable
 
@@ -149,14 +309,15 @@ Les PDF, Word et deux classeurs dans `livrables` sont les versions historiques p
 ```bash
 python -m unittest discover -s tests -p 'test_inventory_v*.py' -v
 python src/consolidate_inventory.py
+python src/build_bible_markdown.py
 python src/validate_data.py
 node prototype/build.mjs
 node prototype/tests.cjs
 ```
 
-Le script de consolidation relit les fichiers, leurs journaux et tous les `data/production_catalog_v*.json` dans l’ordre numérique des versions pour actualiser le manifeste, la couverture et la galerie. Il fusionne les entrées par identifiant et rejette les collisions entre catégories. Après collecte des assets, il applique `data/costume_asset_links_v7.json` : le personnage parent, l’empreinte SHA-256, le journal déjà associé à l’image et les preuves complémentaires doivent correspondre. Une image de présentation, un doublon de lien ou une provenance absente ne peut pas combler un costume. Il distingue les extensions de personnages, les identités de costumes, les variantes d’édition, les boss et les stages. Les anciens scripts de finalisation d’un lot ne doivent pas être utilisés pour remplacer l’inventaire courant. La reconstruction du classeur accepte `GEARS_OUTPUT_DIR`, `GEARS_OUTPUT_FILENAME` et `GEARS_QA_DIR` ; sa racine de données est relative au dépôt.
+Le script de consolidation relit les fichiers, leurs journaux et tous les `data/production_catalog_v*.json` dans l’ordre numérique des versions pour actualiser le manifeste, la couverture et la galerie. Il fusionne les entrées par identifiant et rejette les collisions entre catégories. Après collecte des assets, il applique tous les `data/costume_asset_links_v*.json` dans leur ordre numérique : le personnage parent, l’empreinte SHA-256, le journal déjà associé à l’image et les preuves complémentaires doivent correspondre. Une image de présentation, un doublon de lien ou une provenance absente ne peut pas combler un costume. Il distingue les extensions de personnages, les identités de costumes, les variantes d’édition, les boss, les stages et les projectiles. Les anciens scripts de finalisation d’un lot ne doivent pas être utilisés pour remplacer l’inventaire courant. La reconstruction du classeur accepte `GEARS_OUTPUT_DIR`, `GEARS_OUTPUT_FILENAME` et `GEARS_QA_DIR` ; sa racine de données est relative au dépôt.
 
-## Vérification de la reprise
+## Historique de validation — V7
 
 Le [rapport de validation V7](docs/production/VALIDATION_V7.json) contrôle **74 PNG** : 62 actifs uniques et 12 archives. Il vérifie aussi les six journaux, les 34 rattachements de costumes, les références entre sujets et images, la syntaxe JavaScript et l’identité du catalogue embarqué dans la galerie avec les JSON consolidés. Aucune erreur technique n’est signalée.
 

@@ -1,0 +1,114 @@
+{
+  "id": "marcus_skin_02",
+  "subject_id": "marcus_skin_02",
+  "character_id": "marcus",
+  "costume_id": "marcus_skin_02",
+  "name": "Marcus Fenix — Campagne Gears of War 2006",
+  "category": "costume",
+  "source_game": "Gears of War original — port PC (2007), modèle antérieur à Ultimate Edition",
+  "catalog_target_game": "Gears of War (2006) — Xbox 360",
+  "variant": "Marcus du premier Gears original, modèle du port PC ; équivalence Xbox 360 2006 à vérifier",
+  "variant_relation": "original_pc_port_candidate_for_2006_target",
+  "asset_path": "assets/costumes_v11/marcus_skin_02.png",
+  "prompt": "Use case: stylized-concept.\nAsset: ONE static transparent full-body costume reference for Marcus Fenix — original Gears of War campaign (2006), costume id marcus_skin_02.\nUse the ORIGINAL first Gears of War appearance, not Ultimate Edition, Reloaded, Gears 3, Gears 4/5 or E-Day. Reference 1 is the extracted original first-game model front and side views from the PC port (uploaded in 2014, before Ultimate Edition). Reference 2 is a capture of that original-game Marcus face and upper armor. Copy this original face and armor construction; output only ONE figure, not two views.\nPreserve original square blocky masculine face, blue eyes, short dark hair under black tied bandana with small pale badge, healed cheek scar, narrow short chin tuft and dark sideburns, no full beard. Match the thick proportions and original heavy blue-gray metal cuirass: TWO plain dark circular breast plates with narrow blue edging, pale COG insignia at upper center, tiny orange triangle markings, broad layered metal shoulder plates, ribbed raised collar with short blue light bars, long dark brown sleeves with tan stitch bands, metal wrist bands and dark fingerless gloves. Waist: broad belt with heavy circular blue-centered buckle, tall rectangular brown hip pouches, segmented metal groin plate. Legs: dark brown tactical trousers, metal thigh panels and straps, large rounded knee guards with three small round holes, long worn metal shin guards, thick ribbed armored boots. Preserve the source's original-game construction instead of adding the remastered facial features or modern extra armor details.\nPose: static relaxed standing, front three-quarter facing screen RIGHT, nose and toes toward right; both hands empty and held naturally at sides. No weapon, no action, no animation.\nComposition: ONE complete body including bandana and boot soles. Figure at 75% canvas height with a minimum 10% transparent margin around every side. No cropped feet or head.\nRendering: realistic original-game materials and source proportions, clear neutral studio lighting. Genuine transparent alpha background, no environment, floor plane, gradient, smoke, halo, ground shadow cloud, UI, caption, watermark or added text.",
+  "sources": [
+    {
+      "page_url": "https://models.spriters-resource.com/pc_computer/gearsofwar/asset/290788/",
+      "image_url": "https://models.spriters-resource.com/media/preview_icons/288/290788.png?updated=1755498010",
+      "source_type": "secondary_original_extracted_game_model_preview",
+      "scope": "Modèle Marcus Fenix du premier Gears of War, port PC, partagé par Ecelon le 21 septembre 2014 avant Ultimate Edition. Vue avant et côté entière. Le port PC est documenté ; identité avec le modèle Xbox 360 2006 non certifiée.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/207fbd1207b7/research_gears/v11_costumes/marcus_original_model.png",
+      "reference_sha256": "7a07e1beea75a3a8f561100a2bf032f3b23e87ea7dd3f27a46fc203d7f5b4794"
+    },
+    {
+      "page_url": "https://www.pcgamer.com/reinstall-gears-of-war/",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/5a3a3210701e2780a2d1e413c6b2aa58.jpg",
+      "source_type": "secondary_original_game_capture",
+      "scope": "Article consacré au premier Gears original ; capture rapprochée Marcus pour tête, bandana, menton et haut d'armure. Capture PC, non Ultimate Edition.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/207fbd1207b7/research_gears/v11_costumes/marcus2006_pcgamer.jpg",
+      "reference_sha256": "5a403322deb5d334fde53a0eaaa9bd604d37f99d13fc944fcadcfd13bb264484"
+    }
+  ],
+  "qa": {
+    "observations": [
+      "Marcus du premier Gears : petits poils au menton, bandana noir, épaulières épaisses, manches longues et plaques pectorales circulaires sombres. Aucune référence Ultimate Edition utilisée.",
+      "Un personnage entier, pose fixe vers la droite, mains vides.",
+      "La provenance des deux visuels est le jeu original sur PC ; l'équivalence exacte avec la version Xbox 360 de 2006 reste à contrôler et ne doit pas être présentée comme validée.",
+      "Le corps entier était visible dans l'aperçu du modèle, mais la basse résolution impose une reconstruction du relief, coutures, usure, boucles et semelles.",
+      "Emblème central, marquage du bandana, petits triangles, visage et proportions restent génératifs ; fidélité 1:1 non certifiée.",
+      "Alpha RGBA réel : 60.36% de pixels entièrement transparents ; alpha maximal bande extérieure de 8 px : 1.",
+      "Marges de silhouette alpha >=128 (gauche, haut, droite, bas) : [197, 29, 206, 27] px ; anatomie complète, marges cibles de 10% à contrôler."
+    ],
+    "remaining_checks": [
+      "Comparer la tenue et la tête avec une capture Xbox 360 2006 explicite.",
+      "Valider contours des épaulières, proportions des bottes et taille des pouches.",
+      "Valider les petits emblèmes et l'asymétrie de la sangle de cuisse."
+    ],
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "alpha_measured": true,
+    "framing_measured": true
+  },
+  "notes": [
+    "La cible reste Campagne 2006 ; la variante de référence fournie est explicitement celle du port PC original, non une certification de la cible console.",
+    "PNG natif copié sans traitement raster."
+  ],
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 1876665,
+    "sha256": "3b660f229a3ff7d8b1ca39c0f0a47efd62f2e56bd9c46c3370c07603452afa9b",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.6036179860432943,
+    "subject_bbox_alpha_ge_128": [
+      197,
+      29,
+      818,
+      1509
+    ],
+    "subject_margins_ltrb_px": [
+      197,
+      29,
+      206,
+      27
+    ],
+    "edge_band_width_px": 8,
+    "edge_alpha_max": 1,
+    "has_real_alpha": true,
+    "native_copy_verified": true
+  },
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-afd1169c-bab4-42bd-b05b-c4c5e1c38d68.png",
+  "has_image": true,
+  "status": "generated_reference_pending_validation",
+  "generation_status": "generated_reference_pending_validation",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "pose": "static_front_three_quarter_facing_right",
+  "quality_state": "candidate",
+  "purpose": "reference_fullbody",
+  "source_urls": [
+    "https://models.spriters-resource.com/pc_computer/gearsofwar/asset/290788/",
+    "https://www.pcgamer.com/reinstall-gears-of-war/"
+  ],
+  "reference_images": [
+    "/workspace/scratch/207fbd1207b7/research_gears/v11_costumes/marcus_original_model.png",
+    "/workspace/scratch/207fbd1207b7/research_gears/v11_costumes/marcus2006_pcgamer.jpg"
+  ]
+}

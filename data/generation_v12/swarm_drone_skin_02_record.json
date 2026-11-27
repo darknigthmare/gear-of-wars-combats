@@ -1,0 +1,121 @@
+{
+  "id": "swarm_drone_skin_02",
+  "subject_id": "swarm_drone_skin_02",
+  "character_id": "swarm_drone",
+  "costume_id": "swarm_drone_skin_02",
+  "name": "Drone de l'Essaim — Gears 5 standard",
+  "category": "costume",
+  "source_game": "Gears 5",
+  "catalog_target_game": "Gears 5",
+  "variant": "Swarm Drone Rifleman — modèle standard Gears 5",
+  "variant_relation": "target_version_candidate",
+  "asset_path": "assets/costumes_v12/swarm_drone_skin_02.png",
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE isolated static full-body 2D game character sprite, one subject only.\nPrimary request: Gears 5 Swarm Drone rifleman, matching the OFFICIAL production model in the attached image by Aryan Hanbeck / The Coalition. This is the Gears 5 standard rifleman reference for costume id swarm_drone_skin_02.\nReference: the supplied image contains FRONT and BACK views of the SAME creature. Use both to understand its design but output exactly ONE full-body creature in one calm pose. The image is the complete reference for anatomy and outfit.\nMatch the large hunch-backed, muscular orange-brown Swarm body, patterned thick leathery skin, small sunk-in eyes, heavy toothy jaw, and asymmetrical fragments of dull bare-gray metal on the brow/cheek. Preserve the scavenged gray metal chest/shoulder pieces and the distinctive chunky segmented diagonal ammunition harness with several rectangular red light windows, thick side chains wrapping the torso and belt, ripped tan-gray apron/loincloth with red stitched fasteners, asymmetric metal thigh plates, chained and strapped irregular shin plates, thick broad clawed bare feet and bare hands. Exact gear orientation and relationships should follow the front/back render. Use the original bare gray-metal palette of this Gears 5 rifleman, not olive-green UIR costume parts. No new logos, cloth designs, horns, crystals, armor badges or technology.\nPose: stable neutral combat guard for a 2D side-view fighter, slightly bent knees, torso and head predominantly SIDE view with a small front three-quarter angle facing screen RIGHT; head and feet point right. Both empty hands separated from the torso. No weapon, no attack, no corpse, no gore.\nRender realistic rough Gears skin, worn steel, straps and cloth as a crisp hand-painted 2D cutout with neutral light and a clear silhouette.\nComposition: full creature from head to both clawed foot soles, no more than 78 percent of the image height. At least 10 percent truly empty transparent padding on all sides. No crop.\nActual transparent alpha background. Keep creature and armor opaque with antialiased edges. No scenery, floor, cast shadow, halo, smoke, gradient, title, text, logo, watermark, UI, second character or turnaround sheet. Exactly one character in one static pose.",
+  "refinement_prompt": "Use case: precise-object-edit.\nEdit target: image 1, the generated full-body Gears 5 Swarm Drone cutout. Supporting reference: image 2, the official Gears 5 front/back rifleman production render.\nCorrect ONLY the diagonal bandolier/harness anatomical side. In image 1 it runs from the near/image-LEFT shoulder to the far/image-RIGHT waist, which mirrors the official design. Change it to run from the character's ANATOMICAL LEFT shoulder (the FAR shoulder, on image RIGHT in this unchanged pose) diagonally down to the ANATOMICAL RIGHT hip (the NEAR hip, on image LEFT). The top attachment must clearly be on image RIGHT, and the low attachment on image LEFT. Preserve the same chunky segmented metal units and small rectangular red light windows from the official reference. Keep intersecting chains logically attached around the torso.\nEverything else must remain identical: same face, skin, armor, lower body, hands, feet, posture, right-facing orientation, figure size, framing, colors and image dimensions. Do not mirror the whole character. Do not add equipment. Output the same ONE full-body static subject with actual transparent alpha and clean edges; keep all background transparent. No second subject, no card, no labels or text.",
+  "sources": [
+    {
+      "page_url": "https://mediumrare.artstation.com/projects/6aoByW?album_id=1597441",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/020/729/860/large/aryan-hanbeck-drone-rifleman.jpg?1568930524",
+      "source_type": "first_party_art_director_production_render",
+      "scope": "Gears 5 Drone Swarm Rifleman : rendu officiel avant/arrière en pied, par Aryan Hanbeck / The Coalition. Référence spécifique du costume Gears 5 standard ; pas de pièces UIR.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v12_costumes/swarm_rifleman_official.jpg",
+      "reference_sha256": "c341ef30ab35d233b9fa76c7c100cb50d3461ee76d27312c765ddecd8de7df1f"
+    }
+  ],
+  "qa": {
+    "observations": [
+      "Un Drone entier tourné vers la droite en trois-quarts, peau épaisse brun-orangé, plaques de métal gris irrégulières, chaînes, pagne frangé et pieds griffus cohérents avec le modèle officiel Gears 5.",
+      "La première sortie inversait le côté anatomique du harnais ; une édition ciblée avec le rendu officiel a remis l'attache haute à l'épaule gauche anatomique et l'attache basse à la hanche droite. Le personnage entier n'a pas été retourné.",
+      "Le modèle officiel est complet en pied ; la pose latérale et les surfaces nouvellement visibles restent une interprétation générative.",
+      "RGBA natif 1199 × 1312, 66,56 % alpha=0. Copie de la sortie finale sans retouche raster.",
+      "Marges alpha >=128 : [236, 104, 247, 49] px ; silhouette complète, mais objectif de 10 % de marge verticale non atteint."
+    ],
+    "remaining_checks": [
+      "Vérifier les formes exactes des fragments de casque, épaulières, plaques de jambe et ceinture par rapport au modèle Gears 5.",
+      "Contrôler le nombre et la disposition exacte des modules de harnais et l'asymétrie du corps dans les autres vues.",
+      "Valider la pose principalement de trois-quarts et les contours alpha dans le moteur."
+    ],
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "alpha_measured": true,
+    "framing_measured": true
+  },
+  "notes": [
+    "PNG candidat statique ; fidélité 1:1 non certifiée. Aucun ajout au lore ni kit de combat déduit.",
+    "La première sortie native est conservée à son emplacement scratch et archivée sans retouche dans rejected_candidates/costumes_v12/swarm_drone_skin_02_mirrored_bandolier.png, avec son journal et SHA-256 ; seule l'édition corrigée est sélectionnée dans assets/costumes_v12.",
+    "Aucune animation, spritesheet, mise à l'échelle, retouche de découpe ou postproduction."
+  ],
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1199,
+    "height": 1312,
+    "bytes": 1434608,
+    "sha256": "1a52f335f703790d0002a8e4dd98a596d8b9febd0c1304d904951fcbef346ef0",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.6655546288573811,
+    "subject_bbox_alpha_ge_128": [
+      236,
+      104,
+      952,
+      1263
+    ],
+    "subject_margins_ltrb_px": [
+      236,
+      104,
+      247,
+      49
+    ],
+    "edge_band_width_px": 8,
+    "edge_alpha_max": 1,
+    "has_real_alpha": true,
+    "native_copy_verified": true
+  },
+  "original_output_path": "/workspace/scratch/3c791759fb15/generated_images/exec-979995c7-18c0-4944-9d76-dfb2d2fbea0c.png",
+  "generation_history": [
+    {
+      "stage": "initial_generation",
+      "output_path": "/workspace/scratch/3c791759fb15/generated_images/exec-a523a311-4e7d-461c-8a6a-e466ae408ed4.png",
+      "selected": false,
+      "reason": "Harnais initial inversé par rapport au côté anatomique de la référence.",
+      "archive_path": "rejected_candidates/costumes_v12/swarm_drone_skin_02_mirrored_bandolier.png",
+      "archive_record_path": "rejected_candidates/costumes_v12/swarm_drone_skin_02_mirrored_bandolier_record.json",
+      "sha256": "30c465f3e58a6129c4bdbe521e7a595ea73451b57efc8704ba0fea931a3151fa",
+      "native_archive_copy_verified": true
+    },
+    {
+      "stage": "targeted_reference_edit",
+      "output_path": "/workspace/scratch/3c791759fb15/generated_images/exec-979995c7-18c0-4944-9d76-dfb2d2fbea0c.png",
+      "selected": true,
+      "reason": "Correction visuelle de l'orientation du harnais avec référence officielle conservée."
+    }
+  ],
+  "has_image": true,
+  "status": "generated_reference_pending_validation",
+  "generation_status": "generated_reference_pending_validation",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "pass_date": "2026-11-27",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "pose": "static_front_three_quarter_facing_right",
+  "quality_state": "candidate",
+  "purpose": "reference_fullbody",
+  "source_urls": [
+    "https://mediumrare.artstation.com/projects/6aoByW?album_id=1597441"
+  ],
+  "reference_images": [
+    "/workspace/scratch/3c791759fb15/research_v12_costumes/swarm_rifleman_official.jpg"
+  ]
+}

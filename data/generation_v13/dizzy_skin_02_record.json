@@ -1,0 +1,129 @@
+{
+  "category": "costume",
+  "pass_date": "2026-11-27",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "purpose": "reference_fullbody",
+  "id": "dizzy_skin_02",
+  "subject_id": "dizzy_skin_02",
+  "costume_id": "dizzy_skin_02",
+  "character_id": "dizzy",
+  "name": "Dizzy Wallin — standard Gears of War 3",
+  "source_game": "Gears of War 3",
+  "catalog_target_game": "Gears of War 3",
+  "variant": "Dizzy standard Gears 3 — rendu Epic 2011, copie de diffusion",
+  "variant_relation": "target_version_candidate",
+  "asset_path": "assets/costumes_v13/dizzy_skin_02.png",
+  "prompt": "Use case: stylized-concept / reference-based character pose.\nAsset type: exactly ONE static full-body transparent 2D game costume candidate.\nPrimary request: Dizzy Wallin in his STANDARD GEARS OF WAR 3 appearance, costume id dizzy_skin_02.\nReference: the attached official 2011 Epic Games promotional character render, credited in the footer to Shane Caudle for model/textures and Chris Wells for pose/lighting, shows the SAME Dizzy twice. The SMALL LEFT figure is complete from hat to boots, and the LARGE RIGHT figure clarifies the upper body. This is the Gears 3 standard model, not Big Rig Dizzy in overalls and not a Gears 5 redesign. Use the figure details only, not the sheet composition, captions, logos or hosting-site watermark. Output ONE character in ONE pose.\nPreserve Dizzy's exact weathered mature face, sturdy heavy muscular build, full graying brown beard and moustache, battered high-crowned cowboy hat with its curved brim. Reproduce the dull worn gray-green chest armor, dark ribbed underlayer, visible chest straps and cartridge row, the original tattoo patterns on both bare muscular upper arms as visible, leather wraps and plated gloves, utilitarian dark belt with round buckle and pouches, worn dark-brown work trousers, asymmetric strapped thigh pouch, oval metal-front knee pads with their circular fasteners, and tall heavy buckled/ribbed armored boots shown in the complete figure. Preserve original colors, proportions and equipment placement. Do not invent new tattoos, emblems, chains, modern gadgets or alternative clothing. The small obscured details should stay restrained and consistent with the visible model.\nPose: steady calm combat-ready standing guard, knees slightly flexed, both empty hands apart from the torso, without the reference's fist-across-chest gesture. Predominantly SIDE VIEW with a small front three-quarter angle, facing screen RIGHT; nose and toes point right. No held weapon, no attack, no other person.\nRendering: authentic worn Gears materials, crisp realistic hand-painted 2D shading under neutral light, readable complete silhouette.\nFraming: one entire figure including all hat brim, fingers, boots and soles. Figure uses no more than 75% of canvas height with at least 10% clear transparent space on each side. No crop.\nReal transparent alpha background with opaque character and clean antialiased edges. No floor, ground shadow, scene, fog, glow, halo, gradient, labels, logos, text, watermark, UI, second figure, sheet, turnaround or animation.",
+  "sources": [
+    {
+      "page_url": "https://gamefaqs.gamespot.com/boards/991468-gears-of-war-3/60942842",
+      "image_url": "https://i21.photobucket.com/albums/b287/redwoodphoto/Dizzy.jpg",
+      "source_type": "official_production_render_rehosted_on_secondary_mirror",
+      "scope": "Fil communautaire Gears of War 3 de 2011 donnant séparément Dizzy et Big Rig Dizzy. La copie inspectée porte le logo Gears of War 3, © Epic Games 2011 et les crédits Model/Texture Shane Caudle, Rigging Jeremy Ernst, Pose/Lighting Chris Wells, Concept James Hawkins, Art Direction Chris Perna. La petite figure de gauche est en pied ; la grande figure précise le haut du corps. Le fichier est hébergé par un miroir Photobucket, pas par le studio ou l'artiste.",
+      "visual_reference_used": true,
+      "reference_visually_inspected": true,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v13_classic/dizzy_g3_rehost.jpg",
+      "reference_sha256": "137215a6981b541b74d0191ff73eeb13eaa779e8bbd0dd7cd28382c10d4e995d",
+      "reference_dimensions": [
+        744,
+        799
+      ],
+      "primary_original_retrieved": false,
+      "limitations": [
+        "Résolution de 744×799 pour les deux figures ; la vue complète est petite.",
+        "Filigrane du service Photobucket masquant une partie du torse, des hanches et des tatouages.",
+        "L'original non filigrané sur un domaine de l'artiste n'a pas été retrouvé ; les crédits sont ceux visibles dans le rendu conservé."
+      ]
+    },
+    {
+      "page_url": "https://chriswells.artstation.com/resume",
+      "source_type": "first_party_artist_resume_credit_corroboration",
+      "scope": "Le portfolio de Chris Wells décrit son travail sur les poses/éclairages des portraits de personnages Gears 3 ; cela corrobore son rôle, sans fournir l'original intégral non filigrané du rendu Dizzy.",
+      "visual_reference_used": false
+    }
+  ],
+  "qa": {
+    "observations": [
+      "Un seul Dizzy entier, tourné vers la droite, chapeau de cowboy, barbe grisonnante, bras nus tatoués, armure gris-vert, cartouchière, ceinture à boucle ronde, poche de cuisse, genouillères et bottes visibles.",
+      "Les grandes formes du costume suivent le rendu Gears 3. Les motifs exacts des tatouages, le visage, les attaches et les reliefs restent interprétés ; la petite référence et son filigrane limitent leur vérification.",
+      "La sortie reste en trois-quarts frontal, mains basses ; la garde latérale de jeu stricte n'est pas obtenue.",
+      "PNG RGBA natif, 63,02 % alpha=0, alpha maximal 254 ; quelques pixels alpha=1 atteignent la bande de 8 px. Les marges haut/bas 47/29 px n'atteignent pas la cible de 10 %."
+    ],
+    "remaining_checks": [
+      "Comparer précisément visage, tatouages, plaques, poches et attaches à un original Gears 3 de meilleure résolution.",
+      "Contrôler les couleurs et les contours par composition dans le moteur, dont les pixels alpha très faible.",
+      "Valider la pose latérale et les marges du sprite avant utilisation en jeu."
+    ],
+    "reference_visually_inspected": true,
+    "visually_inspected": true,
+    "output_visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "alpha_measured": true,
+    "framing_measured": true
+  },
+  "notes": [
+    "Une seule tentative de génération. Aucune retouche, découpe, conversion, animation ou mise à l'échelle de la sortie native.",
+    "Le rendu source correspond à l'édition cible, mais sa provenance accessible est un miroir secondaire avec crédits incorporés. Cette limite reste conservée dans le journal.",
+    "La référence Gears 2 déjà présente au catalogue et Big Rig Dizzy ne sont pas utilisés pour compléter les zones peu lisibles. Fidélité 1:1 non certifiée."
+  ],
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2104304,
+    "sha256": "8da3482a91492596108febeb80ef48de036a4aad2e8ff3aeeae6db11275558a9",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.6301956176757812,
+    "subject_bbox_alpha_ge_128": [
+      202,
+      47,
+      821,
+      1507
+    ],
+    "subject_margins_ltrb_px": [
+      202,
+      47,
+      203,
+      29
+    ],
+    "edge_band_width_px": 8,
+    "edge_alpha_max": 1,
+    "has_real_alpha": true,
+    "native_copy_verified": true
+  },
+  "original_output_path": "/workspace/scratch/3c791759fb15/generated_images/exec-57644772-fa73-4ced-baa3-a7d7026086d4.png",
+  "has_image": true,
+  "status": "generated_reference_pending_validation",
+  "generation_status": "generated_reference_pending_validation",
+  "generation_attempted": true,
+  "generation_attempts": 1,
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "pose": "static_front_three_quarter_facing_right",
+  "quality_state": "candidate",
+  "history_check": {
+    "baseline_commit": "3d12276302c040f05e5452de073dc3a67470554f",
+    "all_generation_directories_and_archives_checked": true,
+    "exact_subject_previously_attempted": false,
+    "notes": "Les refus et la réussite V6 précédents concernent Dizzy Gears 2, pas le modèle standard Gears 3. Aucun appel antérieur de cette cible exacte retrouvé."
+  },
+  "source_urls": [
+    "https://gamefaqs.gamespot.com/boards/991468-gears-of-war-3/60942842",
+    "https://chriswells.artstation.com/resume"
+  ],
+  "reference_images": [
+    "/workspace/scratch/3c791759fb15/research_v13_classic/dizzy_g3_rehost.jpg"
+  ]
+}

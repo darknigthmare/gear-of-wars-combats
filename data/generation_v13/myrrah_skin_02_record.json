@@ -1,0 +1,91 @@
+{
+  "id": "myrrah_skin_02",
+  "subject_id": "myrrah_skin_02",
+  "costume_id": "myrrah_skin_02",
+  "character_id": "myrrah",
+  "name": "Queen Myrrah — Gears 5 Opération 3",
+  "category": "costume",
+  "source_game": "Gears 5",
+  "catalog_target_game": "Gears 5",
+  "variant": "Modèle multijoueur standard introduit avec l’Opération 3",
+  "purpose": "reference_fullbody",
+  "variant_relation": "target_version_unconfirmed",
+  "status": "reference_research_pending",
+  "quality_state": "reference_incomplete",
+  "engine": null,
+  "pass_date": "2026-11-27",
+  "generation_attempted": false,
+  "generation_attempt_count_this_pass": 0,
+  "has_image": false,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "asset_path": null,
+  "prompt": null,
+  "reason": "L’annonce officielle Gears 5 confirme la cible et montre le casque, le visage et le haut du costume. La capture s’arrête sous la taille ; jambes, bottes et tenue basse complète non documentées. Aucun corps complet de la variante standard Gears 5 n’a été établi ; les modèles Gears 3, Ultimate Edition et Black Steel ne sont pas substitués.",
+  "sources": [
+    {
+      "page_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/2984138620239158127",
+      "image_url": "https://i.imgur.com/zvgA2Qd.jpg",
+      "source_type": "official_developer_steam_announcement",
+      "scope": "Annonce Operation 3: Gridiron, auteur TC Octus, section QUEEN MYRRAH. Visuel officiel inspecté : tête/torse/bras, pas de jambes ni de pieds.",
+      "visual_reference_used": false,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v13_enemies/myrrah_op3_steam.jpg",
+      "reference_sha256": "ba2c6716d23baf584adb2611d055bb925d0ecf58036a7df4bd8b237fae0ccecf",
+      "reference_dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "page_url": "https://www.gamesatlas.com/gears-5/characters/queen-myrrah",
+      "image_url": "https://www.gamesatlas.com/images/jch-optimize/ng/images_gears5_characters_queen-myrrah.webp",
+      "source_type": "secondary_catalog_portrait",
+      "scope": "Petit portrait 134×130 inspecté ; aucune information sur le corps complet.",
+      "visual_reference_used": false,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v13_enemies/myrrah_gamesatlas.webp",
+      "reference_sha256": "543e2ce794e536212624dbace1f747ad45edc6153210e2b88143f76dc4feef99",
+      "reference_dimensions": [
+        134,
+        130
+      ]
+    }
+  ],
+  "research_log": [
+    {
+      "url": "https://news.xbox.com/en-us/2020/03/31/gears-5-operation-3-gridiron-available-today-for-all-players/",
+      "result": "Article officiel Opération 3 consulté ; pas de vue intégrale Myrrah utilisable."
+    },
+    {
+      "url": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=1097840&count=30&maxlength=0&enddate=1585785600",
+      "local_path": "/workspace/scratch/3c791759fb15/research_v13_enemies/steam_op3_news.json",
+      "result": "API publique Steam consultée ; gid 2984138620239158127 fournit l’URL du visuel officiel de Myrrah."
+    },
+    {
+      "url": "https://www.gears5.com/whatsup-operation-3/",
+      "result": "Redirection vers la page actuelle Gears 5 ; ne fournit plus cet article historique."
+    },
+    {
+      "url": "https://www.xbox.com/en-US/games/store/operation-3-gridiron-bundle/9nrt1gbhphms",
+      "result": "Texte officiel du bundle confirme Queen Myrrah. Galerie affichée « content is locked » ; pas de contournement ni d’image non consultée revendiquée."
+    },
+    {
+      "local_path": "data/generation_v4/result_myrrah.json",
+      "result": "Refus historique Myrrah Gears 3, distinct de Gears 5 ; aucune relance du costume Gears 3."
+    }
+  ],
+  "historical_refusal_retained": false,
+  "qa": {
+    "visually_inspected": false,
+    "references_visually_inspected": true,
+    "single_character": null,
+    "full_body_in_frame": null,
+    "transparent_background": null,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Aucune image V13 générée pour cette cible ; le statut ne représente pas une implémentation ni un sprite livré."
+    ]
+  }
+}

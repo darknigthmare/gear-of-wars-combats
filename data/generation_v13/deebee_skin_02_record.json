@@ -1,0 +1,110 @@
+{
+  "id": "deebee_skin_02",
+  "subject_id": "deebee_skin_02",
+  "character_id": "deebee",
+  "costume_id": "deebee_skin_02",
+  "name": "DeeBee — multijoueur Gears 5",
+  "category": "costume",
+  "source_game": "Gears 5 — multijoueur",
+  "catalog_target_game": "Gears 5 — multijoueur",
+  "variant": "Shepherd DeeBee Gears 5, variante multijoueur standard",
+  "variant_relation": "target_version_requested",
+  "purpose": "reference_fullbody",
+  "pass_date": "2026-11-27",
+  "status": "reference_research_pending",
+  "generation_status": "reference_research_pending",
+  "quality_state": "reference_research_pending",
+  "generation_attempted": false,
+  "generation_attempt_count": 0,
+  "has_image": false,
+  "asset_path": null,
+  "original_output_path": null,
+  "prompt": null,
+  "output": null,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "sources": [
+    {
+      "page_url": "https://news.xbox.com/en-us/2019/10/16/all-new-heroes-and-villains-are-available-today-in-gears-5/",
+      "source_type": "first_party_publisher_announcement",
+      "scope": "Annonce The Coalition/Xbox Wire du 16 octobre 2019 confirmant DeeBee multijoueur. La planche promotionnelle de 300 × 168 pixels ne montre que des portraits de cartes, pas le corps entier.",
+      "visual_reference_used": false,
+      "accessed_date": "2026-11-27",
+      "image_url": "https://xboxwire.thesourcemediaassets.com/sites/2/2019/10/Halifax_XboxWire_TU1.5_300x300.jpg",
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v13_hivebusters/deebee_g5_promo.jpg",
+      "reference_sha256": "37b6be86d4ac72f74689c231a6c9f0a06f30749ebb5251bda2e473d1f08fe152",
+      "visually_inspected": true
+    },
+    {
+      "page_url": "https://www.youtube.com/watch?v=exXSiSv26ps",
+      "source_type": "secondary_gameplay_thumbnail",
+      "scope": "Vignette secondaire de gameplay Shepherd DeeBee Gears 5, publiée le 22 octobre 2019 ; tête et buste, face à quatre capteurs bleus et blindage clair, jambes absentes. Vignette seule inspectée ; ne vaut pas inspection de la vidéo.",
+      "visual_reference_used": false,
+      "accessed_date": "2026-11-27",
+      "source_author": "SASxSH4DOWZ",
+      "image_url": "https://i.ytimg.com/vi/exXSiSv26ps/maxresdefault.jpg",
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v13_hivebusters/deebee_g5_gameplay_thumbnail.jpg",
+      "reference_sha256": "de819f6f04ff0b488776a0e5a17536ab24c84d13a2a2027a6265feacb397a0bf",
+      "visually_inspected": true
+    },
+    {
+      "page_url": "https://www.gamesatlas.com/gears-5/characters/deebee",
+      "source_type": "secondary_character_listing",
+      "scope": "Portrait secondaire 134 × 130 de DeeBee Gears 5, sans capture en pied disponible sur la page.",
+      "visual_reference_used": false,
+      "accessed_date": "2026-11-27",
+      "image_url": "https://www.gamesatlas.com/images/jch-optimize/ng/images_gears5_characters_deebee.webp",
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v13_hivebusters/deebee_gamesatlas.webp",
+      "reference_sha256": "99818636fbecb3188665e47edc1f739415522c4b098182fce8e39e6b0d1cfdf4",
+      "visually_inspected": true
+    },
+    {
+      "page_url": "https://www.gears5.com/whatsup-oct15-2019",
+      "source_type": "first_party_publisher_announcement",
+      "scope": "Lien de mise à jour officiel depuis Xbox Wire ; redirige désormais vers la page générale https://www.gearsofwar.com/en-us/games/gears-5/, sans modèle complet du DeeBee ciblé.",
+      "visual_reference_used": false,
+      "accessed_date": "2026-11-27"
+    },
+    {
+      "page_url": "https://www.artstation.com/artwork/LJO50",
+      "source_type": "first_party_other_edition_concept",
+      "scope": "Concept de Johnson Ting explicitement Gears of War 4 ; n’établit pas le modèle final multijoueur Gears 5 et n’est pas substitué à la référence manquante.",
+      "visual_reference_used": false,
+      "accessed_date": "2026-11-27",
+      "source_author": "Johnson Ting"
+    }
+  ],
+  "notes": [
+    "Aucun prompt envoyé, aucune génération tentée, aucun PNG.",
+    "Les unités DR-1, Deadeye, infected Shepherd et le concept Gears 4 ne sont pas substitués au costume demandé."
+  ],
+  "qa": {
+    "visually_inspected": false,
+    "output_visually_inspected": false,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Présence de DeeBee multijoueur Gears 5 confirmée ; trois images de cette édition inspectées, toutes limitées au portrait/buste.",
+      "Les marquages, matériaux et voyants des parties visibles ne justifient pas une recoloration automatique du Shepherd Gears 4 déjà présent.",
+      "Concepts Gears 4, modèles fan-made et robots infectés Gears 5 ne servent pas de preuve du corps du skin standard ciblé.",
+      "La galerie Shepherd secondaire a renvoyé HTTP 402 ; aucun modèle complet vérifié dans cette passe."
+    ],
+    "remaining_checks": [
+      "Obtenir une capture de personnalisation ou un rendu officiel complet du skin Shepherd DeeBee standard dans Gears 5.",
+      "Vérifier la répartition des plaques, les capteurs et les marquages ainsi que les pieds avant toute génération."
+    ],
+    "reference_visually_inspected": true
+  },
+  "blocking_reason": "reference_gap_full_body_exact_edition",
+  "source_urls": [
+    "https://news.xbox.com/en-us/2019/10/16/all-new-heroes-and-villains-are-available-today-in-gears-5/",
+    "https://www.youtube.com/watch?v=exXSiSv26ps",
+    "https://www.gamesatlas.com/gears-5/characters/deebee",
+    "https://www.gears5.com/whatsup-oct15-2019",
+    "https://www.artstation.com/artwork/LJO50"
+  ],
+  "reference_images": []
+}

@@ -1,0 +1,80 @@
+{
+  "id": "boss_leviathan",
+  "subject_id": "boss_leviathan",
+  "name": "Leviathan",
+  "category": "boss",
+  "source_game": "Gears of War 2",
+  "catalog_target_game": "Gears of War 2",
+  "variant": "Gears of War 2 — Leviathan original, modèle recourbé et pose fixe",
+  "purpose": "reference_fullbody",
+  "variant_relation": "target_version_candidate",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "generation_attempted": true,
+  "has_image": true,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "asset_path": "assets/bosses_v11/leviathan_gears2_fullbody.png",
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-c4715fd8-c64c-4ab1-90a5-b9fa153f5354.png",
+  "prompt": "Use case: realistic game asset reproduction. Create exactly one Leviathan from Gears of War 2 using the attached complete model illustration from the licensed Prima Gears of War 2 guide as the visual authority. Match the specific anatomy and proportions of this illustration: a bulky curled aquatic body, a huge angular tooth-lined jaw, multiple thick facial tendrils with hard hooked tips, smaller hanging mouth feelers, dark leathery scaled skin mottled brown, muted green and orange, a ridged dorsal fin and broad curved tail fin. Preserve the reference's distinctive arrangement and material markings. This is the original Gears of War 2 Leviathan, not the Lambent variant and not a generic octopus or fish. Pose the creature held still at a shallow three-quarter angle facing SCREEN-RIGHT; rotate the whole illustrated model so the jaw is on the RIGHT and the curled body and tail recede toward the LEFT. All tentacles, hooked tips, fins and the complete curled tail must be inside the canvas. The illustrated model is the limit of the anatomy; do not invent extra limbs, fins or another body. One creature alone, no water, boat, people, projectiles, glow effects or movement. Crisp detailed realistic game render, neutral diffuse lighting. True transparent alpha background, no backdrop, floor, cast shadow, gradient, haze, checkerboard, text, watermark or logo. Wide landscape canvas, camera pulled back, at least 10 percent transparent margin on each side of every extremity. Static image only, one pose, no sprite sheet or animation.",
+  "sources": [
+    {
+      "page_url": "https://primagames.com/eguides/gears-war-2-eguide/locust-databank/the-locust",
+      "image_url": "https://primagames.com/eguides/media/files/eguide_assets/gears-war-2-eguide/001-031_cog_training-web-resources/image/LEVIATHAN.jpg",
+      "source_type": "licensed_official_guide_model_render",
+      "scope": "Guide Prima Gears of War 2, Locust Databank, Lake Monster. Grand rendu du corps aquatique recourbé, tête, tentacules, nageoires et queue ; une pointe est au bord supérieur de l’illustration. Référence de l’édition G2, pas du Leviathan Lambent de G3.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/207fbd1207b7/research_gears_v11/bosses/leviathan_prima_model.jpg",
+      "reference_sha256": "b56bf7d9108209e7b83420e396a560d4ef778cbfcd9937743418fe3d38d760f8"
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "orientation_facing_right": true,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Corps aquatique recourbé, nageoires dorsale et caudale, tête dentée et appendices crochus repris du rendu Prima ; orientation trois quarts vers la droite.",
+      "Un seul sujet, toutes les grandes extrémités restent dans le cadre. Les marges supérieures et inférieures restent inférieures à la consigne du prompt.",
+      "Alpha réel mesuré ; le canal alpha culmine à 254, et non 255. Le RGB de fond apparent dans certains aperçus ne prouve pas un fond opaque ; un contrôle composite des franges reste requis.",
+      "Réorientation de la silhouette et de la lumière générée depuis une seule vue : les détails des faces cachées ne sont pas certifiés identiques au modèle."
+    ],
+    "remaining_checks": [
+      "Comparer le nombre et le raccord des tendrils, les nageoires et les motifs de peau à des angles complémentaires du modèle G2.",
+      "Vérifier les franges semi-transparentes et l’opacité maximale 254 avant préparation d’atlas."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2513516,
+    "sha256": "bb878b0ed0294b42ab628b0e5187c830e02520e2baff71abc46e13cfd3124114",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.5496184031168619,
+    "subject_bbox_alpha_ge_128": [
+      155,
+      20,
+      1427,
+      1013
+    ],
+    "subject_margins_ltrb_px": [
+      155,
+      20,
+      109,
+      11
+    ],
+    "native_copy_verified": true
+  }
+}

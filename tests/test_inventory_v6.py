@@ -106,6 +106,20 @@ class ProductionInventoryTests(unittest.TestCase):
         result = inventory.build_inventory()
         self.assertEqual(result["missing"]["costumes"], ["marcus_skin_01"])
 
+    def test_unregistered_png_is_counted_as_a_file_but_not_a_catalog_reference(self):
+        self.image("assets/new/marcus_unregistered.png")
+        result = inventory.build_inventory()
+        self.assertEqual(result["totals"]["active_png_files"], 1)
+        self.assertEqual(result["totals"]["characters_with_reference"], 0)
+        self.assertIn("marcus", result["missing"]["characters"])
+        self.assertEqual(len(result["warnings"]), 1)
+        coverage = inventory.read_json(self.root / "production/coverage.json")
+        self.assertIsNone(coverage["characters"][0]["selected_path"])
+        self.assertFalse(coverage["characters"][0]["target_version_candidate_available"])
+        asset = inventory.read_json(self.root / "production/asset_manifest.json")["assets"][0]
+        self.assertEqual(asset["quality_state"], "metadata_pending")
+        self.assertEqual(asset["selection_status"], "alternate_candidate")
+
     def test_duplicate_or_unknown_costume_parent_is_rejected(self):
         self.write("data/production_catalog_v6.json", {"costumes": [{"id": "unknown_skin", "name": "Unknown", "character_id": "not_in_catalog"}]})
         with self.assertRaisesRegex(ValueError, "Unknown costume character"):

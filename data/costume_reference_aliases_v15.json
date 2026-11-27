@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "version": "v15",
+  "updated_at": "2026-11-27",
+  "scope": "Alias de deux noms d’une même tenue finale ; aucun PNG supplémentaire.",
+  "aliases": [
+    {
+      "alias_id": "keegan_hivebusters_intro",
+      "canonical_id": "keegan_skin_02",
+      "character_id": "keegan",
+      "source_game": "Gears 5: Hivebusters",
+      "asset_path": "assets/costumes_v15/keegan_skin_02.png",
+      "sha256": "c07bb1a98955c0147ffb2d89cbbe185ffe8a9d1268b9eb73f197e2bfee52be62",
+      "source_record_path": "data/generation_v15/keegan_skin_02_record.json",
+      "evidence_record_path": "data/generation_v15/keegan_hivebusters_intro_record.json",
+      "rationale": "Rapprochement documenté des deux appellations de la même tenue, à partir du concept intro et du modèle final Onyx Guard.",
+      "source_urls": [
+        "https://alexbobylev.artstation.com/projects/Vg3qGR",
+        "https://tylerthebradley.artstation.com/projects/ykrQgn"
+      ],
+      "caveats": [
+        "Le modèle final prévaut sur le concept intro.",
+        "Les réserves du PNG restent inchangées ; fidélité 1:1 non certifiée.",
+        "Ne concerne pas la tenue beige Escape/Hivebuster."
+      ]
+    }
+  ]
+}

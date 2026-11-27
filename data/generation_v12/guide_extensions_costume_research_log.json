@@ -1,0 +1,87 @@
+{
+  "agent": "guide_extensions",
+  "pass_date": "2026-11-27",
+  "scope": [
+    "kantus_skin_02",
+    "theron_skin_02",
+    "jack_skin_02",
+    "clayton_skin_02"
+  ],
+  "notes": [
+    "Recherches et références visuellement inspectées avant toute tentative.",
+    "Une seule tentative au maximum par cible de cette passe ; aucune nouvelle tentative après un refus.",
+    "Aucun changement central d'inventaire, aucun sprite animé, aucune certification 1:1.",
+    "Les sources de travail restent des références de recherche ; les seuls nouveaux PNG de costumes sont des sorties natives du générateur."
+  ],
+  "subjects": [
+    {
+      "id": "kantus_skin_02",
+      "result": "blocked_generator_refusal",
+      "attempts": 1,
+      "has_image": false,
+      "record": "data/generation_v12/kantus_skin_02_record.json",
+      "findings": [
+        "Source primaire Ji Ruan : Gears Tactics Kantus, rendus couleur complets face/profil et gros plans.",
+        "Imagegen a refusé la sortie : moderation_blocked / output / other.",
+        "Requête 0d2ecbc3-1837-4f10-bcd5-429ab3509a74 ; aucun retry ni PNG."
+      ]
+    },
+    {
+      "id": "theron_skin_02",
+      "result": "blocked_reference_gap",
+      "attempts": 0,
+      "has_image": false,
+      "record": "data/generation_v12/theron_skin_02_record.json",
+      "findings": [
+        "Blog officiel Tactics : rendu coupé sous les genoux.",
+        "Gros plan de l'introduction Tactics sur jeuxvideo.com : torse et tête seulement.",
+        "Captures tactiques trop éloignées ; aucune génération extrapolant jambes/pieds à partir d'une autre édition.",
+        "Fandom a renvoyé HTTP 402 et Neoseeker HTTP 403 ; aucune tentative de contournement."
+      ]
+    },
+    {
+      "id": "jack_skin_02",
+      "result": "generated_reference_pending_validation",
+      "attempts": 1,
+      "has_image": true,
+      "record": "data/generation_v12/jack_skin_02_record.json",
+      "findings": [
+        "Rendu complet secondaire corroboré visuellement avec la capture officielle de la section New Content Tactics.",
+        "Capture Xbox Wire Tactics2 inspectée mais exclue des références : elle montre des troupes et ennemis, pas JACK.",
+        "Concept Cesar Rizo Gears 5 BmWbJA exclu : mauvaise édition pour la demande Tactics.",
+        "Copie native RGBA avec alpha ; petites franges colorées et marges à revoir ; fidélité non certifiée."
+      ]
+    },
+    {
+      "id": "clayton_skin_02",
+      "result": "generated_reference_pending_validation",
+      "attempts": 1,
+      "has_image": true,
+      "record": "data/generation_v12/clayton_skin_02_record.json",
+      "findings": [
+        "Capture officielle complète Gears 5 Opération 3 utilisée seule.",
+        "Libellé exact du candidat : Clayton Carmine — modèle multijoueur Gears 5 Operation 3.",
+        "Vétéran reste un libellé interne dont la correspondance n'est pas établie ; variant_relation=edition_unverified.",
+        "Rendus Maury Mountain nEKOAK exclus car explicitement Gears of War 3.",
+        "Photos et vignette Clayton Rescue du portfolio Cameron Mitchell baqbnr inspectées : elles montrent JD/Fahz/Cole, pas une référence en pied de Clayton ; non utilisées.",
+        "Aucune revendication du costume de campagne ; marges et microdétails à revoir."
+      ]
+    }
+  ],
+  "research_pages": [
+    "https://darkmummy.artstation.com/projects/xza2QW",
+    "https://darkmummy.artstation.com/albums/2235182",
+    "https://darkmummy.artstation.com/projects/gJAQ2L?album_id=2235182",
+    "https://darkmummy.artstation.com/projects/0XyWXE?album_id=2235182",
+    "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/",
+    "https://www.jeuxvideo.com/wikis-soluce-astuces/1235733/chapitre-5-contrebande.htm",
+    "https://www.gearsofwar.com/en-us/news/developer-blog-jack-skills/",
+    "https://www.gearsofwar.com/en-us/games/gears-tactics/",
+    "https://www.pngaaa.com/detail/5767279",
+    "https://news.xbox.com/en-us/2020/11/10/gears-tactics-available-now-on-xbox-series-xs-with-xbox-game-pass-and-smart-delivery/",
+    "https://news.xbox.com/en-us/2020/09/18/gears-tactics-coming-to-xbox-consoles-november-10-with-launch-of-xbox-series-xs/",
+    "https://news.xbox.com/en-us/2020/03/31/gears-5-operation-3-gridiron-available-today-for-all-players/",
+    "https://www.artstation.com/artwork/baqbnr",
+    "https://www.gamesatlas.com/gears-5/characters/clayton-carmine"
+  ]
+}

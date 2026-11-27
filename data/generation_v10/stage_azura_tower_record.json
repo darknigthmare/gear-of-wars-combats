@@ -1,0 +1,77 @@
+{
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "variant_relation": "target_version_candidate",
+  "category": "stage",
+  "purpose": "stage_master",
+  "animation_status": "not_requested_this_pass",
+  "canonical_fidelity_validated": false,
+  "has_image": true,
+  "id": "azura_tower_gears3_terrace_master_v10",
+  "subject_id": "stage_azura_tower",
+  "name": "Azura — terrasse de Pinnacle Tower",
+  "source_game": "Gears of War 3 — Threshold",
+  "catalog_target_game": "Gears of War 3",
+  "variant": "Gears of War 3 — terrasse et fontaines devant Pinnacle Tower adaptées au combat latéral",
+  "asset_path": "assets/stages_v10/azura_tower_gears3_terrace_master.png",
+  "prompt": "Create ONE opaque landscape 16:9 HD static 2D fighting-game environment of AZURA AND PINNACLE TOWER from original GEARS OF WAR 3 (2011), specifically the marble terrace and fountains outside the tower entrance in Act V Threshold. Use the three attached actual original-game screenshots as the concrete final architecture and material references. Reconstruct the richly detailed sunlit pale ivory stone tower facade in the background: repeated narrow tall arched recessed window bays separated by pilasters, many layered cornices, rounded projecting turretlike bays, a monumental round-arched entrance framed by pink-white marble columns, warm gold/bronze metal trim and carved pale stone moldings. The tower itself continues above the frame as in the source; do not invent an unsupported entire skyline or spire. In the middle distance retain the pale turquoise fountain pools on either side of a broad central approach, the balustrades of turned pale stone with delicate gold rails, squarish ornamental planter pedestals, limited clipped greenery and palm trunks, and the elegant curved stone terrace edges from the reference. Compose the camera level and lateral at standing height with a broad continuous FLAT marble-paved combat band across the bottom 23%, using the source's large square pale paving slabs and restrained dark inset geometric seams. Keep all fountain rims, railings and any stairs BEHIND the level playable floor. The architectural details and restrained luxurious coastal resort palette should closely follow original Gears3 Azura: weathered cream-white stone, muted antique gold, pink marbling, turquoise fountain water, warm sun and gentle blue shadows. Detailed realistic 2D painted stage, one coherent empty location, no people, soldiers, Lambent, enemies, robots, corpses, weapons, ammunition, blood, combat effects, mission overlays, reticles, labels, text, logo, credit, border or watermark. Remove all subjects and HUD from the references. No generic fantasy castle redesign, no sci-fi reactor inserted, no separate panels, no animation frames or parallax layers.",
+  "sources": [
+    {
+      "page_url": "https://primagames.com/eguides/gears-war-3-eguide/campaign-walkthrough/act-5/chapter-4-threshold",
+      "image_url": "https://primagames.com/eguides/media/_w/700/files/eguide_assets/gears-war-3-eguide/07-WALK-act04-act05-web-resources/image/055_Act5.jpg",
+      "source_type": "official_licensed_strategy_guide",
+      "scope": "Capture finale de Threshold montrant la façade de Pinnacle Tower depuis l’hôtel, au-delà des fontaines.",
+      "visual_reference_used": true,
+      "reference_sha256": "3edd6f277e695371c6b3f88a3be29566989ebad53382a689f16c51ea55c25e4b"
+    },
+    {
+      "page_url": "https://primagames.com/eguides/gears-war-3-eguide/campaign-walkthrough/act-5/chapter-4-threshold",
+      "image_url": "https://primagames.com/eguides/media/files/eguide_assets/gears-war-3-eguide/07-WALK-act04-act05-web-resources/image/057_Act5.jpg",
+      "source_type": "official_licensed_strategy_guide",
+      "scope": "Capture finale du chemin de marbre devant l’entrée de la tour; colonnes rosées, arches, balustrades, fontaines et détails architecturaux.",
+      "visual_reference_used": true,
+      "reference_sha256": "dfa9e3ef2e33bcee15942dce6aad56aea8aea7f421ba51ee1c93ef4674d21fff"
+    },
+    {
+      "page_url": "https://primagames.com/eguides/gears-war-3-eguide/campaign-walkthrough/act-5/chapter-4-threshold",
+      "image_url": "https://primagames.com/eguides/media/_w/700/files/eguide_assets/gears-war-3-eguide/07-WALK-act04-act05-web-resources/image/056_Act5.jpg",
+      "source_type": "official_licensed_strategy_guide",
+      "scope": "Capture finale des fontaines et jardinières sur la terrasse extérieure de la tour; soldats, tirs et interface exclus.",
+      "visual_reference_used": true,
+      "reference_sha256": "353f13d23d457dfb35bd992748ede2c927b61cd5572dde09acc79b113f0395bd"
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_stage": true,
+    "transparent_background": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "observations": [
+      "Façade de pierre ivoire, entrée à colonnes rosées, fenêtres cintrées, balustrades, bassins turquoise et végétation repris des captures finales de Threshold.",
+      "Terrasse pavée continue au premier plan; marches, eau et garde-corps restent derrière le plan de combat, sans personnage mobile ni interface.",
+      "Les vues obliques sont recomposées en façade frontale plus symétrique. Nombre de travées, petites statues en niches, motifs sculptés et répartition des fontaines non validés exactement. Le sommet complet de la tour et l’océan ne sont pas représentés, faute de vue utile dans les références retenues.",
+      "La sculpture de production grise de Kevin Johnstone a été consultée en recherche mais n’a pas été passée à la génération; les sources visuelles retenues ici sont exclusivement les captures en jeu de la terrasse."
+    ],
+    "remaining_checks": [
+      "Comparer l’entrée, les statues en niches et les fontaines au parcours exact devant Pinnacle Tower.",
+      "Valider l’échelle du plan de combat et l’heure d’éclairage retenue avant intégration jouable."
+    ],
+    "alpha_channel_present": false,
+    "opaque": true
+  },
+  "output": {
+    "format": "PNG",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "bytes": 3673195,
+    "sha256": "1cb67c0e1d6bcf1e2cccfdd3f9dafc3b949d78d764cb2f838f04d94a53844970"
+  },
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-8254f4c8-07b3-4e7e-89b1-cdffe4f9b24e.png",
+  "fidelity_1to1_certified": false,
+  "production_ready": false
+}

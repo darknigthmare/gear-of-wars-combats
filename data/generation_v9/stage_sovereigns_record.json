@@ -1,0 +1,58 @@
+{
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "variant_relation": "target_version_candidate",
+  "category": "stage",
+  "purpose": "stage_master",
+  "animation_status": "not_requested_this_pass",
+  "canonical_fidelity_validated": false,
+  "id": "house_of_sovereigns_gow2006_master_v9",
+  "subject_id": "stage_sovereigns",
+  "name": "House of Sovereigns",
+  "source_game": "Gears of War (2006)",
+  "variant": "Gears of War (2006) — parvis extérieur adapté au combat latéral",
+  "asset_path": "assets/stages_v9/house_of_sovereigns_gow2006_master.png",
+  "prompt": "Use case: stylized-concept. Asset type: a single static 16:9 HD raster stage background for Gears of War Combats, a 2D fighting game. Recreate the House of Sovereigns exterior from Gears of War (2006) using the supplied original-game screenshot as the strict architectural and material reference. Preserve the broad curved gray neoclassical facade, tall fluted columns and ornate capitals, bronze copper domes, tall arched windows, massive entrance, small central circular fountain above the stairway, clipped hedges and dark trees, worn pale stone stairs, short black tapered posts, sandbag barricades and ruined pavement. Keep the original desaturated gray-green and bronze palette and overcast sky; do not import the redesign or warm lighting of Ultimate Edition. Build a clean lateral fighting-stage composition at human eye height: a continuous level horizontal pavement band across the bottom 20 percent, the wide steps and fountain behind it, the facade towering above the arena. Camera near side-on, restrained natural depth, all major architectural anchors recognizable. Detailed painted raster game-art finish with realistic stone grain, dark metal and weathering. Exactly one coherent environment, no fighter, no human, no monster, no body, no gunfire, no HUD, no logos, no watermark, no border, no black letterbox bars, no captions, no panels, no animation. This is a static adapted stage master; preserve observed visual identity without inventing extra landmarks.",
+  "revision_prompts": [
+    "Edit target: the supplied generated House of Sovereigns stage. Remove only the tiny invented emblem and writing at the upper-right corner and the microscopic illegible lettering along the extreme bottom-left edge. Repaint those tiny regions seamlessly with the adjacent dark stone cornice and roadway, respectively. Keep the entire architecture, columns, bronze domes, fountain, stairs, posts, hedges, cars, floor, composition, colors, texture detail, light and exact wide framing unchanged. No new text, no stamps, no signatures, no watermark. This is a clean finished game environment asset, a single static image."
+  ],
+  "sources": [
+    {
+      "page_url": "https://polycount.com/discussion/157596/splash-damage-art-team-gears-of-war-ultimate-edition-art-dump",
+      "image_url": "https://i.imgur.com/MM896Rq.jpg",
+      "source_type": "production_artist_original_game_comparison",
+      "artist": "Angelo Dal Pra / Splash Damage art team",
+      "scope": "Vue explicitement libellée House of Sovereigns Before dans la comparaison artiste. Référence du jeu original, distincte de la vue After Ultimate Edition.",
+      "visual_reference_used": true
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_stage": true,
+    "transparent_background": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "observations": [
+      "Façade incurvée, colonnes cannelées, dômes bronze, fontaine surélevée, escaliers, haies et bornes noires conservés d’après la capture originale 2006.",
+      "Le rendu initial contenait deux micro-marques parasites en bordure. Une correction imagegen ciblée les a supprimées; le fichier retenu ne présente ni légende ni interface.",
+      "Une chaussée horizontale dégagée occupe le premier plan; les éléments de couverture restent derrière cette bande.",
+      "La composition a été redressée et élargie pour le combat 2D. Les écarts de perspective, proportions et ornements fins empêchent de certifier la fidélité 1:1."
+    ],
+    "remaining_checks": [
+      "Comparer les ornements des chapiteaux, les ouvertures et la fontaine à plusieurs captures du jeu 2006.",
+      "Contrôler l’échelle du sol avec les sprites et les limites de cadrage avant utilisation jouable."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGB",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2691383,
+    "sha256": "2fd0ca1397e49cecb048e3368ed193d4b15e688141ebff9af9d4581b7f550dbe"
+  },
+  "has_image": true
+}

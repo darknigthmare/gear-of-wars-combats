@@ -1,0 +1,123 @@
+{
+  "id": "zealot_collectors_g5",
+  "subject_id": "zealot_collectors_g5",
+  "character_id": "locust_zealot",
+  "costume_id": "zealot_collectors_g5",
+  "name": "Zealot locuste — Collector's Zealot",
+  "category": "costume",
+  "source_game": "Gears 5 — Operation 6",
+  "catalog_target_game": "Gears 5",
+  "variant": "Collector's Zealot — skin multijoueur Gears 5 Operation 6",
+  "variant_relation": "target_version_candidate",
+  "asset_path": "assets/costumes_v12/zealot_collectors_g5.png",
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE isolated static full-body character costume cutout for a 2D fighting game, one subject per image.\nPrimary request: Collector's Zealot, Gears 5 Operation 6 multiplayer costume, costume id zealot_collectors_g5. Preserve the edition and costume in the references.\nReference roles: image 1 is the official Gears 5 Operation 6 Tour of Duty board; the Collector's Zealot is the blue Recruit card in the upper left group. Image 2 is a community screenshot thumbnail showing a larger card labeled COLLECTOR'S ZEALOT: the third card from the left. Those two images determine the Collector's material colors. Image 3 is the official Gears 5 standard Zealot promotional render; it determines anatomy and armor panel geometry only. Output just the Collector's variant, without any cards or other characters.\nOne tall lean Locust Zealot with long limbs, bowed muscular back and scaly dark leathery skin; ornate high pointed helmet enclosing the sides of its long toothy face, large circular ear-side helmet pieces and ridged crest. Collector's specific palette: worn graphite-black chest/shoulder armor and helmet surfaces with pale gray metallic borders, fine reddish trim on the helmet; light yellow-white imulsion components and diamond chest core. Chest harness has thick dark hoses and paired small luminous reservoirs running down both sides; visible branching pale yellow veins on the uncovered arms. Match the black shoulder plates, collar and chest arrangement shown on the labeled Collector's card. Preserve Gears 5 Zealot's layered pointed waist tassets and long thick shins; conservatively complete the lower leg/foot anatomy as broad bare clawed Locust feet with three large front toes. Do not introduce new symbols, capes or weapons. Small patterns, lower shin details and exact color topology must remain restrained where the references are cropped.\nPose: planted neutral combat-ready stance, body and head seen predominantly from the SIDE with a slight front three-quarter angle, facing screen RIGHT. Both clawed hands visible in a calm low guard, no attack. Exactly one subject in one motionless pose.\nRealistic Gears material textures translated into a refined hand-painted 2D cutout, crisp readable silhouette, neutral studio illumination.\nFraming: whole pointed helmet, claws and both foot soles fully contained. Keep the figure no higher than 78% of the image canvas, with at least 10% clear transparent padding on all sides.\nActual transparent background outside the silhouette; opaque creature and equipment, clean antialiased edges. No floor, cast shadow, fog, glowing cloud, scenery, background, gradient, UI, text, labels, logos or watermark. No collage, no duplicate, no sprite sheet and no animation.",
+  "sources": [
+    {
+      "page_url": "https://store.steampowered.com/news/posts/?appids=1097840&enddate=1615235906&feed=steam_community_announcements",
+      "image_url": "https://clan.akamai.steamstatic.com/images/35210771/f8676389b44d26696c93a3a7f128e59b293c653d.png",
+      "source_type": "first_party_publisher_announcement",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v12_costumes/operation6_tour_of_duty_official.png",
+      "scope": "Planche Tour of Duty Operation 6 : Collector's Zealot, carte Recruit. Nom et palette de variante attestés, cadrage tête/torse.",
+      "reference_sha256": "493be3d97a2424317ab74be2561cf5c0344588a733b0a6426f2a0279892b4e32"
+    },
+    {
+      "page_url": "https://www.youtube.com/watch?v=VahwszbRItk",
+      "image_url": "https://i.ytimg.com/vi/VahwszbRItk/maxresdefault.jpg",
+      "source_type": "secondary_in_game_card_thumbnail",
+      "scope": "Vignette SASxSH4DOWZ du 2 mars 2021, carte agrandie explicitement étiquetée Collector's Zealot. Tête et haut de l'armure ; vidéo complète non visionnée.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v12_costumes/operation6_gameplay_thumbnail.jpg",
+      "reference_sha256": "58d0a1a6d01e503b4ae1371436605f493451e1e18c41855a0fb04823c2ff68e2"
+    },
+    {
+      "page_url": "https://store.steampowered.com/news/posts/?appgroupname=Gears+5&appids=1097840&enddate=1617721047&feed=steam_community_announcements",
+      "image_url": "https://clan.akamai.steamstatic.com/images/35210771/c0bfbcd5a7bdb38b4fc4988dbce058fba7637d59.png",
+      "source_type": "first_party_publisher_promotional_render",
+      "scope": "Zealot standard Gears 5, annonce Reveal Operation 6 du 23 février 2021. Référence de géométrie casque/torse/tassets, pas preuve du motif Collector's sur les zones non montrées. Bas des jambes et pieds hors cadre.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v12_costumes/zealot_g5_official.png",
+      "reference_sha256": "a8625b61d25b0c6801d9d1a78fd64d3db5fdbeef22fe75752f87f581bcef218d"
+    }
+  ],
+  "qa": {
+    "observations": [
+      "Un Zealot entier, trois-quarts orienté à droite, casque pointu à crête, plaques sombres à bordures métalliques, harnais et composants jaunes cohérents avec le portrait Collector's.",
+      "La silhouette du casque, les lignes rouges et les motifs du harnais sont des approximations génératives à comparer au modèle exact.",
+      "Le rendu officiel standard Gears 5 ne montre pas les chevilles/pieds ; ces éléments et certains détails des tassets ont été reconstitués. Aucun rendu Tactics n'a servi à cette génération.",
+      "RGBA réel : 64,77 % de pixels alpha=0 ; le halo d'aperçu ne doit pas être interprété comme un fond opaque.",
+      "Marges alpha >=128 : [154, 33, 162, 42] px ; corps et pieds entiers, mais marges verticales de 10 % non atteintes."
+    ],
+    "remaining_checks": [
+      "Comparer les pieds, le profil de la crête et les tassets au skin Collector's dans Gears 5.",
+      "Valider les teintes exactes des réserves d'Imulsion, les veines et les petits motifs.",
+      "Vérifier la découpe alpha sur fonds clair/sombre dans le moteur."
+    ],
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "alpha_measured": true,
+    "framing_measured": true
+  },
+  "notes": [
+    "Candidat statique d'une variante multijoueur officielle, sans modification du kit ou de la chronologie canonique présumée.",
+    "PNG natif copié sans traitement raster, agrandissement ou fabrication de spritesheet."
+  ],
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2135827,
+    "sha256": "a096dd8bca846bb48fe3325f2bdcec3699d313166eac5387e0b5199cdc47307f",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.6477158864339193,
+    "subject_bbox_alpha_ge_128": [
+      154,
+      33,
+      862,
+      1494
+    ],
+    "subject_margins_ltrb_px": [
+      154,
+      33,
+      162,
+      42
+    ],
+    "edge_band_width_px": 8,
+    "edge_alpha_max": 1,
+    "has_real_alpha": true,
+    "native_copy_verified": true
+  },
+  "original_output_path": "/workspace/scratch/3c791759fb15/generated_images/exec-e07c350b-5363-4bbe-af25-5b2ddadee744.png",
+  "has_image": true,
+  "status": "generated_reference_pending_validation",
+  "generation_status": "generated_reference_pending_validation",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "pass_date": "2026-11-27",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "pose": "static_front_three_quarter_facing_right",
+  "quality_state": "candidate",
+  "purpose": "reference_fullbody",
+  "source_urls": [
+    "https://store.steampowered.com/news/posts/?appids=1097840&enddate=1615235906&feed=steam_community_announcements",
+    "https://www.youtube.com/watch?v=VahwszbRItk",
+    "https://store.steampowered.com/news/posts/?appgroupname=Gears+5&appids=1097840&enddate=1617721047&feed=steam_community_announcements"
+  ],
+  "reference_images": [
+    "/workspace/scratch/3c791759fb15/research_v12_costumes/operation6_tour_of_duty_official.png",
+    "/workspace/scratch/3c791759fb15/research_v12_costumes/operation6_gameplay_thumbnail.jpg",
+    "/workspace/scratch/3c791759fb15/research_v12_costumes/zealot_g5_official.png"
+  ]
+}

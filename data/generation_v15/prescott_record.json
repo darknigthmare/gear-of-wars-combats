@@ -1,0 +1,147 @@
+{
+  "id": "prescott",
+  "subject_id": "prescott",
+  "character_id": "prescott",
+  "name": "Chairman Prescott",
+  "category": "character",
+  "source_game": "Gears 5 — Armored Prescott",
+  "catalog_target_game": "Gears 5 — Armored Prescott",
+  "variant": "Gears 5 — Armored Prescott Operation 6",
+  "variant_relation": "target_version_candidate",
+  "purpose": "reference_fullbody",
+  "pass_date": "2026-11-27",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "status": "blocked_generator_refusal",
+  "generation_status": "blocked_generator_refusal",
+  "generation_attempted": true,
+  "generation_attempt_count": 1,
+  "retry_count_this_pass": 0,
+  "has_image": false,
+  "asset_path": null,
+  "output": null,
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE fixed full-body character sprite for a 2D fighting game, not an animation.\nPrimary request: Richard Prescott, specifically ARMORED PRESCOTT from Gears 5 Operation 6. Use the supplied official Gears 5 image as the visual identity reference: match his older narrow aristocratic face, receding short dark hair graying at temples, prominent long nose, stern expression, small dark chin beard, and his armor rather than Marcus or Baird.\nSubject: one human male in the official slate gray and dark blue Armored Prescott COG armor, asymmetrical detailed metal chest plate, blue illuminated panels, dark gray collared undershirt with sleeves rolled to elbow, muscular forearms, armored gloves, utilitarian tan-gray pants, pouch belt, kneepads and heavy armored boots. Carry the Longshot rifle visible in the official image at low ready with both hands; preserve recognizable gun geometry.\nPose: calm, planted combat-ready guard, three-quarter SIDE view facing screen RIGHT. Entire head, boots and rifle inside image. One pose only.\nFraming: portrait full-body with at least EIGHT PERCENT EMPTY TRANSPARENT MARGIN above the head and below the boots and on either side. Do not let any part approach the canvas edge. Character occupies no more than 84% of image height.\nStyle: detailed realistic Gears materials translated into high-end hand-painted 2D game cutout, crisp textures and readable silhouette, neutral studio light.\nBackground: genuinely transparent alpha, no ground plane, no shadow cast outside the silhouette, no smoky aura, no haze, no vignette, no frame, no text. Fully opaque human and equipment except edge antialiasing.\nConstraints: exact version cues from reference; no generic replacement soldier, no helmet, no bandanna, no duplicate, no animation, no spritesheet, no collage, no extra people, no effects. Single intact character.",
+  "prompt_sha256": "dd6d3407ede82136aa1f4826de512a3e4abf28f965e2eef8ea98b8ad3da227f7",
+  "same_prompt_replay": true,
+  "prompt_changed": false,
+  "reference_images": [
+    "/workspace/scratch/f809e6610dc2/references_v15/guide_characters/prescott_rigging_official.jpg"
+  ],
+  "reference_inputs": [
+    {
+      "role": "visual_reference",
+      "local_path": "/workspace/scratch/f809e6610dc2/references_v15/guide_characters/prescott_rigging_official.jpg",
+      "page_url": "https://secam_station.artstation.com/projects/q9ydPz",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/061/040/629/large/sebastien-camrrubi-gears-5-armored-prescott-character-rigging-the-coalition-microsoft-xbox-sebastien-camrrubi-secam-station-2.jpg?1679901384",
+      "sha256": "f777e1f6d3812000ff706af2a9ee349f572de56b794f194f85b23e80f1f24246",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "format": "JPEG",
+      "visually_inspected": true
+    }
+  ],
+  "sources": [
+    {
+      "page_url": "https://steamcommunity.com/games/1097840/announcements/detail/3092259257862238633",
+      "image_url": "https://clan.fastly.steamstatic.com/images/35210771/1a6ca767891d9d189254f337d1b5697ae612ffe3.jpg",
+      "source_type": "official_publisher_character_screenshot",
+      "scope": "Capture officielle Armored Prescott Gears 5 inspectée puis fournie au générateur ; aucune sortie obtenue.",
+      "visual_reference_used": false,
+      "accessed_date": "2026-11-27",
+      "local_reference": "/workspace/scratch/f809e6610dc2/references_v15/guide_characters/prescott_g5_official.jpg",
+      "reference_sha256": "92f72bc9d3b93e5d5ff6a3ae34318c106bbfe775d33cd5392db718ed451b8b51",
+      "reference_visually_inspected": true
+    },
+    {
+      "page_url": "https://secam_station.artstation.com/projects/q9ydPz",
+      "source_type": "original_rigging_artist_portfolio",
+      "scope": "Même capture officielle Armored Prescott, copie haute résolution 1920×1080 publiée par le rigger de production. Visage, armure, Longshot et cuisses visibles, bas des jambes hors cadre.",
+      "visual_reference_used": true,
+      "accessed_date": "2026-11-27",
+      "local_reference": "/workspace/scratch/f809e6610dc2/references_v15/guide_characters/prescott_rigging_official.jpg",
+      "reference_sha256": "f777e1f6d3812000ff706af2a9ee349f572de56b794f194f85b23e80f1f24246",
+      "reference_dimensions": [
+        1920,
+        1080
+      ],
+      "reference_visually_inspected": true,
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/061/040/629/large/sebastien-camrrubi-gears-5-armored-prescott-character-rigging-the-coalition-microsoft-xbox-sebastien-camrrubi-secam-station-2.jpg?1679901384"
+    }
+  ],
+  "source_urls": [
+    "https://steamcommunity.com/games/1097840/announcements/detail/3092259257862238633",
+    "https://secam_station.artstation.com/projects/q9ydPz"
+  ],
+  "source_research": {
+    "date": "2026-11-27",
+    "scope": "Recherche primaire complémentaire ciblée avant un seul nouvel essai autorisé, non exhaustive.",
+    "urls_reviewed": [
+      "https://steamcommunity.com/games/1097840/announcements/detail/3092259257862238633",
+      "https://secam_station.artstation.com/projects/q9ydPz"
+    ],
+    "new_final_fullbody_reference_established": false,
+    "limitations": [
+      "Capture officielle Gears 5 Operation 6 Drop 2 : visage, armure et Longshot visibles, pieds et bas des jambes hors champ.",
+      "Le rigger de The Coalition confirme Armored Prescott pour le multijoueur Gears 5 ; aucune tenue de Prescott Gears 3 n’est substituée.",
+      "Les jambes et bottes restent à valider sur une vue finale complète, indépendamment de la réussite de génération."
+    ]
+  },
+  "retry_authorization": {
+    "user_request_verbatim": "meme promtp et en paralele reassayer ce qui on ete refuser",
+    "scope": "Un nouveau passage explicite pour les sujets précédemment refusés, même prompt ; arrêt après cet essai si nouveau refus.",
+    "previous_no_retry_preference_lifted": true,
+    "same_builtin_engine": true,
+    "no_identity_obfuscation": true,
+    "historical_records_preserved": true
+  },
+  "previous_attempt": {
+    "record": "data/generation_v9/prescott_record.json",
+    "record_sha256": "ee0bd9544268831a1b2db99ea91dfa6aaf3420f1c0449dc8547e2618f7e1d901",
+    "status": "blocked",
+    "prompt_sha256": "dd6d3407ede82136aa1f4826de512a3e4abf28f965e2eef8ea98b8ad3da227f7",
+    "blocking_error": {
+      "code": "moderation_blocked",
+      "stage": "output",
+      "category": "other",
+      "request_id": "409ae88f-46e5-47af-ac73-eb45b2012400"
+    }
+  },
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "quality_state": "blocked_generator_refusal",
+  "qa": {
+    "reference_visually_inspected": true,
+    "output_visually_inspected": false,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "remaining_checks": [
+      "Capture officielle Gears 5 Operation 6 Drop 2 : visage, armure et Longshot visibles, pieds et bas des jambes hors champ.",
+      "Le rigger de The Coalition confirme Armored Prescott pour le multijoueur Gears 5 ; aucune tenue de Prescott Gears 3 n’est substituée.",
+      "Les jambes et bottes restent à valider sur une vue finale complète, indépendamment de la réussite de génération."
+    ],
+    "source_full_body_game_model_verified": false
+  },
+  "notes": [
+    "Nouvel essai expressément autorisé par l’utilisateur après le refus historique.",
+    "Prompt historique repris littéralement, noms et édition conservés ; aucun autre moteur.",
+    "Un sujet fixe par PNG avec transparence demandée ; aucune animation.",
+    "Le seul nouvel appel V15 a été refusé à l’étape output (moderation_blocked, catégorie other). Aucun PNG retourné, aucune relance après ce refus et aucun changement de moteur ou de formulation."
+  ],
+  "reference_refresh_note": "Prompt historique strictement identique. Référence remplacée par la même capture en meilleure résolution depuis le portfolio de production ; aucune nouvelle partie du corps révélée.",
+  "blocking_error": {
+    "code": "moderation_blocked",
+    "stage": "output",
+    "categories": [
+      "other"
+    ],
+    "type": "image_generation_user_error",
+    "request_id": "ac9299a6-a6c9-4a39-b567-6833fd3752e3",
+    "message": "Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID ac9299a6-a6c9-4a39-b567-6833fd3752e3.",
+    "raw_tool_error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID ac9299a6-a6c9-4a39-b567-6833fd3752e3.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+  }
+}

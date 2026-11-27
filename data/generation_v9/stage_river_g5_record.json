@@ -1,0 +1,61 @@
+{
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "variant_relation": "target_version_candidate",
+  "category": "stage",
+  "purpose": "stage_master",
+  "animation_status": "not_requested_this_pass",
+  "canonical_fidelity_validated": false,
+  "id": "river_gears5_tavern_master_v9",
+  "subject_id": "stage_river_g5",
+  "name": "River — taverne",
+  "source_game": "Gears 5 — Operation 5",
+  "variant": "Gears 5 — River, intérieur de taverne adapté au combat latéral",
+  "asset_path": "assets/stages_v9/river_gears5_tavern_master.png",
+  "prompt": "Use case: stylized-concept. Asset type: one HD 16:9 static stage master for the 2D fighting game Gears of War Combats. Primary reference: the supplied final-game River map tavern interior screenshot from Gears 5, published by environment artist Julius Peters. Recreate precisely the recognizable weathered maroon interior with two large pale stone arched openings at left and right, two smaller broken arched windows between them, green trim, flaking burgundy plaster, a low broken exposed wooden beam ceiling, torn small red triangular bunting, damaged dark timber floor with shallow puddles and sunlight shafts. Through the openings preserve the ruined blue-gray plaster buildings, tan sandbags, rough wood barricades and the teal storm sky as visible in the source. Keep the grounded Gears5 material palette, architecture and afternoon directional light. Adapt the camera to a nearly side-on eye-height fighting-stage view: a continuous level uncluttered horizontal wood floor across the lower fifth, important openings and windows behind the fighters, no large objects blocking the fighting plane. Wide coherent detailed raster game-art environment, crisp legible shapes, realistic surface texture. Remove source footer, credits, logo and HUD; no characters, no monsters, no bodies, no labels, no readable poster writing, no new symbols, no caption, no corner marks, no signature, no borders, no UI, no collage, no animation. This is a flattened stage master, not a set of parallax layers.",
+  "sources": [
+    {
+      "page_url": "https://news.xbox.com/en-us/2020/11/17/gears-5-operation-5/",
+      "source_type": "official_publisher_announcement",
+      "scope": "Annonce officielle de la carte River dans Operation 5; confirmation d’édition, sans image fournie au générateur.",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://dvids.artstation.com/projects/3dmRZA",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/032/192/169/large/julius-peters-gears-5-river-08.jpg?1605725891",
+      "source_type": "production_artist_portfolio",
+      "artist": "Julius Peters",
+      "scope": "Capture de l’intérieur de taverne de River, publiée par un artiste de la carte; référence visuelle directe.",
+      "visual_reference_used": true
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_stage": true,
+    "transparent_background": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "observations": [
+      "Deux grandes arches claires, deux fenêtres brisées, enduit bordeaux, moulures vertes, bois et fanions rouges repris de la vue artiste.",
+      "Plancher horizontal dégagé, lumière chaude et flaques, aucun personnage actif ni interface; bande de crédits source omise.",
+      "La patte pétrifiée et la carcasse mécanique visibles dans la source restent des éléments fixes du décor extérieur; aucun ennemi séparé n’est produit par ce PNG.",
+      "Point de vue redressé, toit et sol recomposés; les proportions exactes du niveau ne sont pas certifiées."
+    ],
+    "remaining_checks": [
+      "Comparer les arches, les moulures, la charpente et les silhouettes visibles par les ouvertures aux captures de River Gears 5.",
+      "Vérifier le plancher et l’échelle des combattants en situation avant activation dans une arène."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGB",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2743887,
+    "sha256": "bacbb0441a4b2baea08c0c1e95d67f6492c243cc9d21a35e6f9dcc2138ec8c91"
+  },
+  "has_image": true
+}

@@ -1,0 +1,46 @@
+{
+  "version": "V14",
+  "date": "2026-11-27",
+  "scope": "Recherche complémentaire des trois anciennes rencontres sans référence complète ; non exhaustive.",
+  "generation_attempts": 0,
+  "new_usable_final_references": 0,
+  "queries": [
+    "\"Gears 5\" \"Sire\" site:artstation.com",
+    "\"Wakaatu\" \"Gears\" artist model",
+    "\"Gears of War 2\" \"Hydra\" Epic Games model artist",
+    "Gears 5 Sire character art model portfolio",
+    "Gears 5 Sire highpoly model sculpt artist"
+  ],
+  "entries": [
+    {
+      "id": "boss_hydra_skorge",
+      "decision": "keep_open",
+      "reason": "Les pistes primaires retrouvées restent le concept de James Hawkins et la présentation Epic GDC 2009. Les parties et éléments de destruction ne constituent pas une vue finale intacte complète de la Hydra de Skorge Gears 2.",
+      "sources": [
+        "https://hawkprey.artstation.com/projects/Zex3m",
+        "https://cdn2.unrealengine.com/Resources/files/GDC09_Smedberg_RenderingTechniques-1415210295.pdf",
+        "https://gdcvault.com/play/1351/Inside-the-GEARS-OF-WAR"
+      ],
+      "previous_record": "data/generation_v13/boss_hydra_skorge_record.json"
+    },
+    {
+      "id": "boss_wakaatu",
+      "decision": "keep_open",
+      "reason": "Le portfolio de Tyler Bradley est une source de conception de la créature, sans nouvelle vue finale texturée complète établie. La capture cinématique montrant Lahni, Keegan et Mac ne prouve pas l’anatomie du Wakaatu.",
+      "sources": [
+        "https://tylerthebradley.artstation.com/projects/Krb5LB"
+      ],
+      "previous_record": "data/generation_v13/boss_wakaatu_record.json"
+    },
+    {
+      "id": "boss_sire_g5",
+      "decision": "keep_open",
+      "reason": "Aucun portfolio primaire avec corps final Gears 5 complet établi par les recherches. Les preuves V13 restent une présence officielle et des captures avec corps masqué/coupé ; elles ne permettent pas de compléter précisément les surfaces cachées.",
+      "sources": [
+        "https://news.xbox.com/en-us/2019/08/09/gears-5-has-gone-gold-celebrate-with-our-full-achievement-list/"
+      ],
+      "previous_record": "data/generation_v13/boss_sire_g5_record.json"
+    }
+  ],
+  "canonical_fidelity_validated": false
+}

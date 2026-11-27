@@ -1,0 +1,33 @@
+{
+  "generated": true,
+  "reason": "La référence finale E-Day a été exploitée dans la continuation de la passe V14 ; le modèle Tactics reste une piste distincte de matériaux, non substituée.",
+  "candidates": [
+    {
+      "edition": "Gears of War: E-Day",
+      "page": "https://antoineverneycarron.artstation.com/projects/KR3KG4",
+      "author": "Antoine Verney-Carron",
+      "credit": "Ticker/Reaver: texturing",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/103/353/664/large/antoine-verney-carron-tc.jpg?1792435473",
+      "local_path": "/workspace/scratch/f809e6610dc2/references_v14/ticker_eday_artist.jpg",
+      "sha256": "a8212f5d5dec825c5de8d8857384d54bf8a292a31a585eebf444f70019cf277f",
+      "inspected": true,
+      "scope": "Final coloured organic Ticker model is the smaller complete creature in the lower half of a Reaver/Ticker presentation. Four limbs, broad low body, overlapping dorsal plates, pale grey-brown leathery flesh, toothed mouth, very long front claws. No explosive harness shown. Reaver occupies upper half.",
+      "limits": "No rear view; formal variant designation not given. Do not merge Tactics explosive equipment with this bare E-Day organic model."
+    },
+    {
+      "edition": "Gears Tactics",
+      "page": "https://wolvawab.artstation.com/projects/YeGq0w",
+      "author": "Raouf Bejaoui",
+      "credit": "Locust iridescence material function used on Ticker; page credits character art to Hang Li, Dong Han, Cheng Jiang, Zhihua Qi (Mindwalk), and linked pav3d.",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/029/262/956/large/raouf-bejaoui-gearstactics-iridescence-on.jpg?1596986123",
+      "local_path": "/workspace/scratch/f809e6610dc2/references_v14/ticker_tactics_iridescence_on.jpg",
+      "sha256": "a540c0d106c8160d5c87fc0921e004cf1bf025f1dd19b1027ac9f401f49dc68f",
+      "inspected": true,
+      "scope": "Final in-game presentation of three overlapping Tickers with large amber explosive containers, metal bands and pipes, dark iridescent dorsal plates and long curved foreclaws.",
+      "limits": "Low camera and overlap obscure feet, rear anatomy and equipment layout. Insufficient alone for a verified complete side sprite."
+    }
+  ],
+  "initial_research_note": "Two-PNG maximum reached with Leech G5 and Wretch E-Day. Ticker left as a documented primary reference for a later pass.",
+  "generation_record": "data/generation_v14/creature_ticker_eday_record.json",
+  "output_path": "assets/creatures_v14/ticker_eday.png"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "benjamin_carmine",
+  "subject_id": "benjamin_carmine",
+  "name": "Benjamin Carmine",
+  "category": "character",
+  "source_game": "Gears of War 2",
+  "variant": "Gears of War 2",
+  "pass_date": "2026-11-25",
+  "status": "blocked",
+  "engine": "built_in_imagegen",
+  "has_image": false,
+  "asset_path": null,
+  "prompt": "Use case: stylized-concept. Create exactly ONE standalone full-body static character sprite of BENJAMIN CARMINE in his original GEARS OF WAR 2 COG uniform. The attached official 2008 BradyGames guide page is visual reference ONLY. Match the masked soldier labeled BENJAMIN CARMINE in the LOWER LEFT of the page; ignore Marcus at the top, all screenshots, all text and page layout. Preserve Benjamin's distinct closed angular blue-grey COG helmet with two separate luminous blue goggles and the flat angular respirator mask from that lower-left portrait, his COG chest armor with round pectoral plates, broad layered shoulder plates, dark fabric sleeves, armored forearms, dark utility belt and reinforced trousers, heavy COG knee guards and boots. Keep the original 2008 uniform, not the Gears 5 cosmetic versions and not Anthony or Clayton Carmine. He stands head-to-toe in a calm neutral ready stance, three-quarter side view facing right, both feet fully visible, both hands empty and separate. High-detail hand-painted realistic 2D UHD game sprite, authentic bulky Gears proportions, weathered grey-blue steel and dark cloth, small blue armor lights. Single figure occupying only 80% of canvas height with generous transparent padding. Truly transparent PNG alpha outside the silhouette, no floor, no shadow, no background, no extra figures, no props, no text, no logo. One pose only, no animation.",
+  "error": "moderation_blocked",
+  "request_id": "411d3ca5-0294-40ff-80c4-dc360a448c11",
+  "moderation_stage": "output",
+  "moderation_categories": [
+    "other"
+  ],
+  "canonical_fidelity_validated": false,
+  "notes": [
+    "Aucun PNG produit. Sujet maintenu manquant; aucun contournement ou appel à un autre moteur."
+  ],
+  "sources": [
+    {
+      "url": "https://ptgmedia.pearsoncmg.com/images/9780744009644/samplepages/0964-4_gearsofwar2.pdf",
+      "type": "official_strategy_guide_visual_reference",
+      "note": "Guide officiel BradyGames Gears of War 2 (2008), page imprimée 35 ; portrait Benjamin Carmine en bas à gauche fourni au générateur."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "variant_relation": "target_version_candidate",
+  "category": "stage",
+  "purpose": "stage_master",
+  "animation_status": "not_requested_this_pass",
+  "canonical_fidelity_validated": false,
+  "has_image": true,
+  "id": "ritual_gears5_courtyard_master_v10",
+  "subject_id": "stage_ritual_g5",
+  "name": "Ritual — cour du temple",
+  "source_game": "Gears 5",
+  "catalog_target_game": "Gears 5",
+  "variant": "Gears 5 — Ritual, cour adaptée au combat latéral",
+  "asset_path": "assets/stages_v10/ritual_gears5_courtyard_master.png",
+  "prompt": "Create ONE opaque landscape 16:9 static 2D HD fighting-game stage master faithfully reconstructing the Ritual multiplayer map courtyard from Gears 5, using the attached final production screenshot as the concrete architectural/material reference. Not a collage. A wide level side-facing composition, camera horizontal at modest standing height, and an uninterrupted broad horizontal strip of worn mossy stone courtyard paving spanning the bottom 22% for fighters to stand on. Recompose the camera and foreground for this game-stage use, but preserve this exact place's distinctive identity: massive ancient gnarled dark tree occupying the left third, twisting limb crossing overhead; hazy narrow stepped temple towers in rear center; at right the huge fixed carved ceremonial winged beaklike idol with dark oxidized green, reddish ochre and tarnished gold details upon its heavily carved rectangular stone pedestal. The idol is a stationary monument, not a living enemy. Preserve the photographed organic tree contours, relief motifs, vines, scattered ferns, deep ochre-green haze, bright yellow backlit jungle canopy and very small distant temple flames. Keep the playable foreground unobstructed and near-horizontal, all pillars, roots and pedestals behind its rear edge. Exceptional tactile stone and bark detail with the grounded visual language of the supplied Gears 5 scene, a polished dark 2D painted environment. NO people, soldiers, creatures, enemies, weapons, loot, HUD, labels, logos, credits, borders or watermark; remove the entire portfolio footer from the reference. One continuous background, no split panels, no animation frames, no isolated layers. Do not invent modern buildings or generic fantasy decoration.",
+  "sources": [
+    {
+      "page_url": "https://dakkon.artstation.com/projects/kD55Jn",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/040/218/132/large/boyd-mckenzie-1-ritual-courtyard.jpg?1628194213",
+      "source_type": "production_artist_portfolio",
+      "artist": "Boyd McKenzie — lead level artist",
+      "scope": "Capture finale de la cour de Ritual dans Gears 5, publiée par le lead level artist de la carte.",
+      "visual_reference_used": true,
+      "reference_sha256": "419136470e5a2c3ed72e676e908adc830b53c05169e480a8e97105ebe0db1ba7"
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_stage": true,
+    "transparent_background": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "observations": [
+      "Grand arbre noueux à gauche, tour du temple dans la brume et monument ailé à bec sur piédestal à droite repris de la capture finale; palette jaune-olive et reliefs vert-rouge conservés.",
+      "Un seul décor opaque avec bande de sol horizontale continue; aucun personnage, ennemi mobile, interface ou crédit visible.",
+      "Sol de combat et hauteur de caméra recomposés. Les reliefs du monument, les proportions de sa couronne et les racines sont réinterprétés; leur fidélité géométrique exacte n’est pas validée."
+    ],
+    "remaining_checks": [
+      "Comparer les motifs du monument et la largeur du piédestal aux captures finales sous plusieurs angles.",
+      "Valider l’échelle des combattants et la hauteur de la bande de sol avant intégration jouable."
+    ],
+    "alpha_channel_present": false,
+    "opaque": true
+  },
+  "output": {
+    "format": "PNG",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "bytes": 3074298,
+    "sha256": "26655df657daf1720314068f4d82491edd92164c21e6f50a523d495627220134"
+  },
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-c9476628-08c7-48a1-ae34-41ebfb132041.png",
+  "fidelity_1to1_certified": false,
+  "production_ready": false
+}

@@ -1,0 +1,111 @@
+{
+  "id": "projectile_canker_g4",
+  "name": "Carrier Minion / Canker — Gears of War 4",
+  "source_game": "Gears of War 4",
+  "category": "projectile",
+  "status": "generated_reference_pending_validation",
+  "generation_attempted": true,
+  "generation_attempt_count": 1,
+  "has_image": true,
+  "asset_path": "assets/projectiles_v14/canker_g4.png",
+  "original_output_path": "/workspace/scratch/f809e6610dc2/generated_images/exec-33c6fd63-e502-4834-8033-e4bf335d2548.png",
+  "reference_path": "/workspace/scratch/f809e6610dc2/references_v14/carrier_minion_g4_final.png",
+  "source_page": "https://www.zbrushcentral.com/t/gears-of-war-4-art-dump/206321",
+  "source_image": "https://www.zbrushcentral.com/uploads/default/original/3X/5/3/534d1585fd40bdef40e31586b71ef08c82a7ad98.png",
+  "source_author": "Daniel Bohrer do Nascimento — The Coalition ; concept Andrew Domachowsky",
+  "prompt": "Use case: stylized-concept. Asset type: one standalone high-definition 2D static enemy/projectile sprite. Reference image: the supplied official Gears of War 4 Carrier Minion model sheet by Daniel Bohrer shows two views of ONE type of creature. Generate exactly ONE Carrier Minion / Canker, matching the right-facing upper reference view, on a genuinely transparent RGBA background. Horizontal flight alignment: broad swollen globular sac and pale irregular leading tip at the RIGHT, narrow tapering tail spines extending LEFT. Match the exact reference silhouette and proportions: layered leathery glossy dark reddish-brown upper and lower lobes encasing a large thin gray-brown translucent veined membrane, warm amber-yellow light visible from inside the sac, pale cream leading membrane; dark gray-violet tapered tail spars and small webbed membrane roots behind the body. Preserve the organic model structure and uneven material transition; no invented head, face, humanoid eyes, teeth, legs, wings, guns or rocket nozzle. Detailed crisp raster art with subdued light so the warm internal glow remains legible. One fixed side-view pose, entire tail tips and full sac in frame, 8 percent transparent safety margin all around. No duplicate creature, no alternate view, no frame sequence, no motion streak, no explosion, no environment, no shadows on a floor, no label, no logo, no text or watermark. Reproduce the creature identity from the reference, not its two-view sheet layout.",
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1877,
+    "height": 838,
+    "bytes": 1467818,
+    "sha256": "d4a9280ef8d64a723f85b7337d4632f217b0e04140ccb82a28a3f699099be29b",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.6272094173533911,
+    "alpha_nonzero_bbox": [
+      0,
+      17,
+      1877,
+      838
+    ],
+    "subject_bbox_alpha_ge_128": [
+      64,
+      129,
+      1827,
+      754
+    ],
+    "subject_margins_ltrb_px": [
+      64,
+      129,
+      50,
+      84
+    ],
+    "has_real_alpha": true,
+    "native_copy_verified": true
+  },
+  "qa": {
+    "reference_visually_inspected": true,
+    "output_visually_inspected": true,
+    "single_subject": true,
+    "full_body_in_frame": true,
+    "orientation": "horizontal ; sac à droite et queue à gauche",
+    "transparent_background": true,
+    "clean_alpha_edges_validated": false,
+    "observations": [
+      "Un seul Canker orienté horizontalement, sac globulaire à droite, longs appendices pointus à gauche.",
+      "Lobes bruns luisants, membrane grisâtre veinée, pointe crème et lueur interne ambre respectent la structure générale du rendu final.",
+      "Aucun membre, aile, visage humanoïde, arme ni tuyère inventé.",
+      "La répartition des lobes, nervures et appendices fins est réinterprétée ; la lumière interne est plus brillante que dans la référence.",
+      "Marges horizontales inférieures aux 8 % demandés : 63 px à gauche et 50 px à droite pour l'alpha >=16.",
+      "De faibles pixels alpha périphériques atteignent certains bords du canevas ; aucune suppression automatique appliquée."
+    ],
+    "remaining_checks": [
+      "Comparer le nombre et les longueurs relatives des appendices au modèle.",
+      "Contrôler luminosité et alpha sur fonds clairs/sombres.",
+      "Préparer hitbox et comportement du projectile séparément."
+    ],
+    "root_visual_review": [
+      "Sujet unique complet orienté vers la droite ; lumière interne et lobes bruns conservés.",
+      "Marge droite faible, extrémités et intensité lumineuse à comparer au modèle final."
+    ]
+  },
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-27",
+  "animation": false,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "subject_id": "projectile_canker_g4",
+  "catalog_target_game": "Gears of War 4",
+  "variant": "Carrier Minion / Canker — modèle final Gears of War 4",
+  "variant_relation": "target_version_candidate",
+  "purpose": "reference_projectile",
+  "generation_method": "built_in_imagegen",
+  "quality_state": "candidate",
+  "generation_status": "generated_reference_pending_validation",
+  "source_urls": [
+    "https://www.zbrushcentral.com/t/gears-of-war-4-art-dump/206321",
+    "https://primagames.com/eguides/gears-of-war-4-eguide/enemy-forces/swarm"
+  ],
+  "reference_images": [
+    "/workspace/scratch/f809e6610dc2/references_v14/carrier_minion_g4_final.png"
+  ],
+  "sources": [
+    {
+      "page_url": "https://www.zbrushcentral.com/t/gears-of-war-4-art-dump/206321",
+      "image_url": "https://www.zbrushcentral.com/uploads/default/original/3X/5/3/534d1585fd40bdef40e31586b71ef08c82a7ad98.png",
+      "source_author": "Daniel Bohrer do Nascimento — The Coalition ; concept Andrew Domachowsky",
+      "source_type": "first_party_final_production_model",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/f809e6610dc2/references_v14/carrier_minion_g4_final.png",
+      "reference_sha256": "36cd12727dba73b749932d979b48c60810e51c9d0152e52fac6d17dec27f697b",
+      "accessed_date": "2026-11-27",
+      "visually_inspected": true
+    }
+  ],
+  "prompt_sha256": "bed1464bb3f776179880733ce387546f87a1cc6cedc72c3ccfbaf8a9074204cb"
+}

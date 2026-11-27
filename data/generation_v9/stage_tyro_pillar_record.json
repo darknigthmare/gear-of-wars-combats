@@ -1,0 +1,58 @@
+{
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "variant_relation": "target_version_candidate",
+  "category": "stage",
+  "purpose": "stage_master",
+  "animation_status": "not_requested_this_pass",
+  "canonical_fidelity_validated": false,
+  "id": "tyro_pillar_gow2006_master_v9",
+  "subject_id": "stage_tyro_pillar",
+  "name": "Tyro Pillar — pont de fret",
+  "source_game": "Gears of War 2006",
+  "variant": "Gears of War 2006 — pont de fret adapté au combat latéral",
+  "asset_path": "assets/stages_v9/tyro_pillar_gow2006_master.png",
+  "prompt": "Create ONE finished wide 16:9 landscape master background for a static 2D fighting arena. Subject: the TYRO PILLAR freight train in the ORIGINAL 2006 Gears of War, the exterior cargo deck during Act 5. Use the attached ORIGINAL game screenshots as the visual authority for the actual train construction, cargo materials, storm light and color palette. They are references, not elements to collage. Faithfully recreate the heavy riveted bronze-gray steel flatbed deck, low segmented side guardrails with evenly spaced vertical posts, a large horizontal weathered silver-gray cylindrical tank secured with two thick dark straps, dark capped cylinder end, worn wooden freight crates reinforced by black vertical metal straps, and the rounded dark metal end of an adjacent enclosed carriage. Keep the characteristic desaturated brown-violet sunset storm sky with dense mottled backlit clouds from the references, distant dark rugged hills beyond the moving train. Clear readable contours, very detailed believable worn metal and planks, highly polished 2D HD game environment paint with restrained atmospheric depth and faithful gritty Gears 2006 material style. No toy style, no neon, no modern railway passenger station.\nComposition: translate this actual train environment into a SIDE-ON arena camera at low eye level, not a top down view. The platform runs horizontally straight from left edge to right edge. The bottom 22 percent is a clear continuous flat metal fighting deck with a level horizontal line, no stairs, cargo or protrusions on this foreground playable strip. Place tank, crates, railings and rounded carriage end BEHIND the fighting strip, maintaining correct massive industrial scale. Cylinder horizontal, positioned rear left; strapped crates rear right; actual low guardrail and storm landscape visible in the middle. Large continuous open center for fighter silhouettes. Fixed still image, one complete stage only, opaque edge-to-edge scene. No animations, no sprite sheet, no tiles, no split layers.\nRemove ALL humans, soldiers, Locust, monsters, corpses, weapons held by characters, HUD ammo counters, crosshairs, button prompts, UI, scores, floating names, labels, logos, watermarks, captions and text. No explosions or combat effects. Do not reproduce screenshot artifacts or source frame borders. Keep train model and material vocabulary faithful to the references; no invented temple or giant modern locomotive.",
+  "sources": [
+    {
+      "page_url": "https://ptgmedia.pearsoncmg.com/imprint_downloads/brady/promotions/Gears3/9780744013610.pdf",
+      "source_type": "official_licensed_strategy_guide",
+      "publisher": "BradyGames / Pearson",
+      "scope": "Guide officiel Gears of War : captures originales de la séquence du train, pages PDF 119 et 121, extraites sans retouche. Le chemin de téléchargement contient Gears3 mais le document illustre le jeu original 2006.",
+      "visual_reference_used": true,
+      "reference_pages": [
+        119,
+        121
+      ]
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_stage": true,
+    "transparent_background": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "observations": [
+      "Citerne horizontale sanglée, caisses cerclées, garde-corps segmenté, tôles rivetées et extrémité de wagon arrondie repris des captures de 2006.",
+      "Sol métallique horizontal dégagé sur environ le cinquième inférieur ; aucun combattant, interface ou marque parasite visible.",
+      "La lumière brun-violet et le ciel nuageux suivent les captures retenues. Ce master ne matérialise pas le choix de nuit étoilée précédemment listé dans les calques du catalogue.",
+      "Le cadrage latéral, la place relative des cargaisons et les montagnes ont été recomposés ; ce n’est pas une reproduction géométrique certifiée du train."
+    ],
+    "remaining_checks": [
+      "Comparer les dimensions de la citerne, les fixations et le garde-corps à une capture de jeu rapprochée avant validation canonique.",
+      "Vérifier la hauteur du plancher et l’échelle des combattants dans l’arène."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGB",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2771367,
+    "sha256": "1b0d48862713aba94b49e9e3c08a0d3e45d25bd7cc49c77d7241f0ea59cfe672"
+  },
+  "has_image": true
+}

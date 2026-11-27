@@ -1,0 +1,190 @@
+{
+  "id": "skorge_skin_02",
+  "subject_id": "skorge_skin_02",
+  "costume_id": "skorge_skin_02",
+  "character_id": "skorge",
+  "name": "Skorge — modèle multijoueur Gears 5 Opération 5",
+  "category": "costume",
+  "source_game": "Gears 5",
+  "catalog_target_game": "Gears 5",
+  "variant": "Apparence multijoueur standard, Opération 5",
+  "variant_relation": "target_version_candidate",
+  "purpose": "reference_fullbody",
+  "pass_date": "2026-11-27",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "manual_validation_required",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "generation_attempted": true,
+  "generation_attempt_count_this_pass": 1,
+  "has_image": true,
+  "asset_path": "assets/costumes_v15/skorge_skin_02.png",
+  "original_output_path": "/workspace/scratch/f809e6610dc2/generated_images/exec-367323c3-9a3b-4cf9-ba65-9d166ac96efc.png",
+  "width": 1199,
+  "height": 1312,
+  "sha256": "fc89f308d9132afb01a085672e38cf898a8b513ab5d5be9f2dd5cb9781eb359c",
+  "byte_size": 1596893,
+  "animation": false,
+  "pose": "static_airborne_op5_pose",
+  "canonical_fidelity_validated": false,
+  "canonical_fidelity": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "edition_unverified": false,
+  "retry_authorization": {
+    "explicit": true,
+    "user_instruction": "meme promtp et en paralele reassayer ce qui on ete refuser",
+    "scope": "One new admissible built-in imagegen attempt for this target in V15; no loop after a renewed refusal.",
+    "date": "2026-11-27",
+    "prompt_unchanged_from_previous_attempt": true
+  },
+  "historical_refusal_retained": true,
+  "previous_generation_records": [
+    {
+      "path": "data/generation_v13/skorge_skin_02_record.json",
+      "sha256": "c70907197cecd0a6a27a666b00e0561d2589f0bd8a89924612705f3fa88c6bc2",
+      "status": "blocked_generator_refusal",
+      "refusal": {
+        "http_status": 400,
+        "code": "moderation_blocked",
+        "moderation_stage": "output",
+        "categories": [
+          "other"
+        ],
+        "request_id": "15212b00-a791-42b6-897e-5abfbeaa3a97",
+        "message": "Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 15212b00-a791-42b6-897e-5abfbeaa3a97."
+      }
+    }
+  ],
+  "prompt": "Use case: stylized-concept. Asset type: one high-detail static raster character reference for a 2D fighting game. Create exactly ONE Skorge in his standard Gears 5 Operation 5 multiplayer appearance. The FIRST attached image is the official Operation 5 launch lineup: Skorge is the tall creature on the LEFT, with both arms spread and one knee raised. Use only that character. The SECOND image is official Operation 5 launch artwork, supplementing the helmet and face details. Preserve the specific Gears 5 reference appearance and its recognizable proportions, armor segmentation, ornament, exposed grey-purple leathery abdomen, bronze-dark-metal and red-brown armor surfaces, narrow ribbed face, glowing warm small chest lights, ridged headpiece, trailing long red-brown head straps, spiked bracers, inscribed belt, layered hip plates and hanging leather panels, long armored shin and clawed forward foot. Keep essentially the SAME airborne pose and same three-quarter direction as the first image: both hands open, forward leg descending, rear leg folded behind the hips with natural self-occlusion. The pose is a single still reference, not an animation. Do not invent a rear view or turn it into a standing orthographic figure. Preserve the visible anatomy; do not add a new exposed rear foot where the reference hides it. Show the entire depicted silhouette uncropped, with all visible fingers, head straps, hip panels and forward toes inside the frame. Place the character in the central 72% of the canvas, with generous genuine transparent empty margins on every edge. Use readable neutral studio lighting while retaining the worn material and color relationships in the references. No other characters, no weapons, no floor, no scene, no smoke, no sparks, no text, no logos, no watermark, no collage, no sprite sheet. TRUE transparent alpha background. Exactly one isolated static character. Do not introduce Crimson Skorge, Trinity Skorge, Gears 4 or Gears 2 variant-specific changes.",
+  "reference_images": [
+    "/workspace/scratch/3c791759fb15/research_v13_enemies/skorge_op5_lineup.jpg",
+    "/workspace/scratch/3c791759fb15/research_v13_enemies/skorge_op5_keyart.jpg"
+  ],
+  "sources": [
+    {
+      "page_url": "https://news.xbox.com/en-us/2020/11/17/gears-5-operation-5/",
+      "image_url": "https://xboxwire.thesourcemediaassets.com/sites/2/2020/11/Gears5_Op5_LaunchLineUp.jpg",
+      "source_type": "official_publisher_launch_image",
+      "scope": "Image de lancement officielle : Skorge à gauche, silhouette dans une pose aérienne avec une jambe repliée et occultée ; tête, deux mains, jambe avant et pied visibles. Le dos et le pied arrière ne sont pas documentés.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v13_enemies/skorge_op5_lineup.jpg",
+      "reference_sha256": "d20224a7a27504ea899787e57f61a6653232d7622ffc8d08f384a5094716feee"
+    },
+    {
+      "page_url": "https://news.xbox.com/en-us/2020/11/17/gears-5-operation-5/",
+      "image_url": "https://xboxwire.thesourcemediaassets.com/sites/2/2020/11/Gears5_Op5_KeyArt_Logo_1920x1080-HERO.jpg",
+      "source_type": "official_publisher_launch_image",
+      "scope": "Illustration de lancement officielle complémentaire : casque, visage et cordons ; éclairage artistique doré, pas une vue orthographique.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v13_enemies/skorge_op5_keyart.jpg",
+      "reference_sha256": "535352a346928badbce05fe90842f2aadae0d84afee2cebaf4272605cf855027"
+    }
+  ],
+  "reference_limitations": [
+    "Une seule pose aérienne officielle ; jambe arrière occultée par le corps et les panneaux de hanche.",
+    "Éclairage artistique des sources, aucune vue orthographique ni certification de couleurs neutres.",
+    "Candidat statique : les détails du dos et les surfaces cachées ne sont pas établis."
+  ],
+  "qa": {
+    "native_source": "/workspace/scratch/f809e6610dc2/generated_images/exec-367323c3-9a3b-4cf9-ba65-9d166ac96efc.png",
+    "asset_absolute_path": "/workspace/scratch/3c791759fb15/gear-of-wars-combats/assets/costumes_v15/skorge_skin_02.png",
+    "bytes": 1596893,
+    "sha256": "fc89f308d9132afb01a085672e38cf898a8b513ab5d5be9f2dd5cb9781eb359c",
+    "git_blob_sha1": "6e52b8391b8cbfa1b82c1cd9543a274e5d95b365",
+    "dimensions": [
+      1199,
+      1312
+    ],
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "alpha_bboxes": {
+      "0": [
+        0,
+        15,
+        1183,
+        1312
+      ],
+      "1": [
+        38,
+        18,
+        1169,
+        1300
+      ],
+      "8": [
+        42,
+        22,
+        1166,
+        1298
+      ],
+      "32": [
+        42,
+        22,
+        1166,
+        1298
+      ],
+      "128": [
+        43,
+        23,
+        1166,
+        1297
+      ],
+      "250": [
+        44,
+        32,
+        1165,
+        1296
+      ]
+    },
+    "transparent_pixel_count": 1009985,
+    "alpha_1_pixel_count": 26526,
+    "partial_alpha_pixel_count": 562635,
+    "opaque_pixel_count": 468,
+    "visible_margins_percent_alpha_gt_8": {
+      "left": 3.5029190992493744,
+      "top": 1.6768292682926829,
+      "right": 2.7522935779816513,
+      "bottom": 1.0670731707317074
+    },
+    "native_bytes_unchanged": true,
+    "reference_visually_inspected": true,
+    "output_visually_inspected": true,
+    "visually_inspected": true,
+    "transparent_background": true,
+    "full_body_in_frame": true,
+    "visible_source_pose_complete": true,
+    "orthographic_profile": false,
+    "observations": [
+      "A single isolated Skorge in the official Operation 5 airborne pose; both open hands, forward foot and trailing helmet/hip straps are visible.",
+      "Grey-purple flesh, warm bronze/red-brown armour, bright small chest lights, segmented headpiece and characteristic narrow face follow the official source.",
+      "Rear leg remains folded and occluded as in the reference; this does not document the hidden rear anatomy.",
+      "Source logo, other characters and scenery removed. Native RGBA bytes retained unchanged."
+    ],
+    "caveats": [
+      "Margins are much smaller than prompted: useful alpha>8 margins approximately 3.50% left, 2.75% right, 1.68% top and 1.07% bottom.",
+      "Very low alpha=1 residue reaches canvas edges. Visible silhouette remains inside frame.",
+      "Warm promotional lighting limits verification of neutral material colour; small inscriptions, strap contours and fine details are approximations.",
+      "Generated static reference candidate; neither certified 1:1 nor production-ready."
+    ],
+    "remaining_checks": [
+      "Margins are much smaller than prompted: useful alpha>8 margins approximately 3.50% left, 2.75% right, 1.68% top and 1.07% bottom.",
+      "Very low alpha=1 residue reaches canvas edges. Visible silhouette remains inside frame.",
+      "Warm promotional lighting limits verification of neutral material colour; small inscriptions, strap contours and fine details are approximations.",
+      "Generated static reference candidate; neither certified 1:1 nor production-ready."
+    ]
+  },
+  "generation": {
+    "attempts_this_pass": 1,
+    "prompt_identical_to_historical_record": true,
+    "transparent_background_requested": true,
+    "native_output_preserved": true,
+    "result_store_key": "v15_skorge_skin_02_result"
+  },
+  "prompt_sha256": "0af794179b1258d54de37f88cc8fc86ee6c8232583a5b18f52a78f40ae9be7e2",
+  "historical_prompt_sha256": "0af794179b1258d54de37f88cc8fc86ee6c8232583a5b18f52a78f40ae9be7e2",
+  "prompt_identical_to_prior": true,
+  "prompt_change_reason": "Historical prompt reused byte-for-byte; no wording change."
+}

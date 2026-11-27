@@ -1,0 +1,101 @@
+{
+  "id": "locust_sniper",
+  "name": "Sniper locuste",
+  "source_game": "Gears Tactics",
+  "catalog_target_game": "Gears Tactics",
+  "variant": "Gears Tactics — Sniper Drone standard avec Longshot",
+  "prompt": "Create ONE isolated transparent PNG game-character sprite for the project Gear of wars combats. Subject: the standard Locust SNIPER DRONE from GEARS TACTICS (2020), matching the actual in-game close-up in the supplied primary developer reference image. Carefully preserve the head and upper-body design visible in that reference: bald large gray stone-textured reptilian humanoid head, deeply cracked/scaled gray skin, broad ugly compact jaw with small exposed teeth, visible orange circular optical goggle with dark rim and narrow dark strap, heavily muscular gray arms, bulky asymmetrical dark charcoal Locust armor with curved overlapping shoulder plates and prominent dark studs/ridges, dark torso harness and small muted amber-orange parts around the neck/chest exactly inspired by the reference. He carries the franchise's LONGSHOT bolt-action sniper rifle: substantial long dark worn steel rifle, chunky angular receiver and stock, long barrel with rectangular front assembly, mounted telescopic scope. Match the rifle visible in the reference, reconstruct its full readable silhouette. Keep its functional proportions; do not make it a generic modern sniper rifle.\nComposition: ONE single complete full-body character, crown to the very soles of both boots entirely visible. Fixed neutral combat-guard stance, feet firmly planted slightly apart, weight stable, three-quarter SIDE view facing RIGHT, both hands holding the Longshot at low-ready across the torso and pointing to the right, no muzzle flash. Use restrained dark layered Locust thigh armor, rugged knee plates and large armored boots that fit Gears Tactics; these lower portions are reconstruction because reference is upper-body only. Realistic game render aesthetic and worn matte materials, detailed surface texture, clear readable silhouette suitable for a fighting-game base sprite. The provided source is a facial/armor/weapon reference, not the crop or the final background.\nMANDATORY FRAMING: make the WHOLE FIGURE only 80% of canvas height, with at least 8% completely empty transparent margin above head, below feet and at both sides. Do not zoom or crop any part of head, armor, rifle, fingers or boots. Center character within canvas. Background must be fully transparent RGBA alpha=0 with only the character and held rifle opaque. No studio floor, no contact shadow, no black backdrop, no gray halo, no vignette, no fog, no effects, no text including source caption, no logos, no watermarks, no turntable, no poses sheet, no animation, no extra characters. This is a static reference-guided reconstruction, not a claim of canonical 1:1 validation.",
+  "source_urls": [
+    "https://jenherrondev.com/gears-tactics",
+    "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/"
+  ],
+  "reference_images": [
+    "https://images.squarespace-cdn.com/content/v1/6269c7fea7cf5201cbe765f1/8ba9eed3-b5d3-433c-8ee5-0b65670bacf5/img_sniperDrone.jpg"
+  ],
+  "sources": [
+    {
+      "page_url": "https://jenherrondev.com/gears-tactics",
+      "image_url": "https://images.squarespace-cdn.com/content/v1/6269c7fea7cf5201cbe765f1/8ba9eed3-b5d3-433c-8ee5-0b65670bacf5/img_sniperDrone.jpg",
+      "source_type": "game_developer_portfolio_gameplay_capture",
+      "scope": "Capture du Sniper Drone de Gears Tactics publiée par la designer Jen Herron. Gros plan tête, épaules et Longshot ; ne montre pas les jambes.",
+      "visual_reference_used": true
+    },
+    {
+      "page_url": "https://jenherrondev.com/gears-tactics",
+      "image_url": "https://images.squarespace-cdn.com/content/v1/6269c7fea7cf5201cbe765f1/7ee0ecec-8a9f-40ec-85a7-d99e3c83c7d5/img_sniper_01.jpg",
+      "source_type": "game_developer_design_slide",
+      "scope": "Diapositive de design inspectée ; petit personnage schématique recoloré. Non fournie au générateur parce qu'elle ne constitue pas un rendu final en pied fiable.",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/",
+      "source_type": "official_publisher_enemy_guide",
+      "scope": "Identification de la variante Sniper Drone avec Longshot ; source textuelle, aucun rendu isolé en pied fourni au générateur.",
+      "visual_reference_used": false
+    }
+  ],
+  "reference_scope": "Référence primaire gameplay exacte pour tête, épaules et arme. Bas du corps reconstitué faute de rendu en pied du modèle Tactics.",
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-97085b62-1422-41b7-8829-b530e1adeb5b.png",
+  "qa": {
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Un seul Sniper Drone en pied, trois quarts vers la droite, Longshot tenu à deux mains ; visage, arme, doigts et semelles visibles.",
+      "Optique orange, peau gris pierre craquelée, épaules sombres imbriquées et équipements du cou reprennent les grandes familles du gros plan primaire.",
+      "Les jambes, genouillères, bottes et une partie du fusil ont été reconstruites. Leur géométrie et la disposition exacte des raccords d'armure ne sont pas validées par la référence.",
+      "Fond RGBA transparent mesuré ; des pixels alpha très faible étendent le bbox jusqu'aux bords malgré une silhouette utile en retrait.",
+      "Mesures alpha réalisées sans transformation raster du PNG original ; pixels de très faible alpha possibles en marge. Les valeurs du champ output décrivent le fichier livré."
+    ],
+    "remaining_checks": [
+      "Comparer le modèle complet Tactics, spécialement jambes, bottes, ceinture et forme précise du Longshot.",
+      "Vérifier géométrie des optiques et tubes, proportions du visage et couleur de l'armure face au modèle final du jeu."
+    ]
+  },
+  "category": "character",
+  "purpose": "reference_fullbody",
+  "variant_relation": "target_version_candidate",
+  "subject_id": "locust_sniper",
+  "character_id": "locust_sniper",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "generation_method": "built-in image_gen",
+  "generation_status": "generated_review_pending",
+  "has_image": true,
+  "pass_date": "2026-11-25",
+  "asset_path": "assets/characters_v9/locust_sniper.png",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "animation": false,
+  "pose": "single static full-body three-quarter guard facing right",
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1199,
+    "height": 1312,
+    "bytes": 1192004,
+    "sha256": "f0f7e9bacc03077dc3da92ab2f06c07343d3e6294ad61ae2f3573b876249c618",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.7032136790821619,
+    "subject_bbox_alpha_ge_128": [
+      178,
+      119,
+      1111,
+      1226
+    ],
+    "subject_margins_ltrb_px": [
+      178,
+      119,
+      88,
+      86
+    ]
+  }
+}

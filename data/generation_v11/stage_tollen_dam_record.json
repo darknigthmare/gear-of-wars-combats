@@ -1,0 +1,69 @@
+{
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "variant_relation": "target_version_candidate",
+  "category": "stage",
+  "purpose": "stage_master",
+  "animation_status": "not_requested_this_pass",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "has_image": true,
+  "generation_attempted": true,
+  "qa": {
+    "visually_inspected": true,
+    "single_stage": true,
+    "transparent_background": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "observations": [
+      "La façade courbe du barrage, les visages monumentaux, l’arche d’accès, les cheminées, les bâtiments bas et les tuyaux à droite proviennent de la capture finale du niveau Dam.",
+      "Sol humide dégagé sur toute la largeur au premier plan; obstacles et marches restent en retrait. Aucun personnage, corps ou interface n’a été conservé.",
+      "Vue originellement profonde recomposée et éclaircie pour la lecture latérale. Espacement des têtes, des arches, des piles et des bâtiments non vérifié métriquement.",
+      "La représentation choisie est la cour d’entrée nocturne, et non la toiture, la salle des turbines ou la ruche voisine; les autres portions du barrage restent hors champ."
+    ],
+    "remaining_checks": [
+      "Comparer rapports de hauteur et nombre de travées à la cour d’entrée en jeu.",
+      "Valider contraste nocturne et échelle du sol avec les sprites des combattants."
+    ],
+    "alpha_channel_present": false,
+    "opaque": true
+  },
+  "id": "tollen_dam_gears4_entrance_master_v11",
+  "subject_id": "stage_tollen_dam",
+  "name": "Tollen Dam — cour d’entrée du barrage",
+  "source_game": "Gears of War 4",
+  "catalog_target_game": "Gears of War 4",
+  "variant": "Façade et accès du barrage de Tollen recomposés pour une bande de combat latérale",
+  "asset_path": "assets/stages_v11/tollen_dam_gears4_entrance_master.png",
+  "prompt": "Create ONE opaque widescreen 16:9 static environment master of TOLLEN DAM from Gears of War 4, using the attached actual final-game Dam Level screenshot by Aryan Hanbeck as the precise visual anchor. Show the abandoned entrance courtyard at night with the dam towering behind it: monumental curving concrete dam wall, three prominent austere blocky stone male heads on rectangular projecting buttresses in the upper left, other vertical arched recesses along the wall, cylindrical exhaust stacks high on the crest, central arched industrial entry gate, low dark brick service buildings on both sides, heavy riveted metal trim and thick utility pipes to the right. Preserve the blue moonlit humid atmosphere, weathered grey masonry, sparse ivy and small trees, cold sky and steep mountain rock visible behind the dam. Recompose this specific courtyard as one EMPTY near-frontal lateral fighting-game stage at standing camera height. A flat continuous cracked stone/asphalt combat promenade must span the entire lower 24 percent; keep steps, cover blocks, gates, plantings, pipes and rubble behind the playing lane. The heads are carved immobile architectural stone reliefs, not living figures. Do not add a waterfall, enormous new statue, generic futuristic barrier, or a sunlit vista absent from the reference. Architecture and materials should follow the supplied image closely; the courtyard width, lighting legibility and unseen lateral geometry are adapted for play. Restrained atmospheric fog, realistic detailed AAA-game surface texture, clear readable foreground. No people, enemies, Swarm creatures, bodies, weapons, ammo, vehicles crossing the lane, muzzle flashes, HUD, readable signs, captions, logos, watermark, borders, comparison panels or animation frames. One opaque full-canvas landscape scene, maximum native resolution.",
+  "sources": [
+    {
+      "page_url": "https://mediumrare.artstation.com/projects/YaoWw6",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/019/243/135/large/aryan-hanbeck-dam-new-2.jpg?1562655930",
+      "source_type": "primary_artist_final_game_environment",
+      "scope": "Aryan Hanbeck : vue finale de la cour d’entrée de Tollen Dam, façade du barrage et grands visages sculptés, bâtiments de service et canalisations.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/207fbd1207b7/research_stages_v11/tollen_final_2.jpg",
+      "reference_sha256": "1a019ccdd15fea4addff3cfab17a37fb0335909260c84432bffb96f385594870"
+    },
+    {
+      "page_url": "https://primagames.com/eguides/gears-of-war-4-eguide/campaign/act-4/chapter-4-powerless",
+      "source_type": "official_licensed_strategy_guide",
+      "scope": "Identification narrative et contexte du barrage dans le chapitre Powerless; aucune image de cette page n’a été passée à la génération.",
+      "visual_reference_used": false
+    }
+  ],
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-7bee6af4-4684-48f0-ae05-5623262e31db.png",
+  "output": {
+    "format": "PNG",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "bytes": 3070820,
+    "sha256": "968a28bca88f54fd531866d4da2ebec1598bef0dd791e634b36e2fb13829e24f"
+  }
+}

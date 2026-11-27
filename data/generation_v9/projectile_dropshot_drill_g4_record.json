@@ -1,0 +1,76 @@
+{
+  "category": "projectile",
+  "source_game": "Gears of War 4",
+  "catalog_target_game": "Gears of War 4",
+  "purpose": "projectile_static",
+  "variant_relation": "text_reconstruction_candidate",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "correction_required",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "id": "projectile_dropshot_drill_g4",
+  "subject_id": "projectile_dropshot_drill_g4",
+  "projectile_id": "projectile_dropshot_drill_g4",
+  "name": "Dropshot — projectile foreuse",
+  "source_weapon": "Dropshot",
+  "weapon_id": "dropshot",
+  "variant": "Gears of War 4 — projectile isolé, pose fixe",
+  "asset_path": "assets/projectiles_v9/dropshot_drill_gow4.png",
+  "prompt": "Create a single high-detail 2D game sprite of the flying drill projectile from the Dropshot in Gears of War 4. Reproduce the appearance of the original game's projectile, the compact industrial metal drill object seen above the arena before it drops downward, with its worn dark steel housing, chunky blunt rear mechanism and unmistakable conical spiral drill point. Exactly one whole item, vertical orientation with drill tip pointing down, three-quarter side view readable for a side-view game. Faithful Gears 4 colors and proportions, no redesign, no launcher. Hand-painted realistic UHD game art, small subtle highlights on edges, crisp clean silhouette. Fully transparent PNG background with 10% empty margins around the entire object. One static pose only. No motion trails, no particles, no scene, no person, no labels or text.",
+  "sources": [
+    {
+      "page_url": "https://primagames.com/eguides/gears-of-war-4-eguide/multiplayer/multiplayer-arsenal/explosive-weapons",
+      "source_type": "official_licensed_guide_text",
+      "scope": "Confirme le projectile transporté au-dessus de la scène puis lâché verticalement."
+    },
+    {
+      "page_url": "https://www.gallerynucleus.com/detail/21616/",
+      "source_type": "official_art_exhibition_listing",
+      "scope": "Existence et attribution du concept Dropshot consultées. L'image liée n'a pas pu être téléchargée; aucun rendu visuel source fourni au générateur."
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_object": true,
+    "complete_object_in_frame": true,
+    "transparent_background": true,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Un seul projectile à pointe hélicoïdale orientée vers le bas, sans lanceur, trajectoire ni animation.",
+      "L'aspect est une reconstruction candidate. Le logo crâne et le carter rouge présents dans la sortie sont non confirmés par les sources accessibles; comparaison au projectile de jeu obligatoire.",
+      "À corriger avant validation du modèle : reconstruction sans vue rapprochée du projectile ; carter rouge et grand logo crâne non confirmés visuellement."
+    ],
+    "remaining_checks": [
+      "Comparer la silhouette, les proportions et les micro-détails au modèle exact de l'édition cible avant validation 1:1."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1199,
+    "height": 1312,
+    "bytes": 1200935,
+    "sha256": "f9a205e5abf901a168ae45a4592f47afd6dc11f66f8576a28bc1407494e0da4d",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.6569193840395452,
+    "subject_bbox_alpha_ge_128": [
+      251,
+      30,
+      910,
+      1279
+    ],
+    "subject_margins_ltrb_px": [
+      251,
+      30,
+      289,
+      33
+    ]
+  },
+  "has_image": true,
+  "production_ready": false
+}

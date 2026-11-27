@@ -1,0 +1,72 @@
+{
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "variant_relation": "target_version_candidate",
+  "category": "stage",
+  "purpose": "stage_master",
+  "animation_status": "not_requested_this_pass",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "has_image": true,
+  "generation_attempted": true,
+  "qa": {
+    "visually_inspected": true,
+    "single_stage": true,
+    "transparent_background": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "observations": [
+      "Terminal de pierre claire aux ornements géométriques dorés, grand emblème ailé, toiture trouée, kiosques arrondis et portiques de contrôle repris des vues finales Gears 5.",
+      "Bande de sol pavée continue, opaque et vide au premier plan; aucun personnage ni interface visible.",
+      "Les deux angles source sont fusionnés en une façade latérale. Le positionnement des portiques, la largeur du terminal et le sol sont recomposés; aucune exactitude de plan de carte n’est certifiée.",
+      "Les inscriptions de signalétique et logos ont été retirés; la quantité de sable et les ombres diffèrent de la capture originale."
+    ],
+    "remaining_checks": [
+      "Comparer la disposition du terminal au parcours multijoueur Vasgar.",
+      "Contrôler l’échelle des portiques et la hauteur de sol avec les combattants avant intégration."
+    ],
+    "alpha_channel_present": false,
+    "opaque": true
+  },
+  "id": "vasgar_airport_gears5_terminal_master_v11",
+  "subject_id": "stage_vasgar_airport",
+  "name": "Aéroport de Vasgar — terminal et contrôle de sécurité",
+  "source_game": "Gears 5",
+  "catalog_target_game": "Gears 5",
+  "variant": "Terminal de la carte Vasgar, composition latérale issue de deux vues de production finales",
+  "asset_path": "assets/stages_v11/vasgar_airport_gears5_terminal_master.png",
+  "prompt": "Create ONE opaque widescreen 16:9 static environment master for a lateral 2D fighting game, specifically the abandoned Vasgar airport from Gears 5. The two attached images are final-game environment references by William Taylor-Parker, not generic mood boards. Preserve their visible architectural vocabulary very closely: ruined vaulted terminal with ornate gold-bronze geometric lattice, aged pale grey stone, curved dark metal kiosk shapes, shattered patterned roof with open sky, deep red desert sand accumulated behind the playing lane. Use the low side-facing composition of reference 2 as the main visual anchor; include the recognisable elevated winged airport emblem, arched terminal openings and restrained gold bands. Reference 1 establishes the security checkpoint details. Recompose just this airport terminal portion into an EMPTY readable SIDE-VIEW fighting stage, camera nearly level with the fighters, wide and frontal rather than bird's-eye. Reserve the bottom 24 percent for one continuous flat stone-and-metal combat promenade, unobstructed from far left to far right; sand and rubble stay behind that plane, no stairs or slope across the lane. Architectural scale should plausibly fit two human fighters about a quarter of image height. Rich realistic AAA game materials, late warm daylight through damaged roof, dusty atmospheric depth, sharply readable foreground. All key visual construction should be grounded in the references; unseen geometry necessarily adapted for this stage. This is a candidate reinterpretation, not a map-accurate claim. No characters, no enemies, no bodies, no projectiles, no motion, no UI, no health bars, no logo strip, no watermarks, no captions, no readable text signs, no collage or inset panels. Exactly one complete environment image, opaque full canvas, native maximum landscape resolution.",
+  "sources": [
+    {
+      "page_url": "https://willtparker.com/projects/d8QvdK",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/030/531/893/large/william-taylor-parker-mp-vasgar-1.jpg?1600881263",
+      "source_type": "primary_artist_final_game_environment",
+      "scope": "William Taylor-Parker : vue plongeante finale de la zone de contrôle, portiques de sécurité, kiosques et matériaux du terminal de Vasgar.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/207fbd1207b7/research_stages_v11/vasgar_0.jpg",
+      "reference_sha256": "5b4a0b535e87c18b83ea1e60ff1a52f7d3cc89f4e3da12780f50b79f80a72c91"
+    },
+    {
+      "page_url": "https://willtparker.com/projects/d8QvdK",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/030/531/943/large/william-taylor-parker-mp-vasgar-4.jpg?1600881321",
+      "source_type": "primary_artist_final_game_environment",
+      "scope": "William Taylor-Parker : terminal ruiné, mosaïques dorées, emblème ailé, plafond éventré et sable rouge; vue principale pour le cadrage.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/207fbd1207b7/research_stages_v11/vasgar_3.jpg",
+      "reference_sha256": "4e3460540bb030be87d4a31858af64cdf84c566763eb3d51a9a56b84620af1a7"
+    }
+  ],
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-ab63ae33-3695-451b-b26e-e7df307fc484.png",
+  "output": {
+    "format": "PNG",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "bytes": 3168262,
+    "sha256": "e5c3bfc05740ca554587fab0c09a9bff503584b2deaf72efe665629b47212bab"
+  }
+}

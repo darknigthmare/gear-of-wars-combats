@@ -1,0 +1,74 @@
+{
+  "id": "cole_skin_01",
+  "subject_id": "cole_skin_01",
+  "character_id": "cole",
+  "costume_id": "cole_skin_01",
+  "name": "Augustus Cole — Kilo Squad Judgment",
+  "category": "costume",
+  "pass_date": "2026-11-25",
+  "source_game": "Gears of War: Judgment (2013) — Xbox 360",
+  "catalog_target_game": "Gears of War: Judgment (2013)",
+  "variant": "Jeune Cole — modèle original Judgment",
+  "variant_relation": "target_version_requested",
+  "purpose": "reference_fullbody",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "status": "blocked_generator_refusal",
+  "generation_status": "blocked_generator_refusal",
+  "has_image": false,
+  "asset_path": null,
+  "quality_state": "blocked",
+  "prompt": "Use case: stylized-concept.\nAsset: ONE static transparent full-body costume reference for Augustus Cole — Kilo Squad Judgment, costume id cole_skin_01.\nTarget edition: original Gears of War: Judgment (2013), young athletic Cole, not the Gears 5 Kilo Squad recreation. Reference 1 is the original Judgment character-selection screen published by its UI artist Rick Nath for People Can Fly / Epic; the standing figure on the RIGHT is Cole. Reference 2 is a full-body promotional Cole Judgment render published in March 2013, used for the larger silhouette and boots. Ignore every menu, thumbnail, title, flag and background.\nOutput exactly ONE full character. Preserve young Cole's short close-cut black hair, clean-shaven broad face, medium-dark skin, tall heavily muscular but athletic proportions. Match the original Judgment costume: sleeveless blue-gray steel cuirass with two large dark circular breast discs encircled by metal rings, narrow vertical center panel, small blue-white luminous blocks along the shoulder straps, thick ribbed waist undersuit, wide utility belt with large octagonal/circular center buckle, asymmetric strapped upper-arm guards, layered brown-gray forearm guards with metal patches, dark padded fingerless gloves, pale gray paneled trousers with dark thigh panels and holster/straps, rounded knee plates flowing into tall armored blue-gray shin guards and broad reinforced boots. Keep the relatively new uniform and visible material blocks of the reference. No cap, no gray beard, no Gears 3 or Gears 5 chest emblem replacement.\nPose: still neutral standing front three-quarter facing screen RIGHT, nose and toes toward right; both hands empty and relaxed down at sides. No rifle, no action, no animation.\nComposition: one whole figure from hair to boot soles; scale to 75% image height and leave 10% empty transparent margin around all sides. Do not crop feet or hair.\nRealistic original-game character proportions and materials, neutral readable studio light, actual transparent alpha. No environment, floor plane, smoke, halo, gradient, shadow cloud, watermark, UI or added text.",
+  "sources": [
+    {
+      "page_url": "https://www.behance.net/gallery/12788173/Gears-of-War-Judgment",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/e2109512788173.5e59381303df1.jpg",
+      "source_type": "first_party_ui_artist_original_game_capture",
+      "scope": "Écran de sélection Augustus Cole (Judgment), modèle entier, publié par Rick Nath, concepteur UI pour PCF/Epic. Portfolio publié décembre 2013 ; édition Xbox 360 explicite.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/207fbd1207b7/research_gears/v11_costumes/cole_judgment_ui.jpg",
+      "reference_sha256": "6b334c134d42024f1b796d5c8b32870d61b810c9e05fd62d11f1cbc2f49882a4"
+    },
+    {
+      "page_url": "https://betoarce.blogspot.com/2013/03/gears-of-war-judgement-kilo-squad.html",
+      "image_url": "https://1.bp.blogspot.com/-yCLd6HqUgM8/UUixiF9wPII/AAAAAAAAdWM/xOuP6-1taLE/s1600/gears_judgement_CTrain_WP.jpg",
+      "source_type": "secondary_original_promotional_render_rehosted",
+      "scope": "Rendu promotionnel Cole Judgment entier, publication mars 2013 antérieure à Gears 5 ; silhouette conforme à la capture primaire du menu original.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/207fbd1207b7/research_gears/v11_costumes/cole_judgment_wp.jpg",
+      "reference_sha256": "0f2312ab48f170f0777cb421687d37f657791943dbf34af3d87e5e623cc30cf6"
+    }
+  ],
+  "qa": {
+    "reference_visually_inspected": true,
+    "output_visually_inspected": false,
+    "observations": [
+      "Deux références téléchargées et inspectées, tenue originale Judgment entière identifiée.",
+      "Générateur refusé à la sortie ; aucun PNG, aucun réessai ni reformulation."
+    ]
+  },
+  "refusal": {
+    "code": "moderation_blocked",
+    "stage": "output",
+    "categories": [
+      "other"
+    ],
+    "request_id": "e3485ac6-77d9-496c-9075-483da705ee4b",
+    "message": "Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID e3485ac6-77d9-496c-9075-483da705ee4b.",
+    "attempts": 1,
+    "retried": false
+  },
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "pose": "static_front_three_quarter_facing_right",
+  "source_urls": [
+    "https://www.behance.net/gallery/12788173/Gears-of-War-Judgment",
+    "https://betoarce.blogspot.com/2013/03/gears-of-war-judgement-kilo-squad.html"
+  ],
+  "reference_images": [
+    "/workspace/scratch/207fbd1207b7/research_gears/v11_costumes/cole_judgment_ui.jpg",
+    "/workspace/scratch/207fbd1207b7/research_gears/v11_costumes/cole_judgment_wp.jpg"
+  ]
+}

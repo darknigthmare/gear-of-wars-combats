@@ -1,0 +1,110 @@
+{
+  "id": "gabe_skin_02",
+  "subject_id": "gabe_skin_02",
+  "character_id": "gabe",
+  "costume_id": "gabe_skin_02",
+  "name": "Gabe — Armored Gabe Gears 5",
+  "category": "costume",
+  "source_game": "Gears 5 — multijoueur Operation 5",
+  "catalog_target_game": "Gears 5 — multijoueur Operation 5",
+  "variant": "Armored Gabe Diaz, variante officielle disponible en novembre 2020",
+  "variant_relation": "target_version_requested",
+  "purpose": "reference_fullbody",
+  "pass_date": "2026-11-27",
+  "status": "reference_research_pending",
+  "generation_status": "reference_research_pending",
+  "quality_state": "reference_research_pending",
+  "generation_attempted": false,
+  "generation_attempt_count": 0,
+  "has_image": false,
+  "asset_path": null,
+  "original_output_path": null,
+  "prompt": null,
+  "output": null,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "sources": [
+    {
+      "page_url": "https://www.gearsofwar.com/en-us/news/gabe-diaz-in-gears-5/",
+      "source_type": "first_party_publisher_announcement",
+      "scope": "Annonce officielle du 12 octobre 2020 nommant Armored Gabe Diaz Skin pour Gears 5. Image inspectée : portrait jusqu’aux cuisses ; jambes, genoux et bottes non visibles.",
+      "visual_reference_used": false,
+      "accessed_date": "2026-11-27",
+      "image_url": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/10/GearsTactics_LaunchCele_Gabe_F2-5f8439943cc11-69cb11a657aca.jpg",
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v13_hivebusters/gabe_g5_promo.jpg",
+      "reference_sha256": "0172a52c5954a8233cca2d63a85a38e695bf59c686c061c2b9f10c179f80e634",
+      "visually_inspected": true
+    },
+    {
+      "page_url": "https://news.xbox.com/en-us/2020/11/17/gears-5-operation-5/",
+      "source_type": "first_party_publisher_announcement",
+      "scope": "Confirmation officielle de disponibilité Operation 5 ; image 1920 × 1080 inspectée, même cadrage promotionnel partiel et pas de vue en pied.",
+      "visual_reference_used": false,
+      "accessed_date": "2026-11-27",
+      "image_url": "https://xboxwire.thesourcemediaassets.com/sites/2/2020/11/GearsTactics_LaunchCele_Gabe.jpg",
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v13_hivebusters/gabe_operation5_promo.jpg",
+      "reference_sha256": "8a5edcbc52673567e0404ebbf60237ca0524d412193c7f3b231a404baecc47e8",
+      "visually_inspected": true
+    },
+    {
+      "page_url": "https://www.youtube.com/watch?v=jBcbiPle1zg",
+      "source_type": "secondary_gameplay_thumbnail",
+      "scope": "Vignette secondaire SASxSH4DOWZ du 19 novembre 2020, Armored Gabe en jeu. Vignette seule inspectée, vidéo non accessible dans cette passe ; buste uniquement, ne complète pas les jambes.",
+      "visual_reference_used": false,
+      "accessed_date": "2026-11-27",
+      "source_author": "SASxSH4DOWZ",
+      "image_url": "https://i.ytimg.com/vi/jBcbiPle1zg/maxresdefault.jpg",
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v13_hivebusters/gabe_g5_gameplay_thumbnail.jpg",
+      "reference_sha256": "248267654a404550c14efbf3a1810a01ef60daf5deb60514b4aa5dc009f93a7c",
+      "visually_inspected": true
+    },
+    {
+      "page_url": "https://www.gearsofwar.com/en-nz/news/dev-blog-characters/",
+      "source_type": "first_party_publisher_announcement",
+      "scope": "Source initiale du catalogue et rendu en pied consacrés à Gears Tactics. Ne prouve pas à elle seule les détails du modèle multijoueur Gears 5 ; pas utilisée comme substitution d’édition.",
+      "visual_reference_used": false,
+      "accessed_date": "2026-11-27"
+    },
+    {
+      "page_url": "https://store.steampowered.com/news/posts/?appids=1097840&enddate=1613412384&feed=steam_community_announcements",
+      "source_type": "first_party_publisher_patch_notes",
+      "scope": "Annonce officielle This Week in Gears du 1er février 2021 : Title Update 12.0.1 améliore le modèle et les textures de Gabe ; les références promotionnelles de lancement ne suffisent donc pas à valider la révision ultérieure. Aucun nouveau visuel complet inspecté dans cet article.",
+      "visual_reference_used": false,
+      "accessed_date": "2026-11-27"
+    }
+  ],
+  "notes": [
+    "Aucun prompt envoyé ni PNG généré : une génération actuelle obligerait à supposer les détails de l’édition visée.",
+    "Recherche de plusieurs portfolios de production et de captures exactes ; sources Tactics, sculpt Hivebuster Gabe et autres tenues non substitués."
+  ],
+  "qa": {
+    "visually_inspected": false,
+    "output_visually_inspected": false,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Nom exact Armored Gabe et présence en Gears 5 établis par sources primaires.",
+      "Les trois images Gears 5 inspectées cadrent le haut du corps ; bas des jambes et bottes de cette édition non vérifiés.",
+      "La galerie communautaire susceptible de contenir des captures supplémentaires a renvoyé HTTP 402, sans contenu exploitable.",
+      "Une note officielle du 1er février 2021 annonce une amélioration du modèle et des textures de Gabe (TU 12.0.1) ; la révision visuelle doit être contrôlée."
+    ],
+    "remaining_checks": [
+      "Obtenir une capture ou un rendu final complet Armored Gabe Gears 5, idéalement face/profil/dos.",
+      "Contrôler la révision du visage avant d’employer les images de lancement de novembre 2020.",
+      "Comparer au costume Gears Tactics existant sans supposer que le modèle est identique."
+    ],
+    "reference_visually_inspected": true
+  },
+  "blocking_reason": "reference_gap_full_body_exact_edition",
+  "source_urls": [
+    "https://www.gearsofwar.com/en-us/news/gabe-diaz-in-gears-5/",
+    "https://news.xbox.com/en-us/2020/11/17/gears-5-operation-5/",
+    "https://www.youtube.com/watch?v=jBcbiPle1zg",
+    "https://www.gearsofwar.com/en-nz/news/dev-blog-characters/",
+    "https://store.steampowered.com/news/posts/?appids=1097840&enddate=1613412384&feed=steam_community_announcements"
+  ],
+  "reference_images": []
+}

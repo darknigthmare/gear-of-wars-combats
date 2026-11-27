@@ -1,0 +1,235 @@
+{
+  "schema_version": "1.0",
+  "version": "v14",
+  "updated_at": "2026-11-27",
+  "title": "Gears of War Combats — identités et créatures complémentaires V14",
+  "scope": "Ajouts explicitement sourcés, précision de Reyna humaine G4 et alias documenté Lahni intro. Le catalogue seul ne prouve aucune image produite.",
+  "baseline": {
+    "characters": 56,
+    "costumes": 85,
+    "bosses": 31,
+    "stages": 34,
+    "projectiles": 8
+  },
+  "identity_rules": [
+    "Un PNG natif par sujet ; aucune animation.",
+    "Les cibles sont attachées à un opus et un modèle précis.",
+    "Reyna humaine G4 exige une variante de gameplay distincte de la Reine de l’Essaim.",
+    "Lahni intro partage le fichier Brash Brigade final par alias explicite ; le fichier n’est pas dupliqué.",
+    "Les refus antérieurs restent conservés sans relance."
+  ],
+  "characters": [
+    {
+      "priority": "P1",
+      "catalog_origin": "production_v14",
+      "catalog_scope": "production_extension",
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Référence statique en production ; aucun comportement moteur ni animation livré.",
+      "id": "mina_jinn_g4",
+      "name": "Mina Jinn — Gears of War 4",
+      "character_name": "Mina Jinn",
+      "source_game": "Gears of War 4",
+      "base_costume": "Tenue officielle CGU — modèle final 2016",
+      "faction": "CGU",
+      "source_urls": [
+        "https://www.zbrushcentral.com/t/gears-of-war-4-art-dump/206321"
+      ],
+      "source_scope": "Modèle final Jin_wide1 par Daniel Bohrer, Dan Roarty et Michelle Zhang ; vues avant et arrière en pied inspectées.",
+      "notes": [
+        "Personnage narratif supplémentaire du catalogue, absent du roster initial.",
+        "Robe bleu nuit, col/panneau clair, lunettes et chaussures noires. Mains vides ; aucune arme inventée.",
+        "Une représentation en dialogue ne constitue pas un personnage jouable ajouté au prototype."
+      ]
+    }
+  ],
+  "costumes": [
+    {
+      "priority": "P1",
+      "catalog_origin": "production_v14",
+      "catalog_scope": "production_extension",
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Référence statique en production ; aucun comportement moteur ni animation livré.",
+      "id": "reyna_skin_02",
+      "name": "Reyna Diaz humaine — Outsider Gears of War 4",
+      "costume_name": "Reyna humaine — Outsider Gears of War 4",
+      "character_id": "reyna",
+      "parent_id": "reyna",
+      "character_name": "Reyna Diaz humaine",
+      "source_game": "Gears of War 4",
+      "source_urls": [
+        "https://www.zbrushcentral.com/t/gears-of-war-4-art-dump/206321",
+        "https://heber.artstation.com/projects/LxX6v"
+      ],
+      "requires_distinct_gameplay_variant": true,
+      "notes": [
+        "Résolution explicite V14 de l’ancien intitulé ambigu « version humaine future » : version humaine Outsider Gears of War 4.",
+        "Le parent reyna conserve son identité technique historique ; cette apparence ne reçoit pas automatiquement le kit de la Reine de l’Essaim.",
+        "Référence finale complète de Heber Alvarado et Michelle Zhang. Tatouage bras gauche et natte épaule droite à préserver.",
+        "Aucun mélange avec Reyna Tactics, Queen Reyna Gears 5 ou une forme future inventée.",
+        "Le lien hérité vers le bundle Operation 6 Gears 5 ne documente pas cette tenue humaine ; les sources courantes sont remplacées par les modèles Gears 4. Le lien historique reste dans les catalogues antérieurs inchangés."
+      ],
+      "source_url": "https://www.zbrushcentral.com/t/gears-of-war-4-art-dump/206321",
+      "gameplay": "Variante humaine distincte à concevoir ; aucun héritage automatique du kit de la Reine de l’Essaim.",
+      "status": "Référence humaine Gears of War 4 produite, fidélité visuelle à valider."
+    },
+    {
+      "priority": "P1",
+      "catalog_origin": "production_v14",
+      "catalog_scope": "production_extension",
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Référence statique en production ; aucun comportement moteur ni animation livré.",
+      "id": "lahni_skin_01",
+      "name": "Lahni Kaliso — Brash Brigade, tenue finale du début de Hivebusters",
+      "costume_name": "Lahni Kaliso — Brash Brigade, tenue finale du début de Hivebusters",
+      "character_id": "lahni",
+      "parent_id": "lahni",
+      "character_name": "Lahni Kaliso",
+      "source_game": "Gears 5: Hivebusters",
+      "source_urls": [
+        "https://mediumrare.artstation.com/projects/oAdmNw",
+        "https://tylerthebradley.artstation.com/projects/ykrQgn"
+      ],
+      "notes": [
+        "Tenue finale en armure du début du DLC. Ne couvre pas toutes les tenues de campagne ni Escape.",
+        "Le modèle final en manches courtes noires prévaut sur le concept aux hauts de bras nus.",
+        "Relation de catalogue issue d’une comparaison des sources primaires ; fidélité de l’image toujours à contrôler."
+      ],
+      "source_url": "https://mediumrare.artstation.com/projects/oAdmNw"
+    },
+    {
+      "priority": "P1",
+      "catalog_origin": "production_v14",
+      "catalog_scope": "production_extension",
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Référence statique en production ; aucun comportement moteur ni animation livré.",
+      "id": "lahni_hivebusters_intro",
+      "name": "Lahni Kaliso — introduction Hivebusters (alias Brash Brigade)",
+      "costume_name": "Lahni Kaliso — introduction Hivebusters (alias Brash Brigade)",
+      "character_id": "lahni",
+      "parent_id": "lahni",
+      "character_name": "Lahni Kaliso",
+      "source_game": "Gears 5: Hivebusters",
+      "source_urls": [
+        "https://mediumrare.artstation.com/projects/oAdmNw",
+        "https://tylerthebradley.artstation.com/projects/ykrQgn"
+      ],
+      "notes": [
+        "Tenue finale en armure du début du DLC. Ne couvre pas toutes les tenues de campagne ni Escape.",
+        "Le modèle final en manches courtes noires prévaut sur le concept aux hauts de bras nus.",
+        "Relation de catalogue issue d’une comparaison des sources primaires ; fidélité de l’image toujours à contrôler."
+      ],
+      "source_url": "https://mediumrare.artstation.com/projects/oAdmNw"
+    },
+    {
+      "id": "anya_skin_01",
+      "name": "Anya Stroud — Contrôle Gears of War 2",
+      "costume_name": "Uniforme de Contrôle — Gears of War 2",
+      "character_id": "anya",
+      "parent_id": "anya",
+      "character_name": "Anya Stroud",
+      "source_game": "Gears of War 2",
+      "catalog_origin": "production_v14",
+      "catalog_scope": "production_extension",
+      "canonical_fidelity_validated": false,
+      "source_urls": [
+        "https://www.gamespot.com/articles/then-and-now-gears-of-war-2/1100-6202581/",
+        "https://www.gamespot.com/articles/then-and-now-gears-of-war-2/1100-6202581/",
+        "https://www.engadget.com/2008-09-04-pax-08-lead-gow2-artist-and-writer-talk-lancer-polys-deaths-an.html"
+      ],
+      "notes": [
+        "Le choix de Gears of War 2 était déjà explicite dans le journal V13 ; le nom courant est aligné pour retirer le regroupement ambigu Gears 1 et 2.",
+        "Aucune nouvelle image complète : les jambes, chaussures et proportions restent à documenter sur le modèle final Gears 2."
+      ],
+      "source_url": "https://www.gamespot.com/articles/then-and-now-gears-of-war-2/1100-6202581/"
+    }
+  ],
+  "bosses": [
+    {
+      "priority": "P1",
+      "catalog_origin": "production_v14",
+      "catalog_scope": "production_extension",
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Référence statique en production ; aucun comportement moteur ni animation livré.",
+      "id": "creature_leech_g5",
+      "name": "Leech individuel — Gears 5",
+      "source_game": "Gears 5",
+      "faction": "Essaim",
+      "encounter_role": "small_enemy",
+      "source_urls": [
+        "https://bmelo.net/projects/2xzmJB",
+        "https://www.artstation.com/artwork/2xzmJB"
+      ],
+      "notes": [
+        "Individu distinct de la formation collective boss_flock.",
+        "Classé avec les créatures et machines pour la production ; ce classement ne le transforme pas en boss géant.",
+        "Modèle de Bruno Melo, maillage de jeu et textures de Can Etişkol ; silhouette complète et couleurs à comparer."
+      ]
+    },
+    {
+      "id": "creature_wretch_eday",
+      "name": "Wretch — Gears of War: E-Day",
+      "source_game": "Gears of War: E-Day",
+      "category": "boss",
+      "encounter_role": "small_enemy",
+      "priority": "P2",
+      "catalog_origin": "production_v14",
+      "catalog_scope": "production_extension",
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Référence statique candidate ; aucun comportement moteur ni animation livré.",
+      "source_urls": [
+        "https://antoineverneycarron.artstation.com/projects/KR3KG4",
+        "https://www.artstation.com/artwork/KR3KG4"
+      ],
+      "notes": [
+        "Version E-Day distincte de toutes les autres éditions du Wretch ; aucun nom officiel de variante supplémentaire inventé.",
+        "Créature ordinaire classée avec les rencontres pour l’inventaire ; aucune transformation en boss géant.",
+        "Modèle final texturé complet et gros plan par Antoine Verney-Carron / Mighty Canvas."
+      ]
+    },
+    {
+      "id": "creature_ticker_eday",
+      "name": "Ticker organique — Gears of War: E-Day",
+      "source_game": "Gears of War: E-Day",
+      "category": "boss",
+      "encounter_role": "small_enemy",
+      "priority": "P2",
+      "catalog_origin": "production_v14",
+      "catalog_scope": "production_extension",
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Référence statique candidate ; aucun comportement moteur ni animation livré.",
+      "source_urls": [
+        "https://antoineverneycarron.artstation.com/projects/KR3KG4",
+        "https://www.artstation.com/artwork/KR3KG4"
+      ],
+      "notes": [
+        "Un seul Ticker organique ; la partie supérieure de la planche représente un Reaver et n’est pas reproduite.",
+        "Version E-Day, distincte du modèle Tactics. Aucun harnais ni explosif ajouté sans preuve."
+      ]
+    }
+  ],
+  "stages": [],
+  "projectiles": [
+    {
+      "priority": "P1",
+      "catalog_origin": "production_v14",
+      "catalog_scope": "production_extension",
+      "canonical_fidelity_validated": false,
+      "implementation_status": "Référence statique en production ; aucun comportement moteur ni animation livré.",
+      "id": "projectile_canker_g4",
+      "name": "Canker / Carrier Minion — Gears of War 4",
+      "source_game": "Gears of War 4",
+      "weapon_id": "carrier_canker",
+      "source_weapon": "Carrier — projectile organique Canker",
+      "parent_encounter_id": "boss_carrier",
+      "source_urls": [
+        "https://www.zbrushcentral.com/t/gears-of-war-4-art-dump/206321",
+        "https://primagames.com/eguides/gears-of-war-4-eguide/enemy-forces/swarm"
+      ],
+      "notes": [
+        "Modèle final Carrier Minion de Daniel Bohrer ; dénomination Canker étayée par le guide officiel Prima.",
+        "Un seul projectile complet par PNG ; aucune explosion, traînée ou animation produite par cette image.",
+        "Le Canker du Carrier et une future variante du Hive Beast ne sont pas automatiquement interchangeables."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": "locust_disciple",
+  "name": "Disciple locuste",
+  "source_game": "Gears Tactics",
+  "catalog_target_game": "Gears Tactics",
+  "variant": "Gears Tactics — Disciple standard tête nue, harnais à Imulsion",
+  "prompt": "Use case: reference-guided character reconstruction for Gear of wars combats. Generate ONE static full-body Locust DISCIPLE from GEARS TACTICS, standard bare-headed version, as a realistic textured game character with transparent background. The attached photos depict the officially licensed Gears Tactics Disciple figure published by Gears: use their design as visual guidance, convert the physical toy appearance to coherent game character materials. Reference image 1 is authoritative for the bare head, chest armor, neck and arm hoses and yellow imulsion veins; reference image 2 provides lower-body armor geometry only. Ignore the optional Cyclops helmet in image 2 and ignore all other characters, scenery and alternate accessories in the photos.\nExact design cues: a very broad, hunched and massively muscular Locust Drone, bald rocky gray-brown head with dense raised scales on top, deeply furrowed brow and blunt face, small shadowed eyes, toothy grim mouth. Bare gray-brown scaly upper arms with fine sickly yellow imulsion veins. Thick burgundy/maroon and gunmetal circular torso harness wrapping his chest and shoulders, large cylindrical black-metal collar behind head, two yellow vertical tubes by neck, a rectangular angular chest centerpiece with small raised diamond/cross insignia, visible circular hose sockets on lower chest. Thick black ribbed tubes loop from back harness around shoulder and plug into upper arms, as in photos. Worn reddish metal wrist bracers with dark gloves. Bulky belt with brown pouches and dark metal buckle, layered burgundy thigh and knee plates, heavy strapped segmented burgundy shin armor and broad dark armored boots. Preserve this body and harness shape rather than standard Drone shoulder pads.\nWeapon: carry ONE compact GEARS HAMMERBURST assault rifle in both hands at low ready across waist, pointing right: chunky dark metal/red-brown receiver, angular top rail, deep stock and broad barrel shroud, restrained red mechanical details. No muzzle flash. No other weapons, no grenade props. The pistol and Boomshot displayed in product photos are not the chosen weapon.\nPose: fixed calm combat-ready stance, stable planted feet, knees mildly bent, three-quarter SIDE view facing screen RIGHT, full entire body visible. Head and torso turned right. One image, one character, one static base pose.\nMANDATORY margins: place whole figure and held rifle inside the central 80% of the canvas; leave at least 8% empty transparent space on every side, especially above head and under soles. Never crop tips, boots or gun. Detailed hand-painted realistic game-render materials and crisp readable silhouette; no glossy toy plastic, no toy hinge seams or display stand.\nTransparent RGBA PNG, alpha=0 everywhere outside silhouette. No background color, no gray halo, no contact shadow, no floor, no smoke, no vignette, no effects, no text, no logos, no watermark, no sheet, no alternate pose, no animation, no extra subject. This is a reconstruction guided by licensed-figure references with unresolved game-model differences, not a certified 1:1 game asset.",
+  "source_urls": [
+    "https://www.gearsofwar.com/en-us/news/2020-gearsmas-holiday-gift-guide/",
+    "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/",
+    "https://pav3d.artstation.com/projects/RYAQJE",
+    "https://news.xbox.com/en-us/2020/02/21/gears-of-war-unveils-new-action-figures-at-new-york-toy-fair/"
+  ],
+  "reference_images": [
+    "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/12/Disciple_5-5fc7ee6d77dac-69cb1a6e59c07.jpg",
+    "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/12/Disciple_3-5fc7ee8a26afa-69cb1ac7326e4.jpg"
+  ],
+  "sources": [
+    {
+      "page_url": "https://www.gearsofwar.com/en-us/news/2020-gearsmas-holiday-gift-guide/",
+      "image_url": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/12/Disciple_5-5fc7ee6d77dac-69cb1a6e59c07.jpg",
+      "source_type": "official_publisher_licensed_figure_photograph",
+      "scope": "Photo officielle de la figurine Disciple Tactics : tête nue, torse, harnais et raccords aux bras. Référence sous licence, pas capture exacte du mesh du jeu.",
+      "visual_reference_used": true
+    },
+    {
+      "page_url": "https://www.gearsofwar.com/en-us/news/2020-gearsmas-holiday-gift-guide/",
+      "image_url": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/12/Disciple_3-5fc7ee8a26afa-69cb1ac7326e4.jpg",
+      "source_type": "official_publisher_licensed_figure_photograph",
+      "scope": "Photo de profil en pied de la même figurine : plaques de jambes, bottes, tuyaux. Casque Cyclops optionnel expressément exclu du personnage généré.",
+      "visual_reference_used": true
+    },
+    {
+      "page_url": "https://www.gearsofwar.com/en-us/news/2020-gearsmas-holiday-gift-guide/",
+      "image_url": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/12/Disciple_2-5fc7ee9909a31-69cb1aca09e30.jpg",
+      "source_type": "official_publisher_licensed_figure_photograph",
+      "scope": "Autre photo inspectée pour comprendre les volumes ; plusieurs personnages et pose dynamique, non fournie au générateur.",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/",
+      "source_type": "official_publisher_enemy_guide",
+      "scope": "Identifie le Disciple de Tactics comme Drone modifié à l'Imulsion. Le rendu en pied de cette page représente le Zealot, donc n'est pas employé comme référence Disciple.",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://pav3d.artstation.com/projects/RYAQJE",
+      "source_type": "original_character_artist_portfolio",
+      "scope": "Portfolio Paul Widelski confirmant la production du Super Drone/Disciple pour Tactics ; texte consulté, images non exposées utilisables par le récupérateur, aucune image de cette page fournie au générateur.",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://news.xbox.com/en-us/2020/02/21/gears-of-war-unveils-new-action-figures-at-new-york-toy-fair/",
+      "source_type": "official_publisher_merchandise_announcement",
+      "scope": "Annonce officielle confirmant le lien entre figurine et Tactics et les accessoires optionnels ; consultation textuelle.",
+      "visual_reference_used": false
+    }
+  ],
+  "reference_scope": "Reconstruction depuis photos de figurine officielle Tactics. Les différences de fabrication figurine/modèle final restent non résolues ; aucune validation 1:1.",
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-691cfd16-1ab4-4f8c-86fe-73bdd2ef1b81.png",
+  "qa": {
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Un seul Disciple tête nue en pied, stance fixe trois quarts vers la droite, avec harnais bordeaux circulaire, tubes jaunes du cou et tuyaux allant aux bras.",
+      "Bas du corps, veines jaunes et volumes du harnais reprennent la figurine officielle. Casque optionnel exclu conformément à la cible standard.",
+      "Le Hammerburst porté est une reconstruction et sa géométrie exacte n'est pas démontrée par les deux photos choisies. Pas de certification des proportions ni des détails transférés d'une figurine au mesh Tactics.",
+      "Les alpha extérieurs sont majoritairement nuls. Un coin contient alpha=1 et quelques pixels de très faible alpha s'étendent jusqu'aux bords ; aucun détourage raster n'a été appliqué.",
+      "Mesures alpha réalisées sans transformation raster du PNG original ; pixels de très faible alpha possibles en marge. Les valeurs du champ output décrivent le fichier livré."
+    ],
+    "remaining_checks": [
+      "Comparer à une capture complète ou au rendu texturé exact du Disciple Tactics avant validation de la silhouette, de l'armure et des tuyaux.",
+      "Vérifier le Hammerburst, les différences figurine/modèle de production, la tête et la disposition exacte des pièces du harnais."
+    ]
+  },
+  "category": "character",
+  "purpose": "reference_fullbody",
+  "variant_relation": "licensed_figure_reference_candidate",
+  "subject_id": "locust_disciple",
+  "character_id": "locust_disciple",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "generation_method": "built-in image_gen",
+  "generation_status": "generated_review_pending",
+  "has_image": true,
+  "pass_date": "2026-11-25",
+  "asset_path": "assets/characters_v9/locust_disciple.png",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "animation": false,
+  "pose": "single static full-body three-quarter guard facing right",
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1199,
+    "height": 1312,
+    "bytes": 1470156,
+    "sha256": "976b3e9a5252773cb1439b0054768071c89b18f510180369c7889c2e84c8aa79",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.6378339927581929,
+    "subject_bbox_alpha_ge_128": [
+      203,
+      45,
+      1023,
+      1267
+    ],
+    "subject_margins_ltrb_px": [
+      203,
+      45,
+      176,
+      45
+    ]
+  }
+}

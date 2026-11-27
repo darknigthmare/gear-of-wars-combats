@@ -1,0 +1,106 @@
+{
+  "id": "clayton_skin_02",
+  "subject_id": "clayton_skin_02",
+  "costume_id": "clayton_skin_02",
+  "character_id": "clayton",
+  "name": "Clayton Carmine — modèle multijoueur Gears 5 Operation 3",
+  "category": "costume",
+  "source_game": "Gears 5 — Operation 3 (2020)",
+  "catalog_target_game": "Gears 5",
+  "requested_variant": "Vétéran Gears 5 (libellé interne du roster)",
+  "variant": "Modèle multijoueur Gears 5 Operation 3 montré par Xbox Wire le 31 mars 2020",
+  "variant_relation": "edition_unverified",
+  "variant_note": "« Vétéran Gears 5 » est un libellé interne dont la correspondance avec le costume officiel n'est pas établie. Ce candidat documente uniquement le modèle multijoueur Opération 3 de la référence officielle ; aucune revendication de tenue campagne ni de skin officiel nommé Vétéran.",
+  "purpose": "reference_fullbody",
+  "status": "generated_reference_pending_validation",
+  "generation_status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "pass_date": "2026-11-27",
+  "generation_attempted": true,
+  "has_image": true,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "pose": "static_side_three_quarter_facing_right",
+  "asset_path": "assets/costumes_v12/clayton_gears5_operation3.png",
+  "original_output_path": "/workspace/scratch/3c791759fb15/generated_images/exec-5c971027-e425-4ee0-98ee-9d68e6cf9ee3.png",
+  "prompt": "Create one static full-body character reference candidate for CLAYTON CARMINE, using ONLY the attached official Xbox Wire screenshot from the Gears 5 Operation 3 update as the authority for his visible design. This is the exact multiplayer model shown there, not a claim about a separately named 'Veteran' skin and not a campaign costume claim. Isolate Clayton, the single helmeted muscular adult soldier in the left center of the reference. Keep the same recognizable full outfit, helmet, exposed tattooed arms, chest proportions, worn blue-gray circular chest plates, small existing armor markings, bulky brown-gray trousers with reinforced sections, knee protection, tall armored shin guards, scuffed heavy boots, gloves, and equipment arrangement. He stands in a calm grounded ready pose with his body and helmet turned toward screen RIGHT in a three-quarter side view. Keep the same large heavy weapon held across his body in both hands, pointing right in a lowered non-firing ready position; faithfully follow its visible shape and placement. No muzzle flash, no sparks, no glowing floating shield pieces, no ability aura, no fire or smoke. Avoid inventing extra armor, an exposed face, new tattoos or slogans, alternative helmets, sleeved uniforms, Hivebuster gear, or costume elements from other skins. Render the silhouette complete from helmet top to both boot soles and the complete weapon with generous clear margins on every side. Exactly one character, one pose, no grid, no duplicates. Realistic detailed materials consistent with the official game screenshot, using clear neutral studio lighting so the costume is legible. Actual transparent alpha background. No environment, floor, external cast shadow, text labels, logo, watermark, UI, decorative frame or animation. Preserve visible source details, while treating hidden regions and small inscriptions as unverified details for later manual review.",
+  "sources": [
+    {
+      "page_url": "https://news.xbox.com/en-us/2020/03/31/gears-5-operation-3-gridiron-available-today-for-all-players/",
+      "image_url": "https://xboxwire.thesourcemediaassets.com/sites/2/2020/03/Op3_Clayton_Screenshot.jpg",
+      "source_type": "official_game_promotional_screenshot",
+      "scope": "Capture officielle du modèle multijoueur Clayton Carmine pour Gears 5 Operation 3, silhouette complète avec arme lourde. Les effets de bouclier masquent certains détails. Ne prouve ni un nom de skin « Vétéran » ni une variante de campagne.",
+      "visual_reference_used": true,
+      "visually_inspected": true,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/clayton_gears5_xboxwire_op3.jpg",
+      "reference_sha256": "8865f84cd311e1e735787a46ff9782f4bd49ccba0074fa77c5a85564aa87996f"
+    }
+  ],
+  "source_urls": [
+    "https://news.xbox.com/en-us/2020/03/31/gears-5-operation-3-gridiron-available-today-for-all-players/"
+  ],
+  "reference_images": [
+    "/workspace/scratch/3c791759fb15/research_v12/clayton_gears5_xboxwire_op3.jpg"
+  ],
+  "qa": {
+    "reference_visually_inspected": true,
+    "output_visually_inspected": true,
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "orientation_facing_right": true,
+    "orientation_note": "Trois-quarts vers la droite ; casque et canon orientés vers la droite.",
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Un seul personnage entier, casque, bras nus, protections et bottes dans le cadre ; arme tenue sans tir.",
+      "Copie native sans réencodage ; alpha réel mesuré.",
+      "Les effets de bouclier et le décor de la capture n'ont pas été repris.",
+      "Les petits slogans, tatouages, gravures et détails de l'arme restent une interprétation générée, pas une copie certifiée.",
+      "Marges verticales étroites (18 px en haut et 16 px en bas à alpha >=128), sans coupe du personnage.",
+      "Franges de couleur fines sur quelques contours : inspection sur fond contrasté requise avant production.",
+      "Correspondance avec le libellé interne « Vétéran Gears 5 » non prouvée : edition_unverified conservé."
+    ],
+    "remaining_checks": [
+      "Valider la correspondance de la tenue demandée « Vétéran » avec ce modèle Opération 3 avant de considérer le slot couvert dans la bonne variante.",
+      "Contrôler tatouages, inscriptions et asymétries sur des captures rapprochées de cette édition.",
+      "Contrôler composants de l'arme et parties masquées par le bouclier dans la source.",
+      "Contrôler bords alpha et marges, puis seulement préparer une future passe de production.",
+      "Aucune animation, collision ni intégration moteur produite."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1151,
+    "height": 1367,
+    "bytes": 1471507,
+    "sha256": "3b503debd5a6e2a159b87edd37fbad42dcb860fc9dfc4359cd7696e45c6ac8e0",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.6504397753424553,
+    "subject_bbox_alpha_ge_128": [
+      187,
+      18,
+      1060,
+      1351
+    ],
+    "subject_margins_ltrb_px": [
+      187,
+      18,
+      91,
+      16
+    ],
+    "native_copy_verified": true
+  },
+  "prompt_sha256": "f487705266638d80619d2c1013371ccba33f60f187b8791f2b7e308760318bc2",
+  "generation_attempt_count": 1
+}

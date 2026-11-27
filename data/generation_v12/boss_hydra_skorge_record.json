@@ -1,0 +1,49 @@
+{
+  "id": "boss_hydra_skorge",
+  "subject_id": "boss_hydra_skorge",
+  "name": "Hydra de Skorge",
+  "category": "boss",
+  "source_game": "Gears of War 2",
+  "requested_variant": "Gears of War 2 — référence finale complète à documenter",
+  "purpose": "reference_research",
+  "status": "reference_research_pending",
+  "pass_date": "2026-11-27",
+  "generation_attempted": false,
+  "has_image": false,
+  "asset_path": null,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation_status": "not_requested_this_pass",
+  "sources": [
+    {
+      "page_url": "https://hawkprey.artstation.com/projects/Zex3m",
+      "source_type": "production_artist_concept",
+      "scope": "Concept GOW Uber Reaver par James Hawkins. Une origine de design, sans preuve suffisante des détails finaux de la monture Gears 2.",
+      "visual_reference_used": false,
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/000/537/945/large/james-hawkins-locust-uberreaver.jpg?1443926973",
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/uber_reaver_concept.jpg",
+      "reference_sha256": "a43ba69bffb1cb29677fd614ac15fbbb55d5dc9e6197efb6bac62fe4e71ae7d9",
+      "visually_inspected": true
+    },
+    {
+      "page_url": "https://de45xmedrsdbp.cloudfront.net/Resources/files/GDC09_Smedberg_RenderingTechniques-1415210295.pdf",
+      "source_type": "first_party_technical_presentation",
+      "scope": "Rendering Techniques in Gears of War 2, Niklas Smedberg et Daniel Wright, Epic Games, GDC 2009, page 12 (index 11). Planche de modèle éclaté endommagé Uber Reaver. Crédit modèle Kevin Lanning ; texture Chris Perna et Mike Buck. Pas de vue intacte complète ni cavalier Skorge.",
+      "visual_reference_used": false,
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/gdc09_rendering_gears2.pdf",
+      "reference_sha256": "059c6990220f1764206aa1ff21aaabe4a70c625b1b3cc3d31aec1aa167250fd6",
+      "visually_inspected": true
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "observations": [
+      "La présentation Epic relie un modèle réel à Gears 2 ; la planche montre principalement des états endommagés et morceaux séparés.",
+      "Le concept du premier Gears et le modèle éclaté de Gears 2 ne sont pas fusionnés en un faux modèle final intégral. Aucun PNG de l’Hydra ni du duo avec Skorge produit."
+    ],
+    "remaining_checks": [
+      "Trouver le modèle intact Gears 2, ses armements, appendices et l’emplacement de Skorge ; contrôler échelle et attaches."
+    ]
+  }
+}

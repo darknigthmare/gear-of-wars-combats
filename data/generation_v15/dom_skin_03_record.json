@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "id": "dom_skin_03",
+  "subject_id": "dom_skin_03",
+  "character_id": "dom",
+  "costume_id": "dom_skin_03",
+  "name": "Dominic Santiago — Campagne Gears of War 2",
+  "category": "costume",
+  "pass_date": "2026-11-27",
+  "source_game": "Gears of War 2 (2008) — Xbox 360",
+  "catalog_target_game": "Gears of War 2 (2008)",
+  "variant": "Tenue de campagne C.O.G. Armor",
+  "variant_relation": "target_version_requested",
+  "purpose": "costume_reference_fullbody",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "status": "blocked_generator_refusal",
+  "generation_status": "blocked_generator_refusal",
+  "quality_state": "blocked",
+  "generation_attempted": true,
+  "generation_attempt_count": 1,
+  "total_documented_attempts_for_target": 2,
+  "has_image": false,
+  "asset_path": null,
+  "prompt": "Use case: stylized-concept.\nAsset: ONE static transparent full-body costume reference for Dominic Santiago — Campaign Gears of War 2, costume id dom_skin_03.\nTarget edition: Gears of War 2, original Xbox 360 (2008), ordinary campaign C.O.G. armor. The reference image is a front/back preview of the extracted Gears of War 2 model (Models Resource asset 296746), so copy its version-specific silhouette and outfit rather than a later remake. These are two views of the SAME man; output exactly ONE full-body figure. His face has short cropped dark hair and a short dark goatee, not the long beard of Gears 3.\nMatch the game model: bulky scuffed dark blue-gray COG armor with circular breast structures and the narrow central plate, high layered collar, blue circular shoulder light, chest-mounted long vertical holster/strap on his right chest, short cloth sleeves above the exposed muscular forearms, massive dark plated bracers, fingerless tactical gloves, broad heavy belt and pouch-covered skirt-like hip panels, dusty gray camouflage cargo trousers, dark broad ribbed knee/shin armor with rounded upper panels, thick worn gray-brown armored boots. Match the heavy stocky proportions. The reference is low resolution: keep small seam work, scratches and glyphs restrained instead of inventing large new insignia. No Gears 3 sleeveless cuirass, no long beard, no Judgment or Gears 5 variant.\nPose: neutral motionless full-body standing, front three-quarter facing screen RIGHT; nose and toes pointing right, both relaxed empty hands visible at his sides. No weapon in hand, no action, no animation. Use one complete subject.\nComposition: whole figure including hair and boot soles, scaled down to 75% of image height; leave at least 10% transparent margin above, below and beside all body parts.\nRealistic game character materials, faithful original outfit proportions, soft readable studio lighting, genuine transparent alpha background. No environment, floor plane, colored backdrop, smoke, halo, shadow cloud, labels, UI, watermark or added text.",
+  "prompt_sha256": "df3eee55be0936cafb88868bf70e2f20a58fb7487ea9c7a745fa794877cbd3a5",
+  "source_urls": [
+    "https://models.spriters-resource.com/xbox_360/gearsofwar2/asset/296746/"
+  ],
+  "sources": [
+    {
+      "page_url": "https://models.spriters-resource.com/xbox_360/gearsofwar2/asset/296746/",
+      "image_url": "https://models.spriters-resource.com/media/preview_icons/294/296746.png?updated=1755499447",
+      "source_type": "secondary_original_extracted_game_model_preview",
+      "scope": "Vue avant/arrière du modèle original Gears of War 2 Xbox 360, Dominic Santiago C.O.G. Armor, partagé par Ecelon. Identification d'édition explicite, aperçu faible résolution, corps entier.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/f809e6610dc2/references_v15/dom_g2_preview.png",
+      "reference_sha256": "d3501e0804be0a49e020017be885e6689672e0c3817d7253e9a387b38cf4528d",
+      "visually_inspected": true,
+      "accessed_date": "2026-11-27"
+    }
+  ],
+  "reference_images": [
+    "/workspace/scratch/f809e6610dc2/references_v15/dom_g2_preview.png"
+  ],
+  "new_attempt_authorization": {
+    "user_request": "meme promtp et en paralele reassayer ce qui on ete refuser",
+    "source": "Nouvelle instruction utilisateur transmise par root pour la passe V15.",
+    "previous_no_retry_preference_explicitly_superseded": true,
+    "scope": "Une seule nouvelle tentative de ce sujet dans la passe V15 ; arrêt si nouveau refus.",
+    "prompt_identical_to_previous": true,
+    "previous_prompt_sha256": "df3eee55be0936cafb88868bf70e2f20a58fb7487ea9c7a745fa794877cbd3a5",
+    "character_name_preserved": true,
+    "no_moderation_bypass_or_alternate_engine": true
+  },
+  "previous_attempt": {
+    "record_path": "data/generation_v11/dom_skin_03_record.json",
+    "record_sha256": "cc398b0f2feb44242ddd4c9d36cfe10b6c0fe3263269a8bbb9fb36fc39bb6811",
+    "baseline_commit": "4eedf19b7d50a66b2b209a1d76445d6078dd7403",
+    "status": "blocked_generator_refusal",
+    "refusal": {
+      "code": "moderation_blocked",
+      "stage": "output",
+      "categories": [
+        "other"
+      ],
+      "request_id": "8d623d35-99f5-40f1-9079-0f65434b7f62",
+      "message": "Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 8d623d35-99f5-40f1-9079-0f65434b7f62.",
+      "attempts": 1,
+      "retried": false
+    },
+    "preserved_without_modification": true
+  },
+  "qa": {
+    "reference_visually_inspected": true,
+    "output_visually_inspected": false,
+    "observations": [
+      "Un seul nouvel appel effectué en V15, après demande utilisateur explicite de réessayer.",
+      "Prompt complet repris à l'identique ; noms des personnages, costumes et éditions conservés.",
+      "Références d'entrée inspectées avant l'appel. Les références Dom/Cole disparues ont été téléchargées à nouveau avec les mêmes empreintes.",
+      "Nouveau refus au stade sortie : aucun PNG ni image_url reçu ; aucun réessai supplémentaire, autre moteur ou reformulation.",
+      "Le refus et le journal de la génération précédente restent intacts ; la présente provenance est distincte."
+    ],
+    "remaining_checks": [
+      "L'aperçu secondaire du modèle Gears 2 montre l'avant et l'arrière entiers, mais à faible résolution ; microdétails et visage insuffisants pour certification 1:1."
+    ]
+  },
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "pose": "static_front_three_quarter_facing_right",
+  "output": null,
+  "refusal": {
+    "http_status": 400,
+    "code": "moderation_blocked",
+    "stage": "output",
+    "categories": [
+      "other"
+    ],
+    "request_id": "719c7a4b-d2ae-4bd7-bae1-2a4501d0dd37",
+    "message": "Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 719c7a4b-d2ae-4bd7-bae1-2a4501d0dd37.",
+    "attempts_in_v15": 1,
+    "retries_after_current_refusal": 0,
+    "retried_after_current_refusal": false,
+    "raw_error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 719c7a4b-d2ae-4bd7-bae1-2a4501d0dd37.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+  },
+  "is_active_reference": false
+}

@@ -1,0 +1,842 @@
+{
+  "date": "2026-11-25",
+  "status": "passed",
+  "scope": "PNG statiques, inventaire, galerie ; aucune animation ajoutée",
+  "generated_pngs": 20,
+  "generated_by_category": {
+    "character": 2,
+    "costume": 4,
+    "boss": 5,
+    "projectile": 1,
+    "stage": 8
+  },
+  "blocked_generation_attempts": 3,
+  "reference_research_without_generation": 2,
+  "asset_decoding": "passed",
+  "alpha_for_non_stages": "passed",
+  "stages_opaque": "passed",
+  "opaque_silhouettes_not_clipped": "passed",
+  "native_png_bytes_preserved": "passed",
+  "sha256_and_native_dimensions": "recorded",
+  "inventory_tests": {
+    "passed": 13,
+    "failed": 0,
+    "command": "python -m unittest discover -s tests -p 'test_inventory_v*.py' -v"
+  },
+  "consolidation_warnings": [],
+  "coverage_totals": {
+    "roster_characters": 36,
+    "characters_with_reference": 36,
+    "characters_missing": 0,
+    "production_character_entries": 20,
+    "production_characters_with_reference": 15,
+    "character_catalog_entries": 56,
+    "catalog_characters_with_reference": 51,
+    "catalog_characters_missing": 5,
+    "character_png_files": 60,
+    "costume_catalog_entries": 85,
+    "costumes_with_reference": 42,
+    "costumes_without_explicit_reference": 43,
+    "costume_png_files": 7,
+    "reused_character_pngs_for_costumes": 35,
+    "boss_catalog_entries": 31,
+    "bosses_with_reference": 18,
+    "boss_png_files": 18,
+    "stage_catalog_entries": 34,
+    "stages_with_reference": 20,
+    "stage_png_files": 21,
+    "projectile_catalog_entries": 8,
+    "projectiles_with_reference": 4,
+    "projectiles_missing": 4,
+    "projectile_png_files": 4,
+    "additional_reference_groups": 1,
+    "active_png_files": 110,
+    "unique_active_png_sha256": 110,
+    "archived_png_files": 12,
+    "canonical_fidelity_validated": 0,
+    "completed_animation_sets": 0
+  },
+  "visual_fidelity_certified": false,
+  "production_ready": false,
+  "correction_required": [],
+  "non_target_version_candidates": [
+    "projectile_smoke_grenade_g4"
+  ],
+  "gallery_browser_check": {
+    "status": "not_verified",
+    "reason": "Blocage constaté pendant V9 : binaire Chromium absent et téléchargement officiel de Chrome Headless Shell indisponible (HTTP 403). Aucun nouvel essai ni screenshot navigateur dans V10."
+  },
+  "generated": [
+    {
+      "subject_id": "aaron_griffin",
+      "category": "character",
+      "path": "assets/characters_v10/aaron_griffin.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1862306,
+      "sha256": "9a34d43ae96014273ddf8e652c0b278829cc974cf62ad6c53215cb2d4d752805",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_fraction": 0.6782976786295573,
+      "subject_bbox_alpha_ge_128": [
+        222,
+        113,
+        816,
+        1469
+      ],
+      "subject_margins_ltrb_px": [
+        222,
+        113,
+        208,
+        67
+      ],
+      "edge_band_width_px": 8,
+      "edge_alpha_max": 0,
+      "has_real_alpha": true,
+      "native_copy_verified": true
+    },
+    {
+      "subject_id": "baird_skin_01",
+      "category": "costume",
+      "path": "assets/costumes_v10/baird_skin_01.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1856867,
+      "sha256": "5bfd492b35f9a35a3f0f9291a165e1e13ef14d4bc37b14063e3c47c393ec2b75",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_fraction": 0.7209434509277344,
+      "subject_bbox_alpha_ge_128": [
+        246,
+        128,
+        771,
+        1420
+      ],
+      "subject_margins_ltrb_px": [
+        246,
+        128,
+        253,
+        116
+      ],
+      "edge_band_width_px": 8,
+      "edge_alpha_max": 0,
+      "has_real_alpha": true,
+      "native_copy_verified": true
+    },
+    {
+      "subject_id": "baird_skin_04",
+      "category": "costume",
+      "path": "assets/costumes_v10/baird_skin_04.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1621439,
+      "sha256": "751fe1057d9358c1d88c582ccf2afc032bbcc70759eba87a0d6f01f7091921a1",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_fraction": 0.6832091013590494,
+      "subject_bbox_alpha_ge_128": [
+        227,
+        102,
+        778,
+        1489
+      ],
+      "subject_margins_ltrb_px": [
+        227,
+        102,
+        246,
+        47
+      ],
+      "edge_band_width_px": 8,
+      "edge_alpha_max": 1,
+      "has_real_alpha": true,
+      "native_copy_verified": true
+    },
+    {
+      "subject_id": "boss_carrier",
+      "category": "boss",
+      "path": "assets/bosses_v10/carrier_gears4_fullbody.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2655566,
+      "sha256": "90512252a22bd23eeee636856126525b5ae02a15e817ba9a9a7eaf591658b12c",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_fraction": 0.4714775085449219,
+      "subject_bbox_alpha_ge_128": [
+        90,
+        69,
+        1456,
+        982
+      ],
+      "subject_margins_ltrb_px": [
+        90,
+        69,
+        80,
+        42
+      ]
+    },
+    {
+      "subject_id": "boss_centaur",
+      "category": "boss",
+      "path": "assets/bosses_v10/centaur_gears2_fullbody.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1827785,
+      "sha256": "32c1cecf2ca1831765d1aed732899640a2d3215b806b5f55f8f175abf82414d2",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_fraction": 0.6572093963623047,
+      "subject_bbox_alpha_ge_128": [
+        226,
+        64,
+        1286,
+        926
+      ],
+      "subject_margins_ltrb_px": [
+        226,
+        64,
+        250,
+        98
+      ]
+    },
+    {
+      "subject_id": "boss_reaver",
+      "category": "boss",
+      "path": "assets/bosses_v10/reaver_gears2_mount_only_fullbody.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1753,
+      "height": 897,
+      "bytes": 1286367,
+      "sha256": "d7588143fc13a4397e9be4843131a25686fe9f768b80ecb6c3363e0ea18ac6e9",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_fraction": 0.7067870908988,
+      "subject_bbox_alpha_ge_128": [
+        59,
+        164,
+        1692,
+        751
+      ],
+      "subject_margins_ltrb_px": [
+        59,
+        164,
+        61,
+        146
+      ]
+    },
+    {
+      "subject_id": "boss_snatcher",
+      "category": "boss",
+      "path": "assets/bosses_v10/snatcher_gears4_fullbody.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1672,
+      "height": 941,
+      "bytes": 962419,
+      "sha256": "904679f8a7fb4bc2d3838a55aaa75226dc665843e09a3dc0dd6b96cfeaf6134b",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_fraction": 0.7940200285759321,
+      "subject_bbox_alpha_ge_128": [
+        193,
+        73,
+        1363,
+        894
+      ],
+      "subject_margins_ltrb_px": [
+        193,
+        73,
+        309,
+        47
+      ]
+    },
+    {
+      "subject_id": "boss_swarmak",
+      "category": "boss",
+      "path": "assets/bosses_v10/swarmak_gears4_fullbody.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 1753245,
+      "sha256": "7c42c32cd49f3275fb427355b6baf1282b89133223823666460677e59f379bce",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_fraction": 0.597873614969018,
+      "subject_bbox_alpha_ge_128": [
+        192,
+        39,
+        1252,
+        1050
+      ],
+      "subject_margins_ltrb_px": [
+        192,
+        39,
+        196,
+        36
+      ]
+    },
+    {
+      "subject_id": "myrrah_black_steel_g5",
+      "category": "costume",
+      "path": "assets/costumes_v10/myrrah_black_steel_gears5_fullbody.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1760740,
+      "sha256": "cd43b6fc2df235d5d47770dce1212f7f6b399a933f29af4ea768ccfa3f2434f2",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_fraction": 0.7295557657877604,
+      "subject_bbox_alpha_ge_128": [
+        242,
+        38,
+        770,
+        1484
+      ],
+      "subject_margins_ltrb_px": [
+        242,
+        38,
+        254,
+        52
+      ]
+    },
+    {
+      "subject_id": "oscar_diaz",
+      "category": "character",
+      "path": "assets/characters_v10/oscar_diaz.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1223247,
+      "sha256": "0dcea53d6ef8d8d39a7d12b8b1fa2036f77059bf92e4a4abfd6a7dfc47ee32da",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_fraction": 0.6654609647650153,
+      "subject_bbox_alpha_ge_128": [
+        244,
+        45,
+        844,
+        1425
+      ],
+      "subject_margins_ltrb_px": [
+        244,
+        45,
+        242,
+        23
+      ],
+      "edge_band_width_px": 8,
+      "edge_alpha_max": 1,
+      "has_real_alpha": true,
+      "native_copy_verified": true
+    },
+    {
+      "subject_id": "projectile_smoke_grenade_g4",
+      "category": "projectile",
+      "path": "assets/projectiles_v10/smoke_grenade_gow4_concept_c.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1080332,
+      "sha256": "44f31b4de4ca05ebb0193ef38edb038778cfc749e9bbac652e2fb2e591611d28",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_fraction": 0.700499450566222,
+      "subject_bbox_alpha_ge_128": [
+        81,
+        178,
+        2091,
+        599
+      ],
+      "subject_margins_ltrb_px": [
+        81,
+        178,
+        81,
+        125
+      ]
+    },
+    {
+      "subject_id": "sam_vday_g5",
+      "category": "costume",
+      "path": "assets/costumes_v10/sam_vday_gears5_fullbody.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2047476,
+      "sha256": "4c36ed3da9df69e4a2ef6131e4dd37be1c41fed9cd72ba6a63b341249a5851e6",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_fraction": 0.6624368031819662,
+      "subject_bbox_alpha_ge_128": [
+        188,
+        19,
+        823,
+        1520
+      ],
+      "subject_margins_ltrb_px": [
+        188,
+        19,
+        201,
+        16
+      ]
+    },
+    {
+      "subject_id": "stage_azura_tower",
+      "category": "stage",
+      "path": "assets/stages_v10/azura_tower_gears3_terrace_master.png",
+      "format": "PNG",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 3673195,
+      "sha256": "1cb67c0e1d6bcf1e2cccfdd3f9dafc3b949d78d764cb2f838f04d94a53844970"
+    },
+    {
+      "subject_id": "stage_hollow_lake",
+      "category": "stage",
+      "path": "assets/stages_v10/hollow_lake_gears2_boat_master.png",
+      "format": "PNG",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 2617707,
+      "sha256": "d0c105fd3caa9dd404e15e2531408c3f10979030930d475beceadf49c464108e"
+    },
+    {
+      "subject_id": "stage_jacinto",
+      "category": "stage",
+      "path": "assets/stages_v10/jacinto_gears2_collapse_master.png",
+      "format": "PNG",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 2778291,
+      "sha256": "0e92959dcf4623e39b706198e2f0d4b9d2f4a05eed7ef888cbe448d0dab25c98"
+    },
+    {
+      "subject_id": "stage_new_hope",
+      "category": "stage",
+      "path": "assets/stages_v10/new_hope_gears5_corridor_master.png",
+      "format": "PNG",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 2617384,
+      "sha256": "97ad89f2f84fcd212262c3248e0070832bc2d584ad7b25f9cce7e613a3b83fa8"
+    },
+    {
+      "subject_id": "stage_ritual_g5",
+      "category": "stage",
+      "path": "assets/stages_v10/ritual_gears5_courtyard_master.png",
+      "format": "PNG",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 3074298,
+      "sha256": "26655df657daf1720314068f4d82491edd92164c21e6f50a523d495627220134"
+    },
+    {
+      "subject_id": "stage_sovereign_deck",
+      "category": "stage",
+      "path": "assets/stages_v10/sovereign_deck_gears3_master.png",
+      "format": "PNG",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 3076124,
+      "sha256": "49d7c80ac132b7eab1f3dcac72d45c4327e52f96a8cc7f113dcd703566dc2ab1"
+    },
+    {
+      "subject_id": "stage_stromson",
+      "category": "stage",
+      "path": "assets/stages_v10/stromson_forest_gears2_master.png",
+      "format": "PNG",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 3305379,
+      "sha256": "f0e5db2fc4fe9b422d1f018a6849a90c24ef518f16e70af7805a8e19e54da41b"
+    },
+    {
+      "subject_id": "stage_tomb_g5",
+      "category": "stage",
+      "path": "assets/stages_v10/tomb_gears5_cemetery_master.png",
+      "format": "PNG",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 3265074,
+      "sha256": "4c47c4d71c0a095cf96eddd9b5e2c86e7043b084a5073342d362ca74eed339b3"
+    }
+  ],
+  "data_validation": {
+    "status": "passed",
+    "errors": [],
+    "command": "python src/validate_data.py"
+  },
+  "native_png_comparison": {
+    "status": "passed",
+    "new_pngs_identical_to_native_outputs": 20,
+    "historical_pngs_unchanged": 102
+  },
+  "gallery_embedded_data": "matches_manifests_and_coverage",
+  "gallery_dom_check": {
+    "generated_at": "2026-11-25T07:07:10.244Z",
+    "gallery_path": "Galerie_Personnages.html",
+    "gallery_sha256": "5f446a839f07b1c21549a3667d5262622f0a2caec39f0d8157ce24a6d8091c3d",
+    "snapshot_date": "2026-11-25",
+    "mode": "actual_inline_script_with_minimal_simulated_dom",
+    "limitations": [
+      "No browser layout, visual rendering or image decoding is exercised."
+    ],
+    "checks": [
+      "Actual inline program initialized without error; embedded coverage matches production/coverage.json.",
+      "30 category/state combinations, searches, empty state, live counts and local image paths passed.",
+      "Concept caveat and pending-reference journals render with accurate user-facing labels.",
+      "Alternative selection, focus restoration, persistence, checkerboard and archive/statistics passed."
+    ],
+    "matrix": [
+      {
+        "category": "character",
+        "state": "all",
+        "shown": 56,
+        "with_reference": 51,
+        "without_reference": 5
+      },
+      {
+        "category": "character",
+        "state": "available",
+        "shown": 51,
+        "with_reference": 51,
+        "without_reference": 0
+      },
+      {
+        "category": "character",
+        "state": "missing",
+        "shown": 5,
+        "with_reference": 0,
+        "without_reference": 5
+      },
+      {
+        "category": "character",
+        "state": "correction_required",
+        "shown": 4,
+        "with_reference": 4,
+        "without_reference": 0
+      },
+      {
+        "category": "character",
+        "state": "alternatives",
+        "shown": 9,
+        "with_reference": 9,
+        "without_reference": 0
+      },
+      {
+        "category": "costume",
+        "state": "all",
+        "shown": 85,
+        "with_reference": 42,
+        "without_reference": 43
+      },
+      {
+        "category": "costume",
+        "state": "available",
+        "shown": 42,
+        "with_reference": 42,
+        "without_reference": 0
+      },
+      {
+        "category": "costume",
+        "state": "missing",
+        "shown": 43,
+        "with_reference": 0,
+        "without_reference": 43
+      },
+      {
+        "category": "costume",
+        "state": "correction_required",
+        "shown": 4,
+        "with_reference": 4,
+        "without_reference": 0
+      },
+      {
+        "category": "costume",
+        "state": "alternatives",
+        "shown": 0,
+        "with_reference": 0,
+        "without_reference": 0
+      },
+      {
+        "category": "boss",
+        "state": "all",
+        "shown": 31,
+        "with_reference": 18,
+        "without_reference": 13
+      },
+      {
+        "category": "boss",
+        "state": "available",
+        "shown": 18,
+        "with_reference": 18,
+        "without_reference": 0
+      },
+      {
+        "category": "boss",
+        "state": "missing",
+        "shown": 13,
+        "with_reference": 0,
+        "without_reference": 13
+      },
+      {
+        "category": "boss",
+        "state": "correction_required",
+        "shown": 0,
+        "with_reference": 0,
+        "without_reference": 0
+      },
+      {
+        "category": "boss",
+        "state": "alternatives",
+        "shown": 0,
+        "with_reference": 0,
+        "without_reference": 0
+      },
+      {
+        "category": "stage",
+        "state": "all",
+        "shown": 35,
+        "with_reference": 21,
+        "without_reference": 14
+      },
+      {
+        "category": "stage",
+        "state": "available",
+        "shown": 21,
+        "with_reference": 21,
+        "without_reference": 0
+      },
+      {
+        "category": "stage",
+        "state": "missing",
+        "shown": 14,
+        "with_reference": 0,
+        "without_reference": 14
+      },
+      {
+        "category": "stage",
+        "state": "correction_required",
+        "shown": 0,
+        "with_reference": 0,
+        "without_reference": 0
+      },
+      {
+        "category": "stage",
+        "state": "alternatives",
+        "shown": 0,
+        "with_reference": 0,
+        "without_reference": 0
+      },
+      {
+        "category": "projectile",
+        "state": "all",
+        "shown": 8,
+        "with_reference": 4,
+        "without_reference": 4
+      },
+      {
+        "category": "projectile",
+        "state": "available",
+        "shown": 4,
+        "with_reference": 4,
+        "without_reference": 0
+      },
+      {
+        "category": "projectile",
+        "state": "missing",
+        "shown": 4,
+        "with_reference": 0,
+        "without_reference": 4
+      },
+      {
+        "category": "projectile",
+        "state": "correction_required",
+        "shown": 2,
+        "with_reference": 2,
+        "without_reference": 0
+      },
+      {
+        "category": "projectile",
+        "state": "alternatives",
+        "shown": 0,
+        "with_reference": 0,
+        "without_reference": 0
+      },
+      {
+        "category": "all",
+        "state": "all",
+        "shown": 215,
+        "with_reference": 136,
+        "without_reference": 79
+      },
+      {
+        "category": "all",
+        "state": "available",
+        "shown": 136,
+        "with_reference": 136,
+        "without_reference": 0
+      },
+      {
+        "category": "all",
+        "state": "missing",
+        "shown": 79,
+        "with_reference": 0,
+        "without_reference": 79
+      },
+      {
+        "category": "all",
+        "state": "correction_required",
+        "shown": 10,
+        "with_reference": 10,
+        "without_reference": 0
+      },
+      {
+        "category": "all",
+        "state": "alternatives",
+        "shown": 9,
+        "with_reference": 9,
+        "without_reference": 0
+      }
+    ],
+    "searches": [
+      {
+        "query": "Wakaatu",
+        "shown": 1,
+        "with_reference": 0,
+        "without_reference": 1
+      },
+      {
+        "query": "boss_wakaatu",
+        "shown": 1,
+        "with_reference": 0,
+        "without_reference": 1
+      },
+      {
+        "query": "  FUMIGENE  ",
+        "shown": 1,
+        "with_reference": 1,
+        "without_reference": 0
+      },
+      {
+        "query": "FUMIGÈNE",
+        "shown": 1,
+        "with_reference": 1,
+        "without_reference": 0
+      },
+      {
+        "query": "BÉRSÉRKER",
+        "shown": 2,
+        "with_reference": 2,
+        "without_reference": 0
+      },
+      {
+        "query": "MYRRAH",
+        "shown": 5,
+        "with_reference": 4,
+        "without_reference": 1
+      },
+      {
+        "query": "Torque Bow",
+        "shown": 1,
+        "with_reference": 0,
+        "without_reference": 1
+      },
+      {
+        "query": "Gears of War 3",
+        "shown": 34,
+        "with_reference": 26,
+        "without_reference": 8
+      },
+      {
+        "query": "zz_no_matching_subject_v10_8de91",
+        "shown": 0,
+        "with_reference": 0,
+        "without_reference": 0
+      }
+    ],
+    "concept_cards": [
+      {
+        "subject_id": "projectile_smoke_grenade_g4",
+        "asset_path": "assets/projectiles_v10/smoke_grenade_gow4_concept_c.png",
+        "displayed_label": "Variante issue d’un concept de production ; correspondance avec le modèle final du jeu non attestée."
+      }
+    ],
+    "research_cards": [
+      {
+        "subject_id": "boss_wakaatu",
+        "record_path": "data/generation_v10/boss_wakaatu_record.json",
+        "displayed_label": "Voir la recherche de référence",
+        "visual_status": "missing"
+      },
+      {
+        "subject_id": "projectile_boomshot_shell_g4",
+        "record_path": "data/generation_v10/projectile_boomshot_shell_g4_record.json",
+        "displayed_label": "Voir la recherche de référence",
+        "visual_status": "missing"
+      }
+    ],
+    "assertions": 2754,
+    "result": "PASS"
+  },
+  "independent_review": {
+    "characters_and_costumes": "Griffin, Oscar et deux Baird inspectés ; Sam et Myrrah revus avec leurs visuels officiels. Marges et parties reconstituées consignées.",
+    "enemies_and_machines": "Cinq silhouettes revues, alpha mesuré ; franges Reaver presque transparentes (alpha maximal 2/255).",
+    "stage_sources": "Huit masters inspectés, cadrage latéral et limites de géométrie documentés.",
+    "reports_and_local_links": {
+      "status": "passed",
+      "report_links_valid": 78,
+      "readme_links_valid": 47,
+      "historical_v9_files_unchanged": 53,
+      "coverage_and_missing_ids": "exact_match"
+    }
+  },
+  "git_diff_check": "passed"
+}

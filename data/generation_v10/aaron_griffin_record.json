@@ -1,0 +1,111 @@
+{
+  "category": "character",
+  "pass_date": "2026-11-25",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "status": "generated_reference_pending_validation",
+  "generation_status": "generated_reference_pending_validation",
+  "has_image": true,
+  "quality_state": "candidate",
+  "variant_relation": "target_version_candidate",
+  "purpose": "reference_fullbody",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "animation": false,
+  "pose": "static_front_three_quarter_facing_right",
+  "id": "aaron_griffin",
+  "subject_id": "aaron_griffin",
+  "character_id": "aaron_griffin",
+  "name": "Aaron Griffin",
+  "source_game": "Gears of War 3",
+  "catalog_target_game": "Gears of War 3",
+  "variant": "Gears of War 3 — tenue originale du modèle Mike Kime (2011)",
+  "asset_path": "assets/characters_v10/aaron_griffin.png",
+  "prompt": "Use case: identity-preserve. Create exactly ONE full-body static character sprite: AARON GRIFFIN from GEARS OF WAR 3 (2011), using the attached original Epic Games production renders by Mike Kime as the authoritative model reference. The first reference shows two views of the same person; output only ONE person. Preserve that exact game design rather than another edition: bald head, distinctive strongly angular mature face, short narrow goatee, dark wraparound sunglasses with blue-black lenses; broad muscular but human body. His outfit is a very worn charcoal sleeveless hooded long leather coat/vest with torn raw shoulder edges and ragged knee-length lower panels, small round punched holes and toggle fasteners on the front, asymmetrical rectangular leather hip pockets, buckled leather shoulder straps, visible shaped back harness. Maintain his bare arms and frayed upper-arm bands, dark segmented forearm guards, fingerless gloves, numerous gold rope bracelets and rings, gold DRAMA knuckle plate on his anatomical LEFT glove, and the long square clock pendant on his chest with hands at six o'clock. Match the original trousers, layered wrappings and stitched knee panels, padded ankle guards, and thick broad laced boots. Keep the source materials and subdued near-black/brown/gold colors. Use the second reference only for facial anatomy and fine construction of the coat/harness; do not use its clay shader.\nPose: calm planted neutral stance, entire body three-quarter SIDE view facing screen RIGHT, feet separated comfortably, arms slightly away from torso, EMPTY relaxed hands. No gun, no props, no extra jewelry or redesign. Single reusable game cutout, detailed realistic hand-painted game-render finish, no cartoon and no plastic action figure. Match anatomy, coat length, pouches, toggles, sunglasses and jewelry placements closely to the model.\nPull camera back: the complete figure must occupy no more than 75% of the image height with AT LEAST TEN PERCENT EMPTY TRANSPARENT MARGIN above the head, below both boot soles and to either side. Whole skull, hands, coat hem and both boots inside frame, no cropping.\nTrue transparent RGBA background, fully empty alpha outside the silhouette. No floor, no contact shadow, no smoky halo, no environment, no caption, no logo, no Epic or Gears source credits reproduced, no watermark, no other figure, no multi-view sheet, no animation or motion effects. One single static full-body reference-guided reconstruction.",
+  "edit_prompt": "Use case: identity-preserve.\nAsset: one static transparent full-body reference candidate, Aaron Griffin as in Gears of War 3 (2011).\nInput image 1 is the edit target. Preserve this exact character identity, clothing, proportions, colors, materials and every asymmetric accessory. Change ONLY the viewing/standing direction and framing: reconstruct a calm front three-quarter view facing screen RIGHT, nose clearly pointing right and both feet directed slightly right. Repose/rotate in three-dimensional space; DO NOT horizontally flip or mirror the image. His anatomical LEFT glove must still carry the gold rectangular word DRAMA in correct readable letters. The anatomical right glove must NOT acquire that plate. Preserve his bald head, black wraparound sunglasses, small pointed gray goatee, torn dark hooded sleeveless long vest, bulky harness, clock pendant with same dial, gold bracelets and finger rings, olive arm bands, patched dark cargo pants and big laced boots. Preserve the source's asymmetry, not a mirrored duplicate. Empty hands, relaxed arms, no weapon, no action, no animation.\nComposition: one character only, entire head and both complete soles visible, centered in portrait frame. Make the character occupy at most 78% of canvas height so there is a real transparent margin at least 10% of image height above the head and beneath the soles, and at least 10% width on both sides.\nScene/background: genuine transparent alpha background around the character, no floor plane, no oval shadow, no gradient or haze, no vignette, no backdrop, no labels or added text. Keep only the existing DRAMA lettering on the anatomical left glove and the existing costume markings. Photorealistic game-character render as already shown, neutral readable lighting.",
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-b1ee28f4-00e9-421c-b04a-107043bdbe5d.png",
+  "selected_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-bea0865f-7496-4478-9675-6f3b1ad3553d.png",
+  "source_urls": [
+    "https://polycount.com/discussion/comment/1449655"
+  ],
+  "sources": [
+    {
+      "page_url": "https://polycount.com/discussion/comment/1449655",
+      "image_url": "https://www.pseudo-pod.com/temp/G3/griffin1.jpg",
+      "source_type": "original_character_artist_portfolio",
+      "scope": "Mike Kime présente ses modèles Gears of War 3 ; planche texturée de Griffin, vues avant et arrière.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/207fbd1207b7/research_gears/v10/griffin1_artist.jpg",
+      "reference_sha256": "8817e8c99ae2790567be3ac4883d299294730c191cd4515a00ecbfe703b8a8c3"
+    },
+    {
+      "page_url": "https://polycount.com/discussion/comment/1449655",
+      "image_url": "https://www.pseudo-pod.com/temp/G3/griffin2.jpg",
+      "source_type": "original_character_artist_portfolio",
+      "scope": "Sculpture de tête et harnachement, complément de détails sans couleur.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/207fbd1207b7/research_gears/v10/griffin2_artist.jpg",
+      "reference_sha256": "ce3fac42e6fd9ac3924b2c628e16f06975243b69cc057ed325fe35204296f259"
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "La première image était tournée vers la gauche ; une seule édition ciblée a produit une vue vers la droite sans miroir raster.",
+      "L'édition conserve le mot DRAMA sur le gant anatomique gauche (côté droit de l'image) ; lunettes, pendentif horloge, gilet déchiré et bottes restent visibles.",
+      "Les deux sorties natives sont conservées dans generated_images ; seule l'édition est sélectionnée pour le catalogue.",
+      "Alpha réel : extérieur transparent malgré l'aperçu avec halo RVB. Le bord de 8 pixels a alpha maximal 0.",
+      "Marges de silhouette alpha >=128 : gauche 222, haut 113, droite 208, bas 67 px ; la demande de 10% en haut et bas n'est pas entièrement respectée.",
+      "La rotation générative peut modifier de petits détails de couture, boucles et visage ; aucune fidélité 1:1 certifiée."
+    ],
+    "remaining_checks": [
+      "Comparer le costume, les bijoux et asymétries avec modèle jeu original à résolution native.",
+      "Validation artistique de la tête et du cadrage avant usage production."
+    ],
+    "alpha_measured": true,
+    "framing_measured": true
+  },
+  "notes": [
+    "Candidat fixe ; aucun sprite d'animation ni traitement raster."
+  ],
+  "reference_images": [
+    "/workspace/scratch/207fbd1207b7/research_gears/v10/griffin1_artist.jpg",
+    "/workspace/scratch/207fbd1207b7/research_gears/v10/griffin2_artist.jpg"
+  ],
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 1862306,
+    "sha256": "9a34d43ae96014273ddf8e652c0b278829cc974cf62ad6c53215cb2d4d752805",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.6782976786295573,
+    "subject_bbox_alpha_ge_128": [
+      222,
+      113,
+      816,
+      1469
+    ],
+    "subject_margins_ltrb_px": [
+      222,
+      113,
+      208,
+      67
+    ],
+    "edge_band_width_px": 8,
+    "edge_alpha_max": 0,
+    "has_real_alpha": true,
+    "native_copy_verified": true
+  },
+  "production_ready": false
+}

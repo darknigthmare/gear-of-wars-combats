@@ -1,0 +1,64 @@
+{
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "variant_relation": "target_version_candidate",
+  "category": "stage",
+  "purpose": "stage_master",
+  "animation_status": "not_requested_this_pass",
+  "canonical_fidelity_validated": false,
+  "id": "fenix_estate_gow2006_garden_master_v9",
+  "subject_id": "stage_fenix_estate",
+  "name": "Haldane Hall — jardin du domaine Fenix",
+  "source_game": "Gears of War 2006",
+  "variant": "Gears of War 2006 — terrasse du jardin et escalier du domaine adaptés au combat latéral",
+  "asset_path": "assets/stages_v9/fenix_estate_gow2006_garden_master.png",
+  "prompt": "Create ONE finished 16:9 static side-view fighting arena background: the GARDEN APPROACH AND STONE TERRACE of HALDANE HALL / FENIX ESTATE from ORIGINAL GEARS OF WAR (2006), Act 4 \"Imaginary Place\". The two attached original game screenshots from the official guide are the visual authority. Match the visible original 2006 construction and melancholy desaturated autumn palette closely, not the Ultimate Edition or a Gears 4 mansion.\nPreserve these observed garden landmarks: broad shallow weathered pale gray stone steps, very thick pale stone sloping balustrade walls with capstones, heavy square capped stone piers with subtle inset outlines, terraces and low enclosing garden walls, brown fallen leaves scattered across cracked cobblestones, dense muted green ivy at the left edge, thin tall dark cypress trees, taller brown autumn deciduous trees, one pale leafless crooked tree, cloudy pale gray-violet sky. Show the distant dark steeply pitched angular Haldane roof and tall narrow tower silhouette faintly between trees, as in the references. The mansion stays distant and partly concealed; do not invent a new ornate front facade to fill the view. Include the visible small stone garden monument/pedestal on the upper terrace, preserving its observed restrained carved shape. Stone is worn, stained, weathered, chipped and slightly mossy, with crisp massive block construction.\nRecompose the observed stair garden for a low, SIDE-ON 2D combat camera: a completely flat continuous wet stone terrace runs horizontally across the entire bottom 22 percent, edge to edge, no obstruction or steps in this foreground fighting strip. Beyond that strip is the low garden wall with square piers; the broad rising garden stair flight and sloping parapet are clearly visible toward rear left/center, with upper terrace extending behind it. Architecture remains behind the playable strip. Main colors cool pale chalk stone, gray-green moss, muted rust-brown leaves, washed-out violet-gray cloud light. High detail polished 2D HD gritty environment painting, precise structural shapes and fine material texture, realistic game-inspired lighting, no cartoon or glossy fantasy style.\nOne complete opaque still background, no animation, no layers, no collage or panels. Remove ALL characters, soldiers, Locust, creatures, corpses, guns and combat effects from the source. Absolutely no HUD, weapon icons, ammo counters, crosshair, labels, captions, text, logo, watermark or border. No explosions, no new vehicles, no fantastical giant castle, no modern garden furniture. The result must be a clean empty static stage asset grounded in the visible original garden references.",
+  "sources": [
+    {
+      "page_url": "https://ptgmedia.pearsoncmg.com/imprint_downloads/brady/promotions/Gears3/9780744013610.pdf",
+      "source_type": "official_licensed_strategy_guide",
+      "publisher": "BradyGames / Pearson",
+      "scope": "Guide officiel Gears of War : deux captures du jardin d’accès au domaine dans Imaginary Place, page PDF 107, extraites sans retouche. Le document est celui du jeu original malgré le dossier Gears3 du téléchargement.",
+      "reference_pages": [
+        107
+      ],
+      "visual_reference_used": true
+    },
+    {
+      "page_url": "https://primagames.com/eguides/gears-war-eguide/campaign-walkthrough/act-4-the-long-road-home",
+      "source_type": "official_licensed_strategy_guide",
+      "publisher": "Prima Games",
+      "scope": "La section Imaginary Place identifie le jardin à sculptures, les escaliers et la cour menant au domaine Fenix ; confirmation textuelle de la portion représentée.",
+      "visual_reference_used": false
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_stage": true,
+    "transparent_background": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "observations": [
+      "Escalier en pierre claire, parapets massifs, piliers carrés coiffés, monument du jardin, lierre et arbres d’automne repris des deux captures de 2006.",
+      "Faîtage sombre du manoir visible derrière les arbres ; ce master représente le jardin d’accès, pas une vue complète de sa façade.",
+      "Pavés horizontaux dégagés au premier plan ; aucun soldat, monstre, arme, interface ou texte parasite visible.",
+      "La largeur de l’escalier, le muret au premier plan et l’agencement végétal sont recomposés pour l’arène ; les petits détails du monument sont extrapolés depuis des captures limitées."
+    ],
+    "remaining_checks": [
+      "Comparer les proportions de l’escalier, du monument et la silhouette de toiture aux captures haute résolution du jeu original.",
+      "Valider le sol et l’échelle des personnages en situation ; aucune géométrie de collision n’est incluse dans le PNG."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGB",
+    "width": 1672,
+    "height": 941,
+    "bytes": 3535892,
+    "sha256": "0c3929dc3e3ab1b178561bc7c7a1bf1407f14f1fd2d8a47f1604471398c3557b"
+  },
+  "has_image": true
+}

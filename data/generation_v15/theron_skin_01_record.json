@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0",
+  "id": "theron_skin_01",
+  "subject_id": "theron_skin_01",
+  "costume_id": "theron_skin_01",
+  "character_id": "theron",
+  "category": "costume",
+  "name": "Garde Theron — cible original 2006, candidat visuellement écarté",
+  "source_game": "Gears of War (2006)",
+  "catalog_target_game": "Gears of War (2006)",
+  "variant": "Garde Theron 2006 demandé ; casque et armure obtenus non conformes",
+  "variant_relation": "edition_unverified",
+  "purpose": "costume_reference_fullbody",
+  "pass_date": "2026-11-27",
+  "status": "generated_rejected_visual",
+  "generation_status": "generated",
+  "quality_state": "rejected_visual_mismatch",
+  "generation_attempted": true,
+  "generation_attempt_count": 1,
+  "generation_attempt_count_this_pass": 1,
+  "has_image": true,
+  "is_active_reference": false,
+  "asset_path": null,
+  "archive_path": "rejected_candidates/costumes_v15/theron_skin_01.png",
+  "original_output_path": "/workspace/scratch/f809e6610dc2/generated_images/exec-f1500c96-0359-48bb-8fcb-8c72fbd74c77.png",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "transparent_background": true,
+  "prompt": "The standard Theron Guard in his original Gears of War (2006) costume. A tall broad adult Locust elite with the original standard Guard helmet and its exact facial opening, the distinct red-maroon and dark metal layered armor, substantial collar and shoulders, articulated chest and waist protection, characteristic hanging armored skirt panels, guarded forearms and heavy armored lower legs. Preserve the original patterned plates and visible grey Locust skin only where present in that specific costume. Helm and torso must read as a Theron Guard even with empty hands. Calm static posture with all skirt panels hanging naturally. Do not mix the Guard helmet with a Theron Sentinel, Palace Guard, Savage Theron, Tactics redesign or gold multiplayer skin. Create exactly one full-body character as a neutral production model reference: standing at rest, weight balanced, shoulders relaxed, arms slightly separated from the torso, both empty hands visible and relaxed. Three-quarter view facing screen-right, turned enough toward profile for a readable side-view 2D silhouette. The complete head, feet, fingers and every costume extremity must fit inside the canvas with a generous transparent margin. Realistic hand-painted 2D UHD game art, anatomically and materially faithful to the named official game model, crisp readable contour, restrained even studio illumination. True transparent alpha background, including gaps between limbs. No text, captions, logos, interface, border, second character, alternate view, scenery, floor, pedestal, cast shadow, glow, particles, action, injury or violence. No handheld or attached weapons. Preserve the exact named episode costume rather than inventing a redesign or combining skins. This is a single calm unarmed reference pose.",
+  "prompt_sha256": "d53fe31cec38d77103b1332cb07bd1eeceb5a6a694cf03c95da9eb8ecc59fcdd",
+  "prompt_unchanged_from_prior": true,
+  "reference_images": [],
+  "source_urls": [
+    "https://www.gearsofwar.com/en-us/games/gears-of-war/",
+    "https://news.xbox.com/en-us/2020/03/31/gears-5-operation-3-gridiron-available-today-for-all-players/",
+    "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/"
+  ],
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2297876,
+    "sha256": "97b7d40b861501177ab6c7da3dc37b247f933722d86ea4eab471e2ea9e1ea2bd",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.5563545227050781,
+    "alpha_nonzero_bbox": [
+      0,
+      0,
+      1023,
+      1536
+    ],
+    "alpha_gt8_bbox": [
+      135,
+      0,
+      807,
+      1528
+    ],
+    "subject_bbox_alpha_ge_128": [
+      136,
+      6,
+      806,
+      1526
+    ],
+    "subject_margins_ltrb_px": [
+      136,
+      6,
+      218,
+      10
+    ],
+    "has_real_alpha": true,
+    "native_copy_verified": true,
+    "postprocessed": false
+  },
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "retry_authorization": {
+    "user_message": "meme promtp et en paralele reassayer ce qui on ete refuser",
+    "date": "2026-11-27",
+    "scope": "Un nouvel essai admissible du prompt historique, même outil ; aucun contournement de refus."
+  },
+  "prior_attempts": [
+    {
+      "record_path": "data/generation_v4/result_theron.json",
+      "sha256": "163969f586e2dbe79ad8a8dc253bae45bc92deb5f89d5775e882aef3322701ac",
+      "status": "blocked_by_image_system"
+    },
+    {
+      "record_path": "data/generation_v13/theron_skin_01_record.json",
+      "sha256": "e09d58c2fd569ed802db012f7542ecdef0c901ebec31ae3505ead9f34904a3bc",
+      "status": "blocked_prior_generator_refusal"
+    }
+  ],
+  "research_log": [
+    {
+      "url": "https://polycount.com/discussion/55616/gears-of-war-psp-character/p3",
+      "result": "Publication Octobre 2008 localisée : capture explicitement nommée Original_Epic_TheronGuard, mais l’image source est indisponible (503/502). La création PSP de l’auteur ne sert pas de référence canonique."
+    },
+    {
+      "url": "https://cdn2.unrealengine.com/Resources/files/GDC09_Smedberg_RenderingTechniques-1415210295.pdf",
+      "result": "Crédits du Theron original trouvés, mais planche Palace Guard Gears 2, inadéquate pour le modèle complet Theron standard 2006."
+    },
+    {
+      "record_path": "data/generation_v5/theron_record.json",
+      "result": "Références figurine 2008 et portrait Gears 2 ne certifiant pas un modèle final 2006 ; aucun rattachement automatique au costume cible."
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "references_visually_inspected": true,
+    "subject_count": 1,
+    "pose_count": 1,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "accepted_for_active_catalog": false,
+    "observations": [
+      "Un Locuste entier à armure rouge sombre a été produit ; ce succès technique ne résout pas le costume.",
+      "Le casque obtenu est ouvert sur les yeux et présente une haute crête ; il ne reproduit pas le casque standard du Theron Guard 2006 à fentes oculaires.",
+      "Les épaulières, le plastron et les panneaux de jupe présentent des formes interprétées non établies sur le modèle final visé.",
+      "La référence complète de l’édition 2006 n’a pas pu être jointe ; aucune conformité d’édition n’est revendiquée.",
+      "PNG conservé uniquement en archive de revue ; le costume reste manquant dans l’inventaire actif.",
+      "Comparaison après génération avec la figurine licenciée NECA2008 : le casque fermé à fentes et la grande collerette rouge sont absents ou nettement modifiés dans la sortie. Ce contrôle renforce le rejet, sans valider l’édition2006 à partir d’une figurine."
+    ]
+  },
+  "sources": [
+    {
+      "page_url": "https://toynewsi.com/139-13381",
+      "image_url": "https://i.toynewsi.com/g/generated/NECA/Gears_Of_War/Series_02/Packaged%20Part%202/TheronHelmet__scaled_800.jpg",
+      "reference_local_path": "/workspace/scratch/f809e6610dc2/references_v15/theron_neca2008_qa.jpg",
+      "reference_sha256": "d6c4a395fd9cf5b7eb78785728ee2c6026c210f7ad5e92f40ad2d80d2148aeb1",
+      "source_type": "licensed_figure_promotion",
+      "visual_reference_used_for_generation": false,
+      "visually_inspected_for_output_review": true,
+      "scope": "Photographie NECA2008 inspectée après génération : confirme la forte différence de casque et silhouette. Ne certifie pas les détails du modèle de jeu final2006."
+    }
+  ]
+}

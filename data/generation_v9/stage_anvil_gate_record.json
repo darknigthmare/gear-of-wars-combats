@@ -1,0 +1,63 @@
+{
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "variant_relation": "target_version_candidate",
+  "category": "stage",
+  "purpose": "stage_master",
+  "animation_status": "not_requested_this_pass",
+  "canonical_fidelity_validated": false,
+  "id": "anvil_gate_gears3_master_v9",
+  "subject_id": "stage_anvil_gate",
+  "name": "Anvil Gate — cour de la porte 02",
+  "source_game": "Gears of War 3",
+  "variant": "Gears of War 3 — cour intérieure de la porte 02 adaptée au combat latéral",
+  "asset_path": "assets/stages_v9/anvil_gate_gears3_master.png",
+  "prompt": "Make ONE finished wide 16:9 static 2D fighting-game background, ANVIL GATE fortress inner courtyard from Gears of War 3 (2011). Attached official guide game screenshots are the visual authority. Preserve the observed environment identity, metal/concrete shapes and patched timber construction. This is the courtyard seen in the first reference, NOT a generic medieval castle. Translate that exact fortified industrial outpost into a low, side-facing arena composition.\nBackdrop: huge weathered dark concrete and riveted steel wall; central rectangular armored gate opening under a paired light-gray gate panel with the worn painted numeric marking visible in the reference, dirty heavy horizontal beam and squared uprights; small hard white floodlight above casting a cone down the gate. Lean-to Stranded shelters made of sun-bleached rough wooden planks at the right, layered shallow sloping roofs, vertical support posts, cloth and scrap-metal details. Narrow elevated wooden/steel catwalks along the wall, battered handrails and cross-bracing, dark vertical maroon fabric strips hanging from beams. Left side shows timber scaffolding against the massive fortress wall. Use the metal stairs and worn thick columns in the second reference as supporting construction detail, but do not copy that reference's camera. A few low sandbag stacks and crates sit in the rear corners. Night scene, cool dim gray-blue ambient light, dusty brown material colors, tiny restrained amber glow from a barrel near the rear right, no conflagration.\nForeground: continuous flat dusty concrete-and-metal courtyard, occupying the lower 22 percent of the frame, level uninterrupted horizontal fighting ground from edge to edge, completely clear of crates, stairs, characters or holes. Keep main gate and shelters behind this strip, ample open space at waist height for fighter silhouettes. Neutral side-view framing, shallow perspective, not an aerial view. Gritty richly detailed HD 2D environment painting preserving game materials and architecture, solid precise forms, subtle atmospheric depth, no stylized cartoon, no invented gothic towers or futuristic neon.\nOne complete scene, opaque background, no layer separation, no animation, no sprite sheet, no collage. Remove ALL soldiers, humans, Locust, monsters, dead bodies, blood sprays, guns, projectiles and laser tracers from reference screenshots. Absolutely no game HUD, player names, scores, crosshairs, ammo counters, weapon icons, hit indicators, borders, logos, watermarks or captions. Only any genuinely painted architectural marker belongs in the actual wall. Image must be a clean empty stage asset.",
+  "sources": [
+    {
+      "page_url": "https://primagames.com/eguides/gears-war-3-eguide/campaign-walkthrough/act-3/chapter-1-unbreakable",
+      "image_url": "https://primagames.com/eguides/media/_w/700/files/eguide_assets/gears-war-3-eguide/06-WALK-act01-act03-web-resources/image/011_Act3.jpg",
+      "source_type": "official_licensed_strategy_guide",
+      "publisher": "Prima Games",
+      "scope": "Capture de la cour intérieure : porte 02, murs métalliques, passerelles et abris en bois. Référence visuelle principale.",
+      "visual_reference_used": true
+    },
+    {
+      "page_url": "https://primagames.com/eguides/gears-war-3-eguide/campaign-walkthrough/act-3/chapter-1-unbreakable",
+      "image_url": "https://primagames.com/eguides/media/_w/700/files/eguide_assets/gears-war-3-eguide/06-WALK-act01-act03-web-resources/image/002_Act3.jpg",
+      "source_type": "official_licensed_strategy_guide",
+      "publisher": "Prima Games",
+      "scope": "Capture des escaliers et piliers de la forteresse, utilisée comme référence secondaire de matériaux et de construction.",
+      "visual_reference_used": true
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_stage": true,
+    "transparent_background": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "observations": [
+      "Façade blindée portant 02, passerelles, escaliers métalliques, abris en planches, sacs de sable et éclairage dirigé repris du vocabulaire visible des captures.",
+      "Bande de sol horizontale continue, sans personnages, cadavres, tirs, HUD ou compteurs ; aucun élément animé.",
+      "Porte représentée fermée alors que la capture principale montre un passage ouvert ; organisation des passerelles et des abris recomposée pour la vue latérale.",
+      "Les proportions et les motifs des bannières restent une interprétation à comparer au jeu, sans certification 1:1."
+    ],
+    "remaining_checks": [
+      "Comparer l’état de la porte et les emblèmes aux vues de la cour choisie dans Gears of War 3.",
+      "Contrôler l’échelle, la lisibilité des combattants et l’emplacement du sol en situation."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGB",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2698313,
+    "sha256": "2de63569563bfc261baf61774c03ce150bff3060dd3625eaf3a50440b3885399"
+  },
+  "has_image": true
+}

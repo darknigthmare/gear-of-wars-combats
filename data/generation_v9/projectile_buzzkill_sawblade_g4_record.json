@@ -1,0 +1,71 @@
+{
+  "category": "projectile",
+  "source_game": "Gears of War 4",
+  "catalog_target_game": "Gears of War 4",
+  "purpose": "projectile_static",
+  "variant_relation": "text_reconstruction_candidate",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "correction_required",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "id": "projectile_buzzkill_sawblade_g4",
+  "subject_id": "projectile_buzzkill_sawblade_g4",
+  "projectile_id": "projectile_buzzkill_sawblade_g4",
+  "name": "Buzzkill — lame circulaire",
+  "source_weapon": "Buzzkill",
+  "weapon_id": "buzzkill",
+  "variant": "Gears of War 4 — projectile isolé, pose fixe",
+  "asset_path": "assets/projectiles_v9/buzzkill_sawblade_gow4.png",
+  "prompt": "Use case: stylized-concept. Asset type: one static projectile sprite for a high-detail 2D Gears of War fighting game. Subject: exactly ONE of the circular saw blades fired by the BUZZKILL heavy weapon in GEARS OF WAR 4, faithfully using the shipped game's industrial design language and metallic color. This is the projectile alone, without the launcher. A flat round heavy steel disc, sharp mechanically cut saw teeth along its entire rim, open central mounting bore, worn scratched steel, subtle heat discoloration and dark tool marks. Authentic utilitarian repurposed industrial Gears machinery, no decorative fantasy patterns and no invented glowing magical symbols. The disc face is clearly readable in a nearly side-on view with only a slight tilt to reveal a thin steel edge; its circular outline must stay circular, not a long ellipse. One object centered, no motion streaks, no spinning animation, no blood, no effects, no duplicate frames. Detailed hand-painted 2D UHD game sprite, clear edges and high material definition, muted neutral lighting, full silhouette with 12% clean margin on every side. True transparent PNG, no backdrop, no ground plane, no shadow, no labels, no watermark.",
+  "sources": [
+    {
+      "page_url": "https://primagames.com/eguides/gears-of-war-4-eguide/multiplayer/multiplayer-arsenal/heavy-weapons",
+      "source_type": "official_licensed_guide_text",
+      "scope": "Confirme les lames de scie circulaires du Buzzkill et leurs ricochets. Aucun modèle rapproché de la lame n'a pu être fourni au générateur."
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_object": true,
+    "complete_object_in_frame": true,
+    "transparent_background": true,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Lame unique isolée, trou central et denture complète, sans mouvement ni lanceur.",
+      "Candidat reconstruit à partir du type canonique documenté. Le moyeu, les fentes et le nombre exact de dents restent non validés faute de gros plan du modèle livré.",
+      "À corriger avant validation du modèle : reconstruction sans vue rapprochée du projectile ; moyeu cruciforme, boulons, fentes et denture non confirmés visuellement."
+    ],
+    "remaining_checks": [
+      "Comparer la silhouette, les proportions et les micro-détails au modèle exact de l'édition cible avant validation 1:1."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2358537,
+    "sha256": "c052d5b46f5b929a406628df79faac5a74f9a194aeaa9588a32173ad0d201c5a",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.4191143365154949,
+    "subject_bbox_alpha_ge_128": [
+      59,
+      54,
+      1197,
+      1186
+    ],
+    "subject_margins_ltrb_px": [
+      59,
+      54,
+      57,
+      68
+    ]
+  },
+  "has_image": true,
+  "production_ready": false
+}

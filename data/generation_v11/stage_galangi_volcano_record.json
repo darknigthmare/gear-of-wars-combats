@@ -1,0 +1,70 @@
+{
+  "id": "galangi_volcano_gears5_master_v11",
+  "subject_id": "stage_galangi_volcano",
+  "category": "stage",
+  "purpose": "stage_master",
+  "name": "Galangi — intérieur volcanique",
+  "source_game": "Gears 5 — Hivebusters",
+  "catalog_target_game": "Gears 5 — Hivebusters",
+  "variant": "Galangi — coulées de lave et corniche adaptée au combat latéral",
+  "variant_relation": "target_version_candidate",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "animation_status": "not_requested_this_pass",
+  "status": "generated_reference_pending_validation",
+  "has_image": true,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "asset_path": "assets/stages_v11/stage_galangi_volcano.png",
+  "prompt": "Create one static, opaque, wide 16:9 stage master for a side-view fighting game: Galangi volcanic interior from Gears 5 Hivebusters. Use the SECOND attached production screenshot as the main visual reference for the real cavern geometry, weathered dark basalt walls, the hanging burnt root network, two narrow yellow-orange lava falls and molten river. Use the FIRST attached final-level screenshot only to support Galangi's volcanic rock texture and residual tropical vegetation identity; do not copy its outdoor camera or stone temple. Recompose the main cavern into a lateral standing-height camera. Preserve the identifiable orange lava falls in the middle distance, dark rocky cave voids behind them, thick black basalt walls with eroded layers, root clusters hanging from the upper rock ledges and smoky warm atmosphere. Add a broad, absolutely continuous flat stable matte dark basalt fighting ledge across the lower quarter of the image, horizontally readable edge-to-edge with restrained small surface texture, no pits, steps, bright lava, roots or props in this playable band. The lava river and vertical drops stay safely behind that ledge in visual depth. Keep most cavern structure dim brown charcoal with orange light concentrated around lava, a restrained neutral cool fill on the playable floor for character legibility. A few subtle dead plant remnants at far edges, no dense vegetation. Rich precise high-definition game environment details, realistic material fidelity to the supplied Gears 5 screenshots, finished clean painted game art. Single empty environment only: no characters, enemies, Wakaatu, vehicles, weapons, pickups, UI, text, logos, credits, watermark, border, collage or alternate views. The lateral floor arrangement is a fighting-game adaptation, not a new official location. One PNG image, not animation.",
+  "sources": [
+    {
+      "page_url": "https://magazine.artstation.com/2020/12/the-coalition-gears-5-hivebusters-art-blast/",
+      "image_url": "https://cdn.artstation.com/magazine/uploads/2020/12/stef-velzeboer-lava2-wide.jpg",
+      "source_type": "production_artist_portfolio",
+      "artist": "Stef Velzeboer — The Coalition",
+      "scope": "Vue publiée dans l’Art Blast de production : grotte, coulées de lave et racines suspendues. Référence principale.",
+      "visual_reference_used": true,
+      "reference_sha256": "8d139a2ad54f60019e8609ad0ca052989248410650c348e554be72c2b8f08c93"
+    },
+    {
+      "page_url": "https://dakkon.artstation.com/projects/3dr0OD",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/033/190/703/4k/boyd-mckenzie-1-volcano.jpg?1608699401",
+      "source_type": "production_artist_portfolio",
+      "artist": "Boyd McKenzie — The Coalition",
+      "scope": "Path – Volcano, vue de niveau final. Référence secondaire pour la matière volcanique et le contexte Galangi; architecture extérieure non transposée.",
+      "visual_reference_used": true,
+      "reference_sha256": "9d929e1f231dd0837c6689bd773be60af595d1b09ac2ca2bfa75ba9f95c8cb79"
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_stage": true,
+    "transparent_background": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "observations": [
+      "La corniche horizontale est une adaptation de gameplay; sa géométrie ne prétend pas reproduire un plan exact du niveau.",
+      "Deux coulées étroites, voûte sombre avec racines suspendues et rivière de lave reprises de la vue de production; plan de combat continu, horizontal et sans obstacle.",
+      "La répartition des roches et des racines est reconstruite. Le feuillage vert aux extrémités vient de la référence extérieure et n’est pas attesté dans cette grotte."
+    ],
+    "remaining_checks": [
+      "Comparer la forme précise des parois et des racines aux vues finales du niveau.",
+      "Vérifier l’échelle des personnages et la lisibilité devant la lave dans le moteur."
+    ],
+    "alpha_channel_present": false,
+    "opaque": true
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGB",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2496076,
+    "sha256": "b43cb01e8300a7e50f420847de1957b66cf9d1b25cb10d4a099d67df3829a341"
+  },
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-aaaa85fe-30ee-4a85-91c6-050b58efe252.png"
+}

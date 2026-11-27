@@ -1,0 +1,31 @@
+{
+  "id": "projectile_shock_grenade_g4",
+  "subject_id": "projectile_shock_grenade_g4",
+  "name": "Shock Grenade",
+  "category": "projectile",
+  "source_game": "Gears of War 4",
+  "variant": "Gears of War 4",
+  "pass_date": "2026-11-25",
+  "status": "blocked",
+  "engine": "built_in_imagegen",
+  "has_image": false,
+  "asset_path": null,
+  "prompt": "Single static 2D game asset for Gears of War Combats: one Shock Grenade exactly as it appears in Gears of War 4, all its distinctive original shape, chain handle, metallic segmented casing and blue electrically illuminated accents faithfully retained. Render the COMPLETE item, including its handle and connecting chain, in a clear three-quarter side view, with the canister on the right and the handle extending to the left in a relaxed curve. Detailed realistic hand-painted UHD sprite, gritty industrial Gears finish, small readable blue lights, no redesign. One item, one pose, fully within frame, generous transparent margins. True transparent PNG background; no shadow, no scenery, no smoke, no sparks, no discharge, no character, no typography, no labels or watermark.",
+  "error": "moderation_blocked",
+  "request_id": "0d830ee0-74b8-4d5e-8d37-20f8d64a738f",
+  "moderation_stage": "output",
+  "moderation_categories": [
+    "illicit"
+  ],
+  "canonical_fidelity_validated": false,
+  "notes": [
+    "Aucun PNG produit. Sujet maintenu manquant; aucun contournement ou appel à un autre moteur."
+  ],
+  "sources": [
+    {
+      "url": "https://primagames.com/eguides/gears-of-war-4-eguide/multiplayer/multiplayer-arsenal/grenades",
+      "type": "official_strategy_guide_text",
+      "note": "Documentation du type de grenade ; aucune image de référence jointe à cette tentative."
+    }
+  ]
+}

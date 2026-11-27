@@ -1,0 +1,72 @@
+{
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "variant_relation": "target_version_candidate",
+  "category": "stage",
+  "purpose": "stage_master",
+  "animation_status": "not_requested_this_pass",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "has_image": true,
+  "generation_attempted": true,
+  "qa": {
+    "visually_inspected": true,
+    "single_stage": true,
+    "transparent_background": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "observations": [
+      "Voûtes et socles maçonnés, cocons rouges translucides, cordons brillants et reflets bleus suivent les références finales du responsable des assets d’environnement Swarm.",
+      "Chambre vide, cocons fermés sans personne visible; le sol bas est continu, les masses organiques restent en arrière.",
+      "Une fine nervure organique traverse visuellement l’avant du sol; sa hauteur apparente et la lisibilité des pieds doivent être contrôlées en intégration.",
+      "Le catalogue décrit un type d’environnement de ruche. Le nombre de voûtes et de cocons et le passage central sont recomposés; cette chambre n’est pas présentée comme une salle canonique nommée ou un plan exact du cœur de Tollen."
+    ],
+    "remaining_checks": [
+      "Comparer les formes des cocons et les motifs de peau aux modèles finaux.",
+      "Valider le contraste du décor sombre et que les nervures plates ne gênent pas la bande de combat."
+    ],
+    "alpha_channel_present": false,
+    "opaque": true
+  },
+  "id": "swarm_hive_gears4_infested_chamber_master_v11",
+  "subject_id": "stage_swarm_hive",
+  "name": "Ruche de l’Essaim — chambre voûtée colonisée",
+  "source_game": "Gears of War 4",
+  "catalog_target_game": "Gears of War 4",
+  "variant": "Composition latérale originale d’un intérieur de ruche fondée sur les environnements Swarm finaux de Gears 4",
+  "asset_path": "assets/stages_v11/swarm_hive_gears4_infested_chamber_master.png",
+  "prompt": "Create ONE opaque widescreen 16:9 static side-view fighting stage representing a SWARM HIVE INTERIOR from Gears of War 4. Closely use the attached two final-game Swarm Environments screenshots by environment artist Clinton Crumpler. The first image supplies the actual infected vaulted room architecture: dark weathered grey brick/stone arches, square carved architectural pedestals, ruined masonry, limited blue light penetrating from behind. The second image supplies the exact Swarm pod and root materials: large translucent crimson and maroon rounded cocoons, thick glossy red organic cords attached to walls, thin rootlets spreading into rough stone, warm amber glow from the pods and cool blue rim light. Build one coherent empty infected chamber, retaining an old masonry structure visibly overwhelmed by these specific Gears 4 growths rather than a generic alien spaceship or insect hive. Place several large CLOSED pods and tangled root networks along the side walls and rear arches, with one deep dark passage near center. No visible creatures or people in any pod. Near-horizontal camera at fighter height, view perpendicular to the fighting lane, enough depth behind. Reserve lower 24 percent for one continuous flat broad stone-and-resin floor, edge-to-edge unobstructed, with only flat shallow vein textures, no raised tendrils, pits, debris piles or steps crossing the playable band. Rich realistic AAA game texture, oppressive humid dim atmosphere but readable silhouettes, dark scarlet/grey stone/cold blue and restrained amber palette. This is an original lateral room composition using documented final Gears 4 hive materials, not a claim of an exact named room or canonical floor plan. No characters, enemies, corpses, blood splashes, weapons, ammunition, HUD, battle effects, text, logos/credit strips, captions, watermarks, borders, collage, animation frames or separate layers. One complete opaque landscape environment, maximum native resolution.",
+  "sources": [
+    {
+      "page_url": "https://ccrumpler.artstation.com/projects/zW3l6",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/003/782/337/large/clinton-crumpler-highresscreenshot00044-copy.jpg?1477435078",
+      "source_type": "primary_artist_final_game_environment",
+      "scope": "Clinton Crumpler : salle voûtée envahie par l’Essaim, piliers décorés, cocons translucides et cordons organiques finaux de Gears 4.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/207fbd1207b7/research_stages_v11/swarm_environment_4.jpg",
+      "reference_sha256": "f5230d3b34477f7cd3aa9b2d1610aeb63ac051638927f95ca541f3574cbcd548"
+    },
+    {
+      "page_url": "https://ccrumpler.artstation.com/projects/zW3l6",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/003/782/341/large/clinton-crumpler-ingame-01-copy.jpg?1477435082",
+      "source_type": "primary_artist_final_game_environment",
+      "scope": "Clinton Crumpler : gros plan des cocons, vrilles et matières humides de l’Essaim en jeu; source de détails matériels, sans prétendre reproduire cette grotte exacte.",
+      "visual_reference_used": true,
+      "reference_local_path": "/workspace/scratch/207fbd1207b7/research_stages_v11/swarm_environment_0.jpg",
+      "reference_sha256": "01bc83c1f34b73dfece7e45e18af84a74e68dba426213f2d84f8493d16b237e5"
+    }
+  ],
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-e066da22-085a-410d-b47f-fb81e8eb146e.png",
+  "output": {
+    "format": "PNG",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "bytes": 2723069,
+    "sha256": "89831ec30c08374180e6191ce7ec68624b67390c52a04cb59d85f76e7935ab82"
+  }
+}

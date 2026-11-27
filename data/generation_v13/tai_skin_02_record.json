@@ -1,0 +1,110 @@
+{
+  "category": "costume",
+  "pass_date": "2026-11-27",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "purpose": "reference_fullbody",
+  "id": "tai_skin_02",
+  "subject_id": "tai_skin_02",
+  "costume_id": "tai_skin_02",
+  "character_id": "tai",
+  "name": "Tai Kaliso — campagne E-Day",
+  "source_game": "Gears of War: E-Day",
+  "catalog_target_game": "Gears of War: E-Day",
+  "variant": "Tai E-Day — modèle final de campagne à établir",
+  "variant_relation": "target_version_unconfirmed",
+  "asset_path": null,
+  "prompt": null,
+  "has_image": false,
+  "status": "reference_research_pending",
+  "generation_status": "reference_research_pending",
+  "generation_attempted": false,
+  "generation_attempts": 0,
+  "generation_attempt_count_this_pass": 0,
+  "engine": null,
+  "generation_method": "reference_research_only",
+  "quality_state": "reference_incomplete",
+  "reason": "La présence de Tai dans Gears of War: E-Day est confirmée par Xbox. Un concept officiel complet avant/arrière est accessible, mais sa publication précise qu'il s'agit d'un travail de concept. Aucun modèle final de campagne en pied permettant de vérifier les changements entre concept et jeu n'a été établi. Ce concept n'est donc pas utilisé comme modèle final ; la variante promotionnelle Bloodied Hunter n'est pas substituée au costume de campagne.",
+  "missing_reference_reason": "La présence de Tai dans Gears of War: E-Day est confirmée par Xbox. Un concept officiel complet avant/arrière est accessible, mais sa publication précise qu'il s'agit d'un travail de concept. Aucun modèle final de campagne en pied permettant de vérifier les changements entre concept et jeu n'a été établi. Ce concept n'est donc pas utilisé comme modèle final ; la variante promotionnelle Bloodied Hunter n'est pas substituée au costume de campagne.",
+  "notes": [
+    "Le concept Regin Wellander/MOOD est inspecté et conservé comme preuve de développement, sans certification de correspondance au modèle final.",
+    "Les modèles de Marcus et Dom E-Day du lot antérieur ne documentent pas Tai. Aucun appel au générateur."
+  ],
+  "sources": [
+    {
+      "page_url": "https://news.xbox.com/en-us/2026/06/07/gears-of-war-eday-direct-xbox-games-showcase-2026/",
+      "source_type": "official_xbox_game_announcement",
+      "scope": "Annonce officielle confirmant Tai dans E-Day ; n'établit pas ici une vue finale complète du costume de campagne.",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://www.artstation.com/artwork/ayy8E2",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/103/404/973/large/regin-wellander-gears-of-war-e-day-mood-tai-01.jpg?1792585783",
+      "source_type": "first_party_artist_development_concept_not_final_model",
+      "scope": "Regin Wellander/MOOD Visuals, avec Laurine Tournois : concept de Tai E-Day en pied avant/arrière. L'image et son crédit identifient explicitement du concept art ; le modèle final n'est pas corroboré.",
+      "visual_reference_used": false,
+      "reference_visually_inspected": true,
+      "excluded_as_final_model": true,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v13_classic/tai_concept.jpg",
+      "reference_sha256": "7319cd04387b50722792fe69c33ac2b64554549b6b8766f8fd544a07ace618d1",
+      "reference_dimensions": [
+        1920,
+        1476
+      ]
+    },
+    {
+      "page_url": "https://bananachu.artstation.com/projects/6vv0mw",
+      "source_type": "first_party_artist_head_concept_metadata",
+      "scope": "Kev Chu, Tai Kaliso Legacy Design : étude de tête/paintover de développement. Page repérée ; images non déclarées inspectées et aucun corps final établi.",
+      "visual_reference_used": false,
+      "reference_visually_inspected": false
+    }
+  ],
+  "research_log": [
+    {
+      "url": "https://www.xbox.com/en-US/games/gears-of-war-eday",
+      "result": "Page officielle consultée ; aucune vue intégrale exploitable du Tai de campagne établie."
+    },
+    {
+      "url": "https://news.xbox.com/en-us/2026/06/09/gears-of-war-e-day-gameplay-reveal-deep-dive-official-xbox-podcast-2/",
+      "result": "Contexte officiel sur Tai et l'interprétation dans E-Day ; pas de modèle final en pied inspecté."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=iP-EGQaQLEE",
+      "result": "Vidéo officielle Bloodied Hunter Tai repérée. Variante de skin distincte et vidéo non visionnée ; exclue de la validation du costume de campagne."
+    }
+  ],
+  "qa": {
+    "reference_visually_inspected": true,
+    "visually_inspected": false,
+    "output_visually_inspected": false,
+    "single_character": null,
+    "full_body_in_frame": null,
+    "transparent_background": null,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "alpha_measured": false,
+    "framing_measured": false,
+    "observations": [
+      "Aucune image générée pour cette cible dans cette passe. Le journal documente la recherche et la limite constatée."
+    ],
+    "remaining_checks": [
+      "La présence de Tai dans Gears of War: E-Day est confirmée par Xbox. Un concept officiel complet avant/arrière est accessible, mais sa publication précise qu'il s'agit d'un travail de concept. Aucun modèle final de campagne en pied permettant de vérifier les changements entre concept et jeu n'a été établi. Ce concept n'est donc pas utilisé comme modèle final ; la variante promotionnelle Bloodied Hunter n'est pas substituée au costume de campagne."
+    ]
+  },
+  "history_check": {
+    "baseline_commit": "3d12276302c040f05e5452de073dc3a67470554f",
+    "all_generation_directories_and_archives_checked": true,
+    "exact_subject_previously_attempted": false,
+    "notes": "Les historiques Tai Gears 2 sont distincts de Tai E-Day. Aucun appel antérieur retrouvé pour cette cible exacte."
+  },
+  "source_urls": [
+    "https://news.xbox.com/en-us/2026/06/07/gears-of-war-eday-direct-xbox-games-showcase-2026/",
+    "https://www.artstation.com/artwork/ayy8E2",
+    "https://bananachu.artstation.com/projects/6vv0mw"
+  ],
+  "reference_images": []
+}

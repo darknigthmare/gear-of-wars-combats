@@ -1,0 +1,79 @@
+{
+  "id": "boss_dr1_g4",
+  "name": "DR-1 DeeBee",
+  "source_game": "Gears of War 4",
+  "variant": "Gears of War 4 — DR-1 bleu avec Overkill",
+  "prompt": "Use case: identity-preserve. Produce one static full-body DR-1 DeeBee from Gears of War 4 using the attached complete in-game model render as the exact visual reference. One intact blue DR-1 robot only, in one stationary pose, no other units or people. Preserve its tall broad mechanical build and original industrial anatomy: dark cobalt-blue armor plates with worn pale edges, black articulated joints, orange-red face sensors, vertical segmented face plate, two large circular chest fans, triangular chest grille, thick layered shoulders, orange collar vents, exposed hydraulic elbows, piston knees, tall rectangular shin guards, and heavy square mechanical feet. Preserve the original grey edging and restrained ochre trim. Keep the standard four-barrel Overkill shown in the reference, held horizontally with both hands at waist level and angled slightly downward, no firing. Reproduce the Overkill's blue boxy body and four circular orange-rimmed barrel openings; do not substitute another weapon. Keep mechanical details, plate shapes, relative proportions and asymmetry close to the reference, no Gears 5 Protector redesign. Pose the robot at a shallow three-quarter view facing screen-right, standing calmly with both feet planted, entire body and weapon visible. Rotate in space rather than flipping lettering or hand placement. High-detail realistic game render suitable as a single 2D raster sprite, crisp controlled edges, neutral soft studio lighting. True transparent alpha background. No visible backdrop, ground, cast shadow, energy effects, glow halo, motion blur, text, watermark or presentation board. Portrait framing with camera pulled back so the entire figure from upper head to feet occupies no more than 76 percent of the canvas height, with generous clean transparent margins at every side; do not crop armor, gun, hands or feet. Single pose only, no animation sheet.",
+  "sources": [
+    {
+      "page_url": "https://gearsofwar.fandom.com/wiki/DR-1",
+      "image_url": "https://vignette.wikia.nocookie.net/gearsofwar/images/b/ba/DB-DR-1.jpg/revision/latest",
+      "source_type": "game_model_render_on_secondary_mirror",
+      "scope": "Rendu complet DR-1 bleu de Gears4 avec Overkill quatre canons, fichier DB-DR-1.jpg indexé par le wiki. Inspecté localement avant génération. Hébergement secondaire ; attribution individuelle du rendu non vérifiée.",
+      "visual_reference_used": true,
+      "reference_sha256": "4a255ae48039572b7b70a777b19ee888bb99ea5d326e237aeeadc5f0f2eef907"
+    },
+    {
+      "page_url": "https://primagames.com/eguides/gears-of-war-4-eguide/enemy-forces/deebees",
+      "source_type": "licensed_game_guide",
+      "scope": "Guide Gears4 confirmant le DR-1 et ses équipements Overkill/Tri-Shot/RL-4 ; contexte d'édition, pas de référence pixels supplémentaire.",
+      "visual_reference_used": false
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "orientation_facing_right": true,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Un DR-1 bleu intact seul avec Overkill à quatre canons, pose fixe en trois quarts vers la droite, pieds et arme entièrement visibles.",
+      "Ventilateurs pectoraux, capteurs orange, genoux hydrauliques et grands protège-tibias proches de la référence Gears4. Les inscriptions, rivets, assemblages des mains et proportions précises restent non certifiés.",
+      "Alpha réel vérifié ; marges alpha≥128 gauche/haut/droite/bas : 180/137/138/101 px.",
+      "La hauteur occupée dépasse les 76 % demandés, mais aucun pied, canon ou élément de tête n'est coupé. PNG natif 1025×1534 conservé sans rééchantillonnage."
+    ],
+    "remaining_checks": [
+      "Comparer chaque pièce d'armure et la géométrie de l'Overkill au modèle Gears4.",
+      "Contrôler les franges sur plusieurs fonds et définir le pivot d'intégration. Pas d'animation produite."
+    ]
+  },
+  "subject_id": "boss_dr1_g4",
+  "category": "boss",
+  "catalog_target_game": "Gears of War 4",
+  "purpose": "reference_fullbody",
+  "variant_relation": "target_version_candidate",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "has_image": true,
+  "asset_path": "assets/bosses_v9/dr1_gears4_fullbody.png",
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1025,
+    "height": 1534,
+    "bytes": 1283627,
+    "sha256": "d4f27b4cbd8f5b4dbab2c21284209c41254ec7a4d2f32c5bd984d0339e2843a8",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.6879664196902725,
+    "subject_bbox_alpha_ge_128": [
+      180,
+      137,
+      887,
+      1433
+    ],
+    "subject_margins_ltrb_px": [
+      180,
+      137,
+      138,
+      101
+    ]
+  }
+}

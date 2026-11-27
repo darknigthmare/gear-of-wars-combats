@@ -1,0 +1,76 @@
+{
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "variant_relation": "target_version_candidate",
+  "category": "stage",
+  "purpose": "stage_master",
+  "animation_status": "not_requested_this_pass",
+  "canonical_fidelity_validated": false,
+  "has_image": true,
+  "id": "hollow_lake_gears2_boat_master_v10",
+  "subject_id": "stage_hollow_lake",
+  "name": "Lac des Hollows — pont du bateau locuste",
+  "source_game": "Gears of War 2 — Displacement / Brackish Waters",
+  "catalog_target_game": "Gears of War 2",
+  "variant": "Gears of War 2 — lac souterrain depuis un pont de bateau adapté au combat latéral",
+  "asset_path": "assets/stages_v10/hollow_lake_gears2_boat_master.png",
+  "prompt": "Create ONE opaque wide 16:9 static HD 2D fighting-game stage of the HOLLOW LAKE from original GEARS OF WAR 2 (2008), at the underground boat journey between Displacement and Brackish Waters. Use the three attached actual original-game screenshots only for environment and vessel details. Recompose them as a level lateral battle arena ON THE DECK of the Locust gunboat: a broad unbroken flat band of dark weathered metallic deck plating across the bottom 23% of the frame, with the original boat's curved embossed/inset plating, dull bronze edges, industrial rivets and low armored gunwale along the rear of that band. No turret or weapons. Beyond the rail stretches dark green-gray lake water, subtle ripples and mist. Immense naturally eroded gray-green cavern walls and arches, jagged tall stalagmite islands and hanging stalactites form the cavern backdrop from screenshot 1, with damp mineral folds, very subdued pale green-yellow mineral reflections and cool teal shadows. The lake and pillar silhouettes glimpsed behind the monster in screenshot 3 set the distant atmosphere; entirely remove that monster, with no creature silhouette remaining. The other Locust boat in screenshot 2 is used only as design reference for THIS one deck, do not depict a second ship. Preserve the dark olive/brass industrial metal and blue-green subterranean palette of the original captures; not a generic glowing crystal fantasy cave, no giant blue crystals. Strong horizontal combat floor, modest depth at the foreground and broad atmosphere behind it; convincing detailed painted 2D environmental art, no animation. Exactly one empty location, no characters, no people, no enemies, no Leviathan, no corpses, no gunfire, no blood, no loot, no bright weapon pickups, no interface, no text, logo, border or watermark. Remove all UI and soldiers from the references. One flattened stage master, no panels or parallax layers.",
+  "sources": [
+    {
+      "page_url": "https://primagames.com/eguides/gears-war-2-eguide/act-iii-gathering-storm/chapter-5-displacement",
+      "image_url": "https://primagames.com/eguides/media/_w/700/files/eguide_assets/gears-war-2-eguide/092-189_act_03-05-web-resources/image/A3C5E23.jpg",
+      "source_type": "official_licensed_strategy_guide",
+      "scope": "Capture finale de Displacement, arche rocheuse et passage lacustre des Hollows; soldats et caisses occultantes exclus.",
+      "visual_reference_used": true,
+      "reference_sha256": "0584d6051e9e8143f679e31530fee7aedb34b506ae11f2c66f86144998e4a5c0"
+    },
+    {
+      "page_url": "https://primagames.com/eguides/gears-war-2-eguide/act-iii-gathering-storm/chapter-5-displacement",
+      "image_url": "https://primagames.com/eguides/media/_w/700/files/eguide_assets/gears-war-2-eguide/092-189_act_03-05-web-resources/image/A3C5E22.jpg",
+      "source_type": "official_licensed_strategy_guide",
+      "scope": "Capture finale de Displacement, pont et bordages métalliques des bateaux locustes; référence du support de combat.",
+      "visual_reference_used": true,
+      "reference_sha256": "ed91305f469b7c79446abfb97ab6cd4685e1636899765083897b99e239fa13a3"
+    },
+    {
+      "page_url": "https://primagames.com/eguides/gears-war-2-eguide/act-iii-gathering-storm/chapter-6-brackish-waters",
+      "image_url": "https://primagames.com/eguides/media/_w/700/files/eguide_assets/gears-war-2-eguide/092-189_act_03-05-web-resources/image/A3C6E11.jpg",
+      "source_type": "official_licensed_strategy_guide",
+      "scope": "Capture Brackish Waters, lac, piliers lointains et brume derrière le Léviathan; créature exclue du décor.",
+      "visual_reference_used": true,
+      "reference_sha256": "ef2e29e286727b44fcaa6b0f4660f38e8230b245a7a10b7818ff70b48f304e93"
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_stage": true,
+    "transparent_background": false,
+    "production_ready": false,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "observations": [
+      "Lac vert sombre, brume, grande arche rocheuse, concrétions et pont métallique riveté issus des captures Gears of War 2; aucun Léviathan, soldat ou interface visible.",
+      "Un seul sol de bateau continu et horizontal au premier plan. Le support correspond au bateau de la séquence, pas à un pont architectural attesté.",
+      "Le panoramique combine les éléments visibles de deux chapitres successifs. Proportions des concrétions, partie occultée par la créature et largeur du bateau reconstruites; géométrie exacte non validée."
+    ],
+    "remaining_checks": [
+      "Fixer le moment précis de la séquence lacustre pour comparer la disposition des piliers et le plafond de la caverne.",
+      "Vérifier la largeur du pont de bateau et l’échelle des combattants avant intégration."
+    ],
+    "alpha_channel_present": false,
+    "opaque": true
+  },
+  "output": {
+    "format": "PNG",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "bytes": 2617707,
+    "sha256": "d0c105fd3caa9dd404e15e2531408c3f10979030930d475beceadf49c464108e"
+  },
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-b334a775-a2aa-4826-afdf-164a8d90ae1b.png",
+  "fidelity_1to1_certified": false,
+  "production_ready": false
+}

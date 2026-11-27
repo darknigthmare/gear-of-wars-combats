@@ -1,0 +1,87 @@
+{
+  "id": "boss_reaver",
+  "subject_id": "boss_reaver",
+  "name": "Reaver",
+  "category": "boss",
+  "source_game": "Gears of War 2",
+  "catalog_target_game": "Gears of War 2",
+  "variant": "Gears of War 2 — Reaver, pose fixe",
+  "purpose": "reference_fullbody",
+  "variant_relation": "target_version_candidate",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "has_image": true,
+  "canonical_fidelity_validated": false,
+  "asset_path": "assets/bosses_v10/reaver_gears2_mount_only_fullbody.png",
+  "prompt": "Use case: stylized-concept. Asset type: a single static full-body mounted-creature game sprite. Create exactly ONE Reaver mount from Gears of War 2, entirely alone with its two-seat harness EMPTY, no pilot, no gunner, no human or Locust character. First reference is the complete original 2008 Epic Games clay model: use it closely for all anatomy, its bulbous body, low raptor-like head, tiny pale eyes, long curved tusks surrounding the jaw, tooth rows, paired small hooked underbelly limbs and the long muscular trailing tentacles with serrated bony talon tips. Preserve the authentic attached saddle, segmented straps, mechanical fittings, rear empty seat and the short cannon mounted just above the head. Second reference is Gears of War 2 gameplay and is used ONLY for material colors: mottled pale warm grey and tan organic skin, dark brown folds, dirty ochre-gunmetal saddle, subdued red straps and small original harness lamps. Do not copy any of its characters, scene, weapon fire, logo or framing. Match the complete clay reference proportions and tentacle arrangement. Subject displayed in a neutral suspended base pose, shallow three-quarter view facing SCREEN-RIGHT, head at the right, all elongated tentacles gently trailing to the left, no attack or motion lines. Every tentacle tip, tusk and piece of mounted equipment must be fully in frame. Detailed realistic original-game-style textured rendering, soft neutral studio illumination, clear silhouette. True transparent alpha with no floor, scenery, cast shadow, vignette, gradient, fog, visible checkerboard, caption or watermark. Landscape canvas; pull camera back for at least ten percent empty transparent margin around the entire mount, all appendages within central seventy-six percent of width and height. One complete creature with its equipment, one fixed pose, no duplicates or animation frames.",
+  "sources": [
+    {
+      "page_url": "https://gearsofwar.fandom.com/wiki/Reaver",
+      "image_url": "https://vignette.wikia.nocookie.net/gearsofwar/images/3/3b/Reaver.jpg/revision/latest",
+      "source_type": "original_2008_epic_model_render_on_secondary_mirror",
+      "scope": "Rendu de modèle complet portant la mention ©2008 courtesy of Epic Games. Référence directe des volumes, tentacules, défenses et équipement ; matériau clay, donc couleurs finales non définies par ce rendu.",
+      "visual_reference_used": true,
+      "reference_sha256": "046f11f3dd67663ca9dada1b8e61341f4dc7ff1cbe3246600a4b655842a5ad4b"
+    },
+    {
+      "page_url": "https://gearsofwar.fandom.com/wiki/Reaver",
+      "image_url": "https://vignette.wikia.nocookie.net/gearsofwar/images/4/43/Reaver_Pursuit.jpg/revision/latest",
+      "source_type": "gears2_gameplay_screenshot_on_secondary_mirror",
+      "scope": "Capture de la poursuite montée dans Gears of War 2 avec marque IGN, utilisée seulement pour palette et matériaux ; personnages et décor exclus du résultat.",
+      "visual_reference_used": true,
+      "reference_sha256": "a2279c589154a7b1238771860a9ce29068ca5ae66ecb379a5bd5db046fc9bba4"
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "orientation_facing_right": true,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Monture Reaver seule : harnais et selle vides, aucun cavalier ni pilote. Couvre volontairement une rencontre partielle, pas l'unité montée complète.",
+      "Pose fixe suspendue de profil légèrement trois quarts, tête vers la droite et tentacules vers la gauche. La vue reste proche du profil du rendu Epic2008.",
+      "Les trois grandes extrémités proches sont entièrement visibles ; disposition et occlusion des membres éloignés à valider. La palette est reconstituée depuis une capture, non validée comme texture finale exacte.",
+      "PNG natif RGBA copié sans transformation des pixels ; alpha réel vérifié. Les contours et pixels partiellement transparents nécessitent encore une inspection sur fonds variés.",
+      "Marges alpha≥128 gauche/haut/droite/bas : 59/164/61/146 px. Le sujet reste entier ; la consigne de 10 % de marge n’est pas atteinte sur tous les bords.",
+      "Aucune animation demandée ni produite. Candidat généré, fidélité 1:1 et conformité canonique non certifiées.",
+      "Revue croisée et analyse alpha : 4 684 pixels rouges saturés et 6 948 jaunes dans les franges, alpha maximal 2/255 ; aucun de ces pixels à alpha≥16. Les franges flashy de certains aperçus sont donc presque entièrement transparentes et ne constituent pas un contour opaque."
+    ],
+    "remaining_checks": [
+      "Contrôler la palette, le nombre et l'occlusion des tentacules, ainsi que les bords alpha colorés sur fonds clair et foncé.",
+      "Contrôler les franges alpha et préparer des marges d’atlas suffisantes avant intégration."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1753,
+    "height": 897,
+    "bytes": 1286367,
+    "sha256": "d7588143fc13a4397e9be4843131a25686fe9f768b80ecb6c3363e0ea18ac6e9",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.7067870908988,
+    "subject_bbox_alpha_ge_128": [
+      59,
+      164,
+      1692,
+      751
+    ],
+    "subject_margins_ltrb_px": [
+      59,
+      164,
+      61,
+      146
+    ]
+  },
+  "fidelity_1to1_certified": false,
+  "production_ready": false
+}

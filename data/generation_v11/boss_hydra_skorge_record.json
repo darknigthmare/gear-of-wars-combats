@@ -1,0 +1,66 @@
+{
+  "category": "boss",
+  "variant_relation": "target_version_candidate",
+  "status": "reference_research_pending",
+  "quality_state": "missing_reference",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "generation_attempted": false,
+  "has_image": false,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "id": "boss_hydra_skorge",
+  "subject_id": "boss_hydra_skorge",
+  "name": "Hydra de Skorge",
+  "source_game": "Gears of War 2",
+  "catalog_target_game": "Gears of War 2",
+  "variant": "Hydra Gears of War 2 — monture seule",
+  "purpose": "reference_fullbody",
+  "prompt": null,
+  "asset_path": null,
+  "original_output_path": null,
+  "sources": [
+    {
+      "page_url": "https://primagames.com/eguides/gears-war-2-eguide/locust-databank/the-locust",
+      "image_url": "https://primagames.com/eguides/media/files/eguide_assets/gears-war-2-eguide/001-031_cog_training-web-resources/image/A5C1E09.jpg",
+      "source_type": "licensed_official_guide_gameplay_capture",
+      "scope": "Capture inspectée : tête/bouche et haut du blindage de la Hydra de G2, cavaliers et extrémités hors champ. Cadrage très partiel ; ne permet pas de reconstruire une monture entière avec exactitude.",
+      "visual_reference_used": false,
+      "reference_local_path": "/workspace/scratch/207fbd1207b7/research_gears_v11/bosses/hydra_g2_prima_databank.jpg",
+      "reference_sha256": "466cee0b7526447797bde2de5bdee5f1efe93cdd3a0d8f0de0abc2a4779375d7"
+    },
+    {
+      "page_url": "https://primagames.com/eguides/gears-war-2-eguide/act-v-aftermath/chapter-1-escape",
+      "source_type": "licensed_official_guide_encounter",
+      "scope": "Chapitre Escape confirme la monture de Skorge, la poursuite et l’édition. Plusieurs captures récupérées ; aucune vue de modèle entier suffisamment isolé n’a été validée pendant cette passe.",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://www.awn.com/news/gnomon-workshop-releases-new-gears-war-creature-design-dvd",
+      "source_type": "gnomon_press_release_mirror",
+      "scope": "Piste documentaire du concept de James Hawkins ; aucun rendu final G2 complet correspondant n’a pu être inspecté dans cette passe.",
+      "visual_reference_used": false
+    }
+  ],
+  "qa": {
+    "visually_inspected": false,
+    "reference_image_visually_inspected": true,
+    "single_character": null,
+    "full_body_in_frame": null,
+    "transparent_background": null,
+    "orientation_facing_right": null,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Aucune génération tentée et aucun PNG créé. Référence finale entière encore insuffisante pour une monture seule fidèle.",
+      "Ne pas réutiliser la Hydra de Tactics : le dessin du casque, les éléments lumineux et le matériel dorsal de G2 diffèrent nettement.",
+      "Une tête seule serait possible à partir du guide mais ne satisfait pas à elle seule la cible de monture complète ; sujet gardé en attente."
+    ],
+    "remaining_checks": [
+      "Obtenir et inspecter un rendu de modèle final G2 ou plusieurs vues de la monture entière sans cavalier.",
+      "Vérifier la disposition du blindage, les pods, le nombre et la longueur des appendices du modèle G2 avant génération."
+    ]
+  }
+}

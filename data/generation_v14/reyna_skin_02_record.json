@@ -1,0 +1,257 @@
+{
+  "schema_version": "1.0",
+  "id": "reyna_skin_02",
+  "subject_id": "reyna_skin_02",
+  "character_id": "reyna",
+  "costume_id": "reyna_skin_02",
+  "name": "Reyna Diaz humaine / Outsider — Gears of War 4",
+  "category": "costume",
+  "source_game": "Gears of War 4",
+  "catalog_target_game": "Gears of War 4",
+  "variant": "Reyna Diaz humaine Outsider — modèle final Gears of War 4",
+  "variant_relation": "target_version_candidate",
+  "purpose": "costume_reference_fullbody",
+  "pass_date": "2026-11-27",
+  "status": "generated_reference_pending_validation",
+  "generation_attempted": true,
+  "generation_attempt_count": 3,
+  "edit_attempt_count_for_hair": 1,
+  "retries": 0,
+  "has_image": true,
+  "asset_path": "assets/costumes_v14/reyna_human_g4_hairfix.png",
+  "local_output_path": "/workspace/scratch/f809e6610dc2/generated_v14/reyna_human_g4_hairfix.png",
+  "original_output_path": "/workspace/scratch/f809e6610dc2/generated_images/exec-6cbaa21c-b3c4-4a2c-9399-9d6b5a26d82b.png",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "transparent_background": true,
+  "prompt": "Use case: precise-object-edit.\nAsset type: a single native transparent PNG character reference, static and full-body.\nInput image 1 is the EDIT TARGET: the existing generated Reyna human Outsider Gears of War 4 sprite. Input image 2 is the official final production turnaround, used only to establish correct hairstyle laterality.\n\nMake ONE localized correction to the target hairstyle. The currently visible shaved scalp and temple directly above her visible ear, on the LEFT side of the picture, are on her ANATOMICAL RIGHT, the same side as the braid. Fill that shaved patch with dark brown hair matching her existing hair, flowing naturally from the crown into the braid. Her anatomical RIGHT side must have hair. The shaved side of the official hairstyle is her ANATOMICAL LEFT, which is the far side of the head in this pose and should remain largely hidden.\n\nPreserve the original face, facial features, skin, ear, expression, head direction, braid on the ANATOMICAL RIGHT shoulder, tattoo on the ANATOMICAL LEFT arm, all clothing, circular skirt motifs, necklace, straps, belt, bracelets, gloves, knife, boots, body proportions, exact pose, lighting and colour as identically as possible. Keep all pixels outside the small scalp/hair correction area unchanged as closely as possible. Do not move the braid or tattoo. Do not mirror the character, redraw the body or change the outfit. Do not make changes to framing, scale or margins.\nKeep the full-body subject and its existing 1024 by 1536 portrait composition. Preserve genuine transparent alpha outside the subject. This is not an alpha-cleanup or margin edit.\nOne subject, one static pose. No text, labels, logos, panels, scenery, floor, shadows, effects or additional objects.",
+  "prompt_sha256": "f3c20f0bb9d12d25c3464b9dc76f1bf6c49a705b4768d40b376fb071e8a8d2a0",
+  "input_images": [
+    {
+      "role": "edit_target",
+      "path": "/workspace/scratch/3c791759fb15/gear-of-wars-combats/assets/costumes_v14/reyna_human_g4.png",
+      "repo_path_at_edit": "assets/costumes_v14/reyna_human_g4.png",
+      "sha256": "21adc45fa2889c4dd72e6959e0f97653eb83b5c471ff7514b52ac40569da6715",
+      "visually_inspected": true,
+      "current_repo_path": "rejected_candidates/costumes_v14/reyna_human_g4_initial.png",
+      "current_local_path": "/workspace/scratch/3c791759fb15/gear-of-wars-combats/rejected_candidates/costumes_v14/reyna_human_g4_initial.png",
+      "relocation_note": "Le chemin path/repo_path_at_edit conserve l’entrée exacte de la génération ; les mêmes octets sont maintenant archivés sous current_repo_path."
+    },
+    {
+      "role": "canonical_hairstyle_laterality_reference",
+      "path": "/workspace/scratch/f809e6610dc2/references_v14/reyna_g4_final.jpg",
+      "sha256": "b863d6c64ebbad49cfa353a48bc988c5906063e8d8fb4378c744b29fc44ddb66",
+      "page_url": "https://www.zbrushcentral.com/t/gears-of-war-4-art-dump/206321",
+      "image_url": "https://www.zbrushcentral.com/uploads/default/original/3X/3/3/33ce37a0270d862ad45ef6131e76f2b24e56380f.jpeg",
+      "author": "Heber Alvarado (corps), Michelle Zhang (tête) — The Coalition",
+      "edition": "Gears of War 4",
+      "visually_inspected": true
+    }
+  ],
+  "source_urls": [
+    "https://www.zbrushcentral.com/t/gears-of-war-4-art-dump/206321",
+    "https://heber.artstation.com/projects/LxX6v"
+  ],
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2015482,
+    "sha256": "2f286efc3e8da89109c2008f86c5a5fb3222cb2fcbff8c6726ade2e60b90cff1",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.6464659372965494,
+    "alpha_nonzero_bbox": [
+      74,
+      24,
+      924,
+      1536
+    ],
+    "alpha_gt8_bbox": [
+      76,
+      26,
+      880,
+      1526
+    ],
+    "subject_bbox_alpha_ge_128": [
+      77,
+      28,
+      880,
+      1525
+    ],
+    "subject_margins_ltrb_px": [
+      77,
+      28,
+      144,
+      11
+    ],
+    "alpha_gt8_margins_ltrb_px": [
+      76,
+      26,
+      144,
+      10
+    ],
+    "alpha0_pixel_count": 1016803,
+    "alpha1to8_pixel_count": 21582,
+    "alpha9to127_pixel_count": 6845,
+    "alpha255_pixel_count": 0,
+    "edge_alpha_max_ltrb": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "has_real_alpha": true,
+    "native_copy_verified": true,
+    "postprocessed": false
+  },
+  "qa": {
+    "image_visually_inspected": true,
+    "official_reference_compared": true,
+    "subject_count": 1,
+    "pose_count": 1,
+    "full_body_visible": true,
+    "facing": "trois-quarts léger vers la droite",
+    "strict_side_profile": false,
+    "canonical_hair_laterality_visible_side_corrected": true,
+    "far_side_shaved_scalp_not_visible": true,
+    "observations": [
+      "La zone précédemment rasée au-dessus de l'oreille droite anatomique visible porte maintenant des cheveux bruns, cohérents avec le côté natte du modèle officiel.",
+      "Natte sur épaule anatomique droite et tatouage sur bras anatomique gauche préservés.",
+      "Visage, vêtement écru/olive asymétrique, harnais, collier, ceinture, couteau, bracelets, gants et bottes restent globalement cohérents avec la planche finale.",
+      "Les motifs textiles, les traits du tatouage, certaines coutures, boucles et nuances du visage ont été repeints ; la sortie ne conserve donc pas les pixels du corps à l'identique.",
+      "La comparaison au modèle officiel ne révèle pas de régression canonique précise justifiant de privilégier l'original dont le rasage est inversé.",
+      "Le côté gauche anatomique, qui doit rester rasé, est éloigné et essentiellement caché dans cette pose : il n'est pas certifiable dans cette seule vue.",
+      "Six points du halo apparent sont alpha=0 ; la couleur RGB stockée à ces points n'est pas visible en composition alpha correcte."
+    ],
+    "halo_samples": {
+      "(180,500)": [
+        22,
+        16,
+        13,
+        0
+      ],
+      "(200,300)": [
+        6,
+        4,
+        4,
+        0
+      ],
+      "(300,250)": [
+        29,
+        21,
+        17,
+        0
+      ],
+      "(700,100)": [
+        42,
+        29,
+        23,
+        0
+      ],
+      "(780,1100)": [
+        40,
+        35,
+        30,
+        0
+      ],
+      "(200,1250)": [
+        8,
+        6,
+        3,
+        0
+      ]
+    },
+    "remaining_checks": [
+      "Motifs exacts du tatouage et des tissus, visage, bijoux, coutures et accessoires non certifiés 1:1.",
+      "Vue trois-quarts, non orthographique ; latéralité du scalp éloigné non visible.",
+      "Marges verticales alpha>8 limitées à 26 px en haut et 10 px en bas ; aucune correction de marges demandée ni réalisée.",
+      "Faibles alpha périphériques conservés ; alpha maximal 254 et résidu alpha=1 au bord inférieur.",
+      "Variante de gameplay humaine distincte à définir ; aucun pouvoir de la Reine de l'Essaim attribué à cette référence."
+    ],
+    "pixel_comparison_context": {
+      "body_roi": "intersection des sujets alpha>=128, y>=240",
+      "samples": 491038,
+      "rgb_mean_absolute_delta": [
+        13.978950712572143,
+        11.884882636374375,
+        9.48303389961673
+      ],
+      "interpretation": "Mesure d'altération des pixels hors coiffure uniquement ; elle ne prouve pas à elle seule une régression de fidélité au modèle officiel."
+    },
+    "recommendation": "select_hairfix_candidate",
+    "recommendation_reason": "Correction d'une asymétrie canonique vérifiable, invariants d'identité et de tenue globalement préservés, absence de régression canonique précise identifiée. Conserver toutes les réserves de microdétails et de marges.",
+    "selection_owner": "root",
+    "repository_modified_by_reviewer": false,
+    "root_visual_review": [
+      "Le modèle final et les trois sorties ont été comparés ; la correction de latéralité visible apporte un gain vérifiable.",
+      "Les changements de motifs et de traits sont signalés, sans certification ; les marges étroites demeurent."
+    ]
+  },
+  "requires_distinct_gameplay_variant": true,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "github_blob": {
+    "repository": "darknigthmare/gear-of-wars-combats",
+    "sha": "60af638847c9f9c6f946c63a36e79b6c9a42fc7e",
+    "encoding": "base64",
+    "commit_or_ref_created": false,
+    "local_git_blob_sha_verified": true
+  },
+  "active": true,
+  "selected": true,
+  "generation_status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "source_initial": "rejected_candidates/costumes_v14/reyna_human_g4_initial.png",
+  "source_initial_sha256": "21adc45fa2889c4dd72e6959e0f97653eb83b5c471ff7514b52ac40569da6715",
+  "sources": [
+    {
+      "page_url": "https://www.zbrushcentral.com/t/gears-of-war-4-art-dump/206321",
+      "image_url": "https://www.zbrushcentral.com/uploads/default/original/3X/3/3/33ce37a0270d862ad45ef6131e76f2b24e56380f.jpeg",
+      "source_author": "Heber Alvarado (corps) et Michelle Zhang (tête) — The Coalition",
+      "source_type": "first_party_final_production_model",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/f809e6610dc2/references_v14/reyna_g4_final.jpg",
+      "reference_sha256": "b863d6c64ebbad49cfa353a48bc988c5906063e8d8fb4378c744b29fc44ddb66",
+      "accessed_date": "2026-11-27",
+      "visually_inspected": true
+    }
+  ],
+  "reference_images": [
+    "/workspace/scratch/3c791759fb15/gear-of-wars-combats/assets/costumes_v14/reyna_human_g4.png",
+    "/workspace/scratch/f809e6610dc2/references_v14/reyna_g4_final.jpg"
+  ],
+  "selection_decision": {
+    "selected": "hair_laterality_corrected_candidate",
+    "reason": "La tempe droite visible est couverte de cheveux comme le côté natte de la référence officielle. Natte droite et tatouage gauche sont conservés. Aucune régression canonique précise justifiant de retenir le rasage inversé n’a été identifiée ; microdétails, côté éloigné et marges restent à vérifier.",
+    "independent_reviewer_agreed": true,
+    "canonical_fidelity_validated": false,
+    "initial_record": "docs/production/revisions_v14/reyna_human_g4_initial_record.json",
+    "alpha_edit_record": "docs/production/revisions_v14/reyna_human_g4_clean_record.json"
+  },
+  "generation_history": [
+    {
+      "operation": "initial_generation",
+      "attempts": 1,
+      "selected": false,
+      "record": "docs/production/revisions_v14/reyna_human_g4_initial_record.json"
+    },
+    {
+      "operation": "alpha_and_margins_edit",
+      "attempts": 1,
+      "selected": false,
+      "record": "docs/production/revisions_v14/reyna_human_g4_clean_record.json"
+    },
+    {
+      "operation": "hair_laterality_edit",
+      "attempts": 1,
+      "selected": true,
+      "record": "docs/production/revisions_v14/reyna_human_g4_hairfix_record.json"
+    }
+  ]
+}

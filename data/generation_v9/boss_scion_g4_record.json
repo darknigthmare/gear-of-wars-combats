@@ -1,0 +1,49 @@
+{
+  "id": "boss_scion_g4",
+  "subject_id": "boss_scion_g4",
+  "name": "Scion",
+  "category": "boss",
+  "source_game": "Gears of War 4",
+  "variant": "Gears of War 4 — Scion avec Dropshot, pose fixe",
+  "purpose": "reference_fullbody",
+  "pass_date": "2026-11-25",
+  "status": "blocked",
+  "quality_state": "blocked_by_image_system",
+  "engine": "built_in_imagegen",
+  "has_image": false,
+  "asset_path": null,
+  "prompt": "Use case: stylized-concept. Asset type: a single detailed static full-body sprite for a 2D Gears of War fighting-game bestiary. Create exactly ONE Scion from Gears of War 4, matching the attached official artbook model render in anatomy, silhouette, original materials, colors and equipment. The attached image is the visual reference. Preserve its bald small head, broad pale grey leathery face and ridged jaw, very heavy muscular torso, rough cracked pale skin, amber crystalline patches around its exposed right shoulder, the dark leather cross-body strap, asymmetrical blackened steel and dark burgundy-red armor plates, engraved belt, coarse red-brown loin panels, broad thigh wraps, shin armor and thick three-toed feet. Keep its original yellow industrial Dropshot held lowered in its LEFT hand as shown, with its bulky black ribbing and circular front: the weapon is part of this one character, not a second object on a display stand. Keep the exact original armor coverage and asymmetry; do not turn this into a Warden, a helmeted heavy Scion, a Gears 5 skin, or a generic ogre. Pose: stationary neutral ready stance, full body at a shallow three-quarter angle facing screen-right, both feet grounded, no firing, no attack motion. Rotate the subject in space rather than flipping the reference; left/right equipment must stay anatomically correct. Crisp high-detail realistic game rendering that reads as a 2D raster sprite, soft neutral lighting showing the surface detail, no painterly sketch. True transparent alpha background, no backdrop, gradient, visible checkerboard, floor, glow halo or cast shadow. Complete figure and weapon isolated, camera pulled back so all extremities occupy at most 75 percent of canvas height and width with generous clear transparent margins on all sides. One subject only, one pose, no animation strip, no collage, no alternate view, no text, no logo, no watermark, no other characters, no blood or injuries.",
+  "error": "moderation_blocked",
+  "request_id": "5a619e0a-53a5-4b29-aace-f1cb3d604d3a",
+  "moderation_stage": "output",
+  "moderation_categories": [
+    "other"
+  ],
+  "sources": [
+    {
+      "page_url": "https://haiweihou.artstation.com/projects/WrZXJ",
+      "image_url": "https://vignette.wikia.nocookie.net/gearsofwar/images/9/98/Haiwei-hou-artbook-swarmscion-l.jpg/revision/latest?cb=20161204122324",
+      "source_type": "original_game_artbook_render_on_secondary_mirror",
+      "scope": "Rendu artbook Scion Gears4 (pose/éclairage/rendu Haiwei Hou), miroir public du wiki. Référence complète inspectée et fournie à l'essai : Scion pâle/cristaux avec Dropshot jaune en main gauche.",
+      "visual_reference_used": true,
+      "reference_sha256": "be4a4df11f59be68b4d16950bebb29f3b42946831f173776bd76bd202b4945c7"
+    },
+    {
+      "page_url": "https://heber.artstation.com/projects/Wz8Qv",
+      "source_type": "original_game_character_artist_portfolio",
+      "scope": "Heber Alvarado confirme la modélisation, les textures, l'éclairage et les poses des Scions pour Gears4.",
+      "visual_reference_used": false
+    }
+  ],
+  "qa": {
+    "visually_inspected": false,
+    "transparent_background": false,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Aucun PNG produit. Refus du système image au stade output, catégorie other.",
+      "Le sujet reste manquant ; aucun autre moteur ni reformulation de contournement."
+    ]
+  }
+}

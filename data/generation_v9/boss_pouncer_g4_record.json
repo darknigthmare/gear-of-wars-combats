@@ -1,0 +1,80 @@
+{
+  "id": "boss_pouncer_g4",
+  "name": "Pouncer",
+  "source_game": "Gears of War 4",
+  "variant": "Gears of War 4 — Pouncer, pose fixe",
+  "prompt": "Use case: stylized-concept. Create one complete static Pouncer creature from Gears of War 4 as a standalone 2D game sprite using the attached Gears 4 artbook render as the visual reference. Exactly one creature and one pose. Preserve the original compact broad quadruped body, four articulated clawed limbs, low head, original facial feelers and mandibles, smooth layered burgundy-red armor shell over blue-grey organic skin, pale soft underside, and the long curved segmented tail terminating in the broad blue-grey spiny fan. Reproduce the specific shell contours, creases, claws, face, proportions and color distribution of this model; it must remain the Pouncer, not the larger Snatcher. Position it in a stationary low resting ready stance, four feet planted, three-quarter view facing screen-right; show the complete raised tail fan and all feet and facial appendages. Rotate it spatially to face right without inventing new anatomy. Detailed realistic game rendering with clean edges, readable surface texture and neutral soft lighting. No attack, no firing, no projectile, no motion blur. A single isolated full-body asset on actual transparent alpha, with no environmental backdrop, gradient, visible checkerboard, ground, cast shadow, rim halo, text or watermark. Pull the camera back: whole creature including tail tip and claws within the central 75 percent of the canvas, generous transparent margin on all four sides. No other subjects, collage or animation frames.",
+  "sources": [
+    {
+      "page_url": "https://haiweihou.artstation.com/projects/qEWJD",
+      "image_url": "https://vignette.wikia.nocookie.net/gearsofwar/images/6/6c/Haiwei-hou-artbook-swarmpouncer-l.jpg/revision/latest",
+      "source_type": "original_game_artbook_render_on_secondary_mirror",
+      "scope": "Rendu Pouncer de l'artbook Gears4, pose/éclairage/rendu Unreal par Haiwei Hou, fichier récupéré sur le miroir public du wiki. Le portfolio primaire confirme les créatures de cette planche. La référence orientée à gauche a été inspectée localement.",
+      "visual_reference_used": true,
+      "reference_sha256": "c33818e89ea8c1ae7251499dee57f34a690475683358ae80083527c4b7075777"
+    },
+    {
+      "page_url": "https://heber.artstation.com/projects/Wz8Qv",
+      "source_type": "original_game_character_artist_portfolio",
+      "scope": "Crédit primaire du modèle Pouncer créé par Dan Roarty, avec révision de sculpture/textures par Heber Alvarado. Consultation textuelle, image non fournie au générateur.",
+      "visual_reference_used": false
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "orientation_facing_right": true,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Pouncer seul, quatre membres, corps quadrupède bas, coque bordeaux, peau bleu-gris, queue segmentée terminée par un éventail épineux. Silhouette complète, sans animation ni autre créature.",
+      "Orientation trois quarts vers la droite obtenue. Les détails du visage, le nombre exact des pointes et les raccords des plaques restent à comparer au modèle original.",
+      "Alpha réel vérifié. Les pixels du halo gris/brun visibles dans certains aperçus sont à alpha nul aux points échantillonnés ; les franges près du contour demandent une vérification sur fonds variés.",
+      "Marges alpha≥128 gauche/haut/droite/bas : 313/29/295/52 px. Les marges verticales généreuses demandées ne sont pas atteintes ; la queue et les pattes ne sont pas coupées.",
+      "PNG natif copié sans transformation des pixels. Fidélité 1:1 non certifiée."
+    ],
+    "remaining_checks": [
+      "Comparer l'anatomie de la tête, les yeux, les mandibules, le nombre de griffes et les pointes de queue au modèle Gears4.",
+      "Contrôler les franges alpha et préparer des marges d'atlas suffisantes avant intégration. Aucune animation demandée ou produite."
+    ]
+  },
+  "subject_id": "boss_pouncer_g4",
+  "category": "boss",
+  "catalog_target_game": "Gears of War 4",
+  "purpose": "reference_fullbody",
+  "variant_relation": "target_version_candidate",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "has_image": true,
+  "asset_path": "assets/bosses_v9/pouncer_gears4_fullbody.png",
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 1861365,
+    "sha256": "610d3e9f404ff07cdb4a2a6b2b4cc8ac3623af751f09a301cd1845b366946d3d",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.7554842631022135,
+    "subject_bbox_alpha_ge_128": [
+      313,
+      29,
+      1241,
+      972
+    ],
+    "subject_margins_ltrb_px": [
+      313,
+      29,
+      295,
+      52
+    ]
+  }
+}

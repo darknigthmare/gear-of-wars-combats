@@ -1,0 +1,121 @@
+{
+  "id": "keegan_skin_02",
+  "subject_id": "keegan_skin_02",
+  "character_id": "keegan",
+  "costume_id": "keegan_skin_02",
+  "name": "Keegan — Onyx Guard Gears 5 Hivebusters",
+  "category": "costume",
+  "source_game": "Gears 5: Hivebusters",
+  "catalog_target_game": "Gears 5: Hivebusters",
+  "variant": "Onyx Guard Keegan — modèle cinématique temps réel final du DLC",
+  "variant_relation": "target_version_requested",
+  "purpose": "reference_fullbody",
+  "pass_date": "2026-11-27",
+  "status": "blocked_generator_refusal",
+  "generation_status": "blocked_generator_refusal",
+  "quality_state": "blocked",
+  "generation_attempted": true,
+  "generation_attempt_count": 1,
+  "has_image": false,
+  "asset_path": null,
+  "original_output_path": null,
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE static isolated full-body character reference cutout for a 2D fighting-game costume.\nSubject: Jeremiah Keegan, precisely the Onyx Guard outfit from the Gears 5 Hivebusters DLC (costume id keegan_skin_02).\nSource references: the TWO attached images are final real-time cinematic production model renders by Alex Bobylev / The Coalition, shown from front and rear. They establish this specific costume from the top of the head through the complete soles of both boots. Reproduce that model's appearance; do not mix the beige Escape/Hivebuster outfit, generic Onyx helmet, concept alternatives, or another edition.\nCreate only ONE Keegan, fully visible head to toe, no duplicate rear view. Human broad muscular stocky build, mature dark brown skin, bald crown with very short dark side hair, thick muttonchop sideburns joined to a wide dark moustache, distinctly bare central chin. Preserve the character's facial proportions.\nPreserve the exact black/charcoal Onyx Guard armor construction: a large raised neck collar; rounded broad carbon-fiber pauldrons with metal borders, exposed shotgun shells strapped to his anatomical RIGHT pauldron; two large round chest disks with triangular center plates and small yellow triangles; blue light bars beside the chest disks, the center chest and high shoulder straps; ribbed black armored undersuit and unarmored flexible elbow joints; asymmetric armored forearm bracers with small blue LEDs; padded black gloves; mechanical gray belt buckle, gray-green front belt pouches; strapped sidearm holster on the anatomical RIGHT thigh; charcoal trouser material, large black armored kneecaps with carbon panels extending down the shins; broad thick dark combat boots matching the rendered production model. Retain the layered back armor where visible, the authentic proportions and worn metal edges. Do not mirror asymmetric gear.\nPose and camera: neutral planted still pose, arms relaxed slightly clear of torso, both hands empty, front three-quarter view turned slightly toward screen RIGHT. Both boots on one baseline, soles and all fingers fully visible. No gesture, shooting, running or animation.\nStyle: realistic Gears material detail with clear cutout silhouette and clean restrained 2D painted game presentation. Neutral evenly legible studio lighting; no dramatic blue rim, colored background reflection or fog.\nComposition: portrait canvas, entire figure only 76–78 percent of image height, centered, minimum 10 percent completely empty transparent margin on all four edges. Keep the complete head, boots, hands and shoulder armor inside this safe area.\nOutput: genuine transparent alpha background, opaque character, antialiased edges. No ground, floor shadow, backdrop, checkerboard, text, captions, logo, watermark, UI, border, additional figure, panels, weapon held in hands or effects. One static pose only.",
+  "output": null,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "sources": [
+    {
+      "page_url": "https://alexbobylev.artstation.com/projects/Vg3qGR",
+      "source_type": "first_party_production_artist_final_model",
+      "scope": "Modèle cinématique temps réel final Onyx Guard Keegan, publié par son artiste à The Coalition ; vue en pied face et dos, chaussures comprises.",
+      "visual_reference_used": true,
+      "accessed_date": "2026-11-27",
+      "source_author": "Alex Bobylev",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/032/935/296/large/alex-bobylev-1n2-full-v1.jpg?1607934339",
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v13_hivebusters/onyx_keegan_full_pair.jpg",
+      "reference_sha256": "dff8be7f805aeb8b6e960b22a2013bb2dcad0622ebcd6929518f94530567e6a2",
+      "visually_inspected": true
+    },
+    {
+      "page_url": "https://alexbobylev.artstation.com/projects/Vg3qGR",
+      "source_type": "first_party_production_artist_final_model",
+      "scope": "Deuxième rendu complet du même modèle final, trois-quarts face/dos ; même tenue et détails asymétriques.",
+      "visual_reference_used": true,
+      "accessed_date": "2026-11-27",
+      "source_author": "Alex Bobylev",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/032/935/299/large/alex-bobylev-fullbody2-small.jpg?1607934343",
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v13_hivebusters/onyx_keegan_fullbody.jpg",
+      "reference_sha256": "9b4e56c6cc1e1a4b102b935a99708d689a1dce89f9dc9e3d9fe55af96f0b7856",
+      "visually_inspected": true
+    },
+    {
+      "page_url": "https://tylerthebradley.artstation.com/projects/ykrQgn",
+      "source_type": "first_party_production_concept",
+      "scope": "Concept de production nommé onyx-keegan-final ; le texte du créateur identifie les tenues intro du DLC. Contrôle de correspondance entre les deux IDs, non utilisé pour remplacer le modèle final.",
+      "visual_reference_used": false,
+      "accessed_date": "2026-11-27",
+      "source_author": "Tyler Bradley",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/038/911/694/large/tyler-bradley-onyx-keegan-final.jpg?1624416612",
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v13_hivebusters/keegan_intro_concept.jpg",
+      "reference_sha256": "d6d907d962657867c5e52d98c533cea0fb70e553fdd7d7ab7470dcd769797dbd",
+      "visually_inspected": true
+    }
+  ],
+  "notes": [
+    "Refus conservé, sans contournement ni changement de modèle.",
+    "keegan_hivebusters_intro pourrait désigner la même tenue ; cet autre ID reste en résolution de catalogue, sans nouvel essai ni double comptage de refus."
+  ],
+  "qa": {
+    "visually_inspected": false,
+    "output_visually_inspected": false,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Deux rendus finaux de production en pied inspectés avant la tentative.",
+      "Le service a refusé la génération à la sortie ; aucune image reçue.",
+      "Une seule tentative ; aucun nouvel essai sous cet ID ou sous son alias intro."
+    ],
+    "remaining_checks": [],
+    "reference_visually_inspected": true
+  },
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "refusal": {
+    "code": "moderation_blocked",
+    "stage": "output",
+    "categories": [
+      "other"
+    ],
+    "request_id": "48f4027a-a1d4-4c3d-80f1-7eddb24385d0",
+    "http_status": 400,
+    "message": "Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 48f4027a-a1d4-4c3d-80f1-7eddb24385d0.",
+    "attempts": 1,
+    "retried": false,
+    "raw_error_payload": {
+      "error": {
+        "message": "Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 48f4027a-a1d4-4c3d-80f1-7eddb24385d0.",
+        "type": "image_generation_user_error",
+        "param": null,
+        "code": "moderation_blocked",
+        "moderation_details": {
+          "moderation_stage": "output",
+          "categories": [
+            "other"
+          ]
+        }
+      }
+    }
+  },
+  "source_urls": [
+    "https://alexbobylev.artstation.com/projects/Vg3qGR",
+    "https://tylerthebradley.artstation.com/projects/ykrQgn"
+  ],
+  "reference_images": [
+    "/workspace/scratch/3c791759fb15/research_v13_hivebusters/onyx_keegan_full_pair.jpg",
+    "/workspace/scratch/3c791759fb15/research_v13_hivebusters/onyx_keegan_fullbody.jpg"
+  ],
+  "prompt_sha256": "0e3e135b4b4aa1945e51ee7245b7eda99ac5d0b93051556a7442c62ba24e06e7"
+}

@@ -1,0 +1,145 @@
+{
+  "id": "lahni_skin_01",
+  "subject_id": "lahni_skin_01",
+  "character_id": "lahni",
+  "costume_id": "lahni_skin_01",
+  "name": "Lahni — campagne Hivebusters / Brash Brigade",
+  "category": "costume",
+  "source_game": "Gears 5: Hivebusters",
+  "catalog_target_game": "Gears 5: Hivebusters",
+  "variant": "Brash Brigade Lahni — tenue en armure du début du DLC, modèle final",
+  "variant_relation": "target_version_candidate",
+  "purpose": "reference_fullbody",
+  "pass_date": "2026-11-27",
+  "status": "generated_reference_pending_validation",
+  "generation_status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "generation_attempted": true,
+  "generation_attempt_count": 1,
+  "has_image": true,
+  "asset_path": "assets/costumes_v13/lahni_skin_01.png",
+  "original_output_path": "/workspace/scratch/3c791759fb15/research_v13_hivebusters/lahni_skin_01_native.png",
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE static isolated full-body costume cutout for a 2D fighting-game reference.\nSubject: Lahni Kaliso in her Brash Brigade armor from the Gears 5 Hivebusters DLC, catalogue costume lahni_skin_01. This is the armored outfit used at the beginning of the DLC, not her sleeveless olive Escape kit.\nThe attached reference is a FINAL PRODUCTION MODEL render by Aryan Hanbeck, Studio Art Director at The Coalition, dated December 18, 2020. It shows three views of this exact DLC Lahni from head to boots. Use the front, side and rear to preserve the actual final model. Create only ONE complete figure. Do not duplicate the three views.\nKeep her athletic adult Islander build and natural brown skin, stern distinctive face, brown/light-tipped dreadlocks partly tied into a high small bun, olive cloth headband, facial tattoo on the anatomical right side, and the particular visible arm tattoo placements. Preserve the model's facial proportions.\nExact costume: dark graphite steel COG shoulder and breast armor with narrow blue lights on the shoulder straps and central chest, layered rounded pauldrons, two circular chest armor disks with the small yellow scratched Brash Brigade markings, fitted black short sleeves under the shoulder armor, bare tattooed upper forearms, a mechanical forearm device with cyan readout on the anatomical RIGHT arm, the other asymmetrical dark bracer, tactical fingerless gloves. Layered brown leather waist wraps and belt, rounded stitched brown leather pouch and sidearm holster on her anatomical RIGHT hip/thigh, two long narrow metal canisters hanging at front belt, leather and rope equipment as visible, a small sheath and pack on the rear belt. Preserve the final production model's brown leather and dark cloth trousers, ribbed joints, rounded black kneepads, tall armored dark boots with the visible circular shin details and multiple brown horizontal fastening straps. Both soles fully visible. Do not replace this equipment with the bare-armed olive-green cropped Escape vest or its short rolled trousers.\nPose: quiet neutral planted stance, front three-quarter view slightly toward screen RIGHT, empty relaxed hands held clear of torso, no weapon carried in hands, no dynamic action. Respect the exact asymmetric equipment and tattoo sides, no horizontal mirror.\nRender the same model as a realistic detailed, crisp 2D game cutout: restrained neutral studio lighting, clean silhouette, faithful dull metal/leather/cloth materials, no stylized redesign, no exaggeration, no new insignia.\nComposition: portrait format, one full figure only 76–78 percent of canvas height, centered with at least 10 percent wholly empty transparent padding on every side. Include all hair, shoulders, fingers and boots without cropping.\nGenuine transparent alpha background, opaque character and antialiased edges. No scene, floor, ground shadow, blue halo, smoke, effects, checkerboard, text, caption, logo, watermark, border, UI, other characters, panels or sprite sheet. One static pose only.",
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 1882309,
+    "sha256": "1e9359c427ca81256b92aa011e6b838b7e44889ae55309ec38c0ac48527e11f4",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.6956679026285807,
+    "subject_bbox_alpha_ge_128": [
+      246,
+      19,
+      790,
+      1504
+    ],
+    "subject_margins_ltrb_px": [
+      246,
+      19,
+      234,
+      32
+    ],
+    "has_real_alpha": true,
+    "native_copy_verified": true,
+    "returned_data_url_bytes_preserved": true,
+    "edge_band_width_px": 8,
+    "edge_alpha_max": 0,
+    "alpha_nonzero_bbox": [
+      65,
+      15,
+      984,
+      1507
+    ]
+  },
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "sources": [
+    {
+      "page_url": "https://mediumrare.artstation.com/projects/oAdmNw",
+      "source_type": "first_party_art_director_final_model",
+      "scope": "Rendu final DLC du 18 décembre 2020 : trois vues en pied de Lahni Brash Brigade, avec chaussures, armure et équipements ; référence visuelle de génération.",
+      "visual_reference_used": true,
+      "accessed_date": "2026-11-27",
+      "source_author": "Aryan Hanbeck — The Coalition",
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/033/077/882/large/aryan-hanbeck-hivebuster-lahni.jpg?1608320756",
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v13_hivebusters/lahni_dlc_final.jpg",
+      "reference_sha256": "93766182b16e33914ec578d815bc932d4af3a9ff9e4c999cd458974e2b010cb4",
+      "visually_inspected": true
+    },
+    {
+      "page_url": "https://tylerthebradley.artstation.com/projects/ykrQgn",
+      "source_type": "first_party_production_concept",
+      "scope": "Turnaround concept brashbrigadelahni-turnaround, explicitement décrit comme tenue intro. La construction générale concorde avec le rendu final DLC, mais le rendu final a priorité (notamment manches).",
+      "visual_reference_used": false,
+      "accessed_date": "2026-11-27",
+      "source_author": "Tyler Bradley",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/038/911/697/large/tyler-bradley-brashbrigadelahni-turnaround.jpg?1624416620",
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v13_hivebusters/lahni_intro_concept.jpg",
+      "reference_sha256": "955d9aae5037ac88491d0f254ac79e7d2db6f72100fa743411da83c32583ae48",
+      "visually_inspected": true
+    },
+    {
+      "page_url": "https://mediumrare.artstation.com/projects/GXKLDB",
+      "source_type": "first_party_art_director_final_model",
+      "scope": "Rendu final Escape du 19 septembre 2019, inspecté uniquement pour distinguer skin_02 : gilet olive court sans manches, pantalon retroussé et petites bottes, différent de la tenue DLC en armure.",
+      "visual_reference_used": false,
+      "accessed_date": "2026-11-27",
+      "source_author": "Aryan Hanbeck — The Coalition",
+      "image_url": "https://cdnb.artstation.com/p/assets/images/images/020/730/381/large/aryan-hanbeck-lahni.jpg?1568933014",
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v13_hivebusters/lahni_escape_final.jpg",
+      "reference_sha256": "f5798577a67d7545f2e971a60b888fdc0aafeee29147157375cc12defc1e2bb3",
+      "visually_inspected": true
+    }
+  ],
+  "notes": [
+    "Une seule tentative de génération.",
+    "Le modèle final a priorité sur le concept de Tyler Bradley ; le concept est cité seulement pour la correspondance de tenue intro.",
+    "Réutilisation possible pour lahni_hivebusters_intro uniquement après résolution explicite du catalogue par une revue ultérieure ; aucun mapping central modifié et aucun deuxième PNG."
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "output_visually_inspected": true,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Une Lahni entière en armure DLC, bandeau olive, dreadlocks, deux disques thoraciques, marquages jaunes, manchettes asymétriques, poche de cuir et deux canisters ; tenue distincte du PNG Escape existant.",
+      "Copie native exacte du PNG encodé dans la data URL retournée ; aucun recadrage, agrandissement, peinture, effacement ou correction alpha.",
+      "RGBA 1024 × 1536 ; 69,57 % de pixels alpha=0 ; alpha maximal natif 254 ; contour alpha>=128 [246,19,790,1504].",
+      "Marges au seuil alpha>=128 : gauche 246, haut 19, droite 234, bas 32 px. La silhouette est entière, mais les 10 % de marge demandés ne sont pas respectés verticalement.",
+      "Halo diffus à faible alpha autour de la silhouette : contour alpha>0 [65,15,984,1507] plus large que le contour principal ; les huit pixels périphériques sont toutefois transparents.",
+      "Les motifs des tatouages, les glyphes du plastron, le visage, les attaches et détails de cuir demeurent une interprétation générative. Orientation principalement trois-quarts frontal, pas profil de combat validé."
+    ],
+    "remaining_checks": [
+      "Comparer précisément visage, tatouages, glyphes et attaches au modèle final du DLC.",
+      "Valider un détourage sans halo et une marge de production suffisante lors d’une future passe expressément dédiée.",
+      "Vérifier lisibilité de la pose et import alpha dans le moteur ; aucune animation ni certification 1:1."
+    ],
+    "reference_visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "alpha_measured": true,
+    "framing_measured": true,
+    "ten_percent_padding_met": false
+  },
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "pose": "static_front_three_quarter_facing_right",
+  "source_urls": [
+    "https://mediumrare.artstation.com/projects/oAdmNw",
+    "https://tylerthebradley.artstation.com/projects/ykrQgn",
+    "https://mediumrare.artstation.com/projects/GXKLDB"
+  ],
+  "reference_images": [
+    "/workspace/scratch/3c791759fb15/research_v13_hivebusters/lahni_dlc_final.jpg"
+  ],
+  "prompt_sha256": "5c456ebc6b17933be595333e2a65c8b4c52e0586306adda264f3c7f64e2e6a9d"
+}

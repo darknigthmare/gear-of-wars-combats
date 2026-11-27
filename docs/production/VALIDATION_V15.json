@@ -1,0 +1,276 @@
+{
+  "version": "V15",
+  "snapshot_date": "2026-11-27",
+  "status": "passed",
+  "baseline_commit": "4eedf19b7d50a66b2b209a1d76445d6078dd7403",
+  "scope": "Références statiques et documentation ; aucune certification 1:1 ni nouvelle fonction de combat.",
+  "generator_calls": 19,
+  "historical_refusal_targets_retried": 19,
+  "renewed_refusals": 13,
+  "new_active_png_files": 5,
+  "new_archived_png_files": 1,
+  "generation_records": 20,
+  "prompts_sha256_checked": 19,
+  "new_png_outputs": [
+    {
+      "subject_id": "anthony_carmine",
+      "path": "assets/characters_v15/anthony_carmine.png",
+      "active": true,
+      "sha256": "647f95ac3eef91da1fee6a831482d9390572f8a0a77d614b38f8153fb74e5dd2",
+      "bytes": 1747793,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "subject_bbox_alpha_ge_128": [
+        228,
+        153,
+        770,
+        1464
+      ],
+      "fully_transparent_fraction": 0.7217515309651693,
+      "native_bytes_equal": true
+    },
+    {
+      "subject_id": "jace_stratton",
+      "path": "assets/characters_v15/jace_stratton.png",
+      "active": true,
+      "sha256": "4dea29f863abbbf1850d3aec69231273b8366e7e8b0a132d7d7aa73d39462ed8",
+      "bytes": 2155945,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "subject_bbox_alpha_ge_128": [
+        203,
+        23,
+        804,
+        1515
+      ],
+      "fully_transparent_fraction": 0.6507142384847006,
+      "native_bytes_equal": true
+    },
+    {
+      "subject_id": "keegan_skin_02",
+      "path": "assets/costumes_v15/keegan_skin_02.png",
+      "active": true,
+      "sha256": "c07bb1a98955c0147ffb2d89cbbe185ffe8a9d1268b9eb73f197e2bfee52be62",
+      "bytes": 2205399,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "subject_bbox_alpha_ge_128": [
+        178,
+        31,
+        852,
+        1509
+      ],
+      "fully_transparent_fraction": 0.5967896779378256,
+      "native_bytes_equal": true
+    },
+    {
+      "subject_id": "minh_young_kim",
+      "path": "assets/characters_v15/minh_young_kim.png",
+      "active": true,
+      "sha256": "9f108c867dac76bb017a25bb20fefaa817e39f60c3471007e8410f7d13cb58ec",
+      "bytes": 1701093,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "subject_bbox_alpha_ge_128": [
+        224,
+        106,
+        770,
+        1454
+      ],
+      "fully_transparent_fraction": 0.6936505635579427,
+      "native_bytes_equal": true
+    },
+    {
+      "subject_id": "skorge_skin_02",
+      "path": "assets/costumes_v15/skorge_skin_02.png",
+      "active": true,
+      "sha256": "fc89f308d9132afb01a085672e38cf898a8b513ab5d5be9f2dd5cb9781eb359c",
+      "bytes": 1596893,
+      "width": 1199,
+      "height": 1312,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "subject_bbox_alpha_ge_128": [
+        43,
+        23,
+        1166,
+        1297
+      ],
+      "fully_transparent_fraction": 0.6420397333143473,
+      "native_bytes_equal": true
+    },
+    {
+      "subject_id": "theron_skin_01",
+      "path": "rejected_candidates/costumes_v15/theron_skin_01.png",
+      "active": false,
+      "sha256": "97b7d40b861501177ab6c7da3dc37b247f933722d86ea4eab471e2ea9e1ea2bd",
+      "bytes": 2297876,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "subject_bbox_alpha_ge_128": [
+        136,
+        6,
+        806,
+        1526
+      ],
+      "fully_transparent_fraction": 0.5563545227050781,
+      "native_bytes_equal": true
+    }
+  ],
+  "inventory_totals": {
+    "roster_characters": 36,
+    "characters_with_reference": 36,
+    "characters_missing": 0,
+    "production_character_entries": 21,
+    "production_characters_with_reference": 18,
+    "character_catalog_entries": 57,
+    "catalog_characters_with_reference": 54,
+    "catalog_characters_missing": 3,
+    "character_png_files": 63,
+    "costume_catalog_entries": 85,
+    "costumes_with_reference": 68,
+    "costumes_without_explicit_reference": 17,
+    "costume_png_files": 31,
+    "costume_reference_aliases": 2,
+    "reused_character_pngs_for_costumes": 35,
+    "boss_catalog_entries": 34,
+    "bosses_with_reference": 30,
+    "boss_png_files": 30,
+    "stage_catalog_entries": 34,
+    "stages_with_reference": 34,
+    "stage_png_files": 35,
+    "projectile_catalog_entries": 9,
+    "projectiles_with_reference": 5,
+    "projectiles_missing": 4,
+    "projectile_png_files": 5,
+    "additional_reference_groups": 1,
+    "active_png_files": 164,
+    "unique_active_png_sha256": 164,
+    "archived_png_files": 18,
+    "canonical_fidelity_validated": 0,
+    "completed_animation_sets": 0
+  },
+  "inventory_warnings": [],
+  "initial_missing_entries_audited": 34,
+  "resolved_reference_entries": 6,
+  "remaining_without_reference": 28,
+  "all_production_png_paths_and_sha256_checked": 182,
+  "historical_preservation": {
+    "protected_files_checked": 631,
+    "all_unchanged": true,
+    "production_png_files": 176,
+    "three_guide_originals_unchanged": true,
+    "prior_refusal_records_unchanged": true,
+    "prototype_unchanged": true
+  },
+  "visual_input_files_with_hash_checked": 33,
+  "tests": {
+    "command": "python -m unittest discover -s tests -p test_*.py -v",
+    "passed": 27,
+    "failed": 0,
+    "log": "docs/production/INVENTORY_TESTS_V15.txt"
+  },
+  "data_validation": {
+    "counts": {
+      "fighters": 36,
+      "costume_records": 75,
+      "moves": 179,
+      "arcade_routes": 36,
+      "combos": 24,
+      "bosses": 24,
+      "boss_phases": 72,
+      "stages": 24,
+      "parallax_layers": 144,
+      "campaign_chapters": 12,
+      "animation_drawings_per_side": 552
+    },
+    "checks": [
+      "Unique identifiers",
+      "Combatant and rival references",
+      "Movement ownership and nonnegative costs",
+      "Boss stage references and phase timings",
+      "Stage layers and tournament rules",
+      "Arcade opponents",
+      "Campaign stage and boss references",
+      "Animation estimate total"
+    ],
+    "errors": [],
+    "status": "passed",
+    "limits": "Does not validate canonical visual fidelity, balance, or browser controls."
+  },
+  "gallery": {
+    "embedded_data_matches_manifests": true,
+    "javascript_syntax_valid": true,
+    "executable_javascript_unchanged": true,
+    "browser_render_tested": false,
+    "mobile_render_tested": false
+  },
+  "local_markdown_links": {
+    "documents_checked": 10,
+    "targets_checked": 757,
+    "broken": 0,
+    "anchors_checked": false
+  },
+  "bible": {
+    "output": "livrables/Gears_of_War_Combats_Bible_v15.md",
+    "bytes": 419474,
+    "words": 59959,
+    "sha256": "a99ddd3ffe259b39186646b49a9465ec75a0ee1a2fb3b0a61f7f0a08d7e67cb1",
+    "deterministic_rebuild": true,
+    "source_chapters": 8,
+    "source_hashes_checked": 15,
+    "requirements": 68,
+    "acceptance_cases_preserved": 40,
+    "extension_acceptance_cases_executed": 0
+  },
+  "quality_rejection": {
+    "theron_generated": true,
+    "theron_archived": true,
+    "theron_remains_missing": true
+  },
+  "costume_aliases": {
+    "total": 2,
+    "new_keegan_alias": 1,
+    "new_png_from_alias": 0
+  },
+  "independent_review": {
+    "report": "docs/production/REVIEW_V15.md"
+  },
+  "canonical_fidelity_validated": 0,
+  "completed_animation_sets": 0,
+  "runtime_implementation_changed": false,
+  "publication": {
+    "branch": "codex/gears-static-assets-v9-20261125",
+    "pull_request": 6,
+    "merged_to_main": false,
+    "proof": "À vérifier après commit ; ce rapport décrit les fichiers préparés."
+  }
+}

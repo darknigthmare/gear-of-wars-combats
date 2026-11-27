@@ -1,0 +1,123 @@
+{
+  "id": "baird_skin_04",
+  "subject_id": "baird_skin_04",
+  "character_id": "baird",
+  "costume_id": "baird_skin_04",
+  "name": "Damon Baird — DB Industries (Gears 5)",
+  "category": "costume",
+  "pass_date": "2026-11-25",
+  "source_game": "Gears 5",
+  "catalog_target_game": "Gears 5",
+  "variant": "DB Industries Baird — âgé, blouse de laboratoire (campagne et Operation 3)",
+  "variant_relation": "target_version_candidate",
+  "purpose": "reference_fullbody",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "status": "generated_reference_pending_validation",
+  "generation_status": "generated_reference_pending_validation",
+  "has_image": true,
+  "asset_path": "assets/costumes_v10/baird_skin_04.png",
+  "quality_state": "candidate",
+  "prompt": "Use case: stylized-concept.\nAsset: one static transparent full-body costume reference candidate, Damon Baird in Gears 5, costume baird_skin_04 Ingénieur Gears 5.\nExact identity and costume: the older bald Damon Baird in his DB INDUSTRIES laboratory coat, as seen in the Gears 5 campaign and the DB Industries Baird Operation 3 skin. This is not the young armored multiplayer Classic Baird.\nInput image 1 is the official Xbox Wire Gears 5 Operation 3 Tour of Duty reward sheet: the card at the BOTTOM LEFT named DB INDUSTRIES BAIRD establishes this exact costume and age. Ignore all other characters, cards and UI. Input image 2 is a high-resolution preview of the Gears 5 Baird Lab Coat original-rig model, used for his face, coat, badge, shirt, belt and hands.\nPreserve the reference face: bald head with aged skin, pale blue eyes, square jaw, short brown-gray goatee and moustache, strong heavy neck and broad muscular body. His coat is light warm gray/off-white, open at the front, knee-length with stitched shoulder panels, turned-down lapels, front buttons and large patch pockets. Anatomical LEFT chest pocket contains a blue pen and clipped pale identification card with small portrait, blue top, cyan glowing bar, and existing short text Damon and DBi. Under it is a charcoal-and-dark-blue shirt with light gray vertical center seam and angular pale piping visible on the reference. Preserve the brown leather belt with large rectangular silver clasp, dark gray trousers and bare hands. The reference crops before the lower legs, so complete these conservatively with simple dark trousers and sturdy dark work boots; do not invent armor plates, knee emblems, extra gadgets or weapons.\nPose/composition: precisely ONE full-body man, neutral static standing front three-quarter facing screen RIGHT, nose and toes clearly toward the right, hands empty and relaxed at sides. Entire bald head and both full boot soles visible. Figure occupies no more than 75% total image height, with real transparent padding of at least 10% of canvas above head, below soles, left and right.\nStyle: realistic detailed Gears 5 character render, true-to-reference materials and massive proportions, soft neutral readable light. Actual transparent alpha background, no floor, no shadow cloud, no halo, no gradient, no environment, no added text or labels, no UI, no other figure, no animation.",
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-5b1c98e0-99f0-4c39-a3c2-4d1491313fdc.png",
+  "sources": [
+    {
+      "page_url": "https://news.xbox.com/en-us/2020/03/31/gears-5-operation-3-gridiron-available-today-for-all-players/",
+      "image_url": "https://xboxwire.thesourcemediaassets.com/sites/2/2020/03/Gears5_Op3_ToD_Summary_1920x1080.jpg",
+      "source_type": "official_publisher_character_card",
+      "scope": "Carte DB Industries Baird en bas à gauche de la planche Tour of Duty Operation 3 : identité âgée, blouse et nom exact confirmés ; petit cadrage buste seulement.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/207fbd1207b7/research_gears/v10/baird_g5_op3_tour_official.jpg",
+      "reference_sha256": "46213aed90c7d7a0b73b1c9ae42ce54444c7009e4964aaa34cd3db4acd05d070"
+    },
+    {
+      "page_url": "https://open3dlab.com/project/060c7441-7949-44b9-9667-9cd7e9341bee/",
+      "image_url": "https://thumbcdn.open3dlab.com/projectfile/untitled_slzwhDr_thumb.png",
+      "source_type": "secondary_extracted_game_model_preview",
+      "scope": "Prévisualisation communautaire [Gears 5] Baird Lab Coat, déclarée Original rig ; visage, buste, mains et haut des cuisses visibles. La provenance des fichiers du jeu n'est pas vérifiée indépendamment. Bas des jambes/bottes hors champ.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/207fbd1207b7/research_gears/v10/baird_g5_lab_secondary_2.png",
+      "reference_sha256": "8b36a0e60acc8202a79519ecb1bd463aef5b75cbacf8b70b97a4ac6c92d55948"
+    },
+    {
+      "page_url": "https://news.xbox.com/en-us/2019/12/11/gears-5-operation-2-free-for-all-available-today-for-all-players/",
+      "source_type": "official_publisher_identity_only",
+      "scope": "Source du catalogue parent : confirme Baird et son rôle ingénieur, sans preuve des détails du costume. Son illustration Classic Baird jeune a été exclue.",
+      "visual_reference_used": false
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Résolution de l'intitulé Ingénieur Gears5 : Baird âgé en blouse DB Industries, cohérent avec campagne Gears5 et carte officielle Op3 ; aucun remplacement par Classic Baird jeune.",
+      "Un seul personnage en pose calme trois-quarts vers la droite, mains vides, plein pied.",
+      "Visage âgé, blouse claire ouverte, chemise sombre à bandes claires et badge anatomique gauche repris des sources.",
+      "Référence haute résolution coupée au haut des cuisses : longueur exacte de blouse, parties basses du pantalon et bottes sont des reconstructions génératives, pas des détails validés.",
+      "Le texte minuscule du badge est approximatif et nécessite une validation ; aucune retouche raster réalisée.",
+      "Aucune fidélité 1:1 ni disponibilité production certifiée.",
+      "Alpha réel RGBA : 68.32% des pixels entièrement transparents ; alpha maximal du bord de 8 px : 1. Le halo RVB de l’aperçu ne signifie pas fond opaque.",
+      "Marges de silhouette alpha >=128 (gauche, haut, droite, bas) : [227, 102, 246, 47] px ; les marges verticales de 10% demandées ne sont pas entièrement atteintes, sans partie anatomique coupée."
+    ],
+    "remaining_checks": [
+      "Comparer bas de blouse, pantalon et bottes à une capture plein pied de campagne Gears5.",
+      "Comparer visage et badge à leur texture source.",
+      "Vérifier les marges mesurées avant usage production."
+    ],
+    "alpha_measured": true,
+    "framing_measured": true
+  },
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "animation": false,
+  "pose": "static_front_three_quarter_facing_right",
+  "notes": [
+    "L'intitulé du catalogue parent est conservé ; nom de ce journal explicite le personnage et la version.",
+    "L'URL catalogue Op2 confirme seulement l'identité ; l'association de costume repose sur la carte officielle Op3 et le rendu Lab Coat Gears5.",
+    "Aucun traitement raster, original natif conservé."
+  ],
+  "source_urls": [
+    "https://news.xbox.com/en-us/2020/03/31/gears-5-operation-3-gridiron-available-today-for-all-players/",
+    "https://open3dlab.com/project/060c7441-7949-44b9-9667-9cd7e9341bee/",
+    "https://news.xbox.com/en-us/2019/12/11/gears-5-operation-2-free-for-all-available-today-for-all-players/"
+  ],
+  "reference_images": [
+    "/workspace/scratch/207fbd1207b7/research_gears/v10/baird_g5_op3_tour_official.jpg",
+    "/workspace/scratch/207fbd1207b7/research_gears/v10/baird_g5_lab_secondary_2.png"
+  ],
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 1621439,
+    "sha256": "751fe1057d9358c1d88c582ccf2afc032bbcc70759eba87a0d6f01f7091921a1",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.6832091013590494,
+    "subject_bbox_alpha_ge_128": [
+      227,
+      102,
+      778,
+      1489
+    ],
+    "subject_margins_ltrb_px": [
+      227,
+      102,
+      246,
+      47
+    ],
+    "edge_band_width_px": 8,
+    "edge_alpha_max": 1,
+    "has_real_alpha": true,
+    "native_copy_verified": true
+  },
+  "production_ready": false
+}

@@ -1,0 +1,103 @@
+{
+  "id": "marcus_skin_04",
+  "subject_id": "marcus_skin_04",
+  "character_id": "marcus",
+  "costume_id": "marcus_skin_04",
+  "name": "Marcus Fenix — Vétéran Gears 5",
+  "category": "costume",
+  "source_game": "Gears 5 (2019)",
+  "catalog_target_game": "Gears 5 (2019)",
+  "variant": "Marcus âgé et barbu en armure Gears 5",
+  "variant_relation": "target_version_candidate",
+  "asset_path": "assets/costumes_v11/marcus_skin_04.png",
+  "prompt": "Use case: stylized-concept.\nAsset: ONE static transparent full-body costume reference for Marcus Fenix — Veteran Gears 5, costume id marcus_skin_04.\nTarget edition: Gears 5 (2019), older armored Marcus Fenix. The supplied reference is an Xbox promotional Gears 5 character image republished in the Gears 5 character guide. Use the face and visible torso as the controlling reference. He is the older gray-bearded Marcus with the black bandana, not Batista, not young original-game Marcus, not unarmored farmer Marcus.\nMatch the heavy broad body, deeply lined face, gray sideburns and full gray-black beard, healed scar on his right cheek, blue eyes, black tied bandana with small pale emblem. Match the Gears 5 outfit: bulky distressed steel-gray COG armor, broad layered shoulder plates, raised segmented collar, two prominent dark round breast structures with silver rings and blue detailing, short cyan-blue light strips along the armored shoulder harness, tiny yellow triangular warning labels, long dark brown sleeves with tan seam piping, huge dark metal forearm guards and brown fingerless gloves. Because the supplied reference is cropped at the torso, complete the waist and lower body conservatively with a thick matching utility belt, dark tactical cargo trousers, modest strapped hip pouches, gray metal knee/shin guards and wide dark armored boots consistent with this outfit; do not add extra medals, redesign the armor, add a rifle, or invent prominent text.\nPose: quiet neutral motionless full-body standing, front three-quarter facing screen RIGHT, nose and boot toes pointing right. Arms relaxed down at sides, both hands empty and completely visible. One figure only, no action or animation.\nComposition: the whole figure from bandana to boot soles occupying 75% of image height, with at least 10% clear transparent margin on every side. No cropped limbs or feet.\nRendering: realistic Gears 5 character materials and proportions, neutral readable studio illumination, genuine transparent alpha background. No environment, floor plane, ice, snow, gradient, smoke, halo, shadow cloud, watermark, UI, caption or added text.",
+  "sources": [
+    {
+      "page_url": "https://www.gamesradar.com/gears-5-characters/",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/aFDpbPrt9Denkj7HESGwUK.jpg",
+      "source_type": "secondary_xbox_promotional_image_rehosted",
+      "scope": "Image Marcus Fenix du guide consacré aux personnages de Gears 5, crédit explicite Xbox. Portrait âgé barbu en armure, tête et haut du corps seulement.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/207fbd1207b7/research_gears/v11_costumes/marcus_g5_xbox.jpg",
+      "reference_sha256": "4aa3ac813194d888e671423597946848b42529a3ae564ee83193554d3e79bb4e"
+    }
+  ],
+  "qa": {
+    "observations": [
+      "Marcus âgé : barbe grise, bandana sombre, cicatrice, armure grise à disques et lumières bleues conformes aux traits visibles de la référence Gears 5.",
+      "Un personnage entier, debout de trois quarts vers la droite, mains vides, aucune animation.",
+      "La source est recadrée au torse ; ceinture, poches, pantalon, protections de jambes et bottes ont été reconstitués. Aucune identité exacte des détails inférieurs avec le modèle Gears 5 n'est affirmée.",
+      "Visage, barbe, emblème du bandana, géométrie des disques, coutures et fixations demandent une comparaison avec le modèle natif.",
+      "Marges verticales inférieures aux 10 % visés, corps complet conservé.",
+      "Alpha RGBA réel : 60.79% de pixels entièrement transparents ; alpha maximal bande extérieure de 8 px : 1.",
+      "Marges de silhouette alpha >=128 (gauche, haut, droite, bas) : [175, 38, 209, 27] px ; anatomie complète, marges cibles de 10% à contrôler."
+    ],
+    "remaining_checks": [
+      "Comparer toute la partie sous le torse et les mains à un rendu Gears 5 plein pied.",
+      "Valider la géométrie des épaulières, la barbe et les boucles contre une capture native.",
+      "Contrôler insignes et asymétries sans confondre avec Marcus Gears of War 4."
+    ],
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "canonical_fidelity_validated": false,
+    "fidelity_1_to_1_validated": false,
+    "production_ready": false,
+    "alpha_measured": true,
+    "framing_measured": true
+  },
+  "notes": [
+    "Source explicitement Gears 5 avec crédit Xbox ; aucun visuel de Batista ou de Marcus jeune utilisé.",
+    "PNG natif copié sans traitement raster."
+  ],
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2118327,
+    "sha256": "9e38e1b2325df1636cda21daea83c7eab7bb56cbbe7d4d7bf5103750f00dbdfe",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.607879638671875,
+    "subject_bbox_alpha_ge_128": [
+      175,
+      38,
+      815,
+      1509
+    ],
+    "subject_margins_ltrb_px": [
+      175,
+      38,
+      209,
+      27
+    ],
+    "edge_band_width_px": 8,
+    "edge_alpha_max": 1,
+    "has_real_alpha": true,
+    "native_copy_verified": true
+  },
+  "original_output_path": "/workspace/scratch/207fbd1207b7/generated_images/exec-fe4a3d3e-a18a-40f6-864b-2c7009839edb.png",
+  "has_image": true,
+  "status": "generated_reference_pending_validation",
+  "generation_status": "generated_reference_pending_validation",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "pose": "static_front_three_quarter_facing_right",
+  "quality_state": "candidate",
+  "purpose": "reference_fullbody",
+  "source_urls": [
+    "https://www.gamesradar.com/gears-5-characters/"
+  ],
+  "reference_images": [
+    "/workspace/scratch/207fbd1207b7/research_gears/v11_costumes/marcus_g5_xbox.jpg"
+  ]
+}

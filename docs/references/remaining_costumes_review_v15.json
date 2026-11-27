@@ -1,0 +1,1022 @@
+{
+  "schema_version": "1.0",
+  "pass": "V15",
+  "review_date": "2026-11-27",
+  "baseline_commit": "4eedf19b7d50a66b2b209a1d76445d6078dd7403",
+  "reviewer": "costume_references",
+  "scope": "Dix costumes encore sans référence complète, après les cinq nouveaux refus de cette passe. Aucun nouvel appel imagegen sur ces dix cibles.",
+  "generation_attempt_count": 0,
+  "generated_png_count": 0,
+  "canonical_fidelity_validated": false,
+  "production_ready": false,
+  "method": [
+    "Lecture des dix journaux V13 avant de rechercher, et conservation de leurs limites.",
+    "Recherches textuelles avec les deux moteurs disponibles ; pages primaires privilégiées, archives de modèles et captures secondaires explicitement étiquetées.",
+    "Inspection visuelle des nouvelles images locales uniquement lorsqu’elles ont effectivement été chargées ; aucune prétention à avoir vu une vidéo entière depuis sa vignette.",
+    "Séparation entre existence du costume, identité du jeu, statut concept/final et visibilité complète du corps.",
+    "Les URL consultées qui échouent restent documentées comme telles ; aucun échec réseau ne devient une validation de contenu."
+  ],
+  "summary": {
+    "reviewed_ids": 10,
+    "new_generation_ready_targets": 0,
+    "new_fullbody_lead_with_unresolved_platform": 1,
+    "new_partial_official_myrrah_artworks": 2,
+    "additional_generations": 0,
+    "remaining_missing_ids": [
+      "anya_skin_01",
+      "raam_skin_02",
+      "myrrah_skin_02",
+      "sam_skin_02",
+      "theron_skin_02",
+      "tai_skin_02",
+      "gabe_skin_02",
+      "deebee_skin_02",
+      "grenadier_skin_02",
+      "anthony_black_steel_g5"
+    ]
+  },
+  "items": [
+    {
+      "id": "anya_skin_01",
+      "source_game": "Gears of War 2",
+      "previous_record_path": "data/generation_v13/anya_skin_01_record.json",
+      "previous_record_sha256": "633fbf4150f81bb9747795f5d62efd247a3632e123f939349583ad7945522c36",
+      "previous_status": "reference_research_pending",
+      "decision": "reference_research_pending",
+      "generation_attempted": false,
+      "generation_attempt_count": 0,
+      "has_new_generated_image": false,
+      "asset_path": null,
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "historical_sources": [
+        {
+          "page_url": "https://www.gamespot.com/articles/then-and-now-gears-of-war-2/1100-6202581/",
+          "image_url": "https://www.gamespot.com/wp-content/uploads/original/gamespot/images/2008/features/hardware/thengears/2153469-021.jpg",
+          "source_type": "secondary_press_comparison_actual_game_capture",
+          "scope": "Section Anya Stroud : capture de campagne Gears 2 inspectée, visage et uniforme jusqu'à la taille seulement.",
+          "visual_reference_used": false,
+          "reference_visually_inspected": true,
+          "local_reference": "/workspace/scratch/3c791759fb15/research_v13_classic/anya_g2_capture.jpg",
+          "reference_sha256": "c904dbde7d051c6fc6091597714db42cb7466ea374a2af807c3b336943b92376",
+          "reference_dimensions": [
+            768,
+            432
+          ]
+        },
+        {
+          "page_url": "https://www.gamespot.com/articles/then-and-now-gears-of-war-2/1100-6202581/",
+          "image_url": "https://www.gamespot.com/wp-content/uploads/original/gamespot/images/2008/features/hardware/thengears/2153471-021a.jpg",
+          "source_type": "secondary_press_comparison_wrong_edition_excluded",
+          "scope": "Capture Gears 1 inspectée uniquement pour distinguer les éditions ; elle ne sert pas de référence pour Gears 2 et ne montre pas les jambes.",
+          "visual_reference_used": false,
+          "reference_visually_inspected": true,
+          "excluded_from_target": true,
+          "local_reference": "/workspace/scratch/3c791759fb15/research_v13_classic/anya_g1_capture.jpg",
+          "reference_sha256": "f3df24d5d62787bf2a0fe446ff9ecd7d0f774a426bb1a2d70fc9c0300fec3ec2",
+          "reference_dimensions": [
+            768,
+            432
+          ]
+        },
+        {
+          "page_url": "https://www.engadget.com/2008-09-04-pax-08-lead-gow2-artist-and-writer-talk-lancer-polys-deaths-an.html",
+          "source_type": "developer_interview_via_press",
+          "scope": "Entretien de Pete Hayes : refonte d'Anya pour Gears 2.",
+          "visual_reference_used": false
+        }
+      ],
+      "historical_source_note": "Sources et inspections reprises du journal V13 ; elles ne sont pas toutes déclarées réinspectées dans V15.",
+      "new_sources": [
+        {
+          "page_url": "https://models.spriters-resource.com/xbox_360/gearsofwar2/",
+          "source_type": "secondary_extracted_game_asset_index",
+          "access_level": "page_text",
+          "finding": "Index ouvert : aucun modèle Anya parmi les huit assets.",
+          "image_visually_inspected_v15": false,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27"
+        },
+        {
+          "page_url": "https://www.gamespot.com/articles/then-and-now-gears-of-war-2/1100-6202581/",
+          "source_type": "secondary_actual_game_comparison_reconfirmed",
+          "access_level": "search_result_text",
+          "finding": "La comparaison réapparaît dans la recherche ; elle documente la différence G1/G2 mais ne complète pas les jambes déjà manquantes en V13.",
+          "image_visually_inspected_v15": false,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27"
+        },
+        {
+          "page_url": "https://gearsofwar.fandom.com/wiki/File:Anya_Gears1and2_1280-1-.jpg",
+          "source_type": "secondary_image_file_unavailable",
+          "access_level": "failed_open",
+          "finding": "Nom de fichier repéré dans l’index ; ouverture inaccessible, image non inspectée.",
+          "image_visually_inspected_v15": false,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27"
+        },
+        {
+          "page_url": "https://unrealarchive.org/unreal-tournament-3/models/G/girls-of-gears-model-pack-v2_4b2cf20a.html",
+          "source_type": "third_party_port_excluded",
+          "access_level": "image_search_metadata",
+          "finding": "Conversion UT3 Girls of Gears V2 ; pas de preuve du costume Contrôle Gears 2.",
+          "image_visually_inspected_v15": false,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27"
+        }
+      ],
+      "search_queries": [
+        "\"Gears of War 2\" \"Anya\" model full body",
+        "site:models.spriters-resource.com \"Gears of War 2\" \"Anya\"",
+        "Anya Gears of War 2 character model Control full",
+        "Anya Stroud Gears of War 2 model"
+      ],
+      "findings": [
+        "L’index Xbox 360 de Gears 2 a été lu : huit entrées, quatre personnages (Cole, Dom, Marcus, Minh), aucun modèle Anya.",
+        "Les nouvelles recherches renvoient principalement à Gears 3, au concept Gears 1 de James Hawkins et à la comparaison Gamespot déjà connue. Aucun corps complet final de Contrôle Gears 2 n’a été établi.",
+        "Le résultat Unreal Archive Girls of Gears est une conversion UT3 datée de 2012 ; il ne certifie pas le modèle Contrôle Gears 2."
+      ],
+      "remaining_requirement": "Vue finale du modèle Contrôle Gears 2 avec jambes et chaussures visibles, distincte des versions Gears 1, Civilian Gears 3 et conversions tierces."
+    },
+    {
+      "id": "raam_skin_02",
+      "source_game": "Gears of War 3 — RAAM’s Shadow",
+      "previous_record_path": "data/generation_v13/raam_skin_02_record.json",
+      "previous_record_sha256": "7453076ab38fffc45b39c5151766f720dc73b511b7e5b7ef895b7432f33c495b",
+      "previous_status": "reference_research_pending",
+      "decision": "reference_research_pending",
+      "generation_attempted": false,
+      "generation_attempt_count": 0,
+      "has_new_generated_image": false,
+      "asset_path": null,
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "historical_sources": [
+        {
+          "page_url": "https://gamefragger.com/xbox/xbox_360/other_shooter/gears_of_war/gears_of_war_3/pictures/gears-of-war-3-raams-shadow-dlc-4-i10632",
+          "image_url": "https://gamefragger.com/images/pictures/10632L.jpg",
+          "source_type": "publisher_press_image_republished",
+          "scope": "Galerie explicitement RAAM’s Shadow ; capture inspectée, tête/torse/bras visibles, bas du corps coupé.",
+          "visual_reference_used": false,
+          "reference_local_path": "/workspace/scratch/3c791759fb15/research_v13_enemies/raam_shadow_press.jpg",
+          "reference_sha256": "9e7e2003fb0979ffcad42ecac2889a50935329704b80edb5e15359f94f2ccd91",
+          "reference_dimensions": [
+            1024,
+            576
+          ]
+        },
+        {
+          "page_url": "https://yougoboomnow.wordpress.com/2011/12/14/gears-of-war-3-raams-shadow-dlc-review/",
+          "image_url": "https://i0.wp.com/images2.wikia.nocookie.net/__cb20111212124758/gearsofwar/images/3/35/RAAMonthefield.jpg",
+          "source_type": "secondary_gameplay_capture",
+          "scope": "Compte rendu du DLC daté du 14/12/2011 ; RAAM visible jusqu’aux cuisses/genoux, pieds hors champ.",
+          "visual_reference_used": false,
+          "reference_local_path": "/workspace/scratch/3c791759fb15/research_v13_enemies/raam_shadow_secondary_field.jpg",
+          "reference_sha256": "960314e5a588c4c9ba89adef56289da42e0cf5620f872aabba5ec7f4adc3fb57",
+          "reference_dimensions": [
+            694,
+            758
+          ]
+        }
+      ],
+      "historical_source_note": "Sources et inspections reprises du journal V13 ; elles ne sont pas toutes déclarées réinspectées dans V15.",
+      "new_sources": [
+        {
+          "page_url": "https://news.xbox.com/en-us/2011/10/20/gears-of-war-3-raams-shadow-game-add-on-coming-dec-13th/",
+          "source_type": "official_xbox_dlc_announcement",
+          "access_level": "search_result_text",
+          "finding": "Annonce officielle de RAAM’s Shadow ; aucune nouvelle image finale complète inspectée dans cette passe.",
+          "image_visually_inspected_v15": false,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27"
+        },
+        {
+          "page_url": "https://models.spriters-resource.com/pc_computer/gearsofwar/asset/290796/",
+          "source_type": "secondary_final_model_wrong_edition_excluded",
+          "access_level": "image_search_metadata",
+          "finding": "RAAM en pied du premier Gears PC ; cible Gears 3 DLC non documentée.",
+          "image_visually_inspected_v15": false,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27",
+          "image_url": "https://models.spriters-resource.com/media/preview_icons/288/290796.png?updated=1755498012"
+        },
+        {
+          "page_url": "https://kotaku.com/get-a-sneak-peek-at-gears-of-war-3s-new-multiplayer-cha-5862701",
+          "source_type": "secondary_dlc_character_selection_news",
+          "access_level": "search_result_metadata",
+          "finding": "Résultat daté du 26 novembre 2011 signalant les six personnages du DLC ; aucune image en pied effectivement inspectée.",
+          "image_visually_inspected_v15": false,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27"
+        }
+      ],
+      "search_queries": [
+        "\"RAAM\" \"Shadow\" \"model\" \"ArtStation\"",
+        "\"RAAM’s Shadow\" \"model\"",
+        "RAAM Shadow 2011 model character art Epic Games",
+        "RAAM Shadow Gears of War 3 model"
+      ],
+      "findings": [
+        "Nouvelle source Xbox Wire retrouvée pour l’annonce du DLC ; elle confirme la sortie et le contenu, sans nouvelle vue en pied établie.",
+        "Le modèle complet RAAM renvoyé par la recherche d’images appartient au premier Gears PC, pas à RAAM’s Shadow.",
+        "Les captures spécifiques au DLC déjà consignées restent coupées avant les pieds."
+      ],
+      "remaining_requirement": "Vue finale complète de RAAM dans le DLC RAAM’s Shadow de Gears 3, avec les pieds et le bas de l’armure explicitement visibles."
+    },
+    {
+      "id": "myrrah_skin_02",
+      "source_game": "Gears 5",
+      "previous_record_path": "data/generation_v13/myrrah_skin_02_record.json",
+      "previous_record_sha256": "bf6dd7d5ba8d6a2966201d81f05767f18e0061914ee151ba402806c1157d73e2",
+      "previous_status": "reference_research_pending",
+      "decision": "reference_research_pending",
+      "generation_attempted": false,
+      "generation_attempt_count": 0,
+      "has_new_generated_image": false,
+      "asset_path": null,
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "historical_sources": [
+        {
+          "page_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/2984138620239158127",
+          "image_url": "https://i.imgur.com/zvgA2Qd.jpg",
+          "source_type": "official_developer_steam_announcement",
+          "scope": "Annonce Operation 3: Gridiron, auteur TC Octus, section QUEEN MYRRAH. Visuel officiel inspecté : tête/torse/bras, pas de jambes ni de pieds.",
+          "visual_reference_used": false,
+          "reference_local_path": "/workspace/scratch/3c791759fb15/research_v13_enemies/myrrah_op3_steam.jpg",
+          "reference_sha256": "ba2c6716d23baf584adb2611d055bb925d0ecf58036a7df4bd8b237fae0ccecf",
+          "reference_dimensions": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "page_url": "https://www.gamesatlas.com/gears-5/characters/queen-myrrah",
+          "image_url": "https://www.gamesatlas.com/images/jch-optimize/ng/images_gears5_characters_queen-myrrah.webp",
+          "source_type": "secondary_catalog_portrait",
+          "scope": "Petit portrait 134×130 inspecté ; aucune information sur le corps complet.",
+          "visual_reference_used": false,
+          "reference_local_path": "/workspace/scratch/3c791759fb15/research_v13_enemies/myrrah_gamesatlas.webp",
+          "reference_sha256": "543e2ce794e536212624dbace1f747ad45edc6153210e2b88143f76dc4feef99",
+          "reference_dimensions": [
+            134,
+            130
+          ]
+        }
+      ],
+      "historical_source_note": "Sources et inspections reprises du journal V13 ; elles ne sont pas toutes déclarées réinspectées dans V15.",
+      "new_sources": [
+        {
+          "page_url": "https://www.xbox.com/en-US/games/store/year-1-delta-bundle/9p33ff0ttjc6",
+          "source_type": "official_xbox_product_and_artwork",
+          "access_level": "page_and_native_image",
+          "finding": "Fiche officielle Gears 5. Image large : groupe de cinq, Myrrah à droite ; tête/torse/haut des cuisses visibles, bas fondu.",
+          "image_visually_inspected_v15": true,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27",
+          "image_url": "https://store-images.s-microsoft.com/image/apps.33970.14545733403368703.c2340402-2fac-4518-b804-1984da4c0e1e.79943f76-a8be-4f7b-a5fe-6069c724965f",
+          "local_reference": "/workspace/scratch/f809e6610dc2/references_v15/myrrah_g5_delta_bundle_wide.jpg",
+          "bytes": 1909138,
+          "sha256": "0bd6a377ab06710cdc8a74ed8326b91dcc937603640bc14edef8789b5a2e3e65"
+        },
+        {
+          "page_url": "https://www.xbox.com/en-US/games/store/year-1-delta-bundle/9p33ff0ttjc6",
+          "source_type": "official_xbox_product_and_artwork",
+          "access_level": "page_and_native_image",
+          "finding": "Affiche verticale du même bundle ; même groupe et même limitation sur le bas de Myrrah.",
+          "image_visually_inspected_v15": true,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27",
+          "image_url": "https://store-images.s-microsoft.com/image/apps.27885.14545733403368703.c2340402-2fac-4518-b804-1984da4c0e1e.398a26cc-be20-4741-a75d-29b794718479",
+          "local_reference": "/workspace/scratch/f809e6610dc2/references_v15/myrrah_g5_delta_bundle_tall.jpg",
+          "bytes": 572207,
+          "sha256": "c8da866bffb705caeff881e50e5072e28a79c9fc4066697fb180bf96e95efbdb"
+        },
+        {
+          "page_url": "https://heber.artstation.com/projects/Bwn36?album_id=61943",
+          "source_type": "first_party_wrong_edition_excluded",
+          "access_level": "search_result_text",
+          "finding": "Projet explicitement Ultimate Edition ; non utilisable comme preuve du corps Gears 5.",
+          "image_visually_inspected_v15": false,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27"
+        },
+        {
+          "page_url": "https://chriswells.artstation.com/resume",
+          "source_type": "first_party_wrong_edition_excluded",
+          "access_level": "search_result_text",
+          "finding": "Le CV rattache son travail sur Myrrah à Gears 3.",
+          "image_visually_inspected_v15": false,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27"
+        }
+      ],
+      "search_queries": [
+        "\"Gears 5\" \"Myrrah\" ArtStation model",
+        "\"Gears 5\" \"Myrrah\" \"model\" -ultimate -cosplay",
+        "\"Myrrah\" \"Gears 5\" site:artstation.com",
+        "\"Gears 5\" \"Queen Myrrah\" \"Showcase\" -heroic -steel",
+        "Gears 5 Myrrah full body"
+      ],
+      "findings": [
+        "Deux nouvelles images officielles du Year 1 Delta Bundle ont été téléchargées en taille native et inspectées.",
+        "Myrrah apparaît à droite avec son casque, son visage, son plastron rouge/noir et ses épaules ; le bas du corps disparaît dans la composition et la brume. Aucune jambe basse ni chaussure vérifiable.",
+        "La fiche Xbox nomme Queen Myrrah et Works with Gears 5 ; édition établie pour ces images, mais cadrage incomplet.",
+        "Les sources Chris Wells et Heber Alvarado retrouvées concernent respectivement Gears 3 et Ultimate Edition ; aucune substitution."
+      ],
+      "remaining_requirement": "Une vue finale complète de Queen Myrrah standard Gears 5, notamment cuisses, genoux, bottes et arrière de tenue."
+    },
+    {
+      "id": "sam_skin_02",
+      "source_game": "Gears of War 4",
+      "previous_record_path": "data/generation_v13/sam_skin_02_record.json",
+      "previous_record_sha256": "3e80ab11731a4adc3976472ad70e5f4ccdc2131e27d735d91df775b2b682f3a0",
+      "previous_status": "reference_research_pending",
+      "decision": "reference_research_pending",
+      "generation_attempted": false,
+      "generation_attempt_count": 0,
+      "has_new_generated_image": false,
+      "asset_path": null,
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "historical_sources": [
+        {
+          "page_url": "https://gearsofwar.fandom.com/wiki/Samantha_Byrne",
+          "source_type": "secondary_character_index_search_metadata_only",
+          "scope": "Métadonnées de recherche sur la présence de Sam dans Gears 4 ; aucune vue finale complète inspectée. Cette source secondaire ne valide pas la tenue en pied.",
+          "visual_reference_used": false,
+          "reference_visually_inspected": false
+        },
+        {
+          "page_url": "https://maurymountain.artstation.com/projects/5Br2vE",
+          "source_type": "first_party_artist_wrong_edition_excluded",
+          "scope": "Projet explicitement intitulé Gears of War 3 Sam ; exclu de la cible Gears 4 vétérane. Aucun visuel de ce projet employé.",
+          "visual_reference_used": false,
+          "reference_visually_inspected": false,
+          "excluded_from_target": true
+        }
+      ],
+      "historical_source_note": "Sources et inspections reprises du journal V13 ; elles ne sont pas toutes déclarées réinspectées dans V15.",
+      "new_sources": [
+        {
+          "page_url": "https://gearsofwar.fandom.com/wiki/Samantha_Byrne",
+          "source_type": "secondary_character_gallery_unavailable",
+          "access_level": "failed_open",
+          "finding": "Ouverture HTTP 402. Aucun nouveau visuel consulté ; aucune validation déduite du nom de la page.",
+          "image_visually_inspected_v15": false,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27"
+        },
+        {
+          "page_url": "https://gearsofwar.fandom.com/es/wiki/Samantha_Byrne",
+          "source_type": "secondary_gallery_search_metadata",
+          "access_level": "search_result_text",
+          "finding": "Index mentionnant Vista de Sam en Gears of War 4 ; image non inspectée.",
+          "image_visually_inspected_v15": false,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27"
+        },
+        {
+          "page_url": "https://www.youtube.com/watch?v=ft8MgDL_lmE",
+          "source_type": "secondary_gameplay_wrong_costume_excluded",
+          "access_level": "search_result_text",
+          "finding": "Black Steel Sam multijoueur Gears 4, et non pilote vétérane de campagne. Vidéo non visionnée.",
+          "image_visually_inspected_v15": false,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27"
+        }
+      ],
+      "search_queries": [
+        "\"Gears of War 4\" \"Sam\" character model pilot",
+        "\"Gears of War 4\" \"Samantha\" model ArtStation",
+        "Gears of War 4 old Sam pilot model art",
+        "\"Sam\" \"Gears of War 4\" site:artstation.com"
+      ],
+      "findings": [
+        "Les résultats distinguent la Sam pilote de campagne des variantes Armored, Dress Uniform et V-Day multijoueur ; aucun modèle final complet de la vétérane n’a été établi.",
+        "La galerie Fandom anglaise renvoie encore HTTP 402. La galerie espagnole indexée mentionne une vue Gears 4, sans fournir une image en pied inspectable dans cette passe.",
+        "La vidéo Black Steel Sam Gears 4 retrouvée est une autre tenue et ne complète pas la pilote."
+      ],
+      "remaining_requirement": "Modèle final en pied de Sam vétérane/pilote dans la campagne Gears 4 ; visage âgé, vêtements de pilote et chaussures du même modèle."
+    },
+    {
+      "id": "theron_skin_02",
+      "source_game": "Gears Tactics",
+      "previous_record_path": "data/generation_v13/theron_skin_02_record.json",
+      "previous_record_sha256": "86d44779b165088f6e02533ebbf3a8861709cbea8f05e15d89ef091249059839",
+      "previous_status": "reference_research_pending",
+      "decision": "reference_research_pending",
+      "generation_attempted": false,
+      "generation_attempt_count": 0,
+      "has_new_generated_image": false,
+      "asset_path": null,
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "historical_sources": [
+        {
+          "page_url": "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/",
+          "image_url": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/04/c2fcd853880fcada1996def87bfd8bea45d0ee83-69cb0ddd936f3.png",
+          "source_type": "official_developer_enemy_blog",
+          "scope": "Theron Tactics tête/torse/jambes hautes ; cadre coupé avant les pieds, déjà inspecté en V12.",
+          "visual_reference_used": false,
+          "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/theron_tactics_developer.png",
+          "reference_sha256": "64cb74388fa94283b21d4b2e4b3d284dc39dd42cd01ff2dae35778557c3c10ce",
+          "reference_dimensions": [
+            1024,
+            1024
+          ]
+        },
+        {
+          "page_url": "https://www.jeuxvideo.com/wikis-soluce-astuces/1235733/chapitre-5-contrebande.htm",
+          "image_url": "https://image.jeuxvideo.com/medias-md/159162/1591621646-4944-capture-d-ecran.jpg",
+          "source_type": "secondary_gameplay_capture",
+          "scope": "Introduction en jeu du Theron ; haut du corps, aucun pied visible. Nom local historique conservé, ce fichier est une introduction et non une carte.",
+          "visual_reference_used": false,
+          "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/theron_tactics_jvc_map.jpg",
+          "reference_sha256": "a7a8f439e6e43403faf903e37472d30f1e60d5a7eaaba279e6c5bf5d5b0c1782",
+          "reference_dimensions": [
+            768,
+            432
+          ]
+        }
+      ],
+      "historical_source_note": "Sources et inspections reprises du journal V13 ; elles ne sont pas toutes déclarées réinspectées dans V15.",
+      "new_sources": [
+        {
+          "page_url": "https://pav3d.artstation.com/projects/3oKDrY",
+          "source_type": "first_party_material_library_not_character_reference",
+          "access_level": "page_text",
+          "finding": "Page lue et HTML conservé ; bibliothèque de matériaux du projet, pas de modèle Theron complet identifié.",
+          "image_visually_inspected_v15": false,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27",
+          "image_url": "https://cdna.artstation.com/p/assets/images/images/026/136/022/large/paul-widelski-smartmaterials.jpg?1587985569"
+        },
+        {
+          "page_url": "https://pav3d.artstation.com/projects/RYAQJE",
+          "source_type": "first_party_wrong_unit_excluded",
+          "access_level": "search_result_text",
+          "finding": "Disciple Tactics, explicitement rework de Drone ; pas le Theron.",
+          "image_visually_inspected_v15": false,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27"
+        },
+        {
+          "page_url": "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/",
+          "source_type": "official_developer_blog_reconfirmed",
+          "access_level": "search_result_text",
+          "finding": "Source officielle Tactics retrouvée ; aucune nouvelle image complète distincte de la référence V13.",
+          "image_visually_inspected_v15": false,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27"
+        }
+      ],
+      "search_queries": [
+        "\"Gears Tactics\" \"Theron\" model ArtStation",
+        "Theron Gears Tactics character artwork model final Mindwalk"
+      ],
+      "findings": [
+        "Les nouvelles recherches d’artistes renvoient aux matériaux, au Disciple, à Ukkon et aux armures COG. Aucun Theron final complet supplémentaire trouvé.",
+        "Le portfolio Smart Materials explique le travail de matériaux Tactics, mais son HTML expose une planche de matériaux, pas une nouvelle vue finale du Theron.",
+        "Le visuel officiel du dev blog reste la meilleure preuve d’édition déjà connue ; pieds toujours non documentés par une image nouvelle."
+      ],
+      "remaining_requirement": "Theron final Gears Tactics en pied ; ne pas compléter avec un Theron 2006, Ultimate Edition, une figurine ou une autre unité Tactics."
+    },
+    {
+      "id": "tai_skin_02",
+      "source_game": "Gears of War: E-Day",
+      "previous_record_path": "data/generation_v13/tai_skin_02_record.json",
+      "previous_record_sha256": "e26aff6378571309d5e48e13a76ea0afe60f55a0cee47f6e72dff8a673ddd741",
+      "previous_status": "reference_research_pending",
+      "decision": "reference_research_pending",
+      "generation_attempted": false,
+      "generation_attempt_count": 0,
+      "has_new_generated_image": false,
+      "asset_path": null,
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "historical_sources": [
+        {
+          "page_url": "https://news.xbox.com/en-us/2026/06/07/gears-of-war-eday-direct-xbox-games-showcase-2026/",
+          "source_type": "official_xbox_game_announcement",
+          "scope": "Annonce officielle confirmant Tai dans E-Day ; n'établit pas ici une vue finale complète du costume de campagne.",
+          "visual_reference_used": false
+        },
+        {
+          "page_url": "https://www.artstation.com/artwork/ayy8E2",
+          "image_url": "https://cdnb.artstation.com/p/assets/images/images/103/404/973/large/regin-wellander-gears-of-war-e-day-mood-tai-01.jpg?1792585783",
+          "source_type": "first_party_artist_development_concept_not_final_model",
+          "scope": "Regin Wellander/MOOD Visuals, avec Laurine Tournois : concept de Tai E-Day en pied avant/arrière. L'image et son crédit identifient explicitement du concept art ; le modèle final n'est pas corroboré.",
+          "visual_reference_used": false,
+          "reference_visually_inspected": true,
+          "excluded_as_final_model": true,
+          "local_reference": "/workspace/scratch/3c791759fb15/research_v13_classic/tai_concept.jpg",
+          "reference_sha256": "7319cd04387b50722792fe69c33ac2b64554549b6b8766f8fd544a07ace618d1",
+          "reference_dimensions": [
+            1920,
+            1476
+          ]
+        },
+        {
+          "page_url": "https://bananachu.artstation.com/projects/6vv0mw",
+          "source_type": "first_party_artist_head_concept_metadata",
+          "scope": "Kev Chu, Tai Kaliso Legacy Design : étude de tête/paintover de développement. Page repérée ; images non déclarées inspectées et aucun corps final établi.",
+          "visual_reference_used": false,
+          "reference_visually_inspected": false
+        }
+      ],
+      "historical_source_note": "Sources et inspections reprises du journal V13 ; elles ne sont pas toutes déclarées réinspectées dans V15.",
+      "new_sources": [
+        {
+          "page_url": "https://www.artstation.com/artwork/2LL5Pg",
+          "source_type": "first_party_production_concept_showcase_excluded",
+          "access_level": "html_metadata",
+          "finding": "HTML inspecté : MOOD Visuals, description de concepts et itérations. Pas un modèle final complet attesté.",
+          "image_visually_inspected_v15": false,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27"
+        },
+        {
+          "page_url": "https://bananachu.artstation.com/projects/6vv0mw",
+          "source_type": "first_party_head_concept_reconfirmed",
+          "access_level": "search_result_text",
+          "finding": "Texte indexé explicite : paintover Metahuman et explorations de tête.",
+          "image_visually_inspected_v15": false,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27"
+        },
+        {
+          "page_url": "https://news.xbox.com/en-us/podcast/gears-of-war-e-day-gameplay-reveal-deep-dive-official-xbox-podcast/",
+          "source_type": "official_xbox_developer_interview",
+          "access_level": "search_result_text",
+          "finding": "Transcription indexée mentionnant Tai ; aucune image finale en pied inspectée dans cette passe.",
+          "image_visually_inspected_v15": false,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27"
+        }
+      ],
+      "search_queries": [
+        "\"Gears of War E-Day\" \"Tai\" character model artstation",
+        "\"Tai Kaliso\" \"E-Day\" \"model\""
+      ],
+      "findings": [
+        "La nouvelle piste Characters Showcase de MOOD est explicitement une présentation de milliers d’itérations et de concepts approuvés. Elle ne certifie pas un modèle final en jeu.",
+        "Kev Chu nomme son étude Tai Concept Art et précise un paintover de base Metahuman ; la tête seule ne résout pas la tenue en pied.",
+        "L’entretien officiel Xbox évoque l’apparition de Tai ; aucun corps final complet n’a été effectivement inspecté à partir de cette page."
+      ],
+      "remaining_requirement": "Modèle final de campagne E-Day ou capture complète corroborant les changements par rapport aux concepts ; ne pas substituer Bloodied Hunter."
+    },
+    {
+      "id": "gabe_skin_02",
+      "source_game": "Gears 5 — multijoueur Operation 5",
+      "previous_record_path": "data/generation_v13/gabe_skin_02_record.json",
+      "previous_record_sha256": "ff6f9998620a50a23b1ed5e74c45db2763337f5f15879f00e0b8f27afde549ff",
+      "previous_status": "reference_research_pending",
+      "decision": "reference_research_pending",
+      "generation_attempted": false,
+      "generation_attempt_count": 0,
+      "has_new_generated_image": false,
+      "asset_path": null,
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "historical_sources": [
+        {
+          "page_url": "https://www.gearsofwar.com/en-us/news/gabe-diaz-in-gears-5/",
+          "source_type": "first_party_publisher_announcement",
+          "scope": "Annonce officielle du 12 octobre 2020 nommant Armored Gabe Diaz Skin pour Gears 5. Image inspectée : portrait jusqu’aux cuisses ; jambes, genoux et bottes non visibles.",
+          "visual_reference_used": false,
+          "accessed_date": "2026-11-27",
+          "image_url": "https://live.cdn.gearsofwar.com/gearsofwar/sites/3/2020/10/GearsTactics_LaunchCele_Gabe_F2-5f8439943cc11-69cb11a657aca.jpg",
+          "local_reference": "/workspace/scratch/3c791759fb15/research_v13_hivebusters/gabe_g5_promo.jpg",
+          "reference_sha256": "0172a52c5954a8233cca2d63a85a38e695bf59c686c061c2b9f10c179f80e634",
+          "visually_inspected": true
+        },
+        {
+          "page_url": "https://news.xbox.com/en-us/2020/11/17/gears-5-operation-5/",
+          "source_type": "first_party_publisher_announcement",
+          "scope": "Confirmation officielle de disponibilité Operation 5 ; image 1920 × 1080 inspectée, même cadrage promotionnel partiel et pas de vue en pied.",
+          "visual_reference_used": false,
+          "accessed_date": "2026-11-27",
+          "image_url": "https://xboxwire.thesourcemediaassets.com/sites/2/2020/11/GearsTactics_LaunchCele_Gabe.jpg",
+          "local_reference": "/workspace/scratch/3c791759fb15/research_v13_hivebusters/gabe_operation5_promo.jpg",
+          "reference_sha256": "8a5edcbc52673567e0404ebbf60237ca0524d412193c7f3b231a404baecc47e8",
+          "visually_inspected": true
+        },
+        {
+          "page_url": "https://www.youtube.com/watch?v=jBcbiPle1zg",
+          "source_type": "secondary_gameplay_thumbnail",
+          "scope": "Vignette secondaire SASxSH4DOWZ du 19 novembre 2020, Armored Gabe en jeu. Vignette seule inspectée, vidéo non accessible dans cette passe ; buste uniquement, ne complète pas les jambes.",
+          "visual_reference_used": false,
+          "accessed_date": "2026-11-27",
+          "source_author": "SASxSH4DOWZ",
+          "image_url": "https://i.ytimg.com/vi/jBcbiPle1zg/maxresdefault.jpg",
+          "local_reference": "/workspace/scratch/3c791759fb15/research_v13_hivebusters/gabe_g5_gameplay_thumbnail.jpg",
+          "reference_sha256": "248267654a404550c14efbf3a1810a01ef60daf5deb60514b4aa5dc009f93a7c",
+          "visually_inspected": true
+        },
+        {
+          "page_url": "https://www.gearsofwar.com/en-nz/news/dev-blog-characters/",
+          "source_type": "first_party_publisher_announcement",
+          "scope": "Source initiale du catalogue et rendu en pied consacrés à Gears Tactics. Ne prouve pas à elle seule les détails du modèle multijoueur Gears 5 ; pas utilisée comme substitution d’édition.",
+          "visual_reference_used": false,
+          "accessed_date": "2026-11-27"
+        },
+        {
+          "page_url": "https://store.steampowered.com/news/posts/?appids=1097840&enddate=1613412384&feed=steam_community_announcements",
+          "source_type": "first_party_publisher_patch_notes",
+          "scope": "Annonce officielle This Week in Gears du 1er février 2021 : Title Update 12.0.1 améliore le modèle et les textures de Gabe ; les références promotionnelles de lancement ne suffisent donc pas à valider la révision ultérieure. Aucun nouveau visuel complet inspecté dans cet article.",
+          "visual_reference_used": false,
+          "accessed_date": "2026-11-27"
+        }
+      ],
+      "historical_source_note": "Sources et inspections reprises du journal V13 ; elles ne sont pas toutes déclarées réinspectées dans V15.",
+      "new_sources": [
+        {
+          "page_url": "https://www.gearsofwar.com/en-us/news/gabe-diaz-in-gears-5/",
+          "source_type": "official_announcement_reconfirmed",
+          "access_level": "search_result_text",
+          "finding": "Nom et édition confirmés dans la recherche ; aucune nouvelle image complète.",
+          "image_visually_inspected_v15": false,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27"
+        },
+        {
+          "page_url": "https://news.xbox.com/en-us/2020/11/17/gears-5-operation-5/",
+          "source_type": "official_launch_announcement_reconfirmed",
+          "access_level": "search_result_text",
+          "finding": "Disponibilité Operation 5 ; ne démontre pas la révision de 2021.",
+          "image_visually_inspected_v15": false,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27"
+        },
+        {
+          "page_url": "https://www.youtube.com/watch?v=f6TTCx2Z2UM",
+          "source_type": "secondary_store_video_before_revision_excluded",
+          "access_level": "search_result_text",
+          "finding": "Présentation du magasin datée 5 janvier 2021, antérieure à la correction documentée. Vidéo non visionnée.",
+          "image_visually_inspected_v15": false,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27"
+        },
+        {
+          "page_url": "https://store.steampowered.com/news/posts/?appgroupname=Gears+5&appids=1097840&enddate=1617721047&feed=steam_community_announcements",
+          "source_type": "official_store_news_partial_evidence",
+          "access_level": "search_result_text",
+          "finding": "Annonce du 8 mars 2021 listant Armored Gabe ; une liste du magasin ne remplace pas un modèle complet post-correction.",
+          "image_visually_inspected_v15": false,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27"
+        }
+      ],
+      "search_queries": [
+        "\"Gears 5\" \"Armored Gabe\" model",
+        "\"Gabe\" \"Gears 5\" \"Armored\" ArtStation",
+        "\"Gears 5\" \"Armored Gabe\" \"2021\" \"fixed\""
+      ],
+      "findings": [
+        "Les annonces officielles retrouvées confirment le nom Armored Gabe et le lancement Operation 5, sans nouvelle vue en pied.",
+        "La vidéo de lancement SASxSH4DOWZ du 19 novembre 2020 était déjà connue ; elle précède la correction modèle/textures TU 12.0.1 consignée en V13.",
+        "La vidéo de magasin du 5 janvier 2021 est également antérieure à cette correction. Ni son titre ni les annonces de disponibilité ne certifient le modèle corrigé."
+      ],
+      "remaining_requirement": "Vue complète d’Armored Gabe Gears 5 postérieure à la correction modèle/textures TU 12.0.1, identité du visage comprise ; aucune substitution par Gears Tactics ou Hivebuster Gabe."
+    },
+    {
+      "id": "deebee_skin_02",
+      "source_game": "Gears 5 — multijoueur",
+      "previous_record_path": "data/generation_v13/deebee_skin_02_record.json",
+      "previous_record_sha256": "10b21e9c24ea89f0a720d65039c2b78d6006fa7af3ee6c06cd8f816202e2d781",
+      "previous_status": "reference_research_pending",
+      "decision": "reference_research_pending",
+      "generation_attempted": false,
+      "generation_attempt_count": 0,
+      "has_new_generated_image": false,
+      "asset_path": null,
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "historical_sources": [
+        {
+          "page_url": "https://news.xbox.com/en-us/2019/10/16/all-new-heroes-and-villains-are-available-today-in-gears-5/",
+          "source_type": "first_party_publisher_announcement",
+          "scope": "Annonce The Coalition/Xbox Wire du 16 octobre 2019 confirmant DeeBee multijoueur. La planche promotionnelle de 300 × 168 pixels ne montre que des portraits de cartes, pas le corps entier.",
+          "visual_reference_used": false,
+          "accessed_date": "2026-11-27",
+          "image_url": "https://xboxwire.thesourcemediaassets.com/sites/2/2019/10/Halifax_XboxWire_TU1.5_300x300.jpg",
+          "local_reference": "/workspace/scratch/3c791759fb15/research_v13_hivebusters/deebee_g5_promo.jpg",
+          "reference_sha256": "37b6be86d4ac72f74689c231a6c9f0a06f30749ebb5251bda2e473d1f08fe152",
+          "visually_inspected": true
+        },
+        {
+          "page_url": "https://www.youtube.com/watch?v=exXSiSv26ps",
+          "source_type": "secondary_gameplay_thumbnail",
+          "scope": "Vignette secondaire de gameplay Shepherd DeeBee Gears 5, publiée le 22 octobre 2019 ; tête et buste, face à quatre capteurs bleus et blindage clair, jambes absentes. Vignette seule inspectée ; ne vaut pas inspection de la vidéo.",
+          "visual_reference_used": false,
+          "accessed_date": "2026-11-27",
+          "source_author": "SASxSH4DOWZ",
+          "image_url": "https://i.ytimg.com/vi/exXSiSv26ps/maxresdefault.jpg",
+          "local_reference": "/workspace/scratch/3c791759fb15/research_v13_hivebusters/deebee_g5_gameplay_thumbnail.jpg",
+          "reference_sha256": "de819f6f04ff0b488776a0e5a17536ab24c84d13a2a2027a6265feacb397a0bf",
+          "visually_inspected": true
+        },
+        {
+          "page_url": "https://www.gamesatlas.com/gears-5/characters/deebee",
+          "source_type": "secondary_character_listing",
+          "scope": "Portrait secondaire 134 × 130 de DeeBee Gears 5, sans capture en pied disponible sur la page.",
+          "visual_reference_used": false,
+          "accessed_date": "2026-11-27",
+          "image_url": "https://www.gamesatlas.com/images/jch-optimize/ng/images_gears5_characters_deebee.webp",
+          "local_reference": "/workspace/scratch/3c791759fb15/research_v13_hivebusters/deebee_gamesatlas.webp",
+          "reference_sha256": "99818636fbecb3188665e47edc1f739415522c4b098182fce8e39e6b0d1cfdf4",
+          "visually_inspected": true
+        },
+        {
+          "page_url": "https://www.gears5.com/whatsup-oct15-2019",
+          "source_type": "first_party_publisher_announcement",
+          "scope": "Lien de mise à jour officiel depuis Xbox Wire ; redirige désormais vers la page générale https://www.gearsofwar.com/en-us/games/gears-5/, sans modèle complet du DeeBee ciblé.",
+          "visual_reference_used": false,
+          "accessed_date": "2026-11-27"
+        },
+        {
+          "page_url": "https://www.artstation.com/artwork/LJO50",
+          "source_type": "first_party_other_edition_concept",
+          "scope": "Concept de Johnson Ting explicitement Gears of War 4 ; n’établit pas le modèle final multijoueur Gears 5 et n’est pas substitué à la référence manquante.",
+          "visual_reference_used": false,
+          "accessed_date": "2026-11-27",
+          "source_author": "Johnson Ting"
+        }
+      ],
+      "historical_source_note": "Sources et inspections reprises du journal V13 ; elles ne sont pas toutes déclarées réinspectées dans V15.",
+      "new_sources": [
+        {
+          "page_url": "https://jaroldsng.artstation.com/",
+          "source_type": "first_party_wrong_variant_concept_excluded",
+          "access_level": "search_result_text",
+          "finding": "Portfolio indexé : Infected DeeBee and Swarm Leech Concept Art ; pas le Shepherd standard.",
+          "image_visually_inspected_v15": false,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27"
+        },
+        {
+          "page_url": "https://el1j4h.artstation.com/",
+          "source_type": "first_party_wrong_edition_concept_excluded",
+          "access_level": "search_result_text",
+          "finding": "Portfolio indexé : Gears of War 4 DeeBee + Head Maquettes ; pas un modèle final multijoueur Gears 5.",
+          "image_visually_inspected_v15": false,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27"
+        },
+        {
+          "page_url": "https://www.youtube.com/watch?v=Rp-6ib69pjQ",
+          "source_type": "secondary_gameplay_wrong_variant_excluded",
+          "access_level": "search_result_text",
+          "finding": "Cardboard Shepherd, autre tenue. Vidéo non visionnée.",
+          "image_visually_inspected_v15": false,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27"
+        }
+      ],
+      "search_queries": [
+        "\"Gears 5\" \"Deebee\" \"ArtStation\"",
+        "\"Gears 5\" \"DeeBee\" \"Shepherd\" model",
+        "\"DeeBee\" \"Gears 5\" site:artstation.com",
+        "\"Gears 5\" \"Shepherd\" \"Multiplayer Characters\" -cardboard -reject"
+      ],
+      "findings": [
+        "Les recherches de portfolio retrouvent les concepts Gears 4 d’Elijah McNeal et le DeeBee infecté Gears 5 de Jarold Sng. Ce ne sont pas le modèle standard multijoueur recherché.",
+        "La vidéo de showcase retrouvée est Cardboard Shepherd ; tenue différente, exclue.",
+        "Aucune capture nouvelle complète du Shepherd standard multijoueur Gears 5 inspectée."
+      ],
+      "remaining_requirement": "Vue en pied du skin Shepherd standard dans la personnalisation Gears 5, avec capteurs, couleurs, marquages, jambes et pieds visibles."
+    },
+    {
+      "id": "grenadier_skin_02",
+      "source_game": "Gears of War (2006)",
+      "previous_record_path": "data/generation_v13/grenadier_skin_02_record.json",
+      "previous_record_sha256": "b7dff672b673c7d981b799859706cf4063698310319be5be9b1f10c57fc1a6d4",
+      "previous_status": "reference_research_pending",
+      "decision": "reference_research_pending_platform_identity",
+      "generation_attempted": false,
+      "generation_attempt_count": 0,
+      "has_new_generated_image": false,
+      "asset_path": null,
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "historical_sources": [],
+      "historical_source_note": "Sources et inspections reprises du journal V13 ; elles ne sont pas toutes déclarées réinspectées dans V15.",
+      "new_sources": [
+        {
+          "page_url": "https://models.spriters-resource.com/pc_computer/gearsofwar/asset/290799/",
+          "source_type": "secondary_extracted_game_model_platform_unresolved",
+          "access_level": "page_html_and_image",
+          "finding": "Modèle Hunter en pied face/profil, classé premier Gears PC ; piste Grenadier, identité exacte Xbox 360 2006 non démontrée.",
+          "image_visually_inspected_v15": true,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27",
+          "image_url": "https://models.spriters-resource.com/media/preview_icons/288/290799.png?updated=1755498013",
+          "local_reference": "/workspace/scratch/f809e6610dc2/references_v15/hunter_g1_pc_preview.png",
+          "bytes": 425048,
+          "sha256": "de7b542b37f5e26eefdd51cc7b0c9ee58c063572990db82ff61e31c668c94fd0"
+        },
+        {
+          "page_url": "https://models.spriters-resource.com/pc_computer/gearsofwar/asset/290793/",
+          "source_type": "secondary_wrong_unit_excluded",
+          "access_level": "page_html_and_image",
+          "finding": "Grunt inspecté : drone à plastron et épaulières, ne remplace pas le Grenadier standard.",
+          "image_visually_inspected_v15": true,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27",
+          "image_url": "https://models.spriters-resource.com/media/preview_icons/288/290793.png?updated=1755498011",
+          "local_reference": "/workspace/scratch/f809e6610dc2/references_v15/grunt_g1_pc_preview.png",
+          "bytes": 511765,
+          "sha256": "4fc27e5443df355512d5c92888f56eba025844d24a472936857f75cfe2ba280d"
+        },
+        {
+          "page_url": "https://models.spriters-resource.com/xbox_360/gearsofwar/",
+          "source_type": "secondary_extracted_game_asset_index",
+          "access_level": "page_html",
+          "finding": "Index HTML accessible ; aucune entrée Hunter/Grenadier.",
+          "image_visually_inspected_v15": false,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27"
+        },
+        {
+          "page_url": "https://gearsofwar.fandom.com/wiki/Hunter_(Locust)",
+          "source_type": "secondary_development_history",
+          "access_level": "search_result_text",
+          "finding": "Texte indexé expliquant le passage du concept Hunter au Grenadier ; ne prouve pas à lui seul le maillage Xbox 360.",
+          "image_visually_inspected_v15": false,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27"
+        },
+        {
+          "page_url": "https://strategywiki.org/wiki/Gears_of_War/Enemies",
+          "source_type": "secondary_game_guide",
+          "access_level": "search_result_text",
+          "finding": "Description du Grenadier standard sans armure et de l’Elite avec plaques ; rapprochement d’identité, pas comparaison des maillages PC/Xbox.",
+          "image_visually_inspected_v15": false,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27"
+        },
+        {
+          "page_url": "https://www.mobygames.com/game/25761/gears-of-war/promo/",
+          "source_type": "secondary_publisher_art_archive_index",
+          "access_level": "page_html",
+          "finding": "L’outil web renvoie 403 ; récupération HTML locale réussie. Aucun modèle 2006 attribué identifié dans l’index ; toutes les images individuelles n’ont pas été ouvertes.",
+          "image_visually_inspected_v15": false,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27"
+        },
+        {
+          "page_url": "https://www.jeuxactu.com/gears-of-war-245-images-18442.htm",
+          "source_type": "secondary_2006_game_screenshot_gallery_unavailable",
+          "access_level": "failed_open",
+          "finding": "Galerie datée du 7 novembre 2006 repérée ; ouverture HTTP 503, aucun visuel inspecté.",
+          "image_visually_inspected_v15": false,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27"
+        }
+      ],
+      "search_queries": [
+        "\"Gears of War\" \"Grenadier\" \"2006\" model",
+        "site:models.spriters-resource.com \"Gears of War\" \"Grenadier\"",
+        "Gears of War Locust Hunter Grenadier model 2006",
+        "\"Locust_Hunter\" \"Gears\"",
+        "\"Gears of War\" \"Grenadier\" Chris Perna model",
+        "\"Gears of War\" \"Grenadier\" Xbox 360 original screenshot 2006",
+        "\"Gears of War\" \"Destroyed Beauty\" \"Grenadier\""
+      ],
+      "findings": [
+        "Nouvelle vue complète face/profil trouvée dans Models Resource sous le nom Hunter, classée Gears of War PC. Image effectivement inspectée : crâne nu, torse sans armure, pantalon/protections rouges, bottes complètes.",
+        "L’archive est indiquée comme soumise en septembre 2014, avant Ultimate Edition ; elle constitue une piste du premier Gears PC. Cette antériorité exclut une lecture naïve UE, mais ne certifie pas une identité exacte Xbox 360 2006.",
+        "L’explication Hunter devenu Grenadier est secondaire ; la ressemblance et le nom interne ne suffisent pas à prouver le modèle 2006.",
+        "L’index Xbox 360 a été lu localement : aucun Hunter/Grenadier disponible. L’index promotionnel MobyGames a été accessible en HTML mais aucun rendu Grenadier 2006 attribué n’y a été identifié ; ses images n’ont pas toutes été inspectées.",
+        "Source Grunt du même index inspectée et exclue : drone avec plastron, pas Grenadier standard.",
+        "Root informé de cette nouvelle piste avant tout appel ; autorisation conditionnelle de générer uniquement après corroboration 2006. Cette condition n’est pas établie, donc aucun appel."
+      ],
+      "remaining_requirement": "Corroboration visuelle et documentaire du modèle Xbox 360 2006 standard ; le modèle PC 2007 seul ne ferme pas l’entrée.",
+      "new_fullbody_reference_found": true,
+      "exact_target_edition_verified": false
+    },
+    {
+      "id": "anthony_black_steel_g5",
+      "source_game": "Gears 5",
+      "previous_record_path": "data/generation_v13/anthony_black_steel_g5_record.json",
+      "previous_record_sha256": "428d70f027e79ef3a4612ff38260a0d3422ab4bcf84bf13d3d1c6df08ffbc11f",
+      "previous_status": "reference_research_pending",
+      "decision": "reference_research_pending",
+      "generation_attempted": false,
+      "generation_attempt_count": 0,
+      "has_new_generated_image": false,
+      "asset_path": null,
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "historical_sources": [
+        {
+          "page_url": "https://www.xbox.com/en-US/games/store/black-steel-anthony-carmine/9MTRK6Z1RQWN",
+          "image_url": "https://store-images.s-microsoft.com/image/apps.20136.13802737660705705.0c524e52-1ff4-4412-9713-2015e81ba653.ae9be2a1-83cc-40f3-ae71-4fff40076b5e",
+          "source_type": "official_xbox_product_listing_and_artwork",
+          "scope": "Fiche Black Steel Anthony Carmine, Xbox Game Studios / The Coalition, sortie 2021-06-01, Works with Gears 5. Visuel inspecté : tête, torse et haut des cuisses avec fondu, pas de genoux ni de pieds.",
+          "visual_reference_used": false,
+          "reference_visually_inspected": true,
+          "local_reference": "/workspace/scratch/3c791759fb15/research_v13_classic/anthony_g5_xbox.jpg",
+          "reference_sha256": "4a7e18109d553830f74e3f4edc7fae868abc1b722e0d19b109fbc0546c3bb9d8",
+          "reference_dimensions": [
+            1440,
+            2160
+          ]
+        },
+        {
+          "page_url": "https://www.artstation.com/artwork/d8XBGe",
+          "original_artist_url": "https://secam_station.artstation.com/projects/d8XBGe",
+          "image_url": "https://cdna.artstation.com/p/assets/images/images/061/040/114/large/sebastien-camrrubi-gears-5-anthony-carmine-black-steel-character-rigging-the-coalition-microsoft-xbox-sebastien-camrrubi-secam-station-1.jpg?1679899926",
+          "source_type": "first_party_character_rigger_marketing_render",
+          "scope": "Sebastien Camrrubi, rig d'Anthony Black Steel pour The Coalition/Gears 5, rendu marketing © Microsoft 2021. Premier rendu inspecté, coupé aux cuisses.",
+          "visual_reference_used": false,
+          "reference_visually_inspected": true,
+          "local_reference": "/workspace/scratch/3c791759fb15/research_v13_classic/anthony_g5_primary_1.jpg",
+          "reference_sha256": "11a631775f5b8aba0fd84813607274b14740de0e2ae5fdc9ec091f4a0432ba3b",
+          "reference_dimensions": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "page_url": "https://www.artstation.com/artwork/d8XBGe",
+          "image_url": "https://cdna.artstation.com/p/assets/images/images/061/040/120/large/sebastien-camrrubi-gears-5-anthony-carmine-black-steel-character-rigging-the-coalition-microsoft-xbox-sebastien-camrrubi-secam-station-2.jpg?1679899931",
+          "source_type": "first_party_character_rigger_marketing_render",
+          "scope": "Second rendu de la même page officielle de l'artiste, inspecté en trois-quarts mais coupé en haut des cuisses ; aucune jambe complète.",
+          "visual_reference_used": false,
+          "reference_visually_inspected": true,
+          "local_reference": "/workspace/scratch/3c791759fb15/research_v13_classic/anthony_g5_primary_2.jpg",
+          "reference_sha256": "281f8bd2b62c15fa8cbbadf5bbd598513a3abd558cb9fd0160dace5a0c42d9b8",
+          "reference_dimensions": [
+            1920,
+            1080
+          ]
+        }
+      ],
+      "historical_source_note": "Sources et inspections reprises du journal V13 ; elles ne sont pas toutes déclarées réinspectées dans V15.",
+      "new_sources": [
+        {
+          "page_url": "https://secam_station.artstation.com/projects/d8XBGe",
+          "source_type": "first_party_rigger_production_work_reconfirmed",
+          "access_level": "page_text",
+          "finding": "Texte de l’artiste lu : rig du personnage Gears 5. Les rendus marketing connus ne sont pas complétés par un nouveau modèle en pied.",
+          "image_visually_inspected_v15": false,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27"
+        },
+        {
+          "page_url": "https://www.youtube.com/watch?v=2OY-Pv-hhr4",
+          "source_type": "secondary_gameplay_linked_by_production_artist",
+          "access_level": "youtube_public_metadata_and_storyboard",
+          "finding": "MantisHD, gameplay Black Steel Anthony. Planche de prévisualisation uniquement, petits échantillons du début ; vidéo entière non inspectée.",
+          "image_visually_inspected_v15": true,
+          "visual_reference_used_for_generation": false,
+          "accessed_date": "2026-11-27",
+          "image_url": "https://i.ytimg.com/sb/2OY-Pv-hhr4/storyboard3_L2/M0.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCIXD3oUG&sigh=rs$AOn4CLDxTNmza5ouTcSBndJw0ocge5QTRA",
+          "local_reference": "/workspace/scratch/f809e6610dc2/references_v15/blacksteel_anthony_storyboard0.jpg",
+          "bytes": 45445,
+          "sha256": "a5c45ca0cd4241912fbc877602fb3fb9c2ab1bc2dee5bf3cea75587ac0c8b661"
+        }
+      ],
+      "search_queries": [
+        "\"Gears 5\" \"Black Steel Anthony\" full body"
+      ],
+      "findings": [
+        "La page du rigueur Sebastien Camrrubi a été relue ; elle confirme le personnage et l’édition, et renvoie à une vidéo de MantisHD.",
+        "L’embed ne fonctionne pas dans l’outil web, mais la page YouTube publique est accessible localement. La première planche de storyboards a été téléchargée et inspectée.",
+        "Cette planche échantillonne le début de la vidéo, environ 0 à 120 secondes à intervalle de cinq secondes, en vignettes 160 × 90. Elle montre surtout du gameplay à la troisième personne et des écrans de partie ; elle ne fournit pas un modèle complet avant/arrière suffisamment lisible pour les bottes et matériaux.",
+        "La vidéo entière et ses images pleine résolution n’ont pas été déclarées visionnées. Les deux rendus marketing du rigueur déjà inspectés en V13 restent coupés aux cuisses."
+      ],
+      "remaining_requirement": "Capture complète et suffisamment résolue du Black Steel Anthony Gears 5, idéalement depuis le menu de personnalisation ; vérifier genoux, bottes et matériaux du bas."
+    }
+  ],
+  "additional_baird_2006_qa_reference": {
+    "page_url": "https://models.spriters-resource.com/xbox_360/gearsofwar/asset/302625/",
+    "source_type": "secondary_extracted_final_game_model",
+    "access_level": "page_and_image",
+    "finding": "Nouvelle vue en pied du Baird original Xbox 360. Blondeur, lunettes, cuirasse bleue, manches et protections des jambes observées. Preuve QA supplémentaire, jamais donnée à l’appel V15 ; aucun nouvel essai après le refus V15.",
+    "image_visually_inspected_v15": true,
+    "visual_reference_used_for_generation": false,
+    "accessed_date": "2026-11-27",
+    "image_url": "https://models.spriters-resource.com/media/preview_icons/299/302625.png?updated=1755500901",
+    "local_reference": "/workspace/scratch/f809e6610dc2/references_v15/baird_g1_preview.png",
+    "bytes": 133013,
+    "sha256": "5fab105bc807d26bf23bbf3c99d74175a575fcef483d198f8c0730e0c460e9a7",
+    "target_id": "baird_skin_02",
+    "does_not_change_refusal": true
+  },
+  "current_refusal_ids_not_retried_again": [
+    "dom_skin_03",
+    "baird_skin_02",
+    "cole_skin_01",
+    "kait_skin_03",
+    "fahz_hivebuster_g5"
+  ],
+  "limits": [
+    "Les recherches ne sont pas une preuve d’inexistence d’un modèle en ligne.",
+    "Les métadonnées de recherche ne valent pas inspection de l’image ; les champs d’accès distinguent explicitement ces cas.",
+    "La présence d’un costume dans un magasin officiel ne certifie pas ses parties masquées.",
+    "Aucune source Gears 1 PC, concept E-Day, Gears 3 ou Gears 4 ne remplace automatiquement un modèle d’une autre édition."
+  ]
+}

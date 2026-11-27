@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "id": "cole_skin_01",
+  "subject_id": "cole_skin_01",
+  "character_id": "cole",
+  "costume_id": "cole_skin_01",
+  "name": "Augustus Cole — Kilo Squad Judgment",
+  "category": "costume",
+  "pass_date": "2026-11-27",
+  "source_game": "Gears of War: Judgment (2013) — Xbox 360",
+  "catalog_target_game": "Gears of War: Judgment (2013)",
+  "variant": "Jeune Cole — modèle original Judgment",
+  "variant_relation": "target_version_requested",
+  "purpose": "costume_reference_fullbody",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "status": "blocked_generator_refusal",
+  "generation_status": "blocked_generator_refusal",
+  "quality_state": "blocked",
+  "generation_attempted": true,
+  "generation_attempt_count": 1,
+  "total_documented_attempts_for_target": 2,
+  "has_image": false,
+  "asset_path": null,
+  "prompt": "Use case: stylized-concept.\nAsset: ONE static transparent full-body costume reference for Augustus Cole — Kilo Squad Judgment, costume id cole_skin_01.\nTarget edition: original Gears of War: Judgment (2013), young athletic Cole, not the Gears 5 Kilo Squad recreation. Reference 1 is the original Judgment character-selection screen published by its UI artist Rick Nath for People Can Fly / Epic; the standing figure on the RIGHT is Cole. Reference 2 is a full-body promotional Cole Judgment render published in March 2013, used for the larger silhouette and boots. Ignore every menu, thumbnail, title, flag and background.\nOutput exactly ONE full character. Preserve young Cole's short close-cut black hair, clean-shaven broad face, medium-dark skin, tall heavily muscular but athletic proportions. Match the original Judgment costume: sleeveless blue-gray steel cuirass with two large dark circular breast discs encircled by metal rings, narrow vertical center panel, small blue-white luminous blocks along the shoulder straps, thick ribbed waist undersuit, wide utility belt with large octagonal/circular center buckle, asymmetric strapped upper-arm guards, layered brown-gray forearm guards with metal patches, dark padded fingerless gloves, pale gray paneled trousers with dark thigh panels and holster/straps, rounded knee plates flowing into tall armored blue-gray shin guards and broad reinforced boots. Keep the relatively new uniform and visible material blocks of the reference. No cap, no gray beard, no Gears 3 or Gears 5 chest emblem replacement.\nPose: still neutral standing front three-quarter facing screen RIGHT, nose and toes toward right; both hands empty and relaxed down at sides. No rifle, no action, no animation.\nComposition: one whole figure from hair to boot soles; scale to 75% image height and leave 10% empty transparent margin around all sides. Do not crop feet or hair.\nRealistic original-game character proportions and materials, neutral readable studio light, actual transparent alpha. No environment, floor plane, smoke, halo, gradient, shadow cloud, watermark, UI or added text.",
+  "prompt_sha256": "c97367e29a90b3f0ef31f5408ea7429a3d450984b2124cd423686587b0e5d3be",
+  "source_urls": [
+    "https://www.behance.net/gallery/12788173/Gears-of-War-Judgment",
+    "https://betoarce.blogspot.com/2013/03/gears-of-war-judgement-kilo-squad.html"
+  ],
+  "sources": [
+    {
+      "page_url": "https://www.behance.net/gallery/12788173/Gears-of-War-Judgment",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/e2109512788173.5e59381303df1.jpg",
+      "source_type": "first_party_ui_artist_original_game_capture",
+      "scope": "Écran de sélection Augustus Cole (Judgment), modèle entier, publié par Rick Nath, concepteur UI pour PCF/Epic. Portfolio publié décembre 2013 ; édition Xbox 360 explicite.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/f809e6610dc2/references_v15/cole_judgment_ui.jpg",
+      "reference_sha256": "6b334c134d42024f1b796d5c8b32870d61b810c9e05fd62d11f1cbc2f49882a4",
+      "visually_inspected": true,
+      "accessed_date": "2026-11-27"
+    },
+    {
+      "page_url": "https://betoarce.blogspot.com/2013/03/gears-of-war-judgement-kilo-squad.html",
+      "image_url": "https://1.bp.blogspot.com/-yCLd6HqUgM8/UUixiF9wPII/AAAAAAAAdWM/xOuP6-1taLE/s1600/gears_judgement_CTrain_WP.jpg",
+      "source_type": "secondary_original_promotional_render_rehosted",
+      "scope": "Rendu promotionnel Cole Judgment entier, publication mars 2013 antérieure à Gears 5 ; silhouette conforme à la capture primaire du menu original.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/f809e6610dc2/references_v15/cole_judgment_wp.jpg",
+      "reference_sha256": "0f2312ab48f170f0777cb421687d37f657791943dbf34af3d87e5e623cc30cf6",
+      "visually_inspected": true,
+      "accessed_date": "2026-11-27"
+    }
+  ],
+  "reference_images": [
+    "/workspace/scratch/f809e6610dc2/references_v15/cole_judgment_ui.jpg",
+    "/workspace/scratch/f809e6610dc2/references_v15/cole_judgment_wp.jpg"
+  ],
+  "new_attempt_authorization": {
+    "user_request": "meme promtp et en paralele reassayer ce qui on ete refuser",
+    "source": "Nouvelle instruction utilisateur transmise par root pour la passe V15.",
+    "previous_no_retry_preference_explicitly_superseded": true,
+    "scope": "Une seule nouvelle tentative de ce sujet dans la passe V15 ; arrêt si nouveau refus.",
+    "prompt_identical_to_previous": true,
+    "previous_prompt_sha256": "c97367e29a90b3f0ef31f5408ea7429a3d450984b2124cd423686587b0e5d3be",
+    "character_name_preserved": true,
+    "no_moderation_bypass_or_alternate_engine": true
+  },
+  "previous_attempt": {
+    "record_path": "data/generation_v11/cole_skin_01_record.json",
+    "record_sha256": "9a4d0a237467572ef640145986bfabb815a3c2e43199d78fa856b774e9d477c6",
+    "baseline_commit": "4eedf19b7d50a66b2b209a1d76445d6078dd7403",
+    "status": "blocked_generator_refusal",
+    "refusal": {
+      "code": "moderation_blocked",
+      "stage": "output",
+      "categories": [
+        "other"
+      ],
+      "request_id": "e3485ac6-77d9-496c-9075-483da705ee4b",
+      "message": "Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID e3485ac6-77d9-496c-9075-483da705ee4b.",
+      "attempts": 1,
+      "retried": false
+    },
+    "preserved_without_modification": true
+  },
+  "qa": {
+    "reference_visually_inspected": true,
+    "output_visually_inspected": false,
+    "observations": [
+      "Un seul nouvel appel effectué en V15, après demande utilisateur explicite de réessayer.",
+      "Prompt complet repris à l'identique ; noms des personnages, costumes et éditions conservés.",
+      "Références d'entrée inspectées avant l'appel. Les références Dom/Cole disparues ont été téléchargées à nouveau avec les mêmes empreintes.",
+      "Nouveau refus au stade sortie : aucun PNG ni image_url reçu ; aucun réessai supplémentaire, autre moteur ou reformulation.",
+      "Le refus et le journal de la génération précédente restent intacts ; la présente provenance est distincte."
+    ],
+    "remaining_checks": [
+      "Tenue originale Judgment distinguée par capture du menu primaire Rick Nath et rendu promotionnel de 2013 ; détails non validés puisqu'aucune sortie n'a été reçue."
+    ]
+  },
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "pose": "static_front_three_quarter_facing_right",
+  "output": null,
+  "refusal": {
+    "http_status": 400,
+    "code": "moderation_blocked",
+    "stage": "output",
+    "categories": [
+      "other"
+    ],
+    "request_id": "fb96d1ec-b3cd-43ab-a563-d50d059fa1f0",
+    "message": "Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID fb96d1ec-b3cd-43ab-a563-d50d059fa1f0.",
+    "attempts_in_v15": 1,
+    "retries_after_current_refusal": 0,
+    "retried_after_current_refusal": false,
+    "raw_error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID fb96d1ec-b3cd-43ab-a563-d50d059fa1f0.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+  },
+  "is_active_reference": false
+}

@@ -1,0 +1,103 @@
+{
+  "id": "boss_guardian_g4",
+  "name": "Guardian DeeBee",
+  "source_game": "Gears of War 4",
+  "variant": "Gears of War 4 — Guardian Tri-Shot, drone seul sans bouclier actif",
+  "prompt": "Use case: identity-preserve. Edit the attached isolated Guardian drone sprite. Keep exactly the same single Gears of War 4 Guardian drone, its blue/black worn metal model, integral three-barrel Tri-Shot, sensors, turbines, ammo feed, materials and all of its equipment. Change only its spatial orientation and framing: TURN THE DRONE IN 3D so its orange front optical sensors and front ends of the three gun barrels point to SCREEN-RIGHT. The current image faces screen-left; the requested result must clearly face screen-right, with the gun barrel tips on the right side of the image. Use a shallow three-quarter view showing the front and the opposite side. Do not simply mirror visible lettering, logos, or its asymmetric hardware. Keep both circular side thruster housings fully visible and the complete gun barrel assembly. Pose stationary with no firing, no energy shield or exhaust. Retain true transparent alpha. Pull the camera back to fit all hardware inside the central 74 percent of a landscape canvas with clear empty transparent margins on every side. Remove no equipment, add no people, no pilot, no extra drone, no text overlay, no background, floor, cast shadow or glow halo. One intact machine and one fixed pose only.",
+  "sources": [
+    {
+      "page_url": "https://gearsofwar.fandom.com/wiki/Guardian",
+      "image_url": "https://vignette.wikia.nocookie.net/gearsofwar/images/9/94/DB-Guardian.jpg/revision/latest",
+      "source_type": "game_model_render_on_secondary_mirror",
+      "scope": "Rendu Gears4 du Guardian avec Tri-Shot, deux turbines latérales et bouclier énergétique. Hébergement secondaire. La machine entière a été inspectée localement ; seul le matériel sans effet de bouclier a été demandé.",
+      "visual_reference_used": true,
+      "reference_sha256": "0555c2509cf282369b73c842398f1de7d63bc18e550df5d95536bfe92cafab4d"
+    },
+    {
+      "page_url": "https://emcknight.artstation.com/projects/vykaD",
+      "source_type": "original_game_asset_artist_portfolio",
+      "scope": "Portfolio primaire Evan McKnight, Guardian Gears4 : géométrie/textures du corps par l'artiste, géométrie de lanceur créditée Mindwalk. Consultation textuelle pour attribution du corps uniquement ; ne permet pas de certifier la variante Tri-Shot.",
+      "visual_reference_used": false
+    },
+    {
+      "page_url": "https://primagames.com/eguides/gears-of-war-4-eguide/enemy-forces/deebees",
+      "source_type": "licensed_game_guide",
+      "scope": "Guide Gears4 décrivant le Guardian, le bouclier et les armes lourdes ; contexte d'édition.",
+      "visual_reference_used": false
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "orientation_facing_right": true,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Un drone Guardian seul, deux turbines, capteurs orange, caisse bleue, Tri-Shot ventral à trois canons et bande d'alimentation. Aucun pilote ou autre personnage.",
+      "Première génération orientée à gauche, corrigée par imagegen dans un second passage : optiques avant et extrémités des canons pointent maintenant vers la droite. La géométrie cachée et l'asymétrie exacte restent à valider.",
+      "Bouclier et panaches de propulsion omis pour conserver le matériel isolé. L'orientation n'a pas été corrigée par une transformation raster ; les deux sorties originales sont conservées.",
+      "Alpha réel vérifié ; 70,32 % de pixels entièrement transparents. Des données RGB de halo sont présentes sous alpha nul ; les franges proches du contour restent à contrôler sur plusieurs fonds.",
+      "Marges alpha≥128 gauche/haut/droite/bas : 168/136/176/119 px. Turbines, antennes et canons entiers.",
+      "Inscriptions, capteurs, charnières, bande d'alimentation et topologie non validés 1:1. Aucun état animé produit."
+    ],
+    "remaining_checks": [
+      "Comparer les panneaux et l'asymétrie réelle au modèle Gears4 après rotation ; vérifier la bande d'alimentation et les marquages.",
+      "Contrôler les contours alpha sur fonds clair et foncé, puis définir le pivot d'intégration."
+    ]
+  },
+  "initial_prompt": "Use case: identity-preserve. Create one complete static Guardian DeeBee drone from Gears of War 4, using the attached Guardian game render as the visual model reference. Exactly one intact drone, no other subjects. Preserve the original compact angular dark cobalt-blue central chassis with black and worn silver metal edges, the small top orange beacon, the large forward orange-red optical sensor and smaller circular sensors below it, the rectangular blue upper face plate, black side panels and vents, twin horizontal outboard circular ducted thruster housings, short side support arms, the exposed braided ammo feed, and the underslung three-barrel Tri-Shot turret. Match the shapes, mechanical proportions, panel seams, sensor layout and relative scale of this precise reference. The integral Tri-Shot has exactly three long barrels and stays attached below the hull; reproduce the support joint and curved ammo belt. Show the drone in a stationary hover with the complete hardware in a shallow three-quarter view facing screen-right, including both thruster housings and the full turret, no firing or motion. Use the unshielded hardware state: omit the translucent energy shield visible around the reference, and omit exhaust plumes, energy halos, sparks and muzzle flashes, so this is an isolated machine sprite with clean readable boundaries. Realistic detailed game asset rendering, neutral soft lighting, exact muted blue, steel, black and restrained orange palette. True transparent alpha background, no floor, backdrop, gradient, checkerboard, cast shadow, text overlay or watermark. Camera pulled back: every component fits within the central 74 percent of a landscape canvas with generous clear transparent margins on all sides. Do not crop thrusters or gun. Single drone and single pose only; no pilot, character, collage, display labels or animation strip.",
+  "generation_history": [
+    {
+      "step": 1,
+      "role": "initial_generation",
+      "output_sha256": "68c651af16ff58c62694bc60403b64b3200ee385d54652b9adaf731a0a59b85f",
+      "selected": false,
+      "reason": "Machine complète mais orientation gauche au lieu de droite. Original préservé hors des actifs du dépôt."
+    },
+    {
+      "step": 2,
+      "role": "imagegen_orientation_edit",
+      "selected": true,
+      "reason": "Correction de l'orientation vers la droite, aucun traitement raster externe."
+    }
+  ],
+  "subject_id": "boss_guardian_g4",
+  "category": "boss",
+  "catalog_target_game": "Gears of War 4",
+  "purpose": "reference_fullbody",
+  "variant_relation": "target_version_candidate",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "has_image": true,
+  "asset_path": "assets/bosses_v9/guardian_gears4_fullbody.png",
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 1848142,
+    "sha256": "e2ed8412250998cb7c518585bf5dd5bfa98a6e73f5fa31667d0de064745d3a8e",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.7031834920247396,
+    "subject_bbox_alpha_ge_128": [
+      168,
+      136,
+      1360,
+      905
+    ],
+    "subject_margins_ltrb_px": [
+      168,
+      136,
+      176,
+      119
+    ]
+  }
+}

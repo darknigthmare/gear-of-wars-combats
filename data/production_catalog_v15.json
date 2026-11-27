@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "version": "v15",
+  "updated_at": "2026-11-27",
+  "scope": "Précisions de provenance et de tenue sur les entrées existantes ; aucune extension artificielle du catalogue.",
+  "characters": [],
+  "costumes": [
+    {
+      "character_id": "keegan",
+      "parent_id": "keegan",
+      "source_game": "Gears 5: Hivebusters",
+      "catalog_origin": "production_v15",
+      "catalog_scope": "production_extension",
+      "canonical_fidelity_validated": false,
+      "source_urls": [
+        "https://alexbobylev.artstation.com/projects/Vg3qGR",
+        "https://tylerthebradley.artstation.com/projects/ykrQgn"
+      ],
+      "source_url": "https://alexbobylev.artstation.com/projects/Vg3qGR",
+      "notes": [
+        "Le concept de Tyler Bradley est explicitement associé à la tenue intro Hivebusters et représente Onyx Keegan.",
+        "Le modèle final temps réel de Alex Bobylev confirme la tenue Onyx Guard ; il prévaut sur les détails du concept.",
+        "L’ancien texte opposant intro et Onyx Guard est corrigé dans le catalogue courant, sans réécrire les catalogues historiques.",
+        "La tenue Escape/Hivebuster beige est distincte ; aucune assimilation avec keegan_skin_01."
+      ],
+      "id": "keegan_skin_02",
+      "name": "Keegan — Onyx Guard, début de Hivebusters",
+      "costume_name": "Onyx Guard — modèle final Hivebusters"
+    },
+    {
+      "character_id": "keegan",
+      "parent_id": "keegan",
+      "source_game": "Gears 5: Hivebusters",
+      "catalog_origin": "production_v15",
+      "catalog_scope": "production_extension",
+      "canonical_fidelity_validated": false,
+      "source_urls": [
+        "https://alexbobylev.artstation.com/projects/Vg3qGR",
+        "https://tylerthebradley.artstation.com/projects/ykrQgn"
+      ],
+      "source_url": "https://alexbobylev.artstation.com/projects/Vg3qGR",
+      "notes": [
+        "Le concept de Tyler Bradley est explicitement associé à la tenue intro Hivebusters et représente Onyx Keegan.",
+        "Le modèle final temps réel de Alex Bobylev confirme la tenue Onyx Guard ; il prévaut sur les détails du concept.",
+        "L’ancien texte opposant intro et Onyx Guard est corrigé dans le catalogue courant, sans réécrire les catalogues historiques.",
+        "La tenue Escape/Hivebuster beige est distincte ; aucune assimilation avec keegan_skin_01."
+      ],
+      "id": "keegan_hivebusters_intro",
+      "name": "Keegan — introduction Hivebusters (alias Onyx Guard)",
+      "costume_name": "Introduction Hivebusters — alias Onyx Guard"
+    }
+  ],
+  "bosses": [],
+  "stages": [],
+  "projectiles": []
+}

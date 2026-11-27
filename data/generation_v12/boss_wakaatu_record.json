@@ -1,0 +1,56 @@
+{
+  "id": "boss_wakaatu",
+  "subject_id": "boss_wakaatu",
+  "name": "Wakaatu",
+  "category": "boss",
+  "source_game": "Gears 5: Hivebusters",
+  "requested_variant": "Gears 5: Hivebusters — référence finale complète à documenter",
+  "purpose": "reference_research",
+  "status": "reference_research_pending",
+  "pass_date": "2026-11-27",
+  "generation_attempted": false,
+  "has_image": false,
+  "asset_path": null,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation_status": "not_requested_this_pass",
+  "sources": [
+    {
+      "page_url": "https://tylerthebradley.artstation.com/projects/Krb5LB",
+      "source_type": "production_artist_concept",
+      "scope": "Concept gris multi-angle de Tyler Bradley. Géométrie de concept visible, pas un modèle final complet en couleurs.",
+      "visual_reference_used": false,
+      "image_url": "https://cdna.artstation.com/p/assets/images/images/038/686/682/large/tyler-bradley-predator-finalrender.jpg?1623778406",
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/wakaatu_final_concept.jpg",
+      "reference_sha256": "e738a3dae8a506274ac15a81172d0738fb1e74b89c95bc32117094d9d585b5cc",
+      "visually_inspected": true
+    },
+    {
+      "page_url": "https://www.noobfeed.com/articles/gears-5-hivebusters-how-to-defeat-wakaatu-insane",
+      "source_type": "secondary_publisher_in_game_screenshot",
+      "scope": "Capture de tête au sol : plumage sombre et œil jaune visibles ; corps absent, flou de mouvement et interface. Ne résout pas la palette du corps entier.",
+      "visual_reference_used": false,
+      "image_url": "https://i.imgur.com/W5aEJGO.png",
+      "reference_local_path": "/workspace/scratch/3c791759fb15/research_v12/wakaatu_gameplay_head.png",
+      "reference_sha256": "0abb76b9ef4dcb224ff2029f28699c13e543086fdafd417ce735110f4bc1ea51",
+      "visually_inspected": true
+    },
+    {
+      "page_url": "https://www.gearsofwar.com/en-us/news/hivebusters/",
+      "source_type": "official_game_announcement",
+      "scope": "Atteste le contexte Hivebusters et Galangi ; ne donne pas un turnaround de modèle.",
+      "visual_reference_used": false
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "observations": [
+      "La recherche V12 retrouve un concept primaire et une capture finale de tête. Ces références ne suffisent pas à valider les couleurs, la morphologie et les asymétries du corps entier.",
+      "Les images Greg Mitchell identifiées par une légende secondaire comme Wakaatu montrent en réalité Scorpio ou un Snatcher après inspection ; elles ne sont pas retenues pour cette créature."
+    ],
+    "remaining_checks": [
+      "Retrouver des captures en pied et des vues de dos du Wakaatu de Hivebusters ou des rendus de son modèle final en couleurs."
+    ]
+  }
+}

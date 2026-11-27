@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0",
+  "id": "baird_skin_02",
+  "subject_id": "baird_skin_02",
+  "character_id": "baird",
+  "costume_id": "baird_skin_02",
+  "name": "Damon Baird — campagne Gears of War 2006",
+  "category": "costume",
+  "pass_date": "2026-11-27",
+  "source_game": "Gears of War (2006) — capture promotionnelle de prépublication",
+  "catalog_target_game": "Gears of War (2006)",
+  "variant": "Baird campagne originale — référence promotionnelle juin 2006",
+  "variant_relation": "edition_unverified",
+  "purpose": "costume_reference_fullbody",
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "status": "blocked_generator_refusal",
+  "generation_status": "blocked_generator_refusal",
+  "quality_state": "blocked",
+  "generation_attempted": true,
+  "generation_attempt_count": 1,
+  "total_documented_attempts_for_target": 2,
+  "has_image": false,
+  "asset_path": null,
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE static transparent full-body 2D game costume candidate.\nPrimary request: Damon Baird in his campaign armor from the ORIGINAL 2006 Gears of War, costume id baird_skin_02.\nReference role: This is an official Epic/Microsoft promotional group screenshot accompanying a June 2006 interview with Cliff Bleszinski. BAIRD is the BLOND man at the FAR LEFT of the image, wearing blue goggles on his forehead, with a rifle raised vertically beside his right shoulder. Cole, Marcus and Dom are the three other men to the right: do not include them or borrow their faces/outfits. Reproduce only that leftmost Baird, not his Ultimate Edition redesign or older Gears 4/5 look. The source shows him from head to boots.\nPreserve Baird's young adult fair rugged face with light stubble, short spiky blond hair, thick dark-framed blue goggles pushed onto his forehead, stout muscular Gears proportions and the worn very dark gray-green original COG armor. Faithfully keep the thick chest/abdominal plate shapes, rounded shoulder/chest fittings with small cool blue lights, bulky side utility pouches, dark worn trousers, thigh straps and plates, broad armored knees, heavy shin guards and thick-soled armored boots visible in the source. Avoid inventing decals, logos, extra colored trim or decorative parts. Match the subdued grimy 2006 palette and original silhouette. The small details are to follow the visible reference, not modern remaster armor. Do not copy Marcus's bandana or Cole's skin or Dom's face.\nChange the pose only: set the rifle aside and give Baird two empty hands in a calm static combat guard, knees slightly bent, arms separated from torso. Predominantly SIDE VIEW with a small front three-quarter angle, looking and pointing toes to screen RIGHT. No attack, violence or particles.\nRendering: crisp realistic hand-painted 2D game cutout, neutral even light for readable armor relief.\nComposition: exactly one complete figure from hair to both boot soles, no cropping, body uses only 75% of image height with at least 10% transparent padding on all sides.\nBackground: actual transparent alpha, opaque character, clean antialiased edges. No scene, floor, ground shadow, haze, halo, gradient, backplate, text, watermark, second person, turnaround, sprite sheet or animation.",
+  "prompt_sha256": "72e3da4dc14e800565837b768496475fe2b86c2be09e702e4f3ccce0191b37d7",
+  "source_urls": [
+    "https://www.xboxgazette.com/interview_gears_of_war_cliffyb_en.php",
+    "https://www.levelup.com/noticias/the-coalition-muestra-arte-conceptual-de-gears-of-war-4/",
+    "https://models.spriters-resource.com/xbox_360/gearsofwar/asset/302625/"
+  ],
+  "sources": [
+    {
+      "page_url": "https://www.xboxgazette.com/interview_gears_of_war_cliffyb_en.php",
+      "image_url": "https://www.xboxgazette.com/i/pic_gearsofwar_14.jpg",
+      "source_type": "first_party_developer_interview_promotional_capture_rehosted_by_press",
+      "scope": "Entretien de Cliff Bleszinski du 16 juin 2006, images créditées Epic/Microsoft. La légende identifie de gauche à droite Baird, Cole, Marcus et Dom. Baird est visible en pied à gauche ; capture prépublication 1024 × 576, détails sombres et bras partiellement masqué. Il ne s'agit pas d'Ultimate Edition.",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v12_costumes/baird_2006_squad.jpg",
+      "reference_sha256": "fcf96fde67bfb29c0170c83381d8f993cbb24b7dadf989fefd825bd7b04c7b71",
+      "visually_inspected": true,
+      "accessed_date": "2026-11-27"
+    },
+    {
+      "page_url": "https://www.levelup.com/noticias/the-coalition-muestra-arte-conceptual-de-gears-of-war-4/",
+      "image_url": "https://www.levelup.com/resizer/v2/367418jpg-7MN4SD4GUVEX3ETJSDX7UF2UXY.jpg?auth=979b223ded86759bec4d53c3f36769f453927ab74aaabc752b2c886180ce355a&width=1600&quality=100",
+      "source_type": "secondary_development_comparison_excluded",
+      "scope": "Rendu complet de développement lié à Ultimate Edition, examiné puis exclu. Ne confirme pas le corps exact du modèle de campagne 2006 et n'a pas été transmis au générateur.",
+      "visual_reference_used": false,
+      "local_reference": "/workspace/scratch/3c791759fb15/research_v12_costumes/baird_comparison_full.jpg",
+      "reference_sha256": "2b3b6847fe91bd7f3cbd25aad2385495bf295010c2c89b884c24f709c4b17c02",
+      "visually_inspected": false,
+      "accessed_date": "2026-11-27",
+      "inspection_note": "Comparaison Ultimate Edition exclue, conservée depuis V12 ; non réouverte ni transmise au générateur dans cette passe."
+    },
+    {
+      "page_url": "https://models.spriters-resource.com/xbox_360/gearsofwar/asset/302625/",
+      "image_url": "https://models.spriters-resource.com/media/preview_icons/299/302625.png?updated=1755500901",
+      "source_type": "secondary_original_extracted_game_model_preview",
+      "scope": "Nouvelle corroboration du modèle Xbox 360 original Gears of War, aperçu entier. Employée pour contrôle documentaire/visuel après production ; pas ajoutée aux entrées du générateur afin de reprendre le prompt et ses références originales sans changer leur rôle.",
+      "visual_reference_used": false,
+      "local_reference": "/workspace/scratch/f809e6610dc2/references_v15/baird_g1_preview.png",
+      "reference_sha256": "5fab105bc807d26bf23bbf3c99d74175a575fcef483d198f8c0730e0c460e9a7",
+      "visually_inspected": true,
+      "accessed_date": "2026-11-27"
+    }
+  ],
+  "reference_images": [
+    "/workspace/scratch/3c791759fb15/research_v12_costumes/baird_2006_squad.jpg"
+  ],
+  "new_attempt_authorization": {
+    "user_request": "meme promtp et en paralele reassayer ce qui on ete refuser",
+    "source": "Nouvelle instruction utilisateur transmise par root pour la passe V15.",
+    "previous_no_retry_preference_explicitly_superseded": true,
+    "scope": "Une seule nouvelle tentative de ce sujet dans la passe V15 ; arrêt si nouveau refus.",
+    "prompt_identical_to_previous": true,
+    "previous_prompt_sha256": "72e3da4dc14e800565837b768496475fe2b86c2be09e702e4f3ccce0191b37d7",
+    "character_name_preserved": true,
+    "no_moderation_bypass_or_alternate_engine": true
+  },
+  "previous_attempt": {
+    "record_path": "data/generation_v12/baird_skin_02_record.json",
+    "record_sha256": "8d89959de4de17d07d731b7669347cf55915f7b7a2349615d2985b30da1e9fd3",
+    "baseline_commit": "4eedf19b7d50a66b2b209a1d76445d6078dd7403",
+    "status": "blocked_generator_refusal",
+    "refusal": {
+      "code": "moderation_blocked",
+      "stage": "output",
+      "categories": [
+        "other"
+      ],
+      "request_id": "511e958f-557f-4c40-91a9-c34426e8107a",
+      "message": "Your request was rejected by the safety system.",
+      "attempts": 1,
+      "retried": false
+    },
+    "preserved_without_modification": true
+  },
+  "qa": {
+    "reference_visually_inspected": true,
+    "output_visually_inspected": false,
+    "observations": [
+      "Un seul nouvel appel effectué en V15, après demande utilisateur explicite de réessayer.",
+      "Prompt complet repris à l'identique ; noms des personnages, costumes et éditions conservés.",
+      "Références d'entrée inspectées avant l'appel. Les références Dom/Cole disparues ont été téléchargées à nouveau avec les mêmes empreintes.",
+      "Nouveau refus au stade sortie : aucun PNG ni image_url reçu ; aucun réessai supplémentaire, autre moteur ou reformulation.",
+      "Le refus et le journal de la génération précédente restent intacts ; la présente provenance est distincte."
+    ],
+    "remaining_checks": [
+      "La référence transmise demeure une capture promotionnelle prépublication de juin 2006 ; elle ne certifie pas chaque détail final.",
+      "Une nouvelle corroboration secondaire entière du modèle original Xbox 360 a été retrouvée et inspectée (Models Resource asset302625), sans nouvel appel ni modification du prompt."
+    ]
+  },
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "pose": "static_side_three_quarter_facing_right",
+  "output": null,
+  "refusal": {
+    "http_status": 400,
+    "code": "moderation_blocked",
+    "stage": "output",
+    "categories": [
+      "other"
+    ],
+    "request_id": "bfdea755-87bd-9d8d-856a-d2d899c7b1e6",
+    "message": "Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID bfdea755-87bd-9d8d-856a-d2d899c7b1e6.",
+    "attempts_in_v15": 1,
+    "retries_after_current_refusal": 0,
+    "retried_after_current_refusal": false,
+    "raw_error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID bfdea755-87bd-9d8d-856a-d2d899c7b1e6.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+  },
+  "is_active_reference": false
+}

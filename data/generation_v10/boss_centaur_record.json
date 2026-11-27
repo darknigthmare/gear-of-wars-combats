@@ -1,0 +1,91 @@
+{
+  "id": "boss_centaur",
+  "subject_id": "boss_centaur",
+  "name": "Centaur",
+  "category": "boss",
+  "source_game": "Gears of War 2",
+  "catalog_target_game": "Gears of War 2",
+  "variant": "Gears of War 2 — Centaur, pose fixe",
+  "purpose": "reference_fullbody",
+  "variant_relation": "target_version_candidate",
+  "status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-25",
+  "has_image": true,
+  "canonical_fidelity_validated": false,
+  "asset_path": "assets/bosses_v10/centaur_gears2_fullbody.png",
+  "prompt": "Use case: stylized-concept. Asset type: one complete static vehicle sprite for a game collection. Create the COG Centaur tank specifically as it appears in Gears of War 2, using both attached game images as design reference: the clean three-quarter model view defines the body and four-wheel suspension; the front gameplay view defines the nose, front lamp positions and turret spotlight. Exactly one unmanned vehicle, with no soldiers or crew. Preserve the compact squat charcoal-grey armored body suspended high above FOUR huge knobby rubber monster-truck tires, exposed long coil springs and suspension arms, heavy sloped riveted armor, protected front plate and bumper, the distinctive single long tank cannon in a squat rotating top turret, its cylindrical breech housing, large white round spotlight beside the barrel, small white front lamps and the thin aerial. Maintain the particular Centaur geometry and proportions from the references rather than a generic modern tank. Neutral parked pose in a shallow front three-quarter view facing SCREEN-RIGHT, the vehicle nose and cannon both pointing to the right; arrange the far wheels behind naturally while showing all four wheels. Complete tires, antenna and cannon muzzle inside frame. Worn dark gunmetal finish with restrained metallic edge wear, no added markings or designs. High detail realistic game-style object rendering under soft neutral lighting. Genuine transparent alpha background, no environment, floor, rock base, cast shadow, reflection, haze, checkerboard, text or watermark. Pull camera back; center the whole vehicle inside seventy-six percent of a landscape canvas with generous empty transparent margins on all four sides, at least ten percent around every extreme. One vehicle, one static pose, no riders, no animation sheet, no separate accessories, no firing.",
+  "sources": [
+    {
+      "page_url": "https://www.alteredgamer.com/gears-of-war-2/70805-guide-vehicles/",
+      "image_url": "https://img.bhs4.com/06/a/06a7a3eed37c8ff0d6b4e94d36c66588422405ca_large.jpg",
+      "source_type": "designated_game_vehicle_render_on_secondary_guide",
+      "scope": "Page intitulée guide des véhicules Gears of War 2, image légendée Gears of War 2 Centaur Tank ; rendu trois quarts inspecté.",
+      "visual_reference_used": true,
+      "reference_sha256": "eb0d7f165c8d80f32099f24f3e7748b060a19679b7c20432f4cedda097e233ee"
+    },
+    {
+      "page_url": "https://gearsofwar.fandom.com/wiki/Centaur_Four-Nine",
+      "image_url": "https://vignette.wikia.nocookie.net/gearsofwar/images/f/f7/Centaur_Four-Nine.jpg/revision/latest",
+      "source_type": "gameplay_screenshot_on_secondary_mirror",
+      "scope": "Capture frontale Centaur Four-Nine de Gears of War 2, repère du nez, suspension, projecteur et phares. Inspectée.",
+      "visual_reference_used": true,
+      "reference_sha256": "95907c9d6de553180e8eec336b67602266fce4951c2bfd525ca963a98e6564c1"
+    },
+    {
+      "page_url": "https://www.gamespot.com/articles/qanda-gears-2-dev-pete-hayes/1100-6197510/",
+      "source_type": "primary_artist_interview",
+      "scope": "Interview de Pete Hayes concernant la réalisation du Centaur de Gears of War 2 ; confirmation textuelle de l'identité du véhicule.",
+      "visual_reference_used": false
+    }
+  ],
+  "qa": {
+    "visually_inspected": true,
+    "single_character": true,
+    "full_body_in_frame": true,
+    "transparent_background": true,
+    "orientation_facing_right": true,
+    "fidelity_1_to_1_validated": false,
+    "canonical_fidelity_validated": false,
+    "production_ready": false,
+    "observations": [
+      "Véhicule seul sans pilote ni soldat, pneus massifs, suspensions à ressorts, coque blindée et canon long. Nez et canon tournés vers la droite.",
+      "La roue éloignée est naturellement masquée par le châssis ; la silhouette visible conserve l'architecture à quatre roues. Alignement exact des phares, rivets et tourelle non certifié.",
+      "PNG natif RGBA copié sans transformation des pixels ; alpha réel vérifié. Les contours et pixels partiellement transparents nécessitent encore une inspection sur fonds variés.",
+      "Marges alpha≥128 gauche/haut/droite/bas : 226/64/250/98 px. Le sujet reste entier ; la consigne de 10 % de marge n’est pas atteinte sur tous les bords.",
+      "Aucune animation demandée ni produite. Candidat généré, fidélité 1:1 et conformité canonique non certifiées."
+    ],
+    "remaining_checks": [
+      "Comparer l'architecture des quatre roues, le projecteur, les phares et l'angle de la tourelle aux captures Gears of War 2.",
+      "Contrôler les franges alpha et préparer des marges d’atlas suffisantes avant intégration."
+    ]
+  },
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 1827785,
+    "sha256": "32c1cecf2ca1831765d1aed732899640a2d3215b806b5f55f8f175abf82414d2",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.6572093963623047,
+    "subject_bbox_alpha_ge_128": [
+      226,
+      64,
+      1286,
+      926
+    ],
+    "subject_margins_ltrb_px": [
+      226,
+      64,
+      250,
+      98
+    ]
+  },
+  "fidelity_1to1_certified": false,
+  "production_ready": false
+}
