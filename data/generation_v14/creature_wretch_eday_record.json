@@ -1,0 +1,228 @@
+{
+  "id": "creature_wretch_eday",
+  "subject_id": "creature_wretch_eday",
+  "name": "Wretch — modèle organique Gears of War: E-Day",
+  "category": "boss",
+  "encounter_role": "small_enemy",
+  "source_game": "Gears of War: E-Day",
+  "catalog_target_game": "Gears of War: E-Day",
+  "variant": "Wretch E-Day — modèle organique sans armure publié par Antoine Verney-Carron",
+  "variant_relation": "target_version_candidate",
+  "purpose": "reference_fullbody",
+  "pass_date": "2026-11-27",
+  "status": "generated_reference_pending_validation",
+  "generation_status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "generation_attempted": true,
+  "generation_attempt_count": 1,
+  "has_image": true,
+  "asset_path": "assets/creatures_v14/wretch_eday.png",
+  "original_output_path": "/workspace/scratch/f809e6610dc2/generated_images/exec-6d45df9a-0a83-4124-b77c-8934355364e2.png",
+  "prompt": "Use case: stylized-concept.\nAsset type: one static transparent PNG character reference for a 2D fighting-game catalogue.\nCreate exactly ONE Wretch from Gears of War: E-Day, specifically the unarmoured organic production model in the attached Antoine Verney-Carron images. Reproduce that model faithfully.\nInput image 1 (wr01) is the authoritative full-body production model, proportions, skin colours, hands and feet. Input image 2 (wr02) is supporting exact face, brow, teeth, skin and short spike detail. Do not copy the portfolio presentation or captions.\nBackground: genuinely transparent alpha.\nPose and framing: one full-body Wretch facing RIGHT in a side-oriented profile suitable for a 2D fighter; retain its modestly bent knees, hunched upper back, low-held very long arms and open jaw. Show both feet and both hands with a slight natural separation so their silhouette can be read. Preserve body proportions from image 1. One static pose, head and all claws completely visible. Centre the entire figure at approximately 72 percent of canvas height, with generous transparent margins surrounding its full silhouette.\nIdentity: the exact E-Day Wretch's broad hunched trapezius, small forward-set head with deeply layered arched brow ridges over the snout, cloudy pale eyes under the brow, densely spaced narrow ivory teeth, short conical spikes scattered over the scalp and shoulders, pitted organic pores, elongated forearms and hands, thick upper legs and broad clawed feet. Precisely follow the supplied model's digit and claw anatomy. No tail, equipment, armour, clothing or weapons.\nMaterials: game-authentic detailed 3D realism as a single 2D raster sprite. Mottled pale grey-beige flesh, darker grey-brown extremities and claws, muted pink-brown facial folds and mouth interior, subtle skin pores and wrinkles matching the references. Soft neutral diffuse illumination that keeps anatomy readable, no dramatic colour tint.\nConstraints: only the supplied E-Day version, no other Gears edition or redesign. One creature, one pose, no sheet, no duplicates, no extra limbs, no scene, no floor, no ground shadow, no detached particles, no text, logos, signature, watermark, UI or border.",
+  "prompt_sha256": "93cd2d319281e4bf530c2152687667fd04cabe0d98e1af655f7ebd3b8992030c",
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2002043,
+    "sha256": "1515f872211b4722ca8eb2f990cf9c877682db92b6576c71f0149df5310d7c51",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.6763540903727213,
+    "alpha_nonzero_bbox": [
+      24,
+      15,
+      1008,
+      1536
+    ],
+    "subject_bbox_alpha_ge_128": [
+      113,
+      198,
+      899,
+      1421
+    ],
+    "subject_margins_ltrb_px": [
+      113,
+      198,
+      125,
+      115
+    ],
+    "has_real_alpha": true,
+    "native_copy_verified": true
+  },
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "source_urls": [
+    "https://antoineverneycarron.artstation.com/projects/KR3KG4",
+    "https://www.artstation.com/artwork/KR3KG4"
+  ],
+  "sources": [
+    {
+      "page": "https://antoineverneycarron.artstation.com/projects/KR3KG4",
+      "alternate_page": "https://www.artstation.com/artwork/KR3KG4",
+      "title": "Gears of War: E-Day",
+      "author": "Antoine Verney-Carron",
+      "studio": "Mighty Canvas",
+      "production_credits": {
+        "wretch_sculpting": "Antoine Verney-Carron, partial contribution",
+        "wretch_texturing": "Antoine Verney-Carron",
+        "mighty_canvas_art_direction": "Daniel Bohrer",
+        "coalition_art_direction": "Aryan Hanbeck"
+      },
+      "edition": "Gears of War: E-Day",
+      "type": "primary production artist portfolio, final textured model renders",
+      "downloaded_html": "/workspace/scratch/f809e6610dc2/references_v14/wretch_eday_artist.html",
+      "visual_inspection": true
+    }
+  ],
+  "reference_images": [
+    "/workspace/scratch/f809e6610dc2/references_v14/wretch_eday_artist_wr01.jpg",
+    "/workspace/scratch/f809e6610dc2/references_v14/wretch_eday_artist_wr02.jpg"
+  ],
+  "input_images": [
+    {
+      "path": "/workspace/scratch/f809e6610dc2/references_v14/wretch_eday_artist_wr01.jpg",
+      "role": "authoritative full body final colour/texturing render",
+      "url": "https://cdna.artstation.com/p/assets/images/images/103/353/670/large/antoine-verney-carron-wr01.jpg?1792435480",
+      "artist_caption": "Wretch: texturing",
+      "dimensions": [
+        1920,
+        2880
+      ],
+      "sha256": "b6141fa0037676e64a0e15d5b094b8a2f4ab14bcf5bd91009da2161b8cf2aa77"
+    },
+    {
+      "path": "/workspace/scratch/f809e6610dc2/references_v14/wretch_eday_artist_wr02.jpg",
+      "role": "supporting final textured closeup of face, brow ridges, teeth and skin",
+      "url": "https://cdnb.artstation.com/p/assets/images/images/103/353/651/large/antoine-verney-carron-wr02.jpg?1792435461",
+      "artist_caption": "Wretch: part of sculpting",
+      "dimensions": [
+        1920,
+        2880
+      ],
+      "sha256": "7f690417947759accb9faf85bdf450d2aaaa6c4ac12a4ae68896b64488c1f8ba"
+    }
+  ],
+  "qa": {
+    "image_visually_inspected": true,
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      254
+    ],
+    "alpha_bbox_any": [
+      24,
+      15,
+      1008,
+      1536
+    ],
+    "alpha_bbox_over_1": [
+      110,
+      195,
+      902,
+      1422
+    ],
+    "alpha_bbox_over_8": [
+      112,
+      197,
+      900,
+      1422
+    ],
+    "alpha_1_pixel_count": 28200,
+    "fully_transparent_pixel_count": 1063813,
+    "partial_alpha_pixel_count": 509051,
+    "sha256": "1515f872211b4722ca8eb2f990cf9c877682db92b6576c71f0149df5310d7c51",
+    "subject_count": 1,
+    "pose_count": 1,
+    "full_body_visible": true,
+    "facing": "three-quarter toward right",
+    "strict_side_profile": false,
+    "native_pixels_unchanged": true,
+    "observations": [
+      "A single Wretch with complete head, both long arms, both hands and both feet; no text or logos.",
+      "Cloudy pale eye, layered arched brow, narrow ivory teeth, short head/shoulder spikes, pitted pale grey-beige skin, elongated arms and clawed feet follow the supplied E-Day production model.",
+      "The output changes the stance from the nearly frontal reference to a forward-hunched three-quarter pose.",
+      "The tool preview displays a brown aura in the stored RGB. Sampled background/aura pixels are alpha=0, so that RGB colour is invisible when the PNG alpha is correctly composited."
+    ],
+    "transparent_background_samples": {
+      "(200,200)": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "(800,100)": [
+        14,
+        13,
+        12,
+        0
+      ],
+      "(70,600)": [
+        32,
+        26,
+        24,
+        0
+      ],
+      "(100,1200)": [
+        9,
+        7,
+        6,
+        0
+      ],
+      "(900,700)": [
+        8,
+        6,
+        6,
+        0
+      ],
+      "(512,100)": [
+        12,
+        10,
+        9,
+        0
+      ],
+      "(512,1480)": [
+        27,
+        23,
+        21,
+        0
+      ]
+    },
+    "caveats": [
+      "Not a strict orthographic profile: the generated torso remains visibly three-quarter.",
+      "Very low alpha=1 residual pixels extend toward the canvas edges; visible silhouette at alpha>8 is wholly contained with clear margins.",
+      "Alpha maximum is 254, not 255; this is the unmodified native output.",
+      "Some posterior spine details are extrapolated because the source lacks a rear view. Exact small pore, spike and tooth placement is not verified.",
+      "Generated reference sprite, not an official asset extraction or a certified exact 1:1 game model.",
+      "One attempt only. No resizing, alpha cleanup, compositing or other pixel modification was applied."
+    ],
+    "recommended_use": "Candidate for catalogue review with edition and pose reservations retained; verify alpha compositing in the app before publication.",
+    "remaining_checks": [
+      "Not a strict orthographic profile: the generated torso remains visibly three-quarter.",
+      "Very low alpha=1 residual pixels extend toward the canvas edges; visible silhouette at alpha>8 is wholly contained with clear margins.",
+      "Alpha maximum is 254, not 255; this is the unmodified native output.",
+      "Some posterior spine details are extrapolated because the source lacks a rear view. Exact small pore, spike and tooth placement is not verified.",
+      "Generated reference sprite, not an official asset extraction or a certified exact 1:1 game model.",
+      "One attempt only. No resizing, alpha cleanup, compositing or other pixel modification was applied."
+    ],
+    "root_visual_review": [
+      "Modèle final complet et sortie native inspectés ; longues mains, pieds, dents et pores visibles.",
+      "La vue obtenue est trois-quarts ; placement des épines du dos partiellement extrapolé, détails des doigts et dents à contrôler."
+    ]
+  },
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "notes": [
+    "Version E-Day distincte de toutes les autres éditions du Wretch ; aucun nom officiel de variante supplémentaire inventé.",
+    "Créature ordinaire classée avec les rencontres pour l’inventaire ; aucune transformation en boss géant."
+  ]
+}

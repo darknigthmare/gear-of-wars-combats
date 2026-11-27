@@ -1,0 +1,190 @@
+{
+  "schema_version": "1.0",
+  "project": "Gears of War Combats",
+  "pass": "V14",
+  "review_date": "2026-11-27",
+  "scope": "Sept cibles anciennes non refusées : vérification primaire ciblée après lecture des journaux V13. Recherche complémentaire non exhaustive.",
+  "reviewed_after_records": "data/generation_v13",
+  "new_usable_final_references": 0,
+  "safe_aliases": [],
+  "generation_attempts": 0,
+  "historical_refusals": "untouched",
+  "rules": [
+    "Identité et édition exactes obligatoires.",
+    "Un concept n'est pas un modèle final.",
+    "Aucune variante d'une autre édition substituée.",
+    "Une source documentaire confirme une identité sans nécessairement fournir une référence visuelle complète.",
+    "Aucune validation de fidélité 1:1 ni génération effectuée dans cette revue."
+  ],
+  "entries": [
+    {
+      "id": "theron_skin_02",
+      "requested_game": "Gears Tactics",
+      "decision": "keep_open",
+      "identity_status": "confirmed",
+      "usable_new_full_body_final_reference": false,
+      "reason": "Theron dans Tactics est confirmé ; le visuel officiel antérieur est coupé avant les pieds. Le portfolio Smart Materials décrit une bibliothèque de matériaux, sans établir un modèle Theron final complet.",
+      "sources_opened": [
+        {
+          "url": "https://www.gearsofwar.com/en-us/news/dev-blog-enemies/",
+          "kind": "official",
+          "supports": "Theron dans le catalogue d'ennemis Tactics ; ne résout pas la coupe avant les pieds."
+        },
+        {
+          "url": "https://pav3d.artstation.com/projects/3oKDrY",
+          "kind": "production_artist",
+          "supports": "Paul Widelski : matériaux Gears Tactics, sans nouvelle preuve visuelle d'un Theron final entier."
+        }
+      ]
+    },
+    {
+      "id": "tai_skin_02",
+      "requested_game": "Gears of War: E-Day",
+      "decision": "keep_open",
+      "identity_status": "concept_identity_only",
+      "usable_new_full_body_final_reference": false,
+      "reason": "Les sources nouvelles restent du concept ou du paintover E-Day. Le concept de Kev Chu confirme des tatouages moins étendus pour le Tai jeune, sans prouver les équipements du modèle final.",
+      "sources_opened": [
+        {
+          "url": "https://bananachu.artstation.com/projects/6vv0mw",
+          "kind": "production_artist_concept",
+          "supports": "Concept et paintover Metahuman de Tai E-Day ; aucune validation d'un modèle final."
+        },
+        {
+          "url": "https://www.artstation.com/artwork/ayy8E2",
+          "kind": "production_artist_concept",
+          "supports": "Métadonnées d'un concept Tai ; page limitée à une coquille de connexion.",
+          "access_limitation": "Aucune inspection visuelle nouvelle de cette page."
+        }
+      ]
+    },
+    {
+      "id": "gabe_skin_02",
+      "requested_game": "Gears 5",
+      "decision": "keep_open",
+      "identity_status": "confirmed",
+      "usable_new_full_body_final_reference": false,
+      "reason": "Armored Gabe Gears 5 est confirmé. Le portfolio Gabe Hive Buster montre un autre costume et un high-poly ; son auteur distingue la version finale réalisée chez Mindwalk. Ni une image Tactics ni cette tenue Hive Buster ne peuvent combler ce costume.",
+      "sources_opened": [
+        {
+          "url": "https://www.gearsofwar.com/en-us/news/gabe-diaz-in-gears-5/",
+          "kind": "official",
+          "supports": "Disponibilité du costume Armored Gabe dans Gears 5."
+        },
+        {
+          "url": "https://selarom.artstation.com/projects/ZGm2mG",
+          "kind": "production_artist",
+          "supports": "Gabe Hive Buster high-poly ; autre costume, version finale attribuée à Mindwalk."
+        },
+        {
+          "url": "https://selarom.artstation.com/projects/XnwEXL",
+          "kind": "production_artist",
+          "supports": "Collection Gears 5 Misc ; ne fournit pas la référence finale complète requise pour Armored Gabe."
+        }
+      ]
+    },
+    {
+      "id": "deebee_skin_02",
+      "requested_game": "Gears 5",
+      "decision": "keep_open",
+      "identity_status": "confirmed",
+      "usable_new_full_body_final_reference": false,
+      "reason": "DeeBee multijoueur Gears 5 est confirmé, sans nouvelle vue finale complète. Johnson Ting décrit explicitement du concept Gears 4. Les liens vers Vulture, Mega Mech, Kestrel et DR1 concernent d'autres unités.",
+      "sources_opened": [
+        {
+          "url": "https://news.xbox.com/en-us/2019/10/16/all-new-heroes-and-villains-are-available-today-in-gears-5/",
+          "kind": "official",
+          "supports": "DeeBee dans le multijoueur Gears 5."
+        },
+        {
+          "url": "https://johnsonting.artstation.com/projects/LJO50",
+          "kind": "production_artist_concept",
+          "supports": "Concepts Gears 4 ; mauvaise édition pour cette cible."
+        },
+        {
+          "url": "https://www.artstation.com/artwork/qEr9e",
+          "kind": "production_artist",
+          "supports": "Titre DB DR1 ; autre unité.",
+          "access_limitation": "Corps de page inaccessible dans le rendu textuel ; aucune substitution."
+        }
+      ]
+    },
+    {
+      "id": "grenadier_skin_02",
+      "requested_game": "Gears of War (2006)",
+      "decision": "keep_open",
+      "identity_status": "exact_final_appearance_unresolved",
+      "usable_new_full_body_final_reference": false,
+      "reason": "Aucun modèle final standard 2006 entier n'a été établi. La notice GDC 2006 décrit une session audio de pipeline pour le jeu à venir ; l'article Maxon concerne Judgment. Le manuel Microsoft n'a pas été récupéré par le lecteur web.",
+      "sources_opened": [
+        {
+          "url": "https://gdcvault.com/play/1013213/Modeling-Next-Gen-Characters-From",
+          "kind": "production_presentation",
+          "supports": "Session GDC 2006 sur le pipeline, sans référence visuelle finale complète dans la page consultée."
+        },
+        {
+          "url": "https://www.maxon.net/en/article/creating-assets-for-epic-games-gears-of-war-judgment",
+          "kind": "artist_interview_toolmaker",
+          "supports": "Production Judgment ; mauvaise édition pour le Grenadier standard 2006."
+        },
+        {
+          "url": "https://download.microsoft.com/download/F/9/9/F99AB8F0-5191-4EDD-B312-7A9B9E4784FA/GOW_MNL_XK.pdf",
+          "kind": "official_manual",
+          "supports": null,
+          "access_limitation": "Récupération échouée : application/octet-stream non pris en charge ; aucune preuve extraite du manuel."
+        }
+      ]
+    },
+    {
+      "id": "anthony_black_steel_g5",
+      "requested_game": "Gears 5",
+      "decision": "keep_open_fullbody",
+      "identity_status": "Gears 5 confirmé ; aucune correction vers Gears 4",
+      "usable_new_full_body_final_reference": false,
+      "reason": "La fiche Xbox indique une compatibilité avec Gears 5 et le rigger confirme un travail pour le multijoueur Gears 5. Aucune nouvelle vue complète n'a été obtenue ; la lacune des genoux et bottes documentée V13 reste ouverte.",
+      "sources_opened": [
+        {
+          "url": "https://www.xbox.com/en-US/games/store/black-steel-anthony-carmine/9MTRK6Z1RQWN",
+          "kind": "official_product",
+          "supports": "Black Steel Anthony Carmine est une offre Gears 5 ; identité d'édition établie."
+        },
+        {
+          "url": "https://secam_station.artstation.com/projects/d8XBGe",
+          "kind": "production_artist_rigging",
+          "supports": "Sébastien Camrrubi : rig Black Steel Anthony pour le multijoueur Gears 5 ; vues marketing insuffisantes pour fermer la lacune du bas du corps."
+        }
+      ]
+    },
+    {
+      "id": "projectile_boomshot_shell_g4",
+      "requested_game": "Gears of War 4",
+      "decision": "keep_open",
+      "identity_status": "weapon_confirmed_projectile_geometry_unresolved",
+      "usable_new_full_body_final_reference": false,
+      "reason": "Le guide Prima Gears 4 confirme le comportement explosif et la trajectoire, sans géométrie isolée exploitable du projectile. Le portfolio Boomshot de Brock Grossman est explicitement un concept exploratoire E-Day : édition et stade de production inadéquats.",
+      "sources_opened": [
+        {
+          "url": "https://primagames.com/eguides/gears-of-war-4-eguide/campaign-arsenal/primary-weapons",
+          "kind": "published_game_guide",
+          "supports": "Arme et comportement ; ne fournit pas une géométrie isolée exploitable de l'obus."
+        },
+        {
+          "url": "https://primagames.com/eguides/gears-of-war-4-eguide/multiplayer/multiplayer-arsenal/explosive-weapons",
+          "kind": "published_game_guide",
+          "supports": "Explosif et trajectoire ; aucune géométrie finale isolée établie."
+        },
+        {
+          "url": "https://brockag.artstation.com/projects/9B8GwQ",
+          "kind": "production_artist_concept",
+          "supports": "Exploration Boomshot E-Day ; ne peut représenter l'obus final Gears 4."
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Aucune affirmation d'exhaustivité à l'échelle de la franchise.",
+    "Les pages et titres consultés ne constituent pas une inspection nouvelle d'une image inaccessible.",
+    "Cette revue laisse les sept entrées ouvertes ; elle conserve la bonne édition Gears 5 pour Black Steel Anthony."
+  ],
+  "output_note": "Rapport préservé en message pendant une indisponibilité transitoire de l'environnement, puis écrit sur disque après rétablissement."
+}

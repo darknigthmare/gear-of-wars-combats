@@ -2,7 +2,36 @@
 
 Corpus de conception, prototype et références visuelles consolidés le **27 novembre 2026** pour Darknigthmare.
 
-## État courant — passe V13 — tous les manquants examinés
+## État courant — passe V14 — références finales et manquants tracés
+
+La passe apporte **5 nouveaux PNG actifs**, **2 révisions Reyna archivées, avec la correction de coiffure sélectionnée comme référence**, **1 refus unique pour Mina Jinn** et **1 alias Lahni documenté sans génération**. Les **18 refus antérieurs** sont conservés sans relance.
+
+| Catégorie | Avec référence | Catalogue | Sans référence |
+| --- | --- | --- | --- |
+| Personnages | 51 | 57 | 6 |
+| Costumes | 65 | 85 | 20 |
+| Boss, créatures et machines | 30 | 34 | 4 |
+| Stages | 34 | 34 | 0 |
+| Projectiles | 5 | 9 | 4 |
+
+**159 PNG actifs uniques + 17 archives**, **219 entrées de catalogue**, **34 sans référence attribuée**. **0 fidélité 1:1 certifiée ; 0 ensemble d’animations complet.** Les nombres mesurent des références attribuées, pas des personnages jouables ni des éditions visuellement homologuées.
+
+Nouveaux candidats : **Reyna humaine Outsider Gears 4, Canker Gears 4, Leech individuel Gears 5, Wretch E-Day et Ticker organique E-Day**. Chaque image conserve son opus précis, ses dimensions natives, son prompt, ses sources et ses réserves. Reyna humaine exige un gameplay distinct de Queen Reyna ; elle ne reçoit aucun pouvoir automatiquement.
+
+Lahni intro partage le PNG Brash Brigade V13 après rapprochement documenté. Le candidat initial Reyna et son essai de nettoyage sont archivés ; la correction du côté de coiffure est sélectionnée, avec ses limites restantes. Mina Jinn est ajoutée au catalogue narratif, sans PNG après un refus unique. Les 35 anciens manquants sont tous revus ; deux entrées obtiennent une référence (Reyna et l’alias Lahni). Quatre des cinq nouvelles entrées sont illustrées.
+
+La **[bible de conception V14](livrables/Gears_of_War_Combats_Bible_v14.md)** ajoute l’annexe sur les identités et créatures complémentaires : **sept chapitres**, les **trois guides originaux**, les **68 rubriques** et les **40 cas d’acceptation**, toujours non exécutés. Le prototype conserve ses 36 combattants de conception et ses systèmes existants.
+
+- [Cinq PNG actifs, archive, refus et réserves](docs/production/LISTING_V14.md).
+- [Audit des manquants et conditions exactes de reprise](docs/production/REPRISE_V14.md).
+- [Sources et décisions V14](docs/references/production-v14-research.md).
+- [Validation V14](docs/production/VALIDATION_V14.json).
+- [Revue indépendante V14](docs/production/REVIEW_V14.md).
+- [Manifeste de construction V14](docs/production/BIBLE_BUILD_V14.json).
+
+Les images et journaux V1–V13, les guides originaux et les livrables historiques sont conservés. Les profils stricts, microdétails, marges, contours et fonctionnalités moteur ne deviennent pas validés du seul fait de la couverture du catalogue.
+
+## Historique — passe V13 — tous les manquants examinés
 
 **6 nouveaux PNG actifs**, **2 nouveaux refus**, **1 refus historique retrouvé** et **17 recherches sans génération**, dans **26 journaux V13**. Les **15 autres refus antérieurs** restent conservés sans relance. Les 41 manquants de départ ont tous un état traçable.
 
@@ -115,7 +144,7 @@ Les 40 images des passes V9 et V10 et leurs résultats restent documentés : [li
 - [Reprise V6 historique](docs/production/REPRISE_V6.md)
 - [Listing V6 et éditions cibles](docs/production/LISTING_V6.md)
 - [Rapport de validation V6](docs/production/VALIDATION_V6.json)
-- [État consolidé et limites de production](docs/production/CONSOLIDATION_2026-11-27_V13.md)
+- [État consolidé et limites de production](docs/production/CONSOLIDATION_2026-11-27_V14.md)
 - [Inventaire courant et couverture](production/coverage.json)
 - [Prototype autonome](prototype/Gears_Combats_Prototype.html)
 - [Bible illustrée v1 en PDF — historique](livrables/Gears_of_War_Combats_Bible_v1.pdf)

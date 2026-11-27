@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "version": "v14",
+  "updated_at": "2026-11-27",
+  "scope": "Un fichier existant partagé entre deux IDs de la même tenue finale, sans nouveau PNG.",
+  "aliases": [
+    {
+      "alias_id": "lahni_hivebusters_intro",
+      "canonical_id": "lahni_skin_01",
+      "character_id": "lahni",
+      "source_game": "Gears 5: Hivebusters",
+      "asset_path": "assets/costumes_v13/lahni_skin_01.png",
+      "sha256": "1e9359c427ca81256b92aa011e6b838b7e44889ae55309ec38c0ac48527e11f4",
+      "source_record_path": "data/generation_v13/lahni_skin_01_record.json",
+      "evidence_record_path": "data/generation_v14/lahni_hivebusters_intro_record.json",
+      "rationale": "Le concept de Tyler Bradley désigne explicitement la tenue intro. La comparaison indépendante avec le rendu final Hivebusters de Hanbeck permet de normaliser les deux IDs vers Brash Brigade finale ; les manches et les détails finaux ont priorité.",
+      "source_urls": [
+        "https://mediumrare.artstation.com/projects/oAdmNw",
+        "https://tylerthebradley.artstation.com/projects/ykrQgn"
+      ],
+      "caveats": [
+        "Inférence de rapprochement : concept intro de Tyler Bradley + modèle final Hivebusters publié par Aryan Hanbeck.",
+        "Final à manches courtes noires ; le concept aux hauts de bras nus ne remplace pas le modèle final.",
+        "Les réserves de visage, tatouages, glyphes, attaches, marges et halo du PNG V13 restent applicables.",
+        "Ne pas lier la tenue Escape lahni_skin_02."
+      ]
+    }
+  ]
+}

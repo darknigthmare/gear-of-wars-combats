@@ -7,31 +7,32 @@
     "roster_characters": 36,
     "characters_with_reference": 36,
     "characters_missing": 0,
-    "production_character_entries": 20,
+    "production_character_entries": 21,
     "production_characters_with_reference": 15,
-    "character_catalog_entries": 56,
+    "character_catalog_entries": 57,
     "catalog_characters_with_reference": 51,
-    "catalog_characters_missing": 5,
+    "catalog_characters_missing": 6,
     "character_png_files": 60,
     "costume_catalog_entries": 85,
-    "costumes_with_reference": 63,
-    "costumes_without_explicit_reference": 22,
-    "costume_png_files": 28,
+    "costumes_with_reference": 65,
+    "costumes_without_explicit_reference": 20,
+    "costume_png_files": 29,
+    "costume_reference_aliases": 1,
     "reused_character_pngs_for_costumes": 35,
-    "boss_catalog_entries": 31,
-    "bosses_with_reference": 27,
-    "boss_png_files": 27,
+    "boss_catalog_entries": 34,
+    "bosses_with_reference": 30,
+    "boss_png_files": 30,
     "stage_catalog_entries": 34,
     "stages_with_reference": 34,
     "stage_png_files": 35,
-    "projectile_catalog_entries": 8,
-    "projectiles_with_reference": 4,
+    "projectile_catalog_entries": 9,
+    "projectiles_with_reference": 5,
     "projectiles_missing": 4,
-    "projectile_png_files": 4,
+    "projectile_png_files": 5,
     "additional_reference_groups": 1,
-    "active_png_files": 154,
-    "unique_active_png_sha256": 154,
-    "archived_png_files": 15,
+    "active_png_files": 159,
+    "unique_active_png_sha256": 159,
+    "archived_png_files": 17,
     "canonical_fidelity_validated": 0,
     "completed_animation_sets": 0
   },
@@ -7460,6 +7461,74 @@
       "prototype_integration": "not_integrated"
     },
     {
+      "path": "assets/costumes_v14/reyna_human_g4_hairfix.png",
+      "subject_id": "reyna_skin_02",
+      "category": "costume",
+      "name": "Reyna Diaz humaine / Outsider — Gears of War 4",
+      "source_variant": "Reyna Diaz humaine Outsider — modèle final Gears of War 4",
+      "purpose": "costume_reference_fullbody",
+      "character_id": "reyna",
+      "costume_id": "reyna_skin_02",
+      "origin_batch": "generation_v14_2026-11-27",
+      "metadata_records": [
+        "data/generation_v14/reyna_skin_02_record.json"
+      ],
+      "source_urls": [
+        "https://www.zbrushcentral.com/t/gears-of-war-4-art-dump/206321",
+        "https://heber.artstation.com/projects/LxX6v",
+        "https://www.zbrushcentral.com/uploads/default/original/3X/3/3/33ce37a0270d862ad45ef6131e76f2b24e56380f.jpeg"
+      ],
+      "qa_notes": [
+        "La zone précédemment rasée au-dessus de l'oreille droite anatomique visible porte maintenant des cheveux bruns, cohérents avec le côté natte du modèle officiel.",
+        "Natte sur épaule anatomique droite et tatouage sur bras anatomique gauche préservés.",
+        "Visage, vêtement écru/olive asymétrique, harnais, collier, ceinture, couteau, bracelets, gants et bottes restent globalement cohérents avec la planche finale.",
+        "Les motifs textiles, les traits du tatouage, certaines coutures, boucles et nuances du visage ont été repeints ; la sortie ne conserve donc pas les pixels du corps à l'identique.",
+        "La comparaison au modèle officiel ne révèle pas de régression canonique précise justifiant de privilégier l'original dont le rasage est inversé.",
+        "Le côté gauche anatomique, qui doit rester rasé, est éloigné et essentiellement caché dans cette pose : il n'est pas certifiable dans cette seule vue.",
+        "Six points du halo apparent sont alpha=0 ; la couleur RGB stockée à ces points n'est pas visible en composition alpha correcte.",
+        "Motifs exacts du tatouage et des tissus, visage, bijoux, coutures et accessoires non certifiés 1:1.",
+        "Vue trois-quarts, non orthographique ; latéralité du scalp éloigné non visible.",
+        "Marges verticales alpha>8 limitées à 26 px en haut et 10 px en bas ; aucune correction de marges demandée ni réalisée.",
+        "Faibles alpha périphériques conservés ; alpha maximal 254 et résidu alpha=1 au bord inférieur.",
+        "Variante de gameplay humaine distincte à définir ; aucun pouvoir de la Reine de l'Essaim attribué à cette référence."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 44,
+      "asset_id": "assets_costumes_v14_reyna_human_g4_hairfix_png",
+      "sha256": "2f286efc3e8da89109c2008f86c5a5fb3222cb2fcbff8c6726ade2e60b90cff1",
+      "size_bytes": 2015482,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.646466,
+        "near_opaque_fraction_alpha_ge_240": 0.331174,
+        "subject_bbox_alpha_ge_128": [
+          77,
+          28,
+          880,
+          1525
+        ],
+        "subject_margins_ltrb_px": [
+          77,
+          28,
+          144,
+          11
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
       "path": "assets/costumes_v6/mac_mechanic_gears5_fullbody.png",
       "subject_id": "mac_skin_02",
       "category": "costume",
@@ -7650,6 +7719,204 @@
           20,
           107,
           12
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/creatures_v14/leech_g5.png",
+      "subject_id": "creature_leech_g5",
+      "category": "boss",
+      "name": "Leech individuel — Gears 5",
+      "source_variant": "Leech individuel — modèle final Gears 5, forme déployée",
+      "purpose": "reference_fullbody",
+      "character_id": null,
+      "costume_id": null,
+      "origin_batch": "generation_v14_2026-11-27",
+      "metadata_records": [
+        "data/generation_v14/creature_leech_g5_record.json"
+      ],
+      "source_urls": [
+        "https://bmelo.net/projects/2xzmJB",
+        "https://www.artstation.com/artwork/2xzmJB"
+      ],
+      "qa_notes": [
+        "Leech individuel distinct du Flock collectif ; aucune animation de vol ou d’infection.",
+        "Copie native exacte ; résidu alpha=1 au bord gauche conservé et signalé.",
+        "Single full-body Leech, no logos or caption, genuine transparent backdrop.",
+        "Dark burgundy textured mantle, narrow ribbed rear body, paired closely grouped trailing tips, short lateral rim thorns and folded funnel-mouth anatomy correspond closely to the supplied final model views.",
+        "The mouth is opened more visibly than the upper side-oriented reference; projection retains visible dorsal surface rather than being a geometrically verified orthographic side render.",
+        "Native output has almost transparent alpha=1 residue at the left image edge. The visible silhouette at alpha>8 remains completely inside the frame.",
+        "Visible horizontal margins are roughly 3–4 percent; the requested generous 14 percent margins were not achieved.",
+        "Generated reference sprite, not an official asset extraction or a verified exact 1:1 model. Fine teeth and thorn placement may differ.",
+        "One attempt only. No crop, resizing, alpha cleaning or other pixel modification applied."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 44,
+      "asset_id": "assets_creatures_v14_leech_g5_png",
+      "sha256": "994a0a2dc12aaa65119ed85301ef1ef52920cf91dc6e52f583d100e873a8ad92",
+      "size_bytes": 1561481,
+      "width": 2172,
+      "height": 724,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "fully_transparent_fraction": 0.627259,
+        "near_opaque_fraction_alpha_ge_240": 0.350314,
+        "subject_bbox_alpha_ge_128": [
+          81,
+          102,
+          2101,
+          645
+        ],
+        "subject_margins_ltrb_px": [
+          81,
+          102,
+          71,
+          79
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/creatures_v14/ticker_eday.png",
+      "subject_id": "creature_ticker_eday",
+      "category": "boss",
+      "name": "Ticker organique — Gears of War: E-Day",
+      "source_variant": "Ticker E-Day — modèle organique sans harnais ni bombe, partie inférieure du rendu final",
+      "purpose": "reference_fullbody",
+      "character_id": null,
+      "costume_id": null,
+      "origin_batch": "generation_v14_2026-11-27",
+      "metadata_records": [
+        "data/generation_v14/creature_ticker_eday_record.json"
+      ],
+      "source_urls": [
+        "https://antoineverneycarron.artstation.com/projects/KR3KG4",
+        "https://www.artstation.com/artwork/KR3KG4"
+      ],
+      "qa_notes": [
+        "Un seul Ticker organique ; la partie supérieure de la planche représente un Reaver et n’est pas reproduite.",
+        "Version E-Day, distincte du modèle Tactics. Aucun harnais ni explosif ajouté sans preuve.",
+        "Single lower-source Ticker, low crouch, segmented broad back, heavy wedge head, toothed jaw, organic neck folds, porous shoulder plates.",
+        "Two long front limbs, nearer bent hind leg and partly occluded far hind foot retained as in source.",
+        "Muted grey-olive and pale brown palette retained.",
+        "No Reaver, tentacles, harness, bomb, containers, machinery, artificial lights, text or logos.",
+        "All visible anatomical tips inside frame.",
+        "Requested 8 percent useful margins not achieved: 6.37% left, 6.31% right, 5.86% top, 3.95% bottom.",
+        "Alpha=1 residue touches upper/left edges; useful alpha>8 silhouette fully contained.",
+        "Far hind leg partly occluded by body; no independent rear or orthographic reference.",
+        "Fine teeth, pores, plate contours and spines are approximations. Not certified 1:1 or official extraction.",
+        "One attempt; no retry, padding, resizing or alpha cleanup."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 44,
+      "asset_id": "assets_creatures_v14_ticker_eday_png",
+      "sha256": "ae7291da0c64bb5fc40de236f2f686d447da162ecab06334ccd68dac503ff03e",
+      "size_bytes": 1543009,
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "fully_transparent_fraction": 0.635685,
+        "near_opaque_fraction_alpha_ge_240": 0.33731,
+        "subject_bbox_alpha_ge_128": [
+          114,
+          53,
+          1661,
+          850
+        ],
+        "subject_margins_ltrb_px": [
+          114,
+          53,
+          113,
+          37
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/creatures_v14/wretch_eday.png",
+      "subject_id": "creature_wretch_eday",
+      "category": "boss",
+      "name": "Wretch — modèle organique Gears of War: E-Day",
+      "source_variant": "Wretch E-Day — modèle organique sans armure publié par Antoine Verney-Carron",
+      "purpose": "reference_fullbody",
+      "character_id": null,
+      "costume_id": null,
+      "origin_batch": "generation_v14_2026-11-27",
+      "metadata_records": [
+        "data/generation_v14/creature_wretch_eday_record.json"
+      ],
+      "source_urls": [
+        "https://antoineverneycarron.artstation.com/projects/KR3KG4",
+        "https://www.artstation.com/artwork/KR3KG4"
+      ],
+      "qa_notes": [
+        "Version E-Day distincte de toutes les autres éditions du Wretch ; aucun nom officiel de variante supplémentaire inventé.",
+        "Créature ordinaire classée avec les rencontres pour l’inventaire ; aucune transformation en boss géant.",
+        "A single Wretch with complete head, both long arms, both hands and both feet; no text or logos.",
+        "Cloudy pale eye, layered arched brow, narrow ivory teeth, short head/shoulder spikes, pitted pale grey-beige skin, elongated arms and clawed feet follow the supplied E-Day production model.",
+        "The output changes the stance from the nearly frontal reference to a forward-hunched three-quarter pose.",
+        "The tool preview displays a brown aura in the stored RGB. Sampled background/aura pixels are alpha=0, so that RGB colour is invisible when the PNG alpha is correctly composited.",
+        "Not a strict orthographic profile: the generated torso remains visibly three-quarter.",
+        "Very low alpha=1 residual pixels extend toward the canvas edges; visible silhouette at alpha>8 is wholly contained with clear margins.",
+        "Alpha maximum is 254, not 255; this is the unmodified native output.",
+        "Some posterior spine details are extrapolated because the source lacks a rear view. Exact small pore, spike and tooth placement is not verified.",
+        "Generated reference sprite, not an official asset extraction or a certified exact 1:1 game model.",
+        "One attempt only. No resizing, alpha cleanup, compositing or other pixel modification was applied."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 44,
+      "asset_id": "assets_creatures_v14_wretch_eday_png",
+      "sha256": "1515f872211b4722ca8eb2f990cf9c877682db92b6576c71f0149df5310d7c51",
+      "size_bytes": 2002043,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.676354,
+        "near_opaque_fraction_alpha_ge_240": 0.289145,
+        "subject_bbox_alpha_ge_128": [
+          113,
+          198,
+          899,
+          1421
+        ],
+        "subject_margins_ltrb_px": [
+          113,
+          198,
+          125,
+          115
         ]
       },
       "has_transparency": true,
@@ -7906,6 +8173,71 @@
           178,
           81,
           125
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured",
+      "canonical_fidelity_validated": false,
+      "production_ready": false,
+      "animation_status": "not_produced",
+      "selection_status": "selected_reference",
+      "prototype_integration": "not_integrated"
+    },
+    {
+      "path": "assets/projectiles_v14/canker_g4.png",
+      "subject_id": "projectile_canker_g4",
+      "category": "projectile",
+      "name": "Carrier Minion / Canker — Gears of War 4",
+      "source_variant": "Carrier Minion / Canker — modèle final Gears of War 4",
+      "purpose": "reference_projectile",
+      "character_id": null,
+      "costume_id": null,
+      "origin_batch": "generation_v14_2026-11-27",
+      "metadata_records": [
+        "data/generation_v14/projectile_canker_g4_record.json"
+      ],
+      "source_urls": [
+        "https://www.zbrushcentral.com/t/gears-of-war-4-art-dump/206321",
+        "https://www.zbrushcentral.com/uploads/default/original/3X/5/3/534d1585fd40bdef40e31586b71ef08c82a7ad98.png",
+        "https://primagames.com/eguides/gears-of-war-4-eguide/enemy-forces/swarm"
+      ],
+      "qa_notes": [
+        "Un seul Canker orienté horizontalement, sac globulaire à droite, longs appendices pointus à gauche.",
+        "Lobes bruns luisants, membrane grisâtre veinée, pointe crème et lueur interne ambre respectent la structure générale du rendu final.",
+        "Aucun membre, aile, visage humanoïde, arme ni tuyère inventé.",
+        "La répartition des lobes, nervures et appendices fins est réinterprétée ; la lumière interne est plus brillante que dans la référence.",
+        "Marges horizontales inférieures aux 8 % demandés : 63 px à gauche et 50 px à droite pour l'alpha >=16.",
+        "De faibles pixels alpha périphériques atteignent certains bords du canevas ; aucune suppression automatique appliquée.",
+        "Comparer le nombre et les longueurs relatives des appendices au modèle.",
+        "Contrôler luminosité et alpha sur fonds clairs/sombres.",
+        "Préparer hitbox et comportement du projectile séparément."
+      ],
+      "quality_state": "candidate",
+      "variant_relation": "target_version_candidate",
+      "selection_priority": 44,
+      "asset_id": "assets_projectiles_v14_canker_g4_png",
+      "sha256": "d4a9280ef8d64a723f85b7337d4632f217b0e04140ccb82a28a3f699099be29b",
+      "size_bytes": 1467818,
+      "width": 1877,
+      "height": 838,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "fully_transparent_fraction": 0.627209,
+        "near_opaque_fraction_alpha_ge_240": 0.353874,
+        "subject_bbox_alpha_ge_128": [
+          64,
+          129,
+          1827,
+          754
+        ],
+        "subject_margins_ltrb_px": [
+          64,
+          129,
+          50,
+          84
         ]
       },
       "has_transparency": true,
@@ -10108,6 +10440,68 @@
           87,
           251,
           63
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured"
+    },
+    {
+      "path": "rejected_candidates/costumes_v14/reyna_human_g4_clean.png",
+      "status": "archived_not_active",
+      "reason": "Édition V14 non sélectionnée : marges insuffisantes et détails repeints ; original conservé. Voir docs/production/revisions_v14/reyna_human_g4_clean_record.json.",
+      "sha256": "9a556bfb42c72d72d37c40276791bf784339b8fb1793c0b0f1949354b8c1fa99",
+      "size_bytes": 2048901,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.661484,
+        "near_opaque_fraction_alpha_ge_240": 0.314072,
+        "subject_bbox_alpha_ge_128": [
+          76,
+          33,
+          880,
+          1526
+        ],
+        "subject_margins_ltrb_px": [
+          76,
+          33,
+          144,
+          10
+        ]
+      },
+      "has_transparency": true,
+      "technical_status": "image_decoded_and_alpha_measured"
+    },
+    {
+      "path": "rejected_candidates/costumes_v14/reyna_human_g4_initial.png",
+      "status": "archived_not_active",
+      "reason": "Candidat initial Reyna V14 : côté rasé inversé. Supersédé par la correction de coiffure après comparaison au modèle officiel ; journal docs/production/revisions_v14/reyna_human_g4_initial_record.json.",
+      "sha256": "21adc45fa2889c4dd72e6959e0f97653eb83b5c471ff7514b52ac40569da6715",
+      "size_bytes": 2022646,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "format": "PNG",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_fraction": 0.645321,
+        "near_opaque_fraction_alpha_ge_240": 0.329286,
+        "subject_bbox_alpha_ge_128": [
+          79,
+          27,
+          879,
+          1525
+        ],
+        "subject_margins_ltrb_px": [
+          79,
+          27,
+          145,
+          11
         ]
       },
       "has_transparency": true,

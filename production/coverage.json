@@ -2,38 +2,39 @@
   "schema_version": "1.3",
   "project": "Gears of War Combats",
   "snapshot_date": "2026-11-27",
-  "report_path": "docs/production/CONSOLIDATION_2026-11-27_V13.md",
-  "report_suffix": "V13",
+  "report_path": "docs/production/CONSOLIDATION_2026-11-27_V14.md",
+  "report_suffix": "V14",
   "generator": "src/consolidate_inventory.py",
   "totals": {
     "roster_characters": 36,
     "characters_with_reference": 36,
     "characters_missing": 0,
-    "production_character_entries": 20,
+    "production_character_entries": 21,
     "production_characters_with_reference": 15,
-    "character_catalog_entries": 56,
+    "character_catalog_entries": 57,
     "catalog_characters_with_reference": 51,
-    "catalog_characters_missing": 5,
+    "catalog_characters_missing": 6,
     "character_png_files": 60,
     "costume_catalog_entries": 85,
-    "costumes_with_reference": 63,
-    "costumes_without_explicit_reference": 22,
-    "costume_png_files": 28,
+    "costumes_with_reference": 65,
+    "costumes_without_explicit_reference": 20,
+    "costume_png_files": 29,
+    "costume_reference_aliases": 1,
     "reused_character_pngs_for_costumes": 35,
-    "boss_catalog_entries": 31,
-    "bosses_with_reference": 27,
-    "boss_png_files": 27,
+    "boss_catalog_entries": 34,
+    "bosses_with_reference": 30,
+    "boss_png_files": 30,
     "stage_catalog_entries": 34,
     "stages_with_reference": 34,
     "stage_png_files": 35,
-    "projectile_catalog_entries": 8,
-    "projectiles_with_reference": 4,
+    "projectile_catalog_entries": 9,
+    "projectiles_with_reference": 5,
     "projectiles_missing": 4,
-    "projectile_png_files": 4,
+    "projectile_png_files": 5,
     "additional_reference_groups": 1,
-    "active_png_files": 154,
-    "unique_active_png_sha256": 154,
-    "archived_png_files": 15,
+    "active_png_files": 159,
+    "unique_active_png_sha256": 159,
+    "archived_png_files": 17,
     "canonical_fidelity_validated": 0,
     "completed_animation_sets": 0
   },
@@ -2228,6 +2229,49 @@
         "pass_date": "2026-11-20"
       },
       "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
+    },
+    {
+      "id": "mina_jinn_g4",
+      "name": "Mina Jinn — Gears of War 4",
+      "category": "character",
+      "requested_source_game": "Gears of War 4",
+      "requested_base_costume": "Tenue officielle CGU — modèle final 2016",
+      "priority": "P1",
+      "faction": "CGU",
+      "character_id": null,
+      "character_name": "Mina Jinn",
+      "parent_id": null,
+      "source_urls": [
+        "https://www.zbrushcentral.com/t/gears-of-war-4-art-dump/206321"
+      ],
+      "catalog_notes": [
+        "Personnage narratif supplémentaire du catalogue, absent du roster initial.",
+        "Robe bleu nuit, col/panneau clair, lunettes et chaussures noires. Mains vides ; aucune arme inventée.",
+        "Une représentation en dialogue ne constitue pas un personnage jouable ajouté au prototype."
+      ],
+      "catalog_scope": "production_extension",
+      "implementation_status": "Référence statique en production ; aucun comportement moteur ni animation livré.",
+      "has_visual_reference": false,
+      "visual_status": "generation_blocked",
+      "selected_asset_id": null,
+      "selected_path": null,
+      "selected_source_variant": null,
+      "selected_variant_relation": null,
+      "asset_ids": [],
+      "target_version_candidate_available": false,
+      "target_version_candidate_path": null,
+      "canonical_fidelity_validated": false,
+      "animation_status": "not_produced",
+      "last_generation_attempt": {
+        "record": "data/generation_v14/mina_jinn_g4_record.json",
+        "generation": 14,
+        "status": "blocked_generator_refusal",
+        "category": "character",
+        "has_file": false,
+        "record_sha256": "d654edd5956ee3390c5b05e86227ebbf2bc56efa3f7128d45d82ec5578b78a31",
+        "pass_date": "2026-11-27"
+      },
+      "scope_note": "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
     }
   ],
   "costumes": [
@@ -2875,9 +2919,9 @@
     },
     {
       "id": "anya_skin_01",
-      "name": "Anya Stroud — Contrôle Gears of War 1 et 2 à documenter",
+      "name": "Anya Stroud — Contrôle Gears of War 2",
       "category": "costume",
-      "requested_source_game": "Contrôle Gears of War 1 et 2 à documenter",
+      "requested_source_game": "Gears of War 2",
       "requested_base_costume": null,
       "priority": "P0",
       "faction": "",
@@ -2885,12 +2929,14 @@
       "character_name": "Anya Stroud",
       "parent_id": "anya",
       "source_urls": [
-        "https://news.xbox.com/en-us/2020/11/17/gears-5-operation-5/amp/"
+        "https://www.gamespot.com/articles/then-and-now-gears-of-war-2/1100-6202581/",
+        "https://www.engadget.com/2008-09-04-pax-08-lead-gow2-artist-and-writer-talk-lancer-polys-deaths-an.html"
       ],
       "catalog_notes": [
-        "Apparence du catalogue initial ; aucune image attribuée sans identité de costume explicite."
+        "Le choix de Gears of War 2 était déjà explicite dans le journal V13 ; le nom courant est aligné pour retirer le regroupement ambigu Gears 1 et 2.",
+        "Aucune nouvelle image complète : les jambes, chaussures et proportions restent à documenter sur le modèle final Gears 2."
       ],
-      "catalog_scope": "production_catalog",
+      "catalog_scope": "production_extension",
       "implementation_status": "Référence de production ; intégration jouable non attestée",
       "has_visual_reference": false,
       "visual_status": "missing",
@@ -4441,9 +4487,9 @@
     },
     {
       "id": "reyna_skin_02",
-      "name": "Reine Reyna — Version humaine future traitée comme variante de gameplay distincte",
+      "name": "Reyna Diaz humaine — Outsider Gears of War 4",
       "category": "costume",
-      "requested_source_game": "Version humaine future traitée comme variante de gameplay distincte",
+      "requested_source_game": "Gears of War 4",
       "requested_base_costume": null,
       "priority": "P1",
       "faction": "",
@@ -4451,39 +4497,46 @@
       "character_name": "Reine Reyna",
       "parent_id": "reyna",
       "source_urls": [
-        "https://www.xbox.com/fr-fr/games/store/gears-5-operation-6-bundle/9nblc6fv6spg"
+        "https://www.zbrushcentral.com/t/gears-of-war-4-art-dump/206321",
+        "https://heber.artstation.com/projects/LxX6v"
       ],
       "catalog_notes": [
-        "Apparence du catalogue initial ; aucune image attribuée sans identité de costume explicite."
+        "Résolution explicite V14 de l’ancien intitulé ambigu « version humaine future » : version humaine Outsider Gears of War 4.",
+        "Le parent reyna conserve son identité technique historique ; cette apparence ne reçoit pas automatiquement le kit de la Reine de l’Essaim.",
+        "Référence finale complète de Heber Alvarado et Michelle Zhang. Tatouage bras gauche et natte épaule droite à préserver.",
+        "Aucun mélange avec Reyna Tactics, Queen Reyna Gears 5 ou une forme future inventée.",
+        "Le lien hérité vers le bundle Operation 6 Gears 5 ne documente pas cette tenue humaine ; les sources courantes sont remplacées par les modèles Gears 4. Le lien historique reste dans les catalogues antérieurs inchangés."
       ],
-      "catalog_scope": "production_catalog",
-      "implementation_status": "Référence de production ; intégration jouable non attestée",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "catalog_scope": "production_extension",
+      "implementation_status": "Référence statique en production ; aucun comportement moteur ni animation livré.",
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_costumes_v14_reyna_human_g4_hairfix_png",
+      "selected_path": "assets/costumes_v14/reyna_human_g4_hairfix.png",
+      "selected_source_variant": "Reyna Diaz humaine Outsider — modèle final Gears of War 4",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_costumes_v14_reyna_human_g4_hairfix_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/costumes_v14/reyna_human_g4_hairfix.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": {
-        "record": "data/generation_v13/reyna_skin_02_record.json",
-        "generation": 13,
-        "status": "reference_research_pending",
+        "record": "data/generation_v14/reyna_skin_02_record.json",
+        "generation": 14,
+        "status": "generated_reference_pending_validation",
         "category": "costume",
-        "has_file": false,
-        "record_sha256": "836b26188f5d421911e3ba677c6a45acce0a10784f3f65b4ba5a03ad1ca07e7b",
+        "has_file": true,
+        "record_sha256": "2926eae07c62b7ea7cf306963975f24225561cef8b7685a6fb713b8ae9cb5225",
         "pass_date": "2026-11-27"
       }
     },
     {
       "id": "lahni_skin_01",
-      "name": "Lahni Kaliso — Campagne Hivebusters",
+      "name": "Lahni Kaliso — Brash Brigade, tenue finale du début de Hivebusters",
       "category": "costume",
-      "requested_source_game": "Campagne Hivebusters",
+      "requested_source_game": "Gears 5: Hivebusters",
       "requested_base_costume": null,
       "priority": "P1",
       "faction": "",
@@ -4491,13 +4544,16 @@
       "character_name": "Lahni Kaliso",
       "parent_id": "lahni",
       "source_urls": [
-        "https://news.xbox.com/en-us/2020/12/08/gears-5-hivebusters-arrives-december-15/"
+        "https://mediumrare.artstation.com/projects/oAdmNw",
+        "https://tylerthebradley.artstation.com/projects/ykrQgn"
       ],
       "catalog_notes": [
-        "Apparence du catalogue initial ; aucune image attribuée sans identité de costume explicite."
+        "Tenue finale en armure du début du DLC. Ne couvre pas toutes les tenues de campagne ni Escape.",
+        "Le modèle final en manches courtes noires prévaut sur le concept aux hauts de bras nus.",
+        "Relation de catalogue issue d’une comparaison des sources primaires ; fidélité de l’image toujours à contrôler."
       ],
-      "catalog_scope": "production_catalog",
-      "implementation_status": "Référence de production ; intégration jouable non attestée",
+      "catalog_scope": "production_extension",
+      "implementation_status": "Référence statique en production ; aucun comportement moteur ni animation livré.",
       "has_visual_reference": true,
       "visual_status": "reference_available",
       "selected_asset_id": "assets_costumes_v13_lahni_skin_01_png",
@@ -5077,7 +5133,7 @@
     },
     {
       "id": "lahni_hivebusters_intro",
-      "name": "Lahni Kaliso — Lahni — tenue d'introduction Hivebusters",
+      "name": "Lahni Kaliso — introduction Hivebusters (alias Brash Brigade)",
       "category": "costume",
       "requested_source_game": "Gears 5: Hivebusters",
       "requested_base_costume": null,
@@ -5087,32 +5143,65 @@
       "character_name": "Lahni Kaliso",
       "parent_id": "lahni",
       "source_urls": [
+        "https://mediumrare.artstation.com/projects/oAdmNw",
         "https://tylerthebradley.artstation.com/projects/ykrQgn"
       ],
       "catalog_notes": [
-        "Tenue d'introduction documentée par le concept artist; confronter aux plans définitifs du DLC."
+        "Tenue finale en armure du début du DLC. Ne couvre pas toutes les tenues de campagne ni Escape.",
+        "Le modèle final en manches courtes noires prévaut sur le concept aux hauts de bras nus.",
+        "Relation de catalogue issue d’une comparaison des sources primaires ; fidélité de l’image toujours à contrôler.",
+        "Alias de référence documenté de lahni_skin_01 : fichier partagé assets/costumes_v13/lahni_skin_01.png ; aucune nouvelle génération ni validation 1:1."
       ],
       "catalog_scope": "production_extension",
-      "implementation_status": "Cible documentée de production; personnage, costume ou rencontre jouable non attesté par ce catalogue.",
-      "has_visual_reference": false,
-      "visual_status": "missing",
-      "selected_asset_id": null,
-      "selected_path": null,
-      "selected_source_variant": null,
-      "selected_variant_relation": null,
-      "asset_ids": [],
-      "target_version_candidate_available": false,
-      "target_version_candidate_path": null,
+      "implementation_status": "Référence statique en production ; aucun comportement moteur ni animation livré.",
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_costumes_v13_lahni_skin_01_png",
+      "selected_path": "assets/costumes_v13/lahni_skin_01.png",
+      "selected_source_variant": "Brash Brigade Lahni — tenue en armure du début du DLC, modèle final",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_costumes_v13_lahni_skin_01_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/costumes_v13/lahni_skin_01.png",
       "canonical_fidelity_validated": false,
       "animation_status": "not_produced",
       "last_generation_attempt": {
-        "record": "data/generation_v13/lahni_hivebusters_intro_record.json",
-        "generation": 13,
-        "status": "reference_research_pending",
+        "record": "data/generation_v14/lahni_hivebusters_intro_record.json",
+        "generation": 14,
+        "status": "reference_alias_documented",
         "category": "costume",
         "has_file": false,
-        "record_sha256": "cbe8a625f5015f82c3d178cf477c97342013d0e43c1ce1afd88e4aba34c4b983",
+        "record_sha256": "a522a9f05b1f0558cc1a5cb0043317db685e5523024a953ebe1e17b6e580f961",
         "pass_date": "2026-11-27"
+      },
+      "reference_alias_of": "lahni_skin_01",
+      "reference_resolution": {
+        "kind": "documented_costume_reference_alias",
+        "alias_id": "lahni_hivebusters_intro",
+        "canonical_id": "lahni_skin_01",
+        "character_id": "lahni",
+        "source_game": "Gears 5: Hivebusters",
+        "mapping_path": "data/costume_reference_aliases_v14.json",
+        "mapping_sha256": "754f23897a41672bbaaee02260ff03fd9fc9faec9ea2a8324c0a3b837c2dbb2f",
+        "asset_path": "assets/costumes_v13/lahni_skin_01.png",
+        "asset_sha256": "1e9359c427ca81256b92aa011e6b838b7e44889ae55309ec38c0ac48527e11f4",
+        "source_record_path": "data/generation_v13/lahni_skin_01_record.json",
+        "source_record_sha256": "54b984e3eaa1fc0f0985b8de4b2e8531923a36b2aa2bd11b2ec0ffbf3f8f2fa7",
+        "evidence_record_path": "data/generation_v14/lahni_hivebusters_intro_record.json",
+        "evidence_record_sha256": "a522a9f05b1f0558cc1a5cb0043317db685e5523024a953ebe1e17b6e580f961",
+        "rationale": "Le concept de Tyler Bradley désigne explicitement la tenue intro. La comparaison indépendante avec le rendu final Hivebusters de Hanbeck permet de normaliser les deux IDs vers Brash Brigade finale ; les manches et les détails finaux ont priorité.",
+        "source_urls": [
+          "https://mediumrare.artstation.com/projects/oAdmNw",
+          "https://tylerthebradley.artstation.com/projects/ykrQgn"
+        ],
+        "caveats": [
+          "Inférence de rapprochement : concept intro de Tyler Bradley + modèle final Hivebusters publié par Aryan Hanbeck.",
+          "Final à manches courtes noires ; le concept aux hauts de bras nus ne remplace pas le modèle final.",
+          "Les réserves de visage, tatouages, glyphes, attaches, marges et halo du PNG V13 restent applicables.",
+          "Ne pas lier la tenue Escape lahni_skin_02."
+        ]
       }
     },
     {
@@ -6769,6 +6858,140 @@
         "category": "boss",
         "has_file": false,
         "record_sha256": "bf3a604d21dc5f089897da1108e41ed70dcf8cc7e9283a709268c6162f270447",
+        "pass_date": "2026-11-27"
+      }
+    },
+    {
+      "id": "creature_leech_g5",
+      "name": "Leech individuel — Gears 5",
+      "category": "boss",
+      "requested_source_game": "Gears 5",
+      "requested_base_costume": null,
+      "priority": "P1",
+      "faction": "Essaim",
+      "character_id": null,
+      "character_name": null,
+      "parent_id": null,
+      "source_urls": [
+        "https://bmelo.net/projects/2xzmJB",
+        "https://www.artstation.com/artwork/2xzmJB"
+      ],
+      "catalog_notes": [
+        "Individu distinct de la formation collective boss_flock.",
+        "Classé avec les créatures et machines pour la production ; ce classement ne le transforme pas en boss géant.",
+        "Modèle de Bruno Melo, maillage de jeu et textures de Can Etişkol ; silhouette complète et couleurs à comparer."
+      ],
+      "catalog_scope": "production_extension",
+      "implementation_status": "Référence statique en production ; aucun comportement moteur ni animation livré.",
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_creatures_v14_leech_g5_png",
+      "selected_path": "assets/creatures_v14/leech_g5.png",
+      "selected_source_variant": "Leech individuel — modèle final Gears 5, forme déployée",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_creatures_v14_leech_g5_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/creatures_v14/leech_g5.png",
+      "canonical_fidelity_validated": false,
+      "animation_status": "not_produced",
+      "last_generation_attempt": {
+        "record": "data/generation_v14/creature_leech_g5_record.json",
+        "generation": 14,
+        "status": "generated_reference_pending_validation",
+        "category": "boss",
+        "has_file": true,
+        "record_sha256": "10eb38c2dc60776190df7f7f1301bc239976a8ec3496b0c8667e9c71d87db952",
+        "pass_date": "2026-11-27"
+      }
+    },
+    {
+      "id": "creature_wretch_eday",
+      "name": "Wretch — Gears of War: E-Day",
+      "category": "boss",
+      "requested_source_game": "Gears of War: E-Day",
+      "requested_base_costume": null,
+      "priority": "P2",
+      "faction": "",
+      "character_id": null,
+      "character_name": null,
+      "parent_id": null,
+      "source_urls": [
+        "https://antoineverneycarron.artstation.com/projects/KR3KG4",
+        "https://www.artstation.com/artwork/KR3KG4"
+      ],
+      "catalog_notes": [
+        "Version E-Day distincte de toutes les autres éditions du Wretch ; aucun nom officiel de variante supplémentaire inventé.",
+        "Créature ordinaire classée avec les rencontres pour l’inventaire ; aucune transformation en boss géant.",
+        "Modèle final texturé complet et gros plan par Antoine Verney-Carron / Mighty Canvas."
+      ],
+      "catalog_scope": "production_extension",
+      "implementation_status": "Référence statique candidate ; aucun comportement moteur ni animation livré.",
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_creatures_v14_wretch_eday_png",
+      "selected_path": "assets/creatures_v14/wretch_eday.png",
+      "selected_source_variant": "Wretch E-Day — modèle organique sans armure publié par Antoine Verney-Carron",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_creatures_v14_wretch_eday_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/creatures_v14/wretch_eday.png",
+      "canonical_fidelity_validated": false,
+      "animation_status": "not_produced",
+      "last_generation_attempt": {
+        "record": "data/generation_v14/creature_wretch_eday_record.json",
+        "generation": 14,
+        "status": "generated_reference_pending_validation",
+        "category": "boss",
+        "has_file": true,
+        "record_sha256": "6d41a2e9dbb04f5cd328a439f7371a890696bffa475a4690bc2d8101aaf9d317",
+        "pass_date": "2026-11-27"
+      }
+    },
+    {
+      "id": "creature_ticker_eday",
+      "name": "Ticker organique — Gears of War: E-Day",
+      "category": "boss",
+      "requested_source_game": "Gears of War: E-Day",
+      "requested_base_costume": null,
+      "priority": "P2",
+      "faction": "",
+      "character_id": null,
+      "character_name": null,
+      "parent_id": null,
+      "source_urls": [
+        "https://antoineverneycarron.artstation.com/projects/KR3KG4",
+        "https://www.artstation.com/artwork/KR3KG4"
+      ],
+      "catalog_notes": [
+        "Un seul Ticker organique ; la partie supérieure de la planche représente un Reaver et n’est pas reproduite.",
+        "Version E-Day, distincte du modèle Tactics. Aucun harnais ni explosif ajouté sans preuve."
+      ],
+      "catalog_scope": "production_extension",
+      "implementation_status": "Référence statique candidate ; aucun comportement moteur ni animation livré.",
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_creatures_v14_ticker_eday_png",
+      "selected_path": "assets/creatures_v14/ticker_eday.png",
+      "selected_source_variant": "Ticker E-Day — modèle organique sans harnais ni bombe, partie inférieure du rendu final",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_creatures_v14_ticker_eday_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/creatures_v14/ticker_eday.png",
+      "canonical_fidelity_validated": false,
+      "animation_status": "not_produced",
+      "last_generation_attempt": {
+        "record": "data/generation_v14/creature_ticker_eday_record.json",
+        "generation": 14,
+        "status": "generated_reference_pending_validation",
+        "category": "boss",
+        "has_file": true,
+        "record_sha256": "b344ef7e2c7e93bb249d8e5f155cef57ab40ea4c17597bcd522777503d9ebe8b",
         "pass_date": "2026-11-27"
       }
     }
@@ -8573,6 +8796,53 @@
       },
       "weapon_id": "boomshot",
       "source_weapon": "Boomshot"
+    },
+    {
+      "id": "projectile_canker_g4",
+      "name": "Canker / Carrier Minion — Gears of War 4",
+      "category": "projectile",
+      "requested_source_game": "Gears of War 4",
+      "requested_base_costume": null,
+      "priority": "P1",
+      "faction": "",
+      "character_id": null,
+      "character_name": null,
+      "parent_id": null,
+      "source_urls": [
+        "https://www.zbrushcentral.com/t/gears-of-war-4-art-dump/206321",
+        "https://primagames.com/eguides/gears-of-war-4-eguide/enemy-forces/swarm"
+      ],
+      "catalog_notes": [
+        "Modèle final Carrier Minion de Daniel Bohrer ; dénomination Canker étayée par le guide officiel Prima.",
+        "Un seul projectile complet par PNG ; aucune explosion, traînée ou animation produite par cette image.",
+        "Le Canker du Carrier et une future variante du Hive Beast ne sont pas automatiquement interchangeables."
+      ],
+      "catalog_scope": "production_extension",
+      "implementation_status": "Référence statique en production ; aucun comportement moteur ni animation livré.",
+      "has_visual_reference": true,
+      "visual_status": "reference_available",
+      "selected_asset_id": "assets_projectiles_v14_canker_g4_png",
+      "selected_path": "assets/projectiles_v14/canker_g4.png",
+      "selected_source_variant": "Carrier Minion / Canker — modèle final Gears of War 4",
+      "selected_variant_relation": "target_version_candidate",
+      "asset_ids": [
+        "assets_projectiles_v14_canker_g4_png"
+      ],
+      "target_version_candidate_available": true,
+      "target_version_candidate_path": "assets/projectiles_v14/canker_g4.png",
+      "canonical_fidelity_validated": false,
+      "animation_status": "not_produced",
+      "last_generation_attempt": {
+        "record": "data/generation_v14/projectile_canker_g4_record.json",
+        "generation": 14,
+        "status": "generated_reference_pending_validation",
+        "category": "projectile",
+        "has_file": true,
+        "record_sha256": "0ee0a214d8a999f36f8ef96989b08b40a7432239f61612e8d90ec6260e1f5d96",
+        "pass_date": "2026-11-27"
+      },
+      "weapon_id": "carrier_canker",
+      "source_weapon": "Carrier — projectile organique Canker"
     }
   ],
   "additional_references": [
@@ -8617,7 +8887,8 @@
       "benjamin_carmine",
       "jace_stratton",
       "minh_young_kim",
-      "prescott"
+      "prescott",
+      "mina_jinn_g4"
     ],
     "costumes": [
       "dom_skin_03",
@@ -8634,11 +8905,9 @@
       "tai_skin_02",
       "sam_skin_02",
       "gabe_skin_02",
-      "reyna_skin_02",
       "keegan_skin_02",
       "deebee_skin_02",
       "grenadier_skin_02",
-      "lahni_hivebusters_intro",
       "keegan_hivebusters_intro",
       "anthony_black_steel_g5",
       "fahz_hivebuster_g5"

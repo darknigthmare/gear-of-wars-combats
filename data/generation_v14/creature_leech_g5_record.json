@@ -1,0 +1,157 @@
+{
+  "id": "creature_leech_g5",
+  "subject_id": "creature_leech_g5",
+  "name": "Leech individuel — Gears 5",
+  "category": "boss",
+  "encounter_role": "small_enemy",
+  "source_game": "Gears 5",
+  "catalog_target_game": "Gears 5",
+  "variant": "Leech individuel — modèle final Gears 5, forme déployée",
+  "variant_relation": "target_version_candidate",
+  "purpose": "reference_fullbody",
+  "pass_date": "2026-11-27",
+  "status": "generated_reference_pending_validation",
+  "generation_status": "generated_reference_pending_validation",
+  "quality_state": "candidate",
+  "generation_attempted": true,
+  "generation_attempt_count": 1,
+  "has_image": true,
+  "asset_path": "assets/creatures_v14/leech_g5.png",
+  "original_output_path": "/workspace/scratch/f809e6610dc2/generated_images/exec-31c5f18d-2b3a-46db-b08d-35f516c29e65.png",
+  "prompt": "Use case: stylized-concept.\nAsset type: one static transparent PNG character reference for a 2D fighting-game catalogue.\nCreate exactly ONE individual Leech from Gears 5 (2019), reproducing the released game creature in the two attached Bruno Melo production renders as faithfully as possible.\nInput image 1 (leech-01) is the anatomical and mouth reference. Input image 2 (leech-02) is the primary full-body shape, materials and extended gliding-posture reference. These are reference sheets, not a requested multi-view layout.\nScene/backdrop: true transparent alpha everywhere outside the creature.\nSubject and pose: one complete Leech in a horizontal extended gliding pose, strict side-oriented profile facing RIGHT, long tapering posterior body and trailing tendrils pointing left. Show the complete mouth, body, membranes, short rim thorns and every trailing tip inside frame. Preserve the specific flattened, broad leathery mantle, narrow ribbed rear body, long fine tapering appendices, thick folded flared funnel mouth with its petal-like lobes and small yellow-ivory teeth. No eyes or articulated limbs. The wide fleshy side membranes and their short thorn fringe must match the reference anatomy; do not substitute bat wings.\nMaterials and colour: the reference model's dark wine-red and muted burgundy wet skin, wrinkled membranes, textured leathery dorsal surface, subtle red-pink throat interior and ivory teeth. Neutral diffuse illumination, restrained specular highlights, readable volumes and crisp fine edges.\nComposition: one side-facing creature, one pose, centred, landscape canvas, whole silhouette occupying approximately 72 percent of canvas width with generous transparent margins on all four sides. Detailed game-authentic 3D realism rendered as a single 2D raster sprite.\nConstraints: match the attached final Gears 5 Leech model, no other edition or creature, no redesign, no Flock/swarm, no second Leech, no extra mouth, no extra limbs, no attached machinery, no detached particles. No text, logos, signatures, watermark, interface, border, floor, shadow plane, background or reference-sheet layout.",
+  "prompt_sha256": "30ee74204446cf97922a922b33d1e0433b90ec6319bd7d3de9572b04fd59b850",
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 2172,
+    "height": 724,
+    "bytes": 1561481,
+    "sha256": "994a0a2dc12aaa65119ed85301ef1ef52920cf91dc6e52f583d100e873a8ad92",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.6272587833094228,
+    "alpha_nonzero_bbox": [
+      0,
+      14,
+      2134,
+      710
+    ],
+    "subject_bbox_alpha_ge_128": [
+      81,
+      102,
+      2101,
+      645
+    ],
+    "subject_margins_ltrb_px": [
+      81,
+      102,
+      71,
+      79
+    ],
+    "has_real_alpha": true,
+    "native_copy_verified": true
+  },
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "source_urls": [
+    "https://bmelo.net/projects/2xzmJB",
+    "https://www.artstation.com/artwork/2xzmJB"
+  ],
+  "sources": [
+    {
+      "page": "https://bmelo.net/projects/2xzmJB",
+      "alternate_page": "https://www.artstation.com/artwork/2xzmJB",
+      "author": "Bruno Melo",
+      "production_credits": {
+        "sculpt": "Bruno Melo",
+        "game_mesh_and_textures": "Can Etişkol",
+        "art_direction": "Aryan Hanbeck"
+      },
+      "edition": "Gears 5",
+      "type": "primary production artist portfolio",
+      "downloaded_html": "/workspace/scratch/f809e6610dc2/references_v14/leech_artist.html",
+      "visual_inspection": true
+    }
+  ],
+  "reference_images": [
+    "/workspace/scratch/f809e6610dc2/references_v14/leech_g5_artist_01.jpg",
+    "/workspace/scratch/f809e6610dc2/references_v14/leech_g5_artist_02.jpg"
+  ],
+  "input_images": [
+    {
+      "path": "/workspace/scratch/f809e6610dc2/references_v14/leech_g5_artist_01.jpg",
+      "role": "final model mouth, full raised posture, materials and trailing appendices",
+      "url": "https://cdnb.artstation.com/p/assets/images/images/020/540/573/large/bruno-melo-leech-01.jpg?1568179433",
+      "sha256": "daf533f87755b30676d9373fe21f3222fe719e2f3d8425efa05d81a7c1b06c1d"
+    },
+    {
+      "path": "/workspace/scratch/f809e6610dc2/references_v14/leech_g5_artist_02.jpg",
+      "role": "primary full gliding posture, mantle silhouette and final texture reference",
+      "url": "https://cdna.artstation.com/p/assets/images/images/020/540/574/large/bruno-melo-leech-02.jpg?1568179436",
+      "sha256": "376241edbd8dcdbac87d59c90efca5d5fbecaa28d5782fcc3592e09ae3286889"
+    }
+  ],
+  "qa": {
+    "image_visually_inspected": true,
+    "dimensions": [
+      2172,
+      724
+    ],
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "alpha_bbox_any": [
+      0,
+      14,
+      2134,
+      710
+    ],
+    "alpha_bbox_over_8": [
+      80,
+      101,
+      2103,
+      646
+    ],
+    "leftmost_alpha_max": 1,
+    "sha256": "994a0a2dc12aaa65119ed85301ef1ef52920cf91dc6e52f583d100e873a8ad92",
+    "subject_count": 1,
+    "pose_count": 1,
+    "full_body_visible": true,
+    "facing": "right, side-oriented gliding pose",
+    "native_pixels_unchanged": true,
+    "observations": [
+      "Single full-body Leech, no logos or caption, genuine transparent backdrop.",
+      "Dark burgundy textured mantle, narrow ribbed rear body, paired closely grouped trailing tips, short lateral rim thorns and folded funnel-mouth anatomy correspond closely to the supplied final model views.",
+      "The mouth is opened more visibly than the upper side-oriented reference; projection retains visible dorsal surface rather than being a geometrically verified orthographic side render."
+    ],
+    "caveats": [
+      "Native output has almost transparent alpha=1 residue at the left image edge. The visible silhouette at alpha>8 remains completely inside the frame.",
+      "Visible horizontal margins are roughly 3–4 percent; the requested generous 14 percent margins were not achieved.",
+      "Generated reference sprite, not an official asset extraction or a verified exact 1:1 model. Fine teeth and thorn placement may differ.",
+      "One attempt only. No crop, resizing, alpha cleaning or other pixel modification applied."
+    ],
+    "recommended_use": "Reference candidate for catalogue; root should retain the stated fidelity and native-alpha reservations.",
+    "root_visual_review": [
+      "Silhouette unique complète, bouche et membranes latérales visibles.",
+      "Les marges, le résidu alpha et les dents/épines exigent encore une revue de production."
+    ],
+    "remaining_checks": [
+      "Native output has almost transparent alpha=1 residue at the left image edge. The visible silhouette at alpha>8 remains completely inside the frame.",
+      "Visible horizontal margins are roughly 3–4 percent; the requested generous 14 percent margins were not achieved.",
+      "Generated reference sprite, not an official asset extraction or a verified exact 1:1 model. Fine teeth and thorn placement may differ.",
+      "One attempt only. No crop, resizing, alpha cleaning or other pixel modification applied."
+    ]
+  },
+  "engine": "built_in_imagegen",
+  "generation_method": "built_in_imagegen",
+  "notes": [
+    "Leech individuel distinct du Flock collectif ; aucune animation de vol ou d’infection.",
+    "Copie native exacte ; résidu alpha=1 au bord gauche conservé et signalé."
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "lahni_hivebusters_intro",
+  "subject_id": "lahni_hivebusters_intro",
+  "character_id": "lahni",
+  "costume_id": "lahni_hivebusters_intro",
+  "name": "Lahni — introduction Hivebusters, alias documenté",
+  "category": "costume",
+  "source_game": "Gears 5: Hivebusters",
+  "catalog_target_game": "Gears 5: Hivebusters",
+  "variant": "Brash Brigade Lahni — tenue finale en armure du début du DLC",
+  "variant_relation": "target_version_candidate",
+  "purpose": "reference_fullbody",
+  "pass_date": "2026-11-27",
+  "status": "reference_alias_documented",
+  "generation_status": "not_attempted_alias_reuse",
+  "generation_attempted": false,
+  "generation_attempt_count": 0,
+  "has_image": false,
+  "asset_path": null,
+  "reference_alias_of": "lahni_skin_01",
+  "reference_asset_path": "assets/costumes_v13/lahni_skin_01.png",
+  "reference_sha256": "1e9359c427ca81256b92aa011e6b838b7e44889ae55309ec38c0ac48527e11f4",
+  "source_record_path": "data/generation_v13/lahni_skin_01_record.json",
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "animation": false,
+  "source_urls": [
+    "https://mediumrare.artstation.com/projects/oAdmNw",
+    "https://tylerthebradley.artstation.com/projects/ykrQgn"
+  ],
+  "notes": [
+    "Alias de catalogue explicite, sans génération ni fichier supplémentaire.",
+    "Inférence de rapprochement : concept intro de Tyler Bradley + modèle final Hivebusters publié par Aryan Hanbeck.",
+    "Final à manches courtes noires ; le concept aux hauts de bras nus ne remplace pas le modèle final.",
+    "Les réserves de visage, tatouages, glyphes, attaches, marges et halo du PNG V13 restent applicables.",
+    "Ne pas lier la tenue Escape lahni_skin_02."
+  ],
+  "qa": {
+    "reference_visually_inspected": true,
+    "output_visually_inspected": false,
+    "independent_reference_review": true,
+    "canonical_fidelity_validated": false,
+    "observations": [
+      "Architecture de plastron à deux disques, bandeau/dreadlocks, manchettes asymétriques, canisters, cuirs et bottes cohérents entre concept et final.",
+      "Le modèle final dispose de manches et de détails de production affinés."
+    ],
+    "remaining_checks": [
+      "Le rapprochement de catalogue ne certifie aucun microdétail du PNG existant."
+    ]
+  }
+}

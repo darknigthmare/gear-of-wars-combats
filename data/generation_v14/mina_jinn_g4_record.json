@@ -1,0 +1,71 @@
+{
+  "id": "mina_jinn_g4",
+  "name": "Mina Jinn — Gears of War 4",
+  "source_game": "Gears of War 4",
+  "category": "character",
+  "status": "blocked_generator_refusal",
+  "generation_attempted": true,
+  "generation_attempt_count": 1,
+  "has_image": false,
+  "asset_path": null,
+  "reference_path": "/workspace/scratch/f809e6610dc2/references_v14/jin_g4_final.png",
+  "source_page": "https://www.zbrushcentral.com/t/gears-of-war-4-art-dump/206321",
+  "source_image": "https://www.zbrushcentral.com/uploads/default/original/3X/f/1/f18542aa1dab8e50994bca627428576b1dae3f97.png",
+  "source_author": "Daniel Bohrer do Nascimento, Dan Roarty, Michelle Zhang — The Coalition",
+  "prompt": "Use case: stylized-concept. Asset type: one standalone high-definition 2D fighting-game character selection sprite. Reference image: the provided sheet is the exact final Mina Jinn model from Gears of War 4, shown front and back; use it as the authoritative identity, clothing, colors and proportions reference. Produce exactly ONE Mina Jinn, full body, crown of hair through both complete shoes, on genuinely transparent RGBA background. Fixed composed selection stance with torso in restrained three-quarter view and gaze towards the right, hands empty and naturally separated from the body, both feet visible, no combat weapon and no invented equipment. Preserve her face, rectangular black glasses, short black swept-back hair, small earrings, dark navy/violet textured tailored knee-length long-sleeved dress, light gray high stand collar continuing as the narrow vertical center bib down to upper abdomen, tiny collar clasp, small chest pin, black inner wrist cuffs, bare lower legs and simple black closed-toe heels. Faithful adult proportions and exact silhouette/material separation of the reference; do not masculinize into a Gear soldier or change dress into trousers. Finished crisp raster game art with fine material detail, neutral soft light revealing navy cloth, no exaggerated comic proportions. Single subject centered with 8 percent transparent safety margin all around. No floor, no cast shadow, no background scene, no second view, no turntable, no contact sheet, no logo, no caption, no text. The source sheet and its labels are reference only and must not be reproduced.",
+  "refusal": {
+    "http_status": 400,
+    "code": "moderation_blocked",
+    "stage": "output",
+    "categories": [
+      "other"
+    ],
+    "request_id": "614e6f7c-52fe-4cbe-bfd3-0cc0b32b9743",
+    "retries": 0
+  },
+  "qa": {
+    "reference_visually_inspected": true,
+    "output_visually_inspected": false,
+    "observations": [
+      "La référence finale du modèle montre une vue avant/arrière complète, robe officielle navy à plastron/collier gris clair, lunettes et escarpins noirs.",
+      "Aucune sortie produite ; aucun réessai après le refus."
+    ]
+  },
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-27",
+  "animation": false,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "subject_id": "mina_jinn_g4",
+  "catalog_target_game": "Gears of War 4",
+  "variant": "Mina Jinn — tenue officielle, modèle final Gears of War 4",
+  "variant_relation": "target_version_candidate",
+  "purpose": "reference_fullbody",
+  "generation_method": "built_in_imagegen",
+  "quality_state": "blocked_generator_refusal",
+  "generation_status": "blocked_generator_refusal",
+  "source_urls": [
+    "https://www.zbrushcentral.com/t/gears-of-war-4-art-dump/206321"
+  ],
+  "reference_images": [
+    "/workspace/scratch/f809e6610dc2/references_v14/jin_g4_final.png"
+  ],
+  "sources": [
+    {
+      "page_url": "https://www.zbrushcentral.com/t/gears-of-war-4-art-dump/206321",
+      "image_url": "https://www.zbrushcentral.com/uploads/default/original/3X/f/1/f18542aa1dab8e50994bca627428576b1dae3f97.png",
+      "source_author": "Daniel Bohrer do Nascimento, Dan Roarty, Michelle Zhang — The Coalition",
+      "source_type": "first_party_final_production_model",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/f809e6610dc2/references_v14/jin_g4_final.png",
+      "reference_sha256": "b7fa00ef8cf357d517efe25503e1b1bc7c48eb4753e542fd88abda0f6b6ac8ba",
+      "accessed_date": "2026-11-27",
+      "visually_inspected": true
+    }
+  ],
+  "prompt_sha256": "b45add926adbe402deb37f6680052b74fd7d42a699d03e4efc6cefd823c33eca",
+  "notes": [
+    "Refus de sortie automatique conservé ; une seule tentative, aucun réessai et aucun PNG compté."
+  ]
+}

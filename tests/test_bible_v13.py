@@ -21,7 +21,7 @@ class BibleFreshnessTests(unittest.TestCase):
             registry = root / "production/asset_registry.json"
             registry.parent.mkdir()
             registry.write_text('{"character_id_aliases": {}}')
-            relative = "data/generation_v13/creature.json"
+            relative = f"data/generation_{bible.VERSION.lower()}/creature.json"
             record = root / relative
             record.parent.mkdir(parents=True)
             content = {"subject_id": "creature", "category": "boss", "pass_date": "2026-11-27",

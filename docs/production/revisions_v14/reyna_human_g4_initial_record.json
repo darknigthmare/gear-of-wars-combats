@@ -1,0 +1,126 @@
+{
+  "id": "reyna_skin_02",
+  "name": "Reyna Diaz humaine / Outsider — Gears of War 4",
+  "source_game": "Gears of War 4",
+  "category": "costume",
+  "status": "generated_reference_pending_validation",
+  "generation_attempted": true,
+  "generation_attempt_count": 1,
+  "has_image": true,
+  "asset_path": "rejected_candidates/costumes_v14/reyna_human_g4_initial.png",
+  "original_output_path": "/workspace/scratch/f809e6610dc2/generated_images/exec-82fb8498-e50a-4dbf-a571-65887d908a5b.png",
+  "reference_path": "/workspace/scratch/f809e6610dc2/references_v14/reyna_g4_final.jpg",
+  "source_page": "https://www.zbrushcentral.com/t/gears-of-war-4-art-dump/206321",
+  "source_image": "https://www.zbrushcentral.com/uploads/default/original/3X/3/3/33ce37a0270d862ad45ef6131e76f2b24e56380f.jpeg",
+  "source_author": "Heber Alvarado (corps) et Michelle Zhang (tête) — The Coalition",
+  "additional_page": "https://heber.artstation.com/projects/LxX6v",
+  "prompt": "Use case: stylized-concept. Asset type: one standalone high-definition 2D fighting-game static character sprite. Reference image: exact final Reyna Diaz Outsider Gears of War 4 model in three views by the original character artists. Reproduce this HUMAN version with a single full-body subject from hair to complete boots, genuinely transparent RGBA background, quiet ready stance with head looking right and torso slightly turned right in three-quarter view. Preserve anatomical asymmetry without mirroring: dense black tribal tattoo covers the anatomical LEFT shoulder and upper arm; long dark brown braid falls over the anatomical RIGHT shoulder; shaved side and swept hair match the source. The asymmetrical ivory top has gold oval trim; olive draped cloth, brown leather shoulder harness with sheathed knife, engraved green-gold square pendant and bead necklace, broad studded belt with metallic blue central clasp, patterned teal/olive waist panels with gold circular motifs and frayed edges, dark fitted trousers, thigh straps with brass hardware, high black-brown lace-up buckled boots, brown forearm bracers and fingerless gloves must all follow the reference. Her anatomical right hand can hold exactly the same short broad serrated-back survival knife seen in the reference, lowered away from the body; left hand relaxed ready. Keep face, age, body proportions and mature stern expression faithful. No Swarm mutations, no glowing supernatural powers, no Queen Reyna Gears 5 elements, no COG armour, no new costume. Crisp detailed raster game art with natural neutral lighting, one static pose only. Entire silhouette and knife fit within frame, 8 percent transparent safety margin on all sides. No base, floor, shadow disc, scenery, other people, reference panels, logos, text, or watermark.",
+  "output": {
+    "format": "PNG",
+    "mode": "RGBA",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2022646,
+    "sha256": "21adc45fa2889c4dd72e6959e0f97653eb83b5c471ff7514b52ac40569da6715",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "fully_transparent_fraction": 0.6453208923339844,
+    "alpha_nonzero_bbox": [
+      0,
+      21,
+      1016,
+      1536
+    ],
+    "subject_bbox_alpha_ge_128": [
+      79,
+      27,
+      879,
+      1525
+    ],
+    "subject_margins_ltrb_px": [
+      79,
+      27,
+      145,
+      11
+    ],
+    "has_real_alpha": true,
+    "native_copy_verified": true
+  },
+  "qa": {
+    "reference_visually_inspected": true,
+    "output_visually_inspected": true,
+    "single_subject": true,
+    "full_body_in_frame": true,
+    "orientation": "trois quarts léger ; visage vers la droite",
+    "transparent_background": true,
+    "clean_alpha_edges_validated": false,
+    "observations": [
+      "Tatouage sur le bras anatomique gauche et natte sur l'épaule anatomique droite conservés visuellement.",
+      "Une seule Reyna humaine en pied, sans éléments Essaim ni pouvoirs inventés ; couteau court dans la main droite, semblable à la référence.",
+      "Collier, harnais, ceinture à détail bleu, tissu de taille asymétrique, bracelets, sangles et bottes sont présents.",
+      "La pose reste surtout frontale/trois quarts, et ne constitue pas une base strictement de profil pour le combat.",
+      "Le halo brun affiché dans certains aperçus est principalement RGB sous alpha=0 et reste invisible en composition correcte. De vrais faibles alpha périphériques subsistent (27020 pixels alpha 1–15) ; aucun nettoyage logiciel appliqué. Alpha maximal 254.",
+      "Marges verticales insuffisantes par rapport aux 8 % demandés : silhouette d'alpha >=16 à 26 px du haut et 11 px du bas.",
+      "Visage, motif exact du tatouage, arabesques textiles, côté rasé et détails des couteaux ne sont pas certifiés identiques au modèle."
+    ],
+    "remaining_checks": [
+      "Contrôle manuel des motifs et de la coiffure sur le modèle final.",
+      "Préparer des marges confortables et contrôler les faibles alpha périphériques avant intégration jouable ; ne pas confondre RGB invisibles et fond opaque.",
+      "Adapter la pose au profil strict si nécessaire pour le gameplay.",
+      "Le rasage apparaît du côté anatomique droit visible, contrairement au modèle officiel ; défaut corrigé dans le candidat hairfix sélectionné."
+    ],
+    "alpha_display_caveat": "Plusieurs points du halo apparent ont alpha=0 exactement ; l'aperçu de RGB sans application d'alpha surestime le défaut.",
+    "root_visual_review": [
+      "Référence et PNG contrôlés visuellement ; natte droite et tatouage gauche conservés.",
+      "Motifs exacts, visage, posture trois-quarts et marges restent à valider ; aucun certificat 1:1."
+    ]
+  },
+  "engine": "built_in_imagegen",
+  "pass_date": "2026-11-27",
+  "animation": false,
+  "canonical_fidelity_validated": false,
+  "fidelity_1to1_certified": false,
+  "production_ready": false,
+  "subject_id": "reyna_skin_02",
+  "costume_id": "reyna_skin_02",
+  "character_id": "reyna",
+  "catalog_target_game": "Gears of War 4",
+  "variant": "Reyna Diaz humaine Outsider — modèle final Gears of War 4",
+  "variant_relation": "target_version_candidate",
+  "purpose": "costume_reference_fullbody",
+  "generation_status": "generated_reference_pending_validation",
+  "quality_state": "correction_required",
+  "generation_method": "built_in_imagegen",
+  "source_urls": [
+    "https://www.zbrushcentral.com/t/gears-of-war-4-art-dump/206321",
+    "https://heber.artstation.com/projects/LxX6v"
+  ],
+  "reference_images": [
+    "/workspace/scratch/f809e6610dc2/references_v14/reyna_g4_final.jpg"
+  ],
+  "requires_distinct_gameplay_variant": true,
+  "sources": [
+    {
+      "page_url": "https://www.zbrushcentral.com/t/gears-of-war-4-art-dump/206321",
+      "image_url": "https://www.zbrushcentral.com/uploads/default/original/3X/3/3/33ce37a0270d862ad45ef6131e76f2b24e56380f.jpeg",
+      "source_author": "Heber Alvarado (corps) et Michelle Zhang (tête) — The Coalition",
+      "source_type": "first_party_final_production_model",
+      "visual_reference_used": true,
+      "local_reference": "/workspace/scratch/f809e6610dc2/references_v14/reyna_g4_final.jpg",
+      "reference_sha256": "b863d6c64ebbad49cfa353a48bc988c5906063e8d8fb4378c744b29fc44ddb66",
+      "accessed_date": "2026-11-27",
+      "visually_inspected": true
+    }
+  ],
+  "prompt_sha256": "1d07e6f17a00eb7049cebb6357d9baaeb875542a2d20a4e647252de7cfbc974e",
+  "selection_decision": {
+    "selected": false,
+    "superseded_by": "assets/costumes_v14/reyna_human_g4_hairfix.png",
+    "reason": "La revue officielle confirme un côté rasé inversé ; la correction de coiffure remplace le candidat initial, avec microdétails et marges toujours non certifiés."
+  },
+  "active": false,
+  "selected": false,
+  "archive_status": "archived_not_active"
+}

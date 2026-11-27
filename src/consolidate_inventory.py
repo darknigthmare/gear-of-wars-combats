@@ -11,6 +11,7 @@ import hashlib
 import json
 import re
 from collections import Counter
+from copy import deepcopy
 from datetime import date
 from pathlib import Path
 
@@ -425,6 +426,130 @@ def make_coverage(rows, category, assets, attempts):
     return result
 
 
+def apply_costume_reference_aliases(costumes: list[dict], assets: list[dict]) -> int:
+    """Resolve audited costume aliases without creating or promoting an asset.
+
+    An alias shares a selected candidate only after identity, edition, bytes and
+    provenance match an explicit mapping. Validate the complete batch first so a
+    later invalid mapping cannot leave earlier coverage rows partly changed.
+    """
+    mappings = []
+    paths = []
+    for path in (ROOT / "data").glob("costume_reference_aliases_v*.json"):
+        match = re.fullmatch(r"costume_reference_aliases_v(\d+)\.json", path.name)
+        if match:
+            paths.append((int(match.group(1)), path))
+    for _, path in sorted(paths):
+        relative_mapping = str(path.relative_to(ROOT))
+        mapping = read_json(path)
+        if not isinstance(mapping, dict) or not isinstance(mapping.get("aliases"), list):
+            raise ValueError(f"Costume reference mapping requires an aliases list: {relative_mapping}")
+        mappings.extend((relative_mapping, alias) for alias in mapping["aliases"])
+    if not mappings:
+        return 0
+
+    by_id = {row["id"]: row for row in costumes}
+    by_path = {asset["path"]: asset for asset in assets}
+    if len(by_id) != len(costumes) or len(by_path) != len(assets):
+        raise ValueError("Costume reference aliases require unique costume identities and asset paths")
+    alias_ids = set()
+    for _, link in mappings:
+        if not isinstance(link, dict):
+            raise ValueError("Costume reference aliases must be objects")
+        for field in ("alias_id", "canonical_id", "character_id", "source_game", "asset_path",
+                      "sha256", "source_record_path", "evidence_record_path", "rationale"):
+            if not isinstance(link.get(field), str) or not link[field].strip():
+                raise ValueError(f"Costume reference alias requires non-empty {field}")
+        if link["alias_id"] in alias_ids:
+            raise ValueError(f"Duplicate costume reference alias: {link['alias_id']}")
+        alias_ids.add(link["alias_id"])
+
+    resolutions = []
+    for relative_mapping, link in mappings:
+        alias_id, canonical_id = link["alias_id"], link["canonical_id"]
+        if alias_id == canonical_id or canonical_id in alias_ids:
+            raise ValueError(f"Costume reference alias chain or cycle: {alias_id} -> {canonical_id}")
+        alias, canonical = by_id.get(alias_id), by_id.get(canonical_id)
+        if (alias is None or canonical is None
+                or alias.get("category") != "costume" or canonical.get("category") != "costume"):
+            raise ValueError(f"Unknown costume reference alias or canonical costume: {alias_id} -> {canonical_id}")
+        if canonical.get("reference_alias_of"):
+            raise ValueError(f"Costume reference alias chain or cycle: {alias_id} -> {canonical_id}")
+        parent = link["character_id"]
+        if any(row.get("character_id") != parent or row.get("parent_id") not in (None, parent)
+               for row in (alias, canonical)):
+            raise ValueError(f"Costume reference alias character mismatch: {alias_id} -> {canonical_id}")
+        if any(row.get("requested_source_game") != link["source_game"] for row in (alias, canonical)):
+            raise ValueError(f"Costume reference alias edition mismatch: {alias_id} -> {canonical_id}")
+
+        relative = link["asset_path"]
+        asset = by_path.get(relative)
+        if (asset is None or not canonical.get("has_visual_reference")
+                or canonical.get("selected_asset_id") != asset.get("asset_id")
+                or asset.get("asset_id") not in canonical.get("asset_ids", [])
+                or canonical.get("selected_path") != relative
+                or canonical.get("selected_variant_relation") != "target_version_candidate"
+                or not canonical.get("target_version_candidate_available")
+                or canonical.get("target_version_candidate_path") != relative):
+            raise ValueError(f"Costume reference alias requires the selected target candidate: {alias_id}")
+        owns_costume = ((asset.get("category") == "costume" and asset.get("subject_id") == canonical_id
+                         and asset.get("costume_id") in (None, canonical_id))
+                        or (asset.get("category") == "character" and asset.get("subject_id") == parent
+                            and asset.get("costume_id") == canonical_id))
+        if (asset.get("character_id") != parent or not owns_costume
+                or asset.get("purpose") == "presentation"
+                or asset.get("quality_state") == "metadata_pending"
+                or relation_for(asset, "costume") != "target_version_candidate"):
+            raise ValueError(f"Costume reference alias asset identity mismatch: {alias_id}")
+        if alias.get("selected_path") not in (None, relative):
+            raise ValueError(f"Costume reference alias conflicts with an existing reference: {alias_id}")
+        image_path = local_path(relative)
+        if (not re.fullmatch(r"[0-9a-f]{64}", link["sha256"])
+                or link["sha256"] != asset.get("sha256") or not image_path.is_file()
+                or hashlib.sha256(image_path.read_bytes()).hexdigest() != link["sha256"]):
+            raise ValueError(f"Costume reference alias image hash mismatch: {relative}")
+        record = link["source_record_path"]
+        if record not in asset.get("metadata_records", []) or not local_path(record).is_file():
+            raise ValueError(f"Costume reference alias lacks its image provenance record: {relative}")
+        evidence = link["evidence_record_path"]
+        if not local_path(evidence).is_file():
+            raise ValueError(f"Costume reference alias lacks supporting evidence: {alias_id}")
+        source_urls, caveats = link.get("source_urls"), link.get("caveats", [])
+        if (not isinstance(source_urls, list) or not source_urls
+                or any(not isinstance(url, str) or not url.startswith("https://") for url in source_urls)):
+            raise ValueError(f"Costume reference alias requires source URLs: {alias_id}")
+        if not isinstance(caveats, list) or any(not isinstance(note, str) for note in caveats):
+            raise ValueError(f"Costume reference alias caveats must be a list of strings: {alias_id}")
+        resolution = {
+            "kind": "documented_costume_reference_alias", "alias_id": alias_id,
+            "canonical_id": canonical_id, "character_id": parent, "source_game": link["source_game"],
+            "mapping_path": relative_mapping,
+            "mapping_sha256": hashlib.sha256(local_path(relative_mapping).read_bytes()).hexdigest(),
+            "asset_path": relative, "asset_sha256": link["sha256"],
+            "source_record_path": record,
+            "source_record_sha256": hashlib.sha256(local_path(record).read_bytes()).hexdigest(),
+            "evidence_record_path": evidence,
+            "evidence_record_sha256": hashlib.sha256(local_path(evidence).read_bytes()).hexdigest(),
+            "rationale": link["rationale"], "source_urls": list(source_urls), "caveats": list(caveats),
+        }
+        resolutions.append((alias, canonical, resolution))
+
+    coverage_fields = ("has_visual_reference", "visual_status", "selected_asset_id", "selected_path",
+                       "selected_source_variant", "selected_variant_relation", "asset_ids",
+                       "target_version_candidate_available", "target_version_candidate_path")
+    for alias, canonical, resolution in resolutions:
+        for field in coverage_fields:
+            alias[field] = deepcopy(canonical[field])
+        alias["reference_alias_of"] = canonical["id"]
+        alias["reference_resolution"] = resolution
+        note = (f"Alias de référence documenté de {canonical['id']} : fichier partagé "
+                f"{resolution['asset_path']} ; aucune nouvelle génération ni validation 1:1.")
+        alias["catalog_notes"] = list(dict.fromkeys(alias.get("catalog_notes", []) + [note]))
+        # In particular, keep this ID's last_generation_attempt and every QA
+        # field unchanged. The physical asset and its provenance are untouched.
+    return len(resolutions)
+
+
 def write_report(coverage, assets, archived):
     totals = coverage["totals"]
     missing = ", ".join(row["name"] for row in coverage["characters"] if not row["has_visual_reference"]) or "Aucun personnage du roster sans référence."
@@ -446,6 +571,7 @@ Les anciennes passes ont été réunies avec les nouvelles sorties réellement p
 | Personnages sans référence | **{totals['characters_missing']}** |
 | Personnages supplémentaires du catalogue avec une référence | {totals['production_characters_with_reference']} / {totals['production_character_entries']} |
 | Costumes avec une attribution visuelle explicite | {totals['costumes_with_reference']} / {totals['costume_catalog_entries']} |
+| Appellations de costume résolues par alias documenté | {totals['costume_reference_aliases']} |
 | PNG actifs de personnages, alternatives et présentations incluses | {totals['character_png_files']} |
 | PNG actifs classés comme costumes | {totals['costume_png_files']} |
 | Boss avec une référence | {totals['bosses_with_reference']} / {totals['boss_catalog_entries']} |
@@ -463,6 +589,8 @@ Les anciennes passes ont été réunies avec les nouvelles sorties réellement p
 La présence d’un PNG signifie une référence statique disponible, pas un personnage jouable ni un costume certifié. [La galerie complète](../../Galerie_Personnages.html) affiche les {totals['roster_characters']} personnages du roster de conception, les {totals['production_character_entries']} extensions de personnages, les {totals['costume_catalog_entries']} costumes, les {totals['boss_catalog_entries']} boss, les {totals['stage_catalog_entries']} arènes et les {totals['projectile_catalog_entries']} projectiles, avec des cartes explicites pour les manquants. Les extensions de production ne modifient pas le roster du moteur. Ephyra reste un master complémentaire, sans attribution arbitraire à une arène précise. Une référence de projectile ne valide ni sa trajectoire, ni ses collisions, ni son effet à l’impact.
 
 Les costumes hérités des fiches initiales restent sans attribution tant qu’un `costume_id` explicite n’est pas fourni. Cela signifie une liaison visuelle à vérifier, et non nécessairement une image à régénérer. Les mappings `data/costume_asset_links_v*.json` sont lus dans leur ordre numérique et conservent l’audit [V7](../../data/costume_asset_links_v7.json). Ils rattachent les images existantes à leur costume après vérification du personnage, de la provenance et de l’empreinte ; ils ne dupliquent aucun PNG et ne certifient aucune fidélité. Un master de décor ne vaut pas validation de ses calques de parallaxe séparés.
+
+Les mappings `data/costume_reference_aliases_v*.json` rapprochent deux appellations explicitement documentées du même costume. Ils exigent le même personnage, la même édition, un candidat de référence, son empreinte et ses preuves. Les deux entrées peuvent partager le même PNG sans lui ajouter un second `costume_id` physique ; le compteur d’alias n’augmente pas le nombre d’images et ne modifie pas leurs réserves de qualité.
 
 ## Ce qui a été récupéré
 
@@ -561,6 +689,7 @@ def build_inventory(*, report_suffix: str | None = None):
         row["catalog_scope"] = "production_extension"
         row["scope_note"] = "Extension du catalogue de production ; aucun combattant jouable ajouté automatiquement."
     costumes = make_coverage(catalog["costumes"], "costume", assets, attempts)
+    costume_reference_aliases = apply_costume_reference_aliases(costumes, assets)
     bosses = make_coverage(catalog["bosses"], "boss", assets, attempts)
     stages = make_coverage(catalog["stages"], "stage", assets, attempts)
     projectiles = make_coverage(catalog["projectiles"], "projectile", assets, attempts)
@@ -587,6 +716,7 @@ def build_inventory(*, report_suffix: str | None = None):
         "costume_catalog_entries": len(costumes), "costumes_with_reference": sum(c["has_visual_reference"] for c in costumes),
         "costumes_without_explicit_reference": sum(not c["has_visual_reference"] for c in costumes),
         "costume_png_files": sum(a["category"] == "costume" for a in assets),
+        "costume_reference_aliases": costume_reference_aliases,
         "reused_character_pngs_for_costumes": sum(a["category"] == "character" and bool(a.get("costume_attribution")) for a in assets),
         "boss_catalog_entries": len(bosses), "bosses_with_reference": sum(c["has_visual_reference"] for c in bosses),
         "boss_png_files": sum(a["category"] == "boss" for a in assets),

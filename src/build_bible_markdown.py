@@ -13,7 +13,7 @@ from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = "V13"
+VERSION = "V14"
 OUTPUT = ROOT / f"livrables/Gears_of_War_Combats_Bible_{VERSION.lower()}.md"
 MANIFEST = ROOT / f"docs/production/BIBLE_BUILD_{VERSION}.json"
 CHAPTERS = [
@@ -21,6 +21,7 @@ CHAPTERS = [
     ("Roster, armes et movesets", "docs/roster_movesets.md"),
     ("Boss, arenes et campagne", "docs/boss_stages_story.md"),
     ("Guide commun et deux extensions adaptes a Gears", "docs/combat_extensions.md"),
+    ("Personnages et creatures complementaires V14", "docs/production/CAST_AND_CREATURES_V14.md"),
 ]
 
 
@@ -224,6 +225,7 @@ def build() -> dict:
             "- [Roster, armes et movesets](#roster-armes-et-movesets)",
             "- [Boss, arènes et campagne](#boss-arenes-et-campagne)",
             "- [Guide et extensions adaptés à Gears](#guide-commun-et-deux-extensions-adaptes-a-gears)",
+            "- [Personnages et créatures complémentaires V14](#personnages-et-creatures-complementaires-v14)",
             "- [Catalogue de production](#catalogue-courant-de-production)",
             "- [Matrice des 68 rubriques](#matrice-complete-des-68-rubriques)",
             "- [Audit et 40 cas d'acceptation](#audit-et-cas-dacceptation-des-extensions)",
@@ -239,7 +241,12 @@ def build() -> dict:
         ]),
     ]
     for title, relative in CHAPTERS:
-        note = "Chapitre de conception conservé : ses nombres de contenu décrivent le noyau V1, sauf mentions V12 explicites." if relative != "docs/combat_extensions.md" else "Adaptation V12 complète. Les sources officielles étayent les identités et périodes ; les règles et chorégraphies nouvelles demeurent des créations du projet."
+        if relative == "docs/production/CAST_AND_CREATURES_V14.md":
+            note = "Compléments V14 : références de modèles de production et propositions d'intégration, sans nouveau comportement moteur livré."
+        elif relative == "docs/combat_extensions.md":
+            note = "Adaptation V12 complète. Les sources officielles étayent les identités et périodes ; les règles et chorégraphies nouvelles demeurent des créations du projet."
+        else:
+            note = "Chapitre de conception conservé : ses nombres de contenu décrivent le noyau V1, sauf mentions V12 explicites."
         parts.append(source_section(title, relative, note))
     parts += [
         current_catalog(coverage),
@@ -261,7 +268,7 @@ def build() -> dict:
         "generator": "src/build_bible_markdown.py", "output": str(OUTPUT.relative_to(ROOT)),
         "bytes": OUTPUT.stat().st_size, "words": len(content.split()),
         "sha256": hashlib.sha256(OUTPUT.read_bytes()).hexdigest(),
-        "source_chapters_included": 6, "requirements_included": 68, "acceptance_cases_included": 40,
+        "source_chapters_included": len(CHAPTERS) + 2, "requirements_included": 68, "acceptance_cases_included": 40,
         "runtime_implementation_claimed": False, "historical_binaries_rebuilt": False,
         "inputs": [{"path": relative, "sha256": hashlib.sha256((ROOT / relative).read_bytes()).hexdigest()} for relative in inputs],
     }
